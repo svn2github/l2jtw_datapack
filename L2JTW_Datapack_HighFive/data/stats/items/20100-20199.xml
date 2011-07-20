@@ -359,7 +359,7 @@
 		<set name="weight" val="607" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
-		<set name="mp_consume" val="5" />
+		<set name="mp_consume" val="2" />
 		<set name="reuse_delay" val="820" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -458,7 +458,7 @@
 		<set name="item_skill" val="21028-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="72" />
@@ -491,7 +491,7 @@
 		<set name="item_skill" val="21029-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="86" />
@@ -525,7 +525,7 @@
 		<set name="item_skill" val="21030-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="100" />
@@ -789,7 +789,7 @@
 		<set name="weight" val="573" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
-		<set name="mp_consume" val="8" />
+		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -889,7 +889,7 @@
 		<set name="item_skill" val="21028-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="141" />
@@ -922,7 +922,7 @@
 		<set name="item_skill" val="21029-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="169" />
@@ -956,7 +956,7 @@
 		<set name="item_skill" val="21030-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="198" />
@@ -1220,7 +1220,7 @@
 		<set name="weight" val="567" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="9" />
+		<set name="mp_consume" val="4" />
 		<set name="reuse_delay" val="1500" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1320,7 +1320,7 @@
 		<set name="item_skill" val="21028-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="176" />
@@ -1353,7 +1353,7 @@
 		<set name="item_skill" val="21029-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="210" />
@@ -1387,7 +1387,7 @@
 		<set name="item_skill" val="21030-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="245" />
@@ -1651,7 +1651,7 @@
 		<set name="weight" val="553" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="10" />
+		<set name="mp_consume" val="5" />
 		<set name="reuse_delay" val="820" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1751,7 +1751,7 @@
 		<set name="item_skill" val="21028-1;3552-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="210" />
@@ -1784,7 +1784,7 @@
 		<set name="item_skill" val="21029-1;3552-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="251" />
@@ -1818,7 +1818,7 @@
 		<set name="item_skill" val="21030-1;3552-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="294" />
@@ -2082,7 +2082,7 @@
 		<set name="weight" val="550" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
+		<set name="mp_consume" val="6" />
 		<set name="reuse_delay" val="1500" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -2182,7 +2182,7 @@
 		<set name="item_skill" val="21028-1;3552-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="255" />
@@ -2215,7 +2215,7 @@
 		<set name="item_skill" val="21029-1;3552-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="304" />
@@ -2249,7 +2249,7 @@
 		<set name="item_skill" val="21030-1;3552-1" />
 		<set name="time" val="240" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="356" />

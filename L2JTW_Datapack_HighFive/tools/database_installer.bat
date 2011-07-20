@@ -368,14 +368,14 @@ echo.
 echo (q) 退出
 echo.
 set /p loginprompt=請選擇（預設值-更新）:
-if /i %loginprompt%==f goto ls_install
+if /i %loginprompt%==f goto ls_cleanup
 if /i %loginprompt%==u goto ls_upgrade
 if /i %loginprompt%==s goto cb_backup
 if /i %loginprompt%==r goto configure
 if /i %loginprompt%==q goto end
 goto ls_ask
 
-:ls_install
+:ls_cleanup
 set stage=3
 call :colors 17
 set cmdline=
@@ -388,9 +388,18 @@ if not %ERRORLEVEL% == 0 goto omfg
 set full=1
 echo.
 echo 登入伺服器資料庫已被刪除
-goto ls_upgrade
+goto ls_install
 
 :ls_upgrade
+echo @echo off> temp.bat
+if exist ls_errors.txt del ls_errors.txt
+for %%i in (..\sql\login\updates\*.sql) do echo "%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< %%i 2^>^> ls_errors.txt >> temp.bat
+call temp.bat> nul
+del temp.bat
+move ls_errors.txt %workdir%
+goto ls_install
+
+:ls_install
 set stage=3
 set cmdline=
 if %full% == 1 (
@@ -509,14 +518,14 @@ echo.
 echo (q)退出
 echo.
 set /p communityprompt=請選擇（預設值-更新）:
-if /i %communityprompt%==f goto cs_install
+if /i %communityprompt%==f goto cs_cleanup
 if /i %communityprompt%==u goto cs_upgrade
 if /i %communityprompt%==s goto gs_backup
 if /i %communityprompt%==r goto configure
 if /i %communityprompt%==q goto end
 goto cs_ask
 
-:cs_install
+:cs_cleanup
 set stage=6
 call :colors 17
 set cmdline=
@@ -529,9 +538,18 @@ if not %ERRORLEVEL% == 0 goto omfg
 set full=1
 echo.
 echo 「討論版專用」的資料庫已被刪除
-goto cs_upgrade
+goto cs_install
 
 :cs_upgrade
+echo @echo off> temp.bat
+if exist cs_errors.txt del cs_errors.txt
+for %%i in (..\cb_sql\updates\*.sql) do echo "%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< %%i 2^>^> cs_errors.txt >> temp.bat
+call temp.bat> nul
+del temp.bat
+move cs_errors.txt %workdir%
+goto cs_install
+
+:cs_install
 set stage=6
 set cmdline=
 if %full% == 1 (
@@ -562,7 +580,7 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
 echo.
 echo 正在備份遊戲伺服器的資料庫...
-set cmdline="%mysqldumpPath%" --add-drop-table -h %gshost% -u %gsuser% --password=%gspass% %gsdb% ^> "%backup%\gameserver_backup.sql" 2^> NUL
+set cmdline="%mysqldumpPath%" --add-drop-table -h %gshost% -u %gsuser% --password=%gspass% %gsdb% ^> "%backup%\gs_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto gs_db_ok
 :gs_err1
@@ -648,13 +666,13 @@ echo.
 echo (q)退出
 echo.
 set /p installtype=請選擇（預設值-更新）:
-if /i %installtype%==f goto gs_install
+if /i %installtype%==f goto gs_cleanup
 if /i %installtype%==u goto gs_upgrade
 if /i %installtype%==s goto custom_ask
 if /i %installtype%==q goto end
 goto gs_ask
 
-:gs_install
+:gs_cleanup
 call :colors 17
 set stage=9
 set cmdline=
@@ -667,9 +685,18 @@ if not %ERRORLEVEL% == 0 goto omfg
 set full=1
 echo.
 echo 遊戲資料庫移除完成
-goto gs_upgrade
+goto gs_install
 
 :gs_upgrade
+echo @echo off> temp.bat
+if exist gs_errors.txt del gs_errors.txt
+for %%i in (..\sql\server\updates\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> gs_errors.txt >> temp.bat
+call temp.bat> nul
+del temp.bat
+move gs_errors.txt %workdir%
+goto gs_install
+
+:gs_install
 set stage=9
 set cmdline=
 if %full% == 1 (
@@ -761,7 +788,6 @@ echo 檔案為「%output%」
 echo.
 echo 如果此檔案已存在，請進行備份，否則將會覆蓋過去
 echo.
-echo 請按任意鍵開始進行 . . .
 pause
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^<..\sql\%1 2^>^>"%output%"
 date /t >"%output%"
@@ -781,15 +807,14 @@ echo.
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消（預設值-確定）:
 if /i %cstprompt%==y goto custom_install
 if /i %cstprompt%==n goto mod_ask
-goto mod_ask
+
 :custom_install
 cls
 echo.
 echo 安裝 custom 自訂內容
-cd ..\sql\server\custom\
 echo @echo off> temp.bat
 if exist custom_errors.txt del custom_errors.txt
-for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.txt >> temp.bat
+for %%i in (..\sql\server\custom\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
 move custom_errors.txt %workdir%
@@ -802,11 +827,9 @@ echo 請注意，如果要使這些自訂資料表能夠啟用
 echo 你必須修改 config 的檔案設定
 echo.
 pause
-cd %workdir%
+goto mod_ask
 
 :mod_ask
-REM [Update by rocknow] 下面這這行是跳過 Mod 安裝
-goto tables_updates
 title L2JDP Installer - Mod Server Tables
 cls
 set cstprompt=n
@@ -819,16 +842,15 @@ echo and those tables could be created now if you wanted to.
 echo.
 set /p cstprompt=Install Mod Server Tables: (y) yes or (n) no (default no):
 if /i %cstprompt%==y goto mod_install
-if /i %cstprompt%==n goto tables_updates
-goto tables_updates
+if /i %cstprompt%==n goto end
+
 :mod_install
 cls
 echo.
 echo Installing Mods content.
-cd ..\sql\server\mods\
 echo @echo off> temp.bat
 if exist mods_errors.txt del mods_errors.txt
-for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.txt >> temp.bat
+for %%i in (..\sql\server\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
 move mods_errors.txt %workdir%
@@ -838,86 +860,6 @@ echo Database structure for L2J Mods finished.
 echo.
 echo Remember that in order to get these additions actually working 
 echo you need to edit your configuration files. 
-echo.
-pause
-cd %workdir%
-goto tables_updates
-
-:tables_updates
-call :colors 17
-set stage=10
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-if %full% == 1 goto end
-:tables_updates_ask
-cls
-set nbprompt=a
-echo.
-echo 準備更新資料庫格式，導入的 sql 包括：
-echo.
-echo sql/login/updates
-echo sql/server/updates
-echo cb_sql/updates
-echo.
-echo 請直接按下 Enter 進行更新
-echo.
-echo 現在要如何進行？
-echo.
-echo (a)更新：進入 updates 的資料夾內，導入所有的 sql
-echo.
-echo (s)省略：全部都由手動安裝
-echo.
-set /p nbprompt=請選擇（預設值-更新）:
-if /i %nbprompt%==a goto ls_tables_updates
-if /i %nbprompt%==l goto ls_tables_updates
-if /i %nbprompt%==c goto cs_tables_updates
-if /i %nbprompt%==g goto gs_tables_updates
-if /i %nbprompt%==q goto end
-goto tables_updates_ask
-:ls_tables_updates
-cd ..\sql\login\updates\
-echo @echo off> temp.bat
-if exist ls_errors.txt del ls_errors.txt
-for %%i in (*.sql) do echo "%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< %%i 2^>^> ls_errors.txt >> temp.bat
-call temp.bat> nul
-del temp.bat
-move ls_errors.txt %workdir%
-cd %workdir%
-if /i %nbprompt%==l goto tables_updates_done
-:cs_tables_updates
-cd ..\cb_sql\updates\
-echo @echo off> temp.bat
-if exist cs_errors.txt del cs_errors.txt
-for %%i in (*.sql) do echo "%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< %%i 2^>^> cs_errors.txt >> temp.bat
-call temp.bat> nul
-del temp.bat
-move cs_errors.txt %workdir%
-cd %workdir%
-if /i %nbprompt%==c goto tables_updates_done
-:gs_tables_updates
-cd ..\sql\server\updates\
-echo @echo off> temp.bat
-if exist gs_errors.txt del gs_errors.txt
-for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> gs_errors.txt >> temp.bat
-call temp.bat> nul
-del temp.bat
-move gs_errors.txt %workdir%
-cd %workdir%
-:tables_updates_done
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
-echo 資料庫格式更新完畢，所有錯誤資訊將放入「ls/cs/gs_errors.txt」
-echo.
-echo 有時會出現一些錯誤，例如表格重複，像這種訊息就不用理會
-echo.
-echo 「Duplicate column name」
-echo.
-echo 此訊息為重複的表格
-echo.
-echo 請多注意類似以下的訊息
-echo.
-echo 「Table doesn't exist」
-echo.
-echo 等等例子...
 echo.
 pause
 goto end
@@ -969,11 +911,11 @@ goto end
 
 :end
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW DataPack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
 echo.
-echo L2JTW Datapack 安裝程序 - For：L2JTW GameServer HighFive Alpha
-echo (C) 2007-2011 L2JTW Datapack 開發團隊
+echo L2JTW DataPack 安裝程序 - For：L2JTW GameServer HighFive Alpha
+echo (C) 2007-2011 L2JTW DataPack 開發團隊
 echo.
 echo 感謝使用 L2JTW 伺服器
 echo 相關資訊可以在 http://www.l2jtw.com 查詢到

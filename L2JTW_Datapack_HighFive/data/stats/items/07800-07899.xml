@@ -411,7 +411,7 @@
 		<set name="weight" val="1900" />
 		<set name="soulshots" val="7" />
 		<set name="spiritshots" val="2" />
-		<set name="mp_consume" val="3" />
+		<set name="mp_consume" val="1" />
 		<set name="reuse_delay" val="1500" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -498,7 +498,7 @@
 		<set name="weight" val="1830" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="2" />
-		<set name="mp_consume" val="4" />
+		<set name="mp_consume" val="2" />
 		<set name="reuse_delay" val="1500" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -530,7 +530,7 @@
 		<set name="weight" val="1830" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="2" />
-		<set name="mp_consume" val="4" />
+		<set name="mp_consume" val="2" />
 		<set name="reuse_delay" val="820" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1005,9 +1005,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -1030,9 +1028,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -1055,9 +1051,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -1145,9 +1139,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -1171,9 +1163,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -1196,9 +1186,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -1238,9 +1226,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1261,9 +1247,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1284,9 +1268,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1363,9 +1345,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1387,9 +1367,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1410,9 +1388,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1452,9 +1428,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1475,9 +1449,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1498,9 +1470,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1577,9 +1547,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1601,9 +1569,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -1624,9 +1590,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>

@@ -184,7 +184,7 @@
 		<set name="price" val="3340000" />
 		<set name="soulshots" val="9" />
 		<set name="spiritshots" val="3" />
-		<set name="mp_consume" val="7" />
+		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="10" />
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -208,9 +208,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="51" />
@@ -228,9 +226,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="51" />
@@ -248,9 +244,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="51" />
@@ -284,9 +278,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="51" />
@@ -305,9 +297,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="32" />
@@ -325,9 +315,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="32" />
@@ -345,9 +333,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="32" />
@@ -381,9 +367,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="32" />

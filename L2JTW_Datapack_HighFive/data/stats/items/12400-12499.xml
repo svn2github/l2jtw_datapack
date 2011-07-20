@@ -31,7 +31,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="176" />
@@ -70,7 +70,7 @@
 		<set name="price" val="10091400" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="9" />
+		<set name="mp_consume" val="4" />
 		<for>
 			<set order="0x08" stat="pAtk" val="400" />
 			<set order="0x08" stat="mAtk" val="99" />
@@ -91,7 +91,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="245" />
@@ -132,7 +132,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="270" />
@@ -154,7 +154,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="193" />
@@ -287,7 +287,7 @@
 		<set name="price" val="14098000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="9" />
+		<set name="mp_consume" val="4" />
 		<for>
 			<set order="0x08" stat="pAtk" val="440" />
 			<set order="0x08" stat="mAtk" val="107" />
@@ -345,7 +345,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="231" />
@@ -386,7 +386,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="210" />
@@ -426,7 +426,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="251" />
@@ -560,7 +560,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="294" />
@@ -619,7 +619,7 @@
 		<set name="price" val="20741000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="10" />
+		<set name="mp_consume" val="5" />
 		<for>
 			<set order="0x08" stat="pAtk" val="528" />
 			<set order="0x08" stat="mAtk" val="125" />
@@ -716,7 +716,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="318" />
@@ -757,7 +757,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="272" />
@@ -778,7 +778,7 @@
 		<set name="price" val="26968400" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="10" />
+		<set name="mp_consume" val="5" />
 		<for>
 			<set order="0x08" stat="pAtk" val="571" />
 			<set order="0x08" stat="mAtk" val="133" />
@@ -854,7 +854,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="228" />
@@ -932,7 +932,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="304" />
@@ -972,7 +972,7 @@
 		<set name="price" val="42759400" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
+		<set name="mp_consume" val="6" />
 		<for>
 			<set order="0x08" stat="pAtk" val="581" />
 			<set order="0x08" stat="mAtk" val="132" />
@@ -1012,7 +1012,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="255" />
@@ -1053,7 +1053,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="356" />
@@ -1187,7 +1187,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="361" />
@@ -1228,7 +1228,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="302" />
@@ -1287,7 +1287,7 @@
 		<set name="price" val="74946000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
+		<set name="mp_consume" val="6" />
 		<for>
 			<set order="0x08" stat="pAtk" val="654" />
 			<set order="0x08" stat="mAtk" val="151" />
@@ -1401,7 +1401,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="401" />
@@ -1497,7 +1497,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -1519,7 +1519,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="329" />
@@ -1558,7 +1558,7 @@
 		<set name="price" val="103439000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
+		<set name="mp_consume" val="6" />
 		<for>
 			<set order="0x08" stat="pAtk" val="689" />
 			<set order="0x08" stat="mAtk" val="163" />
@@ -1579,7 +1579,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="393" />
@@ -1760,9 +1760,7 @@
 		<set name="weight" val="3570" />
 		<set name="price" val="997700" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="98" />
@@ -1776,9 +1774,7 @@
 		<set name="weight" val="590" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1803,9 +1799,7 @@
 		<set name="weight" val="590" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1819,9 +1813,7 @@
 		<set name="weight" val="1180" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1846,9 +1838,7 @@
 		<set name="weight" val="1180" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1862,9 +1852,7 @@
 		<set name="weight" val="1210" />
 		<set name="price" val="419000" />
 		<cond msgId="1518">
-			<not>
-				<player race="Kamael" />
-			</not>
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />

@@ -246,9 +246,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -271,9 +269,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -296,9 +292,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -374,9 +368,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -400,9 +392,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -425,9 +415,7 @@
 		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
 			</and>
 		</cond>
@@ -466,9 +454,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="5" /> <!-- Baron -->
 			</and>
 		</cond>
@@ -489,9 +475,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="5" /> <!-- Baron -->
 			</and>
 		</cond>
@@ -512,9 +496,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="5" /> <!-- Baron -->
 			</and>
 		</cond>
@@ -591,9 +573,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="5" /> <!-- Baron -->
 			</and>
 		</cond>
@@ -615,9 +595,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="5" /> <!-- Baron -->
 			</and>
 		</cond>
@@ -638,9 +616,7 @@
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
-				<not>
-					<player race="Kamael" />
-				</not>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 				<player pledgeClass="5" /> <!-- Baron -->
 			</and>
 		</cond>
@@ -668,7 +644,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="111" />
@@ -699,7 +675,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="132" />
@@ -731,7 +707,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="155" />
@@ -762,7 +738,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="126" />
@@ -793,7 +769,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="151" />
@@ -825,7 +801,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="176" />
@@ -856,7 +832,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="159" />
@@ -887,7 +863,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="190" />
@@ -919,7 +895,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="300" />
 		<cond msgId="1518">
-			<player race="Kamael" />
+			<player races="Kamael" />
 		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="221" />
@@ -1248,7 +1224,7 @@
 		<set name="change_weaponId" val="9385" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
+		<set name="mp_consume" val="6" />
 		<set name="element_enabled" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
@@ -1285,7 +1261,7 @@
 		<set name="change_weaponId" val="9386" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
+		<set name="mp_consume" val="6" />
 		<set name="element_enabled" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
@@ -1317,7 +1293,7 @@
 		<set name="change_weaponId" val="9387" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
+		<set name="mp_consume" val="6" />
 		<set name="element_enabled" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
