@@ -20,6 +20,7 @@ CREATE TABLE `npcCharData` (
   `head` decimal(11,0) DEFAULT NULL,
   `boot` decimal(11,0) DEFAULT NULL,
   `glove` decimal(11,0) DEFAULT NULL,
+  `back` decimal(11,0) DEFAULT NULL,
   `hair` decimal(11,0) DEFAULT NULL,
   `dhair` decimal(11,0) DEFAULT NULL,
   `face` decimal(11,0) DEFAULT NULL,

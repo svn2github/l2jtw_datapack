@@ -510,6 +510,11 @@
 		<set name="reuseDelay" val="10000" />
 		<set name="skillType" val="CHARGESOUL" />
 		<set name="target" val="TARGET_SELF" />
+		<cond msgId="2163">
+			<not>
+				<player souls="1" />
+			</not>
+		</cond>
 	</skill>
 	<skill id="5549" levels="1" name="Physical Short-range Weakness">
 		<set name="target" val="TARGET_NONE" />
@@ -1261,7 +1266,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<for>
 			<!-- 200HP * 1 during 5 seconds -->
-			<effect count="5" name="DamOverTime" val="200" abnormal="bleed" abnormalLvl="11" abnormalType="dot_attr" />
+			<effect count="5" name="DamOverTime" val="200" abnormal="bleed" abnormalLvl="10" abnormalType="dot_attr" />
 		</for>
 	</skill>
 	<skill id="5597" levels="1" name="Invalid Skill cancel">

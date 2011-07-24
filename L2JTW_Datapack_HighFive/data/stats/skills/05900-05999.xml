@@ -565,7 +565,7 @@
 		<set name="reuseDelay" val="1000" />
 		<set name="canBeDispeled" val="false" /> <!-- Update by pmq -->
 		<for>
-			<effect name="Buff" abnormalTime="43200" val="0" abnormalLvl="1" abnormalType="vp_up" abnormal="vitality">
+			<effect name="Buff" abnormalTime="43200" val="0" abnormalLvl="9" abnormalType="vp_up" abnormal="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
@@ -606,9 +606,6 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
-		<set name="reuseDelay" val="300000" />
-		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16056" />
 		</cond>
@@ -618,9 +615,6 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
-		<set name="reuseDelay" val="300000" />
-		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16058" />
 		</cond>
@@ -630,9 +624,6 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
-		<set name="reuseDelay" val="300000" />
-		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16057" />
 		</cond>
@@ -643,8 +634,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="reuseDelay" val="300000" />
-		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16059" />
 		</cond>
@@ -655,8 +644,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="reuseDelay" val="300000" />
-		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16060" />
 		</cond>
@@ -1075,15 +1062,16 @@
 		</for>
 	</skill>
 	<skill id="5994" levels="1" name="Effect of Doubt">
-		<!-- Update by pmq -->
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="ignoreResists" val="true" />
+		<set name="power" val="100" /> <!-- Base Land Rate -->
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
 		<for>
-			<effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head" />
+			<effect name="BigHead" abnormalTime="1800" val="0" abnormal="bighead" abnormalLvl="1" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="5995" levels="1" name="not_used">

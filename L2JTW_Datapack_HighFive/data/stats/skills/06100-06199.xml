@@ -178,7 +178,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="1" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="event_santa_reward">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="2" abnormalType="event_santa_reward">
 				<mul order="0x30" stat="maxHp" val="1.1" />
 				<mul order="0x30" stat="maxMp" val="1.1" />
 				<mul order="0x30" stat="maxCp" val="1.1" />
@@ -464,7 +464,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="2000" />
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="dmg_shield">
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="3" abnormalType="dmg_shield">
 				<add order="0x40" stat="vengeancePdam" val="70" />
 				<add order="0x40" stat="reflectSkillPhysic" val="70" />
 				<add order="0x40" stat="reflectDam" val="70" />
@@ -502,7 +502,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="skillType" val="DEBUFF" />
-		<set name="target" val="TARGET_FRONT_AREA" />
+		<set name="target" val="TARGET_ONE" />
 		<for>
 			<effect name="Debuff" abnormalTime="900" val="0" abnormalLvl="1" abnormalType="multi_debuff">
 				<mul order="0x30" stat="pAtk" val="0.5" />
@@ -525,7 +525,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="4" abnormalType="pd_down">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="3" abnormalType="pd_down">
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			</effect>
 		</for>
@@ -560,7 +560,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="4" abnormalType="signal_a">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="2" abnormalType="signal_a">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
