@@ -141,7 +141,7 @@ public class L2AttackableAIScript extends QuestJython
 	@Override
 	public String onFactionCall (L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
 	{
-		if(attacker == null)
+		if (attacker == null)
 			return null;
 		
 		L2Character originalAttackTarget = (isPet? attacker.getPet(): attacker);
@@ -209,7 +209,7 @@ public class L2AttackableAIScript extends QuestJython
 			final L2MonsterInstance mob = (L2MonsterInstance)npc;
 			if (mob.getLeader() != null)
 				mob.getLeader().getMinionList().onMinionDie(mob, -1);
-
+			
 			if (mob.hasMinions())
 				mob.getMinionList().onMasterDie(false);
 		}

@@ -365,16 +365,15 @@ public class Zaken extends L2AttackableAIScript
 		Location loc = spawnLoc.get(Rnd.get(spawnLoc.size()));
 		player.teleToLocation(loc, false);
 		if (world.instanceId == INSTANCEID_DAY83)
-			player.stopAllEffects();
+			player.stopAllEffectsExceptThoseThatLastThroughDeath();
 		
 		L2Summon pet = player.getPet();
 		if (pet != null)
 		{
-			pet.setInstanceId(world.instanceId);
-			pet.teleToLocation(loc, false);
 			if (world.instanceId == INSTANCEID_DAY83)
-				pet.stopAllEffects();
+				pet.stopAllEffectsExceptThoseThatLastThroughDeath();
 		}
+		
 		world._playersInInstance.add(player);
 		if (DEBUG)
 			System.out.println("Player " + player + " teleported to " + loc.getX() + " " + loc.getY() + " " + loc.getZ() + " in instance " + world.instanceId + "[" + world.templateId + "]");
@@ -553,7 +552,7 @@ public class Zaken extends L2AttackableAIScript
 		else if (tmpworld.templateId == INSTANCEID_NIGHT) // Wednesday
 			reuseTime.set(Calendar.DAY_OF_WEEK, Calendar.WEDNESDAY);
 		
-		if (reuseTime.getTimeInMillis() < System.currentTimeMillis())
+		if (reuseTime.getTimeInMillis() <= System.currentTimeMillis())
 			reuseTime.add(Calendar.DAY_OF_WEEK, 7);
 		
 		reuseTime.set(Calendar.HOUR_OF_DAY, 6);

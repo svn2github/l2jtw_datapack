@@ -27,7 +27,7 @@ public class GuardsoftheDawn extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Transform Dispel
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		//getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Guard Ambush
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(963, 1), false);
 		
@@ -45,7 +45,7 @@ public class GuardsoftheDawn extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Transform Dispel
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		//getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Guard's Ambush
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(963, 1), false);
 		
