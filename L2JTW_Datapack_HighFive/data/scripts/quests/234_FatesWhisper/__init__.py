@@ -1,5 +1,5 @@
 # Made by Fulminus, version 0.1
-
+# Update by pmq for High Five Part4 28-07-2011
 import sys
 from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
@@ -32,34 +32,58 @@ CHEST_SPAWNS = {
   25220:31030  # Death Lord Hallate
   }
 
-#mobId=[cond,dropId,rate]
+#mobId=[cond,dropId,chance]
 DROPLIST={
-20823: [8,BLOOD_STAINED_CLOTH,80],
-20826: [8,BLOOD_STAINED_CLOTH,80],
-20827: [8,BLOOD_STAINED_CLOTH,80],
-20828: [8,BLOOD_STAINED_CLOTH,80],
-20829: [8,BLOOD_STAINED_CLOTH,80],
-21064: [8,BLOOD_STAINED_CLOTH,80],
-21065: [8,BLOOD_STAINED_CLOTH,80],
-21066: [8,BLOOD_STAINED_CLOTH,80],
-21069: [8,BLOOD_STAINED_CLOTH,80],
-21072: [8,BLOOD_STAINED_CLOTH,80],
+20823: [8,BLOOD_STAINED_CLOTH,20],
+20826: [8,BLOOD_STAINED_CLOTH,20],
+20827: [8,BLOOD_STAINED_CLOTH,20],
+20828: [8,BLOOD_STAINED_CLOTH,20],
+20829: [8,BLOOD_STAINED_CLOTH,20],
+20859: [8,BLOOD_STAINED_CLOTH,20],
+20860: [8,BLOOD_STAINED_CLOTH,20],
+21063: [8,BLOOD_STAINED_CLOTH,20],
+21064: [8,BLOOD_STAINED_CLOTH,20],
+21065: [8,BLOOD_STAINED_CLOTH,20],
+21066: [8,BLOOD_STAINED_CLOTH,20],
+21068: [8,BLOOD_STAINED_CLOTH,20],
+21069: [8,BLOOD_STAINED_CLOTH,20],
+21071: [8,BLOOD_STAINED_CLOTH,20],
+21072: [8,BLOOD_STAINED_CLOTH,20],
 }
 
+# B 79:"¤j°¨¤h­²¤M",2626:"·æ¾|°òªø¼C¤G¬y¤M",287:"«_ÀI¤}",97:"ªøºj",175:"¤uÃÀ¾Ô©ò",210:"¨¸ÆFÅ]§ú",234:"´cÅ]µu¼C",268:"³Õ§Q®¦®±®M",171:"¤`ªÌºaÅA",7883:"¦uÅ@¯«¤§¼C",7889:"§Å®v¤§²\",7901:"¬PÃz",7893:"¥d­Ê¤Ú¥£¤§°©"
+# B 79:"Sword of Damascus",2626:"Samurai Dualsword",287:"Bow of Peril",97:"Lance",175:"Art of Battle Axe",210:"Staff of Evil Spirits",234:"Demon Dagger",268:"Bellion Cestus",171:"Deadman's Glory",7883:"Guardian Sword",7889:"Wizard's Tear",7901:"Star Buster",7893:"Kaim Vanul's Bones"
 Weapons={
-79:"Sword of Damascus",
-2626:"Samurai Dualsword",
-287:"Bow of Peril",
-97:"Lance",
-175:"Art of Battle Axe",
-210:"Staff of Evil Spirits",
-234:"Demon Dagger" ,
-268:"Bellion Cestus" ,
-171:"Deadman's Glory" ,
-7883:"Guardian Sword",
-7889:"Wizard's Tear",
-7901:"Star Buster",
-7893:"Kaim Vanul's Bones" 
+79:"¤j°¨¤h­²¤M",
+2626:"·æ¾|°òªø¼C¤G¬y¤M",
+287:"«_ÀI¤}",
+97:"ªøºj",
+175:"¤uÃÀ¾Ô©ò",
+210:"¨¸ÆFÅ]§ú",
+234:"´cÅ]µu¼C",
+268:"³Õ§Q®¦®±®M",
+171:"¤`ªÌºaÅA",
+7883:"¦uÅ@¯«¤§¼C",
+7889:"§Å®v¤§²\",
+7901:"¬PÃz",
+7893:"¥d­Ê¤Ú¥£¤§°©"
+}
+
+# A 80:"¶ð¾|¤M",288:"Æ`¤§¤}",98:"ªø¬`¾Ô´u",150:"¤¸¯À¼C",212:"©¬¾¤®¦Å]§ú",235:"¦å¸{¤§Äõ",269:"¦å±Û­·",2504:"¬y¬P«B",5233:"¬_¨©§J¼C¤G¤M¬y",7884:"·Òº»¤§¥D",7894:"­^»î¤§²´",7899:"¯}ÃaªÌ¥¨Âñ"
+# A 80:"Tallum Blade",288:"Carnage Bow",98:"Halberd",150:"Elemental Sword",212:"Dasparions Staff",235:"Bloody Orchid",269:"Blood Tornado",2504:"Meteor Shower",5233:"Keshanberk Dualsword",7884:"Infernal Master",7894:"Spiritual Eye",7899:"Destroyer Hammer"
+Weapons_A={
+80:"¶ð¾|¤M",
+288:"Æ`¤§¤}",
+98:"ªø¬`¾Ô´u",
+150:"¤¸¯À¼C",
+212:"©¬¾¤®¦Å]§ú",
+235:"¦å¸{¤§Äõ",
+269:"¦å±Û­·",
+2504:"¬y¬P«B",
+5233:"¬_¨©§J¼C¤G¤M¬y",
+7884:"·Òº»¤§¥D",
+7894:"­^»î¤§²´",
+7899:"¯}ÃaªÌ¥¨Âñ"
 }
 
 class Quest (JQuest) :
@@ -81,18 +105,6 @@ class Quest (JQuest) :
     elif event == "30182_01" :
       htmltext = "30182-01c.htm"
       st.giveItems(INFERNIUM_VARNISH,1)
-    # open Kernon's Chest
-    elif event == "31028_01" :
-      htmltext = "31028-02.htm"
-      st.giveItems(KERMONS_INFERNIUM_SCEPTER,1)
-    # open Hallate's Chest
-    elif event == "31029_01" :
-      htmltext = "31029-02.htm"
-      st.giveItems(GOLCONDAS_INFERNIUM_SCEPTER,1)
-    # open Golkonda's Chest
-    elif event == "31030_01" :
-      htmltext = "31030-02.htm"
-      st.giveItems(HALLATES_INFERNIUM_SCEPTER,1)
     # dialog with Zenkin
     elif event == "30178_01" :
       st.set("cond","6")
@@ -107,21 +119,33 @@ class Quest (JQuest) :
       htmltext = "30833-01b2.htm"
       st.giveItems(WHITE_CLOTH,30)
       st.set("cond","8")
+    # got Reorin's Mold!  Go to the next step (B Crystals)
+    elif event == "31002_09a" :
+      st.takeItems(REORINS_MOLD,1)
+      htmltext = "31002-09a.htm"
+      st.set("cond","11")
+      qs = st.getPlayer().getQuestState("255_Tutorial")
+      if qs:
+        st.showQuestionMark(13)
+        st.playSound("ItemSound.quest_tutorial")
     ## FINAL ITEM EXCHANGE SECTION
     elif event.startswith("selectBGrade_"):
-      if st.getInt("bypass") :
-          return
+      if st.getInt("bypass"):
+        return
       bGradeId = event.replace("selectBGrade_", "")
       st.set("weaponId",bGradeId)
       htmltext = st.showHtmlFile("31002-13.htm").replace("%weaponname%",Weapons[int(bGradeId)])
+    # got the crystals
     elif event.startswith("confirmWeapon"):
+        st.takeItems(CRYSTAL_B,984)
         st.set("bypass","1")
         htmltext = st.showHtmlFile("31002-14.htm").replace("%weaponname%",Weapons[st.getInt("weaponId")])
+        st.set("cond","12")
     elif event.startswith("selectAGrade_"):
       if st.getInt("bypass"):
-        if st.getQuestItemsCount(st.getInt("weaponId")) > 0 :  
+        if st.getQuestItemsCount(st.getInt("weaponId")) > 0 :
           aGradeItemId = int(event.replace("selectAGrade_", ""))
-          htmltext = "31002-12.htm"
+          htmltext = st.showHtmlFile("31002-12.htm").replace("%weaponname%",Weapons_A[int(aGradeItemId)])
           st.takeItems(st.getInt("weaponId"),1)
           st.giveItems(aGradeItemId,1)
           st.giveItems(STAR_OF_DESTINY,1)
@@ -143,13 +167,14 @@ class Quest (JQuest) :
 
     npcId = npc.getNpcId()
     id = st.getState()
+    cond = st.getInt("cond")
 
     # first time when a player join the quest
     if id == State.CREATED:
       if player.getLevel() >= 75:
-        htmltext = "31002-02.htm"
-      else:
         htmltext = "31002-01.htm"
+      else:
+        htmltext = "31002-00.htm"
         st.exitQuest(1)
       return htmltext
     # if quest is already State.COMPLETED
@@ -158,7 +183,6 @@ class Quest (JQuest) :
 
     # if quest is accepted and in progress
     elif id == State.STARTED:
-      cond =st.getInt("cond")
       if npcId == NPC[0] :
         if cond == 1 and not st.getQuestItemsCount(REIRIAS_SOUL_ORB) :  # waiting for the orb
           htmltext = "31002-04b.htm"
@@ -192,20 +216,13 @@ class Quest (JQuest) :
         elif cond < 10 :     # waiting for Reorin's Mold
           htmltext = "31002-08b.htm"
         elif cond == 10 :  # got Reorin's Mold!  Go to the next step (B Crystals)
-          st.takeItems(REORINS_MOLD,1)
           htmltext = "31002-09.htm"
-          st.set("cond","11")
-          qs = st.getPlayer().getQuestState("255_Tutorial")
-          if qs:
-             st.showQuestionMark(13)
-             st.playSound("ItemSound.quest_tutorial")
         # waiting for 984 B Grade Crystals
-        elif cond == 11 and (st.getQuestItemsCount(CRYSTAL_B) < 984) :
-          htmltext = "31002-09a.htm"
-        elif cond == 11 : # got the crystals
-          st.takeItems(CRYSTAL_B,984)
-          htmltext = "31002-BGradeList.htm"
-          st.set("cond","12")
+        elif cond == 11 :
+          if (st.getQuestItemsCount(CRYSTAL_B) < 984) :
+            htmltext = "31002-09b.htm"
+          else: # got the crystals
+            htmltext = "31002-BGradeList.htm"
         # all is ready.  Now give a menu to trade the B weapon for the player's choice of A Weapon.
         elif cond == 12: 
           if st.getInt("bypass"):  #weapon is set
@@ -217,74 +234,84 @@ class Quest (JQuest) :
             htmltext = "31002-BGradeList.htm"
       ## CLIFF.
       # came to take the varnish
-      elif npcId == NPC[1] and cond==3 and not st.getQuestItemsCount(INFERNIUM_VARNISH) :
+      elif npcId == NPC[1] and cond == 3 and not st.getQuestItemsCount(INFERNIUM_VARNISH) :
         htmltext = "30182-01.htm"
       # you already got the varnish...why are you back?
-      elif npcId == NPC[1] and (cond>=3 or st.getQuestItemsCount(INFERNIUM_VARNISH)) :
+      elif npcId == NPC[1] and (cond == 3 or st.getQuestItemsCount(INFERNIUM_VARNISH)) :
+        htmltext = "30182-01d.htm"
+      elif npcId == NPC[1] and cond >= 4 :
         htmltext = "30182-02.htm"
       ## FERRIS
       # go to take the mold      
-      elif npcId == NPC[2] and cond==4 and not st.getQuestItemsCount(REORINS_HAMMER) :
+      elif npcId == NPC[2] and cond == 4 and not st.getQuestItemsCount(REORINS_HAMMER) :
         htmltext = "30847-01.htm"  # go to trader Zenkin
         st.giveItems(REORINS_HAMMER,1)
-      # I already told you I don't have it!
-      elif npcId == NPC[2] and cond>=4 :
+      elif npcId == NPC[2] and (cond == 4 or st.getQuestItemsCount(REORINS_HAMMER)) :
         htmltext = "30847-02.htm"  # go to trader Zenkin
+      # I already told you I don't have it!
+      elif npcId == NPC[2] and cond >= 4 :
+        htmltext = "30847-03.htm"
       ## ZENKIN
       # go to take mold
-      elif npcId == NPC[3] and cond==5 :
+      elif npcId == NPC[3] and cond == 5 :
         htmltext = "30178-01.htm"  # go to Magister Kaspar
       # I already told you I don't have it!  
-      elif npcId == NPC[3] and cond>5 :
+      elif npcId == NPC[3] and cond > 5 :
         htmltext = "30178-02.htm"  # go to Magister Kaspar
       ## KASPAR
       elif npcId == NPC[4]:
         # first visit: You have neither plain nor blooded knife.
-        if cond==6 :
+        if cond == 6 :
           htmltext = "30833-01.htm"  # go to Magister Hanellin,etc. Get Baium's Blood with the pipette
         #revisit after you've gotten the mold: What are you still doing here?
         if cond > 9 :
           htmltext = "30833-04.htm"  # Have you given the mold to Reorin, yet?
         # revisit before getting the blood: remind "go get the blood"
-        if cond==7 and st.getQuestItemsCount(PIPETTE_KNIFE) and not st.getQuestItemsCount(RED_PIPETTE_KNIFE) :
+        if cond == 7 and st.getQuestItemsCount(PIPETTE_KNIFE) and not st.getQuestItemsCount(RED_PIPETTE_KNIFE) :
           htmltext = "30833-02.htm"  # go to Magister Hanellin,etc. Get Baium's Blood with the pipette
         # got the blood and I'm ready to proceed
-        if cond==7 and not st.getQuestItemsCount(PIPETTE_KNIFE) and st.getQuestItemsCount(RED_PIPETTE_KNIFE) :
+        if cond == 7 and not st.getQuestItemsCount(PIPETTE_KNIFE) and st.getQuestItemsCount(RED_PIPETTE_KNIFE) :
           htmltext = "30833-03.htm"  # great! Here is your mold for Reorin
           st.takeItems(RED_PIPETTE_KNIFE,1)
           st.giveItems(REORINS_MOLD,1)
           st.set("cond","10")
         # get 30 blood cloths
-        if cond==8:
+        if cond == 8:
           htmltext = "30833-02b.htm"
         # finished hunt 30 blood cloths, give reorin mold
-        if cond==9:
+        if cond == 9:
           htmltext = "30833-03b.htm"
           st.takeItems(BLOOD_STAINED_CLOTH,-1)
           st.giveItems(REORINS_MOLD,1)
           st.set("cond","10")
       ## CHESTS FROM RAIDBOSSES
-      elif cond==1 :
-        if npcId ==NPC[8] and st.getQuestItemsCount(REIRIAS_SOUL_ORB)==0 :
+      elif cond == 1 :
+        if npcId == NPC[8] and st.getQuestItemsCount(REIRIAS_SOUL_ORB) == 0 :
           htmltext = "31027-01.htm"
           st.giveItems(REIRIAS_SOUL_ORB,1)
           st.playSound("Itemsound.quest_itemget")
-      elif cond==2 :
+      elif cond == 2 :
         # Kernon's Chest
-        if npcId == NPC[5] and st.getQuestItemsCount(KERMONS_INFERNIUM_SCEPTER)==0 :
-          htmltext = "31028-01.htm"
-        elif npcId == NPC[5] :
-          htmltext = "<html><body>This chest looks empty</body></html>"
+        if npcId == NPC[5] :
+          if st.getQuestItemsCount(KERMONS_INFERNIUM_SCEPTER) == 0 :
+            st.giveItems(KERMONS_INFERNIUM_SCEPTER,1)
+            htmltext = "31028-01.htm"
+          else:
+            htmltext = "31028-02.htm"
         # Golkonda's Chest
-        elif npcId == NPC[6] and st.getQuestItemsCount(GOLCONDAS_INFERNIUM_SCEPTER)==0 :
-          htmltext = "31029-01.htm"
         elif npcId == NPC[6] :
-          htmltext = "<html><body>This chest looks empty</body></html>"
+          if st.getQuestItemsCount(GOLCONDAS_INFERNIUM_SCEPTER) == 0 :
+            st.giveItems(GOLCONDAS_INFERNIUM_SCEPTER,1)
+            htmltext = "31029-01.htm"
+          else:
+            htmltext = "31029-02.htm"
         # Hallate's Chest 
-        elif npcId == NPC[7] and st.getQuestItemsCount(HALLATES_INFERNIUM_SCEPTER)==0 :
-          htmltext = "31030-01.htm"
         elif npcId == NPC[7] :
-          htmltext = "<html><body>This chest looks empty</body></html>"
+          if st.getQuestItemsCount(HALLATES_INFERNIUM_SCEPTER) == 0 :
+            st.giveItems(HALLATES_INFERNIUM_SCEPTER,1)
+            htmltext = "31030-01.htm"
+          else:
+            htmltext = "31030-02.htm"
     return htmltext
 
   def onAttack (self, npc, player, damage, isPet, skill):
@@ -294,59 +321,57 @@ class Quest (JQuest) :
     if isPet : return
 
     if st.getInt("cond") == 7 and npc.getNpcId() == 29020 :
-      if player.getActiveWeaponItem() and player.getActiveWeaponItem().getItemId() == PIPETTE_KNIFE and st.getQuestItemsCount(RED_PIPETTE_KNIFE) == 0:
+      if player.getActiveWeaponItem() and player.getActiveWeaponItem().getItemId() == PIPETTE_KNIFE and st.getQuestItemsCount(RED_PIPETTE_KNIFE) == 0 :
         st.giveItems(RED_PIPETTE_KNIFE,1)
         st.takeItems(PIPETTE_KNIFE,1)
         st.playSound("Itemsound.quest_itemget")
     return
 
   def onKill(self,npc,player,isPet):
-    npcId=npc.getNpcId()
+    npcId = npc.getNpcId()
     # the chests always spawn, even if the RB is killed with nobody nearby doing the quest.
     if npcId in CHEST_SPAWNS.keys() :
       self.addSpawn(CHEST_SPAWNS[npcId], npc.getX(), npc.getY(), npc.getZ(),npc.getHeading(), True, 60000)
-    else :
-     value,dropId,chance = DROPLIST[npcId]
-     if chance > 0 and Rnd.get(100) < chance:
-      party = player.getParty()
-      if party :
-        PartyQuestMembers = []
-        for partyMember in party.getPartyMembers().toArray() :
+    else:
+      value,dropId,chance = DROPLIST[npcId]
+      if chance > 0 and Rnd.get(100) < chance:
+        party = player.getParty()
+        if party :
+          PartyQuestMembers = []
+          for partyMember in party.getPartyMembers().toArray():
             if partyMember.isInsideRadius(player,1500,True,False):
               pst = partyMember.getQuestState(qn)
               if pst :
-                  if pst.getInt("cond") == 8 and pst.getQuestItemsCount(dropId) < 30 :
-                      PartyQuestMembers.append(pst)
-        if len(PartyQuestMembers) == 0 : return
-        stw = PartyQuestMembers[Rnd.get(len(PartyQuestMembers))]
-        stw.giveItems(dropId,1)
-        stw.takeItems(WHITE_CLOTH,1)
-        stw.playSound("Itemsound.quest_itemget")
-        if stw.getQuestItemsCount(dropId) >= 30:
-          stw.set("cond","9")
+                if pst.getInt("cond") == 8 and pst.getQuestItemsCount(dropId) < 30 :
+                  PartyQuestMembers.append(pst)
+          if len(PartyQuestMembers) == 0 : return
+          stw = PartyQuestMembers[Rnd.get(len(PartyQuestMembers))]
+          stw.giveItems(dropId,1)
+          stw.takeItems(WHITE_CLOTH,1)
+          stw.playSound("Itemsound.quest_itemget")
+          if stw.getQuestItemsCount(dropId) >= 30 :
+            stw.set("cond","9")
       else:
         st = player.getQuestState(qn)
         if not st : return
         if st.getState() != State.STARTED : return
-        if npcId in DROPLIST.keys() :
+        if npcId in DROPLIST.keys():
           if st.getInt("cond") == value:
-            if value == 8 and st.getQuestItemsCount(dropId) < 30:
+            if value == 8 and st.getQuestItemsCount(dropId) < 30 :
               st.giveItems(dropId,1)
               st.takeItems(WHITE_CLOTH,1)
               st.playSound("Itemsound.quest_itemget")
-              if st.getQuestItemsCount(dropId) >= 30:
-                 st.set("cond","9")
+              if st.getQuestItemsCount(dropId) >= 30 :
+                st.set("cond","9")
     return
 
-
 QUEST    = Quest(234,qn,"©R¹Bªº¨p»y")
-
 
 QUEST.addStartNpc(NPC[0])
 
 for npcId in NPC:
   QUEST.addTalkId(npcId)
- 
+
 for mobId in DROPLIST.keys() :
   QUEST.addKillId(mobId)
 
