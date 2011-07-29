@@ -168,7 +168,7 @@ public class AdminSiege implements IAdminCommandHandler
 						newAdminSiegeDate.set(Calendar.HOUR_OF_DAY, Integer.parseInt(st.nextToken()));
 					else if (val.equalsIgnoreCase("min"))
 						newAdminSiegeDate.set(Calendar.MINUTE, Integer.parseInt(st.nextToken()));
-
+					
 					if (newAdminSiegeDate.getTimeInMillis() < Calendar.getInstance().getTimeInMillis())
 					{
 						activeChar.sendMessage(1819);
@@ -219,9 +219,7 @@ public class AdminSiege implements IAdminCommandHandler
 			{
 				L2ClanHallZone zone = clanhall.getZone();
 				if (zone != null)
-				{
 					activeChar.teleToLocation(zone.getSpawnLoc(), true);
-				}
 			}
 			else if (command.equalsIgnoreCase("admin_spawn_doors"))
 			{
@@ -347,7 +345,7 @@ public class AdminSiege implements IAdminCommandHandler
 		}
 		activeChar.sendPacket(adminReply);
 	}
-
+	
 	private void showClanHallPage(L2PcInstance activeChar, ClanHall clanhall)
 	{
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
