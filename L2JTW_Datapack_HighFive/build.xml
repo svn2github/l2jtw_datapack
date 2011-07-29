@@ -116,7 +116,7 @@
 		<tstamp>
 			<format property="build.tstamp" pattern="yyyyMMdd_HHmm" />
 		</tstamp>
-		<exec dir="." executable="svnversion" outputproperty="l2jdp.revision">
+		<exec dir="." executable="svnversion" outputproperty="l2jdp.revision" failifexecutionfails="false">
 			<arg line="-n ." />
 		</exec>
 		<concat destfile="${properties-file}">
