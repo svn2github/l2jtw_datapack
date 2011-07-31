@@ -830,36 +830,31 @@ pause
 goto mod_ask
 
 :mod_ask
-title L2JDP Installer - Mod Server Tables
+title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
-set cstprompt=n
+set cstprompt=y
 echo.
-echo L2J provides a basic infraestructure for some non-retail features
-echo (aka L2J mods) to get enabled with a minimum of changes.
-echo.
-echo Some of these mods would require extra tables in order to work
-echo and those tables could be created now if you wanted to.
-echo.
-set /p cstprompt=Install Mod Server Tables: (y) yes or (n) no (default no):
+set /p cstprompt=安裝 Mods 自訂資料表: (y) 確定 或 (N) 取消（預設值-確定）:
 if /i %cstprompt%==y goto mod_install
 if /i %cstprompt%==n goto end
 
 :mod_install
 cls
 echo.
-echo Installing Mods content.
+echo 安裝 Mods 自訂內容
 echo @echo off> temp.bat
 if exist mods_errors.txt del mods_errors.txt
 for %%i in (..\sql\server\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
 move mods_errors.txt %workdir%
-title L2JDP Installer - Mod Server Tables Process Complete
+title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
-echo Database structure for L2J Mods finished.
+echo Mods 自訂資料表加入資料庫完成
+echo 所有錯誤資訊將放入「mods_errors.txt」
 echo.
-echo Remember that in order to get these additions actually working 
-echo you need to edit your configuration files. 
+echo 請注意，如果要使這些自訂資料表能夠啟用
+echo 你必須修改 config 的檔案設定 
 echo.
 pause
 goto end

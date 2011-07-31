@@ -19,4 +19,4 @@ CREATE TABLE IF NOT EXISTS `custom_npcaidata` (
   `dodge` int(3) DEFAULT NULL,
   `ai_type` varchar(8) DEFAULT 'fighter',
   PRIMARY KEY (`npc_id`)
-);
+) DEFAULT CHARSET=utf8;

@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `custom_npc_buffer` (
   `skill_fee_amount` int(6) NOT NULL default '0',
   `buff_group` int(6) NOT NULL default '0',
   PRIMARY KEY (`npc_id`,`skill_id`,`buff_group`)
-);
+) DEFAULT CHARSET=utf8;
 
 INSERT IGNORE INTO `custom_npc_buffer` VALUES
 (1000003,10,8,57,100,10),

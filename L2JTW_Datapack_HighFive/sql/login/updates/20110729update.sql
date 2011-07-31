@@ -1,0 +1,3 @@
+ALTER TABLE `account_data` DEFAULT CHARSET=utf8;
+ALTER TABLE `accounts` DEFAULT CHARSET=utf8;
+ALTER TABLE `gameservers` DEFAULT CHARSET=utf8;
