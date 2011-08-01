@@ -14,8 +14,8 @@
  */
 package handlers.bypasshandlers;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+//import java.text.SimpleDateFormat;
+//import java.util.Date;
 import java.util.StringTokenizer;
 
 import com.l2jserver.Config;
@@ -28,12 +28,12 @@ import com.l2jserver.gameserver.model.itemauction.ItemAuction;
 import com.l2jserver.gameserver.model.itemauction.ItemAuctionInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ExItemAuctionInfoPacket;
-import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+//import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 public class ItemAuctionLink implements IBypassHandler
 {
-	private static final SimpleDateFormat fmt = new SimpleDateFormat("yyyy" + "年 " + "MM" + "月 " + "dd"+"日 " + "HH");
+	//private static final SimpleDateFormat fmt = new SimpleDateFormat("yyyy" + "年 " + "MM" + "月 " + "dd"+"日 " + "HH");
 	
 	private static final String[] COMMANDS =
 	{
@@ -85,7 +85,7 @@ public class ItemAuctionLink implements IBypassHandler
 				
 				activeChar.sendPacket(new ExItemAuctionInfoPacket(false, currentAuction, nextAuction));
 			}
-			/** Add by pmq Start */
+			/** Add by pmq High Five Del Start
 			else if ("nask".equalsIgnoreCase(cmd))
 			{
 				if (!activeChar.getFloodProtectors().getItemAuction().tryPerformAction("RequestInfoItemAuction"))
@@ -109,7 +109,7 @@ public class ItemAuctionLink implements IBypassHandler
 				
 				activeChar.sendPacket(new ExItemAuctionInfoPacket(false, currentAuction, nextAuction));
 			}
-			/** Add by pmq End */
+			Add by pmq High Five End */
 			else if ("cancel".equalsIgnoreCase(cmd))
 			{
 				final ItemAuction[] auctions = au.getAuctionsByBidder(activeChar.getObjectId());

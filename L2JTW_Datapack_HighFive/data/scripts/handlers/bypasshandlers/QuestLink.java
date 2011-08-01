@@ -32,7 +32,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable;
+//import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class QuestLink implements IBypassHandler
 {
@@ -79,24 +79,40 @@ public class QuestLink implements IBypassHandler
 		);
 		for (Quest q : quests)
 		{
+			/** Add npcstring Test by pmq Start */
+			int qID = q.getQuestIntId();
+			if (qID > 10000)
+				qID -= 5000;
+			if (qID == 146)
+				qID = 640;
 			StringUtil.append(sb,
 					"<a action=\"bypass -h npc_",
 					String.valueOf(npc.getObjectId()),
 					"_Quest ",
 					q.getName(),
-					"\">[",
-					q.getDescr()
+					//"\">[",
+					//q.getDescr()
+					"\">[<fstring>",
+					String.valueOf(qID)
 			);
 			
 			QuestState qs = player.getQuestState(q.getScriptName());
-			if (qs != null)
+			/*if (qs != null)
 			{
 				if (qs.getState() == State.STARTED && qs.getInt("cond") > 0)
 					sb.append(MessageTable.Messages[1016].getMessage());
 				else if (qs.getState() == State.COMPLETED)
 					sb.append(MessageTable.Messages[1017].getMessage());
 			}
-			sb.append("]</a><br>");
+			sb.append("]</a><br>");*/
+			if (qs == null || qs.isCreated())
+				sb.append("01");
+			else if (qs.isStarted() && qs.getInt("cond") > 0)
+				sb.append("02");
+			else if (qs.isCompleted())
+				sb.append("03");
+			sb.append("</fstring>]</a><br>");
+			/** Add npcstring Test by pmq End */
 		}
 		
 		sb.append("</body></html>");
