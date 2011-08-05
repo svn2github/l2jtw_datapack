@@ -209,7 +209,7 @@ public class L2AttackableAIScript extends QuestJython
 			final L2MonsterInstance mob = (L2MonsterInstance)npc;
 			if (mob.getLeader() != null)
 				mob.getLeader().getMinionList().onMinionDie(mob, -1);
-			
+
 			if (mob.hasMinions())
 				mob.getMinionList().onMasterDie(false);
 		}

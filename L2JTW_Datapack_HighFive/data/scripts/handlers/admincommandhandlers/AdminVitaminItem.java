@@ -17,7 +17,6 @@ package handlers.admincommandhandlers;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.util.Collection;
 
 import javolution.text.TextBuilder;
 
@@ -125,7 +124,7 @@ public class AdminVitaminItem implements IAdminCommandHandler
 			statement2.close();
 			statement3.close();
 			set.close();
-			Collection<L2PcInstance> pls = L2World.getInstance().getAllPlayers().values();
+			L2PcInstance[] pls = L2World.getInstance().getAllPlayersArray();
 			for (L2PcInstance pc : pls)
 			{
 				pc.loadPremiumItemList();

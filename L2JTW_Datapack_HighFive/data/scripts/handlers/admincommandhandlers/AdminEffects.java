@@ -109,6 +109,7 @@ public class AdminEffects implements IAdminCommandHandler
 		"admin_set_displayeffect_menu"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		StringTokenizer st = new StringTokenizer(command);
@@ -208,16 +209,13 @@ public class AdminEffects implements IAdminCommandHandler
 			try
 			{
 				Collection<L2PcInstance> plrs = activeChar.getKnownList().getKnownPlayers().values();
-				//synchronized (activeChar.getKnownList().getKnownPlayers())
+				for (L2PcInstance player : plrs)
 				{
-					for (L2PcInstance player : plrs)
+					if (!player.isGM())
 					{
-						if (!player.isGM())
-						{
-							player.startAbnormalEffect(AbnormalEffect.HOLD_1);
-							player.setIsParalyzed(true);
-							player.startParalyze();
-						}
+						player.startAbnormalEffect(AbnormalEffect.HOLD_1);
+						player.setIsParalyzed(true);
+						player.startParalyze();
 					}
 				}
 			}
@@ -230,14 +228,11 @@ public class AdminEffects implements IAdminCommandHandler
 			try
 			{
 				Collection<L2PcInstance> plrs = activeChar.getKnownList().getKnownPlayers().values();
-				//synchronized (activeChar.getKnownList().getKnownPlayers())
+				for (L2PcInstance player : plrs)
 				{
-					for (L2PcInstance player : plrs)
-					{
-						player.stopAbnormalEffect(AbnormalEffect.HOLD_1);
-						player.setIsParalyzed(false);
-						player.stopParalyze(false);
-					}
+					player.stopAbnormalEffect(AbnormalEffect.HOLD_1);
+					player.setIsParalyzed(false);
+					player.stopParalyze(false);
 				}
 			}
 			catch (Exception e)
@@ -395,13 +390,10 @@ public class AdminEffects implements IAdminCommandHandler
 			try
 			{
 				Collection<L2PcInstance> plrs = activeChar.getKnownList().getKnownPlayers().values();
-				//synchronized (activeChar.getKnownList().getKnownPlayers())
+				for (L2PcInstance player : plrs)
 				{
-					for (L2PcInstance player : plrs)
-					{
-						player.setTeam(0);
-						player.broadcastUserInfo();
-					}
+					player.setTeam(0);
+					player.broadcastUserInfo();
 				}
 			}
 			catch (Exception e)
@@ -415,19 +407,17 @@ public class AdminEffects implements IAdminCommandHandler
 				String val = st.nextToken();
 				int teamVal = Integer.parseInt(val);
 				Collection<L2PcInstance> plrs = activeChar.getKnownList().getKnownPlayers().values();
-				//synchronized (activeChar.getKnownList().getKnownPlayers())
+				
+				for (L2PcInstance player : plrs)
 				{
-					for (L2PcInstance player : plrs)
+					if (activeChar.isInsideRadius(player, 400, false, true))
 					{
-						if (activeChar.isInsideRadius(player, 400, false, true))
+						player.setTeam(teamVal);
+						if (teamVal != 0)
 						{
-							player.setTeam(teamVal);
-							if (teamVal != 0)
-							{
-								player.sendMessage(MessageTable.Messages[1650].getExtra(1) + teamVal + MessageTable.Messages[1650].getExtra(2));
-							}
-							player.broadcastUserInfo();
+							player.sendMessage(MessageTable.Messages[1650].getExtra(1) + teamVal + MessageTable.Messages[1650].getExtra(2));
 						}
+						player.broadcastUserInfo();
 					}
 				}
 			}
@@ -484,11 +474,12 @@ public class AdminEffects implements IAdminCommandHandler
 							{
 								int radius = Integer.parseInt(target);
 								Collection<L2Object> objs = activeChar.getKnownList().getKnownObjects().values();
-								//synchronized (activeChar.getKnownList().getKnownObjects())
+								for (L2Object object : objs)
 								{
-									for (L2Object object : objs)
-										if (activeChar.isInsideRadius(object, radius, false, false))
-											performSocial(social, object, activeChar);
+									if (activeChar.isInsideRadius(object, radius, false, false))
+									{
+										performSocial(social, object, activeChar);
+									}
 								}
 								activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
 							}
@@ -546,13 +537,15 @@ public class AdminEffects implements IAdminCommandHandler
 							{
 								int radius = Integer.parseInt(target);
 								Collection<L2Object> objs = activeChar.getKnownList().getKnownObjects().values();
-								//synchronized (activeChar.getKnownList().getKnownObjects())
+
+								for (L2Object object : objs)
 								{
-									for (L2Object object : objs)
-										if (activeChar.isInsideRadius(object, radius, false, false))
-											performAbnormal(abnormal, object);
-									activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
+									if (activeChar.isInsideRadius(object, radius, false, false))
+									{
+										performAbnormal(abnormal, object);
+									}
 								}
+								activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
 							}
 							catch (NumberFormatException nbe)
 							{
@@ -608,13 +601,14 @@ public class AdminEffects implements IAdminCommandHandler
 							{
 								int radius = Integer.parseInt(target);
 								Collection<L2Object> objs = activeChar.getKnownList().getKnownObjects().values();
-								//synchronized (activeChar.getKnownList().getKnownObjects())
+								for (L2Object object : objs)
 								{
-									for (L2Object object : objs)
-										if (activeChar.isInsideRadius(object, radius, false, false))
-											performSpecial(special, object);
-									activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
+									if (activeChar.isInsideRadius(object, radius, false, false))
+									{
+										performSpecial(special, object);
+									}
 								}
+								activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
 							}
 							catch (NumberFormatException nbe)
 							{
@@ -807,6 +801,7 @@ public class AdminEffects implements IAdminCommandHandler
 		activeChar.sendMessage(MessageTable.Messages[1656].getExtra(1) + sound +  MessageTable.Messages[1656].getExtra(2));
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

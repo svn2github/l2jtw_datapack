@@ -14,7 +14,6 @@
  */
 package handlers.admincommandhandlers;
 
-import java.util.Collection;
 import java.util.StringTokenizer;
 
 import com.l2jserver.gameserver.datatables.ItemTable;
@@ -42,6 +41,7 @@ public class AdminCreateItem implements IAdminCommandHandler
 		"admin_give_item_to_all"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.equals("admin_itemcreate"))
@@ -125,7 +125,7 @@ public class AdminCreateItem implements IAdminCommandHandler
 					activeChar.sendMessage(1482);
 					return false;
 				}
-
+				
 				String val = command.substring(22);
 				StringTokenizer st = new StringTokenizer(val);
 				if (st.countTokens() == 2)
@@ -184,23 +184,21 @@ public class AdminCreateItem implements IAdminCommandHandler
 				activeChar.sendMessage(1484);
 				return false;
 			}
-			Collection<L2PcInstance> pls = L2World.getInstance().getAllPlayers().values();
+			for (L2PcInstance onlinePlayer : L2World.getInstance().getAllPlayersArray())
 			{
-				for (L2PcInstance onlinePlayer : pls)
+				if (activeChar != onlinePlayer && onlinePlayer.isOnline() && (onlinePlayer.getClient() != null && !onlinePlayer.getClient().isDetached()))
 				{
-					if (activeChar != onlinePlayer && onlinePlayer.isOnline() && (onlinePlayer.getClient() != null && !onlinePlayer.getClient().isDetached()))
-					{
-						onlinePlayer.getInventory().addItem("Admin", idval, numval, onlinePlayer, activeChar);
-						onlinePlayer.sendMessage(MessageTable.Messages[1485].getExtra(1)+numval+MessageTable.Messages[1485].getExtra(2)+template.getName()+MessageTable.Messages[1485].getExtra(3));
-						counter++;
-					}
+					onlinePlayer.getInventory().addItem("Admin", idval, numval, onlinePlayer, activeChar);
+					onlinePlayer.sendMessage(MessageTable.Messages[1485].getExtra(1) +numval+ MessageTable.Messages[1485].getExtra(2) +template.getName()+ MessageTable.Messages[1485].getExtra(3));
+					counter++;
 				}
 			}
-			activeChar.sendMessage(counter +MessageTable.Messages[1488].getMessage() + template.getName());
+			activeChar.sendMessage(counter + MessageTable.Messages[1488].getMessage() + template.getName());
 		}
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

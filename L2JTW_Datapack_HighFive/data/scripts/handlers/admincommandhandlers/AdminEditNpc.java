@@ -14,18 +14,16 @@
  */
 package handlers.admincommandhandlers;
 
+import gnu.trove.TIntObjectHashMap;
+import gnu.trove.TIntObjectIterator;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javolution.util.FastMap;
 
 import com.l2jserver.Config;
 import com.l2jserver.L2DatabaseFactory;
@@ -83,6 +81,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		"admin_log_npc_spawn"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		//TODO: Tokenize and protect arguments parsing. Externalize HTML.
@@ -98,7 +97,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			if (target instanceof L2Npc)
 			{
 				L2Npc npc = (L2Npc) target;
-				_log.info("('',1,"+npc.getNpcId()+","+npc.getX()+","+npc.getY()+","+npc.getZ()+",0,0,"+npc.getHeading()+",60,0,0),");
+				_log.info("('',1," + npc.getNpcId() + "," + npc.getX() + "," + npc.getY() + "," + npc.getZ() + ",0,0," + npc.getHeading() + ",60,0,0),");
 			}
 		}
 		else if (command.startsWith("admin_showShopList "))
@@ -761,6 +760,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		return order;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;
@@ -817,7 +817,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			adminReply.setHtml("<html><head><body>"+MessageTable.Messages[1596].getMessage()+"data/html/admin/editnpc.htm</body></html>");
 		activeChar.sendPacket(adminReply);
 	}
-	
+
 	private void saveNpcProperty(L2PcInstance activeChar, String command)
 	{
 		String[] commandSplit = command.split(" ");
@@ -1394,7 +1394,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			return;
 		}
 		
-		Map<Integer, L2Skill> skills = new FastMap<Integer, L2Skill>();
+		TIntObjectHashMap<L2Skill> skills = new TIntObjectHashMap<L2Skill>();
 		if (npcData.getSkills() != null)
 			skills = npcData.getSkills();
 		
@@ -1420,7 +1420,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		replyMSG.append("): ");
 		replyMSG.append(_skillsize);
 		replyMSG.append(MessageTable.Messages[1613].getExtra(1)+"</font></center><table width=300 bgcolor=666666><tr>");
-		
+
 		for (int x = 0; x < MaxPages; x++)
 		{
 			int pagenr = x + 1;
@@ -1442,15 +1442,12 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 		}
 		replyMSG.append("</tr></table><table width=\"100%\" border=0><tr><td>"+MessageTable.Messages[1613].getExtra(2)+"</td><td>"+MessageTable.Messages[1613].getExtra(3)+"</td></tr>");
-		
-		Set<Integer> skillset = skills.keySet();
-		Iterator<Integer> skillite = skillset.iterator();
-		int skillobj = 0;
+		TIntObjectIterator<L2Skill> skillite = skills.iterator();
 		
 		for (int i = 0; i < SkillsStart; i++)
 		{
 			if (skillite.hasNext())
-				skillite.next();
+				skillite.advance();
 		}
 		
 		int cnt = SkillsStart;
@@ -1460,30 +1457,30 @@ public class AdminEditNpc implements IAdminCommandHandler
 			if (cnt > SkillsEnd)
 				break;
 			
-			skillobj = skillite.next();
+			skillite.advance();
 			replyMSG.append("<tr><td width=240><a action=\"bypass -h admin_edit_skill_npc ");
 			replyMSG.append(npcData.npcId);
 			replyMSG.append(" ");
-			replyMSG.append(skills.get(skillobj).getId());
+			replyMSG.append(skillite.value().getId());
 			replyMSG.append("\">");
-			if (skills.get(skillobj).getSkillType() == L2SkillType.NOTDONE)
-				replyMSG.append("<font color=\"777777\">"+skills.get(skillobj).getName()+"</font>");
+			if (skillite.value().getSkillType() == L2SkillType.NOTDONE)
+				replyMSG.append("<font color=\"777777\">" + skillite.value().getName() + "</font>");
 			else
-				replyMSG.append(skills.get(skillobj).getName());
+				replyMSG.append(skillite.value().getName());
 			replyMSG.append(" [");
-			replyMSG.append(skills.get(skillobj).getId());
+			replyMSG.append(skillite.value().getId());
 			replyMSG.append("-");
-			replyMSG.append(skills.get(skillobj).getLevel());
+			replyMSG.append(skillite.value().getLevel());
 			replyMSG.append("]</a></td><td width=60><a action=\"bypass -h admin_del_skill_npc ");
 			replyMSG.append(npcData.npcId);
 			replyMSG.append(" ");
-			replyMSG.append(skillobj);
+			replyMSG.append(skillite.key());
 			replyMSG.append("\">"+MessageTable.Messages[1613].getExtra(3)+"</a></td></tr>");
 		}
 		replyMSG.append("</table><br><center><button value=\""+MessageTable.Messages[1614].getExtra(1)+"\" action=\"bypass -h admin_add_skill_npc ");
 		replyMSG.append(npcId);
 		replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1614].getExtra(2)+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
-		
+
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setHtml(replyMSG.toString());
 		activeChar.sendPacket(adminReply);
@@ -1633,7 +1630,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			
 			con = L2DatabaseFactory.getInstance().getConnection();
 			
-			if(Config.CUSTOM_NPC_SKILLS_TABLE)
+			if (Config.CUSTOM_NPC_SKILLS_TABLE)
 			{
 				PreparedStatement statement = con.prepareStatement("INSERT INTO `custom_npcskills`(`npcid`, `skillid`, `level`) VALUES(?,?,?)");
 				statement.setInt(1, npcId);
@@ -1651,7 +1648,6 @@ public class AdminEditNpc implements IAdminCommandHandler
 				statement.execute();
 				statement.close();
 			}
-			
 			
 			reloadNpcSkillList(npcId);
 			
@@ -1679,7 +1675,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			if (npcId > 0)
 			{
 				int updated = 0;
-				if(Config.CUSTOM_NPC_SKILLS_TABLE)
+				if (Config.CUSTOM_NPC_SKILLS_TABLE)
 				{
 					PreparedStatement statement = con.prepareStatement("DELETE FROM `custom_npcskills` WHERE `npcid`=? AND `skillid`=?");
 					statement.setInt(1, npcId);
@@ -1687,7 +1683,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 					updated = statement.executeUpdate();
 					statement.close();
 				}
-				if(updated == 0)
+				if (updated == 0)
 				{
 					PreparedStatement statement2 = con.prepareStatement("DELETE FROM `npcskills` WHERE `npcid`=? AND `skillid`=?");
 					statement2.setInt(1, npcId);
@@ -1725,7 +1721,6 @@ public class AdminEditNpc implements IAdminCommandHandler
 			if (npcData.getSkills() != null)
 				npcData.getSkills().clear();
 			
-			
 			// without race
 			PreparedStatement statement = con.prepareStatement("SELECT `skillid`, `level` FROM `npcskills` WHERE `npcid`=? AND `skillid` <> 4416");
 			statement.setInt(1, npcId);
@@ -1742,7 +1737,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			skillDataList.close();
 			statement.close();
 			
-			if(Config.CUSTOM_NPC_SKILLS_TABLE)
+			if (Config.CUSTOM_NPC_SKILLS_TABLE)
 			{
 				PreparedStatement statement2 = con.prepareStatement("SELECT `skillid`, `level` FROM `npcskills` WHERE `npcid`=? AND `skillid` <> 4416");
 				statement2.setInt(1, npcId);

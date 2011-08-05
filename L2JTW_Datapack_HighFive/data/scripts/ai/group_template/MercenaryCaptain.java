@@ -119,7 +119,7 @@ public class MercenaryCaptain extends Quest
 					{
 						if (town.getCharactersInside() != null && !town.getCharactersInside().isEmpty())
 						{
-							for (L2Character obj : town.getCharactersInside().values())
+							for (L2Character obj : town.getCharactersInsideArray())
 							{
 								if (obj == null)
 									continue;
