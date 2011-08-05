@@ -85,7 +85,7 @@ public class Valakas extends L2AttackableAIScript
 		{
 				VALAKAS
 		};
-		this.registerMobs(mob);
+		registerMobs(mob);
 		i_ai0 = 0;
 		i_ai1 = 0;
 		i_ai2 = 0;
@@ -106,7 +106,7 @@ public class Valakas extends L2AttackableAIScript
 			// setup a timer to fire after that many msec)
 			if (temp > 0)
 			{
-				this.startQuestTimer("valakas_unlock", temp, null, null);
+				startQuestTimer("valakas_unlock", temp, null, null);
 			}
 			else
 			{
@@ -118,6 +118,7 @@ public class Valakas extends L2AttackableAIScript
 				final L2Npc _valakas = valakas;
 				ThreadPoolManager.getInstance().scheduleGeneral(new Runnable()
 				{
+					@Override
 					public void run()
 					{
 						try
@@ -146,6 +147,7 @@ public class Valakas extends L2AttackableAIScript
 			final int _status = status;
 			ThreadPoolManager.getInstance().scheduleGeneral(new Runnable()
 			{
+				@Override
 				public void run()
 				{
 					try
@@ -188,6 +190,7 @@ public class Valakas extends L2AttackableAIScript
 				final L2Npc _valakas = npc;
 				ThreadPoolManager.getInstance().scheduleGeneral(new Runnable()
 				{
+					@Override
 					public void run()
 					{
 						try
@@ -976,7 +979,7 @@ public class Valakas extends L2AttackableAIScript
 		npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 		GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
 		long respawnTime = (long) Config.Interval_Of_Valakas_Spawn + Rnd.get(Config.Random_Of_Valakas_Spawn);
-		this.startQuestTimer("valakas_unlock", respawnTime, null, null);
+		startQuestTimer("valakas_unlock", respawnTime, null, null);
 		// also save the respawn time so that the info is maintained past reboots
 		StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);
 		info.set("respawn_time", (System.currentTimeMillis() + respawnTime));
