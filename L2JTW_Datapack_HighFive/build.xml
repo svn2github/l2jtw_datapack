@@ -32,7 +32,7 @@
 	<property name="build.dist.cb_sql" location="${build.dist}/cb_sql" />
 	<property name="build.dist.tools" location="${build.dist}/tools" />
 	<property name="build.dist.doc" location="${build.dist}/doc" />
-	<property name="build.dist.L2JTW_Addon" location="${build.dist}/L2JTW_Addon"/>
+	<property name="build.dist.L2JTW_Addon" location="${build.dist}/L2JTW_Addon" />
 	<property name="properties-file" location="${build.dist.game}/config/l2jdp-version.properties" />
 
 	<target name="init" description="Create the output directories. Do nothing if dirs were already created">
@@ -99,7 +99,7 @@
 		</sync>
 		<sync todir="${build.dist.L2JTW_Addon}">
 			<fileset dir="${basedir}/L2JTW_Addon">
-				<include name="**/*.*"/>
+				<include name="**/*.*" />
 			</fileset>
 		</sync>
 	</target>
