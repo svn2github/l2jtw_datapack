@@ -1315,7 +1315,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="MEN" />
 		<for>
-			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="60" effectType="PARALYZE" abnormalLvl="9" abnormalType="paralyze" />
+			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="60" effectType="PARALYZE" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5368" levels="9" name="Stun">
@@ -1496,9 +1496,6 @@
 		<set name="skillRadius" val="200" />
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_AURA" />
-		<cond> <!-- TEMP FIX: Until proper AI for Suicide Skills on mobs is done -->
-			<player hp="6" />
-		</cond>
 	</skill>
 	<skill id="5377" levels="9" name="NPC(party) -Magic Single Long Range DD - Water">
 		<!-- Update by pmq -->
