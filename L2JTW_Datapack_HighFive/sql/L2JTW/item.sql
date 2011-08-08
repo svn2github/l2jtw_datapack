@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `item`;
 CREATE TABLE `item` (
   `item_id` int(5) NOT NULL default '0',
-  `name` varchar(70) NOT NULL default '',
+  `name` varchar(120) NOT NULL default '',
   `additionalname` varchar(70) NOT NULL default '',
   PRIMARY KEY  (`item_id`)
 ) DEFAULT CHARSET=utf8;
@@ -17370,8 +17370,8 @@ INSERT INTO `item` VALUES
 (20492,'Artisan\'s Goggles 7-Day Pack',''),
 (20493,'Darkmane Pacer Mount Bracelet 7-Day Pack',''),
 (20494,'Steam Beatle Mount Bracelet 7-Day Pack',''),
-(20495,'Agathion Seal Bracelet ¡V Live Event Souvenir',''),
-(20496,'Agathion Seal Bracelet ¡V Pomona','Mental Shield - 7-day limited period'),
+(20495,'Agathion Seal Bracelet - Live Event Souvenir',''),
+(20496,'Agathion Seal Bracelet - Pomona','Mental Shield - 7-day limited period'),
 (20497,'Mother\'s Wreath (Event)','Blessing of Love - 24-hour limited period'),
 (20498,'Mother\'s Wreath','Blessing of Love - 3-day limited period'),
 (20499,'Feline Queen Hat',''),
