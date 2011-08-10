@@ -678,7 +678,7 @@ public class SeedOfDestruction extends Quest
 				spawn(world, ENTRANCE_UPPER_SPAWNS, false, true);
 				break;
 			case 1:
-				ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"敵人開始擊。兄弟們都站出來，打！！ ... 去吧！");
+				ExShowScreenMessage message1 = new ExShowScreenMessage(1800296,5,10000);
 				sendScreenMessage(world, message1);
 				for(int i : ENTRANCE_ROOM_DOORS)
 					openDoor(i,world.instanceId);
@@ -690,7 +690,7 @@ public class SeedOfDestruction extends Quest
 				// handled elsewhere
 				return;
 			case 4:
-				ExShowScreenMessage message2 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"方尖碑已經崩潰。不要讓周圍的敵人瘋狂起舞吧！");
+				ExShowScreenMessage message2 = new ExShowScreenMessage(1800295,5,10000);
 				sendScreenMessage(world, message2);
 				for(int i : SQUARE_DOORS)
 					openDoor(i,world.instanceId);
@@ -857,7 +857,7 @@ public class SeedOfDestruction extends Quest
 				{
 					if (_numAtk < 1)
 					{
-						ExShowScreenMessage message3 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"闇龍的族人啊，隨我一同戰鬥吧！");
+						ExShowScreenMessage message3 = new ExShowScreenMessage(1800298,5,10000);
 						sendScreenMessage(world, message3);
 						world._tiada.doCast(SkillTable.getInstance().getInfo(5818, 1));
 						world._tiada.doCast(SkillTable.getInstance().getInfo(181, 1));

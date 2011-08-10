@@ -223,13 +223,13 @@ public class IceFairySirra extends L2AttackableAIScript
 			cleanUp();
 	}
 	
-	public void screenMessage(L2PcInstance player, String text, int time)
+	public void screenMessage(L2PcInstance player, int npcString, int time)
 	{
 		if (player.getParty() != null)
 		{
 			for (L2PcInstance pc : player.getParty().getPartyMembers())
 			{
-				pc.sendPacket(new ExShowScreenMessage(text,time));
+				pc.sendPacket(new ExShowScreenMessage(npcString,5,time));
 			}
 		}
 		else
@@ -341,7 +341,7 @@ public class IceFairySirra extends L2AttackableAIScript
 						destroyItems(player);
 						player.getInventory().addItem("Scroll",8379,3,player,null);
 						npc.setBusy(true);
-						screenMessage(player,"芙蕾雅的執事：請稍候。",100000);
+						screenMessage(player,1121000,100000);
 						filename = getHtmlPath(3);
 					}
 					else
@@ -373,26 +373,26 @@ public class IceFairySirra extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("Party_Port"))
 		{
 			teleportInside(player);
-			screenMessage(player,"芙蕾雅的執事：請讓女王恢復原貌...",10000);
+			screenMessage(player,1121001,10000);
 			startQuestTimer("30MinutesRemaining",300000,null,player);
 		}
 		else if (event.equalsIgnoreCase("30MinutesRemaining"))
 		{
-			screenMessage(player,"剩下30分鐘。",10000);
+			screenMessage(player,1121008,10000);
 			startQuestTimer("20minutesremaining",600000,null,player);
 		}
 		else if (event.equalsIgnoreCase("20MinutesRemaining"))
 		{
-			screenMessage(player,"剩下20分鐘。",10000);
+			screenMessage(player,1121009,10000);
 			startQuestTimer("10minutesremaining",600000,null,player);
 		}
 		else if (event.equalsIgnoreCase("10MinutesRemaining"))
 		{
-			screenMessage(player,"芙蕾雅的執事：時間不多了，請您盡快。",10000);
+			screenMessage(player,1121002,10000);
 		}
 		else if (event.equalsIgnoreCase("End"))
 		{
-			screenMessage(player,"芙蕾雅的執事：難道還是不行嗎...",10000);
+			screenMessage(player,1121003,10000);
 			cleanUp();
 		}
 		else if (event.equalsIgnoreCase("respawn"))
@@ -430,7 +430,7 @@ public class IceFairySirra extends L2AttackableAIScript
 			int respawn_delay = Rnd.get(respawnMinDelay,respawnMaxDelay);
 			saveGlobalQuestVar("Sirra_Respawn", String.valueOf(System.currentTimeMillis()+respawn_delay));
 			startQuestTimer("respawn", respawn_delay, null, null);
-			screenMessage(killer,"芙蕾雅：這裡是哪裡..那天以後..",10000);
+			screenMessage(killer,1121004,10000);
 		}
 		return super.onKill(npc,killer,isPet);
 	}

@@ -86,7 +86,7 @@ public class TeleportToFantasy extends Quest
 			
 			else
 			{
-				player.sendPacket(new NpcSay(npc.getObjectId(),0,npc.getNpcId(),"你是用其它的方法來到這裡，因此將傳送到最近的魯因城鎮。"));
+				player.sendPacket(new NpcSay(npc.getObjectId(),0,npc.getNpcId(),1600019));
 		        st.getPlayer().teleToLocation(43835,-47749,-792);
 			}
 			

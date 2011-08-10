@@ -50,7 +50,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.zone.type.L2BossZone;
 import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
+//import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
@@ -227,7 +227,7 @@ public class Beleth extends L2AttackableAIScript
 			switch (_event)
 			{
 			case start:
-				_chamberOfBeleth.broadcastPacket(new ExShowScreenMessage(1, -1, 0x01, 0, 0, 0, 0, true, 10000, 0, "The door to Beleth will open in 5 minutes."));
+				//_chamberOfBeleth.broadcastPacket(new ExShowScreenMessage(1, -1, 0x01, 0, 0, 0, 0, true, 10000, 0, "The door to Beleth will open in 5 minutes."));
 				ThreadPoolManager.getInstance().scheduleGeneral(new eventExecutor(Event.open_door, null), _doorWaitTimeDuration);
 				break;
 			case open_door:

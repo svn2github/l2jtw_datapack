@@ -1434,7 +1434,7 @@ public class CrystalCaverns extends Quest
 				else
 				{
 					if (Rnd.get(100) < 5)
-						npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"°Ú~ ¦n¾j~"));
+						npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),1800042));
 					startQuestTimer("autoFood",2000,npc,null);
 				}
 				return "";
