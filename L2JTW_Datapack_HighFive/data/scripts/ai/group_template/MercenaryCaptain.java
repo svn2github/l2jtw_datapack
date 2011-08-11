@@ -52,11 +52,7 @@ public class MercenaryCaptain extends Quest
 
 	List<L2Npc> _npcs = new FastList<L2Npc>();
 
-	private static final String[] dlog =
-	{
-		"想要戰鬥嗎？會感到害怕？！再怎麼躲也無處可逃了。若想要對戰，我們傭兵隊將會親自出馬來拔刀相助！",
-		"勇氣！魄力！血氣！要在領地戰實現戰鬥夢想的傭兵們啊，來到我的跟前！財富和名譽正等著你們呢！"
-	};
+	private static final int[] dlog = { 1300163, 1300164 };
 
 	public MercenaryCaptain(int questId, String name, String descr)
 	{

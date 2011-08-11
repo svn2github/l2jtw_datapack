@@ -524,28 +524,26 @@
 		</cond>
 	</skill>
 	<skill id="22034" levels="1" name="Birthday Cake">
-		<!-- Update by pmq -->
+		<!-- Confirmed CT2.5 -->
+		<!-- Birthday Skill -->
+		<set name="despawnDelay" val="1200000" /> <!-- FIXME: This should be controlled by AI -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="create_item_id" val="20320" />
-		<set name="create_item_count" val="1" />
-		<set name="power" val="100" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="CREATE_ITEM" />
+		<set name="magicLvl" val="1" />
+		<set name="npcId" val="106" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="isPotion" val="true" />
+		<set name="skillType" val="SPAWN" />
+		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="22035" levels="1" name="Birthday Cake Effect">
-		<!-- Update by pmq -->
-		<!-- Vitamin Item -->
-		<!-- Someone should verify the consume -->
-		<set name="itemConsumeId" val="20320" />
-		<set name="itemConsumeCount" val="1" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<!-- Confirmed CT2.5 -->
+		<!-- Birthday Skill -->
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_AURA" />
 		<set name="isPotion" val="true" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormal="vitality" abnormalLvl="1" abnormalType="energy_up">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="vp_up">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
