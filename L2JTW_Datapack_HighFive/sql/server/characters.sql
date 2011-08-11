@@ -60,4 +60,4 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `language` VARCHAR(2) DEFAULT NULL,
   PRIMARY KEY (`charId`),
   KEY `clanid` (`clanid`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -40,6 +40,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
@@ -678,7 +679,7 @@ public class SeedOfDestruction extends Quest
 				spawn(world, ENTRANCE_UPPER_SPAWNS, false, true);
 				break;
 			case 1:
-				ExShowScreenMessage message1 = new ExShowScreenMessage(1800296,5,10000);
+				ExShowScreenMessage message1 = new ExShowScreenMessage(NpcStringId.ENEMIES_ARE_TRYING_TO_DESTROY_THE_FORTRESS_EVERYONE_DEFEND_THE_FORTRESS,5,10000);
 				sendScreenMessage(world, message1);
 				for(int i : ENTRANCE_ROOM_DOORS)
 					openDoor(i,world.instanceId);
@@ -690,7 +691,7 @@ public class SeedOfDestruction extends Quest
 				// handled elsewhere
 				return;
 			case 4:
-				ExShowScreenMessage message2 = new ExShowScreenMessage(1800295,5,10000);
+				ExShowScreenMessage message2 = new ExShowScreenMessage(NpcStringId.OBELISK_HAS_COLLAPSED_DONT_LET_THE_ENEMIES_JUMP_AROUND_WILDLY_ANYMORE,5,10000);
 				sendScreenMessage(world, message2);
 				for(int i : SQUARE_DOORS)
 					openDoor(i,world.instanceId);
@@ -857,7 +858,7 @@ public class SeedOfDestruction extends Quest
 				{
 					if (_numAtk < 1)
 					{
-						ExShowScreenMessage message3 = new ExShowScreenMessage(1800298,5,10000);
+						ExShowScreenMessage message3 = new ExShowScreenMessage(NpcStringId.THE_UNDEAD_OF_EKIMUS_IS_ATTACKING_SEED_OF_LIFE_DEFENDING_HALL_OF_EROSION_WILL_FAIL_EVEN_IF_ONE_SEED_OF_LIFE_IS_DESTROYED,5,10000);
 						sendScreenMessage(world, message3);
 						world._tiada.doCast(SkillTable.getInstance().getInfo(5818, 1));
 						world._tiada.doCast(SkillTable.getInstance().getInfo(181, 1));

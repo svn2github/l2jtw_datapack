@@ -45,6 +45,7 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.model.zone.L2ZoneType;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
@@ -1195,12 +1196,12 @@ public class CrystalCaverns extends Quest
 						if (nowHp < maxHp * 0.15 && world._raidStatus == 2)
 						{
 							npc.doCast(SkillTable.getInstance().getInfo(5225, 1));
-							//Delete by rocknow
+							//npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),NpcStringId.DEMON_KING_BELETH_GIVE_ME_THE_POWER_AAAHH));
 						}
 						else if (rand < 10 || nowHp < maxHp * 0.15)
 						{
 							npc.doCast(SkillTable.getInstance().getInfo(5225, 1));
-							//Delete by rocknow
+							//npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),NpcStringId.DEMON_KING_BELETH_GIVE_ME_THE_POWER_AAAHH));
 							startQuestTimer("baylor_remove_invul",30000, world._baylor, null);
 						}
 					}
@@ -1434,7 +1435,7 @@ public class CrystalCaverns extends Quest
 				else
 				{
 					if (Rnd.get(100) < 5)
-						npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),1800042));
+						npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),NpcStringId.AH_IM_HUNGRY));
 					startQuestTimer("autoFood",2000,npc,null);
 				}
 				return "";

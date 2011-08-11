@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS `custom_npc_elementals` (
   `holyDefValue` int(3) NOT NULL default 0,
   `darkDefValue` int(3) NOT NULL default 0,
   PRIMARY KEY (`npc_id`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

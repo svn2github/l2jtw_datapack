@@ -9,7 +9,7 @@ CREATE TABLE `npc_name` (
   `name` varchar(50) NOT NULL default '',
   `title` varchar(50) NOT NULL default '',
   PRIMARY KEY  (`id`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of npc_name

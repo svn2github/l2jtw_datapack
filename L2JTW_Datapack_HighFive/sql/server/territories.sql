@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS `territories` (
   `fortId` INT NOT NULL default 0,
   `ownedWardIds` varchar(30) NOT NULL DEFAULT '',
   PRIMARY KEY (`territoryId`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT IGNORE INTO `territories` VALUES
 (81,1,101,'81;'),

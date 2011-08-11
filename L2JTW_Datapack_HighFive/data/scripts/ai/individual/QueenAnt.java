@@ -58,31 +58,31 @@ public class QueenAnt extends L2AttackableAIScript
 	private static final int ROYAL = 29005;
 	
 	private static final int[] MOBS = { QUEEN, LARVA, NURSE, GUARD, ROYAL };
-	
+
 	private static final int QUEEN_X = -21610;
 	private static final int QUEEN_Y = 181594;
 	private static final int QUEEN_Z = -5734;
-	
+
 	//QUEEN Status Tracking :
 	private static final byte ALIVE = 0; //Queen Ant is spawned.
 	private static final byte DEAD = 1; //Queen Ant has been killed.
 	
 	private static L2BossZone _zone;
-	
+
 	private static SkillHolder HEAL1 = new SkillHolder(4020, 1);
 	private static SkillHolder HEAL2 = new SkillHolder(4024, 1);
-	
+
 	private L2MonsterInstance _queen = null;
 	private L2MonsterInstance _larva = null;
 	private List<L2MonsterInstance> _nurses = new FastList<L2MonsterInstance>(5);
-	
+
 	public QueenAnt(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
+
 		registerMobs(MOBS, QuestEventType.ON_SPAWN, QuestEventType.ON_KILL, QuestEventType.ON_AGGRO_RANGE_ENTER);
 		addFactionCallId(NURSE);
-		
+
 		_zone = GrandBossManager.getInstance().getZone(QUEEN_X, QUEEN_Y, QUEEN_Z);
 		addExitZoneId(_zone.getId());
 		
@@ -168,7 +168,7 @@ public class QueenAnt extends L2AttackableAIScript
 			final boolean queenNeedHeal = _queen != null && _queen.getCurrentHp() < _queen.getMaxHp();
 			if (_queen != null)
 			{
-				if (_queen.getDistance(QUEEN_X, QUEEN_Y, QUEEN_Z) > 1250)
+				if (_queen.getDistance(QUEEN_X, QUEEN_Y, QUEEN_Z) > 2000)
 				{
 					_queen.clearAggroList();
 					_queen.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(QUEEN_X, QUEEN_Y, QUEEN_Z, 0));
@@ -179,7 +179,7 @@ public class QueenAnt extends L2AttackableAIScript
 			{
 				if (nurse == null || nurse.isDead() || nurse.isCastingNow())
 					continue;
-				
+
 				notCasting = nurse.getAI().getIntention() != CtrlIntention.AI_INTENTION_CAST;
 				if (larvaNeedHeal)
 				{
@@ -194,7 +194,7 @@ public class QueenAnt extends L2AttackableAIScript
 				{
 					if (nurse.getLeader() == _larva) // skip larva's minions
 						continue;
-					
+
 					if (nurse.getTarget() != _queen || notCasting)
 					{
 						nurse.setTarget(_queen);
@@ -229,7 +229,7 @@ public class QueenAnt extends L2AttackableAIScript
 		}
 		return super.onAdvEvent(event, npc, player);
 	}
-	
+
 	@Override
 	public String onSpawn(L2Npc npc)
 	{
@@ -251,16 +251,16 @@ public class QueenAnt extends L2AttackableAIScript
 				mob.setIsRaidMinion(true);
 				break;
 		}
-		
+
 		return super.onSpawn(npc);
 	}
-	
+
 	@Override
 	public String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
 	{
 		if (caller == null || npc == null)
 			return super.onFactionCall(npc, caller, attacker, isPet);
-		
+
 		if (!npc.isCastingNow() && npc.getAI().getIntention() != CtrlIntention.AI_INTENTION_CAST)
 		{
 			if (caller.getCurrentHp() < caller.getMaxHp())
@@ -271,13 +271,13 @@ public class QueenAnt extends L2AttackableAIScript
 		}
 		return null;
 	}
-	
+
 	@Override
 	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		if (npc == null)
 			return null;
-		
+
 		final boolean isMage;
 		final L2Playable character;
 		if (isPet)
@@ -290,10 +290,10 @@ public class QueenAnt extends L2AttackableAIScript
 			isMage = player.isMageClass();
 			character = player;
 		}
-		
+
 		if (character == null)
 			return null;
-		
+
 		if (!Config.RAID_DISABLE_CURSE && character.getLevel() - npc.getLevel() > 8)
 		{
 			L2Skill curse = null;
@@ -307,20 +307,20 @@ public class QueenAnt extends L2AttackableAIScript
 				if (!character.isParalyzed() && Rnd.get(4) == 0)
 					curse = SkillTable.FrequentSkill.RAID_CURSE2.getSkill();
 			}
-			
+
 			if (curse != null)
 			{
 				npc.broadcastPacket(new MagicSkillUse(npc, character, curse.getId(), curse.getLevel(), 300, 0));
 				curse.getEffects(npc, character);
 			}
-			
+
 			((L2Attackable) npc).stopHating(character); // for calling again
 			return null;
 		}
-		
+
 		return super.onAggroRangeEnter(npc, player, isPet);
 	}
-	
+
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{

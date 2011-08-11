@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS `clan_subpledges` (
   `name` varchar(45),
   `leader_id` INT NOT NULL default '0',
   PRIMARY KEY (`clan_id`,`sub_pledge_id`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -5,7 +5,7 @@ CREATE TABLE `item` (
   `name` varchar(70) NOT NULL default '',
   `additionalname` varchar(70) NOT NULL default '',
   PRIMARY KEY  (`item_id`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of item

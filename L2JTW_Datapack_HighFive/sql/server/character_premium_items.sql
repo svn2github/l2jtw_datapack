@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS `character_premium_items` (
   `itemAugumentSkillLevel` int(3) unsigned NOT NULL DEFAULT '0',
   KEY `charId` (`charId`),
   KEY `itemNum` (`itemNum`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

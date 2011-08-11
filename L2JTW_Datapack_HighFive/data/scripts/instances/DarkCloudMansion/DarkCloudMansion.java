@@ -14,6 +14,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
@@ -112,34 +113,34 @@ public class DarkCloudMansion extends Quest
 	private static int W6 = 24230012; //Wall 6
 	private static int W7 = 24230013; //Wall 7*/
 	
-	private static int[] _spawnChat =
+	private static NpcStringId[] _spawnChat =
 	{
-		1800043, // "就相信我一次吧~",
-		1800044, // "選我吧~",
-		1800045, // "我才是真的啦~",
-		1800046, // "不是他，我才是真的啦~！",
-		1800047  // "別受騙，別受騙，我才是真的~！"
+		NpcStringId.IM_THE_REAL_ONE,
+		NpcStringId.PICK_ME,
+		NpcStringId.TRUST_ME,
+		NpcStringId.NOT_THAT_DUDE_IM_THE_REAL_ONE,
+		NpcStringId.DONT_BE_FOOLED_DONT_BE_FOOLED_IM_THE_REAL_ONE
 	};
 	
-	private static int[] _decayChat =
+	private static NpcStringId[] _decayChat =
 	{
-		1800051, // "連那個都找不出來啊~？",
-		1800052, // "我才是真的啦~ 唉喲~~！！",
-		1800053  // "找找我吧~"
+		NpcStringId.IM_THE_REAL_ONE_PHEW,
+		NpcStringId.CANT_YOU_EVEN_FIND_OUT,
+		NpcStringId.FIND_ME
 	};
 	
-	private static int[] _successChat =
+	private static NpcStringId[] _successChat =
 	{
-		1800054, // "厲害~！選對了耶~！",
-		1800055, // "哇塞~！怎麼會知道是我啊？",
-		1800056, // "做得真好~",
-		1800057  // "噢呼~ 真有眼光耶"
+		NpcStringId.HUH_HOW_DID_YOU_KNOW_IT_WAS_ME,
+		NpcStringId.EXCELLENT_CHOICE_TEEHEE,
+		NpcStringId.YOUVE_DONE_WELL,
+		NpcStringId.OH_VERY_SENSIBLE
 	};
-
-	private static int[] _faildChat =
+	
+	private static NpcStringId[] _faildChat =
 	{
-		1800049, // "對不起.. 我是假的啦~",
-		1800050  // "被騙了吧~",
+		NpcStringId.YOUVE_BEEN_FOOLED,
+		NpcStringId.SORRY_BUT_IM_THE_FAKE_ONE		
 	};
 	
 	//Second room - random monolith order

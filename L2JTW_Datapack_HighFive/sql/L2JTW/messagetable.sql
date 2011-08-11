@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `messagetable` (
   `extraMessage` text NOT NULL,
   `file` text NOT NULL,
   PRIMARY KEY  (`mid`,`language`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of messagetable

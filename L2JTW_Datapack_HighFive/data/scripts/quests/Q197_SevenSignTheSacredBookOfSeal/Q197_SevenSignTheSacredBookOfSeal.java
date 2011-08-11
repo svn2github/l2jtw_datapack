@@ -21,6 +21,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 
 /**
@@ -105,7 +106,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 				else
 				{
 					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 152520, -57486, -3430, 0, false, 300000, true);
-					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), 19806));  // 那個物品的主人不是你們...
+					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));  // 那個物品的主人不是你們...
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
 					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
@@ -118,7 +119,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 				if (ShilensevilOnSpawn)
 				{
 					ShilensevilOnSpawn = false;
-					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, 19305));  // 小心！下次就不能活著回去了。
+					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, NpcStringId.NEXT_TIME_YOU_WILL_NOT_ESCAPE));  // 小心！下次就不能活著回去了。
 					htmltext = "";
 				}
 				else

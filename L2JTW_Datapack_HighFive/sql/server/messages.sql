@@ -14,4 +14,4 @@ CREATE TABLE IF NOT EXISTS `messages` (
   `isFourStars` enum('true','false') DEFAULT 'false' NOT NULL,
   `isNews` enum('true','false') DEFAULT 'false' NOT NULL,
   PRIMARY KEY (`messageId`)
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

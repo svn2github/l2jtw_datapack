@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS `chatdata` (
   `chat_condition_end` int(11) NOT NULL,
   `chat_value2` int(11) NOT NULL DEFAULT '0',
   `chat_memo` varchar(40) DEFAULT NULL
-) DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

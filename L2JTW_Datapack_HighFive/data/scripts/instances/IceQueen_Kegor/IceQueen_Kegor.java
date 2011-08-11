@@ -30,6 +30,7 @@ import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
@@ -367,7 +368,7 @@ public class IceQueen_Kegor extends Quest
 						world.liveMobs = null;
 						cancelQuestTimer("buff", world.KEGOR, null);
 						world.KEGOR.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, player, null);
-						NpcSay cs = new NpcSay(world.KEGOR.getObjectId(), Say2.ALL, world.KEGOR.getNpcId(), 1801099);
+						NpcSay cs = new NpcSay(world.KEGOR.getObjectId(), Say2.ALL, world.KEGOR.getNpcId(), NpcStringId.I_CAN_FINALLY_TAKE_A_BREATHER_BY_THE_WAY_WHO_ARE_YOU_HMM_I_THINK_I_KNOW_WHO_SENT_YOU);
 						world.KEGOR.broadcastPacket(cs);
 						hostQuest.set("progress", "3");
 						hostQuest.set("cond", "6");
@@ -384,7 +385,7 @@ public class IceQueen_Kegor extends Quest
 			else if (npc.getNpcId() == KEGOR_IN_CAVE)
 			{
 				world.KEGOR = null;
-				NpcSay cs = new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), 1801098);
+				NpcSay cs = new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), NpcStringId.HOW_COULD_I_FALL_IN_A_PLACE_LIKE_THIS);
 				npc.broadcastPacket(cs);
 				
 				// destroy instance after 1 min

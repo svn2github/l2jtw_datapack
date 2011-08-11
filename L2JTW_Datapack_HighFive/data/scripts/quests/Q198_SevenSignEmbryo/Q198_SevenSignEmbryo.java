@@ -27,6 +27,7 @@ import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
@@ -173,7 +174,7 @@ public class Q198_SevenSignEmbryo extends Quest
 				{
 					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(),"「" + player.getName() + "」！我們得擊倒那個怪人，我會盡全力來幫你的！"));  // 1800845
 					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL1, -23656, -9236, -5392, 0, false, 600000, true, npc.getInstanceId());
-					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), 19806));  // 那個物品的主人不是你們...
+					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));  // 那個物品的主人不是你們...
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
 					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
@@ -209,7 +210,7 @@ public class Q198_SevenSignEmbryo extends Quest
 			else if (event.equalsIgnoreCase("32597-10.htm"))
 			{
 				st.set("cond", "3");
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), 19805));  // 我向你承諾，在你的未來，我們黎明將永遠伴著你！！！！
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WE_WILL_BE_WITH_YOU_ALWAYS));  // 我向你承諾，在你的未來，我們黎明將永遠伴著你！！！！
 				st.takeItems(SCULPTURE, -1);
 				st.playSound("ItemSound.quest_middle");
 			}
