@@ -3,6 +3,7 @@ package handlers.admincommandhandlers;
 import java.util.StringTokenizer;
 
 import com.l2jserver.Config;
+import com.l2jserver.gameserver.datatables.GMSkillTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2Effect;
 import com.l2jserver.gameserver.model.L2World;
@@ -25,7 +26,8 @@ public class AdminBuffs implements IAdminCommandHandler
 		"admin_stopbuff",
 		"admin_stopallbuffs",
 		"admin_areacancel",
-		"admin_removereuse"
+		"admin_removereuse",
+		"admin_switch_gm_buffs"
 	};
 	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
@@ -74,7 +76,6 @@ public class AdminBuffs implements IAdminCommandHandler
 				return false;
 			}
 		}
-		
 		else if (command.startsWith("admin_stopbuff"))
 		{
 			try
@@ -183,9 +184,26 @@ public class AdminBuffs implements IAdminCommandHandler
 				return false;
 			}
 		}
+		else if (command.startsWith("admin_switch_gm_buffs"))
+		{
+			if (Config.GM_GIVE_SPECIAL_SKILLS != Config.GM_GIVE_SPECIAL_AURA_SKILLS)
+			{
+				final boolean toAuraSkills = activeChar.getKnownSkill(7041) != null;
+				GMSkillTable.getInstance().switchSkills(activeChar, toAuraSkills);
+				activeChar.sendSkillList();
+				activeChar.sendMessage("You have succefully changed to target " + (toAuraSkills ? "aura" : "one") + " special skills.");
+				return true;
+			}
+			else
+			{
+				activeChar.sendMessage("There is nothing to switch.");
+				return false;
+			}
+		}
 		else
+		{
 			return true;
-		
+		}
 	}
 	
 	public String[] getAdminCommandList()
@@ -207,7 +225,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		final StringBuilder html = StringUtil.startAppend(500 + effects.length * 200,
 				"<html><table width=\"100%\"><tr><td width=45><button value=\""+MessageTable.Messages[1453].getMessage()+"\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">"+MessageTable.Messages[1454].getMessage(), 
 				target.getName(),
-				"</font></td><td width=45><button value=\""+MessageTable.Messages[1455].getMessage()+"\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=150>"+MessageTable.Messages[1456].getExtra(1)+"</td><td width=50>"+MessageTable.Messages[1456].getExtra(2)+"</td><td width=70>"+MessageTable.Messages[1456].getExtra(3)+"</td></tr>");
+		"</font></td><td width=45><button value=\""+MessageTable.Messages[1455].getMessage()+"\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=150>"+MessageTable.Messages[1456].getExtra(1)+"</td><td width=50>"+MessageTable.Messages[1456].getExtra(2)+"</td><td width=70>"+MessageTable.Messages[1456].getExtra(3)+"</td></tr>");
 		
 		int start = ((page - 1) * PAGE_LIMIT);
 		int end = Math.min(((page - 1) * PAGE_LIMIT) + PAGE_LIMIT, effects.length);
@@ -222,11 +240,11 @@ public class AdminBuffs implements IAdminCommandHandler
 						e.getSkill().getName(),
 						"</td><td>",
 						e.getSkill().isToggle() ? "toggle" : e.getAbnormalTime() - e.getTime() + "s",
-						"</td><td><button value=\""+MessageTable.Messages[1457].getMessage()+"\" action=\"bypass -h admin_stopbuff ",
-						Integer.toString(target.getObjectId()),
-						" ",
-						String.valueOf(e.getSkill().getId()),
-						"\" width=60 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
+								"</td><td><button value=\""+MessageTable.Messages[1457].getMessage()+"\" action=\"bypass -h admin_stopbuff ",
+								Integer.toString(target.getObjectId()),
+								" ",
+								String.valueOf(e.getSkill().getId()),
+				"\" width=60 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 			}
 		}
 		
@@ -256,7 +274,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		
 		StringUtil.append(html, "<br><center><button value=\""+MessageTable.Messages[1459].getMessage()+"\" action=\"bypass -h admin_stopallbuffs ", 
 				Integer.toString(target.getObjectId()),
-				"\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></html>");
+		"\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></html>");
 		
 		NpcHtmlMessage ms = new NpcHtmlMessage(1);
 		ms.setHtml(html.toString());

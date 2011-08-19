@@ -587,9 +587,15 @@ INSERT INTO `messagetable` VALUES ('240', 'cn', '在下一场的黑暗祭典被�
 INSERT INTO `messagetable` VALUES ('243', 'en', 'Action not handled yet.', '', 'RequestActionUse.java');
 INSERT INTO `messagetable` VALUES ('243', 'tw', '功能尚未實裝。', '', 'RequestActionUse.java');
 INSERT INTO `messagetable` VALUES ('243', 'cn', '功能尚未实装。', '', 'RequestActionUse.java');
-INSERT INTO `messagetable` VALUES ('244', 'en', 'Cannot use skills while trading', '', 'RequestActionUse.java');
+INSERT INTO `messagetable` VALUES ('244', 'en', 'You cannot use a skill while operating a private store.', '', 'RequestActionUse.java');
 INSERT INTO `messagetable` VALUES ('244', 'tw', '交易時無法使用技能。', '', 'RequestActionUse.java');
 INSERT INTO `messagetable` VALUES ('244', 'cn', '交易时无法使用技能。', '', 'RequestActionUse.java');
+INSERT INTO `messagetable` VALUES ('245', 'en', 'You cannot request a couple action yourself.', '', 'RequestActionUse.java');
+INSERT INTO `messagetable` VALUES ('245', 'tw', '交易時無法使用夫婦的行動。', '', 'RequestActionUse.java');
+INSERT INTO `messagetable` VALUES ('245', 'cn', '交易时无法使用夫妇的行动。', '', 'RequestActionUse.java');
+INSERT INTO `messagetable` VALUES ('246', 'en', 'You cannot request a couple action while casting.', '', 'RequestActionUse.java');
+INSERT INTO `messagetable` VALUES ('246', 'tw', '交易時無法使用製作。', '', 'RequestActionUse.java');
+INSERT INTO `messagetable` VALUES ('246', 'cn', '交易时无法使用制作。', '', 'RequestActionUse.java');
 
 INSERT INTO `messagetable` VALUES ('247', 'en', 'You are trying to learn skill that u can\'t..', '', 'RequestAquireSkill.java');
 INSERT INTO `messagetable` VALUES ('247', 'tw', '企圖學習不該學習的技能...', '', 'RequestAquireSkill.java');
@@ -598,12 +604,20 @@ INSERT INTO `messagetable` VALUES ('248', 'en', 'This feature is available only 
 INSERT INTO `messagetable` VALUES ('248', 'tw', '此功能只有血盟的盟主可以使用。', '', 'RequestAquireSkill.java');
 INSERT INTO `messagetable` VALUES ('248', 'cn', '此功能只有血盟的盟主可以使用。', '', 'RequestAquireSkill.java');
 
-INSERT INTO `messagetable` VALUES ('251', 'en', 'You buying too fast.', '', 'RequestBuyItem.java');
+INSERT INTO `messagetable` VALUES ('249', 'en', 'Cannot use this item.', '', 'RequestAutoSoulShot.java');
+INSERT INTO `messagetable` VALUES ('249', 'tw', '不能使用該物品。', '', 'RequestAutoSoulShot.java');
+INSERT INTO `messagetable` VALUES ('249', 'cn', '不能使用该物品。', '', 'RequestAutoSoulShot.java');
+
+INSERT INTO `messagetable` VALUES ('251', 'en', 'You are buying too fast.', '', 'RequestBuyItem.java');
 INSERT INTO `messagetable` VALUES ('251', 'tw', '你購買的速度太快。', '', 'RequestBuyItem.java');
 INSERT INTO `messagetable` VALUES ('251', 'cn', '你购买的速度太快。', '', 'RequestBuyItem.java');
 INSERT INTO `messagetable` VALUES ('252', 'en', 'Ohh Cheat dont work? You have a problem now!', '', 'RequestBuyItem.java');
 INSERT INTO `messagetable` VALUES ('252', 'tw', '此價格只有 GM 才能購買！', '', 'RequestBuyItem.java');
 INSERT INTO `messagetable` VALUES ('252', 'cn', '此价格只有 GM 才能购买！', '', 'RequestBuyItem.java');
+
+INSERT INTO `messagetable` VALUES ('254', 'en', 'You are bidding too fast.', '', 'RequestBidItemAuction.java');
+INSERT INTO `messagetable` VALUES ('254', 'tw', '你投標的速度太快。', '', 'RequestBidItemAuction.java');
+INSERT INTO `messagetable` VALUES ('254', 'cn', '你投标的速度太快。', '', 'RequestBidItemAuction.java');
 
 INSERT INTO `messagetable` VALUES ('255', 'en', '', 'The command ; does not exists!', 'RequestBypassToServer.java');
 INSERT INTO `messagetable` VALUES ('255', 'tw', '', '指令「;」並不存在！', 'RequestBypassToServer.java');
@@ -612,9 +626,16 @@ INSERT INTO `messagetable` VALUES ('256', 'en', '', 'You don not have the access
 INSERT INTO `messagetable` VALUES ('256', 'tw', '', '你並沒有足夠的權限使用此指令！', 'RequestBypassToServer.java');
 INSERT INTO `messagetable` VALUES ('256', 'cn', '', '你并没有足够的权限使用此指令', 'RequestBypassToServer.java');
 
+INSERT INTO `messagetable` VALUES ('257', 'en', 'You are crystallizing too fast.', '', 'RequestCrystallizeItem.java');
+INSERT INTO `messagetable` VALUES ('257', 'tw', '你結晶的速度太快。', '', 'RequestCrystallizeItem.java');
+INSERT INTO `messagetable` VALUES ('257', 'cn', '你结晶的速度太快。', '', 'RequestCrystallizeItem.java');
+
 INSERT INTO `messagetable` VALUES ('258', 'en', 'You destroying items too fast.', '', 'RequestDestroyItem.java');
 INSERT INTO `messagetable` VALUES ('258', 'tw', '你破壞物品的速度太快。', '', 'RequestDestroyItem.java');
 INSERT INTO `messagetable` VALUES ('258', 'cn', '你破坏物品的速度太快。', '', 'RequestDestroyItem.java');
+INSERT INTO `messagetable` VALUES ('259', 'en', 'You cannot use this item.', '', 'RequestDestroyItem.java');
+INSERT INTO `messagetable` VALUES ('259', 'tw', '你不能使用該物品。', '', 'RequestDestroyItem.java');
+INSERT INTO `messagetable` VALUES ('259', 'cn', '你不能使用该物品。', '', 'RequestDestroyItem.java');
 
 INSERT INTO `messagetable` VALUES ('261', 'en', 'You cannot drop items in Jail.', '', 'RequestDropItem.java');
 INSERT INTO `messagetable` VALUES ('261', 'tw', '無法在 GM 諮詢處丟棄物品。', '', 'RequestDropItem.java');
@@ -696,39 +717,39 @@ INSERT INTO `messagetable` VALUES ('307', 'en', 'You cannot change academy membe
 INSERT INTO `messagetable` VALUES ('307', 'tw', '無法變更學院成員的等級。', '', 'RequestPledgeSetMemberPowerGrade.java');
 INSERT INTO `messagetable` VALUES ('307', 'cn', '无法变更学院成员的等级。', '', 'RequestPledgeSetMemberPowerGrade.java');
 
-INSERT INTO `messagetable` VALUES ('310', 'en', 'You buying items too fast.', '', 'RequestPrivateStoreBuy.java');
+INSERT INTO `messagetable` VALUES ('310', 'en', 'You are buying items too fast.', '', 'RequestPrivateStoreBuy.java');
 INSERT INTO `messagetable` VALUES ('310', 'tw', '你購買物品的速度太快。', '', 'RequestPrivateStoreBuy.java');
 INSERT INTO `messagetable` VALUES ('310', 'cn', '你购买物品的速度太快。', '', 'RequestPrivateStoreBuy.java');
-INSERT INTO `messagetable` VALUES ('311', 'en', 'Transactions are disable for your Access Level', '', 'RequestPrivateStoreBuy.java');
+INSERT INTO `messagetable` VALUES ('311', 'en', 'Transactions are disabled for your Access Level', '', 'RequestPrivateStoreBuy.java');
 INSERT INTO `messagetable` VALUES ('311', 'tw', '沒有相關權限。', '', 'RequestPrivateStoreBuy.java');
 INSERT INTO `messagetable` VALUES ('311', 'cn', '没有相关权限。', '', 'RequestPrivateStoreBuy.java');
 
 INSERT INTO `messagetable` VALUES ('314', 'en', 'You selling items too fast', '', 'RequestPrivateStoreSell.java');
 INSERT INTO `messagetable` VALUES ('314', 'tw', '你販賣物品的速度太快。', '', 'RequestPrivateStoreSell.java');
 INSERT INTO `messagetable` VALUES ('314', 'cn', '你贩卖物品的速度太快。', '', 'RequestPrivateStoreSell.java');
-INSERT INTO `messagetable` VALUES ('315', 'en', 'You selling items too fast', '', 'RequestPrivateStoreSell.java');
-INSERT INTO `messagetable` VALUES ('315', 'tw', '你販賣物品的速度太快。', '', 'RequestPrivateStoreSell.java');
-INSERT INTO `messagetable` VALUES ('315', 'cn', '你贩卖物品的速度太快。', '', 'RequestPrivateStoreSell.java');
+INSERT INTO `messagetable` VALUES ('315', 'en', 'Transactions are disabled for your Access Level.', '', 'RequestPrivateStoreSell.java');
+INSERT INTO `messagetable` VALUES ('315', 'tw', '沒有相關權限。', '', 'RequestPrivateStoreSell.java');
+INSERT INTO `messagetable` VALUES ('315', 'cn', '没有相关权限。', '', 'RequestPrivateStoreSell.java');
 
 INSERT INTO `messagetable` VALUES ('318', 'en', 'Cannot use recipe book while trading', '', 'RequestRecipeBookOpen.java');
 INSERT INTO `messagetable` VALUES ('318', 'tw', '交易中無法製作。', '', 'RequestRecipeBookOpen.java');
 INSERT INTO `messagetable` VALUES ('318', 'cn', '交易中无法制作。', '', 'RequestRecipeBookOpen.java');
 
-INSERT INTO `messagetable` VALUES ('321', 'en', 'Cannot make items while trading', '', 'RequestRecipeItemMakeSelf.java');
+INSERT INTO `messagetable` VALUES ('321', 'en', 'You cannot create items while trading.', '', 'RequestRecipeItemMakeSelf.java');
 INSERT INTO `messagetable` VALUES ('321', 'tw', '交易中無法製作。', '', 'RequestRecipeItemMakeSelf.java');
 INSERT INTO `messagetable` VALUES ('321', 'cn', '交易中无法制作。', '', 'RequestRecipeItemMakeSelf.java');
-INSERT INTO `messagetable` VALUES ('322', 'en', 'Currently in Craft Mode', '', 'RequestRecipeItemMakeSelf.java');
+INSERT INTO `messagetable` VALUES ('322', 'en', 'You are currently in Craft Mode.', '', 'RequestRecipeItemMakeSelf.java');
 INSERT INTO `messagetable` VALUES ('322', 'tw', '目前為工房模式。', '', 'RequestRecipeItemMakeSelf.java');
 INSERT INTO `messagetable` VALUES ('322', 'cn', '目前为工房模式。', '', 'RequestRecipeItemMakeSelf.java');
 
-INSERT INTO `messagetable` VALUES ('325', 'en', 'Cannot make items while trading', '', 'RequestRecipeShopMakeItem.java');
+INSERT INTO `messagetable` VALUES ('325', 'en', 'You cannot create items while trading.', '', 'RequestRecipeShopMakeItem.java');
 INSERT INTO `messagetable` VALUES ('325', 'tw', '交易中無法製作。', '', 'RequestRecipeShopMakeItem.java');
 INSERT INTO `messagetable` VALUES ('325', 'cn', '交易中无法制作。', '', 'RequestRecipeShopMakeItem.java');
-INSERT INTO `messagetable` VALUES ('326', 'en', 'Currently in Craft Mode', '', 'RequestRecipeShopMakeItem.java');
+INSERT INTO `messagetable` VALUES ('326', 'en', 'You are currently in Craft Mode.', '', 'RequestRecipeShopMakeItem.java');
 INSERT INTO `messagetable` VALUES ('326', 'tw', '目前為工房模式。', '', 'RequestRecipeShopMakeItem.java');
 INSERT INTO `messagetable` VALUES ('326', 'cn', '目前为工房模式。', '', 'RequestRecipeShopMakeItem.java');
 
-INSERT INTO `messagetable` VALUES ('329', 'en', 'You using refund too fast.', '', 'RequestRefundItem.java');
+INSERT INTO `messagetable` VALUES ('329', 'en', 'You are using refund too fast.', '', 'RequestRefundItem.java');
 INSERT INTO `messagetable` VALUES ('329', 'tw', '你回購的速度太快。', '', 'RequestRefundItem.java');
 INSERT INTO `messagetable` VALUES ('329', 'cn', '你回购的速度太快。', '', 'RequestRefundItem.java');
 
@@ -746,7 +767,7 @@ INSERT INTO `messagetable` VALUES ('337', 'en', '', 'You will be re-spawned in ;
 INSERT INTO `messagetable` VALUES ('337', 'tw', '', '你將在「;」秒後復活。', 'RequestRestartPoint.java');
 INSERT INTO `messagetable` VALUES ('337', 'cn', '', '你将在「;」秒后复活。', 'RequestRestartPoint.java');
 
-INSERT INTO `messagetable` VALUES ('340', 'en', 'You buying too fast.', '', 'RequestSellItem.java');
+INSERT INTO `messagetable` VALUES ('340', 'en', 'You are buying too fast.', '', 'RequestSellItem.java');
 INSERT INTO `messagetable` VALUES ('340', 'tw', '你購買的速度太快。', '', 'RequestSellItem.java');
 INSERT INTO `messagetable` VALUES ('340', 'cn', '你购买的速度太快。', '', 'RequestSellItem.java');
 
@@ -795,22 +816,22 @@ INSERT INTO `messagetable` VALUES ('370', 'en', 'You don\'t have the access righ
 INSERT INTO `messagetable` VALUES ('370', 'tw', '沒有相關權限。', '', 'SendBypassBuildCmd.java');
 INSERT INTO `messagetable` VALUES ('370', 'cn', '没有相关权限。', '', 'SendBypassBuildCmd.java');
 
-INSERT INTO `messagetable` VALUES ('373', 'en', 'You depositing items too fast.', '', 'SendWareHouseDepositList.java');
+INSERT INTO `messagetable` VALUES ('373', 'en', 'You are depositing items too fast.', '', 'SendWareHouseDepositList.java');
 INSERT INTO `messagetable` VALUES ('373', 'tw', '你寄存物品的速度太快。', '', 'SendWareHouseDepositList.java');
 INSERT INTO `messagetable` VALUES ('373', 'cn', '你寄存物品的速度太快。', '', 'SendWareHouseDepositList.java');
 
-INSERT INTO `messagetable` VALUES ('376', 'en', 'You withdrawing items too fast.', '', 'SendWareHouseWithDrawList.java');
+INSERT INTO `messagetable` VALUES ('376', 'en', 'You are withdrawing items too fast.', '', 'SendWareHouseWithDrawList.java');
 INSERT INTO `messagetable` VALUES ('376', 'tw', '你取回物品的速度太快。', '', 'SendWareHouseWithDrawList.java');
 INSERT INTO `messagetable` VALUES ('376', 'cn', '你取回物品的速度太快。', '', 'SendWareHouseWithDrawList.java');
 
-INSERT INTO `messagetable` VALUES ('379', 'en', 'You trading too fast.', '', 'TradeDone.java');
+INSERT INTO `messagetable` VALUES ('379', 'en', 'You are trading too fast.', '', 'TradeDone.java');
 INSERT INTO `messagetable` VALUES ('379', 'tw', '你交易的速度太快。', '', 'TradeDone.java');
 INSERT INTO `messagetable` VALUES ('379', 'cn', '你交易的速度太快。', '', 'TradeDone.java');
 
 INSERT INTO `messagetable` VALUES ('382', 'en', 'You or your target cant request trade in Olympiad mode', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('382', 'tw', '無法在奧林匹亞競賽中交易。', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('382', 'cn', '无法在奥林匹亚竞赛中交易。', '', 'TradeRequest.java');
-INSERT INTO `messagetable` VALUES ('383', 'en', 'Chaotic players can\'t use Trade.', '', 'TradeRequest.java');
+INSERT INTO `messagetable` VALUES ('383', 'en', 'You cannot trade while you are in a chaotic state.', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('383', 'tw', '邪惡的玩家無法使用交易。', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('383', 'cn', '邪恶的玩家无法使用交易。', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('384', 'en', 'You cannot trade in Jail.', '', 'TradeRequest.java');

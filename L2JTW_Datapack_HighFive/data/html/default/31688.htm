@@ -1,29 +1,17 @@
-﻿<html><body scroll="no">
-<table background="l2ui_ch3.refinewnd_back_pattern" width="292" border="0" cellSpacing="0" cellPadding="0">
-<tr>
-<td align="center">
-<table>
-<tr>
-<td width="250" align="center"><img src="l2ui_ct1.olympiadwnd_df_grandtexture" width="256" height="178"></td>
-</tr>
-<tr>
-<td width="250" align="center">歡迎您來到奧林匹亞。</td>
-</tr>
-<tr>
-<td width="250" align="center">（只有貴族才能參加競賽。）</td>
-</tr>
-</table><br><br><br>
-<table border="0" cellSpacing="0" cellPadding="0">
-<tr>
-<td width="250" align="center"><button value="觀賽" action="bypass -h npc_%objectId%_Link olympiad/olympiad_observe.htm" width="200" height="31" back="l2ui_ct1.olympiadwnd_df_watch_down" fore="l2ui_ct1.olympiadwnd_df_watch"></td>
-</tr>
-<tr>
-<td width="250" align="center"><button value="查看" action="bypass -h npc_%objectId%_Chat 1" width="200" height="31" back="l2ui_ct1.olympiadwnd_df_info_down" fore="l2ui_ct1.olympiadwnd_df_info"><br></td>
-</tr>
-<tr>
-</tr>
-</table><br><br><br><br><br>
-</td>
-</tr>
-</table>
+﻿<html><head><body scroll="no">
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+<tr><td valign="top" align="center">
+	<!-- Grand Olympiad Emblem -->
+	<table border=0 cellpadding=0 cellspacing=0>
+		<tr><td width=256 height=185 background="L2UI_CT1.OlympiadWnd_DF_GrandTexture"></td></tr>
+	</table>
+	<!-- // Grand Olympiad Emblem -->
+	<table border=0 cellpadding=0 cellspacing=0>
+		<tr><td align=center>歡迎您來到奧林匹亞。</td></tr>
+		<tr><td height=10></td></tr>
+		<tr><td align=center>（只有貴族才能參加競賽。）<br></td></tr>
+		<tr><td height=40></td></tr>
+		<tr><td align=center><button action="bypass -h npc_%objectId%_Link olympiad/olympiad_observe.htm" value="觀賽" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Watch_Down" fore="L2UI_CT1.OlympiadWnd_DF_Watch"></td></tr>
+		<tr><td align=center><button action="bypass -h npc_%objectId%_Chat 1" value="查看" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Info_Down" fore="L2UI_CT1.OlympiadWnd_DF_Info"></td></tr>
+	</table>
 </body></html>
