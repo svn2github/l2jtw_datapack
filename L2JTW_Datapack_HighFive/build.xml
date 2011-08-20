@@ -83,7 +83,7 @@
 		<zip destfile="${build}/L2JTW_DataPack.zip" basedir="${build.dist}" />
 	</target>
 
-	<target name="distclean" description="Deletes the datapack distribution ZIP file only, preserving synchronized build files.">
+	<target name="clean" description="Deletes the datapack distribution ZIP file only, preserving synchronized build files.">
 		<delete file="${build}/L2JTW_DataPack.zip" />
 	</target>
 
