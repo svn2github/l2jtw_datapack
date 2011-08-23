@@ -36,7 +36,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="vampiric_attack">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="4" abnormalType="vampiric_attack">
 				<add order="0x40" stat="absorbDam" val="9" /> <!-- absorb HP from damage inflicted on enemies -->
 			</effect>
 		</for>
@@ -1240,7 +1240,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="attack_time_down">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="2" abnormalType="attack_time_down">
 				<mul order="0x30" stat="pAtkSpd" val="1.33" />
 				<basemul order="0x30" stat="rCrit" val="0.3" />
 			</effect>
@@ -1258,7 +1258,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="attack_time_down">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="2" abnormalType="attack_time_down">
 				<mul order="0x30" stat="pAtkSpd" val="1.33" />
 				<mul order="0x30" stat="pAtk" val="1.15" />
 			</effect>
@@ -1297,10 +1297,11 @@
 	</skill>
 	<skill id="5083" levels="4" name="Stun">
 		<table name="#mpConsume"> 93 93 93 5 </table>
-		<set name="magicLvl" val="80" />
+		<table name="#power"> 1715 3540 7305 8602 </table>
+		<set name="magicLvl" val="85" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="power" val="1704" />
+		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="800" />
@@ -1311,7 +1312,8 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" effectPower="50" effectType="STUN" abnormalLvl="4" abnormalType="stun" />
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="50" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+			<effect name="RemoveTarget" noicon="1" val="0" effectPower="10" effectType="DEBUFF" />
 		</for>
 	</skill>
 	<skill id="5084" levels="4" name="NPC Blinding Blow">

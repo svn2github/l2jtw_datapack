@@ -357,6 +357,7 @@
 		<set name="target" val="TARGET_CLAN" />
 	</skill>
 	<skill id="5431" levels="1" name="Slow">
+		<!-- Condition causing target to temporarily decrease attack speed and casting speed. -->
 		<!-- Update by pmq -->
 		<set name="power" val="80" /> <!-- Guess -->
 		<set name="target" val="TARGET_ONE" />
@@ -665,6 +666,7 @@
 		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="5454" levels="1" name="Shadow Bind">
+		<!-- Immobilized. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PARALYZE" />
@@ -676,6 +678,7 @@
 		</for>
 	</skill>
 	<skill id="5455" levels="1" name="Voice Bind">
+		<!-- Silenced. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="MUTE" />

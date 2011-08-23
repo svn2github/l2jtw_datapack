@@ -89,10 +89,7 @@
 		<set name="skillType" val="GIVE_SP" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<and>
-				<player flyMounted="False" />
-				<player level="76" />
-			</and>
+			<player level="76" />
 		</cond>
 	</skill>
 	<skill id="2609" levels="20" name="Escape">
@@ -274,28 +271,32 @@
 		</for>
 	</skill>
 	<skill id="2633" levels="1" name="Elmore-Aden's Holy Water">
-		<!-- Update by pmq Quest 196 -->
-		<set name="target" val="TARGET_UNLOCKABLE" />
-		<set name="skillType" val="UNLOCK_SPECIAL" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 		<set name="hitTime" val="500" />
-		<set name="staticHitTime" val="true" />
-		<set name="castRange" val="100" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" />
-		<cond msgId="109">
+		<set name="reuseDelay" val="3000" />
+		<set name="skillType" val="UNLOCK_SPECIAL" />
+		<set name="target" val="TARGET_UNLOCKABLE" />
+		<cond msgId="109"> <!-- Update by pmq Quest 196 -->
 			<target npcId="17240101,17240105,17240109" />
 		</cond>
 	</skill>
 	<skill id="2634" levels="1" name="Court Magician's Blessing">
-		<!-- Update by pmq Quest 196 -->
-		<set name="target" val="TARGET_UNLOCKABLE" />
-		<set name="skillType" val="UNLOCK_SPECIAL" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 		<set name="hitTime" val="500" />
-		<set name="staticHitTime" val="true" />
-		<set name="castRange" val="100" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" />
-		<cond msgId="109">
+		<set name="reuseDelay" val="3000" />
+		<set name="skillType" val="UNLOCK_SPECIAL" />
+		<set name="target" val="TARGET_UNLOCKABLE" />
+		<cond msgId="109"> <!-- Update by pmq Quest 196 -->
 			<target npcId="17240103,17240107" />
 		</cond>
 	</skill>
@@ -640,7 +641,7 @@
 				<not>
 					<player active_skill_id="923" />
 				</not>
-				<player class_id_restriction="93, 101, 108" />
+				<player class_id_restriction="93, 101, 108, 117" />
 				<player level="81" />
 			</and>
 		</cond>
@@ -844,31 +845,25 @@
 		</cond>
 	</skill>
 	<skill id="2670" levels="1" name="Scroll of Transformation - Red">
-		<!-- Update by rocknow -->
-		<set name="itemConsumeCount" val="1" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<!-- Confirmed CT2.5 -->
+		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="121" />
-		<cond msgId="1509">
-			<player olympiad="false" />
-		</cond>
 		<for>
-			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform" />
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform" />
 		</for>
 	</skill>
 	<skill id="2671" levels="1" name="Scroll of Transformation - Blue">
-		<!-- Update by rocknow -->
-		<set name="itemConsumeCount" val="1" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<!-- Confirmed CT2.5 -->
+		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="122" />
-		<cond msgId="1509">
-			<player olympiad="false" />
-		</cond>
 		<for>
-			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform" />
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform" />
 		</for>
 	</skill>
 	<skill id="2672" levels="1" name="Gludio Human Mercenary">

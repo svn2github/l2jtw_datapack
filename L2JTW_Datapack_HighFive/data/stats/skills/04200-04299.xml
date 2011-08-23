@@ -1231,7 +1231,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="element" val="5" /> <!-- Dark -->
 		<for>
-			<add order="0x40" stat="darkPower" val="10" />
+			<add order="0x40" stat="darkPower" val="20" />
 		</for>
 	</skill>
 	<skill id="4279" levels="5" name="Fire Attack Weak Point">

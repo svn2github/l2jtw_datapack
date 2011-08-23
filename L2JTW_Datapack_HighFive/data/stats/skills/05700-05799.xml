@@ -919,10 +919,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="reuseDelay" val="20000" />
 		<cond msgId="113" addName="1">
-			<and>
-				<player flyMounted="False" />
-				<player active_effect_id="5753" />
-			</and>
+			<player active_effect_id="5753" />
 		</cond>
 	</skill>
 	<skill id="5753" levels="1" name="Awakening">
@@ -1280,6 +1277,8 @@
 		</for>
 	</skill>
 	<skill id="5774" levels="2" name="Pailaka Reward Energy Replenishing">
+		<!-- lvl1 restore 50%, lvl2 restore 100% of vitality -->
+		<!-- lvl1 used on pailaka 40, lvl2 used on pailaka 60/70 -->
 		<!-- Update by pmq -->
 		<table name="#power"> 10000 20000 </table>
 		<set name="power" val="#power" />
@@ -1349,6 +1348,7 @@
 		</for>
 	</skill>
 	<skill id="5778" levels="1" name="Invincible After-effect">
+		<!-- skill after ct2.3 not used -->
 		<!-- Update by pmq -->
 		<set name="magicLvl" val="0" />
 		<set name="mpConsume" val="0" />
@@ -1398,9 +1398,6 @@
 		<set name="effectRange" val="600" />
 		<cond msgId="2292">
 			<player agathionId="16061" />
-		</cond>
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
 		</cond>
 		<cond msgId="109">
 			<target npcId="18678, 18679, 18680, 18681, 18682, 18683" />

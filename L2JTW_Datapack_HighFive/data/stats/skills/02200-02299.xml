@@ -553,9 +553,6 @@
 		<set name="reuseDelay" val="1000" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="valakas_item">
 				<add order="0x40" stat="valakasRes" val="11" />
@@ -571,9 +568,6 @@
 		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="valakas_item">
 				<add order="0x40" stat="valakas" val="11" />
@@ -590,33 +584,26 @@
 		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="NEGATE" />
 		<set name="target" val="TARGET_SELF" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2234" levels="1" name="Soul Breaking Arrow">
-		<!-- Update by pmq -->
-		<!-- Frintezza.java onSkillSee() -->
-		<set name="power" val="0" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="itemConsumeId" val="8192" /> <!-- Soul Breaking Arrow -->
-		<set name="itemConsumeCount" val="1" />
+		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
-		<set name="hitTime" val="2000" />
-		<set name="coolTime" val="1000" />
-		<set name="reuseDelay" val="3000" />
-		<set name="staticHitTime" val="true" />
-		<set name="staticReuse" val="true" />
+		<set name="hitTime" val="500" />
+		<set name="ignoreResists" val="true" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="2320" />
+		<set name="reuseDelay" val="30000" />
+		<set name="skillType" val="PDAM" />
+		<set name="target" val="TARGET_ONE" />
 		<cond msgId="113" addName="1">
 			<using kind="Bow" />
-			<and>
-				<player flyMounted="False" />
-				<target npcId="29045" /> <!-- Frintezza -->
-			</and>
 		</cond>
+		<for>
+			<effect name="Stun" abnormalTime="1" val="0" effectPower="100" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+		</for>
 	</skill>
 	<skill id="2235" levels="1" name="Anteroom Door Key">
 		<!-- Confirmed CT2.5 -->
@@ -715,36 +702,24 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2241" levels="1" name="Hot Spring Mineral Water">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2242" levels="1" name="Hot Spring Fountain Water">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2243" levels="1" name="Hot Spring Sulfur">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2244" levels="1" name="Herb of Life">
 		<!-- Confirmed CT2.5 -->
@@ -842,9 +817,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="600000" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="firePower" val="20" />
@@ -862,9 +834,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="600000" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="waterPower" val="20" />
@@ -882,9 +851,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="600000" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="windPower" val="20" />
@@ -902,9 +868,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="600000" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="earthPower" val="20" />
@@ -922,9 +885,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="600000" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="darkPower" val="20" />
@@ -942,9 +902,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="600000" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="holyPower" val="20" />
@@ -1358,10 +1315,7 @@
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="3600000" />
 		<cond msgId="113" addName="1">
-			<and>
-				<player flyMounted="False" />
-				<player active_skill_id_lvl="#active_skill_id_lvl" />
-			</and>
+			<player active_skill_id_lvl="#active_skill_id_lvl" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="20" abnormalType="fishing_mastery_down" />
@@ -1374,9 +1328,6 @@
 		<set name="isPotion" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="negateId" val="2274" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2276" levels="1" name="Dewdrop of Destruction">
 		<!-- Update by pmq -->
@@ -1615,10 +1566,7 @@
 		<set name="skillType" val="HEAL_STATIC" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<and>
-				<player flyMounted="False" />
-				<player levelRange="#levelRange" />
-			</and>
+			<player levelRange="#levelRange" />
 		</cond>
 	</skill>
 	<skill id="2288" levels="6" name="Elixir of Mental Strength">
@@ -1635,10 +1583,7 @@
 		<set name="skillType" val="MANAHEAL" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<and>
-				<player flyMounted="False" />
-				<player levelRange="#levelRange" />
-			</and>
+			<player levelRange="#levelRange" />
 		</cond>
 	</skill>
 	<skill id="2289" levels="6" name="Elixir of CP">
@@ -1654,10 +1599,7 @@
 		<set name="skillType" val="COMBATPOINTHEAL" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<and>
-				<player flyMounted="False" />
-				<player levelRange="#levelRange" />
-			</and>
+			<player levelRange="#levelRange" />
 		</cond>
 	</skill>
 	<skill id="2290" levels="1" name="Coffer of Shadows">
@@ -1685,9 +1627,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="faceId" val="0" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2292" levels="1" name="Facelifting Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1697,9 +1636,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="faceId" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2293" levels="1" name="Facelifting Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1709,9 +1645,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="faceId" val="2" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2294" levels="1" name="Dye Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1721,9 +1654,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="hairColorId" val="0" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2295" levels="1" name="Dye Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1733,9 +1663,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="hairColorId" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2296" levels="1" name="Dye Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1745,9 +1672,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="hairColorId" val="2" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2297" levels="1" name="Dye Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1757,9 +1681,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="hairColorId" val="3" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2298" levels="1" name="Hair Style Change Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1769,9 +1690,6 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="hairStyleId" val="0" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 	<skill id="2299" levels="1" name="Hair Style Change Potion">
 		<set name="itemConsumeCount" val="1" />
@@ -1781,8 +1699,5 @@
 		<set name="skillType" val="CHANGE_APPEARANCE" />
 		<set name="hairStyleId" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 	</skill>
 </list>

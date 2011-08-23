@@ -245,7 +245,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
 					player.sendMessage(MessageTable.Messages[1562].getMessage() + pk);
-					activeChar.sendMessage(player.getName()+MessageTable.Messages[1563].getMessage()+pk);
+					activeChar.sendMessage(player.getName() + MessageTable.Messages[1563].getMessage() + pk);
 				}
 				else
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
@@ -272,7 +272,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
 					player.sendMessage(MessageTable.Messages[1564].getMessage() + pvp);
-					activeChar.sendMessage(player.getName()+MessageTable.Messages[1565].getMessage()+pvp);
+					activeChar.sendMessage(player.getName() + MessageTable.Messages[1565].getMessage() + pvp);
 				}
 				else
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
@@ -298,8 +298,8 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.broadcastUserInfo();
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
-					player.sendMessage(MessageTable.Messages[1530].getMessage() +fame);
-					activeChar.sendMessage(player.getName()+MessageTable.Messages[1531].getMessage()+fame);
+					player.sendMessage(MessageTable.Messages[1530].getMessage() + fame);
+					activeChar.sendMessage(player.getName() + MessageTable.Messages[1531].getMessage() + fame);
 				}
 				else
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
@@ -339,8 +339,8 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
 					player.sendPacket(new ExVoteSystemInfo(player));
-					player.sendMessage(MessageTable.Messages[1532].getMessage() +recVal);
-					activeChar.sendMessage(player.getName()+MessageTable.Messages[1533].getMessage()+recVal);
+					player.sendMessage(MessageTable.Messages[1532].getMessage() + recVal);
+					activeChar.sendMessage(player.getName() + MessageTable.Messages[1533].getMessage() + recVal);
 				}
 				else
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
@@ -431,7 +431,6 @@ public class AdminEditChar implements IAdminCommandHandler
 				}
 				player.setName(val);
 				player.store();
-				CharNameTable.getInstance().addName(player);
 				
 				activeChar.sendMessage("Changed name to "+val);
 				player.sendMessage(1538);
@@ -824,7 +823,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					String.valueOf(x),
 					"\">"+MessageTable.Messages[1547].getMessage(),
 					String.valueOf(pagenr),
-					MessageTable.Messages[1547].getExtra(1)+"</a></center>");
+			MessageTable.Messages[1547].getExtra(1)+"</a></center>");
 		}
 		
 		adminReply.replace("%pages%", replyMSG.toString());
