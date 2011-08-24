@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="data/scripts" />
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" />
+	<classpathentry combineaccessrules="false" kind="src" path="/L2JTW_GameServer_HighFive_Alpha" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_HighFive_Alpha/lib/javolution-5.5.1.jar" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_HighFive_Alpha/lib/mmocore.jar" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_HighFive_Alpha/lib/netcon.jar" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_HighFive_Alpha/lib/trove-2.1.0.jar" />
+	<classpathentry kind="output" path="bin" />
+</classpath>
