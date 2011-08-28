@@ -22,7 +22,7 @@ INSERT INTO `messagetable` VALUES ('0', 'cn', '删除', '', 'Announcements.java'
 INSERT INTO `messagetable` VALUES ('1', 'en', ' Wrong protocol!', '', 'ProtocolVersion.java');
 INSERT INTO `messagetable` VALUES ('1', 'tw', ' 使用「芙蕾雅」登入「嗨翻天」的伺服器，已拒絕。', '', 'ProtocolVersion.java');
 INSERT INTO `messagetable` VALUES ('1', 'cn', ' 使用「芙蕾雅」登入「嗨翻天」的服务器，已拒绝。', '', 'ProtocolVersion.java');
-INSERT INTO `messagetable` VALUES ('2', 'en', 'Wrong protocol!', '', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('2', 'en', ' Wrong protocol!', '', 'ProtocolVersion.java');
 INSERT INTO `messagetable` VALUES ('2', 'tw', ' 使用「毀滅女神」登入「嗨翻天」的伺服器，已拒絕。', '', 'ProtocolVersion.java');
 INSERT INTO `messagetable` VALUES ('2', 'cn', ' 使用「毁灭女神」登入「嗨翻天」的服务器，已拒绝。', '', 'ProtocolVersion.java');
 INSERT INTO `messagetable` VALUES ('3', 'en', 'Manufacturer is busy, please try later.', '', 'RecipeController.java');
