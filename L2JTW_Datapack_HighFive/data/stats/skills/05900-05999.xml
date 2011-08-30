@@ -29,12 +29,12 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="reuseDelay" val="#reuseDelay" />
-		<set name="hitTime" val="#hitTime" />
 		<set name="coolTime" val="#coolTime" />
 		<set name="isMagic" val="true" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="hitTime" val="#hitTime" />
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
@@ -895,8 +895,7 @@
 			<player landingZone="True" />
 		</cond>
 		<for>
-			<effect name="Transformation" abnormalTime="-1" val="0" abnormalLvl="1" abnormalType="transform"> <!-- Transformation has unlimited time -->
-			</effect>
+			<effect name="Transformation" abnormalTime="-1" val="0" abnormalLvl="1" abnormalType="transform" /> <!-- Transformation has unlimited time -->
 		</for>
 	</skill>
 	<skill id="5983" levels="1" name="Aura Bird - Owl">
@@ -916,8 +915,7 @@
 			<player landingZone="True" />
 		</cond>
 		<for>
-			<effect name="Transformation" abnormalTime="-1" val="0" abnormalLvl="1" abnormalType="transform"> <!-- Transformation has unlimited time -->
-			</effect>
+			<effect name="Transformation" abnormalTime="-1" val="0" abnormalLvl="1" abnormalType="transform" /> <!-- Transformation has unlimited time -->
 		</for>
 	</skill>
 	<skill id="5984" levels="1" name="Hand of Death">

@@ -541,6 +541,8 @@
 		<set name="castRange" val="40" />
 		<set name="coolTime" val="720" />
 		<set name="effectRange" val="400" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
 		<set name="hitTime" val="1080" />
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -1771,7 +1773,7 @@
 			<using kind="Dual Sword,Sword,Big Sword,Blunt,Big Blunt" />
 		</cond>
 		<for>
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="30" chanceType="ON_CRIT" triggeredId="6813" triggeredLevel="#triggeredLevel" />
+			<effect name="ChanceSkillTrigger" passive="1" abnormalTime="-1" val="0" activationChance="30" chanceType="ON_CRIT" triggeredId="6813" triggeredLevel="#triggeredLevel" />
 		</for>
 	</skill>
 	<skill id="993" levels="8" name="Force Mastery">
@@ -1790,7 +1792,7 @@
 			<using kind="Dual Fist" />
 		</cond>
 		<for>
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="30" chanceType="ON_CRIT" triggeredId="6814" triggeredLevel="#triggeredLevel" />
+			<effect name="ChanceSkillTrigger" passive="1" abnormalTime="-1" val="0" activationChance="30" chanceType="ON_CRIT" triggeredId="6814" triggeredLevel="#triggeredLevel" />
 		</for>
 	</skill>
 	<skill id="994" levels="1" name="Rush">
