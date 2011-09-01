@@ -70,7 +70,7 @@ public class CharacterBirthday extends Quest
 			{
 				st.takeItems(10250, 1); // Adventurer Hat (Event)
 				st.giveItems(21594, 1); // Birthday Hat
-				htmltext = null; // FIXME: Probably has html
+				htmltext = null; // High Five is no html
 				// Despawn npc
 				npc.doDie(player);
 				_spawns--;
