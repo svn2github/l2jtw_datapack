@@ -74,9 +74,21 @@
 	</skill>
 	<skill id="22312" levels="1" name="Birthday Joy">
 		<!-- "Birthday gift received once a year. For 4 hours, recovers energy when Exp. is acquired through hunting. The buff disappears when the sub-class is changed." -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Birthday Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="isPotion" val="true" />
+		<set name="stayAfterDeath" val="true" />
+		<set name="stayOnSubclassChange" val="false" />
+		<set name="canBeDispeled" val="false" />
+		<for>
+			<effect name="Buff" abnormalTime="14400" val="0" abnormalLvl="1" abnormalType="vp_up">
+				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="22313" levels="1" name="Pa'agrio's Warm Breeze - 4 hour">
 		<!-- "For 4 hours, recovers energy when Exp. is acquired through hunting." -->
@@ -517,31 +529,31 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="target" val="TARGET_NONE" />
 	</skill>
-	<skill id="22386" levels="1" name="PC Café Transformation Scroll Box">
+	<skill id="22386" levels="1" name="PC Cafe Transformation Scroll Box">
 		<!-- Desciption: There is no available description. -->
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="target" val="TARGET_NONE" />
 	</skill>
-	<skill id="22387" levels="1" name="PC Café Gift Box">
+	<skill id="22387" levels="1" name="PC Cafe Gift Box">
 		<!-- Desciption: There is no available description. -->
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="target" val="TARGET_NONE" />
 	</skill>
-	<skill id="22388" levels="1" name="PC Café Transformation Stick Box">
+	<skill id="22388" levels="1" name="PC Cafe Transformation Stick Box">
 		<!-- Desciption: There is no available description. -->
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="target" val="TARGET_NONE" />
 	</skill>
-	<skill id="22389" levels="1" name="PC Café Hair Accessory Box">
+	<skill id="22389" levels="1" name="PC Cafe Hair Accessory Box">
 		<!-- Desciption: There is no available description. -->
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="target" val="TARGET_NONE" />
 	</skill>
-	<skill id="22390" levels="1" name="PC Café Luxury Gift Box">
+	<skill id="22390" levels="1" name="PC Cafe Luxury Gift Box">
 		<!-- Desciption: There is no available description. -->
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="NOTDONE" />

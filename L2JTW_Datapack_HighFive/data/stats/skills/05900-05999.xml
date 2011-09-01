@@ -153,6 +153,7 @@
 		<set name="isMagic" val="true" />
 	</skill>
 	<skill id="5911" levels="1" name="Pestilence Cleanse">
+		<!-- Update by pmq -->
 		<set name="castRange" val="800" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -173,6 +174,7 @@
 		</for>
 	</skill>
 	<skill id="5912" levels="1" name="Pestilence Cleanse">
+		<!-- Update by pmq -->
 		<set name="castRange" val="800" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -193,6 +195,7 @@
 		</for>
 	</skill>
 	<skill id="5913" levels="1" name="Putrefection Cleanse">
+		<!-- Update by pmq -->
 		<set name="castRange" val="800" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -212,6 +215,7 @@
 		</for>
 	</skill>
 	<skill id="5914" levels="1" name="Putrefaction Cleanse">
+		<!-- Update by pmq -->
 		<set name="castRange" val="800" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -559,6 +563,7 @@
 	</skill>
 	<skill id="5950" levels="1" name="Birthday Cake">
 		<!-- Confirmed CT2.5 -->
+		<!-- Birthday Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1500" />
