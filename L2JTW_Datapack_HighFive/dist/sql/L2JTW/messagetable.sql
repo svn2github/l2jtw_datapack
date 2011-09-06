@@ -19,12 +19,12 @@ CREATE TABLE IF NOT EXISTS `messagetable` (
 INSERT INTO `messagetable` VALUES ('0', 'en', 'Delete', '', 'Announcements.java');
 INSERT INTO `messagetable` VALUES ('0', 'tw', '刪除', '', 'Announcements.java');
 INSERT INTO `messagetable` VALUES ('0', 'cn', '删除', '', 'Announcements.java');
-INSERT INTO `messagetable` VALUES ('1', 'en', ' Wrong protocol!', '', 'ProtocolVersion.java');
-INSERT INTO `messagetable` VALUES ('1', 'tw', ' 使用「芙蕾雅」登入「嗨翻天」的伺服器，已拒絕。', '', 'ProtocolVersion.java');
-INSERT INTO `messagetable` VALUES ('1', 'cn', ' 使用「芙蕾雅」登入「嗨翻天」的服务器，已拒绝。', '', 'ProtocolVersion.java');
-INSERT INTO `messagetable` VALUES ('2', 'en', ' Wrong protocol!', '', 'ProtocolVersion.java');
-INSERT INTO `messagetable` VALUES ('2', 'tw', ' 使用「毀滅女神」登入「嗨翻天」的伺服器，已拒絕。', '', 'ProtocolVersion.java');
-INSERT INTO `messagetable` VALUES ('2', 'cn', ' 使用「毁灭女神」登入「嗨翻天」的服务器，已拒绝。', '', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('1', 'en', '', ' Wrong protocol!;;;', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('1', 'tw', '', ' 使用「;」登入「嗨翻天」的伺服器，已拒絕。;芙蕾雅;毀滅女神', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('1', 'cn', '', ' 使用「;」登入「嗨翻天」的服务器，已拒绝。;芙蕾雅;毁灭女神', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('2', 'en', '', ' Use ;Newer ;Older ;protocol:;;;', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('2', 'tw', '', ' 使用「;更新」的遊戲（協定版本:;）登入伺服器，已;未;最新;拒絕。;允許。', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('2', 'cn', '', ' 使用「;更新」的游戏（协定版本:;）登入伺服器，已;未;最新;拒绝。;允许。', 'ProtocolVersion.java');
 INSERT INTO `messagetable` VALUES ('3', 'en', 'Manufacturer is busy, please try later.', '', 'RecipeController.java');
 INSERT INTO `messagetable` VALUES ('3', 'tw', '製作處於忙碌狀態，請稍後再試。', '', 'RecipeController.java');
 INSERT INTO `messagetable` VALUES ('3', 'cn', '制作处于忙碌状态，请稍后再试。', '', 'RecipeController.java');
