@@ -194,12 +194,12 @@
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="3319" levels="1" name="Divine Protection of Ring">
-		<!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="86" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x40" stat="windRes" val="100" />
+			<sub order="0x40" stat="gustVuln" val="100" />
 		</for>
 	</skill>
 	<skill id="3320" levels="1" name="Yellow Talisman of Mental Regeneration">

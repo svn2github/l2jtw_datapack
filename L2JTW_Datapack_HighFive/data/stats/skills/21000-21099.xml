@@ -75,6 +75,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="300000" />
 		<set name="staticReuse" val="true" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="BigHead" abnormalTime="300" val="0" abnormalLvl="1" abnormal="bighead" abnormalType="big_head" />
 		</for>
@@ -634,6 +635,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DmgShield">
 				<add order="0x40" stat="reflectDam" val="#reflectDam" />
@@ -659,6 +661,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0">
 				<add order="0x40" stat="regMp" val="#regMp" />
@@ -685,6 +688,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect count="15" name="HealOverTime" val="#hotValue" abnormalLvl="1" abnormalType="LifeForce" />
 		</for>
@@ -804,6 +808,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0">
 				<add order="0x40" stat="regMp" val="#regMp" />
@@ -826,6 +831,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DmgShield">
 				<add order="0x40" stat="reflectDam" val="#reflectDam" />
@@ -839,6 +845,7 @@
 		<set name="hitTime" val="3000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="3600000" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="vp_up" abnormal="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
@@ -871,6 +878,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="isMagic" val="true" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DarkAtr">
 				<add order="0x40" stat="darkRes" val="#power" />
@@ -992,6 +1000,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0">
 				<add order="0x40" stat="regMp" val="#regMp" />
@@ -1014,6 +1023,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DmgShield">
 				<add order="0x40" stat="reflectDam" val="#reflectDam" />
@@ -1040,6 +1050,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect count="15" name="HealOverTime" val="#hotValue" abnormalType="LifeForce" />
 		</for>
@@ -1061,6 +1072,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="isMagic" val="true" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DarkAtr">
 				<add order="0x40" stat="darkRes" val="#power" />
@@ -1182,6 +1194,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0">
 				<add order="0x40" stat="regMp" val="#regMp" />
@@ -1204,6 +1217,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DmgShield">
 				<add order="0x40" stat="reflectDam" val="#reflectDam" />
@@ -1230,6 +1244,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect count="15" name="HealOverTime" val="#hotValue" abnormalLvl="1" abnormalType="LifeForce" />
 		</for>
@@ -1241,6 +1256,7 @@
 		<set name="hitTime" val="3000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="3600000" />
+		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="26" abnormalType="vp_up" abnormal="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />

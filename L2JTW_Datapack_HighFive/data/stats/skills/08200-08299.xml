@@ -756,6 +756,7 @@
 		<set name="lvlDepend" val="1" />
 		<set name="saveVs" val="CON" />
 		<set name="negateCasterId" val="5760" /> <!-- need core support -->
+		<set name="trait" val="SHOCK" />
 		<cond msgId="113" addName="1">
 			<player active_effect_id_lvl="5760,#skillLevel" />
 		</cond>
@@ -1093,6 +1094,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect count="1" name="Stun" abnormalTime="2" val="0" abnormalLvl="1" abnormalType="Stun" />
 			<effect name="ImmobileBuff" abnormalTime="120" val="0" />

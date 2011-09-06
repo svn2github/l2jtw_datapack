@@ -335,6 +335,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="staticReuse" val="true" />
+		<set name="trait" val="ETC" />
 		<cond msgId="2292">
 			<player agathionId="1559" />
 		</cond>
@@ -567,6 +568,7 @@
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="trait" val="ETC" />
 	</skill>
 	<skill id="23166" levels="1" name="Energized Rose Spirit">
 		<set name="target" val="TARGET_NONE" />
@@ -574,6 +576,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="23167" levels="1" name="Rosy Seduction">
+		<!-- Increases Max HP by 20%, Max MP by 20%, and the moving speed by 20% for 5 minutes. Increases the resistance to de-buffs by 10%. Reuse delay 10 minutes. Consumes 3 Rose Essence during skill use. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_OWNER_PET" />
 		<set name="skillType" val="BUFF" />
@@ -593,6 +596,7 @@
 		</for>
 	</skill>
 	<skill id="23168" levels="1" name="Critical Seduction">
+		<!-- Increases party members' Max HP by 30%, Max MP by 30%, Max CP by 30%, physical P. Def. by 30%, magic M. Def. by 30%, moving speed by 20%, and physical P. Atk. by 10%, and decreases MP consumption during skill use by 15% for 20 minutes. Reuse delay 40 minutes. Consumes 10 Rose Essence during skill use. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillType" val="BUFF" />
@@ -622,12 +626,14 @@
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="trait" val="ETC" />
 	</skill>
 	<skill id="23170" levels="1" name="Mesmerized">
 		<!-- Rosy Seduction has left you mesmerized. You cannot be buffed with Rosy Seduction again during the next 10 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="trait" val="ETC" />
 	</skill>
 	<skill id="23171" levels="1" name="Phoenix Agathion Cute Trick">
 		<set name="target" val="TARGET_SELF" />

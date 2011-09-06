@@ -119,7 +119,7 @@
 	<skill id="2508" levels="1" name="Squash Seed">
 		<!-- Confirmed CT2.5 -->
 		<!-- Summer Squash Event Skill -->
-		<set name="despawnDelay" val="180000" /> <!-- FIXME: This should be controlled by AI -->
+		<!-- <set name="despawnDelay" val="180000" /> --> <!-- Update by pmq -->
 		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -128,15 +128,11 @@
 		<set name="reuseDelay" val="10000" />
 		<set name="skillType" val="SPAWN" />
 		<set name="target" val="TARGET_SELF" />
-		<!-- Update by pmq -->
-		<set name="staticHitTime" val="true" />
-		<set name="isSummonSpawn" val="true" />
-		<set name="showOwnerName" val="true" />
 	</skill>
 	<skill id="2509" levels="1" name="Large Squash Seed">
 		<!-- Confirmed CT2.5 -->
 		<!-- Summer Squash Event Skill -->
-		<set name="despawnDelay" val="180000" /> <!-- FIXME: This should be controlled by AI -->
+		<!-- <set name="despawnDelay" val="180000" /> --> <!-- Update by pmq -->
 		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -145,10 +141,6 @@
 		<set name="reuseDelay" val="10000" />
 		<set name="skillType" val="SPAWN" />
 		<set name="target" val="TARGET_SELF" />
-		<!-- Update by pmq -->
-		<set name="staticHitTime" val="true" />
-		<set name="isSummonSpawn" val="true" />
-		<set name="showOwnerName" val="true" />
 	</skill>
 	<skill id="2510" levels="1" name="Mysterious Cube">
 		<!-- Confirmed CT2.5 -->
@@ -212,6 +204,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="trait" val="ETC" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>

@@ -186,6 +186,7 @@
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isDebuff" val="true" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" />
 		</for>
@@ -223,6 +224,7 @@
 		<set name="isMagic" val="true" />
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="HOLD" />
 		<for>
 			<effect name="Root" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="root_magically" />
 		</for>
@@ -253,6 +255,7 @@
 		<set name="saveVs" val="MEN" />
 		<set name="skillType" val="ROOT" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="trait" val="HOLD" />
 		<for>
 			<effect name="Root" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="root_magically" />
 		</for>
@@ -273,6 +276,7 @@
 		<set name="power" val="829" />
 		<set name="isDebuff" val="true" />
 		<set name="aggroPoints" val="100" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" effectPower="30" effectType="STUN" />
 		</for>
@@ -323,6 +327,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="900" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="40" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 		</for>
@@ -344,7 +349,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="pa_up">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="99" abnormalType="pa_up">
 				<mul order="0x30" stat="pAtk" val="1.5" />
 			</effect>
 		</for>
@@ -508,6 +513,7 @@
 		<set name="skillRadius" val="200" />
 		<set name="skillType" val="ROOT" />
 		<set name="target" val="TARGET_AURA" />
+		<set name="trait" val="HOLD" />
 		<for>
 			<effect name="Root" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="root_magically" />
 		</for>
@@ -532,6 +538,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="nextActionAttack" val="true" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="60" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 		</for>
@@ -962,6 +969,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
+		<set name="trait" val="DERANGEMENT" />
 	</skill>
 	<skill id="5166" levels="10" name="Slow">
 		<table name="#magicLvl"> 46 49 52 55 58 61 64 67 70 75 </table>
@@ -1014,6 +1022,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="stun" />
 		</for>
@@ -1031,6 +1040,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="HOLD" />
 		<for>
 			<effect name="Root" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="root_magically" />
 		</for>
@@ -1048,6 +1058,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="SLEEP" />
 		<for>
 			<effect name="Sleep" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="sleep" />
 		</for>
@@ -1065,6 +1076,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="PARALYZE" />
 		<for>
 			<effect name="Paralyze" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
@@ -1099,6 +1111,7 @@
 		<set name="saveVs" val="MEN" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="DERANGEMENT" />
 		<for>
 			<effect count="5" name="Fear" abnormalTime="2" val="0" abnormalLvl="1" abnormalType="turn_flee" />
 		</for>
@@ -1118,6 +1131,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="10" name="DamOverTime" abnormalTime="3" val="#dmg" abnormalLvl="#abnormalLvl" abnormalType="poison" abnormal="poison" />
 		</for>
@@ -1138,6 +1152,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="BLEED" />
 		<for>
 			<effect count="7" name="DamOverTime" abnormalTime="3" val="#dmg" abnormalLvl="#abnormalLvl" abnormalType="bleeding" abnormal="bleed" />
 		</for>
@@ -1155,6 +1170,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="DERANGEMENT" />
 		<for>
 			<effect name="Mute" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="silence" />
 		</for>
@@ -1172,6 +1188,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="trait" val="DERANGEMENT" />
 		<for>
 			<effect name="SilenceMagicPhysical" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="silence_all" />
 		</for>
@@ -1227,6 +1244,7 @@
 		<set name="skillRadius" val="300" />
 		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_AURA" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="ThrowUp" noicon="1" val="0" />
 		</for>

@@ -38,6 +38,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 		</for>
@@ -61,6 +62,7 @@
 		<set name="coolTime" val="660" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="80" effectType="POISON" abnormalLvl="#abnormalLvl" abnormalType="poison" />
 		</for>
@@ -84,6 +86,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
+		<set name="trait" val="BLEED" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="80" effectType="BLEED" abnormalLvl="#abnormalLvl" abnormalType="bleeding" />
 		</for>
@@ -109,6 +112,7 @@
 		<set name="saveVs" val="MEN" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
+		<set name="trait" val="PARALYZE" />
 		<for>
 			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="80" effectType="PARALYZE" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
@@ -129,6 +133,7 @@
 		<set name="coolTime" val="800" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="60" effectType="POISON" abnormalLvl="8" abnormalType="poison" />
 		</for>
@@ -151,6 +156,7 @@
 		<set name="coolTime" val="800" />
 		<set name="skillRadius" val="150" />
 		<set name="saveVs" val="MEN" />
+		<set name="trait" val="PARALYZE" />
 		<for>
 			<effect name="Paralyze" abnormalTime="30" effectPower="60" val="0" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
@@ -173,6 +179,7 @@
 		<set name="hitTime" val="4500" />
 		<set name="nextActionAttack" val="true" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 		</for>
@@ -195,6 +202,7 @@
 		<set name="hitTime" val="4500" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="80" effectType="POISON" abnormalLvl="#abnormalLvl" abnormalType="poison" />
 		</for>
@@ -218,6 +226,7 @@
 		<set name="hitTime" val="4500" />
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="BLEED" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="80" effectType="BLEED" abnormalLvl="#abnormalLvl" abnormalType="bleeding" />
 		</for>
@@ -678,6 +687,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#power" effectPower="80" effectType="POISON" abnormalLvl="#abnormalLvl" abnormalType="poison" />
 		</for>
@@ -1204,6 +1214,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 		</for>
@@ -1227,6 +1238,7 @@
 		<set name="coolTime" val="660" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="80" effectType="POISON" abnormalLvl="#abnormalLvl" abnormalType="poison" />
 		</for>
@@ -1251,6 +1263,7 @@
 		<set name="effectRange" val="200" />
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="BLEED" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="80" abnormalLvl="#abnormalLvl" effectType="BLEED" abnormalType="bleeding" />
 		</for>
@@ -1274,6 +1287,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 		<set name="saveVs" val="MEN" />
+		<set name="trait" val="PARALYZE" />
 		<for>
 			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="80" effectType="PARALYZE" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
@@ -1295,6 +1309,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillRadius" val="150" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="60" effectType="POISON" abnormalLvl="8" abnormalType="poison" />
 		</for>
@@ -1317,6 +1332,7 @@
 		<set name="skillRadius" val="150" />
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="MEN" />
+		<set name="trait" val="PARALYZE" />
 		<for>
 			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="60" effectType="PARALYZE" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
@@ -1343,6 +1359,7 @@
 		<set name="effectRange" val="1400" />
 		<set name="effectType" val="STUN" />
 		<set name="effectPower" val="80" />
+		<set name="trait" val="SHOCK" />
 		<for>
 			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="9" abnormalType="Stun" />
 		</for>
@@ -1365,6 +1382,7 @@
 		<set name="hitTime" val="4500" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="saveVs" val="CON" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="80" effectType="POISON" abnormalLvl="#abnormalLvl" abnormalType="poison" />
 		</for>
@@ -1385,6 +1403,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
+		<set name="trait" val="BLEED" />
 		<for>
 			<effect abnormal="bleed" count="10" name="DamOverTime" abnormalType="Bleed" abnormalLvl="#abnormalLvl" abnormalTime="3" val="0">
 				<mul order="0x30" stat="runSpd" val="0.8" />
@@ -1854,6 +1873,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="saveVs" val="CON" />
 		<set name="skillRadius" val="200" />
+		<set name="trait" val="POISON" />
 		<for>
 			<effect count="4" name="DamOverTime" abnormalTime="5" val="#power" effectPower="80" effectType="POISON" abnormalLvl="#abnormalLvl" abnormalType="poison" />
 		</for>

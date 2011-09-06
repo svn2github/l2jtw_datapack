@@ -197,55 +197,55 @@
 	</skill>
 	<skill id="9029" levels="1" name="Watermelon Seed">
 		<!-- Update by pmq -->
+		<!-- Summer Watermelon Event Skill -->
+		<!-- <set name="despawnDelay" val="180000" /> -->
+		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="SPAWN" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="500" />
-		<set name="staticHitTime" val="true" />
+		<set name="magicLvl" val="1" />
 		<set name="npcId" val="13271" />
-		<set name="despawnDelay" val="0" />
-		<set name="isSummonSpawn" val="true" />
-		<set name="showOwnerName" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="SPAWN" />
+		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="9030" levels="1" name="Honey Watermelon Seed">
 		<!-- Update by pmq -->
+		<!-- Summer Watermelon Event Skill -->
+		<!-- <set name="despawnDelay" val="180000" /> -->
+		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="SPAWN" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="500" />
-		<set name="staticHitTime" val="true" />
+		<set name="magicLvl" val="1" />
 		<set name="npcId" val="13275" />
-		<set name="despawnDelay" val="0" />
-		<set name="isSummonSpawn" val="true" />
-		<set name="showOwnerName" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="SPAWN" />
+		<set name="reuseDelay" val="10000" />
+		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="9031" levels="1" name="Copied Watermelon Seed">
 		<!-- Update by pmq -->
+		<!-- Summer Watermelon Event Skill -->
+		<!-- <set name="despawnDelay" val="180000" /> -->
+		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="SPAWN" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="500" />
-		<set name="staticHitTime" val="true" />
+		<set name="magicLvl" val="1" />
 		<set name="npcId" val="13271" />
-		<set name="despawnDelay" val="0" />
-		<set name="isSummonSpawn" val="true" />
-		<set name="showOwnerName" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="SPAWN" />
+		<set name="reuseDelay" val="10000" />
+		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="9032" levels="1" name="Copied Honey Watermelon Seed">
 		<!-- Update by pmq -->
+		<!-- Summer Watermelon Event Skill -->
+		<!-- <set name="despawnDelay" val="180000" /> -->
+		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="SPAWN" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="500" />
-		<set name="staticHitTime" val="true" />
+		<set name="magicLvl" val="1" />
 		<set name="npcId" val="13275" />
-		<set name="despawnDelay" val="0" />
-		<set name="isSummonSpawn" val="true" />
-		<set name="showOwnerName" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="SPAWN" />
+		<set name="reuseDelay" val="10000" />
+		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="9033" levels="1" name="Herdsman's Love Scroll">
 		<set name="target" val="TARGET_NONE" />
