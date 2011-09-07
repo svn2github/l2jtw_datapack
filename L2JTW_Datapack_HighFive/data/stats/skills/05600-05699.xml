@@ -4,6 +4,7 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- set name="castRange" val="900" / -->
 		<!-- set name="effectRange" val="1400" / -->
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="81" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="47" />
@@ -39,6 +40,7 @@
 		<set name="canBeDispeled" val="false" />
 		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<!-- set name="power" val="-99" / -->
 		<!-- set name="skillType" val="HEAL_PERCENT" / -->
@@ -54,6 +56,7 @@
 	</skill>
 	<skill id="5603" levels="1" name="Dagger Mastery">
 		<!-- Confirmed CT2.5 -->
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="40" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="8000" />
@@ -68,6 +71,7 @@
 	</skill>
 	<skill id="5604" levels="1" name="Blunt Mastery">
 		<!-- Confirmed CT2.5 -->
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="40" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="8000" />
@@ -83,6 +87,7 @@
 	<skill id="5605" levels="2" name="Power of Apella">
 		<!-- Apella Heavy -->
 		<table name="#rCrit"> 0 30 </table>
+		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="8000" />
 		<set name="skillType" val="BUFF" />
@@ -98,6 +103,7 @@
 	<skill id="5607" levels="2" name="Power of Apella">
 		<!-- Apella Light -->
 		<table name="#pAtkSpd"> 1 1.025 </table>
+		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="8000" />
 		<set name="skillType" val="BUFF" />
@@ -113,6 +119,7 @@
 	<skill id="5608" levels="2" name="Power of Apella">
 		<!-- Apella Robe -->
 		<table name="#mAtk"> 0 6 </table>
+		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="8000" />
 		<set name="skillType" val="BUFF" />
@@ -191,10 +198,10 @@
 	</skill>
 	<skill id="5618" levels="1" name="Raid Boss - Level 87">
 		<!-- For decription in client only -->
-		<!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="5619" levels="1" name="Presentation - Super Giant Mutated Animal Union">
 		<!-- Update by pmq -->
@@ -988,6 +995,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1003,6 +1011,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1018,6 +1027,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1032,6 +1042,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="POISON" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1048,6 +1059,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1063,6 +1075,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1078,6 +1091,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1093,6 +1107,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="skillType" val="STUN" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="50" />
 		<set name="isDebuff" val="true" />
@@ -1103,6 +1118,7 @@
 		</for>
 	</skill>
 	<skill id="5673" levels="1" name="Evasion Counter">
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="power" val="80" />
 		<set name="lvlDepend" val="2" />
@@ -1120,6 +1136,7 @@
 		</for>
 	</skill>
 	<skill id="5674" levels="1" name="Evasion Chance">
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="74" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1132,6 +1149,7 @@
 		</for>
 	</skill>
 	<skill id="5675" levels="1" name="Evasion Haste">
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="74" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1145,6 +1163,7 @@
 	</skill>
 	<skill id="5676" levels="1" name="Steal Mana">
 		<!-- Confirmed CT2.5 -->
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="46" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="41" />
@@ -1154,6 +1173,7 @@
 	</skill>
 	<skill id="5677" levels="1" name="Steal Mana">
 		<!-- Confirmed CT2.5 -->
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="56" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="51" />
@@ -1163,6 +1183,7 @@
 	</skill>
 	<skill id="5678" levels="1" name="Steal Mana">
 		<!-- Confirmed CT2.5 -->
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="64" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="59" />
@@ -1188,6 +1209,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="skillType" val="DEBUFF" />
@@ -1202,6 +1224,7 @@
 		<!-- set name="castRange" val="600" / -->
 		<!-- set name="effectRange" val="1100" / -->
 		<set name="hitTime" val="100" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="200" />
@@ -1216,6 +1239,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="100" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="maxNegated" val="3" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1232,6 +1256,7 @@
 		<set name="hitTime" val="100" />
 		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
@@ -1250,6 +1275,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="100" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="nextActionAttack" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1262,6 +1288,7 @@
 	<skill id="5685" levels="1" name="PvP Weapon - Casting">
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="100" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="10000" />
@@ -1278,6 +1305,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
 		<set name="hitTime" val="100" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="10000" />
@@ -1297,6 +1325,7 @@
 		<set name="hitTime" val="100" />
 		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
@@ -1319,6 +1348,7 @@
 		<set name="hitTime" val="100" />
 		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
@@ -1341,6 +1371,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
 		<set name="hitTime" val="100" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="10000" />
@@ -1357,6 +1388,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
 		<set name="hitTime" val="100" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="10000" />
@@ -1375,6 +1407,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
 		<set name="hitTime" val="100" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="10000" />
@@ -1391,6 +1424,7 @@
 	<skill id="5692" levels="1" name="PvP Armor - Heal">
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="200" />
@@ -1406,6 +1440,7 @@
 		<set name="hitTime" val="100" />
 		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
@@ -1427,6 +1462,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="100" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
@@ -1442,6 +1478,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
 		<set name="itemConsumeCount" val="1" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="10000" />
@@ -1474,6 +1511,7 @@
 		<!-- Imbue Seed of Destruction effect -->
 		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
+		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="saveVs" val="MEN" />
@@ -1489,6 +1527,7 @@
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 40 48 56 60 64 68 72 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#power"> 217 281 346 377 406 434 458 470 477 485 492 500 507 515 522 530 537 545 552 560 567 575 582 590 597 605 612 620 627 635 642 650 657 665 672 680 687 </table>
+		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="#power" />
