@@ -690,7 +690,7 @@ goto gs_install
 :gs_upgrade
 echo @echo off> temp.bat
 if exist gs_errors.txt del gs_errors.txt
-for %%i in (..\sql\server\updates\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> gs_errors.txt >> temp.bat
+for %%i in (..\sql\game\updates\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> gs_errors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
 move gs_errors.txt %workdir%
@@ -712,8 +712,8 @@ echo.
 )
 if %logging% == 0 set output=NUL
 set dest=gs
-for %%i in (..\sql\server\*.sql) do call :dump %%i
-for %%i in (..\sql\server\mods\*.sql) do call :dump %%i
+for %%i in (..\sql\game\*.sql) do call :dump %%i
+for %%i in (..\sql\game\mods\*.sql) do call :dump %%i
 for %%i in (..\sql\L2JTW\*.sql) do call :dump %%i
 
 echo 完成...
@@ -814,7 +814,7 @@ echo.
 echo 安裝 custom 自訂內容
 echo @echo off> temp.bat
 if exist custom_errors.txt del custom_errors.txt
-for %%i in (..\sql\server\custom\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.txt >> temp.bat
+for %%i in (..\sql\game\custom\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
 move custom_errors.txt %workdir%
@@ -844,7 +844,7 @@ echo.
 echo 安裝 Mods 自訂內容
 echo @echo off> temp.bat
 if exist mods_errors.txt del mods_errors.txt
-for %%i in (..\sql\server\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.txt >> temp.bat
+for %%i in (..\sql\game\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
 move mods_errors.txt %workdir%
