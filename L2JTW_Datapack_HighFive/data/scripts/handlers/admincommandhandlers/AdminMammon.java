@@ -57,7 +57,6 @@ public class AdminMammon implements IAdminCommandHandler
 			if (!_isSealValidation)
 			{
 				activeChar.sendPacket(SystemMessageId.SSQ_COMPETITION_UNDERWAY);
-				//activeChar.sendMessage(1738);
 				return false;
 			}
 			
@@ -102,7 +101,6 @@ public class AdminMammon implements IAdminCommandHandler
 			if (!_isSealValidation)
 			{
 				activeChar.sendPacket(SystemMessageId.SSQ_COMPETITION_UNDERWAY);
-				//activeChar.sendMessage(1738);
 				return true;
 			}
 			

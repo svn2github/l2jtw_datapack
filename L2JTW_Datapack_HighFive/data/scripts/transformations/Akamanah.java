@@ -17,7 +17,7 @@ public class Akamanah extends L2Transformation
 	public void onTransform()
 	{
 		// Set charachter name to transformed name
-		getPlayer().getAppearance().setVisibleName(MessageTable.Messages[590].getMessage());//Update by rocknow
+		getPlayer().getAppearance().setVisibleName(MessageTable.Messages[1923].getMessage());//Update by rocknow
 		getPlayer().getAppearance().setVisibleTitle("");
 	}
 

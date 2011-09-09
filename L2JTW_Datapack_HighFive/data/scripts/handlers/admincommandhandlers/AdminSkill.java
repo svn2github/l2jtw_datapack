@@ -152,8 +152,8 @@ public class AdminSkill implements IAdminCommandHandler
 				L2PcInstance player = (L2PcInstance) activeChar.getTarget();
 				for (L2Skill skill : player.getAllSkills())
 					player.removeSkill(skill);
-				activeChar.sendMessage(MessageTable.Messages[1827].getExtra(1) + player.getName() + MessageTable.Messages[1827].getExtra(2));
-				player.sendMessage(1828);
+				activeChar.sendMessage(MessageTable.Messages[1828].getExtra(1) + player.getName() + MessageTable.Messages[1828].getExtra(2));
+				player.sendMessage(1829);
 				player.sendSkillList();
 				player.broadcastUserInfo();
 			}

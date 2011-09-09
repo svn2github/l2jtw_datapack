@@ -108,9 +108,7 @@ INSERT INTO `messagetable` VALUES ('32', 'cn', '', '祭典的引导者;;分钟�
 INSERT INTO `messagetable` VALUES ('33', 'en', '', 'Festival Guide;The main event is now starting.', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('33', 'tw', '', '祭典的引導者;黑暗的祭典正式開始。', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('33', 'cn', '', '祭典的引导者;黑暗的祭典正式开始。', 'SevenSignsFestival.java');
-INSERT INTO `messagetable` VALUES ('34', 'en', 'The festival is about to begin!', '', 'SevenSignsFestival.java');
-INSERT INTO `messagetable` VALUES ('34', 'tw', '黑暗的祭典開始！', '', 'SevenSignsFestival.java');
-INSERT INTO `messagetable` VALUES ('34', 'cn', '黑暗的祭典开始！', '', 'SevenSignsFestival.java');
+
 INSERT INTO `messagetable` VALUES ('35', 'en', '', 'The festival will end in ; minute(s).', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('35', 'tw', '', ';分鐘後黑暗的祭典將要結束。', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('35', 'cn', '', ';分钟后黑暗的祭典将要结束。', 'SevenSignsFestival.java');
@@ -120,9 +118,7 @@ INSERT INTO `messagetable` VALUES ('36', 'cn', '宝箱已经出来了！黑暗�
 INSERT INTO `messagetable` VALUES ('37', 'en', '', 'Festival Witch;That will do! I\'ll move you to the outside soon.', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('37', 'tw', '', '祭典的巫女;祭物很充足！！我將立刻把你移到外面！', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('37', 'cn', '', '祭典的巫女;祭物很充足！！我将立刻把你移到外面！', 'SevenSignsFestival.java');
-INSERT INTO `messagetable` VALUES ('38', 'en', 'The festival will begin in 2 minutes.', '', 'SevenSignsFestival.java');
-INSERT INTO `messagetable` VALUES ('38', 'tw', '2分鐘後開始舉行黑暗的祭典。請踴躍參加。', '', 'SevenSignsFestival.java');
-INSERT INTO `messagetable` VALUES ('38', 'cn', '2分钟后开始举行黑暗的祭典。请踊跃参加。', '', 'SevenSignsFestival.java');
+
 INSERT INTO `messagetable` VALUES ('39', 'en', 'Festival Witch', '', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('39', 'tw', '祭典的巫女', '', 'SevenSignsFestival.java');
 INSERT INTO `messagetable` VALUES ('39', 'cn', '祭典的巫女', '', 'SevenSignsFestival.java');
@@ -344,7 +340,6 @@ INSERT INTO `messagetable` VALUES ('121', 'en', '404 :File Not foud: ', '', 'Top
 INSERT INTO `messagetable` VALUES ('121', 'tw', '沒有發現檔案：', '', 'TopBBSManager.java');
 INSERT INTO `messagetable` VALUES ('121', 'cn', '没有发现档案：', '', 'TopBBSManager.java');
 
-
 INSERT INTO `messagetable` VALUES ('124', 'en', 'HOME', '', 'TopicBBSManager.java');
 INSERT INTO `messagetable` VALUES ('124', 'tw', '首頁', '', 'TopicBBSManager.java');
 INSERT INTO `messagetable` VALUES ('124', 'cn', '首页', '', 'TopicBBSManager.java');
@@ -467,19 +462,6 @@ INSERT INTO `messagetable` VALUES ('180', 'en', 'You must be an attacker to pick
 INSERT INTO `messagetable` VALUES ('180', 'tw', '必須是攻城方才可撿起旗幟。', '', 'FortSiegeManager.java');
 INSERT INTO `messagetable` VALUES ('180', 'cn', '必须是攻城方才可捡起旗帜。', '', 'FortSiegeManager.java');
 
-INSERT INTO `messagetable` VALUES ('183', 'en', '', '; minute(s) left.', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('183', 'tw', '', '距離挑戰結束，還有「;」分鐘。', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('183', 'cn', '', '距离挑战结束，还有「;」分钟。', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('184', 'en', 'Game over. The teleport will appear momentarily', '', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('184', 'tw', '挑戰結束！即將傳送出去。', '', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('184', 'cn', '挑战结束！即将传送出去。', '', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('185', 'en', 'You may now enter the Sepulcher', '', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('185', 'tw', '想要挑戰四聖杯嗎？', '', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('185', 'cn', '想要挑战四圣杯吗？', '', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('186', 'en', '', 'If you place your hand on the stone statue in front of each sepulcher,; you will be able to enter', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('186', 'tw', '', '現在只要碰觸石像，;就能進入。', 'FourSepulchersManager.java');
-INSERT INTO `messagetable` VALUES ('186', 'cn', '', '现在只要碰触石象，;就能进入。', 'FourSepulchersManager.java');
-
 INSERT INTO `messagetable` VALUES ('189', 'en', 'Main', '', 'PetitionManager.java');
 INSERT INTO `messagetable` VALUES ('189', 'tw', '首頁', '', 'PetitionManager.java');
 INSERT INTO `messagetable` VALUES ('189', 'cn', '首页', '', 'PetitionManager.java');
@@ -560,21 +542,18 @@ INSERT INTO `messagetable` VALUES ('222', 'en', 'My Text is missing:', '', 'NpcQ
 INSERT INTO `messagetable` VALUES ('222', 'tw', '檔案遺失：', '', 'NpcQuestHtmlMessage.java');
 INSERT INTO `messagetable` VALUES ('222', 'cn', '档案遗失：', '', 'NpcQuestHtmlMessage.java');
 
-INSERT INTO `messagetable` VALUES ('225', 'en', 'Html was too long', '', 'ShowBoard.java');
-INSERT INTO `messagetable` VALUES ('225', 'tw', '檔案內容過長，無法正確顯示。', '', 'ShowBoard.java');
-INSERT INTO `messagetable` VALUES ('225', 'cn', '档案内容过长，无法正确显示。', '', 'ShowBoard.java');
-
 INSERT INTO `messagetable` VALUES ('228', 'en', 'Invisible', '', 'UserInfo.java');
 INSERT INTO `messagetable` VALUES ('228', 'tw', '隱形狀態', '', 'UserInfo.java');
 INSERT INTO `messagetable` VALUES ('228', 'cn', '隐形状态', '', 'UserInfo.java');
+
+INSERT INTO `messagetable` VALUES ('230', 'en', 'Transactions are disabled for your Access Level', '', 'AddTradeItem.java');
+INSERT INTO `messagetable` VALUES ('230', 'tw', '沒有相關權限。', '', 'AddTradeItem.java');
+INSERT INTO `messagetable` VALUES ('230', 'cn', '没有相关权限。', '', 'AddTradeItem.java');
 
 INSERT INTO `messagetable` VALUES ('231', 'en', '', 'User commandID ; not implemented yet.', 'BypassUserCmd.java');
 INSERT INTO `messagetable` VALUES ('231', 'tw', '', '指令「;」尚未實裝。', 'BypassUserCmd.java');
 INSERT INTO `messagetable` VALUES ('231', 'cn', '', '指令「;」尚未实装。', 'BypassUserCmd.java');
 
-INSERT INTO `messagetable` VALUES ('234', 'en', 'Players currently logged $1 due to log out in GrandBoss Zone more than $2 minutes, has transferred back to the near town.', '', 'EnterWorld.java');
-INSERT INTO `messagetable` VALUES ('234', 'tw', '目前登入玩家「$1」因於首領區域登出超過「$2」分鐘，已被傳送回附近城鎮。', '', 'EnterWorld.java');
-INSERT INTO `messagetable` VALUES ('234', 'cn', '目前登入玩家「$1」因于首领区域登出超过「$2」分钟，已被传送回附近城镇。', '', 'EnterWorld.java');
 INSERT INTO `messagetable` VALUES ('235', 'en', 'Your Partner has logged in.', '', 'EnterWorld.java');
 INSERT INTO `messagetable` VALUES ('235', 'tw', '你的伴侶已登入。', '', 'EnterWorld.java');
 INSERT INTO `messagetable` VALUES ('235', 'cn', '你的伴侣已登入。', '', 'EnterWorld.java');
@@ -602,13 +581,6 @@ INSERT INTO `messagetable` VALUES ('246', 'en', 'You cannot request a couple act
 INSERT INTO `messagetable` VALUES ('246', 'tw', '交易時無法使用製作。', '', 'RequestActionUse.java');
 INSERT INTO `messagetable` VALUES ('246', 'cn', '交易时无法使用制作。', '', 'RequestActionUse.java');
 
-INSERT INTO `messagetable` VALUES ('247', 'en', 'You are trying to learn skill that u can\'t..', '', 'RequestAquireSkill.java');
-INSERT INTO `messagetable` VALUES ('247', 'tw', '企圖學習不該學習的技能...', '', 'RequestAquireSkill.java');
-INSERT INTO `messagetable` VALUES ('247', 'cn', '企图学习不该学习的技能...', '', 'RequestAquireSkill.java');
-INSERT INTO `messagetable` VALUES ('248', 'en', 'This feature is available only for the clan leader', '', 'RequestAquireSkill.java');
-INSERT INTO `messagetable` VALUES ('248', 'tw', '此功能只有血盟的盟主可以使用。', '', 'RequestAquireSkill.java');
-INSERT INTO `messagetable` VALUES ('248', 'cn', '此功能只有血盟的盟主可以使用。', '', 'RequestAquireSkill.java');
-
 INSERT INTO `messagetable` VALUES ('249', 'en', 'Cannot use this item.', '', 'RequestAutoSoulShot.java');
 INSERT INTO `messagetable` VALUES ('249', 'tw', '不能使用該物品。', '', 'RequestAutoSoulShot.java');
 INSERT INTO `messagetable` VALUES ('249', 'cn', '不能使用该物品。', '', 'RequestAutoSoulShot.java');
@@ -627,10 +599,10 @@ INSERT INTO `messagetable` VALUES ('254', 'cn', '你投标的速度太快。', '
 INSERT INTO `messagetable` VALUES ('255', 'en', '', 'The command ; does not exists!', 'RequestBypassToServer.java');
 INSERT INTO `messagetable` VALUES ('255', 'tw', '', '指令「;」並不存在！', 'RequestBypassToServer.java');
 INSERT INTO `messagetable` VALUES ('255', 'cn', '', '指令「;」并不存在！', 'RequestBypassToServer.java');
-INSERT INTO `messagetable` VALUES ('256', 'en', '', 'You don not have the access rights to use this command!', 'RequestBypassToServer.java');
-INSERT INTO `messagetable` VALUES ('256', 'tw', '', '你並沒有足夠的權限使用此指令！', 'RequestBypassToServer.java');
-INSERT INTO `messagetable` VALUES ('256', 'cn', '', '你并没有足够的权限使用此指令', 'RequestBypassToServer.java');
 
+INSERT INTO `messagetable` VALUES ('256', 'en', 'You cannot use this item.', '', 'RequestCrystallizeItem.java');
+INSERT INTO `messagetable` VALUES ('256', 'tw', '你不能使用該物品。', '', 'RequestCrystallizeItem.java');
+INSERT INTO `messagetable` VALUES ('256', 'cn', '你不能使用该物品。', '', 'RequestCrystallizeItem.java');
 INSERT INTO `messagetable` VALUES ('257', 'en', 'You are crystallizing too fast.', '', 'RequestCrystallizeItem.java');
 INSERT INTO `messagetable` VALUES ('257', 'tw', '你結晶的速度太快。', '', 'RequestCrystallizeItem.java');
 INSERT INTO `messagetable` VALUES ('257', 'cn', '你结晶的速度太快。', '', 'RequestCrystallizeItem.java');
@@ -645,6 +617,12 @@ INSERT INTO `messagetable` VALUES ('259', 'cn', '你不能使用该物品。', '
 INSERT INTO `messagetable` VALUES ('261', 'en', 'You cannot drop items in Jail.', '', 'RequestDropItem.java');
 INSERT INTO `messagetable` VALUES ('261', 'tw', '無法在 GM 諮詢處丟棄物品。', '', 'RequestDropItem.java');
 INSERT INTO `messagetable` VALUES ('261', 'cn', '无法在 GM 谘询处丢弃物品。', '', 'RequestDropItem.java');
+INSERT INTO `messagetable` VALUES ('262', 'en', 'Transactions are disabled for your Access Level', '', 'RequestDropItem.java');
+INSERT INTO `messagetable` VALUES ('262', 'tw', '沒有相關權限。', '', 'RequestDropItem.java');
+INSERT INTO `messagetable` VALUES ('262', 'cn', '没有相关权限。', '', 'RequestDropItem.java');
+INSERT INTO `messagetable` VALUES ('263', 'en', 'You cannot use this item.', '', 'RequestDropItem.java');
+INSERT INTO `messagetable` VALUES ('263', 'tw', '你不能使用該物品。', '', 'RequestDropItem.java');
+INSERT INTO `messagetable` VALUES ('263', 'cn', '你不能使用该物品。', '', 'RequestDropItem.java');
 
 INSERT INTO `messagetable` VALUES ('264', 'en', 'You have to be the leader of a party in order to request a party duel.', '', 'RequestDuelStart.java');
 INSERT INTO `messagetable` VALUES ('264', 'tw', '只有隊長才能提出隊伍決鬥。', '', 'RequestDuelStart.java');
@@ -674,12 +652,9 @@ INSERT INTO `messagetable` VALUES ('276', 'cn', '交易时无法强化。', '', 
 INSERT INTO `messagetable` VALUES ('279', 'en', 'The insignia file size is greater than 2176 bytes.', '', 'RequestExSetPledgeCrestLarge.java');
 INSERT INTO `messagetable` VALUES ('279', 'tw', '盟徽大小超過 2176 bytes。', '', 'RequestExSetPledgeCrestLarge.java');
 INSERT INTO `messagetable` VALUES ('279', 'cn', '盟徽大小超过 2176 bytes。', '', 'RequestExSetPledgeCrestLarge.java');
-INSERT INTO `messagetable` VALUES ('280', 'en', 'Only a clan that owns a clan hall or a castle can get their emblem displayed on clan related items', '', 'RequestExSetPledgeCrestLarge.java');
-INSERT INTO `messagetable` VALUES ('280', 'tw', '只有擁有根據地或是擁有城堡的血盟，才能在與血盟相關的道具上標示徽章。', '', 'RequestExSetPledgeCrestLarge.java');
-INSERT INTO `messagetable` VALUES ('280', 'cn', '只有拥有根据地或是拥有城堡的血盟，才能在与血盟相关的道具上标示徽章。', '', 'RequestExSetPledgeCrestLarge.java');
-INSERT INTO `messagetable` VALUES ('281', 'en', 'File Transfer Error.', '', 'RequestExSetPledgeCrestLarge.java');
-INSERT INTO `messagetable` VALUES ('281', 'tw', '檔案傳輸錯誤。', '', 'RequestExSetPledgeCrestLarge.java');
-INSERT INTO `messagetable` VALUES ('281', 'cn', '档案传输错误。', '', 'RequestExSetPledgeCrestLarge.java');
+INSERT INTO `messagetable` VALUES ('280', 'en', 'File Transfer Error.', '', 'RequestExSetPledgeCrestLarge.java');
+INSERT INTO `messagetable` VALUES ('280', 'tw', '檔案傳輸錯誤。', '', 'RequestExSetPledgeCrestLarge.java');
+INSERT INTO `messagetable` VALUES ('280', 'cn', '档案传输错误。', '', 'RequestExSetPledgeCrestLarge.java');
 
 INSERT INTO `messagetable` VALUES ('283', 'en', 'You are in target\'s block list.', '', 'RequestFriendInvite.java');
 INSERT INTO `messagetable` VALUES ('283', 'tw', '你在對方的隔絕名單。', '', 'RequestFriendInvite.java');
@@ -721,6 +696,10 @@ INSERT INTO `messagetable` VALUES ('304', 'cn', '请先移除之前的关联。'
 INSERT INTO `messagetable` VALUES ('307', 'en', 'You cannot change academy member grade', '', 'RequestPledgeSetMemberPowerGrade.java');
 INSERT INTO `messagetable` VALUES ('307', 'tw', '無法變更學院成員的等級。', '', 'RequestPledgeSetMemberPowerGrade.java');
 INSERT INTO `messagetable` VALUES ('307', 'cn', '无法变更学院成员的等级。', '', 'RequestPledgeSetMemberPowerGrade.java');
+
+INSERT INTO `messagetable` VALUES ('309', 'en', 'You are buying too fast.', '', 'RequestPreviewItem.java');
+INSERT INTO `messagetable` VALUES ('309', 'tw', '你購買的速度太快。', '', 'RequestPreviewItem.java');
+INSERT INTO `messagetable` VALUES ('309', 'cn', '你购买的速度太快。', '', 'RequestPreviewItem.java');
 
 INSERT INTO `messagetable` VALUES ('310', 'en', 'You are buying items too fast.', '', 'RequestPrivateStoreBuy.java');
 INSERT INTO `messagetable` VALUES ('310', 'tw', '你購買物品的速度太快。', '', 'RequestPrivateStoreBuy.java');
@@ -776,6 +755,10 @@ INSERT INTO `messagetable` VALUES ('340', 'en', 'You are buying too fast.', '', 
 INSERT INTO `messagetable` VALUES ('340', 'tw', '你購買的速度太快。', '', 'RequestSellItem.java');
 INSERT INTO `messagetable` VALUES ('340', 'cn', '你购买的速度太快。', '', 'RequestSellItem.java');
 
+INSERT INTO `messagetable` VALUES ('342', 'en', 'Transactions are disabled for your Access Level', '', 'RequestSendPost.java');
+INSERT INTO `messagetable` VALUES ('342', 'tw', '沒有相關權限。', '', 'RequestSendPost.java');
+INSERT INTO `messagetable` VALUES ('342', 'cn', '没有相关权限。', '', 'RequestSendPost.java');
+
 INSERT INTO `messagetable` VALUES ('343', 'en', 'File transfer error.', '', 'RequestSetAllyCrest.java');
 INSERT INTO `messagetable` VALUES ('343', 'tw', '檔案轉換錯誤。', '', 'RequestSetAllyCrest.java');
 INSERT INTO `messagetable` VALUES ('343', 'cn', '档案转换错误。', '', 'RequestSetAllyCrest.java');
@@ -793,10 +776,6 @@ INSERT INTO `messagetable` VALUES ('348', 'cn', '盟徽档案太大 (最大 256 
 INSERT INTO `messagetable` VALUES ('351', 'en', 'You aren\'t at war with this clan.', '', 'RequestStopPledgeWar.java');
 INSERT INTO `messagetable` VALUES ('351', 'tw', '並無與此血盟發生戰爭。', '', 'RequestStopPledgeWar.java');
 INSERT INTO `messagetable` VALUES ('351', 'cn', '并无与此血盟发生战争。', '', 'RequestStopPledgeWar.java');
-
-INSERT INTO `messagetable` VALUES ('354', 'en', 'You aren\'t at war with this clan.', '', 'RequestSurrenderPersonally.java');
-INSERT INTO `messagetable` VALUES ('354', 'tw', '並無與此血盟發生戰爭。', '', 'RequestSurrenderPersonally.java');
-INSERT INTO `messagetable` VALUES ('354', 'cn', '并无与此血盟发生战争。', '', 'RequestSurrenderPersonally.java');
 
 INSERT INTO `messagetable` VALUES ('357', 'en', 'You aren\'t at war with this clan.', '', 'RequestSurrenderPledgeWar.java');
 INSERT INTO `messagetable` VALUES ('357', 'tw', '並無與此血盟發生戰爭。', '', 'RequestSurrenderPledgeWar.java');
@@ -824,15 +803,24 @@ INSERT INTO `messagetable` VALUES ('370', 'cn', '没有相关权限。', '', 'Se
 INSERT INTO `messagetable` VALUES ('373', 'en', 'You are depositing items too fast.', '', 'SendWareHouseDepositList.java');
 INSERT INTO `messagetable` VALUES ('373', 'tw', '你寄存物品的速度太快。', '', 'SendWareHouseDepositList.java');
 INSERT INTO `messagetable` VALUES ('373', 'cn', '你寄存物品的速度太快。', '', 'SendWareHouseDepositList.java');
+INSERT INTO `messagetable` VALUES ('374', 'en', 'Transactions are disabled for your Access Level', '', 'SendWareHouseDepositList.java');
+INSERT INTO `messagetable` VALUES ('374', 'tw', '沒有相關權限。', '', 'SendWareHouseDepositList.java');
+INSERT INTO `messagetable` VALUES ('374', 'cn', '没有相关权限。', '', 'SendWareHouseDepositList.java');
 
 INSERT INTO `messagetable` VALUES ('376', 'en', 'You are withdrawing items too fast.', '', 'SendWareHouseWithDrawList.java');
 INSERT INTO `messagetable` VALUES ('376', 'tw', '你取回物品的速度太快。', '', 'SendWareHouseWithDrawList.java');
 INSERT INTO `messagetable` VALUES ('376', 'cn', '你取回物品的速度太快。', '', 'SendWareHouseWithDrawList.java');
+INSERT INTO `messagetable` VALUES ('377', 'en', 'Transactions are disabled for your Access Level', '', 'SendWareHouseWithDrawList.java');
+INSERT INTO `messagetable` VALUES ('377', 'tw', '沒有相關權限。', '', 'SendWareHouseWithDrawList.java');
+INSERT INTO `messagetable` VALUES ('377', 'cn', '没有相关权限。', '', 'SendWareHouseWithDrawList.java');
 
 INSERT INTO `messagetable` VALUES ('379', 'en', 'You are trading too fast.', '', 'TradeDone.java');
 INSERT INTO `messagetable` VALUES ('379', 'tw', '你交易的速度太快。', '', 'TradeDone.java');
 INSERT INTO `messagetable` VALUES ('379', 'cn', '你交易的速度太快。', '', 'TradeDone.java');
 
+INSERT INTO `messagetable` VALUES ('381', 'en', 'Transactions are disabled for your Access Level', '', 'TradeRequest.java');
+INSERT INTO `messagetable` VALUES ('381', 'tw', '沒有相關權限。', '', 'TradeRequest.java');
+INSERT INTO `messagetable` VALUES ('381', 'cn', '没有相关权限。', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('382', 'en', 'You or your target cant request trade in Olympiad mode', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('382', 'tw', '無法在奧林匹亞競賽中交易。', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('382', 'cn', '无法在奥林匹亚竞赛中交易。', '', 'TradeRequest.java');
@@ -845,6 +833,13 @@ INSERT INTO `messagetable` VALUES ('384', 'cn', '监禁中进行交易。', '', 
 INSERT INTO `messagetable` VALUES ('385', 'en', 'Target is in trade refusal mode', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('385', 'tw', '對方目前為交易拒絕狀態。', '', 'TradeRequest.java');
 INSERT INTO `messagetable` VALUES ('385', 'cn', '对方目前为交易拒绝状态。', '', 'TradeRequest.java');
+INSERT INTO `messagetable` VALUES ('386', 'en', 'You cannot request a trade while your target is in a chaotic state.', '', 'TradeRequest.java');
+INSERT INTO `messagetable` VALUES ('386', 'tw', '無法與邪惡的玩家進行交易。', '', 'TradeRequest.java');
+INSERT INTO `messagetable` VALUES ('386', 'cn', '无法与邪恶的玩家进行交易。', '', 'TradeRequest.java');
+
+INSERT INTO `messagetable` VALUES ('387', 'en', 'Cannot use this item.', '', 'UseItem.java');
+INSERT INTO `messagetable` VALUES ('387', 'tw', '不能使用該物品。', '', 'UseItem.java');
+INSERT INTO `messagetable` VALUES ('387', 'cn', '不能使用该物品。', '', 'UseItem.java');
 
 INSERT INTO `messagetable` VALUES ('388', 'en', '', 'The ; has spawned near ;!', 'AutoSpawnHandler.java');
 INSERT INTO `messagetable` VALUES ('388', 'tw', '', '「;」出現在「;」的地區！', 'AutoSpawnHandler.java');
@@ -871,13 +866,6 @@ INSERT INTO `messagetable` VALUES ('401', 'cn', '不能再创立学院了。', '
 INSERT INTO `messagetable` VALUES ('402', 'en', '', 'Alliance ; has been created.', 'L2Clan.java');
 INSERT INTO `messagetable` VALUES ('402', 'tw', '', '創立「;」同盟。', 'L2Clan.java');
 INSERT INTO `messagetable` VALUES ('402', 'cn', '', '创立「;」同盟。', 'L2Clan.java');
-
-INSERT INTO `messagetable` VALUES ('405', 'en', 'You cannot pickup mercenaries while in a party.', '', 'L2ItemInstance.java');
-INSERT INTO `messagetable` VALUES ('405', 'tw', '組隊時無法撿起傭兵物件。', '', 'L2ItemInstance.java');
-INSERT INTO `messagetable` VALUES ('405', 'cn', '组队时无法捡起佣兵物件。', '', 'L2ItemInstance.java');
-INSERT INTO `messagetable` VALUES ('406', 'en', 'Only the castle lord can pickup mercenaries.', '', 'L2ItemInstance.java');
-INSERT INTO `messagetable` VALUES ('406', 'tw', '只有城主可以撿起傭兵物件。', '', 'L2ItemInstance.java');
-INSERT INTO `messagetable` VALUES ('406', 'cn', '只有城主可以捡起佣兵物件。', '', 'L2ItemInstance.java');
 
 INSERT INTO `messagetable` VALUES ('409', 'en', 'You may not resurrect participants in a festival.', '', 'L2Skill.java');
 INSERT INTO `messagetable` VALUES ('409', 'tw', '無法在黑暗的祭典使用。', '', 'L2Skill.java');
@@ -938,66 +926,58 @@ INSERT INTO `messagetable` VALUES ('434', 'en', 'The duel was canceled because a
 INSERT INTO `messagetable` VALUES ('434', 'tw', '決鬥已取消，因位決鬥者正在進行 PvP 競賽。', '', 'Duel.java');
 INSERT INTO `messagetable` VALUES ('434', 'cn', '决斗已取消，因位决斗者正在进行 PvP 竞赛。', '', 'Duel.java');
 
-INSERT INTO `messagetable` VALUES ('437', 'en', 'You may have broken our arrows, but you will never break our will! Archers retreat!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('437', 'tw', '你們雖能折斷我的箭矢，但絕對不能折斷我們的意志...弓兵隊後退。', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('437', 'cn', '你们虽能折断我的箭矢，但绝对不能折断我们的意志...弓兵队后退。', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('438', 'en', 'Aieeee! Command Center! This is guard unit! We need backup right away!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('438', 'tw', '啊...本部...這裡是守備隊... 請速派兵支援... 啊！', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('438', 'cn', '啊...本部...这里是守备队... 请速派兵支援... 啊！', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('439', 'en', 'At last! The Magic Field that protects the fortress has weakened! Volunteers, stand back!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('439', 'tw', '啊...保護要塞的魔法陣力量漸衰弱，支援隊員，全員退下！', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('439', 'cn', '啊...保护要塞的魔法阵力量渐衰弱，支援队员，全员退下！', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('440', 'en', 'I feel so much grief that I can\'t even take care of myself. There isn\'t any reason for me to stay here any longer.', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('440', 'tw', '呼呼...真是可悲可歎啊，我竟然連我自己都照顧不了，那我也沒理由繼續待在這裡了。', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('440', 'cn', '呼呼...真是可悲可叹啊，我竟然连我自己都照顾不了，那我也没理由继续待在这里了。', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('441', 'en', '', 'Only clans with Level ; and higher may register for a fort siege.', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('441', 'tw', '', '等級「;」以上的血盟才可以登記要塞戰。', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('441', 'cn', '', '等级「;」以上的血盟才可以登记要塞战。', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('442', 'en', 'You need 250,000 adena to register', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('442', 'tw', '登記需要 250,000 金幣。', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('442', 'cn', '登记需要 250,000 金币。', '', 'FortSiege.java');
+
 INSERT INTO `messagetable` VALUES ('443', 'en', '', '; was defeated', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('443', 'tw', '', '對抗;獲得勝利。', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('443', 'cn', '', '对抗;获得胜利。', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('444', 'en', 'Gained Hero status', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('444', 'tw', '取得英雄資格。', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('444', 'cn', '取得英雄资格。', '', 'Hero.java');
+
 INSERT INTO `messagetable` VALUES ('445', 'en', 'You were removed from the instance', '', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('445', 'tw', '離開即時地區。', '', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('445', 'cn', '离开即时地区。', '', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('446', 'en', '', 'Notice; seconds left.', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('446', 'tw', '', '注意; 秒後挑戰時間結束。', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('446', 'cn', '', '注意; 秒后挑战时间结束。', 'Instance.java');
+
 INSERT INTO `messagetable` VALUES ('447', 'en', '', '; Castle was successfuly taken', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('447', 'tw', '', '參加;攻城戰，領導盟友走向勝利。', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('447', 'cn', '', '参加;攻城战，领导盟友走向胜利。', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('448', 'en', 'victory', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('448', 'tw', '勝', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('448', 'cn', '胜', '', 'Hero.java');
-INSERT INTO `messagetable` VALUES ('449', 'en', 'You are already in the event players list !!', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('449', 'tw', '你已經登記了！', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('449', 'cn', '你已经登记了！', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('450', 'en', 'Participate !!', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('450', 'tw', '參加！', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('450', 'cn', '参加！', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('451', 'en', 'event inscriptor', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('451', 'tw', '活動怪物', '', 'L2Event.java');
-INSERT INTO `messagetable` VALUES ('451', 'cn', '活动怪物', '', 'L2Event.java');
+
+INSERT INTO `messagetable` VALUES ('450', 'en', 'Prev', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('450', 'tw', '上一頁', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('450', 'cn', '上一页', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('451', 'en', 'Next', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('451', 'tw', '下一頁', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('451', 'cn', '下一页', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('452', 'en', 'loss', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('452', 'tw', '敗', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('452', 'cn', '败', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('453', 'en', 'draw', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('453', 'tw', '和', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('453', 'cn', '和', '', 'Hero.java');
+
 INSERT INTO `messagetable` VALUES ('454', 'en', '', 'You cannot register as a defender because ; is owned by NPC.', 'Siege.java');
 INSERT INTO `messagetable` VALUES ('454', 'tw', '', '無法登記為守城方，因為「;」是屬於 NPC 的。', 'Siege.java');
 INSERT INTO `messagetable` VALUES ('454', 'cn', '', '无法登记为守城方，因为「;」是属于 NPC 的。', 'Siege.java');
+
 INSERT INTO `messagetable` VALUES ('455', 'en', ':xx', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('455', 'tw', '時', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('455', 'cn', '时', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('456', 'en', 'cls', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('456', 'tw', '職業類別', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('456', 'cn', '职业类别', '', 'Hero.java');
+
 INSERT INTO `messagetable` VALUES ('457', 'en', 'TvT Event: Event has ended. No team won due to inactivity!', '', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('457', 'tw', 'TvT 活動：沒有任何團隊參加比賽，因此活動結束！', '', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('457', 'cn', 'TvT 活动：没有任何团队参加比赛，因此活动结束！', '', 'TvTEvent.java');
@@ -1013,10 +993,10 @@ INSERT INTO `messagetable` VALUES ('460', 'cn', '', 'TvT 活动：活动结束�
 INSERT INTO `messagetable` VALUES ('461', 'en', '', 'I have killed ;!', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('461', 'tw', '', '擊倒;！', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('461', 'cn', '', '击倒;！', 'TvTEvent.java');
+
 INSERT INTO `messagetable` VALUES ('462', 'en', 'non-cls', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('462', 'tw', '不限職業', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('462', 'cn', '不限职业', '', 'Hero.java');
-
 
 INSERT INTO `messagetable` VALUES ('464', 'en', 'TvT Event: Event was cancelled.', '', 'TvTManager.java');
 INSERT INTO `messagetable` VALUES ('464', 'tw', 'TvT 活動：活動已取消。', '', 'TvTManager.java');
@@ -1055,39 +1035,6 @@ INSERT INTO `messagetable` VALUES ('475', 'en', ' second(s) until the event is f
 INSERT INTO `messagetable` VALUES ('475', 'tw', ' 秒後，活動結束！', '', 'TvTManager.java');
 INSERT INTO `messagetable` VALUES ('475', 'cn', ' 秒后，活动结束！', '', 'TvTManager.java');
 
-INSERT INTO `messagetable` VALUES ('478', 'en', 'You can\'t join olympiad while participating on TvT Event.', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('478', 'tw', '你已經登記 TvT 活動，就無法再參加奧林匹亞競賽。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('478', 'cn', '你已经登记 TvT 活动，就无法再参加奥林匹亚竞赛。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('479', 'en', 'Cant register when you have less than 3 points', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('479', 'tw', '當積分在 3 點以下時無法參加競賽。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('479', 'cn', '当积分在 3 点以下时无法参加竞赛。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('480', 'en', 'Cant register when you have less than 5 points', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('480', 'tw', '當積分在 5 點以下時無法參加競賽。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('480', 'cn', '当积分在 5 点以下时无法参加竞赛。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('481', 'en', 'Can\'t deregister whilst you are already selected for a game', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('481', 'tw', '當競賽已開始時，就無法取消登記。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('481', 'cn', '当竞赛已开始时，就无法取消登记。', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('482', 'en', 'Initial State', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('482', 'tw', '準備中', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('482', 'cn', '准备中', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('483', 'en', 'Playing', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('483', 'tw', '進行中', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('483', 'cn', '进行中', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('484', 'en', 'Standby', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('484', 'tw', '等待中', '', 'Olympiad.java');
-INSERT INTO `messagetable` VALUES ('484', 'cn', '等待中', '', 'Olympiad.java');
-
-INSERT INTO `messagetable` VALUES ('488', 'en', '', 'Olympiad is going to begin in Arena ; in a moment.', 'OlympiadGame.java');
-INSERT INTO `messagetable` VALUES ('488', 'tw', '', '稍後將在「;」競技場舉行奧林匹亞', 'OlympiadGame.java');
-INSERT INTO `messagetable` VALUES ('488', 'cn', '', '稍后将在「;」竞技场举行奥林匹亚', 'OlympiadGame.java');
-INSERT INTO `messagetable` VALUES ('489', 'en', '', ' class-free individual match.; class-specific individual match.', 'OlympiadGame.java');
-INSERT INTO `messagetable` VALUES ('489', 'tw', '', '不限職業類別個人比賽。;職業類別個人比賽。', 'OlympiadGame.java');
-INSERT INTO `messagetable` VALUES ('489', 'cn', '', '不限职业类别个人比赛。;职业类别个人比赛。', 'OlympiadGame.java');
-
-INSERT INTO `messagetable` VALUES ('491', 'en', 'Your olympiad registration was canceled due to an error', '', 'OlympiadManager.java');
-INSERT INTO `messagetable` VALUES ('491', 'tw', '因為出現錯誤！所以取消了奧林匹亞競賽的登記。', '', 'OlympiadManager.java');
-INSERT INTO `messagetable` VALUES ('491', 'cn', '因为出现错误！所以取消了奥林匹亚竞赛的登记。', '', 'OlympiadManager.java');
-
 INSERT INTO `messagetable` VALUES ('494', 'en', 'Script error', '', 'Quest.java');
 INSERT INTO `messagetable` VALUES ('494', 'tw', '腳本錯誤：', '', 'Quest.java');
 INSERT INTO `messagetable` VALUES ('494', 'cn', '脚本错误：', '', 'Quest.java');
@@ -1095,13 +1042,6 @@ INSERT INTO `messagetable` VALUES ('494', 'cn', '脚本错误：', '', 'Quest.ja
 INSERT INTO `messagetable` VALUES ('497', 'en', '', 'File ; not found or file is empty.', 'QuestState.java');
 INSERT INTO `messagetable` VALUES ('497', 'tw', '', '檔案：; 不存在，請通知 GM 修復。', 'QuestState.java');
 INSERT INTO `messagetable` VALUES ('497', 'cn', '', '文件：; 不存在，請通知 GM 修复。', 'QuestState.java');
-
-INSERT INTO `messagetable` VALUES ('500', 'en', 'You entered ', '', 'L2BossZone.java');
-INSERT INTO `messagetable` VALUES ('500', 'tw', '進入了：', '', 'L2BossZone.java');
-INSERT INTO `messagetable` VALUES ('500', 'cn', '进入了：', '', 'L2BossZone.java');
-INSERT INTO `messagetable` VALUES ('501', 'en', 'You left ', '', 'L2BossZone.java');
-INSERT INTO `messagetable` VALUES ('501', 'tw', '離開了：', '', 'L2BossZone.java');
-INSERT INTO `messagetable` VALUES ('501', 'cn', '离开了：', '', 'L2BossZone.java');
 
 INSERT INTO `messagetable` VALUES ('504', 'en', 'You have entered a temporary zone!', '', 'L2DynamicZone.java');
 INSERT INTO `messagetable` VALUES ('504', 'tw', '進入了臨時地區！', '', 'L2DynamicZone.java');
@@ -1117,12 +1057,6 @@ INSERT INTO `messagetable` VALUES ('508', 'cn', '你必须等到监禁时间结�
 INSERT INTO `messagetable` VALUES ('511', 'en', 'You have looting rights!', '', 'L2Attackable.java');
 INSERT INTO `messagetable` VALUES ('511', 'tw', '你得到優先權！', '', 'L2Attackable.java');
 INSERT INTO `messagetable` VALUES ('511', 'cn', '你得到优先权！', '', 'L2Attackable.java');
-INSERT INTO `messagetable` VALUES ('512', 'en', ' Stage ', '', 'L2Attackable.java');
-INSERT INTO `messagetable` VALUES ('512', 'tw', '階段', '', 'L2Attackable.java');
-INSERT INTO `messagetable` VALUES ('512', 'cn', '阶段', '', 'L2Attackable.java');
-INSERT INTO `messagetable` VALUES ('513', 'en', 'There has been an error handling your soul crystal. Please notify your server admin.', '', 'L2Attackable.java');
-INSERT INTO `messagetable` VALUES ('513', 'tw', '搜魂石發生錯誤，請回報給管理者。', '', 'L2Attackable.java');
-INSERT INTO `messagetable` VALUES ('513', 'cn', '搜魂石发生错误，请回报给管理者。', '', 'L2Attackable.java');
 
 INSERT INTO `messagetable` VALUES ('516', 'en', 'You have been sent to the waiting room.', '', 'L2Character.java');
 INSERT INTO `messagetable` VALUES ('516', 'tw', '傳送至等候室。', '', 'L2Character.java');
@@ -1265,10 +1199,6 @@ INSERT INTO `messagetable` VALUES ('576', 'en', 'You on TvT Event, teleporting d
 INSERT INTO `messagetable` VALUES ('576', 'tw', '你目前正在參加 TvT 活動，因此無法傳送。', '', 'L2CastleMagicianInstance.java');
 INSERT INTO `messagetable` VALUES ('576', 'cn', '你目前正在参加 TvT 活动，因此无法传送。', '', 'L2CastleMagicianInstance.java');
 
-INSERT INTO `messagetable` VALUES ('579', 'en', '', 'The defenders of ; castle will be teleported to the inner castle.', 'L2CastleTeleporterInstance.java');
-INSERT INTO `messagetable` VALUES ('579', 'tw', '', '將「;」的守城人員傳送至內城。', 'L2CastleTeleporterInstance.java');
-INSERT INTO `messagetable` VALUES ('579', 'cn', '', '将「;」的守城人员传送至内城。', 'L2CastleTeleporterInstance.java');
-
 INSERT INTO `messagetable` VALUES ('582', 'en', 'There was a trap!', '', 'L2ChestInstance.java');
 INSERT INTO `messagetable` VALUES ('582', 'tw', '這是陷阱！', '', 'L2ChestInstance.java');
 INSERT INTO `messagetable` VALUES ('582', 'cn', '这是陷阱！', '', 'L2ChestInstance.java');
@@ -1355,10 +1285,6 @@ INSERT INTO `messagetable` VALUES ('611', 'en', 'Invalid skill level, contact yo
 INSERT INTO `messagetable` VALUES ('611', 'tw', '技能等級錯誤，請回報給管理者！', '', 'L2ClanHallManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('611', 'cn', '技能等级错误，请回报给管理者！', '', 'L2ClanHallManagerInstance.java');
 
-INSERT INTO `messagetable` VALUES ('614', 'en', '', 'Your clan has added ; points to its clan reputation score.', 'L2ClanTraderInstance.java');
-INSERT INTO `messagetable` VALUES ('614', 'tw', '', '獲得所屬血盟的血盟聲望「;」點。', 'L2ClanTraderInstance.java');
-INSERT INTO `messagetable` VALUES ('614', 'cn', '', '获得所属血盟的血盟声望「;」点。', 'L2ClanTraderInstance.java');
-
 INSERT INTO `messagetable` VALUES ('617', 'en', 'Come back here when you reached level 20 to change your class.<br>', '', 'L2ClassMasterInstance.java');
 INSERT INTO `messagetable` VALUES ('617', 'tw', '請你達到等級「20」以後再來找我吧。<br>', '', 'L2ClassMasterInstance.java');
 INSERT INTO `messagetable` VALUES ('617', 'cn', '请你达到等级「20」以后再来找我吧。<br>', '', 'L2ClassMasterInstance.java');
@@ -1383,19 +1309,6 @@ INSERT INTO `messagetable` VALUES ('623', 'cn', '很抱歉，已经没有可以�
 INSERT INTO `messagetable` VALUES ('624', 'en', 'none', '', 'L2ClassMasterInstance.java');
 INSERT INTO `messagetable` VALUES ('624', 'tw', '無', '', 'L2ClassMasterInstance.java');
 INSERT INTO `messagetable` VALUES ('624', 'cn', '无', '', 'L2ClassMasterInstance.java');
-
-INSERT INTO `messagetable` VALUES ('647', 'en', 'Attacking the enemy\'s reinforcements is necesary. Time to Die!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('647', 'tw', '先攻敵人的支援部隊，是戰鬥的基礎，殺啊！', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('647', 'cn', '先攻敌人的支援部队，是战斗的基础，杀啊！', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('648', 'en', 'Everyone, concentrate your attacks on ', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('648', 'tw', '全隊員集中攻擊「', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('648', 'cn', '全队员集中攻击「', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('649', 'en', '! Show the enemy your resolve!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('649', 'tw', '」！讓敵人嚐嚐你們鍛鍊的成果吧！', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('649', 'cn', '」！让敌人尝尝你们锻炼的成果吧！', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('650', 'en', 'Spirit of Fire, unleash your power! Burn the enemy!!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('650', 'tw', '火之精靈啊~ 請展現究極之力！燒盡敵人吧。', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('650', 'cn', '火之精灵啊〜请展现究极之力！烧尽敌人吧。', '', 'L2FortCommanderInstance.java');
 
 INSERT INTO `messagetable` VALUES ('653', 'en', 'Contact is currently not possible, ', '', 'L2FortEnvoyInstance.java');
 INSERT INTO `messagetable` VALUES ('653', 'tw', '無法接受要求，', '', 'L2FortEnvoyInstance.java');
@@ -1481,13 +1394,6 @@ INSERT INTO `messagetable` VALUES ('682', 'en', ', Your classId:', '', 'L2NpcIns
 INSERT INTO `messagetable` VALUES ('682', 'tw', '，你的職業：', '', 'L2NpcInstance.java');
 INSERT INTO `messagetable` VALUES ('682', 'cn', '，你的职业：', '', 'L2NpcInstance.java');
 
-INSERT INTO `messagetable` VALUES ('685', 'en', 'Fewer than ', '', 'L2OlympiadManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('685', 'tw', '未滿', '', 'L2OlympiadManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('685', 'cn', '未满', '', 'L2OlympiadManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('686', 'en', 'More than ', '', 'L2OlympiadManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('686', 'tw', '已滿', '', 'L2OlympiadManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('686', 'cn', '已满', '', 'L2OlympiadManagerInstance.java');
-
 INSERT INTO `messagetable` VALUES ('689', 'en', 'chat banned', '', 'L2PcInstance.java');
 INSERT INTO `messagetable` VALUES ('689', 'tw', '禁止聊天', '', 'L2PcInstance.java');
 INSERT INTO `messagetable` VALUES ('689', 'cn', '禁止聊天', '', 'L2PcInstance.java');
@@ -1569,13 +1475,9 @@ INSERT INTO `messagetable` VALUES ('714', 'cn', '被管理者监禁。', '', 'L2
 INSERT INTO `messagetable` VALUES ('715', 'en', '', 'You are still ; for ; minutes.', 'L2PcInstance.java');
 INSERT INTO `messagetable` VALUES ('715', 'tw', '', '你的;時間還有 ; 分鐘。', 'L2PcInstance.java');
 INSERT INTO `messagetable` VALUES ('715', 'cn', '', '你的;时间还有 ; 分钟。', 'L2PcInstance.java');
-
-INSERT INTO `messagetable` VALUES ('726', 'en', 'mmm your bait was delicious', '', 'L2PenaltyMonsterInstance.java');
-INSERT INTO `messagetable` VALUES ('726', 'tw', '喵...好吃....', '', 'L2PenaltyMonsterInstance.java');
-INSERT INTO `messagetable` VALUES ('726', 'cn', '喵...好吃....', '', 'L2PenaltyMonsterInstance.java');
-INSERT INTO `messagetable` VALUES ('727', 'en', 'I will tell fishes not to take your bait', '', 'L2PenaltyMonsterInstance.java');
-INSERT INTO `messagetable` VALUES ('727', 'tw', '噁....我看連其他魚都不想理你吧...', '', 'L2PenaltyMonsterInstance.java');
-INSERT INTO `messagetable` VALUES ('727', 'cn', '恶....我看连其他鱼都不想理你吧...', '', 'L2PenaltyMonsterInstance.java');
+INSERT INTO `messagetable` VALUES ('716', 'en', 'Teleport spawn protection ended.', '', 'L2PcInstance.java');
+INSERT INTO `messagetable` VALUES ('716', 'tw', '傳送保護 - 從現在起可以刺激有先制攻擊性的怪物。', '', 'L2PcInstance.java');
+INSERT INTO `messagetable` VALUES ('716', 'cn', '传送保护- 从现在起可以刺激有先制攻击性的怪物。', '', 'L2PcInstance.java');
 
 INSERT INTO `messagetable` VALUES ('730', 'en', 'Rent Pet', '', 'L2PetManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('730', 'tw', '寵物出租', '', 'L2PetManagerInstance.java');
@@ -1632,9 +1534,6 @@ INSERT INTO `messagetable` VALUES ('751', 'cn', '返回', '', 'L2SignsPriestInst
 INSERT INTO `messagetable` VALUES ('754', 'en', 'Go away, you\'re not welcome here.', '', 'L2TeleporterInstance.java');
 INSERT INTO `messagetable` VALUES ('754', 'tw', '快離開，這裡不歡迎你。', '', 'L2TeleporterInstance.java');
 INSERT INTO `messagetable` VALUES ('754', 'cn', '快离开，这里不欢迎你。', '', 'L2TeleporterInstance.java');
-INSERT INTO `messagetable` VALUES ('755', 'en', 'You can\'t port with a Combat Flag or Territory Ward', '', 'L2TeleporterInstance.java');
-INSERT INTO `messagetable` VALUES ('755', 'tw', '無法在擁有鬥爭旗幟時進行傳送。', '', 'L2TeleporterInstance.java');
-INSERT INTO `messagetable` VALUES ('755', 'cn', '无法在拥有斗争旗帜时进行传送。', '', 'L2TeleporterInstance.java');
 
 INSERT INTO `messagetable` VALUES ('758', 'en', 'There are no sub classes available at this time.', '', 'L2VillageMasterInstance.java');
 INSERT INTO `messagetable` VALUES ('758', 'tw', '無法追加副職業。', '', 'L2VillageMasterInstance.java');
@@ -1652,124 +1551,18 @@ INSERT INTO `messagetable` VALUES ('762', 'en', 'Please, stop flying', '', 'L2Vi
 INSERT INTO `messagetable` VALUES ('762', 'tw', '請先停止飛行。', '', 'L2VillageMasterInstance.java');
 INSERT INTO `messagetable` VALUES ('762', 'cn', '请先停止飞行。', '', 'L2VillageMasterInstance.java');
 
-INSERT INTO `messagetable` VALUES ('765', 'en', 'Congratulations you are married!', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('765', 'tw', '恭喜你們結婚了！', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('765', 'cn', '恭喜你们结婚了！', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('766', 'en', '', 'Congratulations to ; and ;! They have been married.', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('766', 'tw', '', '恭喜「;」和「;」！他們結婚了。', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('766', 'cn', '', '恭喜「;」和「;」！他们结婚了。', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('767', 'en', 'You declined', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('767', 'tw', '你拒絕！', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('767', 'cn', '你拒绝！', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('768', 'en', 'Your partner declined', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('768', 'tw', '你的伴侶拒絕！', '', 'Loto.java');
-INSERT INTO `messagetable` VALUES ('768', 'cn', '你的伴侣拒绝！', '', 'Loto.java');
-
-INSERT INTO `messagetable` VALUES ('772', 'en', 'Talking Island Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('772', 'tw', '說話之島', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('772', 'cn', '说话之岛', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('773', 'en', 'Elven Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('773', 'tw', '精靈村莊', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('773', 'cn', '精灵村庄', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('774', 'en', 'Dark Elven Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('774', 'tw', '黑暗精靈村莊', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('774', 'cn', '黑暗精灵村庄', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('775', 'en', 'Orc Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('775', 'tw', '半獸人村莊', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('775', 'cn', '半兽人村庄', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('776', 'en', 'Dwarven Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('776', 'tw', '矮人村莊', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('776', 'cn', '矮人村庄', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('777', 'en', 'Town of Gludio', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('777', 'tw', '古魯丁城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('777', 'cn', '古鲁丁城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('778', 'en', 'Gludin Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('778', 'tw', '古魯丁村莊', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('778', 'cn', '古鲁丁村庄', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('779', 'en', 'Town of Dion', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('779', 'tw', '狄恩城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('779', 'cn', '狄恩城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('780', 'en', 'Town of Giran', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('780', 'tw', '奇岩城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('780', 'cn', '奇岩城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('781', 'en', 'Town of Oren', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('781', 'tw', '歐瑞城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('781', 'cn', '欧瑞城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('782', 'en', 'Town of Aden', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('782', 'tw', '亞丁城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('782', 'cn', '亚丁城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('783', 'en', 'Hunters Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('783', 'tw', '獵人村莊', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('783', 'cn', '猎人村庄', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('784', 'en', 'Giran Harbor', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('784', 'tw', '奇岩港口', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('784', 'cn', '奇岩港口', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('785', 'en', 'Heine', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('785', 'tw', '因納得立城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('785', 'cn', '因纳得立城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('786', 'en', 'Rune Township', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('786', 'tw', '魯因城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('786', 'cn', '鲁因城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('787', 'en', 'Town of Goddard', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('787', 'tw', '高達特城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('787', 'cn', '高达特城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('788', 'en', 'Town of Shuttgart', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('788', 'tw', '修加特城鎮', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('788', 'cn', '修加特城镇', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('789', 'en', 'Primeval Isle', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('789', 'tw', '原始之島', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('789', 'cn', '原始之岛', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('790', 'en', 'Kamael Village', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('790', 'tw', '闇天使村莊', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('790', 'cn', '闇天使村庄', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('791', 'en', 'South of Wastelands Camp', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('791', 'tw', '荒廢的營區南方', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('791', 'cn', '荒废的营區南方', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('792', 'en', 'Fantasy Island', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('792', 'tw', '夢幻島', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('792', 'cn', '梦幻岛', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('793', 'en', 'Neutral Zone', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('793', 'tw', '中立地帶', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('793', 'cn', '中立地帶', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('794', 'en', 'Coliseum', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('794', 'tw', '大圓形競技場', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('794', 'cn', '大圓形競技場', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('795', 'en', 'GM Consultation service', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('795', 'tw', 'GM諮詢處', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('795', 'cn', 'GM諮詢處', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('796', 'en', 'Dimensional Gap', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('796', 'tw', '次元的裂痕', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('796', 'cn', '次元的裂痕', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('797', 'en', 'Cemetary of the Empire', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('797', 'tw', '帝國之墓', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('797', 'cn', '帝國之墓', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('798', 'en', 'Inside the Steel Citadel', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('798', 'tw', '鋼鐵之城內部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('798', 'cn', '鋼鐵之城內部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('799', 'en', 'Steel Citadel Resistance', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('799', 'tw', '鋼鐵之城 Resistance', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('799', 'cn', '鋼鐵之城 Resistance', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('800', 'en', 'Inside Kamaloka', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('800', 'tw', '欲界內部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('800', 'cn', '欲界內部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('801', 'en', 'Inside Nia Kamaloka', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('801', 'tw', 'Inside Nia Kamaloka', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('801', 'cn', 'Inside Nia Kamaloka', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('802', 'en', 'Inside Rim Kamaloka', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('802', 'tw', 'Inside Rim Kamaloka', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('802', 'cn', 'Inside Rim Kamaloka', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('803', 'en', 'Keucereus clan association', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('803', 'tw', 'Keucereus clan association', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('803', 'cn', 'Keucereus clan association', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('804', 'en', 'Inside the Seed of Infinity', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('804', 'tw', '不滅之種內部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('804', 'cn', '不滅之種內部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('805', 'en', 'Outside the Seed of Infinity', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('805', 'tw', '不滅之種外部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('805', 'cn', '不滅之種外部', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('806', 'en', 'Aerial Cleft', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('806', 'tw', '裂縫', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('806', 'cn', '裂縫', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('765', 'en', 'Congratulations you are married!', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('765', 'tw', '恭喜你們結婚了！', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('765', 'cn', '恭喜你们结婚了！', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('766', 'en', '', 'Congratulations to ; and ;! They have been married.', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('766', 'tw', '', '恭喜「;」和「;」！他們結婚了。', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('766', 'cn', '', '恭喜「;」和「;」！他们结婚了。', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('767', 'en', 'You declined', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('767', 'tw', '你拒絕！', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('767', 'cn', '你拒绝！', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('768', 'en', 'Your partner declined', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('768', 'tw', '你的伴侶拒絕！', '', 'L2WeddingManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('768', 'cn', '你的伴侣拒绝！', '', 'L2WeddingManagerInstance.java');
 
 INSERT INTO `messagetable` VALUES ('1000', 'en', 'Go away, you\'re not welcome here.', '', 'CPRecovery.java');
 INSERT INTO `messagetable` VALUES ('1000', 'tw', '快離開，這裡不歡迎你。', '', 'CPRecovery.java');
@@ -1809,9 +1602,6 @@ INSERT INTO `messagetable` VALUES ('1016', 'cn', '﹝进行中﹞', '', 'QuestLi
 INSERT INTO `messagetable` VALUES ('1017', 'en', ' (Done)', '', 'QuestLink.java');
 INSERT INTO `messagetable` VALUES ('1017', 'tw', '﹝完成﹞', '', 'QuestLink.java');
 INSERT INTO `messagetable` VALUES ('1017', 'cn', '﹝完成﹞', '', 'QuestLink.java');
-INSERT INTO `messagetable` VALUES ('1018', 'en', 'You are either not on a quest that involves this NPC, or you don\'t meet this NPC\'s minimum quest requirements.', '', 'QuestLink.java');
-INSERT INTO `messagetable` VALUES ('1018', 'tw', '目前沒有執行任務，或條件不符。', '', 'QuestLink.java');
-INSERT INTO `messagetable` VALUES ('1018', 'cn', '目前没有执行任务，或条件不符。', '', 'QuestLink.java');
 
 INSERT INTO `messagetable` VALUES ('1022', 'en', 'Black Judge:', '', 'RemoveDeathPenalty.java');
 INSERT INTO `messagetable` VALUES ('1022', 'tw', '黑色審判者：', '', 'RemoveDeathPenalty.java');
@@ -2018,10 +1808,6 @@ INSERT INTO `messagetable` VALUES ('1129', 'en', 'You do not have the correct sc
 INSERT INTO `messagetable` VALUES ('1129', 'tw', '卷軸錯誤。', '', 'ScrollOfResurrection.java');
 INSERT INTO `messagetable` VALUES ('1129', 'cn', '卷轴错误。', '', 'ScrollOfResurrection.java');
 
-INSERT INTO `messagetable` VALUES ('1133', 'en', 'HP of the party has been balanced.', '', 'BalanceLife.java');
-INSERT INTO `messagetable` VALUES ('1133', 'tw', '已平均分配隊伍成員的HP。', '', 'BalanceLife.java');
-INSERT INTO `messagetable` VALUES ('1133', 'cn', '已平均分配队伍成员的HP。', '', 'BalanceLife.java');
-
 INSERT INTO `messagetable` VALUES ('1141', 'en', 'Fishing server is currently offline', '', 'Fishing.java');
 INSERT INTO `messagetable` VALUES ('1141', 'tw', '沒有開放釣魚系統。', '', 'Fishing.java');
 INSERT INTO `messagetable` VALUES ('1141', 'cn', '没有开放钓鱼系统。', '', 'Fishing.java');
@@ -2069,9 +1855,6 @@ INSERT INTO `messagetable` VALUES ('1166', 'en', '', 'You use Escape: ; minutes.
 INSERT INTO `messagetable` VALUES ('1166', 'tw', '', '使用脫逃：估計「;」分鐘。;」秒。', 'Escape.java');
 INSERT INTO `messagetable` VALUES ('1166', 'cn', '', '使用脱逃：估计「;」分钟。;」秒。', 'Escape.java');
 
-INSERT INTO `messagetable` VALUES ('1170', 'en', 'You are not in a party.', '', 'PartyInfo.java');
-INSERT INTO `messagetable` VALUES ('1170', 'tw', '不在隊伍中。', '', 'PartyInfo.java');
-INSERT INTO `messagetable` VALUES ('1170', 'cn', '不在队伍中。', '', 'PartyInfo.java');
 INSERT INTO `messagetable` VALUES ('1171', 'en', 'Members: ', '', 'PartyInfo.java');
 INSERT INTO `messagetable` VALUES ('1171', 'tw', '隊員：', '', 'PartyInfo.java');
 INSERT INTO `messagetable` VALUES ('1171', 'cn', '队员：', '', 'PartyInfo.java');
@@ -2295,128 +2078,6 @@ INSERT INTO `messagetable` VALUES ('1260', 'en', 'Your partner is in a siege, yo
 INSERT INTO `messagetable` VALUES ('1260', 'tw', '你的伴侶在攻城戰中，所以無法前往。', '', 'Wedding.java');
 INSERT INTO `messagetable` VALUES ('1260', 'cn', '你的伴侣在攻城战中，所以无法前往。', '', 'Wedding.java');
 
-INSERT INTO `messagetable` VALUES ('1270', 'en', 'Door Info', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1270', 'tw', '門的資訊', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1270', 'cn', '门的资讯', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1271', 'en', 'HP: ', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1271', 'tw', 'HP：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1271', 'cn', 'HP：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1272', 'en', 'Max X,Y,Z: ', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1272', 'tw', '最大 X,Y,Z：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1272', 'cn', '最大 X,Y,Z：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1273', 'en', 'Min X,Y,Z: ', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1273', 'tw', '最小 X,Y,Z：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1273', 'cn', '最小 X,Y,Z：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1274', 'en', 'Object ID:  ', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1274', 'tw', '物件 ID：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1274', 'cn', '物件 ID：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1275', 'en', 'Door ID: ', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1275', 'tw', '門的 ID：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1275', 'cn', '门的 ID：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1276', 'en', 'Class: ', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1276', 'tw', '類型：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1276', 'cn', '类型：', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1277', 'en', 'Open', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1277', 'tw', '開啟', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1277', 'cn', '开启', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1278', 'en', 'Close', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1278', 'tw', '關閉', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1278', 'cn', '关闭', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1279', 'en', 'Kill', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1279', 'tw', '摧毀', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1279', 'cn', '摧毁', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1280', 'en', 'Delete', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1280', 'tw', '刪除', '', 'L2DoorInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1280', 'cn', '删除', '', 'L2DoorInstanceActionShift.java');
-
-INSERT INTO `messagetable` VALUES ('1286', 'en', 'Merchant Info', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1286', 'tw', '商人資訊', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1286', 'cn', '商人资讯', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1287', 'en', 'Object ID:  ', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1287', 'tw', '物件 ID：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1287', 'cn', '物件 ID：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1288', 'en', 'Template ID: ', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1288', 'tw', '基本 ID：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1288', 'cn', '基本 ID：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1289', 'en', 'HP: ', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1289', 'tw', 'HP：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1289', 'cn', 'HP：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1290', 'en', 'MP: ', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1290', 'tw', 'MP：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1290', 'cn', 'MP：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1291', 'en', 'Level: ', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1291', 'tw', '等級：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1291', 'cn', '等级：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1292', 'en', 'Class: ', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1292', 'tw', '類型：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1292', 'cn', '类型：', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1293', 'en', 'Edit NPC', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1293', 'tw', '修改 NPC', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1293', 'cn', '修改 NPC', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1294', 'en', 'Kill', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1294', 'tw', '滅亡', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1294', 'cn', '灭亡', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1295', 'en', 'Show DropList', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1295', 'tw', '掉落清單', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1295', 'cn', '掉落清单', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1296', 'en', 'Delete', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1296', 'tw', '刪除', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1296', 'cn', '删除', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1297', 'en', 'View Shop', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1297', 'tw', '檢視商店', '', 'L2MerchantInstanceActionShift.java');
-INSERT INTO `messagetable` VALUES ('1297', 'cn', '检视商店', '', 'L2MerchantInstanceActionShift.java');
-
-INSERT INTO `messagetable` VALUES ('1303', 'en', 'NPC Info', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1303', 'tw', 'NPC 資訊', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1303', 'cn', 'NPC 资讯', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1304', 'en', 'Instance Type: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1304', 'tw', '型態：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1304', 'cn', '型态：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1305', 'en', 'Faction: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1305', 'tw', '種類：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1305', 'cn', '种类：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1306', 'en', 'Coords ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1306', 'tw', '座標：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1306', 'cn', '座标：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1307', 'en', 'Spawn: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1307', 'tw', '重生：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1307', 'cn', '重生：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1308', 'en', ' ; Loc ID: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1308', 'tw', ' ; 區域 ID：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1308', 'cn', ' ; 区域 ID：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1309', 'en', 'Distance from spawn 2D: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1309', 'tw', '距離重生位置 2D：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1309', 'cn', '距离重生位置 2D：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1310', 'en', ' ; 3D: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1310', 'tw', ' ; 3D：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1310', 'cn', ' ; 3D：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1311', 'en', 'Mob Group: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1311', 'tw', '群組：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1311', 'cn', '群组：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1312', 'en', 'Respawn Time: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1312', 'tw', '重生時間：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1312', 'cn', '重生时间：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1313', 'en', ' Seconds', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1313', 'tw', ' 秒', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1313', 'cn', ' 秒', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1314', 'en', 'Aggro', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1314', 'tw', '主動性', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1314', 'cn', '主动性', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1315', 'en', 'Object ID', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1315', 'tw', '物件', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1315', 'cn', '物件', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1316', 'en', 'Castle', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1316', 'tw', '區域', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1316', 'cn', '区域', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1317', 'en', 'Combat', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1317', 'tw', '狀態', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1317', 'cn', '状态', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1318', 'en', 'Current HP', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1318', 'tw', '目前 HP', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1318', 'cn', '目前 HP', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1319', 'en', 'Current MP', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1319', 'tw', '目前 MP', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1319', 'cn', '目前 MP', '', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1320', 'en', 'Max.HP', '', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1320', 'tw', '最大 HP', '', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1320', 'cn', '最大 HP', '', 'L2NpcActionShift.java');
@@ -2453,24 +2114,7 @@ INSERT INTO `messagetable` VALUES ('1330', 'cn', '攻速', '', 'L2NpcActionShift
 INSERT INTO `messagetable` VALUES ('1331', 'en', 'Cast.Speed', '', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1331', 'tw', '施法', '', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1331', 'cn', '施法', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1332', 'en', 'Basic Stats', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1332', 'tw', '基本屬性', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1332', 'cn', '基本属性', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1333', 'en', 'Edit NPC', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1333', 'tw', '修改 NPC', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1333', 'cn', '修改 NPC', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1334', 'en', 'Kill', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1334', 'tw', '滅亡', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1334', 'cn', '灭亡', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1335', 'en', 'Show DropList', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1335', 'tw', '掉落清單', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1335', 'cn', '掉落清单', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1336', 'en', 'Delete', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1336', 'tw', '刪除', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1336', 'cn', '删除', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1337', 'en', 'Show SkillList', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1337', 'tw', '技能清單', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1337', 'cn', '技能清单', '', 'L2NpcActionShift.java');
+
 INSERT INTO `messagetable` VALUES ('1338', 'en', '[Combat Stats]', '', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1338', 'tw', '[戰鬥狀態]', '', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1338', 'cn', '[战斗状态]', '', 'L2NpcActionShift.java');
@@ -2492,9 +2136,6 @@ INSERT INTO `messagetable` VALUES ('1343', 'cn', '低于 30%', '', 'L2NpcActionS
 INSERT INTO `messagetable` VALUES ('1344', 'en', '', 'Quest;Sweep;Drop', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1344', 'tw', '', '任務;回收;掉落', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1344', 'cn', '', '任务;回收;掉落', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1345', 'en', 'AI Type: ', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1345', 'tw', 'AI 模式：', '', 'L2NpcActionShift.java');
-INSERT INTO `messagetable` VALUES ('1345', 'cn', 'AI 模式：', '', 'L2NpcActionShift.java');
 
 INSERT INTO `messagetable` VALUES ('1355', 'en', 'Signboard is missing:', '', 'L2StaticObjectInstanceAction.java');
 INSERT INTO `messagetable` VALUES ('1355', 'tw', '決鬥場看板遺失：', '', 'L2StaticObjectInstanceAction.java');
@@ -3233,33 +2874,33 @@ INSERT INTO `messagetable` VALUES ('1701', 'en', 'Ghost mode disabled', '', 'Adm
 INSERT INTO `messagetable` VALUES ('1701', 'tw', '幽靈模式關閉。', '', 'AdminInstance.java');
 INSERT INTO `messagetable` VALUES ('1701', 'cn', '幽灵模式关闭。', '', 'AdminInstance.java');
 
-INSERT INTO `messagetable` VALUES ('1705', 'en', 'no-target', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1705', 'tw', '沒有目標', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1705', 'cn', '没有目标', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1706', 'en', '', 'Instance zone ; cleared for player ;', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1706', 'tw', '', '即時地區 ; 由「;」所清除。', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1706', 'cn', '', '即时地区 ; 由「;」所清除。', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1707', 'en', '', 'Admin cleared instance zone ; for you', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1707', 'tw', '', '管理者清除即時地區：;。', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1707', 'cn', '', '管理者清除即时地区：;。', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1708', 'en', 'Main', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1708', 'tw', '首頁', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1708', 'cn', '首页', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1709', 'en', 'Character Instances', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1709', 'tw', '玩家的即時地區', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1709', 'cn', '玩家的即时地区', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1710', 'en', 'Back', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1710', 'tw', '返回', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1710', 'cn', '返回', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1711', 'en', 'Instances for ', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1711', 'tw', '即時地區的玩家：', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1711', 'cn', '即时地区的玩家：', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1712', 'en', '', 'Name;Time;Action', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1712', 'tw', '', '名字;時間;動作', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1712', 'cn', '', '名字;时间;动作', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1713', 'en', 'Clear', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1713', 'tw', '清除', '', 'AdminInstance.java');
-INSERT INTO `messagetable` VALUES ('1713', 'cn', '清除', '', 'AdminInstance.java');
+INSERT INTO `messagetable` VALUES ('1705', 'en', 'no-target', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1705', 'tw', '沒有目標', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1705', 'cn', '没有目标', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1706', 'en', '', 'Instance zone ; cleared for player ;', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1706', 'tw', '', '即時地區 ; 由「;」所清除。', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1706', 'cn', '', '即时地区 ; 由「;」所清除。', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1707', 'en', '', 'Admin cleared instance zone ; for you', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1707', 'tw', '', '管理者清除即時地區：;。', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1707', 'cn', '', '管理者清除即时地区：;。', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1708', 'en', 'Main', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1708', 'tw', '首頁', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1708', 'cn', '首页', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1709', 'en', 'Character Instances', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1709', 'tw', '玩家的即時地區', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1709', 'cn', '玩家的即时地区', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1710', 'en', 'Back', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1710', 'tw', '返回', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1710', 'cn', '返回', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1711', 'en', 'Instances for ', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1711', 'tw', '即時地區的玩家：', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1711', 'cn', '即时地区的玩家：', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1712', 'en', '', 'Name;Time;Action', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1712', 'tw', '', '名字;時間;動作', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1712', 'cn', '', '名字;时间;动作', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1713', 'en', 'Clear', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1713', 'tw', '清除', '', 'AdminInstanceZone.java');
+INSERT INTO `messagetable` VALUES ('1713', 'cn', '清除', '', 'AdminInstanceZone.java');
 
 INSERT INTO `messagetable` VALUES ('1717', 'en', ' is now mortal', '', 'AdminInvul.java');
 INSERT INTO `messagetable` VALUES ('1717', 'tw', '取消無敵。', '', 'AdminInvul.java');
@@ -3292,16 +2933,7 @@ INSERT INTO `messagetable` VALUES ('1732', 'cn', '服务器目前为全部开放
 INSERT INTO `messagetable` VALUES ('1733', 'en', 'maxPlayer set to ', '', 'AdminLogin.java');
 INSERT INTO `messagetable` VALUES ('1733', 'tw', '最大玩家數量設置為：', '', 'AdminLogin.java');
 INSERT INTO `messagetable` VALUES ('1733', 'cn', '最大玩家数量设置为：', '', 'AdminLogin.java');
-INSERT INTO `messagetable` VALUES ('1734', 'en', 'A clock will now be displayed next to the server name', '', 'AdminLogin.java');
-INSERT INTO `messagetable` VALUES ('1734', 'tw', '登入伺服器時將會看到時鐘。', '', 'AdminLogin.java');
-INSERT INTO `messagetable` VALUES ('1734', 'cn', '登入服务器时将会看到时钟。', '', 'AdminLogin.java');
-INSERT INTO `messagetable` VALUES ('1735', 'en', 'The clock will not be displayed', '', 'AdminLogin.java');
-INSERT INTO `messagetable` VALUES ('1735', 'tw', '關閉時鐘顯示。', '', 'AdminLogin.java');
-INSERT INTO `messagetable` VALUES ('1735', 'cn', '关闭时钟显示。', '', 'AdminLogin.java');
 
-INSERT INTO `messagetable` VALUES ('1738', 'en', 'The competition period is currently in effect.', '', 'AdminMammon.java');
-INSERT INTO `messagetable` VALUES ('1738', 'tw', '現在是競爭期間。', '', 'AdminMammon.java');
-INSERT INTO `messagetable` VALUES ('1738', 'cn', '现在是竞争期间。', '', 'AdminMammon.java');
 INSERT INTO `messagetable` VALUES ('1739', 'en', 'Blacksmith of Mammon: ', '', 'AdminMammon.java');
 INSERT INTO `messagetable` VALUES ('1739', 'tw', '財富的鐵匠︰', '', 'AdminMammon.java');
 INSERT INTO `messagetable` VALUES ('1739', 'cn', '财富的铁匠：', '', 'AdminMammon.java');
@@ -3502,15 +3134,12 @@ INSERT INTO `messagetable` VALUES ('1823', 'en', 'None', '', 'AdminSiege.java');
 INSERT INTO `messagetable` VALUES ('1823', 'tw', '無', '', 'AdminSiege.java');
 INSERT INTO `messagetable` VALUES ('1823', 'cn', '无', '', 'AdminSiege.java');
 
-INSERT INTO `messagetable` VALUES ('1827', 'en', '', 'You removed all skills from ;', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1827', 'tw', '', '移除「;」的全部技能。', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1827', 'cn', '', '移除「;」的全部技能。', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1828', 'en', 'Admin removed all skills from you.', '', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1828', 'tw', '管理者移除你的全部技能。', '', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1828', 'cn', '管理者移除你的全部技能。', '', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1829', 'en', '', 'A GM gave you ; skills.', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1829', 'tw', '', '管理者給你增加「;」個技能。', 'AdminSkill.java');
-INSERT INTO `messagetable` VALUES ('1829', 'cn', '', '管理者给你增加「;」个技能。', 'AdminSkill.java');
+INSERT INTO `messagetable` VALUES ('1828', 'en', '', 'You removed all skills from ;', 'AdminSkill.java');
+INSERT INTO `messagetable` VALUES ('1828', 'tw', '', '移除「;」的全部技能。', 'AdminSkill.java');
+INSERT INTO `messagetable` VALUES ('1828', 'cn', '', '移除「;」的全部技能。', 'AdminSkill.java');
+INSERT INTO `messagetable` VALUES ('1829', 'en', 'Admin removed all skills from you.', '', 'AdminSkill.java');
+INSERT INTO `messagetable` VALUES ('1829', 'tw', '管理者移除你的全部技能。', '', 'AdminSkill.java');
+INSERT INTO `messagetable` VALUES ('1829', 'cn', '管理者移除你的全部技能。', '', 'AdminSkill.java');
 INSERT INTO `messagetable` VALUES ('1830', 'en', 'You gave ; skills to ', '', 'AdminSkill.java');
 INSERT INTO `messagetable` VALUES ('1830', 'tw', '', '增加「;」個技能給：', 'AdminSkill.java');
 INSERT INTO `messagetable` VALUES ('1830', 'cn', '', '增加「;」个技能给：', 'AdminSkill.java');
@@ -3845,6 +3474,9 @@ INSERT INTO `messagetable` VALUES ('1969', 'cn', '死靈的邊境', '', 'Fort.ja
 INSERT INTO `messagetable` VALUES ('1970', 'en', 'Monastic', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'tw', '聖者邊境', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'cn', '聖者邊境', '', 'Fort.java');
+INSERT INTO `messagetable` VALUES ('1971', 'en', 'None', '', 'Castle.java');
+INSERT INTO `messagetable` VALUES ('1971', 'tw', '無', '', 'Castle.java');
+INSERT INTO `messagetable` VALUES ('1971', 'cn', '无', '', 'Castle.java');
 
 INSERT INTO `messagetable` VALUES ('1994', 'en', 'Red Team', '', 'BlockCheckerEngine.java');
 INSERT INTO `messagetable` VALUES ('1994', 'tw', '紅隊', '', 'BlockCheckerEngine.java');
@@ -3852,6 +3484,3 @@ INSERT INTO `messagetable` VALUES ('1994', 'cn', '红队', '', 'BlockCheckerEngi
 INSERT INTO `messagetable` VALUES ('1995', 'en', 'Blue Team', '', 'BlockCheckerEngine.java');
 INSERT INTO `messagetable` VALUES ('1995', 'tw', '藍隊', '', 'BlockCheckerEngine.java');
 INSERT INTO `messagetable` VALUES ('1995', 'cn', '蓝队', '', 'BlockCheckerEngine.java');
-INSERT INTO `messagetable` VALUES ('1999', 'en', 'Teleport spawn protection ended.', '', 'L2PcInstance.java');
-INSERT INTO `messagetable` VALUES ('1999', 'tw', '傳送保護 - 從現在起可以刺激有先制攻擊性的怪物。', '', 'L2PcInstance.java');
-INSERT INTO `messagetable` VALUES ('1999', 'cn', '传送保护- 从现在起可以刺激有先制攻击性的怪物。', '', 'L2PcInstance.java');

@@ -17,7 +17,7 @@ public class Zariche extends L2Transformation
 	public void onTransform()
 	{
 		// Set charachter name to transformed name
-		getPlayer().getAppearance().setVisibleName(MessageTable.Messages[589].getMessage());//Update by rocknow
+		getPlayer().getAppearance().setVisibleName(MessageTable.Messages[1924].getMessage());//Update by rocknow
 		getPlayer().getAppearance().setVisibleTitle("");
 	}
 	
