@@ -1,4 +1,10 @@
 @echo off
+echo 注意：
+echo 這個 DP 只支援「芙蕾雅」
+echo 這個 DP 不支援「嗨翻天」
+echo 現在已經有新的 DP，支援最新的「嗨翻天」
+echo.
+pause
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################

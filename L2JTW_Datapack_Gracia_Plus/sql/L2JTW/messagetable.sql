@@ -3827,12 +3827,12 @@ INSERT INTO `messagetable` VALUES ('1970', 'en', 'Monastic', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'tw', '聖者邊境', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'cn', '聖者邊境', '', 'Fort.java');
 
-INSERT INTO `messagetable` VALUES ('1980', 'en', 'Support Only Freya!', '', 'LoginServerThread.java');
-INSERT INTO `messagetable` VALUES ('1980', 'tw', '此 GS 只支援「芙蕾雅」最後更新的版本(協定版本:216)，不支援「嗨翻天」！', '', 'LoginServerThread.java');
-INSERT INTO `messagetable` VALUES ('1980', 'cn', '此 GS 只支援「芙蕾雅」最后更新的版本(协定版本:216)，不支援「嗨翻天」！', '', 'LoginServerThread.java');
-INSERT INTO `messagetable` VALUES ('1981', 'en', 'Support Only Freya!', '', 'LoginServerThread.java');
-INSERT INTO `messagetable` VALUES ('1981', 'tw', '已經有新的 GS，支援「嗨翻天」的遊戲版本！', '', 'LoginServerThread.java');
-INSERT INTO `messagetable` VALUES ('1981', 'cn', '已经有新的 GS，支援「嗨翻天」的游戏版本！', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1980', 'en', 'Support Only Freya', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1980', 'tw', '這個 GS 只支援「芙蕾雅」最後更新的版本（協定版本:216）\n這個 GS 不支援「嗨翻天」', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1980', 'cn', '这个 GS 只支援「芙蕾雅」最后更新的版本（协定版本:216）\n这个 GS 不支援「嗨翻天」', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1981', 'en', 'Support Only Freya', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1981', 'tw', '現在已經有新的 GS，支援最新的「嗨翻天」', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1981', 'cn', '现在已经有新的 GS，支援最新的「嗨翻天」', '', 'LoginServerThread.java');
 
 INSERT INTO `messagetable` VALUES ('1994', 'en', 'Red Team', '', 'BlockCheckerEngine.java');
 INSERT INTO `messagetable` VALUES ('1994', 'tw', '紅隊', '', 'BlockCheckerEngine.java');
