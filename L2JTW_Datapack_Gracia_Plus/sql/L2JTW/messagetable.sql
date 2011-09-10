@@ -20,6 +20,13 @@ INSERT INTO `messagetable` VALUES ('0', 'en', 'Delete', '', 'Announcements.java'
 INSERT INTO `messagetable` VALUES ('0', 'tw', '刪除', '', 'Announcements.java');
 INSERT INTO `messagetable` VALUES ('0', 'cn', '删除', '', 'Announcements.java');
 
+INSERT INTO `messagetable` VALUES ('1', 'en', '', ' Wrong protocol!;;;', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('1', 'tw', '', ' 使用「;」登入「芙蕾雅」的伺服器，已拒絕。;聖翼使命;嗨翻天', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('1', 'cn', '', ' 使用「;」登入「芙蕾雅」的服务器，已拒绝。;圣翼使命;嗨翻天', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('2', 'en', '', ' Use ;Newer ;Older ;protocol:;;;', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('2', 'tw', '', ' 使用「;更新」的遊戲（協定版本:;）登入伺服器，已;未;最新;拒絕。;允許。', 'ProtocolVersion.java');
+INSERT INTO `messagetable` VALUES ('2', 'cn', '', ' 使用「;更新」的游戏（协定版本:;）登入伺服器，已;未;最新;拒绝。;允许。', 'ProtocolVersion.java');
+
 INSERT INTO `messagetable` VALUES ('3', 'en', 'Manufacturer is busy, please try later.', '', 'RecipeController.java');
 INSERT INTO `messagetable` VALUES ('3', 'tw', '製作處於忙碌狀態，請稍後再試。', '', 'RecipeController.java');
 INSERT INTO `messagetable` VALUES ('3', 'cn', '制作处于忙碌状态，请稍后再试。', '', 'RecipeController.java');
@@ -3819,6 +3826,13 @@ INSERT INTO `messagetable` VALUES ('1969', 'cn', '死靈的邊境', '', 'Fort.ja
 INSERT INTO `messagetable` VALUES ('1970', 'en', 'Monastic', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'tw', '聖者邊境', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'cn', '聖者邊境', '', 'Fort.java');
+
+INSERT INTO `messagetable` VALUES ('1980', 'en', 'Support Only Freya!', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1980', 'tw', '此 GS 只支援「芙蕾雅」最後更新的版本(協定版本:216)，不支援「嗨翻天」！', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1980', 'cn', '此 GS 只支援「芙蕾雅」最后更新的版本(协定版本:216)，不支援「嗨翻天」！', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1981', 'en', 'Support Only Freya!', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1981', 'tw', '已經有新的 GS，支援「嗨翻天」的遊戲版本！', '', 'LoginServerThread.java');
+INSERT INTO `messagetable` VALUES ('1981', 'cn', '已经有新的 GS，支援「嗨翻天」的游戏版本！', '', 'LoginServerThread.java');
 
 INSERT INTO `messagetable` VALUES ('1994', 'en', 'Red Team', '', 'BlockCheckerEngine.java');
 INSERT INTO `messagetable` VALUES ('1994', 'tw', '紅隊', '', 'BlockCheckerEngine.java');
