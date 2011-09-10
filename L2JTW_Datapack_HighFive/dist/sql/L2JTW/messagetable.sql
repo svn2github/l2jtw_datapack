@@ -3479,6 +3479,13 @@ INSERT INTO `messagetable` VALUES
 ('1971', 'tw', '無', '', 'Castle.java'),
 ('1971', 'cn', '无', '', 'Castle.java'),
 
+('1975', 'en', 'Support Client: High Five\nSupport Protocol: ', '', 'LoginServerThread.java'),
+('1975', 'tw', '伺服器啟動完成。\n支援的遊戲版本：嗨翻天\n支援的協定版本：', '', 'LoginServerThread.java'),
+('1975', 'cn', '伺服器启动完成。\n支援的游戏版本：嗨翻天\n支援的协定版本：', '', 'LoginServerThread.java'),
+('1976', 'en', 'Support Only High Five', '', 'LoginServerThread.java'),
+('1976', 'tw', '現在已經有新的 GS，支援最新的「毀滅女神」', '', 'LoginServerThread.java'),
+('1976', 'cn', '现在已经有新的 GS，支援最新的「毁灭女神」', '', 'LoginServerThread.java'),
+
 ('1994', 'en', 'Red Team', '', 'BlockCheckerEngine.java'),
 ('1994', 'tw', '紅隊', '', 'BlockCheckerEngine.java'),
 ('1994', 'cn', '红队', '', 'BlockCheckerEngine.java'),
