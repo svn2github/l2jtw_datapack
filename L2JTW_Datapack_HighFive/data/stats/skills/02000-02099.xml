@@ -61,7 +61,6 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_ONE" /> <!-- FIXME: This should be TARGET_OTHERS -->
 		<!-- Update by pmq -->
-		<!-- <set name="isDebuff" val="true" /> -->
 		<cond msgId="113" addName="1">
 			<and>
 				<player flyMounted="False" />
