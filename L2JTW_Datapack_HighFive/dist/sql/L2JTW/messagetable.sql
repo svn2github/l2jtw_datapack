@@ -3485,6 +3485,9 @@ INSERT INTO `messagetable` VALUES
 ('1976', 'en', 'Support Only High Five', '', 'LoginServerThread.java'),
 ('1976', 'tw', '現在已經有新的 GS，支援最新的「毀滅女神」', '', 'LoginServerThread.java'),
 ('1976', 'cn', '现在已经有新的 GS，支援最新的「毁灭女神」', '', 'LoginServerThread.java'),
+('1977', 'en', 'Register GameServer Again.', '', 'LoginServerThread.java'),
+('1977', 'tw', '請重新註冊遊戲伺服器（就是登入時，可以選擇巴茨伺服器）', '', 'LoginServerThread.java'),
+('1977', 'cn', '请重新注册游戏伺服器（就是登入时，可以选择巴茨伺服器）', '', 'LoginServerThread.java'),
 
 ('1994', 'en', 'Red Team', '', 'BlockCheckerEngine.java'),
 ('1994', 'tw', '紅隊', '', 'BlockCheckerEngine.java'),
