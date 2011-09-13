@@ -401,6 +401,9 @@ INSERT INTO `messagetable` VALUES
 ('148', 'en', 'You cannot construct outpost or flag here.', '', 'L2SkillSiegeFlag.java'),
 ('148', 'tw', 'You cannot construct outpost or flag here.', '', 'L2SkillSiegeFlag.java'),
 ('148', 'cn', 'You cannot construct outpost or flag here.', '', 'L2SkillSiegeFlag.java'),
+('149', 'en', 'You must be on Siegable clan hall ground to place a flag.', '', 'L2SkillSiegeFlag.java'),
+('149', 'tw', 'You must be on Siegable clan hall ground to place a flag.', '', 'L2SkillSiegeFlag.java'),
+('149', 'cn', 'You must be on Siegable clan hall ground to place a flag.', '', 'L2SkillSiegeFlag.java'),
 
 ('151', 'en', '', 'Summon skill ; not described yet', 'L2SkillSummon.java'),
 ('151', 'tw', '', '召喚技能「;」尚未實裝。', 'L2SkillSummon.java'),

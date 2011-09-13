@@ -612,6 +612,16 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('debug',1,'false'),
 ('unbanchat', 7,'false'),
 
+-- SIEGABLE HALLS
+('admin_chsiege_siegablehall', 1, 'false'),
+('admin_chsiege_startSiege', 1, 'false'),
+('admin_chsiege_endsSiege', 1, 'false'),
+('admin_chsiege_setSiegeDate', 1, 'false'),
+('admin_chsiege_addAttacker', 1, 'false'),
+('admin_chsiege_removeAttacker', 1, 'false'),
+('admin_chsiege_listAttackers', 1, 'false'),
+('admin_chsiege_clearAttackers', 1, 'false'),
+
 -- VITAMIN ITEM
 ('admin_vitaminitem','1','false'),
 ('admin_sendVitem','1','false');
