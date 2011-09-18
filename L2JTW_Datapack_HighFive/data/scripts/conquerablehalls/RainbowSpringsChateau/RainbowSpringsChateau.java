@@ -107,7 +107,7 @@ public class RainbowSpringsChateau extends Quest
 				else
 					Announcements.getInstance().announceToAll("Rainbow Springs Chateau siege aborted due lack of population");
 			}
-		}		
+		}
 	}
 	
 	private static class SiegeStart implements Runnable
@@ -283,7 +283,7 @@ public class RainbowSpringsChateau extends Quest
 		else if(_rainbow.isInSiege())
 		{
 			if(!player.isClanLeader())
-				html = "no_clan_leader.htm";	
+				html = "no_clan_leader.htm";
 			else
 			{
 				L2Clan clan = player.getClan();
@@ -302,15 +302,15 @@ public class RainbowSpringsChateau extends Quest
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		if(!player.isClanLeader())
-			return "no_clan_leader.htm";
-
 		String html = event;
-		final L2Clan clan = player.getClan();		
+		final L2Clan clan = player.getClan();
 		final int clanId = clan.getClanId();
 		
 		if(event.equals("register"))
 		{
+			if(!player.isClanLeader())
+				return "no_clan_leader.htm";
+
 			if(!_rainbow.isRegistering())
 				html = "messenger_not_registering.htm";
 			else if(_warDecreesCount.containsKey(clanId))
@@ -743,10 +743,23 @@ public class RainbowSpringsChateau extends Quest
 	
 	private static void sendMessengerMain(L2PcInstance player)
 	{
-		NpcHtmlMessage message = new NpcHtmlMessage(5);
-		message.setFile(null, "data/scripts/conquerablehalls/RainbowSpringsChateau/messenger_main.htm");
-		message.replace("%time%", _registrationEnds);
-		player.sendPacket(message);
+		_rainbow = CHSiegeManager.getInstance().getSiegableHall(RAINBOW_SPRINGS);
+		L2Clan owner = ClanTable.getInstance().getClan(_rainbow.getOwnerId());
+		if (owner == null)
+		{
+			NpcHtmlMessage message = new NpcHtmlMessage(5);
+			message.setFile(null, "data/scripts/conquerablehalls/RainbowSpringsChateau/messenger_main.htm");
+			message.replace("%time%", _registrationEnds);
+			player.sendPacket(message);
+		}
+		else
+		{
+			NpcHtmlMessage message = new NpcHtmlMessage(5);
+			message.setFile(null, "data/scripts/conquerablehalls/RainbowSpringsChateau/messenger_main1.htm");
+			message.replace("%clanname%", owner.getName());
+			message.replace("%time%", _registrationEnds);
+			player.sendPacket(message);
+		}
 	}
 	
 	public static void launchSiege()
