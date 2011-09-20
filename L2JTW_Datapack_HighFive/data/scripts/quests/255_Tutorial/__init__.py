@@ -184,9 +184,9 @@ class Quest (JQuest) :
             elif playerLevel == 79 and not player.getQuestState("192_SevenSignSeriesOfDoubt") :
                 st.showQuestionMark(33)
                 st.playSound("ItemSound.quest_tutorial")
-#            elif playerLevel == 81 and not player.getQuestState("10292_SevenSignsGirlOfDoubt") : # 嗨翻天
-#                st.showQuestionMark(33)
-#                st.playSound("ItemSound.quest_tutorial")
+            elif playerLevel == 81 and not player.getQuestState("10292_SevenSignsGirlOfDoubt") : # 嗨翻天
+                st.showQuestionMark(33)
+                st.playSound("ItemSound.quest_tutorial")
         # QUEST TIMER #
 
         elif string == "QT" :
@@ -472,8 +472,8 @@ class Quest (JQuest) :
                     htmltext = "tutorial_kama_68.htm"
                 elif lvl == 79 :
                     htmltext = "tutorial_epic_quest.htm"
-#                elif lvl == 81 :                       # 嗨翻天
-#                    htmltext = "tutorial_hf_quest.htm" # 嗨翻天
+                elif lvl == 81 :                       # 嗨翻天
+                    htmltext = "tutorial_hf_quest.htm" # 嗨翻天
             elif MarkId == 34 :
                 htmltext = "tutorial_28.htm"
             elif MarkId == 35 :
