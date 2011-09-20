@@ -1,3 +1,17 @@
+/*
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
+ */
 package quests.Q10282_ToTheSeedOfAnnihilation;
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -9,6 +23,7 @@ import com.l2jserver.gameserver.model.quest.State;
 /**
  * To The Seed Of Annihilation (10282)
  * @author pmq
+ * 2011-09-20 Based on High Five
  */
 public class Q10282_ToTheSeedOfAnnihilation extends Quest
 {
@@ -28,14 +43,14 @@ public class Q10282_ToTheSeedOfAnnihilation extends Quest
 		if (st == null)
 			return htmltext;
 		
-		if (event.equalsIgnoreCase("32733-07.html"))
+		if (npc.getNpcId() == KBALDIR && event.equalsIgnoreCase("32733-07.html"))
 		{
 			st.setState(State.STARTED);
 			st.set("cond", "1");
 			st.giveItems(SOA_ORDERS, 1);
 			st.playSound("ItemSound.quest_accept");
 		}
-		if (event.equalsIgnoreCase("32734-02.html"))
+		else if (npc.getNpcId() == KLEMIS && event.equalsIgnoreCase("32734-02.html"))
 		{
 			st.giveItems(57, 212182);
 			st.takeItems(SOA_ORDERS, 1);
@@ -61,15 +76,14 @@ public class Q10282_ToTheSeedOfAnnihilation extends Quest
 			switch (st.getState())
 			{
 				case State.CREATED:
-				{
 					if (player.getLevel() >= 84)
 						htmltext = "32733-01.htm";
 					else
 						htmltext = "32733-00.htm";
 					break;
-				}
 				case State.STARTED:
-					htmltext = "32733-08.html";
+					if (st.getInt("cond") == 1)
+						htmltext = "32733-08.html";
 					break;
 				case State.COMPLETED:
 					htmltext = "32733-09.html";
@@ -77,16 +91,18 @@ public class Q10282_ToTheSeedOfAnnihilation extends Quest
 			}
 		}
 		
-		if (npc.getNpcId() == KLEMIS)
+		else if (npc.getNpcId() == KLEMIS)
 		{
 			switch (st.getState())
 			{
+				case State.STARTED:
+					if (st.getInt("cond") == 1)
+						htmltext = "32734-01.html";
+					break;
 				case State.COMPLETED:
 					htmltext = "32734-03.html";
 					break;
 			}
-			if (st.getInt("cond") == 1)
-				htmltext = "32734-01.html";
 		}
 		return htmltext;
 	}
