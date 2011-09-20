@@ -96,16 +96,10 @@
 		</cond>
 	</skill>
 	<skill id="23118" levels="1" name="Zombie Agathion Special Skill - Escape from Death">
-		<!-- Update by rocknow -->
-		<set name="target" val="TARGET_SELF" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="hitTime" val="4000" />
-		<set name="skillType" val="BUFF" />
-		<set name="staticReuse" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<for>
-			<effect name="PhoenixBless" abnormalTime="1800" val="0" />
-		</for>
 		<cond msgId="2292">
 			<player agathionId="1535" />
 		</cond>

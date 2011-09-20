@@ -762,21 +762,11 @@
 		</cond>
 	</skill>
 	<skill id="8241" levels="1" name="Critical Up">
-		<!-- Update by rocknow -->
-		<set name="mpConsume" val="48" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="reuseDelay" val="5000" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="reuseDelay" val="6000" />
 		<set name="hitTime" val="4000" />
-		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="400" />
-		<set name="effectRange" val="900" />
-		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="critical_prob_up">
-				<basemul order="0x30" stat="rCrit" val="0.3" />
-			</effect>
-		</for>
 	</skill>
 	<skill id="8242" levels="1" name="Ice Ball">
 		<set name="mpConsume" val="61" />
