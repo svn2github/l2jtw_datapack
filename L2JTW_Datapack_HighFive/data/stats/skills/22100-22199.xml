@@ -545,6 +545,7 @@
 	<skill id="22140" levels="1" name="Hwa Gei Bu Gwi Haste">
 		<!-- Increases Atk. Spd. by 33% for 1 hour. -->
 		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -581,6 +582,7 @@
 	<skill id="22143" levels="1" name="Happy New Year Death Whisper">
 		<!-- Increases Critical attack power by 35% for 1 hour. -->
 		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -605,6 +607,7 @@
 	<skill id="22145" levels="1" name="Love for All Seasons Empower">
 		<!-- Increases M. Atk. by 75% for 1 hour. -->
 		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -617,6 +620,7 @@
 	<skill id="22146" levels="1" name="Chinese Feast Greater Acumen">
 		<!-- Increases Casting Spd. by 30% for 1 hour. -->
 		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -641,6 +645,7 @@
 	<skill id="22148" levels="1" name="Branding Blessed Body">
 		<!-- Increases Max HP by 35% for 1 hour. -->
 		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -653,6 +658,7 @@
 	<skill id="22149" levels="1" name="Kung Hei Fat Choy Berserker Spirit">
 		<!-- Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 1 hour. -->
 		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -735,6 +741,7 @@
 	<skill id="22155" levels="1" name="Female Aniruddha's Blessed Shield">
 		<!-- Increases Shield defense rate by 15 for 1 hour. -->
 		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
