@@ -177,6 +177,7 @@ public class L2Day extends Quest
 				prize = Rnd.get(1000);
 				
 				/**
+				 * ¼ú«~¸ê®Æ¨Ó·½ http://lineage2.plaync.com.tw/Event/event/110902/event4.asp
 				 * ¦¬¶°¨ì¡uLINEAGEII¡v¡A´N¥i±o¨ì¤U¦C¼ú«~¤§¤@¡G
 				 * - ¤Ú·Å§Ù«ü
 				 * - Á¡¼ÇªZ¾¹
@@ -189,6 +190,8 @@ public class L2Day extends Quest
 				
 				if (prize <= 5)
 					st.giveItems(6658,1);  // 1 - ¤Ú·Å§Ù«ü
+				else if (prize <= 10)
+					st.giveItems(52,1);    // 1 - Á¡¼ÇÂù¤M
 				else if (prize <= 10)
 					st.giveItems(13457,1); // 1 - Á¡¼Ç¤Á¤b
 				else if (prize <= 10)
@@ -214,32 +217,28 @@ public class L2Day extends Quest
 				else if (prize <= 10)
 					st.giveItems(13468,1); // 1 - Á¡¼Çîg°w
 				else if (prize <= 10)
-					st.giveItems(13469,1); // 1 - Á¡¼Ç®gÆF
-				else if (prize <= 10)
-					st.giveItems(13470,1); // 1 - Á¡¼Çºj¤b
-				else if (prize <= 10)
-					st.giveItems(52,1);    // 1 - Á¡¼ÇÂù¤M
-				else if (prize <= 25)
-					st.giveItems(13071,1); // 1 - ¬õ¦â·j»î¥Û-¶¥¬q16
-				else if (prize <= 25)
-					st.giveItems(13072,1); // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q16
-				else if (prize <= 25)
-					st.giveItems(13073,1); // 1 - ºñ¦â·j»î¥Û-¶¥¬q16
-				else if (prize <= 35)
-					st.giveItems(10480,1); // 1 - ¬õ¦â·j»î¥Û-¶¥¬q15
-				else if (prize <= 35)
-					st.giveItems(10481,1); // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q15
-				else if (prize <= 35)
-					st.giveItems(10482,1); // 1 - ºñ¦â·j»î¥Û-¶¥¬q15
-				else if (prize <= 45)
-					st.giveItems(9570,1);  // 1 - ¬õ¦â·j»î¥Û-¶¥¬q14
-				else if (prize <= 45)
-					st.giveItems(9571,1);  // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q14
-				else if (prize <= 45)
-					st.giveItems(9572,1);  // 1 - ºñ¦â·j»î¥Û-¶¥¬q14
+					st.giveItems(13884,1); // 1 - Á¡¼ÇÂù¤P­º
 				else if (prize <= 50)
+					st.giveItems(13071,1); // 1 - ¬õ¦â·j»î¥Û-¶¥¬q16
+				else if (prize <= 50)
+					st.giveItems(13072,1); // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q16
+				else if (prize <= 50)
+					st.giveItems(13073,1); // 1 - ºñ¦â·j»î¥Û-¶¥¬q16
+				else if (prize <= 100)
+					st.giveItems(10480,1); // 1 - ¬õ¦â·j»î¥Û-¶¥¬q15
+				else if (prize <= 100)
+					st.giveItems(10481,1); // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q15
+				else if (prize <= 100)
+					st.giveItems(10482,1); // 1 - ºñ¦â·j»î¥Û-¶¥¬q15
+				else if (prize <= 200)
+					st.giveItems(9570,1);  // 1 - ¬õ¦â·j»î¥Û-¶¥¬q14
+				else if (prize <= 200)
+					st.giveItems(9571,1);  // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q14
+				else if (prize <= 200)
+					st.giveItems(9572,1);  // 1 - ºñ¦â·j»î¥Û-¶¥¬q14
+				else if (prize <= 350)
 					st.giveItems(3959,1);  // 1 - L2Day-¯¬ºÖªº´_¬¡¨÷¶b2±i
-				else if (prize <= 75)
+				else if (prize <= 400)
 					st.giveItems(3958,1);  // 1 - L2Day-¯¬ºÖªºªð¦^¨÷¶b2±i
 				else if (prize <= 500)
 					st.giveItems(21730,1); // 1 - ¤å¦r¦¬ÂÃ®aªºÂ§ª«
@@ -283,50 +282,54 @@ public class L2Day extends Quest
 				if (prize <= 5)
 					st.giveItems(6660,1);  // 1 - ¥¨ÃÆ¤k¤ý§Ù«ü
 				else if (prize <= 10)
-					st.giveItems(13137,1); // 1 - Á¡¼ÇÀY²¯
+					st.giveItems(13143,1); // 1 - «Ê¦LªºÁ¡¼ÇÀY²¯
 				else if (prize <= 10)
-					st.giveItems(13138,1); // 1 - Á¡¼Ç¥ÖÀY²¯
+					st.giveItems(13144,1); // 1 - «Ê¦LªºÁ¡¼Ç¥ÖÀY²¯
 				else if (prize <= 10)
-					st.giveItems(13139,1); // 1 - Á¡¼ÇÀYãT
+					st.giveItems(13145,1); // 1 - «Ê¦LªºÁ¡¼ÇÀYãT
 				else if (prize <= 10)
-					st.giveItems(13432,1); // 1 - Á¡¼Ç¯Ý¥Ò
+					st.giveItems(14105,1); // 1 - «Ê¦LªºÁ¡¼Ç¯Ý¥Ò
 				else if (prize <= 10)
-					st.giveItems(13433,1); // 1 - Á¡¼Ç¥Ö¯Ý¥Ò
+					st.giveItems(14106,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö¯Ý¥Ò
 				else if (prize <= 10)
-					st.giveItems(13434,1); // 1 - Á¡¼Ç¥~¦ç
+					st.giveItems(14107,1); // 1 - «Ê¦LªºÁ¡¼Ç¥~¦ç
 				else if (prize <= 10)
-					st.giveItems(13438,1); // 1 - Á¡¼Ç×H¥Ò
+					st.giveItems(14108,1); // 1 - «Ê¦LªºÁ¡¼Ç×H¥Ò
 				else if (prize <= 10)
-					st.giveItems(13439,1); // 1 - Á¡¼ÇÅ@¤â
+					st.giveItems(14109,1); // 1 - «Ê¦LªºÁ¡¼ÇÅ@¤â
 				else if (prize <= 10)
-					st.giveItems(13440,1); // 1 - Á¡¼Ç¹u
+					st.giveItems(14110,1); // 1 - «Ê¦LªºÁ¡¼Ç¹u
 				else if (prize <= 10)
-					st.giveItems(13441,1); // 1 - Á¡¼Ç¥Ö×H¥Ò
+					st.giveItems(14112,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö×H¥Ò
 				else if (prize <= 10)
-					st.giveItems(13442,1); // 1 - Á¡¼Ç¥Ö¤â®M
+					st.giveItems(14113,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö¤â®M
 				else if (prize <= 10)
-					st.giveItems(13443,1); // 1 - Á¡¼Ç¥Ö¹u
+					st.giveItems(14114,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö¹u
 				else if (prize <= 10)
-					st.giveItems(13444,1); // 1 - Á¡¼ÇªøÄû
+					st.giveItems(14115,1); // 1 - «Ê¦LªºÁ¡¼ÇªøÄû
 				else if (prize <= 10)
-					st.giveItems(13445,1); // 1 - Á¡¼Ç¤â®M
+					st.giveItems(14116,1); // 1 - «Ê¦LªºÁ¡¼Ç¤â®M
 				else if (prize <= 10)
-					st.giveItems(13446,1); // 1 - Á¡¼Ç¾c
-				else if (prize <= 25)
+					st.giveItems(14117,1); // 1 - «Ê¦LªºÁ¡¼Ç¾c
+				else if (prize <= 10)
+					st.giveItems(13887,1); // 1 - «Ê¦LªºÁ¡¼Ç²Å¦L
+				else if (prize <= 10)
+					st.giveItems(14111,1); // 1 - «Ê¦LªºÁ¡¼Ç½Ã¬Þ
+				else if (prize <= 125)
 					st.giveItems(9552,1);  // 1 - ¤õ¤§¤ô´¹
-				else if (prize <= 25)
+				else if (prize <= 125)
 					st.giveItems(9553,1);  // 1 - ¤ô¤§¤ô´¹
-				else if (prize <= 25)
+				else if (prize <= 125)
 					st.giveItems(9554,1);  // 1 - ¦a¤§¤ô´¹
-				else if (prize <= 25)
+				else if (prize <= 125)
 					st.giveItems(9555,1);  // 1 - ­·¤§¤ô´¹
-				else if (prize <= 25)
+				else if (prize <= 125)
 					st.giveItems(9556,1);  // 1 - ·t¤§¤ô´¹
-				else if (prize <= 25)
+				else if (prize <= 125)
 					st.giveItems(9557,1);  // 1 - ¸t¤§¤ô´¹
-				else if (prize <= 50)
+				else if (prize <= 350)
 					st.giveItems(3959,2);  // 2 - L2Day-¯¬ºÖªº´_¬¡¨÷¶b2±i
-				else if (prize <= 75)
+				else if (prize <= 400)
 					st.giveItems(3958,2);  // 2 - L2Day-¯¬ºÖªºªð¦^¨÷¶b2±i
 				else if (prize <= 500)
 					st.giveItems(21730,1); // 1 - ¤å¦r¦¬ÂÃ®aªºÂ§ª«
