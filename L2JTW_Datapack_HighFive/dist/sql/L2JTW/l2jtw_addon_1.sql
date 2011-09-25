@@ -6032,3 +6032,6 @@ REPLACE INTO `teleport` VALUES ('Photo Snow Book House', '12105', '-58955', '-59
 REPLACE INTO `teleport` VALUES ('Photo Snow Book Castle', '12106', '-61937', '-59448', '-1713', '0', '0', '57'); -- NPCID 4322
 REPLACE INTO `teleport` VALUES ('Photo Snow Clock Tower', '12107', '-61265', '-57686', '-1610', '0', '0', '57'); -- NPCID 4323
 
+DELETE FROM `npc` WHERE `id` IN (4308,4313);
+REPLACE INTO `npc` VALUES (4308,4308,'',0,'',0,'LineageMonster2.angel_cat','8','15',70,'female','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,10,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,26,120,1,1,0,1);
+REPLACE INTO `npc` VALUES (4313,4313,'',0,'',0,'LineageMonster2.angel_cat','8','15',70,'female','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,10,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,26,120,1,1,0,1);

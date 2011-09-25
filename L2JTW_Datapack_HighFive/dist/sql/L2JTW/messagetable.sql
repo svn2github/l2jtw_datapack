@@ -642,6 +642,9 @@ INSERT INTO `messagetable` VALUES
 ('269', 'tw', '玩家拒絕加入你的指揮頻道。', '', 'RequestExAcceptJoinMPCC.java'),
 ('269', 'cn', '玩家拒绝加入你的指挥频道。', '', 'RequestExAcceptJoinMPCC.java'),
 
+('271', 'en', 'doesn\'t have party and cannot be invited to Command Channel.', '', 'RequestExAskJoinMPCC.java'),
+('271', 'tw', '聯合軍內沒有應邀的玩家。', '', 'RequestExAskJoinMPCC.java'),
+('271', 'cn', '联合军内没有应邀的玩家。', '', 'RequestExAskJoinMPCC.java'),
 ('272', 'en', 'Your target has no Party.', '', 'RequestExAskJoinMPCC.java'),
 ('272', 'tw', '目標不在隊伍中。', '', 'RequestExAskJoinMPCC.java'),
 ('272', 'cn', '目标不在队伍中。', '', 'RequestExAskJoinMPCC.java'),
