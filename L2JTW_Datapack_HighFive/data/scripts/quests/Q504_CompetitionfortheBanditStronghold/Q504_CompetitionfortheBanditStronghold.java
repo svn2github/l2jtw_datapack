@@ -50,7 +50,7 @@ public final class Q504_CompetitionfortheBanditStronghold extends Quest
 		
 		if(st == null)
 			result = getNoQuestMsg(player);
-		else if(!BANDIT_STRONGHOLD.isInSiege())
+		else if(!BANDIT_STRONGHOLD.isWaitingBattle())
 		{
 			sendDatePage("azit_messenger_q0504_09.htm", player, npc);
 			result = null;
