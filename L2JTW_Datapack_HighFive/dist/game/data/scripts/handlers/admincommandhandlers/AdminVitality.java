@@ -25,7 +25,6 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 /**
  * @author Psychokiller1888
  */
-
 public class AdminVitality implements IAdminCommandHandler
 {
 	
@@ -37,12 +36,12 @@ public class AdminVitality implements IAdminCommandHandler
 		"admin_empty_vitality",
 		"admin_get_vitality"
 	};
-
+	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (activeChar == null)
 			return false;
-
+		
 		if (!Config.ENABLE_VITALITY)
 		{
 			activeChar.sendMessage(1910);
@@ -51,15 +50,15 @@ public class AdminVitality implements IAdminCommandHandler
 		
 		int level = 0;
 		int vitality = 0;
-
+		
 		StringTokenizer st = new StringTokenizer(command, " ");
 		String cmd = st.nextToken();
-
+		
 		if (activeChar.getTarget() instanceof L2PcInstance)
 		{
 			L2PcInstance target;
 			target = (L2PcInstance) activeChar.getTarget();
-		
+			
 			if (cmd.equals("admin_set_vitality"))
 			{
 				try
@@ -84,7 +83,7 @@ public class AdminVitality implements IAdminCommandHandler
 				{
 					activeChar.sendMessage(1913);
 				}
-
+				
 				if (level >= 0 && level <= 4)
 				{
 					if (level == 0)
@@ -123,7 +122,7 @@ public class AdminVitality implements IAdminCommandHandler
 			return false;
 		}
 	}
-
+	
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

@@ -44,7 +44,6 @@ import com.l2jserver.util.Rnd;
  **
  ** 2010-10-15 Based on official server Naia
  */
-
 public class NornilsGarden extends Quest
 {
 	private class NornilsWorld extends InstanceWorld
@@ -83,7 +82,7 @@ public class NornilsGarden extends Quest
 		{ 20111, 16200004 }, // Midway gate
 		{ 20112, 16200013 }  // Gate
 	};
-
+	
 	private static final L2Skill skill1 = SkillTable.getInstance().getInfo(4322, 1);
 	private static final L2Skill skill2 = SkillTable.getInstance().getInfo(4327, 1);
 	private static final L2Skill skill3 = SkillTable.getInstance().getInfo(4329, 1);
@@ -314,7 +313,7 @@ public class NornilsGarden extends Quest
 			return null;
 		}
 	}
-
+	
 	private void prepareInstance(NornilsWorld world)
 	{
 		world.first_npc = addSpawn(18362,-109702,74696,-12528, 49568, false, 0, false, world.instanceId);
@@ -326,7 +325,7 @@ public class NornilsGarden extends Quest
 			door.setMeshIndex(2);
 		}
 	}
-
+	
 	private void spawn1(L2Npc npc)
 	{
 		InstanceWorld inst = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -344,7 +343,7 @@ public class NornilsGarden extends Quest
 			}
 		}
 	}
-
+	
 	private void spawn2(L2Npc npc)
 	{
 		InstanceWorld inst = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -362,7 +361,7 @@ public class NornilsGarden extends Quest
 			}
 		}
 	}
-
+	
 	private void spawn3(L2Character cha)
 	{
 		InstanceWorld inst = InstanceManager.getInstance().getWorld(cha.getInstanceId());
@@ -398,7 +397,7 @@ public class NornilsGarden extends Quest
 			}
 		}
 	}
-
+	
 	private void openDoor(QuestState st, L2PcInstance player, int doorId)
 	{
 		st.unset("correct");
@@ -410,7 +409,7 @@ public class NornilsGarden extends Quest
 				door.openMe();
 		}
 	}
-
+	
 	private static final String checkConditions(L2Npc npc, L2PcInstance player)
 	{
 		final L2Party party = player.getParty();
@@ -512,7 +511,7 @@ public class NornilsGarden extends Quest
 		}
 		return super.onEnterZone(character,zone);
 	}
-
+	
 	@Override
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -576,7 +575,7 @@ public class NornilsGarden extends Quest
 		}
 		return htmltext;
 	}
-
+	
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
@@ -691,7 +690,7 @@ public class NornilsGarden extends Quest
 			addEnterZoneId(i[0]);
 		for(int i : _final_gates)
 			addTalkId(i);
-
+		
 		addAttackId(_herb_jar);
 		addAttackId(18362); // first garden guard
 		//addAggroRangeEnterId(18437);

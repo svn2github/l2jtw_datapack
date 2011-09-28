@@ -1,3 +1,17 @@
+/*
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
+ */
 package instances.Pailaka;
 
 import com.l2jserver.gameserver.ThreadPoolManager;
@@ -20,20 +34,20 @@ import com.l2jserver.util.Rnd;
 public class PailakaSongOfIceAndFire extends Quest
 {
 	private static final String qn = "128_PailakaSongOfIceAndFire";
-
+	
 	private static final int MIN_LEVEL = 36;
 	private static final int MAX_LEVEL = 42;
 	private static final int EXIT_TIME = 5;
 	private static final int INSTANCE_ID = 43;
 	private static final int[] TELEPORT = { -52875, 188232, -4696 };
 	private static final int ZONE = 20108;
-
+	
 	private static final int ADLER1 = 32497;
 	private static final int ADLER2 = 32510;
 	private static final int SINAI = 32500;
 	private static final int INSPECTOR = 32507;
 	private static final int[] NPCS = { ADLER1, ADLER2, SINAI, INSPECTOR };
-
+	
 	private static final int HILLAS = 18610;
 	private static final int PAPION = 18609;
 	private static final int KINSUS = 18608;
@@ -45,7 +59,7 @@ public class PailakaSongOfIceAndFire extends Quest
 	private static final int[] MONSTERS =
 	{ HILLAS, PAPION, KINSUS, GARGOS, ADIANTUM, BLOOM, BOTTLE, BRAZIER,
 		18611, 18612, 18613, 18614, 18615 };
-
+	
 	private static final int SWORD = 13034;
 	private static final int ENH_SWORD1 = 13035;
 	private static final int ENH_SWORD2 = 13036;
@@ -64,7 +78,7 @@ public class PailakaSongOfIceAndFire extends Quest
 	private static final int WATER_ENHANCER = 13041;
 	private static final int[] ITEMS = { SWORD, ENH_SWORD1, ENH_SWORD2, BOOK1, BOOK2, BOOK3, BOOK4, BOOK5, BOOK6, BOOK7,
 		WATER_ESSENCE, FIRE_ESSENCE, SHIELD_POTION, HEAL_POTION, FIRE_ENHANCER, WATER_ENHANCER };
-
+	
 	private static final int[][] DROPLIST =
 	{
 		// must be sorted by npcId !
@@ -84,13 +98,13 @@ public class PailakaSongOfIceAndFire extends Quest
 		// itemId, count, chance
 		{ 8602, 1, 10 }, { 8601, 1, 40 }, { 8600, 1, 70 }
 	};
-
+	
 	private static final int[][] MP_HERBS_DROPLIST =
 	{
 		// itemId, count, chance
 		{ 8605, 1, 10 }, { 8604, 1, 40 }, { 8603, 1, 70 }
 	};
-
+	
 	private static final int[] REWARDS = { 13294, 13293, 13129 };
 	
 	private static final void dropHerb(L2Npc mob, L2PcInstance player, int[][] drop)
@@ -105,7 +119,7 @@ public class PailakaSongOfIceAndFire extends Quest
 			}
 		}
 	}
-
+	
 	private static final void dropItem(L2Npc mob, L2PcInstance player)
 	{
 		final int npcId = mob.getNpcId();
@@ -125,14 +139,14 @@ public class PailakaSongOfIceAndFire extends Quest
 				return; // not found
 		}
 	}
-
+	
 	private static final void teleportPlayer(L2PcInstance player, int[] coords, int instanceId)
 	{
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(instanceId);
 		player.teleToLocation(coords[0], coords[1], coords[2], true);
 	}
-
+	
 	private final synchronized void enterInstance(L2PcInstance player)
 	{
 		//check for existing instances for this player
@@ -158,13 +172,13 @@ public class PailakaSongOfIceAndFire extends Quest
 			world.instanceId = instanceId;
 			world.templateId = INSTANCE_ID;
 			InstanceManager.getInstance().addWorld(world);
-
+			
 			world.allowed.add(player.getObjectId());
 			teleportPlayer(player, TELEPORT, instanceId);
 		}
 		
 	}
-
+	
 	@Override
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -228,11 +242,11 @@ public class PailakaSongOfIceAndFire extends Quest
 			st.unset("cond");
 			st.playSound("ItemSound.quest_finish");
 			st.exitQuest(false);
-
+			
 			Instance inst = InstanceManager.getInstance().getInstance(npc.getInstanceId());
 			inst.setDuration(EXIT_TIME * 60000);
 			inst.setEmptyDestroyTime(0);
-
+			
 			if (inst.containsPlayer(player.getObjectId()))
 			{
 				player.setVitalityPoints(20000, true);
@@ -243,13 +257,13 @@ public class PailakaSongOfIceAndFire extends Quest
 		}
 		return event;
 	}
-
+	
 	@Override
 	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		return npc.getNpcId() + ".htm";
 	}
-
+	
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
@@ -309,23 +323,23 @@ public class PailakaSongOfIceAndFire extends Quest
 		}
 		return getNoQuestMsg(player);
 	}
-
+	
 	@Override
 	public final String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (!npc.isDead())
 			npc.doDie(attacker);
-
+		
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
-
+	
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		QuestState st = player.getQuestState(qn);
 		if (st == null || st.getState() != State.STARTED)
 			return null;
-
+		
 		final int cond = st.getInt("cond");
 		switch (npc.getNpcId())
 		{
@@ -393,7 +407,7 @@ public class PailakaSongOfIceAndFire extends Quest
 		}
 		return super.onKill(npc, player, isPet);
 	}
-
+	
 	@Override
 	public String onExitZone(L2Character character, L2ZoneType zone)
 	{
@@ -408,18 +422,18 @@ public class PailakaSongOfIceAndFire extends Quest
 		}
 		return super.onExitZone(character,zone);
 	}
-
+	
 	static final class Teleport implements Runnable
 	{
 		private final L2Character _char;
 		private final int _instanceId;
-
+		
 		public Teleport(L2Character c, int id)
 		{
 			_char = c;
 			_instanceId = id;
 		}
-
+		
 		public void run()
 		{
 			try
@@ -432,7 +446,7 @@ public class PailakaSongOfIceAndFire extends Quest
 			}
 		}
 	}
-
+	
 	public PailakaSongOfIceAndFire(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -449,7 +463,7 @@ public class PailakaSongOfIceAndFire extends Quest
 		addExitZoneId(ZONE);
 		questItemIds = ITEMS;
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new PailakaSongOfIceAndFire(128, qn, "Pailaka - Song of Ice and Fire");
