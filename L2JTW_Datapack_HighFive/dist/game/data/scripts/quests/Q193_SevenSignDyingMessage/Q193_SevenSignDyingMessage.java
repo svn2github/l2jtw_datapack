@@ -27,7 +27,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 
 /**
  * @author Plim
- * Update by pmq High Five 12-06-2011
+ * Update by pmq High Five 29-09-2011
  */
 
 public class Q193_SevenSignDyingMessage extends Quest
@@ -83,24 +83,26 @@ public class Q193_SevenSignDyingMessage extends Quest
 				st.set("cond", "4");
 				st.playSound("ItemSound.quest_middle");
 				player.showQuestMovie(9);
-				return "";
+				return null;
 			}
 			
 			else if (event.equalsIgnoreCase("32569-09.htm"))
 			{
 				if (ShilensevilOnSpawn)
-					htmltext = "<html><body>神官凱因：<br>神官凱因忙著與怪人戰鬥，因此沒有注意到您有找他交談。<br>（其他的玩家正在進行對話。）</body></html>";
+					htmltext = "32569-09a.htm";
 				else
 				{
-					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」！我們得擊倒那個怪人，我會盡全力來幫你的！"));
+					NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.S1_THAT_STRANGER_MUST_BE_DEFEATED_HERE_IS_THE_ULTIMATE_HELP);
+					packet.addStringParameter(player.getName().toString());
+					npc.broadcastPacket(packet);
 					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 82624, 47422, -3220, 0, false, 300000, true);
-					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));  // 那個物品的主人不是你們...
+					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
 					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
 					ShilensevilOnSpawn = true;
 					startQuestTimer("spawnS", 300000, npc, player);
-					startQuestTimer("aiplayer", 30000, npc, player);
+					startQuestTimer("aiplayer", 20000, npc, player);
 				}
 			}
 			else if (event.equalsIgnoreCase("spawnS"))
@@ -108,21 +110,32 @@ public class Q193_SevenSignDyingMessage extends Quest
 				if (ShilensevilOnSpawn)
 				{
 					ShilensevilOnSpawn = false;
-					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, NpcStringId.NEXT_TIME_YOU_WILL_NOT_ESCAPE));  // 小心！下次就不能活著回去了。
-					htmltext = "";
+					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, NpcStringId.NEXT_TIME_YOU_WILL_NOT_ESCAPE));
+					htmltext = null;
 				}
 				else
-					htmltext = "";
+					htmltext = null;
 			}
 			
 			else if (event.equalsIgnoreCase("aiplayer"))
 			{
 				if (ShilensevilOnSpawn == true)
 				{
-					npc.setTarget(player);
-					npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
-					startQuestTimer("aiplayer", 30000, npc, player);
-					return "";
+					if (!npc.isInsideRadius(player, 600, true, true))
+					{
+						NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.LOOK_HERE_S1_DONT_FALL_TOO_FAR_BEHIND);
+						packet.addStringParameter(player.getName().toString());
+						npc.broadcastPacket(packet);
+						startQuestTimer("aiplayer", 20000, npc, player);
+						return null;
+					}
+					else
+					{
+						npc.setTarget(player);
+						npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
+						startQuestTimer("aiplayer", 20000, npc, player);
+						return null;
+					}
 				}
 				else
 				{
@@ -153,8 +166,7 @@ public class Q193_SevenSignDyingMessage extends Quest
 		{
 			if (event.equalsIgnoreCase("30760-02.htm"))
 			{
-				//st.addExpAndSp(52518015, 5817677);
-				st.addExpAndSp(25000000, 2500000); //High Five
+				st.addExpAndSp(25000000, 2500000);
 				st.unset("cond");
 				st.setState(State.COMPLETED);
 				st.exitQuest(false);
@@ -237,7 +249,7 @@ public class Q193_SevenSignDyingMessage extends Quest
 					case 2 :
 						htmltext = "32570-01.htm";
 						break;
-				
+					
 					case 3 :
 						htmltext = "32570-03.htm";
 						break;
@@ -268,8 +280,12 @@ public class Q193_SevenSignDyingMessage extends Quest
 		if (npc.getNpcId() == SHILENSEVIL && st.getInt("cond") == 4)
 		{
 			ShilensevilOnSpawn = false;
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」！現在我就讓你一步..不過，我一定會抓到你的。"));
-			npc.broadcastPacket(new NpcSay(CAIN, 0, CAIN, "很好，「" + player.getName() + "」。很高興能幫得上你。"));
+			NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.S1_YOU_MAY_HAVE_WON_THIS_TIME_BUT_NEXT_TIME_I_WILL_SURELY_CAPTURE_YOU);
+			packet.addStringParameter(player.getName().toString());
+			npc.broadcastPacket(packet);
+			NpcSay packet1 = new NpcSay(CAIN, 0, CAIN, NpcStringId.WELL_DONE_S1_YOUR_HELP_IS_MUCH_APPRECIATED);
+			packet1.addStringParameter(player.getName().toString());
+			npc.broadcastPacket(packet1);
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "5");
 			st.playSound("ItemSound.quest_middle");
