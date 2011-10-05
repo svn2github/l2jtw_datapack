@@ -3,17 +3,14 @@
  * the terms of the GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option) any later
  * version.
- * 
+ *
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
  * details.
- * 
+ *
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
- */
- /**
- * ¯Áº¸ªù
  */
 package hellbound.Solomon;
 
@@ -23,36 +20,32 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 
 /**
- * @author theOne
+ * @author DS
  */
 public class Solomon extends Quest
 {
-	private static final int Solomon = 32355;
-
-	public Solomon(int id, String name, String descr)
-	{
-		super(id, name, descr);
-		addStartNpc(Solomon);
-		addTalkId(Solomon);
-		addFirstTalkId(Solomon);
-	}
-
+	private static final int SOLOMON = 32355;
+	
 	@Override
-	public String onFirstTalk(L2Npc npc, L2PcInstance player)
+	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "";
-
-		int hellboundLevel = HellboundManager.getInstance().getLevel();
-		if (hellboundLevel == 5)
-			htmltext = "32355.htm";
-		else if (hellboundLevel == 6 || hellboundLevel == 7)
-			htmltext = "32355-1.htm";
-		else if (hellboundLevel >= 9)
-			htmltext = "32355-2.htm";
-
-		return htmltext;
+		if (HellboundManager.getInstance().getLevel() == 5)
+		{
+			return "32355-01.htm";
+		}
+		else if (HellboundManager.getInstance().getLevel() > 5)
+		{
+			return "32355-01a.htm";
+		}
+		return null;
 	}
-
+	
+	public Solomon(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addFirstTalkId(SOLOMON);
+	}
+	
 	public static void main(String[] args)
 	{
 		new Solomon(-1, "Solomon", "hellbound");

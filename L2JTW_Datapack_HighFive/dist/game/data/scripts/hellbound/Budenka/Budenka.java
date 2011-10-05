@@ -12,9 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /**
- * 奇岩的商隊 布丹卡
- */
 package hellbound.Budenka;
 
 import com.l2jserver.gameserver.instancemanager.HellboundManager;
@@ -25,10 +22,10 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 
 public class Budenka extends Quest
 {
-	private static final int BUDENKA       = 32294; //奇岩的商隊 布丹卡
-	private static final int BASIC_CERT    = 9850;  //商隊初級認證書
-	private static final int STANDART_CERT = 9851;  //商隊中級認證書
-	private static final int PREMIUM_CERT  = 9852;  //商隊高級認證書
+	private static final int BUDENKA       = 32294;
+	private static final int BASIC_CERT    = 9850;
+	private static final int STANDART_CERT = 9851;
+	private static final int PREMIUM_CERT  = 9852;
 
 	@Override
 	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
@@ -51,15 +48,15 @@ public class Budenka extends Quest
 		npc.showChatWindow(player);
 		return null;
 	}
-
+	
 	public Budenka(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		addFirstTalkId(BUDENKA);
 	}
-
+	
 	public static void main(String[] args)
 	{
-		new Budenka(-1, Budenka.class.getSimpleName(), "hellbound");
+		new Budenka(-1, "Budenka", "hellbound");
 	}
 }

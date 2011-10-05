@@ -14,8 +14,8 @@
  */
 package handlers.admincommandhandlers;
 
-import gnu.trove.TIntObjectHashMap;
-import gnu.trove.TIntObjectIterator;
+import gnu.trove.iterator.TIntObjectIterator;
+import gnu.trove.map.hash.TIntObjectHashMap;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -403,7 +403,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				String.valueOf(itemID),
 				" $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
 				String.valueOf(tradeListID),
-				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+		" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setHtml(replyMSG);
@@ -445,7 +445,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				String.valueOf(itemID),
 				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
 				String.valueOf(tradeListID),
-				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+		" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setHtml(replyMSG);
@@ -488,7 +488,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				String.valueOf(tradeListID),
 				" $itemID $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
 				String.valueOf(tradeListID),
-				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+		" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setHtml(replyMSG);
@@ -524,7 +524,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				tradeList.getNpcId(),
 				") "+MessageTable.Messages[1589].getExtra(3), 
 				Integer.toString(tradeList.getListId()),
-				"</font></center><table width=300 bgcolor=666666><tr>");
+		"</font></center><table width=300 bgcolor=666666><tr>");
 		
 		for (int x = 0; x < max; x++)
 		{

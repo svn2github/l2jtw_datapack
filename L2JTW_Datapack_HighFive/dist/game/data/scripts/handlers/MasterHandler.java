@@ -62,6 +62,7 @@ import handlers.admincommandhandlers.AdminGm;
 import handlers.admincommandhandlers.AdminGmChat;
 import handlers.admincommandhandlers.AdminGraciaSeeds;
 import handlers.admincommandhandlers.AdminHeal;
+import handlers.admincommandhandlers.AdminHellbound;
 import handlers.admincommandhandlers.AdminHelpPage;
 import handlers.admincommandhandlers.AdminInstance;
 import handlers.admincommandhandlers.AdminInstanceZone;
@@ -99,8 +100,8 @@ import handlers.admincommandhandlers.AdminTest;
 import handlers.admincommandhandlers.AdminTvTEvent;
 import handlers.admincommandhandlers.AdminUnblockIp;
 import handlers.admincommandhandlers.AdminVitality;
-import handlers.admincommandhandlers.AdminZone;
 import handlers.admincommandhandlers.AdminVitaminItem;  // Add PI by pmq
+import handlers.admincommandhandlers.AdminZone;
 import handlers.bypasshandlers.Augment;
 import handlers.bypasshandlers.BloodAlliance;
 import handlers.bypasshandlers.Buy;
@@ -231,6 +232,40 @@ import handlers.skillhandlers.TakeFort;
 import handlers.skillhandlers.TransformDispel;
 import handlers.skillhandlers.Trap;
 import handlers.skillhandlers.Unlock;
+import handlers.targethandlers.TargetAlly;
+import handlers.targethandlers.TargetArea;
+import handlers.targethandlers.TargetAreaCorpseMob;
+import handlers.targethandlers.TargetAreaSummon;
+import handlers.targethandlers.TargetAreaUndead;
+import handlers.targethandlers.TargetAura;
+import handlers.targethandlers.TargetAuraCorpseMob;
+import handlers.targethandlers.TargetBehindArea;
+import handlers.targethandlers.TargetBehindAura;
+import handlers.targethandlers.TargetClan;
+import handlers.targethandlers.TargetClanMember;
+import handlers.targethandlers.TargetCorpseAlly;
+import handlers.targethandlers.TargetCorpseClan;
+import handlers.targethandlers.TargetCorpseMob;
+import handlers.targethandlers.TargetCorpsePet;
+import handlers.targethandlers.TargetCorpsePlayer;
+import handlers.targethandlers.TargetEnemySummon;
+import handlers.targethandlers.TargetFlagPole;
+import handlers.targethandlers.TargetFrontArea;
+import handlers.targethandlers.TargetFrontAura;
+import handlers.targethandlers.TargetGround;
+import handlers.targethandlers.TargetHoly;
+import handlers.targethandlers.TargetOne;
+import handlers.targethandlers.TargetOwnerPet;
+import handlers.targethandlers.TargetParty;
+import handlers.targethandlers.TargetPartyClan;
+import handlers.targethandlers.TargetPartyMember;
+import handlers.targethandlers.TargetPartyNotMe;
+import handlers.targethandlers.TargetPartyOther;
+import handlers.targethandlers.TargetPet;
+import handlers.targethandlers.TargetSelf;
+import handlers.targethandlers.TargetSummon;
+import handlers.targethandlers.TargetUndead;
+import handlers.targethandlers.TargetUnlockable;
 import handlers.usercommandhandlers.Birthday;
 import handlers.usercommandhandlers.ChannelDelete;
 import handlers.usercommandhandlers.ChannelLeave;
@@ -249,11 +284,13 @@ import handlers.voicedcommandhandlers.Banking;
 import handlers.voicedcommandhandlers.ChangePassword;
 import handlers.voicedcommandhandlers.ChatAdmin;
 import handlers.voicedcommandhandlers.Debug;
+import handlers.voicedcommandhandlers.Hellbound;
 import handlers.voicedcommandhandlers.Lang;
 import handlers.voicedcommandhandlers.TvTVoicedInfo;
 import handlers.voicedcommandhandlers.Wedding;
 import handlers.voicedcommandhandlers.stats;
 
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.l2jserver.Config;
@@ -263,6 +300,7 @@ import com.l2jserver.gameserver.handler.BypassHandler;
 import com.l2jserver.gameserver.handler.ChatHandler;
 import com.l2jserver.gameserver.handler.ItemHandler;
 import com.l2jserver.gameserver.handler.SkillHandler;
+import com.l2jserver.gameserver.handler.TargetHandler;
 import com.l2jserver.gameserver.handler.UserCommandHandler;
 import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 
@@ -273,14 +311,15 @@ public class MasterHandler
 {
 	private static Logger _log = Logger.getLogger(MasterHandler.class.getName());
 	
-	private static ActionHandler ACTION = ActionHandler.getInstance();
-	private static AdminCommandHandler ADMIN = AdminCommandHandler.getInstance();
-	private static BypassHandler BYPASS = BypassHandler.getInstance();
-	private static ChatHandler CHAT = ChatHandler.getInstance();
-	private static ItemHandler ITEM = ItemHandler.getInstance();
-	private static SkillHandler SKILL = SkillHandler.getInstance();
-	private static UserCommandHandler USER = UserCommandHandler.getInstance();
-	private static VoicedCommandHandler VOICE = VoicedCommandHandler.getInstance();
+	private static final ActionHandler ACTION = ActionHandler.getInstance();
+	private static final AdminCommandHandler ADMIN = AdminCommandHandler.getInstance();
+	private static final BypassHandler BYPASS = BypassHandler.getInstance();
+	private static final ChatHandler CHAT = ChatHandler.getInstance();
+	private static final ItemHandler ITEM = ItemHandler.getInstance();
+	private static final SkillHandler SKILL = SkillHandler.getInstance();
+	private static final UserCommandHandler USER = UserCommandHandler.getInstance();
+	private static final VoicedCommandHandler VOICE = VoicedCommandHandler.getInstance();
+	private static final TargetHandler TARGET = TargetHandler.getInstance();
 	
 	private static void loadActionHandlers()
 	{
@@ -294,7 +333,7 @@ public class MasterHandler
 		ACTION.registerActionHandler(new L2StaticObjectInstanceAction());
 		ACTION.registerActionHandler(new L2SummonAction());
 		ACTION.registerActionHandler(new L2TrapAction());
-		_log.config("Loaded " + ACTION.size() + "  ActionHandlers");
+		_log.log(Level.INFO, "Loaded " + ACTION.size() + " ActionHandlers");
 	}
 	
 	private static void loadActionShiftHandlers()
@@ -305,7 +344,7 @@ public class MasterHandler
 		ACTION.registerActionShiftHandler(new L2PcInstanceActionShift());
 		ACTION.registerActionShiftHandler(new L2StaticObjectInstanceActionShift());
 		ACTION.registerActionShiftHandler(new L2SummonActionShift());
-		_log.config("Loaded " + ACTION.sizeShift() + " ActionShiftHandlers");
+		_log.log(Level.INFO, "Loaded " + ACTION.sizeShift() + " ActionShiftHandlers");
 	}
 	
 	private static void loadAdminHandlers()
@@ -342,6 +381,7 @@ public class MasterHandler
 		ADMIN.registerAdminCommandHandler(new AdminGmChat());
 		ADMIN.registerAdminCommandHandler(new AdminGraciaSeeds());
 		ADMIN.registerAdminCommandHandler(new AdminHeal());
+		ADMIN.registerAdminCommandHandler(new AdminHellbound());
 		ADMIN.registerAdminCommandHandler(new AdminHelpPage());
 		ADMIN.registerAdminCommandHandler(new AdminInstance());
 		ADMIN.registerAdminCommandHandler(new AdminInstanceZone());
@@ -381,7 +421,7 @@ public class MasterHandler
 		ADMIN.registerAdminCommandHandler(new AdminVitality());
 		ADMIN.registerAdminCommandHandler(new AdminVitaminItem());  // Add PI by pmq
 		ADMIN.registerAdminCommandHandler(new AdminZone());
-		_log.config("Loaded " + ADMIN.size() + "  AdminCommandHandlers");
+		_log.log(Level.INFO, "Loaded " + ADMIN.size() + " AdminCommandHandlers");
 	}
 	
 	private static void loadBypassHandlers()
@@ -424,7 +464,7 @@ public class MasterHandler
 		BYPASS.registerBypassHandler(new TerritoryWar());
 		BYPASS.registerBypassHandler(new VoiceCommand());
 		BYPASS.registerBypassHandler(new Wear());
-		_log.config("Loaded " + BYPASS.size() + "  BypassHandlers");
+		_log.log(Level.INFO, "Loaded " + BYPASS.size() + " BypassHandlers");
 	}
 	
 	private static void loadChatHandlers()
@@ -442,7 +482,7 @@ public class MasterHandler
 		CHAT.registerChatHandler(new ChatShout());
 		CHAT.registerChatHandler(new ChatTell());
 		CHAT.registerChatHandler(new ChatTrade());
-		_log.config("Loaded " + CHAT.size() + "  ChatHandlers");
+		_log.log(Level.INFO, "Loaded " + CHAT.size() + " ChatHandlers");
 	}
 	
 	private static void loadItemHandlers()
@@ -479,7 +519,7 @@ public class MasterHandler
 		ITEM.registerItemHandler(new ManaPotion());
 		ITEM.registerItemHandler(new EnergyStarStone());
 		ITEM.registerItemHandler(new EventItem());
-		_log.config("Loaded " + ITEM.size() + " ItemHandlers");
+		_log.log(Level.INFO, "Loaded " + ITEM.size() + " ItemHandlers");
 	}
 	
 	private static void loadSkillHandlers()
@@ -531,7 +571,7 @@ public class MasterHandler
 		SKILL.registerSkillHandler(new Extractable());
 		SKILL.registerSkillHandler(new RefuelAirShip());
 		SKILL.registerSkillHandler(new NornilsPower());
-		_log.config("Loaded " + SKILL.size() + " SkillHandlers");
+		_log.log(Level.INFO, "Loaded " + SKILL.size() + " SkillHandlers");
 	}
 	
 	private static void loadUserHandlers()
@@ -550,7 +590,7 @@ public class MasterHandler
 		USER.registerUserCommandHandler(new ChannelDelete());
 		USER.registerUserCommandHandler(new ChannelListUpdate());
 		USER.registerUserCommandHandler(new Birthday());
-		_log.config("Loaded " + USER.size() + " UserHandlers");
+		_log.log(Level.INFO, "Loaded " + USER.size() + " UserHandlers");
 	}
 	
 	private static void loadVoicedHandlers()
@@ -570,7 +610,48 @@ public class MasterHandler
 			VOICE.registerVoicedCommandHandler(new Debug());
 		if (Config.L2JMOD_ALLOW_CHANGE_PASSWORD)
 			VOICE.registerVoicedCommandHandler(new ChangePassword());
-		_log.config("Loaded " + VOICE.size() + " VoicedHandlers");
+		if (Config.L2JMOD_HELLBOUND_STATUS)
+			VOICE.registerVoicedCommandHandler(new Hellbound());
+		_log.log(Level.INFO, "Loaded " + VOICE.size() + " VoicedHandlers");
+	}
+	
+	private static void loadTargetHandlers()
+	{
+		TARGET.registerTargetType(new TargetAlly());
+		TARGET.registerTargetType(new TargetArea());
+		TARGET.registerTargetType(new TargetAreaCorpseMob());
+		TARGET.registerTargetType(new TargetAreaSummon());
+		TARGET.registerTargetType(new TargetAreaUndead());
+		TARGET.registerTargetType(new TargetAura());
+		TARGET.registerTargetType(new TargetAuraCorpseMob());
+		TARGET.registerTargetType(new TargetBehindArea());
+		TARGET.registerTargetType(new TargetBehindAura());
+		TARGET.registerTargetType(new TargetClan());
+		TARGET.registerTargetType(new TargetClanMember());
+		TARGET.registerTargetType(new TargetCorpseAlly());
+		TARGET.registerTargetType(new TargetCorpseClan());
+		TARGET.registerTargetType(new TargetCorpseMob());
+		TARGET.registerTargetType(new TargetCorpsePet());
+		TARGET.registerTargetType(new TargetCorpsePlayer());
+		TARGET.registerTargetType(new TargetEnemySummon());
+		TARGET.registerTargetType(new TargetFlagPole());
+		TARGET.registerTargetType(new TargetFrontArea());
+		TARGET.registerTargetType(new TargetFrontAura());
+		TARGET.registerTargetType(new TargetGround());
+		TARGET.registerTargetType(new TargetHoly());
+		TARGET.registerTargetType(new TargetOne());
+		TARGET.registerTargetType(new TargetOwnerPet());
+		TARGET.registerTargetType(new TargetParty());
+		TARGET.registerTargetType(new TargetPartyClan());
+		TARGET.registerTargetType(new TargetPartyMember());
+		TARGET.registerTargetType(new TargetPartyNotMe());
+		TARGET.registerTargetType(new TargetPartyOther());
+		TARGET.registerTargetType(new TargetPet());
+		TARGET.registerTargetType(new TargetSelf());
+		TARGET.registerTargetType(new TargetSummon());
+		TARGET.registerTargetType(new TargetUndead());
+		TARGET.registerTargetType(new TargetUnlockable());
+		_log.log(Level.INFO, "Loaded " + TARGET.size() + " Target Handlers");
 	}
 	
 	/**
@@ -578,7 +659,7 @@ public class MasterHandler
 	 */
 	public static void main(String[] args)
 	{
-		_log.config("Loading Handlers...");
+		_log.log(Level.INFO, "Loading Handlers...");
 		loadActionHandlers();
 		loadActionShiftHandlers();
 		loadAdminHandlers();
@@ -588,6 +669,7 @@ public class MasterHandler
 		loadSkillHandlers();
 		loadUserHandlers();
 		loadVoicedHandlers();
-		_log.config("Handlers Loaded...");
+		loadTargetHandlers();
+		_log.log(Level.INFO, "Handlers Loaded...");
 	}
 }

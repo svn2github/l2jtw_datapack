@@ -12,9 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /**
- * ¦¶¼w
- */
 package hellbound.Jude;
 
 import com.l2jserver.gameserver.instancemanager.HellboundManager;
@@ -24,66 +21,71 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 
 /**
- * @author theOne
+ * @author DS
  */
 public class Jude extends Quest
 {
-	private static final int Jude = 32356;
-
-	public Jude(int id, String name, String descr)
-	{
-		super(id, name, descr);
-		addStartNpc(Jude);
-		addTalkId(Jude);
-		addFirstTalkId(Jude);
-	}
-
+	private static final int JUDE = 32356;
+	private static final int NativeTreasure = 9684;
+	private static final int RingOfWindMastery = 9677;
+	
 	@Override
-	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "";
-		QuestState st = player.getQuestState(getName());
-
-		if (st == null)
-			st = newQuestState(player);
-
-		if (event.equalsIgnoreCase("TreasureSacks"))
+		QuestState qs = player.getQuestState(getName());
+		if (qs == null)
 		{
-			if (st.getQuestItemsCount(9684) >= 40)
-			{
-				st.takeItems(9684, 40);
-				htmltext = "32356-4.htm";
-			}
-			else
-				htmltext = "32356-5.htm";
+			qs = newQuestState(player);
 		}
-
-		return htmltext;
+		
+		if ("TreasureSacks".equalsIgnoreCase(event))
+		{
+			if (HellboundManager.getInstance().getLevel() == 3)
+			{
+				if (qs.getQuestItemsCount(NativeTreasure) >= 40)
+				{
+					qs.takeItems(NativeTreasure, 40);
+					qs.giveItems(RingOfWindMastery, 1);
+					return "32356-02.htm";
+				}
+			}
+			return "32356-02a.htm";
+		}
+		return event;
 	}
-
+	
 	@Override
-	public String onFirstTalk(L2Npc npc, L2PcInstance player)
+	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "";
-		QuestState st = player.getQuestState(getName());
-		if (st == null)
-			st = newQuestState(player);
-
-		int hellboundLevel = HellboundManager.getInstance().getLevel();
-		if (hellboundLevel < 3)
-			htmltext = "32356-1.htm";
-		else if (hellboundLevel == 3)
-			htmltext = "32356.htm";
-		else if (hellboundLevel == 4)
-			htmltext = "32356-2.htm";
-		else if (hellboundLevel == 5)
-			htmltext = "32356-3.htm";
-		else if (hellboundLevel >= 6)
-			npc.showChatWindow(player);
-
-		return htmltext;
+		if (player.getQuestState(getName()) == null)
+		{
+			newQuestState(player);
+		}
+		
+		switch (HellboundManager.getInstance().getLevel())
+		{
+			case 0:
+			case 1:
+			case 2:
+				return "32356-01.htm";
+			case 3:
+			case 4:
+				return "32356-01c.htm";
+			case 5:
+				return "32356-01a.htm";
+			default:
+				return "32356-01b.htm";
+		}
 	}
-
+	
+	public Jude(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addFirstTalkId(JUDE);
+		addStartNpc(JUDE);
+		addTalkId(JUDE);
+	}
+	
 	public static void main(String[] args)
 	{
 		new Jude(-1, "Jude", "hellbound");

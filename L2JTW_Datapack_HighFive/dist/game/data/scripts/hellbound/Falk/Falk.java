@@ -12,9 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /**
- * ºÖº¸§J
- */
 package hellbound.Falk;
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -23,51 +20,81 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 
 /**
- * @author theOne
+ * @author DS
  */
 public class Falk extends Quest
 {
-	private static final int Falk = 32297;
-
-	private static final int[] CaravanCertificates = {
-			9850, 9851, 9852
-	};
-
-	public Falk(int id, String name, String descr)
-	{
-		super(id, name, descr);
-		addStartNpc(Falk);
-		addTalkId(Falk);
-	}
-
+	private static final int FALK = 32297;
+	private static final int BASIC_CERT = 9850;
+	private static final int STANDART_CERT = 9851;
+	private static final int PREMIUM_CERT = 9852;
+	private static final int DARION_BADGE = 9674;
+	
 	@Override
-	public String onTalk(L2Npc npc, L2PcInstance player)
+	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		QuestState st = player.getQuestState(getName());
-
-		if (st == null)
-			st = newQuestState(player);
-
-		boolean haveCertificates = false;
-		for (int i : CaravanCertificates)
+		QuestState qs = player.getQuestState(getName());
+		if (qs == null)
 		{
-			if (st.getQuestItemsCount(i) >= 1)
-				haveCertificates = true;
+			qs = newQuestState(player);
 		}
-
-		if (haveCertificates)
-			return "32297-1.htm";
-
-		if (st.getQuestItemsCount(9674) >= 20)
+		
+		if (qs.hasQuestItems(BASIC_CERT) || qs.hasQuestItems(STANDART_CERT) || qs.hasQuestItems(PREMIUM_CERT))
 		{
-			st.takeItems(9674, 20);
-			st.giveItems(9850, 1);
-			return "32297-3.htm";
+			return "32297-01a.htm";
 		}
-		else
-			return "32297-2.htm";
+		return "32297-01.htm";
 	}
-
+	
+	@Override
+	public final String onTalk(L2Npc npc, L2PcInstance player)
+	{
+		QuestState qs = player.getQuestState(getName());
+		if (qs == null)
+		{
+			qs = newQuestState(player);
+		}
+		
+		if (qs.hasQuestItems(BASIC_CERT) || qs.hasQuestItems(STANDART_CERT) || qs.hasQuestItems(PREMIUM_CERT))
+		{
+			return "32297-01a.htm";
+		}
+		return "32297-02.htm";
+	}
+	
+	@Override
+	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	{
+		QuestState qs = player.getQuestState(getName());
+		if (qs == null)
+		{
+			qs = newQuestState(player);
+		}
+		
+		if (event.equalsIgnoreCase("badges"))
+		{
+			if (!qs.hasQuestItems(BASIC_CERT) && !qs.hasQuestItems(STANDART_CERT) && !qs.hasQuestItems(PREMIUM_CERT))
+			{
+				if (qs.getQuestItemsCount(DARION_BADGE) >= 20)
+				{
+					qs.takeItems(DARION_BADGE, 20);
+					qs.giveItems(BASIC_CERT, 1);
+					return "32297-02a.htm";
+				}
+				return "32297-02b.htm";
+			}
+		}
+		return event;
+	}
+	
+	public Falk(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addFirstTalkId(FALK);
+		addStartNpc(FALK);
+		addTalkId(FALK);
+	}
+	
 	public static void main(String[] args)
 	{
 		new Falk(-1, "Falk", "hellbound");

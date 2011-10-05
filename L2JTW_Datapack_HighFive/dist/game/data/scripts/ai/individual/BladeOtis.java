@@ -15,9 +15,11 @@
 package ai.individual;
 
 
-import javolution.util.FastMap;
-import gnu.trove.TIntObjectHashMap;
 import ai.group_template.L2AttackableAIScript;
+
+import gnu.trove.map.hash.TIntObjectHashMap;
+
+import javolution.util.FastMap;
 
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;

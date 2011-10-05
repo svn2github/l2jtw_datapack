@@ -16,6 +16,7 @@ package ai.group_template;
 
 import static com.l2jserver.gameserver.ai.CtrlIntention.AI_INTENTION_ATTACK;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlEvent;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.NpcTable;
@@ -139,7 +140,7 @@ public class L2AttackableAIScript extends QuestJython
 	@Override
 	public String onFactionCall (L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
 	{
-		if (attacker == null)
+		if(attacker == null)
 			return null;
 		
 		L2Character originalAttackTarget = (isPet? attacker.getPet(): attacker);
@@ -206,7 +207,10 @@ public class L2AttackableAIScript extends QuestJython
 		{
 			final L2MonsterInstance mob = (L2MonsterInstance)npc;
 			if (mob.getLeader() != null)
-				mob.getLeader().getMinionList().onMinionDie(mob, -1);
+			{
+				final int respawnTime = Config.MINIONS_RESPAWN_TIME.get(mob.getNpcId()) > 0 ? Config.MINIONS_RESPAWN_TIME.get(mob.getNpcId()) * 1000 : -1;
+				mob.getLeader().getMinionList().onMinionDie(mob, respawnTime);
+			}
 
 			if (mob.hasMinions())
 				mob.getMinionList().onMasterDie(false);

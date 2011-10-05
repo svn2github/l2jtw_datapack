@@ -3,136 +3,129 @@
  * the terms of the GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option) any later
  * version.
- *
+ * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
  * details.
- *
+ * 
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.individual;
 
+import java.util.Map;
+
+import javolution.util.FastMap;
 import ai.group_template.L2AttackableAIScript;
 
-import com.l2jserver.gameserver.datatables.SkillTable;
+import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.skills.SkillHolder;
+import com.l2jserver.util.Rnd;
 
 /**
  * ¬¼Ây­º»â ´cÅ]¤½Àï
- * @author RosT
+ * @author GKR
  */
-
 public class DemonPrince extends L2AttackableAIScript
 {
-	private static final int PRINCE = 25540;
-	private static final int PRINCE_MIN = 25541; //Don't attacks players if they didn't attacked him. After 20 sec - BOOM!
+	private static final int DEMON_PRINCE = 25540;
+	private static final int FIEND = 25541;
 	
-	public int princestatus;
-	
-	public DemonPrince(int id, String name, String descr)
+	private static final SkillHolder UD = new SkillHolder(5044, 2);
+	private static final SkillHolder[] AOE =
 	{
-		super(id, name, descr);
-		addEventId(PRINCE, Quest.QuestEventType.ON_SPAWN);
-		addEventId(PRINCE_MIN, Quest.QuestEventType.ON_SPAWN);
-		addEventId(PRINCE, Quest.QuestEventType.ON_ATTACK);
-		
-	}
+		new SkillHolder(5376, 4), new SkillHolder(5376, 5), new SkillHolder(5376, 6)
+	};
+	
+	private static final Map<Integer, Boolean> _attackState = new FastMap<Integer, Boolean>();
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		if (npc != null)
+		if (event.equalsIgnoreCase("cast") && (npc != null) && (npc.getNpcId() == FIEND) && !npc.isDead())
 		{
-			if (event.equalsIgnoreCase("time_to_suicide"))
-			{
-				npc.doCast(SkillTable.getInstance().getInfo(4529, 1)); //Use BOOM skill
-				this.startQuestTimer("suicide", 1700, npc, null);
-			}
-			else if (event.equalsIgnoreCase("suicide"))
-				npc.doDie(npc); //die
+			npc.doCast(AOE[Rnd.get(3)].getSkill());
 		}
-		return "";
+		return null;
 	}
 	
 	@Override
-	public String onSpawn(L2Npc npc)
+	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
 	{
-		int npcId = npc.getNpcId();
-		if (npcId == PRINCE_MIN)
-			this.startQuestTimer("time_to_suicide", 20000, npc, null); //timer for kamikadze
-		else if (npcId == PRINCE)
-			princestatus = 0;
-		return "";
+		if ((npc.getNpcId() == DEMON_PRINCE) && !npc.isDead())
+		{
+			if (!_attackState.containsKey(npc.getObjectId()) && (npc.getCurrentHp() < (npc.getMaxHp() * 0.5)))
+			{
+				npc.doCast(UD.getSkill());
+				spawnMinions(npc);
+				_attackState.put(npc.getObjectId(), false);
+			}
+			else if ((npc.getCurrentHp() < (npc.getMaxHp() * 0.1)) && _attackState.containsKey(npc.getObjectId()) && (_attackState.get(npc.getObjectId()) == false))
+			{
+				npc.doCast(UD.getSkill());
+				spawnMinions(npc);
+				_attackState.put(npc.getObjectId(), true);
+			}
+			
+			if (Rnd.get(1000) < 10)
+			{
+				spawnMinions(npc);
+			}
+		}
+		return super.onAttack(npc, attacker, damage, isPet, skill);
 	}
 	
 	@Override
-	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
-		int npcId = npc.getNpcId();
-		if (npcId == PRINCE)
+		if (npc.getNpcId() == DEMON_PRINCE)
 		{
-			int maxHp = npc.getMaxHp();
-			double nowHp = npc.getStatus().getCurrentHp();
-			//When 55%, 35%, 15%, 5% hp, use Ultimate Defense and spawns Suicides mobs (boom after 20 sec)
-			if (nowHp < maxHp * 0.55 && princestatus == 0)
-			{
-				princestatus = 1;
-				npc.doCast(SkillTable.getInstance().getInfo(5044, 2));
-				for (int i = 0; i < 3; i++) //3 mobs
-				{
-					int radius = 300;
-					int x = (int) (radius * Math.cos(i * 0.518));
-					int y = (int) (radius * Math.sin(i * 0.518));
-					addSpawn(PRINCE_MIN, npc.getX() + x, npc.getY() + y, npc.getZ(), 0, false, 0, false, npc.getInstanceId());
-				}
-			}
-			else if (nowHp < maxHp * 0.35 && princestatus == 1)
-			{
-				princestatus = 2;
-				npc.doCast(SkillTable.getInstance().getInfo(5044, 2));
-				for (int i = 0; i < 4; i++) //4 mobs
-				{
-					int radius = 300;
-					int x = (int) (radius * Math.cos(i * 0.718));
-					int y = (int) (radius * Math.sin(i * 0.718));
-					addSpawn(PRINCE_MIN, npc.getX() + x, npc.getY() + y, npc.getZ(), 0, false, 0, false, npc.getInstanceId());
-				}
-			}
-			else if (nowHp < maxHp * 0.15 && princestatus == 2)
-			{
-				princestatus = 3;
-				npc.doCast(SkillTable.getInstance().getInfo(5044, 2));
-				for (int i = 0; i < 5; i++) //5 mobs
-				{
-					int radius = 300;
-					int x = (int) (radius * Math.cos(i * 0.918));
-					int y = (int) (radius * Math.sin(i * 0.918));
-					addSpawn(PRINCE_MIN, npc.getX() + x, npc.getY() + y, npc.getZ(), 0, false, 0, false, npc.getInstanceId());
-				}
-			}
-			else if (nowHp < maxHp * 0.5 && princestatus == 3)
-			{
-				princestatus = 4;
-				npc.doCast(SkillTable.getInstance().getInfo(5044, 2));
-				for (int i = 0; i < 6; i++) //6 mobs
-				{
-					int radius = 300;
-					int x = (int) (radius * Math.cos(i * 0.918));
-					int y = (int) (radius * Math.sin(i * 0.918));
-					addSpawn(PRINCE_MIN, npc.getX() + x, npc.getY() + y, npc.getZ(), 0, false, 0, false, npc.getInstanceId());
-				}
-			}
+			_attackState.remove(npc.getObjectId());
 		}
-		return "";
+		return super.onKill(npc, killer, isPet);
+	}
+	
+	@Override
+	public final String onSpawn(L2Npc npc)
+	{
+		if (npc.getNpcId() == FIEND)
+		{
+			startQuestTimer("cast", 15000, npc, null);
+		}
+		return super.onSpawn(npc);
+	}
+	
+	private void spawnMinions(L2Npc master)
+	{
+		if ((master != null) && !master.isDead())
+		{
+			int instanceId = master.getInstanceId();
+			int x = master.getX();
+			int y = master.getY();
+			int z = master.getZ();
+			addSpawn(FIEND, x + 200, y, z, 0, false, 0, false, instanceId);
+			addSpawn(FIEND, x - 200, y, z, 0, false, 0, false, instanceId);
+			addSpawn(FIEND, x - 100, y - 140, z, 0, false, 0, false, instanceId);
+			addSpawn(FIEND, x - 100, y + 140, z, 0, false, 0, false, instanceId);
+			addSpawn(FIEND, x + 100, y - 140, z, 0, false, 0, false, instanceId);
+			addSpawn(FIEND, x + 100, y + 140, z, 0, false, 0, false, instanceId);
+		}
+	}
+	
+	public DemonPrince(int id, String name, String descr)
+	{
+		super(id, name, descr);
+		
+		addAttackId(DEMON_PRINCE);
+		addKillId(DEMON_PRINCE);
+		addSpawnId(FIEND);
 	}
 	
 	public static void main(String[] args)
 	{
-		// now call the constructor (starts up the ai)
 		new DemonPrince(-1, "DemonPrince", "ai");
 	}
 }

@@ -12,9 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /**
- * 裁縫師 布隆
- */
 package hellbound.Buron;
 
 import com.l2jserver.gameserver.instancemanager.HellboundManager;
@@ -24,81 +21,93 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 
 /**
- * @author theOne
+ * @author DS
  */
 public class Buron extends Quest
 {
-	private static final int Buron = 32345;
-
-	private static final int DarionBadge = 9674;
-
-	public Buron(int id, String name, String descr)
-	{
-		super(id, name, descr);
-		addStartNpc(Buron);
-		addTalkId(Buron);
-		addFirstTalkId(Buron);
-	}
-
+	private static final int BURON = 32345;
+	private static final int HELMET = 9669;
+	private static final int TUNIC = 9670;
+	private static final int PANTS = 9671;
+	private static final int DARION_BADGE = 9674;
+	
 	@Override
-	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		QuestState st = player.getQuestState(getName());
-
-		if (st == null)
-			st = newQuestState(player);
-
-		long BadgesCount = st.getQuestItemsCount(DarionBadge);
-		String text = "<html><body>布隆：<br>所需道具不足。</body></html>";
-
-		if (event.equalsIgnoreCase("Tunic"))
+		String htmltext = event;
+		if ("Rumor".equalsIgnoreCase(event))
 		{
-			if (BadgesCount < 10)
-				return text;
-			st.takeItems(DarionBadge, 10);
-			st.giveItems(9670, 1);
+			htmltext = "32345-" + HellboundManager.getInstance().getLevel() + "r.htm";
 		}
-		else if (event.equalsIgnoreCase("Helmet"))
+		else
 		{
-			if (BadgesCount < 10)
-				return text;
-			st.takeItems(DarionBadge, 10);
-			st.giveItems(9669, 1);
+			if (HellboundManager.getInstance().getLevel() < 2)
+			{
+				htmltext = "32345-lowlvl.htm";
+			}
+			else
+			{
+				QuestState qs = player.getQuestState(getName());
+				if (qs == null)
+				{
+					qs = newQuestState(player);
+				}
+				
+				if (qs.getQuestItemsCount(DARION_BADGE) >= 10)
+				{
+					qs.takeItems(DARION_BADGE, 10);
+					if (event.equalsIgnoreCase("Tunic"))
+					{
+						player.addItem("Quest", TUNIC, 1, npc, true);
+					}
+					else if (event.equalsIgnoreCase("Helmet"))
+					{
+						player.addItem("Quest", HELMET, 1, npc, true);
+					}
+					else if (event.equalsIgnoreCase("Pants"))
+					{
+						player.addItem("Quest", PANTS, 1, npc, true);
+					}
+					htmltext = null;
+				}
+				else
+				{
+					htmltext = "32345-noitems.htm";
+				}
+			}
 		}
-		else if (event.equalsIgnoreCase("Pants"))
-		{
-			if (BadgesCount < 10)
-				return text;
-			st.takeItems(DarionBadge, 10);
-			st.giveItems(9671, 1);
-		}
-		else if (event.equalsIgnoreCase("rumor"))
-		{
-			int hellboundLevel = HellboundManager.getInstance().getLevel();
-			return "hellboundLevel-" + hellboundLevel + ".htm";
-		}
-
-		return null;
+		return htmltext;
 	}
-
+	
 	@Override
-	public String onFirstTalk(L2Npc npc, L2PcInstance player)
+	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		QuestState st = player.getQuestState(getName());
-		if (st == null)
-			st = newQuestState(player);
-
-		int hellboundLevel = HellboundManager.getInstance().getLevel();
-		if (hellboundLevel < 2)
-			return "32345-2.htm";
-		else if (hellboundLevel >= 2 && hellboundLevel < 5)
-			return "32345.htm";
-		else if (hellboundLevel >= 5)
-			return "32345-1.htm";
-
-		return null;
+		if (player.getQuestState(getName()) == null)
+		{
+			newQuestState(player);
+		}
+		
+		switch (HellboundManager.getInstance().getLevel())
+		{
+			case 1:
+				return "32345-01.htm";
+			case 2:
+			case 3:
+			case 4:
+				return "32345-02.htm";
+			default:
+				return "32345-01a.htm";
+		}
 	}
-
+	
+	public Buron(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addFirstTalkId(BURON);
+		addStartNpc(BURON);
+		addTalkId(BURON);
+	}
+	
 	public static void main(String[] args)
 	{
 		new Buron(-1, "Buron", "hellbound");

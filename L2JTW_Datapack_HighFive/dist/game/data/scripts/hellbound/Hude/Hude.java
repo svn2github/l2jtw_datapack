@@ -12,11 +12,9 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /**
- * 商隊商人 亨德
- */
 package hellbound.Hude;
 
+import com.l2jserver.gameserver.datatables.MultiSell;
 import com.l2jserver.gameserver.instancemanager.HellboundManager;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -24,80 +22,114 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 
 /**
- * @author theOne
+ * @author DS
  */
 public class Hude extends Quest
 {
-	private static final int Hude = 32298;
-
-	public Hude(int id, String name, String descr)
-	{
-		super(id, name, descr);
-		addStartNpc(Hude);
-		addTalkId(Hude);
-		addFirstTalkId(Hude);
-	}
-
+	private static final int HUDE = 32298;
+	private static final int BASIC_CERT = 9850;
+	private static final int STANDART_CERT = 9851;
+	private static final int PREMIUM_CERT = 9852;
+	private static final int MARK_OF_BETRAYAL = 9676;
+	private static final int LIFE_FORCE = 9681;
+	private static final int CONTAINED_LIFE_FORCE = 9682;
+	private static final int MAP = 9994;
+	private static final int STINGER = 10012;
+	
 	@Override
-	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	{
+		QuestState qs = player.getQuestState(getName());
+		if (qs == null)
+		{
+			qs = newQuestState(player);
+		}
+		
+		if ("scertif".equalsIgnoreCase(event))
+		{
+			if (HellboundManager.getInstance().getLevel() > 3)
+			{
+				if (qs.hasQuestItems(BASIC_CERT) && (qs.getQuestItemsCount(MARK_OF_BETRAYAL) >= 30) && (qs.getQuestItemsCount(STINGER) >= 60))
+				{
+					qs.takeItems(MARK_OF_BETRAYAL, 30);
+					qs.takeItems(STINGER, 60);
+					qs.takeItems(BASIC_CERT, 1);
+					qs.giveItems(STANDART_CERT, 1);
+					return "32298-04a.htm";
+				}
+			}
+			return "32298-04b.htm";
+		}
+		else if ("pcertif".equalsIgnoreCase(event))
+		{
+			if (HellboundManager.getInstance().getLevel() > 6)
+			{
+				if (qs.hasQuestItems(STANDART_CERT) && (qs.getQuestItemsCount(LIFE_FORCE) >= 56) && (qs.getQuestItemsCount(CONTAINED_LIFE_FORCE) >= 14))
+				{
+					qs.takeItems(LIFE_FORCE, 56);
+					qs.takeItems(CONTAINED_LIFE_FORCE, 14);
+					qs.takeItems(STANDART_CERT, 1);
+					qs.giveItems(PREMIUM_CERT, 1);
+					qs.giveItems(MAP, 1);
+					return "32298-06a.htm";
+				}
+			}
+			return "32298-06b.htm";
+		}
+		else if ("multisell1".equalsIgnoreCase(event))
+		{
+			if (qs.hasQuestItems(STANDART_CERT) || qs.hasQuestItems(PREMIUM_CERT))
+			{
+				MultiSell.getInstance().separateAndSend(322980001, player, npc, false);
+			}
+		}
+		else if ("multisell2".equalsIgnoreCase(event))
+		{
+			if (qs.hasQuestItems(PREMIUM_CERT))
+			{
+				MultiSell.getInstance().separateAndSend(322980002, player, npc, false);
+			}
+		}
+		return null;
+	}
+	
+	@Override
+	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "";
-		QuestState st = player.getQuestState(getName());
-
-		if (st == null)
-			st = newQuestState(player);
-
-		if (event.equalsIgnoreCase("scertif"))
+		QuestState qs = player.getQuestState(getName());
+		if (qs == null)
 		{
-			if (st.getQuestItemsCount(10012) >= 60 && st.getQuestItemsCount(9676) >= 30)
-			{
-				st.takeItems(9676, 30);
-				st.takeItems(10012, 60);
-				st.takeItems(9850, 1);
-				st.giveItems(9851, 1);
-				htmltext = "32298-6.htm";
-			}
-			else
-				htmltext = "32298-5.htm";
+			qs = newQuestState(player);
 		}
-		if (event.equalsIgnoreCase("pcertif"))
+		
+		if (!qs.hasQuestItems(BASIC_CERT) && !qs.hasQuestItems(STANDART_CERT) && !qs.hasQuestItems(PREMIUM_CERT))
 		{
-			if (st.getQuestItemsCount(9681) >= 80 && st.getQuestItemsCount(9682) >= 20)
-			{
-				st.takeItems(9681, 80);
-				st.takeItems(9682, 20);
-				st.takeItems(9851, 1);
-				st.giveItems(9852, 1);
-				st.giveItems(9994, 1);
-				htmltext = "32298-8.htm";
-			}
-			else
-				htmltext = "32298-7.htm";
+			htmltext = "32298-01.htm";
 		}
-
+		else if (qs.hasQuestItems(BASIC_CERT) && !qs.hasQuestItems(STANDART_CERT) && !qs.hasQuestItems(PREMIUM_CERT))
+		{
+			htmltext = "32298-03.htm";
+		}
+		else if (qs.hasQuestItems(STANDART_CERT) && !qs.hasQuestItems(PREMIUM_CERT))
+		{
+			htmltext = "32298-05.htm";
+		}
+		else if (qs.hasQuestItems(PREMIUM_CERT))
+		{
+			htmltext = "32298-07.htm";
+		}
 		return htmltext;
 	}
-
-	@Override
-	public String onFirstTalk(L2Npc npc, L2PcInstance player)
+	
+	public Hude(int questId, String name, String descr)
 	{
-		QuestState st = player.getQuestState(getName());
-		if (st == null)
-			st = newQuestState(player);
-
-		int hellboundLevel = HellboundManager.getInstance().getLevel();
-		if (hellboundLevel >= 4 && st.getQuestItemsCount(9850) >= 1 && st.getQuestItemsCount(9851) < 1)
-			return "32298.htm";
-		else if (hellboundLevel < 7 && hellboundLevel > 3 && st.getQuestItemsCount(9851) >= 1)
-			return "32298-1.htm";
-		else if (hellboundLevel >= 7 && st.getQuestItemsCount(9851) >= 1)
-			return "32298-2.htm";
-		else if (hellboundLevel >= 7 && st.getQuestItemsCount(9852) >= 1)
-			return "32298-3.htm";
-
-		return "32298-4.htm";
+		super(questId, name, descr);
+		addFirstTalkId(HUDE);
+		addStartNpc(HUDE);
+		addTalkId(HUDE);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new Hude(-1, "Hude", "hellbound");

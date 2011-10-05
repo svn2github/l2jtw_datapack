@@ -273,11 +273,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9116" levels="1" name="Nevit's Hourglass - 1.5 hour">
@@ -287,11 +288,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9117" levels="1" name="Nevit's Hourglass - 2 hour">
@@ -301,11 +303,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9118" levels="1" name="Nevit's Hourglass - 2.5 hour">
@@ -315,11 +318,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9119" levels="1" name="Nevit's Hourglass - 3 hour">
@@ -329,11 +333,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9120" levels="1" name="Nevit's Hourglass - 1 hour">
@@ -343,11 +348,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9121" levels="1" name="Nevit's Hourglass - 1.5 hour">
@@ -357,11 +363,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9122" levels="1" name="Nevit's Hourglass - 2 hour">
@@ -371,11 +378,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9123" levels="1" name="Nevit's Hourglass - 2.5 hour">
@@ -385,11 +393,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9124" levels="1" name="Nevit's Hourglass - 3 hour">
@@ -399,11 +408,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9125" levels="1" name="Nevit's Hourglass - 1 hour">
@@ -413,11 +423,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9126" levels="1" name="Nevit's Hourglass - 1.5 hour">
@@ -427,11 +438,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9127" levels="1" name="Nevit's Hourglass - 2 hour">
@@ -441,11 +453,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9128" levels="1" name="Nevit's Hourglass - 2.5 hour">
@@ -455,11 +468,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9129" levels="1" name="Nevit's Hourglass - 3 hour">
@@ -469,11 +483,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9130" levels="1" name="Nevit's Hourglass - 1 hour">
@@ -483,11 +498,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9131" levels="1" name="Nevit's Hourglass - 1.5 hour">
@@ -497,11 +513,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9132" levels="1" name="Nevit's Hourglass - 2 hour">
@@ -511,11 +528,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9133" levels="1" name="Nevit's Hourglass - 2.5 hour">
@@ -525,11 +543,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9134" levels="1" name="Nevit's Hourglass - 3 hour">
@@ -539,11 +558,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9135" levels="1" name="Nevit's Hourglass - 1 hour">
@@ -553,11 +573,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9136" levels="1" name="Nevit's Hourglass - 1.5 hour">
@@ -567,11 +588,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9137" levels="1" name="Nevit's Hourglass - 2 hour">
@@ -581,11 +603,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9138" levels="1" name="Nevit's Hourglass - 2.5 hour">
@@ -595,11 +618,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9139" levels="1" name="Nevit's Hourglass - 3 hour">
@@ -609,11 +633,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9140" levels="1" name="Nevit's Hourglass - 1 hour">
@@ -623,11 +648,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9141" levels="1" name="Nevit's Hourglass - 1.5 hour">
@@ -637,11 +663,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9142" levels="1" name="Nevit's Hourglass - 2 hour">
@@ -651,11 +678,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9143" levels="1" name="Nevit's Hourglass - 2.5 hour">
@@ -665,11 +693,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9144" levels="1" name="Nevit's Hourglass - 3 hour">
@@ -679,11 +708,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9145" levels="1" name="Nevit's Hourglass - 1 hour">
@@ -693,11 +723,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9146" levels="1" name="Nevit's Hourglass - 1.5 hour">
@@ -707,11 +738,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9147" levels="1" name="Nevit's Hourglass - 2 hour">
@@ -721,11 +753,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9148" levels="1" name="Nevit's Hourglass - 2.5 hour">
@@ -735,11 +768,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9149" levels="1" name="Nevit's Hourglass - 3 hour">
@@ -749,11 +783,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9150" levels="1" name="Freesia Bouquet - Event">
@@ -1008,11 +1043,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9168" levels="1" name="Nevit's Hourglass - 1.5 hour(s)">
@@ -1022,11 +1058,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="5400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="5400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9169" levels="1" name="Nevit's Hourglass - 2 hour(s)">
@@ -1036,11 +1073,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="7200000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="7200" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9170" levels="1" name="Nevit's Hourglass - 2.5 hour(s)">
@@ -1050,11 +1088,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="9000000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="9000" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9171" levels="1" name="Nevit's Hourglass - 3 hour(s)">
@@ -1064,11 +1103,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="10800000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="10800" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9172" levels="1" name="Nevit's Hourglass - 4 hour(s)">
@@ -1078,11 +1118,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="14400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="14400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="14400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9173" levels="1" name="Nevit's Voice">
@@ -1140,11 +1181,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="14400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="14400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="14400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9182" levels="1" name="Nevit's Hourglass - 4 hour(s)">
@@ -1154,11 +1196,12 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="buffDuration" val="14400000" />
 		<set name="staticReuse" val="true" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="NevitHourglass" abnormalTime="14400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass" />
+			<effect name="RecoBonus" abnormalTime="14400" val="0" abnormalLvl="1" abnormalType="nevit_hourglass_effect" />
 		</for>
 	</skill>
 	<skill id="9183" levels="1" name="Freya's Refreshing Breeze - 4 hour(s)">

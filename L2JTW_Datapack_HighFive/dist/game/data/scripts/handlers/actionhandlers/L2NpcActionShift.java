@@ -53,6 +53,7 @@ public class L2NpcActionShift implements IActionHandler
 	 * <B><U> Example of use </U> :</B><BR><BR>
 	 * <li> Client packet : Action</li><BR><BR>
 	 */
+	@Override
 	public boolean action(L2PcInstance activeChar, L2Object target, boolean interact)
 	{
 		// Check if the L2PcInstance is a GM
@@ -193,9 +194,9 @@ public class L2NpcActionShift implements IActionHandler
 					"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1338].getMessage()+"</font></center>" +
 					"<table border=0 width=\"100%\">" +
 					"<tr><td>"+MessageTable.Messages[1320].getMessage()+"</td><td>",
-					String.valueOf((int) (((L2Character)target).getMaxHp() / ((L2Character)target).getStat().calcStat(Stats.MAX_HP, 1, (L2Character)target, null))),
+					String.valueOf(((L2Character)target).getMaxHp() / hpMul),
 					"*",
-					String.valueOf((int) ((L2Character)target).getStat().calcStat(Stats.MAX_HP, 1, (L2Character)target, null)),
+					String.valueOf(hpMul),
 					"</td><td>"+MessageTable.Messages[1321].getMessage()+"</td><td>",
 					String.valueOf(((L2Character)target).getMaxMp()),
 					"</td></tr>" +
@@ -251,7 +252,7 @@ public class L2NpcActionShift implements IActionHandler
 			{
 				StringUtil.append(html1,
 						"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1341].getMessage()+"</font></center>" +
-						"<br>"+MessageTable.Messages[1342].getMessage()+"<font color=\"ff0000\">50%+</font> <font color=\"00ff00\">30%+</font> <font color=\"0000ff\">"+MessageTable.Messages[1343].getMessage()+"</font>" +
+						"<br>"+MessageTable.Messages[1342].getMessage()+"<font color=\"ff9999\">50%+</font> <font color=\"00ff00\">30%+</font> <font color=\"0066ff\">"+MessageTable.Messages[1343].getMessage()+"</font>" +
 						"<table border=0 width=\"100%\">"
 				);
 				for (L2DropCategory cat : ((L2Npc)target).getTemplate().getDropData())
@@ -265,20 +266,18 @@ public class L2NpcActionShift implements IActionHandler
 						final String color;
 						
 						if (drop.getChance() >= 500000)
-							color = "ff0000";
+							color = "ff9999";
 						else if (drop.getChance() >= 300000)
 							color = "00ff00";
 						else
-							color = "0000ff";
+							color = "0066ff";
 						
 						StringUtil.append(html1,
-								"<tr><td><font color=\"",
-								color,
-								"\">",
-								item.getName(),
-								"</font></td><td>",
-								(drop.isQuestDrop() ? MessageTable.Messages[1344].getExtra(1) : (cat.isSweep() ? MessageTable.Messages[1344].getExtra(2) : MessageTable.Messages[1344].getExtra(3))),
-								"</td></tr>"
+								"<tr>",
+								"<td><img src=\"" + item.getIcon() + "\" height=32 width=32></td>" + 
+								"<td><font color=\"", color, "\">", item.getName(), "</font></td>",
+								"<td>", (drop.isQuestDrop() ? MessageTable.Messages[1344].getExtra(1) : (cat.isSweep() ? MessageTable.Messages[1344].getExtra(2) : MessageTable.Messages[1344].getExtra(3))),"</td>",
+								"</tr>"
 						);
 					}
 				}
@@ -292,6 +291,7 @@ public class L2NpcActionShift implements IActionHandler
 		return true;
 	}
 	
+	@Override
 	public InstanceType getInstanceType()
 	{
 		return InstanceType.L2Npc;

@@ -159,6 +159,7 @@
 		<set name="castRange" val="1500" />
 	</skill>
 	<skill id="5111" levels="1" name="Big Bang">
+		<!-- Bombards enemies that are either above you or protected by structures such as castle walls or doors. Consumes 5 Flash Gunpowder. -->
 		<!-- Update by pmq -->
 		<set name="magicLvl" val="70" />
 		<set name="itemConsumeId" val="8872" />
@@ -675,7 +676,7 @@
 				<sub order="0x40" stat="windRes" val="50" />
 				<sub order="0x40" stat="waterRes" val="50" />
 				<sub order="0x40" stat="earthRes" val="50" />
-				<!-- mul order="0x30" stat="buffVuln" val="0.0" Needs Core Support -->
+				<!-- set order="0x08" stat="buffImmunity" val="1" / TODO: Needs Support -->
 				<mul order="0x30" stat="regHp" val="0.1" />
 			</effect>
 		</for>
