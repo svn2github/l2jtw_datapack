@@ -56,7 +56,6 @@ public class Natives extends Quest
 		{
 			qs = newQuestState(player);
 		}
-		
 		switch (npcId)
 		{
 			case NATIVE:
@@ -87,7 +86,6 @@ public class Natives extends Quest
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = null;
-		
 		if (npc.getNpcId() == TRAITOR)
 		{
 			if (event.equalsIgnoreCase("open_door"))
