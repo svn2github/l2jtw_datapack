@@ -36,8 +36,8 @@ public class EffectRecoBonus extends L2Effect
 		if (!(getEffected() instanceof L2PcInstance))
 			return false;
 			
-			((L2PcInstance) getEffected()).setRecomBonusType(1).setRecoBonusActive(true);
-				return true;
+		((L2PcInstance) getEffected()).setRecomBonusType(1).setRecoBonusActive(true);
+		return true;
 	}
 	
 	/**
