@@ -7687,11 +7687,11 @@ INSERT INTO `npc_elementals` VALUES
 -- Hedinger
 (32883,0,0,20,20,20,20,20,20), -- TODO: Stats require check
 -- Drake Lord
-(32884,0,0,20,20,20,20,20,20), -- TODO: Stats require check
+-- (32884,0,0,20,20,20,20,20,20), -- TODO: Stats require check
 -- Behemoth Leader
-(32885,0,0,20,20,20,20,20,20), -- TODO: Stats require check
+-- (32885,0,0,20,20,20,20,20,20), -- TODO: Stats require check
 -- Dragon Beast
-(32886,0,0,20,20,20,20,20,20), -- TODO: Stats require check
+-- (32886,0,0,20,20,20,20,20,20), -- TODO: Stats require check
 -- Metar
 (32887,0,0,20,20,20,20,20,20), -- TODO: Stats require check
 -- Jude van Etina's Evil Thoughts

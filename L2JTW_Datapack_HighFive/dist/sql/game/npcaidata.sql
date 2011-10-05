@@ -9249,11 +9249,11 @@ INSERT INTO `npcaidata` VALUES
 -- Hedinger
 (32883,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
 -- Drake Lord
-(32884,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
+-- (32884,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
 -- Behemoth Leader
-(32885,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
+-- (32885,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
 -- Dragon Beast
-(32886,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
+-- (32886,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
 -- Metar
 (32887,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,0,NULL,0,0,'fighter'),
 -- Jude van Etina's Evil Thoughts
