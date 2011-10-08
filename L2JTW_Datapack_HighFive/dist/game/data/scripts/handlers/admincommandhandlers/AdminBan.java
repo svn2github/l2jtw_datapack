@@ -159,8 +159,8 @@ public class AdminBan implements IAdminCommandHandler {
 				targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.CHAT, duration);
 				if (duration > 0)
 					banLengthStr = MessageTable.Messages[1433].getExtra(1) + duration + MessageTable.Messages[1433].getExtra(2);
-	            activeChar.sendMessage(targetPlayer.getName() + MessageTable.Messages[1434].getExtra(1) + banLengthStr + MessageTable.Messages[1434].getExtra(2));
-	            auditAction(command, activeChar, targetPlayer.getName());
+				activeChar.sendMessage(targetPlayer.getName() + MessageTable.Messages[1434].getExtra(1) + banLengthStr + MessageTable.Messages[1434].getExtra(2));
+				auditAction(command, activeChar, targetPlayer.getName());
 			}
 			else
 			{

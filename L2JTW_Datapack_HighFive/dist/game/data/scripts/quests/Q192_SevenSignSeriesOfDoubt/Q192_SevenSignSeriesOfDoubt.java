@@ -22,7 +22,7 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  * @author Plim
- * Update by pmq High Five 12-06-2011
+ * Update by pmq High Five 06-10-2011
  */
 
 public class Q192_SevenSignSeriesOfDoubt extends Quest
@@ -116,13 +116,18 @@ public class Q192_SevenSignSeriesOfDoubt extends Quest
 		{
 			if (event.equalsIgnoreCase("30191-03.htm"))
 			{
-				st.takeItems(CROOP_LETTER, 1);
-				//st.addExpAndSp(52518015, 5817677);
-				st.addExpAndSp(25000000, 2500000); //High Five
-				st.unset("cond");
-				st.setState(State.COMPLETED);
-				st.exitQuest(false);
-				st.playSound("ItemSound.quest_finish");
+				if (st.getQuestItemsCount(CROOP_LETTER) >= 1 && player.getLevel() >= 79)
+				{
+					st.addExpAndSp(25000000, 2500000);
+					st.takeItems(CROOP_LETTER, 1);
+					st.unset("cond");
+					st.setState(State.COMPLETED);
+					st.exitQuest(false);
+					st.playSound("ItemSound.quest_finish");
+				}
+				else if(st.getQuestItemsCount(CROOP_LETTER) >= 1 && player.getLevel() < 79)
+					htmltext = "30191-00.htm";
+					
 			}
 		}
 		
@@ -193,9 +198,9 @@ public class Q192_SevenSignSeriesOfDoubt extends Quest
 		else if (npc.getNpcId() == CORPSE)
 		{
 			if (st.getInt("cond") == 0)
-				htmltext = "32568-03.htm";
-			else if (st.getInt("cond") >= 1 && st.getInt("cond") <= 4)
 				htmltext = "32568-04.htm";
+			else if (st.getInt("cond") >= 1 && st.getInt("cond") <= 4)
+				htmltext = "32568-03.htm";
 			else if (st.getInt("cond") == 5)
 				htmltext = "32568-01.htm";
 		}
@@ -227,6 +232,6 @@ public class Q192_SevenSignSeriesOfDoubt extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q192_SevenSignSeriesOfDoubt(192, qn, "七封印，可疑的連續死亡事件");
+		new Q192_SevenSignSeriesOfDoubt(192, qn, "Seven Sign Series of Doubt");
 	}
 }

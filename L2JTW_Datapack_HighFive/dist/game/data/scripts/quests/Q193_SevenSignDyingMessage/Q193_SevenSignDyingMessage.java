@@ -311,6 +311,6 @@ public class Q193_SevenSignDyingMessage extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q193_SevenSignDyingMessage(193, qn, "七封印，死前的訊息");
+		new Q193_SevenSignDyingMessage(193, qn, "Seven Signs Dying Message");
 	}
 }
