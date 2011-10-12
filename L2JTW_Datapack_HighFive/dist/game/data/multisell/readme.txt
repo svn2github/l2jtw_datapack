@@ -47,6 +47,9 @@ of this directory a little bit.
 
 31522.xml -> Quest 632: Necromancers Request
 
+900001.xml -> Pc Bang Points Item 1
+900002.xml -> Pc Bang Points Item 2
+
 301660373.xml -> Quest 373: Supplier of Reagents - Wesley
 313880001.xml -> Quest 633: In The Forgotten Village - Exchange Livers
 320540001.xml -> Quest 650: A Broken Dream
