@@ -17,8 +17,6 @@ package handlers.admincommandhandlers;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.instancemanager.TransformationManager;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * @author
@@ -42,15 +40,18 @@ public class AdminRide implements IAdminCommandHandler
 	private static final int PURPLE_MANED_HORSE_TRANSFORMATION_ID = 106;
 	
 	private static final int JET_BIKE_TRANSFORMATION_ID = 20001;
-
+	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
+		L2PcInstance player = getRideTarget(activeChar);
+		if(player == null)
+			return false;
 		
 		if (command.startsWith("admin_ride"))
-		{
-			if (activeChar.isMounted() || activeChar.getPet() != null)
+		{		
+			if (player.isMounted() || player.getPet() != null)
 			{
-				activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_ALREADY_HAVE_A_PET));
+				activeChar.sendMessage("Target already have a pet.");
 				return false;
 			}
 			if (command.startsWith("admin_ride_wyvern"))
@@ -67,22 +68,22 @@ public class AdminRide implements IAdminCommandHandler
 			}
 			else if (command.startsWith("admin_ride_horse")) // handled using transformation
 			{
-				if (activeChar.isTransformed() || activeChar.isInStance())
+				if (player.isTransformed() || player.isInStance())
 					//FIXME: Wrong Message
-					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
+					activeChar.sendMessage("Player cannot mount a steed while transformed.");
 				else
-					TransformationManager.getInstance().transformPlayer(PURPLE_MANED_HORSE_TRANSFORMATION_ID, activeChar);
+					TransformationManager.getInstance().transformPlayer(PURPLE_MANED_HORSE_TRANSFORMATION_ID, player);
 				
 				return true;
 			}
 			else if (command.startsWith("admin_ride_bike")) // handled using transformation
 			{
-				if (activeChar.isTransformed() || activeChar.isInStance())
+				if (player.isTransformed() || player.isInStance())
 					//FIXME: Wrong Message
-					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
+					activeChar.sendMessage("Player cannot mount a steed while transformed.");
 				else
-					TransformationManager.getInstance().transformPlayer(JET_BIKE_TRANSFORMATION_ID, activeChar);
-
+					TransformationManager.getInstance().transformPlayer(JET_BIKE_TRANSFORMATION_ID, player);
+				
 				return true;
 			}
 			else
@@ -91,21 +92,35 @@ public class AdminRide implements IAdminCommandHandler
 				return false;
 			}
 			
-			activeChar.mount(_petRideId, 0, false);
+			player.mount(_petRideId, 0, false);
 			
 			return false;
 		}
 		else if (command.startsWith("admin_unride"))
 		{
-			if (activeChar.getTransformationId() == PURPLE_MANED_HORSE_TRANSFORMATION_ID)
-				activeChar.untransform();
-
-			if (activeChar.getTransformationId() == JET_BIKE_TRANSFORMATION_ID)
-				activeChar.untransform();
+			if (player.getTransformationId() == PURPLE_MANED_HORSE_TRANSFORMATION_ID)
+				player.untransform();
+			
+			if (player.getTransformationId() == JET_BIKE_TRANSFORMATION_ID)
+				player.untransform();
 			else
-				activeChar.dismount();
+				player.dismount();
 		}
 		return true;
+	}
+	
+	private L2PcInstance getRideTarget(L2PcInstance activeChar)
+	{
+		L2PcInstance player = null;
+		
+		if(activeChar.getTarget() == null
+			|| activeChar.getTarget().getObjectId() == activeChar.getObjectId()
+			|| !(activeChar.getTarget() instanceof L2PcInstance))
+			player = activeChar;
+		else
+			player = (L2PcInstance)activeChar.getTarget();
+		
+		return player;
 	}
 	
 	public String[] getAdminCommandList()

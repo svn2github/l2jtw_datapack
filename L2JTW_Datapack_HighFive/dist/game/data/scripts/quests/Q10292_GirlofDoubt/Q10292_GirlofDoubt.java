@@ -462,7 +462,30 @@ public class Q10292_GirlofDoubt extends Quest
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		final QuestState st = player.getQuestState(qn);
-		if (Util.contains(GOLEM, npc.getNpcId()))
+		
+		if (npc.getNpcId() == SHILENSEVIL1)
+		{
+			if (_numAtk == 2 && st.getInt("cond") == 5)
+			{
+				st.set("cond", "6");
+				st.playSound("ItemSound.quest_middle");
+			}
+			
+			_numAtk++;
+		}
+		
+		else if (npc.getNpcId() == SHILENSEVIL2)
+		{
+			if (_numAtk == 2 && st.getInt("cond") == 5)
+			{
+				st.set("cond", "6");
+				st.playSound("ItemSound.quest_middle");
+			}
+			
+			_numAtk++;
+		}
+		
+		else if (Util.contains(GOLEM, npc.getNpcId()))
 		{
 			if (st.getInt("cond") == 3)
 			{
@@ -492,26 +515,7 @@ public class Q10292_GirlofDoubt extends Quest
 			}
 		}
 		
-		if (npc.getNpcId() == SHILENSEVIL1)
-		{
-			_numAtk++;
-			if (_numAtk == 2 && st.getInt("cond") == 5)
-			{
-				st.set("cond", "6");
-				st.playSound("ItemSound.quest_middle");
-			}
-		}
-		
-		else if (npc.getNpcId() == SHILENSEVIL2)
-		{
-			_numAtk++;
-			if (_numAtk == 2 && st.getInt("cond") == 5)
-			{
-				st.set("cond", "6");
-				st.playSound("ItemSound.quest_middle");
-			}
-		}
-		return null;
+		return super.onKill(npc, player, isPet);
 	}
 	
 	public Q10292_GirlofDoubt(int questId, String name, String descr)
