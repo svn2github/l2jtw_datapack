@@ -125,7 +125,7 @@
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<set name="item_skill" val="3559-2" />
 		<for>
 			<add order="0x10" stat="mDef" val="94" />
@@ -388,7 +388,7 @@
 		<set name="weight" val="1070" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="69" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -411,7 +411,7 @@
 		<set name="weight" val="1450" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="79" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -433,7 +433,7 @@
 		<set name="weight" val="2020" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="96" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -455,7 +455,7 @@
 		<set name="weight" val="1720" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="63" />
 			<set order="0x08" stat="mAtk" val="63" />
@@ -478,7 +478,7 @@
 		<set name="weight" val="1730" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="79" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -501,7 +501,7 @@
 		<set name="weight" val="1000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="77" />
 			<set order="0x08" stat="mAtk" val="69" />
@@ -524,7 +524,7 @@
 		<set name="weight" val="2100" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="96" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -547,7 +547,7 @@
 		<set name="weight" val="2060" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="79" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -570,7 +570,7 @@
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="179" />
 			<set order="0x08" stat="mAtk" val="51" />
@@ -593,7 +593,7 @@
 		<set name="weight" val="1450" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="72" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -616,7 +616,7 @@
 		<set name="weight" val="1450" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="63" />
 			<set order="0x08" stat="mAtk" val="63" />
@@ -638,7 +638,7 @@
 		<set name="weight" val="2470" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="96" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -660,7 +660,7 @@
 		<set name="weight" val="1510" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="96" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -683,7 +683,7 @@
 		<set name="weight" val="2020" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<cond msgId="1518">
 			<player races="Kamael" />
 		</cond>
@@ -709,7 +709,7 @@
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="100" />
 			<set order="0x08" stat="mAtk" val="47" />
@@ -948,7 +948,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="7620" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -968,7 +968,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="3260" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -987,7 +987,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="540" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1003,7 +1003,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1110" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1019,7 +1019,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="bone" />
 		<set name="weight" val="550" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1065,7 +1065,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="4950" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1081,7 +1081,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="540" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1097,7 +1097,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1110" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1113,7 +1113,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="bone" />
 		<set name="weight" val="550" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1138,7 +1138,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="cloth" />
 		<set name="weight" val="2300" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1158,7 +1158,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="540" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1174,7 +1174,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1110" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1190,7 +1190,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="bone" />
 		<set name="weight" val="550" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1230,7 +1230,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="7570" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1250,7 +1250,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="3210" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1269,7 +1269,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="520" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1285,7 +1285,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1090" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
@@ -1301,7 +1301,7 @@
 		<set name="crystal_type" val="s" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="element_enabled" val="1" />
+		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
