@@ -210,7 +210,11 @@ public class PcBangPoint extends Quest
 		
 		if (POINTSSKILL.containsKey(event))
 		{
-			if (player.getPcBangPoints() >= POINTSSKILL.get(event)[2])
+			if (player.getLevel() < 55)
+			{
+				htmltext = "skill_nolevel.htm";
+			}
+			else if (player.getPcBangPoints() >= POINTSSKILL.get(event)[2])
 			{
 				final int cost = player.getPcBangPoints() - (int)(POINTSSKILL.get(event)[2]);
 				player.setPcBangPoints(cost);
