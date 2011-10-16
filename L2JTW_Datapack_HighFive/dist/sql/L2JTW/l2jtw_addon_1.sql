@@ -3368,16 +3368,10 @@ UPDATE npc SET type = 'L2Monster', aggro=150 WHERE id = 18835;  -- ¾¤©úªºÄµ½Ã¶¤­
 UPDATE npc SET type = 'L2Monster', aggro=400 WHERE id = 27351;  -- ¾¤©úªºÄµ½Ã¶¤­û
 
 -- ¼W¥[¨«°ÊNPC ³±·t®ð®§ªº °lÀHªÌ
--- DELETE FROM `npc` WHERE `id` IN (4309,4310,4311,4312);
--- INSERT INTO `npc` VALUES 
--- (4309,4309,'Prophet',0,'Sinister',0,'LineageMonster3.solina_brother','8','25',70,'male','L2NpcWalker',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (4310,4310,'Prophet',0,'Sinister',0,'LineageMonster3.solina_brother','8','25',70,'male','L2NpcWalker',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (4311,4311,'Prophet',0,'Sinister',0,'LineageMonster3.solina_brother','8','25',70,'male','L2NpcWalker',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (4312,4312,'Prophet',0,'Sinister',0,'LineageMonster3.solina_brother','8','25',70,'male','L2NpcWalker',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1);
-UPDATE npc SET type = 'L2NpcWalker' WHERE id = 4309;
-UPDATE npc SET type = 'L2NpcWalker' WHERE id = 4310;
-UPDATE npc SET type = 'L2NpcWalker' WHERE id = 4311;
-UPDATE npc SET type = 'L2NpcWalker' WHERE id = 4312;
+UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4309;
+UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4310;
+UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4311;
+UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4312;
 
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (4309,4310,4311,4312);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
@@ -3386,27 +3380,8 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 ('aden',1,4311,146361,24146,-2017,0,0,0,60,0,0),
 ('rune',1,4312,43393,-46803,-807,0,0,0,60,0,0);
 
--- DELETE FROM `npcaidata` WHERE `npcId` IN (4309,4310,4311,4312);
--- INSERT INTO `npcaidata` VALUES 
--- (4309,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (4310,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (4311,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (4312,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter');
-
 -- ¶ÙÂ½¤Ñ§R°£°Ó¤H
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31432,31433,31438);
-
--- ¼W¥[NPC ¤ÀÂ÷ªºÆF»î
--- DELETE FROM `npc` WHERE `id` IN (32864,32865,32866,32867,32868,32869,32870,32891);
--- INSERT INTO `npc` VALUES 
--- (32864,32864,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (32865,32865,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (32866,32866,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (32867,32867,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (32868,32868,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (32869,32869,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (32870,32870,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1),
--- (32891,32891,'',0,'',0,'','8','25',70,'male','L2Npc',40,'2444.46819','1345.8','7.5','2.7',40,43,30,21,20,20,0,0,'688.86373','295.91597','470.40463','216.53847',253,4,0,333,0,0,0,50,120,1,1,0,1);
 
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32864,32865,32866,32867,32868,32869,32870,32891);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
@@ -3418,18 +3393,6 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 ('unset',1,32869,146025,111229,-3581,0,0,61567,60,0,0),
 ('unset',1,32870,73305,118409,-3711,0,0,40573,60,0,0),
 ('unset',1,32891,131140,114163,-3709,0,0,30892,60,0,0);
-
--- DELETE FROM `npcaidata` WHERE `npcId` IN (32864,32865,32866,32867,32868,32869,32870,32891);
--- INSERT INTO `npcaidata` VALUES 
--- (32864,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (32865,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (32866,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (32867,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (32868,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (32869,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (32870,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter'),
--- (32891,7,15,0,1,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'fighter');
-
 
 -- §R°£ÂÂÀs¤§¨¦©Çª« NPC
 DELETE FROM `spawnlist` WHERE `location` IN ('giran05_tb2421_59','giran05_tb2421_20','giran05_tb2421_29','giran03_tb2321_24','giran05_tb2421_10','giran05_tb2421_81','giran03_2221_02','giran03_2221_05','giran03_2221_08','giran03_2221_15','giran03_2221_19','giran03_2221_p05','giran03_2321_02','giran03_2321_04','giran03_2321_07','giran03_2321_09','giran03_2321_12','giran03_2321_15','giran05_2421_01','giran05_2421_08','giran05_2421_10','giran05_2421_17','giran05_2421_18','giran05_2421_29','giran05_2421_38','giran05_2421_45','giran05_2421_50','giran05_2421_53','giran05_2421_68','giran05_2421_75','giran05_2421_p04','giran05_2421_p50','giran03_2221_H5');
@@ -5841,4 +5804,12 @@ REPLACE INTO `npc` VALUES (27424,27424,'Creature of the Dusk',0,'',0,'LineageMon
 
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32862);
 REPLACE INTO `spawnlist` VALUES ('unset', '1', '32862', '43347', '-87923', '-2825', '0', '0', '37163', '10', '0', '0');
+
+-- ­×¥¿­×¥[¯S«°Âí«_ÀI®a·|­ûNPCID¿ù»~
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31729,31732,31733,31734,31738,31991,31992,31993,31994,31995);
+REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31991,87130,-140754,-1542,0,0,15201,60,0,0);
+REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31992,88223,-142349,-1343,0,0,60027,60,0,0);
+REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31993,84521,-141191,-1542,0,0,57344,60,0,0);
+REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31994,86514,-142340,-1343,0,0,32768,60,0,0);
+REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31995,90340,-141373,-1542,0,0,39084,60,0,0);
 
