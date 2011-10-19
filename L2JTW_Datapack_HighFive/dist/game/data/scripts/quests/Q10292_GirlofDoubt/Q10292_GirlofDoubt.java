@@ -215,7 +215,7 @@ public class Q10292_GirlofDoubt extends Quest
 			if (event.equalsIgnoreCase("32597-04.htm"))
 			{
 				st.set("cond", "2");
-				startQuestTimer("TimeOut", 15000, npc, player);
+				//startQuestTimer("TimeOut", 15000, npc, player);
 				st.playSound("ItemSound.quest_middle");
 			}
 			
@@ -307,7 +307,7 @@ public class Q10292_GirlofDoubt extends Quest
 					L2MonsterInstance monster1 = (L2MonsterInstance) addSpawn(SHILENSEVIL2, 89539, -238125, -9640, 0, false, 600000, true, npc.getInstanceId());
 					monster1.setIsNoRndWalk(true);
 					ShilensevilOnSpawn = true;
-					startQuestTimer("tele1", 5000, npc, player);
+					startQuestTimer("tele1", 2000, npc, player);
 				}
 			}
 			
@@ -465,24 +465,22 @@ public class Q10292_GirlofDoubt extends Quest
 		
 		if (npc.getNpcId() == SHILENSEVIL1)
 		{
+			_numAtk++;
 			if (_numAtk == 2 && st.getInt("cond") == 5)
 			{
 				st.set("cond", "6");
 				st.playSound("ItemSound.quest_middle");
 			}
-			
-			_numAtk++;
 		}
 		
 		else if (npc.getNpcId() == SHILENSEVIL2)
 		{
+			_numAtk++;
 			if (_numAtk == 2 && st.getInt("cond") == 5)
 			{
 				st.set("cond", "6");
 				st.playSound("ItemSound.quest_middle");
 			}
-			
-			_numAtk++;
 		}
 		
 		else if (Util.contains(GOLEM, npc.getNpcId()))

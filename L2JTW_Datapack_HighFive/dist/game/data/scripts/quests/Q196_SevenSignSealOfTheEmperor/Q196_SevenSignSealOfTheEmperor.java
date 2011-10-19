@@ -718,6 +718,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			st.set("cond", "2");
 			st.playSound("ItemSound.quest_middle");
 			npc.deleteMe();
+			mammonst = 0;
 		}
 		else if (event.equalsIgnoreCase("32586-06.htm"))
 		{
@@ -924,6 +925,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 						exitInstance(player);
 						return "32587-02.htm";
 					case 5:
+						InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
+						world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
 						exitInstance(player);
 						return "32587-02.htm";
 				}
@@ -1016,14 +1019,14 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				{
 					if (st.getQuestItemsCount(SEAL) < 3)
 					{
-						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3036));
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3060));
 						npc.setRHandId(15281);
 						st.playSound("ItemSound.quest_itemget");
 						st.giveItems(SEAL, 1);
 					}
 					else
 					{
-						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3036));
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3060));
 						npc.setRHandId(15281);
 						st.giveItems(SEAL, 1);
 						st.playSound("ItemSound.quest_middle");
