@@ -17,6 +17,7 @@ package quests.Q512_AwlUnderFoot;
 import gnu.trove.map.hash.TIntObjectHashMap;
 
 import com.l2jserver.gameserver.ThreadPoolManager;
+import com.l2jserver.gameserver.instancemanager.FortManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
 import com.l2jserver.gameserver.model.L2Party;
@@ -25,6 +26,7 @@ import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2RaidBossInstance;
 import com.l2jserver.gameserver.model.entity.Castle;
+import com.l2jserver.gameserver.model.entity.Fort;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
@@ -36,15 +38,13 @@ import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
 
 /**
- * 
  * @author Gigiikun, rewrited to castle by centrio
- *
  */
 
 public final class Q512_AwlUnderFoot extends Quest
 {
 	private class CAUWorld extends InstanceWorld
-	{		
+	{
 	}
 	
 	public static class CastleDungeon
@@ -78,10 +78,10 @@ public final class Q512_AwlUnderFoot extends Quest
 	private static final long REENTERTIME = 14400000;
 	private static final long RAID_SPAWN_DELAY = 120000;
 	
-	private TIntObjectHashMap<CastleDungeon> _castleDungeons = new TIntObjectHashMap<CastleDungeon>(21);
+	private TIntObjectHashMap<CastleDungeon> _castleDungeons = new TIntObjectHashMap<CastleDungeon>(9);
 	
 	// QUEST ITEMS
-	private static final int DL_MARK = 9797;
+	private static final int DL_MARK = 9798;
 
 	// REWARDS
 	private static final int KNIGHT_EPALUETTE = 9912;
@@ -206,7 +206,7 @@ public final class Q512_AwlUnderFoot extends Quest
 		}
 	}
 	
-	private String checkCastleCondition(L2PcInstance player, L2Npc npc, boolean isEnter)
+	private String checkFortCondition(L2PcInstance player, L2Npc npc, boolean isEnter)
 	{
 		Castle castle = npc.getCastle();
 		CastleDungeon dungeon = _castleDungeons.get(npc.getNpcId());
@@ -214,6 +214,15 @@ public final class Q512_AwlUnderFoot extends Quest
 			return "CastleWarden-01.htm";
 		if (player.getClan() == null || player.getClan().getHasCastle() != castle.getCastleId())
 			return "CastleWarden-01.htm";
+		boolean noContract = true;
+		for(Fort fortress : FortManager.getInstance().getForts())
+			if (fortress.getCastleId() > 0)
+			{
+				noContract = false;
+				break;
+			}
+		if (noContract)
+			return "CastleWarden-02.htm";
 		else if (isEnter && dungeon.getReEnterTime() > System.currentTimeMillis())
 			return "CastleWarden-07.htm";
 
@@ -223,7 +232,7 @@ public final class Q512_AwlUnderFoot extends Quest
 	private void rewardPlayer(L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(qn);
-		if (st.getInt("cond") == 1)
+		if (st != null && st.getInt("cond") == 1)
 		{
 			st.giveItems(DL_MARK, 140);
 			st.playSound("ItemSound.quest_itemget");
@@ -240,7 +249,7 @@ public final class Q512_AwlUnderFoot extends Quest
 			tele[0] = 53322;
 			tele[1] = 246380;
 			tele[2] = -6580;
-			return enterInstance(player, "castledungeon.xml", tele, _castleDungeons.get(npc.getNpcId()), checkCastleCondition(player, npc, true));
+			return enterInstance(player, "castledungeon.xml", tele, _castleDungeons.get(npc.getNpcId()), checkFortCondition(player, npc, true));
 		}
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
@@ -269,7 +278,7 @@ public final class Q512_AwlUnderFoot extends Quest
 	{
 		String htmltext = Quest.getNoQuestMsg(player);
 		QuestState st = player.getQuestState(qn);
-		String ret = checkCastleCondition(player, npc, false);
+		String ret = checkFortCondition(player, npc, false);
 		if (ret != null)
 			return ret;
 		else if (st != null)
@@ -384,7 +393,7 @@ public final class Q512_AwlUnderFoot extends Quest
 		for(int i : RAIDS3)
 			addKillId(i);
 		
-		for(int i = 25572; i <= 25595; i++)
+		for(int i = 25546; i <= 25571; i++)
 			addAttackId(i);
 	}
 	

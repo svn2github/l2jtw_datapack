@@ -295,30 +295,30 @@ public class AdminTeleport implements IAdminCommandHandler
 		}
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 
-                final String replyMSG = StringUtil.concat(
-                        "<html><title>"+MessageTable.Messages[1879].getMessage()+"</title>" +
-                        "<body>" +
-                        MessageTable.Messages[1880].getMessage(),
-                        player.getName(),
-                        MessageTable.Messages[1881].getMessage() +
-                        "<br>" +
-                        MessageTable.Messages[1882].getExtra(1) +
-                        "<edit var=\"char_cord_x\" width=110>" +
-                        MessageTable.Messages[1882].getExtra(2) +
-                        "<edit var=\"char_cord_y\" width=110>" +
-                        MessageTable.Messages[1882].getExtra(3) +
-                        "<edit var=\"char_cord_z\" width=110>" +
-                        "<button value=\""+MessageTable.Messages[1883].getMessage()+"\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
-                        "<button value=\""+MessageTable.Messages[1884].getMessage()+"\" action=\"bypass -h admin_teleport_character ",
-                        String.valueOf(activeChar.getX()),
-                        " ",
-                        String.valueOf(activeChar.getY()),
-                        " ",
-                        String.valueOf(activeChar.getZ()),
-                        "\" width=115 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
-                        "<center><button value=\""+MessageTable.Messages[1885].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
-                        "</body></html>"
-                        );
+		final String replyMSG = StringUtil.concat(
+				"<html><title>"+MessageTable.Messages[1879].getMessage()+"</title>" +
+				"<body>" +
+				MessageTable.Messages[1880].getMessage(),
+				player.getName(),
+				MessageTable.Messages[1881].getMessage() +
+				"<br>" +
+				MessageTable.Messages[1882].getExtra(1) +
+				"<edit var=\"char_cord_x\" width=110>" +
+				MessageTable.Messages[1882].getExtra(2) +
+				"<edit var=\"char_cord_y\" width=110>" +
+				MessageTable.Messages[1882].getExtra(3) +
+				"<edit var=\"char_cord_z\" width=110>" +
+				"<button value=\""+MessageTable.Messages[1883].getMessage()+"\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+				"<button value=\""+MessageTable.Messages[1884].getMessage()+"\" action=\"bypass -h admin_teleport_character ",
+				String.valueOf(activeChar.getX()),
+				" ",
+				String.valueOf(activeChar.getY()),
+				" ",
+				String.valueOf(activeChar.getZ()),
+				"\" width=115 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+				"<center><button value=\""+MessageTable.Messages[1885].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
+				"</body></html>"
+		);
 		adminReply.setHtml(replyMSG);
 		activeChar.sendPacket(adminReply);
 	}
@@ -471,7 +471,7 @@ public class AdminTeleport implements IAdminCommandHandler
 		{
 			L2Npc target = (L2Npc) obj;
 			
-			int monsterTemplate = target.getTemplate().npcId;
+			int monsterTemplate = target.getTemplate().getNpcId();
 			L2NpcTemplate template1 = NpcTable.getInstance().getTemplate(monsterTemplate);
 			if (template1 == null)
 			{
@@ -513,7 +513,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				SpawnTable.getInstance().addNewSpawn(spawn, true);
 				spawn.init();
 				
-				activeChar.sendMessage(MessageTable.Messages[1894].getExtra(1) + template1.name +  MessageTable.Messages[1894].getExtra(2));
+				activeChar.sendMessage(MessageTable.Messages[1894].getExtra(1) + template1.getName() +  MessageTable.Messages[1894].getExtra(2));
 				
 				if (Config.DEBUG)
 				{

@@ -73,16 +73,16 @@ public class HallOfSuffering extends Quest
 	private static final int INSTANCEID = 115; // this is the client number
 	private static final boolean debug = false;
 	
-	// Items
+	//Items
 	
-	// NPCs
+	//NPCs
 	private static final int MOUTHOFEKIMUS = 32537;
 	private static final int TEPIOS = 32530;
 	
 	// teleports
 	private static final int[] ENTER_TELEPORT = {-187567,205570,-9538};
 	
-	// Mobs
+	//mobs
 	private static final int KLODEKUS = 25665;
 	private static final int KLANIKUS = 25666;
 	private static final int TUMOR_ALIVE = 18704;
@@ -124,7 +124,7 @@ public class HallOfSuffering extends Quest
 	private static final int[][] TWIN_SPAWNS = {{25665,-173727,218169,-9536},{25666,-173727,218049,-9536}};
 	private static final int[] TEPIOS_SPAWN = {-173727,218109,-9536};
 	
-	// Etc
+	//etc
 	private static final int BOSS_INVUL_TIME = 30000; // in milisex
 	private static final int BOSS_MINION_SPAWN_TIME = 60000; // in milisex
 	private static final int BOSS_RESSURECT_TIME = 20000; // in milisex
@@ -457,17 +457,18 @@ public class HallOfSuffering extends Quest
 	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
 	{
-		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+		final InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 		if (tmpworld instanceof HSWorld)
 		{
-			if (!((HSWorld)tmpworld).isBossesAttacked)
+			final HSWorld world = (HSWorld) tmpworld;
+			if (!world.isBossesAttacked)
 			{
-				((HSWorld) tmpworld).isBossesAttacked = true;
+				world.isBossesAttacked = true;
 				Calendar reenter = Calendar.getInstance();
 				reenter.add(Calendar.HOUR, INSTANCEPENALTY);
 				
 				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.INSTANT_ZONE_S1_RESTRICTED);
-				sm.addString(InstanceManager.getInstance().getInstanceIdName(tmpworld.templateId));
+				sm.addInstanceName(tmpworld.templateId);
 				
 				// set instance reenter time for all allowed players
 				for (int objectId : tmpworld.allowed)
@@ -484,17 +485,17 @@ public class HallOfSuffering extends Quest
 			}
 			else if (damage >= npc.getCurrentHp())
 			{
-				if (((HSWorld)tmpworld).klanikus.isDead())
+				if (world.klanikus.isDead())
 				{
-					((HSWorld)tmpworld).klanikus.setIsDead(false);
-					((HSWorld)tmpworld).klanikus.doDie(attacker);
-					((HSWorld)tmpworld).klodekus.doDie(attacker);
+					world.klanikus.setIsDead(false);
+					world.klanikus.doDie(attacker);
+					world.klodekus.doDie(attacker);
 				}
 				else if (((HSWorld)tmpworld).klodekus.isDead())
 				{
-					((HSWorld)tmpworld).klodekus.setIsDead(false);
-					((HSWorld)tmpworld).klodekus.doDie(attacker);
-					((HSWorld)tmpworld).klanikus.doDie(attacker);
+					world.klodekus.setIsDead(false);
+					world.klodekus.doDie(attacker);
+					world.klanikus.doDie(attacker);
 				}
 				else
 				{

@@ -14,6 +14,9 @@
  */
 package instances.SanctumOftheLordsOfDawn;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
@@ -24,6 +27,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.*;
 
@@ -42,19 +46,17 @@ public class SanctumOftheLordsOfDawn extends Quest
 				NPC_19, NPC_20, NPC_21, NPC_22, NPC_23, NPC_24, NPC_25, NPC_26, NPC_27, NPC_28, NPC_29, NPC_30, NPC_31, NPC_32, NPC_33, NPC_34, NPC_35, S_C_NPC_1, S_C_NPC_2,
 				S_C_NPC_3, S_C_NPC_4, S_C_NPC_5, S_C_NPC_6;
 		
-		private int doorst = 0;
-		
 		public HSWorld() {}
 	}
 	
 	private static final String qn = "SanctumOftheLordsOfDawn";
 	private static final int INSTANCEID = 111; // this is the client number
 	
-	//Items
+	// Items
 	private static final int SHUNAIMAN_CONTRACT = 13823;
 	private static final int IDENTITY_CARD = 13822;
 	
-	//NPCs
+	// NPCs
 	private static final int LIGHTOFDAWN = 32575;  // 傳送師 黎明之光
 	private static final int PWDEVICE    = 32577;  // 暗號輸入裝置
 	private static final int DEVICE      = 32578;  // 身份確認裝置
@@ -64,21 +66,15 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final int GUARD       = 18834;  // 黎明的警衛隊員
 	private static final int WPRIEST     = 18835;  // 黎明的警衛隊員
 	private static final int WGUARD      = 27351;  // 黎明的警衛隊員
-	/**
-	private static final int GUARD       = 27347;  // 黎明的神諭處 警衛隊員
-	private static final int MGUARD      = 27348;  // 黎明的神諭處 警衛隊員
-	private static final int MPRIEST     = 27349;  // 黎明的神諭處 警衛隊員
-	private static final int WPRIEST     = 27350;  // 黎明的神諭處 警衛隊員
-	private static final int SPRIEST     = 27352;  // 黎明的神諭處 警衛隊員
-	*/
+	
 	private static final int ONE         = 17240001;
 	private static final int TWO         = 17240003;
 	private static final int THREE       = 17240005;
 	
-	//TRANSFORM SKILL
+	// TRANSFORM SKILL
 	private static final int GUARD_AMBUSH = 963;
 	
-	//GUARD_SKILL
+	// GUARD_SKILL
 	private static final int GUARD_SKILL  = 5978;
 	
 	// WALK TIMERS
@@ -345,7 +341,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				startQuestTimer("Group_HUGE_A", HUGE, world.NPC_12, null);
 			}
 		}
-		else if (event.equalsIgnoreCase("circle"))
+		/*else if (event.equalsIgnoreCase("circle"))
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 			if (tmpworld instanceof HSWorld)
@@ -365,16 +361,12 @@ public class SanctumOftheLordsOfDawn extends Quest
 				world.S_C_NPC_6 = addSpawn(PRIESTS, -79361, 206006, -7908, 48480, false, 0, false, world.instanceId);
 				world.S_C_NPC_6.setIsNoRndWalk(true);
 			}
-		}
+		}*/
 		else if (event.equalsIgnoreCase("password"))
 		{
-			InstanceWorld tmworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-			if (tmworld instanceof HSWorld)
-			{
-				HSWorld world = (HSWorld) tmworld;
-				openDoor(THREE, world.instanceId);
-				return "32577-03.htm";
-			}
+			InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
+			openDoor(player, world.instanceId);
+			return "32577-03.htm";
 		}
 		else if (event.equalsIgnoreCase("nopass"))
 		{
@@ -475,7 +467,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		S_NPC_8.setIsNoRndWalk(true);
 		L2Npc S_NPC_9 = addSpawn(WGUARD, -74568, 209981, -7390, 0, false, 0, false, world.instanceId);
 		S_NPC_9.setIsNoRndWalk(true);
-		L2Npc S_NPC_10 = addSpawn(WPRIEST, -77167, 207637, -7703, 0, false, 0, false, world.instanceId); // Add new
+		L2Npc S_NPC_10 = addSpawn(WPRIEST, -77167, 207637, -7703, 0, false, 0, false, world.instanceId);
 		S_NPC_10.setIsNoRndWalk(true);
 		L2Npc S_NPC_11 = addSpawn(WGUARD, -74276, 208794, -7486, 0, false, 0, false, world.instanceId);
 		S_NPC_11.setIsNoRndWalk(true);
@@ -491,7 +483,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		S_NPC_16.setIsNoRndWalk(true);
 		L2Npc S_NPC_17 = addSpawn(WPRIEST, -77548, 207131, -7703, 0, false, 0, false, world.instanceId);
 		S_NPC_17.setIsNoRndWalk(true);
-		L2Npc S_NPC_18 = addSpawn(WPRIEST, -77720, 207512, -7701, 0, false, 0, false, world.instanceId); // Add New
+		L2Npc S_NPC_18 = addSpawn(WPRIEST, -77720, 207512, -7701, 0, false, 0, false, world.instanceId);
 		S_NPC_18.setIsNoRndWalk(true);
 		L2Npc S_NPC_19 = addSpawn(WGUARD, -78878, 206292, -7894, 0, false, 0, false, world.instanceId);
 		S_NPC_19.setIsNoRndWalk(true);
@@ -513,7 +505,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		S_NPC_27.setIsNoRndWalk(true);
 		L2Npc S_NPC_28 = addSpawn(WGUARD, -81531, 206170, -7989, 0, false, 0, false, world.instanceId);
 		S_NPC_28.setIsNoRndWalk(true);
-		L2Npc S_NPC_29 = addSpawn(WPRIEST, -77239, 208298, -7710, 0, false, 0, false, world.instanceId); // Add New
+		L2Npc S_NPC_29 = addSpawn(WPRIEST, -77239, 208298, -7710, 0, false, 0, false, world.instanceId);
 		S_NPC_29.setIsNoRndWalk(true);
 		
 		// WALKING NPC's
@@ -550,8 +542,22 @@ public class SanctumOftheLordsOfDawn extends Quest
 		world.NPC_31 = addSpawn(GUARD, -79118, 205436, -7893, 0, false, 0, false, world.instanceId);
 		world.NPC_32 = addSpawn(WGUARD, -81948, 205857, -7989, 0, false, 0, false, world.instanceId);
 		world.NPC_33 = addSpawn(GUARD, -74948, 206370, -7514, 0, false, 0, false, world.instanceId);
-		world.NPC_34 = addSpawn(WPRIEST, -77053, 207113, -7703, 0, false, 0, false, world.instanceId); // Add New
-		world.NPC_35 = addSpawn(WPRIEST, -77048, 207800, -7709, 0, false, 0, false, world.instanceId); // Add New
+		world.NPC_34 = addSpawn(WPRIEST, -77053, 207113, -7703, 0, false, 0, false, world.instanceId);
+		world.NPC_35 = addSpawn(WPRIEST, -77048, 207800, -7709, 0, false, 0, false, world.instanceId);
+		
+		// STATIC NPCS IN CIRCLE
+		world.S_C_NPC_1 = addSpawn(PRIESTS, -79225, 205933, -7908, 38276, false, 0, false, world.instanceId);
+		world.S_C_NPC_1.setIsNoRndWalk(true);
+		world.S_C_NPC_2 = addSpawn(PRIESTS, -79229, 205780, -7908, 27559, false, 0, false, world.instanceId);
+		world.S_C_NPC_2.setIsNoRndWalk(true);
+		world.S_C_NPC_3 = addSpawn(PRIESTS, -79360, 205705, -7908, 16383, false, 0, false, world.instanceId);
+		world.S_C_NPC_3.setIsNoRndWalk(true);
+		world.S_C_NPC_4 = addSpawn(PRIESTS, -79491, 205780, -7908, 5208, false, 0, false, world.instanceId);
+		world.S_C_NPC_4.setIsNoRndWalk(true);
+		world.S_C_NPC_5 = addSpawn(PRIESTS, -79488, 205929, -7908, 60699, false, 0, false, world.instanceId);
+		world.S_C_NPC_5.setIsNoRndWalk(true);
+		world.S_C_NPC_6 = addSpawn(PRIESTS, -79361, 206006, -7908, 48480, false, 0, false, world.instanceId);
+		world.S_C_NPC_6.setIsNoRndWalk(true);
 		
 		// START TIMERS
 		startQuestTimer("Group_SHORT_B", SHORT, world.NPC_1, null);
@@ -561,11 +567,61 @@ public class SanctumOftheLordsOfDawn extends Quest
 		startQuestTimer("Group_HUGE_B", HUGE, world.NPC_12, null);
 	}
 	
-	protected void openDoor(int doorId, int instanceId)
+	private synchronized void openDoor(L2PcInstance player, int instanceId)
 	{
-		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
-			if (door.getDoorId() == doorId)
-				door.openMe();
+		final ArrayList<L2DoorInstance> doors = InstanceManager.getInstance().getInstance(instanceId).getDoors();
+		for (L2DoorInstance door : doors)
+		{
+			switch (door.getDoorId())
+			{
+				case ONE:
+					Collection<L2PcInstance> knows = door.getKnownList().getKnownPlayersInRadius(500);
+					for (L2PcInstance pc : knows)
+					{
+						if (pc == player && !door.getOpen())
+						{
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.USING_INVISIBLE_SKILL_SNEAK_IN));
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.MALE_GUARDS_CAN_DETECT_FEMALE_CANT));
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.FEMALE_GUARDS_NOTICE_FROM_FAR_AWAY_BEWARE));
+							door.openMe();
+						}
+						else
+						{
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.USING_INVISIBLE_SKILL_SNEAK_IN));
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.MALE_GUARDS_CAN_DETECT_FEMALE_CANT));
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.FEMALE_GUARDS_NOTICE_FROM_FAR_AWAY_BEWARE));
+						}
+					}
+					break;
+				case TWO:
+					knows = door.getKnownList().getKnownPlayersInRadius(500);
+					for (L2PcInstance pc : knows)
+					{
+						if (pc == player && !door.getOpen())
+						{
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.DOOR_IS_ENTRANCE_APPROACH_DEVICE));
+							door.openMe();
+							player.showQuestMovie(11);
+							//startQuestTimer("circle", 30000, null, null);
+						}
+						else
+						{
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.DOOR_IS_ENTRANCE_APPROACH_DEVICE));
+							door.openMe();
+							player.showQuestMovie(11);
+						}
+					}
+					break;
+				case THREE:
+					knows = door.getKnownList().getKnownPlayersInRadius(500);
+					for (L2PcInstance pc : knows)
+					{
+						if (pc == player && !door.getOpen())
+							door.openMe();
+					}
+					break;
+			}
+		}
 	}
 	
 	@Override
@@ -578,15 +634,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		switch (npc.getNpcId())
 		{
 			case LIGHTOFDAWN:
-				if (!player.isTransformed())
-				{
-					return "32575-01.htm";
-				}
-				if (!st.hasQuestItems(IDENTITY_CARD))
-				{
-					return "32575-01.htm";
-				}
-				else if (player.getTransformation().getId() != 6204)
+				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
 					teleCoord tele = new teleCoord();
 					tele.x = -76156;
@@ -595,37 +643,26 @@ public class SanctumOftheLordsOfDawn extends Quest
 					enterInstance(player, "SanctumoftheLordsofDawn.xml", tele);
 					return "32575-02.htm";
 				}
-			case DEVICE:
-				InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-				if (tmpworld instanceof HSWorld)
+				else
 				{
-					HSWorld world = (HSWorld) tmpworld;
-					if (world.doorst == 0)
-					{
-						openDoor(ONE, world.instanceId);
-						player.sendPacket(new ExShowScreenMessage("使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！",5000));  // 官服是(黃色字體)
-						npc.deleteMe();
-						world.doorst++;
-						player.sendMessage("使用警衛隊員的隱身技能後，潛入到黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。");  // 官服是(黃色字體)
-						player.sendMessage("女性警衛隊員比男性警衛隊員可以在更遠的地方就能察覺到變身術，所以要非常小心。");  // 官服是(黃色字體)
-						return "32578-03.htm";
-					}
-					if (world.doorst >= 1)
-					{
-						openDoor(TWO, world.instanceId);
-						player.sendPacket(new ExShowScreenMessage("接近門前的暗號裝置！",5000));  // 官服是(黃色字體)
-						player.sendMessage("在前方的門，就是黎明的文件儲藏室的入口！接近暗號輸入裝置！");  // 官服是(黃色字體)
-						world.doorst++;
-						npc.deleteMe();
-						player.showQuestMovie(11);
-						startQuestTimer("circle", 30000, npc, null);
-						return "32578-03.htm";
-					}
+					return "32575-01.htm";
 				}
+			case DEVICE:
+				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
+				{
+					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
+					openDoor(player, world.instanceId);
+					return "32578-03.htm";
+				}
+				else { return null; }
 			case PWDEVICE:
-				return "32577-01.htm";
+				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
+				{
+					return "32577-01.htm";
+				}
+				else { return null; }
 			case BLACK:
-				if (st.hasQuestItems(IDENTITY_CARD))
+				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
 					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
 					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
@@ -636,7 +673,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				}
 				else { return null; }
 			case SHELF:
-				if (st.hasQuestItems(IDENTITY_CARD))
+				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
 					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
 					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
@@ -647,7 +684,6 @@ public class SanctumOftheLordsOfDawn extends Quest
 				}
 				else { return null; }
 		}
-		
 		return "";
 	}
 	
@@ -662,7 +698,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				if (player.getFirstEffect(GUARD_AMBUSH) == null)
 				{
 					((L2Attackable) npc).abortAttack();
-					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "你是誰！！！陌生面孔無法接近此地！"));
+					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WHO_ARE_YOU_A_NEW_FACE_LIKE_YOU_CANT_APPROACH_THIS_PLACE));
 					npc.broadcastPacket(new MagicSkillUse(npc, player, GUARD_SKILL, 1, 2500, 1));
 					npc.disableCoreAI(true);
 					startQuestTimer("reTele", 3000, npc, player);
@@ -671,7 +707,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 			if (npc.getNpcId() == WPRIEST)
 			{
 				((L2Attackable) npc).abortAttack();
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "竟敢以那種區區的變身術入侵此地！給我滾！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.HOW_DARE_YOU_INTRUDE_WITH_THAT_TRANSFORMATION_GET_LOST));
 				npc.broadcastPacket(new MagicSkillUse(npc, player, GUARD_SKILL, 1, 2500, 1));
 				npc.disableCoreAI(true);
 				startQuestTimer("reTele", 3000, npc, player);
@@ -679,7 +715,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 			if (npc.getNpcId() == GUARD)
 			{
 				((L2Attackable) npc).abortAttack();
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "有入侵者！守護黎明的祭司團！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.INTRUDER_PROTECT_THE_PRIESTS_OF_DAWN));
 				npc.broadcastPacket(new MagicSkillUse(npc, player, GUARD_SKILL, 1, 2500, 1));
 				npc.disableCoreAI(true);
 				startQuestTimer("reTele", 3000, npc, player);

@@ -34,6 +34,7 @@ import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.*;
 //import com.l2jserver.util.Rnd;
@@ -165,7 +166,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				npc.setTarget(player);
 				npc.setIsRunning(true);
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "這裡本來是屬於席琳女神的。"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.THIS_PLACE_ONCE_BELONGED_TO_LORD_SHILEN));
 			}
 			if (npc.getNpcId() == 27372)
 			{
@@ -173,7 +174,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				npc.setTarget(player);
 				npc.setIsRunning(true);
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "是誰敢進來這裡？！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WHO_DARES_ENTER_THIS_PLACE));
 			}
 			if (npc.getNpcId() == 27373 || npc.getNpcId() == 27379)
 			{
@@ -181,7 +182,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				npc.setTarget(player);
 				npc.setIsRunning(true);
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "膽怯的傢伙滾出去，勇敢的傢伙衝過來吧！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.THOSE_WHO_ARE_AFRAID_SHOULD_GET_AWAY_AND_THOSE_WHO_ARE_BRAVE_SHOULD_FIGHT));
 			}
 			if (npc.getNpcId() == 27377)
 			{
@@ -189,7 +190,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				npc.setTarget(player);
 				npc.setIsRunning(true);
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "趕快離開這裡！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.LEAVE_NOW));
 			}
 			if (npc.getNpcId() == 27378)
 			{
@@ -197,7 +198,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				npc.setTarget(player);
 				npc.setIsRunning(true);
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "是誰敢進來這裡？！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WHO_DARES_ENTER_THIS_PLACE));
 			}
 		}
 		return null;
@@ -703,7 +704,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		else if (event.equalsIgnoreCase("32598-02.htm"))
 		{
 			st.giveItems(STAFF, 1);
-			player.sendMessage("利用宮廷魔法師的魔法棒，請開啟附有魔法師結界的門。");  // 官服是(黃色字體)
+			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
 			st.playSound("ItemSound.quest_middle");
 		}
 		else if (event.equalsIgnoreCase("30969-11.htm"))
@@ -720,9 +721,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		}
 		else if (event.equalsIgnoreCase("32586-06.htm"))
 		{
-			player.sendPacket(new ExShowScreenMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！",5000));  // 官服是(黃色字體)
-			player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
-			player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
+			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
+			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
 			st.playSound("ItemSound.quest_middle");
 			st.set("cond", "4");
 			st.giveItems(SWORD, 1);
@@ -739,8 +739,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		}
 		else if (event.equalsIgnoreCase("32593-02.htm"))
 		{
-			//st.addExpAndSp(52518015, 5817676);
-			st.addExpAndSp(25000000, 2500000); // High Five
+			st.addExpAndSp(25000000, 2500000);
 			st.unset("cond");
 			st.setState(State.COMPLETED);
 			st.exitQuest(false);
@@ -752,7 +751,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			{
 				mammonst = 1;
 				L2Npc mammon = addSpawn(MAMMON, 109742, 219978, -3520, 0, false, 120000, true);
-				mammon.broadcastPacket(new NpcSay(mammon.getObjectId(), 0, mammon.getNpcId(), "誰...是誰召喚我財富的商人啊..."));
+				mammon.broadcastPacket(new NpcSay(mammon.getObjectId(), 0, mammon.getNpcId(), NpcStringId.WHO_DARES_SUMMON_THE_MERCHANT_OF_MAMMON));
 				st.startQuestTimer("despawn", 120000, mammon);
 			}
 			else
@@ -761,7 +760,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		else if (event.equalsIgnoreCase("despawn"))
 		{
 			mammonst = 0;
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "與皇帝之間的長久約定終於達成了..."));
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.THE_ANCIENT_PROMISE_TO_THE_EMPEROR_HAS_BEEN_FULFILLED));
 			return null;
 		}
 		else if (event.equalsIgnoreCase("DOORS"))
@@ -777,7 +776,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 					if (pl != null)
 						pl.showQuestMovie(12);
 						runBossRoom(world);
-						player.sendMessage("為了協助亞納，啟動那個受到莉莉絲邪惡詛咒的皇帝的封印裝置！詛咒魔法的威力很強，所以要多留神！");  // 官服是(黃色字體)
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3032));
 				}
 				return null;
 			}
@@ -869,12 +868,12 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 					case 4:
 						if (st.getQuestItemsCount(STAFF) == 0)
 						{
-							player.sendMessage("利用宮廷魔法師的魔法棒，請開啟附有魔法師結界的門。");  // 官服是(黃色字體)
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
 							return "32598-01.htm";
 						}
 						if (st.getQuestItemsCount(STAFF) >= 1)
 						{
-							player.sendMessage("利用宮廷魔法師的魔法棒，請開啟附有魔法師結界的門。");  // 官服是(黃色字體)
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
 							return "32598-03.htm";
 						}
 				}
@@ -886,23 +885,22 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 					case 4:
 						if (st.getQuestItemsCount(SWORD) == 0)
 						{
-							player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
-							player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
 							st.giveItems(SWORD, 1);
 							return "32586-14.htm";
 						}
 						if (st.getQuestItemsCount(WATER) == 0)
 						{
-							player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
-							player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
 							st.giveItems(WATER, 1);
 							return "32586-14.htm";
 						}
 						if (st.getQuestItemsCount(SEAL) <= 3)
 						{
-							player.sendPacket(new ExShowScreenMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！",5000));  // 官服是(黃色字體)
-							player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
-							player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
+							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
 							return "32586-07.htm";
 						}
 						else if (st.getQuestItemsCount(SEAL) == 4)
@@ -950,27 +948,27 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			world = (SIGNSWorld)tmpworld;
 			if (npc.getNpcId() == 27371)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為了席琳！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.FOR_SHILEN));
 			}
 			else if (npc.getNpcId() == 27372)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "席琳女神...這個任務...總有一天...我會完成..."));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.LORD_SHILEN_SOME_DAY_YOU_WILL_ACCOMPLISH_THIS_MISSION));
 			}
 			else if (npc.getNpcId() == 27373)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為什麼妨礙我們呢？"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WHY_ARE_YOU_GETTING_IN_OUR_WAY));
 			}
 			else if (npc.getNpcId() == 27377)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為了席琳！"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.FOR_SHILEN));
 			}
 			else if (npc.getNpcId() == 27378)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "席琳女神...這個任務...總有一天...我會完成..."));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.LORD_SHILEN_SOME_DAY_YOU_WILL_ACCOMPLISH_THIS_MISSION));
 			}
 			else if (npc.getNpcId() == 27379)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為什麼妨礙我們呢？"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WHY_ARE_YOU_GETTING_IN_OUR_WAY));
 			}
 			
 			if (world.status == 1)
@@ -1018,14 +1016,14 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				{
 					if (st.getQuestItemsCount(SEAL) < 3)
 					{
-						player.sendMessage("封印裝置散發光芒後開始運作了。已經在正常運作！");  // 官服是(黃色字體)
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3036));
 						npc.setRHandId(15281);
 						st.playSound("ItemSound.quest_itemget");
 						st.giveItems(SEAL, 1);
 					}
 					else
 					{
-						player.sendMessage("封印裝置散發光芒後開始運作了。已經在正常運作！");  // 官服是(黃色字體)
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3036));
 						npc.setRHandId(15281);
 						st.giveItems(SEAL, 1);
 						st.playSound("ItemSound.quest_middle");

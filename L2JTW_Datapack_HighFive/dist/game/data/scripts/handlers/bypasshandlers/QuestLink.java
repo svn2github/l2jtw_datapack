@@ -90,12 +90,10 @@ public class QuestLink implements IBypassHandler
 			}
 			else if (qs.isStarted() && (qs.getInt("cond") > 0))
 			{
-				//state = q.isCustomQuest() ? " (In Progress)" : "02";
 				state = q.isCustomQuest() ? MessageTable.Messages[1016].getMessage() : "02";
 			}
 			else if (qs.isCompleted())
 			{
-				//state = q.isCustomQuest() ? " (Done)" : "03";
 				state = q.isCustomQuest() ? MessageTable.Messages[1017].getMessage() : "03";
 			}
 			
@@ -222,7 +220,7 @@ public class QuestLink implements IBypassHandler
 		// collect awaiting quests and start points
 		List<Quest> options = new FastList<Quest>();
 		
-		QuestState[] awaits = player.getQuestsForTalk(npc.getTemplate().npcId);
+		QuestState[] awaits = player.getQuestsForTalk(npc.getTemplate().getNpcId());
 		Quest[] starts = npc.getTemplate().getEventQuests(Quest.QuestEventType.QUEST_START);
 		
 		// Quests are limited between 1 and 999 because those are the quests that are supported by the client.

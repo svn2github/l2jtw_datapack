@@ -78,7 +78,7 @@ public class SupportMagic implements IBypassHandler
 		{
 			if (player.getPet() == null || !(player.getPet() instanceof L2SummonInstance))
 			{
-				String content = "<html><body>"+MessageTable.Messages[1081].getMessage()+"</body></html>";
+				String content = "<html><body>"+ MessageTable.Messages[1081].getMessage() +"</body></html>";
 				npc.insertObjectIdAndShowChatWindow(player, content);
 				return true;
 			}

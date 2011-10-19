@@ -47,7 +47,7 @@ public class SupportBlessing implements IBypassHandler
 		if (player_level > 39 || activeChar.getClassId().level() >= 2)
 		{
 			NpcHtmlMessage msg = new NpcHtmlMessage(((L2Npc)target).getObjectId());
-			msg.setHtml("<html><body>"+MessageTable.Messages[1074].getMessage()+"<br>"+MessageTable.Messages[1075].getMessage()+"<br1>"+MessageTable.Messages[1076].getMessage()+"<font color=\"LEVEL\">"+MessageTable.Messages[1077].getMessage()+"</font></body></html>");
+			msg.setHtml("<html><body>"+ MessageTable.Messages[1074].getMessage() +"<br>"+ MessageTable.Messages[1075].getMessage() +"<br1>"+ MessageTable.Messages[1076].getMessage() +"<font color=\"LEVEL\">"+ MessageTable.Messages[1077].getMessage() +"</font></body></html>");
 			activeChar.sendPacket(msg);
 			return true;
 		}

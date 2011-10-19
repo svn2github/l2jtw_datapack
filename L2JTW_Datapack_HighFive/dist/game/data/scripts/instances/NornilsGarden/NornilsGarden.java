@@ -249,7 +249,7 @@ public class NornilsGarden extends Quest
 			player.teleToLocation(EXIT_PPL[0], EXIT_PPL[1], EXIT_PPL[2], true);
 		}
 	}
-
+	
 	private final synchronized String enterInstance(L2Npc npc, L2PcInstance player)
 	{
 		InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);

@@ -50,7 +50,7 @@ public class TerritoryStatus implements IBypassHandler
 				html.setFile(activeChar.getHtmlPrefix(), "data/html/territorynoclan.htm");
 			}
 		}
-		html.replace("%castlename%", npc.getCastle().getCName());
+		html.replace("%castlename%", npc.getCastle().getName());
 		html.replace("%taxpercent%", "" + npc.getCastle().getTaxPercent());
 		html.replace("%objectId%", String.valueOf(npc.getObjectId()));
 		{
