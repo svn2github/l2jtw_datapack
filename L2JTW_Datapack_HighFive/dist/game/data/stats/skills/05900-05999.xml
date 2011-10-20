@@ -16,7 +16,7 @@
 		<set name="effectRange" val="400" />
 		<set name="trait" val="DERANGEMENT" />
 		<for>
-			<effect count="1" name="SilenceMagicPhysical" abnormalTime="30" val="0" />
+			<effect count="1" name="Mute" abnormalTime="30" val="0" />
 			<effect name="RemoveTarget" noicon="1" val="0" effectType="DEBUFF" effectPower="50" />
 		</for>
 	</skill>
@@ -96,7 +96,7 @@
 		<set name="effectRange" val="400" />
 		<set name="trait" val="DERANGEMENT" />
 		<for>
-			<effect name="SilenceMagicPhysical" abnormalTime="30" val="0" />
+			<effect name="Mute" abnormalTime="30" val="0" />
 		</for>
 	</skill>
 	<skill id="5906" levels="1" name="Ritual of Revive">
@@ -658,20 +658,13 @@
 		<set name="trait" val="POISON" />
 	</skill>
 	<skill id="5961" levels="1" name="Barrier Thunder Storm">
-		<!-- Update by pmq -->
-		<set name="mpConsume" val="52" />
-		<set name="power" val="916" />
-		<set name="target" val="TARGET_ONE" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="4000" />
-		<set name="skillType" val="PDAM" />
-		<set name="isDebuff" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="600" />
-		<set name="effectRange" val="1100" />
+		<set name="lvlDepend" val="1" />
+		<set name="saveVs" val="CON" />
 		<set name="trait" val="SHOCK" />
-		<for>
-			<effect name="Stun" abnormalTime="9" val="0" effectPower="50" effectType="STUN" abnormalLvl="1" abnormalType="Stun" />
-		</for>
 	</skill>
 	<skill id="5962" levels="1" name="Air Defense Cannon">
 		<set name="target" val="TARGET_NONE" />
@@ -736,26 +729,16 @@
 		</for>
 	</skill>
 	<skill id="5969" levels="2" name="Punch of Doom">
-		<!-- Update by pmq -->
-		<table name="#magicLvl"> 64 74 </table>
-		<table name="#hpConsume"> 455 499 </table>
-		<table name="#power"> 10331 12288 </table>
-		<set name="magicLvl" val="#magicLvl" />
-		<set name="hpConsume" val="#hpConsume" />
-		<set name="power" val="#power" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="ignoreShld" val="true" />
-		<set name="overHit" val="true" />
-		<set name="SSBoost" val="2.0" />
-		<set name="reuseDelay" val="1000" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="nextActionAttack" val="true" />
 		<set name="hitTime" val="1360" />
-		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="40" />
-		<set name="effectRange" val="400" />
-		<for>
-			<effect name="StunSelf" abnormalTime="9" val="0" abnormalLvl="2" abnormalType="Stun" effectPower="80" effectType="STUN" />
-		</for>
+		<set name="overHit" val="true" />
+		<set name="lvlDepend" val="2" />
+		<set name="reuseDelay" val="120000" />
+		<set name="saveVs" val="CON" />
+		<set name="coolTime" val="440" />
 	</skill>
 	<skill id="5970" levels="1" name="Seduced Knight's Help">
 		<set name="target" val="TARGET_NONE" />
