@@ -459,9 +459,11 @@ public class Q10292_GirlofDoubt extends Quest
 	}
 	
 	@Override
-	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
+	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		final QuestState st = player.getQuestState(qn);
+		QuestState st = player.getQuestState(qn);
+		if (st == null)
+			return null;
 		
 		if (npc.getNpcId() == SHILENSEVIL1)
 		{
@@ -483,37 +485,30 @@ public class Q10292_GirlofDoubt extends Quest
 			}
 		}
 		
-		else if (Util.contains(GOLEM, npc.getNpcId()))
+		else if (st.getState() == State.STARTED && st.getInt("cond") == 3 && Util.contains(GOLEM, npc.getNpcId()))
 		{
-			if (st.getInt("cond") == 3)
+			long count = st.getQuestItemsCount(E_MARK);
+			int chance = (int)(Config.RATE_QUEST_DROP * DROP_CHANCE);
+			int numItems = chance / 100;
+			chance = chance % 100;
+			if (st.getRandom(100) < chance)
+				numItems++;
+			if (numItems > 0)
 			{
-				final long count = st.getQuestItemsCount(E_MARK);
-				if (count < 100)
+				if (count + numItems >= 10)
 				{
-					int chance = (int)(Config.RATE_QUEST_DROP * DROP_CHANCE);
-					int numItems = chance / 100;
-					chance = chance % 100;
-					if (st.getRandom(100) < chance)
-						numItems++;
-					if (numItems > 0)
-					{
-						if (count + numItems >= 10)
-						{
-							numItems = 10 - (int)count;
-							st.set("cond", "4");
-							st.playSound("ItemSound.quest_middle");
-						}
-						else
-						{
-							st.playSound("ItemSound.quest_itemget");
-							st.giveItems(E_MARK, numItems);
-						}
-					}
+					numItems = 10 - (int)count;
+					st.set("cond", "4");
+					st.playSound("ItemSound.quest_middle");
+				}
+				else
+				{
+					st.playSound("ItemSound.quest_itemget");
+					st.giveItems(E_MARK, numItems);
 				}
 			}
 		}
-		
-		return super.onKill(npc, player, isPet);
+		return null;
 	}
 	
 	public Q10292_GirlofDoubt(int questId, String name, String descr)
@@ -528,12 +523,10 @@ public class Q10292_GirlofDoubt extends Quest
 		addTalkId(NPC_B);
 		addTalkId(HARDIN);
 		
-		for (int i : GOLEM)
-		{
-			addKillId(i);
-		}
 		addKillId(SHILENSEVIL1);
 		addKillId(SHILENSEVIL2);
+		for (int i : GOLEM)
+			addKillId(i);
 		
 		questItemIds = new int[]
 		{ E_MARK };
