@@ -174,12 +174,11 @@ class Quest (JQuest) :
 		elif state == State.CREATED :
 			if npcId == TIFAREN and cond == 0 :
 				st2 = player.getQuestState("21_HiddenTruth")
-				if st2 :
-					if not (st2.getState() == State.COMPLETED and player.getLevel() >= 63) :
-						htmltext = "31334-03.htm"
-						st.exitQuest(1)
-					else :
-						htmltext = "31334-01.htm"
+				if st2 and st2.getState() == State.COMPLETED and player.getLevel() >= 63 :
+					htmltext = "31334-01.htm"
+				else :
+					htmltext = "31334-03.htm"
+					st.exitQuest(1)
 		elif state == State.STARTED :
 			if npcId == INNOCENTIN :
 				if cond == 1 :

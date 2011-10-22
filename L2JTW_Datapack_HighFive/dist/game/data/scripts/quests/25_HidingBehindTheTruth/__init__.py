@@ -138,6 +138,7 @@ class Quest (JQuest) :
 					htmltext = "31349-01.htm"
 				else :
 					htmltext = "31349-00.htm"
+					st.exitQuest(1)
 		elif id == State.STARTED:
 			if npcId == Benedict:
 				if cond == 1 :

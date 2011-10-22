@@ -108,13 +108,11 @@ class Quest (JQuest) :
 		elif state == State.CREATED :
 			if npcId == Dorian :
 				st2 = st.getPlayer().getQuestState("23_LidiasHeart")
-				if st2 :
-					if st2.getState() == State.COMPLETED and player.getLevel() >= 65 :
-						htmltext = "31389-01.htm"
-					else:
-						htmltext = "31389-00.htm"
+				if st2 and st2.getState() == State.COMPLETED and player.getLevel() >= 65 :
+					htmltext = "31389-01.htm"
 				else:
 					htmltext = "31389-00.htm"
+					st.exitQuest(1)
 		elif state == State.STARTED :
 			if npcId == Dorian :
 				if cond == 1 :
