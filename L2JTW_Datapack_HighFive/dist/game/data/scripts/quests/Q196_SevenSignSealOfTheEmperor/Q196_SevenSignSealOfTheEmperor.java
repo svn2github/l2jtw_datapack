@@ -756,7 +756,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				st.startQuestTimer("despawn", 120000, mammon);
 			}
 			else
-				return "<html><body>艾森海內：<br>現在我可沒有跟你閒聊的時間！！！<br>（其他的玩家正在進行對話。）</body></html>";
+				return "30969-06a.htm";
 		}
 		else if (event.equalsIgnoreCase("despawn"))
 		{

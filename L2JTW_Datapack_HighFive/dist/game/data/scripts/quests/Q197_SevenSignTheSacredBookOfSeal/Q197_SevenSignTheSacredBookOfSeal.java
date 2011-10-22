@@ -102,11 +102,11 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 			if (event.equalsIgnoreCase("32595-04.htm"))
 			{
 				if (ShilensevilOnSpawn)
-					htmltext = "<html><body>偉大的師傅勞倫斯：<br>現在我可沒有跟你閒聊的時間！！！<br>（其他的玩家正在進行對話。）</body></html>";
+					htmltext = "32595-04a.htm";
 				else
 				{
 					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 152520, -57486, -3430, 0, false, 300000, true);
-					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));  // 那個物品的主人不是你們...
+					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
 					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
@@ -119,7 +119,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 				if (ShilensevilOnSpawn)
 				{
 					ShilensevilOnSpawn = false;
-					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, NpcStringId.NEXT_TIME_YOU_WILL_NOT_ESCAPE));  // 小心！下次就不能活著回去了。
+					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, NpcStringId.NEXT_TIME_YOU_WILL_NOT_ESCAPE));
 					htmltext = "";
 				}
 				else
@@ -245,8 +245,12 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 		if (npc.getNpcId() == SHILENSEVIL && st.getInt("cond") == 3)
 		{
 			ShilensevilOnSpawn = false;
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」" + "！現在我就讓你一步..不過，我一定會抓到你的。"));  // 19306
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, LAWRENCE, "很好，「" + player.getName() + "」。很高興能幫得上你。"));  // 1800847
+			NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.S1_YOU_MAY_HAVE_WON_THIS_TIME_BUT_NEXT_TIME_I_WILL_SURELY_CAPTURE_YOU);
+			packet.addStringParameter(player.getName().toString());
+			npc.broadcastPacket(packet);
+			NpcSay packet1 = new NpcSay(LAWRENCE, 0, LAWRENCE, NpcStringId.WELL_DONE_S1_YOUR_HELP_IS_MUCH_APPRECIATED);
+			packet1.addStringParameter(player.getName().toString());
+			npc.broadcastPacket(packet1);
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "4");
 			st.playSound("ItemSound.quest_middle");

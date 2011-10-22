@@ -169,12 +169,14 @@ public class Q198_SevenSignEmbryo extends Quest
 			if (event.equalsIgnoreCase("32597-05.htm"))
 			{
 				if (ShilensevilOnSpawn)
-					htmltext = "<html><body>神官佛蘭茲：<br>神官佛蘭茲忙著與怪人戰鬥，因此沒有注意到您有找他交談。<br>（其他的玩家正在進行對話。）</body></html>";
+					htmltext = "32597-05a.htm";
 				else
 				{
-					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(),"「" + player.getName() + "」！我們得擊倒那個怪人，我會盡全力來幫你的！"));  // 1800845
+					NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.S1_THAT_STRANGER_MUST_BE_DEFEATED_HERE_IS_THE_ULTIMATE_HELP);
+					packet.addStringParameter(player.getName().toString());
+					npc.broadcastPacket(packet);
 					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL1, -23656, -9236, -5392, 0, false, 600000, true, npc.getInstanceId());
-					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));  // 那個物品的主人不是你們...
+					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), NpcStringId.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM));
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
 					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
@@ -195,10 +197,21 @@ public class Q198_SevenSignEmbryo extends Quest
 			{
 				if (ShilensevilOnSpawn == true)
 				{
-					npc.setTarget(player);
-					npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
-					startQuestTimer("aiplayer", 30000, npc, player);
-					return "";
+					if (!npc.isInsideRadius(player, 600, true, true))
+					{
+						NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.LOOK_HERE_S1_DONT_FALL_TOO_FAR_BEHIND);
+						packet.addStringParameter(player.getName().toString());
+						npc.broadcastPacket(packet);
+						startQuestTimer("aiplayer", 20000, npc, player);
+						return null;
+					}
+					else
+					{
+						npc.setTarget(player);
+						npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
+						startQuestTimer("aiplayer", 20000, npc, player);
+						return null;
+					}
 				}
 				else
 				{
@@ -210,7 +223,7 @@ public class Q198_SevenSignEmbryo extends Quest
 			else if (event.equalsIgnoreCase("32597-10.htm"))
 			{
 				st.set("cond", "3");
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WE_WILL_BE_WITH_YOU_ALWAYS));  // 我向你承諾，在你的未來，我們黎明將永遠伴著你！！！！
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.WE_WILL_BE_WITH_YOU_ALWAYS));
 				st.takeItems(SCULPTURE, -1);
 				st.playSound("ItemSound.quest_middle");
 			}
@@ -314,12 +327,16 @@ public class Q198_SevenSignEmbryo extends Quest
 		
 		if (npc.getNpcId() == SHILENSEVIL1 && st.getInt("cond") == 1)
 		{
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」" + "！現在我就讓你一步..不過，我一定會抓到你的。"));  // 19306
-			npc.broadcastPacket(new NpcSay(FRANZ, 0, FRANZ, "很好，「" + player.getName() + "」。很高興能幫得上你。"));  // 1800847
+			ShilensevilOnSpawn = false;
+			NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), NpcStringId.S1_YOU_MAY_HAVE_WON_THIS_TIME_BUT_NEXT_TIME_I_WILL_SURELY_CAPTURE_YOU);
+			packet.addStringParameter(player.getName().toString());
+			npc.broadcastPacket(packet);
+			NpcSay packet1 = new NpcSay(FRANZ, 0, FRANZ, NpcStringId.WELL_DONE_S1_YOUR_HELP_IS_MUCH_APPRECIATED);
+			packet1.addStringParameter(player.getName().toString());
+			npc.broadcastPacket(packet1);
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "2");
 			player.showQuestMovie(14);
-			ShilensevilOnSpawn = false;
 		}
 		
 		return super.onKill(npc, player, isPet);

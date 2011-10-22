@@ -21,7 +21,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 	private static final int JOHN          = 32576;
 	private static final int RAYMOND       = 30289;
 	private static final int IASON_HEINE   = 30969;
-	private static final int SHELF         = 32580;  // ¾¤©úªº®ÑÂd
+	private static final int SHELF         = 32580;
 	
 	//ITEMS
 	private static final int SHUNAIMAN_CONTRACT = 13823;
