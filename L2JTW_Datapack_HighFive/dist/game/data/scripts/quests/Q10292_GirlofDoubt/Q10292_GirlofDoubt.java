@@ -45,8 +45,8 @@ public class Q10292_GirlofDoubt extends Quest
 		public GoDWorld() {}
 	}
 	
-	private static final int INSTANCEID = 145;
-	private static final int INSTANCEID1 = 146;
+	private static final int INSTANCEID = 146;
+	private static final int INSTANCEID1 = 158;
 	
 	private static final String qn = "Q10292_GirlofDoubt";
 	
@@ -55,8 +55,8 @@ public class Q10292_GirlofDoubt extends Quest
 	private static final int WOOD = 32593;
 	private static final int FRANZ = 32597;
 	private static final int JAINA = 32617;
-	private static final int NPC_A = 32784;
-	private static final int NPC_B = 32862;
+	private static final int ELCADIA = 32784;
+	private static final int GRUFF_LOOKING_MAN = 32862;
 	
 	// MOBS
 	private static final int SHILENSEVIL1 = 27422;
@@ -67,7 +67,7 @@ public class Q10292_GirlofDoubt extends Quest
 	private static final int E_MARK = 17226;
 	
 	// Drop Chance
-	private static final double DROP_CHANCE = 90;
+	private static final double DROP_CHANCE = 80;
 	
 	private boolean ShilensevilOnSpawn = false;
 	
@@ -174,7 +174,7 @@ public class Q10292_GirlofDoubt extends Quest
 			world.status = 0;
 			((GoDWorld)world).storeTime[0] = System.currentTimeMillis();
 			InstanceManager.getInstance().addWorld(world);
-			_log.info("JiniaGuildHideout1 started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+			_log.info("ElcadiaTent started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
 			teleto.instanceId = instanceId;
 			teleportplayer1(player,teleto);
 			world.allowed.add(player.getObjectId());
@@ -215,7 +215,7 @@ public class Q10292_GirlofDoubt extends Quest
 			if (event.equalsIgnoreCase("32597-04.htm"))
 			{
 				st.set("cond", "2");
-				//startQuestTimer("TimeOut", 15000, npc, player);
+				startQuestTimer("TimeOut", 1000, npc, player);
 				st.playSound("ItemSound.quest_middle");
 			}
 			
@@ -248,7 +248,7 @@ public class Q10292_GirlofDoubt extends Quest
 			}
 		}
 		
-		else if (npc.getNpcId() == NPC_A)
+		else if (npc.getNpcId() == ELCADIA)
 		{
 			if (event.equalsIgnoreCase("tele1"))
 			{
@@ -300,8 +300,6 @@ public class Q10292_GirlofDoubt extends Quest
 					htmltext = "32784-07a.htm";
 				else
 				{
-					st.set("cond", "5");
-					st.playSound("ItemSound.quest_middle");
 					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL1, 89430, -238011, -9640, 65188, false, 600000, true, npc.getInstanceId());
 					monster.setIsNoRndWalk(true);
 					L2MonsterInstance monster1 = (L2MonsterInstance) addSpawn(SHILENSEVIL2, 89539, -238125, -9640, 0, false, 600000, true, npc.getInstanceId());
@@ -318,7 +316,7 @@ public class Q10292_GirlofDoubt extends Quest
 			}
 		}
 		
-		else if (npc.getNpcId() == NPC_B)
+		else if (npc.getNpcId() == GRUFF_LOOKING_MAN)
 		{
 			if (event.equalsIgnoreCase("tele"))
 			{
@@ -326,7 +324,7 @@ public class Q10292_GirlofDoubt extends Quest
 				tele.x = 89809;
 				tele.y = -238066;
 				tele.z = -9632;
-				enterInstance1(player, "JiniaGuildHideout1.xml", tele);
+				enterInstance1(player, "ElcadiaTent.xml", tele);
 				return null;
 			}
 		}
@@ -378,81 +376,69 @@ public class Q10292_GirlofDoubt extends Quest
 		
 		else if (npc.getNpcId() == FRANZ)
 		{
-			if (st.getState() == State.STARTED)
-			{
-				if (st.getInt("cond") == 1)
-					htmltext = "32597-01.htm";
-				
-				else if (st.getInt("cond") == 2)
-					htmltext = "32597-05.htm";
-				
-				else if (st.getInt("cond") == 3)
-					htmltext = "32597-11.htm";
-			}
+			if (st.getInt("cond") == 1)
+				htmltext = "32597-01.htm";
+			
+			else if (st.getInt("cond") == 2)
+				htmltext = "32597-05.htm";
+			
+			else if (st.getInt("cond") == 3)
+				htmltext = "32597-11.htm";
 		}
 		
 		else if (npc.getNpcId() == JAINA)
 		{
-			if (st.getState() == State.STARTED)
-			{
-				if (st.getInt("cond") >= 1)
-					htmltext = "32617-01.htm";
-			}
+			if (st.getInt("cond") >= 1)
+				htmltext = "32617-01.htm";
 		}
 		
-		else if (npc.getNpcId() == NPC_A)
+		else if (npc.getNpcId() == ELCADIA)
 		{
-			if (st.getState() == State.STARTED)
+			if (st.getInt("cond") == 2)
+				htmltext = "32784-01.htm";
+			
+			else if (st.getInt("cond") == 3)
+				htmltext = "32784-04.htm";
+			
+			else if (st.getInt("cond") == 4)
 			{
-				if (st.getInt("cond") == 2)
-					htmltext = "32784-01.htm";
-				
-				else if (st.getInt("cond") == 3)
-					htmltext = "32784-04.htm";
-				
-				else if (st.getInt("cond") == 4)
-				{
-					htmltext = "32784-05.htm";
-					st.takeItems(E_MARK, -1);
-					st.set("cond", "5");
-					st.playSound("ItemSound.quest_middle");
-				}
-				
-				else if (st.getInt("cond") == 5)
-					htmltext = "32784-08.htm";
-				
-				else if (st.getInt("cond") == 6)
-					htmltext = "32784-09.htm";
-				
-				else if (st.getInt("cond") == 7)
-					htmltext = "32784-12.htm";
-				
-				else if (st.getInt("cond") == 8)
-					htmltext = "32784-13.htm";
+				htmltext = "32784-05.htm";
+				st.takeItems(E_MARK, -1);
+				st.set("cond", "5");
+				st.playSound("ItemSound.quest_middle");
 			}
+			
+			else if (st.getInt("cond") == 5)
+				htmltext = "32784-08.htm";
+			
+			else if (st.getInt("cond") == 6)
+				htmltext = "32784-09.htm";
+			
+			else if (st.getInt("cond") == 7)
+				htmltext = "32784-12.htm";
+			
+			else if (st.getInt("cond") == 8)
+				htmltext = "32784-13.htm";
 		}
 		
-		else if (npc.getNpcId() == NPC_B)
+		else if (npc.getNpcId() == GRUFF_LOOKING_MAN)
 		{
-			if (st.getState() == State.STARTED)
+			if (st.getInt("cond") == 0 || st.getInt("cond") == 1)
 			{
-				if (st.getInt("cond") >= 2)
-					htmltext = "32862-01.htm";
-				else
-					htmltext = "32862-00.htm";
+				htmltext = "32862-00.html";
+				st.exitQuest(true);
 			}
+			else if (st.getInt("cond") >= 2)
+				htmltext = "32862-01.htm";
 		}
 		
 		else if (npc.getNpcId() == HARDIN)
 		{
-			if (st.getState() == State.STARTED)
-			{
-				if (st.getInt("cond") == 7)
-					htmltext = "30832-01.htm";
-				
-				else if (st.getInt("cond") == 8)
-					htmltext = "30832-03.htm";
-			}
+			if (st.getInt("cond") == 7)
+				htmltext = "30832-01.htm";
+			
+			else if (st.getInt("cond") == 8)
+				htmltext = "30832-03.htm";
 		}
 		
 		return htmltext;
@@ -516,11 +502,12 @@ public class Q10292_GirlofDoubt extends Quest
 		super(questId, name, descr);
 		
 		addStartNpc(WOOD);
+		addStartNpc(GRUFF_LOOKING_MAN);
 		addTalkId(WOOD);
 		addTalkId(FRANZ);
 		addTalkId(JAINA);
-		addTalkId(NPC_A);
-		addTalkId(NPC_B);
+		addTalkId(ELCADIA);
+		addTalkId(GRUFF_LOOKING_MAN);
 		addTalkId(HARDIN);
 		
 		addKillId(SHILENSEVIL1);

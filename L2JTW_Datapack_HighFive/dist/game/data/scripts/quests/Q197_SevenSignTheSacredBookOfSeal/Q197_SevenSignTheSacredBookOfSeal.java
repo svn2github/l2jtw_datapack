@@ -26,7 +26,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 
 /**
  * @author Plim
- * Update by pmq High Five 17-06-2011
+ * Update by pmq High Five 22-10-2011
  */
 
 public class Q197_SevenSignTheSacredBookOfSeal extends Quest

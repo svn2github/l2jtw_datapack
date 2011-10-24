@@ -198,7 +198,10 @@ public class Q192_SevenSignSeriesOfDoubt extends Quest
 		else if (npc.getNpcId() == CORPSE)
 		{
 			if (st.getInt("cond") == 0)
+			{
 				htmltext = "32568-04.htm";
+				st.exitQuest(true);
+			}
 			else if (st.getInt("cond") >= 1 && st.getInt("cond") <= 4)
 				htmltext = "32568-03.htm";
 			else if (st.getInt("cond") == 5)

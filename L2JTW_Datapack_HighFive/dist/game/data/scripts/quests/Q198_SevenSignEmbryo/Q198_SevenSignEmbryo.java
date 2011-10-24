@@ -35,7 +35,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 /**
  * @author Plim
  * InstanceWorld HideoutoftheDawn By knoxville OpenTeamFree 10.09.2010, Based on PTS Freya.
- * Update by pmq High Five 12-06-2011
+ * Update by pmq High Five 22-10-2011
  */
 
 public class Q198_SevenSignEmbryo extends Quest
