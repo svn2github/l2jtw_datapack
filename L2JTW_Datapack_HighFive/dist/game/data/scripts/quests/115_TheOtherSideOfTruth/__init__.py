@@ -133,7 +133,7 @@ class Quest (JQuest) :
           st.set("cond","6")
        elif cond == 6:
           htmltext = "32020-14.htm"
-       elif cond == 7:
+       elif cond in [7,8]:
           htmltext = "32020-14a.htm"
        elif cond == 9:
           htmltext = "32020-15.htm"

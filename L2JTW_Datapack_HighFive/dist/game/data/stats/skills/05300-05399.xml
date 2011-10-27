@@ -1405,7 +1405,7 @@
 		<set name="effectRange" val="1400" />
 		<set name="trait" val="BLEED" />
 		<for>
-			<effect abnormal="bleed" count="10" name="DamOverTime" abnormalType="Bleed" abnormalLvl="#abnormalLvl" abnormalTime="3" val="0">
+			<effect abnormalVisualEffect="bleed" count="10" name="DamOverTime" abnormalType="Bleed" abnormalLvl="#abnormalLvl" abnormalTime="3" val="0">
 				<mul order="0x30" stat="runSpd" val="0.8" />
 			</effect>
 		</for>

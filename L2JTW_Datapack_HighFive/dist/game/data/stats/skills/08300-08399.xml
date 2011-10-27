@@ -145,7 +145,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="BigHead" abnormalTime="300" val="0" abnormal="bighead" abnormalLvl="1" abnormalType="big_head" />
+			<effect name="BigHead" abnormalTime="300" val="0" abnormalVisualEffect="bighead" abnormalLvl="1" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="8308" levels="1" name="Red Talisman - Guardian of the Territory">
@@ -287,7 +287,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="BigHead" abnormalTime="300" val="0" abnormal="bighead" abnormalLvl="1" abnormalType="big_head" />
+			<effect name="BigHead" abnormalTime="300" val="0" abnormalVisualEffect="bighead" abnormalLvl="1" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="8326" levels="1" name="Wild Rose Pig Candy">

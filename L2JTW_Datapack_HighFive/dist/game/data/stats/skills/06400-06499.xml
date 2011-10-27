@@ -51,7 +51,7 @@
 		<set name="effectRange" val="2200" />
 		<set name="trait" val="POISON" />
 		<for>
-			<effect count="12" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="#abnormalLvl" abnormalType="poison" abnormal="poison" />
+			<effect count="12" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="#abnormalLvl" abnormalType="poison" abnormalVisualEffect="poison" />
 		</for>
 	</skill>
 	<skill id="6403" levels="1" name="Torumba Numbing Poison">
@@ -70,7 +70,7 @@
 		<set name="skillRadius" val="300" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect count="2" name="DamOverTime" effectPower="80" abnormalTime="5" val="290" abnormalLvl="3" abnormalType="speed_down" abnormal="poison">
+			<effect count="2" name="DamOverTime" effectPower="80" abnormalTime="5" val="290" abnormalLvl="3" abnormalType="speed_down" abnormalVisualEffect="poison">
 				<mul order="0x30" stat="runSpd" val="0.8" />
 			</effect>
 		</for>
@@ -108,7 +108,7 @@
 		<set name="lvlDepend" val="2" />
 		<set name="saveVs" val="MEN" />
 		<for>
-			<effect name="Debuff" abnormalTime="20" val="0" abnormalLvl="1" abnormal="mute" abnormalType="casting_time_down">
+			<effect name="Debuff" abnormalTime="20" val="0" abnormalLvl="1" abnormalVisualEffect="mute" abnormalType="casting_time_down">
 				<add order="0x40" stat="runSpd" val="20" />
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
 				<mul order="0x30" stat="mAtkSpd" val="1.2" />
@@ -118,9 +118,8 @@
 	<skill id="6406" levels="1" name="Torumba's Plague">
 		<set name="target" val="TARGET_ONE" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="100" /> <!-- Base Land Rate -->
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="skillType" val="MUTE" />
-		<set name="ignoreResists" val="true" />
 		<set name="castRange" val="1500" />
 		<set name="effectRange" val="2000" />
 		<set name="isDebuff" val="true" />
@@ -132,13 +131,12 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="300" />
 		<set name="effectRange" val="600" />
-		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="true" />
 		<set name="mpConsume" val="60" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="100" /> <!-- Base Land Rate -->
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="skillType" val="DEBUFF" />
 		<set name="stayAfterDeath" val="true" />
 		<set name="target" val="TARGET_ONE" />
@@ -278,7 +276,7 @@
 		<set name="skillRadius" val="200" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect count="4" name="ManaDamOverTime" abnormalTime="5" val="20" abnormalLvl="8" abnormalType="dot_mp" abnormal="poison" />
+			<effect count="4" name="ManaDamOverTime" abnormalTime="5" val="20" abnormalLvl="8" abnormalType="dot_mp" abnormalVisualEffect="poison" />
 		</for>
 	</skill>
 	<skill id="6417" levels="1" name="Reptilikon Poison Shot">
@@ -300,7 +298,7 @@
 		<set name="skillRadius" val="200" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect count="4" name="ManaDamOverTime" abnormalTime="5" val="20" abnormalLvl="8" abnormalType="dot_mp" abnormal="poison" />
+			<effect count="4" name="ManaDamOverTime" abnormalTime="5" val="20" abnormalLvl="8" abnormalType="dot_mp" abnormalVisualEffect="poison" />
 		</for>
 	</skill>
 	<skill id="6418" levels="1" name="Reptilikon Fury Poison Bomb">
@@ -322,7 +320,7 @@
 		<set name="skillRadius" val="200" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect count="4" name="DamOverTime" abnormalTime="5" val="345" abnormalLvl="8" abnormalType="dot_mp" abnormal="poison" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="345" abnormalLvl="8" abnormalType="dot_mp" abnormalVisualEffect="poison" />
 			<effect count="4" name="ManaDamOverTime" noicon="1" abnormalTime="5" val="20" />
 		</for>
 	</skill>
@@ -427,15 +425,10 @@
 		<!-- Fantasy Mushroom Skill -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="target" val="TARGET_AURA" />
-		<set name="skillType" val="STUN" />
-		<set name="power" val="100" />
-		<set name="skillRadius" val="150" />
+		<set name="skillType" val="DUMMY" />
+		<set name="skillRadius" val="300" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="1000" />
-		<set name="isDebuff" val="true" />
-		<for>
-			<effect name="Stun" abnormalTime="20" val="0" abnormalLvl="1" abnormalType="stun" />
-		</for>
 	</skill>
 	<skill id="6428" levels="1" name="Hold">
 		<!-- Sticky Mushroom Skill -->
@@ -610,7 +603,7 @@
 		<set name="lvlDepend" val="1" />
 		<set name="trait" val="POISON" />
 		<for>
-			<effect count="15" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="10" abnormalType="poison" abnormal="poison" />
+			<effect count="15" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="10" abnormalType="poison" abnormalVisualEffect="poison" />
 		</for>
 	</skill>
 	<skill id="6438" levels="1" name="Penalty Area">

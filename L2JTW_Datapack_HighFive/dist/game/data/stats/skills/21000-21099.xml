@@ -77,7 +77,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="trait" val="ETC" />
 		<for>
-			<effect name="BigHead" abnormalTime="300" val="0" abnormalLvl="1" abnormal="bighead" abnormalType="big_head" />
+			<effect name="BigHead" abnormalTime="300" val="0" abnormalLvl="1" abnormalVisualEffect="bighead" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="21008" levels="1" name="Release Seal on Agathion - Baby Panda">
@@ -113,7 +113,7 @@
 		<set name="reuseDelay" val="43200000" />
 		<set name="staticReuse" val="true" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormal="vitality">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
@@ -127,7 +127,7 @@
 		<set name="reuseDelay" val="43200000" />
 		<set name="staticReuse" val="true" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormal="vitality">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
@@ -141,7 +141,7 @@
 		<set name="reuseDelay" val="43200000" />
 		<set name="staticReuse" val="true" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormal="vitality">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
@@ -847,7 +847,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="trait" val="ETC" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="vp_up" abnormal="vitality">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
@@ -1258,7 +1258,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="trait" val="ETC" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="26" abnormalType="vp_up" abnormal="vitality">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="26" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>

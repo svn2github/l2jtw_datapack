@@ -14,6 +14,8 @@
  */
 package quests.Q10283_RequestOfIceMerchant;
 
+import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.model.L2CharPosition;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -22,8 +24,8 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  ** @author Gnacik
- **
  ** 2010-08-07 Based on Freya PTS
+ ** 2011-10-27 Update to High Five
  */
 public class Q10283_RequestOfIceMerchant extends Quest
 {
@@ -32,6 +34,11 @@ public class Q10283_RequestOfIceMerchant extends Quest
 	private static final int _rafforty = 32020;
 	private static final int _kier = 32022;
 	private static final int _jinia = 32760;
+	
+	// MOVE PATHS
+	private static final L2CharPosition MOVE_TO_END = new L2CharPosition(104457, -107010, -3698, 0);
+	
+	private boolean JiniaOnSpawn = false;
 	
 	public Q10283_RequestOfIceMerchant(int questId, String name, String descr)
 	{
@@ -69,7 +76,19 @@ public class Q10283_RequestOfIceMerchant extends Quest
 		}
 		else if (npc.getNpcId() == _kier && event.equalsIgnoreCase("spawn"))
 		{
-			addSpawn(_jinia, 104322, -107669, -3680, 44954, false, 60000);
+			if (JiniaOnSpawn)
+				htmltext = "32022-02.html";
+			else
+			{
+				addSpawn(_jinia, 104473, -107549, -3695, 44954, false, 120000);
+				JiniaOnSpawn = true;
+				startQuestTimer("despawn", 120000, npc, player);
+				return null;
+			}
+		}
+		else if (event.equalsIgnoreCase("despawn"))
+		{
+			JiniaOnSpawn = false;
 			return null;
 		}
 		else if (npc.getNpcId() == _jinia && event.equalsIgnoreCase("32760-04.html"))
@@ -78,7 +97,9 @@ public class Q10283_RequestOfIceMerchant extends Quest
 			st.addExpAndSp(627000, 50300);
 			st.playSound("ItemSound.quest_finish");
 			st.exitQuest(false);
-			npc.deleteMe();
+			npc.setRunning();
+			npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_END);
+			npc.decayMe();
 		}
 		return htmltext;
 	}
@@ -128,7 +149,7 @@ public class Q10283_RequestOfIceMerchant extends Quest
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(qn);
-
+		
 		if (npc.getInstanceId() > 0)
 			return "32760-10.html";
 		if (npc.getNpcId() == _jinia && st != null && st.getInt("cond") == 2)

@@ -278,16 +278,24 @@
 		</for>
 	</skill>
 	<skill id="21120" levels="1" name="Jack O'Lantern Card">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="500" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="staticReuse" val="true" />
+		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="21121" levels="1" name="Rotten Jack O'Lantern Card">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="500" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticReuse" val="true" />
+		<set name="skillType" val="DUMMY" />
+		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="21122" levels="1" name="Blessing of Skooldy : Protection of Darkness">
 		<!-- Increase max HP by 20%, max MP by 20%, physical Def. by 20%, magic Def. by 20% for 1 hour. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
@@ -491,7 +499,7 @@
 		<set name="isMagic" val="true" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="SilentMove" abnormal="stealth" abnormalTime="120" val="0" abnormalLvl="26" abnormalType="stealth">
+			<effect name="SilentMove" abnormalVisualEffect="stealth" abnormalTime="120" val="0" abnormalLvl="26" abnormalType="stealth">
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
@@ -1065,7 +1073,7 @@
 		<set name="reuseDelay" val="14400000" />
 		<set name="staticReuse" val="true" />
 		<for>
-			<effect name="SilentMove" abnormalTime="120" val="0" abnormalLvl="26" abnormalType="stealth" abnormal="stealth">
+			<effect name="SilentMove" abnormalTime="120" val="0" abnormalLvl="26" abnormalType="stealth" abnormalVisualEffect="stealth">
 				<mul order="0x30" stat="runSpd" val="0.6" />
 			</effect>
 		</for>
