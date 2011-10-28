@@ -3335,13 +3335,12 @@ REPLACE INTO droplist VALUES
 (22376,15814,1,1,-1,500);
 
 -- 修正嗨翻天NPC位置
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30949,30952,32568,30969,32593,32595,32596);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30949,30952,32568,30969,32595,32596);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('aden02_npc2318_01',1,30949,114201,13426,-5104,0,0,1722,60,0,0),      -- 調查員 凱普龍
 ('aden02_npc2318_01',1,30952,114178,13343,-5104,0,0,0,60,0,0),         -- 因次界點
 ('Oren Area',1,32568,88125,38448,-3360,0,0,0,60,0,0),                  -- 可疑的屍體
 ('innadril09_npc2324_07',1,30969,109707,220048,-3520,0,0,7656,60,0,0), -- 艾森海內
-('unset',1,32593,146995,23755,-1984,0,0,65062,60,0,0),                 -- 神官 巫德
 ('unset',1,32595,152386,-57629,-3424,0,0,0,60,0,0),                    -- 偉大的師傅 勞倫斯
 ('unset',1,32596,37069,-49877,-1128,0,0,15920,60,0,0);                 -- 賢者圖書館長 索比亞
 

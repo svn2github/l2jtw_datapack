@@ -185,6 +185,13 @@ public class Q10286_ReunionWithSirra extends Quest
 			htmltext = "32781-01.htm";
 		}
 		
+		else if (npc.getNpcId() == _jinia2 && st.getInt("progress") == 3)
+		{
+			st.addExpAndSp(2152200, 181070);
+			st.playSound("ItemSound.quest_finish");
+			st.exitQuest(false);
+			htmltext = "32781-08.htm";
+		}
 		return htmltext;
 	}
 

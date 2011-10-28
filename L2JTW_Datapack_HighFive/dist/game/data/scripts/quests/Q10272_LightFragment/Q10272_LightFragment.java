@@ -253,6 +253,6 @@ public class Q10272_LightFragment extends Quest
 
 	public static void main(String[] args)
 	{
-		new Q10272_LightFragment(10272, qn, "光之破片");
+		new Q10272_LightFragment(10272, qn, "Light Fragment");
 	}
 }
