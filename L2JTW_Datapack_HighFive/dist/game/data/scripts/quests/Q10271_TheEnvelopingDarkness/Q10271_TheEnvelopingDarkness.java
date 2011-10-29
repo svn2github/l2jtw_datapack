@@ -19,16 +19,45 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 	private static final int MEDIBAL_CORPSE = 32528;
 	// Item
 	private static final int MEDIBAL_DOCUMENT = 13852;
-
+	
+	@Override
+	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	{
+		String htmltext = event;
+		QuestState st = player.getQuestState(qn);
+		
+		if (st == null)
+			return htmltext;
+		
+		if (event.equalsIgnoreCase("32560-05.htm"))
+		{
+			st.setState(State.STARTED);
+			st.set("cond", "1");
+			st.playSound("ItemSound.quest_accept");
+		}
+		else if (event.equalsIgnoreCase("32556-06.htm"))
+		{
+			st.set("cond", "2");
+			st.playSound("ItemSound.quest_middle");
+		}
+		else if (event.equalsIgnoreCase("32556-09.htm"))
+		{
+			st.set("cond", "4");
+			st.playSound("ItemSound.quest_middle");
+			st.takeItems(MEDIBAL_DOCUMENT, 1);
+		}
+		return htmltext;
+	}
+	
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st =  player.getQuestState(qn);
 		
 		if (st == null)
 			return htmltext;
-
+		
 		if (npc.getNpcId() == ORBYU)
 		{
 			switch (st.getState())
@@ -39,7 +68,7 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 						htmltext = "32560-01.htm";
 					else 
 						htmltext = "32560-02.htm"; 
-						break;
+					break;
 				case State.STARTED:
 					htmltext = "32560-05.htm";
 					break;
@@ -117,36 +146,7 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 		}
 		return htmltext;
 	}
-
-	@Override
-	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
-	{
-		String htmltext = event;
-		QuestState st = player.getQuestState(qn);
-		
-		if (st == null)
-			return htmltext;
-
-		if (event.equalsIgnoreCase("32560-05.htm"))
-		{
-			st.setState(State.STARTED);
-			st.set("cond", "1");
-			st.playSound("ItemSound.quest_accept");
-		}
-		else if (event.equalsIgnoreCase("32556-06.htm"))
-		{
-			st.set("cond", "2");
-			st.playSound("ItemSound.quest_middle");
-		}
-		else if (event.equalsIgnoreCase("32556-09.htm"))
-		{
-			st.set("cond", "4");
-			st.playSound("ItemSound.quest_middle");
-			st.takeItems(MEDIBAL_DOCUMENT, 1);
-		}
-		return htmltext;
-	}
-
+	
 	public Q10271_TheEnvelopingDarkness(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -156,7 +156,7 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 		addTalkId(MEDIBAL_CORPSE);
 		questItemIds = new int[] {MEDIBAL_DOCUMENT};
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new Q10271_TheEnvelopingDarkness(10271, qn, "籠罩的黑暗");

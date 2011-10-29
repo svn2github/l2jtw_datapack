@@ -6,11 +6,12 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
-//import com.l2jserver.gameserver.model.zone.L2ZoneType;
 
 /**
  * Light Fragment (10272)
  * @author Gladicek 
+ * 
+ * Updated 28-10-2011   
  */
 public class Q10272_LightFragment extends Quest
 {
@@ -26,147 +27,20 @@ public class Q10272_LightFragment extends Quest
 	// Item
 	private static final int FRAGMENT_POWDER = 13853;
 	private static final int LIGHT_FRAGMENT_POWDER = 13854;
+	private static final int LIGHT_FRAGMENT = 13855;
 	private static final int ADENA = 57;
 	// Drop Chance
-	private static final double DROP_CHANCE = 90;
-	// Zone 
-	//private static final int ZONE = 88888;
-
-	@Override
-	public String onTalk(L2Npc npc, L2PcInstance player)
-	{
-		String htmltext = getNoQuestMsg(player);
-		QuestState st =  player.getQuestState(qn);
-
-		if (st == null)
-			return htmltext;
-
-		if (npc.getNpcId() == ORBYU)
-		{
-			switch (st.getState())
-			{
-				case State.CREATED:
-					QuestState _prev = player.getQuestState("10271_TheEnvelopingDarkness");
-					if ((_prev != null) && (_prev.getState() == State.COMPLETED) && (player.getLevel() >= 75))
-						htmltext = "32560-01.htm";
-					else 
-						htmltext = "32560-02.htm"; 
-						if (player.getLevel() <= 75)
-							htmltext = "32560-03.htm"; 
-					break;
-				case State.STARTED:
-					htmltext = "32560-06.htm";
-					break;
-				case State.COMPLETED:
-					htmltext = "32560-04.htm";
-					break;
-			}
-			if (st.getInt("cond") == 2)
-			{
-				htmltext = "32560-06.htm";
-			}
-		}
-		else if (npc.getNpcId() == ARTIUS)
-		{ 
-			switch (st.getState())
-			{
-				case State.COMPLETED:
-					htmltext = "32559-19.htm";
-					break;
-			}
-			if (st.getInt("cond") == 1)
-			{
-				htmltext = "32559-01.htm";
-			}
-			if (st.getInt("cond") == 2)
-			{
-				htmltext = "32559-04.htm";
-			}
-			if (st.getInt("cond") == 3)
-			{
-				htmltext = "32559-08.htm";
-			}
-			else if (st.getInt("cond") == 4)
-			{
-				htmltext = "32559-10.htm";
-			}
-			else if (st.getInt("cond") == 5)
-			{
-				if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 100)
-				{
-					htmltext = "32559-15.htm";
-					st.set("cond", "6");
-				}
-				else if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 1)
-				{
-					htmltext = "32559-14.htm";
-				}
-				else if (st.getQuestItemsCount(FRAGMENT_POWDER) < 1)
-				{
-					htmltext = "32559-13.htm"; 
-				}
-			}
-			else if (st.getInt("cond") == 6)
-			{
-				htmltext = "32559-16.htm";
-			}
-		}
-		else if (npc.getNpcId() == GINBY)
-		{ 
-			switch (st.getState())
-			{  
-				case State.COMPLETED:
-					htmltext = "32559-19.htm";
-					break;
-			}
-			if (st.getInt("cond") == 1)
-			{
-				htmltext = "32566-02.htm";
-			}
-			else if (st.getInt("cond") == 2)
-			{
-				htmltext = "32566-02.htm";
-			}
-			else if (st.getInt("cond") == 3)
-			{
-				htmltext = "32566-01.htm";
-			}
-			else if (st.getInt("cond") == 4)
-			{
-				htmltext = "32566-09.htm";
-			}
-			else if (st.getInt("cond") == 5)
-			{ 
-				htmltext = "32566-10.htm";
-			}
-			else if (st.getInt("cond") == 6)
-			{ 
-				htmltext = "32566-10.htm";
-			}
-		} 
-		else if (npc.getNpcId() == LELRIKIA)
-		{ 
-			if (st.getInt("cond") == 3)
-			{
-				htmltext = "32567-01.htm";
-			}
-			else if (st.getInt("cond") == 4)
-			{
-				htmltext = "32567-05.htm";
-			}
-		}       
-		return htmltext;
-	}
-
+	private static final double DROP_CHANCE = 60;
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
 		QuestState st = player.getQuestState(qn);
-
+		
 		if (st == null)
 			return htmltext;
-
+		
 		if (event.equalsIgnoreCase("32560-06.htm"))
 		{
 			st.setState(State.STARTED);
@@ -186,24 +60,199 @@ public class Q10272_LightFragment extends Quest
 		else if (event.equalsIgnoreCase("pay"))
 		{
 			if (st.getQuestItemsCount(ADENA) >= 10000)
+			{
 				st.takeItems(ADENA, 10000);
 				htmltext = "32566-05.htm";
-			if (st.getQuestItemsCount(ADENA) < 10000)
+			}
+			else
+			{
 				htmltext = "32566-04a.htm";
+			}
 		}
 		else if (event.equalsIgnoreCase("32567-04.htm"))
 		{
 			st.set("cond", "4");
-			st.playSound("ItemSound.quest_middle"); 
+			st.playSound("ItemSound.quest_middle");
 		}
 		else if (event.equalsIgnoreCase("32559-12.htm"))
-		{ 
-			st.set("cond", "5");
-			st.playSound("ItemSound.quest_middle"); 
+		{
+			st.set("cond", "5"); 
+			st.playSound("ItemSound.quest_middle");
+		}
+		else if (event.equalsIgnoreCase("32557-03.htm"))
+		{
+			if (st.getQuestItemsCount(LIGHT_FRAGMENT_POWDER) >= 100)
+			{
+				st.takeItems(LIGHT_FRAGMENT_POWDER, 100);
+				st.set("wait", "1");
+			}
+			else
+			{
+				htmltext = "32557-04.htm";
+			}
 		}
 		return htmltext;
 	}
-
+	
+	@Override
+	public String onTalk(L2Npc npc, L2PcInstance player)
+	{
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		QuestState st = player.getQuestState(qn);
+		if (st == null)
+			return htmltext;
+		
+		if (npc.getNpcId() == ORBYU)
+		{
+			switch (st.getState())
+			{
+				case State.CREATED:
+					QuestState _prev = player.getQuestState("10271_TheEnvelopingDarkness");
+					if ((_prev != null) && (_prev.getState() == State.COMPLETED) && (player.getLevel() >= 75))
+						htmltext = "32560-01.htm";
+					else
+						htmltext = "32560-02.htm"; 
+					if (player.getLevel() <= 75)
+						htmltext = "32560-03.htm"; 
+					break;
+				case State.STARTED:
+					htmltext = "32560-06.htm";
+					break;
+				case State.COMPLETED:
+					htmltext = "32560-04.htm";
+					break;
+			}
+			if (st.getInt("cond") == 2)
+			{
+				htmltext = "32560-06.htm";
+			}
+		}
+		else if (npc.getNpcId() == ARTIUS)
+		{
+			switch (st.getState())
+			{
+				case State.COMPLETED:
+					htmltext = "32559-19.htm";
+					break;
+			}
+			if (st.getInt("cond") == 1)
+			{
+				htmltext = "32559-01.htm";
+			}
+			else if (st.getInt("cond") == 2)
+			{
+				htmltext = "32559-04.htm";
+			}
+			else if (st.getInt("cond") == 3)
+			{
+				htmltext = "32559-08.htm";
+			}
+			else if (st.getInt("cond") == 4)
+			{
+				htmltext = "32559-10.htm";
+			}
+			else if (st.getInt("cond") == 5)
+			{
+				if (st.getQuestItemsCount(FRAGMENT_POWDER) < 1)
+				{
+					htmltext = "32559-13.htm";
+				}
+				if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 1 && st.getQuestItemsCount(FRAGMENT_POWDER) <= 99)
+				{
+					htmltext = "32559-14.htm";
+				}
+				if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 100)
+				{
+					htmltext = "32559-15.htm";
+					st.set("cond", "6");
+					st.playSound("ItemSound.quest_middle");
+				}
+			}
+			else if (st.getInt("cond") == 6)
+			{
+				if (st.getQuestItemsCount(LIGHT_FRAGMENT_POWDER) < 100)
+					htmltext = "32559-16.htm";
+				else
+				{
+					st.set("cond", "7");
+					st.playSound("ItemSound.quest_middle");
+					htmltext = "32559-17.htm";
+				}
+			}
+			else if (st.getInt("cond") == 8)
+			{
+				st.unset("cond");
+				st.giveItems(ADENA, 556980);
+				st.addExpAndSp(1009016, 91363);
+				st.playSound("ItemSound.quest_finish");
+				st.setState(State.COMPLETED);
+				st.exitQuest(false);
+				htmltext = "32559-18.htm";
+			}
+		}
+		else if (npc.getNpcId() == GINBY)
+		{
+			if (st.getInt("cond") == 1)
+			{
+				htmltext = "32566-02.htm";
+			}
+			else if (st.getInt("cond") == 2)
+			{
+				htmltext = "32566-02.htm";
+			}
+			else if (st.getInt("cond") == 3)
+			{
+				htmltext = "32566-01.htm";
+			}
+			else if (st.getInt("cond") == 4)
+			{
+				htmltext = "32566-09.htm";
+			}
+			else if (st.getInt("cond") == 5)
+			{
+				htmltext = "32566-10.htm";
+			}
+			else if (st.getInt("cond") == 6)
+			{
+				htmltext = "32566-10.htm";
+			}
+		}
+		else if (npc.getNpcId() == LELRIKIA)
+		{
+			if (st.getInt("cond") == 3)
+			{
+				htmltext = "32567-01.htm";
+			}
+			else if (st.getInt("cond") == 4)
+			{
+				htmltext = "32567-05.htm";
+			}
+		}
+		else if (npc.getNpcId() == LEKON)
+		{
+			if (st.getInt("cond") == 7)
+			{
+				if (st.getInt("wait") == 1)
+				{
+					st.giveItems(LIGHT_FRAGMENT, 1);;
+					st.set("cond", "8");
+					st.unset("wait");
+					st.playSound("ItemSound.quest_middle");
+					htmltext = "32557-05.htm";
+				}
+				else
+				{
+					htmltext = "32557-01.htm";
+				}
+			}
+			else if (st.getInt("cond") == 8)
+			{
+				htmltext = "32557-06.htm";
+			}
+		}
+		return htmltext;
+	}
+	
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
@@ -219,21 +268,22 @@ public class Q10272_LightFragment extends Quest
 				if (st.getRandom(100) < chance)
 					numItems++;
 				if (numItems > 0)
-				{ 
+				{
 					if (count + numItems >= 100)
 					{
 						numItems = 100 - (int)count;
-						st.playSound("ItemSound.quest_middle");
 					}
 					else
-						st.playSound("ItemSound.quest_itemget");
+					{
 						st.giveItems(FRAGMENT_POWDER, numItems);
+						st.playSound("ItemSound.quest_itemget");
+					}
 				}
 			}
 		}
 		return null;
 	}
-
+	
 	public Q10272_LightFragment(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -247,10 +297,9 @@ public class Q10272_LightFragment extends Quest
 		{
 			addKillId(i);
 		}
-		//addEnterZoneId(ZONE);
-		questItemIds = new int[] {FRAGMENT_POWDER,LIGHT_FRAGMENT_POWDER};
+		questItemIds = new int[] {FRAGMENT_POWDER,LIGHT_FRAGMENT_POWDER,};
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new Q10272_LightFragment(10272, qn, "Light Fragment");

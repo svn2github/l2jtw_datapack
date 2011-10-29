@@ -13,7 +13,7 @@ qn = "10268_ToTheSeedOfInfinity"
 
 #NPCs
 Keucereus = 32548
-Tepios = 32530
+Tepios = 32603
 
 #items
 Introduction = 13811
@@ -54,7 +54,7 @@ class Quest (JQuest) :
         elif id == State.STARTED and npcId == Keucereus:
             htmltext = "32548-06.htm"
         elif id == State.STARTED and npcId == Tepios:
-            htmltext = "32530-01.htm"
+            htmltext = "32603-01.htm"
             st.giveItems(57,16671)
             st.addExpAndSp(100640,10098)
             st.unset("cond")
