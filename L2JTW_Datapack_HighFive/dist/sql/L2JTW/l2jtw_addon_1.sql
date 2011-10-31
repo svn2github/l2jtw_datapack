@@ -158,8 +158,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30840,31262,31413,31414,31415
 DELETE FROM `merchant_buylists` WHERE `shop_id` IN ( SELECT `shop_id` FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980));
 DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980);
 
--- 刪除村莊的彩券商人,因為官服只有怪物競技場才有彩券商人
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30993,30994) AND `locx` NOT IN (13689);
+-- 刪除村莊的彩券商人,因為官服沒有彩券商人
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30993,30994);
 
 -- 刪除其中一隻轉職管理員(不定時改刪另一個)
 -- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
@@ -5804,11 +5804,37 @@ REPLACE INTO `npc` VALUES (27424,27424,'Creature of the Dusk',0,'',0,'LineageMon
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32862);
 REPLACE INTO `spawnlist` VALUES ('unset', '1', '32862', '43347', '-87923', '-2825', '0', '0', '37163', '10', '0', '0');
 
--- 修正修加特城鎮冒險家會員NPCID錯誤
+-- 嗨翻天版本 修正修加特城鎮冒險家會員NPCID錯誤
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31729,31732,31733,31734,31738,31991,31992,31993,31994,31995);
 REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31991,87130,-140754,-1542,0,0,15201,60,0,0);
 REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31992,88223,-142349,-1343,0,0,60027,60,0,0);
 REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31993,84521,-141191,-1542,0,0,57344,60,0,0);
 REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31994,86514,-142340,-1343,0,0,32768,60,0,0);
 REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31995,90340,-141373,-1542,0,0,39084,60,0,0);
+
+UPDATE `npc` SET `type` = 'L2Warehouse' WHERE `id` = 31226; -- 修正競技場監察官 NPC類型
+
+-- 嗨翻天版本 修正任務 NPC類型
+UPDATE npc SET type = 'L2Monster', aggro=300 WHERE id = 22766;
+UPDATE npc SET type = 'L2QuestGuard' WHERE id = 18846;
+
+-- 嗨翻天版本 增加及修正狄恩競技場 NPC 位置 
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31225);
+REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31225,11877,183565,-3567,0,0,48617,60,0,0);
+REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31690,11762,184101,-3567,0,0,58144,60,0,0);
+REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31688,11769,183921,-3567,0,0,50874,60,0,0);
+REPLACE INTO `spawnlist` VALUES ('Dion_Arena_Race Manager',1,30995,13691,182613,-3565,0,0,47313,60,0,0);
+
+-- 修正 NPC 高度
+UPDATE npc SET collision_height=25 WHERE id = 32784;
+UPDATE npc SET collision_height=25 WHERE id = 32862;
+
+-- 嗨翻天版本 修正任務 10285 NPC類型
+UPDATE npcaidata SET clan='freya_show_friends', enemyClan = 'freya_show_foes' WHERE npcId = 22767;
+UPDATE npcaidata SET clan='freya_show_foes', enemyClan = 'freya_show_friends' WHERE npcId IN (18848, 18849, 18926);
+UPDATE npcaidata SET enemyRange = 2000 WHERE npcId IN (18848, 18849, 18926);
+UPDATE npcaidata SET enemyRange = 500, clanRange=500 WHERE npcId = 22767;
+
+UPDATE npc SET type = 'L2Monster' WHERE id IN (18847, 18848, 18849, 18926, 18930, 22767);
+UPDATE npc SET aggro = 300 WHERE id IN (18847, 18930, 22767);
 

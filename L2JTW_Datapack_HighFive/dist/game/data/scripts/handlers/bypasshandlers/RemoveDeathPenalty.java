@@ -32,20 +32,23 @@ public class RemoveDeathPenalty implements IBypassHandler
 		"remove_dp"
 	};
 	
-	static final int[] pen_clear_price =
+	private static final int[] pen_clear_price =
 	{
 		3600, 8640, 25200, 50400, 86400, 144000, 144000, 144000
 	};
 	
+	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2Npc))
+		{
 			return false;
+		}
 		
 		try
 		{
 			final int cmdChoice = Integer.parseInt(command.substring(10, 11).trim());
-			final L2Npc npc = (L2Npc)target;
+			final L2Npc npc = (L2Npc) target;
 			switch (cmdChoice)
 			{
 				case 1:
@@ -58,16 +61,16 @@ public class RemoveDeathPenalty implements IBypassHandler
 					break;
 				case 2:
 					NpcHtmlMessage Reply = new NpcHtmlMessage(npc.getObjectId());
-					final StringBuilder replyMSG = StringUtil.startAppend(400,
-							"<html><body>"+MessageTable.Messages[1022].getMessage()+"<br>"
-					);
+					final StringBuilder replyMSG = StringUtil.startAppend(400, "<html><body>"+ MessageTable.Messages[1022].getMessage() +"<br>");
 					
 					if (activeChar.getDeathPenaltyBuffLevel() > 0)
 					{
 						if (activeChar.getAdena() >= pen_clear_price[activeChar.getExpertiseLevel()])
 						{
 							if (!activeChar.reduceAdena("DeathPenality", pen_clear_price[activeChar.getExpertiseLevel()], npc, true))
+							{
 								return false;
+							}
 							activeChar.setDeathPenaltyBuffLevel(activeChar.getDeathPenaltyBuffLevel() - 1);
 							activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.DEATH_PENALTY_LIFTED));
 							activeChar.sendPacket(new EtcStatusUpdate(activeChar));
@@ -80,8 +83,7 @@ public class RemoveDeathPenalty implements IBypassHandler
 					}
 					else
 					{
-						replyMSG.append(MessageTable.Messages[1024].getMessage()+"<br>" +
-						MessageTable.Messages[1025].getMessage());
+						replyMSG.append(MessageTable.Messages[1024].getMessage()+"<br>" + MessageTable.Messages[1025].getMessage());
 					}
 					
 					replyMSG.append("</body></html>");
@@ -98,6 +100,7 @@ public class RemoveDeathPenalty implements IBypassHandler
 		return false;
 	}
 	
+	@Override
 	public String[] getBypassList()
 	{
 		return COMMANDS;

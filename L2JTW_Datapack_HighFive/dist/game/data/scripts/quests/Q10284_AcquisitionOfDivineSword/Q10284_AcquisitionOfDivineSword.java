@@ -35,7 +35,7 @@ public class Q10284_AcquisitionOfDivineSword extends Quest
 	private static final int _jinia = 32760;
 	private static final int _kroon = 32653;
 	private static final int _taroon = 32654;
-
+	
 	public Q10284_AcquisitionOfDivineSword(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -46,7 +46,7 @@ public class Q10284_AcquisitionOfDivineSword extends Quest
 		addTalkId(_kroon);
 		addTalkId(_taroon);
 	}
-
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -81,23 +81,23 @@ public class Q10284_AcquisitionOfDivineSword extends Quest
 				case 102130: //2nd theme have been readed
 					htmltext = "32760-05b.htm";
 					break;
-
+				
 				case 102031: //3rd theme have been readed
 					htmltext = "32760-05c.htm";
 					break;
-
+				
 				case 102131: //2nd and 3rd theme have been readed
 					htmltext = "32760-05d.htm";
 					break;
-
+				
 				case 112031: //1st and 3rd theme have been readed
 					htmltext = "32760-05e.htm";
 					break;
-
+				
 				case 112130: //1st and 2nd theme have been readed
 					htmltext = "32760-05f.htm";
 					break;
-
+				
 				case 112131: //all three themes have been readed
 					htmltext = "32760-05g.htm";
 				}
@@ -109,28 +109,28 @@ public class Q10284_AcquisitionOfDivineSword extends Quest
 				jinia_themes += 10000; //mark 1st theme as readed
 				st.set("jinia_themes", Integer.toString(jinia_themes));
 			}
-
+			
 			else if (event.equalsIgnoreCase("32760-03c.htm"))
 			{
 				int jinia_themes = st.getInt("jinia_themes");
 				jinia_themes += 100; //mark 2nd theme as readed
 				st.set("jinia_themes", Integer.toString(jinia_themes));
 			}
-
+			
 			else if (event.equalsIgnoreCase("32760-04c.htm"))
 			{
 				int jinia_themes = st.getInt("jinia_themes");
 				jinia_themes += 1; //mark 3rd theme as readed
 				st.set("jinia_themes", Integer.toString(jinia_themes));
 			}
-
+			
 			else if (event.equalsIgnoreCase("32760-07.htm"))
 			{
 				st.set("jinia_themes","102030");
 				st.set("progress", "2");
 				st.set("cond", "3");
 				st.playSound("ItemSound.quest_middle");
-
+			
 			// destroy instance after 1 min
 			Instance inst = InstanceManager.getInstance().getInstance(player.getInstanceId());
 			inst.setDuration(60000);
@@ -175,7 +175,7 @@ public class Q10284_AcquisitionOfDivineSword extends Quest
 		{
 			if (st.getState() != State.STARTED)
 				return htmltext;
-
+			
 			if (st.getInt("progress") == 1)
 			{
 				int jinia_themes = st.getInt("jinia_themes");
@@ -213,11 +213,11 @@ public class Q10284_AcquisitionOfDivineSword extends Quest
 		else if (npc.getNpcId() == _kroon || npc.getNpcId() == _taroon)
 		{
 			if (st.getState() != State.STARTED)
-				return getNoQuestMsg(player);
+				return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 			
 			if (st.getInt("progress") == 2)
 				htmltext = npc.getNpcId() == _kroon ? "32653-01.htm" : "32654-01.htm";
-
+			
 			else if (st.getInt("progress") == 3)
 			{
 				st.set("jinia_themes","102030");

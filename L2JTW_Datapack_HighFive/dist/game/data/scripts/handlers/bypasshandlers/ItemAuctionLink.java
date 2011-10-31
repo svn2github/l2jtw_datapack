@@ -14,9 +14,10 @@
  */
 package handlers.bypasshandlers;
 
-//import java.text.SimpleDateFormat;
-//import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.StringTokenizer;
+import java.util.logging.Level;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.handler.IBypassHandler;
@@ -28,22 +29,24 @@ import com.l2jserver.gameserver.model.itemauction.ItemAuction;
 import com.l2jserver.gameserver.model.itemauction.ItemAuctionInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ExItemAuctionInfoPacket;
-//import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 public class ItemAuctionLink implements IBypassHandler
 {
-	//private static final SimpleDateFormat fmt = new SimpleDateFormat("yyyy" + "¦~ " + "MM" + "¤ë " + "dd"+"¤é " + "HH");
+	private static final SimpleDateFormat fmt = new SimpleDateFormat("HH:mm:ss dd.MM.yyyy");
 	
 	private static final String[] COMMANDS =
 	{
 		"ItemAuction"
 	};
 	
+	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2Npc))
+		{
 			return false;
+		}
 		
 		if (!Config.ALT_ITEM_AUCTION_ENABLED)
 		{
@@ -51,25 +54,33 @@ public class ItemAuctionLink implements IBypassHandler
 			return true;
 		}
 		
-		final ItemAuctionInstance au = ItemAuctionManager.getInstance().getManagerInstance(((L2Npc)target).getNpcId());
+		final ItemAuctionInstance au = ItemAuctionManager.getInstance().getManagerInstance(((L2Npc) target).getNpcId());
 		if (au == null)
+		{
 			return false;
+		}
 		
 		try
 		{
 			StringTokenizer st = new StringTokenizer(command);
 			st.nextToken(); // bypass "ItemAuction"
 			if (!st.hasMoreTokens())
+			{
 				return false;
+			}
 			
 			String cmd = st.nextToken();
 			if ("show".equalsIgnoreCase(cmd))
 			{
 				if (!activeChar.getFloodProtectors().getItemAuction().tryPerformAction("RequestInfoItemAuction"))
+				{
 					return false;
+				}
 				
 				if (activeChar.isItemAuctionPolling())
+				{
 					return false;
+				}
 				
 				final ItemAuction currentAuction = au.getCurrentAuction();
 				final ItemAuction nextAuction = au.getNextAuction();
@@ -78,38 +89,15 @@ public class ItemAuctionLink implements IBypassHandler
 				{
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NO_AUCTION_PERIOD));
 					
-					//if (nextAuction != null) // used only once when database is empty
-						//activeChar.sendMessage("The next auction will begin on the " + fmt.format(new Date(nextAuction.getStartingTime())) + ".");
+					if (nextAuction != null)
+					{
+						activeChar.sendMessage("The next auction will begin on the " + fmt.format(new Date(nextAuction.getStartingTime())) + ".");
+					}
 					return true;
 				}
 				
 				activeChar.sendPacket(new ExItemAuctionInfoPacket(false, currentAuction, nextAuction));
 			}
-			/** Add by pmq High Five Del Start
-			else if ("nask".equalsIgnoreCase(cmd))
-			{
-				if (!activeChar.getFloodProtectors().getItemAuction().tryPerformAction("RequestInfoItemAuction"))
-					return false;
-				
-				if (activeChar.isItemAuctionPolling())
-					return false;
-				
-				final ItemAuction currentAuction = au.getCurrentAuction();
-				final ItemAuction nextAuction = au.getNextAuction();
-				
-				if (nextAuction != null) // used only once when database is empty
-				{
-					NpcHtmlMessage html = new NpcHtmlMessage(((L2Npc)target).getObjectId());
-					html.setFile(activeChar.getHtmlPrefix(), "data/html/default/32320-2.htm");
-					html.replace("%objectId%", String.valueOf(((L2Npc)target).getObjectId()));
-					html.replace("%fmt%", fmt.format(new Date(nextAuction.getStartingTime())));
-					activeChar.sendPacket(html);
-					return true;
-				}
-				
-				activeChar.sendPacket(new ExItemAuctionInfoPacket(false, currentAuction, nextAuction));
-			}
-			Add by pmq High Five End */
 			else if ("cancel".equalsIgnoreCase(cmd))
 			{
 				final ItemAuction[] auctions = au.getAuctionsByBidder(activeChar.getObjectId());
@@ -117,22 +105,29 @@ public class ItemAuctionLink implements IBypassHandler
 				for (final ItemAuction auction : auctions)
 				{
 					if (auction.cancelBid(activeChar))
+					{
 						returned = true;
+					}
 				}
 				if (!returned)
+				{
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NO_OFFERINGS_OWN_OR_MADE_BID_FOR));
+				}
 			}
 			else
+			{
 				return false;
+			}
 		}
 		catch (Exception e)
 		{
-			_log.severe("Exception in: " + getClass().getSimpleName() + ":" + e.getMessage());
+			_log.log(Level.WARNING, "Exception in " + getClass().getSimpleName(), e);
 		}
 		
 		return true;
 	}
 	
+	@Override
 	public String[] getBypassList()
 	{
 		return COMMANDS;

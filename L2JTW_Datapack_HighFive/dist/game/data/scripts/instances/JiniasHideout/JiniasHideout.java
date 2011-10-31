@@ -23,6 +23,7 @@ import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
@@ -237,15 +238,15 @@ public class JiniasHideout extends Quest
 				switch (((JiniasWorld)world).questId)
 				{
 				case 10285:
-					htmltext = "10285_goodbye.htm";
+					htmltext = "";
 					break;
 				case 10286:
-					htmltext = "10286_goodbye.htm";
+					htmltext = "";
 					hostQuest.playSound("ItemSound.quest_middle");
 					hostQuest.set("cond", "5");
 					break;
 				case 10287:
-					htmltext = "10287_goodbye.htm";
+					htmltext = "";
 					hostQuest.playSound("ItemSound.quest_middle");
 					hostQuest.set("cond", "5");
 				}
@@ -262,34 +263,16 @@ public class JiniasHideout extends Quest
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 			if (tmpworld != null && tmpworld instanceof JiniasWorld)
-			{		
-				/*
-				//My client crashes on these fstring IDs, so I use String
-				int fstringId = -1;
-				switch tmpworld.templateId
+			{
+				switch(tmpworld.templateId)
 				{
 					case 141:
-						fstringId = 528551;
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), NpcStringId.THERES_NOTHING_YOU_CANT_SAY_I_CANT_LISTEN_TO_YOU_ANYMORE));
 						break;
 					case 145:
-						fstringId = 528651;
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), NpcStringId.YOU_ADVANCED_BRAVELY_BUT_GOT_SUCH_A_TINY_RESULT_HOHOHO));
+						break;
 				}
-				if fstringId > 0
-					npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), 528551));
-				*/
-			
-				String msg = null;
-					switch(tmpworld.templateId)
-					{
-						case 141:
-							msg = "There's nothing you can't say. I can't listen to you anymore!";
-							break;
-						case 145:
-							msg = "You advanced bravely but got such a tiny result. Hohoho.";
-					}
-					
-					if (msg != null)
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), msg));
 			}
 		}
 		

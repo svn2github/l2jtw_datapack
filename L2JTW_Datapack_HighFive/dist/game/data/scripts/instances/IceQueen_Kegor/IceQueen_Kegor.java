@@ -23,9 +23,11 @@ import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
 import com.l2jserver.gameserver.model.L2CharPosition;
 import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2QuestGuardInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
@@ -36,8 +38,7 @@ import com.l2jserver.gameserver.network.clientpackets.Say2;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.util.Util;
-
-//import com.l2jserver.util.Rnd;
+import com.l2jserver.util.Rnd;
 
 /**
  ** @author GKR
@@ -51,7 +52,7 @@ public class IceQueen_Kegor extends Quest
 	{
 		public long[] storeTime = {0,0};
 		public boolean underAttack = false;
-		public L2Npc KEGOR = null;
+		public L2QuestGuardInstance KEGOR = null;
 		public List<L2Attackable> liveMobs;
 		
 		public KegorWorld()
@@ -168,7 +169,7 @@ public class IceQueen_Kegor extends Quest
 					world.liveMobs = new FastList<L2Attackable>();
 					for(int[] spawn : MOB_SPAWNS)
 					{
-						L2Attackable spawnedMob = 	(L2Attackable) addSpawn(MONSTER, spawn[0], spawn[1], spawn[2], spawn[3], false, 0, false, world.instanceId);
+						L2Attackable spawnedMob = (L2Attackable) addSpawn(MONSTER, spawn[0], spawn[1], spawn[2], spawn[3], false, 0, false, world.instanceId);
 						world.liveMobs.add(spawnedMob);
 					}
 				}
@@ -204,30 +205,26 @@ public class IceQueen_Kegor extends Quest
 									}
 								}
 							}
-						}		
-						startQuestTimer("buff", 30000, npc,player);
+						}
+						startQuestTimer("buff", 30000, npc, player);
 					}
 				}
 				
-				//Throws exception when L2NpcInstance is converted into L2Attackable
-				/*
 				else if (event.equalsIgnoreCase("attack_mobs"))
 				{
-					if (_liveMobs != null && !_liveMobs.isEmpty())
+					if (world.liveMobs != null && !world.liveMobs.isEmpty())
 					{
-						int idx = Rnd.get(_liveMobs.size());
+						int idx = Rnd.get(world.liveMobs.size());
 						
-						if (npc.getKnownList().knowsObject(_liveMobs.get(idx)))
+						if (npc.getKnownList().knowsObject(world.liveMobs.get(idx)))
 						{
-							((L2Attackable)npc).addDamageHate(_liveMobs.get(idx), 0, 999);
-							npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, _liveMobs.get(idx));
+							((L2QuestGuardInstance)npc).addDamageHate(world.liveMobs.get(idx), 0, 999);
+							((L2QuestGuardInstance)npc).getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, world.liveMobs.get(idx));
 						}
 						
-						startQuestTimer("attack_mobs", 10000, KEGOR, player);
+						startQuestTimer("attack_mobs", 10000, world.KEGOR, null);
 					}
 				}
-				*/
-			
 			}
 		}
 		
@@ -235,10 +232,10 @@ public class IceQueen_Kegor extends Quest
 	}
 	
 	@Override
-	public String onTalk ( L2Npc npc, L2PcInstance player)
+	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
 		QuestState hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
 		
@@ -281,10 +278,9 @@ public class IceQueen_Kegor extends Quest
 					hostQuest.set("cond", "5");
 					htmltext = "18846-01.htm";
 					world.underAttack = true;
-					npc.setIsInvul(false);
-					npc.setIsMortal(true);
-					startQuestTimer("spawn", 3000, npc,player);
-					startQuestTimer("buff", 3500, npc,player);
+					startQuestTimer("spawn", 3000, npc, player);
+					startQuestTimer("buff", 3500, npc, player);
+					startQuestTimer("attack_mobs", 10000, npc, null);
 				}
 				
 				else if (hostQuest.getState() == State.COMPLETED)
@@ -320,7 +316,7 @@ public class IceQueen_Kegor extends Quest
 				KegorWorld world = (KegorWorld) tmpworld;
 				
 				if (world.KEGOR == null)
-					world.KEGOR = npc;
+					world.KEGOR = (L2QuestGuardInstance) npc;
 				
 				if (hostQuest.getState() != State.STARTED)
 					return "18846-04.htm";
@@ -344,29 +340,33 @@ public class IceQueen_Kegor extends Quest
 		
 		return null;
 	}
-
+	
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		QuestState hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
-		if (hostQuest == null || hostQuest.getState() != State.STARTED)
-			return null;
+		QuestState hostQuest = null;
+		if (player != null)
+		{
+			hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
+			if (hostQuest == null || hostQuest.getState() != State.STARTED)
+				return null;
+		}
 		
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 		if (tmpworld != null && tmpworld instanceof KegorWorld);
 		{
 			KegorWorld world = (KegorWorld) tmpworld;
 			
-			if (npc.getNpcId() == MONSTER)
+			if (npc.getNpcId() == MONSTER && player != null)
 			{
 				if (world.liveMobs != null)
 				{
-					world.liveMobs.remove(npc);
+					world.liveMobs.remove((L2Attackable) npc);
 					if (world.liveMobs.isEmpty() && world.KEGOR != null && !world.KEGOR.isDead() && hostQuest.getInt("progress") == 2)
 					{
 						world.underAttack = false;
 						world.liveMobs = null;
-						cancelQuestTimer("buff", world.KEGOR, null);
+						cancelQuestTimer("buff", world.KEGOR, player);
 						world.KEGOR.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, player, null);
 						NpcSay cs = new NpcSay(world.KEGOR.getObjectId(), Say2.ALL, world.KEGOR.getNpcId(), NpcStringId.I_CAN_FINALLY_TAKE_A_BREATHER_BY_THE_WAY_WHO_ARE_YOU_HMM_I_THINK_I_KNOW_WHO_SENT_YOU);
 						world.KEGOR.broadcastPacket(cs);
@@ -384,9 +384,11 @@ public class IceQueen_Kegor extends Quest
 			
 			else if (npc.getNpcId() == KEGOR_IN_CAVE)
 			{
-				world.KEGOR = null;
 				NpcSay cs = new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), NpcStringId.HOW_COULD_I_FALL_IN_A_PLACE_LIKE_THIS);
 				npc.broadcastPacket(cs);
+				cancelQuestTimer("buff", npc, L2World.getInstance().getPlayer(world.allowed.get(0)));
+				cancelQuestTimer("attack_mobs", npc, null);
+				world.KEGOR = null;
 				
 				// destroy instance after 1 min
 				Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);
@@ -394,22 +396,8 @@ public class IceQueen_Kegor extends Quest
 				inst.setEmptyDestroyTime(0);
 			}
 		}
-		return null;
-	}
-
-	@Override
-	public final String onSpawn(L2Npc npc)
-	{
 		
-		//Doesn't work now. NPC doesn't wish to attack Monster
-		/*
-		else if (npcId == _mob && KEGOR != null)
-		{
-			if (getQuestTimer("attack_mobs", KEGOR, null) == null)
-				startQuestTimer("attack_mobs", 10000, KEGOR, null);
-		}
-		*/
-		return super.onSpawn(npc);
+		return super.onKill(npc, player, isPet);
 	}
 	
 	public IceQueen_Kegor(int questId, String name, String descr)

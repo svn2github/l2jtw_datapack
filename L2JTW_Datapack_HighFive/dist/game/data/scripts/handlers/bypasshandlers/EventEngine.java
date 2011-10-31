@@ -14,6 +14,8 @@
  */
 package handlers.bypasshandlers;
 
+import java.util.logging.Level;
+
 import com.l2jserver.gameserver.handler.IBypassHandler;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -28,10 +30,13 @@ public class EventEngine implements IBypassHandler
 		"event_unregister"
 	};
 	
+	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2Npc))
+		{
 			return false;
+		}
 		
 		try
 		{
@@ -48,11 +53,12 @@ public class EventEngine implements IBypassHandler
 		}
 		catch (Exception e)
 		{
-			_log.info("Exception in " + getClass().getSimpleName());
+			_log.log(Level.WARNING, "Exception in " + getClass().getSimpleName(), e);
 		}
 		return false;
 	}
 	
+	@Override
 	public String[] getBypassList()
 	{
 		return COMMANDS;
