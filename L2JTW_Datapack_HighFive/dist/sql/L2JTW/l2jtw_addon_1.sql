@@ -5819,8 +5819,6 @@ UPDATE npc SET type = 'L2Monster', aggro=300 WHERE id = 22766;
 UPDATE npc SET type = 'L2QuestGuard' WHERE id = 18846;
 
 -- 嗨翻天版本 增加及修正狄恩競技場 NPC 位置 
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31225);
-REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31225,11877,183565,-3567,0,0,48617,60,0,0);
 REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31690,11762,184101,-3567,0,0,58144,60,0,0);
 REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31688,11769,183921,-3567,0,0,50874,60,0,0);
 REPLACE INTO `spawnlist` VALUES ('Dion_Arena_Race Manager',1,30995,13691,182613,-3565,0,0,47313,60,0,0);

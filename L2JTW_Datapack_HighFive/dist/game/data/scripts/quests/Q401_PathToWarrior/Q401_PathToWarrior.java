@@ -101,11 +101,11 @@ public class Q401_PathToWarrior extends Quest
 			st.playSound("ItemSound.quest_middle");
 			st.takeItems(AuronsLetter, 1);
 			st.giveItems(WarriorGuildMark, 1);
-			htmltext = "30253-02.htm";
+			htmltext = "30253-02.html";
 		}
 		else if (event.equalsIgnoreCase("401_2"))
 		{
-			htmltext = "30010-10.htm";
+			htmltext = "30010-10.html";
 		}
 		else if (event.equalsIgnoreCase("401_3"))
 		{
@@ -114,7 +114,7 @@ public class Q401_PathToWarrior extends Quest
 			st.giveItems(RustedBronzeSword3, 1);
 			st.takeItems(SimplonsLetter, 1);
 			st.playSound("ItemSound.quest_middle");
-			htmltext = "30010-11.htm";
+			htmltext = "30010-11.html";
 		}
 		return htmltext;
 	}
@@ -137,19 +137,19 @@ public class Q401_PathToWarrior extends Quest
 			}
 			else if (st.getInt("cond") == 1)
 			{
-				htmltext = "30010-07.htm";
+				htmltext = "30010-07.html";
 			}
 			else if ((st.getInt("cond") == 2) || (st.getInt("cond") == 3))
 			{
-				htmltext = "30010-08.htm";
+				htmltext = "30010-08.html";
 			}
 			else if (st.getInt("cond") == 4)
 			{
-				htmltext = "30010-09.htm";
+				htmltext = "30010-09.html";
 			}
 			else if (st.getInt("cond") == 5)
 			{
-				htmltext = "30010-12.htm";
+				htmltext = "30010-12.html";
 			}
 			else if (st.getInt("cond") == 6)
 			{
@@ -164,21 +164,21 @@ public class Q401_PathToWarrior extends Quest
 					st.addExpAndSp(160267, 34408);
 				st.giveItems(57, 163800);
 				st.playSound("ItemSound.quest_finish");
-				player.sendPacket(new SocialAction(player, 3));
+				player.sendPacket(new SocialAction(player.getObjectId(), 3));
 				st.exitQuest(false);
 				st.saveGlobalQuestVar("1ClassQuestFinished", "1");
-				htmltext = "30010-13.htm";
+				htmltext = "30010-13.html";
 			}
 		}
 		else if (npc.getNpcId() == Simplon)
 		{
 			if (st.getInt("cond") == 1)
 			{
-				htmltext = "30253-01.htm";
+				htmltext = "30253-01.html";
 			}
 			else if (st.getInt("cond") == 2)
 			{
-				htmltext = "30253-03.htm";
+				htmltext = "30253-03.html";
 			}
 			else if (st.getInt("cond") == 3)
 			{
@@ -188,11 +188,11 @@ public class Q401_PathToWarrior extends Quest
 				st.takeItems(RustedBronzeSword1, 10);
 				st.giveItems(RustedBronzeSword2, 1);
 				st.giveItems(SimplonsLetter, 1);
-				htmltext = "30253-04.htm";
+				htmltext = "30253-04.html";
 			}
 			else if (st.getInt("cond") == 4)
 			{
-				htmltext = "30253-05.htm";
+				htmltext = "30253-05.html";
 			}
 		}
 		return htmltext;

@@ -11,7 +11,6 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
-import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
@@ -109,7 +108,7 @@ public class Sailren extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("action_1"))
 		{
-			npc.broadcastPacket(new SocialAction(npc,2));
+			npc.broadcastSocialAction(2);
 			this.startQuestTimer("camera_6", 2500, npc, null);
 		}
 		else if (event.equalsIgnoreCase("camera_1"))
@@ -150,7 +149,7 @@ public class Sailren extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_5"))
 		{
-			npc.broadcastPacket(new SocialAction(npc,2));
+			npc.broadcastSocialAction(2);
 			this.startQuestTimer("camera_6", 5000, npc, null);
 		}
 		else if (event.equalsIgnoreCase("camera_6"))

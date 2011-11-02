@@ -41,7 +41,6 @@ import com.l2jserver.gameserver.network.serverpackets.MagicSkillCanceld;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
-import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.skills.AbnormalEffect;
@@ -540,7 +539,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_7"))
 		{
-			_Zone.broadcastPacket(new SocialAction(frintezza,2));
+			frintezza.broadcastSocialAction(2);
 			startQuestTimer("camera_8", 7000, frintezza, null);
 		}
 		else if (event.equalsIgnoreCase("camera_8"))
@@ -551,14 +550,14 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_9"))
 		{
-			_Zone.broadcastPacket(new SocialAction(demon2,1));
-			_Zone.broadcastPacket(new SocialAction(demon3,1));
+			demon2.broadcastSocialAction(1);
+			demon3.broadcastSocialAction(1);
 			startQuestTimer("camera_9b", 400, frintezza, null);
 		}
 		else if (event.equalsIgnoreCase("camera_9b"))
 		{
-			_Zone.broadcastPacket(new SocialAction(demon1,1));
-			_Zone.broadcastPacket(new SocialAction(demon4,1));
+			demon1.broadcastSocialAction(1);
+			demon4.broadcastSocialAction(1);
 			
 			for (L2Character pc : _Zone.getCharactersInsideArray())
 			{
@@ -594,7 +593,7 @@ public class Frintezza extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("camera_11"))
 		{
 			_Zone.broadcastPacket(new SpecialCamera(frintezza.getObjectId(),240, 90, 25, 5500, 10000,0,0,1,0));
-			_Zone.broadcastPacket(new SocialAction(frintezza,3));
+			frintezza.broadcastSocialAction(3);
 			_portraitDummy1.deleteMe();
 			_portraitDummy3.deleteMe();
 			_portraitDummy1 = null;
@@ -776,7 +775,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_02"))
 		{
-			_Zone.broadcastPacket(new SocialAction(weakScarlet,1));
+			weakScarlet.broadcastSocialAction(1);
 			weakScarlet.setRHandId(7903);
 			startQuestTimer("morph_03", 4000, weakScarlet, null);
 		}
@@ -786,7 +785,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_04"))
 		{
-			_Zone.broadcastPacket(new SocialAction(weakScarlet,4));
+			weakScarlet.broadcastSocialAction(4);
 			L2Skill skill = SkillTable.getInstance().getInfo(5017, 1);
 			if (skill != null)
 				skill.getEffects(weakScarlet, weakScarlet);
@@ -799,7 +798,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_05a"))
 		{
-			_Zone.broadcastPacket(new SocialAction(frintezza,4));
+			frintezza.broadcastSocialAction(4);
 		}
 		else if (event.equalsIgnoreCase("morph_05"))
 		{
@@ -882,7 +881,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_15"))
 		{
-			_Zone.broadcastPacket(new SocialAction(strongScarlet,2));
+			strongScarlet.broadcastSocialAction(2);
 			L2Skill skill = SkillTable.getInstance().getInfo(5017, 1);
 			if (skill != null)
 				skill.getEffects(strongScarlet, strongScarlet);
@@ -1148,7 +1147,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("action"))
 		{
-			_Zone.broadcastPacket(new SocialAction(npc,1));
+			frintezza.broadcastSocialAction(1);
 		}
 		else if (event.equalsIgnoreCase("bomber"))
 		{

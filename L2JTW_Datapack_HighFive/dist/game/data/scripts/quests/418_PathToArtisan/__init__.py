@@ -112,7 +112,7 @@ class Quest (JQuest) :
 				st.exitQuest(False)
 				st.saveGlobalQuestVar("1ClassQuestFinished","1")
 				st.playSound("ItemSound.quest_finish")
-				player.sendPacket(SocialAction(player,3))
+				player.sendPacket(SocialAction(player.getObjectId(),3))
 			else :
 				htmltext = "30317-08.htm"
 		elif event == "30317_8" :
@@ -134,7 +134,7 @@ class Quest (JQuest) :
 				st.set("cond","0")
 				st.exitQuest(False)
 				st.playSound("ItemSound.quest_finish")
-				player.sendPacket(SocialAction(player,3))
+				player.sendPacket(SocialAction(player.getObjectId(),3))
 			else :
 				htmltext = "30317-08.htm"
 		elif event == "30298_1" :

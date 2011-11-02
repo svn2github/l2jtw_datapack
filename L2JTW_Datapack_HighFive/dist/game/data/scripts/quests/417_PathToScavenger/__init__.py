@@ -327,7 +327,7 @@ class Quest (JQuest) :
 				st.exitQuest(False)
 				st.saveGlobalQuestVar("1ClassQuestFinished","1")
 				st.playSound("ItemSound.quest_finish")
-				player.sendPacket(SocialAction(player,3))
+				player.sendPacket(SocialAction(player.getObjectId(),3))
 		elif npcId == 30557 :
 			if cond == 10 and st.getQuestItemsCount(ROUTS_TP_SCROLL) == 1 :
 				htmltext = "30557-01.htm"

@@ -122,6 +122,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	
 	private int mammonst = 0;
 	
+	private int _numAtk = 0;
+	
 	/**
 	【備註】：【1~3】 是開場白只會出一次，【4~12】 是亂數出對話，【END】 是最後才會出的對話。
 	【字顏色】	【對話次序】	【人物】	【對話編號】	【對話內容】
@@ -235,9 +237,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			_log.info("SevenSignSealOfTheEmperor: first room spawned in instance " + world.instanceId);
 	}
 	
-/**
- * Room1 Mobs 27371 27372 27373 27374
- */
+	/**
+	 * Room1 Mobs 27371 27372 27373 27374
+	 */
 	protected void runFirstRoom(SIGNSWorld world)
 	{
 		SIGNSRoom FirstRoom = new SIGNSRoom();
@@ -266,9 +268,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			_log.info("SevenSignSealOfTheEmperor: spawned First room");
 	}
 	
-/**
- * Room2 Mobs 27371 27371 27372 27373 27373 27374
- */
+	/**
+	 * Room2 Mobs 27371 27371 27372 27373 27373 27374
+	 */
 	protected void runSecondRoom(SIGNSWorld world)
 	{
 		SIGNSRoom SecondRoom = new SIGNSRoom();
@@ -305,9 +307,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			_log.info("SevenSignSealOfTheEmperor: spawned second room");
 	}
 	
-/**
- * Room3 Mobs 27371 27371 27372 27372 27373 27373 27374 27374
- */
+	/**
+	 * Room3 Mobs 27371 27371 27372 27372 27373 27373 27374 27374
+	 */
 	protected void runThirdRoom(SIGNSWorld world)
 	{
 		SIGNSRoom ThirdRoom = new SIGNSRoom();
@@ -352,9 +354,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			_log.info("SevenSignSealOfTheEmperor: spawned Third room");
 	}
 	
-/**
- * Room4 Mobs 27371 27372 27373 27374 27375 27377 27378 27379
- */
+	/**
+	 * Room4 Mobs 27371 27372 27373 27374 27375 27377 27378 27379
+	 */
 	protected void runForthRoom(SIGNSWorld world)
 	{
 		SIGNSRoom ForthRoom = new SIGNSRoom();
@@ -399,9 +401,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			_log.info("SevenSignSealOfTheEmperor: spawned Forth room");
 	}
 	
-/**
- * Room5 Mobs 27371 27372 27373 27374 27375 27375 27377 27377 27378 27378 27379 27379
- */
+	/**
+	 * Room5 Mobs 27371 27372 27373 27374 27375 27375 27377 27377 27378 27378 27379 27379
+	 */
 	protected void runFifthRoom(SIGNSWorld world)
 	{
 		SIGNSRoom FifthRoom = new SIGNSRoom();
@@ -555,6 +557,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setIsImmobilized(true);
+			thisnpc.npc.setIsMortal(false);
 			thisnpc.npc.setRHandId(15281);
 		
 		thisnpc = new SIGNSNpc();
@@ -562,6 +566,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setIsImmobilized(true);
+			thisnpc.npc.setIsMortal(false);
 			thisnpc.npc.setRHandId(15281);
 		
 		thisnpc = new SIGNSNpc();
@@ -569,6 +575,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setIsImmobilized(true);
+			thisnpc.npc.setIsMortal(false);
 			thisnpc.npc.setRHandId(15281);
 		
 		thisnpc = new SIGNSNpc();
@@ -576,6 +584,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setIsImmobilized(true);
+			thisnpc.npc.setIsMortal(false);
 			thisnpc.npc.setRHandId(15281);
 		
 		world.rooms.put("SDRoom", SDRoom);
@@ -635,6 +645,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		{
 			final int instanceId = InstanceManager.getInstance().createDynamicInstance("SanctumSealOfTheEmperor.xml");
 			
+			_numAtk = 0;
 			world = new SIGNSWorld();
 			world.instanceId = instanceId;
 			world.templateId = INSTANCE_ID;
@@ -688,12 +699,13 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	}
 	
 	@Override
-	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
+		String htmltext = event;
 		QuestState st = player.getQuestState(qn);
 		
 		if (st == null)
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return htmltext;
 		
 		if (event.equalsIgnoreCase("30969-05.htm"))
 		{
@@ -733,7 +745,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		{
 			st.playSound("ItemSound.quest_middle");
 			st.set("cond", "5");
-			st.takeItems(SEAL, 4);
+			st.takeItems(SEAL, -1);
 			st.takeItems(SWORD, 1);
 			st.takeItems(WATER, 1);
 			st.takeItems(STAFF, 1);
@@ -787,19 +799,20 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			player.teleToLocation(-89528, 216056, -7516);
 			return null;
 		}
-		return event;
+		return htmltext;
 	}
 	
 	@Override
-	public final String onTalk(L2Npc npc, L2PcInstance player)
+	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		final QuestState st = player.getQuestState(qn);
-		final QuestState qs = player.getQuestState("195_SevenSignSecretRitualOfThePriests");
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		QuestState st = player.getQuestState(qn);
+		QuestState qs = player.getQuestState("195_SevenSignSecretRitualOfThePriests");
 		
 		if (st == null)
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return htmltext;
 		
-		final int cond = st.getInt("cond");
+		int cond = st.getInt("cond");
 		switch (npc.getNpcId())
 		{
 			case HEINE:
@@ -847,9 +860,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				switch (st.getInt("cond"))
 				{
 					case 0:
-						return null;
 					case 1:
-						return null;
 					case 2:
 						return null;
 					case 3:
@@ -859,7 +870,6 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 						enterInstance(player);
 						return null;
 					case 5:
-						return null;
 					case 6:
 						return null;
 				}
@@ -867,12 +877,12 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				switch (st.getInt("cond"))
 				{
 					case 4:
-						if (st.getQuestItemsCount(STAFF) == 0)
+						if (!st.hasQuestItems(STAFF))
 						{
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
 							return "32598-01.htm";
 						}
-						if (st.getQuestItemsCount(STAFF) >= 1)
+						else
 						{
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
 							return "32598-03.htm";
@@ -884,28 +894,28 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 					case 3:
 						return "32586-01.htm";
 					case 4:
-						if (st.getQuestItemsCount(SWORD) == 0)
+						if (!st.hasQuestItems(SWORD))
 						{
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
 							st.giveItems(SWORD, 1);
 							return "32586-14.htm";
 						}
-						if (st.getQuestItemsCount(WATER) == 0)
+						if (!st.hasQuestItems(WATER))
 						{
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
 							st.giveItems(WATER, 1);
 							return "32586-14.htm";
 						}
-						if (st.getQuestItemsCount(SEAL) <= 3)
+						if (_numAtk >= 4 && st.getQuestItemsCount(SEAL) >= 4)
+							return "32586-08.htm";
+						else
 						{
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
 							return "32586-07.htm";
 						}
-						else if (st.getQuestItemsCount(SEAL) == 4)
-							return "32586-08.htm";
 					case 5:
 						return "32586-13.htm";
 				}
@@ -932,7 +942,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				}
 		
 		}
-		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		return htmltext;
 	}
 	
 	@Override
@@ -1015,9 +1025,10 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			}
 			else if (world.status == 6)
 			{
+				_numAtk++;
 				if (npc.getNpcId() == SEALDEVICE)
 				{
-					if (st.getQuestItemsCount(SEAL) < 3)
+					if (_numAtk < 4)
 					{
 						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3060));
 						npc.setRHandId(15281);
@@ -1037,7 +1048,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				}
 			}
 		}
-		return "";
+		return null;
 	}
 	
 	public Q196_SevenSignSealOfTheEmperor(int questId, String name, String descr)
