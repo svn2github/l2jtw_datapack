@@ -20,7 +20,7 @@ WATERBINDER          = 7591  # 女神的戒指-水之羈絆
 EVERGREEN            = 7592  # 女神的項鍊-綠之永恆
 RAIN_SONG            = 7593  # 女神的手杖-雨之詩歌
 RELIC_BOX            = 7594  # 聖物箱子
-#                    = 21725 # 女神的手杖-雨之詩歌碎片
+FRAGMENTS            = 21725 # 女神的手杖-雨之詩歌碎片
 
 #MOBS
 PILGRIM_OF_SPLENDOR = 21541  # 輝煌的求道者
@@ -188,7 +188,6 @@ class Quest (JQuest) :
                 st.giveItems(FRAGMENTS,1)
                 if st.getQuestItemsCount(FRAGMENTS) >= 100:
                     st.set("cond","5")
-                
    return 
 
 QUEST       = Quest(246,qn,"擁有高貴靈魂之人，貴族  第三部")
@@ -202,7 +201,6 @@ QUEST.addTalkId(LADD)
 QUEST.addKillId(PILGRIM_OF_SPLENDOR)
 QUEST.addKillId(JUDGE_OF_SPLENDOR)
 QUEST.addKillId(BARAKIEL)
-
 
 for id in MOBS:
     QUEST.addKillId(id)

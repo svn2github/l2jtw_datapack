@@ -29,6 +29,7 @@ DROP TABLE IF EXISTS character_contacts;
 DROP TABLE IF EXISTS character_friends;
 DROP TABLE IF EXISTS character_hennas;
 DROP TABLE IF EXISTS character_instance_time;
+DROP TABLE IF EXISTS character_lov_bonus;
 DROP TABLE IF EXISTS character_macroses;
 DROP TABLE IF EXISTS character_norestart_zone_time;
 DROP TABLE IF EXISTS character_offline_trade_items;
