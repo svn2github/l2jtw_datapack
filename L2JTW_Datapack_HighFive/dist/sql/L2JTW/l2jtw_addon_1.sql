@@ -171,7 +171,7 @@ DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,1389
 
 /************ Add by pmq *********/
 -- 加入漏掉的NPC
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35601,35602,35603,35605,35623,35624,35628,35638,35639,35640,35641,35642); -- 刪除不正確位置的NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35601,35602,35603,35605,35623,35624,35628,35638,35639,35640,35641,35642,32761,32777,32778,32781); -- 刪除不正確位置的NPC
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('unset', 1, 35601, 141152, -124272, -1864, 0, 0, 10000, 60, 0, 0),  -- 守門人(虹彩泉根據地)
 ('unset', 1, 35602, 140704, -124020, -1904, 0, 0, 34000, 60, 0, 0),  -- 守門人(虹彩泉根據地)
@@ -5831,8 +5831,7 @@ UPDATE npc SET collision_height=25 WHERE id = 32862;
 UPDATE npcaidata SET clan='freya_show_friends', enemyClan = 'freya_show_foes' WHERE npcId = 22767;
 UPDATE npcaidata SET clan='freya_show_foes', enemyClan = 'freya_show_friends' WHERE npcId IN (18848, 18849, 18926);
 UPDATE npcaidata SET enemyRange = 2000 WHERE npcId IN (18848, 18849, 18926);
-UPDATE npcaidata SET enemyRange = 500, clanRange=500 WHERE npcId = 22767;
+UPDATE npcaidata SET enemyRange = 500, clanRange = 500 WHERE npcId = 22767;
 
-UPDATE npc SET type = 'L2Monster' WHERE id IN (18847, 18848, 18849, 18926, 18930, 22767);
+UPDATE npc SET type = 'L2Monster' WHERE id IN (18847, 18848, 18849, 18850, 18851, 18853, 18854, 18855, 18856, 18926, 18930, 22767);
 UPDATE npc SET aggro = 300 WHERE id IN (18847, 18930, 22767);
-

@@ -30,7 +30,7 @@ import com.l2jserver.gameserver.model.quest.State;
 public class Q10286_ReunionWithSirra extends Quest
 {
 	private static final String qn = "10286_ReunionWithSirra";
-
+	
 	// NPC's
 	private static final int _rafforty = 32020;
 	private static final int _jinia = 32760;
@@ -38,11 +38,11 @@ public class Q10286_ReunionWithSirra extends Quest
 	private static final int _jinia2 = 32781;
 	
 	private static final int _blackCore = 15470;
-
+	
 	public Q10286_ReunionWithSirra(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-
+		
 		addStartNpc(_rafforty);
 		addTalkId(_rafforty);
 		addFirstTalkId(_rafforty);
@@ -50,7 +50,7 @@ public class Q10286_ReunionWithSirra extends Quest
 		addTalkId(_jinia2);
 		addTalkId(_sirra);
 	}
-
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -59,7 +59,7 @@ public class Q10286_ReunionWithSirra extends Quest
 		
 		if (st == null)
 			return htmltext;
-
+		
 		if (npc.getNpcId() == _rafforty)
 		{
 			if (event.equalsIgnoreCase("32020-04.htm"))
@@ -93,29 +93,29 @@ public class Q10286_ReunionWithSirra extends Quest
 				inst.setEmptyDestroyTime(0);
 			}
 		}
-
+		
 		else if (npc.getNpcId() == _sirra)
 		{
 			if (event.equalsIgnoreCase("32762-04.htm") && st.getInt("progress") == 1 && st.getInt("Ex") == 1)
 			{
 				if (st.getQuestItemsCount(_blackCore) == 0)
 					st.giveItems(_blackCore, 5);
-
+				
 				st.set("Ex", "2");
 				st.set("cond", "4");
 				st.playSound("ItemSound.quest_middle");
 			}
 		}
-
+		
 		return htmltext;
 	}
-
+	
 	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(qn);
 		QuestState _prev = player.getQuestState("10285_MeetingSirra");
-
+		
 		if (npc.getNpcId() == _rafforty && _prev != null && _prev.getState() == State.COMPLETED && st == null && player.getLevel() >= 82)
 			return "32020-00.htm";
 		else
@@ -123,7 +123,7 @@ public class Q10286_ReunionWithSirra extends Quest
 		
 		return null;
 	}
-
+	
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
@@ -132,7 +132,7 @@ public class Q10286_ReunionWithSirra extends Quest
 		
 		if (st == null)
 			return htmltext;
-
+		
 		if (npc.getNpcId() == _rafforty)
 		{
 			switch (st.getState())
@@ -155,7 +155,7 @@ public class Q10286_ReunionWithSirra extends Quest
 					break;
 			}
 		}
-
+		
 		else if (npc.getNpcId() == _jinia && st.getInt("progress") == 1)
 		{
 			switch (st.getInt("Ex"))
@@ -168,7 +168,7 @@ public class Q10286_ReunionWithSirra extends Quest
 					return "32760-08.htm";
 			}
 		}
-
+		
 		else if (npc.getNpcId() == _sirra && st.getInt("progress") == 1)
 		{
 			switch (st.getInt("Ex"))
@@ -194,7 +194,7 @@ public class Q10286_ReunionWithSirra extends Quest
 		}
 		return htmltext;
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new Q10286_ReunionWithSirra(10286, qn, "與希露再次見面");
