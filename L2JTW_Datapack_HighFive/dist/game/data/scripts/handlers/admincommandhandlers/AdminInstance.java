@@ -40,17 +40,17 @@ public class AdminInstance implements IAdminCommandHandler
 		"admin_destroyinstance",
 		"admin_listinstances"
 	};
-
+	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		StringTokenizer st = new StringTokenizer(command);
 		st.nextToken();
-
+		
 		// create new instance
 		if (command.startsWith("admin_createinstance"))
 		{
 			String[] parts = command.split(" ");
-			if (parts.length < 2)
+			if (parts.length != 3)
 			{
 				activeChar.sendMessage("Example: //createinstance <id> <templatefile> - ids => 300000 are reserved for dynamic instances");
 			}
@@ -58,21 +58,20 @@ public class AdminInstance implements IAdminCommandHandler
 			{
 				try
 				{
-					int id = Integer.parseInt(parts[1]);
-					if (InstanceManager.getInstance().createInstanceFromTemplate(id, parts[2]) && id < 300000)
+					final int id = Integer.parseInt(parts[1]);
+					if ((id < 300000) && InstanceManager.getInstance().createInstanceFromTemplate(id, parts[2]))
 					{
 						activeChar.sendMessage(1691);
-						return true;
 					}
 					else
 					{
 						activeChar.sendMessage(1692);
-						return true;
 					}
+					return true;
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage("Failed loading: " + parts[2]);
+					activeChar.sendMessage("Failed loading: " + parts[1] + " " + parts[2]);
 					return false;
 				}
 			}
@@ -138,7 +137,7 @@ public class AdminInstance implements IAdminCommandHandler
 				activeChar.sendMessage("Use //destroyinstance id");
 			}
 		}
-
+		
 		// set ghost mode on aka not appearing on any knownlist
 		// you will be invis to all players but you also dont get update packets ;)
 		// you will see snapshots (knownlist echoes?) if you port
@@ -163,7 +162,7 @@ public class AdminInstance implements IAdminCommandHandler
 		}
 		return true;
 	}
-
+	
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

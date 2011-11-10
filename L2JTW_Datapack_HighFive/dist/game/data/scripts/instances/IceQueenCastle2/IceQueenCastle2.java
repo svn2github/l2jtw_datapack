@@ -19,7 +19,6 @@ import java.util.Calendar;
 import javolution.util.FastMap;
 
 import com.l2jserver.Config;
-import com.l2jserver.gameserver.Text;
 import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.NpcTable;
@@ -42,11 +41,10 @@ import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
-//import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ExChangeNpcState;
 import com.l2jserver.gameserver.network.serverpackets.ExSendUIEvent;
-//import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage2;
 import com.l2jserver.gameserver.network.serverpackets.OnEventTrigger;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
@@ -480,7 +478,7 @@ public class IceQueenCastle2 extends Quest
 	
 	private void broadcastString(int strId, int instanceId)
 	{
-		Text sm = new Text(strId, 3000, Text.ScreenMessageAlign.TOP_CENTER, true, false, -1, true);
+		ExShowScreenMessage2 sm = new ExShowScreenMessage2(strId, 3000, ExShowScreenMessage2.ScreenMessageAlign.TOP_CENTER, true, false, -1, true);
 		Scenkos.toPlayersInInstance(sm, instanceId);
 	}
 	
