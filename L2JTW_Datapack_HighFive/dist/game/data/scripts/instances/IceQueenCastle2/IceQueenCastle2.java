@@ -1451,7 +1451,7 @@ public class IceQueenCastle2 extends Quest
 			if (_isEasy)
 			{
 				QuestState st = partyMember.getQuestState("10286_ReunionWithSirra");
-	    		if (st == null || !st.isCompleted())
+	    		if (st == null || st.isCompleted())
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_QUEST_REQUIREMENT_NOT_SUFFICIENT);
 					sm.addPcName(partyMember);
