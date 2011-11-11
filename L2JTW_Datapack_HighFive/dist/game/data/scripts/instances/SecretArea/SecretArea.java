@@ -17,19 +17,16 @@ package instances.SecretArea;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
+import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
- ** @author Gladicek
- *  Secret Area in the Keucereus Fortress 
- * (For Quest 10272 Light Fragment)
- **
+ ** @author Gladicek Secret Area in the Keucereus Fortress (For Quest 10272 Light Fragment)
  */
 public class SecretArea extends Quest
 {
@@ -42,24 +39,27 @@ public class SecretArea extends Quest
 	private static final int LELRIKIA = 32567;
 	private static final int ENTER = 0;
 	private static final int EXIT = 1;
-	private static final int[][] TELEPORTS = {
-		{ -23758, -8959, -5384 },
-		{ -185057, 242821, 1576 }
+	private static final Location[] TELEPORTS =
+	{
+		new Location(-23758, -8959, -5384), new Location(-185057, 242821, 1576)
 	};
 	
 	private class SecretAreaWorld extends InstanceWorld
 	{
-		public SecretAreaWorld()
-		{
-		}
+		
 	}
 	
-	private void teleportPlayer(L2PcInstance player, int[] coords, int instanceId)
+	private void teleportPlayer(L2PcInstance player, Location loc, int instanceId)
 	{
-		player.stopAllEffectsExceptThoseThatLastThroughDeath();
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(instanceId);
-		player.teleToLocation(coords[0], coords[1], coords[2], false);
+		player.teleToLocation(loc, false);
+		if (player.getPet() != null)
+		{
+			player.getPet().getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+			player.getPet().setInstanceId(instanceId);
+			player.getPet().teleToLocation(loc, false);
+		}
 	}
 	
 	protected void enterInstance(L2PcInstance player)
@@ -69,7 +69,7 @@ public class SecretArea extends Quest
 		{
 			if (!(world instanceof SecretAreaWorld))
 			{
-				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER);
 				return;
 			}
 			Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);
@@ -77,7 +77,6 @@ public class SecretArea extends Quest
 			{
 				teleportPlayer(player, TELEPORTS[ENTER], world.instanceId);
 			}
-			return;
 		}
 		else
 		{
@@ -91,34 +90,26 @@ public class SecretArea extends Quest
 			
 			world.allowed.add(player.getObjectId());
 			teleportPlayer(player, TELEPORTS[ENTER], instanceId);
-			
-			return;
 		}
 	}
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-	String htmltext = getNoQuestMsg(player);
+		String htmltext = getNoQuestMsg(player);
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
 			st = newQuestState(player);
 		
-		if (npc.getNpcId() == GINBY)
-		{
-			if (event.equalsIgnoreCase("enter"))
-			{
-				enterInstance(player);
-				return _ENTER;
-			}
+		if (npc.getNpcId() == GINBY && event.equalsIgnoreCase("enter"))
+		{	
+			enterInstance(player);
+			return _ENTER;	
 		}
-		if (npc.getNpcId() == LELRIKIA)
+		else if (npc.getNpcId() == LELRIKIA && event.equalsIgnoreCase("exit"))
 		{
-			if (event.equalsIgnoreCase("exit"))
-			{
-				teleportPlayer(player,TELEPORTS[EXIT],0);
-				return _EXIT;
-			}
+			teleportPlayer(player, TELEPORTS[EXIT], 0);
+			return _EXIT;
 		}
 		return htmltext;
 	}

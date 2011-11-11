@@ -8,7 +8,7 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  * The Enveloping Darkness (10271)
- * @author Gladicek 
+ * @author Gladicek
  */
 public class Q10271_TheEnvelopingDarkness extends Quest
 {
@@ -53,7 +53,7 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		QuestState st =  player.getQuestState(qn);
+		QuestState st = player.getQuestState(qn);
 		
 		if (st == null)
 			return htmltext;
@@ -66,8 +66,8 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 					QuestState _prev = player.getQuestState("10269_ToTheSeedOfDestruction");
 					if ((_prev != null) && (_prev.getState() == State.COMPLETED) && (player.getLevel() >= 75))
 						htmltext = "32560-01.htm";
-					else 
-						htmltext = "32560-02.htm"; 
+					else
+						htmltext = "32560-02.htm";
 					break;
 				case State.STARTED:
 					htmltext = "32560-05.htm";
@@ -127,14 +127,14 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 				case State.COMPLETED:
 					htmltext = "32528-02.htm";
 					break;
-			}  
+			}
 			if (st.getInt("cond") == 2)
 			{
 				htmltext = "32528-01.htm";
 				st.playSound("ItemSound.quest_middle");
 				st.set("cond", "3");
 				st.giveItems(MEDIBAL_DOCUMENT, 1);
-			} 
+			}
 			else if (st.getInt("cond") == 3)
 			{
 				htmltext = "32528-03.htm";
@@ -154,7 +154,10 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 		addTalkId(ORBYU);
 		addTalkId(EL);
 		addTalkId(MEDIBAL_CORPSE);
-		questItemIds = new int[] {MEDIBAL_DOCUMENT};
+		questItemIds = new int[]
+		{
+			MEDIBAL_DOCUMENT
+		};
 	}
 	
 	public static void main(String[] args)

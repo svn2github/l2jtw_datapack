@@ -9,27 +9,25 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  * Light Fragment (10272)
- * @author Gladicek 
- * 
- * Updated 28-10-2011   
+ * @author Gladicek Updated 28-10-2011
  */
 public class Q10272_LightFragment extends Quest
 {
 	private static final String qn = "10272_LightFragment";
-	// Npc
+	
 	private static final int ORBYU = 32560;
 	private static final int ARTIUS = 32559;
 	private static final int GINBY = 32566;
 	private static final int LELRIKIA = 32567;
 	private static final int LEKON = 32557;
-	// Mobs
-	private static final int[] Monsters = {22536, 22537, 22538, 22539, 22540, 22541, 22542, 22543, 22544, 22547, 22550, 22551, 22552, 22596};
-	// Item
+	private static final int[] Monsters =
+	{
+		22536, 22537, 22538, 22539, 22540, 22541, 22542, 22543, 22544, 22547, 22550, 22551, 22552, 22596
+	};
 	private static final int FRAGMENT_POWDER = 13853;
 	private static final int LIGHT_FRAGMENT_POWDER = 13854;
 	private static final int LIGHT_FRAGMENT = 13855;
 	private static final int ADENA = 57;
-	// Drop Chance
 	private static final double DROP_CHANCE = 60;
 	
 	@Override
@@ -76,7 +74,7 @@ public class Q10272_LightFragment extends Quest
 		}
 		else if (event.equalsIgnoreCase("32559-12.htm"))
 		{
-			st.set("cond", "5"); 
+			st.set("cond", "5");
 			st.playSound("ItemSound.quest_middle");
 		}
 		else if (event.equalsIgnoreCase("32557-03.htm"))
@@ -111,9 +109,9 @@ public class Q10272_LightFragment extends Quest
 					if ((_prev != null) && (_prev.getState() == State.COMPLETED) && (player.getLevel() >= 75))
 						htmltext = "32560-01.htm";
 					else
-						htmltext = "32560-02.htm"; 
+						htmltext = "32560-02.htm";
 					if (player.getLevel() <= 75)
-						htmltext = "32560-03.htm"; 
+						htmltext = "32560-03.htm";
 					break;
 				case State.STARTED:
 					htmltext = "32560-06.htm";
@@ -153,19 +151,19 @@ public class Q10272_LightFragment extends Quest
 			}
 			else if (st.getInt("cond") == 5)
 			{
-				if (st.getQuestItemsCount(FRAGMENT_POWDER) < 1)
-				{
-					htmltext = "32559-13.htm";
-				}
-				if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 1 && st.getQuestItemsCount(FRAGMENT_POWDER) <= 99)
-				{
-					htmltext = "32559-14.htm";
-				}
 				if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 100)
 				{
 					htmltext = "32559-15.htm";
 					st.set("cond", "6");
 					st.playSound("ItemSound.quest_middle");
+				}
+				else if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 1)
+				{
+					htmltext = "32559-14.htm";
+				}
+				else if (st.getQuestItemsCount(FRAGMENT_POWDER) < 1)
+				{
+					htmltext = "32559-13.htm";
 				}
 			}
 			else if (st.getInt("cond") == 6)
