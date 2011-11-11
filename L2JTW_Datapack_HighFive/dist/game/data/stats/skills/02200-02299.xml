@@ -727,9 +727,8 @@
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="40" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="17" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -738,6 +737,7 @@
 		</cond>
 		<for>
 			<effect name="HealOverTime" val="60" />
+			<effect name="HealPercent" noicon="1" val="17" />
 		</for>
 	</skill>
 	<skill id="2245" levels="1" name="Herb of Mana">
@@ -746,9 +746,8 @@
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="40" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="4" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="MANAHEAL_PERCENT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -757,6 +756,7 @@
 		</cond>
 		<for>
 			<effect name="ManaHealOverTime" val="20" />
+			<effect name="ManaHealPercent" noicon="1" val="4" />
 		</for>
 	</skill>
 	<skill id="2246" levels="1" name="Herb of Power">
@@ -1375,37 +1375,41 @@
 	</skill>
 	<skill id="2278" levels="3" name="Herb of Life">
 		<!-- Confirmed CT2.5 -->
-		<table name="#power"> 15 25 100 </table>
+		<table name="#amount"> 15 25 100 </table>
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="#power" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
+		<for>
+			<effect name="HealPercent" noicon="1" val="#amount" />
+		</for>
 	</skill>
 	<skill id="2279" levels="3" name="Herb of Mana">
 		<!-- Confirmed CT2.5 -->
-		<table name="#power"> 11 18 100 </table>
+		<table name="#amount"> 11 18 100 </table>
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="#power" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="MANAHEAL_PERCENT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
+		<for>
+			<effect name="ManaHealPercent" noicon="1" val="#amount" />
+		</for>
 	</skill>
 	<skill id="2280" levels="1" name="Herb of Power">
 		<!-- Confirmed CT2.5 -->
@@ -1572,35 +1576,39 @@
 	<skill id="2288" levels="6" name="Elixir of Mental Strength">
 		<!-- Confirmed CT2.5 -->
 		<table name="#levelRange"> 1;19 20;39 40;51 52;60 61;75 76;85 </table>
-		<table name="#power"> 60 140 220 290 360 420 </table>
+		<table name="#amount"> 60 140 220 290 360 420 </table>
 		<set name="isPotion" val="true" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="#power" />
 		<set name="reuseDelay" val="300000" />
 		<set name="sharedReuse" val="2287-1" />
-		<set name="skillType" val="MANAHEAL" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
 			<player levelRange="#levelRange" />
 		</cond>
+		<for>
+			<effect name="ManaHeal" noicon="1" val="#amount" />
+		</for>
 	</skill>
 	<skill id="2289" levels="6" name="Elixir of CP">
 		<!-- Confirmed CT2.5 -->
 		<table name="#levelRange"> 1;19 20;39 40;51 52;60 61;75 76;85 </table>
-		<table name="#power"> 150 350 600 800 1000 1200 </table>
+		<table name="#amount"> 150 350 600 800 1000 1200 </table>
 		<set name="isPotion" val="true" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="#power" />
 		<set name="reuseDelay" val="300000" />
 		<set name="sharedReuse" val="2289-1" />
-		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
 			<player levelRange="#levelRange" />
 		</cond>
+		<for>
+			<effect name="CpHeal" noicon="1" val="#amount" />
+		</for>
 	</skill>
 	<skill id="2290" levels="1" name="Coffer of Shadows">
 		<!-- Confirmed CT2.5 -->
