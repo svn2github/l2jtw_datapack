@@ -3497,6 +3497,9 @@ INSERT INTO `messagetable` VALUES
 ('1977', 'en', 'Register GameServer Again.', '', 'LoginServerThread.java'),
 ('1977', 'tw', '請重新註冊遊戲伺服器（就是登入時，可以選擇巴茨伺服器）', '', 'LoginServerThread.java'),
 ('1977', 'cn', '请重新注册游戏服务端（就是登录时，可以选择巴茨服务端）', '', 'LoginServerThread.java'),
+('1978', 'en', 'Server Address:', '', 'LoginServerThread.java'),
+('1978', 'tw', '伺服器連線位置：', '', 'LoginServerThread.java'),
+('1978', 'cn', '服务端连线位置：', '', 'LoginServerThread.java'),
 
 ('1994', 'en', 'Red Team', '', 'BlockCheckerEngine.java'),
 ('1994', 'tw', '紅隊', '', 'BlockCheckerEngine.java'),
