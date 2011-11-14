@@ -34,7 +34,7 @@ public class BloodAlliance implements IBypassHandler
 	private static final String[] COMMANDS =
 	{
 		"HonoraryItem",
-		"Receive",
+		"Receive", 
 		"Exchange"
 	};
 	

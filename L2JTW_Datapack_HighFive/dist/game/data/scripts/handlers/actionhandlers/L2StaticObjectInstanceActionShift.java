@@ -45,13 +45,13 @@ public class L2StaticObjectInstanceActionShift implements IActionHandler
 					String.valueOf(target.getY()),
 					", ",
 					String.valueOf(target.getZ()),
-					"</td></tr><tr><td>"+MessageTable.Messages[1360].getMessage()+"</td><td>",
+					"</td></tr><tr><td>"+ MessageTable.Messages[1360].getMessage() +"</td><td>",
 					String.valueOf(target.getObjectId()),
-					"</td></tr><tr><td>"+MessageTable.Messages[1361].getMessage()+"</td><td>",
+					"</td></tr><tr><td>"+ MessageTable.Messages[1361].getMessage() +"</td><td>",
 					String.valueOf(((L2StaticObjectInstance)target).getStaticObjectId()),
-					"</td></tr><tr><td>"+MessageTable.Messages[1362].getMessage()+"</td><td>",
+					"</td></tr><tr><td>"+ MessageTable.Messages[1362].getMessage() +"</td><td>",
 					String.valueOf(((L2StaticObjectInstance)target).getMeshIndex()),
-					"</td></tr><tr><td><br></td></tr><tr><td>"+MessageTable.Messages[1363].getMessage()+"</td><td>",
+					"</td></tr><tr><td><br></td></tr><tr><td>"+ MessageTable.Messages[1363].getMessage() +"</td><td>",
 					target.getClass().getSimpleName(),
 					"</td></tr></table></body></html>"
 			);

@@ -37,7 +37,7 @@ public class ClanWarehouse implements IBypassHandler
 {
 	private static final String[] COMMANDS =
 	{
-		"withdrawc",
+		"withdrawc", 
 		"withdrawsortedc",
 		"depositc"
 	};

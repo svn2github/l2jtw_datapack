@@ -35,12 +35,12 @@ public class TerritoryWar implements IBypassHandler
 {
 	private static final String[] COMMANDS =
 	{
-		"Territory",
-		"TW_Multisell",
+		"Territory", 
+		"TW_Multisell", 
 		"TW_Buy_List",
-		"TW_Buy",
-		"TW_Buy_Elite",
-		"CalcRewards",
+		"TW_Buy", 
+		"TW_Buy_Elite", 
+		"CalcRewards", 
 		"ReceiveRewards"
 	};
 	

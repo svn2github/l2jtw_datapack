@@ -36,7 +36,6 @@ import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.actor.instance.Scenkos;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
@@ -49,6 +48,7 @@ import com.l2jserver.gameserver.network.serverpackets.OnEventTrigger;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
 import com.l2jserver.gameserver.templates.skills.L2EffectType;
+import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
 
@@ -186,7 +186,7 @@ public class IceQueenCastle2 extends Quest
 						if (_world._archery_knights_hard.size() < 5 && _world.status < 44)
 						{
 							int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-							L2Npc mob = spawnNpc(archery_knight_hard, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
+							L2Attackable mob = (L2Attackable) spawnNpc(archery_knight_hard, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
 							((L2Attackable) mob).setOnKillDelay(0);
 							L2PcInstance victim = getRandomPlayer(_world);
 							mob.setTarget(victim);
@@ -208,7 +208,7 @@ public class IceQueenCastle2 extends Quest
 								&& !Util.contains(glacier_blocked_status, _world.status))
 						{
 							int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-							L2Npc mob = spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
+							L2Attackable mob = (L2Attackable) spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
 							_world._glaciers.put(mob.getObjectId(), mob);
 						}
 						if (_world.status < 44)
@@ -217,7 +217,7 @@ public class IceQueenCastle2 extends Quest
 					case 6:
 						for (int[] iter : _archeryKnightsSpawn)
 						{
-							L2Npc mob = spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], _world.instanceId);
+							L2Attackable mob = (L2Attackable) spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], _world.instanceId);
 							((L2Attackable) mob).setOnKillDelay(0);
 							mob.setRunning();
 							L2PcInstance victim = getRandomPlayer(_world);
@@ -290,7 +290,7 @@ public class IceQueenCastle2 extends Quest
 						if (_world._archery_knights.size() < 5 && _world.status < 44)
 						{
 							int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-							L2Npc mob = spawnNpc(archery_knight, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
+							L2Attackable mob = (L2Attackable) spawnNpc(archery_knight, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
 							((L2Attackable) mob).setOnKillDelay(0);
 							L2PcInstance victim = getRandomPlayer(_world);
 							mob.setTarget(victim);
@@ -313,7 +313,7 @@ public class IceQueenCastle2 extends Quest
 								&& !Util.contains(glacier_blocked_status, _world.status))
 						{
 							int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-							L2Npc mob = spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
+							L2Attackable mob = (L2Attackable) spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 20016, _world.instanceId);
 							_world._glaciers.put(mob.getObjectId(), mob);
 						}
 						if (_world.status < 44)
@@ -322,7 +322,7 @@ public class IceQueenCastle2 extends Quest
 					case 6:
 						for (int[] iter : _archeryKnightsSpawn)
 						{
-							L2Npc mob = spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], _world.instanceId);
+							L2Attackable mob = (L2Attackable) spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], _world.instanceId);
 							((L2Attackable) mob).setOnKillDelay(0);
 							mob.setRunning();
 							L2PcInstance victim = getRandomPlayer(_world);
@@ -479,7 +479,7 @@ public class IceQueenCastle2 extends Quest
 	private void broadcastString(int strId, int instanceId)
 	{
 		ExShowScreenMessage2 sm = new ExShowScreenMessage2(strId, 3000, ExShowScreenMessage2.ScreenMessageAlign.TOP_CENTER, true, false, -1, true);
-		Scenkos.toPlayersInInstance(sm, instanceId);
+		Broadcast.toPlayersInInstance(sm, instanceId);
 	}
 	
 	private void broadcastTimer(FreyaWorld world)
@@ -539,14 +539,14 @@ public class IceQueenCastle2 extends Quest
 					
 					for (int[] iter : frozeKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
 						archerySpawn(mob);
 						world._simple_knights.put(mob.getObjectId(), mob);
 					}
 					
 					for (int[] iter : _archeryKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
 						archerySpawn(mob);
 						mob.setDisplayEffect(1);
 						world._archery_knights_hard.put(mob.getObjectId(), mob);
@@ -573,7 +573,7 @@ public class IceQueenCastle2 extends Quest
 					for (int i = 0; i < 5; i++)
 					{
 						int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-						L2Npc mob = spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
 						world._glaciers.put(mob.getObjectId(), mob);
 					}
 					
@@ -604,7 +604,7 @@ public class IceQueenCastle2 extends Quest
 				case 20:
 					for (int[] iter : _archeryKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
 						archerySpawn(mob);
 						mob.setDisplayEffect(1);
 						world._archery_knights_hard.put(mob.getObjectId(), mob);
@@ -620,7 +620,7 @@ public class IceQueenCastle2 extends Quest
 					for (int i = 0; i < 5; i++)
 					{
 						int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-						L2Npc mob = spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
 						world._glaciers.put(mob.getObjectId(), mob);
 					}
 					ThreadPoolManager.getInstance().scheduleGeneral(new spawnWave(5, world.instanceId), 7000);
@@ -644,7 +644,7 @@ public class IceQueenCastle2 extends Quest
 				case 30:
 					for (int[] iter : _archeryKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight_hard, iter[0], iter[1], iter[2], iter[3], instanceId);
 						((L2Attackable) mob).setOnKillDelay(0);
 						world._archery_knights_hard.put(mob.getObjectId(), mob);
 					}
@@ -657,11 +657,11 @@ public class IceQueenCastle2 extends Quest
 					if (!debug)
 					{
 						ExChangeNpcState as = new ExChangeNpcState(decoration, 2);
-						Scenkos.toPlayersInInstance(as, world.instanceId);
+						Broadcast.toPlayersInInstance(as, world.instanceId);
 						for (int emitter : emmiters)
 						{
 							OnEventTrigger et = new OnEventTrigger(emitter, false);
-							Scenkos.toPlayersInInstance(et, world.instanceId);
+							Broadcast.toPlayersInInstance(et, world.instanceId);
 						}
 					}
 					
@@ -782,14 +782,14 @@ public class IceQueenCastle2 extends Quest
 					
 					for (int[] iter : frozeKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
 						archerySpawn(mob);
 						world._simple_knights.put(mob.getObjectId(), mob);
 					}
 					
 					for (int[] iter : _archeryKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
 						archerySpawn(mob);
 						mob.setDisplayEffect(1);
 						world._archery_knights.put(mob.getObjectId(), mob);
@@ -816,7 +816,7 @@ public class IceQueenCastle2 extends Quest
 					for (int i = 0; i < 5; i++)
 					{
 						int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-						L2Npc mob = spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
 						world._glaciers.put(mob.getObjectId(), mob);
 					}
 					
@@ -847,7 +847,7 @@ public class IceQueenCastle2 extends Quest
 				case 20:
 					for (int[] iter : _archeryKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
 						archerySpawn(mob);
 						mob.setDisplayEffect(1);
 						world._archery_knights.put(mob.getObjectId(), mob);
@@ -863,7 +863,7 @@ public class IceQueenCastle2 extends Quest
 					for (int i = 0; i < 5; i++)
 					{
 						int[] spawnXY = getRandomPoint(114385, 115042, -115106, -114466);
-						L2Npc mob = spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(glacier, spawnXY[0], spawnXY[1], -11200, 0, instanceId);
 						world._glaciers.put(mob.getObjectId(), mob);
 					}
 					ThreadPoolManager.getInstance().scheduleGeneral(new spawnWave(5, world.instanceId), 7000);
@@ -887,7 +887,7 @@ public class IceQueenCastle2 extends Quest
 				case 30:
 					for (int[] iter : _archeryKnightsSpawn)
 					{
-						L2Npc mob = spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
+						L2Attackable mob = (L2Attackable) spawnNpc(archery_knight, iter[0], iter[1], iter[2], iter[3], instanceId);
 						((L2Attackable) mob).setOnKillDelay(0);
 						world._archery_knights.put(mob.getObjectId(), mob);
 					}
@@ -900,11 +900,11 @@ public class IceQueenCastle2 extends Quest
 					if (!debug)
 					{
 						ExChangeNpcState as = new ExChangeNpcState(decoration, 2);
-						Scenkos.toPlayersInInstance(as, world.instanceId);
+						Broadcast.toPlayersInInstance(as, world.instanceId);
 						for (int emitter : emmiters)
 						{
 							OnEventTrigger et = new OnEventTrigger(emitter, false);
-							Scenkos.toPlayersInInstance(et, world.instanceId);
+							Broadcast.toPlayersInInstance(et, world.instanceId);
 						}
 					}
 					
@@ -1531,7 +1531,7 @@ public class IceQueenCastle2 extends Quest
 			{
 				if (world != null && world.status < 44)
 				{
-					L2Npc mob = spawnNpc(archery_knight_hard, Integer.parseInt(params[1]), Integer.parseInt(params[2]), Integer.parseInt(params[3]), Integer.parseInt(params[4]), Integer.parseInt(params[5]));
+					L2Attackable mob = (L2Attackable) spawnNpc(archery_knight_hard, Integer.parseInt(params[1]), Integer.parseInt(params[2]), Integer.parseInt(params[3]), Integer.parseInt(params[4]), Integer.parseInt(params[5]));
 					mob.setIsImmobilized(true);
 					mob.setDisplayEffect(1);
 					world._simple_knights.put(mob.getObjectId(), mob);
@@ -1542,7 +1542,7 @@ public class IceQueenCastle2 extends Quest
 			{
 				if (world != null && world.status < 44)
 				{
-					L2Npc mob = spawnNpc(archery_knight, Integer.parseInt(params[1]), Integer.parseInt(params[2]), Integer.parseInt(params[3]), Integer.parseInt(params[4]), Integer.parseInt(params[5]));
+					L2Attackable mob = (L2Attackable) spawnNpc(archery_knight, Integer.parseInt(params[1]), Integer.parseInt(params[2]), Integer.parseInt(params[3]), Integer.parseInt(params[4]), Integer.parseInt(params[5]));
 					mob.setIsImmobilized(true);
 					mob.setDisplayEffect(1);
 					world._simple_knights.put(mob.getObjectId(), mob);

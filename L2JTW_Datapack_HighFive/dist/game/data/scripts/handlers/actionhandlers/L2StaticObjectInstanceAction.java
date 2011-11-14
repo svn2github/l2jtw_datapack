@@ -59,7 +59,7 @@ public class L2StaticObjectInstanceAction implements IActionHandler
 					NpcHtmlMessage html = new NpcHtmlMessage(target.getObjectId());
 					
 					if (content == null)
-						html.setHtml("<html><body>"+MessageTable.Messages[1355].getMessage()+"<br>"+filename+"</body></html>");
+						html.setHtml("<html><body>"+ MessageTable.Messages[1355].getMessage() +"<br>"+filename+"</body></html>");
 					else
 						html.setHtml(content);
 					

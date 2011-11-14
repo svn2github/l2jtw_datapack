@@ -28,10 +28,10 @@ import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.actor.instance.Scenkos;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage2;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
+import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.util.Rnd;
 
 public class FreyaInstanceMobs extends L2AttackableAIScript
@@ -239,7 +239,7 @@ public class FreyaInstanceMobs extends L2AttackableAIScript
 	private void broadcastString(int instanceId)
 	{
 		ExShowScreenMessage2 sm = new ExShowScreenMessage2(1801111, 3000,ExShowScreenMessage2.ScreenMessageAlign.MIDDLE_CENTER, true, false, -1, false);
-		Scenkos.toPlayersInInstance(sm, instanceId);
+		Broadcast.toPlayersInInstance(sm, instanceId);
 	}
 	
 	@Override
