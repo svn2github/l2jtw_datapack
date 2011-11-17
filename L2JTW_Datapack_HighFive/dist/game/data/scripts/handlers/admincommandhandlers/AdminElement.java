@@ -20,9 +20,9 @@ package handlers.admincommandhandlers;
 
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.Elementals;
-import com.l2jserver.gameserver.model.L2ItemInstance;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.item.instance.L2ItemInstance;
 import com.l2jserver.gameserver.model.itemcontainer.Inventory;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.InventoryUpdate;
@@ -46,11 +46,11 @@ public class AdminElement implements IAdminCommandHandler
 		"admin_setlw",
 		"admin_setls"
 	};
-
+	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		int armorType = -1;
-
+		
 		if (command.startsWith("admin_setlh"))
 			armorType = Inventory.PAPERDOLL_HEAD;
 		else if (command.startsWith("admin_setlc"))
@@ -65,13 +65,13 @@ public class AdminElement implements IAdminCommandHandler
 			armorType = Inventory.PAPERDOLL_RHAND;
 		else if (command.startsWith("admin_setls"))
 			armorType = Inventory.PAPERDOLL_LHAND;
-
+		
 		if (armorType != -1)
 		{
 			try
 			{
 				String[] args = command.split(" ");
-
+				
 				byte element = Elementals.getElementId(args[1]);
 				int value = Integer.parseInt(args[2]);
 				if (element < -1 || element > 5 || value < 0 || value > 450)
@@ -79,7 +79,7 @@ public class AdminElement implements IAdminCommandHandler
 					activeChar.sendMessage("Usage: //setlh/setlc/setlg/setlb/setll/setlw/setls <element> <value>[0-450]");
 					return false;
 				}
-
+				
 				setElement(activeChar, element, value, armorType);
 			}
 			catch (Exception e)
@@ -88,15 +88,15 @@ public class AdminElement implements IAdminCommandHandler
 				return false;
 			}
 		}
-
+		
 		return true;
 	}
-
+	
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;
 	}
-
+	
 	private void setElement(L2PcInstance activeChar, byte type, int value, int armorType)
 	{
 		// get the target
@@ -113,9 +113,9 @@ public class AdminElement implements IAdminCommandHandler
 			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
 			return;
 		}
-
+		
 		L2ItemInstance itemInstance = null;
-
+		
 		// only attempt to enchant if there is a weapon equipped
 		L2ItemInstance parmorInstance = player.getInventory().getPaperdollItem(armorType);
 		if (parmorInstance != null && parmorInstance.getLocationSlot() == armorType)
@@ -135,7 +135,7 @@ public class AdminElement implements IAdminCommandHandler
 			}
 			
 			// set enchant value
-			player.getInventory().unEquipItemInSlotAndRecord(armorType);
+			player.getInventory().unEquipItemInSlot(armorType);
 			if (type == -1)
 				itemInstance.clearElementAttr(type);
 			else
@@ -151,14 +151,14 @@ public class AdminElement implements IAdminCommandHandler
 			InventoryUpdate iu = new InventoryUpdate();
 			iu.addModifiedItem(itemInstance);
 			player.sendPacket(iu);
-
+			
 			// informations
 			activeChar.sendMessage(MessageTable.Messages[1661].getExtra(1) + player.getName() + MessageTable.Messages[1661].getExtra(2)
-				+ itemInstance.getItem().getName() + MessageTable.Messages[1661].getExtra(3) + old + MessageTable.Messages[1661].getExtra(4) + current + MessageTable.Messages[1661].getExtra(5));
+					+ itemInstance.getItem().getName() + MessageTable.Messages[1661].getExtra(3) + old + MessageTable.Messages[1661].getExtra(4) + current + MessageTable.Messages[1661].getExtra(5));
 			if (player != activeChar)
 			{
 				player.sendMessage(MessageTable.Messages[1662].getExtra(1) + activeChar.getName()+MessageTable.Messages[1662].getExtra(2)
-					+ itemInstance.getItem().getName() + MessageTable.Messages[1662].getExtra(3) + old + MessageTable.Messages[1662].getExtra(4) + current + MessageTable.Messages[1662].getExtra(5));
+						+ itemInstance.getItem().getName() + MessageTable.Messages[1662].getExtra(3) + old + MessageTable.Messages[1662].getExtra(4) + current + MessageTable.Messages[1662].getExtra(5));
 			}
 		}
 	}

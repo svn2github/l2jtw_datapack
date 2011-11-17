@@ -447,15 +447,6 @@ public class AdminAdmin implements IAdminCommandHandler
 		replyMSG.append("<tr><td width=140></td><td width=40></td><td width=40></td></tr>");
 		replyMSG.append("<tr><td><font color=\"00AA00\">"+MessageTable.Messages[1401].getMessage()+"</font></td><td></td><td></td></tr>");
 		replyMSG.append("<tr><td><font color=\"LEVEL\">"+MessageTable.Messages[1402].getMessage()+"</font> = "
-				+ Config.ENCHANT_CHANCE_WEAPON
-				+ "</td><td><edit var=\"param5\" width=40 height=15></td><td><button value=\""+MessageTable.Messages[1398].getMessage()+"\" action=\"bypass -h admin_setconfig EnchantChanceWeapon $param5\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-		replyMSG.append("<tr><td><font color=\"LEVEL\">"+MessageTable.Messages[1403].getMessage()+"</font> = "
-				+ Config.ENCHANT_CHANCE_ARMOR
-				+ "</td><td><edit var=\"param6\" width=40 height=15></td><td><button value=\""+MessageTable.Messages[1398].getMessage()+"\" action=\"bypass -h admin_setconfig EnchantChanceArmor $param6\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-		replyMSG.append("<tr><td><font color=\"LEVEL\">"+MessageTable.Messages[1404].getMessage()+"</font> = "
-				+ Config.ENCHANT_CHANCE_JEWELRY
-				+ "</td><td><edit var=\"param7\" width=40 height=15></td><td><button value=\""+MessageTable.Messages[1398].getMessage()+"\" action=\"bypass -h admin_setconfig EnchantChanceJewelry $param7\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-		replyMSG.append("<tr><td><font color=\"LEVEL\">"+MessageTable.Messages[1405].getMessage()+"</font> = "
 				+ Config.ENCHANT_CHANCE_ELEMENT_STONE
 				+ "</td><td><edit var=\"param8\" width=40 height=15></td><td><button value=\""+MessageTable.Messages[1398].getMessage()+"\" action=\"bypass -h admin_setconfig EnchantChanceElementStone $param8\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 		replyMSG.append("<tr><td><font color=\"LEVEL\">Enchant Element Crystal</font> = "

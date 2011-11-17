@@ -15,7 +15,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -35,7 +35,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -55,7 +55,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -75,7 +75,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -95,7 +95,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -115,7 +115,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -135,7 +135,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -155,7 +155,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -175,7 +175,7 @@
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -247,7 +247,7 @@
 		<set name="duration" val="74" />
 		<set name="useSkillDisTime" val="15" />
 	</item>
-	<item id="14814" type="Armor" name="White Talisman - All Resistance">
+	<item id="14814" type="Armor" name="White Talisman -  All Resistance">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -639,6 +639,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="9625,1,1,100;9626,1,1,80" />
 	</item>
 	<item id="14850" type="EtcItem" name="Droph's Support Items">
@@ -652,6 +653,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="5575,140000,240000,100" />
 	</item>
 	<item id="14851" type="EtcItem" name="Cave Exploration Text 1 Sheet">

@@ -31,7 +31,7 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
-import com.l2jserver.gameserver.templates.item.L2Weapon;
+import com.l2jserver.gameserver.model.item.L2Weapon;
 import com.l2jserver.util.Rnd;
 
 /**

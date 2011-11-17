@@ -50,6 +50,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13015,1,1,100" />
 	</item>
 	<item id="13104" type="EtcItem" name="My Teleport Scroll 30-Sheet Pack">
@@ -63,6 +64,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13016,30,30,100" />
 	</item>
 	<item id="13105" type="EtcItem" name="Kamaloka Entrance Pass 3-Sheet Pack">
@@ -76,6 +78,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13010,5,5,100;13011,5,5,100;13012,5,5,100" />
 	</item>
 	<item id="13106" type="EtcItem" name="Feather of Blessing 3-Sheet Pack">
@@ -131,6 +134,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13010,5,5,100;13011,5,5,100;13012,5,5,100" />
 	</item>
 	<item id="13110" type="EtcItem" name="Kat the Cat Hat 30-Day Pack">
@@ -270,6 +274,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="12793,1,1,100;12794,1,1,100" />
 	</item>
 	<item id="13120" type="EtcItem" name="Rock-Paper-Scissors Stick 30-Day Pack">
@@ -283,6 +288,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="12795,1,1,100;12796,1,1,100;12797,1,1,100" />
 	</item>
 	<item id="13121" type="EtcItem" name="Purple-Maned Horse 7-Day Pack">
@@ -296,6 +302,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13022,1,1,100" />
 	</item>
 	<item id="13122" type="EtcItem" name="Color Name 3-Sheet Pack">
@@ -344,6 +351,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13016,10,10,100" />
 	</item>
 	<item id="13126" type="EtcItem" name="Dimensional Experience Pack - used for events">
@@ -358,6 +366,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13307,1,1,100;13302,10,10,100;13301,1,1,100" />
 	</item>
 	<item id="13127" type="EtcItem" name="Promotional Parcel 2">
@@ -508,7 +517,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -528,7 +537,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="101" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -545,7 +554,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -565,7 +574,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -585,7 +594,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="101" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -602,7 +611,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -622,7 +631,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -642,7 +651,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="101" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -659,7 +668,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -679,7 +688,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -699,7 +708,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -719,7 +728,7 @@
 		<set name="weight" val="530" />
 		<set name="price" val="17500000" />
 		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
 		</cond>
@@ -791,7 +800,7 @@
 			<player instanceId="43,44,45" />
 		</cond>
 	</item>
-	<item id="13153" type="Weapon" name="For PC Cafe - Great Spear - Weapons For PC Cafe">
+	<item id="13153" type="Weapon" name="Player Commendation - Great Spear - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_long_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -819,7 +828,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="13154" type="Weapon" name="For PC Cafe - Falchion - Weapons For PC Cafe">
+	<item id="13154" type="Weapon" name="Player Commendation - Falchion - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_falchion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -844,7 +853,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13155" type="Weapon" name="For PC Cafe - Iron Hammer - Weapons For PC Cafe">
+	<item id="13155" type="Weapon" name="Player Commendation - Iron Hammer - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_iron_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -870,7 +879,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13156" type="Weapon" name="For PC Cafe - Voodoo Doll - Weapons For PC Cafe">
+	<item id="13156" type="Weapon" name="Player Commendation - Voodoo Doll - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -896,7 +905,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13157" type="Weapon" name="For PC Cafe - Flanged Mace - Weapons For PC Cafe">
+	<item id="13157" type="Weapon" name="Player Commendation - Flanged Mace - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_buzdygan_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -922,7 +931,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13158" type="Weapon" name="For PC Cafe - Mage's Wand - Weapons For PC Cafe">
+	<item id="13158" type="Weapon" name="Player Commendation - Mage's Wand - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -949,7 +958,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="13159" type="Weapon" name="For PC Cafe - Sword Breaker - Weapons For PC Cafe">
+	<item id="13159" type="Weapon" name="Player Commendation - Sword Breaker - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_sword_breaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -975,7 +984,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="13160" type="Weapon" name="For PC Cafe - Viper Fang - Weapons For PC Cafe">
+	<item id="13160" type="Weapon" name="Player Commendation - Viper Fang - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_vipers_canine_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1001,7 +1010,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="13161" type="Weapon" name="For PC Cafe - Compound Bow - Weapons For PC Cafe">
+	<item id="13161" type="Weapon" name="Player Commendation - Compound Bow - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_composition_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1029,7 +1038,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="13162" type="Weapon" name="For PC Cafe - Crucifix of Blessing - Weapons For PC Cafe">
+	<item id="13162" type="Weapon" name="Player Commendation - Crucifix of Blessing - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_crucifix_of_blessing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1055,7 +1064,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13163" type="Weapon" name="For PC Cafe - Bastard*Crimson Sword - Weapons For PC Cafe">
+	<item id="13163" type="Weapon" name="Player Commendation - Bastard*Crimson Sword - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1084,7 +1093,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13164" type="Weapon" name="For PC Cafe - Claymore - Weapons For PC Cafe">
+	<item id="13164" type="Weapon" name="Player Commendation - Claymore - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_claymore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1113,7 +1122,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13165" type="Weapon" name="For PC Cafe - Bonebreaker - Weapons For PC Cafe">
+	<item id="13165" type="Weapon" name="Player Commendation - Bonebreaker - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_bonebreaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1143,7 +1152,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13166" type="Weapon" name="For PC Cafe - Atuba Hammer - Weapons For PC Cafe">
+	<item id="13166" type="Weapon" name="Player Commendation - Atuba Hammer - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1174,7 +1183,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13167" type="Weapon" name="For PC Cafe - Ghost's Wand - Weapons For PC Cafe">
+	<item id="13167" type="Weapon" name="Player Commendation - Ghost's Wand - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_ghost_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1205,7 +1214,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13168" type="Weapon" name="For PC Cafe - Hall of Life - Weapons For PC Cafe">
+	<item id="13168" type="Weapon" name="Player Commendation - Hall of Life - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_life_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1236,7 +1245,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13169" type="Weapon" name="For PC Cafe - Atuba Mace - Weapons For PC Cafe">
+	<item id="13169" type="Weapon" name="Player Commendation - Atuba Mace - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_atuba_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1267,7 +1276,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13170" type="Weapon" name="For PC Cafe - Mithril Dagger - Weapons For PC Cafe">
+	<item id="13170" type="Weapon" name="Player Commendation - Mithril Dagger - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1297,7 +1306,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13171" type="Weapon" name="For PC Cafe - Scallop Jamadhr - Weapons For PC Cafe">
+	<item id="13171" type="Weapon" name="Player Commendation - Scallop Jamadhr - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1327,7 +1336,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13172" type="Weapon" name="For PC Cafe - Crossbow - Weapons For PC Cafe">
+	<item id="13172" type="Weapon" name="Player Commendation - Crossbow - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1359,7 +1368,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13173" type="Weapon" name="For PC Cafe - Glaive - Weapons For PC Cafe">
+	<item id="13173" type="Weapon" name="Player Commendation - Glaive - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1391,7 +1400,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13174" type="Weapon" name="For PC Cafe - Elven Long Sword - Weapons For PC Cafe">
+	<item id="13174" type="Weapon" name="Player Commendation - Elven Long Sword - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1420,7 +1429,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13175" type="Weapon" name="For PC Cafe - Grand Epee - Weapons For PC Cafe">
+	<item id="13175" type="Weapon" name="Player Commendation - Grand Epee - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1454,7 +1463,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13176" type="Weapon" name="For PC Cafe - General Katzbalger - Weapons For PC Cafe">
+	<item id="13176" type="Weapon" name="Player Commendation - General  Katzbalger - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1487,7 +1496,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13177" type="Weapon" name="For PC Cafe - Cranequin - Weapons For PC Cafe">
+	<item id="13177" type="Weapon" name="Player Commendation - Cranequin - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1521,7 +1530,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13178" type="Weapon" name="For PC Cafe - Samurai Long Sword - Weapons For PC Cafe">
+	<item id="13178" type="Weapon" name="Player Commendation - Samurai Long Sword - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1552,7 +1561,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13179" type="Weapon" name="For PC Cafe - Ghost's Wand - Weapons For PC Cafe">
+	<item id="13179" type="Weapon" name="Player Commendation - Ghost's Wand - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_deadmans_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1586,7 +1595,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13180" type="Weapon" name="For PC Cafe - Ghoul's Wand - Weapons For PC Cafe">
+	<item id="13180" type="Weapon" name="Player Commendation - Ghoul's Wand - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_ghouls_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1619,7 +1628,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13181" type="Weapon" name="For PC Cafe - Devil's Wand - Weapons For PC Cafe">
+	<item id="13181" type="Weapon" name="Player Commendation - Devil's Wand - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1653,7 +1662,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13182" type="Weapon" name="For PC Cafe - Crystal Dagger - Weapons For PC Cafe">
+	<item id="13182" type="Weapon" name="Player Commendation - Crystal Dagger - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1685,7 +1694,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13183" type="Weapon" name="For PC Cafe - Great Pata - Weapons For PC Cafe">
+	<item id="13183" type="Weapon" name="Player Commendation - Great Pata - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1717,7 +1726,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13184" type="Weapon" name="For PC Cafe - Eminence Bow - Weapons For PC Cafe">
+	<item id="13184" type="Weapon" name="Player Commendation - Eminence Bow - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1751,7 +1760,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13185" type="Weapon" name="For PC Cafe - Orcish Poleaxe - Weapons For PC Cafe">
+	<item id="13185" type="Weapon" name="Player Commendation - Orcish Poleaxe - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1783,7 +1792,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13186" type="Weapon" name="For PC Cafe - Yaksa Mace - Weapons For PC Cafe">
+	<item id="13186" type="Weapon" name="Player Commendation - Yaksa Mace - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1815,7 +1824,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13187" type="Weapon" name="For PC Cafe - Shamshir*Shamshir - Weapons For PC Cafe">
+	<item id="13187" type="Weapon" name="Player Commendation - Shamshir*Shamshir - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1846,7 +1855,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13188" type="Weapon" name="For PC Cafe - Admiral's Estoc - Weapons For PC Cafe">
+	<item id="13188" type="Weapon" name="Player Commendation - Admiral's Estoc - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1882,7 +1891,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13189" type="Weapon" name="For PC Cafe - Saber Tooth - Weapons For PC Cafe">
+	<item id="13189" type="Weapon" name="Player Commendation - Saber Tooth - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1917,7 +1926,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13190" type="Weapon" name="For PC Cafe - Sharpshooter - Weapons For PC Cafe">
+	<item id="13190" type="Weapon" name="Player Commendation - Sharpshooter - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_taslam_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1953,7 +1962,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13191" type="Weapon" name="For PC Cafe - Ecliptic Sword - Weapons For PC Cafe">
+	<item id="13191" type="Weapon" name="Player Commendation - Ecliptic Sword - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_sword_of_eclipse_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1985,7 +1994,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13192" type="Weapon" name="For PC Cafe - Ecliptic Axe - Weapons For PC Cafe">
+	<item id="13192" type="Weapon" name="Player Commendation - Ecliptic Axe - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2019,7 +2028,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13193" type="Weapon" name="For PC Cafe - Dwarven Hammer - Weapons For PC Cafe">
+	<item id="13193" type="Weapon" name="Player Commendation - Dwarven Hammer - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2051,7 +2060,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13194" type="Weapon" name="For PC Cafe - Damascus Sword - Weapons For PC Cafe">
+	<item id="13194" type="Weapon" name="Player Commendation - Damascus Sword - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2082,7 +2091,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13195" type="Weapon" name="For PC Cafe - Lance - Weapons For PC Cafe">
+	<item id="13195" type="Weapon" name="Player Commendation - Lance - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2115,7 +2124,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13196" type="Weapon" name="For PC Cafe - Deadman's Glory - Weapons For PC Cafe">
+	<item id="13196" type="Weapon" name="Player Commendation - Deadman's Glory - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2147,7 +2156,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13197" type="Weapon" name="For PC Cafe - Art of Battle Axe - Weapons For PC Cafe">
+	<item id="13197" type="Weapon" name="Player Commendation - Art of Battle Axe - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2179,7 +2188,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13198" type="Weapon" name="For PC Cafe - Staff of Evil Spirits - Weapons For PC Cafe">
+	<item id="13198" type="Weapon" name="Player Commendation - Staff of Evil Spirits - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2213,7 +2222,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13199" type="Weapon" name="For PC Cafe - Devil's Dagger - Weapons For PC Cafe">
+	<item id="13199" type="Weapon" name="Player Commendation - Devil's Dagger - Player Commendation Weapon">
 		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />

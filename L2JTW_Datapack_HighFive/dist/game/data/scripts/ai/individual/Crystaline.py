@@ -2,7 +2,7 @@ import sys
 from com.l2jserver.gameserver.ai                    import CtrlIntention
 from com.l2jserver.gameserver.datatables            import ItemTable
 from com.l2jserver.gameserver.instancemanager       import InstanceManager
-from com.l2jserver.gameserver.model                 import L2ItemInstance
+from com.l2jserver.gameserver.model.item.instance   import L2ItemInstance
 from com.l2jserver.gameserver.model                 import L2World
 from com.l2jserver.gameserver.model                 import Location
 from com.l2jserver.gameserver.model.quest           import State

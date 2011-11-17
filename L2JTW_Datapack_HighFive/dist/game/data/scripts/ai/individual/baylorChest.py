@@ -1,6 +1,6 @@
 # By Psychokiller1888
 import sys
-from com.l2jserver.gameserver.datatables import ItemTable
+from com.l2jserver.gameserver.datatables  import ItemTable
 from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest

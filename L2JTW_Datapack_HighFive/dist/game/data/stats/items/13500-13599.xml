@@ -235,7 +235,7 @@
 		<set name="material" val="leather" />
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -272,7 +272,7 @@
 		<set name="material" val="bronze" />
 		<set name="weight" val="1300" />
 		<set name="price" val="16900" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -572,7 +572,7 @@
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />
-		<set name="enchant_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -694,7 +694,7 @@
 		<set name="is_premium" val="true" />
 		<set name="item_skill" val="8262-1" />
 	</item>
-	<item id="13548" type="EtcItem" name="Toy Knight Hunting Helper Necklace">
+	<item id="13548" type="EtcItem" name="Toy Knight Summon Whistle">
 		<set name="icon" val="icon.pet_controler_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -711,7 +711,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</item>
-	<item id="13549" type="EtcItem" name="Soul Monk Hunting Helper Necklace">
+	<item id="13549" type="EtcItem" name="Soul Monk Summon Whistle">
 		<set name="icon" val="icon.pet_controler_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -728,7 +728,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</item>
-	<item id="13550" type="EtcItem" name="Owl Monk Hunting Helper Necklace">
+	<item id="13550" type="EtcItem" name="Owl Monk Summon Whistle">
 		<set name="icon" val="icon.pet_controler_i01" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -745,7 +745,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</item>
-	<item id="13551" type="EtcItem" name="Turtle Ascetic Hunting Helper Necklace">
+	<item id="13551" type="EtcItem" name="Turtle Ascetic Summon Whistle">
 		<set name="icon" val="icon.pet_controler_i01" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
