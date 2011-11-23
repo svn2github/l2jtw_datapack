@@ -106,7 +106,7 @@ public class Q10272_LightFragment extends Quest
 			{
 				case State.CREATED:
 					QuestState _prev = player.getQuestState("10271_TheEnvelopingDarkness");
-					if ((_prev != null) && (_prev.getState() == State.COMPLETED) && (player.getLevel() >= 75))
+					if ((_prev != null) && _prev.isCompleted() && (player.getLevel() >= 75))
 						htmltext = "32560-01.htm";
 					else
 						htmltext = "32560-02.htm";
@@ -127,11 +127,9 @@ public class Q10272_LightFragment extends Quest
 		}
 		else if (npc.getNpcId() == ARTIUS)
 		{
-			switch (st.getState())
+			if (st.isCompleted())
 			{
-				case State.COMPLETED:
-					htmltext = "32559-19.htm";
-					break;
+				htmltext = "32559-19.htm";
 			}
 			if (st.getInt("cond") == 1)
 			{
@@ -157,11 +155,11 @@ public class Q10272_LightFragment extends Quest
 					st.set("cond", "6");
 					st.playSound("ItemSound.quest_middle");
 				}
-				else if (st.getQuestItemsCount(FRAGMENT_POWDER) >= 1)
+				else if (st.hasQuestItems(FRAGMENT_POWDER))
 				{
 					htmltext = "32559-14.htm";
 				}
-				else if (st.getQuestItemsCount(FRAGMENT_POWDER) < 1)
+				else if (!st.hasQuestItems(FRAGMENT_POWDER))
 				{
 					htmltext = "32559-13.htm";
 				}
@@ -260,7 +258,7 @@ public class Q10272_LightFragment extends Quest
 			final long count = st.getQuestItemsCount(FRAGMENT_POWDER);
 			if (count < 100)
 			{
-				int chance = (int)(Config.RATE_QUEST_DROP * DROP_CHANCE);
+				int chance = (int) (Config.RATE_QUEST_DROP * DROP_CHANCE);
 				int numItems = chance / 100;
 				chance = chance % 100;
 				if (st.getRandom(100) < chance)
@@ -269,13 +267,11 @@ public class Q10272_LightFragment extends Quest
 				{
 					if (count + numItems >= 100)
 					{
-						numItems = 100 - (int)count;
+						numItems = 100 - (int) count;
 					}
 					else
-					{
-						st.giveItems(FRAGMENT_POWDER, numItems);
 						st.playSound("ItemSound.quest_itemget");
-					}
+					st.giveItems(FRAGMENT_POWDER, numItems);
 				}
 			}
 		}
@@ -295,7 +291,10 @@ public class Q10272_LightFragment extends Quest
 		{
 			addKillId(i);
 		}
-		questItemIds = new int[] {FRAGMENT_POWDER,LIGHT_FRAGMENT_POWDER,};
+		questItemIds = new int[]
+		{
+			FRAGMENT_POWDER, LIGHT_FRAGMENT_POWDER,
+		};
 	}
 	
 	public static void main(String[] args)

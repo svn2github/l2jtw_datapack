@@ -21,35 +21,6 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 	private static final int MEDIBAL_DOCUMENT = 13852;
 	
 	@Override
-	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
-	{
-		String htmltext = event;
-		QuestState st = player.getQuestState(qn);
-		
-		if (st == null)
-			return htmltext;
-		
-		if (event.equalsIgnoreCase("32560-05.htm"))
-		{
-			st.setState(State.STARTED);
-			st.set("cond", "1");
-			st.playSound("ItemSound.quest_accept");
-		}
-		else if (event.equalsIgnoreCase("32556-06.htm"))
-		{
-			st.set("cond", "2");
-			st.playSound("ItemSound.quest_middle");
-		}
-		else if (event.equalsIgnoreCase("32556-09.htm"))
-		{
-			st.set("cond", "4");
-			st.playSound("ItemSound.quest_middle");
-			st.takeItems(MEDIBAL_DOCUMENT, 1);
-		}
-		return htmltext;
-	}
-	
-	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
@@ -64,7 +35,7 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 			{
 				case State.CREATED:
 					QuestState _prev = player.getQuestState("10269_ToTheSeedOfDestruction");
-					if ((_prev != null) && (_prev.getState() == State.COMPLETED) && (player.getLevel() >= 75))
+					if ((_prev != null) && _prev.isCompleted() && (player.getLevel() >= 75))
 						htmltext = "32560-01.htm";
 					else
 						htmltext = "32560-02.htm";
@@ -97,11 +68,9 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 		}
 		else if (npc.getNpcId() == EL)
 		{
-			switch (st.getState())
+			if (st.isCompleted())
 			{
-				case State.COMPLETED:
-					htmltext = "32556-02.htm";
-					break;
+				htmltext = "32556-02.htm";
 			}
 			if (st.getInt("cond") == 1)
 			{
@@ -143,6 +112,35 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 			{
 				htmltext = "32528-03.htm";
 			}
+		}
+		return htmltext;
+	}
+	
+	@Override
+	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	{
+		String htmltext = event;
+		QuestState st = player.getQuestState(qn);
+		
+		if (st == null)
+			return htmltext;
+		
+		if (event.equalsIgnoreCase("32560-05.htm"))
+		{
+			st.setState(State.STARTED);
+			st.set("cond", "1");
+			st.playSound("ItemSound.quest_accept");
+		}
+		else if (event.equalsIgnoreCase("32556-06.htm"))
+		{
+			st.set("cond", "2");
+			st.playSound("ItemSound.quest_middle");
+		}
+		else if (event.equalsIgnoreCase("32556-09.htm"))
+		{
+			st.set("cond", "4");
+			st.playSound("ItemSound.quest_middle");
+			st.takeItems(MEDIBAL_DOCUMENT, 1);
 		}
 		return htmltext;
 	}

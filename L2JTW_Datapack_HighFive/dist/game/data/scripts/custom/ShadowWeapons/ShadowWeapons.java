@@ -38,7 +38,8 @@ public class ShadowWeapons extends Quest
 		31317, 31321, 31324, 31326, 31328, 31331, 31334, 31336, 31965, 31974, 31276,
 		31285, 31958, 31961, 31996, 31968, 31977, 32092, 32093, 32094, 32095, 32096,
 		32097, 32098, 32193, 32196, 32199, 32202, 32205, 32206, 32213, 32214, 32221,
-		32222, 32229, 32230, 32233, 32234 ,30508, 30594, 31279, 31755, 32209, 32210, 32217, 32218, 32225, 32226 // ¸É¥RNPC
+		32222, 32229, 32230, 32233, 32234 ,30508, 30594, 31279, 31755, 32209, 32210, 
+		32217, 32218, 32225, 32226 // ¸É¥RNPC
 	};
 
 	// itemId for shadow weapon coupons, it's not used more than once but increases readability
@@ -64,19 +65,19 @@ public class ShadowWeapons extends Quest
 		if (st == null)
 			return htmltext;
 
-		long has_d = st.getQuestItemsCount(D_COUPON);
-		long has_c = st.getQuestItemsCount(C_COUPON);
+		boolean has_d = st.hasQuestItems(D_COUPON);
+		boolean has_c = st.hasQuestItems(C_COUPON);
 
-		if (has_d > 0 || has_c > 0)
+		if (has_d || has_c)
 		{
 			// let's assume character had both c & d-grade coupons, we'll confirm later
 			String multisell = "306893003";
-			if (has_d < 1)
+			if (!has_d)
 			{
 				// if s/he had c-grade only...
 				multisell = "306893002";
 			}
-			else if (has_c < 1)
+			else if (!has_c)
 			{
 				// or d-grade only.
 				multisell = "306893001";

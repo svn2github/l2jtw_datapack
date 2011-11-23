@@ -319,7 +319,7 @@ public class PailakaDevilsLegacy extends Quest
 	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		final QuestState st = player.getQuestState(qn);
-		if (st != null && npc.getNpcId() == ADVENTURER2 && st.getState() == State.COMPLETED)
+		if (st != null && npc.getNpcId() == ADVENTURER2 && st.isCompleted())
 			return "32511-02.htm";
 		else
 			return npc.getNpcId() + ".htm";
@@ -484,32 +484,30 @@ public class PailakaDevilsLegacy extends Quest
 		if (st == null || st.getState() != State.STARTED)
 			return null;
 
-		final int cond = st.getInt("cond");
-
 		switch (npc.getNpcId())
 		{
 			case KAMS:
-				if (cond == 3)
+				if (st.hasQuestItems(ANCIENT_LEGACY_SWORD) && !st.hasQuestItems(PAILAKA_WEAPON_UPGRADE_STAGE_1))
 				{
 					st.giveItems(PAILAKA_WEAPON_UPGRADE_STAGE_1, 1);
 				}
 				break;
 			case HIKORO:
-				if (cond == 3)
+				if (st.hasQuestItems(ANCIENT_LEGACY_SWORD) && !st.hasQuestItems(PAILAKA_WEAPON_UPGRADE_STAGE_1))
 				{
-					//st.giveItems(PAILAKA_WEAPON_UPGRADE_STAGE_1, 1);
+					st.giveItems(PAILAKA_WEAPON_UPGRADE_STAGE_1, 1);
 				}
 				break;
 			case ALKASO:
-				if (cond == 3)
+				if (st.hasQuestItems(ANCIENT_LEGACY_SWORD) && !st.hasQuestItems(PAILAKA_WEAPON_UPGRADE_STAGE_2) || st.hasQuestItems(ENHANCED_ANCIENT_LEGACY_SWORD) && !st.hasQuestItems(PAILAKA_WEAPON_UPGRADE_STAGE_2))
 				{
 					st.giveItems(PAILAKA_WEAPON_UPGRADE_STAGE_2, 1);
 				}
 				break;
 			case GERBERA:
-				if (cond == 3)
+				if (st.hasQuestItems(ANCIENT_LEGACY_SWORD) && !st.hasQuestItems(PAILAKA_WEAPON_UPGRADE_STAGE_2) || st.hasQuestItems(ENHANCED_ANCIENT_LEGACY_SWORD) && !st.hasQuestItems(PAILAKA_WEAPON_UPGRADE_STAGE_2))
 				{
-					//st.giveItems(PAILAKA_WEAPON_UPGRADE_STAGE_2, 1);
+					st.giveItems(PAILAKA_WEAPON_UPGRADE_STAGE_2, 1);
 				}
 				break;
 			case LEMATAN:

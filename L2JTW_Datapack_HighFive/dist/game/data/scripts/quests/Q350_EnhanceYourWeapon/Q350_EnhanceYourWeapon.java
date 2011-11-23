@@ -124,7 +124,7 @@ public class Q350_EnhanceYourWeapon extends Quest
 	private boolean check(QuestState st)
 	{
 		for (int i = 4629; i < 4665; i++)
-			if (st.getQuestItemsCount(i) > 0)
+			if (st.hasQuestItems(i))
 				return true;
 		return false;
 	}
@@ -137,10 +137,10 @@ public class Q350_EnhanceYourWeapon extends Quest
 			factory.setValidating(false);
 			factory.setIgnoringComments(true);
 			
-			File file = new File(Config.DATAPACK_ROOT + "/data/scripts/quests/Q350_EnhanceYourWeapon/data.xml");
+			File file = new File(Config.DATAPACK_ROOT, "data/levelUpCrystalData.xml");
 			if (!file.exists())
 			{
-				_log.severe("[EnhanceYourWeapon] Missing data.xml. The quest wont work without it!");
+				_log.severe("[EnhanceYourWeapon] Missing levelUpCrystalData.xml. The quest wont work without it!");
 				return;
 			}
 			
@@ -270,7 +270,7 @@ public class Q350_EnhanceYourWeapon extends Quest
 		}
 		catch(Exception e)
 		{
-			_log.log(Level.WARNING, "[EnhanceYourWeapon] Could not parse data.xml file: " + e.getMessage(), e);
+			_log.log(Level.WARNING, "[EnhanceYourWeapon] Could not parse levelUpCrystalData.xml file: " + e.getMessage(), e);
 		}
 		_log.info("[EnhanceYourWeapon] Loaded " + _soulCrystals.size() + " Soul Crystal data.");
 		_log.info("[EnhanceYourWeapon] Loaded " + _npcLevelingInfos.size() + " npc Leveling info data.");
@@ -370,12 +370,8 @@ public class Q350_EnhanceYourWeapon extends Quest
 			}
 		}
 		else if (check(st))
-		{
 			htmltext = npc.getNpcId() + "-03.htm";
-		}
-		else if (st.getQuestItemsCount(RED_SOUL_CRYSTAL0_ID) == 0
-				&& st.getQuestItemsCount(GREEN_SOUL_CRYSTAL0_ID) == 0
-				&& st.getQuestItemsCount(BLUE_SOUL_CRYSTAL0_ID) == 0)
+		else if (!st.hasQuestItems(RED_SOUL_CRYSTAL0_ID) && !st.hasQuestItems(GREEN_SOUL_CRYSTAL0_ID) && !st.hasQuestItems(BLUE_SOUL_CRYSTAL0_ID))
 			htmltext = npc.getNpcId() + "-21.htm";
 		return htmltext;
 	}

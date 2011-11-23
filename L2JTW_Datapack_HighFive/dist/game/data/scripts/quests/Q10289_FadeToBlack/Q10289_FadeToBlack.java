@@ -5,6 +5,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
+import com.l2jserver.gameserver.util.Util;
 
 /**
  * @author Plim
@@ -41,31 +42,17 @@ public class Q10289_FadeToBlack extends Quest
 				st.set("cond", "1");
 				st.playSound("ItemSound.quest_accept");
 			}
-			else if(isNumber(event) && st.getQuestItemsCount(MARK_OF_SPLENDOR) > 0)
+			else if(Util.isDigit(event) && st.hasQuestItems(MARK_OF_SPLENDOR))
 			{
 				int itemId = Integer.parseInt(event);
 				st.takeItems(MARK_OF_SPLENDOR, 1);
 				st.giveItems(itemId, 1);
 				st.playSound("ItemSound.quest_finish");
-				st.exitQuest(true);
+				st.exitQuest(false);
 				htmltext = "32757-08.htm";
 			}
 		}
 		return htmltext;
-	}
-	
-	private boolean isNumber(String str)
-	{
-		if (str == null || str.length() == 0)
-			return false;
-		
-		for (int i = 0; i < str.length(); i++)
-		{
-			if (!Character.isDigit(str.charAt(i)))
-				return false;
-		}
-		
-		return true;
 	}
 
 	@Override
@@ -82,7 +69,7 @@ public class Q10289_FadeToBlack extends Quest
 			switch(st.getState())
 			{
 				case State.CREATED :
-					if (player.getLevel() >= 82 && secretMission != null && secretMission.getState() == State.COMPLETED)
+					if (player.getLevel() >= 82 && secretMission != null && secretMission.isCompleted())
 						htmltext = "32757-02.htm";
 					else if (player.getLevel() < 82)
 						htmltext = "32757-00.htm";
@@ -92,9 +79,10 @@ public class Q10289_FadeToBlack extends Quest
 				case State.STARTED :
 					if (st.getInt("cond") == 1)
 						htmltext = "32757-04b.htm";
-					if (st.getInt("cond") == 2)
+					if (st.getInt("cond") == 2 && st.hasQuestItems(MARK_OF_DARKNESS))
 					{
 						htmltext = "32757-05.htm";
+						st.takeItems(MARK_OF_DARKNESS, 1);
 						player.addExpAndSp(55983, 136500);
 						st.set("cond","1");
 						st.playSound("ItemSound.quest_middle");
@@ -110,35 +98,36 @@ public class Q10289_FadeToBlack extends Quest
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		if(player.getParty() == null)
+		L2PcInstance partyMember = getRandomPartyMember(player,"1");
+		
+		if (partyMember == null)
+			return super.onKill(npc, player, isPet);
+		
+		QuestState st = partyMember.getQuestState(qn);
+		
+		if (st != null)
 		{
-			QuestState st = player.getQuestState(qn);
 			st.giveItems(MARK_OF_SPLENDOR, 1);
 			st.playSound("ItemSound.quest_itemget");
 			st.set("cond","3");
 		}
-		else
+		
+		if (player.getParty() != null)
 		{
-			L2PcInstance partyMember = getRandomPartyMember(player,"1");
-			QuestState st1 = partyMember.getQuestState(qn);
-			st1.giveItems(MARK_OF_SPLENDOR, 1);
-			st1.playSound("ItemSound.quest_itemget");
-			st1.set("cond","3");
-			
-			
 			QuestState st2;
 			for(L2PcInstance pmember : player.getParty().getPartyMembers())
 			{
-				if(pmember.getObjectId() != partyMember.getObjectId() && st1.getInt("cond") == 1)
+				st2 = pmember.getQuestState(qn);
+				
+				if(st2 != null && st2.getInt("cond") == 1 && pmember.getObjectId() != partyMember.getObjectId())
 				{
-					st2 = pmember.getQuestState(qn);
 					st2.giveItems(MARK_OF_DARKNESS, 1);
 					st2.playSound("ItemSound.quest_itemget");
 					st2.set("cond","2");
 				}
 			}
 		}
-
+		
 		return super.onKill(npc, player, isPet);
 	}
 	
