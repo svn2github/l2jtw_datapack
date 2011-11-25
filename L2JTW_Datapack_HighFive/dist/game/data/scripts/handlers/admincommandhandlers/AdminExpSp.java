@@ -23,10 +23,8 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
-
 
 /**
  * This class handles following admin commands:
@@ -91,7 +89,7 @@ public class AdminExpSp implements IAdminCommandHandler
 			player = (L2PcInstance) target;
 		else
 		{
-			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 			return;
 		}
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
@@ -114,7 +112,7 @@ public class AdminExpSp implements IAdminCommandHandler
 		}
 		else
 		{
-			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 			return false;
 		}
 		StringTokenizer st = new StringTokenizer(ExpSp);
@@ -168,7 +166,7 @@ public class AdminExpSp implements IAdminCommandHandler
 		}
 		else
 		{
-			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 			return false;
 		}
 		StringTokenizer st = new StringTokenizer(ExpSp);

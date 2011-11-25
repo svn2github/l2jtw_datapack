@@ -24,7 +24,6 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
@@ -86,78 +85,78 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 					{
 						activeChar.sendMessage(1497);
 					}
-					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.FRIEND_LIST_FOOTER));
+					activeChar.sendPacket(SystemMessageId.FRIEND_LIST_FOOTER);
 				}
 			}
 			else
 			{
-                            final Collection<CursedWeapon> cws = cwm.getCursedWeapons();
-                            final StringBuilder replyMSG =
-                                    new StringBuilder(cws.size() * 300);
-                            NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
-                            adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/cwinfo.htm");
-                            for (CursedWeapon cw : cwm.getCursedWeapons()) {
-                                itemId = cw.getItemId();
-
-                                StringUtil.append(replyMSG,
-                                        "<table width=270><tr><td>"+MessageTable.Messages[1498].getMessage()+"</td><td>",
-                                        cw.getName(),
-                                        "</td></tr>");
-
-                                if (cw.isActivated()) {
-                                    L2PcInstance pl = cw.getPlayer();
-                                    StringUtil.append(replyMSG,
-                                            "<tr><td>"+MessageTable.Messages[1499].getMessage()+"</td><td>",
-                                            (pl == null ? MessageTable.Messages[1500].getMessage() : pl.getName()),
-                                            "</td></tr>" +
-                                            "<tr><td>"+MessageTable.Messages[1501].getMessage()+"</td><td>",
-                                            String.valueOf(cw.getPlayerKarma()),
-                                            "</td></tr>" +
-                                            "<tr><td>"+MessageTable.Messages[1502].getMessage()+"</td><td>",
-                                            String.valueOf(cw.getPlayerPkKills()),
-                                            "/",
-                                            String.valueOf(cw.getNbKills()),
-                                            "</td></tr>" +
-                                            "<tr><td>"+MessageTable.Messages[1503].getMessage()+"</td><td>",
-                                            String.valueOf(cw.getTimeLeft() / 60000),
-                                            MessageTable.Messages[1504].getMessage()+"</td></tr>" +
-                                            "<tr><td><button value=\""+MessageTable.Messages[1505].getMessage()+"\" action=\"bypass -h admin_cw_remove ",
-                                            String.valueOf(itemId),
-                                            "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
-                                            "<td><button value=\""+MessageTable.Messages[1506].getMessage()+"\" action=\"bypass -h admin_cw_goto ",
-                                            String.valueOf(itemId),
-                                            "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>"
-                                            );
-                                }
-                                else if (cw.isDropped()) {
-                                    StringUtil.append(replyMSG,
-                                            "<tr><td>"+MessageTable.Messages[1507].getMessage()+"</td><td>"+MessageTable.Messages[1508].getMessage()+"</td></tr>" +
-                                            "<tr><td>"+MessageTable.Messages[1503].getMessage()+"</td><td>",
-                                            String.valueOf(cw.getTimeLeft() / 60000),
-                                            MessageTable.Messages[1504].getMessage()+"</td></tr>" +
-                                            "<tr><td>"+MessageTable.Messages[1502].getMessage()+"</td><td>",
-                                            String.valueOf(cw.getNbKills()),
-                                            "</td></tr>" +
-                                            "<tr><td><button value=\""+MessageTable.Messages[1505].getMessage()+"\" action=\"bypass -h admin_cw_remove ",
-                                            String.valueOf(itemId),
-                                            "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
-                                            "<td><button value=\""+MessageTable.Messages[1506].getMessage()+"\" action=\"bypass -h admin_cw_goto ",
-                                            String.valueOf(itemId),
-                                            "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>"
-                                            );
-                                } else {
-                                    StringUtil.append(replyMSG,
-                                            "<tr><td>"+MessageTable.Messages[1507].getMessage()+"</td><td>"+MessageTable.Messages[1509].getMessage()+"</td></tr>" +
-                                            "<tr><td><button value=\""+MessageTable.Messages[1510].getMessage()+"\" action=\"bypass -h admin_cw_add ",
-                                            String.valueOf(itemId),
-                                            "\" width=130 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr>"
-                                            );
-                                }
-
-                                replyMSG.append("</table><br>");
-                            }
-                            adminReply.replace("%cwinfo%", replyMSG.toString());
-                            activeChar.sendPacket(adminReply);
+				final Collection<CursedWeapon> cws = cwm.getCursedWeapons();
+				final StringBuilder replyMSG =
+					new StringBuilder(cws.size() * 300);
+				NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
+				adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/cwinfo.htm");
+				for (CursedWeapon cw : cwm.getCursedWeapons()) {
+					itemId = cw.getItemId();
+					
+					StringUtil.append(replyMSG,
+							"<table width=270><tr><td>"+MessageTable.Messages[1498].getMessage()+"</td><td>",
+							cw.getName(),
+					"</td></tr>");
+					
+					if (cw.isActivated()) {
+						L2PcInstance pl = cw.getPlayer();
+						StringUtil.append(replyMSG,
+								"<tr><td>"+MessageTable.Messages[1499].getMessage()+"</td><td>",
+								(pl == null ? MessageTable.Messages[1500].getMessage() : pl.getName()),
+								"</td></tr>" +
+								"<tr><td>"+MessageTable.Messages[1501].getMessage()+"</td><td>",
+								String.valueOf(cw.getPlayerKarma()),
+								"</td></tr>" +
+								"<tr><td>"+MessageTable.Messages[1502].getMessage()+"</td><td>",
+								String.valueOf(cw.getPlayerPkKills()),
+								"/",
+								String.valueOf(cw.getNbKills()),
+								"</td></tr>" +
+								"<tr><td>"+MessageTable.Messages[1503].getMessage()+"</td><td>",
+								String.valueOf(cw.getTimeLeft() / 60000),
+								MessageTable.Messages[1504].getMessage()+"</td></tr>" +
+								"<tr><td><button value=\""+MessageTable.Messages[1505].getMessage()+"\" action=\"bypass -h admin_cw_remove ",
+								String.valueOf(itemId),
+								"\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
+								"<td><button value=\""+MessageTable.Messages[1506].getMessage()+"\" action=\"bypass -h admin_cw_goto ",
+								String.valueOf(itemId),
+								"\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>"
+						);
+					}
+					else if (cw.isDropped()) {
+						StringUtil.append(replyMSG,
+								"<tr><td>"+MessageTable.Messages[1507].getMessage()+"</td><td>"+MessageTable.Messages[1508].getMessage()+"</td></tr>" +
+								"<tr><td>"+MessageTable.Messages[1503].getMessage()+"</td><td>",
+								String.valueOf(cw.getTimeLeft() / 60000),
+								MessageTable.Messages[1504].getMessage()+"</td></tr>" +
+								"<tr><td>"+MessageTable.Messages[1502].getMessage()+"</td><td>",
+								String.valueOf(cw.getNbKills()),
+								"</td></tr>" +
+								"<tr><td><button value=\""+MessageTable.Messages[1505].getMessage()+"\" action=\"bypass -h admin_cw_remove ",
+								String.valueOf(itemId),
+								"\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
+								"<td><button value=\""+MessageTable.Messages[1506].getMessage()+"\" action=\"bypass -h admin_cw_goto ",
+								String.valueOf(itemId),
+								"\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>"
+						);
+					} else {
+						StringUtil.append(replyMSG,
+								"<tr><td>"+MessageTable.Messages[1507].getMessage()+"</td><td>"+MessageTable.Messages[1509].getMessage()+"</td></tr>" +
+								"<tr><td><button value=\""+MessageTable.Messages[1510].getMessage()+"\" action=\"bypass -h admin_cw_add ",
+								String.valueOf(itemId),
+								"\" width=130 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr>"
+						);
+					}
+					
+					replyMSG.append("</table><br>");
+				}
+				adminReply.replace("%cwinfo%", replyMSG.toString());
+				activeChar.sendPacket(adminReply);
 			}
 		}
 		else if (command.startsWith("admin_cw_reload"))

@@ -358,12 +358,12 @@ public class CrystalCaverns extends Quest
 		L2Party party = player.getParty();
 		if (party == null)
 		{
-			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER));
+			player.sendPacket(SystemMessageId.NOT_IN_PARTY_CANT_ENTER);
 			return false;
 		}
 		if (party.getLeader() != player)
 		{
-			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER));
+			player.sendPacket(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER);
 			return false;
 		}
 		for (L2PcInstance partyMember : party.getPartyMembers())
@@ -409,12 +409,12 @@ public class CrystalCaverns extends Quest
 		L2Party party = player.getParty();
 		if (party == null)
 		{
-			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER));
+			player.sendPacket(SystemMessageId.NOT_IN_PARTY_CANT_ENTER);
 			return false;
 		}
 		if (party.getLeader() != player)
 		{
-			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER));
+			player.sendPacket(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER);
 			return false;
 		}
 		for (L2PcInstance partyMember : party.getPartyMembers())
@@ -443,12 +443,12 @@ public class CrystalCaverns extends Quest
 		L2Party party = player.getParty();
 		if (party == null)
 		{
-			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER));
+			player.sendPacket(SystemMessageId.NOT_IN_PARTY_CANT_ENTER);
 			return false;
 		}
 		if (party.getLeader() != player)
 		{
-			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER));
+			player.sendPacket(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER);
 			return false;
 		}
 		for (L2PcInstance partyMember : party.getPartyMembers())
@@ -539,7 +539,7 @@ public class CrystalCaverns extends Quest
 		{
 			if (!(world instanceof CCWorld))
 			{
-				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER);
 				return 0;
 			}
 			teleto.instanceId = world.instanceId;

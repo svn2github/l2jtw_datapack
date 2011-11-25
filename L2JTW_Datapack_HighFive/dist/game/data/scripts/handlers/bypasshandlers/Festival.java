@@ -323,7 +323,7 @@ public class Festival implements IBypassHandler
 					case 0: // Distribute Accumulated Bonus
 						if (!SevenSigns.getInstance().isSealValidationPeriod())
 						{
-							activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.SETTLE_ACCOUNT_ONLY_IN_SEAL_VALIDATION));
+							activeChar.sendPacket(SystemMessageId.SETTLE_ACCOUNT_ONLY_IN_SEAL_VALIDATION);
 							return true;
 						}
 						

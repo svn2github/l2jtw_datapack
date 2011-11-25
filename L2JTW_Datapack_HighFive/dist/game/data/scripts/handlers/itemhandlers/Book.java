@@ -42,7 +42,7 @@ public class Book implements IItemHandler
 		if (content == null)
 		{
 			NpcHtmlMessage html = new NpcHtmlMessage(1);
-			html.setHtml("<html><body>"+MessageTable.Messages[1114].getMessage()+"<br>" + filename + "</body></html>");
+			html.setHtml("<html><body>"+ MessageTable.Messages[1114].getMessage() +"<br>" + filename + "</body></html>");
 			activeChar.sendPacket(html);
 		}
 		else

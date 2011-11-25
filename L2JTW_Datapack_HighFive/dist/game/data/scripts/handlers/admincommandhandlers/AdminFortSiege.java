@@ -25,7 +25,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Fort;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
 
 
@@ -79,7 +78,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 			if (command.equalsIgnoreCase("admin_add_fortattacker"))
 			{
 				if (player == null)
-					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
+					activeChar.sendPacket(SystemMessageId.TARGET_IS_INCORRECT);
 				else
 				{
 					if (fort.getSiege().checkIfCanRegister(player))
@@ -101,7 +100,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 			else if (command.equalsIgnoreCase("admin_setfort"))
 			{
 				if (player == null || player.getClan() == null)
-					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
+					activeChar.sendPacket(SystemMessageId.TARGET_IS_INCORRECT);
 				else
 					fort.setOwner(player.getClan(), false);
 			}
@@ -132,31 +131,29 @@ public class AdminFortSiege implements IAdminCommandHandler
 		int i = 0;
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/forts.htm");
-
+		
 		final List<Fort> forts = FortManager.getInstance().getForts();
 		final StringBuilder cList = new StringBuilder(forts.size() * 100);
-
-		for (Fort fort : forts)
-		{
-			if (fort != null)
-			{
+		
+		for (Fort fort : forts) {
+			if (fort != null) {
 				StringUtil.append(cList,
-					"<td fixwidth=90><a action=\"bypass -h admin_fortsiege ",
-					String.valueOf(fort.getFortId()),
-					"\">",
-					fort.getCName(),  //Update by pmq
-					" ID: ",
-					String.valueOf(fort.getFortId()),
-					"</a></td>");
-					i++;
+						"<td fixwidth=90><a action=\"bypass -h admin_fortsiege ",
+						String.valueOf(fort.getFortId()),
+						"\">",
+						fort.getCName(),  //Update by pmq
+						" ID: ",
+						String.valueOf(fort.getFortId()),
+				"</a></td>");
+				i++;
 			}
-
+			
 			if (i > 0) { //Update by rocknow
 				cList.append("</tr><tr>");
 				i = 0;
 			}
 		}
-
+		
 		adminReply.replace("%forts%", cList.toString());
 		activeChar.sendPacket(adminReply);
 	}

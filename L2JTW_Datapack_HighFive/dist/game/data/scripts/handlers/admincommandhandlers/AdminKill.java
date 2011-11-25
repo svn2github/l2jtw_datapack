@@ -25,7 +25,6 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2ControllableMobInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
@@ -114,7 +113,7 @@ public class AdminKill implements IAdminCommandHandler
 			{
 				L2Object obj = activeChar.getTarget();
 				if (obj instanceof L2ControllableMobInstance || !(obj instanceof L2Character))
-					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 				else
 					kill(activeChar, (L2Character) obj);
 			}

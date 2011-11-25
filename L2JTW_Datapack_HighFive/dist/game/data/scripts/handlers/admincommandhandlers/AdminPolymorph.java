@@ -24,7 +24,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
@@ -50,7 +49,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 	{
 		if (activeChar.isMounted())
 		{
-			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_CANNOT_POLYMORPH_WHILE_RIDING_A_PET));
+			activeChar.sendPacket(SystemMessageId.YOU_CANNOT_POLYMORPH_WHILE_RIDING_A_PET);
 			return false;
 		}
 		
@@ -63,7 +62,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			}
 			else
 			{
-				activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+				activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 			}
 		}
 		else if (command.startsWith("admin_transform"))
@@ -98,7 +97,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			}
 			else
 			{
-				activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+				activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 			}
 		}
 		if (command.startsWith("admin_polymorph"))
@@ -165,7 +164,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			activeChar.sendMessage(1801);
 		}
 		else
-			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 	}
 	
 	/**
@@ -182,7 +181,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			activeChar.sendMessage(1802);
 		}
 		else
-			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
+			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 	}
 	
 	private void showMainPage(L2PcInstance activeChar, String command)
