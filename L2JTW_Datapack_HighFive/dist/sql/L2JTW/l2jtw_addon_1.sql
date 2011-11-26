@@ -159,7 +159,7 @@ DELETE FROM `merchant_buylists` WHERE `shop_id` IN ( SELECT `shop_id` FROM `merc
 DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980);
 
 -- 刪除村莊的彩券商人,因為官服沒有彩券商人
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30993,30994);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30992,30993,30994);
 
 -- 刪除其中一隻轉職管理員(不定時改刪另一個)
 -- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
@@ -4500,3 +4500,19 @@ UPDATE npcaidata SET enemyRange = 500, clanRange = 500 WHERE npcId = 22767;
 
 UPDATE npc SET type = 'L2Monster' WHERE id IN (18847, 18848, 18849, 18850, 18851, 18853, 18854, 18855, 18856, 18926, 18930, 22767);
 UPDATE npc SET aggro = 300 WHERE id IN (18847, 18930, 22767);
+
+-- 嗨翻天版本 修正傳送資料
+DELETE FROM `teleport` WHERE `id` IN (63,107,102,69,1060,1071,1072,1073,1074,1045,1140,1141);
+REPLACE INTO `teleport` VALUES
+('Giran Harbor -> Giran Town',63,83551,147942,-3400,5200,0,57),
+('Giran Harbor -> Heine',107,111455,219400,-3544,7100,0,57),
+('Hunters -> Ivory Tower',102,85391,16228,-3672,13000,0,57),
+('Hunters -> Dragon Valley',69,73024,118485,-3688,1800,0,57),
+('Hunters -> Antharas Lair',1060,131557,114509,-3712,7000,0,57),
+('Oren -> Goddard',1071,148024,-55281,-2728,37000,0,57),
+('Oren -> Heine',1072,111455,219400,-3544,50000,0,57),
+('Oren -> Dion',1073,15472,142880,-2688,33000,0,57),
+('Oren -> Schuttgart',1074,87126,-143520,-1288,59000,0,57),
+('Gludio -> Isle of Souls Harbor',1045,-74016,51932,-3680,9300,0,57), -- 古魯丁城鎮 -> 英魂之島 港口 - 9300 金幣 NPC 30256
+('Aden -> Isle of Souls Harbor',1140,-74016,51932,-3680,22000,0,57), -- 亞丁城鎮 -> 英魂之島 港口 - 22000 金幣 NPC 30848
+('Aden -> Ivory Tower',1141,85391,16228,-3672,6200,0,57); -- 亞丁城鎮 -> 象牙塔 - 6200 金幣 NPC 30848

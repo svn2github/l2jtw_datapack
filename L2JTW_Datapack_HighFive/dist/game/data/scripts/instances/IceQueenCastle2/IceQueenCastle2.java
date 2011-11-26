@@ -1278,7 +1278,7 @@ public class IceQueenCastle2 extends Quest
 		{
 			if (!(world instanceof FreyaWorld))
 			{
-				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER);
 				return;
 			}
 			teleportPlayer(player, (FreyaWorld) world);

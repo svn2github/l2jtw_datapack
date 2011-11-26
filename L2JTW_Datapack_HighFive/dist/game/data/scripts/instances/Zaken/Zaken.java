@@ -394,7 +394,7 @@ public class Zaken extends L2AttackableAIScript
 		{
 			if (!(world instanceof ZWorld) )
 			{
-				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER);
 				return 0;
 			}
 			teleportPlayer(player, spawnLocs, (ZWorld) world);
