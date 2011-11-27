@@ -57,7 +57,6 @@ public class IceQueen_Kegor extends Quest
 		
 		public KegorWorld()
 		{
-			
 		}
 	}
 	
@@ -73,12 +72,13 @@ public class IceQueen_Kegor extends Quest
 	
 	private static final int BUFF = 6286;
 	
-	private static final int[][] MOB_SPAWNS = {
+	private static final int[][] MOB_SPAWNS =
+	{
 		{ 185216, -184112, -3308, -15396 },
 		{ 185456, -184240, -3308, -19668 },
 		{ 185712, -184384, -3308, -26696 },
 		{ 185920, -184544, -3308, -32544 },
-		{ 185664, -184720, -3308, 27892 },
+		{ 185664, -184720, -3308, -27892 }
 	};
 	
 	private static final int[] ENTRY_POINT = { 186852, -173492, -3763 };
@@ -227,18 +227,16 @@ public class IceQueen_Kegor extends Quest
 				}
 			}
 		}
-		
 		return null;
 	}
 	
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		int npcId = npc.getNpcId();
 		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		
 		QuestState hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
 		
+		int npcId = npc.getNpcId();
 		if (hostQuest == null)
 		{
 			System.out.println("null host quest");
@@ -248,7 +246,7 @@ public class IceQueen_Kegor extends Quest
 		if (npcId == KROON || npcId == TAROON)
 		{
 			teleCoord tele = new teleCoord();
-			tele.x = ENTRY_POINT[0];      
+			tele.x = ENTRY_POINT[0];
 			tele.y = ENTRY_POINT[1];
 			tele.z = ENTRY_POINT[2];
 			
