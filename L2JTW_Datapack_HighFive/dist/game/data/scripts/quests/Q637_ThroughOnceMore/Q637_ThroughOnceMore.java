@@ -75,7 +75,7 @@ public final class Q637_ThroughOnceMore extends Quest
 	{
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
-			return getNoQuestMsg(player);
+			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
 		final byte id = st.getState();
 		if (id == State.CREATED)
@@ -113,7 +113,7 @@ public final class Q637_ThroughOnceMore extends Quest
 			else
 				return "32010-04.htm";
 		}
-		return getNoQuestMsg(player);
+		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 	}
 	
 	@Override

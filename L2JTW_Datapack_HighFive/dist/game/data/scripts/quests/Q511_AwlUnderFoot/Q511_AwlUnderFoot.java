@@ -269,7 +269,7 @@ public final class Q511_AwlUnderFoot extends Quest
 	@Override
 	public String onTalk (L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = Quest.getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st = player.getQuestState(qn);
 		String ret = checkFortCondition(player, npc, false);
 		if (ret != null)

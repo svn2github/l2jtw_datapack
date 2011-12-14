@@ -156,10 +156,10 @@ public final class Q692_HowtoOpposeEvil extends Quest
 	{
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
-			return getNoQuestMsg(player);
+			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
 		final int cond = st.getInt("cond");
-		String htmltext = "";
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		if (st.isCreated())
 		{
 			if (player.getLevel() >= 75)

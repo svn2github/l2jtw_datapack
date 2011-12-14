@@ -75,7 +75,7 @@ public final class Q636_TruthBeyond extends Quest
 	{
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
-			return getNoQuestMsg(player);
+			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
 		if (npc.getNpcId() == ELIAH)
 		{
@@ -105,7 +105,7 @@ public final class Q636_TruthBeyond extends Quest
 				return "32010-03.htm";
 			}
 		}
-		return getNoQuestMsg(player);
+		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 	}
 	
 	@Override

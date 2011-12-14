@@ -78,7 +78,7 @@ public class Q552_OlympiadVeteran extends Quest
 	@Override
 	public String onTalk(final L2Npc npc, final L2PcInstance player)
 	{
-		String htmltext = super.getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 			return htmltext;

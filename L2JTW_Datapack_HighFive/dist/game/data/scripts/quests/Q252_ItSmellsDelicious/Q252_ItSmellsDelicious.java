@@ -91,7 +91,7 @@ public class Q252_ItSmellsDelicious extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 		{
