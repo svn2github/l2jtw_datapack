@@ -1,0 +1,24 @@
+<Event ID="Christmas" Active="15 Dec 2011-6 Jan 2012">
+	<Droplist>
+		<AllDrop Items="5556,5557"
+			Count="1,1"
+			Chance="3.5%">
+		</AllDrop>
+		<AllDrop Items="5558"
+			Count="1,1"
+			Chance="8%">
+		</AllDrop>
+		<AllDrop Items="5559"
+			Count="1,1"
+			Chance="1%">
+		</AllDrop>
+		<AllDrop Items="5562,5563,5564,5565,5566"
+			Count="1,1"
+			Chance="2%">
+		</AllDrop>
+	</Droplist>
+	<Message 
+		Type="OnJoin"
+		Msg="Christmas Event: All the mobs on server have a chance of dropping Christmas tree parts and Holiday Carol Echo Crystals. See the Santa's Helpers in every town for more informations or to trade your Christmas tree parts!">
+	</Message>
+</Event>
