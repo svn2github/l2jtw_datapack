@@ -357,7 +357,7 @@ public class SavingSanta extends Quest
 			if (isSantaFree)
 			{
 				this.startQuestTimer("SantaSpawn", 120000, null, null);
-				for (L2PcInstance pl : L2World.getInstance().getAllPlayers().values())
+				for (L2PcInstance pl : L2World.getInstance().getAllPlayersArray())
 				{
 					if (pl.isOnline() && (pl.getLevel() >= 20) && pl.isInCombat() && !pl.isInsideZone(L2Character.ZONE_PEACE) && !pl.isFlyingMounted())
 					{
