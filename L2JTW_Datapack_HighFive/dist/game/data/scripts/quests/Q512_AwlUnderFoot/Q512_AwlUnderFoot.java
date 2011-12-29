@@ -73,7 +73,7 @@ public final class Q512_AwlUnderFoot extends Quest
 		}
 	}
 	
-	private static final String qn = "Q512_AwlUnderFoot";
+	private static final String qn = "512_AwlUnderFoot";
 	private static final boolean debug = false;
 	private static final long REENTERTIME = 14400000;
 	private static final long RAID_SPAWN_DELAY = 120000;

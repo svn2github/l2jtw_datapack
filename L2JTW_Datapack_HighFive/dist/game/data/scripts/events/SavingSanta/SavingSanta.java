@@ -729,7 +729,7 @@ public class SavingSanta extends Quest
 				
 				for (ItemHolder item : _requiredItems)
 				{
-					player.getInventory().destroyItem(event, item.getId(), item.getCount(), player, npc);
+					player.getInventory().destroyItemByItemId(event, item.getId(), item.getCount(), player, npc);
 				}
 				player.getInventory().addItem(event, X_MAS_TREE1, 1, player, npc);
 			}
@@ -769,7 +769,7 @@ public class SavingSanta extends Quest
 				{
 					return "";
 				}
-				player.getInventory().destroyItem(event, X_MAS_TREE1, 10, player, npc);
+				player.getInventory().destroyItemByItemId(event, X_MAS_TREE1, 10, player, npc);
 				player.getInventory().addItem(event, X_MAS_TREE2, 1, player, npc);
 			}
 			else if (event.equalsIgnoreCase("SantaHat"))
@@ -806,7 +806,7 @@ public class SavingSanta extends Quest
 				{
 					return "";
 				}
-				player.getInventory().destroyItem(event, X_MAS_TREE1, 10, player, npc);
+				player.getInventory().destroyItemByItemId(event, X_MAS_TREE1, 10, player, npc);
 				player.getInventory().addItem(event, SantasHatId, 1, player, npc);
 			}
 			// FIXME: Unhardcore html!
@@ -875,12 +875,12 @@ public class SavingSanta extends Quest
 			{
 				if (player.getInventory().getInventoryItemCount(BR_XMAS_WPN_TICKET_JACKPOT, -1) > 0)
 				{
-					player.getInventory().destroyItem(event, BR_XMAS_WPN_TICKET_JACKPOT, 1, player, npc);
+					player.getInventory().destroyItemByItemId(event, BR_XMAS_WPN_TICKET_JACKPOT, 1, player, npc);
 					player.getInventory().addItem(event, RANDOM_A_PLUS_10_WEAPON[Rnd.get(RANDOM_A_PLUS_10_WEAPON.length)], 1, player, npc).setEnchantLevel(10);
 					return "";
 				}
 				
-				if ((player.getInventory().getInventoryItemCount(BR_XMAS_WPN_TICKET_NORMAL, -1) > 0) || (player.getLevel() < 20))
+				if ((player.getInventory().getInventoryItemCount(BR_XMAS_WPN_TICKET_NORMAL, -1) <= 0) || (player.getLevel() < 20))
 				{
 					return "";
 				}
@@ -903,7 +903,7 @@ public class SavingSanta extends Quest
 				}
 				
 				itemId += (BR_XMAS_WPN_TICKET_JACKPOT + (grade * 14));
-				player.getInventory().destroyItem(event, BR_XMAS_WPN_TICKET_NORMAL, 1, player, npc);
+				player.getInventory().destroyItemByItemId(event, BR_XMAS_WPN_TICKET_NORMAL, 1, player, npc);
 				player.getInventory().addItem(event, RANDOM_A_PLUS_10_WEAPON[Rnd.get(RANDOM_A_PLUS_10_WEAPON.length)], 1, player, npc).setEnchantLevel(Rnd.get(4, 16));
 			}
 		}

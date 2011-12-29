@@ -28,7 +28,7 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public final class Q692_HowtoOpposeEvil extends Quest
 {
-	private static final String qn = "Q692_HowtoOpposeEvil";
+	private static final String qn = "692_HowtoOpposeEvil";
 	private static final int DILIOS = 32549;
 	private static final int LEKONS_CERTIFICATE = 13857;
 	private static final int[] QUEST_ITEMS = { 13863, 13864, 13865, 13866, 13867, 15535, 15536 };
@@ -154,12 +154,13 @@ public final class Q692_HowtoOpposeEvil extends Quest
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return htmltext;
 		
 		final int cond = st.getInt("cond");
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		
 		if (st.isCreated())
 		{
 			if (player.getLevel() >= 75)

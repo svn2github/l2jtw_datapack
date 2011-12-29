@@ -27,7 +27,7 @@ import com.l2jserver.gameserver.network.serverpackets.RadarControl;
 
 public class Q307_ControlDeviceOfTheGiants extends Quest
 {
-	private static final String qn = "Q307_ControlDeviceOfTheGiants";
+	private static final String qn = "307_ControlDeviceOfTheGiants";
 	// NPC
 	private final static int DROPH = 32711;
 	// RB
