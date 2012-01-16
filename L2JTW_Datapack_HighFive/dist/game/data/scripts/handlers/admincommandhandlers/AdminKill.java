@@ -46,6 +46,7 @@ public class AdminKill implements IAdminCommandHandler
 		"admin_kill_monster"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.startsWith("admin_kill"))
@@ -81,10 +82,7 @@ public class AdminKill implements IAdminCommandHandler
 							return false;
 						}
 					}
-					else
-					{
-						kill(activeChar, plyr);
-					}
+					kill(activeChar, plyr);
 				}
 				else
 				{
@@ -151,6 +149,7 @@ public class AdminKill implements IAdminCommandHandler
 			_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ")" + " killed character " + target.getObjectId());
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

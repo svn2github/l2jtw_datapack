@@ -35,6 +35,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
+	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
 		if (!AdminCommandAccessRights.getInstance().hasAccess(command, activeChar.getAccessLevel()))
@@ -96,7 +97,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 						activeChar.sendMessage(1193);
 						return false;
 					}
-
+					
 					player.setPunishLevel(L2PcInstance.PunishLevel.CHAT, length);
 					player.sendMessage(MessageTable.Messages[1194].getMessage() + activeChar.getName());
 
@@ -140,7 +141,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					}
 					
 					player.setPunishLevel(L2PcInstance.PunishLevel.NONE, 0);
-
+					
 					activeChar.sendMessage(MessageTable.Messages[1195].getExtra(1) + player.getName() + MessageTable.Messages[1195].getExtra(5));
 					player.sendMessage(MessageTable.Messages[1200].getMessage() + activeChar.getName());
 				}
@@ -158,6 +159,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
 	 */
+	@Override
 	public String[] getVoicedCommandList()
 	{
 		return VOICED_COMMANDS;

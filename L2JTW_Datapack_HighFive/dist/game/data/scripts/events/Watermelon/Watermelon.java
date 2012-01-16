@@ -699,6 +699,7 @@ public class Watermelon extends Quest
 
 	static {
 		Arrays.sort(DROPLIST, new Comparator<int[]>() {
+			@Override
 			public int compare(int[] a, int[] b) { return a[0] - b[0]; }
 		});
 	}

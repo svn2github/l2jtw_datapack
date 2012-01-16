@@ -135,44 +135,41 @@ public final class Q512_AwlUnderFoot extends Quest
 			return "";
 		}
 		//New instance
+		if (ret != null)
+			return ret;
+		ret = checkConditions(player);
+		if (ret != null)
+			return ret;
+		L2Party party = player.getParty();
+		int instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		Instance ins = InstanceManager.getInstance().getInstance(instanceId);
+		ins.setSpawnLoc(new int[]{player.getX(),player.getY(),player.getZ()});
+		world = new CAUWorld();
+		world.instanceId = instanceId;
+		world.templateId = dungeon.getInstanceId();
+		world.status = 0;
+		dungeon.setReEnterTime(System.currentTimeMillis() + REENTERTIME);
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("Castle AwlUnderFoot started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		ThreadPoolManager.getInstance().scheduleGeneral(new spawnRaid((CAUWorld) world), RAID_SPAWN_DELAY);
+
+		// teleport players
+		if (player.getParty() == null)
+		{
+			teleportPlayer(player, coords, instanceId);
+			world.allowed.add(player.getObjectId());
+		}
 		else
 		{
-			if (ret != null)
-				return ret;
-			ret = checkConditions(player);
-			if (ret != null)
-				return ret;
-			L2Party party = player.getParty();
-			int instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			Instance ins = InstanceManager.getInstance().getInstance(instanceId);
-			ins.setSpawnLoc(new int[]{player.getX(),player.getY(),player.getZ()});
-			world = new CAUWorld();
-			world.instanceId = instanceId;
-			world.templateId = dungeon.getInstanceId();
-			world.status = 0;
-			dungeon.setReEnterTime(System.currentTimeMillis() + REENTERTIME);
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("Castle AwlUnderFoot started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			ThreadPoolManager.getInstance().scheduleGeneral(new spawnRaid((CAUWorld) world), RAID_SPAWN_DELAY);
-
-			// teleport players
-			if (player.getParty() == null)
+			for (L2PcInstance partyMember : party.getPartyMembers())
 			{
-				teleportPlayer(player, coords, instanceId);
-				world.allowed.add(player.getObjectId());
+				teleportPlayer(partyMember, coords, instanceId);
+				world.allowed.add(partyMember.getObjectId());
+				if (partyMember.getQuestState(qn) == null)
+					newQuestState(partyMember);
 			}
-			else
-			{
-				for (L2PcInstance partyMember : party.getPartyMembers())
-				{
-					teleportPlayer(partyMember, coords, instanceId);
-					world.allowed.add(partyMember.getObjectId());
-					if (partyMember.getQuestState(qn) == null)
-						newQuestState(partyMember);
-				}
-			}
-			return getHtm(player.getHtmlPrefix(), "CastleWarden-08.htm").replace("%clan%", player.getClan().getName());
 		}
+		return getHtm(player.getHtmlPrefix(), "CastleWarden-08.htm").replace("%clan%", player.getClan().getName());
 	}
 	
 	private class spawnRaid  implements Runnable
@@ -184,6 +181,7 @@ public final class Q512_AwlUnderFoot extends Quest
 			_world = world;
 		}
 		
+		@Override
 		public void run()
 		{
 			try

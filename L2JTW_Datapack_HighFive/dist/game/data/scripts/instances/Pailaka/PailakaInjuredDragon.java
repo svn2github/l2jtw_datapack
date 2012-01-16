@@ -403,8 +403,7 @@ public class PailakaInjuredDragon extends Quest
 				giveBuff(npc, player, BUFFS[nr - 1][0], BUFFS[nr - 1][1]);
 				return "32509-06a.htm";
 			}
-			else
-				return "32509-05.htm";
+			return "32509-05.htm";
 		}
 		else if (event.equalsIgnoreCase("latana_animation"))
 		{
@@ -475,8 +474,7 @@ public class PailakaInjuredDragon extends Quest
 			case KETRA_ORC_SUPPORTER:
 				if (cond > 2)
 					return "32502-05.htm";
-				else
-					return "32502-00.htm";
+				return "32502-00.htm";
 			case KETRA_ORC_INTELIGENCE_OFFICER:
 				return "32509-00.htm";
 			case KETRA_ORC_SUPPORTER2:
@@ -910,6 +908,7 @@ public class PailakaInjuredDragon extends Quest
 			_instanceId = id;
 		}
 		
+		@Override
 		public void run()
 		{
 			try

@@ -75,10 +75,7 @@ public class RemoveDeathPenalty implements IBypassHandler
 							activeChar.sendPacket(new EtcStatusUpdate(activeChar));
 							return true;
 						}
-						else
-						{
-							replyMSG.append(MessageTable.Messages[1023].getMessage());
-						}
+						replyMSG.append(MessageTable.Messages[1023].getMessage());
 					}
 					else
 					{

@@ -219,7 +219,7 @@ public class AdminCreateItem implements IAdminCommandHandler
 		}
 		
 		target.getInventory().addItem("Admin", id, num, activeChar, null);
-
+		
 		if (activeChar != target)
 			target.sendMessage(MessageTable.Messages[1485].getExtra(1) + num + MessageTable.Messages[1485].getExtra(2)+template.getName()+MessageTable.Messages[1485].getExtra(3));
 		activeChar.sendMessage(MessageTable.Messages[1486].getExtra(1) + num + MessageTable.Messages[1486].getExtra(2)+template.getName()+MessageTable.Messages[1486].getExtra(3) + id + MessageTable.Messages[1486].getExtra(4)+target.getName()+MessageTable.Messages[1486].getExtra(5));

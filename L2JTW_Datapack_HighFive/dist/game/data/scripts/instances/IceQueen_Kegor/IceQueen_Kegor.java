@@ -130,28 +130,25 @@ public class IceQueen_Kegor extends Quest
 			teleportplayer(player,teleto);
 			return instanceId;
 		}
-		else
-		{
-			//New instance
-			if (!checkConditions(player))
-				return 0;
-			
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			final Instance inst = InstanceManager.getInstance().getInstance(instanceId);
-			inst.setSpawnLoc(new int[] { player.getX(), player.getY(), player.getZ() });
-			world = new KegorWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			
-			((KegorWorld)world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("KegorWorld started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			teleto.instanceId = instanceId;
-			teleportplayer(player,teleto);
-			world.allowed.add(player.getObjectId());
-			return instanceId;
-		}
+		//New instance
+		if (!checkConditions(player))
+			return 0;
+		
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		final Instance inst = InstanceManager.getInstance().getInstance(instanceId);
+		inst.setSpawnLoc(new int[] { player.getX(), player.getY(), player.getZ() });
+		world = new KegorWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		
+		((KegorWorld)world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("KegorWorld started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		teleto.instanceId = instanceId;
+		teleportplayer(player,teleto);
+		world.allowed.add(player.getObjectId());
+		return instanceId;
 	}
 	
 	@Override
@@ -359,7 +356,7 @@ public class IceQueen_Kegor extends Quest
 			{
 				if (world.liveMobs != null)
 				{
-					world.liveMobs.remove((L2Attackable) npc);
+					world.liveMobs.remove(npc);
 					if (world.liveMobs.isEmpty() && world.KEGOR != null && !world.KEGOR.isDead() && hostQuest.getInt("progress") == 2)
 					{
 						world.underAttack = false;

@@ -110,8 +110,7 @@ public final class Q637_ThroughOnceMore extends Quest
 				st.playSound("ItemSound.quest_finish");
 				return "32010-05.htm";
 			}
-			else
-				return "32010-04.htm";
+			return "32010-04.htm";
 		}
 		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 	}

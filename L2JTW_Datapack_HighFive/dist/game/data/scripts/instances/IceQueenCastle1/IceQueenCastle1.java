@@ -120,279 +120,228 @@ public class IceQueenCastle1 extends Quest
 			
 			if (event.equalsIgnoreCase("check_guards"))
 			{
-				if (world != null)
+				if ((world._freya_guard1 == null || world._freya_guard1.isDead()) && getQuestTimer("spawn_ice_guard1", null, player) == null)
 				{
-					if ((world._freya_guard1 == null || world._freya_guard1.isDead()) && getQuestTimer("spawn_ice_guard1", null, player) == null)
-					{
-						startQuestTimer("spawn_ice_guard1", 30000, null, player);
-					}
-					if ((world._freya_guard2 == null || world._freya_guard2.isDead()) && getQuestTimer("spawn_ice_guard2", null, player) == null)
-					{
-						startQuestTimer("spawn_ice_guard2", 30000, null, player);
-					}
-					if ((world._freya_guard3 == null || world._freya_guard3.isDead()) && getQuestTimer("spawn_ice_guard3", null, player) == null)
-					{
-						startQuestTimer("spawn_ice_guard3", 30000, null, player);
-					}
-					if ((world._freya_guard4 == null || world._freya_guard4.isDead()) && getQuestTimer("spawn_ice_guard4", null, player) == null)
-					{
-						startQuestTimer("spawn_ice_guard4", 30000, null, player);
-					}
-					if ((world._freya_guard5 == null || world._freya_guard5.isDead()) && getQuestTimer("spawn_ice_guard5", null, player) == null)
-					{
-						startQuestTimer("spawn_ice_guard5", 30000, null, player);
-					}
-					
-					if ((world._jinia_guard1 == null || world._jinia_guard1.isDead()) && getQuestTimer("spawn_guard1", null, player) == null)
-					{
-						startQuestTimer("spawn_guard1", 60000, null, player);
-					}
-					else
-					{
-						world._jinia_guard1.stopHating(player);
-					}
-					if ((world._jinia_guard2 == null || world._jinia_guard2.isDead()) && getQuestTimer("spawn_guard2", null, player) == null)
-					{
-						startQuestTimer("spawn_guard2", 45000, null, player);
-					}
-					else
-					{
-						world._jinia_guard2.stopHating(player);
-					}
-					if ((world._jinia_guard3 == null || world._jinia_guard3.isDead()) && getQuestTimer("spawn_guard3", null, player) == null)
-					{
-						startQuestTimer("spawn_guard3", 45000, null, player);
-					}
-					else
-					{
-						world._jinia_guard3.stopHating(player);
-					}
-					if ((world._jinia_guard4 == null || world._jinia_guard4.isDead()) && getQuestTimer("spawn_guard4", null, player) == null)
-					{
-						startQuestTimer("spawn_guard4", 60000, null, player);
-					}
-					else
-					{
-						world._jinia_guard4.stopHating(player);
-					}
-					if ((world._jinia_guard5 == null || world._jinia_guard5.isDead()) && getQuestTimer("spawn_guard5", null, player) == null)
-					{
-						startQuestTimer("spawn_guard5", 45000, null, player);
-					}
-					else
-					{
-						world._jinia_guard5.stopHating(player);
-					}
-					if ((world._jinia_guard6 == null || world._jinia_guard6.isDead()) && getQuestTimer("spawn_guard6", null, player) == null)
-					{
-						startQuestTimer("spawn_guard6", 45000, null, player);
-					}
-					else
-					{
-						world._jinia_guard6.stopHating(player);
-					}
+					startQuestTimer("spawn_ice_guard1", 30000, null, player);
+				}
+				if ((world._freya_guard2 == null || world._freya_guard2.isDead()) && getQuestTimer("spawn_ice_guard2", null, player) == null)
+				{
+					startQuestTimer("spawn_ice_guard2", 30000, null, player);
+				}
+				if ((world._freya_guard3 == null || world._freya_guard3.isDead()) && getQuestTimer("spawn_ice_guard3", null, player) == null)
+				{
+					startQuestTimer("spawn_ice_guard3", 30000, null, player);
+				}
+				if ((world._freya_guard4 == null || world._freya_guard4.isDead()) && getQuestTimer("spawn_ice_guard4", null, player) == null)
+				{
+					startQuestTimer("spawn_ice_guard4", 30000, null, player);
+				}
+				if ((world._freya_guard5 == null || world._freya_guard5.isDead()) && getQuestTimer("spawn_ice_guard5", null, player) == null)
+				{
+					startQuestTimer("spawn_ice_guard5", 30000, null, player);
+				}
+				
+				if ((world._jinia_guard1 == null || world._jinia_guard1.isDead()) && getQuestTimer("spawn_guard1", null, player) == null)
+				{
+					startQuestTimer("spawn_guard1", 60000, null, player);
+				}
+				else
+				{
+					world._jinia_guard1.stopHating(player);
+				}
+				if ((world._jinia_guard2 == null || world._jinia_guard2.isDead()) && getQuestTimer("spawn_guard2", null, player) == null)
+				{
+					startQuestTimer("spawn_guard2", 45000, null, player);
+				}
+				else
+				{
+					world._jinia_guard2.stopHating(player);
+				}
+				if ((world._jinia_guard3 == null || world._jinia_guard3.isDead()) && getQuestTimer("spawn_guard3", null, player) == null)
+				{
+					startQuestTimer("spawn_guard3", 45000, null, player);
+				}
+				else
+				{
+					world._jinia_guard3.stopHating(player);
+				}
+				if ((world._jinia_guard4 == null || world._jinia_guard4.isDead()) && getQuestTimer("spawn_guard4", null, player) == null)
+				{
+					startQuestTimer("spawn_guard4", 60000, null, player);
+				}
+				else
+				{
+					world._jinia_guard4.stopHating(player);
+				}
+				if ((world._jinia_guard5 == null || world._jinia_guard5.isDead()) && getQuestTimer("spawn_guard5", null, player) == null)
+				{
+					startQuestTimer("spawn_guard5", 45000, null, player);
+				}
+				else
+				{
+					world._jinia_guard5.stopHating(player);
+				}
+				if ((world._jinia_guard6 == null || world._jinia_guard6.isDead()) && getQuestTimer("spawn_guard6", null, player) == null)
+				{
+					startQuestTimer("spawn_guard6", 45000, null, player);
+				}
+				else
+				{
+					world._jinia_guard6.stopHating(player);
 				}
 			}
 			else if (event.equalsIgnoreCase("spawn_ice_guard1"))
 			{
-				if (world != null)
-				{
-					world._freya_guard1 = (L2Attackable) addSpawn(_ice_knight, 114713, -115109, -11198, 16456, false, 0, false, world.instanceId);
-					L2Character target = getRandomTargetFreya(world);
-					((L2Attackable) world._freya_guard1).addDamageHate(target, 9999, 9999);
-					world._freya_guard1.setRunning();
-					world._freya_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._freya_guard1 = (L2Attackable) addSpawn(_ice_knight, 114713, -115109, -11198, 16456, false, 0, false, world.instanceId);
+				L2Character target = getRandomTargetFreya(world);
+				world._freya_guard1.addDamageHate(target, 9999, 9999);
+				world._freya_guard1.setRunning();
+				world._freya_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_ice_guard2"))
 			{
-				if (world != null)
-				{
-					world._freya_guard2 = (L2Attackable) addSpawn(_ice_knight, 114008, -115080, -11198, 3568, false, 0, false, world.instanceId);
-					L2Character target = getRandomTargetFreya(world);
-					((L2Attackable) world._freya_guard2).addDamageHate(target, 9999, 9999);
-					world._freya_guard2.setRunning();
-					world._freya_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._freya_guard2 = (L2Attackable) addSpawn(_ice_knight, 114008, -115080, -11198, 3568, false, 0, false, world.instanceId);
+				L2Character target = getRandomTargetFreya(world);
+				world._freya_guard2.addDamageHate(target, 9999, 9999);
+				world._freya_guard2.setRunning();
+				world._freya_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_ice_guard3"))
 			{
-				if (world != null)
-				{
-					world._freya_guard3 = (L2Attackable) addSpawn(_ice_knight, 114422, -115508, -11198, 12400, false, 0, false, world.instanceId);
-					L2Character target = getRandomTargetFreya(world);
-					((L2Attackable) world._freya_guard3).addDamageHate(target, 9999, 9999);
-					world._freya_guard3.setRunning();
-					world._freya_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._freya_guard3 = (L2Attackable) addSpawn(_ice_knight, 114422, -115508, -11198, 12400, false, 0, false, world.instanceId);
+				L2Character target = getRandomTargetFreya(world);
+				world._freya_guard3.addDamageHate(target, 9999, 9999);
+				world._freya_guard3.setRunning();
+				world._freya_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_ice_guard4"))
 			{
-				if (world != null)
-				{
-					world._freya_guard4 = (L2Attackable) addSpawn(_ice_knight, 115023, -115508, -11198, 20016, false, 0, false, world.instanceId);
-					L2Character target = getRandomTargetFreya(world);
-					((L2Attackable) world._freya_guard4).addDamageHate(target, 9999, 9999);
-					world._freya_guard4.setRunning();
-					world._freya_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._freya_guard4 = (L2Attackable) addSpawn(_ice_knight, 115023, -115508, -11198, 20016, false, 0, false, world.instanceId);
+				L2Character target = getRandomTargetFreya(world);
+				world._freya_guard4.addDamageHate(target, 9999, 9999);
+				world._freya_guard4.setRunning();
+				world._freya_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_ice_guard5"))
 			{
-				if (world != null)
-				{
-					world._freya_guard5 = (L2Attackable) addSpawn(_ice_knight, 115459, -115079, -11198, 27936, false, 0, false, world.instanceId);
-					L2Character target = getRandomTargetFreya(world);
-					((L2Attackable) world._freya_guard5).addDamageHate(target, 9999, 9999);
-					world._freya_guard5.setRunning();
-					world._freya_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._freya_guard5 = (L2Attackable) addSpawn(_ice_knight, 115459, -115079, -11198, 27936, false, 0, false, world.instanceId);
+				L2Character target = getRandomTargetFreya(world);
+				world._freya_guard5.addDamageHate(target, 9999, 9999);
+				world._freya_guard5.setRunning();
+				world._freya_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_guard1"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard1 = (L2Attackable) addSpawn(_jinia_guard1, 114861, -113615, -11198, -21832, false, 0, false, world.instanceId);
-					world._jinia_guard1.setRunning();
-					L2Character target = getRandomTargetGuard(world);
-					((L2Attackable) world._jinia_guard1).addDamageHate(target, 9999, 9999);
-					world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._jinia_guard1 = (L2Attackable) addSpawn(_jinia_guard1, 114861, -113615, -11198, -21832, false, 0, false, world.instanceId);
+				world._jinia_guard1.setRunning();
+				L2Character target = getRandomTargetGuard(world);
+				world._jinia_guard1.addDamageHate(target, 9999, 9999);
+				world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_guard2"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard2 = (L2Attackable) addSpawn(_jinia_guard2, 114950, -113647, -11198, -20880, false, 0, false, world.instanceId);
-					world._jinia_guard2.setRunning();
-					L2Character target = getRandomTargetGuard(world);
-					((L2Attackable) world._jinia_guard2).addDamageHate(target, 9999, 9999);
-					world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._jinia_guard2 = (L2Attackable) addSpawn(_jinia_guard2, 114950, -113647, -11198, -20880, false, 0, false, world.instanceId);
+				world._jinia_guard2.setRunning();
+				L2Character target = getRandomTargetGuard(world);
+				world._jinia_guard2.addDamageHate(target, 9999, 9999);
+				world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_guard3"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard3 = (L2Attackable) addSpawn(_jinia_guard3, 115041, -113694, -11198, -22440, false, 0, false, world.instanceId);
-					world._jinia_guard3.setRunning();
-					L2Character target = getRandomTargetGuard(world);
-					((L2Attackable) world._jinia_guard3).addDamageHate(target, 9999, 9999);
-					world._jinia_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._jinia_guard3 = (L2Attackable) addSpawn(_jinia_guard3, 115041, -113694, -11198, -22440, false, 0, false, world.instanceId);
+				world._jinia_guard3.setRunning();
+				L2Character target = getRandomTargetGuard(world);
+				world._jinia_guard3.addDamageHate(target, 9999, 9999);
+				world._jinia_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_guard4"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard4 = (L2Attackable) addSpawn(_jinia_guard1, 114633, -113619, -11198, -12224, false, 0, false, world.instanceId);
-					world._jinia_guard4.setRunning();
-					L2Character target = getRandomTargetGuard(world);
-					((L2Attackable) world._jinia_guard4).addDamageHate(target, 9999, 9999);
-					world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._jinia_guard4 = (L2Attackable) addSpawn(_jinia_guard1, 114633, -113619, -11198, -12224, false, 0, false, world.instanceId);
+				world._jinia_guard4.setRunning();
+				L2Character target = getRandomTargetGuard(world);
+				world._jinia_guard4.addDamageHate(target, 9999, 9999);
+				world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_guard5"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard5 = (L2Attackable) addSpawn(_jinia_guard2, 114540, -113654, -11198, -12880, false, 0, false, world.instanceId);
-					world._jinia_guard5.setRunning();
-					L2Character target = getRandomTargetGuard(world);
-					((L2Attackable) world._jinia_guard5).addDamageHate(target, 9999, 9999);
-					world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._jinia_guard5 = (L2Attackable) addSpawn(_jinia_guard2, 114540, -113654, -11198, -12880, false, 0, false, world.instanceId);
+				world._jinia_guard5.setRunning();
+				L2Character target = getRandomTargetGuard(world);
+				world._jinia_guard5.addDamageHate(target, 9999, 9999);
+				world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("spawn_guard6"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard6 = (L2Attackable) addSpawn(_jinia_guard3, 114446, -113698, -11198, -11264, false, 0, false, world.instanceId);
-					world._jinia_guard6.setRunning();
-					L2Character target = getRandomTargetGuard(world);
-					((L2Attackable) world._jinia_guard6).addDamageHate(target, 9999, 9999);
-					world._jinia_guard6.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				world._jinia_guard6 = (L2Attackable) addSpawn(_jinia_guard3, 114446, -113698, -11198, -11264, false, 0, false, world.instanceId);
+				world._jinia_guard6.setRunning();
+				L2Character target = getRandomTargetGuard(world);
+				world._jinia_guard6.addDamageHate(target, 9999, 9999);
+				world._jinia_guard6.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("call_freya_skill"))
 			{
-				if (world != null)
+				// call freya skill
+				L2Object target = world._freya.getTarget();
+				if (target != null && player != null && target.getObjectId() == player.getObjectId() && !world._freya.isCastingNow())
 				{
-					// call freya skill
-					L2Object target = world._freya.getTarget();
-					if (target != null && player != null && target.getObjectId() == player.getObjectId() && !world._freya.isCastingNow())
+					if (Rnd.get(100) < 40)
 					{
-						if (Rnd.get(100) < 40)
-						{
-							world._freya.doCast(SkillTable.getInstance().getInfo(6278, 1));
-						}
+						world._freya.doCast(SkillTable.getInstance().getInfo(6278, 1));
 					}
 				}
 			}
 			else if (event.equalsIgnoreCase("go_guards"))
 			{
-				if (world != null)
-				{
-					NpcSay ns = new NpcSay(world._jinia_guard1.getObjectId(), 0, world._jinia_guard1.getNpcId(), NpcStringId.S1_MAY_THE_PROTECTION_OF_THE_GODS_BE_UPON_YOU);
-					ns.addStringParameter(player.getAppearance().getVisibleName());
-					player.sendPacket(ns);
-					
-					world._jinia_guard1.setRunning();
-					world._jinia_guard2.setRunning();
-					world._jinia_guard3.setRunning();
-					world._jinia_guard4.setRunning();
-					world._jinia_guard5.setRunning();
-					world._jinia_guard6.setRunning();
-					world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114673, -113374, -11200, 0));
-					world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114745, -113383, -11200, 0));
-					world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114711, -113382, -11200, 0));
-					world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114662, -113382, -11200, 0));
+				NpcSay ns = new NpcSay(world._jinia_guard1.getObjectId(), 0, world._jinia_guard1.getNpcId(), NpcStringId.S1_MAY_THE_PROTECTION_OF_THE_GODS_BE_UPON_YOU);
+				ns.addStringParameter(player.getAppearance().getVisibleName());
+				player.sendPacket(ns);
 				
-					startQuestTimer("go_fight", 3000, null, player);
-				}
+				world._jinia_guard1.setRunning();
+				world._jinia_guard2.setRunning();
+				world._jinia_guard3.setRunning();
+				world._jinia_guard4.setRunning();
+				world._jinia_guard5.setRunning();
+				world._jinia_guard6.setRunning();
+				world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114673, -113374, -11200, 0));
+				world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114745, -113383, -11200, 0));
+				world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114711, -113382, -11200, 0));
+				world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114662, -113382, -11200, 0));
+		
+				startQuestTimer("go_fight", 3000, null, player);
 			}
 			else if (event.equalsIgnoreCase("go_fight"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114673, -114324, -11200, 0));
-					world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114745, -114324, -11200, 0));
-					world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114711, -114324, -11200, 0));
-					world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114662, -114324, -11200, 0));
-					world._jinia_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(115041, -114324, -11200, 0));
-					world._jinia_guard6.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114446, -114324, -11200, 0));
-					
-					world._freya_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114713, -114920, -11200, 0));
-					world._freya_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114008, -114920, -11200, 0));
-					world._freya_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114422, -114920, -11200, 0));
-					world._freya_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(115023, -114920, -11200, 0));
-					world._freya_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(115459, -114920, -11200, 0));
-					world._freya.setRunning();
-					world._freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114722, -114798, -11205, 15956));
-					startQuestTimer("freya", 17000, null, player);
-					startQuestTimer("go_fight2", 7000, null, player);
-				}
+				world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114673, -114324, -11200, 0));
+				world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114745, -114324, -11200, 0));
+				world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114711, -114324, -11200, 0));
+				world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114662, -114324, -11200, 0));
+				world._jinia_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(115041, -114324, -11200, 0));
+				world._jinia_guard6.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114446, -114324, -11200, 0));
+				
+				world._freya_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114713, -114920, -11200, 0));
+				world._freya_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114008, -114920, -11200, 0));
+				world._freya_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114422, -114920, -11200, 0));
+				world._freya_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(115023, -114920, -11200, 0));
+				world._freya_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(115459, -114920, -11200, 0));
+				world._freya.setRunning();
+				world._freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114722, -114798, -11205, 15956));
+				startQuestTimer("freya", 17000, null, player);
+				startQuestTimer("go_fight2", 7000, null, player);
 			}
 			else if (event.equalsIgnoreCase("go_fight2"))
 			{
-				if (world != null)
-				{
-					world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
-					world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
-					world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
-					world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
-					world._jinia_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
-					world._jinia_guard6.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
-				}
+				world._jinia_guard1.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
+				world._jinia_guard4.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
+				world._jinia_guard2.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
+				world._jinia_guard5.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
+				world._jinia_guard3.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
+				world._jinia_guard6.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, getRandomTargetGuard(world));
 			}
 			else if (event.equalsIgnoreCase("freya"))
 			{
-				if (world != null)
-				{
-					L2Character target = getRandomTargetFreya(world);
-					((L2Attackable) world._freya).addDamageHate(target, 9999, 9999);
-					world._freya.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-				}
+				L2Character target = getRandomTargetFreya(world);
+				world._freya.addDamageHate(target, 9999, 9999);
+				world._freya.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 			}
 			else if (event.equalsIgnoreCase("end_inst"))
 			{
@@ -409,16 +358,13 @@ public class IceQueenCastle1 extends Quest
 				cancelQuestTimer("spawn_ice_guard4", null, player);
 				cancelQuestTimer("spawn_ice_guard5", null, player);
 				cancelQuestTimer("call_freya_skill", null, player);
-				if (world != null)
-				{
-					world._freya.abortAttack();
-					world._freya.abortCast();
-					world._freya.setTarget(player);
-					world._freya.doCast(SkillTable.getInstance().getInfo(6275, 1));
-					startQuestTimer("movie", 7000, null, player);
-					NpcSay ns1 = new NpcSay(world._freya.getObjectId(), 1, world._freya.getNpcId(), NpcStringId.I_CAN_NO_LONGER_STAND_BY);
-					player.sendPacket(ns1);
-				}
+				world._freya.abortAttack();
+				world._freya.abortCast();
+				world._freya.setTarget(player);
+				world._freya.doCast(SkillTable.getInstance().getInfo(6275, 1));
+				startQuestTimer("movie", 7000, null, player);
+				NpcSay ns1 = new NpcSay(world._freya.getObjectId(), 1, world._freya.getNpcId(), NpcStringId.I_CAN_NO_LONGER_STAND_BY);
+				player.sendPacket(ns1);
 			}
 			else if (event.equalsIgnoreCase("movie"))
 			{
@@ -437,10 +383,7 @@ public class IceQueenCastle1 extends Quest
 				player.showQuestMovie(21);
 				player.setInstanceId(0);
 				player.teleToLocation(113851, -108987, -837);
-				if (world != null)
-				{
-					InstanceManager.getInstance().destroyInstance(world.instanceId);
-				}
+				InstanceManager.getInstance().destroyInstance(world.instanceId);
 			}
 		}
 		return null;
@@ -472,28 +415,25 @@ public class IceQueenCastle1 extends Quest
 			return instanceId;
 		}
 		//New instance
-		else
-		{
-			if (!checkCond(player))
-				return 0;
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new IQWorld();
-			
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			
-			world.allowed.add(player.getObjectId());
-			
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("Freya started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			teleto.instanceId = instanceId;
-			teleportplayer(player,teleto);
-			world.allowed.add(player.getObjectId());
-			spawnFirst((IQWorld) world);
-			
-			return instanceId;
-		}
+		if (!checkCond(player))
+			return 0;
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new IQWorld();
+		
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		
+		world.allowed.add(player.getObjectId());
+		
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("Freya started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		teleto.instanceId = instanceId;
+		teleportplayer(player,teleto);
+		world.allowed.add(player.getObjectId());
+		spawnFirst((IQWorld) world);
+		
+		return instanceId;
 	}
 	
 	@Override
@@ -616,8 +556,7 @@ public class IceQueenCastle1 extends Quest
 		}
 		if (npcList.size() > 0)
 			return npcList.get(Rnd.get(npcList.size()-1));
-		else
-			return null;
+		return null;
 	}
 	
 	private L2Npc getRandomTargetGuard(IQWorld world)
@@ -651,8 +590,7 @@ public class IceQueenCastle1 extends Quest
 		}
 		if (npcList.size() > 0)
 			return npcList.get(Rnd.get(npcList.size()-1));
-		else
-			return null;
+		return null;
 	}
 	
 	public IceQueenCastle1(int questId, String name, String descr)

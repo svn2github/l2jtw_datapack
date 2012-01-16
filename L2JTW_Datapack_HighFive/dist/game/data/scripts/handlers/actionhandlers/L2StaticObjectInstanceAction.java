@@ -28,50 +28,61 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class L2StaticObjectInstanceAction implements IActionHandler
 {
-	public boolean action(L2PcInstance activeChar, L2Object target, boolean interact)
+	@Override
+	public boolean action(final L2PcInstance activeChar, final L2Object target, final boolean interact)
 	{
-		if(((L2StaticObjectInstance)target).getType() < 0)
-			_log.info("L2StaticObjectInstance: StaticObject with invalid type! StaticObjectId: "+((L2StaticObjectInstance)target).getStaticObjectId());
+		final L2StaticObjectInstance staticObject = (L2StaticObjectInstance) target;
+		if (staticObject.getType() < 0)
+		{
+			_log.info("L2StaticObjectInstance: StaticObject with invalid type! StaticObjectId: " + staticObject.getStaticObjectId());
+		}
 		
 		// Check if the L2PcInstance already target the L2NpcInstance
-		if (activeChar.getTarget() != target)
+		if (activeChar.getTarget() != staticObject)
 		{
 			// Set the target of the L2PcInstance activeChar
-			activeChar.setTarget(target);
-			activeChar.sendPacket(new MyTargetSelected(target.getObjectId(), 0));
+			activeChar.setTarget(staticObject);
+			activeChar.sendPacket(new MyTargetSelected(staticObject.getObjectId(), 0));
 		}
 		else if (interact)
 		{
-			activeChar.sendPacket(new MyTargetSelected(target.getObjectId(), 0));
+			activeChar.sendPacket(new MyTargetSelected(staticObject.getObjectId(), 0));
 			
 			// Calculate the distance between the L2PcInstance and the L2NpcInstance
-			if (!activeChar.isInsideRadius(target, L2Npc.INTERACTION_DISTANCE, false, false))
+			if (!activeChar.isInsideRadius(staticObject, L2Npc.INTERACTION_DISTANCE, false, false))
 			{
 				// Notify the L2PcInstance AI with AI_INTENTION_INTERACT
-				activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
+				activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, staticObject);
 			}
 			else
 			{
-				if(((L2StaticObjectInstance)target).getType() == 2)
+				if (staticObject.getType() == 2)
 				{
-					String filename = "data/html/signboard.htm";
-					String content = HtmCache.getInstance().getHtm(activeChar.getHtmlPrefix(), filename);
-					NpcHtmlMessage html = new NpcHtmlMessage(target.getObjectId());
+					final String filename = (staticObject.getStaticObjectId() == 24230101) ? "data/html/signboards/pvp_signboard.htm" : "data/html/signboards/tomb_of_crystalgolem.htm";
+					final String content = HtmCache.getInstance().getHtm(activeChar.getHtmlPrefix(), filename);
+					final NpcHtmlMessage html = new NpcHtmlMessage(staticObject.getObjectId());
 					
 					if (content == null)
+					{
 						html.setHtml("<html><body>"+ MessageTable.Messages[1355].getMessage() +"<br>"+filename+"</body></html>");
+					}
 					else
+					{
 						html.setHtml(content);
+					}
 					
 					activeChar.sendPacket(html);
 				}
-				else if(((L2StaticObjectInstance)target).getType() == 0)
-					activeChar.sendPacket(((L2StaticObjectInstance)target).getMap());
+				else if (staticObject.getType() == 0)
+				{
+					activeChar.sendPacket(staticObject.getMap());
+				}
 			}
 		}
 		return true;
 	}
 	
+	@Override
 	public InstanceType getInstanceType()
 	{
 		return InstanceType.L2StaticObjectInstance;

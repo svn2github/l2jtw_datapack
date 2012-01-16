@@ -120,21 +120,18 @@ public class Q198_SevenSignEmbryo extends Quest
 			teleportplayer(player,teleto);
 			return instanceId;
 		}
-		else
-		{
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new HoDWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			((HoDWorld)world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("HideoutoftheDawn started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			teleto.instanceId = instanceId;
-			teleportplayer(player,teleto);
-			world.allowed.add(player.getObjectId());
-			return instanceId;
-		}
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new HoDWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		((HoDWorld)world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("HideoutoftheDawn started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		teleto.instanceId = instanceId;
+		teleportplayer(player,teleto);
+		world.allowed.add(player.getObjectId());
+		return instanceId;
 	}
 	
 	@Override
@@ -205,19 +202,13 @@ public class Q198_SevenSignEmbryo extends Quest
 						startQuestTimer("aiplayer", 20000, npc, player);
 						return null;
 					}
-					else
-					{
-						npc.setTarget(player);
-						npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
-						startQuestTimer("aiplayer", 20000, npc, player);
-						return null;
-					}
+					npc.setTarget(player);
+					npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
+					startQuestTimer("aiplayer", 20000, npc, player);
+					return null;
 				}
-				else
-				{
-					cancelQuestTimer("aiplayer", npc, player);
-					return "";
-				}
+				cancelQuestTimer("aiplayer", npc, player);
+				return "";
 			}
 			
 			else if (event.equalsIgnoreCase("32597-10.htm"))

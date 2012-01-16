@@ -44,7 +44,8 @@ import com.l2jserver.gameserver.datatables.MessageTable;
  * @version $Revision: 1.1.6.3 $ $Date: 2005/04/11 10:06:06 $
  * con.close() change by Zoey76 24/02/2011
  */
-public class AdminBan implements IAdminCommandHandler {
+public class AdminBan implements IAdminCommandHandler
+{
 	private static final String[] ADMIN_COMMANDS =
 	{
 		"admin_ban", // returns ban commands
@@ -59,6 +60,7 @@ public class AdminBan implements IAdminCommandHandler {
 		"admin_unjail"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		StringTokenizer st = new StringTokenizer(command);
@@ -133,11 +135,8 @@ public class AdminBan implements IAdminCommandHandler {
 				activeChar.sendMessage("Usage: //ban_char <char_name> (if none, target char is banned)");
 				return false;
 			}
-			else
-			{
-				auditAction(command, activeChar, (targetPlayer == null ? player : targetPlayer.getName()));
-				return changeCharAccessLevel(targetPlayer, player, activeChar, -100);
-			}
+			auditAction(command, activeChar, (targetPlayer == null ? player : targetPlayer.getName()));
+			return changeCharAccessLevel(targetPlayer, player, activeChar, -100);
 		}
 		else if (command.startsWith("admin_ban_chat"))
 		{
@@ -435,8 +434,7 @@ public class AdminBan implements IAdminCommandHandler {
 					activeChar.sendMessage(1446);
 					return false;
 				}
-				else
-					activeChar.sendMessage(player + MessageTable.Messages[1447].getMessage() + lvl);
+				activeChar.sendMessage(player + MessageTable.Messages[1447].getMessage() + lvl);
 			}
 			catch (SQLException se)
 			{
@@ -453,6 +451,7 @@ public class AdminBan implements IAdminCommandHandler {
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList() {
 		return ADMIN_COMMANDS;
 	}

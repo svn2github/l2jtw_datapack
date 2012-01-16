@@ -44,6 +44,7 @@ public class AdminExpSp implements IAdminCommandHandler
 		"admin_remove_exp_sp"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.startsWith("admin_add_exp_sp"))
@@ -76,6 +77,7 @@ public class AdminExpSp implements IAdminCommandHandler
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;
@@ -120,38 +122,36 @@ public class AdminExpSp implements IAdminCommandHandler
 		{
 			return false;
 		}
-		else
+		
+		String exp = st.nextToken();
+		String sp = st.nextToken();
+		long expval = 0;
+		int spval = 0;
+		try
 		{
-			String exp = st.nextToken();
-			String sp = st.nextToken();
-			long expval = 0;
-			int spval = 0;
-			try
-			{
-				expval = Long.parseLong(exp);
-				spval = Integer.parseInt(sp);
-			}
-			catch (Exception e)
-			{
-				return false;
-			}
-			if (expval != 0 || spval != 0)
-			{
-				//Common character information
-				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1673]);
-				cm.addNumber(expval);
-				cm.addNumber(spval);
-				player.sendMessage(cm.renderMsg());
-				player.addExpAndSp(expval, spval);
-				//Admin information
-				cm = new L2CoreMessage (MessageTable.Messages[1674]);
-				cm.addNumber(expval);
-				cm.addNumber(spval);
-				cm.addString(player.getName());
-				activeChar.sendMessage(cm.renderMsg());
-				if (Config.DEBUG)
-					_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") added " + expval + " xp and " + spval + " sp to " + player.getObjectId() + ".");
-			}
+			expval = Long.parseLong(exp);
+			spval = Integer.parseInt(sp);
+		}
+		catch (Exception e)
+		{
+			return false;
+		}
+		if (expval != 0 || spval != 0)
+		{
+			//Common character information
+			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1673]);
+			cm.addNumber(expval);
+			cm.addNumber(spval);
+			player.sendMessage(cm.renderMsg());
+			player.addExpAndSp(expval, spval);
+			//Admin information
+			cm = new L2CoreMessage (MessageTable.Messages[1674]);
+			cm.addNumber(expval);
+			cm.addNumber(spval);
+			cm.addString(player.getName());
+			activeChar.sendMessage(cm.renderMsg());
+			if (Config.DEBUG)
+				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") added " + expval + " xp and " + spval + " sp to " + player.getObjectId() + ".");
 		}
 		return true;
 	}
@@ -171,39 +171,39 @@ public class AdminExpSp implements IAdminCommandHandler
 		}
 		StringTokenizer st = new StringTokenizer(ExpSp);
 		if (st.countTokens() != 2)
-			return false;
-		else
 		{
-			String exp = st.nextToken();
-			String sp = st.nextToken();
-			long expval = 0;
-			int spval = 0;
-			try
-			{
-				expval = Long.parseLong(exp);
-				spval = Integer.parseInt(sp);
-			}
-			catch (Exception e)
-			{
-				return false;
-			}
-			if (expval != 0 || spval != 0)
-			{
-				//Common character information
-				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1675]);
-				cm.addNumber(expval);
-				cm.addNumber(spval);
-				player.sendMessage(cm.renderMsg());
-				player.removeExpAndSp(expval, spval);
-				//Admin information
-				cm = new L2CoreMessage (MessageTable.Messages[1676]);
-				cm.addNumber(expval);
-				cm.addNumber(spval);
-				cm.addString(player.getName());
-				activeChar.sendMessage(cm.renderMsg());
-				if (Config.DEBUG)
-					_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") removed " + expval + " xp and " + spval + " sp from " + player.getObjectId() + ".");
-			}
+			return false;
+		}
+		
+		String exp = st.nextToken();
+		String sp = st.nextToken();
+		long expval = 0;
+		int spval = 0;
+		try
+		{
+			expval = Long.parseLong(exp);
+			spval = Integer.parseInt(sp);
+		}
+		catch (Exception e)
+		{
+			return false;
+		}
+		if (expval != 0 || spval != 0)
+		{
+			//Common character information
+			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1675]);
+			cm.addNumber(expval);
+			cm.addNumber(spval);
+			player.sendMessage(cm.renderMsg());
+			player.removeExpAndSp(expval, spval);
+			//Admin information
+			cm = new L2CoreMessage (MessageTable.Messages[1676]);
+			cm.addNumber(expval);
+			cm.addNumber(spval);
+			cm.addString(player.getName());
+			activeChar.sendMessage(cm.renderMsg());
+			if (Config.DEBUG)
+				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") removed " + expval + " xp and " + spval + " sp from " + player.getObjectId() + ".");
 		}
 		return true;
 	}

@@ -129,19 +129,13 @@ public class Q193_SevenSignDyingMessage extends Quest
 						startQuestTimer("aiplayer", 20000, npc, player);
 						return null;
 					}
-					else
-					{
-						npc.setTarget(player);
-						npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
-						startQuestTimer("aiplayer", 20000, npc, player);
-						return null;
-					}
+					npc.setTarget(player);
+					npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
+					startQuestTimer("aiplayer", 20000, npc, player);
+					return null;
 				}
-				else
-				{
-					cancelQuestTimer("aiplayer", npc, player);
-					return "";
-				}
+				cancelQuestTimer("aiplayer", npc, player);
+				return "";
 			}
 			
 			else if (event.equalsIgnoreCase("32569-13.htm"))

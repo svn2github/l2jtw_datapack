@@ -142,7 +142,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	【Orange】	【10】			【LILITH】	【19618】		【你無法成為我--莉莉絲的對手，讓你瞧瞧我的厲害！】
 	【Orange】	【END】			【LILITH】	【19619】		【竟然就這樣回到席琳的懷抱..真是氣憤..】
 	*/
-	
+	/**
+	 * @param ch
+	 */
 	private static final void removeBuffs(L2Character ch)
 	{
 		for (L2Effect e : ch.getAllEffects())
@@ -239,6 +241,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	
 	/**
 	 * Room1 Mobs 27371 27372 27373 27374
+	 * @param world 
 	 */
 	protected void runFirstRoom(SIGNSWorld world)
 	{
@@ -270,6 +273,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	
 	/**
 	 * Room2 Mobs 27371 27371 27372 27373 27373 27374
+	 * @param world 
 	 */
 	protected void runSecondRoom(SIGNSWorld world)
 	{
@@ -309,6 +313,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	
 	/**
 	 * Room3 Mobs 27371 27371 27372 27372 27373 27373 27374 27374
+	 * @param world 
 	 */
 	protected void runThirdRoom(SIGNSWorld world)
 	{
@@ -356,6 +361,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	
 	/**
 	 * Room4 Mobs 27371 27372 27373 27374 27375 27377 27378 27379
+	 * @param world 
 	 */
 	protected void runForthRoom(SIGNSWorld world)
 	{
@@ -403,6 +409,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	
 	/**
 	 * Room5 Mobs 27371 27372 27373 27374 27375 27375 27377 27377 27378 27378 27379 27379
+	 * @param world 
 	 */
 	protected void runFifthRoom(SIGNSWorld world)
 	{
@@ -641,23 +648,20 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				teleportPlayer(player, TELEPORT, world.instanceId);
 			return;
 		}
-		else
-		{
-			final int instanceId = InstanceManager.getInstance().createDynamicInstance("SanctumSealOfTheEmperor.xml");
-			
-			_numAtk = 0;
-			world = new SIGNSWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCE_ID;
-			InstanceManager.getInstance().addWorld(world);
-			((SIGNSWorld) world).storeTime[0] = System.currentTimeMillis();
-			runStartRoom((SIGNSWorld) world);
-			runFirstRoom((SIGNSWorld) world);
-			world.allowed.add(player.getObjectId());
-			teleportPlayer(player, TELEPORT, instanceId);
-			
-			_log.info("SevenSigns 5th epic quest " + instanceId + " created by player: " + player.getName());
-		}
+		final int instanceId = InstanceManager.getInstance().createDynamicInstance("SanctumSealOfTheEmperor.xml");
+		
+		_numAtk = 0;
+		world = new SIGNSWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCE_ID;
+		InstanceManager.getInstance().addWorld(world);
+		((SIGNSWorld) world).storeTime[0] = System.currentTimeMillis();
+		runStartRoom((SIGNSWorld) world);
+		runFirstRoom((SIGNSWorld) world);
+		world.allowed.add(player.getObjectId());
+		teleportPlayer(player, TELEPORT, instanceId);
+		
+		_log.info("SevenSigns 5th epic quest " + instanceId + " created by player: " + player.getName());
 	}
 	
 	protected void exitInstance(L2PcInstance player)
@@ -821,9 +825,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 					case State.CREATED:
 						if (cond == 0 && player.getLevel() >= 79 && qs.getState() == State.COMPLETED)
 							return "30969-01.htm";
-						else
-							st.exitQuest(true);
-							return "30969-00.htm";
+						st.exitQuest(true);
+						return "30969-00.htm";
 					case State.STARTED:
 						switch (st.getInt("cond"))
 						{
@@ -882,11 +885,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
 							return "32598-01.htm";
 						}
-						else
-						{
-							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
-							return "32598-03.htm";
-						}
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3040));
+						return "32598-03.htm";
 				}
 			case SHUNAIMAN:
 				switch (st.getInt("cond"))
@@ -910,12 +910,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 						}
 						if (_numAtk >= 4 && st.getQuestItemsCount(SEAL) >= 4)
 							return "32586-08.htm";
-						else
-						{
-							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
-							player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
-							return "32586-07.htm";
-						}
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3031));
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId._3039));
+						return "32586-07.htm";
 					case 5:
 						return "32586-13.htm";
 				}

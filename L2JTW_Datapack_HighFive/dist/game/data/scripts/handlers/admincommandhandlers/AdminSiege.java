@@ -67,6 +67,7 @@ public class AdminSiege implements IAdminCommandHandler
 		"admin_clanhallteleportself"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		StringTokenizer st = new StringTokenizer(command, " ");
@@ -273,12 +274,12 @@ public class AdminSiege implements IAdminCommandHandler
 		final StringBuilder cList = new StringBuilder(500);
 		for (Castle castle : CastleManager.getInstance().getCastles()) {
 			if (castle != null) {
-				//String name = castle.getName(); //Update by pmq
+				String name = castle.getName();
 				StringUtil.append(cList,
 						"<td fixwidth=90><a action=\"bypass -h admin_siege ",
-						castle.getName(),  //Update by pmq
+						name,
 						"\">",
-						castle.getCName(),  //Update by pmq
+						name,
 				"</a></td>");
 				i++;
 			}
@@ -420,6 +421,7 @@ public class AdminSiege implements IAdminCommandHandler
 		activeChar.sendPacket(msg);
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

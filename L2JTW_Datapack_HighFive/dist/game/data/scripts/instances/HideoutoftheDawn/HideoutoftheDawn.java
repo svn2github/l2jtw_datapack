@@ -63,21 +63,18 @@ public class HideoutoftheDawn extends Quest
 			teleportplayer(player,teleto);
 			return instanceId;
 		}
-		else
-		{
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new HoDWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			((HoDWorld)world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("HideoutoftheDawn started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			teleto.instanceId = instanceId;
-			teleportplayer(player,teleto);
-			world.allowed.add(player.getObjectId());
-			return instanceId;
-		}
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new HoDWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		((HoDWorld)world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("HideoutoftheDawn started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		teleto.instanceId = instanceId;
+		teleportplayer(player,teleto);
+		world.allowed.add(player.getObjectId());
+		return instanceId;
 	}
 
 	@Override

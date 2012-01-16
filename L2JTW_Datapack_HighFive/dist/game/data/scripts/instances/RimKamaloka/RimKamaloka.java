@@ -619,6 +619,7 @@ public class RimKamaloka extends Quest
 			_world = world;
 		}
 
+		@Override
 		public void run()
 		{
 			if (_world != null)
@@ -676,6 +677,7 @@ public class RimKamaloka extends Quest
 			_world = world;
 		}
 
+		@Override
 		public void run()
 		{
 			if (_world != null)
@@ -725,6 +727,7 @@ public class RimKamaloka extends Quest
 			_world = world;
 		}
 
+		@Override
 		public void run()
 		{
 			if (_world != null

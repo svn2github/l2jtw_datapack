@@ -197,20 +197,17 @@ public class PailakaDevilsLegacy extends Quest
 			return;
 		}
 		//New instance
-		else
-		{
-			final int instanceId = InstanceManager.getInstance().createDynamicInstance("PailakaDevilsLegacy.xml");
+		final int instanceId = InstanceManager.getInstance().createDynamicInstance("PailakaDevilsLegacy.xml");
 
-			world = new InstanceWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCE_ID;
-			InstanceManager.getInstance().addWorld(world);
+		world = new InstanceWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCE_ID;
+		InstanceManager.getInstance().addWorld(world);
 
-			world.allowed.add(player.getObjectId());
-			teleportPlayer(player, TELEPORT, instanceId);
-			
-			_lematanNpc = addSpawn(LEMATAN, 88108, -209252, -3744, 64255, false, 0, false, instanceId);
-		}
+		world.allowed.add(player.getObjectId());
+		teleportPlayer(player, TELEPORT, instanceId);
+		
+		_lematanNpc = addSpawn(LEMATAN, 88108, -209252, -3744, 64255, false, 0, false, instanceId);
 		
 	}
 
@@ -320,8 +317,7 @@ public class PailakaDevilsLegacy extends Quest
 		final QuestState st = player.getQuestState(qn);
 		if (st != null && npc.getNpcId() == ADVENTURER2 && st.isCompleted())
 			return "32511-02.htm";
-		else
-			return npc.getNpcId() + ".htm";
+		return npc.getNpcId() + ".htm";
 	}
 
 	@Override
@@ -421,11 +417,7 @@ public class PailakaDevilsLegacy extends Quest
 					}
 					return "32511-01.htm";
 				}
-				else
-				{
-					return "32511-02.htm";
-				}
-
+				return "32511-02.htm";
 		}
 		return getNoQuestMsg(player);
 	}
@@ -568,6 +560,7 @@ public class PailakaDevilsLegacy extends Quest
 			_instanceId = id;
 		}
 
+		@Override
 		public void run()
 		{
 			try

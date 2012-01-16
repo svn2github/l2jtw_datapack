@@ -37,7 +37,6 @@ import com.l2jserver.util.Rnd;
 /**
  * @author Gnacik
  * @version 1.0
- * @see Warning! Mostly that event is custom!
  * Update By pmq 04-09-2010
  */
 public class SquashEvent extends Quest
@@ -679,6 +678,7 @@ public class SquashEvent extends Quest
 
 	static {
 		Arrays.sort(DROPLIST, new Comparator<int[]>() {
+			@Override
 			public int compare(int[] a, int[] b) { return a[0] - b[0]; }
 		});
 	}

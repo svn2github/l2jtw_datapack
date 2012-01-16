@@ -401,53 +401,50 @@ public class Zaken extends L2AttackableAIScript
 			return world.instanceId;
 		}
 		// new instance
-		else
+		if (!checkConditions(player, choice))
+			return 0;
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new ZWorld();
+		world.instanceId = instanceId;
+		if (choice.equalsIgnoreCase("daytime"))
+			world.templateId = INSTANCEID_DAY;
+		else if (choice.equalsIgnoreCase("daytime83"))
+			world.templateId = INSTANCEID_DAY83;
+		else if (choice.equalsIgnoreCase("nighttime"))
+			world.templateId = INSTANCEID_NIGHT;
+		
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("Zaken (" + choice + ") started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		
+		if (choice.equalsIgnoreCase("nighttime"))
 		{
-			if (!checkConditions(player, choice))
-				return 0;
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new ZWorld();
-			world.instanceId = instanceId;
-			if (choice.equalsIgnoreCase("daytime"))
-				world.templateId = INSTANCEID_DAY;
-			else if (choice.equalsIgnoreCase("daytime83"))
-				world.templateId = INSTANCEID_DAY83;
-			else if (choice.equalsIgnoreCase("nighttime"))
-				world.templateId = INSTANCEID_NIGHT;
-			
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("Zaken (" + choice + ") started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			
-			if (choice.equalsIgnoreCase("nighttime"))
-			{
-				startQuestTimer("ZakenSpawn", 1000, null, player);
-				for (int i = _room1_zone;i<=_room15_zone;i++)
-					spawnRoom(world.instanceId, i);
-			}
-			else
-				startQuestTimer("ChooseZakenRoom", 1000, null, player);
-			
-			// teleport players
-			List<L2PcInstance> players;
-			L2Party party = player.getParty();
-			if (party == null) // this can happen only if debug is true
-			{
-				players = new FastList<L2PcInstance>();
-				players.add(player);
-			}
-			else if (party.isInCommandChannel())
-				players = party.getCommandChannel().getMembers();
-			else
-				players = party.getPartyMembers();
-			
-			for (L2PcInstance member : players)
-			{
-				teleportPlayer(member, spawnLocs, (ZWorld) world);
-				world.allowed.add(member.getObjectId());
-				member.sendPacket(new PlaySound("BS01_A"));
-			}
-			return instanceId;
+			startQuestTimer("ZakenSpawn", 1000, null, player);
+			for (int i = _room1_zone;i<=_room15_zone;i++)
+				spawnRoom(world.instanceId, i);
 		}
+		else
+			startQuestTimer("ChooseZakenRoom", 1000, null, player);
+		
+		// teleport players
+		List<L2PcInstance> players;
+		L2Party party = player.getParty();
+		if (party == null) // this can happen only if debug is true
+		{
+			players = new FastList<L2PcInstance>();
+			players.add(player);
+		}
+		else if (party.isInCommandChannel())
+			players = party.getCommandChannel().getMembers();
+		else
+			players = party.getPartyMembers();
+		
+		for (L2PcInstance member : players)
+		{
+			teleportPlayer(member, spawnLocs, (ZWorld) world);
+			world.allowed.add(member.getObjectId());
+			member.sendPacket(new PlaySound("BS01_A"));
+		}
+		return instanceId;
 	}
 	
 	private void spawnRoom(int instanceId, int zoneId)

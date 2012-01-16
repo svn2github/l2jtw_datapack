@@ -57,6 +57,7 @@ import com.l2jserver.gameserver.datatables.MessageTable;
  */
 public class AdminSpawn implements IAdminCommandHandler
 {
+	private static final Logger _log = Logger.getLogger(AdminSpawn.class.getName());
 	
 	private static final String[] ADMIN_COMMANDS =
 	{
@@ -80,8 +81,8 @@ public class AdminSpawn implements IAdminCommandHandler
 		"admin_spawn_debug_print",
 		"admin_spawn_debug_print_menu"
 	};
-	public static Logger _log = Logger.getLogger(AdminSpawn.class.getName());
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.equals("admin_show_spawns"))
@@ -303,6 +304,7 @@ public class AdminSpawn implements IAdminCommandHandler
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

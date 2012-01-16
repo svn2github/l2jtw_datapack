@@ -84,32 +84,29 @@ public class Q182_NewRecruits extends Quest
 		{
 			return "<html><body>長老凱克洛普斯：<br>我在尋找外來者來幫助我們一族的年輕人，您周圍有人選嗎？<br>（只有等級17以上、21以下且尚未完成一次轉職的闇天使種族以外的角色，才可以執行的任務。）</body></html>";
 		}
-		else
+		if (npc.getNpcId() == _kekropus)
 		{
-			if (npc.getNpcId() == _kekropus)
+			switch(st.getState())
 			{
-				switch(st.getState())
-				{
-					case State.CREATED :
-							htmltext = "32138-01.htm";
-						break;
-					case State.STARTED :
-						if (st.getInt("cond") == 1)
-							htmltext = "32138-04.htm";
-						break;
-					case State.COMPLETED :
-						htmltext = getAlreadyCompletedMsg(player);
-						break;
-				}
+				case State.CREATED :
+						htmltext = "32138-01.htm";
+					break;
+				case State.STARTED :
+					if (st.getInt("cond") == 1)
+						htmltext = "32138-04.htm";
+					break;
+				case State.COMPLETED :
+					htmltext = getAlreadyCompletedMsg(player);
+					break;
 			}
-			else if (npc.getNpcId() == _nornil && st.getState() == State.STARTED)
-			{
-				htmltext = "32258-01.htm";
-			}
-			else if (npc.getNpcId() == _nornil && st.getState() == State.COMPLETED)
-			{
-				htmltext = "32258-exit.htm";
-			}
+		}
+		else if (npc.getNpcId() == _nornil && st.getState() == State.STARTED)
+		{
+			htmltext = "32258-01.htm";
+		}
+		else if (npc.getNpcId() == _nornil && st.getState() == State.COMPLETED)
+		{
+			htmltext = "32258-exit.htm";
 		}
 		
 		return htmltext;

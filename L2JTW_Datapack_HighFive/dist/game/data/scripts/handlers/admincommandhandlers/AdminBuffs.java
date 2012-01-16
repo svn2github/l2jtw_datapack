@@ -44,6 +44,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		"admin_switch_gm_buffs"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		
@@ -73,11 +74,8 @@ public class AdminBuffs implements IAdminCommandHandler
 					showBuffs(activeChar, player, page);
 					return true;
 				}
-				else
-				{
-					activeChar.sendMessage(MessageTable.Messages[1451].getExtra(1) + playername + MessageTable.Messages[1451].getExtra(2));
-					return false;
-				}
+				activeChar.sendMessage(MessageTable.Messages[1451].getExtra(1) + playername + MessageTable.Messages[1451].getExtra(2));
+				return false;
 			}
 			else if ((activeChar.getTarget() != null) && (activeChar.getTarget() instanceof L2Character))
 			{
@@ -208,11 +206,8 @@ public class AdminBuffs implements IAdminCommandHandler
 				activeChar.sendMessage("You have succefully changed to target " + (toAuraSkills ? "aura" : "one") + " special skills.");
 				return true;
 			}
-			else
-			{
-				activeChar.sendMessage("There is nothing to switch.");
-				return false;
-			}
+			activeChar.sendMessage("There is nothing to switch.");
+			return false;
 		}
 		else
 		{
@@ -220,6 +215,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		}
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

@@ -40,6 +40,7 @@ public class AdminVitaminItem implements IAdminCommandHandler
 		"admin_sendVitem"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.equals("admin_vitaminitem"))
@@ -61,6 +62,7 @@ public class AdminVitaminItem implements IAdminCommandHandler
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

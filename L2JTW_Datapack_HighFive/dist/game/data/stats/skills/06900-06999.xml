@@ -49,11 +49,11 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6908" levels="1" name="Transform Master">
-		<!-- Update by pmq -->
+		<!-- High Five Skill -->
 		<!-- Transforms into a game Master. -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="22" />
 		<for>
 			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform" />

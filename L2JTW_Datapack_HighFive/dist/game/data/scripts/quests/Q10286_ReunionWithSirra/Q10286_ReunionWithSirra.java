@@ -118,8 +118,7 @@ public class Q10286_ReunionWithSirra extends Quest
 		
 		if (npc.getNpcId() == _rafforty && _prev != null && _prev.getState() == State.COMPLETED && st == null && player.getLevel() >= 82)
 			return "32020-00.htm";
-		else
-			npc.showChatWindow(player);
+		npc.showChatWindow(player);
 		
 		return null;
 	}

@@ -1028,7 +1028,7 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="skillType" val="DUMMY" />
+		<set name="skillType" val="HEAL" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="60000" />
 		<for>
@@ -1084,11 +1084,12 @@
 		</for>
 	</skill>
 	<skill id="22183" levels="1" name="Dragon Master Lee Transformation Scroll">
+		<!-- High Five Skill -->
 		<!-- Transformed into Dragon Master Lee. -->
 		<set name="itemConsumeCount" val="1" /> <!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="20005" />
 		<for>
 			<!-- Update by pmq -->
@@ -1103,11 +1104,12 @@
 		</for>
 	</skill>
 	<skill id="22184" levels="1" name="Dragon Master Karin Transformation Scroll">
+		<!-- High Five Skill -->
 		<!-- Transformed into Dragon Master Karin. -->
 		<set name="itemConsumeCount" val="1" /> <!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="20006" />
 		<for>
 			<!-- Update by pmq -->
@@ -1152,11 +1154,11 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="22190" levels="1" name="Transformation Scroll - Blue Block Checker">
-		<!-- Update by pmq -->
+		<!-- High Five Skill -->
 		<!-- Transformed into a cute block checker. Look for a treasure chest on Fantasy Isle. -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="127" />
 		<for>
 			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform" />

@@ -101,45 +101,42 @@ public class JiniasHideout extends Quest
 			teleportplayer(player,teleto);
 			return instanceId;
 		}
-		else
+		//New instance
+		if (!checkConditions(player))
+			return 0;
+		
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		final Instance inst = InstanceManager.getInstance().getInstance(instanceId);
+		inst.setSpawnLoc(new int[] { player.getX(), player.getY(), player.getZ() });
+		world = new JiniasWorld();
+		world.instanceId = instanceId;
+		((JiniasWorld)world).questId = questId;
+		
+		//Template id depends of quest
+		switch(questId)
 		{
-			//New instance
-			if (!checkConditions(player))
-				return 0;
-			
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			final Instance inst = InstanceManager.getInstance().getInstance(instanceId);
-			inst.setSpawnLoc(new int[] { player.getX(), player.getY(), player.getZ() });
-			world = new JiniasWorld();
-			world.instanceId = instanceId;
-			((JiniasWorld)world).questId = questId;
-			
-			//Template id depends of quest
-			switch(questId)
-			{
-				case 10284:
-					world.templateId = 140;
-					break;
-				case 10285:
-					world.templateId = 141;
-					break;
-				case 10286:
-					world.templateId = 145;
-					break;
-				case 10287:
-					world.templateId = 146;
-					break;
-			}
-			
-			world.status = 0;
-			((JiniasWorld)world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("JiniasWorld started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			teleto.instanceId = instanceId;
-			teleportplayer(player, teleto);
-			world.allowed.add(player.getObjectId());
-			return instanceId;
+			case 10284:
+				world.templateId = 140;
+				break;
+			case 10285:
+				world.templateId = 141;
+				break;
+			case 10286:
+				world.templateId = 145;
+				break;
+			case 10287:
+				world.templateId = 146;
+				break;
 		}
+		
+		world.status = 0;
+		((JiniasWorld)world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("JiniasWorld started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		teleto.instanceId = instanceId;
+		teleportplayer(player, teleto);
+		world.allowed.add(player.getObjectId());
+		return instanceId;
 	}
 	
 	@Override

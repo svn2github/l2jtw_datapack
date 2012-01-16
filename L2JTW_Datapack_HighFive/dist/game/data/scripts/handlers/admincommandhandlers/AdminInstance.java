@@ -27,7 +27,6 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * @author evill33t, GodKratos
- * 
  */
 public class AdminInstance implements IAdminCommandHandler
 {
@@ -41,6 +40,7 @@ public class AdminInstance implements IAdminCommandHandler
 		"admin_listinstances"
 	};
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		StringTokenizer st = new StringTokenizer(command);
@@ -93,31 +93,29 @@ public class AdminInstance implements IAdminCommandHandler
 					activeChar.sendMessage(MessageTable.Messages[1694].getExtra(1) + val + MessageTable.Messages[1694].getExtra(2));
 					return false;
 				}
-				else
+				
+				L2Object target = activeChar.getTarget();
+				if (target == null || target instanceof L2Summon) // Don't separate summons from masters
 				{
-					L2Object target = activeChar.getTarget();
-					if (target == null || target instanceof L2Summon) // Don't separate summons from masters
-					{
-						activeChar.sendMessage(1695);
-						return false;
-					}
-					target.setInstanceId(val);
-					if (target instanceof L2PcInstance)
-					{
-						L2PcInstance player = (L2PcInstance) target;
-						player.sendMessage(MessageTable.Messages[1696].getMessage() + val);
-						player.teleToLocation(player.getX(), player.getY(), player.getZ());
-						L2Summon pet = player.getPet();
-						if (pet != null)
-						{
-							pet.setInstanceId(val);
-							pet.teleToLocation(pet.getX(), pet.getY(), pet.getZ());
-							player.sendMessage(MessageTable.Messages[1697].getExtra(1) + pet.getName() + MessageTable.Messages[1697].getExtra(2) + val);
-						}
-					}
-					activeChar.sendMessage(MessageTable.Messages[1698].getExtra(1) + target.getName() + MessageTable.Messages[1698].getExtra(2) + target.getInstanceId());
-					return true;
+					activeChar.sendMessage(1695);
+					return false;
 				}
+				target.setInstanceId(val);
+				if (target instanceof L2PcInstance)
+				{
+					L2PcInstance player = (L2PcInstance) target;
+					player.sendMessage(MessageTable.Messages[1696].getMessage() + val);
+					player.teleToLocation(player.getX(), player.getY(), player.getZ());
+					L2Summon pet = player.getPet();
+					if (pet != null)
+					{
+						pet.setInstanceId(val);
+						pet.teleToLocation(pet.getX(), pet.getY(), pet.getZ());
+						player.sendMessage(MessageTable.Messages[1697].getExtra(1) + pet.getName() + MessageTable.Messages[1697].getExtra(2) + val);
+					}
+				}
+				activeChar.sendMessage(MessageTable.Messages[1698].getExtra(1) + target.getName() + MessageTable.Messages[1698].getExtra(2) + target.getInstanceId());
+				return true;
 			}
 			catch (Exception e)
 			{
@@ -163,6 +161,7 @@ public class AdminInstance implements IAdminCommandHandler
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

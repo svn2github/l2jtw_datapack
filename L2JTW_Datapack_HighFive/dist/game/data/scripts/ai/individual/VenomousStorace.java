@@ -70,8 +70,7 @@ public class VenomousStorace extends L2AttackableAIScript
 			}
 			if (_isLockSpawned == 2)
 				return "";
-			else
-				return "";
+			return "";
 		}
 		return "";
 	}

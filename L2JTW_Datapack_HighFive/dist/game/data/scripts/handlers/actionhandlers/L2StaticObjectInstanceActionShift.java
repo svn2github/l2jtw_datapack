@@ -27,6 +27,7 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class L2StaticObjectInstanceActionShift implements IActionHandler
 {
+	@Override
 	public boolean action(L2PcInstance activeChar, L2Object target, boolean interact)
 	{
 		if (activeChar.getAccessLevel().isGm())
@@ -61,6 +62,7 @@ public class L2StaticObjectInstanceActionShift implements IActionHandler
 		return true;
 	}
 	
+	@Override
 	public InstanceType getInstanceType()
 	{
 		return InstanceType.L2StaticObjectInstance;

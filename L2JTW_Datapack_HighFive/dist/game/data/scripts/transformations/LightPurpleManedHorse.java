@@ -6,7 +6,11 @@ import com.l2jserver.gameserver.model.L2Transformation;
 
 public class LightPurpleManedHorse extends L2Transformation
 {
-	private static final int[] SKILLS = {5491,839};
+	private static final int[] SKILLS =
+	{
+		5491, 839
+	};
+	
 	public LightPurpleManedHorse()
 	{
 		// id, colRadius, colHeight
@@ -16,7 +20,7 @@ public class LightPurpleManedHorse extends L2Transformation
 	@Override
 	public void onTransform()
 	{
-		if (getPlayer().getTransformationId() != 106 || getPlayer().isCursedWeaponEquipped())
+		if ((getPlayer().getTransformationId() != 106) || getPlayer().isCursedWeaponEquipped())
 			return;
 		
 		transformedSkills();

@@ -133,21 +133,18 @@ public class Q10292_GirlofDoubt extends Quest
 			teleportplayer(player,teleto);
 			return instanceId;
 		}
-		else
-		{
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new GoDWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			((GoDWorld)world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("JiniaGuildHideout started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			teleto.instanceId = instanceId;
-			teleportplayer(player,teleto);
-			world.allowed.add(player.getObjectId());
-			return instanceId;
-		}
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new GoDWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		((GoDWorld)world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("JiniaGuildHideout started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		teleto.instanceId = instanceId;
+		teleportplayer(player,teleto);
+		world.allowed.add(player.getObjectId());
+		return instanceId;
 	}
 	
 	protected int enterInstance1(L2PcInstance player, String template, teleCoord teleto)
@@ -165,21 +162,18 @@ public class Q10292_GirlofDoubt extends Quest
 			teleportplayer1(player,teleto);
 			return instanceId;
 		}
-		else
-		{
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new GoDWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID1;
-			world.status = 0;
-			((GoDWorld)world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("ElcadiaTent started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			teleto.instanceId = instanceId;
-			teleportplayer1(player,teleto);
-			world.allowed.add(player.getObjectId());
-			return instanceId;
-		}
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new GoDWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID1;
+		world.status = 0;
+		((GoDWorld)world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("ElcadiaTent started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		teleto.instanceId = instanceId;
+		teleportplayer1(player,teleto);
+		world.allowed.add(player.getObjectId());
+		return instanceId;
 	}
 	
 	@Override

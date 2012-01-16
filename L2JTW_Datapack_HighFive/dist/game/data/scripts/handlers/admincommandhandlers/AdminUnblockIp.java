@@ -30,8 +30,7 @@ import com.l2jserver.gameserver.datatables.MessageTable;
  */
 public class AdminUnblockIp implements IAdminCommandHandler
 {
-	
-	private static final Logger _log = Logger.getLogger(AdminTeleport.class.getName());
+	private static final Logger _log = Logger.getLogger(AdminUnblockIp.class.getName());
 	
 	private static final String[] ADMIN_COMMANDS =
 	{
@@ -39,9 +38,9 @@ public class AdminUnblockIp implements IAdminCommandHandler
 	};
 	
 	/**
-	 * 
 	 * @see com.l2jserver.gameserver.handler.IAdminCommandHandler#useAdminCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance)
 	 */
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		
@@ -65,6 +64,7 @@ public class AdminUnblockIp implements IAdminCommandHandler
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;

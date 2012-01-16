@@ -187,27 +187,24 @@ public class ChamberOfDelusionEast extends Quest
 			return instanceId;
 		}
 		//New instance
-		else
+		if (!checkConditions(player))
+			return 0;
+		L2Party party = player.getParty();
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new CDWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("Chamber Of Delusion started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		spawnState((CDWorld)world);
+		instId = world.instanceId;
+		for (L2PcInstance partyMember : party.getPartyMembers())
 		{
-			if (!checkConditions(player))
-				return 0;
-			L2Party party = player.getParty();
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new CDWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("Chamber Of Delusion started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			spawnState((CDWorld)world);
-			instId = world.instanceId;
-			for (L2PcInstance partyMember : party.getPartyMembers())
-			{
-				teleportrnd(partyMember,(CDWorld)world);
-				world.allowed.add(partyMember.getObjectId());
-			}
-			return instanceId;
+			teleportrnd(partyMember,(CDWorld)world);
+			world.allowed.add(partyMember.getObjectId());
 		}
+		return instanceId;
 	}
 
 	protected void exitInstance(L2PcInstance player, teleCoord tele)

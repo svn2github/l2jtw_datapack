@@ -393,10 +393,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				st.playSound("ItemSound.quest_itemget");
 				return "32580-03.htm";
 			}
-			else
-			{
-				return "";
-			}
+			return "";
 		}
 		else if (event.equalsIgnoreCase("reTele"))
 		{
@@ -427,23 +424,20 @@ public class SanctumOftheLordsOfDawn extends Quest
 			return instanceId;
 		}
 		//New instance
-		else
-		{
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new HSWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			((HSWorld) world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			spawnState((HSWorld) world);
-			_log.info("SevenSign 4th quest started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			// teleport players
-			teleto.instanceId = instanceId;
-			teleportplayer(player, teleto);
-			world.allowed.add(player.getObjectId());
-			return instanceId;
-		}
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new HSWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		((HSWorld) world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		spawnState((HSWorld) world);
+		_log.info("SevenSign 4th quest started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		// teleport players
+		teleto.instanceId = instanceId;
+		teleportplayer(player, teleto);
+		world.allowed.add(player.getObjectId());
+		return instanceId;
 	}
 	
 	private void spawnState(HSWorld world)
@@ -643,10 +637,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 					enterInstance(player, "SanctumoftheLordsofDawn.xml", tele);
 					return "32575-02.htm";
 				}
-				else
-				{
-					return "32575-01.htm";
-				}
+				return "32575-01.htm";
 			case DEVICE:
 				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
@@ -654,13 +645,13 @@ public class SanctumOftheLordsOfDawn extends Quest
 					openDoor(player, world.instanceId);
 					return "32578-03.htm";
 				}
-				else { return null; }
+				return null;
 			case PWDEVICE:
 				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
 					return "32577-01.htm";
 				}
-				else { return null; }
+				return null;
 			case BLACK:
 				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
@@ -671,7 +662,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 					exitInstance(player, tele);
 					return "32579-01.htm";
 				}
-				else { return null; }
+				return null;
 			case SHELF:
 				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
@@ -682,7 +673,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 					exitInstance(player, tele);
 					return "32580-04.htm";
 				}
-				else { return null; }
+				return null;
 		}
 		return "";
 	}

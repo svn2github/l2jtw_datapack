@@ -162,6 +162,7 @@ public class IceQueenCastle2 extends Quest
 			_waveId = waveId;
 			_world = getWorld(instanceId);
 		}
+		@SuppressWarnings("cast")
 		@Override
 		public void run()
 		{
@@ -501,6 +502,7 @@ public class IceQueenCastle2 extends Quest
 			System.out.println("Warning!!! Not Found world at handleWorldState(int, int).");
 	}
 	
+	@SuppressWarnings("cast")
 	private void handleWorldState(int statusId, FreyaWorld world)
 	{
 		int instanceId = world.instanceId;
@@ -1240,8 +1242,7 @@ public class IceQueenCastle2 extends Quest
 		_log.info("id_talk = " + npc.getNpcId());
 		if(npc.getNpcId() == Jinia /*|| npc.getNpcId() == Superior_Knight*/)
 			return npc.getNpcId() + ".htm";
-		else
-			return null;
+		return null;
 	}
 	/*
 	@Override
@@ -1258,13 +1259,13 @@ public class IceQueenCastle2 extends Quest
 		return null;
 	}
 	*/
+	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		_log.info("id = " + npc.getNpcId());
 		if (npc.getNpcId() == Jinia /*|| npc.getNpcId() == Superior_Knight*/)
 			return npc.getNpcId() + ".htm";
-		else
-			return null;
+		return null;
 	}
 	
 	private void enterInstance(L2PcInstance player, String template)
@@ -1285,24 +1286,41 @@ public class IceQueenCastle2 extends Quest
 			return;
 		}
 		// New instance
-		else
+		if (!checkConditions(player))
+			return;
+		L2Party party = player.getParty();
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new FreyaWorld();
+		
+		world.instanceId = instanceId;
+		world.templateId = INSTANCE_ID;
+		world.status = 0;
+		
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("Freya started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		
+		if ((debug) || (player.isGM()))
 		{
-			if (!checkConditions(player))
-				return;
-			L2Party party = player.getParty();
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new FreyaWorld();
-			
-			world.instanceId = instanceId;
-			world.templateId = INSTANCE_ID;
-			world.status = 0;
-			
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("Freya started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			
-			if ((debug) || (player.isGM()))
+			QuestState qs = player.getQuestState("10286_ReunionWithSirra");
+			if (qs != null)
 			{
-				QuestState qs = player.getQuestState("10286_ReunionWithSirra");
+				if (qs.getInt("cond") == 5)
+				{
+					qs.set("cond", "6");
+					qs.playSound("ItemSound.quest_middle");
+				}
+			}
+			world.allowed.add(player.getObjectId());
+			teleportPlayer(player, (FreyaWorld) world);
+			ThreadPoolManager.getInstance().scheduleGeneral(new spawnWave(1, world.instanceId), 100);
+			return;
+		}
+		
+		if (party != null && party.isInCommandChannel())
+		{
+			for (L2PcInstance plr : party.getCommandChannel().getMembers())
+			{
+				QuestState qs = plr.getQuestState("10286_ReunionWithSirra");
 				if (qs != null)
 				{
 					if (qs.getInt("cond") == 5)
@@ -1311,32 +1329,12 @@ public class IceQueenCastle2 extends Quest
 						qs.playSound("ItemSound.quest_middle");
 					}
 				}
-				world.allowed.add(player.getObjectId());
-				teleportPlayer(player, (FreyaWorld) world);
-				ThreadPoolManager.getInstance().scheduleGeneral(new spawnWave(1, world.instanceId), 100);
-				return;
+				world.allowed.add(plr.getObjectId());
+				teleportPlayer(plr, (FreyaWorld) world);
 			}
 			
-			if (party != null && party.isInCommandChannel())
-			{
-				for (L2PcInstance plr : party.getCommandChannel().getMembers())
-				{
-					QuestState qs = plr.getQuestState("10286_ReunionWithSirra");
-					if (qs != null)
-					{
-						if (qs.getInt("cond") == 5)
-						{
-							qs.set("cond", "6");
-							qs.playSound("ItemSound.quest_middle");
-						}
-					}
-					world.allowed.add(plr.getObjectId());
-					teleportPlayer(plr, (FreyaWorld) world);
-				}
-				
-				ThreadPoolManager.getInstance().scheduleGeneral(new spawnWave(1, world.instanceId), 100);
-				return;
-			}
+			ThreadPoolManager.getInstance().scheduleGeneral(new spawnWave(1, world.instanceId), 100);
+			return;
 		}
 	}
 	

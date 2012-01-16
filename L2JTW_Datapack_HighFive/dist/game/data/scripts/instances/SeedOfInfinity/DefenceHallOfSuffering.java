@@ -124,8 +124,6 @@ public class DefenceHallOfSuffering extends Quest
 		{
 			return true;
 		}
-		else
-		{
 		L2Party party = player.getParty();
 		if (party == null)
 		{
@@ -163,7 +161,6 @@ public class DefenceHallOfSuffering extends Quest
 			}
 		}
 		return true;
-		}
 	}
 	private static final void removeBuffs(L2Character ch)
 	{
@@ -215,40 +212,37 @@ public class DefenceHallOfSuffering extends Quest
 			return instanceId;
 		}
 		//New instance
+		if (!checkConditions(player))
+			return 0;
+		L2Party party = player.getParty();
+		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+		world = new DHSWorld();
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
+		((DHSWorld)world).storeTime[0] = System.currentTimeMillis();
+		InstanceManager.getInstance().addWorld(world);
+		_log.info("Hall Of Suffering started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+		runTumors((DHSWorld)world);
+		// teleport players
+		teleto.instanceId = instanceId;
+
+		if (player.getParty() == null)
+		{
+			teleportplayer(player,teleto);
+			removeBuffs(player);
+			world.allowed.add(player.getObjectId());
+		}
 		else
 		{
-			if (!checkConditions(player))
-				return 0;
-			L2Party party = player.getParty();
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new DHSWorld();
-			world.instanceId = instanceId;
-			world.templateId = INSTANCEID;
-			world.status = 0;
-			((DHSWorld)world).storeTime[0] = System.currentTimeMillis();
-			InstanceManager.getInstance().addWorld(world);
-			_log.info("Hall Of Suffering started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			runTumors((DHSWorld)world);
-			// teleport players
-			teleto.instanceId = instanceId;
-
-			if (player.getParty() == null)
+			for (L2PcInstance partyMember : party.getPartyMembers())
 			{
-				teleportplayer(player,teleto);
-				removeBuffs(player);
-				world.allowed.add(player.getObjectId());
+				teleportplayer(partyMember,teleto);
+				removeBuffs(partyMember);
+				world.allowed.add(partyMember.getObjectId());
 			}
-			else
-			{
-				for (L2PcInstance partyMember : party.getPartyMembers())
-				{
-					teleportplayer(partyMember,teleto);
-					removeBuffs(partyMember);
-					world.allowed.add(partyMember.getObjectId());
-				}
-			}
-			return instanceId;
 		}
+		return instanceId;
 	}
 
 	protected void exitInstance(L2PcInstance player, teleCoord tele)

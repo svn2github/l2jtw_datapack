@@ -248,12 +248,12 @@ public class PcBangPoint extends Quest
 			}
 			else if (player.getPcBangPoints() >= POINTSSKILL.get(event)[2])
 			{
-				final int cost = player.getPcBangPoints() - (int)(POINTSSKILL.get(event)[2]);
+				final int cost = player.getPcBangPoints() - (POINTSSKILL.get(event)[2]);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)POINTSSKILL.get(event)[2]);
+				smsgpc.addNumber(POINTSSKILL.get(event)[2]);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)POINTSSKILL.get(event)[2], false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), POINTSSKILL.get(event)[2], false, false, 1));
 				npc.setTarget(player);
 				npc.doCast(SkillTable.getInstance().getInfo(POINTSSKILL.get(event)[0],POINTSSKILL.get(event)[1]));
 				return "Individual_skill_info.htm";
@@ -271,12 +271,12 @@ public class PcBangPoint extends Quest
 			}
 			else if (player.getPcBangPoints() >= PETSKILL.get(event)[2])
 			{
-				final int cost = player.getPcBangPoints() - (int)(PETSKILL.get(event)[2]);
+				final int cost = player.getPcBangPoints() - (PETSKILL.get(event)[2]);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)PETSKILL.get(event)[2]);
+				smsgpc.addNumber(PETSKILL.get(event)[2]);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)PETSKILL.get(event)[2], false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), PETSKILL.get(event)[2], false, false, 1));
 				npc.setTarget(player.getPet());
 				npc.doCast(SkillTable.getInstance().getInfo(PETSKILL.get(event)[0],PETSKILL.get(event)[1]));
 				return "Individual_pet_skill_info.htm";
@@ -290,19 +290,16 @@ public class PcBangPoint extends Quest
 		{
 			if (player.getPcBangPoints() >= TELEPORTERS.get(event)[3])
 			{
-				final int cost = player.getPcBangPoints() - (int)(TELEPORTERS.get(event)[3]);
+				final int cost = player.getPcBangPoints() - (TELEPORTERS.get(event)[3]);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)TELEPORTERS.get(event)[3]);
+				smsgpc.addNumber(TELEPORTERS.get(event)[3]);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)TELEPORTERS.get(event)[3], false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), TELEPORTERS.get(event)[3], false, false, 1));
 				player.teleToLocation(TELEPORTERS.get(event)[0], TELEPORTERS.get(event)[1], TELEPORTERS.get(event)[2]);
 				return null;
 			}
-			else
-			{
-				htmltext = "nopoint.htm";
-			}
+			htmltext = "nopoint.htm";
 		}
 		else if (event.equalsIgnoreCase("tele"))
 		{
@@ -312,20 +309,17 @@ public class PcBangPoint extends Quest
 		{
 			if (player.getPcBangPoints() >= 2500)
 			{
-				final int cost = player.getPcBangPoints() - (int)(2500);
+				final int cost = player.getPcBangPoints() - (2500);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)2500);
+				smsgpc.addNumber(2500);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)2500, false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), 2500, false, false, 1));
 				player.mount(12621, 0, true);
 				player.addSkill(SkillTable.FrequentSkill.WYVERN_BREATH.getSkill());
 				return null;
 			}
-			else
-			{
-				htmltext = "nopoint.htm";
-			}
+			htmltext = "nopoint.htm";
 		}
 		else if (event.equalsIgnoreCase("warrior"))
 		{
@@ -335,12 +329,12 @@ public class PcBangPoint extends Quest
 			}
 			else if (player.getPcBangPoints() >= 5600)
 			{
-				final int cost = player.getPcBangPoints() - (int)(5600);
+				final int cost = player.getPcBangPoints() - (5600);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)5600);
+				smsgpc.addNumber(5600);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)5600, false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), 5600, false, false, 1));
 				npc.setTarget(player);
 				npc.doCast(SkillTable.getInstance().getInfo(4397,2));	// 狂戰士魂2級
 				npc.doCast(SkillTable.getInstance().getInfo(4393,3));	// 力量強化3級
@@ -370,12 +364,12 @@ public class PcBangPoint extends Quest
 			}
 			else if (player.getPcBangPoints() >= 4000)
 			{
-				final int cost = player.getPcBangPoints() - (int)(4000);
+				final int cost = player.getPcBangPoints() - (4000);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)4000);
+				smsgpc.addNumber(4000);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)4000, false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), 4000, false, false, 1));
 				npc.setTarget(player.getPet());
 				npc.doCast(SkillTable.getInstance().getInfo(4397,1));	// 狂戰士魂1級
 				npc.doCast(SkillTable.getInstance().getInfo(4393,2));	// 力量強化2級
@@ -405,12 +399,12 @@ public class PcBangPoint extends Quest
 			}
 			else if (player.getPcBangPoints() >= 3000)
 			{
-				final int cost = player.getPcBangPoints() - (int)(3000);
+				final int cost = player.getPcBangPoints() - (3000);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)3000);
+				smsgpc.addNumber(3000);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)3000, false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), 3000, false, false, 1));
 				npc.setTarget(player);
 				npc.doCast(SkillTable.getInstance().getInfo(4397,2));	// 狂戰士魂2級
 				npc.doCast(SkillTable.getInstance().getInfo(4396,2));	// 魔法屏障2級
@@ -434,12 +428,12 @@ public class PcBangPoint extends Quest
 			}
 			else if (player.getPcBangPoints() >= 2100)
 			{
-				final int cost = player.getPcBangPoints() - (int)(2100);
+				final int cost = player.getPcBangPoints() - (2100);
 				player.setPcBangPoints(cost);
 				SystemMessage smsgpc = SystemMessage.getSystemMessage(SystemMessageId.USING_S1_PCPOINT);
-				smsgpc.addNumber((int)2100);
+				smsgpc.addNumber(2100);
 				player.sendPacket(smsgpc);
-				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), (int)2100, false, false, 1));
+				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), 2100, false, false, 1));
 				npc.setTarget(player.getPet());
 				npc.doCast(SkillTable.getInstance().getInfo(4397,1));	// 狂戰士魂1級
 				npc.doCast(SkillTable.getInstance().getInfo(4396,1));	// 魔法屏障1級

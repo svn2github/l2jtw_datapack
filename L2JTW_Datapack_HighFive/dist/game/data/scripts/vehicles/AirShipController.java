@@ -382,6 +382,7 @@ public abstract class AirShipController extends Quest
 	
 	private final class DecayTask implements Runnable
 	{
+		@Override
 		public void run()
 		{
 			if (_dockedShip != null)
@@ -391,6 +392,7 @@ public abstract class AirShipController extends Quest
 	
 	private final class DepartTask implements Runnable
 	{
+		@Override
 		public void run()
 		{
 			if (_dockedShip != null

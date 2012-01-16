@@ -33,6 +33,7 @@ public class AdminMammon implements IAdminCommandHandler
 	
 	private boolean _isSealValidation = SevenSigns.getInstance().isSealValidationPeriod();
 	
+	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		int teleportIndex = -1;
@@ -127,6 +128,7 @@ public class AdminMammon implements IAdminCommandHandler
 		return true;
 	}
 	
+	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;
