@@ -51,7 +51,7 @@ public class Q553_OlympiadUndefeated extends Quest
 	{
 		final QuestState st = player.getQuestState(getName());
 		if (st == null)
-			return super.getNoQuestMsg(player);
+			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		String htmltext = event;
 		
 		if (event.equalsIgnoreCase("31688-03.html"))
@@ -73,7 +73,7 @@ public class Q553_OlympiadUndefeated extends Quest
 				st.exitQuest(false);
 			}
 			else
-				htmltext = super.getNoQuestMsg(player); // missing items
+				htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"; // missing items
 		}
 		return htmltext;
 	}
@@ -81,7 +81,7 @@ public class Q553_OlympiadUndefeated extends Quest
 	@Override
 	public String onTalk(final L2Npc npc, final L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 			return htmltext;

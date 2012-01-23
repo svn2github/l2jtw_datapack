@@ -16,19 +16,19 @@ package quests.Q182_NewRecruits;
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.base.Race;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- ** @author Gnacik
- **
- ** 2010-10-15 Based on official server Naia
+ * 2010-10-15 Based on official server Naia
+ * @author Gnacik
  */
-
 public class Q182_NewRecruits extends Quest
 {
 	private static final String qn = "182_NewRecruits";
+	
 	// NPC's
 	private static final int _kekropus = 32138;
 	private static final int _nornil = 32258;
@@ -37,10 +37,11 @@ public class Q182_NewRecruits extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		QuestState st = player.getQuestState(qn);
-		
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
+		{
 			return htmltext;
+		}
 		
 		if (npc.getNpcId() == _kekropus)
 		{
@@ -73,42 +74,46 @@ public class Q182_NewRecruits extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
+		{
 			return htmltext;
+		}
 		
-		if(player.getRace().ordinal() == 5)
-			return "32138-00.htm";
-
+		if (player.getRace() == Race.Kamael)
+		{
+			htmltext = "32138-00.htm";
+		}
 		if (player.getLevel() < 17)
 		{
 			return "<html><body>長老凱克洛普斯：<br>我在尋找外來者來幫助我們一族的年輕人，您周圍有人選嗎？<br>（只有等級17以上、21以下且尚未完成一次轉職的闇天使種族以外的角色，才可以執行的任務。）</body></html>";
 		}
 		if (npc.getNpcId() == _kekropus)
 		{
-			switch(st.getState())
+			switch (st.getState())
 			{
-				case State.CREATED :
-						htmltext = "32138-01.htm";
+				case State.CREATED:
+					htmltext = "32138-01.htm";
 					break;
-				case State.STARTED :
+				case State.STARTED:
 					if (st.getInt("cond") == 1)
+					{
 						htmltext = "32138-04.htm";
+					}
 					break;
-				case State.COMPLETED :
-					htmltext = getAlreadyCompletedMsg(player);
+				case State.COMPLETED:
+					htmltext = "<html><body>這是已經完成的任務。</body></html>";
 					break;
 			}
 		}
-		else if (npc.getNpcId() == _nornil && st.getState() == State.STARTED)
+		else if ((npc.getNpcId() == _nornil) && st.isStarted())
 		{
 			htmltext = "32258-01.htm";
 		}
-		else if (npc.getNpcId() == _nornil && st.getState() == State.COMPLETED)
+		else if ((npc.getNpcId() == _nornil) && st.isCompleted())
 		{
 			htmltext = "32258-exit.htm";
 		}
-		
 		return htmltext;
 	}
 	
@@ -117,8 +122,7 @@ public class Q182_NewRecruits extends Quest
 		super(questId, name, descr);
 		
 		addStartNpc(_kekropus);
-		addTalkId(_kekropus);
-		addTalkId(_nornil);
+		addTalkId(_kekropus, _nornil);
 	}
 	
 	public static void main(String[] args)

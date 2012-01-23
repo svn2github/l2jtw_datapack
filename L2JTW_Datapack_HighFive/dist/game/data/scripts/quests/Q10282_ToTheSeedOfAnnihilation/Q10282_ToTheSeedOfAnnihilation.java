@@ -27,49 +27,24 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public class Q10282_ToTheSeedOfAnnihilation extends Quest
 {
-	private static final String qn = "Q10282_ToTheSeedOfAnnihilation";
-	// NPC
+	private static final String qn = "10282_ToTheSeedOfAnnihilation";
+	
+	// NPCs
 	private static final int KBALDIR = 32733;
 	private static final int KLEMIS = 32734;
-	// Item
-	private static final int SOA_ORDERS = 15512;
 	
-	@Override
-	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
-	{
-		String htmltext = event;
-		QuestState st = player.getQuestState(qn);
-		
-		if (st == null)
-			return htmltext;
-		
-		if (npc.getNpcId() == KBALDIR && event.equalsIgnoreCase("32733-07.html"))
-		{
-			st.setState(State.STARTED);
-			st.set("cond", "1");
-			st.giveItems(SOA_ORDERS, 1);
-			st.playSound("ItemSound.quest_accept");
-		}
-		else if (npc.getNpcId() == KLEMIS && event.equalsIgnoreCase("32734-02.html"))
-		{
-			st.giveItems(57, 212182);
-			st.takeItems(SOA_ORDERS, 1);
-			st.addExpAndSp(1148480, 99110);
-			st.unset("cond");
-			st.exitQuest(false);
-			st.playSound("ItemSound.quest_finish");
-		}
-		return htmltext;
-	}
+	// Items
+	private static final int SOA_ORDERS = 15512;
 	
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		QuestState st = player.getQuestState(qn);
-		
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
+		{
 			return htmltext;
+		}
 		
 		if (npc.getNpcId() == KBALDIR)
 		{
@@ -107,12 +82,41 @@ public class Q10282_ToTheSeedOfAnnihilation extends Quest
 		return htmltext;
 	}
 	
+	@Override
+	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	{
+		String htmltext = event;
+		final QuestState st = player.getQuestState(qn);
+		if (st == null)
+		{
+			return htmltext;
+		}
+		
+		if (npc.getNpcId() == KBALDIR && event.equalsIgnoreCase("32733-07.html"))
+		{
+			st.setState(State.STARTED);
+			st.set("cond", "1");
+			st.giveItems(SOA_ORDERS, 1);
+			st.playSound("ItemSound.quest_accept");
+		}
+		else if (npc.getNpcId() == KLEMIS && event.equalsIgnoreCase("32734-02.html"))
+		{
+			st.giveItems(57, 212182);
+			st.takeItems(SOA_ORDERS, 1);
+			st.addExpAndSp(1148480, 99110);
+			st.unset("cond");
+			st.exitQuest(false);
+			st.playSound("ItemSound.quest_finish");
+		}
+		return htmltext;
+	}
+	
 	public Q10282_ToTheSeedOfAnnihilation(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
+		
 		addStartNpc(KBALDIR);
-		addTalkId(KBALDIR);
-		addTalkId(KLEMIS);
+		addTalkId(KBALDIR, KLEMIS);
 		
 		questItemIds = new int[] { SOA_ORDERS };
 	}

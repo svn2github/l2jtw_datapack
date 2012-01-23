@@ -24,7 +24,8 @@ import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.util.Rnd;
 
 /**
- * Mutated Kaneus - Rune (10281). Original Jython script by Gnacik on 2010-06-29
+ * Mutated Kaneus - Rune (10281).<br>
+ * Original Jython script by Gnacik on 2010-06-29
  * @author nonom
  */
 public class Q10281_MutatedKaneusRune extends Quest
@@ -42,9 +43,8 @@ public class Q10281_MutatedKaneusRune extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
-		QuestState st = player.getQuestState(qn);
-		
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 		{
 			return htmltext;
@@ -57,13 +57,9 @@ public class Q10281_MutatedKaneusRune extends Quest
 				{
 					htmltext = "31340-06.htm";
 				}
-				else if (st.isCreated() && (player.getLevel() >= 68))
+				else if (st.isCreated())
 				{
-					htmltext = "31340-01.htm";
-				}
-				else if (st.isCreated() && (player.getLevel() < 68))
-				{
-					htmltext = "31340-00.htm";
+					htmltext = (player.getLevel() >= 68) ? "31340-01.htm" : "31340-00.htm";
 				}
 				else if (st.getQuestItemsCount(TISSUE_WA) > 0)
 				{
@@ -77,7 +73,7 @@ public class Q10281_MutatedKaneusRune extends Quest
 			case KAYAN:
 				if (st.isCompleted())
 				{
-					htmltext = Quest.getAlreadyCompletedMsg(player);
+					htmltext = "<html><body>這是已經完成的任務。</body></html>";
 				}
 				else if (st.getQuestItemsCount(TISSUE_WA) > 0)
 				{
@@ -129,44 +125,45 @@ public class Q10281_MutatedKaneusRune extends Quest
 			return null;
 		}
 		
+		final int npcId = npc.getNpcId();
 		if (killer.getParty() != null)
 		{
-			FastList<QuestState> PartyMembers = new FastList<QuestState>();
-			
+			final FastList<QuestState> PartyMembers = new FastList<QuestState>();
 			for (L2PcInstance member : killer.getParty().getPartyMembers())
 			{
 				st = member.getQuestState(qn);
 				if ((st != null) && st.isStarted() && (st.getInt("cond") == 1))
 				{
-					if ((npc.getNpcId() == WHITE_ALLOSCE) && (st.getQuestItemsCount(TISSUE_WA) == 0))
+					if ((npcId == WHITE_ALLOSCE) && (st.getQuestItemsCount(TISSUE_WA) == 0))
 					{
 						PartyMembers.add(st);
 					}
 				}
 			}
 			
-			if (PartyMembers.isEmpty())
+			if (!PartyMembers.isEmpty())
 			{
-				return null;
-			}
-			
-			QuestState winnerst = PartyMembers.get(Rnd.get(PartyMembers.size()));
-			
-			if ((npc.getNpcId() == WHITE_ALLOSCE) && (winnerst.getQuestItemsCount(TISSUE_WA) == 0))
-			{
-				winnerst.giveItems(TISSUE_WA, 1);
-				winnerst.playSound("ItemSound.quest_itemget");
+				rewardItem(npcId, PartyMembers.get(Rnd.get(PartyMembers.size())));
 			}
 		}
 		else
 		{
-			if ((npc.getNpcId() == WHITE_ALLOSCE) && (st.getQuestItemsCount(TISSUE_WA) == 0))
-			{
-				st.giveItems(TISSUE_WA, 1);
-				st.playSound("ItemSound.quest_itemget");
-			}
+			rewardItem(npcId, st);
 		}
 		return null;
+	}
+	
+	/**
+	 * @param npcId the killed monster Id.
+	 * @param st the quest state of the killer or party member.
+	 */
+	private final void rewardItem(int npcId, QuestState st)
+	{
+		if ((npcId == WHITE_ALLOSCE) && !st.hasQuestItems(TISSUE_WA))
+		{
+			st.giveItems(TISSUE_WA, 1);
+			st.playSound("ItemSound.quest_itemget");
+		}
 	}
 	
 	public Q10281_MutatedKaneusRune(int questId, String name, String descr)

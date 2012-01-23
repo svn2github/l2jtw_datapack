@@ -1437,6 +1437,7 @@
 		</for>
 	</skill>
 	<skill id="2891" levels="6" name="Concentration">
+		<!-- This skill only has one level, 6. -->
 		<!-- Update by pmq -->
 		<set name="isMagic" val="true" />
 		<set name="target" val="TARGET_SELF" />

@@ -16,32 +16,34 @@ package quests.Q179_IntoTheLargeCavern;
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.base.Race;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- ** @author Gnacik
- **
- ** 2010-10-15 Based on official server Naia
+ * 2010-10-15 Based on official server Naia
+ * @author Gnacik
  */
-
 public class Q179_IntoTheLargeCavern extends Quest
 {
 	private static final String qn = "179_IntoTheLargeCavern";
+	
 	// NPC's
 	private static final int _kekropus = 32138;
 	private static final int _nornil = 32258;
-
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		QuestState st = player.getQuestState(qn);
-
+		final QuestState st = player.getQuestState(qn);
+		
 		if (st == null)
+		{
 			return htmltext;
-
+		}
+		
 		if (npc.getNpcId() == _kekropus)
 		{
 			if (event.equalsIgnoreCase("32138-03.htm"))
@@ -71,38 +73,42 @@ public class Q179_IntoTheLargeCavern extends Quest
 		}
 		return htmltext;
 	}
-
+	
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
+		{
 			return htmltext;
-
+		}
+		
 		QuestState _prev = player.getQuestState("178_IconicTrinity");
-		if (player.getRace().ordinal() != 5)
+		if (player.getRace() != Race.Kamael)
 			return "<html><body>長老凱克洛普斯：<br>很抱歉，這事情與他種族無關。<br>（只有闇天使種族才能執行此任務。）</body></html>";
 
 		if (_prev != null && _prev.getState() == State.COMPLETED && player.getLevel() >= 17 && player.getClassId().level() == 0)
 		{
 			if (npc.getNpcId() == _kekropus)
 			{
-				switch(st.getState())
+				switch (st.getState())
 				{
-					case State.CREATED :
-							htmltext = "32138-01.htm";
+					case State.CREATED:
+						htmltext = "32138-01.htm";
 						break;
-					case State.STARTED :
+					case State.STARTED:
 						if (st.getInt("cond") == 1)
+						{
 							htmltext = "32138-05.htm";
+						}
 						break;
-					case State.COMPLETED :
+					case State.COMPLETED:
 						htmltext = "<html><body>這是已經完成的任務。</body></html>";
 						break;
 				}
 			}
-			else if (npc.getNpcId() == _nornil && st.getState() == State.STARTED)
+			else if ((npc.getNpcId() == _nornil) && (st.getState() == State.STARTED))
 			{
 				htmltext = "32258-01.htm";
 			}
@@ -112,20 +118,21 @@ public class Q179_IntoTheLargeCavern extends Quest
 			}
 		}
 		else
+		{
 			htmltext = "32138-00.htm";
-
+		}
+		
 		return htmltext;
 	}
-
+	
 	public Q179_IntoTheLargeCavern(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-
+		
 		addStartNpc(_kekropus);
-		addTalkId(_kekropus);
-		addTalkId(_nornil);
+		addTalkId(_kekropus, _nornil);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new Q179_IntoTheLargeCavern(179, qn, "進入大空洞");
