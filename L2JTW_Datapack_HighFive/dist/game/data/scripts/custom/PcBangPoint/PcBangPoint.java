@@ -21,7 +21,7 @@ import javolution.util.FastMap;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.actor.instance.L2SummonInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2ServitorInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.network.SystemMessageId;
@@ -265,7 +265,7 @@ public class PcBangPoint extends Quest
 		}
 		else if (PETSKILL.containsKey(event))
 		{
-			if (player.getPet() == null || !(player.getPet() instanceof L2SummonInstance))
+			if (player.getPet() == null || !(player.getPet() instanceof L2ServitorInstance))
 			{
 				htmltext = "nosummon.htm";
 			}
@@ -358,7 +358,7 @@ public class PcBangPoint extends Quest
 		}
 		else if (event.equalsIgnoreCase("pet_warrior"))
 		{
-			if (player.getPet() == null || !(player.getPet() instanceof L2SummonInstance))
+			if (player.getPet() == null || !(player.getPet() instanceof L2ServitorInstance))
 			{
 				htmltext = "nosummon.htm";
 			}
@@ -422,7 +422,7 @@ public class PcBangPoint extends Quest
 		}
 		else if (event.equalsIgnoreCase("pet_mage"))
 		{
-			if (player.getPet() == null || !(player.getPet() instanceof L2SummonInstance))
+			if (player.getPet() == null || !(player.getPet() instanceof L2ServitorInstance))
 			{
 				htmltext = "nosummon.htm";
 			}

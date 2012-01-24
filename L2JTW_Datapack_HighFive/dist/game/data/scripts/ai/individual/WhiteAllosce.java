@@ -16,9 +16,9 @@ package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
 
-import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.skills.L2Skill;
 
 /**
  * 卡納斯 百眼的 阿羅梭 / 阿羅梭的手下

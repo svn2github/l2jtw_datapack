@@ -18,12 +18,12 @@ import com.l2jserver.gameserver.datatables.HelperBuffTable;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.IBypassHandler;
 import com.l2jserver.gameserver.model.L2HelperBuff;
-import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.actor.instance.L2SummonInstance;
-import com.l2jserver.gameserver.templates.skills.L2SkillType;
+import com.l2jserver.gameserver.model.actor.instance.L2ServitorInstance;
+import com.l2jserver.gameserver.model.skills.L2Skill;
+import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class SupportMagic implements IBypassHandler
@@ -88,7 +88,7 @@ public class SupportMagic implements IBypassHandler
 		
 		if (isSummon)
 		{
-			if ((player.getPet() == null) || !(player.getPet() instanceof L2SummonInstance))
+			if ((player.getPet() == null) || !(player.getPet() instanceof L2ServitorInstance))
 			{
 				String content = "<html><body>"+ MessageTable.Messages[1081].getMessage() +"</body></html>";
 				npc.insertObjectIdAndShowChatWindow(player, content);
