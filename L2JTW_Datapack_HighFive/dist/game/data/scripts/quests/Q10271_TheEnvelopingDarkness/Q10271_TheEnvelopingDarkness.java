@@ -105,7 +105,7 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 						htmltext = "32556-08.htm";
 						break;
 					case 4:
-						htmltext = "32556-09.htm";
+						htmltext = "32556-10.htm";
 						break;
 				}
 			}
