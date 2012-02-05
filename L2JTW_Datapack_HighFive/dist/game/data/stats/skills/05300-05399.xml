@@ -13,7 +13,7 @@
 		<set name="hitTime" val="3200" />
 		<set name="coolTime" val="800" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<set name="element" val="5" /> <!-- Dark -->
@@ -35,7 +35,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="lvlDepend" val="2" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="nextActionAttack" val="true" />
 		<set name="saveVs" val="CON" />
 		<set name="trait" val="SHOCK" />
@@ -60,7 +60,7 @@
 		<set name="effectRange" val="200" />
 		<set name="hitTime" val="830" />
 		<set name="coolTime" val="660" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="CON" />
 		<set name="trait" val="POISON" />
 		<for>
@@ -80,7 +80,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="830" />
 		<set name="coolTime" val="660" />
 		<set name="saveVs" val="CON" />
@@ -105,7 +105,7 @@
 		<set name="nextActionAttack" val="true" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="830" />
 		<set name="isDebuff" val="true" />
 		<set name="coolTime" val="660" />
@@ -131,7 +131,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="CON" />
 		<set name="trait" val="POISON" />
 		<for>
@@ -151,7 +151,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
 		<set name="skillRadius" val="150" />
@@ -173,7 +173,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="4500" />
@@ -200,7 +200,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="4500" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="CON" />
 		<set name="trait" val="POISON" />
 		<for>
@@ -220,7 +220,7 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="4500" />
@@ -243,7 +243,7 @@
 		<set name="isMagic" val="true" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="150" />
 		<set name="effectRange" val="650" />
 		<set name="hitTime" val="1500" />
@@ -260,7 +260,7 @@
 		<set name="isMagic" val="true" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="200" />
 		<set name="hitTime" val="1000" />
 	</skill>
@@ -278,7 +278,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="4000" />
@@ -298,7 +298,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<set name="skillRadius" val="200" />
@@ -318,7 +318,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="element" val="0" />
 		<set name="elementPower" val="20" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="200" />
 		<set name="hitTime" val="4000" />
 	</skill>
@@ -333,7 +333,7 @@
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="MDAM" />
 		<set name="skillRadius" val="200" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="5316" levels="9" name="NPC(party) -Magic Single Long Range DD - Water">
 		<table name="#magicLvl"> 75 78 81 84 87 90 93 96 99 </table>
@@ -349,7 +349,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -369,7 +369,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<set name="hitTime" val="4000" />
@@ -389,7 +389,7 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillRadius" val="200" />
 	</skill>
@@ -407,10 +407,10 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="2" /> <!-- Wind -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -430,7 +430,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="5000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -448,9 +448,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="2" /> <!-- Wind -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="650" />
 	</skill>
@@ -468,10 +468,10 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="3" /> <!-- Earth -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -491,7 +491,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="5000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -509,9 +509,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="3" /> <!-- Earth -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="650" />
 	</skill>
@@ -529,10 +529,10 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="4" /> <!-- Holy -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -552,7 +552,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="5000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -570,9 +570,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="4" /> <!-- Holy -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="650" />
 	</skill>
@@ -590,7 +590,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -610,7 +610,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
@@ -630,7 +630,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillRadius" val="200" />
 	</skill>
@@ -645,7 +645,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="4000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="600" />
 	</skill>
 	<skill id="5332" levels="9" name="NPC MP Burn">
@@ -661,7 +661,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MANADAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<set name="effectRange" val="1100" />
@@ -677,7 +677,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MDAM" />
 		<set name="lvlDepend" val="2" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
 		<set name="isMagic" val="true" />
@@ -701,7 +701,7 @@
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="830" />
 		<set name="coolTime" val="660" />
 		<set name="castRange" val="40" />
@@ -716,7 +716,7 @@
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4500" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -729,7 +729,7 @@
 		<set name="power" val="12777" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
 		<set name="skillRadius" val="150" />
@@ -749,7 +749,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -764,7 +764,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="830" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
@@ -786,7 +786,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -801,7 +801,7 @@
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="effectRange" val="300" />
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="20" />
@@ -822,7 +822,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -837,7 +837,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="830" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
@@ -859,7 +859,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -877,9 +877,9 @@
 		<set name="element" val="1" /> <!-- Water -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="6000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="150" />
 		<set name="effectRange" val="300" />
 	</skill>
@@ -899,7 +899,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -914,7 +914,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="830" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
@@ -936,7 +936,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -954,9 +954,9 @@
 		<set name="element" val="2" /> <!-- Wind -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="6000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="150" />
 		<set name="effectRange" val="300" />
 	</skill>
@@ -976,7 +976,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -991,7 +991,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="830" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
@@ -1013,7 +1013,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -1027,7 +1027,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
 		<set name="skillRadius" val="150" />
@@ -1048,7 +1048,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -1068,7 +1068,7 @@
 		<set name="reuseDelay" val="6000" />
 		<set name="hitTime" val="1000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 	</skill>
@@ -1088,7 +1088,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -1102,7 +1102,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
 		<set name="skillRadius" val="150" />
@@ -1123,7 +1123,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -1138,7 +1138,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="830" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
@@ -1155,7 +1155,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4500" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -1170,7 +1170,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="150" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
@@ -1191,7 +1191,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -1206,7 +1206,7 @@
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="nextActionAttack" val="true" />
 		<set name="hitTime" val="830" />
 		<set name="isDebuff" val="true" />
@@ -1236,7 +1236,7 @@
 		<set name="effectRange" val="200" />
 		<set name="hitTime" val="830" />
 		<set name="coolTime" val="660" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="CON" />
 		<set name="trait" val="POISON" />
 		<for>
@@ -1256,7 +1256,7 @@
 		<set name="lvlDepend" val="2" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="830" />
 		<set name="coolTime" val="660" />
 		<set name="castRange" val="40" />
@@ -1279,7 +1279,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="nextActionAttack" val="true" />
 		<set name="hitTime" val="830" />
 		<set name="isDebuff" val="true" />
@@ -1306,7 +1306,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillRadius" val="150" />
 		<set name="saveVs" val="CON" />
 		<set name="trait" val="POISON" />
@@ -1325,7 +1325,7 @@
 		<set name="elementPower" val="20" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="nextActionAttack" val="true" />
 		<set name="hitTime" val="1000" />
 		<set name="coolTime" val="800" />
@@ -1354,7 +1354,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="isDebuff" val="true" />
 		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="effectType" val="STUN" />
@@ -1380,7 +1380,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="4500" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="CON" />
 		<set name="trait" val="POISON" />
 		<for>
@@ -1400,7 +1400,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BLEED" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="trait" val="BLEED" />
@@ -1422,7 +1422,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="150" />
 		<set name="effectRange" val="650" />
 		<set name="hitTime" val="1500" />
@@ -1439,7 +1439,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="200" />
 		<set name="hitTime" val="1000" />
 	</skill>
@@ -1457,10 +1457,10 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -1478,7 +1478,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<set name="hitTime" val="5000" />
@@ -1498,9 +1498,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="650" />
 	</skill>
@@ -1513,7 +1513,7 @@
 		<set name="isMagic" val="true" />
 		<set name="isSuicideAttack" val="true" />
 		<set name="magicLvl" val="#magicLvl" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="power" val="#power" />
 		<set name="skillRadius" val="200" />
 		<set name="skillType" val="MDAM" />
@@ -1533,10 +1533,10 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="1" /> <!-- Water -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -1556,7 +1556,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="5000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -1574,9 +1574,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="1" /> <!-- Water -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="650" />
 	</skill>
@@ -1593,7 +1593,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -1613,9 +1613,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="1" /> <!-- Water -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -1632,7 +1632,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillRadius" val="200" />
 	</skill>
@@ -1649,7 +1649,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -1669,9 +1669,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="3" /> <!-- Earth -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -1689,9 +1689,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="3" /> <!-- Earth -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="650" />
 	</skill>
@@ -1709,10 +1709,10 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="4" /> <!-- Holy -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 	</skill>
@@ -1730,9 +1730,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="4" /> <!-- Holy -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
@@ -1750,9 +1750,9 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="4" /> <!-- Holy -->
 		<set name="reuseDelay" val="8000" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="650" />
 	</skill>
@@ -1769,7 +1769,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="4000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -1789,7 +1789,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AREA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<set name="skillRadius" val="200" />
@@ -1809,7 +1809,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="MDAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="200" />
 		<set name="hitTime" val="4000" />
 	</skill>
@@ -1827,7 +1827,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DRAIN" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="absorbPart" val="0.9" />
 		<set name="hitTime" val="4000" />
 		<set name="castRange" val="600" />
@@ -1845,7 +1845,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MANADAM" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
@@ -1860,7 +1860,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MDAM" />
 		<set name="lvlDepend" val="2" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
 		<set name="isMagic" val="true" />
@@ -1891,7 +1891,7 @@
 		<set name="target" val="TARGET_CLAN" />
 		<set name="skillType" val="BUFF" />
 		<set name="reuseDelay" val="8000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="2000" />
 		<set name="aggroPoints" val="100" />
 		<set name="skillRadius" val="900" />
@@ -1905,17 +1905,17 @@
 	<skill id="5396" levels="1" name="NPC - Spell Stance">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="CA5" />
 		<set name="hitTime" val="15000" />
 	</skill>
 	<skill id="5397" levels="3" name="NPC - Spell Force">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="5398" levels="1" name="NPC - Combination Force">
 		<set name="target" val="TARGET_AREA" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="magicLvl" val="99" />
 		<set name="skillType" val="MDAM" />
 		<set name="power" val="657" />
@@ -1935,7 +1935,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="1" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="MEN" />
 		<set name="power" val="10" /> <!-- Base Land Rate -->
 		<set name="skillType" val="DOT" />

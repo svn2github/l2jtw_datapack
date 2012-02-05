@@ -65,7 +65,7 @@ public class Q461_RumbleInTheBase extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		String htmltext = getNoQuestMsg(player);
 		QuestState st = player.getQuestState(qn);
 		QuestState prev = player.getQuestState("252_ItSmellsDelicious");
 		if (st == null)
@@ -89,8 +89,6 @@ public class Q461_RumbleInTheBase extends Quest
 					st.addExpAndSp(224784, 342528);
 					st.playSound("ItemSound.quest_finish");
 					htmltext = "30200-07.html";
-					st.unset("cond");
-					st.exitQuest(false);
 					
 					Calendar time = Calendar.getInstance();
 					time.set(Calendar.MINUTE, ResetMin);
@@ -98,6 +96,7 @@ public class Q461_RumbleInTheBase extends Quest
 						time.add(Calendar.DATE, 1);
 					time.set(Calendar.HOUR_OF_DAY, ResetHour);
 					st.set("time", String.valueOf(time.getTimeInMillis()));
+					st.exitQuest(false);
 				}
 				break;
 			case State.COMPLETED:

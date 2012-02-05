@@ -27,8 +27,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.ExNotifyPremiumItem;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 
-
-
 /**
  * @author  KKnD
  */
@@ -130,7 +128,7 @@ public class AdminVitaminItem implements IAdminCommandHandler
 			for (L2PcInstance pc : pls)
 			{
 				pc.loadPremiumItemList();
-				if(!pc.getPremiumItemList().isEmpty())
+				if (!pc.getPremiumItemList().isEmpty())
 					pc.sendPacket(new ExNotifyPremiumItem());
 			}
 			player.sendMessage("物品已給玩家");

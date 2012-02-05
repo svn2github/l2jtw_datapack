@@ -97,7 +97,7 @@ public class Q453_NotStrongEnoughAlone extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		String htmltext = getNoQuestMsg(player);
 		QuestState st = player.getQuestState(qn);
 		QuestState prev = player.getQuestState("10282_ToTheSeedOfAnnihilation");
 		if (st == null)
@@ -126,7 +126,6 @@ public class Q453_NotStrongEnoughAlone extends Quest
 						st.giveItems(Reward[0][Rnd.get(Reward[0].length)], 1);
 					else
 						st.giveItems(Reward[1][Rnd.get(Reward[1].length)], 1);
-					st.exitQuest(false);
 					st.playSound("ItemSound.quest_finish");
 					htmltext = "32734-14.html";
 					
@@ -136,6 +135,7 @@ public class Q453_NotStrongEnoughAlone extends Quest
 						reset.add(Calendar.DATE, 1);
 					reset.set(Calendar.HOUR_OF_DAY, ResetHour);
 					st.set("reset", String.valueOf(reset.getTimeInMillis()));
+					st.exitQuest(false);
 				}
 				break;
 			case State.COMPLETED:

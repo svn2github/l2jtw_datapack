@@ -61,7 +61,7 @@ public class Q10281_MutatedKaneusRune extends Quest
 				{
 					htmltext = (player.getLevel() >= 68) ? "31340-01.htm" : "31340-00.htm";
 				}
-				else if (st.getQuestItemsCount(TISSUE_WA) > 0)
+				else if (st.hasQuestItems(TISSUE_WA))
 				{
 					htmltext = "31340-05.htm";
 				}
@@ -75,7 +75,7 @@ public class Q10281_MutatedKaneusRune extends Quest
 				{
 					htmltext = "<html><body>這是已經完成的任務。</body></html>";
 				}
-				else if (st.getQuestItemsCount(TISSUE_WA) > 0)
+				else if (st.hasQuestItems(TISSUE_WA))
 				{
 					htmltext = "31335-02.htm";
 				}
@@ -108,8 +108,8 @@ public class Q10281_MutatedKaneusRune extends Quest
 				break;
 			case "31335-03.htm":
 				st.rewardItems(57, 360000);
-				st.exitQuest(false);
 				st.playSound("ItemSound.quest_finish");
+				st.exitQuest(false);
 				break;
 		}
 		return htmltext;
@@ -134,7 +134,7 @@ public class Q10281_MutatedKaneusRune extends Quest
 				st = member.getQuestState(qn);
 				if ((st != null) && st.isStarted() && (st.getInt("cond") == 1))
 				{
-					if ((npcId == WHITE_ALLOSCE) && (st.getQuestItemsCount(TISSUE_WA) == 0))
+					if ((npcId == WHITE_ALLOSCE) && (!st.hasQuestItems(TISSUE_WA)))
 					{
 						PartyMembers.add(st);
 					}

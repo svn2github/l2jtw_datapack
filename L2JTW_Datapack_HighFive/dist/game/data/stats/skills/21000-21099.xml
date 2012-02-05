@@ -3,7 +3,7 @@
 	<skill id="21000" levels="1" name="Release Seal on Agathion - Majo">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1501" />
@@ -11,7 +11,7 @@
 	<skill id="21001" levels="1" name="Release Seal on Agathion - Gold Majo">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1502" />
@@ -19,7 +19,7 @@
 	<skill id="21002" levels="1" name="Release Seal on Agathion - Black Majo">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1503" />
@@ -27,14 +27,14 @@
 	<skill id="21003" levels="1" name="Release Seal on Agathion - Plaipitak">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1504" />
 	</skill>
 	<skill id="21004" levels="1" name="Wind Walk">
 		<set name="target" val="TARGET_SELF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
@@ -48,7 +48,7 @@
 	</skill>
 	<skill id="21005" levels="3" name="Agility">
 		<set name="target" val="TARGET_SELF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
@@ -64,13 +64,13 @@
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="5000" />
 		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="21007" levels="1" name="Ability of Doubt">
 		<!-- Update by rocknow -->
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="300000" />
@@ -83,7 +83,7 @@
 	<skill id="21008" levels="1" name="Release Seal on Agathion - Baby Panda">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1505" />
@@ -91,7 +91,7 @@
 	<skill id="21009" levels="1" name="Release Seal on Agathion - Bamboo Panda">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1506" />
@@ -99,7 +99,7 @@
 	<skill id="21010" levels="1" name="Release Seal on Agathion - Sexy Panda">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1507" />
@@ -109,7 +109,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="4000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="43200000" />
 		<set name="staticReuse" val="true" />
 		<for>
@@ -123,7 +123,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="4000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="43200000" />
 		<set name="staticReuse" val="true" />
 		<for>
@@ -137,7 +137,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="4000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="43200000" />
 		<set name="staticReuse" val="true" />
 		<for>
@@ -150,7 +150,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
 		<set name="coolTime" val="500" />
 		<set name="equipDelay" val="30000" />
@@ -165,7 +165,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
 		<set name="coolTime" val="500" />
 		<set name="equipDelay" val="30000" />
@@ -179,7 +179,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
 		<set name="coolTime" val="500" />
 		<set name="equipDelay" val="30000" />
@@ -192,7 +192,7 @@
 	<skill id="21017" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -203,7 +203,7 @@
 	<skill id="21018" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -214,7 +214,7 @@
 	<skill id="21019" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -225,7 +225,7 @@
 	<skill id="21020" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -236,7 +236,7 @@
 	<skill id="21021" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -247,7 +247,7 @@
 	<skill id="21022" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -258,7 +258,7 @@
 	<skill id="21023" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -269,7 +269,7 @@
 	<skill id="21024" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -280,7 +280,7 @@
 	<skill id="21025" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -291,7 +291,7 @@
 	<skill id="21026" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -302,7 +302,7 @@
 	<skill id="21027" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -314,7 +314,7 @@
 	<skill id="21028" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -325,7 +325,7 @@
 	<skill id="21029" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -336,7 +336,7 @@
 	<skill id="21030" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="1.3" />
@@ -349,7 +349,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1508" />
 	</skill>
 	<skill id="21032" levels="1" name="Agathion Seal Release - Naughty Cupid">
@@ -357,7 +357,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1509" />
 	</skill>
 	<skill id="21033" levels="1" name="Release Seal on Agathion - White Maneki Neko">
@@ -365,7 +365,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1510" />
 	</skill>
 	<skill id="21034" levels="1" name="Release Seal on Agathion - Black Maneki Neko">
@@ -373,7 +373,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1511" />
 	</skill>
 	<skill id="21035" levels="1" name="Release Seal on Agathion - Brown Maneki Neko">
@@ -381,7 +381,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1512" />
 	</skill>
 	<skill id="21036" levels="1" name="Release Seal on Agathion - One-eyed Bat Drove">
@@ -389,7 +389,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1513" />
 	</skill>
 	<skill id="21037" levels="1" name="Release Seal on Agathion - Pegasus">
@@ -397,7 +397,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1514" />
 	</skill>
 	<skill id="21038" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong">
@@ -405,7 +405,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1515" />
 	</skill>
 	<skill id="21039" levels="1" name="Release Seal on Agathion - Blue-robed Tojigong">
@@ -413,7 +413,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1516" />
 	</skill>
 	<skill id="21040" levels="1" name="Release Seal on Agathion - Green-robed Tojigong">
@@ -421,7 +421,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1517" />
 	</skill>
 	<skill id="21041" levels="1" name="Release Seal on Agathion - Bugbear">
@@ -429,13 +429,13 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1518" />
 	</skill>
 	<skill id="21042" levels="1" name="Baguette's Blessing">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1800000" />
 		<set name="hitTime" val="3000" />
 	</skill>
@@ -444,7 +444,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1519" />
 	</skill>
 	<skill id="21044" levels="1" name="Agathion Seal Cancel - Blue Sumo Wrestler Agathion">
@@ -452,7 +452,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1520" />
 	</skill>
 	<skill id="21045" levels="1" name="Agathion Seal Cancel - Great Sumo Match">
@@ -460,7 +460,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1521" />
 	</skill>
 	<skill id="21046" levels="1" name="Agathion Seal Cancel - Button-Eyed Bear Doll">
@@ -468,7 +468,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1522" />
 	</skill>
 	<skill id="21047" levels="1" name="Agathion Seal Cancel - God of Fortune">
@@ -476,7 +476,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1523" />
 	</skill>
 	<skill id="21048" levels="1" name="Agathion Seal Cancel - Dryad">
@@ -484,7 +484,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1524" />
 	</skill>
 	<skill id="21049" levels="1" name="Agathion Seal Cancel - Wonboso">
@@ -492,7 +492,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1525" />
 	</skill>
 	<skill id="21050" levels="1" name="Agathion Seal Cancel - Daewoonso">
@@ -500,13 +500,13 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1526" />
 	</skill>
 	<skill id="21051" levels="1" name="Steam Beatle Mount">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="isMagic" val="true" />
 		<set name="transformId" val="110" />
 		<for>
@@ -523,7 +523,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="532" />
@@ -545,10 +545,10 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="4000" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -562,12 +562,13 @@
 		<!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours -->
 		<!-- Update by pmq -->
 		<set name="power" val="100" />
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="43200000" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
 		<set name="skillType" val="RESURRECT" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
@@ -581,11 +582,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -605,11 +606,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -629,11 +630,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -655,11 +656,11 @@
 		<set name="itemConsumeId" val="3031" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -680,11 +681,11 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="HEAL" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -703,11 +704,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -727,11 +728,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -751,11 +752,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -775,11 +776,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -802,11 +803,11 @@
 		<set name="itemConsumeId" val="3031" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -825,11 +826,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -843,7 +844,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="3000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -855,11 +856,11 @@
 	<skill id="21067" levels="1" name="Blessed Escape Ability">
 		<!-- Can use the ability of Blessed Return. Reuse Delay 12 hours -->
 		<!-- Update by pmq -->
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="43200000" />
 		<set name="hitTime" val="200" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="RECALL" />
-		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="21068" levels="1" name="Resist Unholy">
 		<!-- Increases resistance to darkness type attacks by 30 for 5 minutes. Reuse Delay 1 hours -->
@@ -870,11 +871,11 @@
 		<table name="#stack"> 1.3 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="isMagic" val="true" />
@@ -895,11 +896,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -919,11 +920,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -943,11 +944,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -967,11 +968,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -994,11 +995,11 @@
 		<set name="itemConsumeId" val="3031" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1017,11 +1018,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1042,11 +1043,11 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="HEAL" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1064,11 +1065,11 @@
 		<table name="#stack"> 1.3 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="isMagic" val="true" />
@@ -1089,11 +1090,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1113,11 +1114,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1137,11 +1138,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1161,11 +1162,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1188,11 +1189,11 @@
 		<set name="itemConsumeId" val="3031" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1211,11 +1212,11 @@
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1236,11 +1237,11 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="HEAL" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1254,7 +1255,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="3000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1268,18 +1269,18 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1527" />
 	</skill>
 	<skill id="21086" levels="1" name="Blessing of Love">
 		<!-- Can feel the warm love of family. Protects the target with sacred power. Makes the target invincible for 10 seconds. Reuse Delay 4 hours -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="4000" />
 		<set name="reuseDelay" val="14400000" />
 		<set name="skillType" val="BUFF" />
 		<set name="staticReuse" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<for>
@@ -1291,7 +1292,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<cond msgId="113" addName="1">
 			<player SiegeZone="126" />
 		</cond>
@@ -1312,9 +1313,9 @@
 		<!-- Summons your friend. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="-1" />
 		<set name="skillType" val="SUMMON_FRIEND" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="mpConsume" val="180" />
 		<set name="hitTime" val="15000" />
 		<set name="reuseDelay" val="150000" />
@@ -1327,10 +1328,10 @@
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="60" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="2500" />
 		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="666" />
 		<for>
 			<effect name="SilentMove" abnormalTime="120" abnormal="stealth" val="0">
@@ -1347,11 +1348,11 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="staticReuse" val="true" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="PhoenixBless" abnormalTime="1800" val="0" />
 		</for>
@@ -1362,7 +1363,7 @@
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="npcId" val="1528" />
 	</skill>
 	<skill id="21092" levels="1" name="Theme - Love">
@@ -1370,28 +1371,28 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 	</skill>
 	<skill id="21093" levels="1" name="Theme - Hero">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 	</skill>
 	<skill id="21094" levels="1" name="Theme - Theme Park">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 	</skill>
 	<skill id="21095" levels="1" name="Blessed Resurrection">
 		<!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
 		<set name="skillType" val="RESURRECT" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="power" val="100" />
 		<set name="hitTime" val="3000" />
 		<set name="reuseDelay" val="43200000" />
@@ -1405,9 +1406,9 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="staticReuse" val="true" />
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="Buff" abnormalTime="1800" val="0">
 				<basemul order="0x30" stat="rCrit" val="0.3" />
@@ -1419,9 +1420,9 @@
 		<!-- Summons your friend. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="-1" />
 		<set name="skillType" val="SUMMON_FRIEND" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="mpConsume" val="180" />
 		<set name="hitTime" val="15000" />
 		<set name="reuseDelay" val="150000" />
@@ -1433,11 +1434,11 @@
 		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, moving speed by 20%, and resistance against debuff by 10%. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="soul_buff">
 				<mul order="0x30" stat="maxHp" val="1.2" />
@@ -1451,11 +1452,11 @@
 		<!-- For five minutes, the Great Spirit increases Atk.Spd. by 20%, damage by 10% and P.Def. by 20%. You recover HP equal to 5% of the melee damage. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="soul_buff">
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />

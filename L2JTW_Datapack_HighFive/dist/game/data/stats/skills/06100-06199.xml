@@ -5,14 +5,14 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="isMagic" val="true" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="6103" levels="5" name="Showdown with the Turkey - 1 Win">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" />
@@ -23,14 +23,14 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NEGATE" />
 		<set name="negateId" val="6103" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="6105" levels="1" name="Turkey's Mistake">
 		<!-- Update by pmq -->
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="4000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect count="1" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event">
 				<mul order="0x30" stat="maxHp" val="1.1" />
@@ -49,7 +49,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event">
 				<mul order="0x30" stat="maxHp" val="1.05" />
@@ -65,7 +65,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -75,7 +75,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -85,7 +85,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="T" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -95,7 +95,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -105,7 +105,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="T" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -115,7 +115,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -125,7 +125,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -135,7 +135,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -145,7 +145,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
-		<set name="operateType" val="OP_TOGGLE" />
+		<set name="operateType" val="A2" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event" />
@@ -155,7 +155,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="6117" levels="3" name="Choice - Scissors/Rock/Paper">
@@ -163,7 +163,7 @@
 		<!-- Change when implemented -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<for>
@@ -175,7 +175,7 @@
 		<set name="magicLvl" val="1" />
 		<set name="isMagic" val="true" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="1" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="2" abnormalType="event_santa_reward">
@@ -199,7 +199,7 @@
 		<set name="hitTime" val="2700" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="55" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="skillType" val="CREATE_ITEM" />
 		<set name="staticReuse" val="true" />
@@ -219,7 +219,7 @@
 		<set name="hitTime" val="2700" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="55" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="skillType" val="CREATE_ITEM" />
 		<set name="staticReuse" val="true" />
@@ -233,10 +233,10 @@
 	</skill>
 	<skill id="6123" levels="1" name="Agathion's New Year's Wish">
 		<!-- Update by pmq -->
+		<set name="operateType" val="A2" />
 		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalVisualEffect="vitality" abnormalLvl="1" abnormalType="energy_up">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
@@ -246,7 +246,7 @@
 	<skill id="6124" levels="1" name="Agathion Cute Trick - Saerom">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<cond msgId="2292">
@@ -259,7 +259,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="40" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="skillType" val="PARALYZE" />
 		<set name="target" val="TARGET_ONE" />
@@ -274,7 +274,7 @@
 		<set name="isMagic" val="true" />
 		<set name="isDebuff" val="true" />
 		<set name="isTriggeredSkill" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="skillType" val="PARALYZE" />
 		<set name="target" val="TARGET_ONE" />
@@ -286,19 +286,19 @@
 	<skill id="6127" levels="1" name="Anti-limit">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="P" />
 	</skill>
 	<skill id="6128" levels="1" name="Presentation - Cow Rage">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="6129" levels="1" name="Shock">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="6000" />
 		<set name="hitTime" val="1000" />
 		<set name="saveVs" val="CON" />
@@ -309,7 +309,7 @@
 	<skill id="6130" levels="1" name="Curse of the Mutant Animal">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="6000" />
 		<set name="hitTime" val="6000" />
 		<set name="saveVs" val="CON" />
@@ -320,7 +320,7 @@
 	<skill id="6131" levels="1" name="Decrease Spd">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="2000" />
 		<set name="saveVs" val="MEN" />
@@ -329,7 +329,7 @@
 	<skill id="6132" levels="1" name="Decrease Atk. Spd">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="8000" />
 		<set name="lvlDepend" val="1" />
 		<set name="hitTime" val="1500" />
@@ -338,13 +338,13 @@
 	<skill id="6133" levels="1" name="Effect of Doubt">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="trait" val="ETC" />
 	</skill>
 	<skill id="6134" levels="1" name="Curse of the Mutant Animal">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="lvlDepend" val="1" />
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="1500" />
@@ -353,7 +353,7 @@
 	<skill id="6135" levels="1" name="Cow Basic Attack">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="6000" />
 		<set name="hitTime" val="6000" />
 		<set name="staticDamage" val="true" />
@@ -365,7 +365,7 @@
 	<skill id="6136" levels="1" name="Agathion Cute Trick - Juju">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<set name="reuseDelay" val="10000" />
@@ -375,7 +375,7 @@
 	</skill>
 	<skill id="6137" levels="1" name="Agathion Juju - Effect of Doubt">
 		<!-- Update by rocknow -->
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="1500" />
@@ -393,9 +393,9 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1500" />
 		<set name="staticHitTime" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
@@ -406,7 +406,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" special="baguettesword" abnormalLvl="1" abnormalType="baguette_sword" />
 		</for>
@@ -414,12 +414,12 @@
 	<skill id="6140" levels="3" name="Bog Stride">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="6141" levels="1" name="Swamp's Wish">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
@@ -429,7 +429,7 @@
 		<!-- Lvl 3: Covered in hot and sticky tar. Movement is impaired. Due to the burning tar, for 5 minbutes, moving speed is decreased 90% and P. Def. and evasion are decreased 30%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="lvlDepend" val="2" />
 		<set name="reuseDelay" val="30000" />
 		<set name="saveVs" val="MEN" />
@@ -437,24 +437,24 @@
 	<skill id="6143" levels="1" name="Ancient Beam">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="4000" />
 	</skill>
 	<skill id="6144" levels="1" name="Ancient Beam">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="4000" />
 	</skill>
 	<skill id="6145" levels="1" name="Earthworm's Evil Aura">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="6146" levels="1" name="Forfeiture of Will">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="4000" />
 	</skill>
 	<skill id="6147" levels="1" name="Kasha's Divine Protection">
@@ -462,7 +462,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="mpConsume" val="59" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="reuseDelay" val="4000" />
@@ -483,7 +483,7 @@
 		<set name="isMagic" val="true" />
 		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="mpInitialConsume" val="15" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="4000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1500" />
@@ -503,7 +503,7 @@
 		<!-- Only when a eye explode -->
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
@@ -524,7 +524,7 @@
 		<table name="#pAtkSpd"> 1.02 1.04 1.06 1.08 </table>
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
@@ -541,7 +541,7 @@
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="2000" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillRadius" val="900" />
 		<set name="canBeDispeled" val="false" />
 		<for>
@@ -559,7 +559,7 @@
 		<table name="#pAtk"> 1.02 1.04 1.06 1.08 </table>
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
@@ -572,7 +572,7 @@
 	<skill id="6153" levels="4" name="Kasha's Yearning">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="6154" levels="4" name="Kasha's Despair">
 		<!-- Zone Skill -->
@@ -583,7 +583,7 @@
 		<table name="#rCrit"> 150 200 520 750 </table>
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
@@ -601,7 +601,7 @@
 		<table name="#abnormalLvl"> 1 2 3 4 </table>
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillRadius" val="900" />
 		<set name="canBeDispeled" val="false" />
 		<set name="trait" val="BLEED" />
@@ -615,7 +615,7 @@
 	<skill id="6166" levels="1" name="Hold">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1000" />
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="2" />
@@ -624,7 +624,7 @@
 	<skill id="6167" levels="12" name="Shock">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="CON" />
 		<set name="coolTime" val="800" />
 		<set name="lvlDepend" val="1" />
@@ -633,7 +633,7 @@
 	<skill id="6168" levels="12" name="Shock">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="saveVs" val="CON" />
 		<set name="coolTime" val="800" />
 		<set name="lvlDepend" val="1" />
@@ -644,7 +644,7 @@
 		<!-- Zone Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="83" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
@@ -657,7 +657,7 @@
 		<!-- Zone Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="magicLvl" val="83" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
@@ -676,7 +676,7 @@
 		<!-- Zone Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="magicLvl" val="83" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
@@ -694,174 +694,174 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A2" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6173" levels="1" name="Presentation - Memorial Service for Repose">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6174" levels="1" name="Presentation - Incense for Relic">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6175" levels="1" name="Presentation - High Ranking Dawn Priest's Prayer">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6176" levels="1" name="Presentation - Dawn's Seal Stone">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6177" levels="1" name="Presentation - Anakim's Message">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6178" levels="1" name="Presentation - Ultimate Seal Motion1">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6179" levels="1" name="Presentation - Ultimate Seal Motion2">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6180" levels="1" name="Presentation - Lilith Presentation1">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6181" levels="1" name="Presentation - Lilith Presentation2">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6182" levels="1" name="Presentation - Lilith Presentation3">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6183" levels="1" name="Presentation - Lilith Presentation4">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6184" levels="1" name="Presentation - Anakim's Presentation1">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6185" levels="1" name="Presentation - Anakim's Presentation2">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6186" levels="1" name="Presentation - Anakim's Presentation3">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6187" levels="1" name="Presentation - Lilith Battle">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6188" levels="1" name="Presentation - Lilith's Steward Battle1">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6189" levels="1" name="Presentation - Lilith's Steward Battle2">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6190" levels="1" name="Presentation - Lilith's Bodyguards Battle1">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6191" levels="1" name="Presentation - Anakim Battle">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6192" levels="1" name="Presentation - Anakim's Guardian Battle1">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6193" levels="1" name="Presentation - Anakim's Guardian Battle2">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6194" levels="1" name="Presentation - Anakim's Guard Battle">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6195" levels="1" name="Presentation - Anakim's Executor Battle">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6196" levels="1" name="Agathion Oink Oink's Ability">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="72000000" />
 		<set name="staticReuse" val="true" />
 		<set name="coolTime" val="1000" />
@@ -869,7 +869,7 @@
 	<skill id="6197" levels="1" name="Agathion Cute Trick - Oink Oink">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
 		<cond msgId="2292">
@@ -884,7 +884,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<cond msgId="2292">
 			<player agathionId="16066" />
 		</cond>
@@ -897,7 +897,7 @@
 		<set name="power" val="#power" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_AREA" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="operateType" val="A1" />
 		<set name="skillType" val="PDAM" />
 		<set name="castRange" val="150" />
 		<set name="effectRange" val="500" />

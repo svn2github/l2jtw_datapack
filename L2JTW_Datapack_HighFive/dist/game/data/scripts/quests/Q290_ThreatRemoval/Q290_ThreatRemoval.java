@@ -97,9 +97,8 @@ public class Q290_ThreatRemoval extends Quest
 			}
 			else if (event.equalsIgnoreCase("30201-08.htm"))
 			{
-				st.unset("cond");
-				st.exitQuest(true);
 				st.playSound("ItemSound.quest_finish");
+				st.exitQuest(true);
 			}
 		}
 		return htmltext;
@@ -108,7 +107,7 @@ public class Q290_ThreatRemoval extends Quest
 	@Override
 	public String onTalk(L2Npc npc,L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		String htmltext = getNoQuestMsg(player);
 		QuestState st = player.getQuestState(qn);
 		QuestState _prev = player.getQuestState("251_NoSecrets");
 		if (st == null)
