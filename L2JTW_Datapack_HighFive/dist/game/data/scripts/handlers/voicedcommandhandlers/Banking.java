@@ -22,7 +22,6 @@ import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class trades Gold Bars for Adena and vice versa.
- *
  * @author Ahmed
  */
 public class Banking implements IVoicedCommandHandler
@@ -34,14 +33,10 @@ public class Banking implements IVoicedCommandHandler
 		"deposit"
 	};
 	
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
-	 */
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
-		if (command.equalsIgnoreCase("bank"))
+		if (command.equals("bank"))
 		{
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1179]);
 			cm.addNumber(Config.BANKING_SYSTEM_ADENA);
@@ -50,12 +45,14 @@ public class Banking implements IVoicedCommandHandler
 			cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 			activeChar.sendMessage(cm.renderMsg());
 		}
-		else if (command.equalsIgnoreCase("deposit"))
+		else if (command.equals("deposit"))
 		{
 			if (activeChar.getInventory().getInventoryItemCount(57, 0) >= Config.BANKING_SYSTEM_ADENA)
 			{
 				if (!activeChar.reduceAdena("Goldbar", Config.BANKING_SYSTEM_ADENA, activeChar, false))
+				{
 					return false;
+				}
 				activeChar.getInventory().addItem("Goldbar", 3470, Config.BANKING_SYSTEM_GOLDBARS, activeChar, null);
 				activeChar.getInventory().updateDatabase();
 				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1180]);
@@ -70,12 +67,14 @@ public class Banking implements IVoicedCommandHandler
 				activeChar.sendMessage(cm.renderMsg());
 			}
 		}
-		else if (command.equalsIgnoreCase("withdraw"))
+		else if (command.equals("withdraw"))
 		{
 			if (activeChar.getInventory().getInventoryItemCount(3470, 0) >= Config.BANKING_SYSTEM_GOLDBARS)
 			{
 				if (!activeChar.destroyItemByItemId("Adena", 3470, Config.BANKING_SYSTEM_GOLDBARS, activeChar, false))
+				{
 					return false;
+				}
 				activeChar.getInventory().addAdena("Adena", Config.BANKING_SYSTEM_ADENA, activeChar, null);
 				activeChar.getInventory().updateDatabase();
 				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1182]);
@@ -93,10 +92,6 @@ public class Banking implements IVoicedCommandHandler
 		return true;
 	}
 	
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
-	 */
 	@Override
 	public String[] getVoicedCommandList()
 	{

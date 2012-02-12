@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<instance name="Ice Queen Castle - single use">
+<instance name="Ice Queen Castle - single use" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
 	<activityTime val="20" />
 	<allowSummon val="false" />
 	<spawnPoint spawnX="113883" spawnY="-108777" spawnZ="-848"/> <!-- TODO: There is fixed RETURN, not ENTRANCE point (why?), has to be renamed and reworked for picking origin point for return -->

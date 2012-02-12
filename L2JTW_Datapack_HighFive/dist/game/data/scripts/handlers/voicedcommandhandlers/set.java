@@ -15,13 +15,14 @@
 package handlers.voicedcommandhandlers;
 
 import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
+import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
- *
- *
+ * Fixed by Zoey76.
  */
 public class set implements IVoicedCommandHandler
 {
@@ -32,39 +33,33 @@ public class set implements IVoicedCommandHandler
 		"set group"
 	};
 	
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
-	 */
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
 		if (command.startsWith("set privileges"))
 		{
-			int n = Integer.parseInt(command.substring(15));
-			L2PcInstance pc = (L2PcInstance) activeChar.getTarget();
-			if (pc != null)
+			final String val = command.substring(15);
+			final L2Object target = activeChar.getTarget();
+			if (!Util.isDigit(val) || (target == null) || !target.isPlayer())
 			{
-				if (activeChar.getClan().getClanId() == pc.getClan().getClanId() && (activeChar.getClanPrivileges() > n) || activeChar.isClanLeader())
-				{
-					pc.setClanPrivileges(n);
-					L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1204]);
-					cm.addNumber(n);
-					cm.addString(activeChar.getName());
-					activeChar.sendMessage(cm.renderMsg());
-				}
-				
+				return false;
 			}
 			
+			final int n = Integer.parseInt(val);
+			final L2PcInstance player = target.getActingPlayer();
+			if ((activeChar.getClan() == null) || (player.getClan() == null) || (activeChar.getClan().getClanId() != player.getClan().getClanId()) || !((activeChar.getClanPrivileges() > n) || activeChar.isClanLeader()))
+			{
+				return false;
+			}
+			
+			L2CoreMessage cm = new L2CoreMessage(MessageTable.Messages[1204]);
+			cm.addNumber(n);
+			cm.addString(activeChar.getName());
+			activeChar.sendMessage(cm.renderMsg());
 		}
-		
 		return true;
 	}
 	
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
-	 */
 	@Override
 	public String[] getVoicedCommandList()
 	{
