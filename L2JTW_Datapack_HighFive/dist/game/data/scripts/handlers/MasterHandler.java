@@ -13,6 +13,7 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers;
+
 import handlers.actionhandlers.L2ArtefactInstanceAction;
 import handlers.actionhandlers.L2DecoyAction;
 import handlers.actionhandlers.L2DoorInstanceAction;
@@ -158,6 +159,7 @@ import handlers.itemhandlers.BeastSpice;
 import handlers.itemhandlers.BeastSpiritShot;
 import handlers.itemhandlers.BlessedSpiritShot;
 import handlers.itemhandlers.Book;
+import handlers.itemhandlers.Calculator;
 import handlers.itemhandlers.Disguise;
 import handlers.itemhandlers.Elixir;
 import handlers.itemhandlers.EnchantAttribute;
@@ -201,7 +203,6 @@ import handlers.skillhandlers.DeluxeKey;
 import handlers.skillhandlers.Detection;
 import handlers.skillhandlers.Disablers;
 import handlers.skillhandlers.Dummy;
-import handlers.skillhandlers.Extractable;
 import handlers.skillhandlers.Fishing;
 import handlers.skillhandlers.FishingSkill;
 import handlers.skillhandlers.GetPlayer;
@@ -494,6 +495,7 @@ public class MasterHandler
 			BlessedSpiritShot.class,
 			BeastSoulShot.class,
 			BeastSpiritShot.class,
+			Calculator.class,
 			PaganKeys.class,
 			Maps.class,
 			NicknameColor.class,
@@ -566,7 +568,6 @@ public class MasterHandler
 			GiveVitality.class,
 			InstantJump.class,
 			Dummy.class,
-			Extractable.class,
 			RefuelAirShip.class,
 			NornilsPower.class,
 		},
