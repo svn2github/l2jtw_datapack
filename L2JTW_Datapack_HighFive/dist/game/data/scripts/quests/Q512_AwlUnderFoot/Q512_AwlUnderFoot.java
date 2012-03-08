@@ -210,7 +210,7 @@ public final class Q512_AwlUnderFoot extends Quest
 		CastleDungeon dungeon = _castleDungeons.get(npc.getNpcId());
 		if (player == null || castle == null || dungeon == null)
 			return "CastleWarden-01.htm";
-		if (player.getClan() == null || player.getClan().getHasCastle() != castle.getCastleId())
+		if (player.getClan() == null || player.getClan().getCastleId() != castle.getCastleId())
 			return "CastleWarden-01.htm";
 		boolean noContract = true;
 		for(Fort fortress : FortManager.getInstance().getForts())

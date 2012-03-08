@@ -43,10 +43,6 @@ public class AdminZone implements IAdminCommandHandler
 		"admin_zone_visual_clear"
 	};
 	
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IAdminCommandHandler#useAdminCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance)
-	 */
 	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
@@ -160,14 +156,10 @@ public class AdminZone implements IAdminCommandHandler
 		int geoY = ((((worldY - (-262144)) >> 4) >> 11)+10);
 		activeChar.sendMessage("GeoRegion: "+geoX+"_"+geoY+""); //MessageTable.Messages[].getMessage())
 	}
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IAdminCommandHandler#getAdminCommandList()
-	 */
+	
 	@Override
 	public String[] getAdminCommandList()
 	{
 		return ADMIN_COMMANDS;
 	}
-	
 }

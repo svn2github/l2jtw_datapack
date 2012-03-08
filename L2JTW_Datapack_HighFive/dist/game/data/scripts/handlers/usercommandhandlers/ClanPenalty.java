@@ -12,7 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
 package handlers.usercommandhandlers;
 
 import java.text.SimpleDateFormat;
@@ -34,10 +33,6 @@ public class ClanPenalty implements IUserCommandHandler
 		100
 	};
 	
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IUserCommandHandler#useUserCommand(int, com.l2jserver.gameserver.model.actor.instance.L2PcInstance)
-	 */
 	@Override
 	public boolean useUserCommand(int id, L2PcInstance activeChar)
 	{
@@ -101,10 +96,6 @@ public class ClanPenalty implements IUserCommandHandler
 		return true;
 	}
 	
-	/**
-	 * 
-	 * @see com.l2jserver.gameserver.handler.IUserCommandHandler#getUserCommandList()
-	 */
 	@Override
 	public int[] getUserCommandList()
 	{

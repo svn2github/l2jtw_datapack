@@ -1070,17 +1070,20 @@
 	</skill>
 	<skill id="2859" levels="1" name="Christmas Gift">
 		<!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="EXTRACTABLE" />
-		<set name="operateType" val="A1" />
-		<set name="itemConsumeId" val="14616" />
 		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="14616" />
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="DUMMY" />
+		<set name="target" val="TARGET_SELF" />
 		<cond msgId="1139">
 			<and>
 				<player invSize="10" />
 				<player weight="80" />
 			</and>
 		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="2860" levels="6" name="Highest Power Secret Medicine of Life">
 		<!-- Confirmed CT2.5 -->
