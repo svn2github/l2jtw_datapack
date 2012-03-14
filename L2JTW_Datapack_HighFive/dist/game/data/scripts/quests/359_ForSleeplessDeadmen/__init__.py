@@ -45,7 +45,7 @@ class Quest (JQuest) :
     # pmq­×¥¿    st.playSound("ItemSound.quest_finish")
     elif event == "30857-8.htm" :
        st.set("cond","1")
-       st.giveItems(REWARDS[st.getRandom(len(REWARDS))] ,4)
+       st.giveItems(REWARDS[self.getRandom(len(REWARDS))] ,4)
        st.exitQuest(1)                                       # pmq­×¥¿
        st.playSound("ItemSound.quest_finish")                # pmq­×¥¿
     return htmltext
@@ -85,7 +85,7 @@ class Quest (JQuest) :
      if count < REQUIRED :
         chance = DROP_RATE * Config.RATE_QUEST_DROP
         numItems, chance = divmod(chance,100)
-        if st.getRandom(DROP_MAX) < chance :
+        if self.getRandom(DROP_MAX) < chance :
            numItems += 1
         if numItems :
            if count + numItems >= REQUIRED :

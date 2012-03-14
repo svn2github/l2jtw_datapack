@@ -12,10 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
-/**
- * ¬¼Ây­º»â ¤Ú¦C´µ
- */
 package ai.individual;
 
 import java.util.ArrayList;
@@ -52,7 +48,6 @@ import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.network.serverpackets.StaticObject;
 import com.l2jserver.gameserver.util.Util;
-import com.l2jserver.util.Rnd;
 
 /**
  * Beleth's AI.
@@ -429,7 +424,7 @@ public class Beleth extends L2AttackableAIScript
 				belethKiller = killer;
 			}
 			GrandBossManager.getInstance().setBossStatus(29118, 3);
-			long respawnTime = (long) Config.INTERVAL_OF_BELETH_SPAWN + Rnd.get(Config.RANDOM_OF_BELETH_SPAWN);
+			long respawnTime = (long) Config.INTERVAL_OF_BELETH_SPAWN + getRandom(Config.RANDOM_OF_BELETH_SPAWN);
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(29118);
 			info.set("respawn_time", System.currentTimeMillis() + respawnTime);
 			GrandBossManager.getInstance().setStatsSet(29118, info);
@@ -460,7 +455,7 @@ public class Beleth extends L2AttackableAIScript
 				}
 				else
 				{
-					allowObjectId = minions.get(Rnd.get(minions.size())).getObjectId();
+					allowObjectId = minions.get(getRandom(minions.size())).getObjectId();
 					attacked = false;
 				}
 			}
@@ -480,7 +475,7 @@ public class Beleth extends L2AttackableAIScript
 	@Override
 	public String onSkillSee(L2Npc npc, L2PcInstance player, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
-		if ((npc != null) && !npc.isDead() && ((npc.getNpcId() == 29118) || (npc.getNpcId() == 29119)) && !npc.isCastingNow() && (skill.getSkillType() == L2SkillType.HEAL) && (Rnd.get(100) < 80))
+		if ((npc != null) && !npc.isDead() && ((npc.getNpcId() == 29118) || (npc.getNpcId() == 29119)) && !npc.isCastingNow() && (skill.getSkillType() == L2SkillType.HEAL) && (getRandom(100) < 80))
 		{
 			npc.setTarget(player);
 			npc.doCast(HornOfRising);
@@ -501,19 +496,19 @@ public class Beleth extends L2AttackableAIScript
 			if ((npc.getObjectId() == allowObjectId) && !attacked)
 			{
 				attacked = true;
-				L2Npc fakeBeleth = minions.get(Rnd.get(minions.size()));
+				L2Npc fakeBeleth = minions.get(getRandom(minions.size()));
 				while (fakeBeleth.getObjectId() == allowObjectId)
 				{
-					fakeBeleth = minions.get(Rnd.get(minions.size()));
+					fakeBeleth = minions.get(getRandom(minions.size()));
 				}
 				_zone.broadcastPacket(new CreatureSay(fakeBeleth.getObjectId(), 0, fakeBeleth.getName(), "Miss text."));
 			}
-			if (Rnd.get(100) < 40)
+			if (getRandom(100) < 40)
 			{
 				return null;
 			}
 			final double distance = Math.sqrt(npc.getPlanDistanceSq(attacker.getX(), attacker.getY()));
-			if ((distance > 500) || (Rnd.get(100) < 80))
+			if ((distance > 500) || (getRandom(100) < 80))
 			{
 				for (L2Npc beleth : minions)
 				{
@@ -566,7 +561,7 @@ public class Beleth extends L2AttackableAIScript
 				}
 				return null;
 			}
-			if (Rnd.get(100) < 40)
+			if (getRandom(100) < 40)
 			{
 				if (!npc.getKnownList().getKnownPlayersInRadius(200).isEmpty())
 				{
@@ -590,7 +585,7 @@ public class Beleth extends L2AttackableAIScript
 	{
 		if ((npc != null) && !npc.isDead() && ((npc.getNpcId() == 29118) || (npc.getNpcId() == 29119)) && !npc.isCastingNow() && !movie)
 		{
-			if (Rnd.get(100) < 40)
+			if (getRandom(100) < 40)
 			{
 				if (!npc.getKnownList().getKnownPlayersInRadius(200).isEmpty())
 				{
@@ -610,7 +605,7 @@ public class Beleth extends L2AttackableAIScript
 		if ((npc.getNpcId() == 29118) || (npc.getNpcId() == 29119))
 		{
 			npc.setRunning();
-			if (!movie && !npc.getKnownList().getKnownPlayersInRadius(300).isEmpty() && (Rnd.get(100) < 60))
+			if (!movie && !npc.getKnownList().getKnownPlayersInRadius(300).isEmpty() && (getRandom(100) < 60))
 			{
 				npc.doCast(Bleed);
 			}
@@ -737,7 +732,7 @@ public class Beleth extends L2AttackableAIScript
 		xm[15] = (xm[7] + xm[0]) / 2;
 		ym[15] = (ym[7] + ym[0]) / 2;
 		minions.add(spawn(29119, new Location(xm[15], ym[15], -9357, 49152)));
-		allowObjectId = minions.get(Rnd.get(minions.size())).getObjectId();
+		allowObjectId = minions.get(getRandom(minions.size())).getObjectId();
 		attacked = false;
 	}
 	

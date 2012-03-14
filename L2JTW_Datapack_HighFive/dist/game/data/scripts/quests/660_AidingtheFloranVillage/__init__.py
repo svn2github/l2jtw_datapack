@@ -77,7 +77,7 @@ class Quest (JQuest) :
 					else :
 						st.takeItems(DELU_LIZARDMAN_SCALE,-1)
 						st.takeItems(ROUGHLY_HEWN_ROCK_GOLEM_SHARD,t)
-				if st.getRandom(10)<8 :
+				if self.getRandom(10)<8 :
 					st.giveItems(ADENA,13000)
 					st.giveItems(SCROLL_ENCANT_ARMOR,1)
 				else :
@@ -89,7 +89,7 @@ class Quest (JQuest) :
 			if EYES + SCALE + SHARD >= 199 :
 				n = 200 - EYES
 				t = 200 - SCALE - EYES
-				luck = st.getRandom(15)
+				luck = self.getRandom(15)
 				if EYES >= 200 :
 					st.takeItems(WATCHING_EYES,200)
 				else :
@@ -122,7 +122,7 @@ class Quest (JQuest) :
 					else :
 						st.takeItems(DELU_LIZARDMAN_SCALE,-1)
 						st.takeItems(ROUGHLY_HEWN_ROCK_GOLEM_SHARD,t)
-				if st.getRandom(10)<8 :
+				if self.getRandom(10)<8 :
 					st.giveItems(ADENA,45000)
 					st.giveItems(SCROLL_ENCHANT_WEAPON,1)
 				else :
@@ -179,7 +179,7 @@ class Quest (JQuest) :
 		if not st: return
 
 		npcId = npc.getNpcId()
-		chance = st.getRandom(100)
+		chance = self.getRandom(100)
 
 		if st.getInt("cond") == 2 :
 			if npcId in [21106,21102] and chance < 79 :

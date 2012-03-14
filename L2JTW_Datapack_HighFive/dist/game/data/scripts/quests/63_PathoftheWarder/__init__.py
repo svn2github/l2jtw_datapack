@@ -149,8 +149,10 @@ class Quest (JQuest) :
                   htmltext = "30332-02.htm"
                else:
                   htmltext = "30332-00.htm"
-            elif cond > 5 :
+            elif cond == 6 :
                 htmltext = "30332-04.htm"
+            elif cond > 6 :
+                htmltext = "30332-05.htm"
         elif npcId == Tobias :
             if cond == 7 :
                if st.getQuestItemsCount(DE_Let) == 1:
@@ -190,7 +192,7 @@ class Quest (JQuest) :
                 else:
                     st.playSound("ItemSound.quest_itemget")
         elif npcId == Lizard :
-            if not st.getQuestItemsCount(Soul_C) and st.getRandom(10) < 2 and cond == 11 :
+            if not st.getQuestItemsCount(Soul_C) and self.getRandom(10) < 2 and cond == 11 :
                 npc = st.addSpawn(Tak,180000)
         elif npcId == Tak :
             if not st.getQuestItemsCount(Soul_C) and cond == 11 :

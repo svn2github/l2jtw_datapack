@@ -27,7 +27,6 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
 /**
- * ·´·ÀÃM¤h °ªµn
  * Gordon AI
  * @author TOFIZ
  */

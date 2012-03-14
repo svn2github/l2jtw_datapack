@@ -22,11 +22,6 @@ M_LIZARDMAN_SCOUT = 20920
 M_LIZARDMAN_GUARD = 20921
 ARANEID           = 20925
 
-# REWARDS
-GREEN_COLORED_LURE_HG = 6521
-BABY_DUCK_RODE        = 6529
-FISHING_SHOT_NG       = 6535
-
 # QUEST DROPS
 BLACK_BONE_NECKLACE,RED_BONE_NECKLACE,INCENSE_POUCH,GEM_OF_MAILLE = range(7178,7182)
 
@@ -38,13 +33,17 @@ DROPLIST = {ARANEID:[GEM_OF_MAILLE,30,INCENSE_POUCH,"5"],
 			M_LIZARDMAN_GUARD:[INCENSE_POUCH,30,GEM_OF_MAILLE,"5"],
 			M_LIZARDMAN_SCOUT:[INCENSE_POUCH,30,GEM_OF_MAILLE,"5"]
 }
+# REWARDS
+GREEN_COLORED_LURE_HG = 6521
+BABY_DUCK_RODE        = 6529
+FISHING_SHOT_NG       = 6535
 
 def drop(partyMember,array) :
 	item,max,item2,condition = array
 	st = partyMember.getQuestState(qn)
 	count = st.getQuestItemsCount(item)
 	numItems,chance = divmod(100*Config.RATE_QUEST_DROP,100)
-	if st.getRandom(100) < chance :
+	if st.getQuest().getRandom(100) < chance :
 		numItems = numItems + 1
 	if count+numItems > max :
 		numItems = max - count

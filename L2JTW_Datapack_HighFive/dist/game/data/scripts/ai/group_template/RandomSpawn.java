@@ -21,10 +21,10 @@ import javolution.util.FastMap;
 import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.util.Rnd;
 
 /**
- * Manages spawn of NPC's, having several random spawn points 
+ * Manages spawn of NPC's, having several random spawn points.
+ * @author GKR
  */
 public class RandomSpawn extends L2AttackableAIScript
 {
@@ -89,7 +89,7 @@ public class RandomSpawn extends L2AttackableAIScript
 		if (!npc.isTeleporting())
 		{
 			final Location[] spawnlist = SPAWN_POINTS.get(npc.getNpcId());
-			int num = Rnd.get(spawnlist.length);
+			int num = getRandom(spawnlist.length);
 			final Location loc = spawnlist[num];
 			if (!npc.isInsideRadius(loc, 200, false, false))
 			{

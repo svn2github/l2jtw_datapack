@@ -58,7 +58,6 @@ import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.network.serverpackets.ValidateLocation;
 import com.l2jserver.gameserver.util.Util;
-import com.l2jserver.util.Rnd;
 
 /**
  * TODO:
@@ -636,7 +635,7 @@ public class CrystalCaverns extends Quest
 		
 		for (int[] spawn : SPAWNS)
 		{
-			L2Npc mob = addSpawn(CGMOBS[Rnd.get(CGMOBS.length)], spawn[0], spawn[1], spawn[2], spawn[3], false, 0, false, world.instanceId);
+			L2Npc mob = addSpawn(CGMOBS[getRandom(CGMOBS.length)], spawn[0], spawn[1], spawn[2], spawn[3], false, 0, false, world.instanceId);
 			world.npcList1.put(mob, false);
 		}
 	}
@@ -824,7 +823,7 @@ public class CrystalCaverns extends Quest
 		if (npc.getNpcId() >= 32275 && npc.getNpcId() <= 32277 && skill.getId() != 2360 && skill.getId() != 2369)
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-			if (tmpworld instanceof CCWorld && Rnd.get(100) < 15)
+			if (tmpworld instanceof CCWorld && getRandom(100) < 15)
 			{
 				for (L2Npc oracle : ((CCWorld) tmpworld).oracles.keySet())
 					if (oracle != npc)
@@ -880,7 +879,7 @@ public class CrystalCaverns extends Quest
 				{
 					world.dragonScaleNeed--;
 				}
-				if (world.dragonScaleNeed == 0 && Rnd.get(100) < 80)
+				if (world.dragonScaleNeed == 0 && getRandom(100) < 80)
 					npc.setIsInvul(false);
 			}
 		}
@@ -924,7 +923,7 @@ public class CrystalCaverns extends Quest
 				
 				int maxHp = npc.getMaxHp();
 				double nowHp = npc.getStatus().getCurrentHp();
-				int rand = Rnd.get(1000);
+				int rand = getRandom(1000);
 				
 				if (nowHp < maxHp * 0.4 && rand < 5)
 				{
@@ -1061,24 +1060,24 @@ public class CrystalCaverns extends Quest
 			else if (event.equalsIgnoreCase("spawn_oracle"))
 			{
 				addSpawn(32271, 153572, 142075, -9728, 10800, false, 0, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading(), false, 0, false, world.instanceId); // Baylor's Chest
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading(), false, 0, false, world.instanceId); // Baylor's Chest
 				//Update by rocknow-Start
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153706, 142212, -12741, 7579, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 154192, 142697, -12741, 7894, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153763, 142075, -12741, 64792, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153701, 141942, -12741, 57739, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153573, 141894, -12741, 49471, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153445, 141945, -12741, 41113, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153381, 142076, -12741, 32767, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153441, 142211, -12741, 25730, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153573, 142260, -12741, 16185, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153571, 142860, -12741, 16716, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 152783, 142077, -12741, 32176, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 153571, 141274, -12741, 49072, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 154365, 142073, -12741, 64149, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 152924, 142677, -12741, 25072, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 152907, 141428, -12741, 39590, false, 300000, false, world.instanceId);
-				addSpawn((Rnd.get(10) < 5 ? 29116 : 29117), 154243, 141411, -12741, 55500, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153706, 142212, -12741, 7579, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 154192, 142697, -12741, 7894, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153763, 142075, -12741, 64792, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153701, 141942, -12741, 57739, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153573, 141894, -12741, 49471, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153445, 141945, -12741, 41113, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153381, 142076, -12741, 32767, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153441, 142211, -12741, 25730, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153573, 142260, -12741, 16185, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153571, 142860, -12741, 16716, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 152783, 142077, -12741, 32176, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 153571, 141274, -12741, 49072, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 154365, 142073, -12741, 64149, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 152924, 142677, -12741, 25072, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 152907, 141428, -12741, 39590, false, 300000, false, world.instanceId);
+				addSpawn((getRandom(10) < 5 ? 29116 : 29117), 154243, 141411, -12741, 55500, false, 300000, false, world.instanceId);
 				//Update by rocknow-End
 				addSpawn(ORACLE_GUIDE_4, 153572, 142075, -12738, 10800, false, 0, false, world.instanceId);
 				this.cancelQuestTimer("loc_check", npc, null); //Update by rocknow
@@ -1157,7 +1156,7 @@ public class CrystalCaverns extends Quest
 			{
 				if (world._alarm == null)
 				{
-					int[] spawnLoc = ALARMSPAWN[Rnd.get(ALARMSPAWN.length)];
+					int[] spawnLoc = ALARMSPAWN[getRandom(ALARMSPAWN.length)];
 					npc.addSkill(SkillTable.getInstance().getInfo(5244, 1));
 					npc.addSkill(SkillTable.getInstance().getInfo(5245, 1));
 					world._alarm = addSpawn(ALARMID, spawnLoc[0], spawnLoc[1], spawnLoc[2], 10800, false, 0, false, world.instanceId);
@@ -1176,7 +1175,7 @@ public class CrystalCaverns extends Quest
 				{
 					int maxHp = npc.getMaxHp();
 					double nowHp = npc.getStatus().getCurrentHp();
-					int rand = Rnd.get(100);
+					int rand = getRandom(100);
 
 					//Update by rocknow-Start
 					if (nowHp < maxHp * 0.5 && world._SpawnMob == 0)
@@ -1210,7 +1209,7 @@ public class CrystalCaverns extends Quest
 					}
 					else if (rand < 33)
 					{
-						npc.setTarget(world._raiders.get(Rnd.get(world._raiders.size())));
+						npc.setTarget(world._raiders.get(getRandom(world._raiders.size())));
 						npc.doCast(SkillTable.getInstance().getInfo(5229, 1));
 					}
 				}
@@ -1432,7 +1431,7 @@ public class CrystalCaverns extends Quest
 					startQuestTimer("getFood", 2000, npc, null);
 				else
 				{
-					if (Rnd.get(100) < 5)
+					if (getRandom(100) < 5)
 						npc.broadcastPacket(new CreatureSay(npc.getObjectId(), 1, npc.getName(), NpcStringId.AH_IM_HUNGRY));
 					startQuestTimer("autoFood", 2000, npc, null);
 				}
@@ -1522,7 +1521,7 @@ public class CrystalCaverns extends Quest
 						//Delete by rocknow
 						st.giveItems(bossCry, 1);
 					}
-					if (Rnd.get(10) < 5)
+					if (getRandom(10) < 5)
 						st.giveItems(WHITE_SEED, num);
 					else
 						st.giveItems(BLACK_SEED, num);
@@ -1538,7 +1537,7 @@ public class CrystalCaverns extends Quest
 				//Delete by rocknow
 				st.giveItems(bossCry, 1);
 			}
-			if (Rnd.get(10) < 5)
+			if (getRandom(10) < 5)
 				st.giveItems(WHITE_SEED, num);
 			else
 				st.giveItems(BLACK_SEED, num);
@@ -1895,7 +1894,7 @@ public class CrystalCaverns extends Quest
 					{
 						for (L2PcInstance partyMember : party.getPartyMembers())
 						{
-							// int rnd = Rnd.get(100);
+							// int rnd = getRandom(100);
 							// partyMember.destroyItemByItemId("Quest", (rnd < 33 ? BOSS_CRYSTAL_1:(rnd < 67 ? BOSS_CRYSTAL_2:BOSS_CRYSTAL_3)), 1, partyMember, true); Crystals are no longer beign cunsumed while entering to Baylor Lair.
 							world._raiders.add(partyMember);
 						}

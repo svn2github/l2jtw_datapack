@@ -57,7 +57,7 @@ class Quest (JQuest) :
 		elif id == State.STARTED:
 			if npcId == SARA and cond == 1 :
 				htmltext = "30180-01.htm"
-				EAD_CHANCE = st.getRandom(100)
+				EAD_CHANCE = self.getRandom(100)
 				st.giveItems(57,5026)
 				if EAD_CHANCE <= 50:
 					st.rewardItems(956,1)

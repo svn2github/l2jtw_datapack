@@ -25,7 +25,6 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 
 /**
- * 狩獵首領 巨神高崙 卡歐斯
  * DrChaos AI
  * @author Kerberos
  */

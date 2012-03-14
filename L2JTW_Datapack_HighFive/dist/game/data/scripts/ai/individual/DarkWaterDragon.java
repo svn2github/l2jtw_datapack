@@ -25,9 +25,6 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
-/**
- * ·t¶Â¤ôÀs
- */
 public class DarkWaterDragon extends L2AttackableAIScript
 {
 	private static final int DRAGON = 22267;

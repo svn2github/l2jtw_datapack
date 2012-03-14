@@ -15,7 +15,6 @@
 package quests.Q423_TakeYourBestShot;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
-import com.l2jserver.gameserver.instancemanager.QuestManager;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -23,12 +22,11 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.util.Util;
-import com.l2jserver.util.Rnd;
 
 /**
- ** @author Gnacik
- ** 
- ** 2010-06-26 Based on official server Franz
+ * Based on official server Franz.
+ * @version 2010-06-26
+ * @author Gnacik
  */
 public class Q423_TakeYourBestShot extends Quest
 {
@@ -129,8 +127,7 @@ public class Q423_TakeYourBestShot extends Quest
 		QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
-			Quest q = QuestManager.getInstance().getQuest(getName());
-			st = q.newQuestState(player);
+			st = newQuestState(player);
 		}
 		
 		if (npc.isInsideRadius(96782, 85918, 100, true))
@@ -145,7 +142,7 @@ public class Q423_TakeYourBestShot extends Quest
 		if (st == null)
 			return null;
 		
-		if (Util.contains(_mobs, npc.getNpcId()) && Rnd.get(1000) <= _spawn_chance)
+		if (Util.contains(_mobs, npc.getNpcId()) && getRandom(1000) <= _spawn_chance)
 		{
 			L2Npc guard = addSpawn(_tanta_guard, npc, false);
 			attackPlayer((L2Attackable) guard, player);

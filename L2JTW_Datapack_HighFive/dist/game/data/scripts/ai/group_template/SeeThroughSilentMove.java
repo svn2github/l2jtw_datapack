@@ -21,11 +21,10 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.util.Util;
 
 /**
- * ¦å¤§¤k¤ý/³ñ¼LÀs/¼ÉÀs/Å]ªk°}¨µÅÞ§L/­}§Jº¸/¥Ë¨½¹F´µ/°ò®y/¤Ç¾¤©i/´¶°Ç¼¯.....
+ * @author Gigiikun
  */
 public class SeeThroughSilentMove extends L2AttackableAIScript
 {
-	//@formatter:off
 	private static final int[] MOBIDS =
 	{
 		18001,
@@ -78,14 +77,17 @@ public class SeeThroughSilentMove extends L2AttackableAIScript
 		29012,
 		29013
 	};
-	//@formatter:on
 	
 	public SeeThroughSilentMove(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		for (L2Spawn npc : SpawnTable.getInstance().getSpawnTable())
-			if (Util.contains(MOBIDS, npc.getNpcid()) && npc.getLastSpawn() != null && npc.getLastSpawn() instanceof L2Attackable)
+		{
+			if (Util.contains(MOBIDS, npc.getNpcid()) && (npc.getLastSpawn() != null) && (npc.getLastSpawn() instanceof L2Attackable))
+			{
 				((L2Attackable) npc.getLastSpawn()).setSeeThroughSilentMove(true);
+			}
+		}
 		registerMobs(MOBIDS, QuestEventType.ON_SPAWN);
 	}
 	
@@ -93,7 +95,9 @@ public class SeeThroughSilentMove extends L2AttackableAIScript
 	public String onSpawn(L2Npc npc)
 	{
 		if (npc instanceof L2Attackable)
+		{
 			((L2Attackable) npc).setSeeThroughSilentMove(true);
+		}
 		return super.onSpawn(npc);
 	}
 	

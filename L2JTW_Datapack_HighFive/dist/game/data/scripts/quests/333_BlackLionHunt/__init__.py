@@ -251,7 +251,7 @@ class Quest (JQuest) :
           soul_count=200
           heal_count=25
         while claw > 0:
-          n = st.getRandom(5)
+          n = self.getRandom(5)
           if n < 1 :
             st.rewardItems(ALACRITY_POTION,ala_count)
           elif n < 2 :
@@ -287,7 +287,7 @@ class Quest (JQuest) :
     elif event == "f_info":
       text = st.getInt("text")
       if text<4:
-        rnd=int(st.getRandom(20))
+        rnd=int(self.getRandom(20))
         st.set("text",str(text+1))
         text_rnd = html+redfoot+f_rnd_list[rnd]+back+htmlend
         return text_rnd
@@ -298,7 +298,7 @@ class Quest (JQuest) :
         if st.getQuestItemsCount(ADENA_ID)>=OPEN_BOX_PRICE:
           st.takeItems(CARGO_BOX1,1)
           st.takeItems(ADENA_ID,650)
-          random = st.getRandom(162)
+          random = self.getRandom(162)
           standart = "好，那就來打開這箱子看一看...開這種鎖，小意思...好！這麼容易就打開了。那麼，看看裡面有什麼東西？<br>"
           statue = "這是...？石像的破片？哦呵...是席琳女神的模樣...怎麼會是死亡女神，覺得有點不吉利？但是如果不是破片而是完成品，就能夠賣得到不錯的價錢...倒是有一位專家是專門修補這種遺物的...他是叫<font color=\"LEVEL\">魯皮奧</font>的鐵匠。如果把石像的破片收集後拿過去，他會給你修補成完成品。<br>" 
           tablet = "這是...？石版的破片？哦呵...沒看過的文字。難道是巨人時代的遺物？如果不是破片，而是完好的物品就可以成為珍貴的資料了。如果能把所有的破片收集到就可以拼成原樣了...假如有興趣，就去找叫<font color=\"LEVEL\">魯皮奧</font>的鐵匠吧。他是復原遺物的專家。<br>"
@@ -342,7 +342,7 @@ class Quest (JQuest) :
             st.rewardItems(IMPERIAL_DIAMOND,1)
             return html+redfoot+standart+"<br>哦？不會吧？怎麼會這樣！！！皇帝的...鑽石？用在裝飾艾爾摩亞丁皇帝的皇冠上的...？真的...非常漂亮...！你真是個幸運的人！居然得到了這麼貴重的物品。如果拿到市場上應該能夠賣到非常好的價錢？<br>"+back+htmlend
           elif random < 147:
-            random_stat=st.getRandom(4)
+            random_stat=self.getRandom(4)
             if random_stat == 3 :
               st.giveItems(STATUE_SHILIEN_HEAD,1)
               return html+redfoot+standart+statue+back+htmlend
@@ -356,7 +356,7 @@ class Quest (JQuest) :
               st.giveItems(STATUE_SHILIEN_LEG,1)
               return html+redfoot+standart+statue+back+htmlend
           elif random < 162:
-            random_tab=st.getRandom(4)
+            random_tab=self.getRandom(4)
             if random_tab == 0 :
               st.giveItems(FRAGMENT_ANCIENT_TABLE1,1)
               return html+redfoot+standart+tablet+back+htmlend
@@ -393,7 +393,7 @@ class Quest (JQuest) :
       if count>3:
         for id in items:
           st.takeItems(id,1)
-        if st.getRandom(2)==1 :
+        if self.getRandom(2)==1 :
           st.giveItems(item,1)
           return complete
         else:
@@ -424,7 +424,7 @@ class Quest (JQuest) :
         st.giveItems(GUILD_COIN,1)
         st.giveItems(ADENA_ID,(1+count)*100)
         st.takeItems(CARGO_BOX1,1)
-        random = st.getRandom(3)
+        random = self.getRandom(3)
         if random == 0:
           return m_rnd_1
         elif random == 1:
@@ -559,8 +559,8 @@ class Quest (JQuest) :
 
     npcId = npc.getNpcId()
     part,allowDrop,chancePartItem,chanceBox,partItem=DROPLIST[npcId]
-    random1 = st.getRandom(101)
-    random2 = st.getRandom(101)
+    random1 = self.getRandom(101)
+    random2 = self.getRandom(101)
     mobLevel = npc.getLevel()
     playerLevel = player.getLevel()
     if playerLevel - mobLevel > 8:

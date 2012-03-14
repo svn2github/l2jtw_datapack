@@ -43,7 +43,7 @@ class Quest (JQuest) :
 		htmltext = event
 		st = player.getQuestState(qn)
 		if not st : return
-		n = st.getRandom(100)
+		n = self.getRandom(100)
 		if event == "30597-03.htm" :
 			st.set("cond","1")
 			st.playSound("ItemSound.quest_accept")
@@ -241,7 +241,7 @@ class Quest (JQuest) :
 		item,chance = DROPLIST[npc.getNpcId()]
 		st.giveItems(item,1)
 		st.playSound("ItemSound.quest_itemget")
-		if st.getRandom(100)<chance :
+		if self.getRandom(100)<chance :
 			n = st.getRandom(100)
 			if n < 25 :
 				st.giveItems(CLAY_URN_FRAGMENT,1)

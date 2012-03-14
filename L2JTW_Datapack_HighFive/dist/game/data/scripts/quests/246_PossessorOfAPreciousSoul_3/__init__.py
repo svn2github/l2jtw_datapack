@@ -132,7 +132,7 @@ class Quest (JQuest) :
      partyMember = self.getRandomPartyMember(player,"awaitsWaterbinder","1")
      if partyMember :
          st = partyMember.getQuestState(qn)
-         chance = st.getRandom(100)
+         chance = self.getRandom(100)
          cond = st.getInt("cond")
          if st.getQuestItemsCount(WATERBINDER) < 1 :
            if chance < CHANCE_FOR_DROP :
@@ -148,7 +148,7 @@ class Quest (JQuest) :
      partyMember = self.getRandomPartyMember(player,"awaitsEvergreen","1")
      if partyMember :
          st = partyMember.getQuestState(qn)
-         chance = st.getRandom(100)
+         chance = self.getRandom(100)
          cond = st.getInt("cond")
          if cond == 2 and st.getQuestItemsCount(EVERGREEN) < 1 :
            if chance < CHANCE_FOR_DROP :
@@ -184,7 +184,7 @@ class Quest (JQuest) :
         if not st or st.getQuestItemsCount(FRAGMENTS) >= 100 or st.getInt("cond") != 4:
             return
         for id in MOBS:
-            if npcId == id and st.getRandom(100) < CHANCE_FOR_DROP_FRAGMENTS:
+            if npcId == id and self.getRandom(100) < CHANCE_FOR_DROP_FRAGMENTS:
                 st.giveItems(FRAGMENTS,1)
                 if st.getQuestItemsCount(FRAGMENTS) >= 100:
                     st.set("cond","5")

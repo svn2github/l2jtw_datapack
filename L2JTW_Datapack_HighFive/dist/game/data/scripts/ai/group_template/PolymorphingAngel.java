@@ -23,7 +23,6 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
 /**
- * ¶ÆºC¶ð¤Ñ¨Ï
  * Angel spawns...when one of the angels in the keys dies, the other angel will spawn.
  */
 public class PolymorphingAngel extends L2AttackableAIScript

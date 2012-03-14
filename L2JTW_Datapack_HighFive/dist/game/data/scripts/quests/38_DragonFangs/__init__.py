@@ -121,7 +121,7 @@ class Quest (JQuest) :
 		cond = st.getInt("cond")
 		cond,item,max,chance = DROPLIST[npc.getNpcId()]
 		count = st.getQuestItemsCount(item)
-		if st.getInt("cond") == cond and count < max and st.getRandom(100) < chance :
+		if st.getInt("cond") == cond and count < max and self.getRandom(100) < chance :
 			st.giveItems(item,1)
 			if count == max-1 :
 				st.playSound("ItemSound.quest_middle")

@@ -449,7 +449,7 @@
 	</skill>
 	<skill id="22127" levels="1" name="Summon Warm Kotatz">
 		<!-- Confirmed CT2.5 -->
-		<set name="despawnDelay" val="7200" /> <!-- Custom -->
+		<set name="despawnDelay" val="7200" /> <!-- FIXME: Custom. -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
 		<set name="npcId" val="28" />
@@ -827,7 +827,6 @@
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<set name="reuseDelay" val="2000" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" event="vesper1" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="br_event_buf1">
 				<mul order="0x30" stat="pAtk" val="1.15" />
@@ -844,7 +843,6 @@
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<set name="reuseDelay" val="2000" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" event="vesper2" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="br_event_buf1">
 				<add order="0x40" stat="rCrit" val="15" />
@@ -862,7 +860,6 @@
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<set name="reuseDelay" val="2000" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" event="vesper3" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="br_event_buf1">
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
@@ -875,7 +872,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="100" />
-		<set name="isPotion" val="true" /> <!-- Custom. -->
+		<set name="isPotion" val="true" /> <!-- FIXME: Custom. -->
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
 		<set name="skillType" val="BUFF" />
@@ -890,7 +887,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="100" />
-		<set name="isPotion" val="true" /> <!-- Custom. -->
+		<set name="isPotion" val="true" /> <!-- FIXME: Custom. -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -907,7 +904,7 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="100" />
-		<set name="isPotion" val="true" /> <!-- Custom. -->
+		<set name="isPotion" val="true" /> <!-- FIXME: Custom. -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -1084,7 +1081,7 @@
 		</table>
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
-		<set name="operateType" val="A1" /><!-- TODO: Confirm. -->
+		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<!-- set name="reuseDelay" val="86400000" / -->
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
@@ -1112,7 +1109,7 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="A1" /><!-- TODO: Confirm. -->
+		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="reuseDelay" val="3600000" />
 		<set name="isPotion" val="true" />
 		<set name="stayAfterDeath" val="true" />
@@ -1127,8 +1124,8 @@
 	<skill id="22183" levels="1" name="Dragon Master Lee Transformation Scroll">
 		<!-- High Five Skill -->
 		<!-- Transformed into Dragon Master Lee. -->
+		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="itemConsumeCount" val="1" /> <!-- Update by pmq -->
-		<set name="operateType" val="A1" /><!-- TODO: Confirm. -->
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="20005" />
@@ -1147,8 +1144,8 @@
 	<skill id="22184" levels="1" name="Dragon Master Karin Transformation Scroll">
 		<!-- High Five Skill -->
 		<!-- Transformed into Dragon Master Karin. -->
+		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="itemConsumeCount" val="1" /> <!-- Update by pmq -->
-		<set name="operateType" val="A1" /><!-- TODO: Confirm. -->
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="20006" />
@@ -1197,7 +1194,7 @@
 	<skill id="22190" levels="1" name="Transformation Scroll - Blue Block Checker">
 		<!-- High Five Skill -->
 		<!-- Transformed into a cute block checker. Look for a treasure chest on Fantasy Isle. -->
-		<set name="operateType" val="A1" /><!-- TODO: Confirm. -->
+		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="transformId" val="127" />

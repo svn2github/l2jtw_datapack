@@ -23,10 +23,8 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.holders.SkillHolder;
 import com.l2jserver.gameserver.model.skills.L2Skill;
-import com.l2jserver.util.Rnd;
 
 /**
- * ¬¼Ây­º»â ´cÅ]¤½Àï
  * @author GKR
  */
 public class DemonPrince extends L2AttackableAIScript
@@ -47,7 +45,7 @@ public class DemonPrince extends L2AttackableAIScript
 	{
 		if (event.equalsIgnoreCase("cast") && (npc != null) && (npc.getNpcId() == FIEND) && !npc.isDead())
 		{
-			npc.doCast(AOE[Rnd.get(3)].getSkill());
+			npc.doCast(AOE[getRandom(3)].getSkill());
 		}
 		return null;
 	}
@@ -70,7 +68,7 @@ public class DemonPrince extends L2AttackableAIScript
 				_attackState.put(npc.getObjectId(), true);
 			}
 			
-			if (Rnd.get(1000) < 10)
+			if (getRandom(1000) < 10)
 			{
 				spawnMinions(npc);
 			}

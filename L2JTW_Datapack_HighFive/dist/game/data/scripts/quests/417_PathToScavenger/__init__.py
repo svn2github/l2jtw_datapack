@@ -60,7 +60,7 @@ class Quest (JQuest) :
 				st.takeItems(PIPIS_LETTER,1)
 				st.set("cond","2")
 				st.playSound("ItemSound.quest_accept")
-				n = st.getRandom(3)
+				n = self.getRandom(3)
 				if n == 0:
 					htmltext = "30519-02.htm"
 					st.giveItems(ZIMENFS_POTION,1)
@@ -80,7 +80,7 @@ class Quest (JQuest) :
 			htmltext = "30519-07.htm"
 			st.set("id",str(st.getInt("id")+1))
 		elif event == "30519_4" :
-			n = st.getRandom(2)
+			n = self.getRandom(2)
 			if n == 0:
 				htmltext = "30519-06.htm"
 			if n == 1:
@@ -107,7 +107,7 @@ class Quest (JQuest) :
 				htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		elif event == "30519_6" :
 			if st.getQuestItemsCount(ZIMENFS_PAY) or st.getQuestItemsCount(CHALIS_PAY) or st.getQuestItemsCount(BRONKS_PAY):
-				n = st.getRandom(3)
+				n = self.getRandom(3)
 				st.takeItems(ZIMENFS_PAY,1)
 				st.takeItems(CHALIS_PAY,1)
 				st.takeItems(BRONKS_PAY,1)
@@ -346,7 +346,7 @@ class Quest (JQuest) :
 			if st.getInt("cond") and st.getQuestItemsCount(BEAR_PIC) == 1 and st.getQuestItemsCount(HONEY_JAR) < 5 :
 				if st.getInt("id") > 20 :
 					n = ((st.getInt("id")-20)*10)
-					if st.getRandom(100) <= n :
+					if self.getRandom(100) <= n :
 						st.addSpawn(27058)
 						st.set("id","0")
 					else:
@@ -365,7 +365,7 @@ class Quest (JQuest) :
 		elif npcId == 20403 :
 			if st.getInt("cond") and st.getQuestItemsCount(TARANTULA_PIC) == 1 and st.getQuestItemsCount(BEAD) < 20 :
 				if npc.isSpoil() :
-					if st.getRandom(2) == 0 :
+					if self.getRandom(2) == 0 :
 						st.giveItems(BEAD,1)
 						if st.getQuestItemsCount(BEAD) == 20 :
 							st.playSound("ItemSound.quest_middle")
@@ -375,7 +375,7 @@ class Quest (JQuest) :
 		elif npcId == 20508 :
 			if st.getInt("cond") and st.getQuestItemsCount(TARANTULA_PIC) == 1 and st.getQuestItemsCount(BEAD) < 20 :
 				if npc.isSpoil() :
-					if st.getRandom(10) < 6 :
+					if self.getRandom(10) < 6 :
 						st.giveItems(BEAD,1)
 						if st.getQuestItemsCount(BEAD) == 20 :
 							st.playSound("ItemSound.quest_middle")

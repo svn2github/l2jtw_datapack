@@ -190,7 +190,7 @@ public class Q10272_LightFragment extends Quest
 				case 7:
 					if (st.getInt("wait") == 1)
 					{
-						st.giveItems(LIGHT_FRAGMENT, 1);;
+						st.giveItems(LIGHT_FRAGMENT, 1);
 						st.set("cond", "8");
 						st.unset("wait");
 						st.playSound("ItemSound.quest_middle");
@@ -281,7 +281,7 @@ public class Q10272_LightFragment extends Quest
 				int chance = (int) (Config.RATE_QUEST_DROP * DROP_CHANCE);
 				int numItems = chance / 100;
 				chance = chance % 100;
-				if (st.getRandom(100) < chance)
+				if (getRandom(100) < chance)
 				{
 					numItems++;
 				}

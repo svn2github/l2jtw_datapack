@@ -135,7 +135,7 @@ class Quest (JQuest) :
 
 		if cond == 4 :
 			if npcId in MOBS1 and cond == 4 :
-				if st.getRandom(100) < 25 :
+				if self.getRandom(100) < 25 :
 					st.giveItems(FRAGMENT,1)
 					if st.getQuestItemsCount(FRAGMENT) <= 49 :
 						st.playSound("ItemSound.quest_itemget")
@@ -144,17 +144,17 @@ class Quest (JQuest) :
 						st.playSound("ItemSound.quest_middle")
 		elif cond == 10 :
 			if npcId in MOBS2 and cond == 10 :
-				if st.getRandom(100) < 75 :
+				if self.getRandom(100) < 75 :
 					st.giveItems(8770,1)
 					if st.getQuestItemsCount(8770) <= 9 :
 						st.playSound("ItemSound.quest_itemget")
 			elif npcId in MOBS3 and cond == 10 :
-				if st.getRandom(100) < 75 :
+				if self.getRandom(100) < 75 :
 					st.giveItems(8772,1)
 					if st.getQuestItemsCount(8772) <= 9 :
 						st.playSound("ItemSound.quest_itemget")
 			elif npcId in MOBS4 and cond == 10 :
-				if st.getRandom(100) < 75 :
+				if self.getRandom(100) < 75 :
 					st.giveItems(8771,1)
 					if st.getQuestItemsCount(8771) <= 9 :
 						st.playSound("ItemSound.quest_itemget")

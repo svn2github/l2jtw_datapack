@@ -18,10 +18,9 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
-import com.l2jserver.util.Rnd;
 
 /**
- * ´cÅQªºÂ§ª«½c¤l
+ * @author Gigiikun
  */
 public class EvasGiftBoxes extends Quest
 {
@@ -62,7 +61,7 @@ public class EvasGiftBoxes extends Quest
 			if (killer.getFirstEffect(KISSOFEVA) != null)
 				isKissOfEvaBuffed = 1;
 			for (int i = 0; i < CHANCES[isKissOfEvaBuffed].length; i += 2)
-				if (Rnd.get(100) < CHANCES[isKissOfEvaBuffed][i])
+				if (getRandom(100) < CHANCES[isKissOfEvaBuffed][i])
 					st.giveItems(CHANCES[isKissOfEvaBuffed][i+1],1);
 		}
 		return super.onKill(npc,killer,isPet);

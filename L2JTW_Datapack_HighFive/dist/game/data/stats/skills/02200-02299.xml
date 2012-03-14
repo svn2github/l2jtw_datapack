@@ -853,7 +853,6 @@
 	</skill>
 	<skill id="2247" levels="1" name="Herb of Magic">
 		<!-- Confirmed CT2.5 -->
-		<set name="buffDuration" val="300000" />
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="40" />
@@ -882,7 +881,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="firePower" val="20" />
@@ -899,7 +897,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="waterPower" val="20" />
@@ -916,7 +913,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="windPower" val="20" />
@@ -933,7 +929,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="earthPower" val="20" />
@@ -950,7 +945,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="darkPower" val="20" />
@@ -967,7 +961,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
-		<set name="buffDuration" val="600000" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="holy_attack">
 				<add order="0x40" stat="holyPower" val="20" />
@@ -1418,7 +1411,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
-		<set name="buffDuration" val="3600000" />
 		<cond msgId="113" addName="1">
 			<player active_skill_id_lvl="#active_skill_id_lvl" />
 		</cond>
@@ -1521,7 +1513,6 @@
 	</skill>
 	<skill id="2280" levels="1" name="Herb of Power">
 		<!-- Confirmed CT2.5 -->
-		<set name="buffDuration" val="300000" />
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="40" />
@@ -1542,7 +1533,6 @@
 	</skill>
 	<skill id="2281" levels="1" name="Herb of Magic">
 		<!-- Confirmed CT2.5 -->
-		<set name="buffDuration" val="300000" />
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="52" />
@@ -1563,7 +1553,6 @@
 	</skill>
 	<skill id="2282" levels="1" name="Herb of Atk. Spd.">
 		<!-- Confirmed CT2.5 -->
-		<set name="buffDuration" val="300000" />
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="52" />
@@ -1584,7 +1573,6 @@
 	</skill>
 	<skill id="2283" levels="1" name="Herb of Casting Spd.">
 		<!-- Confirmed CT2.5 -->
-		<set name="buffDuration" val="300000" />
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="52" />
@@ -1605,7 +1593,6 @@
 	</skill>
 	<skill id="2284" levels="1" name="Herb of Critical Attack">
 		<!-- Confirmed CT2.5 -->
-		<set name="buffDuration" val="300000" />
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="52" />
@@ -1626,7 +1613,6 @@
 	</skill>
 	<skill id="2285" levels="1" name="Herb of Speed">
 		<!-- Confirmed CT2.5 -->
-		<set name="buffDuration" val="300000" />
 		<set name="hitTime" val="100" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="52" />

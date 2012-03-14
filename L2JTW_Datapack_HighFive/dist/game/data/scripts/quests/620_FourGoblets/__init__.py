@@ -122,7 +122,7 @@ class Quest (JQuest) :
     if st:
       if int(st.get("cond")) == 1 or int(st.get("cond")) == 2 :
         if npcId in range(18120,18256) :
-          if st.getRandom(100) < 30 :
+          if self.getRandom(100) < 30 :
             st.giveItems(SEALED_BOX,1)
             st.playSound("ItemSound.quest_itemget")
       return
@@ -150,14 +150,14 @@ class Quest (JQuest) :
         htmltext = "31454-13.htm"
         st.takeItems(SEALED_BOX,1)
         reward = 0
-        rnd = st.getRandom(5)
+        rnd = self.getRandom(5)
         if rnd == 0:
           st.giveItems(57,10000)
           reward = 1
         elif rnd == 1:
-          if st.getRandom(1000) < 848 :
+          if self.getRandom(1000) < 848 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 43 :
               st.giveItems(1884,42)
             elif i < 66 :
@@ -178,9 +178,9 @@ class Quest (JQuest) :
               st.giveItems(1894,1)
             else:
               st.giveItems(4043,1)
-          if st.getRandom(1000) < 323 :
+          if self.getRandom(1000) < 323 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 335 :
               st.giveItems(1888,1)
             elif i < 556 :
@@ -196,9 +196,9 @@ class Quest (JQuest) :
             else:
               st.giveItems(4048,1)
         elif rnd == 2:
-          if st.getRandom(1000) < 847 :
+          if self.getRandom(1000) < 847 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 148 :
               st.giveItems(1878,8)
             elif i < 175 :
@@ -219,9 +219,9 @@ class Quest (JQuest) :
               st.giveItems(4039,1)
             else:
               st.giveItems(4044,1)
-          if st.getRandom(1000) < 251 :
+          if self.getRandom(1000) < 251 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 350 :
               st.giveItems(1887,1)
             elif i < 587 :
@@ -237,18 +237,18 @@ class Quest (JQuest) :
             else:
               st.giveItems(4047,1)
         elif rnd == 3:
-          if st.getRandom(1000) < 31 :
+          if self.getRandom(1000) < 31 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 223 :
               st.giveItems(730,1)
             elif i < 893 :
               st.giveItems(948,1)
             else:
               st.giveItems(960,1)
-          if st.getRandom(1000) < 5 :
+          if self.getRandom(1000) < 5 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 202 :
               st.giveItems(729,1)
             elif i < 928 :
@@ -256,9 +256,9 @@ class Quest (JQuest) :
             else:
               st.giveItems(959,1)
         elif rnd == 4:
-          if st.getRandom(1000) < 329 :
+          if self.getRandom(1000) < 329 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 88 :
               st.giveItems(6698,1)
             elif i < 185 :
@@ -293,9 +293,9 @@ class Quest (JQuest) :
               st.giveItems(6713,1)
             else:
               st.giveItems(6714,1)
-          if st.getRandom(1000) < 54 :
+          if self.getRandom(1000) < 54 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 100 :
               st.giveItems(6688,1)
             elif i < 198 :
@@ -317,7 +317,7 @@ class Quest (JQuest) :
             else:
               st.giveItems(6697,1)
         if reward == 0 :
-          if st.getRandom(2) == 0 :
+          if self.getRandom(2) == 0 :
              htmltext = "31454-14.htm"
           else :
              htmltext = "31454-15.htm"
@@ -383,14 +383,14 @@ class Quest (JQuest) :
         htmltext = "31919-3.htm"
         st.takeItems(SEALED_BOX,1)
         reward = 0
-        rnd = st.getRandom(5)
+        rnd = self.getRandom(5)
         if rnd == 0:
           st.giveItems(57,10000)
           reward = 1
         elif rnd == 1:
-          if st.getRandom(1000) < 848 :
+          if self.getRandom(1000) < 848 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 43 :
               st.giveItems(1884,42)
             elif i < 66 :
@@ -411,9 +411,9 @@ class Quest (JQuest) :
               st.giveItems(1894,1)
             else:
               st.giveItems(4043,1)
-          if st.getRandom(1000) < 323 :
+          if self.getRandom(1000) < 323 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 335 :
               st.giveItems(1888,1)
             elif i < 556 :
@@ -429,9 +429,9 @@ class Quest (JQuest) :
             else:
               st.giveItems(4048,1)
         elif rnd == 2:
-          if st.getRandom(1000) < 847 :
+          if self.getRandom(1000) < 847 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 148 :
               st.giveItems(1878,8)
             elif i < 175 :
@@ -452,9 +452,9 @@ class Quest (JQuest) :
               st.giveItems(4039,1)
             else:
               st.giveItems(4044,1)
-          if st.getRandom(1000) < 251 :
+          if self.getRandom(1000) < 251 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 350 :
               st.giveItems(1887,1)
             elif i < 587 :
@@ -470,18 +470,18 @@ class Quest (JQuest) :
             else:
               st.giveItems(4047,1)
         elif rnd == 3:
-          if st.getRandom(1000) < 31 :
+          if self.getRandom(1000) < 31 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 223 :
               st.giveItems(730,1)
             elif i < 893 :
               st.giveItems(948,1)
             else:
               st.giveItems(960,1)
-          if st.getRandom(1000) < 5 :
+          if self.getRandom(1000) < 5 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 202 :
               st.giveItems(729,1)
             elif i < 928 :
@@ -489,9 +489,9 @@ class Quest (JQuest) :
             else:
               st.giveItems(959,1)
         elif rnd == 4:
-          if st.getRandom(1000) < 329 :
+          if self.getRandom(1000) < 329 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 88 :
               st.giveItems(6698,1)
             elif i < 185 :
@@ -526,9 +526,9 @@ class Quest (JQuest) :
               st.giveItems(6713,1)
             else:
               st.giveItems(6714,1)
-          if st.getRandom(1000) < 54 :
+          if self.getRandom(1000) < 54 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 100 :
               st.giveItems(6688,1)
             elif i < 198 :
@@ -550,7 +550,7 @@ class Quest (JQuest) :
             else:
               st.giveItems(6697,1)
         if reward == 0 :
-          if st.getRandom(2) == 0 :
+          if self.getRandom(2) == 0 :
              htmltext = "31919-4.htm"
           else :
              htmltext = "31919-5.htm"
@@ -561,14 +561,14 @@ class Quest (JQuest) :
         htmltext = "31920-3.htm"
         st.takeItems(SEALED_BOX,1)
         reward = 0
-        rnd = st.getRandom(5)
+        rnd = self.getRandom(5)
         if rnd == 0:
           st.giveItems(57,10000)
           reward = 1
         elif rnd == 1:
-          if st.getRandom(1000) < 848 :
+          if self.getRandom(1000) < 848 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 43 :
               st.giveItems(1884,42)
             elif i < 66 :
@@ -589,9 +589,9 @@ class Quest (JQuest) :
               st.giveItems(1894,1)
             else:
               st.giveItems(4043,1)
-          if st.getRandom(1000) < 323 :
+          if self.getRandom(1000) < 323 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 335 :
               st.giveItems(1888,1)
             elif i < 556 :
@@ -607,9 +607,9 @@ class Quest (JQuest) :
             else:
               st.giveItems(4048,1)
         elif rnd == 2:
-          if st.getRandom(1000) < 847 :
+          if self.getRandom(1000) < 847 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 148 :
               st.giveItems(1878,8)
             elif i < 175 :
@@ -630,9 +630,9 @@ class Quest (JQuest) :
               st.giveItems(4039,1)
             else:
               st.giveItems(4044,1)
-          if st.getRandom(1000) < 251 :
+          if self.getRandom(1000) < 251 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 350 :
               st.giveItems(1887,1)
             elif i < 587 :
@@ -648,18 +648,18 @@ class Quest (JQuest) :
             else:
               st.giveItems(4047,1)
         elif rnd == 3:
-          if st.getRandom(1000) < 31 :
+          if self.getRandom(1000) < 31 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 223 :
               st.giveItems(730,1)
             elif i < 893 :
               st.giveItems(948,1)
             else:
               st.giveItems(960,1)
-          if st.getRandom(1000) < 5 :
+          if self.getRandom(1000) < 5 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 202 :
               st.giveItems(729,1)
             elif i < 928 :
@@ -667,9 +667,9 @@ class Quest (JQuest) :
             else:
               st.giveItems(959,1)
         elif rnd == 4:
-          if st.getRandom(1000) < 329 :
+          if self.getRandom(1000) < 329 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 88 :
               st.giveItems(6698,1)
             elif i < 185 :
@@ -704,9 +704,9 @@ class Quest (JQuest) :
               st.giveItems(6713,1)
             else:
               st.giveItems(6714,1)
-          if st.getRandom(1000) < 54 :
+          if self.getRandom(1000) < 54 :
             reward = 1
-            i = st.getRandom(1000)
+            i = self.getRandom(1000)
             if i < 100 :
               st.giveItems(6688,1)
             elif i < 198 :
@@ -728,7 +728,7 @@ class Quest (JQuest) :
             else:
               st.giveItems(6697,1)
         if reward == 0 :
-          if st.getRandom(2) == 0 :
+          if self.getRandom(2) == 0 :
              htmltext = "31920-4.htm"
           else :
              htmltext = "31920-5.htm"

@@ -18,7 +18,6 @@ import com.l2jserver.gameserver.instancemanager.HellboundManager;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
-import com.l2jserver.gameserver.model.quest.QuestState;
 
 public class Budenka extends Quest
 {
@@ -30,10 +29,6 @@ public class Budenka extends Quest
 	@Override
 	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		QuestState st = player.getQuestState(getName());
-		if (st == null)
-			st = newQuestState(player);
-		
 		int hellboundLevel = HellboundManager.getInstance().getLevel();
 		if (hellboundLevel < 2)
 			return "32294.htm";
@@ -57,6 +52,6 @@ public class Budenka extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Budenka(-1, Budenka.class.getSimpleName(), "hellbound");
+		new Budenka(-1, "Budenka", "hellbound");
 	}
 }
