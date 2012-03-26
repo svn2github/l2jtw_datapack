@@ -32,7 +32,10 @@ public class Q10290_LandDragonConqueror extends Quest
 	// Old, Weak, Normal, Strong
 	private static final int[] Antharas =
 	{
-		29019, 29066, 29067, 29068
+		29019,
+		29066,
+		29067,
+		29068
 	};
 	// Item
 	private static final int PortalStone = 3865;
@@ -106,7 +109,7 @@ public class Q10290_LandDragonConqueror extends Quest
 				else if (cond == 2)
 				{
 					st.takeItems(MiracleNecklace, 1);
-					st.giveAdena(131236, false);
+					st.giveAdena(131236, true);
 					st.addExpAndSp(702557, 76334);
 					st.giveItems(AntharaSlayerCirclet, 1);
 					st.playSound("ItemSound.quest_finish");
@@ -164,7 +167,8 @@ public class Q10290_LandDragonConqueror extends Quest
 		
 		questItemIds = new int[]
 		{
-			MiracleNecklace, ShabbyNecklace
+			MiracleNecklace,
+			ShabbyNecklace
 		};
 	}
 	

@@ -104,6 +104,9 @@ public class AdminQuest implements IAdminCommandHandler
 					try
 					{
 						L2ScriptEngineManager.getInstance().executeScript(file);
+						
+						// This part should be called only when the script is successfuly loaded.
+						activeChar.sendMessage("Script Successfully Loaded.");
 					}
 					catch (ScriptException e)
 					{

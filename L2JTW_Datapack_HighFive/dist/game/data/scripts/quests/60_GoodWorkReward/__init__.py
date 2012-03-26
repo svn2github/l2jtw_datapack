@@ -138,7 +138,7 @@ class Quest (JQuest) :
 			if adena == 3 :
 				return "31092-06.htm"
 			if adena > 0 :
-				st.giveAdena(adena*1000000,False)
+				st.giveAdena(adena*1000000,True)
 			htmltext = "31092-05.htm"
 			st.set("onlyone","1")
 		return htmltext

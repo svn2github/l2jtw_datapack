@@ -108,7 +108,7 @@ public class Q10267_JourneyToGracia extends Quest
 				st.playSound("ItemSound.quest_middle");
 				break;
 			case "32548-02.htm":
-				st.giveAdena(92500, false);
+				st.giveAdena(92500, true);
 				st.addExpAndSp(75480, 7570);
 				st.playSound("ItemSound.quest_finish");
 				st.exitQuest(false);
