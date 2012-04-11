@@ -135,20 +135,20 @@ public class DefenceHallOfSuffering extends Quest
 			player.sendPacket(SystemMessage.getSystemMessage(2185));
 			return false;
 		}
-		for (L2PcInstance partyMember : party.getPartyMembers())
+		for (L2PcInstance partyMember : party.getMembers())
 		{
 			if (partyMember.getLevel() < 75 || partyMember.getLevel() > 82)
 			{
 				SystemMessage sm = SystemMessage.getSystemMessage(2097);
 				sm.addPcName(partyMember);
-				party.broadcastToPartyMembers(sm);
+				party.broadcastPacket(sm);
 				return false;
 			}
 			if (!Util.checkIfInRange(1000, player, partyMember, true))
 			{
 				SystemMessage sm = SystemMessage.getSystemMessage(2096);
 				sm.addPcName(partyMember);
-				party.broadcastToPartyMembers(sm);
+				party.broadcastPacket(sm);
 				return false;
 			}
 			Long reentertime = InstanceManager.getInstance().getInstanceTime(partyMember.getObjectId(), INSTANCEID);
@@ -156,7 +156,7 @@ public class DefenceHallOfSuffering extends Quest
 			{
 				SystemMessage sm = SystemMessage.getSystemMessage(2100);
 				sm.addPcName(partyMember);
-				party.broadcastToPartyMembers(sm);
+				party.broadcastPacket(sm);
 				return false;
 			}
 		}
@@ -235,7 +235,7 @@ public class DefenceHallOfSuffering extends Quest
 		}
 		else
 		{
-			for (L2PcInstance partyMember : party.getPartyMembers())
+			for (L2PcInstance partyMember : party.getMembers())
 			{
 				teleportplayer(partyMember,teleto);
 				removeBuffs(partyMember);

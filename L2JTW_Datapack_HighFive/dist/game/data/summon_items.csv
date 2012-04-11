@@ -1,9 +1,14 @@
 #範例:
-#  itemID;npcID;summonType;despawnDelay(only for type static)
-#  despawnDelay - in seconds, -1 unlimited
+# itemID;npcID;summonType;despawnDelay
 #
-# 召喚類型: 0 = 道具, 1 = 寵物, 2 = 飛龍
+# despawnDelay is only for type static, time is in seconds (use -1 for unlimited).
 #
+# 召喚類型: 
+# 0 = 道具
+# 1 = 寵物
+# 2 = 飛龍
+#
+# TODO: This pets should be spawned from Item Skills.
 
 ### 寵物 ###
 # 狼項鍊/狼
@@ -109,6 +114,3 @@
 15488;16071;1
 # 精銳馬奎安號角/精銳馬奎安
 15489;16072;1
-
-### 疑問藥水(三週年活動用)/飛龍 ###
-8663;12621;2

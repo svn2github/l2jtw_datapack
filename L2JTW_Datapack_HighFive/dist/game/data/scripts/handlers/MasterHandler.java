@@ -110,11 +110,11 @@ import handlers.bypasshandlers.Buy;
 import handlers.bypasshandlers.BuyShadowItem;
 import handlers.bypasshandlers.ChatLink;
 import handlers.bypasshandlers.ClanWarehouse;
-import handlers.bypasshandlers.DrawHenna;
 import handlers.bypasshandlers.EventEngine;
 import handlers.bypasshandlers.Festival;
 import handlers.bypasshandlers.FortSiege;
 import handlers.bypasshandlers.Freight;
+import handlers.bypasshandlers.Henna;
 import handlers.bypasshandlers.ItemAuctionLink;
 import handlers.bypasshandlers.Link;
 import handlers.bypasshandlers.Loto;
@@ -130,7 +130,6 @@ import handlers.bypasshandlers.QuestList;
 import handlers.bypasshandlers.ReceivePremium;
 import handlers.bypasshandlers.ReleaseAttribute;
 import handlers.bypasshandlers.RemoveDeathPenalty;
-import handlers.bypasshandlers.RemoveHennaList;
 import handlers.bypasshandlers.RentPet;
 import handlers.bypasshandlers.RideWyvern;
 import handlers.bypasshandlers.Rift;
@@ -441,11 +440,11 @@ public class MasterHandler
 			BuyShadowItem.class,
 			ChatLink.class,
 			ClanWarehouse.class,
-			DrawHenna.class,
 			EventEngine.class,
 			Festival.class,
 			FortSiege.class,
 			Freight.class,
+			Henna.class,
 			ItemAuctionLink.class,
 			Link.class,
 			Loto.class,
@@ -461,7 +460,6 @@ public class MasterHandler
 			ReceivePremium.class,
 			ReleaseAttribute.class,
 			RemoveDeathPenalty.class,
-			RemoveHennaList.class,
 			RentPet.class,
 			RideWyvern.class,
 			Rift.class,

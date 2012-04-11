@@ -157,7 +157,7 @@ public class IceQueen_Kegor extends Quest
 		if (npc.getNpcId() == KEGOR_IN_CAVE)
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-			if (tmpworld != null && tmpworld instanceof KegorWorld);
+			if (tmpworld != null && tmpworld instanceof KegorWorld)
 			{
 				KegorWorld world = (KegorWorld) tmpworld;
 				
@@ -174,7 +174,7 @@ public class IceQueen_Kegor extends Quest
 				else if (event.equalsIgnoreCase("buff"))
 				{
 					//schedule mob attack
-					if (world != null && world.liveMobs != null && !world.liveMobs.isEmpty())
+					if (world.liveMobs != null && !world.liveMobs.isEmpty())
 					{
 						for (L2Attackable monster : world.liveMobs)
 						{
@@ -263,7 +263,7 @@ public class IceQueen_Kegor extends Quest
 		else if (npc.getNpcId() == KEGOR_IN_CAVE)
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
-			if (tmpworld != null && tmpworld instanceof KegorWorld);
+			if (tmpworld != null && tmpworld instanceof KegorWorld)
 			{
 				KegorWorld world = (KegorWorld) tmpworld;
 				if (hostQuest.getInt("progress") == 2 && hostQuest.getQuestItemsCount(ANTIDOTE) > 0 && !world.underAttack)
@@ -306,7 +306,7 @@ public class IceQueen_Kegor extends Quest
 		if (npc.getNpcId() == KEGOR_IN_CAVE)
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
-			if (tmpworld != null && tmpworld instanceof KegorWorld);
+			if (tmpworld != null && tmpworld instanceof KegorWorld)
 			{
 				KegorWorld world = (KegorWorld) tmpworld;
 				
@@ -348,7 +348,7 @@ public class IceQueen_Kegor extends Quest
 		}
 		
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-		if (tmpworld != null && tmpworld instanceof KegorWorld);
+		if (tmpworld != null && tmpworld instanceof KegorWorld)
 		{
 			KegorWorld world = (KegorWorld) tmpworld;
 			

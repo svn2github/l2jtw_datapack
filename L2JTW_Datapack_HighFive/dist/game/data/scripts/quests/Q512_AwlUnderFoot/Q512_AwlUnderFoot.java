@@ -101,7 +101,7 @@ public final class Q512_AwlUnderFoot extends Quest
 			return "CastleWarden-03.htm";
 		if (party.getLeader() != player)
 			return getHtm(player.getHtmlPrefix(), "CastleWarden-04.htm").replace("%leader%", party.getLeader().getName());
-		for (L2PcInstance partyMember : party.getPartyMembers())
+		for (L2PcInstance partyMember : party.getMembers())
 		{
 			QuestState st = partyMember.getQuestState(qn);
 			if (st == null || st.getInt("cond") < 1)
@@ -162,7 +162,7 @@ public final class Q512_AwlUnderFoot extends Quest
 		}
 		else
 		{
-			for (L2PcInstance partyMember : party.getPartyMembers())
+			for (L2PcInstance partyMember : party.getMembers())
 			{
 				teleportPlayer(partyMember, coords, instanceId);
 				world.allowed.add(partyMember.getObjectId());
@@ -326,7 +326,7 @@ public final class Q512_AwlUnderFoot extends Quest
 				npc.doSimultaneousCast(RAID_CURSE.getSkill());
 			}
 			else if (player.getParty() != null)
-				for(L2PcInstance pmember : player.getParty().getPartyMembers())
+				for(L2PcInstance pmember : player.getParty().getMembers())
 				{
 					if (pmember.getBuffCount() > 0 || pmember.getDanceCount() > 0)
 					{
@@ -348,7 +348,7 @@ public final class Q512_AwlUnderFoot extends Quest
 			if (Util.contains(RAIDS3, npc.getNpcId()))
 			{
 				if (player.getParty() != null)
-					for (L2PcInstance pl : player.getParty().getPartyMembers())
+					for (L2PcInstance pl : player.getParty().getMembers())
 						rewardPlayer(pl);
 				else
 					rewardPlayer(player);

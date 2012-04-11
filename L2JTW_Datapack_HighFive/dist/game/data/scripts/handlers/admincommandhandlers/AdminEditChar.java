@@ -32,7 +32,7 @@ import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.communitybbs.Manager.RegionBBSManager;
 import com.l2jserver.gameserver.datatables.CharNameTable;
-import com.l2jserver.gameserver.datatables.CharTemplateTable;
+import com.l2jserver.gameserver.datatables.ClassListData;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.instancemanager.TransformationManager;
 import com.l2jserver.gameserver.model.L2Object;
@@ -373,12 +373,12 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.setClassId(classidval);
 					if (!player.isSubClassActive())
 						player.setBaseClass(classidval);
-					String newclass = player.getTemplate().className;
+					String newclass = ClassListData.getInstance().getClass(player.getClassId()).getClassName();
 					player.store();
 					player.sendMessage(MessageTable.Messages[1534].getMessage() + newclass);
 					player.broadcastUserInfo();
 					activeChar.sendMessage(player.getName() + MessageTable.Messages[1535].getMessage() + newclass);
-					
+
 					// Transform-untransorm player quickly to force the client to reload the character textures
 					TransformationManager.getInstance().transformPlayer(105, player);
 					ThreadPoolManager.getInstance().scheduleGeneral(new Untransform(player), 200);
@@ -447,7 +447,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				{
 					// Delete party window for other party members
 					player.getParty().broadcastToPartyMembers(player, new PartySmallWindowDeleteAll());
-					for (L2PcInstance member : player.getParty().getPartyMembers())
+					for (L2PcInstance member : player.getParty().getMembers())
 					{
 						// And re-add
 						if (member != player)
@@ -844,7 +844,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					"\">",
 					players[i].getName(),
 					"</a></td><td width=110>",
-					players[i].getTemplate().className,
+					ClassListData.getInstance().getClass(players[i].getClassId()).getClientCode(),
 					"</td><td width=40>",
 					String.valueOf(players[i].getLevel())
 					,"</td></tr>");
@@ -905,17 +905,17 @@ public class AdminEditChar implements IAdminCommandHandler
 			return;
 		}
 		
-		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
+		final NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/" + filename);
 		adminReply.replace("%name%", player.getName());
 		adminReply.replace("%level%", String.valueOf(player.getLevel()));
 		adminReply.replace("%clan%", String.valueOf(player.getClan() != null ? "<a action=\"bypass -h admin_clan_info " + player.getObjectId() + "\">" + player.getClan().getName() + "</a>" : null));
 		adminReply.replace("%xp%", String.valueOf(player.getExp()));
 		adminReply.replace("%sp%", String.valueOf(player.getSp()));
-		adminReply.replace("%class%", player.getTemplate().className);
+		adminReply.replace("%class%", ClassListData.getInstance().getClass(player.getClassId()).getClientCode());
 		adminReply.replace("%ordinal%", String.valueOf(player.getClassId().ordinal()));
 		adminReply.replace("%classid%", String.valueOf(player.getClassId()));
-		adminReply.replace("%baseclass%", CharTemplateTable.getInstance().getClassNameById(player.getBaseClass()));
+		adminReply.replace("%baseclass%", ClassListData.getInstance().getClass(player.getBaseClass()).getClientCode());
 		adminReply.replace("%x%", String.valueOf(player.getX()));
 		adminReply.replace("%y%", String.valueOf(player.getY()));
 		adminReply.replace("%z%", String.valueOf(player.getZ()));
@@ -1096,7 +1096,7 @@ public class AdminEditChar implements IAdminCommandHandler
 						"\">",
 						name,
 						"</a></td><td width=110>",
-						player.getTemplate().className,
+						ClassListData.getInstance().getClass(player.getClassId()).getClientCode(),
 						"</td><td width=40>",
 						String.valueOf(player.getLevel()),
 				"</td></tr>");
@@ -1179,7 +1179,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					"\">",
 					name,
 					"</a></td><td width=110>",
-					player.getTemplate().className,
+					ClassListData.getInstance().getClass(player.getClassId()).getClientCode(),
 					"</td><td width=40>",
 					String.valueOf(player.getLevel()),
 			"</td></tr>");
@@ -1457,7 +1457,7 @@ public class AdminEditChar implements IAdminCommandHandler
 		NpcHtmlMessage html = new NpcHtmlMessage(0);
 		html.setFile(activeChar.getHtmlPrefix(), "data/html/admin/partyinfo.htm");
 		StringBuilder text = new StringBuilder(400);
-		for (L2PcInstance member : target.getParty().getPartyMembers())
+		for (L2PcInstance member : target.getParty().getMembers())
 		{
 			if (color)
 				text.append("<tr><td><table width=270 border=0 bgcolor=131210 cellpadding=2><tr><td width=30 align=right>");
@@ -1471,16 +1471,16 @@ public class AdminEditChar implements IAdminCommandHandler
 		html.replace("%party%", text.toString());
 		activeChar.sendPacket(html);
 	}
-	
+
 	private final class Untransform implements Runnable
 	{
 		private final L2PcInstance _player;
-		
+
 		private Untransform(L2PcInstance player)
 		{
 			_player = player;
 		}
-		
+
 		@Override
 		public void run()
 		{

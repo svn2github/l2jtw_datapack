@@ -338,7 +338,7 @@ class Quest (JQuest) :
         party = player.getParty()
         if party :
           PartyQuestMembers = []
-          for partyMember in party.getPartyMembers().toArray():
+          for partyMember in party.getMembers().toArray():
             if partyMember.isInsideRadius(player,1500,True,False):
               pst = partyMember.getQuestState(qn)
               if pst :

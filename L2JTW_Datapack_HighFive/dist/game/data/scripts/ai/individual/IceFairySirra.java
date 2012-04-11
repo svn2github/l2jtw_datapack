@@ -191,7 +191,7 @@ public class IceFairySirra extends L2AttackableAIScript
 	{
 		if (player.getParty() != null)
 		{
-			for (L2PcInstance pc : player.getParty().getPartyMembers())
+			for (L2PcInstance pc : player.getParty().getMembers())
 			{
 				L2ItemInstance i = pc.getInventory().getItemByItemId(SILVER_HEMOCYTE);
 				if ((i == null) || (i.getCount() < 10))
@@ -211,7 +211,7 @@ public class IceFairySirra extends L2AttackableAIScript
 	{
 		if (player.getParty() != null)
 		{
-			for (L2PcInstance pc : player.getParty().getPartyMembers())
+			for (L2PcInstance pc : player.getParty().getMembers())
 			{
 				L2ItemInstance i = pc.getInventory().getItemByItemId(SILVER_HEMOCYTE);
 				pc.destroyItem("Hemocytes", i.getObjectId(), 10, null, false);
@@ -227,7 +227,7 @@ public class IceFairySirra extends L2AttackableAIScript
 	{
 		if (player.getParty() != null)
 		{
-			for (L2PcInstance pc : player.getParty().getPartyMembers())
+			for (L2PcInstance pc : player.getParty().getMembers())
 			{
 				pc.teleToLocation(113533, -126159, -3488, false);
 				if (_sirrasZone == null)
@@ -249,7 +249,7 @@ public class IceFairySirra extends L2AttackableAIScript
 	{
 		if (player.getParty() != null)
 		{
-			for (L2PcInstance pc : player.getParty().getPartyMembers())
+			for (L2PcInstance pc : player.getParty().getMembers())
 			{
 				pc.sendPacket(new ExShowScreenMessage(npcString, 2, time));
 			}
@@ -397,7 +397,7 @@ public class IceFairySirra extends L2AttackableAIScript
 			}
 			
 			String filename = "";
-			if (player.isInParty() && (player.getParty().getPartyLeaderOID() == player.getObjectId()))
+			if (player.isInParty() && (player.getParty().getLeaderObjectId() == player.getObjectId()))
 			{
 				if (checkItems(player))
 				{

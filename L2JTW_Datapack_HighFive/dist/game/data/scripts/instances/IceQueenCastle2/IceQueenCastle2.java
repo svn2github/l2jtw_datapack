@@ -1355,7 +1355,7 @@ public class IceQueenCastle2 extends Quest
 			return false;
 		}
 		
-		if (player.getObjectId() != player.getParty().getCommandChannel().getChannelLeader().getObjectId())
+		if (player.getObjectId() != player.getParty().getCommandChannel().getLeader().getObjectId())
 		{
 			player.sendPacket(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER);
 			return false;
@@ -1366,13 +1366,13 @@ public class IceQueenCastle2 extends Quest
 		{
 			if (player.getParty().getCommandChannel().getMemberCount() < Config.MIN_FREYA_HC_PLAYERS)
 			{
-				player.getParty().getCommandChannel().broadcastToChannelMembers(SystemMessage.getSystemMessage(2793).addNumber(10));
+				player.getParty().getCommandChannel().broadcastPacket(SystemMessage.getSystemMessage(2793).addNumber(10));
 				return false;
 			}
 			
 			if (player.getParty().getCommandChannel().getMemberCount() > Config.MAX_FREYA_HC_PLAYERS)
 			{
-				player.getParty().getCommandChannel().broadcastToChannelMembers(SystemMessage.getSystemMessage(2102));
+				player.getParty().getCommandChannel().broadcastPacket(SystemMessage.getSystemMessage(2102));
 				return false;
 			}
 		}
@@ -1381,13 +1381,13 @@ public class IceQueenCastle2 extends Quest
 		{
 			if (player.getParty().getCommandChannel().getMemberCount() < Config.MIN_FREYA_PLAYERS)
 			{
-				player.getParty().getCommandChannel().broadcastToChannelMembers(SystemMessage.getSystemMessage(2793).addNumber(10));
+				player.getParty().getCommandChannel().broadcastPacket(SystemMessage.getSystemMessage(2793).addNumber(10));
 				return false;
 			}
 			
 			if (player.getParty().getCommandChannel().getMemberCount() > Config.MAX_FREYA_PLAYERS)
 			{
-				player.getParty().getCommandChannel().broadcastToChannelMembers(SystemMessage.getSystemMessage(2102));
+				player.getParty().getCommandChannel().broadcastPacket(SystemMessage.getSystemMessage(2102));
 				return false;
 			}
 		}
@@ -1401,7 +1401,7 @@ public class IceQueenCastle2 extends Quest
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(2097);
 					sm.addPcName(partyMember);
-					player.getParty().getCommandChannel().broadcastToChannelMembers(sm);
+					player.getParty().getCommandChannel().broadcastPacket(sm);
 					return false;
 				}
 			}
@@ -1412,7 +1412,7 @@ public class IceQueenCastle2 extends Quest
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(2097);
 					sm.addPcName(partyMember);
-					player.getParty().getCommandChannel().broadcastToChannelMembers(sm);
+					player.getParty().getCommandChannel().broadcastPacket(sm);
 					return false;
 				}
 			}
@@ -1421,7 +1421,7 @@ public class IceQueenCastle2 extends Quest
 			{
 				SystemMessage sm = SystemMessage.getSystemMessage(2096);
 				sm.addPcName(partyMember);
-				player.getParty().getCommandChannel().broadcastToChannelMembers(sm);
+				player.getParty().getCommandChannel().broadcastPacket(sm);
 				return false;
 			}
 			
@@ -1430,7 +1430,7 @@ public class IceQueenCastle2 extends Quest
 			{
 				SystemMessage sm = SystemMessage.getSystemMessage(2100);
 				sm.addPcName(partyMember);
-				player.getParty().getCommandChannel().broadcastToChannelMembers(sm);
+				player.getParty().getCommandChannel().broadcastPacket(sm);
 				return false;
 			}
 			// Hard
@@ -1441,7 +1441,7 @@ public class IceQueenCastle2 extends Quest
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_QUEST_REQUIREMENT_NOT_SUFFICIENT);
 					sm.addPcName(partyMember);
-					player.getParty().getCommandChannel().broadcastToChannelMembers(sm);
+					player.getParty().getCommandChannel().broadcastPacket(sm);
 					return false;
 				}
 			}
@@ -1453,7 +1453,7 @@ public class IceQueenCastle2 extends Quest
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_QUEST_REQUIREMENT_NOT_SUFFICIENT);
 					sm.addPcName(partyMember);
-					player.getParty().getCommandChannel().broadcastToChannelMembers(sm);
+					player.getParty().getCommandChannel().broadcastPacket(sm);
 					return false;
 				}
 			}

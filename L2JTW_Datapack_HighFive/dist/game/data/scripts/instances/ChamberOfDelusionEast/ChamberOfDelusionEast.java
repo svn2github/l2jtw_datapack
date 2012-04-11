@@ -70,20 +70,20 @@ public class ChamberOfDelusionEast extends Quest
 			player.sendPacket(SystemMessage.getSystemMessage(2185));
 			return false;
 		}
-		for (L2PcInstance partyMember : party.getPartyMembers())
+		for (L2PcInstance partyMember : party.getMembers())
 		{
 			if (partyMember.getLevel() < 80)
 			{
 				SystemMessage sm = SystemMessage.getSystemMessage(2097);
 				sm.addPcName(partyMember);
-				party.broadcastToPartyMembers(sm);
+				party.broadcastPacket(sm);
 				return false;
 			}
 			if (!Util.checkIfInRange(1000, player, partyMember, true))
 			{
 				SystemMessage sm = SystemMessage.getSystemMessage(2096);
 				sm.addPcName(partyMember);
-				party.broadcastToPartyMembers(sm);
+				party.broadcastPacket(sm);
 				return false;
 			}
 		}
@@ -108,7 +108,7 @@ public class ChamberOfDelusionEast extends Quest
 			{
 				if (i == tp)
 				{
-					for (L2PcInstance partyMember : player.getParty().getPartyMembers())
+					for (L2PcInstance partyMember : player.getParty().getMembers())
 					{
 						partyMember.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 						partyMember.setInstanceId(instId);
@@ -126,7 +126,7 @@ public class ChamberOfDelusionEast extends Quest
 			{
 				if (i == tp)
 				{
-					for (L2PcInstance partyMember : player.getParty().getPartyMembers())
+					for (L2PcInstance partyMember : player.getParty().getMembers())
 					{
 						partyMember.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 						partyMember.setInstanceId(instId);
@@ -199,7 +199,7 @@ public class ChamberOfDelusionEast extends Quest
 		_log.info("Chamber Of Delusion started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
 		spawnState((CDWorld)world);
 		instId = world.instanceId;
-		for (L2PcInstance partyMember : party.getPartyMembers())
+		for (L2PcInstance partyMember : party.getMembers())
 		{
 			teleportrnd(partyMember,(CDWorld)world);
 			world.allowed.add(partyMember.getObjectId());
@@ -231,7 +231,7 @@ public class ChamberOfDelusionEast extends Quest
 			instId = player.getInstanceId();
 			if (event.equalsIgnoreCase("tproom"))
 			{
-				for (L2PcInstance partyMember : party.getPartyMembers())
+				for (L2PcInstance partyMember : party.getMembers())
 				{
 					teleportrnd(partyMember,(CDWorld)world);
 				}
@@ -241,7 +241,7 @@ public class ChamberOfDelusionEast extends Quest
 			}
 			else if (event.equalsIgnoreCase("tproom1"))
 			{
-				for (L2PcInstance partyMember : party.getPartyMembers())
+				for (L2PcInstance partyMember : party.getMembers())
 				{
 					teleportrnd(partyMember,(CDWorld)world);
 				}
@@ -251,7 +251,7 @@ public class ChamberOfDelusionEast extends Quest
 			}
 			else if (event.equalsIgnoreCase("tproom2"))
 			{
-				for (L2PcInstance partyMember : party.getPartyMembers())
+				for (L2PcInstance partyMember : party.getMembers())
 				{
 					teleportrnd(partyMember,(CDWorld)world);
 				}
@@ -261,7 +261,7 @@ public class ChamberOfDelusionEast extends Quest
 			}
 			else if (event.equalsIgnoreCase("tproom3"))
 			{
-				for (L2PcInstance partyMember : party.getPartyMembers())
+				for (L2PcInstance partyMember : party.getMembers())
 				{
 					teleportrnd(partyMember,(CDWorld)world);
 				}
@@ -273,7 +273,7 @@ public class ChamberOfDelusionEast extends Quest
 					if (h == 0)
 					{
 						cancelQuestTimers("tproom");
-						for (L2PcInstance partyMember : party.getPartyMembers())
+						for (L2PcInstance partyMember : party.getMembers())
 						{
 							teleportrnd(partyMember,(CDWorld)world);
 						}
@@ -283,7 +283,7 @@ public class ChamberOfDelusionEast extends Quest
 					else if (h == 1)
 					{
 						cancelQuestTimers("tproom1");
-						for (L2PcInstance partyMember : party.getPartyMembers())
+						for (L2PcInstance partyMember : party.getMembers())
 						{
 							teleportrnd(partyMember,(CDWorld)world);
 						}
@@ -293,7 +293,7 @@ public class ChamberOfDelusionEast extends Quest
 					else if (h == 2)
 					{
 						cancelQuestTimers("tproom2");
-						for (L2PcInstance partyMember : party.getPartyMembers())
+						for (L2PcInstance partyMember : party.getMembers())
 						{
 							teleportrnd(partyMember,(CDWorld)world);
 						}
@@ -303,7 +303,7 @@ public class ChamberOfDelusionEast extends Quest
 					else if (h == 3)
 					{
 						cancelQuestTimers("tproom3");
-						for (L2PcInstance partyMember : party.getPartyMembers())
+						for (L2PcInstance partyMember : party.getMembers())
 						{
 							teleportrnd(partyMember,(CDWorld)world);
 						}
@@ -360,7 +360,7 @@ public class ChamberOfDelusionEast extends Quest
 			cancelQuestTimers("tproom1");
 			cancelQuestTimers("tproom2");
 			cancelQuestTimers("tproom3");
-			for (L2PcInstance partyMember :  player.getParty().getPartyMembers())
+			for (L2PcInstance partyMember :  player.getParty().getMembers())
 			{
 				exitInstance(partyMember,tele);
 			}

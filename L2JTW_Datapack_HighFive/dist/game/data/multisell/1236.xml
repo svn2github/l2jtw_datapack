@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list applyTaxes="true" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" ns0:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+<list applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
 <!-- Apella Upgrade -->
 <!-- Psychokiller1888 / L2jFree -->
 	<!-- Improved Apella Helm -->
@@ -7,7 +7,7 @@
 		<ingredient id="-200" count="350"/>
 		<ingredient id="9912" count="26"/>
 		<ingredient id="7860" count="1"/>
-		<ingredient id="57" count="702956" isTaxIngredient="true"/>
+		<ingredient id="57" count="702956"/>
 		<production id="9830" count="1"/>
 	</item>
 	<!-- Improved Apella Plate Armor -->
@@ -15,7 +15,7 @@
 		<ingredient id="-200" count="1824"/>
 		<ingredient id="9912" count="115"/>
 		<ingredient id="7861" count="1"/>
-		<ingredient id="57" count="3585565" isTaxIngredient="true"/>
+		<ingredient id="57" count="3585565"/>
 		<production id="9831" count="1"/>
 	</item>
 	<!-- Improved Apella Gauntlet - Heavy Armor -->
@@ -23,7 +23,7 @@
 		<ingredient id="-200" count="233"/>
 		<ingredient id="9912" count="18"/>
 		<ingredient id="7862" count="1"/>
-		<ingredient id="57" count="468618" isTaxIngredient="true"/>
+		<ingredient id="57" count="468618"/>
 		<production id="9832" count="1"/>
 	</item>
 	<!-- Improved Apella Solleret - Heavy Armor -->
@@ -31,7 +31,7 @@
 		<ingredient id="-200" count="233"/>
 		<ingredient id="9912" count="18"/>
 		<ingredient id="7863" count="1"/>
-		<ingredient id="57" count="468618" isTaxIngredient="true"/>
+		<ingredient id="57" count="468618"/>
 		<production id="9833" count="1"/>
 	</item>
 	<!-- Improved Apella Brigandine -->
@@ -39,7 +39,7 @@
 		<ingredient id="-200" count="1367"/>
 		<ingredient id="9912" count="86"/>
 		<ingredient id="7864" count="1"/>
-		<ingredient id="57" count="2687913" isTaxIngredient="true"/>
+		<ingredient id="57" count="2687913"/>
 		<production id="9834" count="1"/>
 	</item>
 	<!-- Improved Apella Leather Gloves - Light Armor -->
@@ -47,7 +47,7 @@
 		<ingredient id="-200" count="233"/>
 		<ingredient id="9912" count="18"/>
 		<ingredient id="7865" count="1"/>
-		<ingredient id="57" count="468618" isTaxIngredient="true"/>
+		<ingredient id="57" count="468618"/>
 		<production id="9835" count="1"/>
 	</item>
 	<!-- Improved Apella Boots - Light Armor -->
@@ -55,7 +55,7 @@
 		<ingredient id="-200" count="233"/>
 		<ingredient id="9912" count="18"/>
 		<ingredient id="7866" count="1"/>
-		<ingredient id="57" count="468618" isTaxIngredient="true"/>
+		<ingredient id="57" count="468618"/>
 		<production id="9836" count="1"/>
 	</item>
 	<!-- Improved Apella Doublet -->
@@ -63,7 +63,7 @@
 		<ingredient id="-200" count="1367"/>
 		<ingredient id="9912" count="86"/>
 		<ingredient id="7867" count="1"/>
-		<ingredient id="57" count="2687913" isTaxIngredient="true"/>
+		<ingredient id="57" count="2687913"/>
 		<production id="9837" count="1"/>
 	</item>
 	<!-- Improved Apella Silk Gloves - Robe -->
@@ -71,7 +71,7 @@
 		<ingredient id="-200" count="233"/>
 		<ingredient id="9912" count="18"/>
 		<ingredient id="7868" count="1"/>
-		<ingredient id="57" count="2687913" isTaxIngredient="true"/>
+		<ingredient id="57" count="2687913"/>
 		<production id="9838" count="1"/>
 	</item>
 	<!-- Improved Apella Sandals - Robe -->
@@ -79,7 +79,7 @@
 		<ingredient id="-200" count="233"/>
 		<ingredient id="9912" count="18"/>
 		<ingredient id="7869" count="1"/>
-		<ingredient id="57" count="2687913" isTaxIngredient="true"/>
+		<ingredient id="57" count="2687913"/>
 		<production id="9839" count="1"/>
 	</item>
 </list>

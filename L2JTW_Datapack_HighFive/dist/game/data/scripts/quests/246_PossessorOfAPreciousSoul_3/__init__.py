@@ -165,7 +165,7 @@ class Quest (JQuest) :
      #note: the killer WILL participate in the loop as a party member (no need to handle separately)
      party = player.getParty()
      if party :
-        for partyMember in party.getPartyMembers().toArray() :
+        for partyMember in party.getMembers().toArray() :
             pst = partyMember.getQuestState(qn)
             if pst :
                 if pst.getInt("cond") == 4 and pst.getQuestItemsCount(RAIN_SONG) < 1 :
@@ -188,6 +188,7 @@ class Quest (JQuest) :
                 st.giveItems(FRAGMENTS,1)
                 if st.getQuestItemsCount(FRAGMENTS) >= 100:
                     st.set("cond","5")
+                
    return 
 
 QUEST       = Quest(246,qn,"擁有高貴靈魂之人，貴族  第三部")

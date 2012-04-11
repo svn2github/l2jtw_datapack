@@ -275,7 +275,7 @@ public class Zaken extends L2AttackableAIScript
 		if (party.isInCommandChannel())
 			members = party.getCommandChannel().getMembers();
 		else
-			members = party.getPartyMembers();
+			members = party.getMembers();
 		
 		if (choice.equalsIgnoreCase("daytime"))
 			minLevel = 55;
@@ -295,9 +295,9 @@ public class Zaken extends L2AttackableAIScript
 				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT);
 				sm.addPcName(member);
 				if (party.isInCommandChannel())
-					party.getCommandChannel().broadcastToChannelMembers(sm);
+					party.getCommandChannel().broadcastPacket(sm);
 				else
-					party.broadcastToPartyMembers(sm);
+					party.broadcastPacket(sm);
 				return false;
 			}
 			
@@ -306,9 +306,9 @@ public class Zaken extends L2AttackableAIScript
 				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_MUST_HAVE_MINIMUM_OF_S1_PEOPLE_TO_ENTER);
 				sm.addNumber(minMembers);
 				if (party.isInCommandChannel())
-					party.getCommandChannel().broadcastToChannelMembers(sm);
+					party.getCommandChannel().broadcastPacket(sm);
 				else
-					party.broadcastToPartyMembers(sm);
+					party.broadcastPacket(sm);
 				return false;
 			}
 			else if (members.size() > maxMembers)
@@ -316,9 +316,9 @@ public class Zaken extends L2AttackableAIScript
 				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_CANNOT_ENTER_BECAUSE_MAXIMUM_ENTRANTS); // FIXME: Need correct msg
 				sm.addNumber(maxMembers);
 				if (party.isInCommandChannel())
-					party.getCommandChannel().broadcastToChannelMembers(sm);
+					party.getCommandChannel().broadcastPacket(sm);
 				else
-					party.broadcastToPartyMembers(sm);
+					party.broadcastPacket(sm);
 				return false;
 			}
 			
@@ -327,9 +327,9 @@ public class Zaken extends L2AttackableAIScript
 				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED);
 				sm.addPcName(member);
 				if (party.isInCommandChannel())
-					party.getCommandChannel().broadcastToChannelMembers(sm);
+					party.getCommandChannel().broadcastPacket(sm);
 				else
-					party.broadcastToPartyMembers(sm);
+					party.broadcastPacket(sm);
 				return false;
 			}
 			
@@ -346,9 +346,9 @@ public class Zaken extends L2AttackableAIScript
 				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET);
 				sm.addPcName(member);
 				if (party.isInCommandChannel())
-					party.getCommandChannel().broadcastToChannelMembers(sm);
+					party.getCommandChannel().broadcastPacket(sm);
 				else
-					party.broadcastToPartyMembers(sm);
+					party.broadcastPacket(sm);
 				return false;
 			}
 			_playersInside.add(member);
@@ -436,7 +436,7 @@ public class Zaken extends L2AttackableAIScript
 		else if (party.isInCommandChannel())
 			players = party.getCommandChannel().getMembers();
 		else
-			players = party.getPartyMembers();
+			players = party.getMembers();
 		
 		for (L2PcInstance member : players)
 		{
@@ -686,9 +686,9 @@ public class Zaken extends L2AttackableAIScript
 			{
 				if (party == null)
 					return "alone.htm";
-				else if (!party.isInCommandChannel() && party.getPartyLeaderOID() != player.getObjectId())
+				else if (!party.isInCommandChannel() && party.getLeaderObjectId() != player.getObjectId())
 					return "no-party-leader.htm";
-				else if (party.isInCommandChannel() && party.getCommandChannel().getChannelLeader().getObjectId() != player.getObjectId())
+				else if (party.isInCommandChannel() && party.getCommandChannel().getLeader().getObjectId() != player.getObjectId())
 					return "no-command-leader.htm";
 				else if (event.equalsIgnoreCase("nighttime") && party.isInCommandChannel() && party.getCommandChannel().getPartys().size() < 7)
 					return "no-minimum-party.htm";
@@ -792,7 +792,7 @@ public class Zaken extends L2AttackableAIScript
 				else if (party.isInCommandChannel())
 					players = party.getCommandChannel().getMembers();
 				else
-					players = party.getPartyMembers();
+					players = party.getMembers();
 				
 				for (L2PcInstance member : players)
 				{

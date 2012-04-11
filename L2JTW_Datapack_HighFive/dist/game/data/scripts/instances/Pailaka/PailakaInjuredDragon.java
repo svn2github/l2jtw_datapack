@@ -58,7 +58,7 @@ public class PailakaInjuredDragon extends Quest
 		NOEXIT_ZONES.put(200006, new int[]{110326, -45016, -2444});
 		NOEXIT_ZONES.put(200007, new int[]{118341, -55951, -2280});
 		NOEXIT_ZONES.put(200008, new int[]{110127, -41562, -2332});
-	};
+	}
 	
 	// NPCS
 	private static final int KETRA_ORC_SHAMAN              = 32499;  // 肯特拉獸人 咒術士
@@ -166,7 +166,7 @@ public class PailakaInjuredDragon extends Quest
 	{
 		DROPLIST.add(new PailakaDrop(HEAL_POTION, 80));
 		DROPLIST.add(new PailakaDrop(SHIELD_POTION, 30));
-	};
+	}
 	
 	private static final int[][] HP_HERBS_DROPLIST =
 	{

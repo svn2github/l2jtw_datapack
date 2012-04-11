@@ -21,6 +21,7 @@ import java.util.logging.Logger;
 import javolution.util.FastList;
 
 import com.l2jserver.Config;
+import com.l2jserver.gameserver.datatables.ClassListData;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.datatables.SkillTreesData;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
@@ -312,7 +313,7 @@ public class AdminSkill implements IAdminCommandHandler
 				"<br><table width=270><tr><td>"+MessageTable.Messages[1835].getMessage(),
 				String.valueOf(player.getLevel()),
 				" ",
-				player.getTemplate().className,
+				ClassListData.getInstance().getClass(player.getClassId()).getClientCode(),
 				"</td></tr></table>" +
 				"<br><table width=270><tr><td>"+MessageTable.Messages[1836].getMessage()+"</td></tr>" +
 				"<tr><td>"+MessageTable.Messages[1837].getMessage()+"</td></tr></table>" +
@@ -383,7 +384,7 @@ public class AdminSkill implements IAdminCommandHandler
 		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/charskills.htm");
 		adminReply.replace("%name%", player.getName());
 		adminReply.replace("%level%", String.valueOf(player.getLevel()));
-		adminReply.replace("%class%", player.getTemplate().className);
+		adminReply.replace("%class%", ClassListData.getInstance().getClass(player.getClassId()).getClientCode());
 		activeChar.sendPacket(adminReply);
 	}
 	

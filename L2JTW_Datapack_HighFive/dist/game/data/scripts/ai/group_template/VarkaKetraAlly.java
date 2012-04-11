@@ -72,7 +72,7 @@ public class VarkaKetraAlly extends L2AttackableAIScript
 	{
 		if (killer.getParty() != null)
 		{
-			for (L2PcInstance member : killer.getParty().getPartyMembers())
+			for (L2PcInstance member : killer.getParty().getMembers())
 			{
 				if (member.isInsideRadius(killer, 6000, true, false))
 					decreaseAlly(npc, member);
