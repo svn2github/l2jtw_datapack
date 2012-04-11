@@ -2207,4 +2207,13 @@
 		<node X="25804" Y="-15088" />
 		<node X="26324" Y="-15704" />
 	</zone>
+	<!-- Update by pmq -->
+	<!-- Fantasy Isle Magic -->
+	<zone name="fantasy_isle_magic" type="EffectZone" shape="Cuboid" minZ="-4324" maxZ="3097">
+		<stat name="skillIdLvl" val="22300-1;" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="reuse" val="60000" />
+		<node X="-88871" Y="-77664" />
+		<node X="-43060" Y="-43491" />
+	</zone>
 </list>
