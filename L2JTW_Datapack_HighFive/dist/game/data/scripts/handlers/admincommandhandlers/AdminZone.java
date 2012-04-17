@@ -28,7 +28,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.zone.L2ZoneType;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
-//import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * Small typo fix by Zoey76 24/02/2011
@@ -58,9 +57,9 @@ public class AdminZone implements IAdminCommandHandler
 		if (actualCommand.equalsIgnoreCase("admin_zone_check"))
 		{
 			showHtml(activeChar);
-			activeChar.sendMessage("MapRegion: x:" + MapRegionManager.getInstance().getMapRegionX(activeChar.getX()) + " y:" + MapRegionManager.getInstance().getMapRegionY(activeChar.getY()) + " ("+MapRegionManager.getInstance().getMapRegion(activeChar).getLocId()+")"); //MessageTable.Messages[].getMessage())
+			activeChar.sendMessage("MapRegion: x:" + MapRegionManager.getInstance().getMapRegionX(activeChar.getX()) + " y:" + MapRegionManager.getInstance().getMapRegionY(activeChar.getY()) + " ("+MapRegionManager.getInstance().getMapRegionLocId(activeChar)+")");
 			getGeoRegionXY(activeChar);
-			activeChar.sendMessage("Closest Town: " + MapRegionManager.getInstance().getClosestTownName(activeChar)); //MessageTable.Messages[].getMessage())
+			activeChar.sendMessage("Closest Town: " + MapRegionManager.getInstance().getClosestTownName(activeChar));
 			
 			Location loc;
 			
@@ -79,7 +78,7 @@ public class AdminZone implements IAdminCommandHandler
 		else if (actualCommand.equalsIgnoreCase("admin_zone_reload"))
 		{
 			ZoneManager.getInstance().reload();
-			activeChar.sendMessage("All Zones have been reloaded"); //MessageTable.Messages[].getMessage())
+			activeChar.sendMessage("All Zones have been reloaded");
 		}
 		else if (actualCommand.equalsIgnoreCase("admin_zone_visual"))
 		{
@@ -154,7 +153,7 @@ public class AdminZone implements IAdminCommandHandler
 		int worldY = activeChar.getY();				
 		int geoX = ((((worldX - (-327680)) >> 4) >> 11)+10);
 		int geoY = ((((worldY - (-262144)) >> 4) >> 11)+10);
-		activeChar.sendMessage("GeoRegion: "+geoX+"_"+geoY+""); //MessageTable.Messages[].getMessage())
+		activeChar.sendMessage("GeoRegion: "+geoX+"_"+geoY+"");
 	}
 	
 	@Override
