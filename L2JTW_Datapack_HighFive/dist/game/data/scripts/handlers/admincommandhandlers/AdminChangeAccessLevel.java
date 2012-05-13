@@ -20,6 +20,7 @@ import java.sql.SQLException;
 
 import com.l2jserver.Config;
 import com.l2jserver.L2DatabaseFactory;
+import com.l2jserver.gameserver.datatables.AdminTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -100,8 +101,14 @@ public class AdminChangeAccessLevel implements IAdminCommandHandler
 					int count = statement.getUpdateCount();
 					statement.close();
 					if (count == 0)
+						/*
+						activeChar.sendMessage("Character not found or access level unaltered.");
+						*/
 						activeChar.sendMessage(1473);
 					else
+						/*
+						activeChar.sendMessage("Character's access level is now set to " + lvl);
+						*/
 						activeChar.sendMessage(MessageTable.Messages[1474].getMessage() + lvl);
 				}
 				catch (SQLException se)
@@ -125,14 +132,36 @@ public class AdminChangeAccessLevel implements IAdminCommandHandler
 	 */
 	private void onLineChange(L2PcInstance activeChar, L2PcInstance player, int lvl)
 	{
-		player.setAccessLevel(lvl);
 		if (lvl >= 0)
-			player.sendMessage(MessageTable.Messages[1475].getMessage() + lvl);
+		{
+			if (AdminTable.getInstance().hasAccessLevel(lvl))
+			{
+				player.setAccessLevel(lvl);
+				/*
+				player.sendMessage("Your access level has been changed to " + lvl);
+				*/
+				player.sendMessage(MessageTable.Messages[1475].getMessage() + lvl);
+				/*
+				activeChar.sendMessage("Character's access level is now set to " + lvl + ". Effects won't be noticeable until next session.");
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1477].getMessage() + lvl + MessageTable.Messages[1478].getMessage());
+			}
+			else
+			{
+				/*
+				activeChar.sendMessage("You are trying to set unexisting access level: " + lvl + " please try again with a valid one!");
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1477].getMessage() + lvl + MessageTable.Messages[1478].getMessage());
+			}
+		}
 		else
 		{
+			player.setAccessLevel(lvl);
+			/*
+			player.sendMessage("Your character has been banned. Bye.");
+			*/
 			player.sendMessage(1476);
 			player.logout();
 		}
-		activeChar.sendMessage(MessageTable.Messages[1477].getMessage() + lvl + MessageTable.Messages[1478].getMessage());
 	}
 }

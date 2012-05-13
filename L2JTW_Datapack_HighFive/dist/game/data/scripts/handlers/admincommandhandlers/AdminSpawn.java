@@ -22,8 +22,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import com.l2jserver.Config;
-import com.l2jserver.gameserver.GmListTable;
 import com.l2jserver.gameserver.SevenSigns;
+import com.l2jserver.gameserver.datatables.AdminTable;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.datatables.SpawnTable;
 import com.l2jserver.gameserver.datatables.TeleportLocationTable;
@@ -219,7 +219,7 @@ public class AdminSpawn implements IAdminCommandHandler
 			RaidBossSpawnManager.getInstance().cleanUp();
 			DayNightSpawnManager.getInstance().cleanUp();
 			L2World.getInstance().deleteVisibleNpcSpawns();
-			GmListTable.broadcastMessageToGMs(MessageTable.Messages[1860].getMessage());
+			AdminTable.getInstance().broadcastMessageToGMs(MessageTable.Messages[1860].getMessage());
 		}
 		else if (command.startsWith("admin_spawnday"))
 		{
@@ -243,12 +243,12 @@ public class AdminSpawn implements IAdminCommandHandler
 			AutoChatHandler.getInstance().reload();
 			SevenSigns.getInstance().spawnSevenSignsNPC();
 			QuestManager.getInstance().reloadAllQuests();
-			GmListTable.broadcastMessageToGMs(MessageTable.Messages[1861].getMessage());
+			AdminTable.getInstance().broadcastMessageToGMs(MessageTable.Messages[1861].getMessage());
 		}
 		else if (command.startsWith("admin_teleport_reload"))
 		{
 			TeleportLocationTable.getInstance().reloadAll();
-			GmListTable.broadcastMessageToGMs(MessageTable.Messages[1862].getMessage());
+			AdminTable.getInstance().broadcastMessageToGMs(MessageTable.Messages[1862].getMessage());
 		}
 		else if (command.startsWith("admin_spawn_monster") || command.startsWith("admin_spawn"))
 		{

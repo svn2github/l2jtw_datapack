@@ -16,7 +16,7 @@ package handlers.voicedcommandhandlers;
 
 import java.util.StringTokenizer;
 
-import com.l2jserver.gameserver.datatables.AdminCommandAccessRights;
+import com.l2jserver.gameserver.datatables.AdminTable;
 import com.l2jserver.gameserver.datatables.CharNameTable;
 import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
@@ -34,7 +34,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
-		if (!AdminCommandAccessRights.getInstance().hasAccess(command, activeChar.getAccessLevel()))
+		if (!AdminTable.getInstance().hasAccess(command, activeChar.getAccessLevel()))
 		{
 			return false;
 		}
@@ -92,7 +92,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 						activeChar.sendMessage(1192);
 						return false;
 					}
-					if (AdminCommandAccessRights.getInstance().hasAccess(command, player.getAccessLevel()))
+					if (AdminTable.getInstance().hasAccess(command, player.getAccessLevel()))
 					{
 						activeChar.sendMessage(1193);
 						return false;
@@ -100,7 +100,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					
 					player.setPunishLevel(L2PcInstance.PunishLevel.CHAT, length);
 					player.sendMessage(MessageTable.Messages[1194].getMessage() + activeChar.getName());
-
+					
 					if (length > 0)
 					{
 						activeChar.sendMessage(MessageTable.Messages[1195].getExtra(1) + player.getName() + MessageTable.Messages[1195].getExtra(2) + length + MessageTable.Messages[1195].getExtra(3));

@@ -292,9 +292,9 @@ import handlers.voicedcommandhandlers.ChatAdmin;
 import handlers.voicedcommandhandlers.Debug;
 import handlers.voicedcommandhandlers.Hellbound;
 import handlers.voicedcommandhandlers.Lang;
+import handlers.voicedcommandhandlers.StatsVCmd;
 import handlers.voicedcommandhandlers.TvTVoicedInfo;
 import handlers.voicedcommandhandlers.Wedding;
-import handlers.voicedcommandhandlers.stats;
 
 import java.lang.reflect.Method;
 import java.util.logging.Level;
@@ -318,7 +318,7 @@ import com.l2jserver.gameserver.handler.VoicedCommandHandler;
  */
 public class MasterHandler
 {
-	private static Logger _log = Logger.getLogger(MasterHandler.class.getName());
+	private static final Logger _log = Logger.getLogger(MasterHandler.class.getName());
 	
 	private static final Class<?>[] _loadInstances =
 	{
@@ -337,7 +337,8 @@ public class MasterHandler
 	
 	private static final Class<?>[][] _handlers = 
 	{
-		{ // Action Handlers
+		{
+			// Action Handlers
 			L2ArtefactInstanceAction.class,
 			L2DecoyAction.class,
 			L2DoorInstanceAction.class,
@@ -349,7 +350,8 @@ public class MasterHandler
 			L2SummonAction.class,
 			L2TrapAction.class,
 		},
-		{ // Action Shift Handlers
+		{
+			// Action Shift Handlers
 			L2DoorInstanceActionShift.class,
 			L2ItemInstanceActionShift.class,
 			L2NpcActionShift.class,
@@ -357,7 +359,8 @@ public class MasterHandler
 			L2StaticObjectInstanceActionShift.class,
 			L2SummonActionShift.class,
 		},
-		{ // Admin Command Handlers
+		{
+			// Admin Command Handlers
 			AdminAdmin.class,
 			AdminAnnouncements.class,
 			AdminBan.class,
@@ -432,7 +435,8 @@ public class MasterHandler
 			AdminVitaminItem.class, // Add PI by pmq
 			AdminZone.class,
 		},
-		{ // Bypass Handlers
+		{
+			// Bypass Handlers
 			Augment.class,
 			ArenaBuff.class,
 			BloodAlliance.class,
@@ -471,7 +475,8 @@ public class MasterHandler
 			VoiceCommand.class,
 			Wear.class,
 		},
-		{ // Chat Handlers
+		{
+			// Chat Handlers
 			ChatAll.class,
 			ChatAlliance.class,
 			ChatBattlefield.class,
@@ -486,7 +491,8 @@ public class MasterHandler
 			ChatTell.class,
 			ChatTrade.class,
 		},
-		{ // Item Handlers
+		{
+			// Item Handlers
 			ScrollOfResurrection.class,
 			SoulShots.class,
 			SpiritShot.class,
@@ -521,7 +527,8 @@ public class MasterHandler
 			EnergyStarStone.class,
 			EventItem.class,
 		},
-		{ // Skill Handlers
+		{
+			// Skill Handlers
 			Blow.class,
 			Pdam.class,
 			Mdam.class,
@@ -569,7 +576,8 @@ public class MasterHandler
 			RefuelAirShip.class,
 			NornilsPower.class,
 		},
-		{ // User Command Handlers
+		{
+			// User Command Handlers
 			ClanPenalty.class,
 			ClanWarsList.class,
 			DisMount.class,
@@ -585,8 +593,12 @@ public class MasterHandler
 			ChannelListUpdate.class,
 			Birthday.class,
 		},
-		{ // Voiced Command Handlers
-			stats.class,
+		{
+			// Voiced Command Handlers
+			StatsVCmd.class,
+			// TODO: Add configuration options for this voiced commands:
+			// CastleVCmd.class,
+			// SetVCmd.class,
 			(Config.L2JMOD_ALLOW_WEDDING ? Wedding.class : null),
 			(Config.BANKING_SYSTEM_ENABLED ? Banking.class : null),
 			(Config.TVT_ALLOW_VOICED_COMMAND ? TvTVoicedInfo.class : null),
@@ -596,7 +608,8 @@ public class MasterHandler
 			(Config.L2JMOD_ALLOW_CHANGE_PASSWORD ? ChangePassword.class : null),
 			(Config.L2JMOD_HELLBOUND_STATUS ? Hellbound.class : null),
 		},
-		{ // Target Handlers
+		{
+			// Target Handlers
 			TargetAlly.class,
 			TargetArea.class,
 			TargetAreaCorpseMob.class,
@@ -630,7 +643,8 @@ public class MasterHandler
 			TargetSummon.class,
 			TargetUnlockable.class,
 		},
-		{ // Telnet Handlers
+		{
+			// Telnet Handlers
 			ChatsHandler.class,
 			DebugHandler.class,
 			HelpHandler.class,

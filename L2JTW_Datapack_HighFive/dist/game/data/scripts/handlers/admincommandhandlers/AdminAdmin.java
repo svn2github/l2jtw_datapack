@@ -20,10 +20,8 @@ import java.util.logging.Logger;
 import javolution.text.TextBuilder;
 
 import com.l2jserver.Config;
-import com.l2jserver.gameserver.GmListTable;
 import com.l2jserver.gameserver.cache.HtmCache;
-import com.l2jserver.gameserver.datatables.AccessLevels;
-import com.l2jserver.gameserver.datatables.AdminCommandAccessRights;
+import com.l2jserver.gameserver.datatables.AdminTable;
 import com.l2jserver.gameserver.datatables.DoorTable;
 import com.l2jserver.gameserver.datatables.ItemTable;
 import com.l2jserver.gameserver.datatables.MultiSell;
@@ -101,13 +99,13 @@ public class AdminAdmin implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_gmliston"))
 		{
-			GmListTable.getInstance().showGm(activeChar);
+			AdminTable.getInstance().showGm(activeChar);
 			activeChar.sendMessage(1370);
 			AdminHelpPage.showHelpPage(activeChar,"gm_menu.htm");
 		}
 		else if (command.startsWith("admin_gmlistoff"))
 		{
-			GmListTable.getInstance().hideGm(activeChar);
+			AdminTable.getInstance().hideGm(activeChar);
 			activeChar.sendMessage(1371);
 			AdminHelpPage.showHelpPage(activeChar,"gm_menu.htm");
 		}
@@ -294,8 +292,7 @@ public class AdminAdmin implements IAdminCommandHandler
 				}
 				else if (type.startsWith("access"))
 				{
-					AccessLevels.getInstance().reloadAccessLevels();
-					AdminCommandAccessRights.getInstance().reloadAdminCommandAccessRights();
+					AdminTable.getInstance().load();
 					activeChar.sendMessage(1387);
 				}
 				else if (type.startsWith("quests"))

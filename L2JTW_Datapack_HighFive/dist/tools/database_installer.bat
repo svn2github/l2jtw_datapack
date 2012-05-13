@@ -22,19 +22,19 @@ REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
 REM ## Interactive script setup -  (by TanelTM) ##
 REM ##############################################
-REM Copyright (C) 2010 L2J DataPack
-REM This program is free software; you can redistribute it and/or modify 
-REM it under the terms of the GNU General Public License as published by 
+REM Copyright (C) 2012 L2J DataPack
+REM This program is free software; you can redistribute it and/or modify
+REM it under the terms of the GNU General Public License as published by
 REM the Free Software Foundation; either version 3 of the License, or (at
 REM your option) any later version.
 REM
-REM This program is distributed in the hope that it will be useful, but 
+REM This program is distributed in the hope that it will be useful, but
 REM WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-REM or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+REM or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
 REM for more details.
 REM
-REM You should have received a copy of the GNU General Public License along 
-REM with this program; if not, write to the Free Software Foundation, Inc., 
+REM You should have received a copy of the GNU General Public License along
+REM with this program; if not, write to the Free Software Foundation, Inc.,
 REM 675 Mass Ave, Cambridge, MA 02139, USA. Or contact the Official L2J
 REM DataPack Project at http://www.l2jdp.com, http://www.l2jdp.com/forum or
 REM #l2j @ irc://irc.freenode.net
@@ -55,14 +55,14 @@ set cmode=c
 set fresh_setup=0
 
 :loadconfig
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
+title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 if not exist %config_file% goto configure
 ren %config_file% vars.bat
 call vars.bat
 ren vars.bat %config_file%
 call :colors 17
-if /i %config_version% == 2 goto ls_section
+if /i %config_version% == 2 goto ls_backup
 set upgrade_mode=2
 echo 您似乎是第一次使用這個版本的 database_installer
 echo 但是我發現安裝資料庫的設定檔已經存在
@@ -81,7 +81,7 @@ echo.
 echo (5) 退出
 echo.
 set /P upgrade_mode="輸入數字後，請按 Enter（預設值為「%upgrade_mode%」）: "
-if %upgrade_mode%==1 goto ls_section
+if %upgrade_mode%==1 goto ls_backup
 if %upgrade_mode%==2 goto configure
 if %upgrade_mode%==3 goto configure
 if %upgrade_mode%==4 (cls&type %config_file%&pause&goto loadconfig)
@@ -95,9 +95,9 @@ if not "%1"=="17" (	color F	) else ( color )
 goto :eof
 
 :configure
+cls
 call :colors 17
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
 set config_version=2
 if NOT %upgrade_mode% == 2 (
 set fresh_setup=1
@@ -215,7 +215,9 @@ set /P safemode="Debug 模式（y/n， 預設值「%safemode%」）: "
 if /i %safemode%==y (set safe_mode=1&goto safe2)
 if /i %safemode%==n (set safe_mode=0&goto safe2)
 goto safe1
+
 :safe2
+cls
 echo.
 if "%mysqlBinPath%" == "use path" (
 set mysqlBinPath=
@@ -253,7 +255,7 @@ echo.
 pause
 goto loadconfig
 
-:ls_section
+:ls_backup
 cls
 call :colors 17
 set cmdline=
@@ -264,17 +266,17 @@ echo 正在備份登入伺服器的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %lshost% -u %lsuser% --password=%lspass% %lsdb% ^> "%backup%\ls_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto ls_db_ok
+
 :ls_err1
+cls
+set lsdbprompt=y
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
 echo.
 echo 備份失敗！
 echo 原因是因為資料庫不存在
 echo 現在可以幫你建立 %lsdb%，或者繼續其它設定
 echo.
-:ls_ask1
-set lsdbprompt=y
 echo 建立登入伺服器的資料庫？
 echo.
 echo (y)確定
@@ -286,48 +288,13 @@ echo.
 echo (q)退出
 echo.
 set /p lsdbprompt=請選擇（預設值-確定）:
-if /i %lsdbprompt%==y goto lsdbcreate
-if /i %lsdbprompt%==n goto cb_backup
+if /i %lsdbprompt%==y goto ls_db_create
+if /i %lsdbprompt%==n goto cs_backup
 if /i %lsdbprompt%==r goto configure
 if /i %lsdbprompt%==q goto end
-goto ls_ask1
+goto ls_err1
 
-:omfg
-cls
-call :colors 57
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-echo.
-echo 執行時出現錯誤：
-echo.
-echo "%cmdline%"
-echo.
-echo 建議檢查一下設定的資料，以確保所有輸入的數值沒有錯誤！
-echo.
-if %stage% == 1 set label=ls_err1
-if %stage% == 2 set label=ls_err2
-if %stage% == 3 set label=cb_backup
-if %stage% == 4 set label=cb_err1
-if %stage% == 5 set label=cb_err2
-if %stage% == 6 set label=gs_backup
-if %stage% == 7 set label=gs_err1
-if %stage% == 8 set label=gs_err2
-if %stage% == 9 set label=horrible_end
-if %stage% == 10 set label=horrible_end
-:omfgask1
-set omfgprompt=q
-echo (c)繼續
-echo.
-echo (r)重新設定
-echo.
-echo (q)退出
-echo.
-set /p omfgprompt=請選擇（預設值-退出）:
-if  /i %omfgprompt%==c goto %label%
-if  /i %omfgprompt%==r goto configure
-if  /i %omfgprompt%==q goto horrible_end
-goto omfgask1
-
-:lsdbcreate
+:ls_db_create
 cls
 call :colors 17
 set cmdline=
@@ -339,10 +306,13 @@ set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -e "CREATE
 %cmdline%
 if %ERRORLEVEL% == 0 goto ls_install
 if %safe_mode% == 1 goto omfg
+
 :ls_err2
+cls
+set omfgprompt=q
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
+echo.
 echo 登入伺服器的資料庫建立失敗！
 echo.
 echo 可能的原因：
@@ -352,8 +322,6 @@ echo 3.資料庫已存在
 echo.
 echo 請檢查設定並且修正，或者直接重新設定
 echo.
-:ls_ask2
-set omfgprompt=q
 echo (c)繼續
 echo.
 echo (r)重新設定
@@ -361,17 +329,16 @@ echo.
 echo (q)退出
 echo.
 set /p omfgprompt=請選擇（預設值-退出）:
-if /i %omfgprompt%==c goto cb_backup
-if /i %omfgprompt%==q goto horrible_end
+if /i %omfgprompt%==c goto cs_backup
 if /i %omfgprompt%==r goto configure
-goto ls_ask2
+if /i %omfgprompt%==q goto end
+goto ls_err2
 
 :ls_db_ok
-call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-:ls_ask
 cls
 set loginprompt=u
+call :colors 17
+title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo.
 echo 登入伺服器的資料庫安裝：
 echo.
@@ -388,13 +355,12 @@ echo.
 set /p loginprompt=請選擇（預設值-更新）:
 if /i %loginprompt%==f goto ls_cleanup
 if /i %loginprompt%==u goto ls_upgrade
-if /i %loginprompt%==s goto cb_backup
+if /i %loginprompt%==s goto cs_backup
 if /i %loginprompt%==r goto configure
 if /i %loginprompt%==q goto end
-goto ls_ask
+goto ls_db_ok
 
 :ls_cleanup
-set stage=3
 call :colors 17
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
@@ -413,15 +379,14 @@ echo.
 echo 更新登入伺服器資料庫結構
 echo.
 echo @echo off> temp.bat
-if exist ls_errors.txt del ls_errors.txt
-for %%i in (..\sql\login\updates\*.sql) do echo "%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% --force ^< %%i 2^>^> ls_errors.txt >> temp.bat
+if exist ls_errors.log del ls_errors.log
+for %%i in (..\sql\login\updates\*.sql) do echo "%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% --force ^< %%i 2^>^> ls_errors.log >> temp.bat
 call temp.bat> nul
 del temp.bat
-move ls_errors.txt %workdir%
+move ls_errors.log %workdir%
 goto ls_install
 
 :ls_install
-set stage=3
 set cmdline=
 if %full% == 1 (
 title L2JTW 正在安裝登入伺服器的資料庫...
@@ -440,30 +405,30 @@ for %%i in (..\sql\login\*.sql) do call :dump %%i
 
 echo 完成...
 echo.
-goto cb_backup
+goto cs_backup
 
-:cb_backup
+:cs_backup
 cls
 call :colors 17
 set cmdline=
-set stage=4
+set stage=3
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo.
 echo 正在備份「討論版專用」的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %cbhost% -u %cbuser% --password=%cbpass% %cbdb% ^> "%backup%\cs_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto cs_db_ok
-:cb_err1
+
+:cs_err1
+cls
+set cbdbprompt=y
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
 echo.
 echo 備份失敗！
 echo 原因是因為「討論版專用」的資料庫不存在
 echo 現在可以幫你建立 %cbdb%，或者繼續其它設定
 echo.
-:cb_ask1
-set cbdbprompt=y
 echo 建立「討論版專用」的資料庫？
 echo.
 echo (y)確定
@@ -475,16 +440,17 @@ echo.
 echo (q)退出
 echo.
 set /p cbdbprompt=請選擇（預設值-確定）:
-if /i %cbdbprompt%==y goto cbdbcreate
+if /i %cbdbprompt%==y goto cs_db_create
 if /i %cbdbprompt%==n goto gs_backup
 if /i %cbdbprompt%==r goto configure
 if /i %cbdbprompt%==q goto end
-goto cb_ask1
+goto cs_err1
 
-:cbdbcreate
+:cs_db_create
+cls
 call :colors 17
 set cmdline=
-set stage=5
+set stage=4
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo.
 echo 正在建立「討論版專用」的資料庫...
@@ -492,10 +458,13 @@ set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -e "CREATE
 %cmdline%
 if %ERRORLEVEL% == 0 goto cs_install
 if %safe_mode% == 1 goto omfg
-:cb_err2
+
+:cs_err2
+cls
+set omfgprompt=q
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
+echo.
 echo 「討論版專用」的資料庫建立失敗！
 echo.
 echo 可能的原因：
@@ -505,8 +474,6 @@ echo 3.資料庫已存在
 echo.
 echo 請檢查設定並且修正，或者直接重新設定
 echo.
-:cb_ask2
-set omfgprompt=q
 echo (c)繼續
 echo.
 echo (r)重新設定
@@ -515,16 +482,15 @@ echo (q)退出
 echo.
 set /p omfgprompt=請選擇（預設值-退出）:
 if /i %omfgprompt%==c goto gs_backup
-if /i %omfgprompt%==q goto horrible_end
 if /i %omfgprompt%==r goto configure
-goto cb_ask2
+if /i %omfgprompt%==q goto end
+goto cs_err2
 
 :cs_db_ok
-call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-:cs_ask
 cls
 set communityprompt=u
+call :colors 17
+title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo.
 echo 「討論版專用」的資料庫安裝：
 echo.
@@ -544,10 +510,9 @@ if /i %communityprompt%==u goto cs_upgrade
 if /i %communityprompt%==s goto gs_backup
 if /i %communityprompt%==r goto configure
 if /i %communityprompt%==q goto end
-goto cs_ask
+goto cs_db_ok
 
 :cs_cleanup
-set stage=6
 call :colors 17
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
@@ -566,15 +531,14 @@ echo.
 echo 更新「討論版專用」的資料庫結構
 echo.
 echo @echo off> temp.bat
-if exist cs_errors.txt del cs_errors.txt
-for %%i in (..\sql\community\updates\*.sql) do echo "%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% --force ^< %%i 2^>^> cs_errors.txt >> temp.bat
+if exist cs_errors.log del cs_errors.log
+for %%i in (..\sql\community\updates\*.sql) do echo "%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% --force ^< %%i 2^>^> cs_errors.log >> temp.bat
 call temp.bat> nul
 del temp.bat
-move cs_errors.txt %workdir%
+move cs_errors.log %workdir%
 goto cs_install
 
 :cs_install
-set stage=6
 set cmdline=
 if %full% == 1 (
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
@@ -599,25 +563,24 @@ goto gs_backup
 cls
 call :colors 17
 set cmdline=
-set stage=7
+set stage=5
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
 echo.
 echo 正在備份遊戲伺服器的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %gshost% -u %gsuser% --password=%gspass% %gsdb% ^> "%backup%\gs_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto gs_db_ok
+
 :gs_err1
+cls
+set gsdbprompt=y
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
 echo.
 echo 備份失敗！
 echo 原因是因為資料庫不存在
 echo 現在可以幫你建立 %gsdb%，或者繼續其它設定
 echo.
-:askgsdb
-set gsdbprompt=y
 echo 建立遊戲伺服器的資料庫？
 echo.
 echo (y)確定
@@ -629,27 +592,30 @@ echo.
 echo (q)退出
 echo.
 set /p gsdbprompt=請選擇（預設值-確定）:
-if /i %gsdbprompt%==y goto gsdbcreate
-if /i %gsdbprompt%==n goto horrible_end
+if /i %gsdbprompt%==y goto gs_db_create
+if /i %gsdbprompt%==n goto eof
 if /i %gsdbprompt%==r goto configure
 if /i %gsdbprompt%==q goto end
-goto askgsdb
+goto gs_err1
 
-:gsdbcreate
+:gs_db_create
+cls
 call :colors 17
-set stage=8
+set stage=6
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
+echo.
 echo 正在建立遊戲伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -e "CREATE DATABASE %gsdb%" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto gs_install
 if %safe_mode% == 1 goto omfg
+
 :gs_err2
+cls
+set omfgprompt=q
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
 echo.
 echo 遊戲伺服器的資料庫建立失敗！
 echo.
@@ -660,24 +626,20 @@ echo 3.資料庫已存在
 echo.
 echo 請檢查設定並且修正，或者直接重新設定
 echo.
-:askgsdbcreate
-set omfgprompt=q
 echo (r)重新執行並且進行設定
 echo.
 echo (q)退出
 echo.
 set /p omfgprompt=請選擇（預設值-退出）:
 if /i %omfgprompt%==r goto configure
-if /i %omfgprompt%==q goto horrible_end
-goto askgsdbcreate
+if /i %omfgprompt%==q goto end
+goto gs_err2
 
 :gs_db_ok
-call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
-:gs_ask
 cls
 set installtype=u
+call :colors 17
+title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo.
 echo 遊戲伺服器的資料庫安裝：
 echo.
@@ -694,11 +656,10 @@ if /i %installtype%==f goto gs_cleanup
 if /i %installtype%==u goto gs_upgrade
 if /i %installtype%==s goto custom_ask
 if /i %installtype%==q goto end
-goto gs_ask
+goto gs_db_ok
 
 :gs_cleanup
 call :colors 17
-set stage=9
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo.
@@ -716,15 +677,14 @@ echo.
 echo 更新遊戲資料庫結構
 echo.
 echo @echo off> temp.bat
-if exist gs_errors.txt del gs_errors.txt
-for %%i in (..\sql\game\updates\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% --force ^< %%i 2^>^> gs_errors.txt >> temp.bat
+if exist gs_errors.log del gs_errors.log
+for %%i in (..\sql\game\updates\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% --force ^< %%i 2^>^> gs_errors.log >> temp.bat
 call temp.bat> nul
 del temp.bat
-move gs_errors.txt %workdir%
+move gs_errors.log %workdir%
 goto gs_install
 
 :gs_install
-set stage=9
 set cmdline=
 if %full% == 1 (
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
@@ -771,6 +731,7 @@ goto :eof
 
 :omfg2
 cls
+set ntpebcak=c
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo.
@@ -781,8 +742,6 @@ echo 檔案 %~nx1
 echo.
 echo 處理方式？
 echo.
-:askomfg2
-set ntpebcak=c
 echo (l)建立訊息檔案方便查詢
 echo.
 echo (c)繼續
@@ -792,11 +751,11 @@ echo.
 echo (q)退出
 echo.
 set /p ntpebcak=請選擇（預設值-繼續）:
-if  /i %ntpebcak%==c (call :colors 17 & goto :eof)
-if  /i %ntpebcak%==l (call :logginon %1 & goto :eof)
-if  /i %ntpebcak%==r (call :configure & exit)
-if  /i %ntpebcak%==q (call :horrible_end & exit)
-goto askomfg2
+if /i %ntpebcak%==c (call :colors 17 & goto :eof)
+if /i %ntpebcak%==l (call :logginon %1 & goto :eof)
+if /i %ntpebcak%==r (call :configure & exit)
+if /i %ntpebcak%==q (call :end)
+goto omfg2
 
 :logginon
 cls
@@ -831,6 +790,12 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
 set cstprompt=y
 echo.
+echo custom 自訂資料表加入資料庫完成
+echo 所有錯誤資訊將放入「custom_errors.log」
+echo.
+echo 請注意，如果要使這些自訂資料表能夠啟用
+echo 你必須修改 config 的檔案設定
+echo.
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消（預設值-確定）:
 if /i %cstprompt%==y goto custom_install
 if /i %cstprompt%==n goto mod_ask
@@ -840,26 +805,24 @@ cls
 echo.
 echo 安裝 custom 自訂內容
 echo @echo off> temp.bat
-if exist custom_errors.txt del custom_errors.txt
-for %%i in (..\sql\game\custom\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.txt >> temp.bat
+if exist custom_errors.log del custom_errors.log
+for %%i in (..\sql\game\custom\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.log >> temp.bat
 call temp.bat> nul
 del temp.bat
-move custom_errors.txt %workdir%
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
-echo custom 自訂資料表加入資料庫完成
-echo 所有錯誤資訊將放入「custom_errors.txt」
-echo.
-echo 請注意，如果要使這些自訂資料表能夠啟用
-echo 你必須修改 config 的檔案設定
-echo.
-pause
+move custom_errors.log %workdir%
 goto mod_ask
 
 :mod_ask
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
 set cstprompt=y
+echo.
+echo Mod 自訂資料表加入資料庫完成
+echo 所有錯誤資訊將放入「mod_errors.log」
+echo.
+echo 請注意，如果要使這些自訂資料表能夠啟用
+echo 你必須修改 config 的檔案設定
+echo.
 echo.
 set /p cstprompt=安裝 Mods 自訂資料表: (y) 確定 或 (N) 取消（預設值-確定）:
 if /i %cstprompt%==y goto mod_install
@@ -870,27 +833,49 @@ cls
 echo.
 echo 安裝 Mods 自訂內容
 echo @echo off> temp.bat
-if exist mods_errors.txt del mods_errors.txt
-for %%i in (..\sql\game\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.txt >> temp.bat
+if exist mods_errors.log del mods_errors.log
+for %%i in (..\sql\game\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.log >> temp.bat
 call temp.bat> nul
 del temp.bat
-move mods_errors.txt %workdir%
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
-cls
-echo Mods 自訂資料表加入資料庫完成
-echo 所有錯誤資訊將放入「mods_errors.txt」
-echo.
-echo 請注意，如果要使這些自訂資料表能夠啟用
-echo 你必須修改 config 的檔案設定 
-echo.
-pause
+move mods_errors.log %workdir%
 goto end
+
+:omfg
+set omfgprompt=q
+call :colors 57
+cls
+title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+echo.
+echo 執行時出現錯誤：
+echo.
+echo "%cmdline%"
+echo.
+echo 建議檢查一下設定的資料，以確保所有輸入的數值沒有錯誤！
+echo.
+if %stage% == 1 set label=ls_err1
+if %stage% == 2 set label=ls_err2
+if %stage% == 3 set label=cs_err1
+if %stage% == 4 set label=cs_err2
+if %stage% == 5 set label=gs_err1
+if %stage% == 6 set label=gs_err2
+echo.
+echo (c)繼續
+echo.
+echo (r)重新設定
+echo.
+echo (q)退出
+echo.
+set /p omfgprompt=請選擇（預設值-退出）:
+if /i %omfgprompt%==c goto %label%
+if /i %omfgprompt%==r goto configure
+if /i %omfgprompt%==q goto end
+goto omfg
 
 :binaryfind
 if EXIST "%mysqlBinPath%" (echo 找到的 MySQL) else (echo 沒有找到 MySQL，請在下面輸入正確的位置...)
 goto :eof
 
-:horrible_end
+:end
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
@@ -937,7 +922,7 @@ title L2JTW DataPack 安裝 - For：L2JTW GameServer HighFive Alpha
 cls
 echo.
 echo L2JTW DataPack 安裝程序 - For：L2JTW GameServer HighFive Alpha
-echo (C) 2007-2011 L2JTW DataPack 開發團隊
+echo (C) 2007-2012 L2JTW DataPack 開發團隊
 echo.
 echo 感謝使用 L2JTW 伺服器
 echo 相關資訊可以在 http://www.l2jtw.com 查詢到

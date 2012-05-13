@@ -18,13 +18,11 @@ import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.util.Util;
-import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
- * Fixed by Zoey76.
+ * @author Zoey76
  */
-public class set implements IVoicedCommandHandler
+public class SetVCmd implements IVoicedCommandHandler
 {
 	private static final String[] VOICED_COMMANDS =
 	{
@@ -36,26 +34,41 @@ public class set implements IVoicedCommandHandler
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
-		if (command.startsWith("set privileges"))
+		if (command.equals("set"))
 		{
-			final String val = command.substring(15);
 			final L2Object target = activeChar.getTarget();
-			if (!Util.isDigit(val) || (target == null) || !target.isPlayer())
+			if ((target == null) || !target.isPlayer())
 			{
 				return false;
 			}
 			
-			final int n = Integer.parseInt(val);
-			final L2PcInstance player = target.getActingPlayer();
-			if ((activeChar.getClan() == null) || (player.getClan() == null) || (activeChar.getClan().getClanId() != player.getClan().getClanId()) || !((activeChar.getClanPrivileges() > n) || activeChar.isClanLeader()))
+			final L2PcInstance player = activeChar.getTarget().getActingPlayer();
+			if ((activeChar.getClan() == null) || (player.getClan() == null) || (activeChar.getClan().getClanId() != player.getClan().getClanId()))
 			{
 				return false;
 			}
 			
-			L2CoreMessage cm = new L2CoreMessage(MessageTable.Messages[1204]);
-			cm.addNumber(n);
-			cm.addString(activeChar.getName());
-			activeChar.sendMessage(cm.renderMsg());
+			if (params.startsWith("privileges"))
+			{
+				final String val = params.substring(11);
+				if (!Util.isDigit(val))
+				{
+					return false;
+				}
+				
+				final int n = Integer.parseInt(val);
+				if (!((activeChar.getClanPrivileges() > n) || activeChar.isClanLeader()))
+				{
+					return false;
+				}
+				
+				player.setClanPrivileges(n);
+				activeChar.sendMessage("Your clan privileges have been set to " + n + " by " + activeChar.getName() + ".");
+			}
+			else if (params.startsWith("title"))
+			{
+				
+			}
 		}
 		return true;
 	}

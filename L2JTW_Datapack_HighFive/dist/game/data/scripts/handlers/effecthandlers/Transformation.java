@@ -49,18 +49,42 @@ public class Transformation extends L2Effect
 	public boolean onStart()
 	{
 		if (!(getEffected() instanceof L2PcInstance))
+		{
 			return false;
+		}
 		
 		L2PcInstance trg = (L2PcInstance) getEffected();
 		if (trg == null)
+		{
 			return false;
+		}
 		
 		if (trg.isAlikeDead() || trg.isCursedWeaponEquipped())
+		{
 			return false;
+		}
 		
-		if (trg.getTransformation() != null)
+		if (trg.isSitting())
+		{
+			trg.sendPacket(SystemMessageId.CANNOT_TRANSFORM_WHILE_SITTING);
+			return false;
+		}
+		
+		if (trg.isTransformed() || trg.isInStance())
 		{
 			trg.sendPacket(SystemMessageId.YOU_ALREADY_POLYMORPHED_AND_CANNOT_POLYMORPH_AGAIN);
+			return false;
+		}
+		
+		if (trg.isInWater())
+		{
+			trg.sendPacket(SystemMessageId.YOU_CANNOT_POLYMORPH_INTO_THE_DESIRED_FORM_IN_WATER);
+			return false;
+		}
+		
+		if (trg.isFlyingMounted() || trg.isMounted() || trg.isRidingStrider())
+		{
+			trg.sendPacket(SystemMessageId.YOU_CANNOT_POLYMORPH_WHILE_RIDING_A_PET);
 			return false;
 		}
 		

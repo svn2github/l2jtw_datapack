@@ -14,11 +14,10 @@
  */
 package handlers.admincommandhandlers;
 
+import java.util.List;
 import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javolution.util.FastList;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.ClassListData;
@@ -249,7 +248,7 @@ public class AdminSkill implements IAdminCommandHandler
 			activeChar.sendPacket(sm);
 		}
 		
-		final FastList<L2SkillLearn> skills = SkillTreesData.getInstance().getAvailablePledgeSkills(clan);
+		final List<L2SkillLearn> skills = SkillTreesData.getInstance().getAvailablePledgeSkills(clan);
 		SkillTable st = SkillTable.getInstance();
 		for (L2SkillLearn s : skills)
 		{
@@ -282,7 +281,7 @@ public class AdminSkill implements IAdminCommandHandler
 		}
 		
 		final L2PcInstance player = target.getActingPlayer();
-		final L2Skill[] skills = player.getAllSkills();
+		final L2Skill[] skills = player.getAllSkills().toArray(new L2Skill[player.getAllSkills().size()]);
 		
 		int maxSkillsPerPage = 10;
 		int maxPages = skills.length / maxSkillsPerPage;
@@ -406,12 +405,16 @@ public class AdminSkill implements IAdminCommandHandler
 		}
 		else
 		{
-			L2Skill[] skills = player.getAllSkills();
-			adminSkills = activeChar.getAllSkills();
+			L2Skill[] skills = player.getAllSkills().toArray(new L2Skill[player.getAllSkills().size()]);
+			adminSkills = activeChar.getAllSkills().toArray(new L2Skill[activeChar.getAllSkills().size()]);
 			for (L2Skill skill: adminSkills)
+			{
 				activeChar.removeSkill(skill);
+			}
 			for (L2Skill skill: skills)
+			{
 				activeChar.addSkill(skill, true);
+			}
 			activeChar.sendMessage(MessageTable.Messages[1843].getExtra(1) + player.getName() + MessageTable.Messages[1843].getExtra(2));
 			activeChar.sendSkillList();
 		}
@@ -436,15 +439,23 @@ public class AdminSkill implements IAdminCommandHandler
 		}
 		else
 		{
-			L2Skill[] skills = player.getAllSkills();
+			L2Skill[] skills = player.getAllSkills().toArray(new L2Skill[player.getAllSkills().size()]);
 			for (L2Skill skill: skills)
+			{
 				player.removeSkill(skill);
+			}
 			for (L2Skill skill: activeChar.getAllSkills())
+			{
 				player.addSkill(skill, true);
+			}
 			for (L2Skill skill: skills)
+			{
 				activeChar.removeSkill(skill);
+			}
 			for (L2Skill skill: adminSkills)
+			{
 				activeChar.addSkill(skill, true);
+			}
 			player.sendMessage(MessageTable.Messages[1844].getExtra(1) + activeChar.getName() + MessageTable.Messages[1844].getExtra(2));
 			activeChar.sendMessage(1845);
 			adminSkills = null;
