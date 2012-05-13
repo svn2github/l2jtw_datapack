@@ -313,7 +313,6 @@ class Quest (JQuest) :
 			elif cond == 11 and st.getQuestItemsCount(SUCCUBUS_UNDIES) == 1 :
 				htmltext = "30316-05.htm"
 				st.takeItems(SUCCUBUS_UNDIES,1)
-				st.giveItems(RING_OF_RAVEN,1)
 				isFinished = st.getGlobalQuestVar("1ClassQuestFinished")
 				if isFinished == "" : 
 					if player.getLevel() >= 20 :
@@ -322,7 +321,8 @@ class Quest (JQuest) :
 						st.addExpAndSp(228064, 21055)
 					else:
 						st.addExpAndSp(295862, 24404)
-					st.giveItems(57, 81900)
+						st.giveItems(RING_OF_RAVEN,1)
+					st.giveItems(57, 163800)
 				st.set("cond","0")
 				st.exitQuest(False)
 				st.saveGlobalQuestVar("1ClassQuestFinished","1")
