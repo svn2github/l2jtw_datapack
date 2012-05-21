@@ -304,7 +304,7 @@ echo.
 echo 正在建立登入伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -e "CREATE DATABASE %lsdb%" 2^> NUL
 %cmdline%
-if %ERRORLEVEL% == 0 goto ls_install
+if %ERRORLEVEL% == 0 goto ls_db_ok
 if %safe_mode% == 1 goto omfg
 
 :ls_err2
@@ -375,6 +375,7 @@ echo 登入伺服器資料庫已被刪除
 goto ls_install
 
 :ls_upgrade
+cls
 echo.
 echo 更新登入伺服器資料庫結構
 echo.
@@ -456,7 +457,7 @@ echo.
 echo 正在建立「討論版專用」的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -e "CREATE DATABASE %cbdb%" 2^> NUL
 %cmdline%
-if %ERRORLEVEL% == 0 goto cs_install
+if %ERRORLEVEL% == 0 goto cs_db_ok
 if %safe_mode% == 1 goto omfg
 
 :cs_err2
@@ -527,6 +528,7 @@ echo 「討論版專用」的資料庫已被刪除
 goto cs_install
 
 :cs_upgrade
+cls
 echo.
 echo 更新「討論版專用」的資料庫結構
 echo.
@@ -608,7 +610,7 @@ echo.
 echo 正在建立遊戲伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -e "CREATE DATABASE %gsdb%" 2^> NUL
 %cmdline%
-if %ERRORLEVEL% == 0 goto gs_install
+if %ERRORLEVEL% == 0 goto gs_db_ok
 if %safe_mode% == 1 goto omfg
 
 :gs_err2
@@ -673,6 +675,7 @@ echo 遊戲資料庫移除完成
 goto gs_install
 
 :gs_upgrade
+cls
 echo.
 echo 更新遊戲資料庫結構
 echo.

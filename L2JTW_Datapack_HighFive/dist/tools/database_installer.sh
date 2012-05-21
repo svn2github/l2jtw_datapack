@@ -241,6 +241,7 @@ ls_install
 }
 
 ls_upgrade(){
+clear
 echo ""
 echo "Upgrading structure of Community Server tables."
 echo ""
@@ -326,6 +327,7 @@ cs_install
 }
 
 cs_upgrade(){
+clear
 echo ""
 echo "Upgrading structure of Game Server tables."
 echo ""
@@ -411,6 +413,7 @@ gs_install
 }
 
 gs_upgrade(){
+clear
 echo ""
 echo "Upgrading structure of Game Server tables (this could take awhile, be patient)"
 echo ""
@@ -431,10 +434,6 @@ echo "Upgrading Game Server content."
 echo ""
 fi
 for gs in $(ls ../sql/game/*.sql);do
-	echo "Installing GameServer table : $gs"
-	$MYG < $gs
-done
-for gs in $(ls ../sql/game/mods/*.sql);do
 	echo "Installing GameServer table : $gs"
 	$MYG < $gs
 done

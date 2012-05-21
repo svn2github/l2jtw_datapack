@@ -331,7 +331,7 @@
 	</skill>
 	<skill id="3429" levels="1" name="Red Talisman - Life Force">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="equipDelay" val="30000" />
@@ -992,7 +992,7 @@
 	<skill id="3496" levels="1" name="Red Talisman of Recovery">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HEAL" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
@@ -1030,7 +1030,10 @@
 		<set name="magicLvl" val="56" />
 		<set name="negateAbnormals" val="transform,9" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 </list>

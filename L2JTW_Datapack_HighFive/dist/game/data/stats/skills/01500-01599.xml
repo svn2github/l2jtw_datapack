@@ -113,7 +113,7 @@
 		<set name="removedOnAnyActionExceptMove" val="true" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="skillRadius" val="1000" />
-		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY_NOTME" />
 		<for>
 			<effect name="Invincible" abnormalTime="15" val="0" special="invincible" abnormalLvl="2" abnormalType="invincibility" />
@@ -1221,8 +1221,11 @@
 		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="reuseDelay" val="15000" />
 		<set name="skillRadius" val="1000" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="1551" levels="1" name="Mass Purify">
 		<!-- High Five Skill -->
@@ -1236,8 +1239,11 @@
 		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="reuseDelay" val="9000" />
 		<set name="skillRadius" val="1000" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="1552" levels="1" name="Mass Vitalize">
 		<!-- High Five Skill -->
@@ -1251,11 +1257,11 @@
 		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="reuseDelay" val="9000" />
 		<set name="skillRadius" val="1000" />
-		<set name="skillType" val="HEAL" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_PARTY" />
 		<for>
 			<effect name="Heal" noicon="1" val="796" />
-			<effect name="Negate" val="0" />
+			<effect name="Negate" noicon="1" val="0" />
 		</for>
 	</skill>
 	<skill id="1553" levels="1" name="Chain Heal">
@@ -1441,7 +1447,7 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="reuseDelay" val="150000" />
-		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="#stackOrder" abnormalType="max_hp_up">

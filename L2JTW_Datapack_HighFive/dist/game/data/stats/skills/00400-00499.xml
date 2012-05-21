@@ -805,7 +805,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="2000" />
-		<set name="skillType" val="MANAHEAL" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<for>
 			<effect name="ManaHeal" noicon="1" val="#amount" />
@@ -1407,7 +1407,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="150000" />
 		<set name="hitTime" val="1500" />
-		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<for>
 			<effect name="CpHeal" noicon="1" val="1000" />
@@ -1698,8 +1698,11 @@
 		<set name="negateAbnormals" val="root_physically,3" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="15000" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="454" levels="1" name="Symbol of Defense">
 		<set name="target" val="TARGET_SELF" />
@@ -1883,11 +1886,14 @@
 		<set name="numCharges" val="#numCharges" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="4000" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
 			<player Charges="#numCharges" /> <!-- Level 2 3 Focused Force charge required. -->
 		</cond>
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="462" levels="1" name="Guilted Body">
 		<!-- Confirmed CT2.5 -->
@@ -2657,12 +2663,12 @@
 			</and>
 		</cond>
 		<for>
-			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="70" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+			<effect name="EnemyCharge" noicon="1" val="0" />
 		</for>
 		<enchant2for>
-			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="#ench2Chance" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+			<effect name="EnemyCharge" noicon="1" val="0" />
 		</enchant2for>
 	</skill>
 	<skill id="495" levels="10" name="Blade Rush" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">

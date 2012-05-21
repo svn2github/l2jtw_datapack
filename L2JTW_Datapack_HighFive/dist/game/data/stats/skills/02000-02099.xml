@@ -3,7 +3,7 @@
 	<skill id="2001" levels="1" name="Red Potion">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HOT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<for>
@@ -13,7 +13,7 @@
 	<skill id="2002" levels="1" name="Healing Drug">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HOT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<for>
@@ -232,7 +232,7 @@
 	<skill id="2031" levels="1" name="Lesser Healing Potion">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HOT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<set name="reuseDelay" val="10000" />
@@ -245,7 +245,7 @@
 	<skill id="2032" levels="1" name="Healing potion">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HOT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<set name="reuseDelay" val="10000" />
@@ -294,7 +294,7 @@
 	<skill id="2037" levels="1" name="Greater Healing Potion">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HOT" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A2" />
 		<set name="isPotion" val="true" />
 		<set name="reuseDelay" val="10000" />
@@ -308,7 +308,7 @@
 		<set name="isStaticHeal" val="true" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="HEAL" />
+		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="isPotion" val="true" />
 		<for>
@@ -341,30 +341,42 @@
 	<skill id="2042" levels="1" name="Antidote">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="negateAbnormals" val="poison,3" />
 		<set name="operateType" val="A1" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="2043" levels="1" name="Greater Antidote">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="negateAbnormals" val="poison,7" />
 		<set name="operateType" val="A1" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="2044" levels="1" name="Bandage">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="negateAbnormals" val="bleeding,3" />
 		<set name="operateType" val="A1" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="2045" levels="1" name="Emergency Dressing">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="negateAbnormals" val="bleeding,7" />
 		<set name="operateType" val="A1" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="2046" levels="1" name="Wolf's Necklace">
 		<set name="target" val="TARGET_SELF" />
@@ -533,8 +545,11 @@
 		<set name="magicLvl" val="1" />
 		<set name="negateAbnormals" val="fatal_poison,1" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="NEGATE" />
+		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Negate" val="0" noicon="1" />
+		</for>
 	</skill>
 	<skill id="2061" levels="1" name="Blessed Spiritshot: No Grade">
 		<set name="target" val="TARGET_SELF" />
