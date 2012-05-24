@@ -423,7 +423,7 @@ public class Baium extends L2AttackableAIScript
 			}
 			// update a variable with the last action against baium
 			_LastAttackVsBaiumTime = System.currentTimeMillis();
-			callSkillAI(npc);
+			//callSkillAI(npc); //l2jtw
 		}
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
@@ -577,7 +577,7 @@ public class Baium extends L2AttackableAIScript
 			}
 			try
 			{
-				Thread.sleep(1000);
+				//Thread.sleep(1000); //l2jtw
 				npc.stopMove(null);
 				npc.doCast(skill);
 			}
