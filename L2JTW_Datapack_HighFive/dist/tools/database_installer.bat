@@ -879,47 +879,6 @@ if EXIST "%mysqlBinPath%" (echo §ä¨ìªº MySQL) else (echo ¨S¦³§ä¨ì MySQL¡A½Ð¦b¤U­
 goto :eof
 
 :end
-call :colors 47
-title L2JTW Datapack ¦w¸Ë - For¡GL2JTW GameServer HighFive Alpha
-cls
-echo µo¥Í¿ù»~¡A½Ð¬d¸ß¬ÛÃö°ÝÃD¡A´M§äÀ°§U
-echo.
-echo 1- §Q¥Î¬ÛÃöºô¯¸¬d¸ß
-echo	(http://l2jdp.com/trac/wiki)
-echo 2- L2JTW ©x¤èºô¯¸¬d¸ß
-echo	(http://www.l2jtw.com/)
-echo.
-echo.
-echo ¦³¥ô¦ó¿ù»~°T®§¥i¥H¦b°Q½×ªO¤Wµo¤å¡A½Ð¤Åª½±µ§ä¶}µo¤H­û¸ß°Ý
-echo.
-echo Datapack ª©¥»¡uSVN version¡v:
-svnversion -n 2>NUL
-echo.
-if %ERRORLEVEL% == 9009 (
-echo   SVN ¸ê®Æ¿ù»~
-echo   ½Ð¤U¸ü¨Ã¥B¦w¸Ë¦¹µ{¦¡¡G
-echo   http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91
-echo.
-)
-set dpvf="..\gameserver\config\l2jdp-version.properties"
-echo Datapack ª©¥»¡G
-if NOT EXIST %dpvf% (
-echo   %dpvf% ÀÉ®×µLªk§ä¨ì¡I
-echo   ½Ð§Q¥Î Eclipse ©ÎªÌ TortiseSVN ¤U¸ü Datapack¡A¨Ã¥B¶i¦æ§ó·s
-) else (
-type %dpvf% | find "version" 2> NUL
-if not %ERRORLEVEL% == 0 (
-echo   ¸ê°T¥X¿ù¡G
-echo   %dpvf% ÀÉ®×¦³»~¡I
-echo   ½Ð½T©wÀÉ®×«O¯d¡A¨Ã¥B®É±`¶i¦æ§ó·s
-echo %ERRORLEVEL%
-))
-echo.
-rem del %config_file%
-pause
-goto end
-
-:end
 call :colors 17
 title L2JTW DataPack ¦w¸Ë - For¡GL2JTW GameServer HighFive Alpha
 cls
