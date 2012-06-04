@@ -29,6 +29,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import javolution.util.FastList;
 import javolution.util.FastMap;
+import javolution.util.FastSet; //l2jtw
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
@@ -148,7 +149,7 @@ public class FinalEmperialTomb extends Quest
 	
 	private final TIntObjectHashMap<L2Territory> _spawnZoneList = new TIntObjectHashMap<L2Territory>();
 	private final TIntObjectHashMap<List<FETSpawn>> _spawnList = new TIntObjectHashMap<List<FETSpawn>>();
-	private final List<Integer> _mustKillMobsId = new FastList<Integer>();
+	private final FastSet<Integer> _mustKillMobsId = new FastSet<Integer>(); //l2jtw
 	
 	// Teleports
 	private static final int[] ENTER_TELEPORT = {-88015,-141153,-9168};
@@ -529,9 +530,15 @@ public class FinalEmperialTomb extends Quest
 	
 	protected synchronized boolean checkKillProgress(L2Npc mob, FETWorld world)
 	{
-		if (world.npcList.contains(mob))
-			world.npcList.remove(mob);
-		return world.npcList.size() == 0;
+		//l2jtw start
+		world.npcList.remove(mob);
+		for(L2Npc l2npc : world.npcList){
+			if (l2npc != mob && L2World.getInstance().findObject(l2npc.getObjectId()) != null){
+				return false;
+			}
+		}
+		return true;
+		//l2jtw end
 	}
 	
 	private void spawnFlaggedNPCs(FETWorld world, int flag)
