@@ -24,67 +24,56 @@
 	<skill id="4303" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4304" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4305" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4306" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4307" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4308" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4309" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4310" levels="1" name="Strong Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4311" levels="1" name="Feeble Type">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4312" levels="1" name="Heavy Armor">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4313" levels="1" name="Light Armor">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="4314" levels="12" name="BOSS Holy Light Burst">
@@ -139,7 +128,6 @@
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="DRAIN" />
 		<set name="operateType" val="A1" />
-		<set name="isMagic" val="true" />
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 		<set name="absorbPart" val="0.4" />
@@ -188,10 +176,9 @@
 		<set name="power" val="30" /> <!-- Freya retail 0, no level depend, possibly done differently -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="isDebuff" val="true" />
-		<set name="saveVs" val="NULL" />
 		<set name="skillType" val="PARALYZE" />
 		<set name="operateType" val="A2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="1500" />
 		<set name="effectRange" val="2000" />
 		<set name="trait" val="PARALYZE" />
@@ -207,9 +194,8 @@
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="saveVs" val="NULL" />
 		<set name="skillType" val="POISON" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="1500" />
@@ -225,9 +211,8 @@
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="saveVs" val="NULL" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
@@ -246,7 +231,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -262,7 +247,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -278,7 +263,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -293,7 +278,7 @@
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
@@ -310,7 +295,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -326,7 +311,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -342,7 +327,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -358,7 +343,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -374,7 +359,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -390,7 +375,7 @@
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -403,7 +388,6 @@
 	<skill id="4332" levels="1" name="Mental Aegis">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="rootVuln" val="100" />
@@ -415,7 +399,6 @@
 		<!-- Freya retail confirmed -->
 		<table name="#darkRes"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<add order="0x40" stat="darkRes" val="#darkRes" />
@@ -428,16 +411,14 @@
 		<set name="magicLvl" val="99" />
 		<set name="operateType" val="A1" />
 		<set name="skillRadius" val="2000" />
-		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_AREA" />
 		<for>
-			<effect name="CancelAll" val="0" noicon="1" effectType="CANCEL_ALL" />
+			<effect name="CancelAll" noicon="1" val="0" effectType="CANCEL_ALL" />
 		</for>
 	</skill>
 	<skill id="4335" levels="1" name="Sacred Attack">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<add order="0x40" stat="holyPower" val="20" />
@@ -447,7 +428,6 @@
 		<!-- Freya retail confirmed -->
 		<table name="#darkRes"> 11 25 43 67 100 </table>
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="darkRes" val="#darkRes" />
@@ -457,7 +437,6 @@
 		<!-- Freya retail confirmed -->
 		<table name="#darkRes"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<add order="0x40" stat="holyRes" val="#darkRes" />
@@ -468,7 +447,7 @@
 		<!-- Newbie Guide Buff -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="18" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="A1" />
@@ -487,7 +466,6 @@
 	<skill id="4339" levels="1" name="Mimir's Elixir">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="BUFF" /> <!-- Just Broadcast -->
 		<set name="operateType" val="A1" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -529,7 +507,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -549,13 +527,13 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="#abnormalLvl" abnormalType="decrease_weight_penalty">
-				<add order="0x40" stat="maxLoad" val="#Weight" />
+				<add order="0x40" stat="weightPenalty" val="#Weight" />
 			</effect>
 		</for>
 		<table name="#mpConsume"> 50 0 100 </table>
@@ -569,7 +547,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -589,7 +567,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -609,7 +587,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -631,7 +609,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -651,7 +629,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -671,7 +649,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -691,7 +669,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -711,7 +689,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -738,7 +716,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -765,7 +743,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -785,7 +763,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -805,7 +783,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -825,7 +803,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -845,7 +823,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -865,7 +843,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -885,7 +863,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -905,7 +883,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -924,9 +902,8 @@
 		<table name="#vuln"> 0 50 </table>
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="saveVs" val="NULL" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="isDebuff" val="true" />
 		<set name="castRange" val="600" />
@@ -948,10 +925,9 @@
 		<set name="power" val="100" />
 		<table name="#vuln"> 0 50 </table>
 		<set name="target" val="TARGET_ONE" />
-		<set name="saveVs" val="NULL" />
 		<set name="skillType" val="DEBUFF" />
 		<set name="isDebuff" val="true" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -969,9 +945,8 @@
 		<!-- Freya retail confirmed -->
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="saveVs" val="NULL" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="600" />
@@ -989,14 +964,14 @@
 		<table name="#additionalVulns"> 0 25 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="canBeDispeled" val="false" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="#abnormalLvl" abnormalType="ssq_town_blessing">
-				<mul order="0x30" stat="maxLoad" val="1.25" />
+				<mul order="0x30" stat="weightLimit" val="1.25" />
 				<sub order="0x40" stat="poisonVuln" val="25" />
 				<sub order="0x40" stat="bleedVuln" val="25" />
 				<sub order="0x40" stat="rootVuln" val="#additionalVulns" />
@@ -1012,7 +987,7 @@
 		<table name="#additionalVulns"> 0 25 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1031,14 +1006,14 @@
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="decrease_weight_penalty	">
-				<mul order="0x30" stat="maxLoad" val="1.25" />
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="decrease_weight_penalty">
+				<mul order="0x30" stat="weightLimit" val="1.25" />
 				<sub order="0x40" stat="poisonVuln" val="25" />
 				<sub order="0x40" stat="bleedVuln" val="25" />
 			</effect>
@@ -1047,8 +1022,8 @@
 	<skill id="4367" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="27.78" abnormalLvl="1" abnormalType="public_slot" />
@@ -1057,8 +1032,8 @@
 	<skill id="4368" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="55.56" abnormalLvl="1" abnormalType="public_slot">
@@ -1069,8 +1044,8 @@
 	<skill id="4369" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="83.34" abnormalLvl="1" abnormalType="public_slot">
@@ -1081,8 +1056,8 @@
 	<skill id="4370" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="183.33" abnormalLvl="1" abnormalType="public_slot">
@@ -1093,8 +1068,8 @@
 	<skill id="4371" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="350.1" abnormalLvl="1" abnormalType="public_slot">
@@ -1105,8 +1080,8 @@
 	<skill id="4372" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="600" abnormalLvl="1" abnormalType="public_slot">
@@ -1117,8 +1092,8 @@
 	<skill id="4373" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="616.8" abnormalLvl="1" abnormalType="public_slot">
@@ -1129,8 +1104,8 @@
 	<skill id="4374" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="866.7" abnormalLvl="1" abnormalType="public_slot">
@@ -1141,8 +1116,8 @@
 	<skill id="4375" levels="1" name="Clan Hall Manager Buff">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MPHOT" />
-		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<for>
 			<effect count="1200" name="ManaHealOverTime" abnormalTime="3" val="1116.6" abnormalLvl="1" abnormalType="public_slot">
@@ -1154,7 +1129,6 @@
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pDef" val="3" /> <!-- pDef +200% -->
@@ -1198,7 +1172,6 @@
 		<!-- Freya retail confirmed -->
 		<table name="#poleVuln"> 0.9 0.8 0.7 0.6 0.5 </table>
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<mul order="0x30" stat="poleWpnVuln" val="#poleVuln" />
@@ -1209,7 +1182,7 @@
 		<!-- Arena Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="skillType" val="COMBATPOINTHEAL" />
@@ -1221,8 +1194,7 @@
 	<skill id="4381" levels="1" name="Magic Skill Block">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
-		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" /> <!-- Just Boadcast -->
+		<set name="operateType" val="P" /> <!-- Just Boadcast -->
 		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="4382" levels="12" name="Curse of Lake Ghost">
@@ -1234,7 +1206,6 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="isDebuff" val="true" />
 		<set name="hitTime" val="1000" />
-		<set name="saveVs" val="NULL" />
 		<set name="coolTime" val="800" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="A2" />
@@ -1316,7 +1287,6 @@
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="paralyzeVuln" val="#power" />
@@ -1326,7 +1296,6 @@
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="derangementVuln" val="#power" />
@@ -1336,7 +1305,6 @@
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<!-- set order="0x08" stat="buffImmunity" val="1" / TODO: Needs Support -->
@@ -1350,7 +1318,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="100" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1367,7 +1335,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="100" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1385,7 +1353,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<for>
@@ -1400,7 +1368,7 @@
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1416,7 +1384,7 @@
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1432,7 +1400,7 @@
 		<table name="#mDef"> 1.23 1.3 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1456,7 +1424,7 @@
 		<table name="#abnormalLvl"> 2 3 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1479,7 +1447,7 @@
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -1496,7 +1464,7 @@
 		<table name="#abnormalLvl"> 2 3 4 5 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />

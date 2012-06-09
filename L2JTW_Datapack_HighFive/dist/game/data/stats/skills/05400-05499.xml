@@ -6,11 +6,10 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 		<set name="hitTime" val="5000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="30000" />
-		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="5401" levels="1" name="Stun">
@@ -34,7 +33,6 @@
 	<skill id="5402" levels="1" name="Presentation - Balor 2">
 		<!-- Balor - Magic Skill1 -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="magicLvl" val="85" />
 		<set name="hitTime" val="4000" />
@@ -44,7 +42,6 @@
 		<!-- Balor - Magic Skill2 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="85" />
 		<set name="hitTime" val="4000" />
 		<set name="coolTime" val="500" />
@@ -53,7 +50,6 @@
 		<!-- Balor - Instant Cast Skill -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="85" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -64,7 +60,6 @@
 		<!-- Demonic - General Long Range Magic Skill -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="85" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -73,9 +68,8 @@
 	<skill id="5406" levels="1" name="Presentation - Demonic 2">
 		<set name="target" val="TARGET_ONE" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="85" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="3000" />
@@ -83,7 +77,6 @@
 	<skill id="5407" levels="1" name="Presentation - Crystalline Golem 1">
 		<!-- Crystaline-Instant Cast Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="magicLvl" val="85" />
 		<set name="hitTime" val="2000" />
@@ -91,10 +84,9 @@
 	<skill id="5408" levels="1" name="Presentation - Crystalline Golem 2">
 		<!-- Crystaline-General Long Range Magic Skill -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="magicLvl" val="85" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
@@ -102,10 +94,9 @@
 	<skill id="5409" levels="1" name="Presentation - Crystalline Golem 3">
 		<!-- Crystaline Golem -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="magicLvl" val="85" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
@@ -136,8 +127,8 @@
 	</skill>
 	<skill id="5413" levels="1" name="Performing Agathion - Beast Farm">
 		<!-- TODO: Needs to be verified -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<cond msgId="2292">
 			<player agathionId="16026" />
@@ -145,8 +136,8 @@
 	</skill>
 	<skill id="5414" levels="1" name="Performing Agathion - Rainbow Clan Hall">
 		<!-- TODO: Needs to be verified -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<cond msgId="2292">
 			<player agathionId="16027" />
@@ -154,8 +145,8 @@
 	</skill>
 	<skill id="5415" levels="1" name="Performing Agathion - Castle">
 		<!-- TODO: Needs to be verified -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<cond msgId="2292">
 			<player agathionId="16028" />
@@ -201,6 +192,7 @@
 	</skill>
 	<skill id="5419" levels="1" name="Invincible Blow">
 		<!-- Crystaline Golem -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
@@ -224,7 +216,7 @@
 		<table name="#mAtk"> 9.16 15.36 27.82 41.49 61.66 84.61 111.26 126.31 142.73 160.7 180.46 201.65 </table>
 		<table name="#dot"> 6.45 11.1 20.39 30.49 30.49 60.43 77 85.7 94.66 103.89 113.38 123.15 </table>
 		<set name="magicLvl" val="#magicLvl" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="lvlDepend" val="1" />
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="20" />
@@ -248,7 +240,7 @@
 		<table name="#dot"> 40 105 285 455 665 895 1115 1255 1445 1590 1620 1770 </table>
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="POISON" />
 		<set name="operateType" val="A2" />
@@ -268,7 +260,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#dot"> 75 105 215 275 445 515 700 840 870 1160 1325 1475 </table>
 		<set name="magicLvl" val="#magicLvl" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="skillRadius" val="300" />
 		<set name="lvlDepend" val="1" />
 		<set name="target" val="TARGET_AURA" />
@@ -350,7 +342,6 @@
 		<set name="magicLvl" val="79" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
-		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<effect name="ManaHealByLevel" noicon="1" val="49" />
@@ -359,7 +350,7 @@
 	<skill id="5430" levels="1" name="Spoil Bomb">
 		<!-- Confirmed CT2.5 -->
 		<!-- Spoil Bomb effect -->
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isSuicideAttack" val="true" />
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="79" />
@@ -416,7 +407,7 @@
 		<set name="trait" val="GUST" />
 		<for>
 			<effect name="Stun" val="0" effectPower="90" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
-			<effect name="ChanceSkillTrigger" noicon="1" val="0" triggeredId="5494" triggeredLevel="1" chanceType="ON_EXIT" />
+			<effect name="ChanceSkillTrigger" noicon="1" val="0" chanceType="ON_EXIT" triggeredId="5494" />
 		</for>
 	</skill>
 	<skill id="5435" levels="1" name="Gust">
@@ -435,7 +426,7 @@
 		<set name="trait" val="GUST" />
 		<for>
 			<effect name="Stun" val="0" effectPower="90" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
-			<effect name="ChanceSkillTrigger" noicon="1" val="0" triggeredId="5494" triggeredLevel="1" chanceType="ON_EXIT" />
+			<effect name="ChanceSkillTrigger" noicon="1" val="0" chanceType="ON_EXIT" triggeredId="5494" />
 		</for>
 	</skill>
 	<skill id="5436" levels="1" name="Increase Recovery Rate">
@@ -449,7 +440,6 @@
 		<table name="#def"> 0.6 1 </table>
 		<table name="#avoid"> 50 0 </table>
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtk" val="0.95" />
@@ -466,13 +456,13 @@
 		<table name="#amount"> 1419 1458 1503 1548 1584 1611 1630 1651 1678 </table>
 		<table name="#mpInitialConsume"> 5 9 14 19 24 39 34 37 38 </table>
 		<table name="#mpConsume"> 20 35 53 73 96 117 136 145 151 </table>
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="aggroPoints" val="100" />
 		<set name="skillRadius" val="900" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_CLAN" />
-		<set name="skillType" val="DUMMY" />
 		<set name="reuseDelay" val="8000" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
@@ -485,13 +475,13 @@
 		<table name="#amount"> 1971 2025 2088 2150 2200 2237 2263 2294 2331 </table>
 		<table name="#mpInitialConsume"> 5 9 14 19 24 39 34 37 38 </table>
 		<table name="#mpConsume"> 20 35 53 73 96 117 136 145 151 </table>
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="aggroPoints" val="100" />
 		<set name="skillRadius" val="900" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_CLAN" />
-		<set name="skillType" val="DUMMY" />
 		<set name="reuseDelay" val="8000" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
@@ -502,14 +492,12 @@
 	<skill id="5440" levels="1" name="Presentation - Trap Activate">
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="1" />
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="5441" levels="1" name="Presentation - Tears Mirror Image">
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="1" />
 		<set name="hitTime" val="3000" />
 	</skill>
@@ -608,6 +596,7 @@
 	</skill>
 	<skill id="5447" levels="7" name="Paralysis">
 		<!-- Imbue Dark Seed effect -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="A2" />
@@ -730,14 +719,15 @@
 		</for>
 	</skill>
 	<skill id="5457" levels="1" name="NPC Full Recover">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="5458" levels="1" name="Performing Agathion - Fortress">
 		<!-- TODO: Needs to be verified -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<cond msgId="2292">
 			<player agathionId="16029" />
@@ -852,61 +842,51 @@
 	<skill id="5469" levels="1" name="Raid Boss - Level 22">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5470" levels="1" name="Raid Boss - Level 81">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5471" levels="1" name="Raid Boss - Level 82">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5472" levels="1" name="Raid Boss - Level 83">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5473" levels="1" name="Raid Boss - Level 81">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5474" levels="1" name="Raid Boss - Level 81">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5475" levels="1" name="Raid Boss - Level 83">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5476" levels="1" name="Raid Boss - Level 83">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5477" levels="1" name="Raid Boss - Level 86">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5478" levels="1" name="Raid Boss - Level 83">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 	</skill>
 	<skill id="5479" levels="1" name="Boss Petrification Resistance">
@@ -925,7 +905,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="85" />
 		<set name="negateAbnormals" val="invincibility,9" />
 		<set name="operateType" val="A1" />
@@ -986,13 +966,13 @@
 	</skill>
 	<skill id="5490" levels="1" name="Weakened Life">
 		<!-- You have been infected by a fatal poison. -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="5491" levels="1" name="Decrease Bow/Crossbow Atk. Spd.">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="0.5">
@@ -1017,6 +997,7 @@
 		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="5493" levels="1" name="Naia Production">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="1000" />
@@ -1031,7 +1012,6 @@
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="86" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<effect name="ThrowUp" noicon="1" val="0" />
@@ -1064,7 +1044,7 @@
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="180" />
 		<set name="hitTime" val="2000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="607" />
@@ -1099,7 +1079,7 @@
 		<!-- Beleth Skills -->
 		<set name="aggroPoints" val="1" />
 		<set name="hitTime" val="3000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="80" /> <!-- Base Land Rate -->
@@ -1118,7 +1098,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="180" />
 		<set name="hitTime" val="4000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="A1" />
 		<set name="power" val="200" />

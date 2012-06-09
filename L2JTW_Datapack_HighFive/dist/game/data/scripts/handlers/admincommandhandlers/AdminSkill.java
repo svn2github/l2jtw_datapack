@@ -582,6 +582,7 @@ public class AdminSkill implements IAdminCommandHandler
 		if (skill == null)
 		{
 			activeChar.sendMessage(1848);
+			return;
 		}
 		
 		String skillname = skill.getName();

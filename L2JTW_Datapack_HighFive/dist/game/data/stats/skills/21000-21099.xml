@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="21000" levels="1" name="Release Seal on Agathion - Majo">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1501" />
 	</skill>
 	<skill id="21001" levels="1" name="Release Seal on Agathion - Gold Majo">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1502" />
 	</skill>
 	<skill id="21002" levels="1" name="Release Seal on Agathion - Black Majo">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1503" />
 	</skill>
 	<skill id="21003" levels="1" name="Release Seal on Agathion - Plaipitak">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1504" />
 	</skill>
 	<skill id="21004" levels="1" name="Wind Walk">
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="4000" />
-		<set name="staticHitTime" val="true" />
 		<set name="reuseDelay" val="1080000" />
 		<for>
 			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="26" abnormalType="speed_up">
@@ -50,9 +49,8 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="4000" />
-		<set name="staticHitTime" val="true" />
 		<set name="reuseDelay" val="86400000" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="avoid_up">
@@ -81,37 +79,37 @@
 		</for>
 	</skill>
 	<skill id="21008" levels="1" name="Release Seal on Agathion - Baby Panda">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1505" />
 	</skill>
 	<skill id="21009" levels="1" name="Release Seal on Agathion - Bamboo Panda">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1506" />
 	</skill>
 	<skill id="21010" levels="1" name="Release Seal on Agathion - Sexy Panda">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1507" />
 	</skill>
 	<skill id="21011" levels="1" name="Energy Recovery">
 		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="4000" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="43200000" />
-		<set name="staticReuse" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
@@ -120,12 +118,12 @@
 	</skill>
 	<skill id="21012" levels="1" name="Energy Recovery">
 		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="4000" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="43200000" />
-		<set name="staticReuse" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
@@ -134,12 +132,12 @@
 	</skill>
 	<skill id="21013" levels="1" name="Energy Recovery">
 		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="4000" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="43200000" />
-		<set name="staticReuse" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="26" abnormalType="vp_up" abnormalVisualEffect="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
@@ -147,14 +145,12 @@
 		</for>
 	</skill>
 	<skill id="21014" levels="1" name="Scissors">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
 		<set name="coolTime" val="500" />
 		<set name="equipDelay" val="30000" />
-		<set name="staticReuse" val="true" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="500" />
 		<cond msgId="109">
@@ -162,28 +158,24 @@
 		</cond>
 	</skill>
 	<skill id="21015" levels="1" name="Rock">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
 		<set name="coolTime" val="500" />
 		<set name="equipDelay" val="30000" />
-		<set name="staticReuse" val="true" />
 		<set name="castRange" val="400" />
 		<cond msgId="109">
 			<target npcId="13183" />
 		</cond>
 	</skill>
 	<skill id="21016" levels="1" name="Paper">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="2000" />
 		<set name="coolTime" val="500" />
 		<set name="equipDelay" val="30000" />
-		<set name="staticReuse" val="true" />
 		<set name="castRange" val="400" />
 		<cond msgId="109">
 			<target npcId="13183" />
@@ -191,7 +183,6 @@
 	</skill>
 	<skill id="21017" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -202,7 +193,6 @@
 	</skill>
 	<skill id="21018" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -213,7 +203,6 @@
 	</skill>
 	<skill id="21019" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -224,7 +213,6 @@
 	</skill>
 	<skill id="21020" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -235,7 +223,6 @@
 	</skill>
 	<skill id="21021" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -246,7 +233,6 @@
 	</skill>
 	<skill id="21022" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -257,7 +243,6 @@
 	</skill>
 	<skill id="21023" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -268,7 +253,6 @@
 	</skill>
 	<skill id="21024" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -279,7 +263,6 @@
 	</skill>
 	<skill id="21025" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -290,7 +273,6 @@
 	</skill>
 	<skill id="21026" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -301,7 +283,6 @@
 	</skill>
 	<skill id="21027" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -313,7 +294,6 @@
 	</skill>
 	<skill id="21028" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -324,7 +304,6 @@
 	</skill>
 	<skill id="21029" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -335,7 +314,6 @@
 	</skill>
 	<skill id="21030" levels="1" name="Holiday Dream Weapon">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="1" />
 		<for>
@@ -345,94 +323,95 @@
 		</for>
 	</skill>
 	<skill id="21031" levels="1" name="Agathion Seal Release - Charming Cupid">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1508" />
 	</skill>
 	<skill id="21032" levels="1" name="Agathion Seal Release - Naughty Cupid">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1509" />
 	</skill>
 	<skill id="21033" levels="1" name="Release Seal on Agathion - White Maneki Neko">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1510" />
 	</skill>
 	<skill id="21034" levels="1" name="Release Seal on Agathion - Black Maneki Neko">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1511" />
 	</skill>
 	<skill id="21035" levels="1" name="Release Seal on Agathion - Brown Maneki Neko">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1512" />
 	</skill>
 	<skill id="21036" levels="1" name="Release Seal on Agathion - One-eyed Bat Drove">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1513" />
 	</skill>
 	<skill id="21037" levels="1" name="Release Seal on Agathion - Pegasus">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1514" />
 	</skill>
 	<skill id="21038" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1515" />
 	</skill>
 	<skill id="21039" levels="1" name="Release Seal on Agathion - Blue-robed Tojigong">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1516" />
 	</skill>
 	<skill id="21040" levels="1" name="Release Seal on Agathion - Green-robed Tojigong">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1517" />
 	</skill>
 	<skill id="21041" levels="1" name="Release Seal on Agathion - Bugbear">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1518" />
 	</skill>
 	<skill id="21042" levels="1" name="Baguette's Blessing">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
@@ -440,66 +419,66 @@
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="21043" levels="1" name="Agathion Seal Cancel - Red Sumo Wrestler">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1519" />
 	</skill>
 	<skill id="21044" levels="1" name="Agathion Seal Cancel - Blue Sumo Wrestler Agathion">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1520" />
 	</skill>
 	<skill id="21045" levels="1" name="Agathion Seal Cancel - Great Sumo Match">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1521" />
 	</skill>
 	<skill id="21046" levels="1" name="Agathion Seal Cancel - Button-Eyed Bear Doll">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1522" />
 	</skill>
 	<skill id="21047" levels="1" name="Agathion Seal Cancel - God of Fortune">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1523" />
 	</skill>
 	<skill id="21048" levels="1" name="Agathion Seal Cancel - Dryad">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1524" />
 	</skill>
 	<skill id="21049" levels="1" name="Agathion Seal Cancel - Wonboso">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1525" />
 	</skill>
 	<skill id="21050" levels="1" name="Agathion Seal Cancel - Daewoonso">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1526" />
 	</skill>
@@ -507,7 +486,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="transformId" val="110" />
 		<for>
 			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="transform" />
@@ -522,7 +501,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -548,7 +527,7 @@
 		<set name="operateType" val="A2" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -586,7 +565,7 @@
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -610,7 +589,7 @@
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -634,7 +613,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -660,7 +639,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -685,7 +664,7 @@
 		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="HEAL" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -708,7 +687,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -732,7 +711,7 @@
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -756,7 +735,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -780,7 +759,7 @@
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -807,7 +786,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -830,7 +809,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -841,6 +820,7 @@
 	</skill>
 	<skill id="21066" levels="1" name="Energy Recovery">
 		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="3000" />
@@ -878,7 +858,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DarkAtr">
@@ -900,7 +880,7 @@
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -924,7 +904,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -948,7 +928,7 @@
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -972,7 +952,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -999,7 +979,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1022,7 +1002,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1047,7 +1027,7 @@
 		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="HEAL" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1072,7 +1052,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="trait" val="ETC" />
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="DarkAtr">
@@ -1094,7 +1074,7 @@
 		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1118,7 +1098,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1142,7 +1122,7 @@
 		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1166,7 +1146,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1193,7 +1173,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1216,7 +1196,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="trait" val="ETC" />
 		<for>
@@ -1241,7 +1221,7 @@
 		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="HEAL" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="#aggroPoints" />
@@ -1252,6 +1232,7 @@
 	</skill>
 	<skill id="21084" levels="1" name="Energy Recovery">
 		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="hitTime" val="3000" />
@@ -1265,10 +1246,10 @@
 		</for>
 	</skill>
 	<skill id="21085" levels="1" name="Agathion Seal Cancel - Pomona">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1527" />
 	</skill>
@@ -1321,7 +1302,7 @@
 		<set name="reuseDelay" val="150000" />
 		<set name="castRange" val="-2" />
 		<set name="effectRange" val="-2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 	</skill>
 	<skill id="21089" levels="1" name="Dance of Shadows">
 		<!-- Receives the soul's help, and for 2 minutes, decreases one's own moving speed by 50% and invokes the ability not to receive the preemptive attack of monsters. -->
@@ -1352,17 +1333,17 @@
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="staticReuse" val="true" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<for>
 			<effect name="PhoenixBless" abnormalTime="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="21091" levels="1" name="Agathion Seal Cancel - Weaver">
 		<!-- Removes the seal on the Agathion. -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="1528" />
 	</skill>
@@ -1428,7 +1409,7 @@
 		<set name="reuseDelay" val="150000" />
 		<set name="castRange" val="-2" />
 		<set name="effectRange" val="-2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 	</skill>
 	<skill id="21098" levels="1" name="Great Adventurer's Soul Power : Endless">
 		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, moving speed by 20%, and resistance against debuff by 10%. -->

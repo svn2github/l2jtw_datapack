@@ -14,7 +14,8 @@
  */
 package quests.Q10277_MutatedKaneusDion;
 
-import javolution.util.FastList;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -127,11 +128,15 @@ public class Q10277_MutatedKaneusDion extends Quest
 		final int npcId = npc.getNpcId();
 		if (killer.getParty() != null)
 		{
-			final FastList<QuestState> PartyMembers = new FastList<QuestState>();
+			final List<QuestState> PartyMembers = new ArrayList<>();
 			for (L2PcInstance member : killer.getParty().getMembers())
 			{
 				st = member.getQuestState(qn);
-				if (((st != null) && st.isStarted() && (st.getInt("cond") == 1) && ((npcId == CRIMSON_HATU) && !st.hasQuestItems(TISSUE_CH))) || ((npcId == SEER_FLOUROS) && !st.hasQuestItems(TISSUE_SF)))
+				if (st == null)
+				{
+					continue;
+				}
+				if ((st.isStarted() && (st.getInt("cond") == 1) && ((npcId == CRIMSON_HATU) && !st.hasQuestItems(TISSUE_CH))) || ((npcId == SEER_FLOUROS) && !st.hasQuestItems(TISSUE_SF)))
 				{
 					PartyMembers.add(st);
 				}

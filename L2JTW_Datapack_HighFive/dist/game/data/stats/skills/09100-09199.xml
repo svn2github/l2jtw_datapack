@@ -5,12 +5,11 @@
 		<table name="#extractableItems">
 			13457,1,7.1429;13458,1,7.1429;13459,1,7.1429;13460,1,7.1429;13461,1,7.1429;13462,1,7.1429;13463,1,7.1429;13464,1,7.1429;13465,1,7.1429;13466,1,7.1429;13467,1,7.1429;13468,1,7.1429;13469,1,7.1429;13470,1,7.1423
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -27,12 +26,11 @@
 		<table name="#extractableItems">
 			10215,1,8.3333;10216,1,8.3333;10217,1,8.3333;10218,1,8.3333;10219,1,8.3333;10220,1,8.3333;10221,1,8.3333;10222,1,8.3333;10223,1,8.3333;10224,1,8.3333;10225,1,8.3333;10226,1,8.3337
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -49,12 +47,11 @@
 		<table name="#extractableItems">
 			9380,1,7.1429;9446,1,7.1429;10004,1,7.1429;9449,1,7.1429;9450,1,7.1429;9445,1,7.1429;9443,1,7.1429;9442,1,7.1429;10252,1,7.1429;9448,1,7.1429;10253,1,7.1429;9384,1,7.1429;9444,1,7.1429;9447,1,7.1423
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -71,12 +68,11 @@
 		<table name="#extractableItems">
 			13143,1,5.8824;14105,1,5.8824;14108,1,5.8824;14109,1,5.8824;14110,1,5.8824;14111,1,5.8824;13144,1,5.8824;14106,1,5.8824;14112,1,5.8824;14113,1,5.8824;14114,1,5.8824;13145,1,5.8824;14107,1,5.8824;14115,1,5.8824;14116,1,5.8824;14117,1,5.8824;13887,1,5.8816
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -93,12 +89,11 @@
 		<table name="#extractableItems">
 			15694,1,5.8824;15695,1,5.8824;15696,1,5.8824;15697,1,5.8824;15698,1,5.8824;15699,1,5.8824;15700,1,5.8824;15701,1,5.8824;15702,1,5.8824;15703,1,5.8824;15704,1,5.8824;15705,1,5.8824;15706,1,5.8824;15707,1,5.8824;15708,1,5.8824;15709,1,5.8824;15710,1,5.8816
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -115,12 +110,11 @@
 		<table name="#extractableItems">
 			9514,1,5.8824;9515,1,5.8824;9516,1,5.8824;9517,1,5.8824;9518,1,5.8824;9529,1,5.8824;9519,1,5.8824;9520,1,5.8824;9521,1,5.8824;9522,1,5.8824;9523,1,5.8824;9524,1,5.8824;9525,1,5.8824;9526,1,5.8824;9527,1,5.8824;9528,1,5.8824;13886,1,5.8816
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -137,12 +131,11 @@
 		<table name="#extractableItems">
 			9570,1,33.3333;9571,1,33.3333;9572,1,33.3334
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -159,12 +152,11 @@
 		<table name="#extractableItems">
 			10480,1,33.3333;10481,1,33.3333;10482,1,33.3334
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -181,12 +173,11 @@
 		<table name="#extractableItems">
 			13071,1,33.3333;13072,1,33.3333;13073,1,33.3334
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -203,12 +194,11 @@
 		<table name="#extractableItems">
 			8664,1,16.6667;8665,1,16.6667;8666,1,16.6667;14739,1,49.9999
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -225,12 +215,11 @@
 		<table name="#extractableItems">
 			8667,1,16.6667;8668,1,16.6667;8669,1,16.6667;8670,1,16.6667;14739,1,33.3332
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -247,12 +236,11 @@
 		<table name="#extractableItems">
 			8671,1,10;8672,1,10;8673,1,10;8674,1,10;8675,1,10;8676,1,10;8677,1,10;14739,1,30
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -269,12 +257,11 @@
 		<table name="#extractableItems">
 			9546,1,14.2857;9547,1,14.2857;9548,1,14.2857;9549,1,14.2857;9550,1,14.2857;9551,1,14.2857;2134,2,14.2858
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -288,11 +275,11 @@
 	</skill>
 	<skill id="9113" levels="1" name="Vitality Potion">
 		<!-- Maintains the current Vitality for 10 minutes. -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="1800000" />
-		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="9114" levels="1" name="Nevit's Voice">
 		<set name="itemConsumeCount" val="1" />
@@ -301,9 +288,8 @@
 		<set name="operateType" val="A1" />
 		<set name="magicLvl" val="1" />
 		<set name="power" val="10" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="reuseDelay" val="2000" />
-		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="9115" levels="1" name="Nevit's Hourglass - 1 hour">
 		<!-- Increases Nevit's blessing by 1 hour. -->
@@ -831,91 +817,75 @@
 		</for>
 	</skill>
 	<skill id="9150" levels="1" name="Freesia Bouquet - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9151" levels="1" name="Baby's Breath Bouquet - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9152" levels="1" name="Pink Lady - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9153" levels="1" name="June Bug - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9154" levels="1" name="Soft Cheese Cake - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9155" levels="1" name="Freshly-Baked Baguette - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9156" levels="1" name="Sweet Cream-filled Bread - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9157" levels="1" name="White Day Candy - Event">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="1000" />
 		<set name="reuseDelay" val="1000" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="500" />
 	</skill>
 	<skill id="9158" levels="1" name="Freya's Gift">
@@ -923,12 +893,11 @@
 		<table name="#extractableItems">
 			16026,1,0.0001;9627,1,0.1417;17139,1,1.4172;17140,1,1.4172;14052,1,2.8345;6622,1,18.424;2134,2,21.2585;14701,1,54.5068
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -944,11 +913,10 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="hitTime" val="2500" />
 		<set name="reuseDelay" val="7200000" />
-		<set name="staticHitTime" val="true" />
 		<set name="transformId" val="306" />
 		<cond msgId="1509">
 			<player olympiad="false" />
@@ -968,11 +936,10 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="hitTime" val="2500" />
 		<set name="reuseDelay" val="7200000" />
-		<set name="staticHitTime" val="true" />
 		<set name="transformId" val="305" />
 		<cond msgId="1509">
 			<player olympiad="false" />
@@ -994,10 +961,9 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="reuseDelay" val="2000" />
-		<set name="isPotion" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="wp_event_buf1" special="vesper_s">
 				<mul order="0x30" stat="pAtk" val="1.15" />
@@ -1012,10 +978,9 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="reuseDelay" val="2000" />
-		<set name="isPotion" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="wp_event_buf1" special="vesper_c">
 				<add order="0x40" stat="rCrit" val="15" />
@@ -1031,10 +996,9 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="reuseDelay" val="2000" />
-		<set name="isPotion" val="true" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="wp_event_buf1" special="vesper_d">
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
@@ -1048,12 +1012,11 @@
 		<table name="#extractableItems">
 			13143,1,5.882;14105,1,5.882;14108,1,5.882;14109,1,5.882;14110,1,5.882;14111,1,5.882;13144,1,5.882;14106,1,5.882;14112,1,5.882;14113,1,5.882;14114,1,5.882;13145,1,5.882;14107,1,5.882;14115,1,5.882;14116,1,5.882;14117,1,5.882;13887,1,5.88799999999999
 		</table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -1067,12 +1030,14 @@
 	</skill>
 	<skill id="9165" levels="1" name="Energy of Sprout">
 		<!-- For 1 hour, receives help from the Energy of Sprout to increase Max MP by 20%, MP recovery bonus by 20%, HP recovery bonus by 20%, the rate of Prominent Damage occurring through damage magic by 2, the power of critical attacks by 20%, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, M. Atk. by 20%, M. Def. by 20%, Casting Spd. by 20%, and resistance to de-buffs by 10%. Decreases moving speed by 20% and MP consumption needed for skill use by 5%. -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="9166" levels="1" name="Energy Replenishing Herb Tea">
 		<!-- Recovers energy upon acquiring Exp. points for 30 minutes. -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />

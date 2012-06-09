@@ -2,9 +2,7 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="6100" levels="3" name="Turkey's Choice - Scissors">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
-		<set name="isMagic" val="true" />
-		<set name="staticHitTime" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 	</skill>
@@ -152,9 +150,8 @@
 		</for>
 	</skill>
 	<skill id="6116" levels="1" name="Attack Turkey">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
 	</skill>
@@ -173,7 +170,7 @@
 	<skill id="6120" levels="1" name="Santa Claus' Reward">
 		<set name="target" val="TARGET_AURA" />
 		<set name="magicLvl" val="1" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="1" />
@@ -193,6 +190,7 @@
 	</skill>
 	<skill id="6121" levels="1" name="Agathion's New Year's Gift 1">
 		<!-- Confirmed CT2.5 -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="coolTime" val="1000" />
 		<set name="create_item_count" val="1" />
 		<set name="create_item_id" val="14676" />
@@ -202,7 +200,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="skillType" val="CREATE_ITEM" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -213,6 +210,7 @@
 	</skill>
 	<skill id="6122" levels="1" name="Agathion's New Year's Gift 2">
 		<!-- Confirmed CT2.5 -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="coolTime" val="1000" />
 		<set name="create_item_count" val="1" />
 		<set name="create_item_id" val="14677" />
@@ -222,7 +220,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="86400000" />
 		<set name="skillType" val="CREATE_ITEM" />
-		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -244,11 +241,10 @@
 		</for>
 	</skill>
 	<skill id="6124" levels="1" name="Agathion Cute Trick - Saerom">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16063" />
 		</cond>
@@ -256,6 +252,7 @@
 	<skill id="6125" levels="1" name="Paralysis">
 		<!-- Summon Binding Cubic Skill Effect -->
 		<!-- Confirmed CT2.5 -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="isTriggeredSkill" val="true" />
 		<set name="magicLvl" val="40" />
@@ -271,7 +268,7 @@
 	<skill id="6126" levels="1" name="Paralysis">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="40" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="isTriggeredSkill" val="true" />
 		<set name="operateType" val="A2" />
@@ -318,6 +315,7 @@
 		<set name="trait" val="SHOCK" />
 	</skill>
 	<skill id="6131" levels="1" name="Decrease Spd">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -327,6 +325,7 @@
 		<set name="lvlDepend" val="2" />
 	</skill>
 	<skill id="6132" levels="1" name="Decrease Atk. Spd">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -336,12 +335,14 @@
 		<set name="saveVs" val="MEN" />
 	</skill>
 	<skill id="6133" levels="1" name="Effect of Doubt">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 		<set name="trait" val="ETC" />
 	</skill>
 	<skill id="6134" levels="1" name="Curse of the Mutant Animal">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -363,11 +364,10 @@
 		<set name="trait" val="SHOCK" />
 	</skill>
 	<skill id="6136" levels="1" name="Agathion Cute Trick - Juju">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="reuseDelay" val="10000" />
 		<cond msgId="2292">
 			<player agathionId="16064" />
@@ -412,11 +412,13 @@
 		</for>
 	</skill>
 	<skill id="6140" levels="3" name="Bog Stride">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="6141" levels="1" name="Swamp's Wish">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -427,6 +429,7 @@
 		<!-- Lvl 1: Covered in hot and sticky tar. Movement is impaired. Due to the burning tar, for 5 minbutes, moving speed is decreased 30% and P. Def. and evasion are decreased 10%. -->
 		<!-- Lvl 2: Covered in hot and sticky tar. Movement is impaired. Due to the burning tar, for 5 minbutes, moving speed is decreased 60% and P. Def. and evasion are decreased 20%. -->
 		<!-- Lvl 3: Covered in hot and sticky tar. Movement is impaired. Due to the burning tar, for 5 minbutes, moving speed is decreased 90% and P. Def. and evasion are decreased 30%. -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -435,23 +438,27 @@
 		<set name="saveVs" val="MEN" />
 	</skill>
 	<skill id="6143" levels="1" name="Ancient Beam">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="4000" />
 	</skill>
 	<skill id="6144" levels="1" name="Ancient Beam">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="4000" />
 	</skill>
 	<skill id="6145" levels="1" name="Earthworm's Evil Aura">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="6146" levels="1" name="Forfeiture of Will">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -461,7 +468,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="magicLvl" val="85" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
 		<set name="mpConsume" val="59" />
 		<set name="mpInitialConsume" val="15" />
@@ -480,7 +487,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MUTE" />
 		<set name="mpConsume" val="59" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="A2" />
@@ -501,6 +508,7 @@
 	<skill id="6149" levels="1" name="Kasha's Betrayal">
 		<!-- Kasha's Betrayal. For 15 minutes, decreases P. Atk./P. Def./moving speed by 50%. -->
 		<!-- Only when a eye explode -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="A2" />
@@ -613,6 +621,7 @@
 		</for>
 	</skill>
 	<skill id="6166" levels="1" name="Hold">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -859,19 +868,18 @@
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6196" levels="1" name="Agathion Oink Oink's Ability">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="72000000" />
-		<set name="staticReuse" val="true" />
 		<set name="coolTime" val="1000" />
 	</skill>
 	<skill id="6197" levels="1" name="Agathion Cute Trick - Oink Oink">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16065" />
 		</cond>

@@ -72,21 +72,20 @@ import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.util.Util;
 
-/*
-TODO:
-- test when Frintezza song use 5008 effect skill
-- maybe test more deeply halishas AI
-- use correct Song names
-- use proper zone spawn system
-Contributing authors: Gigiikun
+/**
+ * TODO:<br>
+ * Test when Frintezza song use 5008 effect skill.<br>
+ * Maybe test more deeply halishas AI.<br>
+ * Use correct Song names.<br>
+ * Use proper zone spawn system.<br>
+ * @author Gigiikun
 */
 public class FinalEmperialTomb extends Quest
 {
-
 	private class FETWorld extends InstanceWorld
 	{
 		public         Lock                 lock                         = new ReentrantLock();
-		public         List<L2Npc>          npcList                      = new FastList<L2Npc>();
+		public         List<L2Npc>          npcList                      = new FastList<>();
 		public         int                  darkChoirPlayerCount         = 0;
 		public         FrintezzaSong        OnSong                       = null;
 		public         ScheduledFuture<?>   songTask                     = null;
@@ -99,8 +98,8 @@ public class FinalEmperialTomb extends Quest
 		public         L2Npc                scarletDummy                 = null;
 		public         L2GrandBossInstance  frintezza                    = null;
 		public         L2GrandBossInstance  activeScarlet                = null;
-		public         List<L2MonsterInstance>  demons                   = new FastList<L2MonsterInstance>();
-		public         Map<L2MonsterInstance, Integer>  portraits        = new FastMap<L2MonsterInstance, Integer>();
+		public         List<L2MonsterInstance>  demons                   = new FastList<>();
+		public         Map<L2MonsterInstance, Integer>  portraits        = new FastMap<>();
 		public         int                  scarlet_x                    = 0;
 		public         int                  scarlet_y                    = 0;
 		public         int                  scarlet_z                    = 0;
@@ -112,7 +111,7 @@ public class FinalEmperialTomb extends Quest
 		}
 	}
 	
-	private static class FETSpawn
+	protected static class FETSpawn
 	{
 		public boolean isZone = false;
 		public boolean isNeededNextFlag = false;
@@ -147,8 +146,8 @@ public class FinalEmperialTomb extends Quest
 	private static final int MAX_PLAYERS = 45;
 	private static final boolean debug = false;
 	
-	private final TIntObjectHashMap<L2Territory> _spawnZoneList = new TIntObjectHashMap<L2Territory>();
-	private final TIntObjectHashMap<List<FETSpawn>> _spawnList = new TIntObjectHashMap<List<FETSpawn>>();
+	private final TIntObjectHashMap<L2Territory> _spawnZoneList = new TIntObjectHashMap<>();
+	private final TIntObjectHashMap<List<FETSpawn>> _spawnList = new TIntObjectHashMap<>();
 	private final FastSet<Integer> _mustKillMobsId = new FastSet<Integer>(); //l2jtw
 	
 	// Teleports
@@ -170,10 +169,10 @@ public class FinalEmperialTomb extends Quest
 	
 	private static final int FIRST_SCARLET_WEAPON = 8204;
 	private static final int SECOND_SCARLET_WEAPON = 7903;
-	private static final SkillHolder INTRO_SKILL = new SkillHolder(5004,1);
+	protected static final SkillHolder INTRO_SKILL = new SkillHolder(5004,1);
 	private static final SkillHolder FIRST_MORPH_SKILL = new SkillHolder(5017,1);
 	
-	private static final FrintezzaSong[] FRINTEZZASONGLIST = 
+	protected static final FrintezzaSong[] FRINTEZZASONGLIST = 
 	{
 		new FrintezzaSong(new SkillHolder(5007,1), new SkillHolder(5008,1), NpcStringId.REQUIEM_OF_HATRED, 5),
         new FrintezzaSong(new SkillHolder(5007,2), new SkillHolder(5008,2), NpcStringId.RONDO_OF_SOLITUDE, 50),
@@ -183,25 +182,25 @@ public class FinalEmperialTomb extends Quest
 	};
 	
 	// Doors/Walls/Zones
-	private static final int[] FIRST_ROOM_DOORS = 
+	protected static final int[] FIRST_ROOM_DOORS = 
 	{ 
 		17130051, 17130052, 17130053, 17130054, 17130055,
 		17130056, 17130057, 17130058
 	};
-	private static final int[] SECOND_ROOM_DOORS = 
+	protected static final int[] SECOND_ROOM_DOORS = 
 	{
 		17130061, 17130062, 17130063, 17130064, 17130065,
 		17130066, 17130067, 17130068, 17130069, 17130070
 	};
 	
-	private static final int[] FIRST_ROUTE_DOORS = { 17130042, 17130043 };
-	private static final int[] SECOND_ROUTE_DOORS = { 17130045, 17130046 };
-	private static final L2CharPosition MOVE_TO_CENTER = new L2CharPosition( -87904, -141296, -9168, 0 );
+	protected static final int[] FIRST_ROUTE_DOORS = { 17130042, 17130043 };
+	protected static final int[] SECOND_ROUTE_DOORS = { 17130045, 17130046 };
+	protected static final L2CharPosition MOVE_TO_CENTER = new L2CharPosition( -87904, -141296, -9168, 0 );
 
 	// spawns
 	private static final int TIME_BETWEEN_DEMON_SPAWNS = 20000;
 	private static final int MAX_DEMONS = 24;
-	private static final int[][] PORTRAIT_SPAWNS = 
+	protected static final int[][] PORTRAIT_SPAWNS = 
 	{
 		{ 29048, -89381, -153981, -9168, 3368, -89378, -153968, -9168, 3368 },
 		{ 29048, -86234, -152467, -9168, 37656, -86261, -152492, -9168, 37656 },
@@ -741,7 +740,7 @@ public class FinalEmperialTomb extends Quest
 					
 					if (_world.frintezza != null && !_world.frintezza.isDead() && _world.activeScarlet != null && !_world.activeScarlet.isDead())
 					{
-						List<L2Character> targetList = new FastList<L2Character>();
+						List<L2Character> targetList = new FastList<>();
 						if (skill.getSkillType() == L2SkillType.STUN || skill.getSkillType() == L2SkillType.DEBUFF)
 						{
 							for (int objId : _world.allowed)
@@ -1209,7 +1208,7 @@ public class FinalEmperialTomb extends Quest
 		}
 	}
 	
-	private void broadCastPacket(FETWorld world, L2GameServerPacket packet)
+	protected void broadCastPacket(FETWorld world, L2GameServerPacket packet)
 	{
 		for (int objId : world.allowed)
 		{
@@ -1219,7 +1218,7 @@ public class FinalEmperialTomb extends Quest
 		}
 	}
 	
-	private void updateKnownList(FETWorld world, L2Npc npc)
+	protected void updateKnownList(FETWorld world, L2Npc npc)
 	{
 		Map<Integer, L2PcInstance> npcKnownPlayers = npc.getKnownList().getKnownPlayers();
 		for (int objId : world.allowed)
@@ -1247,6 +1246,16 @@ public class FinalEmperialTomb extends Quest
 			}
 		}
 		return null;
+	}
+	
+	@Override
+	public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
+	{
+		if (skill.isSuicideAttack())
+		{
+			return onKill(npc, null, false);
+		}
+		return super.onSpellFinished(npc, player, skill);
 	}
 	
 	@Override
@@ -1327,12 +1336,13 @@ public class FinalEmperialTomb extends Quest
 		addKillId(DARK_CHOIR_PLAYER);
 		addAttackId(SCARLET1);
 		addKillId(SCARLET2);
-		for (int mobId : PORTRAITS)
-			addKillId(mobId);
-		for (int mobId : DEMONS)
-			addKillId(mobId);
+		addKillId(PORTRAITS);
+		addKillId(DEMONS);
 		for (int mobId : _mustKillMobsId)
+		{
 			addKillId(mobId);
+		}
+		addSpellFinishedId(18333);
 	}
 	
 	public static void main(String[] args)

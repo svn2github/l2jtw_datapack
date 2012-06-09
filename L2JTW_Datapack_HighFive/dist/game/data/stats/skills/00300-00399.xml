@@ -125,15 +125,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="66" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="611" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -156,15 +155,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="74" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="655" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -185,15 +183,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="62" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="582" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -216,15 +213,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="70" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="635" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -250,15 +246,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="70" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="635" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -281,15 +276,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="62" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="582" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -315,15 +309,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="74" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="655" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -347,15 +340,14 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1time"> 125 131 136 142 147 153 158 164 169 175 180 186 191 197 202 208 213 219 224 230 235 241 246 252 257 263 268 274 279 285 </table>
 		<table name="#ench2MpConsume"> 58 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40 39 37 36 35 34 32 31 30 29 27 26 25 24 22 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="mpConsume" val="60" />
 		<set name="magicLvl" val="66" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="611" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -580,7 +572,6 @@
 	</skill>
 	<skill id="316" levels="1" name="Aegis">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="P" />
 		<for>
 			<set order="0x10" stat="shieldDefAngle" val="360" />
@@ -638,7 +629,6 @@
 		<table name="#magicLvl"> 20 40 </table>
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<add order="0x40" stat="runSpd" val="#runSpd">
@@ -769,14 +759,13 @@
 		</table>
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="hitTime" val="3000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="1461" />
 		<set name="mpConsume" val="366" />
 		<set name="magicLvl" val="60" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="600000" />
-		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -795,14 +784,13 @@
 		</table>
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="hitTime" val="3000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="itemConsumeId" val="1462" />
 		<set name="magicLvl" val="72" />
 		<set name="mpConsume" val="398" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="600000" />
-		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="129">
 			<and>
@@ -833,13 +821,13 @@
 		</cond>
 	</skill>
 	<skill id="326" levels="1" name="Build Advanced Headquarters">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="mpInitialConsume" val="30" />
 		<set name="itemConsumeId" val="2131" />
 		<set name="itemConsumeCount" val="300" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="4000" />
-		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="SIEGEFLAG" />
 		<set name="operateType" val="A1" />
 		<set name="isAdvanced" val="true" />
@@ -874,7 +862,6 @@
 		<table name="#enchVuln"> 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 </table>
 		<set name="magicLvl" val="76" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
@@ -905,7 +892,6 @@
 		<table name="#enchVuln"> 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 </table>
 		<set name="magicLvl" val="76" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
@@ -926,7 +912,6 @@
 		<!-- Masters excellence in skills. Low possibility of being able to re-use skills without delay or doubles the duration. Influenced by STR. -->
 		<set name="magicLvl" val="77" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<add order="0x40" stat="skillMastery" val="2" /> <!-- FIXME: wrong values ? -->
@@ -936,7 +921,6 @@
 		<!-- Masters excellence in skills. Low possibility of being able to re-use skills without delay or doubles the duration. Influenced by INT. -->
 		<set name="magicLvl" val="77" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<add order="0x40" stat="skillMastery" val="2" /> <!-- FIXME: wrong values ? -->
@@ -946,7 +930,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="inventoryLimit" val="1" />
@@ -956,7 +939,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="PrivateBuyLimit" val="1" />
@@ -1145,7 +1127,7 @@
 		<set name="magicLvl" val="78" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="300000" />
-		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant1 name="hpConsume" val="#ench1Cost" />
@@ -1417,15 +1399,14 @@
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1Time"> 128 136 144 152 160 168 176 184 192 200 208 216 224 232 240 </table>
 		<table name="#ench2mpConsume"> 58 56 54 52 50 48 46 44 42 40 38 36 34 32 30 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="magicLvl" val="77" />
 		<set name="mpConsume" val="60" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="666" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -1821,32 +1802,37 @@
 		</enchant2for>
 	</skill>
 	<skill id="358" levels="1" name="Bluff" enchantGroup1="6">
+		<!-- Confirmed CT2.5 -->
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 </table>
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1000" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="77" />
 		<set name="mpConsume" val="35" />
-		<set name="power" val="40" /> <!-- Base Land Rate -->
-		<set name="target" val="TARGET_ONE" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="80" /> <!-- Base Land Rate -->
+		<set name="reuseDelay" val="8000" />
 		<set name="saveVs" val="MEN" />
 		<set name="skillType" val="AGGREDUCE_CHAR" />
-		<set name="lvlDepend" val="1" />
-		<set name="operateType" val="A2" />
-		<set name="castRange" val="40" />
-		<set name="isDebuff" val="true" />
-		<set name="effectRange" val="400" />
-		<set name="reuseDelay" val="8000" />
-		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_ONE" />
 		<set name="trait" val="DERANGEMENT" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant1 name="power" val="#ench1Power" />
 		<cond msgId="113" addName="1">
 			<using kind="Dagger,Dual Dagger" />
 		</cond>
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" effectPower="40" effectType="STUN" />
-			<effect name="Bluff" noicon="1" val="0" />
-			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" effectType="DEBUFF" />
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="40" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Bluff" noicon="1" val="0" effectPower="80" />
+			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" />
 		</for>
+		<enchant1for>
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="#ench1Power" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Bluff" noicon="1" val="0" effectPower="80" />
+			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" />
+		</enchant1for>
 	</skill>
 	<skill id="359" levels="1" name="Eye of Hunter" enchantGroup1="5" enchantGroup2="5">
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
@@ -2027,15 +2013,14 @@
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1Time"> 128 136 144 152 160 168 176 184 192 200 208 216 224 232 240 </table>
 		<table name="#ench2mpConsume"> 58 56 54 52 50 48 46 44 42 40 38 36 34 32 30 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="magicLvl" val="77" />
 		<set name="mpConsume" val="60" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="666" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -2058,15 +2043,14 @@
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1Time"> 128 136 144 152 160 168 176 184 192 200 208 216 224 232 240 </table>
 		<table name="#ench2mpConsume"> 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="magicLvl" val="78" />
 		<set name="mpConsume" val="60" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="669" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -2091,15 +2075,14 @@
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1Time"> 128 136 144 152 160 168 176 184 192 200 208 216 224 232 240 </table>
 		<table name="#ench2mpConsume"> 58 56 54 52 50 48 46 44 42 40 38 36 34 32 30 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="magicLvl" val="78" />
 		<set name="mpConsume" val="60" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="669" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -2123,15 +2106,14 @@
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1Time"> 128 136 144 152 160 168 176 184 192 200 208 216 224 232 240 </table>
 		<table name="#ench2mpConsume"> 58 56 54 52 50 48 46 44 42 40 38 36 34 32 30 </table>
+		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="magicLvl" val="77" />
 		<set name="mpConsume" val="60" />
-		<set name="nextDanceCost" val="30" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillRadius" val="1000" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
-		<set name="isDance" val="true" />
 		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="666" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -2281,7 +2263,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="maxHp" val="#maxHp" />
@@ -2293,7 +2274,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="maxCp" val="#maxCp" />
@@ -2305,7 +2285,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="maxMp" val="#maxMp" />
@@ -2317,7 +2296,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="regHp" val="#regHp" />
@@ -2330,7 +2308,6 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<for>
 			<mul order="0x30" stat="regCp" val="#regCp" />
 		</for>
@@ -2341,7 +2318,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="regMp" val="#regMp" />
@@ -2353,7 +2329,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtk" val="#pAtk" />
@@ -2365,7 +2340,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pDef" val="#pDef" />
@@ -2377,7 +2351,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtk" val="#mAtk" />
@@ -2389,7 +2362,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mDef" val="#mDef" />
@@ -2401,7 +2373,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="accCombat" val="#accCombat" />
@@ -2413,7 +2384,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="rEvas" val="#rEvas" />
@@ -2425,7 +2395,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="rShld" val="#rShld" />
@@ -2437,7 +2406,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="sDef" val="#sDef" />
@@ -2450,7 +2418,6 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<for>
 			<add order="0x40" stat="windRes" val="#res" />
 			<add order="0x40" stat="waterRes" val="#res" />
@@ -2462,7 +2429,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="fireRes" val="#res" />
@@ -2475,7 +2441,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="stunVuln" val="#vuln" />
@@ -2487,7 +2452,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="rootVuln" val="#vuln" />
@@ -2499,7 +2463,6 @@
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="sleepVuln" val="#vuln" />
@@ -2512,7 +2475,6 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<for>
 			<add order="0x40" stat="runSpd" val="#runSpd" />
 		</for>

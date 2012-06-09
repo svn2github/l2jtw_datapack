@@ -388,6 +388,7 @@ move ls_errors.log %workdir%
 goto ls_install
 
 :ls_install
+cls
 set cmdline=
 if %full% == 1 (
 title L2JTW 正在安裝登入伺服器的資料庫...
@@ -541,6 +542,7 @@ move cs_errors.log %workdir%
 goto cs_install
 
 :cs_install
+cls
 set cmdline=
 if %full% == 1 (
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
@@ -688,6 +690,7 @@ move gs_errors.log %workdir%
 goto gs_install
 
 :gs_install
+cls
 set cmdline=
 if %full% == 1 (
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha

@@ -41,6 +41,12 @@ public class MercTicket implements IItemHandler
 	@Override
 	public boolean useItem(L2Playable playable, L2ItemInstance item, boolean forceUse)
 	{
+		if (!playable.isPlayer())
+		{
+			playable.sendPacket(SystemMessageId.ITEM_NOT_FOR_PETS);
+			return false;
+		}
+		
 		int itemId = item.getItemId();
 		L2PcInstance activeChar = (L2PcInstance) playable;
 		Castle castle = CastleManager.getInstance().getCastle(activeChar);
@@ -59,7 +65,7 @@ public class MercTicket implements IItemHandler
 			activeChar.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_AUTHORITY_TO_POSITION_MERCENARIES);
 			return false;
 		}
-		else if (castle.getSiege().getIsInProgress())
+		else if ((castle != null) && castle.getSiege().getIsInProgress())
 		{
 			activeChar.sendPacket(SystemMessageId.THIS_MERCENARY_CANNOT_BE_POSITIONED_ANYMORE);
 			return false;

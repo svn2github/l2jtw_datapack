@@ -73,7 +73,7 @@ import com.l2jserver.gameserver.util.Util;
 public class CrystalCaverns extends Quest
 {
 	
-	private static class CrystalGolem
+	protected static class CrystalGolem
 	{
 		public         L2ItemInstance foodItem = null;
 		public boolean isAtDestination         = false;
@@ -82,34 +82,34 @@ public class CrystalCaverns extends Quest
 	
 	private class CCWorld extends InstanceWorld
 	{
-		public           Map<L2Npc,Boolean> npcList1                      = new FastMap<L2Npc,Boolean>();
+		public           Map<L2Npc,Boolean> npcList1                      = new FastMap<>();
 		public           L2Npc tears;
 		public boolean   isUsedInvulSkill                                 = false;
 		public long      dragonScaleStart                                 = 0;
 		public int       dragonScaleNeed                                  = 0;
 		public int       cleanedRooms                                     = 0;
 		public long      endTime                                          = 0;
-		public           List<L2Npc> copys                                = new FastList<L2Npc>();
-		public           Map<L2Npc,CrystalGolem> crystalGolems            = new FastMap<L2Npc,CrystalGolem>();
+		public           List<L2Npc> copys                                = new FastList<>();
+		public           Map<L2Npc,CrystalGolem> crystalGolems            = new FastMap<>();
 		public int       correctGolems                                    = 0;
 		public boolean[] OracleTriggered                                  = {false,false,false};
 		public int       kechisHenchmanSpawn                              = 0;
 		public int[]     roomsStatus                                      = {0,0,0,0}; // 0: not spawned, 1: spawned, 2: cleared
-		public           Map<L2DoorInstance, L2PcInstance> openedDoors    = new FastMap<L2DoorInstance, L2PcInstance>();
-		public           Map<Integer, Map<L2Npc,Boolean>> npcList2        = new FastMap<Integer, Map<L2Npc,Boolean>>();
-		public           Map<L2Npc,L2Npc> oracles                         = new FastMap<L2Npc,L2Npc>();
-		public           List<L2Npc> keyKeepers                           = new FastList<L2Npc>();
-		public           List<L2Npc> guards                               = new FastList<L2Npc>();
-		public           List<L2Npc> oracle                               = new FastList<L2Npc>();
+		public           Map<L2DoorInstance, L2PcInstance> openedDoors    = new FastMap<>();
+		public           Map<Integer, Map<L2Npc,Boolean>> npcList2        = new FastMap<>();
+		public           Map<L2Npc,L2Npc> oracles                         = new FastMap<>();
+		public           List<L2Npc> keyKeepers                           = new FastList<>();
+		public           List<L2Npc> guards                               = new FastList<>();
+		public           List<L2Npc> oracle                               = new FastList<>();
 		// baylor variables
-		private final List<L2PcInstance> _raiders = new FastList<L2PcInstance>();
-		private int _raidStatus = 0;
-		private long _dragonClawStart = 0;
-		private int _dragonClawNeed = 0;
-		private final List<L2Npc> _animationMobs = new FastList<L2Npc>();
-		private L2Npc _camera = null;
-		private L2Npc _baylor = null;
-		private L2Npc _alarm = null;
+		protected final List<L2PcInstance> _raiders = new FastList<>();
+		protected int _raidStatus = 0;
+		protected long _dragonClawStart = 0;
+		protected int _dragonClawNeed = 0;
+		protected final List<L2Npc> _animationMobs = new FastList<>();
+		protected L2Npc _camera = null;
+		protected L2Npc _baylor = null;
+		protected L2Npc _alarm = null;
 		private int _SpawnMob = 0; //Update by rocknow
 		private int _SpawnNum = 0; //Update by rocknow
 		private int _Heading = 0; //Update by rocknow
@@ -327,7 +327,7 @@ public class CrystalCaverns extends Quest
 	private static final int DRAGONSCALETIME = 3000;
 	private static final int DRAGONCLAWTIME = 3000;
 	
-	private static class teleCoord
+	protected static class teleCoord
 	{
 		int instanceId;
 		int x;
@@ -657,7 +657,7 @@ public class CrystalCaverns extends Quest
 	{
 		world.status = 3;
 		
-		Map<L2Npc, Boolean> spawnList = new FastMap<L2Npc, Boolean>();
+		Map<L2Npc, Boolean> spawnList = new FastMap<>();
 		for (int[] spawn : EMERALD_SPAWNS)
 		{
 			L2Npc mob = addSpawn(spawn[0], spawn[1], spawn[2], spawn[3], spawn[4], false, 0, false, world.instanceId);
@@ -668,7 +668,7 @@ public class CrystalCaverns extends Quest
 	
 	protected void runEmeraldRooms(CCWorld world, int[][] spawnList, int room)
 	{
-		Map<L2Npc, Boolean> spawned = new FastMap<L2Npc, Boolean>();
+		Map<L2Npc, Boolean> spawned = new FastMap<>();
 		for (int[] spawn : spawnList)
 		{
 			L2Npc mob = addSpawn(spawn[0], spawn[1], spawn[2], spawn[3], spawn[4], false, 0, false, world.instanceId);
@@ -694,7 +694,7 @@ public class CrystalCaverns extends Quest
 	{
 		world.status = status;
 		
-		Map<L2Npc, Boolean> spawned = new FastMap<L2Npc, Boolean>();
+		Map<L2Npc, Boolean> spawned = new FastMap<>();
 		for (int[] spawn : spawnList)
 		{
 			L2Npc mob = addSpawn(spawn[0], spawn[1], spawn[2], spawn[3], spawn[4], false, 0, false, world.instanceId);
@@ -1409,7 +1409,7 @@ public class CrystalCaverns extends Quest
 				if (world.status != 3 || !world.crystalGolems.containsKey(npc) || world.crystalGolems.get(npc).foodItem != null || world.crystalGolems.get(npc).isAtDestination)
 					return "";
 				CrystalGolem cryGolem = world.crystalGolems.get(npc);
-				List<L2Object> crystals = new FastList<L2Object>();
+				List<L2Object> crystals = new FastList<>();
 				for (L2Object object : L2World.getInstance().getVisibleObjects(npc, 300))
 				{
 					if (object instanceof L2ItemInstance && ((L2ItemInstance) object).getItemId() == CRYSTALFOOD)
@@ -1870,7 +1870,7 @@ public class CrystalCaverns extends Quest
 				{
 					if (!checkOracleConditions(player))
 						return "";
-					else if (player.getParty() != null)
+					else if (party != null)
 						for (L2PcInstance partyMember : party.getMembers())
 						{
 							partyMember.destroyItemByItemId("Quest", RED_CORAL, 1, player, true);

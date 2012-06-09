@@ -33,8 +33,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.ValueSortMap;
 
 /**
- * @author Nik
- * @author UnAfraid
+ * @author Nik, UnAfraid
  */
 public class ChainHeal implements ISkillHandler
 {
@@ -104,8 +103,8 @@ public class ChainHeal implements ISkillHandler
 	
 	private L2Character[] getTargetsToHeal(L2Character[] targets)
 	{
-		Map<L2Character, Double> tmpTargets = new FastMap<L2Character, Double>();
-		List<L2Character> sortedListToReturn = new FastList<L2Character>();
+		Map<L2Character, Double> tmpTargets = new FastMap<>();
+		List<L2Character> sortedListToReturn = new FastList<>();
 		int curTargets = 0;
 		
 		for (L2Character target : targets)

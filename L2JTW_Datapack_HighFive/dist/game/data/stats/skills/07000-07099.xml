@@ -33,7 +33,6 @@
 		<set name="magicLvl" val="99" />
 		<set name="maxNegated" val="20" />
 		<set name="operateType" val="A1" />
-		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
 			<effect name="Cancel" noicon="1" val="0" effectPower="100" effectType="CANCEL" />
@@ -44,14 +43,13 @@
 		<!-- This skill only has one level, 2. -->
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
 		<set name="negateAbnormals" val="turn_stone,2" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="aggroPoints" val="566" />
 		<for>
-			<effect name="Negate" val="0" noicon="1" />
+			<effect name="Negate" noicon="1" val="0" />
 		</for>
 	</skill>
 	<skill id="7005" levels="4" name="Greater Chant of Vampire">
@@ -64,7 +62,7 @@
 		<set name="hitTime" val="2500" />
 		<set name="reuseDelay" val="20000" />
 		<set name="operateType" val="A2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="655" />
@@ -79,11 +77,10 @@
 		<!-- This skill only has one level, 13. -->
 		<set name="mpConsume" val="272" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="reuseDelay" val="20000" />
 		<set name="hitTime" val="2500" />
 		<set name="operateType" val="A2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="655" />
@@ -94,12 +91,11 @@
 		<set name="mpConsume" val="153" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="saveVs" val="MEN" />
-		<set name="skillType" val="PASSIVE" />
 		<set name="reuseDelay" val="20000" />
 		<set name="hitTime" val="4000" />
 		<set name="lvlDepend" val="1" />
 		<set name="operateType" val="A2" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
@@ -249,7 +245,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="SUMMON" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A1" />
 		<!-- Summon-specific -->
 		<set name="npcId" val="20150" />
@@ -266,7 +262,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="SUMMON" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A1" />
 		<!-- Summon-specific -->
 		<set name="npcId" val="20169" />
@@ -283,7 +279,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="SUMMON" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A1" />
 		<!-- Summon-specific -->
 		<set name="npcId" val="20241" />
@@ -334,7 +330,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -351,7 +347,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -368,7 +364,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -385,7 +381,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -402,7 +398,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -419,7 +415,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -436,7 +432,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -453,7 +449,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -470,14 +466,14 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="3" abnormalType="decrease_weight_penalty">
-				<add order="0x40" stat="maxLoad" val="9000" />
+				<add order="0x40" stat="weightPenalty" val="9000" />
 			</effect>
 		</for>
 	</skill>
@@ -487,7 +483,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -504,7 +500,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -521,7 +517,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -538,7 +534,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -555,7 +551,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -572,7 +568,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -589,7 +585,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -612,7 +608,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -628,7 +624,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -645,7 +641,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -661,7 +657,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -681,7 +677,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="600" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="78" />
 		<set name="mpConsume" val="1" />
 		<set name="mpInitialConsume" val="1" />
@@ -712,7 +708,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -741,7 +737,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -769,7 +765,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -832,6 +828,7 @@
 		</cond>
 	</skill>
 	<skill id="7068" levels="1" name="Test Steal Abnormal State">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -843,6 +840,7 @@
 		</cond>
 	</skill>
 	<skill id="7069" levels="1" name="Test Abnormal State DD">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -887,6 +885,7 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="7075" levels="1" name="Test - Distance DD">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
@@ -911,6 +910,7 @@
 		<set name="trait" val="SHOCK" />
 	</skill>
 	<skill id="7078" levels="1" name="Test - Blink">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -943,6 +943,7 @@
 		<set name="coolTime" val="800" />
 	</skill>
 	<skill id="7082" levels="1" name="Effect Test - Chain Lightning">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
@@ -950,16 +951,19 @@
 		<set name="hitTime" val="5000" />
 	</skill>
 	<skill id="7083" levels="1" name="Test - Trap Skill">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="7084" levels="1" name="Test - Trap Skill">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="CA1" />
 	</skill>
 	<skill id="7085" levels="1" name="Self-Destruct Explosion">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
@@ -971,6 +975,7 @@
 		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="7087" levels="1" name="Chain Magic - Dark Explosion_test">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A1" />
@@ -982,7 +987,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -1003,7 +1008,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -1024,7 +1029,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -1045,7 +1050,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -1066,7 +1071,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -1087,7 +1092,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
@@ -1150,7 +1155,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="2" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />

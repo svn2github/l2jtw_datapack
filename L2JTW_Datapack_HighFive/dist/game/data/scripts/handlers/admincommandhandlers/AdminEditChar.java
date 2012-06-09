@@ -782,13 +782,19 @@ public class AdminEditChar implements IAdminCommandHandler
 				player = activeChar;
 			}
 			else if (activeChar.getTarget() != null && activeChar.getTarget() instanceof L2PcInstance)
-				player = (L2PcInstance)activeChar.getTarget();
-			player.setNoble(!player.isNoble());
-			if (player.getObjectId() != activeChar.getObjectId())
 			{
-				activeChar.sendMessage("You've changed nobless status of: " + player.getName());
+				player = (L2PcInstance) activeChar.getTarget();
 			}
-			player.sendMessage("GM changed your nobless status!");
+			
+			if (player != null)
+			{
+				player.setNoble(!player.isNoble());
+				if (player.getObjectId() != activeChar.getObjectId())
+				{
+					activeChar.sendMessage("You've changed nobless status of: " + player.getName());
+				}
+				player.sendMessage("GM changed your nobless status!");
+			}
 		}
 		return true;
 	}
@@ -1250,12 +1256,12 @@ public class AdminEditChar implements IAdminCommandHandler
 	{
 		L2PcInstance[] players = L2World.getInstance().getAllPlayersArray();
 		
-		Map<String, List<L2PcInstance>> ipMap = new HashMap<String, List<L2PcInstance>>();
+		Map<String, List<L2PcInstance>> ipMap = new HashMap<>();
 		
 		String ip = "0.0.0.0";
 		L2GameClient client;
 		
-		final Map<String, Integer> dualboxIPs = new HashMap<String, Integer>();
+		final Map<String, Integer> dualboxIPs = new HashMap<>();
 		
 		for (L2PcInstance player : players)
 		{
@@ -1280,7 +1286,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			}
 		}
 		
-		List<String> keys = new ArrayList<String>(dualboxIPs.keySet());
+		List<String> keys = new ArrayList<>(dualboxIPs.keySet());
 		Collections.sort(keys, new Comparator<String>() {
 			@Override
 			public int compare(String left, String right)
@@ -1308,11 +1314,11 @@ public class AdminEditChar implements IAdminCommandHandler
 	{
 		L2PcInstance[] players = L2World.getInstance().getAllPlayersArray();
 		
-		Map<IpPack, List<L2PcInstance>> ipMap = new HashMap<IpPack, List<L2PcInstance>>();
+		Map<IpPack, List<L2PcInstance>> ipMap = new HashMap<>();
 		
 		L2GameClient client;
 		
-		final Map<IpPack, Integer> dualboxIPs = new HashMap<IpPack, Integer>();
+		final Map<IpPack, Integer> dualboxIPs = new HashMap<>();
 		
 		for (L2PcInstance player : players)
 		{
@@ -1337,7 +1343,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			}
 		}
 		
-		List<IpPack> keys = new ArrayList<IpPack>(dualboxIPs.keySet());
+		List<IpPack> keys = new ArrayList<>(dualboxIPs.keySet());
 		Collections.sort(keys, new Comparator<IpPack>() {
 			@Override
 			public int compare(IpPack left, IpPack right)
@@ -1476,7 +1482,7 @@ public class AdminEditChar implements IAdminCommandHandler
 	{
 		private final L2PcInstance _player;
 
-		private Untransform(L2PcInstance player)
+		protected Untransform(L2PcInstance player)
 		{
 			_player = player;
 		}

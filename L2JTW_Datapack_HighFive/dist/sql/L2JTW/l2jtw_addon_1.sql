@@ -105,7 +105,8 @@ REPLACE INTO `grandboss_data` VALUES
 (29068, 185708, 114298, -8221,32768, 0, 204677324.07859, 3996000, 0), -- 安塔瑞斯 強壯 (85)
 (29045, 0, 0, 0, 0, 0, 1018821.42723286, 52001.06567747795, 0), -- 芙琳泰沙 (85)
 (29065, -123348, -248881, -15537, 44732, 0, 1532678, 4255, 0), -- 賽爾蘭
-(29099, 153569, 142075, -12732, 60025, 0, 1448567, 3718, 0);   -- 巴爾勒
+(29099, 153569, 142075, -12732, 60025, 0, 1448567, 3718, 0), -- 巴爾勒
+(29118, 0, 0, 0, 0, 0, 4109288, 1220547, 0); -- 巴列斯 (83)
 
 -- 修正賽爾蘭/巴爾勒
 UPDATE `npc` SET `hp` = '1532678', `mp` = '4255', `type` = 'L2GrandBoss', `level` = '87' WHERE `id` IN (29065);
@@ -162,8 +163,8 @@ DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30992,30993,30994);
 
 -- 刪除其中一隻轉職管理員(不定時改刪另一個)
--- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
 -- 聖翼使命的斗篷改為通用,不再分重/輕/法/闇天使
 DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,13891,13892,14601,14602,14608,14610); -- 刪除輕/法/闇天使的斗篷的販賣

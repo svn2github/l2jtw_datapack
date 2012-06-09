@@ -49,7 +49,7 @@ public class Shadai extends Quest
 		return super.onSpawn(npc);
 	}
 	
-	private static void validatePosition(L2Npc npc)
+	protected static void validatePosition(L2Npc npc)
 	{
 		int[] coords = DAY_COORDS;
 		boolean mustRevalidate = false;

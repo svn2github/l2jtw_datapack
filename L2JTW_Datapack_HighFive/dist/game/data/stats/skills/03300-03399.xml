@@ -4,7 +4,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="runSpd" val="5" />
@@ -14,7 +13,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="pAtkSpd" val="10" />
@@ -24,7 +22,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="mAtkSpd" val="8" />
@@ -34,7 +31,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="bleedVuln" val="10" />
@@ -44,7 +40,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="sleepVuln" val="10" />
@@ -54,7 +49,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="stunVuln" val="10" />
@@ -64,7 +58,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="derangementVuln" val="10" />
@@ -74,7 +67,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="paralyzeVuln" val="10" />
@@ -84,7 +76,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="rootVuln" val="10" />
@@ -92,7 +83,6 @@
 	</skill>
 	<skill id="3309" levels="1" name="White Talisman of Protection">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="cancelVuln" val="100" />
@@ -102,7 +92,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="regHp" val="1.03" />
@@ -112,7 +101,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="regCp" val="1.03" />
@@ -122,7 +110,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="bonusHp" val="40" />
@@ -132,7 +119,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="runSpd" val="3" />
@@ -144,10 +130,9 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<mul order="0x30" stat="maxLoad" val="1.1" />
+			<mul order="0x30" stat="weightLimit" val="1.1" />
 		</for>
 	</skill>
 	<skill id="3315" levels="1" name="Grey Talisman of Fishing">
@@ -168,7 +153,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="critDamEvas" val="1.03" />
@@ -178,7 +162,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="critAddVuln" val="100" />
@@ -186,17 +169,16 @@
 	</skill>
 	<skill id="3318" levels="1" name="Flag Display">
 		<!-- Flag Skill -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_FLAGPOLE" />
 		<set name="hitTime" val="180000" />
 		<set name="reuseDelay" val="5000" />
-		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="TAKEFORT" />
 		<set name="operateType" val="CA1" />
 	</skill>
 	<skill id="3319" levels="1" name="Divine Protection of Ring">
 		<set name="magicLvl" val="86" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<sub order="0x40" stat="gustVuln" val="100" />
@@ -206,7 +188,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="55" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="regMp" val="1.03" />
@@ -217,7 +198,7 @@
 		<set name="aggroPoints" val="379" />
 		<set name="equipDelay" val="30000" />
 		<set name="hitTime" val="4000" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="40" />
 		<set name="mpConsume" val="14" />
 		<set name="mpInitialConsume" val="4" />
@@ -236,7 +217,6 @@
 	</skill>
 	<skill id="3322" levels="1" name="Brass Bracelet">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<set order="0x50" stat="talisman" val="1" />
@@ -244,7 +224,6 @@
 	</skill>
 	<skill id="3323" levels="1" name="Bronze Bracelet">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<set order="0x50" stat="talisman" val="2" />
@@ -252,7 +231,6 @@
 	</skill>
 	<skill id="3324" levels="1" name="Steel Bracelet">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<set order="0x50" stat="talisman" val="3" />
@@ -260,7 +238,6 @@
 	</skill>
 	<skill id="3325" levels="1" name="Mithril Bracelet">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<set order="0x50" stat="talisman" val="4" />
@@ -268,7 +245,6 @@
 	</skill>
 	<skill id="3326" levels="1" name="Jewelry Bracelet">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<set order="0x50" stat="talisman" val="5" />
@@ -276,7 +252,6 @@
 	</skill>
 	<skill id="3327" levels="1" name="Oriharukon Bracelet">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<set order="0x50" stat="talisman" val="6" />
@@ -342,6 +317,7 @@
 	</skill>
 	<skill id="3332" levels="1" name="Orange Talisman - Hot Springs Recovery">
 		<!-- Confirmed CT2.5 -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="create_item_count" val="1" />
 		<set name="create_item_id" val="10166" />
 		<set name="equipDelay" val="30000" />
@@ -364,6 +340,7 @@
 	</skill>
 	<skill id="3333" levels="1" name="Orange Talisman - A Grade Elixir of Life">
 		<!-- Confirmed CT2.5 -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="create_item_count" val="1" />
 		<set name="create_item_id" val="8626" />
 		<set name="equipDelay" val="30000" />
@@ -385,6 +362,7 @@
 	</skill>
 	<skill id="3334" levels="1" name="Orange Talisman - A Grade Elixir of Mental Strength">
 		<!-- Confirmed CT2.5 -->
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="create_item_count" val="1" />
 		<set name="create_item_id" val="8632" />
 		<set name="equipDelay" val="30000" />
@@ -406,6 +384,7 @@
 		</cond>
 	</skill>
 	<skill id="3335" levels="1" name="Transform Yeti">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
@@ -420,6 +399,7 @@
 		</for>
 	</skill>
 	<skill id="3336" levels="1" name="Transform Buffalo">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
@@ -434,6 +414,7 @@
 		</for>
 	</skill>
 	<skill id="3337" levels="1" name="Transform Cutie Pig">
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="reuseDelay" val="600000" />
@@ -599,7 +580,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pDef" val="1.054" /> <!-- P. Def. +5.4% -->
@@ -614,7 +594,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtk" val="1.054" /> <!-- P. Atk +5.4% -->
@@ -629,7 +608,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtk" val="1.054" /> <!-- P. Atk. +5.4% -->
@@ -643,7 +621,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pDef" val="1.054" /> <!-- P. Def. +5.4% -->
@@ -657,7 +634,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="rEvas" val="4.3" /> <!-- Evasion +4.3 -->
@@ -672,7 +648,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="accCombat" val="4.3" /> <!-- Accuracy +4.3 -->
@@ -687,7 +662,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="1.15" /> <!-- Casting Spd. +15% -->
@@ -702,7 +676,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="1.15" /> <!-- Casting Spd. +15% -->
@@ -717,7 +690,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="1.15" /> <!-- Casting Spd. +15% -->
@@ -732,7 +704,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="1.15" /> <!-- Casting Spd. +15% -->
@@ -747,7 +718,6 @@
 		<!-- Flag Skill -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="runSpd" val="0.2" />
@@ -761,7 +731,7 @@
 	<skill id="3359" levels="1" name="Transform Native">
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
-		<set name="isMagic" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="56" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -778,7 +748,6 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="99" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.88" />
@@ -786,10 +755,10 @@
 		</for>
 	</skill>
 	<skill id="3361" levels="1" name="Summon Agathion - Fortress">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
-		<set name="staticHitTime" val="true" />
 		<set name="operateType" val="A1" />
 		<set name="npcId" val="16029" />
 	</skill>
@@ -810,7 +779,6 @@
 	</skill>
 	<skill id="3365" levels="1" name="Dynasty Resistance Necklace">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="stunVuln" val="18" /> <!-- Stun Resistance +18 -->
@@ -818,7 +786,6 @@
 	</skill>
 	<skill id="3366" levels="1" name="Dynasty Resistance Ring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="stunVuln" val="8" /> <!-- Stun Resistance +8 -->
@@ -826,7 +793,6 @@
 	</skill>
 	<skill id="3367" levels="1" name="Dynasty Resistance Earring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="stunVuln" val="12" /> <!-- Stun Resistance +12 -->
@@ -849,7 +815,6 @@
 	</skill>
 	<skill id="3371" levels="1" name="Dynasty Resistance Necklace">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="bleedVuln" val="11" /> <!-- Bleed Resistance +11 -->
@@ -857,7 +822,6 @@
 	</skill>
 	<skill id="3372" levels="1" name="Dynasty Resistance Ring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="bleedVuln" val="5" /> <!-- Bleed Resistance +5 -->
@@ -865,7 +829,6 @@
 	</skill>
 	<skill id="3373" levels="1" name="Dynasty Resistance Earring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="bleedVuln" val="8" /> <!-- Bleed Resistance +8 -->
@@ -888,7 +851,6 @@
 	</skill>
 	<skill id="3377" levels="1" name="Dynasty Resistance Necklace">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="poisonVuln" val="16" /> <!-- Poison Resistance +16 -->
@@ -896,7 +858,6 @@
 	</skill>
 	<skill id="3378" levels="1" name="Dynasty Resistance Ring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="poisonVuln" val="7" /> <!-- Poison Resistance +7 -->
@@ -904,7 +865,6 @@
 	</skill>
 	<skill id="3379" levels="1" name="Dynasty Resistance Earring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="poisonVuln" val="11" /> <!-- Poison Resistance +11 -->
@@ -927,7 +887,6 @@
 	</skill>
 	<skill id="3383" levels="1" name="Dynasty Resistance Necklace">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="paralyzeVuln" val="9" /> <!-- Paralysis Resistance +9 -->
@@ -935,7 +894,6 @@
 	</skill>
 	<skill id="3384" levels="1" name="Dynasty Resistance Ring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="paralyzeVuln" val="4" /> <!-- Paralysis Resistance +4 -->
@@ -943,7 +901,6 @@
 	</skill>
 	<skill id="3385" levels="1" name="Dynasty Resistance Earring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="paralyzeVuln" val="6" /> <!-- Paralysis Resistance +6 -->
@@ -966,7 +923,6 @@
 	</skill>
 	<skill id="3389" levels="1" name="Dynasty Resistance Necklace">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="rootVuln" val="18" /> <!-- Hold Resistance +18 -->
@@ -974,7 +930,6 @@
 	</skill>
 	<skill id="3390" levels="1" name="Dynasty Resistance Ring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="rootVuln" val="8" /> <!-- Hold Resistance +8 -->
@@ -982,7 +937,6 @@
 	</skill>
 	<skill id="3391" levels="1" name="Dynasty Resistance Earring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="rootVuln" val="12" /> <!-- Hold Resistance +12 -->
@@ -1005,7 +959,6 @@
 	</skill>
 	<skill id="3395" levels="1" name="Dynasty Resistance Necklace">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="sleepVuln" val="18" /> <!-- Sleep Resistance +18 -->
@@ -1013,7 +966,6 @@
 	</skill>
 	<skill id="3396" levels="1" name="Dynasty Resistance Ring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="sleepVuln" val="8" /> <!-- Sleep Resistance +8 -->
@@ -1021,7 +973,6 @@
 	</skill>
 	<skill id="3397" levels="1" name="Dynasty Resistance Earring">
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
 			<sub order="0x40" stat="sleepVuln" val="12" /> <!-- Sleep Resistance +12 -->

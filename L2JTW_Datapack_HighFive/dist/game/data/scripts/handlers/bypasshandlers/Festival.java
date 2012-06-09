@@ -52,7 +52,6 @@ public class Festival implements IBypassHandler
 		}
 		
 		final L2FestivalGuideInstance npc = (L2FestivalGuideInstance) target;
-		
 		try
 		{
 			final int val;
@@ -244,7 +243,7 @@ public class Festival implements IBypassHandler
 						strBuffer.append(MessageTable.Messages[1937].getMessage() +"<br>");
 					}
 					
-					if (overallScore > 0)
+					if ((overallScore > 0) && (overallData != null))
 					{
 						final String cabalStr;
 						if (overallData.getString("cabal").equals("dawn"))
