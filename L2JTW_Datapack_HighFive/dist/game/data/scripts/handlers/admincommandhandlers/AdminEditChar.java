@@ -1470,7 +1470,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			else
 				text.append("<tr><td><table width=270 border=0 cellpadding=2><tr><td width=30 align=right>");
 			text.append(member.getLevel() +"</td><td width=130><a action=\"bypass -h admin_character_info " +member.getName()+"\">"+member.getName()+"</a>");
-			text.append("</td><td width=110 align=right>"+member.getClassId().toString()+"</td></tr></table></td></tr>");
+			text.append("</td><td width=110 align=right>"+ClassListData.getInstance().getClass(member.getClassId()).getClassName()+"</td></tr></table></td></tr>"); //Update by rocknow (Class Name)
 			color = !color;
 		}
 		html.replace("%player%", target.getName());

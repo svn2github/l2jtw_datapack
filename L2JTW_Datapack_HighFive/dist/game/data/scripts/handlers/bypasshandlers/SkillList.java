@@ -28,6 +28,7 @@ import com.l2jserver.gameserver.model.base.ClassId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.ClassListData; //Update by rocknow (Class Name)
 
 public class SkillList implements IBypassHandler
 {
@@ -72,7 +73,7 @@ public class SkillList implements IBypassHandler
 					if (!own_class)
 					{
 						String charType = activeChar.getClassId().isMage() ? MessageTable.Messages[1062].getMessage() : MessageTable.Messages[1063].getMessage();
-						text +=	MessageTable.Messages[1064].getMessage() +"<br>"+ MessageTable.Messages[1065].getMessage() +"<br>"+	MessageTable.Messages[1066].getMessage() +"<br>"+ MessageTable.Messages[1067].getMessage() + charType + MessageTable.Messages[1068].getMessage() +"<br>";
+						text += MessageTable.Messages[1064].getMessage() +"<br>"+ MessageTable.Messages[1065].getMessage() +"<br>"+ MessageTable.Messages[1066].getMessage() +"<br>"+ MessageTable.Messages[1067].getMessage() + charType + MessageTable.Messages[1068].getMessage() +"<br>";
 					}
 					
 					// make a list of classes
@@ -95,7 +96,7 @@ public class SkillList implements IBypassHandler
 									continue;
 								}
 								
-								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">"+ MessageTable.Messages[1069].getExtra(1) + cid + MessageTable.Messages[1069].getExtra(2) +"</a><br>\n"; //Update by rocknow
+								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">"+ MessageTable.Messages[1069].getExtra(1) + ClassListData.getInstance().getClass(cid.getId()).getClassName() + MessageTable.Messages[1069].getExtra(2) +"</a><br>\n"; //Update by rocknow (Class Name)
 								count++;
 							}
 							classCheck = classCheck.getParent();
