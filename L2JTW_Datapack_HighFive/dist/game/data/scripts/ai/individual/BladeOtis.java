@@ -27,7 +27,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.util.Rnd;
 
 /**
- * ¥d¯Ç´µ ¤M¤b ¶ø­}¥q
+ * ï¿½dï¿½Ç´ï¿½ ï¿½Mï¿½b ï¿½ï¿½}ï¿½q
  * @author InsOmnia
  */
 
@@ -35,8 +35,8 @@ public class BladeOtis extends L2AttackableAIScript
 {
 	private static final int BLADEO = 18562;
 	private static final int GUARD = 18563;
-	private TIntObjectHashMap<Integer> _guardSpawns = new TIntObjectHashMap<Integer>();
-	private FastMap<L2Npc, L2Npc> _guardMaster = new FastMap<L2Npc, L2Npc>();
+	private TIntObjectHashMap<Integer> _guardSpawns = new TIntObjectHashMap<>();
+	private FastMap<L2Npc, L2Npc> _guardMaster = new FastMap<>();
 	public BladeOtis(int questId, String name, String descr)
 	{
 		super(questId, name, descr);

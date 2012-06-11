@@ -33,7 +33,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.util.Rnd;
 
 /**
- * ¶Ä§L¶¤ªø
+ * ï¿½Ä§Lï¿½ï¿½ï¿½ï¿½
  * @author mrTJO
  * Mercenary Broadcast in the city a random message every hour
  * at hh:55 (Real time) * 
@@ -51,7 +51,7 @@ public class MercenaryCaptain extends Quest
 	private static final int CAPTAIN_RUNE       = 36488;  // Rune
 	private static final int CAPTAIN_SCHUTTGART = 36489;  // Schuttgart
 
-	List<L2Npc> _npcs = new FastList<L2Npc>();
+	List<L2Npc> _npcs = new FastList<>();
 
 	private static final NpcStringId[] dlog = 
 	{

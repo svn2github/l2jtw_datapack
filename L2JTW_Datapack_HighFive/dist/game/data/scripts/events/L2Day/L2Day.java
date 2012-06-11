@@ -34,11 +34,11 @@ public class L2Day extends Quest
 {
 	private static final String EVENT_DATE = "28 08 2011-05 10 2011";   // Change date as you want
 	private static final DateRange EVENT_DATES = DateRange.parse(EVENT_DATE, new SimpleDateFormat("dd MM yyyy", Locale.US));
-	private static final String[] EVENT_ANNOUNCE = {"L2Day-¶°¦r«Ê¦L®uµY¶A©G¬¡°Ê"};
+	private static final String[] EVENT_ANNOUNCE = {"L2Day-ï¿½ï¿½ï¿½rï¿½Ê¦Lï¿½uï¿½Yï¿½Aï¿½Gï¿½ï¿½ï¿½ï¿½"};
 	private static final Date EndDate = EVENT_DATES.getEndDate();
 	private static final Date currentDate = new Date();
 	
-	//Items A¡BC¡BE¡BF¡BG¡BI¡BL¡BN¡BO¡BS¡BT¡BII
+	//Items Aï¿½BCï¿½BEï¿½BFï¿½BGï¿½BIï¿½BLï¿½BNï¿½BOï¿½BSï¿½BTï¿½BII
 	private final static int letterA  = 3875;
 	private final static int letterC  = 3876;
 	private final static int letterE  = 3877;
@@ -65,7 +65,7 @@ public class L2Day extends Quest
 	
 	private final static int EventNPC = 4313;
 	
-	private static List<L2Npc> eventManagers = new ArrayList<L2Npc>();
+	private static List<L2Npc> eventManagers = new ArrayList<>();
 	
 	private static boolean L2DayEvent = false;
 	
@@ -87,7 +87,7 @@ public class L2Day extends Quest
 		
 		if (L2DayEvent)
 		{
-			_log.info("L2Day-¶°¦r«Ê¦L®uµY¶A©G¬¡°Ê - ON");
+			_log.info("L2Day-ï¿½ï¿½ï¿½rï¿½Ê¦Lï¿½uï¿½Yï¿½Aï¿½Gï¿½ï¿½ï¿½ï¿½ - ON");
 			
 			for (int i = 0; i < EventSpawnX.length; i++)
 			{
@@ -97,7 +97,7 @@ public class L2Day extends Quest
 		}
 		else
 		{
-			_log.info("L2Day-¶°¦r«Ê¦L®uµY¶A©G¬¡°Ê - OFF");
+			_log.info("L2Day-ï¿½ï¿½ï¿½rï¿½Ê¦Lï¿½uï¿½Yï¿½Aï¿½Gï¿½ï¿½ï¿½ï¿½ - OFF");
 			
 			Calendar endWeek = Calendar.getInstance();
 			endWeek.setTime(EndDate);
@@ -134,8 +134,8 @@ public class L2Day extends Quest
 				if (!L2DayEvent && Event1)
 				{
 					L2DayEvent = true;
-					_log.info("L2Day-¶°¦r«Ê¦L®uµY¶A©G¬¡°Ê - ON");
-					Announcements.getInstance().announceToAll("L2Day-¶°¦r«Ê¦L®uµY¶A©G¬¡°Ê¡A½Ð¨ì¦U§ø²ø«°Âí§ä-¤å¦r¦¬ÂÃ®a¡u¤Ñ¨Ï¿ß¡v");
+					_log.info("L2Day-ï¿½ï¿½ï¿½rï¿½Ê¦Lï¿½uï¿½Yï¿½Aï¿½Gï¿½ï¿½ï¿½ï¿½ - ON");
+					Announcements.getInstance().announceToAll("L2Day-ï¿½ï¿½ï¿½rï¿½Ê¦Lï¿½uï¿½Yï¿½Aï¿½Gï¿½ï¿½ï¿½Ê¡Aï¿½Ð¨ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½rï¿½ï¿½ï¿½Ã®aï¿½uï¿½Ñ¨Ï¿ß¡v");
 					
 					for (int i = 0; i < EventSpawnX.length; i++)
 					{
@@ -146,7 +146,7 @@ public class L2Day extends Quest
 				else if (L2DayEvent && !Event1)
 				{
 					L2DayEvent = false;
-					_log.info("L2Day-¶°¦r«Ê¦L®uµY¶A©G¬¡°Ê - OFF");
+					_log.info("L2Day-ï¿½ï¿½ï¿½rï¿½Ê¦Lï¿½uï¿½Yï¿½Aï¿½Gï¿½ï¿½ï¿½ï¿½ - OFF");
 					for (L2Npc eventManager : eventManagers)
 					{
 						eventManager.deleteMe();
@@ -177,73 +177,73 @@ public class L2Day extends Quest
 				prize = Rnd.get(1000);
 				
 				/**
-				 * ¼ú«~¸ê®Æ¨Ó·½ http://lineage2.plaync.com.tw/Event/event/110902/event4.asp
-				 * ¦¬¶°¨ì¡uLINEAGEII¡v¡A´N¥i±o¨ì¤U¦C¼ú«~¤§¤@¡G
-				 * - ¤Ú·Å§Ù«ü
-				 * - Á¡¼ÇªZ¾¹
-				 * - ·j»î¥Û-¶¥¬q14~16
-				 * - L2Day-¯¬ºÖªº´_¬¡¨÷¶b2±i
-				 * - L2Day-¯¬ºÖªºªð¦^¨÷¶b2±i
-				 * - ¶W±j¤OÀþ¶¡Åé¤OªvÂ¡ÃÄ¤ô5­Ó
-				 * - ¤å¦r¦¬ÂÃ®aªºÂ§ª«
+				 * ï¿½ï¿½~ï¿½ï¿½Æ¨Ó·ï¿½ http://lineage2.plaync.com.tw/Event/event/110902/event4.asp
+				 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uLINEAGEIIï¿½vï¿½Aï¿½Nï¿½iï¿½oï¿½ï¿½Uï¿½Cï¿½ï¿½~ï¿½ï¿½ï¿½@ï¿½G
+				 * - ï¿½Ú·Å§Ù«ï¿½
+				 * - ï¿½ï¿½ï¿½ÇªZï¿½ï¿½
+				 * - ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q14~16
+				 * - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½b2ï¿½i
+				 * - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½b2ï¿½i
+				 * - ï¿½Wï¿½jï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½vÂ¡ï¿½Ä¤ï¿½5ï¿½ï¿½
+				 * - ï¿½ï¿½rï¿½ï¿½ï¿½Ã®aï¿½ï¿½Â§ï¿½ï¿½
 				 */
 				
 				if (prize <= 5)
-					st.giveItems(6658,1);  // 1 - ¤Ú·Å§Ù«ü
+					st.giveItems(6658,1);  // 1 - ï¿½Ú·Å§Ù«ï¿½
 				else if (prize <= 10)
-					st.giveItems(52,1);    // 1 - Á¡¼ÇÂù¤M
+					st.giveItems(52,1);    // 1 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½M
 				else if (prize <= 10)
-					st.giveItems(13457,1); // 1 - Á¡¼Ç¤Á¤b
+					st.giveItems(13457,1); // 1 - ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½b
 				else if (prize <= 10)
-					st.giveItems(13458,1); // 1 - Á¡¼Ç±þ¤b
+					st.giveItems(13458,1); // 1 - ï¿½ï¿½ï¿½Ç±ï¿½ï¿½b
 				else if (prize <= 10)
-					st.giveItems(13459,1); // 1 - Á¡¼ÇÃz¤b
+					st.giveItems(13459,1); // 1 - ï¿½ï¿½ï¿½ï¿½ï¿½zï¿½b
 				else if (prize <= 10)
-					st.giveItems(13460,1); // 1 - Á¡¼Ç¹^¤M
+					st.giveItems(13460,1); // 1 - ï¿½ï¿½ï¿½Ç¹^ï¿½M
 				else if (prize <= 10)
-					st.giveItems(13461,1); // 1 - Á¡¼Ç¾Ô¤ö
+					st.giveItems(13461,1); // 1 - ï¿½ï¿½ï¿½Ç¾Ô¤ï¿½
 				else if (prize <= 10)
-					st.giveItems(13462,1); // 1 - Á¡¼Ç­·¼ÉªÌ
+					st.giveItems(13462,1); // 1 - ï¿½ï¿½ï¿½Ç­ï¿½ï¿½Éªï¿½
 				else if (prize <= 10)
-					st.giveItems(13463,1); // 1 - Á¡¼Ç´_¤³ªÌ
+					st.giveItems(13463,1); // 1 - ï¿½ï¿½ï¿½Ç´_ï¿½ï¿½ï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(13464,1); // 1 - Á¡¼Ç³ø«ëªÌ
+					st.giveItems(13464,1); // 1 - ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(13465,1); // 1 - Á¡¼Ç³N§ú
+					st.giveItems(13465,1); // 1 - ï¿½ï¿½ï¿½Ç³Nï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(13466,1); // 1 - Á¡¼Ç¸Ö§ú
+					st.giveItems(13466,1); // 1 - ï¿½ï¿½ï¿½Ç¸Ö§ï¿½
 				else if (prize <= 10)
-					st.giveItems(13467,1); // 1 - Á¡¼Ç§ë¤}
+					st.giveItems(13467,1); // 1 - ï¿½ï¿½ï¿½Ç§ï¿½}
 				else if (prize <= 10)
-					st.giveItems(13468,1); // 1 - Á¡¼Çîg°w
+					st.giveItems(13468,1); // 1 - ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½w
 				else if (prize <= 10)
-					st.giveItems(13884,1); // 1 - Á¡¼ÇÂù¤P­º
+					st.giveItems(13884,1); // 1 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½
 				else if (prize <= 50)
-					st.giveItems(13071,1); // 1 - ¬õ¦â·j»î¥Û-¶¥¬q16
+					st.giveItems(13071,1); // 1 - ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q16
 				else if (prize <= 50)
-					st.giveItems(13072,1); // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q16
+					st.giveItems(13072,1); // 1 - ï¿½Å¦ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q16
 				else if (prize <= 50)
-					st.giveItems(13073,1); // 1 - ºñ¦â·j»î¥Û-¶¥¬q16
+					st.giveItems(13073,1); // 1 - ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q16
 				else if (prize <= 100)
-					st.giveItems(10480,1); // 1 - ¬õ¦â·j»î¥Û-¶¥¬q15
+					st.giveItems(10480,1); // 1 - ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q15
 				else if (prize <= 100)
-					st.giveItems(10481,1); // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q15
+					st.giveItems(10481,1); // 1 - ï¿½Å¦ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q15
 				else if (prize <= 100)
-					st.giveItems(10482,1); // 1 - ºñ¦â·j»î¥Û-¶¥¬q15
+					st.giveItems(10482,1); // 1 - ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q15
 				else if (prize <= 200)
-					st.giveItems(9570,1);  // 1 - ¬õ¦â·j»î¥Û-¶¥¬q14
+					st.giveItems(9570,1);  // 1 - ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q14
 				else if (prize <= 200)
-					st.giveItems(9571,1);  // 1 - ÂÅ¦â·j»î¥Û-¶¥¬q14
+					st.giveItems(9571,1);  // 1 - ï¿½Å¦ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q14
 				else if (prize <= 200)
-					st.giveItems(9572,1);  // 1 - ºñ¦â·j»î¥Û-¶¥¬q14
+					st.giveItems(9572,1);  // 1 - ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½q14
 				else if (prize <= 350)
-					st.giveItems(3959,1);  // 1 - L2Day-¯¬ºÖªº´_¬¡¨÷¶b2±i
+					st.giveItems(3959,1);  // 1 - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½b2ï¿½i
 				else if (prize <= 400)
-					st.giveItems(3958,1);  // 1 - L2Day-¯¬ºÖªºªð¦^¨÷¶b2±i
+					st.giveItems(3958,1);  // 1 - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½b2ï¿½i
 				else if (prize <= 500)
-					st.giveItems(21730,1); // 1 - ¤å¦r¦¬ÂÃ®aªºÂ§ª«
+					st.giveItems(21730,1); // 1 - ï¿½ï¿½rï¿½ï¿½ï¿½Ã®aï¿½ï¿½Â§ï¿½ï¿½
 				else
-					st.giveItems(14701,5); // 5 - ¶W±j¤OÀþ¶¡Åé¤OªvÂ¡ÃÄ¤ô5­Ó
+					st.giveItems(14701,5); // 5 - ï¿½Wï¿½jï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½vÂ¡ï¿½Ä¤ï¿½5ï¿½ï¿½
 			}
 			else
 				htmltext = "4313-03.htm";
@@ -269,72 +269,72 @@ public class L2Day extends Quest
 				prize = Rnd.get(1000);
 				
 				/**
-				 * ¦¬¶°¨ì¡uNCSOFT¡v¡A´N¥i±o¨ì¤U¦C¼ú«~¤§¤@¡G
-				 * - ¥¨ÃÆ¤k¤ý§Ù«ü
-				 * - Á¡¼Ç¨¾¨ã
-				 * - ÄÝ©Ê¤ô´¹
-				 * - L2Day-¯¬ºÖªº´_¬¡¨÷¶b2±i
-				 * - L2Day-¯¬ºÖªºªð¦^¨÷¶b2±i
-				 * - ¶W±j¤OÀþ¶¡Åé¤OªvÂ¡ÃÄ¤ô5­Ó
-				 * - ¤å¦r¦¬ÂÃ®aªºÂ§ª«
+				 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uNCSOFTï¿½vï¿½Aï¿½Nï¿½iï¿½oï¿½ï¿½Uï¿½Cï¿½ï¿½~ï¿½ï¿½ï¿½@ï¿½G
+				 * - ï¿½ï¿½ï¿½Æ¤kï¿½ï¿½Ù«ï¿½
+				 * - ï¿½ï¿½ï¿½Ç¨ï¿½ï¿½ï¿½
+				 * - ï¿½Ý©Ê¤ï¿½ï¿½ï¿½
+				 * - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½b2ï¿½i
+				 * - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½b2ï¿½i
+				 * - ï¿½Wï¿½jï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½vÂ¡ï¿½Ä¤ï¿½5ï¿½ï¿½
+				 * - ï¿½ï¿½rï¿½ï¿½ï¿½Ã®aï¿½ï¿½Â§ï¿½ï¿½
 				 */
 				
 				if (prize <= 5)
-					st.giveItems(6660,1);  // 1 - ¥¨ÃÆ¤k¤ý§Ù«ü
+					st.giveItems(6660,1);  // 1 - ï¿½ï¿½ï¿½Æ¤kï¿½ï¿½Ù«ï¿½
 				else if (prize <= 10)
-					st.giveItems(13143,1); // 1 - «Ê¦LªºÁ¡¼ÇÀY²¯
+					st.giveItems(13143,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(13144,1); // 1 - «Ê¦LªºÁ¡¼Ç¥ÖÀY²¯
+					st.giveItems(13144,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½Yï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(13145,1); // 1 - «Ê¦LªºÁ¡¼ÇÀYãT
+					st.giveItems(13145,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½T
 				else if (prize <= 10)
-					st.giveItems(14105,1); // 1 - «Ê¦LªºÁ¡¼Ç¯Ý¥Ò
+					st.giveItems(14105,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¯Ý¥ï¿½
 				else if (prize <= 10)
-					st.giveItems(14106,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö¯Ý¥Ò
+					st.giveItems(14106,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¥Ö¯Ý¥ï¿½
 				else if (prize <= 10)
-					st.giveItems(14107,1); // 1 - «Ê¦LªºÁ¡¼Ç¥~¦ç
+					st.giveItems(14107,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¥~ï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(14108,1); // 1 - «Ê¦LªºÁ¡¼Ç×H¥Ò
+					st.giveItems(14108,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(14109,1); // 1 - «Ê¦LªºÁ¡¼ÇÅ@¤â
+					st.giveItems(14109,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(14110,1); // 1 - «Ê¦LªºÁ¡¼Ç¹u
+					st.giveItems(14110,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¹u
 				else if (prize <= 10)
-					st.giveItems(14112,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö×H¥Ò
+					st.giveItems(14112,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½Hï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(14113,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö¤â®M
+					st.giveItems(14113,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¥Ö¤ï¿½M
 				else if (prize <= 10)
-					st.giveItems(14114,1); // 1 - «Ê¦LªºÁ¡¼Ç¥Ö¹u
+					st.giveItems(14114,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¥Ö¹u
 				else if (prize <= 10)
-					st.giveItems(14115,1); // 1 - «Ê¦LªºÁ¡¼ÇªøÄû
+					st.giveItems(14115,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½
 				else if (prize <= 10)
-					st.giveItems(14116,1); // 1 - «Ê¦LªºÁ¡¼Ç¤â®M
+					st.giveItems(14116,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½M
 				else if (prize <= 10)
-					st.giveItems(14117,1); // 1 - «Ê¦LªºÁ¡¼Ç¾c
+					st.giveItems(14117,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç¾c
 				else if (prize <= 10)
-					st.giveItems(13887,1); // 1 - «Ê¦LªºÁ¡¼Ç²Å¦L
+					st.giveItems(13887,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç²Å¦L
 				else if (prize <= 10)
-					st.giveItems(14111,1); // 1 - «Ê¦LªºÁ¡¼Ç½Ã¬Þ
+					st.giveItems(14111,1); // 1 - ï¿½Ê¦Lï¿½ï¿½ï¿½ï¿½ï¿½Ç½Ã¬ï¿½
 				else if (prize <= 125)
-					st.giveItems(9552,1);  // 1 - ¤õ¤§¤ô´¹
+					st.giveItems(9552,1);  // 1 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				else if (prize <= 125)
-					st.giveItems(9553,1);  // 1 - ¤ô¤§¤ô´¹
+					st.giveItems(9553,1);  // 1 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				else if (prize <= 125)
-					st.giveItems(9554,1);  // 1 - ¦a¤§¤ô´¹
+					st.giveItems(9554,1);  // 1 - ï¿½aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				else if (prize <= 125)
-					st.giveItems(9555,1);  // 1 - ­·¤§¤ô´¹
+					st.giveItems(9555,1);  // 1 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				else if (prize <= 125)
-					st.giveItems(9556,1);  // 1 - ·t¤§¤ô´¹
+					st.giveItems(9556,1);  // 1 - ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				else if (prize <= 125)
-					st.giveItems(9557,1);  // 1 - ¸t¤§¤ô´¹
+					st.giveItems(9557,1);  // 1 - ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				else if (prize <= 350)
-					st.giveItems(3959,2);  // 2 - L2Day-¯¬ºÖªº´_¬¡¨÷¶b2±i
+					st.giveItems(3959,2);  // 2 - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½b2ï¿½i
 				else if (prize <= 400)
-					st.giveItems(3958,2);  // 2 - L2Day-¯¬ºÖªºªð¦^¨÷¶b2±i
+					st.giveItems(3958,2);  // 2 - L2Day-ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½b2ï¿½i
 				else if (prize <= 500)
-					st.giveItems(21730,1); // 1 - ¤å¦r¦¬ÂÃ®aªºÂ§ª«
+					st.giveItems(21730,1); // 1 - ï¿½ï¿½rï¿½ï¿½ï¿½Ã®aï¿½ï¿½Â§ï¿½ï¿½
 				else
-					st.giveItems(14701,5); // 5 - ¶W±j¤OÀþ¶¡Åé¤OªvÂ¡ÃÄ¤ô5­Ó
+					st.giveItems(14701,5); // 5 - ï¿½Wï¿½jï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½vÂ¡ï¿½Ä¤ï¿½5ï¿½ï¿½
 			}
 			else
 				htmltext =  "4313-03.htm";

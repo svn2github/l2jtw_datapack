@@ -180,10 +180,10 @@ public class SavingSanta extends Quest
 	private static boolean _isSantaFree = true;
 	private static boolean _isJackPot = false;
 	private static boolean _isWaitingForPlayerSkill = false;
-	private static List<L2Npc> _santaHelpers = new ArrayList<L2Npc>();
-	private static List<L2Npc> _specialTrees = new ArrayList<L2Npc>();
-	private final Map<String, Long> _rewardedPlayers = new FastMap<String, Long>();
-	private final Map<String, Long> _blessedPlayers = new FastMap<String, Long>();
+	private static List<L2Npc> _santaHelpers = new ArrayList<>();
+	private static List<L2Npc> _specialTrees = new ArrayList<>();
+	private final Map<String, Long> _rewardedPlayers = new FastMap<>();
+	private final Map<String, Long> _blessedPlayers = new FastMap<>();
 	
 	private final NpcStringId[] _npcStringIds =
 	{

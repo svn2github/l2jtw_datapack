@@ -26,7 +26,7 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
 /**
- * ¦uªù¤HíL«Í
+ * ï¿½uï¿½ï¿½Hï¿½Lï¿½ï¿½
  */
 public class ZombieGatekeepers extends L2AttackableAIScript
 {
@@ -37,7 +37,7 @@ public class ZombieGatekeepers extends L2AttackableAIScript
 		super.addAggroRangeEnterId(22136);
 	}
 
-	private FastMap<Integer, FastList<L2Character>> _attackersList = new FastMap<Integer, FastList<L2Character>>();
+	private FastMap<Integer, FastList<L2Character>> _attackersList = new FastMap<>();
 
 	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
@@ -46,7 +46,7 @@ public class ZombieGatekeepers extends L2AttackableAIScript
 		L2Character target = isPet ? attacker.getPet() : attacker;
 		if (_attackersList.get(npcObjId) == null)
 		{
-			FastList<L2Character> player = new FastList<L2Character>();
+			FastList<L2Character> player = new FastList<>();
 			player.add(target);
 			_attackersList.put(npcObjId, player);
 		}

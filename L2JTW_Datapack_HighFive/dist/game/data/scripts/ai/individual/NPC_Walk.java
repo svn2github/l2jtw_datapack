@@ -15,7 +15,7 @@ import com.l2jserver.gameserver.model.L2CharPosition;
 public class NPC_Walk extends L2AttackableAIScript
 {
 	private L2Npc wharf_patrol01, wharf_patrol02, wharf_patrol03, wharf_patrol04;
-	private static Map<String, Object[]> walks99 = new FastMap<String, Object[]>();
+	private static Map<String, Object[]> walks99 = new FastMap<>();
 	private void load99()
 	{
 	walks99.put("3262801", new Object[]{-148230,255280,-184,"3262802"});

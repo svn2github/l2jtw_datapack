@@ -9,13 +9,13 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.util.Rnd;
 
 /**
- * ±ý¬ÉBOSS AI
+ * ï¿½ï¿½ï¿½BOSS AI
  */
 public class kamalokaAi  extends L2AttackableAIScript 
 {
 	private static int Chants_Spawn = 20;
 
-	private static final Map<Integer,Integer> KAMALOKASPAWNS = new FastMap<Integer,Integer>();
+	private static final Map<Integer,Integer> KAMALOKASPAWNS = new FastMap<>();
 	static
 	{
 		KAMALOKASPAWNS.put(22452,22453);
