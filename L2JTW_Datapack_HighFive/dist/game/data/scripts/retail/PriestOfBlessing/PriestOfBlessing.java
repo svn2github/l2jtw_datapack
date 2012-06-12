@@ -297,7 +297,7 @@ public class PriestOfBlessing extends Quest
 		final String content = getHtm(player.getHtmlPrefix(), "32783.htm");
 		html.setHtml(content);
 		html.replace("%donate%", Util.formatAdena(_prices_hourglass[getHGIndex(player.getLevel())]));
-		html.replace("%lv%", String.valueOf(player.getLevel()));
+		html.replace("%lv%", String.valueOf(player.getLevel())); //pmq
 		player.sendPacket(html);
 		return null;
 	}

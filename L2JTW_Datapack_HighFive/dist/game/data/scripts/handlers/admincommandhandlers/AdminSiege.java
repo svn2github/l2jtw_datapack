@@ -470,11 +470,11 @@ public class AdminSiege implements IAdminCommandHandler
 		if (hall.getOwnerId() > 0)
 		{
 			final L2Clan owner = ClanTable.getInstance().getClan(hall.getOwnerId());
-			msg.replace("%clanhallOwner%", (owner != null) ? owner.getName() : "No Owner"); // MessageTable.Messages[].getMessage())
+			msg.replace("%clanhallOwner%", (owner != null) ? owner.getName() : MessageTable.Messages[1824].getMessage());
 		}
 		else
 		{
-			msg.replace("%clanhallOwner%", "No Owner"); // MessageTable.Messages[].getMessage())
+			msg.replace("%clanhallOwner%", MessageTable.Messages[1824].getMessage());
 		}
 		activeChar.sendPacket(msg);
 	}

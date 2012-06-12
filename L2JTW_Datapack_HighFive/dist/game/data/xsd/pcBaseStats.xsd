@@ -124,8 +124,7 @@
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="basePdef" minOccurs="20" maxOccurs="20">
-					<xs:complexType>
-
+					<xs:complexType>
 						<xs:attribute name="chest" type="xs:positiveInteger" use="required" />
 						<xs:attribute name="classId" use="required">
 							<xs:simpleType>
@@ -156,8 +155,7 @@
 									<xs:enumeration value="male" />
 								</xs:restriction>
 							</xs:simpleType>
-						</xs:attribute>
-						<xs:attribute name="underwear" type="xs:positiveInteger" use="required" />
+						</xs:attribute>						<xs:attribute name="underwear" type="xs:positiveInteger" use="required" />
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="baseMatk" minOccurs="20" maxOccurs="20">

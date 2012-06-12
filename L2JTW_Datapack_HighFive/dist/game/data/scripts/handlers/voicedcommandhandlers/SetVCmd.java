@@ -18,6 +18,8 @@ import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.util.Util;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * @author Zoey76
@@ -63,7 +65,10 @@ public class SetVCmd implements IVoicedCommandHandler
 				}
 				
 				player.setClanPrivileges(n);
-				activeChar.sendMessage("Your clan privileges have been set to " + n + " by " + activeChar.getName() + ".");
+				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1204]);
+				cm.addNumber(n);
+				cm.addString(activeChar.getName());
+				activeChar.sendMessage(cm.renderMsg());
 			}
 			else if (params.startsWith("title"))
 			{

@@ -56,9 +56,6 @@ public class Blow implements ISkillHandler
 		
 		for (L2Character target: (L2Character[]) targets)
 		{
-			//Update by rocknow-Start
-			if (activeChar.CRIT_ATTACK == 1)
-			/*
 			if (target.isAlikeDead())
 				continue;
 			
@@ -66,8 +63,6 @@ public class Blow implements ISkillHandler
 			final boolean skillIsEvaded = Formulas.calcPhysicalSkillEvasion(target, skill);
 			
 			if (!skillIsEvaded && Formulas.calcBlowSuccess(activeChar, target, skill))
-			*/
-			//Update by rocknow-End
 			{
 				final byte reflect = Formulas.calcSkillReflect(target, skill);
 				
@@ -186,8 +181,6 @@ public class Blow implements ISkillHandler
 			}
 			
 			// Sending system messages
-			//Update by rocknow-Start
-			/*
 			if (skillIsEvaded)
 			{
 				if (activeChar instanceof L2PcInstance)
@@ -203,8 +196,6 @@ public class Blow implements ISkillHandler
 					((L2PcInstance) target).sendPacket(sm);
 				}
 			}
-			*/
-			//Update by rocknow-End
 			
 			//Possibility of a lethal strike
 			Formulas.calcLethalHit(activeChar, target, skill);

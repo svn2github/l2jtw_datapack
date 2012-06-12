@@ -81,7 +81,7 @@ public class PaganTeleporters extends Quest
 			case 32035:
 				DoorTable.getInstance().getDoor(19160001).openMe();
 				startQuestTimer("Close_Door1", 10000, null, null);
-				htmltext = "FadedMark1.htm";
+				htmltext = "FadedMark1.htm"; //pmq
 				break;
 			case 32036:
 				if (!st.hasQuestItems(8067))
@@ -98,7 +98,7 @@ public class PaganTeleporters extends Quest
 				DoorTable.getInstance().getDoor(19160010).openMe();
 				DoorTable.getInstance().getDoor(19160011).openMe();
 				startQuestTimer("Close_Door2", 10000, null, null);
-				htmltext = "FadedMark1.htm";
+				htmltext = "FadedMark1.htm"; //pmq
 				break;
 		}
 		

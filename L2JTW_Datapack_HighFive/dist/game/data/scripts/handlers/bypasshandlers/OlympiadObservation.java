@@ -28,6 +28,7 @@ import com.l2jserver.gameserver.model.olympiad.OlympiadManager;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * @author DS
@@ -108,7 +109,7 @@ public class OlympiadObservation implements IBypassHandler
 						task = OlympiadGameManager.getInstance().getOlympiadTask(i);
 						if (task != null)
 						{
-							StringUtil.append(list, "<a action=\"bypass -h npc_%objectId%_arenachange ", String.valueOf(i), "\">²Ä", String.valueOf(i + 1) + "Äv§Þ³õ", "&nbsp;&nbsp;&nbsp;");
+							StringUtil.append(list, "<a action=\"bypass -h npc_%objectId%_arenachange ", String.valueOf(i), "\">"+MessageTable.Messages[1014].getExtra(1), String.valueOf(i + 1) + MessageTable.Messages[1014].getExtra(2), "&nbsp;&nbsp;&nbsp;");
 							
 							if (task.isGameStarted())
 							{

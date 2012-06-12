@@ -208,7 +208,7 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 			else if (command.startsWith("admin_cw_add"))
 			{
 				if (cw.isActive())
-					activeChar.sendMessage(1513);
+					activeChar.sendMessage(1512);
 				else
 				{
 					L2Object target = activeChar.getTarget();

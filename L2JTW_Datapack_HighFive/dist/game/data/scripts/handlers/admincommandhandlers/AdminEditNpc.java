@@ -384,7 +384,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			return;
 		}
 		
-		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1576].getMessage()+"</title><body><center><font color=\"LEVEL\">", 
+		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1576].getMessage()+"</title><body><center><font color=\"LEVEL\">",
 				NpcTable.getInstance().getTemplate(Integer.parseInt(tradeList.getNpcId())).getName(),
 				" (",
 				tradeList.getNpcId(),
@@ -397,11 +397,11 @@ public class AdminEditNpc implements IAdminCommandHandler
 				")",
 				"</td></tr><tr><td>"+MessageTable.Messages[1577].getExtra(2)+" (",
 				String.valueOf(tradeList.getPriceForItemId(itemID)),
-				")</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\""+MessageTable.Messages[1578].getExtra(1)+"\" action=\"bypass -h admin_editShopItem ", 
+				")</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\""+MessageTable.Messages[1578].getExtra(1)+"\" action=\"bypass -h admin_editShopItem ",
 				String.valueOf(tradeListID),
 				" ",
 				String.valueOf(itemID),
-				" $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
+				" $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ",
 				String.valueOf(tradeListID),
 		" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -431,7 +431,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			return;
 		}
 		
-		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1581].getMessage()+"</title><body><br>"+MessageTable.Messages[1582].getMessage(), 
+		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1581].getMessage()+"</title><body><br>"+MessageTable.Messages[1582].getMessage(),
 				String.valueOf(tradeListID),
 				"<table width=\"100%\"><tr><td>"+MessageTable.Messages[1577].getExtra(1)+"</td><td>",
 				ItemTable.getInstance().getTemplate(itemID).getName(),
@@ -443,7 +443,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				String.valueOf(tradeListID),
 				" ",
 				String.valueOf(itemID),
-				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
+				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ",
 				String.valueOf(tradeListID),
 		" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -484,9 +484,9 @@ public class AdminEditNpc implements IAdminCommandHandler
 			return;
 		}
 		
-		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1586].getMessage()+"</title><body><br>"+MessageTable.Messages[1587].getMessage()+"<table width=\"100%\"><tr><td>"+MessageTable.Messages[1588].getExtra(1)+"</td><td><edit var=\"itemID\" width=80></td></tr><tr><td>"+MessageTable.Messages[1588].getExtra(2)+"</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\""+MessageTable.Messages[1588].getExtra(3)+"\" action=\"bypass -h admin_addShopItem ", 
+		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1586].getMessage()+"</title><body><br>"+MessageTable.Messages[1587].getMessage()+"<table width=\"100%\"><tr><td>"+MessageTable.Messages[1588].getExtra(1)+"</td><td><edit var=\"itemID\" width=80></td></tr><tr><td>"+MessageTable.Messages[1588].getExtra(2)+"</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\""+MessageTable.Messages[1588].getExtra(3)+"\" action=\"bypass -h admin_addShopItem ",
 				String.valueOf(tradeListID),
-				" $itemID $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
+				" $itemID $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ",
 				String.valueOf(tradeListID),
 		" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -514,15 +514,15 @@ public class AdminEditNpc implements IAdminCommandHandler
 		if (tradeList.getItems().size() > PAGE_LIMIT * max)
 			max++;
 		
-		StringUtil.append(replyMSG, "<html><title>"+MessageTable.Messages[1589].getExtra(1), 
+		StringUtil.append(replyMSG, "<html><title>"+MessageTable.Messages[1589].getExtra(1),
 				String.valueOf(page),
-				MessageTable.Messages[1589].getExtra(2), 
+				MessageTable.Messages[1589].getExtra(2),
 				Integer.toString(max),
 				"</title><body><br><center><font color=\"LEVEL\">",
 				NpcTable.getInstance().getTemplate(Integer.parseInt(tradeList.getNpcId())).getName(),
 				" (",
 				tradeList.getNpcId(),
-				") "+MessageTable.Messages[1589].getExtra(3), 
+				") "+MessageTable.Messages[1589].getExtra(3),
 				Integer.toString(tradeList.getListId()),
 		"</font></center><table width=300 bgcolor=666666><tr>");
 		
@@ -570,7 +570,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		}
 		StringUtil.append(replyMSG, "<tr><td><br><br></td><td> </td><td> </td></tr><tr>");
 		
-		StringUtil.append(replyMSG, "</tr></table><center><br><button value=\""+MessageTable.Messages[1591].getExtra(1)+"\" action=\"bypass -h admin_addShopItem ", 
+		StringUtil.append(replyMSG, "</tr></table><center><br><button value=\""+MessageTable.Messages[1591].getExtra(1)+"\" action=\"bypass -h admin_addShopItem ",
 				String.valueOf(tradeList.getListId()),
 		"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1591].getExtra(2)+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -593,11 +593,11 @@ public class AdminEditNpc implements IAdminCommandHandler
 		{
 			MerchantPriceConfig mpc = ((L2MerchantInstance) activeChar.getTarget()).getMpc();
 			StringUtil.append(replyMSG,
-					"<br>"+MessageTable.Messages[1594].getExtra(1), 
+					"<br>"+MessageTable.Messages[1594].getExtra(1),
 					activeChar.getTarget().getName(),
 					" (",
 					Integer.toString(merchantID),
-					") <br>"+MessageTable.Messages[1594].getExtra(2), 
+					") <br>"+MessageTable.Messages[1594].getExtra(2),
 					mpc.getName(),
 					", ",
 					Integer.toString(mpc.getBaseTax()),
@@ -614,7 +614,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			{
 				StringUtil.append(replyMSG, "<tr><td><a action=\"bypass -h admin_showShopList ",
 						String.valueOf(tradeList.getListId()),
-						" 1\">"+MessageTable.Messages[1595].getMessage(), 
+						" 1\">"+MessageTable.Messages[1595].getMessage(),
 						String.valueOf(tradeList.getListId()),
 				"</a></td></tr>");
 			}
@@ -1250,12 +1250,12 @@ public class AdminEditNpc implements IAdminCommandHandler
 	{
 		if (!confirmed)
 		{
-			final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1610].getExtra(1)+"</title><body><br>"+MessageTable.Messages[1610].getExtra(2), 
+			final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1610].getExtra(1)+"</title><body><br>"+MessageTable.Messages[1610].getExtra(2),
 					"<table width=\"100%\"><tr><td>NPC</td><td>",
 					NpcTable.getInstance().getTemplate(npcId).getName(),
 					" (",
 					Integer.toString(npcId),
-					")</td></tr><tr><td>"+MessageTable.Messages[1610].getExtra(3)+"</td><td>", 
+					")</td></tr><tr><td>"+MessageTable.Messages[1610].getExtra(3)+"</td><td>",
 					Integer.toString(itemId),
 					"</td></tr><tr><td>"+MessageTable.Messages[1610].getExtra(4)+"</td><td>",
 					Integer.toString(category),

@@ -1,22 +1,4 @@
 @echo off
-if not exist ..\gameserver goto _next
-echo 因為 L2J 的最新版本已經將 gameserver 資料夾改名為 game
-echo 此安裝程式發現您還存在舊的 gameserver 資料夾
-echo.
-echo 如果要立刻刪除舊的 gameserver 資料夾，請輸入 y 再按下 Enter
-echo 如果要自己手動刪除，請按 Enter 跳過
-echo.
-set gsrd_mode=1
-set /P gsrd_mode="立刻刪除請輸入 y 再按 Enter，手動刪除請按 Enter 跳過: "
-if %gsrd_mode%==1 goto _next
-if %gsrd_mode%==y goto _gsrd
-if %gsrd_mode%==Y goto _gsrd
-goto _next
-:_gsrd
-echo.
-ECHO 正在刪除舊的 gameserver 資料夾，請稍候 . . .
-RD /S /Q ..\gameserver
-:_next
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
@@ -893,4 +875,3 @@ echo 感謝使用 L2JTW 伺服器
 echo 相關資訊可以在 http://www.l2jtw.com 查詢到
 echo.
 pause
-color

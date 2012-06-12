@@ -39,7 +39,6 @@ import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
- * ¬¼Ây­º»â ¦B³·§¯ºë §ÆÅS
  * Ice Fairy Sirra AI
  * @author Kerberos
  */
@@ -494,7 +493,7 @@ public class IceFairySirra extends L2AttackableAIScript
 			int respawn_delay = getRandom(respawnMinDelay, respawnMaxDelay);
 			saveGlobalQuestVar("Sirra_Respawn", String.valueOf(System.currentTimeMillis() + respawn_delay));
 			startQuestTimer("respawn", respawn_delay, null, null);
-			screenMessage(killer,NpcStringId.FREYA_HEATHENS_FEEL_MY_CHILL,10000);
+			screenMessage(killer,NpcStringId.FREYA_HEATHENS_FEEL_MY_CHILL,10000); //pmq
 		}
 		return super.onKill(npc, killer, isPet);
 	}
