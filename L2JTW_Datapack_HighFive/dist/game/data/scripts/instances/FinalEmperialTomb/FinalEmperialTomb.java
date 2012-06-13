@@ -592,6 +592,7 @@ public class FinalEmperialTomb extends Quest
 							openDoor(doorId, world.instanceId);
 						spawnFlaggedNPCs(world, world.status);
 						ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(world), 5000);//l2jtw
+						break;
 					case 2:
 						for (int doorId : SECOND_ROUTE_DOORS)
 							openDoor(doorId, world.instanceId);
