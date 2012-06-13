@@ -148,7 +148,7 @@ public class FinalEmperialTomb extends Quest
 	
 	private final TIntObjectHashMap<L2Territory> _spawnZoneList = new TIntObjectHashMap<>();
 	private final TIntObjectHashMap<List<FETSpawn>> _spawnList = new TIntObjectHashMap<>();
-	private final FastSet<Integer> _mustKillMobsId = new FastSet<Integer>(); //l2jtw
+	private final FastSet<Integer> _mustKillMobsId = new FastSet<>(); //l2jtw
 	
 	// Teleports
 	private static final int[] ENTER_TELEPORT = {-88015,-141153,-9168};
@@ -527,18 +527,18 @@ public class FinalEmperialTomb extends Quest
 		return instanceId;
 	}
 	
-	protected synchronized boolean checkKillProgress(L2Npc mob, FETWorld world)
+	//l2jtw start
+	protected synchronized boolean checkKillProgress(FETWorld world)
 	{
-		//l2jtw start
-		world.npcList.remove(mob);
 		for(L2Npc l2npc : world.npcList){
-			if (l2npc != mob && L2World.getInstance().findObject(l2npc.getObjectId()) != null){
+			if (L2World.getInstance().findObject(l2npc.getObjectId()) != null){
 				return false;
 			}
+			world.npcList.remove(l2npc);
 		}
 		return true;
-		//l2jtw end
 	}
+	//l2jtw end
 	
 	private void spawnFlaggedNPCs(FETWorld world, int flag)
 	{
@@ -585,12 +585,13 @@ public class FinalEmperialTomb extends Quest
 				{
 					case 0:
 						spawnFlaggedNPCs(world, 0);
+						ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(world), 5000);//l2jtw
 						break;
 					case 1:
 						for (int doorId : FIRST_ROUTE_DOORS)
 							openDoor(doorId, world.instanceId);
 						spawnFlaggedNPCs(world, world.status);
-						break;
+						ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(world), 5000);//l2jtw
 					case 2:
 						for (int doorId : SECOND_ROUTE_DOORS)
 							openDoor(doorId, world.instanceId);
@@ -663,6 +664,34 @@ public class FinalEmperialTomb extends Quest
 		if (npcId == DARK_CHOIR_PLAYER)
 			world.darkChoirPlayerCount++;
 	}
+
+	//l2jtw start
+	private class CheckKillProgressTask implements Runnable
+	{
+		private final FETWorld _world;
+		CheckKillProgressTask(FETWorld world)
+		{
+			_world = world;
+		}
+		
+		@Override
+		public void run()
+		{
+			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(_world.instanceId);
+			if (tmpworld instanceof FETWorld)
+			{
+				if (checkKillProgress(_world))
+				{
+					controlStatus(_world);
+				}
+				else
+				{
+					ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(_world), 5000);
+				}
+			}
+		}
+	}
+	//l2jtw stop
 	
 	private class DemonSpawnTask implements Runnable
 	{
@@ -1287,8 +1316,8 @@ public class FinalEmperialTomb extends Quest
 			}
 			else if (world.status <= 2)
 			{
-				if (checkKillProgress(npc, world))
-					controlStatus(world);
+				//if (checkKillProgress(npc, world))//l2jtw
+					//controlStatus(world);//l2jtw
 			}
 			else if (world.demons.contains(npc))
 			{
@@ -1301,7 +1330,7 @@ public class FinalEmperialTomb extends Quest
 		}
 		return "";
 	}
-	
+
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
