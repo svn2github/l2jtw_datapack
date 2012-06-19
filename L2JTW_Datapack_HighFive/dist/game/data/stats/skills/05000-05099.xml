@@ -150,7 +150,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="trait" val="#traits" />
 		<for>
-			<effect name="#effectname1" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvl" abnormalType="#abnormalType">
+			<effect name="#effectname1" abnormalTime="#time" val="0" abnormalLvl="1" abnormalType="#abnormalType">
 				<mul order="0x30" stat="pAtk" val="#attackAndSpeed" />
 				<mul order="0x30" stat="mAtk" val="#attackAndSpeed" />
 				<mul order="0x30" stat="pAtkSpd" val="#attackAndSpeed" />

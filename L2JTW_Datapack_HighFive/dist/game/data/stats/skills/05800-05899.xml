@@ -1527,21 +1527,12 @@
 		</for>
 	</skill>
 	<skill id="5896" levels="2" name="Soulless">
-		<!-- Update by pmq -->
-		<table name="#dot"> 55 60 </table>
-		<set name="power" val="600" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillRadius" val="600" />
-		<set name="overHit" val="true" />
-		<set name="coolTime" val="2000" />
-		<set name="hitTime" val="2600" />
-		<set name="skillType" val="MDAM" />
-		<set name="castRange" val="200" />
+		<table name="#hitTime"> 2000 22940 </table>
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A3" />
-		<for>
-			<effect count="10" name="DamOverTime" abnormalTime="3" val="#dot">
-			</effect>
-		</for>
+		<set name="hitTime" val="#hitTime" />
 	</skill>
 	<skill id="5897" levels="1" name="Spike of Anger">
 		<set name="mpConsume" val="70" />

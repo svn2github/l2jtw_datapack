@@ -145,9 +145,9 @@ public class AdminAdmin implements IAdminCommandHandler
 		{
 			L2PcInstance target = null;
 			
-			if (activeChar.getTarget() instanceof L2PcInstance)
+			if (activeChar.getTarget().isPlayer())
 			{
-				target = (L2PcInstance) activeChar.getTarget();
+				target = activeChar.getTarget().getActingPlayer();
 				target.setHero(target.isHero() ? false : true);
 			}
 			else
@@ -228,10 +228,16 @@ public class AdminAdmin implements IAdminCommandHandler
 		{
 			StringTokenizer st = new StringTokenizer(command);
 			st.nextToken();
-			String type = "";
+			if (!st.hasMoreTokens())
+			{
+				activeChar.sendMessage("You need to specify a type to reload!");
+				activeChar.sendMessage("Usage: //reload <multisell|teleport|skill|npc|htm|item|config|instancemanager|npcwalkers|access|quests>");
+				return false;
+			}
+			
+			final String type = st.nextToken();
 			try
 			{
-				type = st.nextToken();
 				if (type.equals("multisell"))
 				{
 					MultiSell.getInstance().reload();

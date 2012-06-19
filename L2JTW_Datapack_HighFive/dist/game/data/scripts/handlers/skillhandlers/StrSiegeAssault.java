@@ -19,7 +19,6 @@ import com.l2jserver.gameserver.instancemanager.CastleManager;
 import com.l2jserver.gameserver.instancemanager.FortManager;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Character;
-import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Castle;
 import com.l2jserver.gameserver.model.entity.Fort;
@@ -28,7 +27,6 @@ import com.l2jserver.gameserver.model.items.type.L2WeaponType;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.model.stats.Formulas;
-import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * @author _tomciaaa_
@@ -44,14 +42,14 @@ public class StrSiegeAssault implements ISkillHandler
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
 		
-		if (!(activeChar instanceof L2PcInstance))
+		if (!activeChar.isPlayer())
 			return;
 		
-		L2PcInstance player = (L2PcInstance) activeChar;
+		L2PcInstance player = activeChar.getActingPlayer();
 		
 		if (!player.isRidingStrider())
 			return;
-		if (!(player.getTarget() instanceof L2DoorInstance))
+		if (!player.getTarget().isDoor())
 			return;
 		
 		Castle castle = CastleManager.getInstance().getCastle(player);
@@ -79,7 +77,7 @@ public class StrSiegeAssault implements ISkillHandler
 			for (L2Character target: (L2Character[]) targets)
 			{
 				L2ItemInstance weapon = activeChar.getActiveWeaponInstance();
-				if (activeChar instanceof L2PcInstance && target instanceof L2PcInstance && ((L2PcInstance)target).isFakeDeath())
+				if (activeChar.isPlayer() && target.isPlayer() && target.getActingPlayer().isFakeDeath())
 				{
 					target.stopFakeDeath(true);
 				}
@@ -106,7 +104,7 @@ public class StrSiegeAssault implements ISkillHandler
 					
 				}
 				else
-					activeChar.sendMessage(skill.getName() + MessageTable.Messages[1149].getMessage());
+					activeChar.sendMessage(skill.getName() + " failed.");
 			}
 		}
 		catch (Exception e)

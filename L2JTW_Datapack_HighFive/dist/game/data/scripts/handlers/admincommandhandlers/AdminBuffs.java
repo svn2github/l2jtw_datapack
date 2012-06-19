@@ -138,7 +138,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				
 				for (L2Character knownChar : activeChar.getKnownList().getKnownCharactersInRadius(radius))
 				{
-					if ((knownChar instanceof L2PcInstance) && !(knownChar.equals(activeChar)))
+					if (knownChar.isPlayer() && !knownChar.equals(activeChar))
 						knownChar.stopAllEffects();
 				}
 				
@@ -175,9 +175,9 @@ public class AdminBuffs implements IAdminCommandHandler
 					return false;
 				}
 			}
-			else if (activeChar.getTarget() instanceof L2PcInstance)
+			else if (activeChar.getTarget().isPlayer())
 			{
-				player = (L2PcInstance) activeChar.getTarget();
+				player = activeChar.getTarget().getActingPlayer();
 			}
 			else
 			{

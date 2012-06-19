@@ -36,7 +36,6 @@ import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.StatsSet;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2DecoyInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -121,7 +120,7 @@ public class Baium extends L2AttackableAIScript
 			{
 				// the time has already expired while the server was offline. Delete the saved time and
 				// immediately spawn the stone-baium. Also the state need not be changed from ASLEEP
-				addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0);
+				addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0);
 				GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, ASLEEP);
 			}
 		}
@@ -159,7 +158,7 @@ public class Baium extends L2AttackableAIScript
 		}
 		else
 		{
-			addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0);
+			addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0);
 		}
 	}
 	
@@ -169,7 +168,7 @@ public class Baium extends L2AttackableAIScript
 		if (event.equalsIgnoreCase("baium_unlock"))
 		{
 			GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, ASLEEP);
-			addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0);
+			addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0);
 		}
 		else if (event.equalsIgnoreCase("skill_range") && (npc != null))
 		{
@@ -243,7 +242,7 @@ public class Baium extends L2AttackableAIScript
 						}
 					}
 					_Minions.clear();
-					addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0); // spawn stone-baium
+					addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0); // spawn stone-baium
 					GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, ASLEEP); // mark that Baium is not awake any more
 					_Zone.oustAllPlayers();
 					cancelQuestTimer("baium_despawn", npc, null);
@@ -470,11 +469,11 @@ public class Baium extends L2AttackableAIScript
 		{
 			for (L2Object obj : objs)
 			{
-				if ((obj instanceof L2Playable) || (obj instanceof L2DecoyInstance))
+				if (obj.isPlayable() || obj instanceof L2DecoyInstance)
 				{
-					if (obj instanceof L2PcInstance)
+					if (obj.isPlayer())
 					{
-						if (((L2PcInstance) obj).getAppearance().getInvisible())
+						if (obj.getActingPlayer().getAppearance().getInvisible())
 						{
 							continue;
 						}
@@ -485,7 +484,7 @@ public class Baium extends L2AttackableAIScript
 						continue;
 					}
 				}
-				if ((obj instanceof L2Playable) || (obj instanceof L2DecoyInstance))
+				if (obj.isPlayable() || obj instanceof L2DecoyInstance)
 				{
 					if (Util.checkIfInRange(9000, npc, obj, true) && !((L2Character) obj).isDead())
 					{

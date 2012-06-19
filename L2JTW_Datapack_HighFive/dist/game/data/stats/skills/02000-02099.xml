@@ -22,7 +22,7 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Summer Squash Event Skill -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- <set name="despawnDelay" val="180000" /> --> <!-- Update by pmq -->
+		<set name="despawnDelay" val="180000" /> <!-- FIXME: This should be controlled by AI -->
 		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -36,7 +36,7 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Summer Squash Event Skill -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- <set name="despawnDelay" val="180000" /> --> <!-- Update by pmq -->
+		<set name="despawnDelay" val="180000" /> <!-- FIXME: This should be controlled by AI -->
 		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -58,13 +58,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="1000" />
 		<set name="target" val="TARGET_ONE" /> <!-- FIXME: This should be TARGET_OTHERS -->
-		<!-- Update by pmq -->
-		<cond msgId="113" addName="1">
-			<and>
-				<player flyMounted="False" />
-				<target npcId="12774,12775,12777,12778,13271,13273,,13275,13277" />
-			</and>
-		</cond>
 	</skill>
 	<skill id="2006" levels="1" name="Scroll: Enchant Weapon (Grade A)">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -1034,15 +1027,20 @@
 		<set name="castRange" val="40" />
 	</skill>
 	<skill id="2098" levels="1" name="Harvesting">
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="mpConsume" val="3" />
-		<set name="target" val="TARGET_CORPSE_MOB" />
-		<set name="hitTime" val="500" />
-		<set name="skillType" val="HARVEST" />
-		<set name="reuseDelay" val="1000" />
-		<set name="operateType" val="A1" />
+		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="20" />
-		<set name="effectRange" val="100" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="500" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="mpConsume" val="3" />
+		<set name="neutral" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="1000" />
+		<set name="target" val="TARGET_CORPSE_MOB" />
+		<for>
+			<effect name="Harvesting" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="2099" levels="1" name="Escape: 5 minutes">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->

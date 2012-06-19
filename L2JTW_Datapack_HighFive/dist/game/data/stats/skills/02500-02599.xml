@@ -126,7 +126,7 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Summer Squash Event Skill -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- <set name="despawnDelay" val="180000" /> --> <!-- Update by pmq -->
+		<set name="despawnDelay" val="180000" /> <!-- FIXME: This should be controlled by AI -->
 		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -140,7 +140,7 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Summer Squash Event Skill -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- <set name="despawnDelay" val="180000" /> --> <!-- Update by pmq -->
+		<set name="despawnDelay" val="180000" /> <!-- FIXME: This should be controlled by AI -->
 		<set name="hitTime" val="1500" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -192,7 +192,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
+			<player flyMounted="false" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="4" abnormalType="vampiric_attack">
@@ -211,7 +211,7 @@
 		<set name="trait" val="ETC" />
 		<cond msgId="113" addName="1">
 			<and>
-				<player flyMounted="False" />
+				<player flyMounted="false" />
 				<not>
 					<player transformationId="103" />
 				</not>
@@ -233,7 +233,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
+			<player flyMounted="false" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="3" abnormalType="critical_dmg_up">
@@ -1336,7 +1336,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="A2" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
+			<player flyMounted="false" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="vp_up" abnormalVisualEffect="vitality">
@@ -1427,7 +1427,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
+			<player flyMounted="false" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="4" abnormalType="pd_up_bow">

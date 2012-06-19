@@ -43,6 +43,7 @@ import handlers.effecthandlers.FakeDeath;
 import handlers.effecthandlers.Fear;
 import handlers.effecthandlers.Fusion;
 import handlers.effecthandlers.Grow;
+import handlers.effecthandlers.Harvesting;
 import handlers.effecthandlers.Heal;
 import handlers.effecthandlers.HealOverTime;
 import handlers.effecthandlers.HealPercent;
@@ -133,6 +134,7 @@ public final class EffectMasterHandler
 		Fear.class,
 		Fusion.class,
 		Grow.class,
+		Harvesting.class,
 		HealOverTime.class,
 		HealPercent.class,
 		Heal.class,
