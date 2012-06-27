@@ -399,9 +399,9 @@
 	<skill id="8336" levels="1" name="Guardian's Strider Mount">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="31" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="hitTime" val="2500" />
 		<set name="reuseDelay" val="3600000" />
@@ -761,10 +761,11 @@
 	</skill>
 	<skill id="8371" levels="1" name="Transform Halloween Pumpkin">
 		<!-- Update by pmq -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="108" />
 		<cond msgId="1509">

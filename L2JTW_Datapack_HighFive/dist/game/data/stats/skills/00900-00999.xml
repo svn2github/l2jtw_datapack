@@ -1653,6 +1653,7 @@
 		<set name="reuseDelay" val="12000" />
 		<set name="skillRadius" val="250" />
 		<set name="skillType" val="PDAM" />
+		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<cond msgId="113" addName="1">
 			<using kind="Bow,Crossbow" />
@@ -1800,7 +1801,7 @@
 		<set name="hitTime" val="800" />
 		<set name="magicLvl" val="40" />
 		<set name="mpConsume" val="38" />
-		<set name="neutral" val="true" />
+		<set name="offensive" val="true" />
 		<set name="nextActionAttack" val="true" />
 		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="reuseDelay" val="3000" />
@@ -1907,7 +1908,7 @@
 		<set name="hitTime" val="800" />
 		<set name="magicLvl" val="40" />
 		<set name="mpConsume" val="38" />
-		<set name="neutral" val="true" />
+		<set name="offensive" val="true" />
 		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="reuseDelay" val="3000" />
 		<set name="target" val="TARGET_ONE" />
