@@ -36,7 +36,9 @@ import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
-import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;//l2jtw
+//l2jtw add start
+import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
+//l2jtw add stop
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.templates.L2NpcTemplate;
 import com.l2jserver.gameserver.model.skills.L2Skill;
@@ -377,7 +379,9 @@ public class Beleth extends L2AttackableAIScript
 						break;
 					case 333:
 						beleth = spawn(29118, new Location(16323, 213170, -9357, 49152));
-						GrandBossManager.getInstance().addBoss((L2GrandBossInstance) beleth);//l2jtw
+						// l2jtw add start
+						GrandBossManager.getInstance().addBoss((L2GrandBossInstance) beleth);
+						// l2jtw add end
 						break;
 				
 				}

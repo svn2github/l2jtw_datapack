@@ -29,7 +29,9 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import javolution.util.FastList;
 import javolution.util.FastMap;
-import javolution.util.FastSet; //l2jtw
+// l2jtw add start
+import javolution.util.FastSet;
+// l2jtw add end
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
@@ -148,7 +150,11 @@ public class FinalEmperialTomb extends Quest
 	
 	private final TIntObjectHashMap<L2Territory> _spawnZoneList = new TIntObjectHashMap<>();
 	private final TIntObjectHashMap<List<FETSpawn>> _spawnList = new TIntObjectHashMap<>();
-	private final FastSet<Integer> _mustKillMobsId = new FastSet<>(); //l2jtw
+	/* l2jtw start
+	private final List<Integer> _mustKillMobsId = new FastList<>();
+	 */
+	private final FastSet<Integer> _mustKillMobsId = new FastSet<>();
+	//l2jtw end
 	
 	// Teleports
 	private static final int[] ENTER_TELEPORT = {-88015,-141153,-9168};
@@ -526,8 +532,15 @@ public class FinalEmperialTomb extends Quest
 		}
 		return instanceId;
 	}
-	
-	//l2jtw start
+
+	/* l2jtw start
+	protected synchronized boolean checkKillProgress(L2Npc mob, FETWorld world)
+	{
+		if (world.npcList.contains(mob))
+			world.npcList.remove(mob);
+		return world.npcList.size() == 0;
+	}
+	 */
 	protected synchronized boolean checkKillProgress(FETWorld world)
 	{
 		for(L2Npc l2npc : world.npcList){
@@ -538,7 +551,7 @@ public class FinalEmperialTomb extends Quest
 		}
 		return true;
 	}
-	//l2jtw end
+	// l2jtw end
 	
 	private void spawnFlaggedNPCs(FETWorld world, int flag)
 	{
@@ -585,13 +598,17 @@ public class FinalEmperialTomb extends Quest
 				{
 					case 0:
 						spawnFlaggedNPCs(world, 0);
-						ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(world), 5000);//l2jtw
+						// l2jtw add start
+						ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(world), 5000);
+						// l2jtw add end
 						break;
 					case 1:
 						for (int doorId : FIRST_ROUTE_DOORS)
 							openDoor(doorId, world.instanceId);
 						spawnFlaggedNPCs(world, world.status);
-						ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(world), 5000);//l2jtw
+						// l2jtw add start
+						ThreadPoolManager.getInstance().scheduleGeneral(new CheckKillProgressTask(world), 5000);
+						// l2jtw add end
 						break;
 					case 2:
 						for (int doorId : SECOND_ROUTE_DOORS)
@@ -665,8 +682,8 @@ public class FinalEmperialTomb extends Quest
 		if (npcId == DARK_CHOIR_PLAYER)
 			world.darkChoirPlayerCount++;
 	}
-
-	//l2jtw start
+	
+	//l2jtw add start
 	private class CheckKillProgressTask implements Runnable
 	{
 		private final FETWorld _world;
@@ -692,7 +709,7 @@ public class FinalEmperialTomb extends Quest
 			}
 		}
 	}
-	//l2jtw stop
+	//l2jtw add end
 	
 	private class DemonSpawnTask implements Runnable
 	{
@@ -1317,8 +1334,10 @@ public class FinalEmperialTomb extends Quest
 			}
 			else if (world.status <= 2)
 			{
-				//if (checkKillProgress(npc, world))//l2jtw
-					//controlStatus(world);//l2jtw
+				/* l2jtw remove
+				if (checkKillProgress(npc, world))
+					controlStatus(world);
+				 */
 			}
 			else if (world.demons.contains(npc))
 			{
