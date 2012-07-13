@@ -1,0 +1,45 @@
+﻿<html><body><center>L2J 控制首頁 - 經典模式</center><br>
+<center><table width=200><tr><td>
+<button value="人物列表" action="bypass -h admin_show_characters 0" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="人物管理" action="bypass -h admin_char_manage" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="關閉管理" action="bypass -h admin_server_shutdown" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"> 
+<button value="公告管理" action="bypass -h admin_list_announcements" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+<button value="騎乘飛龍" action="bypass -h admin_ride_wyvern" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="騎乘座龍" action="bypass -h admin_ride_strider" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="騎乘解除" action="bypass -h admin_unride" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+<button value="財富NPC" action="bypass -h admin_mammon_find" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="怪物群組" action="bypass -h admin_mobmenu" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br1>
+<button value="列出NPC" action="bypass -h admin_list_spawns $qbox" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="訴求管理" action="bypass -h admin_view_petitions" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="GM 商店" action="bypass -h admin_gmshop" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="召喚怪物" action="bypass -h admin_show_spawns" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="創造物品" action="bypass -h admin_itemcreate" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="傳送選單" action="bypass -h admin_show_moves" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+<button value="城堡/根據地" action="bypass -h admin_siege" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="性向設定" action="bypass -h admin_setkarma $qbox" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="性向清除" action="bypass -h admin_nokarma" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
+<button value="物品強化" action="bypass -h admin_enchant" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="音樂選單" action="bypass -h admin_play_sounds" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="登入管理" action="bypass -h admin_server_login" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<button value="幫助訊息" action="bypass -h admin_help admhelp.htm" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br></td></tr></table></center><br>
+<center>名稱 / 性向 / 強化 0-65535:</center>
+<center><edit var="qbox" width=100 height=15></center><br><center><table><tr><td>
+<button value="隱形" action="bypass -h admin_invis_menu" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="滅亡" action="bypass -h admin_kill_menu" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="踢除" action="bypass -h admin_kick $qbox" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="開啟" action="bypass -h admin_open_menu" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr><br><tr><td>
+<button value="解除隱形" action="bypass -h admin_vis" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="刪除" action="bypass -h admin_delete" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="封鎖" action="bypass -h admin_ban_char $qbox" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="關閉" action="bypass -h admin_close" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+</table><br><table width=200><tr><td>
+<button value="禁言" action="bypass -h admin_ban_chat $qbox" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td><td>
+<button value="解除禁言" action="bypass -h admin_unban_chat $qbox" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td></tr></table></center><center><table><br>
+<tr><td><button value="白天天空" action="bypass -h admin_atmosphere_menu sky day" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="夜晚天空" action="bypass -h admin_atmosphere_menu sky night" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td><button value="黎明天空" action="bypass -h admin_atmosphere_menu signsky dawn" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="黃昏天空" action="bypass -h admin_atmosphere_menu signsky dusk" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+</table></center><br><br><br>
+<tr><td>Server Software: Server software running L2J version 3.0.1 nightly created by L2Chef and the L2J team.</td></tr>
+</body></html>

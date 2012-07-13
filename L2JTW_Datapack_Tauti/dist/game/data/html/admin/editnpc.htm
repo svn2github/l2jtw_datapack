@@ -1,0 +1,43 @@
+﻿<html><title>編輯 NPC</title><body>
+<center>編輯 NPC 資訊</center><br>
+警告：修改 NPC 資訊，可能會導致遊戲損毀！<br>
+<table width=270>
+<tr><td>NPC ID (%npcId%)</td><td></td><td></td></tr>
+<tr><td>種類 ID (%templateId%):</td><td><edit var="tId"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% templateId $tId" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>名稱 (%name%):</td><td><edit var="n"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% name $n" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>伺服器名稱 (%serverSideName%):</td><td><edit var="sSN"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% serverSideName $sSN" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>稱號 (%title%):</td><td><edit var="t"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% title $t" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>伺服器頭銜 (%serverSideTitle%):</td><td><edit var="sST"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% serverSideTitle $sST" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>範圍 (%collisionRadius%):</td><td><edit var="cR"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% collisionRadius $cR" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>高度 (%collisionHeight%):</td><td><edit var="cH"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% collisionHeight $cH" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>等級 (%level%):</td><td><edit var="lv"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% level $lv" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>性別 (%sex%, 0=m, 1=f, 2=etc):</td><td><edit var="sex"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% sex $sex" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>類型 (%type%):</td><td><edit var="type"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% type $type" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>攻擊範圍 (%attackRange%):</td><td><edit var="atkR"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% attackRange $atkR" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>HP (%hp%):</td><td><edit var="hp"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% hp $hp" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>MP (%mp%):</td><td><edit var="mp"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% mp $mp" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>HP 回復 (%hpRegen%):</td><td><edit var="hpR"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% hpRegen $hpR" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>MP 回復 (%mpRegen%):</td><td><edit var="mpR"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% mpRegen $mpR" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>Str (%str%):</td><td></td><td></td></tr>
+<tr><td>Con (%con%):</td><td></td><td></td></tr>
+<tr><td>Dex (%dex%):</td><td></td><td></td></tr>
+<tr><td>Int (%int%):</td><td></td><td></td></tr>
+<tr><td>Wit (%wit%):</td><td></td><td></td></tr>
+<tr><td>Men (%men%):</td><td></td><td></td></tr>
+<tr><td>EXP (%exp%):</td><td><edit var="exp"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% exp $exp" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>SP (%sp%):</td><td><edit var="sp"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% sp $sp" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>物攻 (%pAtk%):</td><td><edit var="pAtk"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% pAtk $pAtk" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>物防 (%pDef%):</td><td><edit var="pDef"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% pDef $pDef" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>魔攻 (%mAtk%):</td><td><edit var="mAtk"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% mAtk $mAtk" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>魔防 (%mDef%):</td><td><edit var="mDef"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% mDef $mDef" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>物理攻速 (%pAtkSpd%):</td><td><edit var="pS"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% pAtkSpd $pS" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>主動性 (%aggro%):</td><td><edit var="ag"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% aggro $ag" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>魔法攻速 (%mAtkSpd%):</td><td><edit var="mS"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% mAtkSpd $mS" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>右手 (%rHand%):</td><td><edit var="rH"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% rHand $rH" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>左手 (%lHand%):</td><td><edit var="lH"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% lHand $lH" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>強化 (%enchant%):</td><td><edit var="ech"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% enchant $ech" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>移動速度 (%walkSpd%)</td><td></td><td></td></tr>
+<tr><td>奔跑速度 (%runSpd%):</td><td><edit var="rSd"></td><td><button value="儲存" width=35 action="bypass -h admin_save_npc %npcId% runSpd $rSd" height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td>勢力 ID (%factionId%)</td><td></td><td></td></tr>
+<tr><td>勢力範圍 (%factionRange%)</td><td></td><td></td></tr>
+</table></body></html>

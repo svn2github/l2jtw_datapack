@@ -1,0 +1,24 @@
+﻿<html><body>
+<table width=260><tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>人物選擇介面</center></td>
+<td width=40><button value="返回" action="bypass -h admin_show_skills" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table>
+<br>
+<center>修改人物: <font color="LEVEL">%player%</font><br1>
+LV:%lvl%<br>
+點選技能移除:</center><br1>
+<center><table width=230><tr>
+%page%
+</tr></table></center>
+<br1><table width=270>
+<tr><td width=230>名稱:</td><td width=20>等級:</td><td width=20>編號:</td></tr>
+%skill%
+</table>
+<center><table width=240><tr>
+<td>輸入技能ID:</td><td>
+<edit var="id_to_remove" width=50></td>
+<td><button value="移除" action="bypass -h admin_remove_skill $id_to_remove" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="返回" action="bypass -h admin_show_skills" width=40 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table></center><br>
+</body></html>
