@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="dist/game/data/scripts" />
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" />
+	<classpathentry combineaccessrules="false" kind="src" path="/L2JTW_GameServer_Tauti_Beta" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_Tauti_Beta/dist/libs/javolution-5.5.1.jar" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_Tauti_Beta/dist/libs/mmocore.jar" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_Tauti_Beta/dist/libs/netcon-1.7.jar" />
+	<classpathentry kind="lib" path="/L2JTW_GameServer_Tauti_Beta/dist/libs/trove-3.0.2.jar" />
+	<classpathentry kind="output" path="bin" />
+</classpath>
