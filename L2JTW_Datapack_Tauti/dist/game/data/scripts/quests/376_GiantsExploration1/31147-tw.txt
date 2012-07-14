@@ -1,0 +1,11 @@
+#Messages
+error_1   = "<html><body>首席調查員蕭伯霖：<br>謝謝你的好意，等你等級再高一點的時候，再來找我吧。<br><font color=\"LEVEL\">(等級達到51以上才能執行此任務)</font></body></html>"
+start     = "<html><body>首席調查員蕭伯霖：<br>身為首席調查員的我正在尋找有經驗的冒險家，來加入我們探查巨人洞穴古代遺物的團隊，到目前為止，我們仍有四份文獻尚未找尋到，包括<font color=\"LEVEL\">巨人的高崙設計圖、巨人的魔法理論、巨人的建築指南、巨人的醫學理論</font><br>如果你願意加入尋找文獻，我將給予你一些報償。<br><a action=\"bypass -h Quest 376_GiantsExploration1 yes\">我願意加入尋找文獻</a><br><a action=\"bypass -h Quest 376_GiantsExploration1 0\">我沒有興趣</a><br></body></html>"
+checkout  = "<html><body>首席調查員蕭伯霖：<br>太好了！你終於回來了！找尋文獻的過程有遇到困難嗎？<br>讓我看看你找到了什麼‧‧‧<br><a action=\"bypass -h Quest 376_GiantsExploration1 show\">讓他觀看找到的文獻</a><br><a action=\"bypass -h Quest 376_GiantsExploration1 myst\">讓他觀看找到的其他物品</a></body></html>"
+checkout2 = "<html><body>首席調查員蕭伯霖：<br>太好了！你終於回來了！找尋文獻的過程有遇到困難嗎？<br>嗯‧‧‧這是什麼？這一些古代的文獻，除非你能將內容翻譯出來，不然這對於我是沒有用處的，我沒有時間去了解內容，這就是為什麼我給你那本古代的基礎辭典的用意。也許你還有其他的文獻是我所需要的‧‧‧<br><a action=\"bypass -h Quest 376_GiantsExploration1 show\">讓他觀看其他的文獻</a><br><a action=\"bypass -h Quest 376_GiantsExploration1 myst\">讓他觀看其他的物品</a><br></body></html>"
+no_items  = "<html><body>首席調查員蕭伯霖：<br>嗯‧‧‧這裡沒有我想要的東西，你應該繼續你的冒險了。我相信你可以做的更好只要你再努力一點‧‧‧你覺得呢？<br><a action=\"bypass -h Quest 376_GiantsExploration1 Starting.htm\">我會繼續找尋文獻</a><br><a action=\"bypass -h Quest 376_GiantsExploration1 0\">我想要休息</a></body></html>"
+tnx4items = "<html><body>首席調查員蕭伯霖：<br>真是太好了！這些就是我在尋找的東西‧‧‧拿去吧，這是我的一點心意。不管怎樣，我相信在巨人洞穴裡還有更多的文獻還沒被發現，你願意繼續去尋找嗎？<br><a action=\"bypass -h Quest 376_GiantsExploration1 Starting.htm\">我願意繼續</a><br><a action=\"bypass -h Quest 376_GiantsExploration1 0\">我想要休息</a><br></body></html>"
+go_part2  = "<html><body>首席調查員蕭伯霖：<br>真是令人感興趣，這本究竟是什麼書？我想如果沒有其他人的幫忙，我們是無法得知它的內容。不過別擔心，我知道有一個人可以幫我們，請你去詢問<font color=\"LEVEL\">歐瑞城鎮的倉庫管理員克里弗</font>，他應該了解這本書的內容。<br></body></html>"
+no_part2  = "<html><body>首席調查員蕭伯霖：<br>我並沒有發現任何有用的文獻‧‧‧據我們所知，巨人之間的活動並沒有證據來證明你所發現的信件或是手稿是真的，就如同我告訴你的，我們主要是在找尋<font color=\"LEVEL\">巨人的高崙設計圖、巨人的魔法理論、巨人的建築指南、巨人的醫學理論</font>這些文獻，你必須帶來完整的文獻，我們才能進一步來研究。</body></html>"
+ok_part2  = "<html><body>倉庫管理員克里弗：<br>咦，這是什麼書？蕭柏霖叫你帶來給我看看的嗎？嗯‧‧‧我看看‧‧‧這本書是用非常古老的文字寫成的‧‧‧嗯‧‧‧對了，你把這本古代的中級辭典拿去給<font color=\"LEVEL\">蕭柏霖</font>看看。有了這本辭典，他就可以了解這本書，快拿去給他吧。</body></html>"
+gogogo_2  = "<html><body>首席調查員蕭伯霖：<br>你還帶著這本書在這做什麼？以我們現有的知識是無法了解這本書的內容，帶著這本書去找<font color=\"LEVEL\">歐瑞城鎮的倉庫管理員克里弗</font>。</body></html>"
