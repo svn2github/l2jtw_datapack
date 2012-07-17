@@ -1012,7 +1012,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 		}
 		
-		replyMSG.append("</table><table width=300 bgcolor=666666 border=0><tr>");
+		replyMSG.append("</table><table width=300 bgcolor=666666 border=0>"); //rocknow-God
 		
 		if (page > 1)
 		{
