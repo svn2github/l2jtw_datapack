@@ -211,7 +211,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+			<player class_id_restriction="93, 101, 108, 117, 141" /> <!-- Dagger Masters -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="170" />
@@ -644,7 +644,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+			<player class_id_restriction="93, 101, 108, 117, 141" /> <!-- Dagger Masters -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="170" />

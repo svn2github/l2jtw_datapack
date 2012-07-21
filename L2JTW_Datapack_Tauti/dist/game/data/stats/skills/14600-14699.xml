@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="skills.xsd">
+	<skill id="14686" levels="1" name="Basic strokes">
+		<table name="#enchantMagicLvl">76</table>
+		<table name="#magicLvl">85</table>
+		<table name="#mpInitialConsume">7</table>
+		<table name="#mpConsume">70</table>
+		<table name="#power">143</table>
+		<set name="castRange" val="3080" />
+		<set name="effectRange" val="500" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="80" />
+		<set name="hitTime" val="4000" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" />
+		<set name="saveVs" val="MEN" />
+		<set name="power" val="20" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="2400" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect count="5" name="Fear" abnormalTime="2" val="0" abnormalLvl="1" abnormalType="turn_flee" />
+		</for>
+	</skill>
+</list>

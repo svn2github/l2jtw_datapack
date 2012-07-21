@@ -1223,4 +1223,29 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
 	</skill>
+	<skill id="9185" levels="1" name="Scroll: Enchant Weapon (Grade R)">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_WEAPON" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9186" levels="1" name="Scroll: Enchant Armor (Grade R)">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_WEAPON" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9193" levels="1" name="Soulshot: R-Grade">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9194" levels="1" name="Spiritshot - R grade">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9195" levels="1" name="Blessed Spiritshot - R grade">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="A1" />
+	</skill>
 </list>

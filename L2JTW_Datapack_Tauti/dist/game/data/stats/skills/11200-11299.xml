@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="skills.xsd">
+	<skill id="11251" levels="1" name="Grand Weapon Mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="INT" val="2" />
+			<add order="0x40" stat="mAtk" val="103" />
+			<mul order="0x30" stat="mAtkSpd" val="1.23" />
+			<add order="0x40" stat="pAtk" val="82" />
+			<basemul order="0x30" stat="mCritRate" val="1.06" />
+			<basemul order="0x30" stat="MagicalMpConsumeRate" val="0.94" />
+			<basemul order="0x30" stat="regMp" val="1.2" />
+		</for>
+	</skill>
+	<skill id="11252" levels="1" name="Grand Robe Mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="INT" val="2" />
+			<add order="0x40" stat="pDef" val="135">
+				<using kind="Magic" />
+			</add>
+			<mul order="0x30" stat="mAtkSpd" val="1.05">
+				<using kind="Magic" />
+			</mul>
+		</for>
+	</skill>
+	<skill id="11253" levels="1" name="Grand Magic Mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="mDef" val="139" />
+			<mul order="0x30" stat="magicDamVul" val="0.65" />
+			<mul order="0x30" stat="mReuse" val="0.75" />
+		</for>
+	</skill>
+	<skill id="11255" levels="1" name="Grand Spirit Mastery">
+		<table name="#vuln"> 30 </table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="INT" val="2" />
+			<sub order="0x40" stat="bleedVuln" val="#vuln" />
+			<sub order="0x40" stat="sleepVuln" val="#vuln" />
+			<sub order="0x40" stat="paralyzeVuln" val="#vuln" />
+		</for>
+	</skill>
+	<skill id="11259" levels="8" name="Week of Nice marked">
+		<table name="#DOT"> 269 272 276 280 283 287 290 294 </table>
+		<set name="mpInitialConsume" val="5" />
+		<set name="mpConsume" val="43" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="isDebuff" val="true" />
+		<set name="hitTime" val="4000" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="POISON" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="10" name="DamOverTime" abnormalTime="1" val="#DOT" abnormalLvl="7" abnormalType="poison" abnormal="poison" />
+		</for>
+	</skill>
+	<skill id="11260" levels="5" name="Mark Boyd">
+		<table name="#DOT"> 335 343 350 356 363 </table>
+		<set name="mpInitialConsume" val="5" />
+		<set name="mpConsume" val="43" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="isDebuff" val="true" />
+		<set name="hitTime" val="4000" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="DRAIN" />
+		<set name="absorbPart" val="0.4" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="10" name="DamOverTime" abnormalTime="4" val="#DOT" abnormalLvl="7" abnormalType="poison" abnormal="poison" />
+		</for>
+	</skill>
+	<skill id="11261" levels="6" name="Flemish Executive of Marks">
+		<table name="#DOT"> 370 375 382 389 397 404 </table>
+		<set name="mpInitialConsume" val="5" />
+		<set name="mpConsume" val="43" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="isDebuff" val="true" />
+		<set name="hitTime" val="4000" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="POISON" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="15" name="DamOverTime" abnormalTime="1" val="#DOT" abnormalLvl="7" abnormalType="poison" abnormal="poison" />
+		</for>
+	</skill>
+	<skill id="11262" levels="6" name="Tricks of Mark">
+		<table name="#DOT"> 303 305 311 317 322 328 </table>
+		<set name="mpInitialConsume" val="5" />
+		<set name="mpConsume" val="43" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="isDebuff" val="true" />
+		<set name="hitTime" val="4000" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="POISON" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="5" name="DamOverTime" abnormalTime="1" val="#DOT" abnormalLvl="7" abnormalType="poison" abnormal="poison" />
+			<effect name="Mute" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="silence" />
+		</for>
+	</skill>
+	<skill id="11269" levels="1" name="Mana-sharing">
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="1400" />
+		<set name="power" val="1400" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="6000" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+	</skill>
+	<skill id="11287" levels="1" name="Grand Resist">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+				<add order="0x10" stat="INT" val="2" />
+				<add order="0x40" stat="waterRes" val="20" />
+				<add order="0x40" stat="fireRes" val="20" />
+				<add order="0x40" stat="windRes" val="20" />
+				<add order="0x40" stat="earthRes" val="20" />
+				<add order="0x40" stat="mDef" val="199" />
+		</for>
+	</skill>
+	<skill id="11288" levels="3" name="Ability Final sharing">
+		<table name="#atk"> 1.6 1.65 1.7 </table>
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SUMMON" />
+		<set name="mpConsume" val="77" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A1" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="buff">
+				<mul order="0x30" stat="pAtk" val="#atk" />
+				<mul order="0x30" stat="pDef" val="#atk" />
+				<mul order="0x30" stat="mAtk" val="1.3" />
+				<mul order="0x30" stat="mDef" val="1.3" />
+				<mul order="0x30" stat="maxHp" val="1.15" />
+				<mul order="0x30" stat="maxMp" val="1.15" />
+				<mul order="0x30" stat="rCrit" val="1.1" />
+				<mul order="0x30" stat="pAtkSpd" val="1.03" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11295" levels="1" name="Grand Light armor mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+				<add order="0x10" stat="INT" val="2" />
+				<add order="0x40" stat="pDef" val="132" />
+				<using kind="Light" />
+		</for>
+	</skill>
+	<skill id="11297" levels="4" name="Blessing Of Giants">
+		<table name="#spd"> 0.85 0.9 0.95 1 </table>
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SUMMON" />
+		<set name="mpConsume" val="78" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A1" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="buff">
+				<mul order="0x30" stat="pAtk" val="1.2" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="regHp" val="1.2" />
+				<mul order="0x30" stat="maxMp" val="1.2" />
+				<mul order="0x30" stat="rCrit" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<mul order="0x30" stat="runSpd" val="#spd" />
+			</effect>
+		</for>
+	</skill>
+</list>

@@ -971,7 +971,7 @@
 		<set name="operateType" val="A1" />
 		<set name="staticHitTime" val="true" />
 		<set name="staticReuse" val="true" />
-		<set name="isPotion" val="true"  />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>

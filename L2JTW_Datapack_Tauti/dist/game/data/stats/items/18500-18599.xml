@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+		<item id="18550" type="EtcItem" name="Arrow of Oricalcum">
+		<set name="icon" val="icon.etc_oricalcum_quiver_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="arrow" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="r" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="18551" type="EtcItem" name="Red Soul Crystal - Stage 19">
+		<set name="icon" val="icon.r_soul_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18552" type="EtcItem" name="Blue Soul Crystal - Stage 19">
+		<set name="icon" val="icon.r_soul_stone_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18553" type="EtcItem" name="Green Soul Crystal - Stage 19">
+		<set name="icon" val="icon.r_soul_stone_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18554" type="EtcItem" name="Red Soul Crystal - Stage 20">
+		<set name="icon" val="icon.r95_soul_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18555" type="EtcItem" name="Blue Soul Crystal - Stage 20">
+		<set name="icon" val="icon.r95_soul_stone_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18556" type="EtcItem" name="Green Soul Crystal - Stage 20">
+		<set name="icon" val="icon.r95_soul_stone_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18557" type="EtcItem" name="Red Soul Crystal - Stage 21">
+		<set name="icon" val="icon.r99_soul_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18558" type="EtcItem" name="Blue Soul Crystal - Stage 21">
+		<set name="icon" val="icon.r99_soul_stone_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18559" type="EtcItem" name="Green Soul Crystal - Stage 21">
+		<set name="icon" val="icon.r99_soul_stone_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="18564" type="EtcItem" name="Life Stone - Level 90">
+		<set name="icon" val="icon.etc_mineral_general_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="59616" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="89" />
+		</cond>
+	</item>
+	<item id="18565" type="EtcItem" name="Life Stone - Level 95">
+		<set name="icon" val="icon.etc_mineral_general_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="59616" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="94" />
+		</cond>
+	</item>
+	<item id="18566" type="EtcItem" name="Life Stone - Level 99">
+		<set name="icon" val="icon.etc_mineral_general_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="59616" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="98" />
+		</cond>
+	</item>
+	<item id="18569" type="EtcItem" name="Mid-Grade Life Stone - Level 90">
+		<set name="icon" val="icon.etc_mineral_special_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="238752" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="89" />
+		</cond>
+	</item>
+	<item id="18570" type="EtcItem" name="Mid-Grade Life Stone - Level 95">
+		<set name="icon" val="icon.etc_mineral_special_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="238752" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="94" />
+		</cond>
+	</item>
+	<item id="18571" type="EtcItem" name="Mid-Grade Life Stone - Level 99">
+		<set name="icon" val="icon.etc_mineral_special_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="238752" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="98" />
+		</cond>
+	</item>
+	<item id="18574" type="EtcItem" name="High-Grade Life Stone - Level 90">
+		<set name="icon" val="icon.etc_mineral_rare_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="2387520" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="89" />
+		</cond>
+	</item>
+	<item id="18575" type="EtcItem" name="High-Grade Life Stone - Level 95">
+		<set name="icon" val="icon.etc_mineral_rare_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="2387520" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="94" />
+		</cond>
+	</item>
+	<item id="18576" type="EtcItem" name="High-Grade Life Stone - Level 99">
+		<set name="icon" val="icon.etc_mineral_rare_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="2387520" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113">
+			<player level="98" />
+		</cond>
+	</item>
+</list>

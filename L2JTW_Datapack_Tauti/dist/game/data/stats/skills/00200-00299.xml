@@ -815,8 +815,8 @@
 			</mul>
 		</enchant2for>
 	</skill>
-	<skill id="239" levels="7" name="Expertise S84">
-		<table name="#magicLvl"> 20 40 52 61 76 80 84 </table>
+	<skill id="239" levels="10" name="Expertise R99">
+		<table name="#magicLvl"> 20 40 52 61 76 80 84 90 95 99 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />

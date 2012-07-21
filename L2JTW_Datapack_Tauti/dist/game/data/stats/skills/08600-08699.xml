@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="skills.xsd">
+	<skill id="8600" levels="1" name="Ride Knight Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="129" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="8601" levels="1" name="Ride Warrior Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="130" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="8602" levels="1" name="Ride Rouge Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="131" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="8603" levels="1" name="Ride Archer Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="132" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="8604" levels="1" name="Ride Wizard Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="133" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="8605" levels="1" name="Ride Summoner Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="134" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="8606" levels="1" name="Ride Enchanter Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="135" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="8607" levels="1" name="Ride Healer Horse">
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="transformId" val="136" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+			</effect>
+		</for>
+	</skill>
+</list>

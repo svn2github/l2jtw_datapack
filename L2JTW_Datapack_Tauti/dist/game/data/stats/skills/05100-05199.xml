@@ -1571,7 +1571,7 @@
 		</for>
 	</skill>
 	<skill id="5195" levels="12" name="Pet Greater Heal">
-		<table name="#mpConsume"> 7 12 18 25 32 39 46 49 51 52 53 53  </table>
+		<table name="#mpConsume"> 7 12 18 25 32 39 46 49 51 52 53 53 </table>
 		<table name="#amount"> 58 92 148 219 299 380 450 477 500 525 542 550 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpInitialConsume"> 2 3 5 7 8 10 12 13 13 13 14 14 </table>
@@ -1616,7 +1616,7 @@
 	</skill>
 	<skill id="5197" levels="3" name="Pet Hex">
 		<table name="#magicLvl"> 64 66 68 </table>
-		<table name="#mpConsume"> 24 25 26  </table>
+		<table name="#mpConsume"> 24 25 26 </table>
 		<table name="#mpInitialConsume"> 6 7 7 </table>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />

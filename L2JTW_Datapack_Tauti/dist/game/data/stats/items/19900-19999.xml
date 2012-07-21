@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19900" type="Armor" name="Seraph Light Feet">
+		<set name="icon" val="icon.armor_t402_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="Light" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="408" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1070" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="93" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<!-- Seraph Robe -->
+	<item id="19901" type="Armor" name="Seraph Robe Head">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="613" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="139" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19902" type="Armor" name="Seraph Robe Chest">
+		<set name="icon" val="icon.armor_t403_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1635" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1750" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="649" />
+			<add order="0x10" stat="pDef" val="185" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19903" type="Armor" name="Seraph Robe legs">
+		<set name="icon" val="icon.armor_t403_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1022" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="850" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="116" />
+			<add order="0x40" stat="maxMp" val="427" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19904" type="Armor" name="Seraph Robe Gloves">
+		<set name="icon" val="icon.armor_t403_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="408" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="510" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="93" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19905" type="Armor" name="Seraph Robe Feet">
+		<set name="icon" val="icon.armor_t403_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="408" />
+		<set name="crystal_type" val="r95" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1070" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="93" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<!-- Eternal Heavy -->
+	<item id="19906" type="Armor" name="Eternal Heavy Head">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1351" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="144" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19907" type="Armor" name="Eternal Heavy Chest">
+		<set name="icon" val="icon.armor_t701_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3603" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="7520" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="385" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19908" type="Armor" name="Eternal Heavy legs">
+		<set name="icon" val="icon.armor_t701_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2252" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="3170" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="241" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19909" type="Armor" name="Eternal Heavy Gloves">
+		<set name="icon" val="icon.armor_t701_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="900" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="510" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19910" type="Armor" name="Eternal Heavy Feet">
+		<set name="icon" val="icon.armor_t701_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="900" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1070" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
+	<item id="19911" type="Weapon" name="Eternal Heavy Shield">
+		<set name="icon" val="icon.weapon_akra_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1130" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="526" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<!-- Eternal Light -->
+	<item id="19912" type="Armor" name="Eternal Light Head">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="Light" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="135" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="144" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19913" type="Armor" name="Eternal Light Chest">
+		<set name="icon" val="icon.armor_t702_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="Light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3603" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="4140" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="289" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19914" type="Armor" name="Eternal Light legs">
+		<set name="icon" val="icon.armor_t702_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="Light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2252" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1320" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="181" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19915" type="Armor" name="Eternal Light Gloves">
+		<set name="icon" val="icon.armor_t702_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="Light" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="900" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="510" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19916" type="Armor" name="Eternal Light Feet">
+		<set name="icon" val="icon.armor_t702_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="Light" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="900" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1070" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<!-- Eternal Robe -->
+	<item id="19917" type="Armor" name="Eternal Robe Head">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1351" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="144" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19918" type="Armor" name="Eternal Robe Chest">
+		<set name="icon" val="icon.armor_t703_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6000" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1750" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="649" />
+			<add order="0x10" stat="pDef" val="193" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19919" type="Armor" name="Eternal Robe legs">
+		<set name="icon" val="icon.armor_t703_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="300" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="850" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="121" />
+			<add order="0x40" stat="maxMp" val="427" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19920" type="Armor" name="Eternal Robe Gloves">
+		<set name="icon" val="icon.armor_t703_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="900" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="510" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+	<item id="19921" type="Armor" name="Eternal Robe Feet">
+		<set name="icon" val="icon.armor_t703_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="900" />
+		<set name="crystal_type" val="r99" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1070" />
+		<set name="price" val="0" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant val="0" order="0x0C" stat="pDef" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="skills.xsd">
+	<skill id="12872" levels="1" name="Scroll: Enchant Weapon (Grade R)">
+		<!-- Blessed Enchant -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_WEAPON" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="12873" levels="1" name="Scroll: Enchant Armor (Grade R)">
+		<!-- Blessed Enchant -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_WEAPON" />
+		<set name="operateType" val="A1" />
+	</skill>
+</list>
