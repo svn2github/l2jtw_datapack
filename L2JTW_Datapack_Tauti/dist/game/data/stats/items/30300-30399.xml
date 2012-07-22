@@ -142,9 +142,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3590-1" />
 		<set name="item_skill" val="3589-1" />
+		<!--
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="640" />
 			<set order="0x08" stat="mAtk" val="399" />
@@ -175,9 +177,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3579-1" />
 		<set name="item_skill" val="3578-1" />
+		<!--
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="720" />
 			<set order="0x08" stat="mAtk" val="399" />
@@ -206,9 +210,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="3582-1" />
+		<!--
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="877" />
 			<set order="0x08" stat="mAtk" val="399" />
@@ -238,9 +244,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3581-1" />
 		<set name="item_skill" val="3580-1" />
+		<!--
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="720" />
 			<set order="0x08" stat="mAtk" val="399" />
@@ -271,9 +279,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3588-1" />
 		<set name="item_skill" val="3587-1" />
+		<!--
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="877" />
 			<set order="0x08" stat="mAtk" val="399" />
@@ -304,9 +314,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3592-1" />
 		<set name="item_skill" val="3591-1" />
+		<!--
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="720" />
 			<set order="0x08" stat="mAtk" val="399" />
@@ -339,9 +351,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3594-1" />
 		<set name="item_skill" val="3593-1" />
+		<!--
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="1719" />
 			<set order="0x08" stat="mAtk" val="399" />
@@ -378,11 +392,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3594-1" />
 		<set name="item_skill" val="3635-1;3360-1" />
+		<!--
 		<cond msgId="1518">
-			<and>
-				<player isHero="true" />
-			</and>
+			<player isHero="true" />
 		</cond>
+		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="908" />
 			<set order="0x08" stat="mAtk" val="399" />
