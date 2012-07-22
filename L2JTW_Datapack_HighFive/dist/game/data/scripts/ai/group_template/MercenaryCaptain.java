@@ -105,6 +105,7 @@ public class MercenaryCaptain extends Quest
 
 	class BroadcastToZone implements Runnable
 	{
+		@SuppressWarnings("synthetic-access")
 		@Override
 		public void run()
 		{

@@ -51,21 +51,21 @@ public class PcBangPoint extends Quest
 	};
 	/**
 	 * ï¿½ï¿½ï¿½Ü¤ï¿½ï¿½q Talking Island NPCID 31775, 31776,
-	 * ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ Elven Village NPCID 31780, 31781,
-	 * ï¿½Â·tï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ Dark Elf Village NPCID 31777, 31778, 31779,
-	 * ï¿½~ï¿½Hï¿½ï¿½ï¿½ Orc Village NPCID 31784, 31785, 31786,
-	 * ï¿½Gï¿½Hï¿½ï¿½ï¿½ Dwarven Village NPCID 31782, 31783,
+	 * ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿þýElven Village NPCID 31780, 31781,
+	 * ï¿½Â·tï¿½ï¿½ï¿½Fï¿½ï¿½ï¿þýDark Elf Village NPCID 31777, 31778, 31779,
+	 * ï¿½~ï¿½Hï¿½ï¿½ï¿þýOrc Village NPCID 31784, 31785, 31786,
+	 * ï¿½Gï¿½Hï¿½ï¿½ï¿þýDwarven Village NPCID 31782, 31783,
 	 * ï¿½ï¿½Ñ¨Ï§ï¿½ï¿½ Kamael Village NPCID 32337, 32338, 32339, 32340,
-	 * ï¿½jï¿½|ï¿½Bï¿½ï¿½ï¿½ The Village of Gludin NPCID 31787, 31788, 31789, 31790, 31791,
+	 * ï¿½jï¿½|ï¿½Bï¿½ï¿½ï¿þýThe Village of Gludin NPCID 31787, 31788, 31789, 31790, 31791,
 	 * ï¿½jï¿½|ï¿½Bï¿½ï¿½ï¿½ï¿½ Gludio NPCID 31792, 31793, 31794, 31795, 31796,
 	 * ï¿½fï¿½ï¿½ Dion NPCID 31797, 31798, 31799, 31800,
-	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Floran Village NPCID 31801, 31802, 31803,
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿þýFloran Village NPCID 31801, 31802, 31803,
 	 * ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Heine NPCID 31819, 31820, 31821, 31822,
 	 * ï¿½_ï¿½ï¿½ Giran NPCID 31804, 31805, 31806, 31807, 31808, 31809,
 	 * ï¿½ï¿½ï¿½Å¾Ç°| Hardin's Private Academy NPCID 31810,
 	 * ï¿½Ú·ç«°ï¿½ï¿½ Oren NPCID 31814, 31815, 31816, 31817, 31818,
-	 * ï¿½Hï¿½ï¿½ï¿½ Ivory Tower NPCID 31811, 31812, 31813,
-	 * ï¿½yï¿½Hï¿½ï¿½ï¿½ Hunters Village NPCID 31823, 31824, 31825, 31826,
+	 * ï¿½Hï¿½ï¿½ï¿þýIvory Tower NPCID 31811, 31812, 31813,
+	 * ï¿½yï¿½Hï¿½ï¿½ï¿þýHunters Village NPCID 31823, 31824, 31825, 31826,
 	 * ï¿½È¤Bï¿½ï¿½ï¿½ï¿½ Aden NPCID 31827, 31828, 31829, 31830, 31831,
 	 * ï¿½ï¿½ï¿½Fï¿½Sï¿½ï¿½ï¿½ï¿½ Goddard NPCID 31837, 31838, 31839, 31840, 31841,
 	 * ï¿½|ï¿½]ï¿½ï¿½ï¿½ï¿½ Rune NPCID 31832, 31833, 31834, 31835, 31836,
@@ -89,8 +89,8 @@ public class PcBangPoint extends Quest
 		POINTSSKILL.put("S4396", new int[] { 4396, 2, 400 }); // Magic Barrier ï¿½]ï¿½kï¿½Ì»ï¿½2ï¿½ï¿½ - 400ï¿½I
 		POINTSSKILL.put("S4397", new int[] { 4397, 2, 500 }); // Berserker Spirit ï¿½gï¿½Ô¤hï¿½ï¿½2ï¿½ï¿½ - 500ï¿½I
 		POINTSSKILL.put("S4398", new int[] { 4398, 3, 200 }); // Bless Shield ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½3ï¿½ï¿½ - 200ï¿½I
-		POINTSSKILL.put("S4399", new int[] { 4399, 3, 400 }); // Vampiric Rage ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½ - 400ï¿½I
-		POINTSSKILL.put("S4440", new int[] { 4400, 3, 950 }); // Acumen ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½ - 950ï¿½I
+		POINTSSKILL.put("S4399", new int[] { 4399, 3, 400 }); // Vampiric Rage ï¿½lï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½ - 400ï¿½I
+		POINTSSKILL.put("S4440", new int[] { 4400, 3, 950 }); // Acumen ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½ - 950ï¿½I
 		POINTSSKILL.put("S4401", new int[] { 4401, 3, 400 }); // Empower ï¿½]ï¿½Oï¿½Ê¤ï¿½3ï¿½ï¿½ - 400ï¿½I
 		POINTSSKILL.put("S4402", new int[] { 4402, 2, 950 }); // Haste ï¿½tï¿½×¿Eï¿½o2ï¿½ï¿½ - 950ï¿½I
 		POINTSSKILL.put("S4403", new int[] { 4403, 3, 400 }); // Guidance ï¿½É¤ï¿½3ï¿½ï¿½ - 400ï¿½I
@@ -107,8 +107,8 @@ public class PcBangPoint extends Quest
 		PETSKILL.put("P4396", new int[] { 4396, 1, 300 }); // Magic Barrier ï¿½]ï¿½kï¿½Ì»ï¿½1ï¿½ï¿½ - 300ï¿½I
 		PETSKILL.put("P4397", new int[] { 4397, 1, 300 }); // Berserker Spirit ï¿½gï¿½Ô¤hï¿½ï¿½1ï¿½ï¿½ - 300ï¿½I
 		PETSKILL.put("P4398", new int[] { 4398, 2, 150 }); // Bless Shield ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½2ï¿½ï¿½ - 150ï¿½I
-		PETSKILL.put("P4399", new int[] { 4399, 2, 300 }); // Vampiric Rage ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ - 300ï¿½I
-		PETSKILL.put("P4440", new int[] { 4400, 2, 600 }); // Acumen ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ - 600ï¿½I
+		PETSKILL.put("P4399", new int[] { 4399, 2, 300 }); // Vampiric Rage ï¿½lï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½ - 300ï¿½I
+		PETSKILL.put("P4440", new int[] { 4400, 2, 600 }); // Acumen ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½ - 600ï¿½I
 		PETSKILL.put("P4401", new int[] { 4401, 2, 300 }); // Empower ï¿½]ï¿½Oï¿½Ê¤ï¿½2ï¿½ï¿½ - 300ï¿½I
 		PETSKILL.put("P4402", new int[] { 4402, 1, 400 }); // Haste ï¿½tï¿½×¿Eï¿½o1ï¿½ï¿½ - 400ï¿½I
 		PETSKILL.put("P4403", new int[] { 4403, 2, 300 }); // Guidance ï¿½É¤ï¿½2ï¿½ï¿½ - 300ï¿½I
@@ -122,42 +122,42 @@ public class PcBangPoint extends Quest
 		TELEPORTERS.put("TELE_02", new int[] { -111728, 244330, -3448, 20 }); // Singing Waterfall 20 points = ï¿½qï¿½Ûªï¿½ï¿½rï¿½ï¿½ - 20 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_03", new int[] { -106696, 214691, -3424, 30 }); // Western Territory 30 points = ï¿½ï¿½ï¿½Ü¤ï¿½ï¿½qï¿½è³¡(ï¿½_ï¿½ï¿½) - 30 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_04", new int[] { -99586, 237637, -3568, 20 }); // Obelisk of Victory 20 points = ï¿½Ô³Ó¬ï¿½ï¿½ï¿½ï¿½ï¿½ - 20 ï¿½Iï¿½ï¿½
-		// ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ Elven Village Teleporters
+		// ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿þýElven Village Teleporters
 		TELEPORTERS.put("TELE_05", new int[] { 21362, 51122, -3688, 20 }); // Elven Forest 20 points = ï¿½ï¿½ï¿½Fï¿½ËªL - 20 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_06", new int[] { 29294, 74968, -3776, 30 }); // Elven Fortress 30 points = ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½aï¿½ï¿½ï¿½nï¿½ï¿½ - 30 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_07", new int[] { -10612, 75881, -3592, 50 }); // Neutral Zone 50 points = ï¿½ï¿½ï¿½ß¦aï¿½a - 50 ï¿½Iï¿½ï¿½
-		// ï¿½Â·tï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ Dark Elf Village Teleporters
+		// ï¿½Â·tï¿½ï¿½ï¿½Fï¿½ï¿½ï¿þýDark Elf Village Teleporters
 		TELEPORTERS.put("TELE_08", new int[] { -22224, 14168, -3232, 30 }); // Dark Forest 30 points = ï¿½Â·tï¿½ï¿½ï¿½Fï¿½ËªL - 30 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_09", new int[] { -21966, 40544, -3192, 30 }); // Swampland 30 points = ï¿½hï¿½Aï¿½aï¿½a - 30 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_10", new int[] { -61095, 75104, -3352, 90 }); // Spider Nest 90 points = ï¿½jï¿½ï¿½_ï¿½ï¿½ - 90 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_11", new int[] { -10612, 75881, -3592, 50 }); // Neutral Zone 50 points = ï¿½ï¿½ï¿½ß¦aï¿½a - 50 ï¿½Iï¿½ï¿½
-		// ï¿½~ï¿½Hï¿½ï¿½ï¿½ Orc Village Teleporters
+		// ï¿½~ï¿½Hï¿½ï¿½ï¿þýOrc Village Teleporters
 		TELEPORTERS.put("TELE_12", new int[] { -4190, -80040, -2696, 50 }); // Immortal Plateau Southern Region 50 points = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ï¿½ - 50 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_13", new int[] { -10983, -117484, -2464, 30 }); // The Immortal Plateau 30 points = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - 30 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_14", new int[] { 9340, -112509, -2536, 40 }); // Cave of Trials 40 points = ï¿½Õ½mï¿½}ï¿½] - 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_15", new int[] { 8652, -139941, -1144, }); // Frozen Waterfall 40 points = ï¿½Bï¿½ï¿½ï¿½rï¿½ï¿½ - 40 ï¿½Iï¿½ï¿½
-		// ï¿½Gï¿½Hï¿½ï¿½ï¿½ Dwarven Village Teleporters
+		// ï¿½Gï¿½Hï¿½ï¿½ï¿þýDwarven Village Teleporters
 		TELEPORTERS.put("TELE_16", new int[] { 139714, -177456, -1536, 20 }); // Abandoned Coal Mines 20 points = ï¿½oï¿½ï¿½ï¿½qï¿½| - 20 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_17", new int[] { 169008, -208272, -3504, 60 }); // Eastern Mining Zone (Northeastern Shore) 60 points = ï¿½sï¿½ï¿½ï¿½qï¿½ÏªFï¿½ï¿½ï¿½]ï¿½Fï¿½_ï¿½ï¿½ï¿½ï¿½^ - 60 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_18", new int[] { 136910, -205082, -3664, 30 }); // Western Mining Zone (Central Shore) 30 points = ï¿½sï¿½ï¿½ï¿½qï¿½Ï¦è³¡ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ - 30 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_19", new int[] { 171946, -173352, 3440, 280 }); // Mithril Mines Western Entrance 280 points = ï¿½Ì¯ï¿½ï¿½ï¿½ï¿½qï¿½sï¿½ï¿½ï¿½ï¿½Jï¿½f - 280 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_20", new int[] { 178591, -184615, -360, 300 }); // Mithril Mines Eastern Entrance 300 points = ï¿½Ì¯ï¿½ï¿½ï¿½ï¿½qï¿½sï¿½_ï¿½ï¿½Jï¿½f - 300 ï¿½Iï¿½ï¿½
 		// ï¿½ï¿½Ñ¨Ï§ï¿½ï¿½Sï¿½ï¿½ï¿½Ç°e Kamael Village No Teleporters
-		// ï¿½jï¿½|ï¿½Bï¿½ï¿½ï¿½ The Village of Gludin Teleporters
+		// ï¿½jï¿½|ï¿½Bï¿½ï¿½ï¿þýThe Village of Gludin Teleporters
 		TELEPORTERS.put("TELE_21", new int[] { -44763, 203497, -3592, 50 }); // Langk Lizardman Dwelling 50 points = ï¿½Ô§Jï¿½hç°¤Hï¿½Lï¿½ï¿½ - 50 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_22", new int[] { -63736, 101522, -3552, 40 }); // Fellmere Harvest Grounds 40 points = ï¿½ï¿½ï¿½Ìºï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ - 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_23", new int[] { -75437, 168800, -3632, 20 }); // Windmill Hill 20 points = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½Y - 20 ï¿½Iï¿½ï¿½
-		TELEPORTERS.put("TELE_24", new int[] { -53001, 191425, -3568, 50 }); // Forgotten Temple 50 points = ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ - 50 ï¿½Iï¿½ï¿½
+		TELEPORTERS.put("TELE_24", new int[] { -53001, 191425, -3568, 50 }); // Forgotten Temple 50 points = ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿þý- 50 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_25", new int[] { -89763, 105359, -3576, 50 }); // Orc Barracks 50 points = ï¿½gï¿½ï¿½Jï¿½~ï¿½Hï¿½Lï¿½ï¿½ - 50 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_26", new int[] { -88539, 83389, -2864, 70 }); // Windy Hill 70 points = ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ - 70 ï¿½Iï¿½ï¿½
-		TELEPORTERS.put("TELE_27", new int[] { -49853, 147089, -2784, 30 }); // Abandoned Camp 30 points = ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ - 30 ï¿½Iï¿½ï¿½
-		TELEPORTERS.put("TELE_28", new int[] { -16526, 208032, -3664, 90 }); // Wastelands 90 points = ï¿½ï¿½ï¿½ - 90 ï¿½Iï¿½ï¿½
+		TELEPORTERS.put("TELE_27", new int[] { -49853, 147089, -2784, 30 }); // Abandoned Camp 30 points = ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿þý- 30 ï¿½Iï¿½ï¿½
+		TELEPORTERS.put("TELE_28", new int[] { -16526, 208032, -3664, 90 }); // Wastelands 90 points = ï¿½ï¿½ï¿þý- 90 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_29", new int[] { -42256, 198333, -2800, 100 }); // Red Rock Ridge 100 points = ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½u - 100 ï¿½Iï¿½ï¿½
 		// ï¿½jï¿½|ï¿½Bï¿½ï¿½ï¿½ï¿½ Gludio Teleporters
 		TELEPORTERS.put("TELE_30", new int[] { -41248, 122848, -2904, 20 }); // Ruins of Agony 20 points = ï¿½dï¿½sï¿½oï¿½V - 20 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_31", new int[] { -19120, 136816, -3752, 20 }); // Ruins of Despair 20 points = ï¿½ï¿½ï¿½ï¿½oï¿½V - 20 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_32", new int[] { -9959, 176184, -4160, 60 }); // Ant Cave 60 points = ï¿½ï¿½ï¿½Æ¬}ï¿½] - 60 ï¿½Iï¿½ï¿½
-		TELEPORTERS.put("TELE_33", new int[] { -28327, 155125, -3496, 40 }); // Windawood Manor 40 points = ï¿½Å¹Fï¿½ï¿½wï¿½ï¿½ï¿½ - 40 ï¿½Iï¿½ï¿½
+		TELEPORTERS.put("TELE_33", new int[] { -28327, 155125, -3496, 40 }); // Windawood Manor 40 points = ï¿½Å¹Fï¿½ï¿½wï¿½ï¿½ï¿þý- 40 ï¿½Iï¿½ï¿½
 		// ï¿½fï¿½ï¿½ Dion Teleporters
 		TELEPORTERS.put("TELE_34", new int[] { 5106, 126916, -3664, 20 }); // Cruma Marshlands 20 points = ï¿½Jï¿½|ï¿½ï¿½ï¿½hï¿½A - 20 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_35", new int[] { 17225, 114173, -3440, 60 }); // Cruma Tower 60 points = ï¿½Jï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - 60 ï¿½Iï¿½ï¿½
@@ -165,7 +165,7 @@ public class PcBangPoint extends Quest
 		TELEPORTERS.put("TELE_37", new int[] { 630, 179184, -3720, 40 }); // Plains of Dion 40 points = ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½a - 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_38", new int[] { 34475, 188095, -2976, 80 }); // Bee Hive 80 points = ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - 80 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_39", new int[] { 60374, 164301, -2856, 100 }); // Tanor Canyon 100 points = ï¿½ï¿½Õ®lï¿½ï¿½ - 100 ï¿½Iï¿½ï¿½
-		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Floran Village Teleporters
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿þýFloran Village Teleporters
 		TELEPORTERS.put("TELE_40", new int[] { 50568, 152408, -2656, 40 }); // Execution Grounds 40 points = ï¿½Dï¿½ï¿½ - 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_41", new int[] { 33565, 162393, -3600, 40 }); // Tanor Canyon (West side) 40 points = ï¿½ï¿½Õ®lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_42", new int[] { 26810, 172787, -3376, 20 }); // Floran Agricultural Area 20 points = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½a - 20 ï¿½Iï¿½ï¿½
@@ -182,10 +182,10 @@ public class PcBangPoint extends Quest
 		TELEPORTERS.put("TELE_51", new int[] { 85546, 131328, -3672, 30 }); // Brekas Stronghold 30 points = ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½_ï¿½ï¿½ - 30 ï¿½Iï¿½ï¿½
 		// ï¿½Ú·ç«°ï¿½ï¿½ Oren Teleporters
 		TELEPORTERS.put("TELE_52", new int[] { 76839, 63851, -3648, 20 }); // Sel Mahum Training Grounds (West Gate) 20 points = ï¿½vï¿½ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½^ - 20 ï¿½Iï¿½ï¿½
-		TELEPORTERS.put("TELE_53", new int[] { 87252, 85514, -3056, 50 }); // Plains of Lizardmen 50 points = ï¿½hç°¯ï¿½ï¿½ - 50 ï¿½Iï¿½ï¿½
+		TELEPORTERS.put("TELE_53", new int[] { 87252, 85514, -3056, 50 }); // Plains of Lizardmen 50 points = ï¿½hç°¯ï¿½ï¿þý- 50 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_54", new int[] { 91539, -12204, -2440, 130 }); // Outlaw Forest 130 points = ï¿½Lï¿½kï¿½Ìªï¿½ï¿½ËªL - 130 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_55", new int[] { 64328, 26803, -3768, 70 }); // Sea of Spores 70 points = ï¿½Uï¿½lï¿½ï¿½ï¿½ï¿½ - 70 ï¿½Iï¿½ï¿½
-		// ï¿½yï¿½Hï¿½ï¿½ï¿½ Hunters Village Teleporters
+		// ï¿½yï¿½Hï¿½ï¿½ï¿þýHunters Village Teleporters
 		TELEPORTERS.put("TELE_56", new int[] { 124904, 61992, -3920, 40 }); // Southern Pathway of Enchanted Valley 40 points = ï¿½ï¿½ï¿½ë¨¦ï¿½]ï¿½nï¿½ï¿½^ - 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_57", new int[] { 104426, 33746, -3800, 90 }); // Northern Pathway of Enchanted Valley 90 points = ï¿½ï¿½ï¿½ë¨¦ï¿½]ï¿½_ï¿½ï¿½^ - 90 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_58", new int[] { 142065, 81300, -3000, 50 }); // Entrance to the Forest of Mirrors 50 points = ï¿½è¤§ï¿½ËªL - 50 ï¿½Iï¿½ï¿½
@@ -218,14 +218,14 @@ public class PcBangPoint extends Quest
 		TELEPORTERS.put("TELE_81", new int[] { 47692, -115745, -3744, 240 }); // Crypt of Disgrace 240 points = ï¿½ï¿½ï¿½dï¿½Ó¦a - 240 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_82", new int[] { 111965, -154172, -1528, 40 }); // Plunderous Plains 400 points = ï¿½ï¿½ï¿½Üªï¿½ï¿½î³¥ - 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_83", new int[] { 68693, -110438, -1904, 190 }); // Den of Evil 190 points = ï¿½cï¿½Fï¿½_ï¿½ï¿½ - 190 ï¿½Iï¿½ï¿½
-		TELEPORTERS.put("TELE_84", new int[] { 91280, -117152, -3928, 60 }); // Pavel Ruins 60 points = ï¿½ï¿½ï¿½ñº¸¿ï¿½ï¿½ - 60 ï¿½Iï¿½ï¿½
+		TELEPORTERS.put("TELE_84", new int[] { 91280, -117152, -3928, 60 }); // Pavel Ruins 60 points = ï¿½ï¿½ï¿½ñº¸¿ï¿½ï¿þý- 60 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_85", new int[] { 113903, -108752, -856, 90 }); // Ice Merchant Cabin 90 points = ï¿½Bï¿½ï¿½ï¿½Ó¶ï¿½ï¿½nï¿½Ï¦a - 90 ï¿½Iï¿½ï¿½
 		// ï¿½ï¿½ï¿½Å¾Ç°| Hardin's Private Academy Teleporters
 		TELEPORTERS.put("TELE_86", new int[] { 73024, 118485, -3688, 50 }); // Dragon Valley 50 points = ï¿½sï¿½ï¿½ï¿½ï¿½ - 50 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_87", new int[] { 131557, 114509, -3712, 80 }); // Antharas Lair 80 points = ï¿½wï¿½ï¿½ç´µï¿½}ï¿½] - 80 ï¿½Iï¿½ï¿½
-		TELEPORTERS.put("TELE_88", new int[] { 113553, 134813, -3540, 40 }); // Gorgon Flower Garden 40 points = ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿½ - 40 ï¿½Iï¿½ï¿½
+		TELEPORTERS.put("TELE_88", new int[] { 113553, 134813, -3540, 40 }); // Gorgon Flower Garden 40 points = ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿þý- 40 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_89", new int[] { 60374, 164301, -2856, 140 }); // Tanor Canyon 140 points = ï¿½ï¿½Õ®lï¿½ï¿½ - 140 ï¿½Iï¿½ï¿½
-		// ï¿½Hï¿½ï¿½ï¿½ Ivory Tower Teleporters
+		// ï¿½Hï¿½ï¿½ï¿þýIvory Tower Teleporters
 		TELEPORTERS.put("TELE_90", new int[] { 106517, -2871, -3416, 90 }); // Ancient Battleground 90 points = ï¿½jï¿½Ô³ï¿½ - 90 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_91", new int[] { 93218, 16969, -3904, 20 }); // Forest of Evil 20 points = ï¿½]ï¿½Dï¿½ï¿½ï¿½ËªL - 20 ï¿½Iï¿½ï¿½
 		TELEPORTERS.put("TELE_92", new int[] { 67097, 68815, -3648, 120 }); // Timak Outpost 110 points = ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½eï¿½ï¿½ï¿½a - 110 ï¿½Iï¿½ï¿½
@@ -348,7 +348,7 @@ public class PcBangPoint extends Quest
 				npc.doCast(SkillTable.getInstance().getInfo(4394,4));	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4402,2));	// ï¿½tï¿½×¿Eï¿½o2ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4406,3));	// ï¿½Ó±ï¿½ï¿½N3ï¿½ï¿½
-				npc.doCast(SkillTable.getInstance().getInfo(4399,3));	// ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½
+				npc.doCast(SkillTable.getInstance().getInfo(4399,3));	// ï¿½lï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½
 				htmltext = "skill_info.htm";
 			}
 			else
@@ -383,7 +383,7 @@ public class PcBangPoint extends Quest
 				npc.doCast(SkillTable.getInstance().getInfo(4394,3));	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4402,1));	// ï¿½tï¿½×¿Eï¿½o1ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4406,2));	// ï¿½Ó±ï¿½ï¿½N2ï¿½ï¿½
-				npc.doCast(SkillTable.getInstance().getInfo(4399,2));	// ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½
+				npc.doCast(SkillTable.getInstance().getInfo(4399,2));	// ï¿½lï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½
 				htmltext = "pet_skill_info.htm";
 			}
 			else
@@ -412,7 +412,7 @@ public class PcBangPoint extends Quest
 				npc.doCast(SkillTable.getInstance().getInfo(4391,2));	// ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½2ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4395,4));	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4401,3));	// ï¿½]ï¿½Oï¿½Ê¤ï¿½3ï¿½ï¿½
-				npc.doCast(SkillTable.getInstance().getInfo(4400,3));	// ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½
+				npc.doCast(SkillTable.getInstance().getInfo(4400,3));	// ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½
 				htmltext = "skill_info.htm";
 			}
 			else
@@ -441,7 +441,7 @@ public class PcBangPoint extends Quest
 				npc.doCast(SkillTable.getInstance().getInfo(4391,2));	// ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½2ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4395,3));	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½
 				npc.doCast(SkillTable.getInstance().getInfo(4401,2));	// ï¿½]ï¿½Oï¿½Ê¤ï¿½2ï¿½ï¿½
-				npc.doCast(SkillTable.getInstance().getInfo(4400,2));	// ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½
+				npc.doCast(SkillTable.getInstance().getInfo(4400,2));	// ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿þýï¿½ï¿½
 				htmltext = "pet_skill_info.htm";
 			}
 			else

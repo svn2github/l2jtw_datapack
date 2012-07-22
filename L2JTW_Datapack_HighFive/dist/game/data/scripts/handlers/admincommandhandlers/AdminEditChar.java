@@ -378,10 +378,6 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.sendMessage(MessageTable.Messages[1534].getMessage() + newclass);
 					player.broadcastUserInfo();
 					activeChar.sendMessage(player.getName() + MessageTable.Messages[1535].getMessage() + newclass);
-
-					// Transform-untransorm player quickly to force the client to reload the character textures
-					TransformationManager.getInstance().transformPlayer(105, player);
-					ThreadPoolManager.getInstance().scheduleGeneral(new Untransform(player), 200);
 				}
 				else
 					activeChar.sendMessage(1536);
@@ -446,7 +442,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				if (player.isInParty())
 				{
 					// Delete party window for other party members
-					player.getParty().broadcastToPartyMembers(player, new PartySmallWindowDeleteAll());
+					player.getParty().broadcastToPartyMembers(player, PartySmallWindowDeleteAll.STATIC_PACKET);
 					for (L2PcInstance member : player.getParty().getMembers())
 					{
 						// And re-add

@@ -93,10 +93,8 @@ public class AdminVitaminItem implements IAdminCommandHandler
 	
 	public void add_vit_item(int id, long count, int online, L2PcInstance player)
 	{
-		Connection con = null;
-		try
+		try (Connection con = L2DatabaseFactory.getInstance().getConnection())
 		{
-			con = L2DatabaseFactory.getInstance().getConnection();
 			PreparedStatement statement;
 			if (online == 1)
 				statement = con.prepareStatement("SELECT charId FROM characters WHERE online = 1 AND accesslevel > -1 AND deletetime = 0");
@@ -136,10 +134,6 @@ public class AdminVitaminItem implements IAdminCommandHandler
 		catch (Exception e)
 		{
 			e.printStackTrace();
-		}
-		finally
-		{
-			L2DatabaseFactory.close(con);
 		}
 	}
 	

@@ -26,7 +26,6 @@ import com.l2jserver.gameserver.SevenSigns;
 import com.l2jserver.gameserver.datatables.AdminTable;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.datatables.SpawnTable;
-import com.l2jserver.gameserver.datatables.TeleportLocationTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.instancemanager.DayNightSpawnManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
@@ -71,7 +70,6 @@ public class AdminSpawn implements IAdminCommandHandler
 		"admin_npc_index",
 		"admin_spawn_once",
 		"admin_show_npcs",
-		"admin_teleport_reload",
 		"admin_spawnnight",
 		"admin_spawnday",
 		"admin_instance_spawns",
@@ -244,11 +242,6 @@ public class AdminSpawn implements IAdminCommandHandler
 			SevenSigns.getInstance().spawnSevenSignsNPC();
 			QuestManager.getInstance().reloadAllQuests();
 			AdminTable.getInstance().broadcastMessageToGMs(MessageTable.Messages[1861].getMessage());
-		}
-		else if (command.startsWith("admin_teleport_reload"))
-		{
-			TeleportLocationTable.getInstance().reloadAll();
-			AdminTable.getInstance().broadcastMessageToGMs(MessageTable.Messages[1862].getMessage());
 		}
 		else if (command.startsWith("admin_spawn_monster") || command.startsWith("admin_spawn"))
 		{
