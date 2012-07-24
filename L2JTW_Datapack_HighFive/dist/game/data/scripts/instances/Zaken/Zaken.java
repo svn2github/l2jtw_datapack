@@ -165,13 +165,13 @@ public class Zaken extends L2AttackableAIScript
 		RED(15281),
 		BLUE(15302);
 		
-		private int _id;
+		protected int _id;
 		candleStates(int id)
 		{
 			_id = id;
 		}
 		
-		private int getId()
+		protected int getId()
 		{
 			return _id;
 		}
@@ -699,14 +699,17 @@ public class Zaken extends L2AttackableAIScript
 		InstanceWorld tmpworld;
 		
 		if (npc != null)
+		{
 			tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+		}
 		else
+		{
 			tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
-		
+		}
 		if (tmpworld instanceof ZWorld)
 		{
 			ZWorld world = (ZWorld) tmpworld;
-			if (event.equalsIgnoreCase("lightBarrel"))
+			if ((npc != null) && event.equalsIgnoreCase("lightBarrel"))
 			{
 				npc.setRHandId(candleStates.SPARKS.getId());
 				npcUpdate(npc);
@@ -716,7 +719,7 @@ public class Zaken extends L2AttackableAIScript
 				else
 					startQuestTimer("RedBarrel", 5000, npc, player);
 			}
-			else if (event.equalsIgnoreCase("RedBarrel"))
+			else if ((npc != null) && event.equalsIgnoreCase("RedBarrel"))
 			{
 				npc.setRHandId(candleStates.RED.getId());
 				npcUpdate(npc);
@@ -726,7 +729,7 @@ public class Zaken extends L2AttackableAIScript
 						spawnRoom(npc.getInstanceId(), _barrelSpawnZones[world._barrels.indexOf(barrel)]);
 				}
 			}
-			else if (event.equalsIgnoreCase("BlueBarrel"))
+			else if ((npc != null) && event.equalsIgnoreCase("BlueBarrel"))
 			{
 				npc.setRHandId(candleStates.BLUE.getId());
 				npcUpdate(npc);
