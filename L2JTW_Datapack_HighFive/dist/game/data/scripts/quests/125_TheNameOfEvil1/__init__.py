@@ -31,7 +31,6 @@ DEINONYCHUS  = [ 16067,22203,22204,22205,22220,22225,22743,22745 ]
 DROP_CHANCE = 30
 
 class Quest (JQuest) :
-
 	def __init__(self,id,name,descr):
 		JQuest.__init__(self,id,name,descr)
 		self.questItemIds = [GAZKH_FRAGMENT,ORNITHOMIMUS_CLAW,DEINONYCHUS_BONE,EPITAPH_OF_WISDOM]
@@ -104,11 +103,10 @@ class Quest (JQuest) :
 	def onTalk (self, npc, player) :
 		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		st = player.getQuestState(qn)
-		if not st: return htmltext
+		if not st : return htmltext
 
-		#id = st.getState()
-		npcId = npc.getNpcId()
 		cond = st.getInt("cond")
+		npcId = npc.getNpcId()
 
 		if npcId == MUSHIKA :
 			first = player.getQuestState("124_MeetingTheElroki")
@@ -190,7 +188,7 @@ class Quest (JQuest) :
 				st.playSound("ItemSound.quest_middle")
 		return
 
-QUEST		= Quest(125,qn,"凶神之名為 第一部")
+QUEST	= Quest(125,qn,"凶神之名為 第一部")
 
 QUEST.addStartNpc(MUSHIKA)
 QUEST.addTalkId(MUSHIKA)
