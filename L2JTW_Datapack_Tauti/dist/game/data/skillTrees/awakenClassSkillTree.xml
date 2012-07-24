@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/skillTrees.xsd">
+	<!-- Sigel Knight -->
+	<skillTree type="classSkillTree" classId="139">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Aura of Hate" skillId="10027" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="The vow of a Knight" skillId="10025" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Summon Crystal Knight" skillId="10043" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Elemental Protection" skillId="10044" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="shield Bash" skillId="10011" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Nenavist" skillId="10026" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Lva" skillId="10040" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Aura Duha" skillId="10038" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Rage Aura" skillId="10028" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Aura Soprotivleniya" skillId="10034" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Aura Stali" skillId="10032" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Come Challenge" skillId="10030" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Shipovanny Schit" skillId="10021" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Aura Vynoslivosti" skillId="10036" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya kaplya" skillId="10006" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe resistance to negative Effektam" skillId="10005" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Magic Soprotivlenie" skillId="10004" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Schitom" skillId="10003" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Possession Heavy Broney" skillId="10002" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Mechom/Drobyaschim Oruzhiem" skillId="10001" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Sigelya" skillId="1927" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Fokusirovka Schita" skillId="10020" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnaya Zaschita" skillId="10017" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Zaschita Litsa" skillId="10019" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Summon Crystal Knight" skillId="10043" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Lva" skillId="10040" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Volna Schita" skillId="10012" skillLvl="1" getLevel="87" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Nenavist" skillId="10026" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Aura of Hate" skillId="10027" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="shield Bash" skillId="10011" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Cuba Rytsarya" skillId="10043" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnaya Gidra" skillId="10016" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Volna Schita" skillId="10012" skillLvl="2" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Lva" skillId="10040" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="The vow of a Knight" skillId="10025" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnaya Zaschita" skillId="10017" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Fokusirovka Schita" skillId="10020" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shipovanny Schit" skillId="10021" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Nenavist" skillId="10026" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Summon Crystal Knight" skillId="10043" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blagorodnaya Zhertva" skillId="10018" skillLvl="1" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnaya Gidra" skillId="10016" skillLvl="2" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Volna Schita" skillId="10012" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="shield Bash" skillId="10011" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Aura of Hate" skillId="10027" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Lva" skillId="10040" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Summon Crystal Knight" skillId="10043" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnaya Gidra" skillId="10016" skillLvl="3" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Nenavist" skillId="10026" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Volna Schita" skillId="10012" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Aura of Hate" skillId="10027" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="shield Bash" skillId="10011" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Summon Crystal Knight" skillId="10043" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Korolya" skillId="10023" skillLvl="1" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shipovanny Schit" skillId="10021" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnaya Zaschita" skillId="10017" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Fokusirovka Schita" skillId="10020" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="The vow of a Knight" skillId="10025" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnaya Gidra" skillId="10016" skillLvl="4" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Lva" skillId="10040" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Volna Schita" skillId="10012" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blagorodnaya Zhertva" skillId="10018" skillLvl="2" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Nenavist" skillId="10026" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Summon Crystal Knight" skillId="10043" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otritsanie Smerti" skillId="10022" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaschita Litsa" skillId="10019" skillLvl="2" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnaya Gidra" skillId="10016" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="shield Bash" skillId="10011" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Aura of Hate" skillId="10027" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Volna Schita" skillId="10012" skillLvl="6" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Korolya" skillId="10023" skillLvl="2" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Lva" skillId="10040" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsep Galaktiki" skillId="10014" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Strashny Sud" skillId="10009" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Summon Crystal Knight" skillId="10043" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Schita" skillId="10008" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Justice" skillId="10010" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zhertvennost" skillId="10024" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnaya Zaschita" skillId="10017" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="The vow of a Knight" skillId="10025" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shipovanny Schit" skillId="10021" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Fokusirovka Schita" skillId="10020" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnaya Gidra" skillId="10016" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Nenavist" skillId="10026" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Volna Schita" skillId="10012" skillLvl="7" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Klinok" skillId="10013" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+	<!-- Tyrr Warrior -->
+	<skillTree type="classSkillTree" classId="140">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vozrozhdenie Sily" skillId="10298" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Klich Yastreba" skillId="10295" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vizg Krolika" skillId="10294" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Rychanie Pumy" skillId="10293" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Moschny Bombardir" skillId="10262" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vopl Ogra" skillId="10292" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Rev Medvedya" skillId="10291" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Brosok Uragana" skillId="10267" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Energii" skillId="10280" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kope Doblesti" skillId="10289" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Soprotivlenie" skillId="10286" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Duh Ubiytsy" skillId="10297" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership HP" skillId="10256" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Siloy" skillId="10255" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Paired Oruzhiem" skillId="10252" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Oruzhiem" skillId="10251" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Possession Heavy Broney" skillId="10002" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Duhom" skillId="10257" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Tira" skillId="1929" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="false" />
+		<skill skillName="Obezoruzhivanie" skillId="10273" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Berserk" skillId="10274" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Duh Ohotnika" skillId="10296" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Prirody" skillId="10276" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Estate Light Broney" skillId="10254" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka in Pryzhke" skillId="10269" skillLvl="1" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Brosok Uragana" skillId="10267" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Bombardir" skillId="10262" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gromovye Raskaty" skillId="10268" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka in Pryzhke" skillId="10269" skillLvl="2" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Berserk" skillId="10274" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obezoruzhivanie" skillId="10273" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kope Doblesti" skillId="10289" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Brosok Uragana" skillId="10267" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Barer Velikana" skillId="10279" skillLvl="1" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gromovye Raskaty" skillId="10268" skillLvl="2" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Bombardir" skillId="10262" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka in Pryzhke" skillId="10269" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya Energiya" skillId="10270" skillLvl="1" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gromovye Raskaty" skillId="10268" skillLvl="3" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka in Pryzhke" skillId="10269" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Brosok Uragana" skillId="10267" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Bombardir" skillId="10262" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udarnaya Volna" skillId="10281" skillLvl="1" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kope Doblesti" skillId="10289" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obezoruzhivanie" skillId="10273" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gromovye Raskaty" skillId="10268" skillLvl="4" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka in Pryzhke" skillId="10269" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Brosok Uragana" skillId="10267" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschnaya Provokatsiya" skillId="10271" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gromovye Raskaty" skillId="10268" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Bombardir" skillId="10262" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka in Pryzhke" skillId="10269" skillLvl="6" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udarnaya Volna" skillId="10281" skillLvl="2" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Uraganny Shtorm" skillId="10288" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Istochnik Uragana" skillId="10263" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryv Energii" skillId="10265" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Megaudar" skillId="10260" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Oslablenie Gneva" skillId="10278" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Vechnosti" skillId="10275" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschnaya Provokatsiya" skillId="10271" skillLvl="2" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kope Doblesti" skillId="10289" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obezoruzhivanie" skillId="10273" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gromovye Raskaty" skillId="10268" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Moschny Bombardir" skillId="10262" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Brosok Uragana" skillId="10267" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka in Pryzhke" skillId="10269" skillLvl="7" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razrushenie Broni" skillId="10258" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Giganta" skillId="10266" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+	<!-- Othell Rogue -->
+	<skillTree type="classSkillTree" classId="141">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Velikoe Estate Light Broney" skillId="10503" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Angel Smerti" skillId="10531" skillLvl="1" getLevel="85" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pogonya for Tenyu" skillId="10516" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Yad Skorpiona" skillId="10535" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Tychok" skillId="10549" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Skrytie Teni" skillId="10517" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Temny Paralich" skillId="10514" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Pesok in Glaza" skillId="10540" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Yadovitye Igly" skillId="10541" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Udar with Razvorota" skillId="10511" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Maksimalny Critical Uron" skillId="10542" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10520" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Shalost" skillId="10526" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Sila Odala" skillId="1931" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Ryvok Teni" skillId="10525" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Duhom" skillId="10257" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Kinzhalom" skillId="10501" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe language paired Kinzhalami" skillId="10502" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Obmanny Manevr" skillId="10554" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Dvizhenie" skillId="10504" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership critical Udarom" skillId="10505" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Soprotivlenie" skillId="10552" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Otravlennaya Zona" skillId="10522" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Besshumnaya Pohodka" skillId="10543" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yadovitye Igly" skillId="10541" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Dozhd" skillId="10513" skillLvl="1" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otravlennaya Zona" skillId="10522" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pogonya for Tenyu" skillId="10516" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shalost" skillId="10526" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10015" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Paralich" skillId="10514" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pesok in Glaza" skillId="10540" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tychok" skillId="10549" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Apperkot" skillId="10546" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Dozhd" skillId="10513" skillLvl="2" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yadovitye Igly" skillId="10541" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10510" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Illyuziya Teni" skillId="10532" skillLvl="1" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with Razvorota" skillId="10511" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yad Skorpiona" skillId="10535" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10520" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ryvok Teni" skillId="10525" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otravlennaya Zona" skillId="10522" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pogonya for Tenyu" skillId="10516" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shalost" skillId="10526" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otvetny Uron" skillId="10524" skillLvl="1" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Dozhd" skillId="10513" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pesok in Glaza" skillId="10540" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tychok" skillId="10549" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Paralich" skillId="10514" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10510" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Apperkot" skillId="10546" skillLvl="2" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yadovitye Igly" skillId="10541" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pritvoritsya Dead-Ten" skillId="10528" skillLvl="1" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otravlennaya Zona" skillId="10522" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pogonya for Tenyu" skillId="10516" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Dozhd" skillId="10513" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shalost" skillId="10526" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10510" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pesok in Glaza" skillId="10540" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tychok" skillId="10549" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Paralich" skillId="10514" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Illyuziya Teni" skillId="10532" skillLvl="2" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otvetny Uron" skillId="10524" skillLvl="2" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with Razvorota" skillId="10511" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yad Skorpiona" skillId="10535" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Apperkot" skillId="10546" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10520" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ryvok Teni" skillId="10525" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Dozhd" skillId="10513" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yadovitye Igly" skillId="10541" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10510" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shalost" skillId="10526" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pogonya for Tenyu" skillId="10516" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otravlennaya Zona" skillId="10522" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovaya Ulovka" skillId="10527" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Illyuziya Teni" skillId="10532" skillLvl="3" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pesok in Glaza" skillId="10540" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tychok" skillId="10549" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Paralich" skillId="10514" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Dozhd" skillId="10513" skillLvl="6" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10510" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Angel Smerti" skillId="10531" skillLvl="2" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Apperkot" skillId="10546" skillLvl="4" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yadovitye Igly" skillId="10541" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Shag" skillId="10508" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kinzhalschik" skillId="10539" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vzryvayuscheesya Oruzhie" skillId="10512" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tenevaya Vspyshka" skillId="10529" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Chas Smerti" skillId="10507" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otvetny Uron" skillId="10524" skillLvl="3" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ryvok Teni" skillId="10525" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10520" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Illyuziya Teni" skillId="10532" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with Razvorota" skillId="10511" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Yad Skorpiona" skillId="10535" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Shalost" skillId="10526" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pogonya for Tenyu" skillId="10516" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otravlennaya Zona" skillId="10522" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Krovavy Dozhd" skillId="10513" skillLvl="7" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Obman" skillId="10548" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoy Udar" skillId="10510" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+	<!-- Yul Archer -->
+	<skillTree type="classSkillTree" classId="142">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Tucha Strel" skillId="10771" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Snaypera" skillId="10759" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Ledyanaya Lovushka" skillId="10791" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Yastreba" skillId="10787" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Zaryad Sveta" skillId="10785" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Trety Glaz" skillId="10783" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Skorostnoy Vystrel" skillId="10762" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Medlenny Vystrel" skillId="10780" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Molnienosny vystrel" skillId="10779" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Pereklyuchayuschy Vystrel" skillId="10778" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Iskusheniya" skillId="10777" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10776" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Otstuplenie" skillId="10774" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Impulsivny Vystrel" skillId="10769" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Udar with otbrosom" skillId="10770" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Gravitatsionnaya Lovushka" skillId="10792" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Strelba" skillId="10756" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Lukom/Arbaletom" skillId="10751" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe resistance to negative Effektam" skillId="10005" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Ognya" skillId="10758" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Estate Light Broney" skillId="10254" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Magic Soprotivlenie" skillId="10004" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Eura" skillId="1933" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Osadnaya Fire Stoyka" skillId="10757" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Natural Soprotivlenie" skillId="10800" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vspyshka" skillId="10793" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Natselivanie" skillId="10801" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Medlenny Vystrel" skillId="10780" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otvlechenie" skillId="10775" skillLvl="1" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Skorostnoy Vystrel" skillId="10762" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Yastreba" skillId="10787" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tucha Strel" skillId="10771" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with otbrosom" skillId="10770" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Impulsivny Vystrel" skillId="10769" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Natselivanie" skillId="10801" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Molnienosnost" skillId="10805" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tucha Strel" skillId="10771" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Medlenny Vystrel" skillId="10780" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Yastreba" skillId="10787" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with otbrosom" skillId="10770" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Skorostnoy Vystrel" skillId="10762" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Ognya" skillId="10758" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Snaypera" skillId="10759" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otstuplenie" skillId="10774" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Trety Glaz" skillId="10783" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10520" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Molnienosny vystrel" skillId="10779" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osadnaya Fire Stoyka" skillId="10757" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Distantsionnaya Aktivatsiya" skillId="10788" skillLvl="1" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Natselivanie" skillId="10801" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Impulsivny Vystrel" skillId="10769" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tucha Strel" skillId="10771" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Skorostnoy Vystrel" skillId="10762" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with otbrosom" skillId="10770" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Yastreba" skillId="10787" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Molnienosnost" skillId="10805" skillLvl="2" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Medlenny Vystrel" skillId="10780" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Predskazannaya Gibel" skillId="10786" skillLvl="1" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Natselivanie" skillId="10801" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Impulsivny Vystrel" skillId="10769" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon on Ploschadi" skillId="10781" skillLvl="1" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Molnienosnost" skillId="10805" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Ognya" skillId="10758" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osadnaya Fire Stoyka" skillId="10757" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Molnienosny vystrel" skillId="10779" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Snaypera" skillId="10759" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10520" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otstuplenie" skillId="10774" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Medlenny Vystrel" skillId="10780" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Yastreba" skillId="10787" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tucha Strel" skillId="10771" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with otbrosom" skillId="10770" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Skorostnoy Vystrel" skillId="10762" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Predskazannaya Gibel" skillId="10786" skillLvl="2" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kamuflyazh" skillId="10784" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Impulsivny Vystrel" skillId="10769" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Natselivanie" skillId="10801" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tucha Strel" skillId="10771" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Skorostnoy Vystrel" skillId="10762" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Yastreba" skillId="10787" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with otbrosom" skillId="10770" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon on Ploschadi" skillId="10781" skillLvl="2" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Molnienosnost" skillId="10805" skillLvl="4" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Medlenny Vystrel" skillId="10780" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dozhd Heavy Strel" skillId="10772" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vystrel Tornado" skillId="10760" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tochechny Udar" skillId="10763" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar Lukom" skillId="10761" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sosredotochennoe Natselivanie" skillId="10802" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Predskazannaya Gibel" skillId="10786" skillLvl="3" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otvlechenie" skillId="10775" skillLvl="3" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Otstuplenie" skillId="10774" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Snaypera" skillId="10759" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Molnienosny vystrel" skillId="10779" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osadnaya Fire Stoyka" skillId="10757" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stoyka Ognya" skillId="10758" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Trety Glaz" skillId="10783" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Maksimalnoe Uklonenie" skillId="10520" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Skorostnoy Vystrel" skillId="10762" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Udar with otbrosom" skillId="10770" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Tucha Strel" skillId="10771" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Yastreba" skillId="10787" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+	<!-- Feoh Wizard -->
+	<skillTree type="classSkillTree" classId="143">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Duh Maga" skillId="11046" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Dyhanie Smerti" skillId="11029" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Neozhidannoe Prepyatstvie" skillId="11065" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Dvoynoe Koldovstvo" skillId="11068" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Posledny Pryzhok" skillId="11094" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prikosnovenie Tmy" skillId="11095" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Perezaryadka" skillId="11183" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Veliky Witch Ryk" skillId="11184" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Antimagiya" skillId="11789" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Lord Smerti" skillId="11030" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Put Zla" skillId="11047" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vysoky Way Zla" skillId="11048" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Adskie Okovy" skillId="11050" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Strah" skillId="11055" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Rev Smerti" skillId="11032" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya Vspyshka" skillId="11057" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe increase Many" skillId="11185" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Istinnaya Zemlya" skillId="11010" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="Istinny Veter" skillId="11009" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="Velikoe resistance Stihiyam" skillId="11006" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Istinnaya Voda" skillId="11008" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="Istinny Ogon" skillId="11007" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="Veliky Master Magii" skillId="11005" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Simvolami" skillId="11004" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Feo" skillId="1935" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Veliky Light Razuma" skillId="11187" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Broney" skillId="11252" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Quick Recovery MP" skillId="11186" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Oruzhiem" skillId="11251" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Put Zla" skillId="11047" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Naezdnik Vetra" skillId="11062" skillLvl="1" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny Pryzhok" skillId="11094" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysoky Way Zla" skillId="11048" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya Vspyshka" skillId="11057" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Strah" skillId="11055" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dyhanie Smerti" skillId="11029" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Adskie-Binding Massovoe" skillId="11052" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Adskie Okovy" skillId="11050" skillLvl="2" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Put Zla" skillId="11047" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Strah" skillId="11055" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dvoynoe Koldovstvo" skillId="11068" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Lord Smerti" skillId="11030" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Rev Smerti" skillId="11032" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya Vspyshka" skillId="11057" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysoky Way Zla" skillId="11048" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny Pryzhok" skillId="11094" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Chernaya Dyra" skillId="11058" skillLvl="1" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Naezdnik Vetra" skillId="11062" skillLvl="2" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dyhanie Smerti" skillId="11029" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Strah" skillId="11055" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Adskie-Binding Massovoe" skillId="11052" skillLvl="2" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Put Zla" skillId="11047" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Blagosloveniya" skillId="11049" skillLvl="1" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Adskie Okovy" skillId="11050" skillLvl="3" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya Vspyshka" skillId="11057" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny Pryzhok" skillId="11094" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysoky Way Zla" skillId="11048" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Strah" skillId="11055" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Chernaya Dyra" skillId="11058" skillLvl="2" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dyhanie Smerti" skillId="11029" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Put Gibeli" skillId="11066" skillLvl="1" getLevel="95" learnedByNpc="true" />
+		<skill skillName="Duh Maga" skillId="11046" skillLvl="2" getLevel="95" learnedByNpc="true" />
+		<skill skillName="Adskie-Binding Massovoe" skillId="11052" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Naezdnik Vetra" skillId="11062" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Rev Smerti" skillId="11032" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dvoynoe Koldovstvo" skillId="11068" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Lord Smerti" skillId="11030" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Put Zla" skillId="11047" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Strah" skillId="11055" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysoky Way Zla" skillId="11048" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya Vspyshka" skillId="11057" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny Pryzhok" skillId="11094" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Samoochischenie" skillId="11093" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Chernaya Dyra" skillId="11058" skillLvl="3" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Adskie Okovy" skillId="11050" skillLvl="4" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dyhanie Smerti" skillId="11029" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Strah" skillId="11055" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Blagosloveniya" skillId="11049" skillLvl="2" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Adskie-Binding Massovoe" skillId="11052" skillLvl="4" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Put Zla" skillId="11047" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ship Stihii" skillId="11011" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynoe Razrushenie" skillId="11017" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Stihiynaya Volna" skillId="11034" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vybor Razuma" skillId="11064" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vrata Gibeli" skillId="11067" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Naezdnik Vetra" skillId="11062" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Lord Smerti" skillId="11030" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Dvoynoe Koldovstvo" skillId="11068" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Rev Smerti" skillId="11032" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysoky Way Zla" skillId="11048" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny Pryzhok" skillId="11094" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednyaya Vspyshka" skillId="11057" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovy Death Strah" skillId="11056" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Buystvo Stihii" skillId="11023" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Posledny spontaneous Shtorm" skillId="11040" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+	<!-- Iss Enchanter -->
+	<skillTree type="classSkillTree" classId="144">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Poema Roga" skillId="11517" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Iskazhenie" skillId="11537" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Roots-Massovoe" skillId="11538" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poema Vosstanovleniya" skillId="11571" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Milaya Hryushka" skillId="11540" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Odinoky Kamen" skillId="11541" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Recovery HP" skillId="11547" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Theft Many" skillId="11549" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Divine Znanie" skillId="11552" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Sixth Chuvstvo" skillId="11554" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vysshee Removal Blagosloveniya" skillId="11536" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sonata Rasslableniya" skillId="11532" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poema Barabana" skillId="11518" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poema Organa" skillId="11519" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poema Gitary" skillId="11520" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poema Arfy" skillId="11521" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poema Lyutni" skillId="11522" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Garmoniya Strazha" skillId="11523" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Garmoniya Berserka" skillId="11524" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Garmoniya Maga" skillId="11525" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sonata Bitvy" skillId="11529" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sonata Dvizheniya" skillId="11530" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Quick Read Zaklinaniy" skillId="11555" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poslednee Nakazanie" skillId="11557" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Atakuyuschy Swift Brosok" skillId="11508" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Strengthening Tela" skillId="11506" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Paired Oruzhiem" skillId="11501" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe increase Many" skillId="11185" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Perezaryadka" skillId="11183" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe resistance Stihiyam" skillId="11006" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Antimagiya" skillId="11003" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Broney" skillId="11002" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Estate Light Broney" skillId="10254" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Possession Heavy Broney" skillId="10002" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Poema Usileniya" skillId="11570" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Soprotivlenie Mental Atakam" skillId="11567" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poslednee Zabvenie" skillId="11558" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Rasseyannost" skillId="11559" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Nepobedimost" skillId="11560" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Korni" skillId="11561" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Dvizhenie Zla" skillId="11562" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Bystroe Vozvraschenie" skillId="11563" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Focusing Razuma" skillId="11553" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Voskreshenie Angela" skillId="11564" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Soprotivlenie Stihiyam" skillId="11565" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Soprotivlenie Bozhestvennomu" skillId="11566" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Iskazhenie" skillId="11537" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysshee Removal Blagosloveniya" skillId="11536" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ruki Angela" skillId="11534" skillLvl="1" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Atakuyuschy Swift Brosok" skillId="11508" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Iskazhenie" skillId="11537" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Rapsodiya Bitvy" skillId="11544" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysshee Removal Blagosloveniya" skillId="11536" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ruki Angela" skillId="11534" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Milaya Hryushka" skillId="11540" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Organa" skillId="11519" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Barabana" skillId="11518" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Roots-Massovoe" skillId="11538" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Korni" skillId="11561" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Gitary" skillId="11520" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Roga" skillId="11517" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Arfy" skillId="11521" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Lyutni" skillId="11522" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Atakuyuschy Swift Brosok" skillId="11508" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Iskazhenie" skillId="11537" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysshee Removal Blagosloveniya" skillId="11536" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Reorganizatsiya" skillId="11543" skillLvl="1" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ruki Angela" skillId="11534" skillLvl="3" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Atakuyuschy Swift Brosok" skillId="11508" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Iskazhenie" skillId="11537" skillLvl="5" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Noktyurn Bezumiya" skillId="11545" skillLvl="1" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Lyutni" skillId="11522" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Organa" skillId="11519" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Arfy" skillId="11521" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Korni" skillId="11561" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Barabana" skillId="11518" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Milaya Hryushka" skillId="11540" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Roots-Massovoe" skillId="11538" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Roga" skillId="11517" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Gitary" skillId="11520" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysshee Removal Blagosloveniya" skillId="11536" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Reorganizatsiya" skillId="11543" skillLvl="2" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ruki Angela" skillId="11534" skillLvl="4" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Atakuyuschy Swift Brosok" skillId="11508" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Rekviem Krovi" skillId="11533" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Iskazhenie" skillId="11537" skillLvl="6" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vysshee Removal Blagosloveniya" skillId="11536" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Pylayuschaya Yarost" skillId="11513" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Smertelny Udar" skillId="11511" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ataka Shturmom" skillId="11509" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Simfoniya Soblazna" skillId="11546" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Nepobedimost" skillId="11560" skillLvl="2" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Reorganizatsiya" skillId="11543" skillLvl="3" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Roga" skillId="11517" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Barabana" skillId="11518" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Gitary" skillId="11520" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Arfy" skillId="11521" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Organa" skillId="11519" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Korni" skillId="11561" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poema Lyutni" skillId="11522" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Milaya Hryushka" skillId="11540" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gigantskie Roots-Massovoe" skillId="11538" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ruki Angela" skillId="11534" skillLvl="5" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Atakuyuschy Swift Brosok" skillId="11508" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Iskazhenie" skillId="11537" skillLvl="7" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Mech Teni" skillId="11510" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prevraschenie in Kamen" skillId="11539" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sokrushitelny Shtorm" skillId="11514" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+	<!-- Wynn Summoner -->
+	<skillTree type="classSkillTree" classId="145">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Znak Hitrosti" skillId="11262" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Blagoslovenie Giganta" skillId="11297" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Massovoe Izgnanie" skillId="11296" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Estate Light Broney" skillId="11295" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Poslednee division Sudby" skillId="11288" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Soprotivlenie" skillId="11287" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Barera" skillId="11274" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Izgnanie" skillId="11273" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Izbavlenie from Boli" skillId="11270" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Znak Pustoty" skillId="11260" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Razdelenie Many" skillId="11269" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Znak Chumy" skillId="11261" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Absolyutnaya Protection Servant-Massovoe" skillId="11310" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Magiey" skillId="11253" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Broney" skillId="11252" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Oruzhiem" skillId="11251" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Prizyvom" skillId="11254" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uskorenie Movement Servant-Massovoe" skillId="11308" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Moguschestvo Servant-Massovoe" skillId="11307" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Voodushevlenie Servant-Massovoe" skillId="11306" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Duhom" skillId="10257" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Veno" skillId="1937" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uskorenie Servant-Massovoe" skillId="11304" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Magichesky Shield Servant-Massovoe" skillId="11303" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Schit Servant-Massovoe" skillId="11305" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Hitrosti" skillId="11262" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sozvat" skillId="11263" skillLvl="1" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Chumy" skillId="11261" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe Izgnanie" skillId="11296" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Izgnanie" skillId="11273" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Pustoty" skillId="11260" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zhazhda" skillId="11264" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sozvat" skillId="11263" skillLvl="2" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Hitrosti" skillId="11262" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Izbavlenie from Boli" skillId="11270" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Barera" skillId="11274" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednee division Sudby" skillId="11288" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razdelenie Many" skillId="11269" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blagoslovenie Giganta" skillId="11297" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Prizyvom" skillId="11254" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Chumy" skillId="11261" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe Izgnanie" skillId="11296" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Balans Life Slugi" skillId="11299" skillLvl="1" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sozvat" skillId="11263" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Pustoty" skillId="11260" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Izgnanie" skillId="11273" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zhazhda" skillId="11264" skillLvl="2" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Hitrosti" skillId="11262" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prostranstvennye Okovy" skillId="11276" skillLvl="1" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sozvat" skillId="11263" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe Izgnanie" skillId="11296" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Chumy" skillId="11261" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Izgnanie" skillId="11273" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Pustoty" skillId="11260" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Duh Nabiaropa" skillId="11267" skillLvl="1" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Izbavlenie from Boli" skillId="11270" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Poslednee division Sudby" skillId="11288" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Prizyvom" skillId="11254" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razdelenie Many" skillId="11269" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zhazhda" skillId="11264" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Barera" skillId="11274" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blagoslovenie Giganta" skillId="11297" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Hitrosti" skillId="11262" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sozvat" skillId="11263" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prostranstvennye Okovy" skillId="11276" skillLvl="2" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Chumy" skillId="11261" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe Izgnanie" skillId="11296" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Peremena Mest" skillId="11272" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Duh Nabiaropa" skillId="11267" skillLvl="2" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Izgnanie" skillId="11273" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Pustoty" skillId="11260" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sozvat" skillId="11263" skillLvl="6" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Zhazhda" skillId="11264" skillLvl="4" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Hitrosti" skillId="11262" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Ogon Znaka" skillId="11298" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Osnovnoe Treatment Slugi" skillId="11302" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Vyzvat punishing Kub" skillId="11268" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Snyatie Znaka" skillId="11271" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Gate Smerti" skillId="11266" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Duh Nabiaropa" skillId="11267" skillLvl="3" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prostranstvennye Okovy" skillId="11276" skillLvl="3" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Prizyvom" skillId="11254" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Razdelenie Many" skillId="11269" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Izbavlenie from Boli" skillId="11270" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blagoslovenie Giganta" skillId="11297" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Barera" skillId="11274" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe Izgnanie" skillId="11296" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Chumy" skillId="11261" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sozvat" skillId="11263" skillLvl="7" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sabretooth Kuguara" skillId="11257" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Sweet Medvezhonka" skillId="11256" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Slabosti" skillId="11259" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Reaper Smerti" skillId="11258" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+	<!-- Aeore Healer -->
+	<skillTree type="classSkillTree" classId="146">
+		<!-- update GoD by pmq -->
+		<skill skillName="Expertise R" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="Expertise R95" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="Expertise R99" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Summon Tree of Life" skillId="11774" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Blagoslovenie Sahi" skillId="11830" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Vozvraschenie" skillId="11775" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Summon Rumi" skillId="11776" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Temny Vampir" skillId="11769" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Celestial Party Protection" skillId="11758" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Simvolami" skillId="11791" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Znak Rumi" skillId="11777" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Temny Pozhiratel" skillId="11780" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Glubokoe Istselenie" skillId="11772" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Tsepnoe Vozrozhdenie" skillId="11828" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Speed ??of Saha" skillId="11823" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Resistance of Saha" skillId="11824" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Clarity of Saha" skillId="11825" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Force of Saha" skillId="11822" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Critical of Saha" skillId="11821" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Osvobozhdenie Zhizni" skillId="11768" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Gluboky Son" skillId="11778" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Mgnovennoe Vozvraschenie" skillId="11819" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristalnaya Regeneratsiya" skillId="11765" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Zasluga" skillId="11770" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Svet Ochischeniya" skillId="11763" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Balance Heal" skillId="11762" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Emblema Spaseniya" skillId="11826" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Massovoe euthanasia Pantery" skillId="11832" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Feya Zhizni" skillId="11754" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11814" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya Antimagiya" skillId="11789" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Broney" skillId="11787" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Ownership Zaklinaniyami" skillId="11788" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikaya protection Stihiy" skillId="11790" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Velikoe Possession Magic Oruzhiem" skillId="11751" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Tychok" skillId="10549" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Illyuziya Teni" skillId="10532" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Otravlennaya Zona" skillId="10522" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Pogonya for Tenyu" skillId="10516" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Algiza" skillId="1939" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie weights Awakened Klassa" skillId="1572" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Uvelichenie Inventory Awakened Klassa" skillId="1571" skillLvl="1" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Power of Saha" skillId="11820" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Razbivanie Serdtsa" skillId="10509" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Voskreshenie" skillId="11784" skillLvl="1" getLevel="85" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Kristallizatsiya" skillId="248" skillLvl="6" getLevel="85" learnedByNpc="false" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Pozhiratel" skillId="11780" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe euthanasia Pantery" skillId="11832" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gluboky Son" skillId="11778" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temnaya Sila" skillId="11814" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="2" getLevel="86" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Nebesnaya Protect-Massovoe" skillId="11759" skillLvl="1" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Velikoe resistance to negative Effektam" skillId="11792" skillLvl="1" getLevel="87" levelUpSp="10000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Vampir" skillId="11769" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="2" getLevel="87" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Rumi" skillId="11777" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Feya Zhizni" skillId="11754" skillLvl="2" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temnaya Sila" skillId="11814" skillLvl="3" getLevel="88" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Resurrection-Massovoe" skillId="11785" skillLvl="1" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Pozhiratel" skillId="11780" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gluboky Son" skillId="11778" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe euthanasia Pantery" skillId="11832" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="3" getLevel="89" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Glubokoe Istselenie" skillId="11772" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Rumi" skillId="11776" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Tree Zhizni" skillId="11774" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Voskreshenie" skillId="11784" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kristalnaya Regeneratsiya" skillId="11765" skillLvl="2" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Vampir" skillId="11769" skillLvl="3" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temnaya Sila" skillId="11814" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="4" getLevel="90" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Vosstanovlenie" skillId="11761" skillLvl="1" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Feya Zhizni" skillId="11754" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Rumi" skillId="11777" skillLvl="3" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="4" getLevel="91" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gluboky Son" skillId="11778" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe euthanasia Pantery" skillId="11832" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Pozhiratel" skillId="11780" skillLvl="4" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temnaya Sila" skillId="11814" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="5" getLevel="92" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Resurrection-Massovoe" skillId="11785" skillLvl="2" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Vosstanovlenie" skillId="11761" skillLvl="2" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Vampir" skillId="11769" skillLvl="4" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="5" getLevel="93" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Ochischenie" skillId="11764" skillLvl="1" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Rumi" skillId="11777" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Feya Zhizni" skillId="11754" skillLvl="4" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temnaya Sila" skillId="11814" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="6" getLevel="94" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Istselenie" skillId="11782" skillLvl="1" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Glubokoe Istselenie" skillId="11772" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Voskreshenie" skillId="11784" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Tree Zhizni" skillId="11774" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Rumi" skillId="11776" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Vosstanovlenie" skillId="11761" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kristalnaya Regeneratsiya" skillId="11765" skillLvl="3" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gluboky Son" skillId="11778" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe euthanasia Pantery" skillId="11832" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Pozhiratel" skillId="11780" skillLvl="5" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="6" getLevel="95" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Resurrection-Massovoe" skillId="11785" skillLvl="3" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Vampir" skillId="11769" skillLvl="5" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temnaya Sila" skillId="11814" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="7" getLevel="96" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Reset" skillId="11783" skillLvl="1" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Vosstanovlenie" skillId="11761" skillLvl="4" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Znak Rumi" skillId="11777" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Feya Zhizni" skillId="11754" skillLvl="5" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="7" getLevel="97" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Massovoe euthanasia Pantery" skillId="11832" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Gluboky Son" skillId="11778" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Pozhiratel" skillId="11780" skillLvl="6" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Istseleniya" skillId="11755" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temnaya Sila" skillId="11814" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vozrozhdeniya" skillId="11756" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Svet Vosstanovleniya" skillId="11760" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Krug" skillId="11767" skillLvl="8" getLevel="98" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Disk Lakisisa" skillId="11773" skillLvl="1" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Istselenie" skillId="11782" skillLvl="2" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Glubokoe Istselenie" skillId="11772" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Miloserdnoe Voskreshenie" skillId="11784" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Tree Zhizni" skillId="11774" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Kristalnaya Regeneratsiya" skillId="11765" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Prizyv Rumi" skillId="11776" skillLvl="4" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Vosstanovlenie" skillId="11761" skillLvl="5" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Vampir" skillId="11769" skillLvl="6" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Sila Voli" skillId="11752" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Unichtozhit Pomehu" skillId="11831" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Dozhd" skillId="11817" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Blistatelnoe Istselenie" skillId="11757" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+		<skill skillName="Temny Poryv" skillId="11766" skillLvl="8" getLevel="99" levelUpSp="50000000" learnedByNpc="true" />
+	</skillTree>
+</list>

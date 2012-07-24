@@ -28,7 +28,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x30" stat="pDef" val="73" />
+			<add order="0x40" stat="pDef" val="73" />
 			<mul order="0x30" stat="regMp" val="1.25" />
 			<using kind="Light" />
 		</for>
@@ -324,7 +324,7 @@
 				<mul order="0x30" stat="rCrit" val="0.9" />
 				<mul order="0x30" stat="mCritRate" val="1.20" />
 				<add order="0x40" stat="accCombat" val="#vuln" />
-				<mul order="0x30" stat="runSpd" val="#vuln2" />
+				<add order="0x40" stat="runSpd" val="#vuln2" />
 			</effect>
 		</for>
 	</skill>
@@ -377,7 +377,7 @@
 			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="buff_one">
 				<mull order="0x30" stat="pAtk" val="1.12" />
 				<mul order="0x30" stat="pDef" val="1.45" />
-				<add order="0x30" stat="rShld" val="50" />
+				<add order="0x40" stat="rShld" val="50" />
 				<add order="0x40" stat="rCrit" val="3.5" />
 			</effect>
 		</for>
@@ -405,7 +405,7 @@
 				<add order="0x40" stat="runSpd" val="8" />
 				<mul order="0x30" stat="pDef" val="1.08" />
 				<mul order="0x30" stat="mDef" val="1.16" />
-				<add order="0x30" stat="rEvas" val="-4" />
+				<add order="0x40" stat="rEvas" val="4" />
 			</effect>
 		</for>
 	</skill>
@@ -432,7 +432,7 @@
 				<add order="0x40" stat="runSpd" val="8" />
 				<mul order="0x30" stat="pDef" val="1.08" />
 				<mul order="0x30" stat="mDef" val="1.14" />
-				<add order="0x30" stat="rEvas" val="-4" />
+				<add order="0x40" stat="rEvas" val="4" />
 				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.15" />
 				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.5" />
 				<mul order="0x30" stat="mReuse" val="1.20" />
@@ -489,7 +489,7 @@
 				<mul order="0x30" stat="mDef" val="1.11" />
 				<add order="0x40" stat="absorbDam" val="8" />
 				<add order="0x40" stat="reflectDam" val="10" /> 
-				<add order="0x30" stat="rEvas" val="-4" />
+				<add order="0x40" stat="rEvas" val="4" />
 			</effect>
 		</for>
 	</skill>
@@ -510,13 +510,13 @@
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="Sonata_Meditation">
 				<mul order="0x30" stat="regHp" val="1.20" />
-				<add order="0x30" stat="MagicalMpConsumeRate" val="-20" />
-				<add order="0x30" stat="PhysicalMpConsumeRate" val="-20" />
-				<add order="0x30" stat="accCombat" val="4" />
-				<add order="0x30" stat="runSpd" val="4" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.8" />
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.8" />
+				<add order="0x40" stat="accCombat" val="4" />
+				<add order="0x40" stat="runSpd" val="4" />
 				<mul order="0x40" stat="pReuse" val="1.10" />
 				<mul order="0x30" stat="mReuse" val="1.10" />
-				<add order="0x30" stat="rEvas" val="3" />
+				<add order="0x40" stat="rEvas" val="3" />
 			</effect>
 		</for>
 	</skill>
@@ -684,9 +684,9 @@
 			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="Super_Buff1">
 				<mul order="0x30" stat="pAtk" val="0.2" />
 				<mul order="0x30" stat="mAtk" val="0.2" />
-				<add order="0x30" stat="pDef" val="#Def" />
-				<add order="0x30" stat="mDef" val="#Def" />
-				<add order="0x30" stat="runSpd" val="44" />
+				<add order="0x40" stat="pDef" val="#Def" />
+				<add order="0x40" stat="mDef" val="#Def" />
+				<add order="0x40" stat="runSpd" val="44" />
 			</effect>
 		</for>
 	</skill>

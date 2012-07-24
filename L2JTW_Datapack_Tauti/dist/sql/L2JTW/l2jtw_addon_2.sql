@@ -68,11 +68,7 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19550, 0, 10016, 61),
 (19551, 0, 10016, 62),
 (19552, 0, 10016, 63),
-(19553, 0, 10016, 64),
-(19655, 0, 10016, 65),
-(19671, 0, 10016, 66),
-(19863, 0, 10016, 67),
-(19879, 0, 10016, 68);
+(19553, 0, 10016, 64);
 
 REPLACE INTO `merchant_shopids` VALUES (10017, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -107,9 +103,7 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19566, 0, 10017, 29),
 (19567, 0, 10017, 30),
 (19568, 0, 10017, 31),
-(19569, 0, 10017, 32),
-(19687, 0, 10017, 33),
-(19895, 0, 10017, 34);
+(19569, 0, 10017, 32);
 
 REPLACE INTO `merchant_shopids` VALUES (10018, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -144,9 +138,7 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19582, 0, 10018, 29),
 (19583, 0, 10018, 30),
 (19584, 0, 10018, 31),
-(19585, 0, 10018, 32),
-(19703, 0, 10018, 33),
-(19911, 0, 10018, 34);
+(19585, 0, 10018, 32);
 
 REPLACE INTO `merchant_shopids` VALUES (10019, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES

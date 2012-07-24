@@ -3,6 +3,7 @@
 /***** 貳幕-嗨翻天 2011.4.28 *****/
 /***** GAME *****/ 
 /***** auto_announcements.sql *****/
+/*
 REPLACE INTO `auto_announcements` VALUES
 (1,900000,9000000,36000,'突然變成無法移動的狀態時，請先點選畫面左上角自己的名字或血條，再按鍵盤的「Esc」取消目標。','false'),
 (2,1800000,9000000,36000,'掉入地獄或是卡點的的玩家，請輸入「/脫逃」的自救指令 - 需5分鐘。','false'),
@@ -14,6 +15,7 @@ REPLACE INTO `auto_announcements` VALUES
 (8,7200000,9000000,36000,'提醒您慎重保管個人帳號、密碼；養成良好的網路使用環境，以確保你的帳號資料安全。','false'),
 (9,8100000,9000000,36000,'過度沉溺遊戲易造成身體及精神狀況不佳，請適度的休息，確保您的健康。','false'),
 (10,9000000,9000000,36000,'不論是在進行交易或是買賣物品的時候，請多加確認數量及所要交易的角色名稱，以避免交易錯誤造成您不必要的損失。','false');
+*/
 
 /***** GAME *****/ 
 /***** auto_chat_text.sql *****/
@@ -139,6 +141,14 @@ UPDATE `char_templates` SET `ClassName` = '追魂使' WHERE `ClassId` = 133;
 UPDATE `char_templates` SET `ClassName` = '魔彈射手' WHERE `ClassId` = 134;
 UPDATE `char_templates` SET `ClassName` = '戰鬥巡官' WHERE `ClassId` = 135;
 UPDATE `char_templates` SET `ClassName` = '軍武判官' WHERE `ClassId` = 136;
+UPDATE `char_templates` SET `ClassName` = '席格爾騎士' WHERE `ClassId` = 139;
+UPDATE `char_templates` SET `ClassName` = '提爾鬥士' WHERE `ClassId` = 140;
+UPDATE `char_templates` SET `ClassName` = '歐瑟遊俠' WHERE `ClassId` = 141;
+UPDATE `char_templates` SET `ClassName` = '尤爾弓手' WHERE `ClassId` = 142;
+UPDATE `char_templates` SET `ClassName` = '菲歐巫師' WHERE `ClassId` = 143;
+UPDATE `char_templates` SET `ClassName` = '伊斯法師' WHERE `ClassId` = 144;
+UPDATE `char_templates` SET `ClassName` = '維因召喚士' WHERE `ClassId` = 145;
+UPDATE `char_templates` SET `ClassName` = '艾羅牧師' WHERE `ClassId` = 146;
 
 /***** castlename-tw *****/ 
 /***** auction.sql *****/

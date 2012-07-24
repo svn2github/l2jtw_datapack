@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<zone name="TIJump" type="JumpZone" shape="Cylinder" minZ="-2000" maxZ="1" rad="50">
+		<node X="-112552" Y="257046" />
+	</zone>
+	<zone name="GAJump" type="JumpZone" shape="Cylinder" minZ="-120" maxZ="1" rad="50">
+		<node X="-149248" Y="253323" />
+	</zone>
+	<zone name="DFJump" type="JumpZone" shape="Cylinder" minZ="-3700" maxZ="-3600" rad="50">
+		<node X="-15589" Y="30655" />
+	</zone>
+	<zone name="Jump11" type="JumpZone" shape="Cylinder" minZ="-2100" maxZ="-2000" rad="50">
+		<node X="221509" Y="118860" />
+	</zone>
+	<zone name="Jump22" type="JumpZone" shape="Cylinder" minZ="2600" maxZ="2700" rad="50">
+		<node X="-186315" Y="243738" />
+	</zone>
+	<zone name="Jump33" type="JumpZone" shape="Cylinder" minZ="400" maxZ="500" rad="50">
+		<node X="205887" Y="80587" />
+	</zone>	
+	<zone name="Jump44" type="JumpZone" shape="Cylinder" minZ="800" maxZ="900" rad="50">
+		<node X="213681" Y="80686" />
+	</zone>	
+	<zone name="Jump55" type="JumpZone" shape="Cylinder" minZ="800" maxZ="900" rad="50">
+		<node X="214394" Y="81570" />
+	</zone>
+</list>

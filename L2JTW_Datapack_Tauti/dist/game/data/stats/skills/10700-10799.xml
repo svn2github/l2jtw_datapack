@@ -83,7 +83,7 @@
 		<for>
 			<add order="0x10" stat="STR" val="2" />
 			<add order="0x40" stat="accCombat" val="8" />
-			<add order="0x30" stat="rCrit" val="1.20" />
+			<mul order="0x30" stat="rCrit" val="1.20" />
 			<add order="0x40" stat="cAtk" val="774" />
 		</for>
 	</skill>
@@ -121,7 +121,7 @@
 				<mul order="0x30" stat="pAtk" val="1.2" />
 				<add order="0x40" stat="accCombat" val="6" />
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
-				<mul order="0x30" stat="runSpd" val="#Spd" />
+				<add order="0x40" stat="runSpd" val="#Spd" />
 				<mul order="0x30" stat="pReuse" val="#reuse" />
 				<using kind="Bow,Crossbow" />
 			</effect>

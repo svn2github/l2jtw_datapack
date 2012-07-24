@@ -538,7 +538,7 @@
 			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="3" abnormalType="md_up">
 				<mul order="0x30" stat="mDef" val="#Def" />
 				<mul order="0x30" stat="pDef" val="#Def" />
-				<add order="0x30" stat="runSpd" val="#Spd" />
+				<add order="0x40" stat="runSpd" val="#Spd" />
 				<mul order="0x30" stat="pAtkSpd" val="#AtkSpd" />
 				<mul order="0x40" stat="cAtk" val="#cAtk">
 				<using kind="Blunt" />
