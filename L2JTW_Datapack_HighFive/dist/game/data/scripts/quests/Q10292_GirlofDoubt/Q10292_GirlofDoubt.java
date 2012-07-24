@@ -73,7 +73,13 @@ public class Q10292_GirlofDoubt extends Quest
 	
 	private int _numAtk = 0;
 	
-	private class teleCoord {int instanceId; int x; int y; int z;}
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 	
 	private static final void removeBuffs(L2Character ch)
 	{

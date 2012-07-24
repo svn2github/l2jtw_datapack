@@ -42,9 +42,47 @@ public class SanctumOftheLordsOfDawn extends Quest
 	{
 		public long[] storeTime = { 0, 0 }; // 0: instance start, 1: finish time
 		
-		private L2Npc	NPC_1, NPC_2, NPC_3, NPC_4, NPC_5, NPC_6, NPC_7, NPC_8, NPC_9, NPC_10, NPC_11, NPC_12, NPC_13, NPC_14, NPC_15, NPC_16, NPC_17, NPC_18,
-				NPC_19, NPC_20, NPC_21, NPC_22, NPC_23, NPC_24, NPC_25, NPC_26, NPC_27, NPC_28, NPC_29, NPC_30, NPC_31, NPC_32, NPC_33, NPC_34, NPC_35, S_C_NPC_1, S_C_NPC_2,
-				S_C_NPC_3, S_C_NPC_4, S_C_NPC_5, S_C_NPC_6;
+		L2Npc NPC_1;
+		L2Npc NPC_2;
+		L2Npc NPC_3;
+		L2Npc NPC_4;
+		L2Npc NPC_5;
+		L2Npc NPC_6;
+		L2Npc NPC_7;
+		L2Npc NPC_8;
+		L2Npc NPC_9;
+		L2Npc NPC_10;
+		L2Npc NPC_11;
+		L2Npc NPC_12;
+		L2Npc NPC_13;
+		L2Npc NPC_14;
+		L2Npc NPC_15;
+		L2Npc NPC_16;
+		L2Npc NPC_17;
+		L2Npc NPC_18;
+		L2Npc NPC_19;
+		L2Npc NPC_20;
+		L2Npc NPC_21;
+		L2Npc NPC_22;
+		L2Npc NPC_23;
+		L2Npc NPC_24;
+		L2Npc NPC_25;
+		L2Npc NPC_26;
+		L2Npc NPC_27;
+		L2Npc NPC_28;
+		L2Npc NPC_29;
+		L2Npc NPC_30;
+		L2Npc NPC_31;
+		L2Npc NPC_32;
+		L2Npc NPC_33;
+		L2Npc NPC_34;
+		L2Npc NPC_35;
+		L2Npc S_C_NPC_1;
+		L2Npc S_C_NPC_2;
+		L2Npc S_C_NPC_3;
+		L2Npc S_C_NPC_4;
+		L2Npc S_C_NPC_5;
+		L2Npc S_C_NPC_6;
 		
 		public HSWorld() {}
 	}
@@ -156,7 +194,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final L2CharPosition MOVE_TO_35_A = new L2CharPosition(-77048, 207800, -7709, 0);
 	private static final L2CharPosition MOVE_TO_35_B = new L2CharPosition(-78324, 207800, -7709, 0);
 	
-	private class teleCoord
+	protected static class teleCoord
 	{
 		int instanceId;
 		int x;

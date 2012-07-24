@@ -45,21 +45,21 @@ import com.l2jserver.gameserver.network.serverpackets.*;
  */
 public class Q196_SevenSignSealOfTheEmperor extends Quest
 {
-	private static class SIGNSNpc
+	protected static class SIGNSNpc
 	{
 		public L2Npc npc;
 	
 		public boolean isDead = false;
 	}
 	
-	private static class SIGNSRoom
+	protected static class SIGNSRoom
 	{
-		public FastList<SIGNSNpc> npcList = new FastList<SIGNSNpc>();
+		public FastList<SIGNSNpc> npcList = new FastList<>();
 	}
 	
 	private class SIGNSWorld extends InstanceWorld
 	{
-		public FastMap<String,SIGNSRoom> rooms = new FastMap<String,SIGNSRoom>();
+		public FastMap<String,SIGNSRoom> rooms = new FastMap<>();
 		public long[] storeTime = { 0, 0 };
 		public SIGNSWorld() {}
 	}

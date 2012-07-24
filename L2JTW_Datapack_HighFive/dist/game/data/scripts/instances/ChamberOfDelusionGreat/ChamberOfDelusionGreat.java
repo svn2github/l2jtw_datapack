@@ -24,7 +24,16 @@ public class ChamberOfDelusionGreat extends Quest
 {
 	private class CDWorld extends InstanceWorld
 	{
-		private L2Npc manager,managera,managerb,managerc,managerd,managere,managerf,managerg,managerh,_aenkinel;
+		L2Npc manager;
+		L2Npc managera;
+		L2Npc managerb;
+		L2Npc managerc;
+		L2Npc managerd;
+		L2Npc managere;
+		L2Npc managerf;
+		L2Npc managerg;
+		L2Npc managerh;
+		L2Npc _aenkinel;
 		public CDWorld()
 		{
 			//InstanceManager.getInstance().super();
@@ -63,7 +72,13 @@ public class ChamberOfDelusionGreat extends Quest
 	private int r6 = 0;
 	private int r7 = 0;
 	private int r8 = 0;
-	private class teleCoord {int instanceId; int x; int y; int z;}
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 
 	private static final int[][] TELEPORT =
 	{

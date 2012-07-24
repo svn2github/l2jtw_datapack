@@ -110,9 +110,9 @@ public class CrystalCaverns extends Quest
 		protected L2Npc _camera = null;
 		protected L2Npc _baylor = null;
 		protected L2Npc _alarm = null;
-		private int _SpawnMob = 0; //Update by rocknow
-		private int _SpawnNum = 0; //Update by rocknow
-		private int _Heading = 0; //Update by rocknow
+		int _SpawnMob = 0; //Update by rocknow
+		int _SpawnNum = 0; //Update by rocknow
+		int _Heading = 0; //Update by rocknow
 
 		public CCWorld(Long time)
 		{

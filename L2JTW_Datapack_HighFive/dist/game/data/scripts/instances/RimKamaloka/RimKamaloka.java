@@ -212,7 +212,7 @@ public class RimKamaloka extends Quest
 		}
 	};
 
-	private static final int[][] REWARDERS = 
+	protected static final int[][] REWARDERS = 
 	{
 		{ 9261, -219862, -8021 },
 		{ 16301, -219806, -8021 },
@@ -341,8 +341,8 @@ public class RimKamaloka extends Quest
 		public ScheduledFuture<?> lockTask = null;
 		public ScheduledFuture<?> finishTask = null;
 
-		public List<L2MonsterInstance> spawnedMobs = new FastList<L2MonsterInstance>();
-		public Map<Integer, Long> lastAttack = new FastMap<Integer, Long>();
+		public List<L2MonsterInstance> spawnedMobs = new FastList<>();
+		public Map<Integer, Long> lastAttack = new FastMap<>();
 		public ScheduledFuture<?> despawnTask = null;
 
 		public RimKamaWorld()

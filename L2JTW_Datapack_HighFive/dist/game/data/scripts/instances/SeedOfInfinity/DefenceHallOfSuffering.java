@@ -44,7 +44,7 @@ public class DefenceHallOfSuffering extends Quest
 
 	private class DHSWorld extends InstanceWorld
 	{
-		public           Map<L2Npc,Boolean> npcList                      = new FastMap<L2Npc,Boolean>();
+		public           Map<L2Npc,Boolean> npcList                      = new FastMap<>();
 		public           L2Npc klodekus                                  = null;
 		public           L2Npc klanikus                                  = null;
 		public           boolean isBossesAttacked                        = false;
@@ -116,7 +116,13 @@ public class DefenceHallOfSuffering extends Quest
 	// default: 24h
 	private static final int INSTANCEPENALTY = 24;
 	
-	private class teleCoord {int instanceId; int x; int y; int z;}
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 
 	private boolean checkConditions(L2PcInstance player)
 	{

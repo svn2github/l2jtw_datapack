@@ -83,7 +83,13 @@ public class IceQueen_Kegor extends Quest
 	
 	private static final int[] ENTRY_POINT = { 186852, -173492, -3763 };
 	
-	private class teleCoord {int instanceId; int x; int y; int z;}
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 	
 	private void teleportplayer(L2PcInstance player, teleCoord teleto)
 	{
@@ -163,7 +169,7 @@ public class IceQueen_Kegor extends Quest
 				
 				if (event.equalsIgnoreCase("spawn"))
 				{
-					world.liveMobs = new FastList<L2Attackable>();
+					world.liveMobs = new FastList<>();
 					for(int[] spawn : MOB_SPAWNS)
 					{
 						L2Attackable spawnedMob = (L2Attackable) addSpawn(MONSTER, spawn[0], spawn[1], spawn[2], spawn[3], false, 0, false, world.instanceId);
@@ -357,6 +363,7 @@ public class IceQueen_Kegor extends Quest
 				if (world.liveMobs != null)
 				{
 					world.liveMobs.remove(npc);
+					hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
 					if (world.liveMobs.isEmpty() && world.KEGOR != null && !world.KEGOR.isDead() && hostQuest.getInt("progress") == 2)
 					{
 						world.underAttack = false;

@@ -70,7 +70,13 @@ public class Q198_SevenSignEmbryo extends Quest
 	
 	private boolean ShilensevilOnSpawn = false;
 	
-	private class teleCoord {int instanceId; int x; int y; int z;}
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 	
 	private static final void removeBuffs(L2Character ch)
 	{

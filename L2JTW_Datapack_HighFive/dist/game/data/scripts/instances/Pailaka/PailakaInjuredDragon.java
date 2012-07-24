@@ -47,7 +47,7 @@ public class PailakaInjuredDragon extends Quest
 	//private static final int ZONE = ???;
 	
 	// NO EXIT ZONES
-	private static final Map<Integer, int[]> NOEXIT_ZONES = new FastMap<Integer,  int[]>();
+	private static final Map<Integer, int[]> NOEXIT_ZONES = new FastMap<>();
 	static
 	{
 		NOEXIT_ZONES.put(200001, new int[]{123167, -45743, -3023});
@@ -161,7 +161,7 @@ public class PailakaInjuredDragon extends Quest
 		{4347,6}  // Blessed Body Lv6
 	};
 	
-	private static final FastList<PailakaDrop> DROPLIST = new FastList<PailakaDrop>();
+	private static final FastList<PailakaDrop> DROPLIST = new FastList<>();
 	static
 	{
 		DROPLIST.add(new PailakaDrop(HEAL_POTION, 80));
@@ -908,12 +908,13 @@ public class PailakaInjuredDragon extends Quest
 			_instanceId = id;
 		}
 		
+		@SuppressWarnings("synthetic-access")
 		@Override
 		public void run()
 		{
 			try
 			{
-				teleportPlayer((L2PcInstance)_char, TELEPORT, _instanceId);
+				teleportPlayer((L2PcInstance) _char, TELEPORT, _instanceId);
 			}
 			catch (Exception e)
 			{

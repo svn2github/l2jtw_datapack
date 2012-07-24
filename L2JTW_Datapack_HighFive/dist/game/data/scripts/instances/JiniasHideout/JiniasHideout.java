@@ -55,7 +55,13 @@ public class JiniasHideout extends Quest
 	
 	private static final int[] ENTRY_POINT = { -23530, -8963, -5413 };
 	
-	private class teleCoord {int instanceId; int x; int y; int z;}
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 	
 	private void teleportplayer(L2PcInstance player, teleCoord teleto)
 	{

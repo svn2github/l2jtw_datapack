@@ -71,7 +71,13 @@ public class IceQueenCastle1 extends Quest
 		}
 	}
 	
-	private class teleCoord {int instanceId; int x; int y; int z;}
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 	
 	private void teleportplayer(L2PcInstance player, teleCoord teleto)
 	{
@@ -522,7 +528,7 @@ public class IceQueenCastle1 extends Quest
 	
 	private L2Npc getRandomTargetFreya(IQWorld world)
 	{
-		FastList<L2Npc> npcList = new FastList<L2Npc>();
+		FastList<L2Npc> npcList = new FastList<>();
 		L2Npc victim = null;
 		victim = world._jinia_guard1;
 		if (victim != null && !victim.isDead())
@@ -561,7 +567,7 @@ public class IceQueenCastle1 extends Quest
 	
 	private L2Npc getRandomTargetGuard(IQWorld world)
 	{
-		FastList<L2Npc> npcList = new FastList<L2Npc>();
+		FastList<L2Npc> npcList = new FastList<>();
 		L2Npc victim = null;
 		victim = world._freya_guard1;
 		if (victim != null && !victim.isDead())

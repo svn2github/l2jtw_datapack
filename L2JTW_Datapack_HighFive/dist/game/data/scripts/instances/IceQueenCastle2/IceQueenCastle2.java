@@ -138,13 +138,13 @@ public class IceQueenCastle2 extends Quest
 		public L2Attackable _jinia = null;
 		public L2Attackable _kegor = null;
 		public boolean isMovieNow = false;
-		public FastMap<Integer, L2Npc> _archery_knights = new FastMap<Integer, L2Npc>();
-		public FastMap<Integer, L2Npc> _simple_knights = new FastMap<Integer, L2Npc>();
-		public FastMap<Integer, L2Npc> _glaciers = new FastMap<Integer, L2Npc>();
+		public FastMap<Integer, L2Npc> _archery_knights = new FastMap<>();
+		public FastMap<Integer, L2Npc> _simple_knights = new FastMap<>();
+		public FastMap<Integer, L2Npc> _glaciers = new FastMap<>();
 		// Hard
 		public L2Attackable _freyaStand_hard = null;
 		public L2Attackable _glakias_hard = null;
-		public FastMap<Integer, L2Npc> _archery_knights_hard = new FastMap<Integer, L2Npc>();
+		public FastMap<Integer, L2Npc> _archery_knights_hard = new FastMap<>();
 		// Hard - end
 		public FreyaWorld()
 		{
@@ -157,12 +157,17 @@ public class IceQueenCastle2 extends Quest
 		private int _waveId;
 		private FreyaWorld _world;
 		
+		@SuppressWarnings("synthetic-access")
 		public spawnWave(int waveId, int instanceId)
 		{
 			_waveId = waveId;
 			_world = getWorld(instanceId);
 		}
-		@SuppressWarnings("cast")
+		
+		@SuppressWarnings({
+			"synthetic-access",
+			"cast"
+		})
 		@Override
 		public void run()
 		{

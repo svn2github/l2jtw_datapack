@@ -58,8 +58,8 @@ public class Zaken extends L2AttackableAIScript
 {
 	private class ZWorld extends InstanceWorld 
 	{
-		List<L2PcInstance> _playersInInstance = new FastList<L2PcInstance>();
-		List<L2PcInstance> _playersInZakenZone = new FastList<L2PcInstance>();
+		List<L2PcInstance> _playersInInstance = new FastList<>();
+		List<L2PcInstance> _playersInZakenZone = new FastList<>();
 		int _zakenZone = 0;
 		int _blueCandles = 0;
 		L2Character _target;
@@ -104,7 +104,7 @@ public class Zaken extends L2AttackableAIScript
 		L2Npc _zakenBarel2;
 		L2Npc _zakenBarel3;
 		L2Npc _zakenBarel4;
-		public List<L2Npc> _barrels = new FastList<L2Npc>();
+		public List<L2Npc> _barrels = new FastList<>();
 		
 		public ZWorld() 
 		{
@@ -136,7 +136,7 @@ public class Zaken extends L2AttackableAIScript
 	//Barrel
 	private static final int BARREL = 32705;
 	
-	private static List<L2PcInstance> _playersInside = new FastList<L2PcInstance>();
+	private static List<L2PcInstance> _playersInside = new FastList<>();
 	
 	//Zones for rooms
 	//floor 1
@@ -191,7 +191,7 @@ public class Zaken extends L2AttackableAIScript
 		_room15_zone, _room15_zone, _room13_zone, _room12_zone, _room12_zone, _room11_zone, 
 		};
 	
-	private static final FastMap<Integer, Integer[]> zoneBarrels = new FastMap<Integer, Integer[]>();
+	private static final FastMap<Integer, Integer[]> zoneBarrels = new FastMap<>();
 	static
 	{
 		zoneBarrels.put(_room1_zone, new Integer[] { 3, 4, 5, 12 });
@@ -211,7 +211,7 @@ public class Zaken extends L2AttackableAIScript
 		zoneBarrels.put(_room15_zone, new Integer[] { 30, 31, 32, 33 });
 	}
 	
-	private static final FastList<Location> _spawnPcLocationDaytime = new FastList<Location>();
+	private static final FastList<Location> _spawnPcLocationDaytime = new FastList<>();
 	static
 	{
 		_spawnPcLocationDaytime.add(new Location(52684, 219989, -3496));
@@ -219,7 +219,7 @@ public class Zaken extends L2AttackableAIScript
 		_spawnPcLocationDaytime.add(new Location(52672, 219439, -3312));
 	}
 	
-	private static final FastList<Location> _spawnPcLocationNighttime = new FastList<Location>();
+	private static final FastList<Location> _spawnPcLocationNighttime = new FastList<>();
 	static
 	{
 		_spawnPcLocationNighttime.add(new Location(54469, 219798, -3488));
@@ -235,7 +235,7 @@ public class Zaken extends L2AttackableAIScript
 		_spawnPcLocationNighttime.add(new Location(54469, 220463, -3488));
 	}
 	
-	private static final FastList<Location> _spawnsZaken = new FastList<Location>();
+	private static final FastList<Location> _spawnsZaken = new FastList<>();
 	static
 	{
 		_spawnsZaken.add(new Location(54237, 218135, -3496));
@@ -430,7 +430,7 @@ public class Zaken extends L2AttackableAIScript
 		L2Party party = player.getParty();
 		if (party == null) // this can happen only if debug is true
 		{
-			players = new FastList<L2PcInstance>();
+			players = new FastList<>();
 			players.add(player);
 		}
 		else if (party.isInCommandChannel())
@@ -502,7 +502,7 @@ public class Zaken extends L2AttackableAIScript
 		if (tmpworld instanceof ZWorld)
 		{
 			ZWorld world = (ZWorld) tmpworld;
-			FastList<L2Character> result = new FastList<L2Character>();
+			FastList<L2Character> result = new FastList<>();
 			{
 				for (L2Character obj : world._playersInZakenZone)
 				{
@@ -786,7 +786,7 @@ public class Zaken extends L2AttackableAIScript
 				L2Party party = player.getParty();
 				if (party == null) // this can happen only if debug is true
 				{
-					players = new FastList<L2PcInstance>();
+					players = new FastList<>();
 					players.add(player);
 				}
 				else if (party.isInCommandChannel())
