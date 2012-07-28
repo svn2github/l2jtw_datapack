@@ -10,7 +10,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
@@ -24,7 +24,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
@@ -38,7 +38,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
@@ -52,7 +52,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
@@ -66,7 +66,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
@@ -80,7 +80,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
@@ -94,7 +94,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
@@ -108,7 +108,7 @@
 		</cond>
 		<for>
 			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
+				<add order="0x40" stat="runSpd" val="30" />
 			</effect>
 		</for>
 	</skill>
