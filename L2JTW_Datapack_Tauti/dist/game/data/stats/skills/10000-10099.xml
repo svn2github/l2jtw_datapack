@@ -359,14 +359,38 @@
 		</for>
 	</skill>
 	<skill id="10015" levels="8" name="Last peyisyeonseu">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<table name="#magicLevel">85 86 88 90 91 93 95 97</table>
+		<set name="power" val="50000" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="AGGDAMAGE" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="weaponsAllowed" val="Shield" />
+		<for>
+			<effect name="TargetMe" abnormalTime="3" val="0" />
+		</for>
 	</skill>
 	<skill id="10016" levels="6" name="Last peyisyeonseu">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<table name="#magicLevel">89 91 93 95 97 99</table>
+		<table name="#skillRadius">150 200 250 300 350 400</table>
+		<set name="power" val="50000" />
+		<set name="magicLevel" val="#magicLevel" />
+		<set name="target" val="TARGET_AREA"/>
+		<set name="skillRadius" val="#skillRadius" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="AGGDAMAGE" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="weaponsAllowed" val="Shield" />
+		<for>
+			<effect name="TargetMe" abnormalTime="3" val="0" />
+		</for>
 	</skill>
 	<skill id="10017" levels="4" name="absolute protection">
 	<!-- Deceres MP Consume -lvl 100+ -->
@@ -383,11 +407,12 @@
 		<set name="skillRadius" val="1000" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="counter_skill" />
+			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="counter_skill" >
 				<add order="0x40" stat="vengeancePdam" val="20" />
 				<add order="0x40" stat="pDef" val="#pDef" />
 				<add order="0x40" stat="mDef" val="#mDef" />
 				<mul order="0x30" stat="reflectDam" val="#ref" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="10018" levels="2" name="noble sacrifice">
@@ -405,8 +430,6 @@
 		<for>
 			<effect name="TransferDamage" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="transfer_damage">
 				<add order="0x40" stat="transDamToPlayer" val="#Vul" />
-				<add order="0x40" stat="pDef" val="3600" />
-				<add order="0x40" stat="mDef" val="2700" />
 			</effect>
 		</for>
 	</skill>
@@ -423,11 +446,12 @@
 		<set name="skillRadius" val="1000" />
 		<set name="target" val="TARGET_PARTY" />
 		<for>
-			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="counter_skill" />
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="counter_skill" >
 				<add order="0x40" stat="vengeancePdam" val="20" />
 				<add order="0x40" stat="transDamToPlayer" val="90" />
 				<add order="0x40" stat="pDef" val="#Def" />
 				<add order="0x40" stat="mDef" val="#Def" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="10020" levels="4" name="The concentration of the shield">
@@ -435,18 +459,17 @@
 		<table name="#sDef">700 800 900 1000</table>
 		<table name="#rShld">1.35 1.4 1.45 1.5</table>
 		<set name="aggroPoints" val="673" />
-		<set name="hitTime" val="1000" />
 		<set name="magicLvl" val="79" />
-		<set name="mpConsume" val="50" />
-		<set name="operateType" val="A1" />
-		<set name="reuseDelay" val="150000" />
-		<set name="skillType" val="BUFF" />
+		<set name="mpConsume" val="3" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="ChanceSkillTrigger" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="iron_shield" triggeredId="5425" chanceType="ON_ATTACKED" activationChance="50" />
+			<effect count="0x7fffffff" name="ManaDamOverTime" abnormalTime="3" val="3" >
 				<add order="0x40" stat="sDef" val="#sDef" />
 				<add order="0x40" stat="pDef" val="#pDef" />
 				<mul order="0x30" stat="rShld" val="#rShld" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="10021" levels="4" name="Spike Shield">
