@@ -450,6 +450,7 @@
 			<add order="0x40" stat="maxHp" val="445" /> <!-- Maximum HP +445 -->
 			<sub order="0x40" stat="sleepVuln" val="70" /> <!-- Sleep Probability -70% -->
 			<sub order="0x40" stat="rootVuln" val="70" /> <!-- Hold Probability -70% -->
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="3554" levels="1" name="Equipped with Shield">
@@ -469,6 +470,7 @@
 			<mul order="0x30" stat="pAtk" val="1.04" /> <!-- P. Atk +4% -->
 			<add order="0x40" stat="maxMp" val="289" /> <!-- Maximum MP +289 -->
 			<add order="0x40" stat="weightPenalty" val="5759" /> <!-- Point at which a weight penalty is applied +5759 -->
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="3556" levels="1" name="Major Arcana Robe Set">
@@ -480,6 +482,7 @@
 			<sub order="0x40" stat="cancel" val="50" /> <!-- Casting Cancel Probability -50% -->
 			<add order="0x40" stat="weightPenalty" val="5759" /> <!-- Point at which a weight penalty is applied +5759 -->
 			<sub order="0x40" stat="stunVuln" val="50" /> <!-- Stun resistance +50% -->
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="3557" levels="1" name="Necklace of Valakas">
