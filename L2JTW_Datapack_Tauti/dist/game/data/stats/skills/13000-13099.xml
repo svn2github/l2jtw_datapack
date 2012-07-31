@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
-	<skill id="13064" levels="4" name="Immortal Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13064" levels="4" name="Immortal Heavy Armor Set"><!-- Check OK -->
 		<table name="#mDef"> 0 0 38 38 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
 		<table name="#Vuln"> 0 5 5 5 </table>
@@ -26,8 +25,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13065" levels="4" name="Immortal Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13065" levels="4" name="Immortal Heavy Armor Set"><!-- Check OK -->
 		<table name="#pAtk"> 0 0 0 155 </table>
 		<table name="#cAtkAdd"> 0 209 209 209 </table>
 		<table name="#Vuln"> 0 5 5 5 </table>
@@ -51,8 +49,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13066" levels="4" name="Twilight Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13066" levels="4" name="Twilight Heavy Armor Set"><!-- Check OK -->
 		<table name="#maxMp"> 0 202 202 202 </table>
 		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#pDef1"> 0 0 0 1.07 </table>
@@ -77,8 +74,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13067" levels="4" name="Twilight Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13067" levels="4" name="Twilight Heavy Armor Set"><!-- Check OK -->
 		<table name="#MagicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#cAtkAdd"> 0 242 242 242 </table>
 		<table name="#Vuln"> 0 7 7 7 </table>
@@ -102,8 +98,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13068" levels="4" name="Seraph Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13068" levels="4" name="Seraph Heavy Armor Set"><!-- Check OK -->
 		<table name="#mDef"> 0 0 50 50 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
 		<table name="#Vuln"> 0 10 10 10 </table>
@@ -128,8 +123,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13069" levels="4" name="Seraph Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13069" levels="4" name="Seraph Heavy Armor Set"><!-- Check OK -->
 		<table name="#physicalSkillPower"> 0 0 1.06 1.06 </table>
 		<table name="#cAtkAdd"> 0 281 281 281 </table>
 		<table name="#Vuln"> 0 10 10 10 </table>
@@ -155,8 +149,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13070" levels="4" name="Eternal Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13070" levels="4" name="Eternal Heavy Armor Set"><!-- Check OK -->
 		<table name="#mDef"> 0 0 54 54 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
 		<table name="#gainHp"> 0 0 108 108 </table>
@@ -183,8 +176,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13071" levels="4" name="Eternal Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13071" levels="4" name="Eternal Heavy Armor Set"><!-- Check OK -->
 		<table name="#absorbDam"> 0 0 2 2 </table>
 		<table name="#cAtkAdd"> 0 298 298 298 </table>
 		<table name="#Vuln"> 0 10 10 10 </table>
@@ -210,8 +202,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13072" levels="4" name="R99rare Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13072" levels="4" name="R99 Rare Heavy Armor Set"><!-- Check OK -->
 		<table name="#mDef"> 0 0 58 58 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
 		<table name="#reflectDam"> 0 0 1.20 1.20 </table>
@@ -240,8 +231,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13073" levels="4" name="R99rare Heavy Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13073" levels="4" name="R99 Rare Heavy Armor Set"><!-- Check OK -->
 		<table name="#prof"> 0 0 20 20 </table>
 		<table name="#pAtkSpd"> 1.03 1.03 1.03 1.08 </table>
 		<table name="#cAtkAdd"> 0 325 325 325 </table>
@@ -269,8 +259,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13074" levels="4" name="Immortal Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13074" levels="4" name="Immortal Light Armor Set"><!-- Check OK -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
 		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
@@ -296,8 +285,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13075" levels="4" name="Immortal Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13075" levels="4" name="Immortal Light Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#maxHp"> 0 0 463 463 </table>
@@ -322,8 +310,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13076" levels="4" name="Twilight Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13076" levels="4" name="Twilight Light Armor Set"><!-- Check OK -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
 		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
@@ -349,8 +336,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13077" levels="4" name="Twilight Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13077" levels="4" name="Twilight Light Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.90 0.90 </table>
 		<table name="#maxHp"> 0 0 487 487 </table>
@@ -378,8 +364,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13078" levels="4" name="Seraph Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13078" levels="4" name="Seraph Light Armor Set"><!-- Check OK -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
@@ -407,8 +392,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13079" levels="4" name="Seraph Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13079" levels="4" name="Seraph Light Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#maxHp"> 0 0 511 511 </table>
@@ -435,8 +419,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13080" levels="4" name="Eternal Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13080" levels="4" name="Eternal Light Armor Set"><!-- Check OK -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
@@ -464,8 +447,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13081" levels="4" name="Eternal Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13081" levels="4" name="Eternal Light Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#physicalSkillPower"> 0 0 1.06 1.06 </table>
@@ -492,8 +474,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13082" levels="4" name="R99rare Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13082" levels="4" name="R99 Rare Light Armor Set"><!-- Check OK -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
 		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
@@ -521,8 +502,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13083" levels="4" name="R99rare Leather Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13083" levels="4" name="R99 Rare Light Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#buffVuln"> 0 0 0.1 0.1 </table>
@@ -551,8 +531,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13084" levels="4" name="Immortal Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13084" levels="4" name="Immortal Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#maxMp"> 0 185 185 185 </table>
 		<table name="#regMp"> 0 0 1.006 1.006 </table>
@@ -578,8 +557,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13085" levels="4" name="Immortal Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13085" levels="4" name="Immortal Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#regMp"> 0 0 1.006 1.006 </table>
 		<table name="#maxMp"> 0 185 185 185 </table>
@@ -605,8 +583,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13086" levels="4" name="Twilight Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13086" levels="4" name="Twilight Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#maxMp"> 0 202 202 202 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
@@ -632,8 +609,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13087" levels="4" name="Twilight Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13087" levels="4" name="Twilight Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#regMp"> 0 0 1.007 1.007 </table>
 		<table name="#maxMp"> 0 202 202 202 </table>
@@ -659,8 +635,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13088" levels="4" name="Seraph Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13088" levels="4" name="Seraph Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#maxMp"> 0 221 221 221 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
@@ -688,8 +663,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13089" levels="4" name="Seraph Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13089" levels="4" name="Seraph Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#regMp"> 0 0 1.008 1.008 </table>
 		<table name="#maxMp"> 0 221 221 221 </table>
@@ -717,8 +691,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13090" levels="4" name="Eternal Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13090" levels="4" name="Eternal Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#maxMp"> 0 228 228 228 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
@@ -746,8 +719,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13091" levels="4" name="Eternal Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13091" levels="4" name="Eternal Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#regMp"> 0 0 1.009 1.009 </table>
 		<table name="#maxMp"> 0 228 228 228 </table>
@@ -773,8 +745,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13092" levels="4" name="R99rare Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13092" levels="4" name="R99 Rare Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#maxMp"> 0 239 239 239 </table>
 		<table name="#derangementProf"> 0 0 20 20 </table>
@@ -802,8 +773,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="13093" levels="4" name="R99rare Robe Armor Set">
-		<!-- Confirmed CT3 & Updated bykang1536 -->
+	<skill id="13093" levels="4" name="R99 Rare Robe Armor Set"><!-- Check OK -->
 		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#regMp"> 0 0 1 1 </table>
 		<table name="#maxMp"> 0 239 239 239 </table>

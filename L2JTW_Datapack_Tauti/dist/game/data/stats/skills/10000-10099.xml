@@ -358,7 +358,7 @@
 			<sub order="0x40" stat="bonusHp" val="90" />
 		</for>
 	</skill>
-	<skill id="10015" levels="8" name="Last peyisyeonseu">
+	<skill id="10015" levels="8" name="Chain Strike"><!-- Check OK -->
 		<table name="#magicLevel">85 86 88 90 91 93 95 97</table>
 		<set name="power" val="50000" />
 		<set name="magicLevel" val="#magicLevel" />
@@ -374,7 +374,7 @@
 			<effect name="TargetMe" abnormalTime="3" val="0" />
 		</for>
 	</skill>
-	<skill id="10016" levels="6" name="Last peyisyeonseu">
+	<skill id="10016" levels="6" name="Chain Hydra"><!-- Check OK -->
 		<table name="#magicLevel">89 91 93 95 97 99</table>
 		<table name="#skillRadius">150 200 250 300 350 400</table>
 		<set name="power" val="50000" />

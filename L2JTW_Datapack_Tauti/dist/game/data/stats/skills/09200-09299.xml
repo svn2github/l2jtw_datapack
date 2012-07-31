@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
-	<skill id="9206" levels="1" name="Fast Run">
+	<skill id="9206" levels="1" name="Fast Run"><!-- Check OK -->
 		<set name="mpConsume" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="30000" />
@@ -12,7 +12,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="9210" levels="1" name="Dismount">
+	<skill id="9210" levels="1" name="Dismount"><!-- Check OK -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="TRANSFORMDISPEL" />
 		<set name="operateType" val="A1" />

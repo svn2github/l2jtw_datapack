@@ -149,7 +149,7 @@
 			<add order="0x40" stat="darkRes" val="35" />
 		</for>
 	</skill>
-	<skill id="13339" levels="1" name="Enchant Heavy Armor (Grade R)">
+	<skill id="13339" levels="1" name="Enchant Heavy Armor (R-grade)"><!-- Check OK -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
 		<set name="target" val="TARGET_SELF" />
@@ -167,7 +167,7 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="13340" levels="1" name="Enchant Light Armor (Grade R)">
+	<skill id="13340" levels="1" name="Enchant Light Armor (R-grade)"><!-- Check OK -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
@@ -180,7 +180,7 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="13341" levels="1" name="Enchant Robe (Grade R)">
+	<skill id="13341" levels="1" name="Enchant Robe (R-grade)"><!-- Check OK -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
