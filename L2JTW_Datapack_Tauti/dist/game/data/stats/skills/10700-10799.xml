@@ -75,7 +75,7 @@
 			<sub order="0x40" stat="stunVuln" val="20" />
 		</for>
 	</skill>
-	<skill id="10756" levels="1" name="Superior Critical Arrow">
+	<skill id="10756" levels="1" name="Superior Critical Arrow"><!-- Check OK -->
 		<set name="magicLvl" val="85" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
