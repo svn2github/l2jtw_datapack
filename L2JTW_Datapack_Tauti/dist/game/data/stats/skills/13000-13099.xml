@@ -4,7 +4,7 @@
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#mDef"> 0 0 38 38 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
-		<table name="#Vuln"> 0 95 95 95 </table>
+		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#pDef1"> 0 0 0 1.07 </table>
 		<table name="#pDef2"> 0 0 0 77 </table>
 		<table name="#Res"> 0 0 0 10 </table>
@@ -13,25 +13,24 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="CON" val="1" />
-			<add order="0x40" stat="maxHp" val="463" /> 
+			<add order="0x40" stat="maxHp" val="463" />
+			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
+			<sub order="0x40" stat="stunVuln" val="#Vuln" />
 			<add order="0x40" stat="mDef" val="#mDef" />
 			<mul order="0x30" stat="pDef" val="#pDef1" />
-			<add order="0x40" stat="pDef" val="#pDef2" /> 
-			<sub order="0x40" stat="stunVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
+			<add order="0x40" stat="pDef" val="#pDef2" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
-			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13065" levels="4" name="Immortal Heavy Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#pAtk"> 0 0 0 155 </table>
 		<table name="#cAtkAdd"> 0 209 209 209 </table>
-		<table name="#Vuln"> 0 95 95 95 </table>
+		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#maxHp"> 0 0 463 463 </table>
 		<table name="#pDef"> 0 0 0 1.07 </table>
 		<table name="#Res"> 0 0 0 10 </table>
@@ -40,23 +39,22 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="1" />
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
-			<add order="0x40" stat="maxHp" val="#maxHp" />
+			<sub order="0x40" stat="rootVuln" val="#Vuln" />
 			<add order="0x40" stat="pAtk" val="#pAtk" />
 			<mul order="0x30" stat="pDef" val="#pDef" />
-			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13066" levels="4" name="Twilight Heavy Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#maxMp"> 0 202 202 202 </table>
-		<table name="#Vuln"> 0 93 93 93 </table>
+		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#pDef1"> 0 0 0 1.07 </table>
 		<table name="#pDef2"> 0 0 0 87 </table>
 		<table name="#mDef"> 0 0 44 44 </table>
@@ -66,25 +64,24 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="CON" val="2" />
-			<sub order="0x10" stat="STR" val="1" />
+			<add order="0x40" stat="maxHp" val="487" />
 			<add order="0x40" stat="maxMp" val="#maxMp" />
-			<mul order="0x30" stat="pDef" val="#pDef1" />
-			<add order="0x40" stat="pDef" val="#pDef2" /> 
-			<add order="0x40" stat="mDef" val="#mDef" /> 
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
+			<add order="0x40" stat="mDef" val="#mDef" />
+			<mul order="0x30" stat="pDef" val="#pDef1" />
+			<add order="0x40" stat="pDef" val="#pDef2" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13067" levels="4" name="Twilight Heavy Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#MagicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#cAtkAdd"> 0 242 242 242 </table>
-		<table name="#Vuln"> 0 93 93 93 </table>
+		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#pDef"> 0 0 0 1.07 </table>
 		<table name="#pAtk"> 0 0 0 180 </table>
 		<table name="#Res"> 0 0 0 10 </table>
@@ -93,26 +90,23 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="2" />
-			<sub order="0x10" stat="CON" val="1" />
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
-			<mul order="0x30" stat="MagicalMpConsumeRate" val="#MagicalMpConsumeRate" />
-			<mul order="0x30" stat="pDef" val="#pDef" />
-			<add order="0x40" stat="pAtk" val="#pAtk" />
 			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
+			<add order="0x40" stat="pAtk" val="#pAtk" />
+			<mul order="0x30" stat="pDef" val="#pDef" />
+			<mul order="0x30" stat="MagicalMpConsumeRate" val="#MagicalMpConsumeRate" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13068" levels="4" name="Seraph Heavy Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#mDef"> 0 0 50 50 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
-		<table name="#cAtkAdd"> 0 0 281 281 </table>
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#pDef1"> 0 0 0 1.07 </table>
 		<table name="#pDef2"> 0 0 0 96 </table>
 		<table name="#Res"> 0 0 0 15 </table>
@@ -121,27 +115,24 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="CON" val="3" />
-			<sub order="0x10" stat="STR" val="2" />
-			<add order="0x40" stat="maxHp" val="511" /> 
-			<add order="0x40" stat="mDef" val="#mDef" />
-			<sub order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
-			<mul order="0x30" stat="pDef" val="#pDef1" />
-			<add order="0x40" stat="pDef" val="#pDef2" /> 
+			<add order="0x40" stat="maxHp" val="511" />
+			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
+			<add order="0x40" stat="mDef" val="#mDef" />
+			<mul order="0x30" stat="pDef" val="#pDef1" />
+			<add order="0x40" stat="pDef" val="#pDef2" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
-			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13069" levels="4" name="Seraph Heavy Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#physicalSkillPower"> 0 0 1.06 1.06 </table>
 		<table name="#cAtkAdd"> 0 281 281 281 </table>
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#pDef"> 0 0 0 1.07 </table>
 		<table name="#pAtk"> 0 0 0 214 </table>
 		<table name="#Res"> 0 0 0 15 </table>
@@ -151,19 +142,17 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="3" />
-			<sub order="0x10" stat="CON" val="2" />
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
-			<mul order="0x30" stat="physicalSkillPower" val="#physicalSkillPower" />
-			<mul order="0x30" stat="pDef" val="#pDef" />
-			<add order="0x40" stat="pAtk" val="#pAtk" />
 			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
+			<add order="0x40" stat="pAtk" val="#pAtk" />
+			<mul order="0x30" stat="pDef" val="#pDef" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
+			<mul order="0x30" stat="physicalSkillPower" val="#physicalSkillPower" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13070" levels="4" name="Eternal Heavy Armor Set">
@@ -171,7 +160,7 @@
 		<table name="#mDef"> 0 0 54 54 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
 		<table name="#gainHp"> 0 0 108 108 </table>
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#pDef1"> 0 0 0 1.07 </table>
 		<table name="#pDef2"> 0 0 0 103 </table>
 		<table name="#Res"> 0 0 0 15 </table>
@@ -180,27 +169,25 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="CON" val="3" />
-			<sub order="0x10" stat="STR" val="1" />
-			<add order="0x40" stat="maxHp" val="521" /> 
-			<add order="0x40" stat="mDef" val="#mDef" />
+			<add order="0x40" stat="maxHp" val="521" />
+			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
 			<add order="0x40" stat="gainHp" val="#gainHp" />
-			<mul order="0x30" stat="pDef" val="#pDef1" />
-			<add order="0x40" stat="pDef" val="#pDef2" /> 
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
+			<add order="0x40" stat="mDef" val="#mDef" />
+			<mul order="0x30" stat="pDef" val="#pDef1" />
+			<add order="0x40" stat="pDef" val="#pDef2" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
-			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13071" levels="4" name="Eternal Heavy Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#absorbDam"> 0 0 2 2 </table>
 		<table name="#cAtkAdd"> 0 298 298 298 </table>
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#pDef"> 0 0 0 1.07 </table>
 		<table name="#pAtk"> 0 0 0 246 </table>
 		<table name="#Res"> 0 0 0 15 </table>
@@ -210,19 +197,17 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="3" />
-			<sub order="0x10" stat="CON" val="1" />
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
-			<add order="0x40" stat="absorbDam" val="#absorbDam" />
-			<mul order="0x30" stat="pDef" val="#pDef" />
-			<add order="0x40" stat="pAtk" val="#pAtk" />
 			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
+			<add order="0x40" stat="pAtk" val="#pAtk" />
+			<mul order="0x30" stat="pDef" val="#pDef" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
+			<add order="0x40" stat="absorbDam" val="#absorbDam" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13072" levels="4" name="R99rare Heavy Armor Set">
@@ -230,39 +215,37 @@
 		<table name="#mDef"> 0 0 58 58 </table>
 		<table name="#critDamEvas"> 0 1.033 1.033 1.033 </table>
 		<table name="#reflectDam"> 0 0 1.20 1.20 </table>
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.05 </table>
 		<table name="#pDef1"> 0 0 0 1.07 </table>
 		<table name="#pDef2"> 0 0 0 108 </table>
-		<table name="#Res"> 0 0 0 15 </table>
+		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="CON" val="4" />
-			<sub order="0x10" stat="STR" val="2" />
-			<add order="0x40" stat="maxHp" val="536" /> 
-			<add order="0x40" stat="mDef" val="#mDef" />
-			<mul order="0x30" stat="reflectDam" val="#reflectDam" />
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
-			<mul order="0x30" stat="pDef" val="#pDef1" />
-			<add order="0x40" stat="pDef" val="#pDef2" /> 
+			<add order="0x40" stat="maxHp" val="536" />
+			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
+			<mul order="0x30" stat="reflectDam" val="#reflectDam" />
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
+			<add order="0x40" stat="mDef" val="#mDef" />
+			<mul order="0x30" stat="pDef" val="#pDef1" />
+			<add order="0x40" stat="pDef" val="#pDef2" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
-			<mul order="0x30" stat="critDamEvas" val="#critDamEvas" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13073" levels="4" name="R99rare Heavy Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#absorbDam"> 0 0 2 2 </table>
-		<table name="#pAtkSpd"> 1.03 1.03 1.298 1.08 </table>
+		<table name="#prof"> 0 0 20 20 </table>
+		<table name="#pAtkSpd"> 1.03 1.03 1.03 1.08 </table>
 		<table name="#cAtkAdd"> 0 325 325 325 </table>
-		<table name="#Vuln"> 0 85 85 85 </table>
+		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#pDef"> 0 0 0 1.07 </table>
 		<table name="#pAtk"> 0 0 0 255 </table>
 		<table name="#Res"> 0 0 0 20 </table>
@@ -272,26 +255,24 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="4" />
-			<sub order="0x10" stat="CON" val="2" />
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
-			<add order="0x40" stat="absorbDam" val="#absorbDam" />
-			<mul order="0x30" stat="pDef" val="#pDef" />
-			<add order="0x40" stat="pAtk" val="#pAtk" />
 			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<add order="0x10" stat="cloak" val="1" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
+			<add order="0x40" stat="pAtk" val="#pAtk" />
+			<mul order="0x30" stat="pDef" val="#pDef" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
+			<add order="0x40" stat="stunProf" val="#prof" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13074" levels="4" name="Immortal Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
-		<table name="#Vuln"> 0 95 95 95 </table>
+		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
 		<table name="#pAtk"> 0 0 0 1.07 </table>
@@ -302,13 +283,12 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="DEX" val="1" />
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
-			<add order="0x40" stat="rEvas" val="#rEvas" />
-			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<mul order="0x30" stat="pAtk" val="#pAtk" />
-			<add order="0x40" stat="rCrit" val="#rCrit" />
+			<add order="0x40" stat="rEvas" val="#rEvas" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
+			<mul order="0x30" stat="rCrit" val="#rCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -318,7 +298,7 @@
 	</skill>
 	<skill id="13075" levels="4" name="Immortal Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 95 95 95 </table>
+		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#maxHp"> 0 0 463 463 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
@@ -329,24 +309,23 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="1" />
-			<add order="0x40" stat="pAtk" val="155" />
-			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<add order="0x40" stat="pAtk" val="155" />
+			<sub order="0x40" stat="rootVuln" val="#Vuln" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13076" levels="4" name="Twilight Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
-		<table name="#Vuln"> 0 93 93 93 </table>
+		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
 		<table name="#pAtk1"> 0 0 180 180 </table>
 		<table name="#pAtk2"> 0 0 0 1.07 </table>
@@ -357,14 +336,12 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="DEX" val="2" />
-			<sub order="0x10" stat="STR" val="1" />
-			<add order="0x40" stat="pAtk" val="#pAtk1" />
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
-			<add order="0x40" stat="rEvas" val="#rEvas" />
 			<mul order="0x30" stat="pAtk" val="#pAtk2" />
-			<add order="0x40" stat="rCrit" val="#rCrit" />
+			<add order="0x40" stat="rEvas" val="#rEvas" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<add order="0x40" stat="pAtk" val="#pAtk1" />
+			<mul order="0x30" stat="rCrit" val="#rCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -374,7 +351,7 @@
 	</skill>
 	<skill id="13077" levels="4" name="Twilight Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 93 93 93 </table>
+		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.90 0.90 </table>
 		<table name="#maxHp"> 0 0 487 487 </table>
 		<table name="#cAtkAdd"> 0 0 0 242 </table>
@@ -387,47 +364,42 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="2" />
-			<sub order="0x10" stat="CON" val="1" />
-			<add order="0x40" stat="pAtk" val="180" />
-			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
-			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			<mul order="0x30" stat="pAtk" val="#pAtk" />
 			<add order="0x40" stat="pAtk" val="#pAtk2" />
+			<sub order="0x40" stat="rootVuln" val="#Vuln" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
+			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13078" levels="4" name="Seraph Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#physicalSkillPower"> 0 0 1.06 1.06 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
 		<table name="#pAtk"> 0 0 0 1.07 </table>
 		<table name="#rCrit"> 0 0 0 1.033 </table>
-		<table name="#Res"> 0 0 0 10 </table>
+		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="DEX" val="3" />
-			<sub order="0x10" stat="STR" val="2" />
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
+			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<add order="0x40" stat="rEvas" val="#rEvas" />
+			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
 			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<mul order="0x30" stat="physicalSkillPower" val="#physicalSkillPower" />
-			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
-			<add order="0x40" stat="rEvas" val="#rEvas" />
-			<mul order="0x30" stat="pAtk" val="#pAtk" />
-			<add order="0x40" stat="rCrit" val="#rCrit" />
-			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<mul order="0x30" stat="rCrit" val="#rCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -437,10 +409,10 @@
 	</skill>
 	<skill id="13079" levels="4" name="Seraph Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#maxHp"> 0 0 511 511 </table>
-		<table name="#paralyzeProf"> 0 0 20 20 </table>
+		<table name="#derangementProf"> 0 0 20 20 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
 		<table name="#pAtk"> 0 0 0 1.07 </table>
 		<table name="#Res"> 0 0 0 15 </table>
@@ -449,26 +421,24 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="3" />
-			<sub order="0x10" stat="CON" val="2" />
-			<add order="0x40" stat="pAtk" val="214" />
-			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
-			<add order="0x40" stat="paralyzeProf" val="#paralyzeProf" />
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<add order="0x40" stat="pAtk" val="214" />
+			<sub order="0x40" stat="rootVuln" val="#Vuln" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x40" stat="derangementProf" val="#derangementProf" />
+			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13080" levels="4" name="Eternal Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#absorbDam"> 0 0 1 1 </table>
 		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
@@ -480,15 +450,13 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="DEX" val="3" />
-			<sub order="0x10" stat="STR" val="1" />
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
+			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<add order="0x40" stat="rEvas" val="#rEvas" />
+			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
 			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<add order="0x40" stat="absorbDam" val="#absorbDam" />
-			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
-			<add order="0x40" stat="rEvas" val="#rEvas" />
-			<mul order="0x30" stat="pAtk" val="#pAtk" />
-			<add order="0x40" stat="rCrit" val="#rCrit" />
-			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<mul order="0x30" stat="rCrit" val="#rCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -498,7 +466,7 @@
 	</skill>
 	<skill id="13081" levels="4" name="Eternal Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#physicalSkillPower"> 0 0 1.06 1.06 </table>
 		<table name="#maxHp"> 0 0 521 521 </table>
@@ -510,26 +478,24 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="3" />
-			<sub order="0x10" stat="CON" val="1" />
-			<add order="0x40" stat="pAtk" val="246" />
-			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
-			<mul order="0x30" stat="physicalSkillPower" val="#physicalSkillPower" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<add order="0x40" stat="pAtk" val="246" />
+			<sub order="0x40" stat="rootVuln" val="#Vuln" />
+			<mul order="0x30" stat="physicalSkillPower" val="#physicalSkillPower" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
 			<add order="0x40" stat="earthRes" val="#Res" />
+			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
 	<skill id="13082" levels="4" name="R99rare Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
 		<table name="#rEvas"> 0 2.3 2.3 2.3 </table>
-		<table name="#Vuln"> 0 85 85 85 </table>
+		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
 		<table name="#cAtkAdd"> 0 0 325 325 </table>
 		<table name="#pAtkSpd"> 1.03 1.03 1.03 1.13 </table>
@@ -541,15 +507,13 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="DEX" val="4" />
-			<sub order="0x10" stat="STR" val="2" />
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
+			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<add order="0x40" stat="rEvas" val="#rEvas" />
+			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
 			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
-			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
-			<add order="0x40" stat="rEvas" val="#rEvas" />
-			<mul order="0x30" stat="pAtk" val="#pAtk" />
-			<add order="0x40" stat="rCrit" val="#rCrit" />
-			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<mul order="0x30" stat="rCrit" val="#rCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -559,27 +523,27 @@
 	</skill>
 	<skill id="13083" levels="4" name="R99rare Leather Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#PhysicalMpConsumeRate"> 0 0 0.96 0.96 </table>
-		<table name="#buffVuln"> 0 0 0.9 0.9 </table>
-		<table name="#maxHp"> 0 0 521 521 </table>
-		<table name="#pAtkSpd"> 0 0 0 1.03 </table>
+		<table name="#buffVuln"> 0 0 0.1 0.1 </table>
+		<table name="#maxHp"> 0 0 536 536 </table>
+		<table name="#pAtkSpd"> 0 0 0 1.1 </table>
+		<table name="#pAtkSpd2"> 0 0 0 1.03 </table>
 		<table name="#pAtk"> 0 0 0 1.07 </table>
-		<table name="#Res"> 0 0 0 15 </table>
+		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="STR" val="4" />
-			<sub order="0x10" stat="CON" val="2" />
-			<add order="0x40" stat="pAtk" val="255" />
-			<sub order="0x40" stat="rootVuln" val="#Vuln" />
-			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
-			<mul order="0x30" stat="buffVuln" val="#buffVuln" />
-			<add order="0x40" stat="maxHp" val="#maxHp" /> 
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<add order="0x40" stat="pAtk" val="255" />
+			<add order="0x40" stat="skillMastery" val="#buffVuln" />
+			<sub order="0x40" stat="rootVuln" val="#Vuln" />
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd2" />
+			<add order="0x40" stat="maxHp" val="#maxHp" />
+			<mul order="0x30" stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -589,25 +553,24 @@
 	</skill>
 	<skill id="13084" levels="4" name="Immortal Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 95 95 95 </table>
+		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#maxMp"> 0 185 185 185 </table>
 		<table name="#regMp"> 0 0 1.006 1.006 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
-		<table name="#mrCrit"> 0 0 0 30 </table>
+		<table name="#mrCrit"> 0 0 0 1.03 </table>
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="INT" val="1" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="maxMp" val="#maxMp" />
-			<mul order="0x30" stat="regMp" val="#regMp" />
-			<add order="0x40" stat="mCritRate" val="#mrCrit" />
 			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<mul order="0x30" stat="regMp" val="#regMp" />
+			<mul order="0x30" stat="mCritRate" val="#mrCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -617,7 +580,7 @@
 	</skill>
 	<skill id="13085" levels="4" name="Immortal Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 95 95 95 </table>
+		<table name="#Vuln"> 0 5 5 5 </table>
 		<table name="#regMp"> 0 0 1.006 1.006 </table>
 		<table name="#maxMp"> 0 185 185 185 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
@@ -629,12 +592,11 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="WIT" val="1" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
+			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
 			<mul order="0x30" stat="regMp" val="#regMp" />
-			<add order="0x40" stat="maxMp" val="#maxMp" /> 
-			<mul order="0x30" stat="mAtk" val="#mAtk" />
 			<add order="0x40" stat="gainHp" val="#gainHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
@@ -645,26 +607,24 @@
 	</skill>
 	<skill id="13086" levels="4" name="Twilight Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 93 93 93 </table>
+		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#maxMp"> 0 202 202 202 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
 		<table name="#mAtk2"> 0 0 184 184 </table>
-		<table name="#mrCrit"> 0 0 0 40 </table>
+		<table name="#mrCrit"> 0 0 0 1.03 </table>
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="INT" val="2" />
-			<sub order="0x10" stat="MEN" val="1" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="maxMp" val="#maxMp" />
-			<add order="0x40" stat="mCritRate" val="#mrCrit" />
 			<mul order="0x30" stat="mAtk" val="#mAtk" />
 			<add order="0x40" stat="mAtk" val="#mAtk2" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<mul order="0x30" stat="mCritRate" val="#mrCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -674,7 +634,7 @@
 	</skill>
 	<skill id="13087" levels="4" name="Twilight Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 93 93 93 </table>
+		<table name="#Vuln"> 0 7 7 7 </table>
 		<table name="#regMp"> 0 0 1.007 1.007 </table>
 		<table name="#maxMp"> 0 202 202 202 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
@@ -686,13 +646,11 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="WIT" val="2" />
-			<sub order="0x10" stat="MEN" val="1" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
+			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
 			<mul order="0x30" stat="regMp" val="#regMp" />
-			<add order="0x40" stat="maxMp" val="#maxMp" /> 
-			<mul order="0x30" stat="mAtk" val="#mAtk" />
 			<add order="0x40" stat="gainHp" val="#gainHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
@@ -703,26 +661,26 @@
 	</skill>
 	<skill id="13088" levels="4" name="Seraph Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#maxMp"> 0 221 221 221 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
 		<table name="#mAtk2"> 0 0 222 222 </table>
 		<table name="#cancel"> 0 0 0 80 </table>
+		<table name="#mrCrit"> 0 0 0 1.03 </table>
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="INT" val="3" />
-			<sub order="0x10" stat="MEN" val="2" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="maxMp" val="#maxMp" />
-			<sub order="0x40" stat="cancelVuln" val="#cancel" />
 			<mul order="0x30" stat="mAtk" val="#mAtk" />
 			<add order="0x40" stat="mAtk" val="#mAtk2" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<sub order="0x40" stat="cancel" val="#cancel" />
+			<mul order="0x30" stat="mCritRate" val="#mrCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -732,27 +690,25 @@
 	</skill>
 	<skill id="13089" levels="4" name="Seraph Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#regMp"> 0 0 1.008 1.008 </table>
 		<table name="#maxMp"> 0 221 221 221 </table>
-		<table name="#mrCrit"> 0 0 30 40 </table>
+		<table name="#mrCrit"> 0 0 1.03 1.03 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
 		<table name="#gainHp"> 0 0 0 89 </table>
-		<table name="#Res"> 0 0 0 10 </table>
+		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="WIT" val="3" />
-			<sub order="0x10" stat="MEN" val="2" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="mCritRate" val="#mrCrit" />
+			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
 			<mul order="0x30" stat="regMp" val="#regMp" />
-			<add order="0x40" stat="maxMp" val="#maxMp" /> 
-			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<mul order="0x30" stat="mCritRate" val="#mrCrit" />
 			<add order="0x40" stat="gainHp" val="#gainHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
@@ -763,12 +719,12 @@
 	</skill>
 	<skill id="13090" levels="4" name="Eternal Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#maxMp"> 0 228 228 228 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
 		<table name="#mAtk2"> 0 0 256 256 </table>
-		<table name="#mrCrit"> 0 0 0 30 </table>
+		<table name="#mrCrit"> 0 0 0 1.03 </table>
 		<table name="#mCritPower"> 0 0 0 297 </table>
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
@@ -776,15 +732,13 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="INT" val="3" />
-			<sub order="0x10" stat="MEN" val="1" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="maxMp" val="#maxMp" />
-			<add order="0x40" stat="mCritPower" val="#mCritPower" />
-			<add order="0x40" stat="mCritRate" val="#mrCrit" />
 			<mul order="0x30" stat="mAtk" val="#mAtk" />
 			<add order="0x40" stat="mAtk" val="#mAtk2" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<add order="0x40" stat="mCritPower" val="#mCritPower" />
+			<mul order="0x30" stat="mCritRate" val="#mrCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -794,27 +748,23 @@
 	</skill>
 	<skill id="13091" levels="4" name="Eternal Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 90 90 90 </table>
+		<table name="#Vuln"> 0 10 10 10 </table>
 		<table name="#regMp"> 0 0 1.009 1.009 </table>
 		<table name="#maxMp"> 0 228 228 228 </table>
-		<table name="#paralyzeProf"> 0 0 0 15 </table>
 		<table name="#mAtkSpd"> 1.03 1.03 1.03 1.15 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
 		<table name="#gainHp"> 0 0 0 108 </table>
-		<table name="#Res"> 0 0 0 10 </table>
+		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="WIT" val="3" />
-			<sub order="0x10" stat="MEN" val="1" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="paralyzeProf" val="#paralyzeProf" />
+			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="stunVuln" val="#Vuln" />
 			<mul order="0x30" stat="regMp" val="#regMp" />
-			<add order="0x40" stat="maxMp" val="#maxMp" /> 
-			<mul order="0x30" stat="mAtk" val="#mAtk" />
 			<add order="0x40" stat="gainHp" val="#gainHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
@@ -825,28 +775,26 @@
 	</skill>
 	<skill id="13092" levels="4" name="R99rare Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 85 85 85 </table>
+		<table name="#Vuln"> 0 15 15 15 </table>
 		<table name="#maxMp"> 0 239 239 239 </table>
-		<table name="#paralyzeProf"> 0 0 20 20 </table>
+		<table name="#derangementProf"> 0 0 20 20 </table>
 		<table name="#mAtkSpd"> 1.15 1.15 1.15 1.25 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
 		<table name="#mAtk2"> 0 0 267 267 </table>
-		<table name="#mrCrit"> 0 0 0 30 </table>
+		<table name="#mrCrit"> 0 0 0 1.03 </table>
 		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="INT" val="4" />
-			<sub order="0x10" stat="MEN" val="2" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="maxMp" val="#maxMp" />
-			<add order="0x40" stat="paralyzeProf" val="#paralyzeProf" />
-			<add order="0x40" stat="mCritRate" val="#mrCrit" />
 			<mul order="0x30" stat="mAtk" val="#mAtk" />
 			<add order="0x40" stat="mAtk" val="#mAtk2" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
+			<add order="0x40" stat="derangementProf" val="#derangementProf" />
+			<mul order="0x30" stat="mCritRate" val="#mrCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
 			<add order="0x40" stat="windRes" val="#Res" />
@@ -856,10 +804,9 @@
 	</skill>
 	<skill id="13093" levels="4" name="R99rare Robe Armor Set">
 		<!-- Confirmed CT3 & Updated bykang1536 -->
-		<table name="#Vuln"> 0 85 85 85 </table>
-		<table name="#regMp"> 0 0 1.01 1.01 </table>
+		<table name="#Vuln"> 0 15 15 15 </table>
+		<table name="#regMp"> 0 0 1 1 </table>
 		<table name="#maxMp"> 0 239 239 239 </table>
-		<table name="#paralyzeProf"> 0 0 0 15 </table>
 		<table name="#mAtkSpd"> 1.15 1.15 1.15 1.25 </table>
 		<table name="#mAtk2"> 0 0 267 267 </table>
 		<table name="#mAtk"> 0 0 0 1.15 </table>
@@ -870,15 +817,12 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x10" stat="WIT" val="4" />
-			<sub order="0x10" stat="MEN" val="2" />
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-			<add order="0x40" stat="paralyzeProf" val="#paralyzeProf" />
-			<sub order="0x40" stat="stunVuln" val="#Vuln" />
-			<mul order="0x30" stat="regMp" val="#regMp" />
-			<add order="0x40" stat="maxMp" val="#maxMp" />
-			<add order="0x40" stat="mAtk" val="#mAtk2" /> 
 			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<add order="0x40" stat="mAtk" val="#mAtk2" />
+			<add order="0x40" stat="maxMp" val="#maxMp" />
+			<sub order="0x40" stat="stunVuln" val="#Vuln" />
+			<add order="0x40" stat="regMp" val="#regMp" />
 			<add order="0x40" stat="gainHp" val="#gainHp" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />

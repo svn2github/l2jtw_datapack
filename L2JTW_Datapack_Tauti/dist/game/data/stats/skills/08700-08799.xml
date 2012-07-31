@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="8781" levels="1" name="Elegia Shield">
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="rShld" val="1.05" />
+		</for>
+	</skill>
+	<skill id="8782" levels="1" name="Elegia Shield">
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="rShld" val="1.05" />
+		</for>
+	</skill>
+	<skill id="8783" levels="1" name="Elegia Shield">
+		<set name="magicLvl" val="95" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="rShld" val="1.05" />
+		</for>
+	</skill>
+	<skill id="8784" levels="1" name="Elegia Shield">
+		<set name="magicLvl" val="99" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="rShld" val="1.05" />
+		</for>
+	</skill>
+	<skill id="8785" levels="1" name="Elegia Shield">
+		<set name="magicLvl" val="99" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="rShld" val="1.05" />
+		</for>
+	</skill>
+</list>
