@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
-	<skill id="11751" levels="1" name="Advanced weapons possession">
+	<skill id="11751" levels="1" name="Superior Magic Weapon Mastery"><!-- Check OK -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
 		<for>
-			<mul order="0x30" stat="pAtk" val="0.83" />
-			<mul order="0x30" stat="mAtk" val="0.04" />
-			<mul order="0x30" stat="mAtkSpd" val="0.15" />
+			<add order="0x10" stat="INT" val="1" />
+			<add order="0x40" stat="pAtk" val="82" />
+			<add order="0x40" stat="mAtk" val="103" />
+			<mul order="0x30" stat="pAtk" val="1.45" />
+			<mul order="0x30" stat="mAtk" val="1.17" />
+			<add order="0x40" stat="skillMastery" val="2" />
+			<mul order="0x30" stat="mAtkSpd" val="0.7">
+				<using kind="Bow,Pole" />
+			</mul>
+			<sub order="0x40" stat="accCombat" val="8">
+				<using kind="Bow,Pole" />
+			</sub>
 		</for>
 	</skill>
 	<skill id="11752" levels="8" name="Sustain">
