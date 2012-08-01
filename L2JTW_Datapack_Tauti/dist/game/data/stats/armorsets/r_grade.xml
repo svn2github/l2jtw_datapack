@@ -149,6 +149,44 @@
 		<int val="3" />
 		<men val="-1" />
 	</set>
+	<set id="233">
+		<chest id="19715" />
+		<legs id="19716" />
+		<head id="19714" />
+		<gloves id="19717" />
+		<feet id="19718" />
+		<shield id="19719" />
+		<skill id="3006" level="1" />
+		<skill id="13073" level="4" />
+		<shield_skill id="8785" level="1" />
+		<enchant6skill id="13339" level="1" />
+		<str val="4" />
+		<con val="-2" />
+	</set>
+	<set id="234">
+		<chest id="19721" />
+		<legs id="19722" />
+		<head id="19720" />
+		<gloves id="19723" />
+		<feet id="19724" />
+		<skill id="3006" level="1" />
+		<skill id="13082" level="4" />
+		<enchant6skill id="13340" level="1" />
+		<str val="-2" />
+		<dex val="4" />
+	</set>
+	<set id="235">
+		<chest id="19726" />
+		<legs id="19727" />
+		<head id="19725" />
+		<gloves id="19728" />
+		<feet id="19729" />
+		<skill id="3006" level="1" />
+		<skill id="13092" level="4" />
+		<enchant6skill id="13341" level="1" />
+		<int val="4" />
+		<men val="-2" />
+	</set>
 	<set id="236">
 		<chest id="19731" />
 		<legs id="19732" />
@@ -297,5 +335,43 @@
 		<enchant6skill id="13341" level="1" />
 		<men val="-1" />
 		<wit val="3" />
+	</set>
+	<set id="248">
+		<chest id="19923" />
+		<legs id="19924" />
+		<head id="19922" />
+		<gloves id="19925" />
+		<feet id="19926" />
+		<shield id="19927" />
+		<skill id="3006" level="1" />
+		<skill id="13072" level="4" />
+		<shield_skill id="8785" level="1" />
+		<enchant6skill id="13339" level="1" />
+		<str val="-2" />
+		<con val="4" />
+	</set>
+	<set id="249">
+		<chest id="19929" />
+		<legs id="19930" />
+		<head id="19928" />
+		<gloves id="19931" />
+		<feet id="19932" />
+		<skill id="3006" level="1" />
+		<skill id="13083" level="4" />
+		<enchant6skill id="13340" level="1" />
+		<str val="4" />
+		<con val="-2" />
+	</set>
+	<set id="250">
+		<chest id="19934" />
+		<legs id="19935" />
+		<head id="19933" />
+		<gloves id="19936" />
+		<feet id="19937" />
+		<skill id="3006" level="1" />
+		<skill id="13093" level="4" />
+		<enchant6skill id="13341" level="1" />
+		<men val="-2" />
+		<wit val="4" />
 	</set>
 </list>

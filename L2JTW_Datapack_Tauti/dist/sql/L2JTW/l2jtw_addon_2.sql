@@ -5,6 +5,75 @@ REPLACE INTO `auto_announcements` VALUES
 
 DELETE FROM `merchant_buylists` WHERE `shop_id` > 10015 and `shop_id` < 10033;
 
+UPDATE `items` SET `item_id` = 19527 WHERE `item_id` = 19655;
+UPDATE `items` SET `item_id` = 19543 WHERE `item_id` = 19671;
+UPDATE `items` SET `item_id` = 19559 WHERE `item_id` = 19687;
+UPDATE `items` SET `item_id` = 19575 WHERE `item_id` = 19703;
+UPDATE `items` SET `item_id` = 19730 WHERE `item_id` = 19858;
+UPDATE `items` SET `item_id` = 19731 WHERE `item_id` = 19859;
+UPDATE `items` SET `item_id` = 19732 WHERE `item_id` = 19860;
+UPDATE `items` SET `item_id` = 19733 WHERE `item_id` = 19861;
+UPDATE `items` SET `item_id` = 19734 WHERE `item_id` = 19862;
+UPDATE `items` SET `item_id` = 19735 WHERE `item_id` = 19863;
+UPDATE `items` SET `item_id` = 19736 WHERE `item_id` = 19864;
+UPDATE `items` SET `item_id` = 19737 WHERE `item_id` = 19865;
+UPDATE `items` SET `item_id` = 19738 WHERE `item_id` = 19866;
+UPDATE `items` SET `item_id` = 19739 WHERE `item_id` = 19867;
+UPDATE `items` SET `item_id` = 19740 WHERE `item_id` = 19868;
+UPDATE `items` SET `item_id` = 19741 WHERE `item_id` = 19869;
+UPDATE `items` SET `item_id` = 19742 WHERE `item_id` = 19870;
+UPDATE `items` SET `item_id` = 19743 WHERE `item_id` = 19871;
+UPDATE `items` SET `item_id` = 19744 WHERE `item_id` = 19872;
+UPDATE `items` SET `item_id` = 19745 WHERE `item_id` = 19873;
+UPDATE `items` SET `item_id` = 19746 WHERE `item_id` = 19874;
+UPDATE `items` SET `item_id` = 19747 WHERE `item_id` = 19875;
+UPDATE `items` SET `item_id` = 19748 WHERE `item_id` = 19876;
+UPDATE `items` SET `item_id` = 19749 WHERE `item_id` = 19877;
+UPDATE `items` SET `item_id` = 19750 WHERE `item_id` = 19878;
+UPDATE `items` SET `item_id` = 19751 WHERE `item_id` = 19879;
+UPDATE `items` SET `item_id` = 19752 WHERE `item_id` = 19880;
+UPDATE `items` SET `item_id` = 19753 WHERE `item_id` = 19881;
+UPDATE `items` SET `item_id` = 19754 WHERE `item_id` = 19882;
+UPDATE `items` SET `item_id` = 19755 WHERE `item_id` = 19883;
+UPDATE `items` SET `item_id` = 19756 WHERE `item_id` = 19884;
+UPDATE `items` SET `item_id` = 19757 WHERE `item_id` = 19885;
+UPDATE `items` SET `item_id` = 19758 WHERE `item_id` = 19886;
+UPDATE `items` SET `item_id` = 19759 WHERE `item_id` = 19887;
+UPDATE `items` SET `item_id` = 19760 WHERE `item_id` = 19888;
+UPDATE `items` SET `item_id` = 19761 WHERE `item_id` = 19889;
+UPDATE `items` SET `item_id` = 19762 WHERE `item_id` = 19890;
+UPDATE `items` SET `item_id` = 19763 WHERE `item_id` = 19891;
+UPDATE `items` SET `item_id` = 19764 WHERE `item_id` = 19892;
+UPDATE `items` SET `item_id` = 19765 WHERE `item_id` = 19893;
+UPDATE `items` SET `item_id` = 19766 WHERE `item_id` = 19894;
+UPDATE `items` SET `item_id` = 19767 WHERE `item_id` = 19895;
+UPDATE `items` SET `item_id` = 19768 WHERE `item_id` = 19896;
+UPDATE `items` SET `item_id` = 19769 WHERE `item_id` = 19897;
+UPDATE `items` SET `item_id` = 19770 WHERE `item_id` = 19898;
+UPDATE `items` SET `item_id` = 19771 WHERE `item_id` = 19899;
+UPDATE `items` SET `item_id` = 19772 WHERE `item_id` = 19900;
+UPDATE `items` SET `item_id` = 19773 WHERE `item_id` = 19901;
+UPDATE `items` SET `item_id` = 19774 WHERE `item_id` = 19902;
+UPDATE `items` SET `item_id` = 19775 WHERE `item_id` = 19903;
+UPDATE `items` SET `item_id` = 19776 WHERE `item_id` = 19904;
+UPDATE `items` SET `item_id` = 19777 WHERE `item_id` = 19905;
+UPDATE `items` SET `item_id` = 19778 WHERE `item_id` = 19906;
+UPDATE `items` SET `item_id` = 19779 WHERE `item_id` = 19907;
+UPDATE `items` SET `item_id` = 19780 WHERE `item_id` = 19908;
+UPDATE `items` SET `item_id` = 19781 WHERE `item_id` = 19909;
+UPDATE `items` SET `item_id` = 19782 WHERE `item_id` = 19910;
+UPDATE `items` SET `item_id` = 19783 WHERE `item_id` = 19911;
+UPDATE `items` SET `item_id` = 19784 WHERE `item_id` = 19912;
+UPDATE `items` SET `item_id` = 19785 WHERE `item_id` = 19913;
+UPDATE `items` SET `item_id` = 19786 WHERE `item_id` = 19914;
+UPDATE `items` SET `item_id` = 19787 WHERE `item_id` = 19915;
+UPDATE `items` SET `item_id` = 19788 WHERE `item_id` = 19916;
+UPDATE `items` SET `item_id` = 19789 WHERE `item_id` = 19917;
+UPDATE `items` SET `item_id` = 19790 WHERE `item_id` = 19918;
+UPDATE `items` SET `item_id` = 19791 WHERE `item_id` = 19919;
+UPDATE `items` SET `item_id` = 19792 WHERE `item_id` = 19920;
+UPDATE `items` SET `item_id` = 19793 WHERE `item_id` = 19921;
+
 REPLACE INTO `merchant_shopids` VALUES (10016, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19730, 0, 10016, 1),
@@ -41,7 +110,8 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19534, 0, 10016, 32),
 (19535, 0, 10016, 33),
 (19536, 0, 10016, 34),
-(19537, 0, 10016, 35);
+(19537, 0, 10016, 35),
+(17320, 0, 10016, 36);
 
 REPLACE INTO `merchant_shopids` VALUES (10017, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -79,7 +149,8 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19566, 0, 10017, 32),
 (19567, 0, 10017, 33),
 (19568, 0, 10017, 34),
-(19569, 0, 10017, 35);
+(19569, 0, 10017, 35),
+(17412, 0, 10017, 36);
 
 REPLACE INTO `merchant_shopids` VALUES (10018, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -117,62 +188,58 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19582, 0, 10018, 32),
 (19583, 0, 10018, 33),
 (19584, 0, 10018, 34),
-(19585, 0, 10018, 35);
-
-REPLACE INTO `merchant_shopids` VALUES (10019, 'gm');
-REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
-(19454, 0, 10019, 1),
-(19460, 0, 10019, 2),
-(19470, 0, 10019, 3),
-(19473, 0, 10019, 4),
-(19476, 0, 10019, 5),
-(19479, 0, 10019, 6);
-
-REPLACE INTO `merchant_shopids` VALUES (10020, 'gm');
-REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
-(19456, 0, 10020, 1),
-(19462, 0, 10020, 2),
-(19472, 0, 10020, 3),
-(19475, 0, 10020, 4),
-(19478, 0, 10020, 5),
-(19481, 0, 10020, 6);
+(19585, 0, 10018, 35),
+(17446, 0, 10018, 36);
 
 REPLACE INTO `merchant_shopids` VALUES (10021, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
-(19449, 0, 10021, 1),
-(19455, 0, 10021, 2),
-(19461, 0, 10021, 3),
-(19471, 0, 10021, 4),
-(19474, 0, 10021, 5),
-(19477, 0, 10021, 6),
-(19480, 0, 10021, 7);
+(19451, 0, 10021, 1),
+(19452, 0, 10021, 2),
+(19453, 0, 10021, 3),
+(19454, 0, 10021, 4),
+(19455, 0, 10021, 5),
+(19456, 0, 10021, 6),
+(19457, 0, 10021, 7),
+(19458, 0, 10021, 8),
+(19459, 0, 10021, 9),
+(19460, 0, 10021, 10),
+(19461, 0, 10021, 11),
+(19462, 0, 10021, 12),
+(19463, 0, 10021, 13),
+(19464, 0, 10021, 14);
 
 REPLACE INTO `merchant_shopids` VALUES (10022, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
-(17320, 0, 10022, 1),
-(17354, 0, 10022, 2),
-(17412, 0, 10022, 3),
-(17446, 0, 10022, 4),
-(19451, 0, 10022, 5),
-(19452, 0, 10022, 6),
-(19453, 0, 10022, 7),
-(19457, 0, 10022, 8),
-(19458, 0, 10022, 9),
-(19459, 0, 10022, 10),
-(19463, 0, 10022, 11),
-(19464, 0, 10022, 12),
-(17321, 0, 10022, 13),
-(17322, 0, 10022, 14),
-(17323, 0, 10022, 15),
-(17355, 0, 10022, 16),
-(17356, 0, 10022, 17),
-(17357, 0, 10022, 18),
-(17413, 0, 10022, 19),
-(17414, 0, 10022, 20),
-(17415, 0, 10022, 21),
-(17447, 0, 10022, 22),
-(17448, 0, 10022, 23),
-(17449, 0, 10022, 24);
+(17321, 0, 10022, 1),
+(17322, 0, 10022, 2),
+(17323, 0, 10022, 3),
+(19470, 0, 10022, 4),
+(19471, 0, 10022, 5),
+(19472, 0, 10022, 6),
+(17355, 0, 10022, 7),
+(17356, 0, 10022, 8),
+(17357, 0, 10022, 9),
+(19473, 0, 10022, 10),
+(19474, 0, 10022, 11),
+(19475, 0, 10022, 12),
+(17413, 0, 10022, 13),
+(17414, 0, 10022, 14),
+(17415, 0, 10022, 15),
+(19476, 0, 10022, 16),
+(19477, 0, 10022, 17),
+(19478, 0, 10022, 18),
+(17447, 0, 10022, 19),
+(17448, 0, 10022, 20),
+(17449, 0, 10022, 21),
+(19479, 0, 10022, 22),
+(19480, 0, 10022, 23),
+(19481, 0, 10022, 24),
+(17481, 0, 10022, 25),
+(17482, 0, 10022, 26),
+(17483, 0, 10022, 27),
+(30307, 0, 10022, 28),
+(30308, 0, 10022, 29),
+(30309, 0, 10022, 30);
 
 REPLACE INTO `merchant_shopids` VALUES (10023, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -304,26 +371,42 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 
 REPLACE INTO `merchant_shopids` VALUES (10030, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
-(17464, 0, 10030, 1),
-(17465, 0, 10030, 2),
-(17466, 0, 10030, 3),
-(17467, 0, 10030, 4),
-(17468, 0, 10030, 5),
-(17469, 0, 10030, 6),
-(17470, 0, 10030, 7),
-(17471, 0, 10030, 8),
-(17472, 0, 10030, 9),
-(17473, 0, 10030, 10),
-(17474, 0, 10030, 11),
-(17475, 0, 10030, 12),
-(17476, 0, 10030, 13),
-(17477, 0, 10030, 14),
-(17478, 0, 10030, 15),
-(17479, 0, 10030, 16),
-(17480, 0, 10030, 17),
-(17481, 0, 10030, 18),
-(17482, 0, 10030, 19),
-(17483, 0, 10030, 20);
+(19714, 0, 10030, 1),
+(19715, 0, 10030, 2),
+(19716, 0, 10030, 3),
+(19717, 0, 10030, 4),
+(19718, 0, 10030, 5),
+(19719, 0, 10030, 6),
+(19720, 0, 10030, 7),
+(19721, 0, 10030, 8),
+(19722, 0, 10030, 9),
+(19723, 0, 10030, 10),
+(19724, 0, 10030, 11),
+(17754, 0, 10030, 12),
+(19725, 0, 10030, 13),
+(19726, 0, 10030, 14),
+(19727, 0, 10030, 15),
+(19728, 0, 10030, 16),
+(19729, 0, 10030, 17),
+(19442, 0, 10030, 18),
+(19922, 0, 10030, 19),
+(19923, 0, 10030, 20),
+(19924, 0, 10030, 21),
+(19925, 0, 10030, 22),
+(19926, 0, 10030, 23),
+(19927, 0, 10030, 24),
+(19928, 0, 10030, 25),
+(19929, 0, 10030, 26),
+(19930, 0, 10030, 27),
+(19931, 0, 10030, 28),
+(19932, 0, 10030, 29),
+(18550, 0, 10030, 30),
+(19933, 0, 10030, 31),
+(19934, 0, 10030, 32),
+(19935, 0, 10030, 33),
+(19936, 0, 10030, 34),
+(19937, 0, 10030, 35),
+(17480, 0, 10030, 36);
 
 REPLACE INTO `merchant_shopids` VALUES (10031, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -361,7 +444,8 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19550, 0, 10031, 32),
 (19551, 0, 10031, 33),
 (19552, 0, 10031, 34),
-(19553, 0, 10031, 35);
+(19553, 0, 10031, 35),
+(17354, 0, 10031, 36);
 
 REPLACE INTO `merchant_shopids` VALUES (10032, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES

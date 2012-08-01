@@ -138,9 +138,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="114" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -161,9 +158,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="304" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -184,9 +178,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="190" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -206,9 +197,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -228,9 +216,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -364,9 +349,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="114" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -387,9 +369,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="152" />
 			<add order="0x40" stat="maxMp" val="649" />
@@ -411,9 +390,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="95" />
 			<add order="0x40" stat="maxMp" val="427" />
@@ -434,9 +410,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -456,9 +429,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -970,9 +940,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="126" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -993,9 +960,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="335" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1016,9 +980,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="209" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1038,9 +999,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1060,9 +1018,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1196,9 +1151,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="126" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1219,9 +1171,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="168" />
 			<add order="0x40" stat="maxMp" val="649" />
@@ -1243,9 +1192,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="105" />
 			<add order="0x40" stat="maxMp" val="427" />
@@ -1266,9 +1212,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1288,9 +1231,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1814,9 +1754,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="139" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1837,9 +1774,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="370" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1860,9 +1794,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="231" />
 			<enchant order="0x0C" stat="pDef" val="0" />
@@ -1882,9 +1813,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="93" />
 			<enchant order="0x0C" stat="pDef" val="0" />
