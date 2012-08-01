@@ -19,28 +19,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
-	<item id="19719" type="Weapon" name="Shield (A - 12)">
-		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
-		<set name="default_action" val="equip" />
-		<set name="bodypart" val="lhand" />
-		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="0" />
-		<set name="crystal_type" val="r99" />
-		<set name="material" val="bone" />
-		<set name="weight" val="1130" />
-		<set name="price" val="0" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<sub order="0x10" stat="rEvas" val="8" />
-			<set order="0x08" stat="rShld" val="20" />
-			<set order="0x08" stat="sDef" val="515" />
-			<enchant val="0" order="0x0C" stat="sDef" />
-		</for>
-	</item>
-	<!-- Immortal Heavy -->
-	<item id="19730" type="Armor" name="Immortal Heavy Head">
+	<item id="19730" type="Armor" name="Immortal Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -53,15 +32,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="114" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19731" type="Armor" name="Immortal Heavy Chest">
+	<item id="19731" type="Armor" name="Immortal Breastplate"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -74,15 +50,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="304" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19732" type="Armor" name="Immortal Heavy legs">
+	<item id="19732" type="Armor" name="Immortal Gaiters"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -95,15 +68,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="190" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19733" type="Armor" name="Immortal Heavy Gloves">
+	<item id="19733" type="Armor" name="Immortal Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -116,15 +86,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19734" type="Armor" name="Immortal Heavy Feet">
+	<item id="19734" type="Armor" name="Immortal Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -137,16 +104,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
-	<item id="19735" type="Weapon" name="Immortal Heavy Shield">
+	<item id="19735" type="Weapon" name="Immortal Shield"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_sacon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -165,8 +128,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<!-- Immortal Light -->
-	<item id="19736" type="Armor" name="Immortal Light Head">
+	<item id="19736" type="Armor" name="Immortal Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -184,7 +146,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19737" type="Armor" name="Immortal Light Chest">
+	<item id="19737" type="Armor" name="Immortal Leather Armor"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -202,7 +164,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19738" type="Armor" name="Immortal Light legs">
+	<item id="19738" type="Armor" name="Immortal Leather Leggings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -220,7 +182,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19739" type="Armor" name="Immortal Light Gloves">
+	<item id="19739" type="Armor" name="Immortal Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -238,7 +200,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19740" type="Armor" name="Immortal Light Feet">
+	<item id="19740" type="Armor" name="Immortal Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -256,8 +218,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- Immortal Robe -->
-	<item id="19741" type="Armor" name="Immortal Robe Head">
+	<item id="19741" type="Armor" name="Immortal Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -270,15 +231,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="114" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19742" type="Armor" name="Immortal Robe Chest">
+	<item id="19742" type="Armor" name="Immortal Tunic"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -291,16 +249,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="152" />
 			<add order="0x40" stat="maxMp" val="649" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19743" type="Armor" name="Immortal Robe legs">
+	<item id="19743" type="Armor" name="Immortal Stockings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -313,16 +268,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="95" />
 			<add order="0x40" stat="maxMp" val="427" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19744" type="Armor" name="Immortal Robe Gloves">
+	<item id="19744" type="Armor" name="Immortal Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -335,15 +287,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19745" type="Armor" name="Immortal Robe Feet">
+	<item id="19745" type="Armor" name="Immortal Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -356,16 +305,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- Twilight Heavy -->
-	<item id="19746" type="Armor" name="Twilight Heavy Head">
+	<item id="19746" type="Armor" name="Twilight Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -378,15 +323,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="126" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19747" type="Armor" name="Twilight Heavy Chest">
+	<item id="19747" type="Armor" name="Twilight Breastplate"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -399,15 +341,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="335" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19748" type="Armor" name="Twilight Heavy legs">
+	<item id="19748" type="Armor" name="Twilight Gaiters"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -420,15 +359,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="209" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19749" type="Armor" name="Twilight Heavy Gloves">
+	<item id="19749" type="Armor" name="Twilight Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -441,15 +377,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19750" type="Armor" name="Twilight Heavy Feet">
+	<item id="19750" type="Armor" name="Twilight Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -462,16 +395,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
-	<item id="19751" type="Weapon" name="Twilight Heavy Shield">
+	<item id="19751" type="Weapon" name="Twilight Shield"><!-- Check OK -->
 		<set name="icon" val="icon.kratere_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -486,12 +415,11 @@
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
 			<set order="0x08" stat="rShld" val="20" />
-			<set order="0x08" stat="sDef" val="427" />
+			<set order="0x08" stat="sDef" val="458" />
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<!-- Twilight Light -->
-	<item id="19752" type="Armor" name="Twilight Light Head">
+	<item id="19752" type="Armor" name="Twilight Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -509,7 +437,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19753" type="Armor" name="Twilight Light Chest">
+	<item id="19753" type="Armor" name="Twilight Leather Armor"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -527,7 +455,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19754" type="Armor" name="Twilight Light legs">
+	<item id="19754" type="Armor" name="Twilight Leather Leggings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -545,7 +473,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19755" type="Armor" name="Twilight Light Gloves">
+	<item id="19755" type="Armor" name="Twilight Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -563,7 +491,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19756" type="Armor" name="Twilight Light Feet">
+	<item id="19756" type="Armor" name="Twilight Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -581,8 +509,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- Twilight Robe -->
-	<item id="19757" type="Armor" name="Twilight Robe Head">
+	<item id="19757" type="Armor" name="Twilight Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -595,15 +522,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="126" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19758" type="Armor" name="Twilight Robe Chest">
+	<item id="19758" type="Armor" name="Twilight Tunic"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -616,16 +540,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x40" stat="maxMp" val="649" />
 			<add order="0x10" stat="pDef" val="168" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19759" type="Armor" name="Twilight Robe legs">
+	<item id="19759" type="Armor" name="Twilight Stockings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -638,16 +559,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="105" />
 			<add order="0x40" stat="maxMp" val="427" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19760" type="Armor" name="Twilight Robe Gloves">
+	<item id="19760" type="Armor" name="Twilight Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -660,15 +578,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19761" type="Armor" name="Twilight Robe Feet">
+	<item id="19761" type="Armor" name="Twilight Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -681,16 +596,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- Seraph Heavy -->
-	<item id="19762" type="Armor" name="Seraph Heavy Head">
+	<item id="19762" type="Armor" name="Seraph Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -703,15 +614,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="139" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19763" type="Armor" name="Seraph Heavy Chest">
+	<item id="19763" type="Armor" name="Seraph Breastplate"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -724,15 +632,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="370" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19764" type="Armor" name="Seraph Heavy legs">
+	<item id="19764" type="Armor" name="Seraph Gaiters"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -745,15 +650,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="231" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19765" type="Armor" name="Seraph Heavy Gloves">
+	<item id="19765" type="Armor" name="Seraph Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -766,15 +668,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="93" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19766" type="Armor" name="Seraph Heavy Feet">
+	<item id="19766" type="Armor" name="Seraph Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -787,16 +686,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="93" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
-	<item id="19767" type="Weapon" name="Seraph Heavy Shield">
+	<item id="19767" type="Weapon" name="Seraph Shield"><!-- Check OK -->
 		<set name="icon" val="icon.beranka_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -811,12 +706,11 @@
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
 			<set order="0x08" stat="rShld" val="20" />
-			<set order="0x08" stat="sDef" val="479" />
+			<set order="0x08" stat="sDef" val="505" />
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<!-- Seraph Light -->
-	<item id="19768" type="Armor" name="Seraph Light Head">
+	<item id="19768" type="Armor" name="Seraph Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -834,7 +728,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19769" type="Armor" name="Seraph Light Chest">
+	<item id="19769" type="Armor" name="Seraph Leather Armor"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t402_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -852,7 +746,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19770" type="Armor" name="Seraph Light legs">
+	<item id="19770" type="Armor" name="Seraph Leather Leggings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t402_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -870,7 +764,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19771" type="Armor" name="Seraph Light Gloves">
+	<item id="19771" type="Armor" name="Seraph Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t402_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -888,7 +782,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19772" type="Armor" name="Seraph Light Feet">
+	<item id="19772" type="Armor" name="Seraph Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t402_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -906,8 +800,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- Seraph Robe -->
-	<item id="19773" type="Armor" name="Seraph Robe Head">
+	<item id="19773" type="Armor" name="Seraph Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -920,15 +813,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="139" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19774" type="Armor" name="Seraph Robe Chest">
+	<item id="19774" type="Armor" name="Seraph Tunic"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t403_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -941,16 +831,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x40" stat="maxMp" val="649" />
 			<add order="0x10" stat="pDef" val="185" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19775" type="Armor" name="Seraph Robe legs">
+	<item id="19775" type="Armor" name="Seraph Stockings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t403_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -963,16 +850,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="116" />
 			<add order="0x40" stat="maxMp" val="427" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19776" type="Armor" name="Seraph Robe Gloves">
+	<item id="19776" type="Armor" name="Seraph Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t403_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -985,15 +869,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="93" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19777" type="Armor" name="Seraph Robe Feet">
+	<item id="19777" type="Armor" name="Seraph Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t403_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1006,16 +887,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="93" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- Eternal Heavy -->
-	<item id="19778" type="Armor" name="Eternal Heavy Head">
+	<item id="19778" type="Armor" name="Eternal Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1028,15 +905,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="144" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19779" type="Armor" name="Eternal Heavy Chest">
+	<item id="19779" type="Armor" name="Eternal Breastplate"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t701_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1049,15 +923,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="385" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19780" type="Armor" name="Eternal Heavy legs">
+	<item id="19780" type="Armor" name="Eternal Gaiters"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t701_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1070,15 +941,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="241" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19781" type="Armor" name="Eternal Heavy Gloves">
+	<item id="19781" type="Armor" name="Eternal Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t701_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1091,15 +959,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="96" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19782" type="Armor" name="Eternal Heavy Feet">
+	<item id="19782" type="Armor" name="Eternal Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t701_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1112,16 +977,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="96" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- The test Goddess of Destruction item, you need a fix on the server off -->
-	<item id="19783" type="Weapon" name="Eternal Heavy Shield">
+	<item id="19783" type="Weapon" name="Eternal Shield"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_akra_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1140,8 +1001,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<!-- Eternal Light -->
-	<item id="19784" type="Armor" name="Eternal Light Head">
+	<item id="19784" type="Armor" name="Eternal Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -1159,7 +1019,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19785" type="Armor" name="Eternal Light Chest">
+	<item id="19785" type="Armor" name="Eternal Leather Armor"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t702_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -1177,7 +1037,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19786" type="Armor" name="Eternal Light legs">
+	<item id="19786" type="Armor" name="Eternal Leather Leggings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t702_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -1195,7 +1055,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19787" type="Armor" name="Eternal Light Gloves">
+	<item id="19787" type="Armor" name="Eternal Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t702_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -1213,7 +1073,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19788" type="Armor" name="Eternal Light Feet">
+	<item id="19788" type="Armor" name="Eternal Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t702_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="Light" />
@@ -1231,8 +1091,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<!-- Eternal Robe -->
-	<item id="19789" type="Armor" name="Eternal Robe Head">
+	<item id="19789" type="Armor" name="Eternal Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1245,15 +1104,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="144" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19790" type="Armor" name="Eternal Robe Chest">
+	<item id="19790" type="Armor" name="Eternal Tunic"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t703_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1266,16 +1122,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x40" stat="maxMp" val="649" />
 			<add order="0x10" stat="pDef" val="193" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19791" type="Armor" name="Eternal Robe legs">
+	<item id="19791" type="Armor" name="Eternal Stockings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t703_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1288,16 +1141,13 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="121" />
 			<add order="0x40" stat="maxMp" val="427" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19792" type="Armor" name="Eternal Robe Gloves">
+	<item id="19792" type="Armor" name="Eternal Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t703_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1310,15 +1160,12 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="96" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19793" type="Armor" name="Eternal Robe Feet">
+	<item id="19793" type="Armor" name="Eternal Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t703_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1331,9 +1178,6 @@
 		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="96" />
 			<enchant val="0" order="0x0C" stat="pDef" />
