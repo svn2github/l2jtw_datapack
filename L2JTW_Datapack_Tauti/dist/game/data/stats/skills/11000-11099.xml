@@ -620,7 +620,7 @@
 				<mul order="0x30" stat="mCritRate" val="#Crt" />
 				<mul order="0x30" stat="mDef" val="0.20" />
 				<mul order="0x30" stat="pDef" val="0.20" />
-				<mul order="0x40" stat="rEvas" val="2" />
+				<add order="0x40" stat="rEvas" val="2" />
 			</effect>
 		</for>
 	</skill>
@@ -943,8 +943,8 @@
 		<set name="aggroPoints" val="#aggroPoints"/>
 		<for>
 			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvl" abnormalType="mp_up">
-				<mul order="0x40" stat="mReuse" val="#reuse"/>
-				<mul order="0x40" stat="MagicalMpConsumeRate" val="#consume"/>
+				<mul order="0x30" stat="mReuse" val="#reuse"/>
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="#consume"/>
 			</effect>
 		</for>
 	</skill>

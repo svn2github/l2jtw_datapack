@@ -563,7 +563,7 @@
 				<mul order="0x30" stat="pDef" val="#Def" />
 				<add order="0x40" stat="runSpd" val="#Spd" />
 				<mul order="0x30" stat="pAtkSpd" val="#AtkSpd" />
-				<mul order="0x40" stat="cAtk" val="#cAtk">
+				<mul order="0x30" stat="cAtk" val="#cAtk">
 				<using kind="Blunt" />
 				</mul>
 				<add order="0x40" stat="rCrit" val="#rCrit">

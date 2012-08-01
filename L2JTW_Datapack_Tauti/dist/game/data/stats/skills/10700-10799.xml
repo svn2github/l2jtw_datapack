@@ -82,7 +82,6 @@
 		<for>
 			<add order="0x10" stat="STR" val="2" />
 			<add order="0x40" stat="accCombat" val="8" />
-			<add order="0x40" stat="cAtk" val="774" />
 			<mul order="0x30" stat="skillMastery" val="2" />
 			<basemul order="0x30" stat="rCrit" val="0.25">
 				<using kind="Bow" />

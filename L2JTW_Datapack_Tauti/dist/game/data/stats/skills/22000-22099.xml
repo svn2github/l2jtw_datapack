@@ -1498,10 +1498,10 @@
 				<mul order="0x40" stat="maxHp" val="1.60" />
 				<mul order="0x40" stat="maxMp" val="1.60" />
 				<mul order="0x40" stat="maxCp" val="1.60" />
-				<mul order="0x40" stat="pDef" val="1.30" />
-				<mul order="0x40" stat="mDef" val="1.30" />
+				<mul order="0x30" stat="pDef" val="1.30" />
+				<mul order="0x30" stat="mDef" val="1.30" />
 				<add order="0x40" stat="runSpd" val="30" />
-				<mul order="0x40" stat="pAtk" val="1.20" />
+				<mul order="0x30" stat="pAtk" val="1.20" />
 				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.9" />
 				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.9" />
 				<mul order="0x30" stat="DanceMpConsumeRate" val="0.9" />

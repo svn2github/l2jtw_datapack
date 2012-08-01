@@ -59,7 +59,6 @@
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="accCombat" val="3" />
-			<add order="0x40" stat="cAtk" val="54.4" />
 			<add order="0x40" stat="waterRes" val="20" />
 		</for>
 	</skill>
@@ -116,7 +115,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<add order="0x40" stat="cAtk" val="54.4" />
 			<add order="0x40" stat="fireRes" val="20" />
 		</for>
 	</skill>
@@ -145,7 +143,6 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<!-- <mul order="0x40" stat="skillPower" val="1.2" /> --> <!-- Guessed -->
 			<add order="0x40" stat="darkRes" val="35" />
 		</for>
 	</skill>
