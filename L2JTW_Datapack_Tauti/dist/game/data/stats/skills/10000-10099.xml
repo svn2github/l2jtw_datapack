@@ -64,7 +64,7 @@
 			</mul>
 			<add order="0x40" stat="reflectDam" val="10" />
 			<add order="0x40" stat="pDef" val="280">
-				<player hp="30"/>
+				<player hp="30" />
 			</add>
 		</for>
 		<enchant1for>
@@ -97,7 +97,7 @@
 			<add order="0x08" stat="STR" val="2" />
 			<mul order="0x30" stat="rShld" val="2" />
 			<mul order="0x30" stat="sDef" val="1.8" />
-			<add order="0x40" stat="sDef" val="209"/>
+			<add order="0x40" stat="sDef" val="209" />
 		</for>
 		<enchant1for>
 			<add order="0x08" stat="STR" val="2" />
@@ -112,7 +112,7 @@
 		<set name="operateType" val="P" />
 		<for>
 			<add order="0x08" stat="STR" val="2" />
-			<add order="0x40" stat="mDef" val="159"/>
+			<add order="0x40" stat="mDef" val="159" />
 			<mul order="0x30" stat="magicDamVul" val="0.8" />
 		</for>
 		<enchant1for>
@@ -379,7 +379,7 @@
 		<table name="#skillRadius">150 200 250 300 350 400</table>
 		<set name="power" val="50000" />
 		<set name="magicLevel" val="#magicLevel" />
-		<set name="target" val="TARGET_AREA"/>
+		<set name="target" val="TARGET_AREA" />
 		<set name="skillRadius" val="#skillRadius" />
 		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="500" />

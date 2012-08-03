@@ -5,8 +5,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x10" stat="STR" val="3"/>
-			<mul order="0x30" stat="rCrit" val="0.97"/>
+			<add order="0x10" stat="STR" val="3" />
+			<mul order="0x30" stat="rCrit" val="0.97" />
 		</for>
 	</skill>
 	<skill id="1902" levels="1" name="Mental Fortress">
@@ -14,9 +14,9 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="mDef" val="18"/>
-			<add order="0x40" stat="mAtk" val="32"/>
-			<add order="0x40" stat="pAtk" val="31"/>
+			<add order="0x40" stat="mDef" val="18" />
+			<add order="0x40" stat="mAtk" val="32" />
+			<add order="0x40" stat="pAtk" val="31" />
 		</for>
 	</skill>
 	<skill id="1903" levels="1" name="HP MP Regen">
@@ -24,8 +24,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="regHp" val="1"/>
-			<add order="0x40" stat="regMp" val="1"/>
+			<add order="0x40" stat="regHp" val="1" />
+			<add order="0x40" stat="regMp" val="1" />
 		</for>
 	</skill>
 	<skill id="1904" levels="1" name="Unbind">
@@ -49,8 +49,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="pAtkSpd" val="4"/>
-			<add order="0x40" stat="mAtkSpd" val="3"/>
+			<add order="0x40" stat="pAtkSpd" val="4" />
+			<add order="0x40" stat="mAtkSpd" val="3" />
 		</for>
 	</skill>
 	<skill id="1906" levels="1" name="Water Blessing">
@@ -58,9 +58,9 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="waterRes" val="10"/>
-			<add order="0x40" stat="regMp" val="2"/>
-			<add order="0x40" stat="waterPower" val="10"/>
+			<add order="0x40" stat="waterRes" val="10" />
+			<add order="0x40" stat="regMp" val="2" />
+			<add order="0x40" stat="waterPower" val="10" />
 		</for>
 	</skill>
 	<skill id="1907" levels="1" name="Prevision">
@@ -81,8 +81,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="mCritRate" val="10"/>
-			<add order="0x40" stat="rCrit" val="15"/>
+			<add order="0x40" stat="mCritRate" val="10" />
+			<add order="0x40" stat="rCrit" val="15" />
 		</for>
 	</skill>
 	<skill id="1909" levels="1" name="Delicacy">
@@ -95,8 +95,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x10" stat="STR" val="1"/>
-			<add order="0x10" stat="INT" val="1"/>
+			<add order="0x10" stat="STR" val="1" />
+			<add order="0x10" stat="INT" val="1" />
 			<game night="true" />
 		</for>
 	</skill>
@@ -105,8 +105,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="windRes" val="10"/>
-			<add order="0x40" stat="windPower" val="10"/>
+			<add order="0x40" stat="windRes" val="10" />
+			<add order="0x40" stat="windPower" val="10" />
 		</for>
 	</skill>
 	<skill id="1913" levels="1" name="Life Siphon">
@@ -114,7 +114,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="absorbDam" val="1"/>
+			<add order="0x40" stat="absorbDam" val="1" />
 		</for>
 	</skill>
 	<skill id="1914" levels="1" name="Savage">
@@ -136,8 +136,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="fireRes" val="10"/>
-			<add order="0x40" stat="firePower" val="10"/>
+			<add order="0x40" stat="fireRes" val="10" />
+			<add order="0x40" stat="firePower" val="10" />
 		</for>
 	</skill>
 	<skill id="1916" levels="1" name="Energetic">
@@ -145,7 +145,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="regHp" val="3"/>
+			<add order="0x40" stat="regHp" val="3" />
 		</for>
 	</skill>
 	<skill id="1919" levels="1" name="Dexterity">
@@ -153,7 +153,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<mul order="0x30" stat="pAtk" val="1.02"/> 
+			<mul order="0x30" stat="pAtk" val="1.02" /> 
 		</for>
 	</skill>
 	<skill id="1921" levels="1" name="Earth Blessing">
@@ -161,8 +161,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="earthRes" val="10"/>
-			<add order="0x40" stat="earthPower" val="10"/>
+			<add order="0x40" stat="earthRes" val="10" />
+			<add order="0x40" stat="earthPower" val="10" />
 		</for>
 	</skill>
 	<skill id="1923" levels="1" name="Battle Instinct">
@@ -170,7 +170,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="pvpPhysDmg" val="1.01"/>
+			<add order="0x40" stat="pvpPhysDmg" val="1.01" />
 		</for>
 	</skill>
 	<skill id="1924" levels="1" name="Dark Blessing">
@@ -178,8 +178,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
 		<for>
-			<add order="0x40" stat="darkRes" val="10"/>
-			<add order="0x40" stat="darkPower" val="10"/>
+			<add order="0x40" stat="darkRes" val="10" />
+			<add order="0x40" stat="darkPower" val="10" />
 		</for>
 	</skill>
 	<skill id="1925" levels="1" name="Soul Protection">

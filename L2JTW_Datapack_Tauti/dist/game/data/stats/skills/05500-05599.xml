@@ -971,7 +971,7 @@
 		<set name="baseCritRate" val="17" />
 		<set name="num_charges" val="2" />
 		<cond msgId="113" addName="1">
-			<using kind="Fist, Dual Fist"/>
+			<using kind="Fist, Dual Fist" />
 		</cond>
 	</skill>
 	<skill id="5567" levels="1" name="Flame Armor">

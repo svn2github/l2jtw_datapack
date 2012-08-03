@@ -1062,7 +1062,7 @@
 		<set name="hitTime" val="100" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="ElementPwr">
-				<add order="0x40" stat="firePower" val="20"/>
+				<add order="0x40" stat="firePower" val="20" />
 			</effect>
 		</for>
 	</skill>

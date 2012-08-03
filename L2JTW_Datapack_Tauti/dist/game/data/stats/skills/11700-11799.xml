@@ -56,7 +56,7 @@
 		<set name="effectRange" val="1100" />
 		<for>
 			<effect count="1" name="HealOverTime" val="1" abnormalLvl="7" abnormalType="life_force_others" >
-				<player hp="100"/>
+				<player hp="100" />
 			</effect>
 		</for>
 	</skill> 
@@ -76,7 +76,7 @@
 		<set name="effectRange" val="1100" />
 		<for>
 			<effect count="1" name="HealOverTime" val="1" abnormalLvl="7" abnormalType="life_force_others" >
-				<player hp="100"/>
+				<player hp="100" />
 			</effect>
 		</for>
 	</skill>
@@ -216,10 +216,10 @@
 		<for>
 			<add order="0x10" stat="INT" val="2" />
 			<add order="0x40" stat="pDef" val="109" >
-				<using kind="Magic"/>
+				<using kind="Magic" />
 			</add>
 			<add order="0x40" stat="pDef" val="73" >
-				<using kind="Light"/>
+				<using kind="Light" />
 			</add>
 			<add order="0x40" stat="regHp" val="2.8" />
 			<add order="0x40" stat="regMp" val="3.6" />

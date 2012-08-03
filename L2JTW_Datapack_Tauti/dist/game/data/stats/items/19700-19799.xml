@@ -1,242 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="19714" type="Armor" name="Blessed Durandia Helmet"><!-- Check OK -->
-		<set name="icon" val="icon.armor_helmet_i00"/>
-		<set name="weight" val="530"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="bone"/>
-		<set name="bodypart" val="head"/>
-		<set name="armor_type" val="heavy"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="weight" val="530" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="bone" />
+		<set name="bodypart" val="head" />
+		<set name="armor_type" val="heavy" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="150"/>
-			<add order="0x10" stat="rEvas" val="1"/>
+			<add order="0x10" stat="pDef" val="150" />
+			<add order="0x10" stat="rEvas" val="1" />
 		</for>
 	</item>
 	<item id="19715" type="Armor" name="Blessed Durandia Breastplate"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_u_i00"/>
-		<set name="weight" val="7520"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="bronze"/>
-		<set name="bodypart" val="chest"/>
-		<set name="armor_type" val="heavy"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t97_u_i00" />
+		<set name="weight" val="7520" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="bronze" />
+		<set name="bodypart" val="chest" />
+		<set name="armor_type" val="heavy" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="401"/>
-			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="401" />
+			<set order="0x08" stat="pAtk" val="41" />
 		</for>
 	</item>
 	<item id="19716" type="Armor" name="Blessed Durandia Gaiters"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_l_i00"/>
-		<set name="weight" val="3170"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="scale_of_dragon"/>
-		<set name="bodypart" val="legs"/>
-		<set name="armor_type" val="heavy"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t97_l_i00" />
+		<set name="weight" val="3170" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="bodypart" val="legs" />
+		<set name="armor_type" val="heavy" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="250"/>
-			<set order="0x08" stat="rCrit" val="2"/>
+			<add order="0x10" stat="pDef" val="250" />
+			<set order="0x08" stat="rCrit" val="2" />
 		</for>
 	</item>
 	<item id="19717" type="Armor" name="Blessed Durandia Gauntlets"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_g_i00"/>
-		<set name="weight" val="510"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="leather"/>
-		<set name="bodypart" val="gloves"/>
-		<set name="armor_type" val="heavy"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t97_g_i00" />
+		<set name="weight" val="510" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="leather" />
+		<set name="bodypart" val="gloves" />
+		<set name="armor_type" val="heavy" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="100"/>
-			<add order="0x10" stat="accCombat" val="1.15"/>
+			<add order="0x10" stat="pDef" val="100" />
+			<add order="0x10" stat="accCombat" val="1.15" />
 		</for>
 	</item>
 	<item id="19718" type="Armor" name="Blessed Durandia Boots"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_b_i00"/>
-		<set name="weight" val="1070"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="leather"/>
-		<set name="bodypart" val="feet"/>
-		<set name="armor_type" val="heavy"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t97_b_i00" />
+		<set name="weight" val="1070" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="leather" />
+		<set name="bodypart" val="feet" />
+		<set name="armor_type" val="heavy" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="pDef" val="100" />
 		</for>
 	</item>
 	<item id="19719" type="Armor" name="Blessed Durandia Shield"><!-- Check OK -->
-		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
-		<set name="weight" val="1130"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="damascus"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="armor_type" val="heavy"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
+		<set name="weight" val="1130" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="damascus" />
+		<set name="bodypart" val="lhand" />
+		<set name="armor_type" val="heavy" />
+		<set name="crystal_type" val="r99" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<set order="0x08" stat="sDef" val="547"/>
-			<set order="0x08" stat="rShld" val="20"/>
-			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="sDef" val="547" />
+			<set order="0x08" stat="rShld" val="20" />
+			<sub order="0x10" stat="rEvas" val="8" />
 		</for>
 	</item>
 	<item id="19720" type="Armor" name="Blessed Durandia Leather Helmet"><!-- Check OK -->
-		<set name="icon" val="icon.armor_leather_helmet_i00"/>
-		<set name="weight" val="530"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="bone"/>
-		<set name="bodypart" val="head"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="weight" val="530" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="bone" />
+		<set name="bodypart" val="head" />
+		<set name="armor_type" val="light" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="150"/>
-			<add order="0x10" stat="rEvas" val="1"/>
+			<add order="0x10" stat="pDef" val="150" />
+			<add order="0x10" stat="rEvas" val="1" />
 		</for>
 	</item>
 	<item id="19721" type="Armor" name="Blessed Durandia Leather Armor"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_u_i00"/>
-		<set name="weight" val="4140"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="bronze"/>
-		<set name="bodypart" val="chest"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t98_u_i00" />
+		<set name="weight" val="4140" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="bronze" />
+		<set name="bodypart" val="chest" />
+		<set name="armor_type" val="light" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="301"/>
-			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="301" />
+			<set order="0x08" stat="pAtk" val="41" />
 		</for>
 	</item>
 	<item id="19722" type="Armor" name="Blessed Durandia Leather Leggings"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_l_i00"/>
-		<set name="weight" val="1320"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="scale_of_dragon"/>
-		<set name="bodypart" val="legs"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t98_l_i00" />
+		<set name="weight" val="1320" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="bodypart" val="legs" />
+		<set name="armor_type" val="light" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="188"/>
-			<set order="0x08" stat="rCrit" val="2"/>
+			<add order="0x10" stat="pDef" val="188" />
+			<set order="0x08" stat="rCrit" val="2" />
 		</for>
 	</item>
 	<item id="19723" type="Armor" name="Blessed Durandia Leather Gloves"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_g_i00"/>
-		<set name="weight" val="510"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="leather"/>
-		<set name="bodypart" val="gloves"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t98_g_i00" />
+		<set name="weight" val="510" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="leather" />
+		<set name="bodypart" val="gloves" />
+		<set name="armor_type" val="light" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="100"/>
-			<add order="0x10" stat="accCombat" val="1.15"/>
+			<add order="0x10" stat="pDef" val="100" />
+			<add order="0x10" stat="accCombat" val="1.15" />
 		</for>
 	</item>
 	<item id="19724" type="Armor" name="Blessed Durandia Leather Boots"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_b_i00"/>
-		<set name="weight" val="1070"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="leather"/>
-		<set name="bodypart" val="feet"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t98_b_i00" />
+		<set name="weight" val="1070" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="leather" />
+		<set name="bodypart" val="feet" />
+		<set name="armor_type" val="light" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="pDef" val="100" />
 		</for>
 	</item>
 	<item id="19725" type="Armor" name="Blessed Durandia Circlet"><!-- Check OK -->
-		<set name="icon" val="icon.armor_circlet_i00"/>
-		<set name="weight" val="530"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="bone"/>
-		<set name="bodypart" val="head"/>
-		<set name="armor_type" val="magic"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="weight" val="530" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="bone" />
+		<set name="bodypart" val="head" />
+		<set name="armor_type" val="magic" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="150"/>
-			<add order="0x10" stat="rEvas" val="1"/>
+			<add order="0x10" stat="pDef" val="150" />
+			<add order="0x10" stat="rEvas" val="1" />
 		</for>
 	</item>
 	<item id="19726" type="Armor" name="Blessed Durandia Tunic"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_u_i00"/>
-		<set name="weight" val="1750"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="bronze"/>
-		<set name="bodypart" val="chest"/>
-		<set name="armor_type" val="magic"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t99_u_i00" />
+		<set name="weight" val="1750" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="bronze" />
+		<set name="bodypart" val="chest" />
+		<set name="armor_type" val="magic" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x40" stat="maxMp" val="649"/>
-			<add order="0x10" stat="pDef" val="201"/>
-			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x40" stat="maxMp" val="649" />
+			<add order="0x10" stat="pDef" val="201" />
+			<set order="0x08" stat="pAtk" val="41" />
 		</for>
 	</item>
 	<item id="19727" type="Armor" name="Blessed Durandia Stockings"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_l_i00"/>
-		<set name="weight" val="850"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="scale_of_dragon"/>
-		<set name="bodypart" val="legs"/>
-		<set name="armor_type" val="magic"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t99_l_i00" />
+		<set name="weight" val="850" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="bodypart" val="legs" />
+		<set name="armor_type" val="magic" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x40" stat="maxMp" val="427"/>
-			<add order="0x10" stat="pDef" val="125"/>
-			<set order="0x08" stat="rCrit" val="2"/>
+			<add order="0x40" stat="maxMp" val="427" />
+			<add order="0x10" stat="pDef" val="125" />
+			<set order="0x08" stat="rCrit" val="2" />
 		</for>
 	</item>
 	<item id="19728" type="Armor" name="Blessed Durandia Gloves"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_g_i00"/>
-		<set name="weight" val="510"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="leather"/>
-		<set name="bodypart" val="gloves"/>
-		<set name="armor_type" val="magic"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t99_g_i00" />
+		<set name="weight" val="510" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="leather" />
+		<set name="bodypart" val="gloves" />
+		<set name="armor_type" val="magic" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="100"/>
-			<add order="0x10" stat="accCombat" val="1.15"/>
+			<add order="0x10" stat="pDef" val="100" />
+			<add order="0x10" stat="accCombat" val="1.15" />
 		</for>
 	</item>
 	<item id="19729" type="Armor" name="Blessed Durandia Shoes"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_b_i00"/>
-		<set name="weight" val="1070"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="leather"/>
-		<set name="bodypart" val="feet"/>
-		<set name="armor_type" val="magic"/>
-		<set name="crystal_type" val="r99"/>
+		<set name="icon" val="icon.armor_t99_b_i00" />
+		<set name="weight" val="1070" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="leather" />
+		<set name="bodypart" val="feet" />
+		<set name="armor_type" val="magic" />
+		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="pDef" val="100" />
 		</for>
 	</item>
 	<item id="19730" type="Armor" name="Immortal Helmet"><!-- Check OK -->

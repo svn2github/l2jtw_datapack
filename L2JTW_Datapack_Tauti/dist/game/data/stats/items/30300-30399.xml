@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="30307" type="Armor" name="R99 (Rare) Belt">
-		<set name="icon" val="icon.armor_belt_i03"/>
-		<set name="weight" val="440"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="cloth"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="waist"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="r99"/>
+	<item id="30307" type="Armor" name="R99 (Rare) Belt"><!-- Check OK -->
+		<set name="icon" val="icon.armor_belt_i03" />
+		<set name="weight" val="440" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="cloth" />
+		<set name="enchant_enabled" val="1" />
+		<set name="bodypart" val="waist" />
+		<set name="armor_type" val="light" />
+		<set name="crystal_type" val="r99" />
 		<for>
-			<add order="0x10" stat="pDef" val="25"/>
-			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="pDef" val="25" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30308" type="Armor" name="R99 (Rare) Bracelet">
-		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
-		<set name="weight" val="150"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="silver"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rbracelet"/>
-		<set name="crystal_type" val="r99"/>
-	</item>
-	<item id="30309" type="Armor" name="R99 (Rare) Shirt">
-		<set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
-		<set name="weight" val="130"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="crystal"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="underwear"/>
-		<set name="crystal_type" val="r99"/>
+	<item id="30308" type="Armor" name="R99 (Rare) Bracelet"><!-- Check OK -->
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="weight" val="150" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="silver" />
+		<set name="enchant_enabled" val="1" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="r99" />
+		<set name="item_skill" val="8775-1" />
 		<for>
-			<add order="0x10" stat="pDef" val="50"/>
-			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x40" stat="maxMp" val="230" />
+		</for>
+	</item>
+	<item id="30309" type="Armor" name="R99 (Rare) Shirt"><!-- Check OK -->
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="weight" val="130" />
+		<set name="default_action" val="equip" />
+		<set name="material" val="crystal" />
+		<set name="enchant_enabled" val="1" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="r99" />
+		<for>
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
 	<item id="30310" type="Armor" name="Blessed Simulation">

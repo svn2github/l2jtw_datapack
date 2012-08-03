@@ -124,7 +124,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17304" type="Armor" name="Shadow Immortal Helmet">
+	<item id="17304" type="Armor" name="Immortal Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -136,14 +136,12 @@
 		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="114" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17305" type="Armor" name="Shadow Immortal Cuirass">
+	<item id="17305" type="Armor" name="Immortal Breastplate"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -156,14 +154,12 @@
 		<set name="price" val="66953000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="304" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17306" type="Armor" name="Shadow Immortal Gaiter">
+	<item id="17306" type="Armor" name="Immortal Gaiters"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -176,14 +172,12 @@
 		<set name="price" val="41846000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="190" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17307" type="Armor" name="Shadow Immortal Gauntlet">
+	<item id="17307" type="Armor" name="Immortal Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -195,14 +189,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17308" type="Armor" name="Shadow Immortal Boots">
+	<item id="17308" type="Armor" name="Immortal Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -214,14 +206,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17309" type="Armor" name="Immortals Employer shield">
+	<item id="17309" type="Armor" name="Immortal Shield"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_sacon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -231,14 +221,15 @@
 		<set name="material" val="damascus" />
 		<set name="weight" val="1130" />
 		<set name="price" val="35000000" />
-		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="415" />
-			<enchant order="0x0C" stat="pDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17310" type="Armor" name="Shadow Immortal Leather Helmet">
+	<item id="17310" type="Armor" name="Immortal Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -250,14 +241,12 @@
 		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="114" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17311" type="Armor" name="Shadow Immortal Hauberk">
+	<item id="17311" type="Armor" name="Immortal Leather Armor"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -270,14 +259,12 @@
 		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="228" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17312" type="Armor" name="Shadow Immortal Leather Legging">
+	<item id="17312" type="Armor" name="Immortal Leather Leggings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -290,14 +277,12 @@
 		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="143" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17313" type="Armor" name="Shadow Immortal Leather Gloves">
+	<item id="17313" type="Armor" name="Immortal Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -309,14 +294,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17314" type="Armor" name="Shadow Immortal Leather Boots">
+	<item id="17314" type="Armor" name="Immortal Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -328,14 +311,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17315" type="Armor" name="Shadow Immortal Circlet">
+	<item id="17315" type="Armor" name="Immortal Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -347,14 +328,12 @@
 		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="114" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17316" type="Armor" name="Shadow Immortal Tunic">
+	<item id="17316" type="Armor" name="Immortal Tunic"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -367,15 +346,13 @@
 		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="152" />
 			<add order="0x40" stat="maxMp" val="649" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17317" type="Armor" name="Shadow Immortal Stockings">
+	<item id="17317" type="Armor" name="Immortal Stockings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -388,15 +365,13 @@
 		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="95" />
 			<add order="0x40" stat="maxMp" val="427" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17318" type="Armor" name="Shadow Immortal Gloves">
+	<item id="17318" type="Armor" name="Immortal Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -408,14 +383,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17319" type="Armor" name="Shadow Immortal Shoes">
+	<item id="17319" type="Armor" name="Immortal Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -427,14 +400,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="76" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17320" type="Armor" name="Immortals sigil">
+	<item id="17320" type="Armor" name="Immortal Sigil"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_karyen_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -445,20 +416,14 @@
 		<set name="material" val="steel" />
 		<set name="weight" val="920" />
 		<set name="price" val="19575000" />
-		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<not>
-				<player races="Kamael" />
-			</not>
-		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
 			<add order="0x10" stat="pDef" val="19" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17321" type="Armor" name="Immortals Necklace">
+	<item id="17321" type="Armor" name="Immortal Necklace"><!-- Check OK -->
 		<set name="icon" val="icon.r1_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -475,7 +440,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="17322" type="Armor" name="Immortals Earrings">
+	<item id="17322" type="Armor" name="Immortal Earring"><!-- Check OK -->
 		<set name="icon" val="icon.r1_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -492,7 +457,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="17323" type="Armor" name="Immortals Ring">
+	<item id="17323" type="Armor" name="Immortal Ring"><!-- Check OK -->
 		<set name="icon" val="icon.r1_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -926,7 +891,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17338" type="Armor" name="Shadow Twilight Helmet">
+	<item id="17338" type="Armor" name="Twilight Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -938,14 +903,12 @@
 		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="126" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17339" type="Armor" name="Shadow Twilight Cuirass">
+	<item id="17339" type="Armor" name="Twilight Breastplate"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -958,14 +921,12 @@
 		<set name="price" val="66953000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="335" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17340" type="Armor" name="Shadow Twilight Gaiter">
+	<item id="17340" type="Armor" name="Twilight Gaiters"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -978,14 +939,12 @@
 		<set name="price" val="41846000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="209" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17341" type="Armor" name="Shadow Twilight Gauntlet">
+	<item id="17341" type="Armor" name="Twilight Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -997,14 +956,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17342" type="Armor" name="Shadow Twilight Boots">
+	<item id="17342" type="Armor" name="Twilight Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1016,14 +973,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17343" type="Armor" name="Twilight shield">
+	<item id="17343" type="Armor" name="Twilight Shield"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_sacon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1033,14 +988,15 @@
 		<set name="material" val="damascus" />
 		<set name="weight" val="1130" />
 		<set name="price" val="35900000" />
-		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="458" />
-			<enchant order="0x0C" stat="pDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17344" type="Armor" name="Shadow Twilight Leather Helmet">
+	<item id="17344" type="Armor" name="Twilight Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1052,14 +1008,12 @@
 		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="126" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17345" type="Armor" name="Shadow Twilight Hauberk">
+	<item id="17345" type="Armor" name="Twilight Leather Armor"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1072,14 +1026,12 @@
 		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="251" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17346" type="Armor" name="Shadow Twilight Leather Legging">
+	<item id="17346" type="Armor" name="Twilight Leather Leggings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1092,14 +1044,12 @@
 		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="157" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17347" type="Armor" name="Shadow Twilight Leather Gloves">
+	<item id="17347" type="Armor" name="Twilight Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1111,14 +1061,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17348" type="Armor" name="Shadow Twilight Leather Boots">
+	<item id="17348" type="Armor" name="Twilight Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1130,14 +1078,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17349" type="Armor" name="Shadow Twilight Circlet">
+	<item id="17349" type="Armor" name="Twilight Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1149,14 +1095,12 @@
 		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="126" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17350" type="Armor" name="Shadow Twilight Tunic">
+	<item id="17350" type="Armor" name="Twilight Tunic"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1169,15 +1113,13 @@
 		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="168" />
 			<add order="0x40" stat="maxMp" val="649" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17351" type="Armor" name="Shadow Twilight Stockings">
+	<item id="17351" type="Armor" name="Twilight Stockings"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1190,15 +1132,13 @@
 		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="105" />
 			<add order="0x40" stat="maxMp" val="427" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17352" type="Armor" name="Shadow Twilight Gloves">
+	<item id="17352" type="Armor" name="Twilight Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1210,14 +1150,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17353" type="Armor" name="Shadow Twilight Shoes">
+	<item id="17353" type="Armor" name="Twilight Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1229,14 +1167,12 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="84" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17354" type="Armor" name="Twilight sigil">
+	<item id="17354" type="Armor" name="Twilight Sigil"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_dynaksus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -1247,20 +1183,14 @@
 		<set name="material" val="steel" />
 		<set name="weight" val="920" />
 		<set name="price" val="20575000" />
-		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<cond msgId="1518">
-			<not>
-				<player races="Kamael" />
-			</not>
-		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
 			<add order="0x10" stat="pDef" val="21" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17355" type="Armor" name="Twilight Necklace">
+	<item id="17355" type="Armor" name="Twilight Necklace"><!-- Check OK -->
 		<set name="icon" val="icon.r2_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1277,7 +1207,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="17356" type="Armor" name="Twilight Earrings">
+	<item id="17356" type="Armor" name="Twilight Earring"><!-- Check OK -->
 		<set name="icon" val="icon.r2_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1294,7 +1224,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="17357" type="Armor" name="Twilight Ring">
+	<item id="17357" type="Armor" name="Twilight Ring"><!-- Check OK -->
 		<set name="icon" val="icon.r2_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1740,7 +1670,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17396" type="Armor" name="Shadow Seraph Helmet">
+	<item id="17396" type="Armor" name="Seraph Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1752,14 +1682,12 @@
 		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="139" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17397" type="Armor" name="Shadow Seraph Cuirass">
+	<item id="17397" type="Armor" name="Seraph Breastplate"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1772,14 +1700,12 @@
 		<set name="price" val="66953000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="370" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17398" type="Armor" name="Shadow Seraph Gaiter">
+	<item id="17398" type="Armor" name="Seraph Gaiters"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1792,14 +1718,12 @@
 		<set name="price" val="41846000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="231" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="17399" type="Armor" name="Shadow Seraph Gauntlet">
+	<item id="17399" type="Armor" name="Seraph Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1811,8 +1735,6 @@
 		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_tradable" val="true" />
-		<set name="is_dropable" val="true" />
 		<for>
 			<add order="0x10" stat="pDef" val="93" />
 			<enchant order="0x0C" stat="pDef" val="0" />

@@ -9,7 +9,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="maxHp" val="463" />
@@ -34,7 +33,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
@@ -58,7 +56,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="maxHp" val="487" />
@@ -83,7 +80,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
@@ -107,7 +103,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="maxHp" val="511" />
@@ -133,7 +128,6 @@
 		<table name="#maxHp"> 0 0 0 511 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
@@ -159,7 +153,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="maxHp" val="521" />
@@ -186,7 +179,6 @@
 		<table name="#maxHp"> 0 0 521 521 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<add order="0x40" stat="cAtkAdd" val="#cAtkAdd" />
@@ -213,7 +205,6 @@
 		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -242,7 +233,6 @@
 		<table name="#maxHp"> 0 0 536 536 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -269,7 +259,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -294,7 +283,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -320,7 +308,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -347,7 +334,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -375,7 +361,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -402,7 +387,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -430,7 +414,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -457,7 +440,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -485,7 +467,6 @@
 		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -513,7 +494,6 @@
 		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
@@ -541,7 +521,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -567,7 +546,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -593,7 +571,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -619,7 +596,6 @@
 		<table name="#Res"> 0 0 0 10 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -646,7 +622,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -674,7 +649,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -702,7 +676,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -729,7 +702,6 @@
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -756,7 +728,6 @@
 		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
@@ -784,7 +755,6 @@
 		<table name="#Res"> 0 0 0 20 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
