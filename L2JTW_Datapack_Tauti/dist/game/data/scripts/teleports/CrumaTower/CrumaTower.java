@@ -36,7 +36,7 @@ public class CrumaTower extends Quest
 		if (player.getLevel() > 55)
 			htmltext = "30483.htm";
 		else
-			player.teleToLocation(17724,114004,-11672);
+			player.teleToLocation(17728,114750,-11688);
 		
 		return htmltext;
 	}

@@ -3,6 +3,13 @@
 REPLACE INTO `auto_announcements` VALUES
 (1,900000,9000000,36000,'此測試伺服器的各種功能，目前仍然不完整和不穩定，如有發現任何錯誤或Bug，麻煩請回報至論壇。','false');
 
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30484,30487);
+INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
+('dion05_npc2021_02',1,30484,17627,114750,-11688,0,0,16384,60,0,0),
+('dion05_npc2021_03',1,30487,17821,114750,-11688,0,0,16384,60,0,0);
+REPLACE INTO `teleport` VALUES
+('Cruma Tower 2nd floor -> Cruma Tower 1st floor',24,17728,114750,-11688,0,0,57);
+
 DELETE FROM `merchant_buylists` WHERE `shop_id` > 10015 and `shop_id` < 10033;
 
 UPDATE `items` SET `item_id` = 19527 WHERE `item_id` = 19655;
