@@ -533,9 +533,12 @@
 		<set name="reuseDelay" val="600000" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="mana_shield">
-				<add order="0x40" stat="manaShield" val="90" /> <!-- FIXME: Support Done ? -->
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="counter_skill">
+				<add order="0x40" stat="transDamToPlayer" val="90" /> <!-- FIXME: Support Done ? -->
 			</effect>
 		</for>
 	</skill>
