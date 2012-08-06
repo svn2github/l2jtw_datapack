@@ -12,6 +12,18 @@ REPLACE INTO `teleport` VALUES
 
 DELETE FROM `merchant_buylists` WHERE `shop_id` > 10015 and `shop_id` < 10033;
 
+DELETE FROM `items` WHERE `item_id` > 17624 and `item_id` < 17715;
+DELETE FROM `items` WHERE `item_id` > 18550 and `item_id` < 18563;
+DELETE FROM `items` WHERE `item_id` > 19400 and `item_id` < 19440;
+DELETE FROM `items` WHERE `item_id` > 19443 and `item_id` < 19447;
+DELETE FROM `items` WHERE `item_id` > 19448 and `item_id` < 19451;
+DELETE FROM `items` WHERE `item_id` > 19464 and `item_id` < 19470;
+DELETE FROM `items` WHERE `item_id` > 19481 and `item_id` < 19500;
+DELETE FROM `items` WHERE `item_id` > 19585 and `item_id` < 19650;
+DELETE FROM `items` WHERE `item_id` > 30231 and `item_id` < 30274;
+DELETE FROM `items` WHERE `item_id` > 32315 and `item_id` < 32317;
+DELETE FROM `items` WHERE `item_id` > 33518 and `item_id` < 33521;
+
 UPDATE `items` SET `item_id` = 19527 WHERE `item_id` = 19655;
 UPDATE `items` SET `item_id` = 19543 WHERE `item_id` = 19671;
 UPDATE `items` SET `item_id` = 19559 WHERE `item_id` = 19687;
