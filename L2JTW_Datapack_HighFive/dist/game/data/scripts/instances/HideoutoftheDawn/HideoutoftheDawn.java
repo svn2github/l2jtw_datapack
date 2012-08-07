@@ -33,8 +33,13 @@ public class HideoutoftheDawn extends Quest
 	private static final int WOOD = 32593;
 	private static final int JAINA = 32582;  
 
-	public class teleCoord {int instanceId; int x; int y; int z;}
-
+	protected static class teleCoord
+	{
+		int instanceId;
+		int x;
+		int y;
+		int z;
+	}
 	
 	private void teleportplayer(L2PcInstance player, teleCoord teleto)
 	{
