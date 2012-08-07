@@ -408,7 +408,8 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (18576, 0, 10028, 20),
 (19166, 0, 10028, 21),
 (19167, 0, 10028, 22),
-(19168, 0, 10028, 23);
+(19168, 0, 10028, 23),
+(8599, 0, 10028, 24);
 
 REPLACE INTO `merchant_shopids` VALUES (10029, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES

@@ -1612,7 +1612,7 @@
 	</skill>
 	<skill id="2286" levels="6" name="Scroll: Recovery">
 		<!-- Confirmed CT2.5 -->
-		<table name="#levelRange"> 1;19 20;39 40;51 52;60 61;75 76;85 </table>
+		<table name="#levelRange"> 1;19 20;39 40;51 52;60 61;75 76;99 </table>
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
