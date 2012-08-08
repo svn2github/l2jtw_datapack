@@ -446,7 +446,7 @@
 		<set name="skillRadius" val="1000" />
 		<set name="target" val="TARGET_PARTY" />
 		<for>
-			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="counter_skill" >
+			<effect name="TransferDamage" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="transfer_damage" >
 				<add order="0x40" stat="vengeancePdam" val="20" />
 				<add order="0x40" stat="transDamToPlayer" val="90" />
 				<add order="0x40" stat="pDef" val="#Def" />
@@ -537,7 +537,7 @@
 			<using kind="Shield" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="counter_skill">
+			<effect name="TransferDamage" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="transfer_damage">
 				<add order="0x40" stat="transDamToPlayer" val="90" /> <!-- FIXME: Support Done ? -->
 			</effect>
 		</for>
