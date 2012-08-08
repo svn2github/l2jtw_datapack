@@ -372,6 +372,7 @@
 		<set name="weaponsAllowed" val="Shield" />
 		<for>
 			<effect name="TargetMe" abnormalTime="3" val="0" />
+			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
 		</for>
 	</skill>
 	<skill id="10016" levels="6" name="Chain Hydra"><!-- Check OK -->
@@ -390,6 +391,7 @@
 		<set name="weaponsAllowed" val="Shield" />
 		<for>
 			<effect name="TargetMe" abnormalTime="3" val="0" />
+			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
 		</for>
 	</skill>
 	<skill id="10017" levels="4" name="absolute protection">
@@ -540,6 +542,7 @@
 			<effect name="TransferDamage" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="transfer_damage">
 				<add order="0x40" stat="transDamToPlayer" val="90" /> <!-- FIXME: Support Done ? -->
 			</effect>
+			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
 		</for>
 	</skill>
 	<skill id="10025" levels="4" name="The vow of a Knight">

@@ -66,6 +66,7 @@ import handlers.effecthandlers.PhoenixBless;
 import handlers.effecthandlers.PhysicalAttackMute;
 import handlers.effecthandlers.PhysicalMute;
 import handlers.effecthandlers.ProtectionBlessing;
+import handlers.effecthandlers.Pull; // l2jtw add
 import handlers.effecthandlers.RandomizeHate;
 import handlers.effecthandlers.RecoBonus; // Add By pmq
 import handlers.effecthandlers.Recovery;
@@ -156,6 +157,7 @@ public final class EffectMasterHandler
 		PhysicalAttackMute.class,
 		PhysicalMute.class,
 		ProtectionBlessing.class,
+		Pull.class, // l2jtw add
 		RandomizeHate.class,
 		RecoBonus.class, // Add By pmq
 		Recovery.class,
