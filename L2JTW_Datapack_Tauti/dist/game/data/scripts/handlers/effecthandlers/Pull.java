@@ -86,7 +86,7 @@ public class Pull extends L2Effect
 			_x = destiny.getX();
 			_y = destiny.getY();
 		}
-		getEffected().broadcastPacket(new FlyToLocation(getEffected(), _x, _y, _z, FlyType.THROW_HORIZONTAL));
+		getEffected().broadcastPacket(new FlyToLocation(getEffected(), _x, _y, _z, FlyType.UNKNOW9)); //FlyType.THROW_HORIZONTAL));
 		return true;
 	}
 	
