@@ -116,7 +116,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
-		<set name="item_skill" val="3567-5" />
+		<set name="item_skill" val="3567-4" />
 		<for>
 			<set order="0x08" stat="pAtk" val="794" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -248,7 +248,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3566-5" />
+		<set name="item_skill" val="3566-4" />
 		<cond msgId="1518">
 			<player races="Kamael" />
 		</cond>
@@ -2696,7 +2696,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="item_skill" val="3552-1;3650-1;3566-5" />
+		<set name="item_skill" val="3552-1;3650-1;3566-4" />
 		<for>
 			<set order="0x08" stat="pAtk" val="437" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -3065,7 +3065,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="item_skill" val="3552-1;3653-1;3566-5" />
+		<set name="item_skill" val="3552-1;3653-1;3566-4" />
 		<for>
 			<set order="0x08" stat="pAtk" val="532" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -3187,7 +3187,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="item_skill" val="3552-1;3652-1;3565-5" />
+		<set name="item_skill" val="3552-1;3652-1;3565-4" />
 		<for>
 			<set order="0x08" stat="pAtk" val="532" />
 			<set order="0x08" stat="mAtk" val="192" />

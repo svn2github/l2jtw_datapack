@@ -602,14 +602,13 @@
 			<add order="0x40" stat="accCombat" val="1" />
 		</for>
 	</skill>
-	<skill id="3564" levels="3" name="Special Ability: Haste">
+	<skill id="3564" levels="4" name="Special Ability: Haste">
 		<!-- Confirmed CT2.5 -->
-		<table name="#magicLvl"> 75 80 84 </table>
-		<table name="#pAtkSpd"> 1.07 1.1 1.11 </table>
+		<table name="#magicLvl"> 75 80 84 90 </table>
+		<table name="#pAtkSpd"> 1.07 1.1 1.11 1.15 </table>
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
-		<set name="magicLvl" val="75" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			<mul order="0x30" stat="pvpPhysDmg" val="1.05" />
@@ -617,10 +616,10 @@
 			<mul order="0x30" stat="pvpMagicalDmg" val="1.05" />
 		</for>
 	</skill>
-	<skill id="3565" levels="5" name="Special Ability: Focus">
+	<skill id="3565" levels="9" name="Special Ability: Focus">
 		<!-- Confirmed CT2.5 -->
-		<table name="#rCrit"> 80.6 107 123.5 129 129 </table>
-		<table name="#magicLvl"> 75 80 84 85 86 </table>
+		<table name="#rCrit"> 80.6 107 123.5 129 75.4 75.5 75.7 76.0 76.3 </table>
+		<table name="#magicLvl"> 75 80 84 85 90 90 95 99 99 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -631,10 +630,10 @@
 			<mul order="0x30" stat="pvpMagicalDmg" val="1.05" />
 		</for>
 	</skill>
-	<skill id="3566" levels="5" name="Special Ability: Focus">
+	<skill id="3566" levels="9" name="Special Ability: Focus">
 		<!-- Confirmed CT2.5 -->
-		<table name="#rCrit"> 84.3 111.5 133.3 134.4 134.4 </table>
-		<table name="#magicLvl"> 75 80 84 85 86 </table>
+		<table name="#rCrit"> 84.3 111.5 133.3 134.4 81.7 81.9 82.1 82.3 82.7 </table>
+		<table name="#magicLvl"> 75 80 84 85 90 90 95 99 99 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -645,10 +644,10 @@
 			<mul order="0x30" stat="pvpMagicalDmg" val="1.05" />
 		</for>
 	</skill>
-	<skill id="3567" levels="5" name="Special Ability: Focus">
+	<skill id="3567" levels="9" name="Special Ability: Focus">
 		<!-- Confirmed CT2.5 -->
-		<table name="#rCrit"> 88.1 116 133.9 139.9 139.9 </table>
-		<table name="#magicLvl"> 75 80 84 85 86 </table>
+		<table name="#rCrit"> 88.1 116 133.9 139.9 78.5 78.7 78.9 79.2 79.5 </table>
+		<table name="#magicLvl"> 75 80 84 85 90 90 95 99 99 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -717,10 +716,10 @@
 			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" />
 		</for>
 	</skill>
-	<skill id="3572" levels="4" name="Special Ability: Critical Damage">
+	<skill id="3572" levels="9" name="Special Ability: Critical Damage">
 		<!-- Confirmed CT2.5 -->
-		<table name="#cAtkAdd"> 265 906 999 1059 </table>
-		<table name="#magicLvl"> 75 84 85 86 </table>
+		<table name="#cAtkAdd"> 265 906 999 1059 1108 1158 1199 1232 1254 </table>
+		<table name="#magicLvl"> 75 84 85 86 90 90 95 99 99 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -731,10 +730,10 @@
 			<mul order="0x30" stat="pvpMagicalDmg" val="1.05" />
 		</for>
 	</skill>
-	<skill id="3573" levels="3" name="Special Ability: Guidance">
+	<skill id="3573" levels="8" name="Special Ability: Guidance">
 		<!-- Confirmed CT2.5 -->
-		<table name="#accCombat"> 5.27 5.32 7.5 </table>
-		<table name="#magicLvl"> 75 80 84 </table>
+		<table name="#accCombat"> 5.27 5.32 7.5 7.6 7.7 7.8 7.9 8.0 </table>
+		<table name="#magicLvl"> 75 80 84 90 90 95 99 99 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -764,10 +763,10 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3575" levels="4" name="Special Ability: Empower">
+	<skill id="3575" levels="9" name="Special Ability: Empower">
 		<!-- Confirmed CT2.5 -->
-		<table name="#magicLvl"> 75 84 85 86 </table>
-		<table name="#mAtk"> 60.09 151.09 166.54 176.53 </table>
+		<table name="#magicLvl"> 75 84 85 86 90 90 95 99 99 </table>
+		<table name="#mAtk"> 60.09 151.09 166.54 176.53 296 322 395 460 532 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -778,10 +777,10 @@
 			<mul order="0x30" stat="pvpMagicalDmg" val="1.05" />
 		</for>
 	</skill>
-	<skill id="3576" levels="4" name="Special Ability: MP Regeneration">
+	<skill id="3576" levels="9" name="Special Ability: MP Regeneration">
 		<!-- Confirmed CT2.5 -->
-		<table name="#magicLvl"> 75 84 85 86 </table>
-		<table name="#regMp"> 0.54 1.95 2.04 2.05 </table>
+		<table name="#magicLvl"> 75 84 85 86 90 90 95 99 99 </table>
+		<table name="#regMp"> 0.54 1.95 2.04 2.05 2.2 2.4 2.6 2.8 3.0 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="P" />
 		<set name="magicLvl" val="#magicLvl" />

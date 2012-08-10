@@ -502,7 +502,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="item_skill" val="3655-1;3567-5;3552-1" />
+		<set name="item_skill" val="3655-1;3567-4;3552-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="794" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -638,7 +638,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="item_skill" val="3552-1;3653-1;3566-5" />
+		<set name="item_skill" val="3552-1;3653-1;3566-4" />
 		<cond msgId="1518">
 			<player races="Kamael" />
 		</cond>
