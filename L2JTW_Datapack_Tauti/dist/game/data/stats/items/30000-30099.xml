@@ -1,245 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="19922" type="Armor" name="Blessed Durandia Helmet"><!-- Check OK -->
-		<set name="icon" val="icon.armor_helmet_i00" />
-		<set name="weight" val="530" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="bone" />
-		<set name="bodypart" val="head" />
-		<set name="armor_type" val="heavy" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="150" />
-			<add order="0x10" stat="rEvas" val="1" />
-		</for>
-	</item>
-	<item id="19923" type="Armor" name="Blessed Durandia Breastplate"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_u_i00" />
-		<set name="weight" val="7520" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="bronze" />
-		<set name="bodypart" val="chest" />
-		<set name="armor_type" val="heavy" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="401" />
-			<set order="0x08" stat="pAtk" val="41" />
-		</for>
-	</item>
-	<item id="19924" type="Armor" name="Blessed Durandia Gaiters"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_l_i00" />
-		<set name="weight" val="3170" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="scale_of_dragon" />
-		<set name="bodypart" val="legs" />
-		<set name="armor_type" val="heavy" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="250" />
-			<set order="0x08" stat="rCrit" val="2" />
-		</for>
-	</item>
-	<item id="19925" type="Armor" name="Blessed Durandia Gauntlets"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_g_i00" />
-		<set name="weight" val="510" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="leather" />
-		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="heavy" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="100" />
-			<add order="0x10" stat="accCombat" val="1.15" />
-		</for>
-	</item>
-	<item id="19926" type="Armor" name="Blessed Durandia Boots"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t97_b_i00" />
-		<set name="weight" val="1070" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="leather" />
-		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="heavy" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="100" />
-		</for>
-	</item>
-	<item id="19927" type="Armor" name="Blessed Durandia Shield"><!-- Check OK -->
-		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
-		<set name="weight" val="1130" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="damascus" />
-		<set name="bodypart" val="lhand" />
-		<set name="armor_type" val="heavy" />
-		<set name="crystal_type" val="r99" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<set order="0x08" stat="sDef" val="547" />
-			<set order="0x08" stat="rShld" val="20" />
-			<sub order="0x10" stat="rEvas" val="8" />
-		</for>
-	</item>
-	<item id="19928" type="Armor" name="Blessed Durandia Leather Helmet"><!-- Check OK -->
-		<set name="icon" val="icon.armor_leather_helmet_i00" />
-		<set name="weight" val="530" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="bone" />
-		<set name="bodypart" val="head" />
-		<set name="armor_type" val="light" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="150" />
-			<add order="0x10" stat="rEvas" val="1" />
-		</for>
-	</item>
-	<item id="19929" type="Armor" name="Blessed Durandia Leather Armor"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_u_i00" />
-		<set name="weight" val="4140" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="bronze" />
-		<set name="bodypart" val="chest" />
-		<set name="armor_type" val="light" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="301" />
-			<set order="0x08" stat="pAtk" val="41" />
-		</for>
-	</item>
-	<item id="19930" type="Armor" name="Blessed Durandia Leather Leggings"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_l_i00" />
-		<set name="weight" val="1320" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="scale_of_dragon" />
-		<set name="bodypart" val="legs" />
-		<set name="armor_type" val="light" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="188" />
-			<set order="0x08" stat="rCrit" val="2" />
-		</for>
-	</item>
-	<item id="19931" type="Armor" name="Blessed Durandia Leather Gloves"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_g_i00" />
-		<set name="weight" val="510" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="leather" />
-		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="light" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="100" />
-			<add order="0x10" stat="accCombat" val="1.15" />
-		</for>
-	</item>
-	<item id="19932" type="Armor" name="Blessed Durandia Leather Boots"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t98_b_i00" />
-		<set name="weight" val="1070" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="leather" />
-		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="light" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="100" />
-		</for>
-	</item>
-	<item id="19933" type="Armor" name="Blessed Durandia Circlet"><!-- Check OK -->
-		<set name="icon" val="icon.armor_circlet_i00" />
-		<set name="weight" val="530" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="bone" />
-		<set name="bodypart" val="head" />
-		<set name="armor_type" val="magic" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="150" />
-			<add order="0x10" stat="rEvas" val="1" />
-		</for>
-	</item>
-	<item id="19934" type="Armor" name="Blessed Durandia Tunic"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_u_i00" />
-		<set name="weight" val="1750" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="bronze" />
-		<set name="bodypart" val="chest" />
-		<set name="armor_type" val="magic" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x40" stat="maxMp" val="649" />
-			<add order="0x10" stat="pDef" val="201" />
-			<set order="0x08" stat="pAtk" val="41" />
-		</for>
-	</item>
-	<item id="19935" type="Armor" name="Blessed Durandia Stockings"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_l_i00" />
-		<set name="weight" val="850" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="scale_of_dragon" />
-		<set name="bodypart" val="legs" />
-		<set name="armor_type" val="magic" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x40" stat="maxMp" val="427" />
-			<add order="0x10" stat="pDef" val="125" />
-			<set order="0x08" stat="rCrit" val="2" />
-		</for>
-	</item>
-	<item id="19936" type="Armor" name="Blessed Durandia Gloves"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_g_i00" />
-		<set name="weight" val="510" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="leather" />
-		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="magic" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="100" />
-			<add order="0x10" stat="accCombat" val="1.15" />
-		</for>
-	</item>
-	<item id="19937" type="Armor" name="Blessed Durandia Shoes"><!-- Check OK -->
-		<set name="icon" val="icon.armor_t99_b_i00" />
-		<set name="weight" val="1070" />
-		<set name="default_action" val="equip" />
-		<set name="material" val="leather" />
-		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="magic" />
-		<set name="crystal_type" val="r99" />
-		<set name="element_enabled" val="true" />
-		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0x10" stat="pDef" val="100" />
-		</for>
-	</item>
-	<item id="19938" type="Weapon" name="Requiem Shaper"><!-- Check OK -->
+	<item id="30022" type="Weapon" name="Apocalypse Shaper"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_aspeda_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -268,7 +29,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19939" type="Weapon" name="Requiem Shaper"><!-- Check OK -->
+	<item id="30023" type="Weapon" name="Apocalypse Shaper"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_aspeda_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -285,7 +46,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3564-4;3566-9" />
+		<set name="item_skill" val="3564-4;3566-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="369" />
@@ -297,7 +58,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19940" type="Weapon" name="Requiem Shaper"><!-- Check OK -->
+	<item id="30024" type="Weapon" name="Apocalypse Shaper"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_aspeda_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -314,7 +75,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3566-9;3573-4" />
+		<set name="item_skill" val="3566-8;3573-5" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="369" />
@@ -326,7 +87,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19941" type="Weapon" name="Requiem Cutter"><!-- Check OK -->
+	<item id="30025" type="Weapon" name="Apocalypse Cutter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_estia_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -343,7 +104,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3564-4;3567-9" />
+		<set name="item_skill" val="3564-4;3567-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -354,7 +115,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19942" type="Weapon" name="Requiem Cutter"><!-- Check OK -->
+	<item id="30026" type="Weapon" name="Apocalypse Cutter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_estia_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -371,7 +132,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3567-6;3013-3" />
+		<set name="item_skill" val="3567-8;3013-3" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -382,7 +143,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19943" type="Weapon" name="Requiem Cutter"><!-- Check OK -->
+	<item id="30027" type="Weapon" name="Apocalypse Cutter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_estia_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -410,7 +171,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19944" type="Weapon" name="Requiem Slasher"><!-- Check OK -->
+	<item id="30028" type="Weapon" name="Apocalypse Slasher"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_polion_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -427,7 +188,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3567-7;13062-1" />
+		<set name="item_skill" val="3567-7;13062-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -438,7 +199,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19945" type="Weapon" name="Requiem Slasher"><!-- Check OK -->
+	<item id="30029" type="Weapon" name="Apocalypse Slasher"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_polion_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -455,7 +216,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="13062-3;3564-4" />
+		<set name="item_skill" val="13062-4;3564-4" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -466,7 +227,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19946" type="Weapon" name="Requiem Slasher"><!-- Check OK -->
+	<item id="30030" type="Weapon" name="Apocalypse Slasher"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_polion_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -483,7 +244,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3564-4;3567-9" />
+		<set name="item_skill" val="3564-4;3567-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -494,7 +255,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19947" type="Weapon" name="Requiem Avenger"><!-- Check OK -->
+	<item id="30031" type="Weapon" name="Apocalypse Avenger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_batista_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -511,7 +272,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3564-4;3572-5" />
+		<set name="item_skill" val="3564-4;3572-6" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -523,7 +284,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19948" type="Weapon" name="Requiem Avenger"><!-- Check OK -->
+	<item id="30032" type="Weapon" name="Apocalypse Avenger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_batista_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -540,7 +301,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3572-5;3567-9" />
+		<set name="item_skill" val="3572-6;3567-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -552,7 +313,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19949" type="Weapon" name="Requiem Avenger"><!-- Check OK -->
+	<item id="30033" type="Weapon" name="Apocalypse Avenger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_batista_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -569,7 +330,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3567-9;3564-4" />
+		<set name="item_skill" val="3567-8;3564-4" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -581,7 +342,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19950" type="Weapon" name="Requiem Fighter"><!-- Check OK -->
+	<item id="30034" type="Weapon" name="Apocalypse Fighter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_fantasma_i01" />
 		<set name="weight" val="1550" />
 		<set name="default_action" val="equip" />
@@ -598,7 +359,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3567-7;13062-1" />
+		<set name="item_skill" val="3567-7;13062-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -610,7 +371,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19951" type="Weapon" name="Requiem Fighter"><!-- Check OK -->
+	<item id="30035" type="Weapon" name="Apocalypse Fighter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_fantasma_i01" />
 		<set name="weight" val="1550" />
 		<set name="default_action" val="equip" />
@@ -627,7 +388,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="13062-3;3564-4" />
+		<set name="item_skill" val="13062-4;3564-4" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -639,7 +400,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19952" type="Weapon" name="Requiem Fighter"><!-- Check OK -->
+	<item id="30036" type="Weapon" name="Apocalypse Fighter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_fantasma_i01" />
 		<set name="weight" val="1550" />
 		<set name="default_action" val="equip" />
@@ -656,7 +417,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3564-4;3565-9" />
+		<set name="item_skill" val="3564-4;3565-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -668,7 +429,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19953" type="Weapon" name="Requiem Stormer"><!-- Check OK -->
+	<item id="30037" type="Weapon" name="Apocalypse Stormer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_soryu_i01" />
 		<set name="weight" val="2010" />
 		<set name="default_action" val="equip" />
@@ -685,7 +446,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="13111-1;13110-1" />
+		<set name="item_skill" val="13111-1;13110-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -697,7 +458,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19954" type="Weapon" name="Requiem Stormer"><!-- Check OK -->
+	<item id="30038" type="Weapon" name="Apocalypse Stormer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_soryu_i01" />
 		<set name="weight" val="2010" />
 		<set name="default_action" val="equip" />
@@ -714,7 +475,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="13110-1;13109-1" />
+		<set name="item_skill" val="13110-2;13109-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -726,7 +487,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19955" type="Weapon" name="Requiem Stormer"><!-- Check OK -->
+	<item id="30039" type="Weapon" name="Apocalypse Stormer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_soryu_i01" />
 		<set name="weight" val="2010" />
 		<set name="default_action" val="equip" />
@@ -755,7 +516,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19956" type="Weapon" name="Requiem Thrower"><!-- Check OK -->
+	<item id="30040" type="Weapon" name="Apocalypse Thrower"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grabathus_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -773,7 +534,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
-		<set name="item_skill" val="13062-2;3567-9" />
+		<set name="item_skill" val="13062-2;3567-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="831" />
@@ -785,7 +546,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19957" type="Weapon" name="Requiem Thrower"><!-- Check OK -->
+	<item id="30041" type="Weapon" name="Apocalypse Thrower"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grabathus_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -803,7 +564,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
-		<set name="item_skill" val="3567-9;13061-1" />
+		<set name="item_skill" val="3567-8;13061-1" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="831" />
@@ -815,7 +576,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19958" type="Weapon" name="Requiem Thrower"><!-- Check OK -->
+	<item id="30042" type="Weapon" name="Apocalypse Thrower"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grabathus_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -833,7 +594,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
-		<set name="item_skill" val="13061-1;13062-1" />
+		<set name="item_skill" val="13061-1;13062-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="831" />
@@ -845,7 +606,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19959" type="Weapon" name="Requiem Shooter"><!-- Check OK -->
+	<item id="30043" type="Weapon" name="Apocalypse Shooter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_shyayaka_i01" />
 		<set name="weight" val="1580" />
 		<set name="default_action" val="equip" />
@@ -863,9 +624,9 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<set name="oncrit_chance" val="40" />
+		<set name="oncrit_chance" val="45" />
 		<set name="oncrit_skill" val="13113-1" />
-		<set name="item_skill" val="3567-9;3552-1" />
+		<set name="item_skill" val="3567-8;3552-1" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="535" />
@@ -877,7 +638,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19960" type="Weapon" name="Requiem Shooter"><!-- Check OK -->
+	<item id="30044" type="Weapon" name="Apocalypse Shooter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_shyayaka_i01" />
 		<set name="weight" val="1580" />
 		<set name="default_action" val="equip" />
@@ -895,7 +656,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<set name="oncrit_chance" val="40" />
+		<set name="oncrit_chance" val="45" />
 		<set name="oncrit_skill" val="13113-1" />
 		<set name="item_skill" val="3564-4;3552-1" />
 		<set name="enchant4_skill" val="" />
@@ -909,7 +670,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19961" type="Weapon" name="Requiem Shooter"><!-- Check OK -->
+	<item id="30045" type="Weapon" name="Apocalypse Shooter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_shyayaka_i01" />
 		<set name="weight" val="1580" />
 		<set name="default_action" val="equip" />
@@ -927,7 +688,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<set name="item_skill" val="3564-4;3567-9" />
+		<set name="item_skill" val="3564-4;3567-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="535" />
@@ -939,7 +700,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19962" type="Weapon" name="Requiem Buster"><!-- Check OK -->
+	<item id="30046" type="Weapon" name="Apocalypse Buster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_kaynon_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -970,7 +731,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19963" type="Weapon" name="Requiem Buster"><!-- Check OK -->
+	<item id="30047" type="Weapon" name="Apocalypse Buster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_kaynon_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -1001,7 +762,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19964" type="Weapon" name="Requiem Buster"><!-- Check OK -->
+	<item id="30048" type="Weapon" name="Apocalypse Buster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_kaynon_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -1030,7 +791,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19965" type="Weapon" name="Requiem Caster"><!-- Check OK -->
+	<item id="30049" type="Weapon" name="Apocalypse Caster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_anatrian_i01" />
 		<set name="weight" val="1080" />
 		<set name="default_action" val="equip" />
@@ -1047,7 +808,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3575-5;3047-3" />
+		<set name="item_skill" val="3575-6;3047-3" />
 		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
@@ -1060,7 +821,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19966" type="Weapon" name="Requiem Caster"><!-- Check OK -->
+	<item id="30050" type="Weapon" name="Apocalypse Caster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_anatrian_i01" />
 		<set name="weight" val="1080" />
 		<set name="default_action" val="equip" />
@@ -1092,7 +853,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19967" type="Weapon" name="Requiem Caster"><!-- Check OK -->
+	<item id="30051" type="Weapon" name="Apocalypse Caster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_anatrian_i01" />
 		<set name="weight" val="1080" />
 		<set name="default_action" val="equip" />
@@ -1111,7 +872,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="oncrit_chance" val="20" />
 		<set name="oncrit_skill" val="13114-1" />
-		<set name="item_skill" val="3575-5;3552-1" />
+		<set name="item_skill" val="3575-6;3552-1" />
 		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
@@ -1124,7 +885,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19968" type="Weapon" name="Requiem Retributer"><!-- Check OK -->
+	<item id="30052" type="Weapon" name="Apocalypse Retributer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grangkaz_i01" />
 		<set name="weight" val="1080" />
 		<set name="default_action" val="equip" />
@@ -1141,7 +902,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3576-5;3047-3" />
+		<set name="item_skill" val="3576-6;3047-3" />
 		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
@@ -1154,7 +915,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19969" type="Weapon" name="Requiem Retributer"><!-- Check OK -->
+	<item id="30053" type="Weapon" name="Apocalypse Retributer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grangkaz_i01" />
 		<set name="weight" val="1080" />
 		<set name="default_action" val="equip" />
@@ -1171,7 +932,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3047-3;3575-5" />
+		<set name="item_skill" val="3047-3;3575-6" />
 		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
@@ -1184,7 +945,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19970" type="Weapon" name="Requiem Retributer"><!-- Check OK -->
+	<item id="30054" type="Weapon" name="Apocalypse Retributer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grangkaz_i01" />
 		<set name="weight" val="1080" />
 		<set name="default_action" val="equip" />
@@ -1201,7 +962,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3575-5;3576-5" />
+		<set name="item_skill" val="3575-5;3576-6" />
 		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
@@ -1214,7 +975,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19971" type="Weapon" name="Requiem Dualsword"><!-- Check OK -->
+	<item id="30055" type="Weapon" name="Apocalypse Dualsword"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualsword_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -1231,7 +992,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3564-4;13062-1" />
+		<set name="item_skill" val="3564-4;13062-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -1242,7 +1003,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19972" type="Weapon" name="Requiem Dualsword"><!-- Check OK -->
+	<item id="30056" type="Weapon" name="Apocalypse Dualsword"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualsword_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -1259,7 +1020,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="13062-4;3013-3" />
+		<set name="item_skill" val="13062-5;3013-3" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -1270,7 +1031,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19973" type="Weapon" name="Requiem Dualsword"><!-- Check OK -->
+	<item id="30057" type="Weapon" name="Apocalypse Dualsword"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualsword_i01" />
 		<set name="weight" val="1520" />
 		<set name="default_action" val="equip" />
@@ -1298,7 +1059,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19974" type="Weapon" name="Requiem Dual Dagger"><!-- Check OK -->
+	<item id="30058" type="Weapon" name="Apocalypse Dual Dagger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualdagger_i01" />
 		<set name="weight" val="2050" />
 		<set name="default_action" val="equip" />
@@ -1315,7 +1076,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="13062-2;3567-9" />
+		<set name="item_skill" val="13062-2;3567-8" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -1327,7 +1088,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19975" type="Weapon" name="Requiem Dual Dagger"><!-- Check OK -->
+	<item id="30059" type="Weapon" name="Apocalypse Dual Dagger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualdagger_i01" />
 		<set name="weight" val="2050" />
 		<set name="default_action" val="equip" />
@@ -1344,7 +1105,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3567-9;3573-4" />
+		<set name="item_skill" val="3567-9;3573-5" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -1356,7 +1117,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19976" type="Weapon" name="Requiem Dual Dagger"><!-- Check OK -->
+	<item id="30060" type="Weapon" name="Apocalypse Dual Dagger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualdagger_i01" />
 		<set name="weight" val="2050" />
 		<set name="default_action" val="equip" />
@@ -1373,7 +1134,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3573-6;13062-1" />
+		<set name="item_skill" val="3573-6;13062-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
@@ -1385,7 +1146,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19977" type="Weapon" name="Requiem Dual Blunt Weapon"><!-- Check OK -->
+	<item id="30061" type="Weapon" name="Apocalypse Dual Blunt Weapon"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualblunt_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -1402,7 +1163,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3567-9;3573-4" />
+		<set name="item_skill" val="3565-9;3573-5" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -1414,7 +1175,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19978" type="Weapon" name="Requiem Dual Blunt Weapon"><!-- Check OK -->
+	<item id="30062" type="Weapon" name="Apocalypse Dual Blunt Weapon"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualblunt_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
@@ -1431,7 +1192,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3573-5;13062-1" />
+		<set name="item_skill" val="3573-5;13062-2" />
 		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
@@ -1443,7 +1204,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19979" type="Weapon" name="Requiem Dual Blunt Weapon"><!-- Check OK -->
+	<item id="30063" type="Weapon" name="Apocalypse Dual Blunt Weapon"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualblunt_i01" />
 		<set name="weight" val="1740" />
 		<set name="default_action" val="equip" />
