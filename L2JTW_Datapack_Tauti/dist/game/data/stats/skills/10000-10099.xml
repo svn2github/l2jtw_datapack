@@ -165,7 +165,6 @@
 		<!-- Fire Pwr ench -lvl 300+ --> <!-- erth Pwr ench -lvl 600+ -->
 		<!-- water Pwr ench -lvl 400+ --> <!-- silet Pwr ench -lvl 700+ -->
 		<table name="#Power">10821 11196 11948 12700 13452 14204 14956 15708</table>
-		<set name="weaponsAllowed" val="Shield" /> <!-- Shield -->
 		<set name="power" val="#Power" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="6000" />
@@ -178,6 +177,9 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="isDebuff" val="true" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
 		<for>
 			<effect name="Debuff" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="critical_dmg_down" effectPower="80" />
 				<basemul order="0x30" stat="rCrit" val="1.1" />
@@ -257,7 +259,6 @@
 		<!-- Chanse ench -lvl 200+ = pwr ench -->
 		<!-- DECERESE REUSE TIME -lvl 900+-->
 		<table name="#Power">9870 10901 10933 12965 13997</table>
-		<set name="weaponsAllowed" val="Shield" /> <!-- Shield -->
 		<set name="flyRadius" val="50" />
 		<set name="mpConsume" val="49" />
 		<set name="magicLvl" val="85" />
@@ -272,6 +273,9 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="isDebuff" val="true" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
 		<for>
 			<effect name="ThrowUp" noicon="1" val="0" abnormalLvl="1" abnormalType="fly_away" />
 			<effect name="Stun" abnormalTime="1" val="0" effectPower="600" effectType="STUN" />
@@ -282,7 +286,6 @@
 		<!-- Chanse ench -lvl 200+ = pwr ench -->
 		<!-- DECERESE REUSE TIME -lvl 900+-->
 		<table name="#Power">10174 10833 11492 12150 12809 13468 14126</table>
-		<set name="weaponsAllowed" val="Shield" /> <!-- Shield -->
 		<set name="flyRadius" val="50" />
 		<set name="mpConsume" val="59" />
 		<set name="magicLvl" val="85" />
@@ -297,6 +300,9 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="isDebuff" val="true" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
 		<for>
 			<effect name="ThrowUp" noicon="1" val="0" abnormalLvl="1" abnormalType="fly_away" />
 			<effect name="Stun" abnormalTime="9" val="0" effectPower="600" effectType="STUN" />
@@ -369,7 +375,9 @@
 		<set name="operateType" val="A1" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
-		<set name="weaponsAllowed" val="Shield" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
 		<for>
 			<effect name="TargetMe" abnormalTime="3" val="0" />
 			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
@@ -388,7 +396,9 @@
 		<set name="operateType" val="A1" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
-		<set name="weaponsAllowed" val="Shield" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
 		<for>
 			<effect name="TargetMe" abnormalTime="3" val="0" />
 			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->

@@ -80,13 +80,15 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="damascus" />
 		<set name="bodypart" val="lhand" />
-		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="r99" />
+		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<set order="0x08" stat="sDef" val="547" />
 			<set order="0x08" stat="rShld" val="20" />
 			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
 	<item id="19720" type="Armor" name="Blessed Durandia Leather Helmet"><!-- Check OK -->
@@ -329,7 +331,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19735" type="Weapon" name="Immortal Shield"><!-- Check OK -->
+	<item id="19735" type="Armor" name="Immortal Shield"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_sacon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -620,7 +622,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19751" type="Weapon" name="Twilight Shield"><!-- Check OK -->
+	<item id="19751" type="Armor" name="Twilight Shield"><!-- Check OK -->
 		<set name="icon" val="icon.kratere_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -911,7 +913,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19767" type="Weapon" name="Seraph Shield"><!-- Check OK -->
+	<item id="19767" type="Armor" name="Seraph Shield"><!-- Check OK -->
 		<set name="icon" val="icon.beranka_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1202,7 +1204,7 @@
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
-	<item id="19783" type="Weapon" name="Eternal Shield"><!-- Check OK -->
+	<item id="19783" type="Armor" name="Eternal Shield"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_akra_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
