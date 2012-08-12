@@ -29,8 +29,10 @@
 		<set name="price" val="35000000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="505" />
-			<enchant order="0x0C" stat="pDef" val="0" />
+			<add order="0x10" stat="sDef" val="505" />
+			<set order="0x08" stat="rShld" val="20" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="sDef" val="0" />
 		</for>
 	</item>
 	<item id="17402" type="Armor" name="Seraph Leather Helmet"><!-- Check OK -->
@@ -794,10 +796,10 @@
 		<set name="price" val="38000000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="526" />
+			<add order="0x10" stat="sDef" val="526" />
 			<set order="0x08" stat="rShld" val="20" />
 			<sub order="0x10" stat="rEvas" val="8" />
-			<enchant order="0x0C" stat="pDef" val="0" />
+			<enchant order="0x0C" stat="sDef" val="0" />
 		</for>
 	</item>
 	<item id="17436" type="Armor" name="Eternal Leather Helmet"><!-- Check OK -->
@@ -1564,10 +1566,10 @@
 		<set name="price" val="38000000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="pDef" val="547" />
+			<add order="0x10" stat="sDef" val="547" />
 			<set order="0x08" stat="rShld" val="20" />
 			<sub order="0x10" stat="rEvas" val="8" />
-			<enchant order="0x0C" stat="pDef" val="0" />
+			<enchant order="0x0C" stat="sDef" val="0" />
 		</for>
 	</item>
 	<item id="17470" type="Armor" name="Blessed Durandia Leather Helmet"><!-- Check OK -->
