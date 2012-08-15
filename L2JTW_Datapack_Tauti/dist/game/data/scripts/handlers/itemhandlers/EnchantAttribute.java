@@ -45,7 +45,11 @@ public class EnchantAttribute implements IItemHandler
 		}
 		
 		activeChar.setActiveEnchantAttrItem(item);
+		/* l2jtw start
 		activeChar.sendPacket(new ExChooseInventoryAttributeItem(item));
+		 */
+		activeChar.sendPacket(new ExChooseInventoryAttributeItem(activeChar, item));
+		// l2jtw end
 		return true;
 	}
 }
