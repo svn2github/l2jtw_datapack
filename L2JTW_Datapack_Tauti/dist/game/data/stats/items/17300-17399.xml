@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="17300" type="Weapon" name="Grangkaz">
+	<item id="17300" type="Weapon" name="Requiem Retributer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grangkaz_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -9,11 +9,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="wood" />
 		<set name="weight" val="1080" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -29,7 +27,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17301" type="Weapon" name="R Dualsword">
+	<item id="17301" type="Weapon" name="Requiem Dualsword"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualsword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -38,17 +36,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3411-1" />
-		<set name="item_skill" val="3552-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -58,7 +52,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17302" type="Weapon" name="R Dualdagger">
+	<item id="17302" type="Weapon" name="Requiem Dual Dagger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -67,24 +61,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="11421" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="2050" />
-		<set name="price" val="237930000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="8298-1" />
-		<set name="item_skill" val="3552-1" />
-		<cond msgId="1518">
-			<and>
-				<player level="86" />
-				<player class_id_restriction="93, 101, 108, 117, 141" /> <!-- Dagger Masters -->
-				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
-			</and>
-		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -95,30 +78,27 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17303" type="Weapon" name="R Dualblunt">
+	<item id="17303" type="Weapon" name="Requiem Dual Blunt Weapon"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualblunt" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
+		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
-		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
+		<set name="weight" val="1740" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3411-1" />
-		<set name="item_skill" val="3552-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
-			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="8.0" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -129,11 +109,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1205" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -147,11 +125,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="3214" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="7520" />
-		<set name="price" val="66953000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -165,11 +141,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2009" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="3170" />
-		<set name="price" val="41846000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -182,11 +156,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="510" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -199,11 +171,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1070" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -216,11 +186,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1680" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="damascus" />
 		<set name="weight" val="1130" />
-		<set name="price" val="35000000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="sDef" val="415" />
@@ -234,11 +202,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1205" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -252,11 +218,9 @@
 		<set name="armor_type" val="light" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2410" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="4140" />
-		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -270,11 +234,9 @@
 		<set name="armor_type" val="light" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1506" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="1320" />
-		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -287,11 +249,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="510" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -304,11 +264,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1070" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -321,11 +279,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1205" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -339,11 +295,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2410" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="1750" />
-		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -358,11 +312,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1506" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="850" />
-		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -376,11 +328,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="510" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -393,11 +343,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1070" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -411,11 +359,9 @@
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="844" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="920" />
-		<set name="price" val="19575000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -428,11 +374,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="381" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="price" val="17942000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="mDef" val="123" />
@@ -445,11 +389,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="285" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="price" val="15956000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="mDef" val="92" />
@@ -462,11 +404,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="129" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="gold" />
 		<set name="weight" val="150" />
-		<set name="price" val="2688000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="mDef" val="62" />
@@ -474,7 +414,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="17324" type="Weapon" name="Phasian">
+	<item id="17324" type="Weapon" name="Apocalypse Shaper"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_phasian_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -483,16 +423,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="7050" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="243356000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3859-2" />
 		<for>
 			<set order="0x08" stat="pAtk" val="428" />
 			<set order="0x08" stat="mAtk" val="226" />
@@ -503,7 +440,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17325" type="Weapon" name="Pasis">
+	<item id="17325" type="Weapon" name="Apocalypse Cutter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_pasis_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -512,17 +449,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="7050" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="243356000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3853-2" />
 		<for>
 			<set order="0x08" stat="pAtk" val="489" />
 			<set order="0x08" stat="mAtk" val="226" />
@@ -532,7 +465,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17326" type="Weapon" name="Volver">
+	<item id="17326" type="Weapon" name="Apocalypse Slasher"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_volver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -541,11 +474,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1740" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -559,7 +490,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17327" type="Weapon" name="Raksilion">
+	<item id="17327" type="Weapon" name="Apocalypse Avenger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_raksilion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="Blunt" />
@@ -568,11 +499,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="fine_steel" />
 		<set name="weight" val="1740" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -587,7 +516,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17328" type="Weapon" name="Kirche">
+	<item id="17328" type="Weapon" name="Apocalypse Fighter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_kirche_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -596,11 +525,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1550" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -615,7 +542,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17329" type="Weapon" name="Grave">
+	<item id="17329" type="Weapon" name="Apocalypse Stormer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grave_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -624,16 +551,13 @@
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="2010" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3599-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="489" />
 			<set order="0x08" stat="mAtk" val="226" />
@@ -644,7 +568,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17330" type="Weapon" name="Spina">
+	<item id="17330" type="Weapon" name="Apocalypse Thrower"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_spina_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -653,14 +577,11 @@
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="12" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
@@ -674,7 +595,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17331" type="Weapon" name="Medianox">
+	<item id="17331" type="Weapon" name="Apocalypse Shooter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_medianox_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -683,23 +604,14 @@
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1580" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<cond msgId="1518">
-			<and>
-				<player level="86" />
-				<player class_id_restriction="92, 102, 109, 134" />
-				<player subclass="true" /> <!-- TEMP FIX only for customs subclass 80+ -->
-			</and>
-		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="620" />
 			<set order="0x08" stat="mAtk" val="226" />
@@ -710,7 +622,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17332" type="Weapon" name="Imerose">
+	<item id="17332" type="Weapon" name="Apocalypse Buster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_imerose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -719,11 +631,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -738,7 +648,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17333" type="Weapon" name="Yuke">
+	<item id="17333" type="Weapon" name="Apocalypse Caster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_yuke_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="Blunt" />
@@ -747,11 +657,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="wood" />
 		<set name="weight" val="1080" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -767,7 +675,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-		<item id="17334" type="Weapon" name="Herencia">
+		<item id="17334" type="Weapon" name="Apocalypse Retributer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_herencia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -776,11 +684,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="wood" />
 		<set name="weight" val="1080" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -796,7 +702,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17335" type="Weapon" name="R90 Dualsword">
+	<item id="17335" type="Weapon" name="Apocalypse Dualsword"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualsword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -805,17 +711,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3411-1" />
-		<set name="item_skill" val="3552-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="595" />
 			<set order="0x08" stat="mAtk" val="226" />
@@ -825,7 +727,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17336" type="Weapon" name="R90 Dualdagger">
+	<item id="17336" type="Weapon" name="Apocalypse Dual Dagger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -834,24 +736,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="11421" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="2050" />
-		<set name="price" val="257930000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="8298-1" />
-		<set name="item_skill" val="3552-1" />
-		<cond msgId="1518">
-			<and>
-				<player level="86" />
-				<player class_id_restriction="93, 101, 108, 117, 141" /> <!-- Dagger Masters -->
-				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
-			</and>
-		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="489" />
 			<set order="0x08" stat="mAtk" val="226" />
@@ -862,30 +753,27 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17337" type="Weapon" name="R90 Dualblunt">
+	<item id="17337" type="Weapon" name="Apocalypse Dual Blunt Weapon"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualblunt" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
+		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
-		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
+		<set name="weight" val="1740" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3411-1" />
-		<set name="item_skill" val="3552-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="595" />
 			<set order="0x08" stat="mAtk" val="226" />
-			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="8.0" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -896,11 +784,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1205" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -914,11 +800,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="3214" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="7520" />
-		<set name="price" val="66953000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -932,11 +816,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2009" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="3170" />
-		<set name="price" val="41846000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -949,11 +831,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="510" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -966,11 +846,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1070" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -983,11 +861,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1680" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="damascus" />
 		<set name="weight" val="1130" />
-		<set name="price" val="35900000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="sDef" val="458" />
@@ -1001,11 +877,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1205" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1019,11 +893,9 @@
 		<set name="armor_type" val="light" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2410" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="4140" />
-		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1037,11 +909,9 @@
 		<set name="armor_type" val="light" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1506" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="1320" />
-		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1054,11 +924,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="510" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1071,11 +939,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1070" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1088,11 +954,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1205" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1106,11 +970,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2410" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="1750" />
-		<set name="price" val="50215000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1125,11 +987,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1506" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="850" />
-		<set name="price" val="31384000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1143,11 +1003,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="510" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1160,11 +1018,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1070" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1178,11 +1034,9 @@
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="844" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="920" />
-		<set name="price" val="20575000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -1195,11 +1049,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="381" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="price" val="22942000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="mDef" val="139" />
@@ -1212,11 +1064,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="295" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="silver" />
 		<set name="weight" val="150" />
-		<set name="price" val="19956000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="mDef" val="105" />
@@ -1229,11 +1079,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="129" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="gold" />
 		<set name="weight" val="150" />
-		<set name="price" val="2688000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="mDef" val="70" />
@@ -1241,19 +1089,15 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="17371" type="EtcItem" name="R Grade Crystall">
-		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_s_i00" />
-		<set name="default_action" val="capsule" />
+	<item id="17371" type="EtcItem" name="Crystal (R-grade)"><!-- Check OK -->
+		<set name="icon" val="icon.crystal_r_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="paper" />
-		<set name="weight" val="120" />
+		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
-		<set name="is_premium" val="true" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="26068-10" />
 	</item>
-	<item id="17382" type="Weapon" name="Ignicion">
+	<item id="17382" type="Weapon" name="Specter Shaper"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_ignicion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1262,16 +1106,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="7050" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="263356000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3859-2" />
 		<for>
 			<set order="0x08" stat="pAtk" val="496" />
 			<set order="0x08" stat="mAtk" val="275" />
@@ -1282,7 +1123,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17383" type="Weapon" name="Ninfea">
+	<item id="17383" type="Weapon" name="Specter Cutter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_ninfea_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1291,17 +1132,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="7050" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="263356000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3853-2" />
 		<for>
 			<set order="0x08" stat="pAtk" val="567" />
 			<set order="0x08" stat="mAtk" val="275" />
@@ -1311,7 +1148,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17384" type="Weapon" name="Skia">
+	<item id="17384" type="Weapon" name="Specter Slasher"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_skia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1320,11 +1157,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1740" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -1338,7 +1173,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17385" type="Weapon" name="Ikeon">
+	<item id="17385" type="Weapon" name="Specter Avenger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_ikeon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="Blunt" />
@@ -1347,11 +1182,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="fine_steel" />
 		<set name="weight" val="1740" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -1366,7 +1199,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17386" type="Weapon" name="Deodos">
+	<item id="17386" type="Weapon" name="Specter Fighter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_deodos_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1375,11 +1208,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1550" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -1394,7 +1225,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17387" type="Weapon" name="Transgredi">
+	<item id="17387" type="Weapon" name="Specter Stormer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_transgredi_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1403,16 +1234,13 @@
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="2010" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3599-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="567" />
 			<set order="0x08" stat="mAtk" val="275" />
@@ -1423,7 +1251,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17388" type="Weapon" name="Solenas">
+	<item id="17388" type="Weapon" name="Specter Thrower"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_solenas_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1432,14 +1260,11 @@
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="225668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="12" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
@@ -1453,7 +1278,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17389" type="Weapon" name="Lapis">
+	<item id="17389" type="Weapon" name="Specter Shooter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_lapis_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1462,23 +1287,14 @@
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1580" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<cond msgId="1518">
-			<and>
-				<player level="86" />
-				<player class_id_restriction="92, 102, 109, 134" />
-				<player subclass="true" /> <!-- TEMP FIX only for customs subclass 80+ -->
-			</and>
-		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="719" />
 			<set order="0x08" stat="mAtk" val="275" />
@@ -1489,7 +1305,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17390" type="Weapon" name="Zihel">
+	<item id="17390" type="Weapon" name="Specter Buster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_zihel_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1498,11 +1314,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -1517,7 +1331,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17391" type="Weapon" name="Alacer">
+	<item id="17391" type="Weapon" name="Specter Caster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_alacer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="Blunt" />
@@ -1526,11 +1340,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="wood" />
 		<set name="weight" val="1080" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -1546,7 +1358,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-		<item id="17392" type="Weapon" name="Rupe">
+		<item id="17392" type="Weapon" name="Specter Retributer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_rupe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1555,11 +1367,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="wood" />
 		<set name="weight" val="1080" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
@@ -1575,7 +1385,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17393" type="Weapon" name="R95 Dualsword">
+	<item id="17393" type="Weapon" name="Specter Dualsword"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualsword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1584,17 +1394,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="245668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3411-1" />
-		<set name="item_skill" val="3552-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="690" />
 			<set order="0x08" stat="mAtk" val="275" />
@@ -1604,7 +1410,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17394" type="Weapon" name="R90 Dualdagger">
+	<item id="17394" type="Weapon" name="Specter Dual Dagger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -1613,24 +1419,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="11421" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="steel" />
 		<set name="weight" val="2050" />
-		<set name="price" val="277930000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="8298-1" />
-		<set name="item_skill" val="3552-1" />
-		<cond msgId="1518">
-			<and>
-				<player level="86" />
-				<player class_id_restriction="93, 101, 108, 117, 141" /> <!-- Dagger Masters -->
-				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
-			</and>
-		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="567" />
 			<set order="0x08" stat="mAtk" val="275" />
@@ -1641,30 +1436,27 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17395" type="Weapon" name="R95 Dualblunt">
+	<item id="17395" type="Weapon" name="Specter Dual Blunt Weapon"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualblunt" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
+		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="steel" />
-		<set name="weight" val="1520" />
-		<set name="price" val="225668000" />
+		<set name="weight" val="1740" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3411-1" />
-		<set name="item_skill" val="3552-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="690" />
 			<set order="0x08" stat="mAtk" val="275" />
-			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="8.0" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1675,11 +1467,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1205" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="25107000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1693,11 +1483,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="3214" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="7520" />
-		<set name="price" val="66953000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1711,11 +1499,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2009" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="scale_of_dragon" />
 		<set name="weight" val="3170" />
-		<set name="price" val="41846000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1728,11 +1514,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="803" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="leather" />
 		<set name="weight" val="510" />
-		<set name="price" val="16738000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>

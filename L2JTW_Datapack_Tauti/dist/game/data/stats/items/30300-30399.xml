@@ -40,7 +40,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30310" type="Armor" name="Blessed Simulation">
+	<item id="30310" type="Armor" name="Abelius Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -55,7 +55,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30311" type="Armor" name="Blessed Simulation2">
+	<item id="30311" type="Armor" name="Sapyros Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -70,7 +70,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30312" type="Armor" name="Blessed Simulation3">
+	<item id="30312" type="Armor" name="Ashagen Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -85,7 +85,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30313" type="Armor" name="Blessed Simulation4">
+	<item id="30313" type="Armor" name="Cranigg Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -100,7 +100,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30314" type="Armor" name="Blessed Simulation5">
+	<item id="30314" type="Armor" name="Soltkreig Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -115,7 +115,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30315" type="Armor" name="Blessed Simulation6">
+	<item id="30315" type="Armor" name="Naviarope Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -130,7 +130,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30316" type="Armor" name="Blessed Simulation7">
+	<item id="30316" type="Armor" name="Leister Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -145,7 +145,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30317" type="Armor" name="Blessed Simulation8">
+	<item id="30317" type="Armor" name="Laksis Cloak"><!-- Check OK -->
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="back" />
@@ -160,18 +160,18 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="30392" type="Weapon" name="Infinity Stinger">
+	<item id="30392" type="Weapon" name="Infinity Shaper"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_the_dagger_of_hero_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="dagger" />
+		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="dagger" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="adamantaite" />
-		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
@@ -180,33 +180,30 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="oncrit_skill" val="3590-1" />
-		<set name="item_skill" val="3589-1" />
-		<!--
+		<set name="item_skill" val="13146-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="640" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="12" />
-			<add order="0x10" stat="accCombat" val="-3.75" />
 			<set order="0x08" stat="pAtkSpd" val="433" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="rCrit" val="12" />
 		</for>
 	</item>
-	<item id="30393" type="Weapon" name="Infinity Blade">
+	<item id="30393" type="Weapon" name="Infinity Cutter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="sword" />
+		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="sword" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="adamantaite" />
-		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
@@ -215,32 +212,29 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="oncrit_skill" val="3579-1" />
-		<set name="item_skill" val="3578-1" />
-		<!--
+		<set name="item_skill" val="13147-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="720" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="8" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
+			<set order="0x08" stat="rCrit" val="8" />
 		</for>
 	</item>
-	<item id="30394" type="Weapon" name="Infinity Cleaver">
+	<item id="30394" type="Weapon" name="Infinity Slasher"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="bigsword" />
+		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;44;120" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="bigsword" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="adamantaite" />
-		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
@@ -249,31 +243,29 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="item_skill" val="3582-1" />
-		<!--
+		<set name="item_skill" val="13148-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="877" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="8" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
+			<set order="0x08" stat="rCrit" val="8" />
 		</for>
 	</item>
-	<item id="30395" type="Weapon" name="Infinity Axe">
+	<item id="30395" type="Weapon" name="Infinity Avenger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_the_axe_of_hero_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="blunt" />
+		<set name="material" val="fine_steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="blunt" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="adamantaite" />
-		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
@@ -282,33 +274,30 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="oncrit_skill" val="3581-1" />
-		<set name="item_skill" val="3580-1" />
-		<!--
+		<set name="item_skill" val="13149-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="720" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="rCrit" val="4" />
 		</for>
 	</item>
-	<item id="30396" type="Weapon" name="Infinity Fang">
+	<item id="30396" type="Weapon" name="Infinity Fighter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_the_fist_of_hero_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="dualfist" />
+		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="dualfist" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="adamantaite" />
-		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
@@ -317,33 +306,30 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="oncrit_skill" val="3588-1" />
-		<set name="item_skill" val="3587-1" />
-		<!--
+		<set name="item_skill" val="13150-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="877" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="rCrit" val="4" />
 		</for>
 	</item>
-	<item id="30397" type="Weapon" name="Infinity Spear">
+	<item id="30397" type="Weapon" name="Infinity Stormer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_the_pole_of_hero_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="pole" />
+		<set name="material" val="bronze" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="pole" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="adamantaite" />
-		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
@@ -352,75 +338,63 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="oncrit_skill" val="3592-1" />
-		<set name="item_skill" val="3591-1" />
-		<!--
+		<set name="item_skill" val="13151-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="720" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="8" />
-			<add order="0x10" stat="accCombat" val="-3.75" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="rCrit" val="8" />
 		</for>
 	</item>
-	<item id="30398" type="Weapon" name="Infinity Bow">
+	<item id="30398" type="Weapon" name="Infinity Thrower"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_the_bow_of_hero_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="bow" />
+		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="bow" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="adamantaite" />
-		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="11" />
-		<set name="reuse_delay" val="1398" />
+		<set name="reuse_delay" val="1500" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="oncrit_skill" val="3594-1" />
-		<set name="item_skill" val="3593-1" />
-		<!--
+		<set name="item_skill" val="13152-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
-			<set order="0x08" stat="pAtk" val="1719" />
+			<set order="0x08" stat="pAtk" val="1419" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="12" />
-			<add order="0x10" stat="accCombat" val="-3.75" />
 			<set order="0x08" stat="pAtkSpd" val="293" />
-			<set val="1" order="0x08" stat="MpConsume">
-				<and>
-					<game skill="false" chance="26" />
-				</and>
-			</set>
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="rCrit" val="12" />
 		</for>
 	</item>
-	<item id="30399" type="Weapon" name="Infinity Shooter">
+	<item id="30399" type="Weapon" name="Infinity Shooter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_infinity_shooter_i00" />
+		<set name="weight" val="1300" />
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="crossbow" />
+		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="crossbow" />
 		<set name="crystal_type" val="r" />
-		<set name="material" val="steel" />
-		<set name="weight" val="1580" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="400" />
@@ -430,19 +404,16 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="oncrit_skill" val="3594-1" />
-		<set name="item_skill" val="3635-1;3360-1" />
-		<!--
+		<set name="item_skill" val="13153-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
 		</cond>
-		-->
 		<for>
 			<set order="0x08" stat="pAtk" val="908" />
 			<set order="0x08" stat="mAtk" val="399" />
-			<set order="0x08" stat="rCrit" val="10" />
-			<add order="0x10" stat="accCombat" val="-1.5" />
 			<set order="0x08" stat="pAtkSpd" val="303" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="rCrit" val="10" />
 		</for>
 	</item>
 </list>

@@ -7,6 +7,9 @@
 		<set name="material" val="fine_steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dual" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -24,6 +27,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="pole" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -42,6 +48,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -59,6 +68,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -76,10 +88,14 @@
 		<set name="material" val="wood" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="bow" />
 		<set name="mp_consume" val="1" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
+		<set name="reuse_delay" val="1500" />
 		<for>
 			<set order="0x08" stat="pAtk" val="30" />
 			<set order="0x08" stat="mAtk" val="30" />
@@ -95,6 +111,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dualdagger" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -113,6 +132,9 @@
 		<set name="material" val="bronze" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -130,6 +152,9 @@
 		<set name="material" val="bronze" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -147,6 +172,9 @@
 		<set name="material" val="wood" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="blunt" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -165,7 +193,10 @@
 		<set name="material" val="crystal" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="20" />
-		<set name="weapon_type" val="blunt" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="bigblunt" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
 		<for>
@@ -183,7 +214,10 @@
 		<set name="material" val="crystal" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="20" />
-		<set name="weapon_type" val="blunt" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="bigblunt" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
 		<for>
@@ -201,6 +235,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -218,6 +255,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -235,6 +275,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dagger" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -253,10 +296,14 @@
 		<set name="material" val="wood" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="bow" />
 		<set name="mp_consume" val="1" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
+		<set name="reuse_delay" val="1500" />
 		<for>
 			<set order="0x08" stat="pAtk" val="30" />
 			<set order="0x08" stat="mAtk" val="30" />
@@ -272,6 +319,9 @@
 		<set name="material" val="bronze" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -289,6 +339,9 @@
 		<set name="material" val="wood" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="blunt" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -307,6 +360,9 @@
 		<set name="material" val="wood" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="blunt" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -325,6 +381,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -342,6 +401,9 @@
 		<set name="material" val="fine_steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dual" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -359,6 +421,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dagger" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -377,10 +442,14 @@
 		<set name="material" val="wood" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="bow" />
 		<set name="mp_consume" val="1" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
+		<set name="reuse_delay" val="1500" />
 		<for>
 			<set order="0x08" stat="pAtk" val="30" />
 			<set order="0x08" stat="mAtk" val="30" />
@@ -396,6 +465,9 @@
 		<set name="material" val="bronze" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -413,6 +485,9 @@
 		<set name="material" val="bronze" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -430,6 +505,9 @@
 		<set name="material" val="wood" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="blunt" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -448,7 +526,10 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
-		<set name="weapon_type" val="sword" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="bigsword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
 		<for>
@@ -465,6 +546,9 @@
 		<set name="material" val="leather" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dualfist" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -483,6 +567,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -500,6 +587,9 @@
 		<set name="material" val="fine_steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dual" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -517,6 +607,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="dagger" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -535,7 +628,10 @@
 		<set name="material" val="crystal" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="20" />
-		<set name="weapon_type" val="blunt" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="weapon_type" val="bigblunt" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
 		<for>
@@ -553,6 +649,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -570,6 +669,9 @@
 		<set name="material" val="bronze" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -587,6 +689,9 @@
 		<set name="material" val="bronze" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
@@ -604,9 +709,13 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />
+		<set name="reuse_delay" val="400" />
 		<for>
 			<set order="0x08" stat="pAtk" val="30" />
 			<set order="0x08" stat="mAtk" val="30" />
@@ -622,6 +731,9 @@
 		<set name="material" val="steel" />
 		<set name="bodypart" val="rhand" />
 		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
 		<set name="weapon_type" val="sword" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="6" />

@@ -717,7 +717,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-	<item id="17290" type="Weapon" name="Aspeda">
+	<item id="17290" type="Weapon" name="Requiem Shaper"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_aspeda_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -726,11 +726,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
@@ -745,7 +743,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17291" type="Weapon" name="Estia">
+	<item id="17291" type="Weapon" name="Requiem Cutter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_estia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -754,17 +752,13 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
-		<set name="change_weaponId" val="15555" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="8298-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -774,7 +768,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17292" type="Weapon" name="Polion">
+	<item id="17292" type="Weapon" name="Requiem Slasher"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_polion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -783,11 +777,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1740" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
@@ -801,7 +793,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17293" type="Weapon" name="Batista">
+	<item id="17293" type="Weapon" name="Requiem Avenger"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_batista_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -810,11 +802,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="fine_steel" />
 		<set name="weight" val="1740" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
@@ -829,7 +819,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17294" type="Weapon" name="Fantasma">
+	<item id="17294" type="Weapon" name="Requiem Fighter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_fantasma_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -838,11 +828,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1550" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
@@ -857,7 +845,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17295" type="Weapon" name="Soryu">
+	<item id="17295" type="Weapon" name="Requiem Stormer"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_soryu_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -866,16 +854,13 @@
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="2010" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="item_skill" val="3599-1" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -886,7 +871,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17296" type="Weapon" name="Grabathus">
+	<item id="17296" type="Weapon" name="Requiem Thrower"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_grabathus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -895,14 +880,11 @@
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="12" />
 		<set name="element_enabled" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
@@ -916,7 +898,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17297" type="Weapon" name="Shyayaka">
+	<item id="17297" type="Weapon" name="Requiem Shooter"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_shyayaka_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -925,23 +907,14 @@
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1580" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<cond msgId="1518">
-			<and>
-				<player level="86" />
-				<player class_id_restriction="92, 102, 109, 134" />
-				<player subclass="true" /> <!-- TEMP FIX only for customs subclass 80+ -->
-			</and>
-		</cond>
 		<for>
 			<set order="0x08" stat="pAtk" val="535" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -952,7 +925,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17298" type="Weapon" name="Kaynon">
+	<item id="17298" type="Weapon" name="Requiem Buster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_kaynon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -961,11 +934,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="steel" />
 		<set name="weight" val="1520" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />
@@ -980,7 +951,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="17299" type="Weapon" name="Anatrian">
+	<item id="17299" type="Weapon" name="Requiem Caster"><!-- Check OK -->
 		<set name="icon" val="icon.weapon_anatrian_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -989,11 +960,9 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="9872" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="wood" />
 		<set name="weight" val="1080" />
-		<set name="price" val="205668000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="1" />

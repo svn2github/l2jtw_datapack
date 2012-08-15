@@ -1230,37 +1230,34 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="19166" type="EtcItem" name="Top-Grade Life Stone - Level 90">
+	<item id="19166" type="EtcItem" name="Accessory Life Stone (R-grade)"><!-- Check OK -->
 		<set name="icon" val="icon.etc_mineral_unique_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
-		<set name="price" val="11940480" />
 		<set name="is_stackable" val="true" />
 		<cond msgId="113">
-			<player level="89" />
+			<player level="85" />
 		</cond>
 	</item>
-	<item id="19167" type="EtcItem" name="Top-Grade Life Stone - Level 95">
+	<item id="19167" type="EtcItem" name="Accessory Life Stone (R95-grade)"><!-- Check OK -->
 		<set name="icon" val="icon.etc_mineral_unique_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
-		<set name="price" val="11940480" />
 		<set name="is_stackable" val="true" />
 		<cond msgId="113">
-			<player level="94" />
+			<player level="95" />
 		</cond>
 	</item>
-	<item id="19168" type="EtcItem" name="Top-Grade Life Stone - Level 99">
+	<item id="19168" type="EtcItem" name="Accessory Life Stone (R99-grade)"><!-- Check OK -->
 		<set name="icon" val="icon.etc_mineral_unique_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
-		<set name="price" val="11940480" />
 		<set name="is_stackable" val="true" />
 		<cond msgId="113">
-			<player level="98" />
+			<player level="99" />
 		</cond>
 	</item>
 </list>

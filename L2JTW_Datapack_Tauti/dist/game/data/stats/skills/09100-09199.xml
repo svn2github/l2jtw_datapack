@@ -1223,29 +1223,46 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
 	</skill>
-	<skill id="9185" levels="1" name="Scroll: Enchant Weapon (Grade R)">
+	<skill id="9185" levels="1" name="Scroll: Enchant Weapon (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="ENCHANT_WEAPON" />
 		<set name="operateType" val="A1" />
 	</skill>
-	<skill id="9186" levels="1" name="Scroll: Enchant Armor (Grade R)">
+	<skill id="9186" levels="1" name="Scroll: Enchant Armor (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_ARMOR" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9187" levels="1" name="Blessed Scroll: Enchant Weapon (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="ENCHANT_WEAPON" />
 		<set name="operateType" val="A1" />
 	</skill>
-	<skill id="9193" levels="1" name="Soulshot: R-Grade">
+	<skill id="9193" levels="1" name="Soulshot R-grade"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SOULSHOT" />
 		<set name="operateType" val="A1" />
 	</skill>
-	<skill id="9194" levels="1" name="Spiritshot - R grade">
+	<skill id="9194" levels="1" name="Spiritshot (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SOULSHOT" />
 		<set name="operateType" val="A1" />
 	</skill>
-	<skill id="9195" levels="1" name="Blessed Spiritshot - R grade">
+	<skill id="9195" levels="1" name="Blessed Spiritshot (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9196" levels="1" name="Blessed Scroll: Enchant Armor (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_ARMOR" />
 		<set name="operateType" val="A1" />
 	</skill>
 </list>

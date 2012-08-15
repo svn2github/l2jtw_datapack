@@ -6,13 +6,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="bone" />
 		<set name="bodypart" val="head" />
-		<set name="armor_type" val="heavy" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="150" />
 			<add order="0x10" stat="rEvas" val="1" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19923" type="Armor" name="Blessed Durandia Breastplate"><!-- Check OK -->
@@ -28,6 +28,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="401" />
 			<set order="0x08" stat="pAtk" val="41" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19924" type="Armor" name="Blessed Durandia Gaiters"><!-- Check OK -->
@@ -43,6 +44,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="250" />
 			<set order="0x08" stat="rCrit" val="2" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19925" type="Armor" name="Blessed Durandia Gauntlets"><!-- Check OK -->
@@ -51,13 +53,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="heavy" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
 			<add order="0x10" stat="accCombat" val="1.15" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19926" type="Armor" name="Blessed Durandia Boots"><!-- Check OK -->
@@ -66,12 +68,12 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="heavy" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19927" type="Armor" name="Blessed Durandia Shield"><!-- Check OK -->
@@ -96,13 +98,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="bone" />
 		<set name="bodypart" val="head" />
-		<set name="armor_type" val="light" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="150" />
 			<add order="0x10" stat="rEvas" val="1" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19929" type="Armor" name="Blessed Durandia Leather Armor"><!-- Check OK -->
@@ -118,6 +120,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="301" />
 			<set order="0x08" stat="pAtk" val="41" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19930" type="Armor" name="Blessed Durandia Leather Leggings"><!-- Check OK -->
@@ -133,6 +136,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="188" />
 			<set order="0x08" stat="rCrit" val="2" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19931" type="Armor" name="Blessed Durandia Leather Gloves"><!-- Check OK -->
@@ -141,13 +145,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="light" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
 			<add order="0x10" stat="accCombat" val="1.15" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19932" type="Armor" name="Blessed Durandia Leather Boots"><!-- Check OK -->
@@ -156,12 +160,12 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="light" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19933" type="Armor" name="Blessed Durandia Circlet"><!-- Check OK -->
@@ -170,13 +174,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="bone" />
 		<set name="bodypart" val="head" />
-		<set name="armor_type" val="magic" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="150" />
 			<add order="0x10" stat="rEvas" val="1" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19934" type="Armor" name="Blessed Durandia Tunic"><!-- Check OK -->
@@ -193,6 +197,7 @@
 			<add order="0x40" stat="maxMp" val="649" />
 			<add order="0x10" stat="pDef" val="201" />
 			<set order="0x08" stat="pAtk" val="41" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19935" type="Armor" name="Blessed Durandia Stockings"><!-- Check OK -->
@@ -209,6 +214,7 @@
 			<add order="0x40" stat="maxMp" val="427" />
 			<add order="0x10" stat="pDef" val="125" />
 			<set order="0x08" stat="rCrit" val="2" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19936" type="Armor" name="Blessed Durandia Gloves"><!-- Check OK -->
@@ -217,13 +223,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="magic" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
 			<add order="0x10" stat="accCombat" val="1.15" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19937" type="Armor" name="Blessed Durandia Shoes"><!-- Check OK -->
@@ -232,12 +238,12 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="magic" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19938" type="Weapon" name="Requiem Shaper"><!-- Check OK -->
@@ -258,7 +264,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3573-7;3564-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="369" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -287,7 +292,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3564-4;3566-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="369" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -316,7 +320,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3566-9;3573-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="369" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -345,7 +348,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3564-4;3567-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -373,7 +375,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3567-6;3013-3" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -401,7 +402,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3013-3;3564-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -429,7 +429,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3567-7;13062-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -457,7 +456,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13062-3;3564-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -485,7 +483,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3564-4;3567-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -513,7 +510,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3564-4;3572-5" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -542,7 +538,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3572-5;3567-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -571,7 +566,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3567-9;3564-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -600,7 +594,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3567-7;13062-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -629,7 +622,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13062-3;3564-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -658,7 +650,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3564-4;3565-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -687,7 +678,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13111-1;13110-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -716,7 +706,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13110-1;13109-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -745,7 +734,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13109-1;13111-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -775,7 +763,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
 		<set name="item_skill" val="13062-2;3567-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="831" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -805,7 +792,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
 		<set name="item_skill" val="3567-9;13061-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="831" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -835,7 +821,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
 		<set name="item_skill" val="13061-1;13062-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="831" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -867,7 +852,6 @@
 		<set name="oncrit_chance" val="40" />
 		<set name="oncrit_skill" val="13113-1" />
 		<set name="item_skill" val="3567-9;3552-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="535" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -899,7 +883,6 @@
 		<set name="oncrit_chance" val="40" />
 		<set name="oncrit_skill" val="13113-1" />
 		<set name="item_skill" val="3564-4;3552-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="535" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -929,7 +912,6 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
 		<set name="item_skill" val="3564-4;3567-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="535" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -960,7 +942,6 @@
 		<set name="oncrit_chance" val="20" />
 		<set name="oncrit_skill" val="13114-1" />
 		<set name="item_skill" val="3047-3;3552-1" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="338" />
@@ -991,7 +972,6 @@
 		<set name="oncrit_chance" val="20" />
 		<set name="oncrit_skill" val="13114-1" />
 		<set name="item_skill" val="3014-3;3552-1" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="338" />
@@ -1020,7 +1000,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3014-3;3047-3" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="338" />
@@ -1049,7 +1028,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3575-5;3047-3" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="338" />
@@ -1081,7 +1059,6 @@
 		<set name="oncrit_chance" val="20" />
 		<set name="oncrit_skill" val="13114-1" />
 		<set name="item_skill" val="3047-3;3552-1" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="338" />
@@ -1113,7 +1090,6 @@
 		<set name="oncrit_chance" val="20" />
 		<set name="oncrit_skill" val="13114-1" />
 		<set name="item_skill" val="3575-5;3552-1" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="338" />
@@ -1143,7 +1119,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3576-5;3047-3" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="411" />
@@ -1173,7 +1148,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3047-3;3575-5" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="411" />
@@ -1203,7 +1177,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3575-5;3576-5" />
-		<set name="enchant4_skill" val="" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
 			<set order="0x08" stat="pAtk" val="411" />
@@ -1233,7 +1206,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3564-4;13062-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1261,7 +1233,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13062-4;3013-3" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1289,7 +1260,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3013-3;3564-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1317,7 +1287,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13062-2;3567-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1346,7 +1315,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3567-9;3573-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1375,7 +1343,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3573-6;13062-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="422" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1404,7 +1371,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3567-9;3573-4" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1433,7 +1399,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="3573-5;13062-1" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />
@@ -1462,7 +1427,6 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="item_skill" val="13062-3;3567-9" />
-		<set name="enchant4_skill" val="" />
 		<for>
 			<set order="0x08" stat="pAtk" val="514" />
 			<set order="0x08" stat="mAtk" val="186" />

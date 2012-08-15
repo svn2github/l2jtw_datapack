@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="17754" type="EtcItem" name="SoulShot (R-Grade)">
+	<item id="17754" type="EtcItem" name="SSoulshot (R-grade)"><!-- Check OK -->
 		<set name="icon" val="icon.etc_spell_shot_gold_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="paper" />
-		<set name="weight" val="2" />
-		<set name="price" val="150" />
+		<set name="weight" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SoulShots" />

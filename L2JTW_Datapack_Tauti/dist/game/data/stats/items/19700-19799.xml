@@ -6,13 +6,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="bone" />
 		<set name="bodypart" val="head" />
-		<set name="armor_type" val="heavy" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="150" />
 			<add order="0x10" stat="rEvas" val="1" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19715" type="Armor" name="Blessed Durandia Breastplate"><!-- Check OK -->
@@ -28,6 +28,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="401" />
 			<set order="0x08" stat="pAtk" val="41" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19716" type="Armor" name="Blessed Durandia Gaiters"><!-- Check OK -->
@@ -43,6 +44,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="250" />
 			<set order="0x08" stat="rCrit" val="2" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19717" type="Armor" name="Blessed Durandia Gauntlets"><!-- Check OK -->
@@ -51,13 +53,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="heavy" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
 			<add order="0x10" stat="accCombat" val="1.15" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19718" type="Armor" name="Blessed Durandia Boots"><!-- Check OK -->
@@ -66,12 +68,12 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="heavy" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19719" type="Armor" name="Blessed Durandia Shield"><!-- Check OK -->
@@ -96,13 +98,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="bone" />
 		<set name="bodypart" val="head" />
-		<set name="armor_type" val="light" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="150" />
 			<add order="0x10" stat="rEvas" val="1" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19721" type="Armor" name="Blessed Durandia Leather Armor"><!-- Check OK -->
@@ -118,6 +120,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="301" />
 			<set order="0x08" stat="pAtk" val="41" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19722" type="Armor" name="Blessed Durandia Leather Leggings"><!-- Check OK -->
@@ -133,6 +136,7 @@
 		<for>
 			<add order="0x10" stat="pDef" val="188" />
 			<set order="0x08" stat="rCrit" val="2" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19723" type="Armor" name="Blessed Durandia Leather Gloves"><!-- Check OK -->
@@ -141,13 +145,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="light" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
 			<add order="0x10" stat="accCombat" val="1.15" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19724" type="Armor" name="Blessed Durandia Leather Boots"><!-- Check OK -->
@@ -156,12 +160,12 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="light" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19725" type="Armor" name="Blessed Durandia Circlet"><!-- Check OK -->
@@ -170,13 +174,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="bone" />
 		<set name="bodypart" val="head" />
-		<set name="armor_type" val="magic" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="150" />
 			<add order="0x10" stat="rEvas" val="1" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19726" type="Armor" name="Blessed Durandia Tunic"><!-- Check OK -->
@@ -193,6 +197,7 @@
 			<add order="0x40" stat="maxMp" val="649" />
 			<add order="0x10" stat="pDef" val="201" />
 			<set order="0x08" stat="pAtk" val="41" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19727" type="Armor" name="Blessed Durandia Stockings"><!-- Check OK -->
@@ -209,6 +214,7 @@
 			<add order="0x40" stat="maxMp" val="427" />
 			<add order="0x10" stat="pDef" val="125" />
 			<set order="0x08" stat="rCrit" val="2" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19728" type="Armor" name="Blessed Durandia Gloves"><!-- Check OK -->
@@ -217,13 +223,13 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="gloves" />
-		<set name="armor_type" val="magic" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
 			<add order="0x10" stat="accCombat" val="1.15" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19729" type="Armor" name="Blessed Durandia Shoes"><!-- Check OK -->
@@ -232,25 +238,22 @@
 		<set name="default_action" val="equip" />
 		<set name="material" val="leather" />
 		<set name="bodypart" val="feet" />
-		<set name="armor_type" val="magic" />
 		<set name="crystal_type" val="r99" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0x10" stat="pDef" val="100" />
+			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
 	<item id="19730" type="Armor" name="Immortal Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="117" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -264,11 +267,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="313" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="7520" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -282,11 +283,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="195" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="3170" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -297,14 +296,11 @@
 	<item id="19733" type="Armor" name="Immortal Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="78" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -315,14 +311,11 @@
 	<item id="19734" type="Armor" name="Immortal Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t501_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="78" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -335,11 +328,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="0" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1130" />
-		<set name="price" val="0" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -351,14 +342,11 @@
 	<item id="19736" type="Armor" name="Immortal Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="117" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -372,11 +360,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="313" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="4140" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -390,11 +376,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="195" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1320" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -405,14 +389,11 @@
 	<item id="19739" type="Armor" name="Immortal Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="78" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -423,14 +404,11 @@
 	<item id="19740" type="Armor" name="Immortal Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t502_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="78" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -441,14 +419,11 @@
 	<item id="19741" type="Armor" name="Immortal Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="117" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -462,11 +437,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="313" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1750" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -481,11 +454,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="195" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="850" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -497,14 +468,11 @@
 	<item id="19744" type="Armor" name="Immortal Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="78" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -515,14 +483,11 @@
 	<item id="19745" type="Armor" name="Immortal Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t503_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="78" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -533,14 +498,11 @@
 	<item id="19746" type="Armor" name="Twilight Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="126" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -554,11 +516,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="758" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="7520" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -572,11 +532,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="473" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="3170" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -587,14 +545,11 @@
 	<item id="19749" type="Armor" name="Twilight Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="189" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -605,14 +560,11 @@
 	<item id="19750" type="Armor" name="Twilight Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t601_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="189" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -625,11 +577,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="0" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1130" />
-		<set name="price" val="0" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -641,14 +591,11 @@
 	<item id="19752" type="Armor" name="Twilight Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="284" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -662,11 +609,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="758" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="4140" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -680,11 +625,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="473" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1320" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -695,14 +638,11 @@
 	<item id="19755" type="Armor" name="Twilight Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="189" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -713,14 +653,11 @@
 	<item id="19756" type="Armor" name="Twilight Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t602_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="189" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -731,14 +668,11 @@
 	<item id="19757" type="Armor" name="Twilight Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="284" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -752,11 +686,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="758" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1750" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -771,11 +703,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="473" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="850" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -787,14 +717,11 @@
 	<item id="19760" type="Armor" name="Twilight Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="189" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -805,14 +732,11 @@
 	<item id="19761" type="Armor" name="Twilight Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t603_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="189" />
 		<set name="crystal_type" val="r" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -823,14 +747,11 @@
 	<item id="19762" type="Armor" name="Seraph Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="613" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -844,11 +765,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1635" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="7520" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -862,11 +781,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1022" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="3170" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -877,14 +794,11 @@
 	<item id="19765" type="Armor" name="Seraph Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="408" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -895,14 +809,11 @@
 	<item id="19766" type="Armor" name="Seraph Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t401_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="408" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -915,11 +826,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="0" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1130" />
-		<set name="price" val="0" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -931,14 +840,11 @@
 	<item id="19768" type="Armor" name="Seraph Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="613" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -952,11 +858,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1635" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="4140" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -970,11 +874,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1022" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1320" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -985,14 +887,11 @@
 	<item id="19771" type="Armor" name="Seraph Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t402_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="408" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1003,14 +902,11 @@
 	<item id="19772" type="Armor" name="Seraph Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t402_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="408" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1021,14 +917,11 @@
 	<item id="19773" type="Armor" name="Seraph Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="613" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1042,11 +935,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1635" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1750" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1061,11 +952,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1022" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="850" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1077,14 +966,11 @@
 	<item id="19776" type="Armor" name="Seraph Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t403_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="408" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1095,14 +981,11 @@
 	<item id="19777" type="Armor" name="Seraph Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t403_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="408" />
 		<set name="crystal_type" val="r95" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1113,14 +996,11 @@
 	<item id="19778" type="Armor" name="Eternal Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1351" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1134,11 +1014,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="3603" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="7520" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1152,11 +1030,9 @@
 		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2252" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="3170" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1167,14 +1043,11 @@
 	<item id="19781" type="Armor" name="Eternal Gauntlets"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t701_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="900" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1185,14 +1058,11 @@
 	<item id="19782" type="Armor" name="Eternal Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t701_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="heavy" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="900" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1205,11 +1075,9 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="0" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1130" />
-		<set name="price" val="0" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -1221,14 +1089,11 @@
 	<item id="19784" type="Armor" name="Eternal Leather Helmet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="135" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1242,11 +1107,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="3603" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="4140" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1260,11 +1123,9 @@
 		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2252" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1320" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1275,14 +1136,11 @@
 	<item id="19787" type="Armor" name="Eternal Leather Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t702_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="900" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1293,14 +1151,11 @@
 	<item id="19788" type="Armor" name="Eternal Leather Boots"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t702_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="Light" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="900" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1311,14 +1166,11 @@
 	<item id="19789" type="Armor" name="Eternal Circlet"><!-- Check OK -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="1351" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="530" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1332,11 +1184,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="3603" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1750" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1351,11 +1201,9 @@
 		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="2252" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="850" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1367,14 +1215,11 @@
 	<item id="19792" type="Armor" name="Eternal Gloves"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t703_g_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="900" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="510" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
@@ -1385,14 +1230,11 @@
 	<item id="19793" type="Armor" name="Eternal Shoes"><!-- Check OK -->
 		<set name="icon" val="icon.armor_t703_b_i00" />
 		<set name="default_action" val="equip" />
-		<set name="armor_type" val="magic" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
-		<set name="crystal_count" val="900" />
 		<set name="crystal_type" val="r99" />
 		<set name="material" val="bone" />
 		<set name="weight" val="1070" />
-		<set name="price" val="0" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<for>
