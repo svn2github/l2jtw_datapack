@@ -55,7 +55,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="19447" type="EtcItem" name="Scroll: Enchant Weapon (R-Grade)">
-		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_wp_s_i00" />
+		<set name="icon" val="icon.blessed_scroll_of_enchant_weapon_i06" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
 		<set name="immediate_effect" val="1" />
@@ -72,7 +72,7 @@
 		<set name="item_skill" val="12872-1" />
 	</item>
 	<item id="19448" type="EtcItem" name="Scroll: Enchant Armor (R-Grade)">
-		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_ap_s_i00" />
+		<set name="icon" val="icon.blessed_scroll_of_enchant_armor_i06" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_am" />
 		<set name="immediate_effect" val="1" />
