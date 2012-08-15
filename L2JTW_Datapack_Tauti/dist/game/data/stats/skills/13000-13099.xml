@@ -698,7 +698,7 @@
 		<table name="#mAtk"> 0 0 0 1.15 </table>
 		<table name="#mAtk2"> 0 0 256 256 </table>
 		<table name="#mrCrit"> 0 0 0 1.03 </table>
-		<table name="#mCritPower"> 0 0 0 297 </table>
+		<table name="#mCritPower"> 0 0 0 1.297 </table>
 		<table name="#Res"> 0 0 0 15 </table>
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="P" />
@@ -709,7 +709,7 @@
 			<add order="0x40" stat="mAtk" val="#mAtk2" />
 			<add order="0x40" stat="maxMp" val="#maxMp" />
 			<sub order="0x40" stat="sleepVuln" val="#Vuln" />
-			<add order="0x40" stat="mCritPower" val="#mCritPower" />
+			<mul order="0x30" stat="mCritPower" val="#mCritPower" />
 			<mul order="0x30" stat="mCritRate" val="#mrCrit" />
 			<add order="0x40" stat="fireRes" val="#Res" />
 			<add order="0x40" stat="waterRes" val="#Res" />
