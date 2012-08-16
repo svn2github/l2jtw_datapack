@@ -71,7 +71,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="10608" type="EtcItem" name="Forgotten Scroll - Chant of Combat">
-		<set name="icon" val="icon.etc_orcish_talisman_i00" />
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
@@ -81,7 +81,7 @@
 		<set name="item_skill" val="2505-1" />
 	</item>
 	<item id="10609" type="EtcItem" name="Forgotten Scroll - Chant of Critical">
-		<set name="icon" val="icon.etc_orcish_talisman_i00" />
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
@@ -91,7 +91,7 @@
 		<set name="item_skill" val="2506-1" />
 	</item>
 	<item id="10610" type="EtcItem" name="Forgotten Scroll - Chant of Blood Awakening">
-		<set name="icon" val="icon.etc_orcish_talisman_i00" />
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
@@ -391,7 +391,7 @@
 		<set name="useSkillDisTime" val="10" />
 	</item>
 	<item id="10632" type="EtcItem" name="Wondrous Cubic">
-		<set name="icon" val="icon.cube_event_i00" />
+		<set name="icon" val="icon.cube_upgrade" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="elixir" />
 		<set name="material" val="fish" />
@@ -405,7 +405,7 @@
 		<set name="item_skill" val="2510-1" />
 	</item>
 	<item id="10633" type="EtcItem" name="Cube Fragment Armor - D">
-		<set name="icon" val="icon.event_cubic_piece_i02" />
+		<set name="icon" val="icon.event_cubic_piece_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
@@ -417,19 +417,19 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="10635" type="EtcItem" name="Cube Fragment Armor - B">
-		<set name="icon" val="icon.event_cubic_piece_i00" />
+		<set name="icon" val="Branchsys2.icon.event_cubic_a_piece_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="10636" type="EtcItem" name="Cube Fragment Armor - A">
-		<set name="icon" val="icon.event_cubic_piece_i03" />
+		<set name="icon" val="Branchsys2.icon.event_cubic_a_piece_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="10637" type="EtcItem" name="Cube Fragment Armor - S">
-		<set name="icon" val="icon.event_cubic_piece_i05" />
+		<set name="icon" val="Branchsys2.icon.event_cubic_a_piece_i04" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
@@ -478,25 +478,25 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="10643" type="EtcItem" name="Cube Fragment Weapon - C">
-		<set name="icon" val="icon.event_cubic_piece_i01" />
-		<set name="immediate_effect" val="1" />
-		<set name="material" val="paper" />
-		<set name="is_stackable" val="true" />
-	</item>
-	<item id="10644" type="EtcItem" name="Cube Fragment Weapon - B">
-		<set name="icon" val="icon.event_cubic_piece_i00" />
-		<set name="immediate_effect" val="1" />
-		<set name="material" val="paper" />
-		<set name="is_stackable" val="true" />
-	</item>
-	<item id="10645" type="EtcItem" name="Cube Fragment Weapon - A">
 		<set name="icon" val="icon.event_cubic_piece_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
+	<item id="10644" type="EtcItem" name="Cube Fragment Weapon - B">
+		<set name="icon" val="Branchsys2.icon.event_cubic_w_piece_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="10645" type="EtcItem" name="Cube Fragment Weapon - A">
+		<set name="icon" val="Branchsys2.icon.event_cubic_w_piece_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
 	<item id="10646" type="EtcItem" name="Cube Fragment Weapon - S">
-		<set name="icon" val="icon.event_cubic_piece_i05" />
+		<set name="icon" val="Branchsys2.icon.event_cubic_w_piece_i04" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />

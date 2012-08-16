@@ -12,7 +12,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="18564" type="EtcItem" name="Mid-grade Life Stone (R-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_general_i03" />
+		<set name="icon" val="icon.r_mineral_special_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -22,7 +22,7 @@
 		</cond>
 	</item>
 	<item id="18565" type="EtcItem" name="High-grade Life Stone (R-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_general_i03" />
+		<set name="icon" val="icon.r_mineral_rare_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -32,7 +32,7 @@
 		</cond>
 	</item>
 	<item id="18566" type="EtcItem" name="Top-grade Life Stone (R-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_general_i03" />
+		<set name="icon" val="icon.r_mineral_unique_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -42,7 +42,7 @@
 		</cond>
 	</item>
 	<item id="18569" type="EtcItem" name="Improved Life Stone (R95-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_special_i03" />
+		<set name="icon" val="icon.r95_mineral_special_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -52,7 +52,7 @@
 		</cond>
 	</item>
 	<item id="18570" type="EtcItem" name="Improved Life Stone (R95-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_special_i03" />
+		<set name="icon" val="icon.r95_mineral_rare_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -62,7 +62,7 @@
 		</cond>
 	</item>
 	<item id="18571" type="EtcItem" name="Improved Life Stone (R95-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_special_i03" />
+		<set name="icon" val="icon.r95_mineral_unique_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -72,7 +72,7 @@
 		</cond>
 	</item>
 	<item id="18574" type="EtcItem" name="Improved Life Stone (R99-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_rare_i03" />
+		<set name="icon" val="icon.r99_mineral_special_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -82,7 +82,7 @@
 		</cond>
 	</item>
 	<item id="18575" type="EtcItem" name="Improved Life Stone (R99-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_rare_i03" />
+		<set name="icon" val="icon.r99_mineral_rare_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />
@@ -92,7 +92,7 @@
 		</cond>
 	</item>
 	<item id="18576" type="EtcItem" name="Improved Life Stone (R99-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_mineral_rare_i03" />
+		<set name="icon" val="icon.r99_mineral_unique_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="weight" val="2" />

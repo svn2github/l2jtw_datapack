@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="17754" type="EtcItem" name="SSoulshot (R-grade)"><!-- Check OK -->
-		<set name="icon" val="icon.etc_spell_shot_gold_i00" />
+		<set name="icon" val="icon.soulshot_r_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="r" />

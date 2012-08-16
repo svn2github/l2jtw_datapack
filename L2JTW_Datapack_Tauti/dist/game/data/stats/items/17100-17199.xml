@@ -655,7 +655,7 @@
 		<set name="item_skill" val="9160-1" />
 	</item>
 	<item id="17141" type="Armor" name="Ribbon Hairband - Promotion">
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="wood" />
@@ -872,7 +872,7 @@
 		<set name="for_npc" val="true" />
 	</item>
 	<item id="17161" type="EtcItem" name="Special Gift of April Fool's Day (Event)">
-		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="fish" />

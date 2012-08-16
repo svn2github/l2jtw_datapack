@@ -365,7 +365,7 @@
 	<item id="21730" type="EtcItem" name="Letter Collector's Gift - Event">
 		<!-- Description: 7th Anniversary. Letter Collector's Gift. Upon use, for 2 hours, increases Atk. Spd. +15%, Casting Spd. +15%, Speed +20, and changes the appearance of the equipped weapon and armor to look like items from the past. Reuse time is 60 minutes. -->
 		<!-- Update by pmq -->
-		<set name="icon" val="BranchSys.icon.br_shield_bread_i01" />
+		<set name="icon" val="icon.shield_bread_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
 		<set name="immediate_effect" val="1" />

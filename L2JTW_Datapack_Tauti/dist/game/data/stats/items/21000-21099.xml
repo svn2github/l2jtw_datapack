@@ -1062,7 +1062,7 @@
 		<set name="item_skill" val="3267-1;21219-1;23230-1" />
 	</item>
 	<item id="21061" type="Armor" name="Agathion Seal Bracelet - Handy - 7-day limited period">
-		<set name="icon" val="BranchSys2.icon.br_aga_threehead_i00" />
+		<set name="icon" val="BranchSys2.icon.br_aga_block_mother_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="immediate_effect" val="1" />
@@ -1079,7 +1079,7 @@
 		<set name="time" val="10080" />
 	</item>
 	<item id="21062" type="Armor" name="Agathion Seal Bracelet - Handy">
-		<set name="icon" val="BranchSys2.icon.br_aga_threehead_i00" />
+		<set name="icon" val="BranchSys2.icon.br_aga_block_mother_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="immediate_effect" val="1" />
@@ -1619,13 +1619,13 @@
 	</item>
 	<item id="21096" type="EtcItem" name="Shiny Cube Fragment Armor - D">
 		<!-- Description: Speak with a warehouse keeper to exchange this for a D Grade Blessed Armor Enchant Scroll. -->
-		<set name="icon" val="Branchsys2.icon.shine_cubic_a_piece_i00" />
+		<set name="icon" val="icon.event_cubic_piece_i00" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="21097" type="EtcItem" name="Shiny Cube Fragment Armor - C">
 		<!-- Description: Speak with a warehouse keeper to exchange this for a C Grade Blessed Armor Enchant Scroll. -->
-		<set name="icon" val="Branchsys2.icon.shine_cubic_a_piece_i01" />
+		<set name="icon" val="icon.event_cubic_piece_i01" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>

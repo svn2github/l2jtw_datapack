@@ -16,7 +16,7 @@
 		</for>
 	</item>
 	<item id="17401" type="Armor" name="Seraph Shield"><!-- Check OK -->
-		<set name="icon" val="icon.weapon_sacon_i00" />
+		<set name="icon" val="icon.beranka_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
@@ -457,7 +457,7 @@
 		</for>
 	</item>
 	<item id="17424" type="Weapon" name="Amaranthine Buster"><!-- Check OK -->
-		<set name="icon" val="icon.weapon_serapear_i00" />
+		<set name="icon" val="icon.weaon_serapear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
 		<set name="bodypart" val="rhand" />
@@ -691,7 +691,7 @@
 		</for>
 	</item>
 	<item id="17435" type="Armor" name="Eternal Shield"><!-- Check OK -->
-		<set name="icon" val="icon.weapon_sacon_i00" />
+		<set name="icon" val="icon.weapon_akra_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
@@ -1369,7 +1369,7 @@
 		</for>
 	</item>
 	<item id="17469" type="Armor" name="Blessed Durandia Shield"><!-- Check OK -->
-		<set name="icon" val="icon.weapon_sacon_i00" />
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
@@ -1549,7 +1549,7 @@
 		</for>
 	</item>
 	<item id="17480" type="Armor" name="Blessed Durandia Sigil"><!-- Check OK -->
-		<set name="icon" val="icon.elos_i00" />
+		<set name="icon" val="icon.verper_sigil_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
@@ -1565,7 +1565,7 @@
 		</for>
 	</item>
 	<item id="17481" type="Armor" name="Blessed Durandia Necklace"><!-- Check OK -->
-		<set name="icon" val="icon.r991_necklace_i00" />
+		<set name="icon" val="icon.vesper_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="1" />
@@ -1580,7 +1580,7 @@
 		</for>
 	</item>
 	<item id="17482" type="Armor" name="Blessed Durandia Earring"><!-- Check OK -->
-		<set name="icon" val="icon.r991_earring_i00" />
+		<set name="icon" val="icon.vesper_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="1" />
@@ -1595,7 +1595,7 @@
 		</for>
 	</item>
 	<item id="17483" type="Armor" name="Blessed Durandia Ring"><!-- Check OK -->
-		<set name="icon" val="icon.r991_ring_i00" />
+		<set name="icon" val="icon.vesper_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="1" />
