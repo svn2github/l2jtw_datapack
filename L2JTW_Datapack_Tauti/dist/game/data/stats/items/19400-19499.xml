@@ -49,7 +49,7 @@
 		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
-		<set name="weight" val="120"/>
+		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -61,7 +61,7 @@
 		<set name="etcitem_type" val="bless_scrl_enchant_am" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
-		<set name="weight" val="120"/>
+		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
