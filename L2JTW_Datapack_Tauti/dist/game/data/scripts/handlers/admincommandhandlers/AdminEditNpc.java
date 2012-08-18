@@ -1013,6 +1013,12 @@ public class AdminEditNpc implements IAdminCommandHandler
 		}
 		
 		replyMSG.append("</table><table width=300 bgcolor=666666 border=0>"); //rocknow-God
+		// l2jtw add start
+		if (page > 1 || hasMore)
+		{
+			replyMSG.append("<tr>");
+		}
+		// l2jtw add end
 		
 		if (page > 1)
 		{
