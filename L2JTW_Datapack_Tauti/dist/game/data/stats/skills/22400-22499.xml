@@ -54,4 +54,40 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="target" val="TARGET_NONE" />
 	</skill>
+	<skill id="22438" levels="1" name="Scroll: Enchant Weapon (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_WEAPON" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="22439" levels="1" name="Crystal: Enchant Ancient Weapon (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_WEAPON" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="22440" levels="1" name="Holy Weapon Enchant Crystal (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_WEAPON" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="22441" levels="1" name="Scroll: Enchant Armor (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_ARMOR" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="22442" levels="1" name="Crystal: Enchant Ancient Armor (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_ARMOR" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="22443" levels="1" name="Holy Armor Enchant Crystal (R-grade)"><!-- Check OK -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="ENCHANT_ARMOR" />
+		<set name="operateType" val="A1" />
+	</skill>
 </list>

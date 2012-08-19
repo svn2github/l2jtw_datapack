@@ -49,30 +49,36 @@
 	<enchant id="22008" targetGrade="b" successRate="73.326" />
 	<enchant id="22009" targetGrade="a" successRate="73.326" />
 	<enchant id="20517" targetGrade="s" successRate="73.326" />
+	<enchant id="22425" targetGrade="r" successRate="73.326" /><!-- l2jtw -->
 	<!-- Armor Enchant Scrolls -->
 	<enchant id="22010" isWeapon="false" targetGrade="d" successRate="73.326" />
 	<enchant id="22011" isWeapon="false" targetGrade="c" successRate="73.326" />
 	<enchant id="22012" isWeapon="false" targetGrade="b" successRate="73.326" />
 	<enchant id="22013" isWeapon="false" targetGrade="a" successRate="73.326" />
 	<enchant id="20518" isWeapon="false" targetGrade="s" successRate="73.326" />
+	<enchant id="22428" isWeapon="false" targetGrade="r" successRate="73.326" /><!-- l2jtw -->
 
 	<!-- Ancient Weapon Enchant Crystal -->
 	<enchant id="22014" isSafe="true" targetGrade="b" maxEnchant="16" successRate="73.326" />
 	<enchant id="22015" isSafe="true" targetGrade="a" maxEnchant="16" successRate="73.326" />
 	<enchant id="20519" isSafe="true" targetGrade="s" maxEnchant="16" successRate="73.326" />
+	<enchant id="22426" isSafe="true" targetGrade="r" maxEnchant="16" successRate="73.326" /><!-- l2jtw -->
 	<!-- Ancient Armor Enchant Crystal -->
 	<enchant id="22016" isWeapon="false" isSafe="true" targetGrade="b" maxEnchant="16" successRate="73.326" />
 	<enchant id="22017" isWeapon="false" isSafe="true" targetGrade="a" maxEnchant="16" successRate="73.326" />
 	<enchant id="20520" isWeapon="false" isSafe="true" targetGrade="s" maxEnchant="16" successRate="73.326" />
+	<enchant id="22429" isWeapon="false" isSafe="true" targetGrade="r" maxEnchant="16" successRate="73.326" /><!-- l2jtw -->
 
 	<!-- Divine Weapon Enchant Crystal -->
 	<enchant id="22018" targetGrade="b" successRate="100" />
 	<enchant id="22019" targetGrade="a" successRate="100" />
 	<enchant id="20521" targetGrade="s" successRate="100" />
+	<enchant id="22427" targetGrade="r" successRate="100" /><!-- l2jtw -->
 	<!-- Divine Armor Enchant Crystal -->
 	<enchant id="22020" isWeapon="false" targetGrade="b" successRate="100" />
 	<enchant id="22021" isWeapon="false" targetGrade="a" successRate="100" />
 	<enchant id="20522" isWeapon="false" targetGrade="s" successRate="100" />
+	<enchant id="22430" isWeapon="false" targetGrade="r" successRate="100" /><!-- l2jtw -->
 
 	<!-- Scroll: Enchant Weapon of Destruction -->
 	<enchant id="22221" isSafe="true" targetGrade="s" maxEnchant="16" />
@@ -80,12 +86,15 @@
 	<enchant id="22225" isSafe="true" targetGrade="b" maxEnchant="16" />
 	<enchant id="22227" isSafe="true" targetGrade="c" maxEnchant="16" />
 	<enchant id="22229" isSafe="true" targetGrade="d" maxEnchant="16" />
+	<enchant id="33478" isSafe="true" targetGrade="r" maxEnchant="16" /><!-- l2jtw -->
 	<!-- Scroll: Enchant Armor of Destruction -->
 	<enchant id="22222" isWeapon="false" isSafe="true" targetGrade="s" maxEnchant="16" />
 	<enchant id="22224" isWeapon="false" isSafe="true" targetGrade="a" maxEnchant="16" />
 	<enchant id="22226" isWeapon="false" isSafe="true" targetGrade="b" maxEnchant="16" />
 	<enchant id="22228" isWeapon="false" isSafe="true" targetGrade="c" maxEnchant="16" />
 	<enchant id="22230" isWeapon="false" isSafe="true" targetGrade="d" maxEnchant="16" />
+	<enchant id="33479" isWeapon="false" isSafe="true" targetGrade="r" maxEnchant="16" /><!-- l2jtw -->
+
 
 	<!-- Master Yogi's Scroll: Enchant Weapon -->
 	<enchant id="13540">
