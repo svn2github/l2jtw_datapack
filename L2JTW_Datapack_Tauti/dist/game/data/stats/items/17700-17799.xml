@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="17700" type="EtcItem" name="Lv5 INT Symbol - Giant Dye"><!-- Check OK -->
+		<set name="icon" val="icon.lv5_1_dye_int"/>
+		<set name="etcitem_type" val="dye"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17701" type="EtcItem" name="Lv5 WIT Symbol - Giant Dye"><!-- Check OK -->
+		<set name="icon" val="icon.lv5_1_dye_wit"/>
+		<set name="etcitem_type" val="dye"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17702" type="EtcItem" name="Lv5 MEN Symbol - Giant Dye"><!-- Check OK -->
+		<set name="icon" val="icon.lv5_1_dye_men"/>
+		<set name="etcitem_type" val="dye"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+	</item>
 	<item id="17754" type="EtcItem" name="SSoulshot (R-grade)"><!-- Check OK -->
 		<set name="icon" val="icon.soulshot_r_i00" />
 		<set name="default_action" val="soulshot" />

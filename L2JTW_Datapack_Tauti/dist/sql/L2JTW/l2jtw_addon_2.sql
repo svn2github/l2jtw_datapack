@@ -564,7 +564,13 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (22428, 0, 10028, 29),
 (22429, 0, 10028, 30),
 (22430, 0, 10028, 31),
-(33479, 0, 10028, 32);
+(33479, 0, 10028, 32),
+(17697, 0, 10028, 33),
+(17698, 0, 10028, 34),
+(17699, 0, 10028, 35),
+(17700, 0, 10028, 36),
+(17701, 0, 10028, 37),
+(17702, 0, 10028, 38);
 
 REPLACE INTO `merchant_shopids` VALUES (10029, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -705,7 +711,7 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30146,30147,30148,30149,30150
 
 -- 「精靈村莊」加入新的 NPC
 REPLACE INTO `npc` VALUES
-(30146,30146,'LineageNPC.teleport_dummy',0,'',0,'','28','40',85,'etc','L2Teleporter',40,'4228','2038','100','50',40,43,30,21,20,20,0,0,'1000','350','700','250',299,4,398,0,0,0,50,120,0,1);
+(30146,30146,'LineageNPC.teleport_dummy',0,'傳送裝置',0,'','28','40',85,'etc','L2Teleporter',40,'4228','2038','100','50',40,43,30,21,20,20,0,0,'1000','350','700','250',299,4,398,0,0,0,50,120,0,1);
 
 REPLACE INTO `npcaidata` VALUES
 (30146,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
@@ -716,6 +722,8 @@ REPLACE INTO `npc_elementals` VALUES
 REPLACE INTO `spawnlist` VALUES
 ('',1,30146,45173,48889,-3056,0,0,0,60,0,0);
 
+-- 「精靈村莊」加入新的 NPC 的傳送
+-- 尚未加入全價/半價收費的對話
 REPLACE INTO `teleport` VALUES
 ('',3014601,-14593,123936,-3120,0,0,57),
 ('',3014602,115357,-178212,-928,0,0,57),
