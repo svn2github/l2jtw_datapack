@@ -115,16 +115,4 @@ UPDATE `char_templates` SET ClassName = '伊斯法師' where ClassId=144 limit 1
 UPDATE `char_templates` SET ClassName = '維因召喚士' where ClassId=145 limit 1;
 UPDATE `char_templates` SET ClassName = '艾羅牧師' where ClassId=146 limit 1;
 
-UPDATE `char_templates` SET `STR`=88, `CON`=82, `DEX`=55, `_INT`=39, `WIT`=39, `MEN`=38 WHERE `ClassId` in (0,1,2,3,4,5,6,7,8,9,88,89,90,91,92,93);
-UPDATE `char_templates` SET `STR`=82, `CON`=82, `DEX`=61, `_INT`=41, `WIT`=38, `MEN`=37 WHERE `ClassId` in (18,19,20,21,22,23,24,99,100,101,102);
-UPDATE `char_templates` SET `STR`=92, `CON`=77, `DEX`=56, `_INT`=42, `WIT`=39, `MEN`=35 WHERE `ClassId` in (31,32,33,34,35,36,37,106,107,108,109);
-UPDATE `char_templates` SET `STR`=88, `CON`=87, `DEX`=50, `_INT`=37, `WIT`=38, `MEN`=41 WHERE `ClassId` in (44,45,46,47,48,113,114);
-UPDATE `char_templates` SET `STR`=87, `CON`=85, `DEX`=53, `_INT`=39, `WIT`=37, `MEN`=40 WHERE `ClassId` in (53,54,55,56,57,117,118);
-UPDATE `char_templates` SET `STR`=88, `CON`=80, `DEX`=57, `_INT`=43, `WIT`=36, `MEN`=37 WHERE `ClassId` in (123,124,125,126,127,128,129,130,131,132,133,134,135,136);
-
-UPDATE `char_templates` SET `STR`=38, `CON`=41, `DEX`=27, `_INT`=79, `WIT`=78, `MEN`=78 WHERE `ClassId` in (10,11,12,13,14,15,16,17,94,95,96,97,98);
-UPDATE `char_templates` SET `STR`=36, `CON`=38, `DEX`=32, `_INT`=74, `WIT`=84, `MEN`=77 WHERE `ClassId` in (25,26,27,28,29,30,103,104,105);
-UPDATE `char_templates` SET `STR`=39, `CON`=37, `DEX`=30, `_INT`=85, `WIT`=77, `MEN`=73 WHERE `ClassId` in (38,39,40,41,42,43,110,111,112);
-UPDATE `char_templates` SET `STR`=40, `CON`=43, `DEX`=23, `_INT`=77, `WIT`=74, `MEN`=84 WHERE `ClassId` in (49,50,51,52,115,116);
-
 /***** Done by vdmyagami！ *****/
