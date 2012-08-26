@@ -400,7 +400,10 @@ public class Q350_EnhanceYourWeapon extends Quest
 			{
 				htmltext = npc.getNpcId() + "-01.htm";
 			}
-			htmltext = npc.getNpcId() + "-00.htm";
+			else
+			{
+				htmltext = npc.getNpcId() + "-00.htm";
+			}
 		}
 		else if (check(st))
 		{
