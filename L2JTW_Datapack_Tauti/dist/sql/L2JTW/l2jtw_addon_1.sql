@@ -1,37 +1,5 @@
 /************ Made in Taiwan ************/
 
--- 加入漏掉的32007加爾巴-釣魚會員
-REPLACE INTO `merchant_shopids` VALUES (3200700,32007);
-REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
-(7807,-1,3200700,0),
-(7808,-1,3200700,1),
-(7809,-1,3200700,2),
-(6520,-1,3200700,3),
-(6523,-1,3200700,4),
-(6526,-1,3200700,5),
-(8506,-1,3200700,6),
-(8509,-1,3200700,7),
-(8512,-1,3200700,8),
-(8484,-1,3200700,9),
-(8485,-1,3200700,10),
-(8486,-1,3200700,11),
-(6529,-1,3200700,12),
-(6530,-1,3200700,13),
-(6531,-1,3200700,14),
-(6532,-1,3200700,15),
-(6533,-1,3200700,16),
-(6534,-1,3200700,17),
-(7561,-1,3200700,18),
-(8193,-1,3200700,19),
-(8194,-1,3200700,20),
-(8195,-1,3200700,21),
-(8196,-1,3200700,22),
-(8197,-1,3200700,23),
-(8198,-1,3200700,24),
-(8199,-1,3200700,25),
-(8200,-1,3200700,26),
-(8202,-1,3200700,27);
-
 -- 修正NPC設定
 UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` = 32191; -- 修正漢娜琳 宗師的NPC類型
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` = 32074;    -- 修正古魯丁分會長的NPC類型
@@ -39,57 +7,6 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884
 
 -- 修正NPC掉落:修正封印大天使的掉落,因為spawnlist只有21070封印大天使,沒有21071封印大天使
 UPDATE `droplist` SET `mobId` = 21070 WHERE `mobId` = 21071;
-
--- 修正NPC位置
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30134,31605,31675,31679);   -- 刪除位置錯誤的NPC:傑斯密/金斯雷/維克特 馮 德伊克/尤斯特斯 馮 伊森
-DELETE FROM `spawnlist` WHERE `npc_templateid` = 31092 AND `locx` = 113481;    -- 刪除位置錯誤的NPC:財富的地下商人(水上都市海音斯)
-DELETE FROM `spawnlist` WHERE `npc_templateid` = 31677 AND `locx` = 110400;    -- 刪除位置錯誤的NPC:國境守備隊員
-DELETE FROM `spawnlist` WHERE `npc_templateid` = 31677 AND `locx` = 112816;    -- 刪除位置錯誤的NPC:國境守備隊員
-DELETE FROM `spawnlist` WHERE `npc_templateid` = 30768 AND `locx` = 86986;     -- 刪除位置錯誤的NPC:拍賣管理者(修加特城鎮)
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
-('oren09_npc2018_010', 1, 30134, 9689, 15550, -4574, 0, 0, 5892, 60, 0, 0),    -- 傑斯密(黑暗精靈村莊)
-('oren16_npc2218_016', 1, 31605, 85692, 16400, -2803, 0, 0, 38000, 60, 0, 0),  -- 金斯雷(象牙塔)
-('innadril09_npc2324_23', 1, 31092, 114486, 217413, -3631, 0, 0, 0, 60, 0, 0), -- 財富的地下商人(水上都市海音斯)
-('aden17_npc2317_01', 1, 31675, 111186, -13261, -1702, 0, 0, 13828, 60, 0, 0), -- 維克特 馮 德伊克(國境守備隊隊長)
-('aden17_npc2317_02', 1, 31679, 111532, -17238, -1702, 0, 0, 49586, 60, 0, 0), -- 尤斯特斯 馮 伊森(邊境警備隊隊長)
-('aden17_npc2317_03', 1, 31677, 111532, -13266, -1704, 0, 0, 14508, 60, 0, 0), -- 國境守備隊員
-('aden17_npc2317_03', 1, 31677, 111178, -17234, -1702, 0, 0, 46468, 60, 0, 0), -- 國境守備隊員
-('schuttgart', 1, 30767, 85792, -142809, -1341, 0, 0, 10508, 60, 0, 0);        -- 拍賣管理者(修加特城鎮)
-
--- 加入漏掉的NPC
-REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
-('unset', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0),    -- 維他命管理者(芙羅蘭村莊)
-('unset', 1, 31691, 86123, -145764, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86123, -145628, -1295, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86123, -145492, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86123, -145356, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86123, -145220, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86315, -145764, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86315, -145628, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86315, -145492, -1295, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86315, -145356, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
-('unset', 1, 31691, 86315, -145220, -1292, 0, 0, 0, 60, 0, 0);       -- 訓練用草人(修加特城鎮的戰士公會)
-
--- 修正地下競技場的入場管理員
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32491,32503,32513,32514,32515,32516,32377); -- 刪除錯誤的入場管理員
-UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32503); -- 柯雷塔的晶體的類型改為傳送
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
-('unset', 1, 32491, -82166, -49176, -10341, 0, 0, 31175, 60, 0, 0),  -- 地下競技場助手
-('unset', 1, 32503, -70661, -71066, -1419, 0, 0, 49151, 60, 0, 0),   -- 柯雷塔的晶體
-('unset', 1, 32513, -84640, -45360, -10728, 0, 0, 56156, 60, 0, 0),  -- 孔     入場管理員
-('unset', 1, 32514, -77408, -50656, -10728, 0, 0, 29664, 60, 0, 0),  -- 塔里翁 入場管理員
-('unset', 1, 32515, -81904, -53904, -10728, 0, 0, 17044, 60, 0, 0),  -- 利歐   入場管理員
-('unset', 1, 32516, -86359, -50593, -10728, 0, 0, 3704, 60, 0, 0),   -- 康丁斯 入場管理員
-('unset', 1, 32377, -79117, -45433, -10731, 0, 0, 40959, 60, 0, 0);  -- 庫朗   入場管理員
-
--- 加入移動到柯雷塔的晶體/各等級的地下競技場外面
-REPLACE INTO `teleport` VALUES
-('Fantasy Isle -> Underground Coliseum', '12060', '-82271', '-49196', '-10352', '0', '0', '57'),
-('Underground Coliseum -> Underground Coliseum LV40', '3249140', '-84451', '-45452', '-10728', '0', '0', '57'),
-('Underground Coliseum -> Underground Coliseum LV50', '3249150', '-86154', '-50429', '-10728', '0', '0', '57'),
-('Underground Coliseum -> Underground Coliseum LV60', '3249160', '-82009', '-53652', '-10728', '0', '0', '57'),
-('Underground Coliseum -> Underground Coliseum LV70', '3249170', '-77586', '-50503', '-10728', '0', '0', '57'),
-('Underground Coliseum -> Underground Coliseum LV00', '3249100', '-79309', '-45561', '-10728', '0', '0', '57');
 
 -- 導入l2jtw_addon_1.sql後,就可以馬上挑戰BOSS(等待下次挑戰的時間歸0)
 REPLACE INTO `grandboss_data` VALUES
@@ -132,10 +49,6 @@ ALTER TABLE `castle` DROP PRIMARY KEY, ADD PRIMARY KEY (`id`);
 UPDATE `castle` SET `siegeDate` = '978782400000' WHERE `siegeDate` = '0' AND `id` IN (1,2,5,8,9);
 UPDATE `castle` SET `siegeDate` = '979459200000' WHERE `siegeDate` = '0' AND `id` IN (3,4,6,7);
 
--- 修正奇岩港口的傳送價格
-UPDATE `teleport` SET `price` = '5200' WHERE `id` IN (63);
-UPDATE `teleport` SET `price` = '7100' WHERE `id` IN (107);
-
 -- 修正狩獵首領重生時，HP/MP全滿 (感謝 wolo 提供)
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 
@@ -145,7 +58,6 @@ Delete From `spawnlist` Where `npc_templateid` in (32628,32629);
 -- 修正NPC
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- 碼頭巡邏兵的類型改為一般NPC
 UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32540,32542,32602); -- 深淵的守門人/安定的再生種子/臨時傳送師的類型改為傳送
-UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND `heading` = '20771'; -- 修正飛空艇控制裝置的面向
 
 -- 加入新傳送
 REPLACE INTO `teleport` VALUES
@@ -161,22 +73,11 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30992,30993,30994);
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
 -- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
--- 聖翼使命的斗篷改為通用,不再分重/輕/法/闇天使
-DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,13891,13892,14601,14602,14608,14610); -- 刪除輕/法/闇天使的斗篷的販賣
-
 
 /************ Add by pmq *********/
 -- 加入漏掉的NPC
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35601,35602,35603,35605,35623,35624,35628,35638,35639,35640,35641,35642,32761,32777,32778,32781); -- 刪除不正確位置的NPC
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
-('unset', 1, 35601, 141152, -124272, -1864, 0, 0, 10000, 60, 0, 0),  -- 守門人(虹彩泉根據地)
-('unset', 1, 35602, 140704, -124020, -1904, 0, 0, 34000, 60, 0, 0),  -- 守門人(虹彩泉根據地)
-('unset', 1, 35602, 140732, -123796, -1904, 0, 0, 2000, 60, 0, 0),   -- 守門人(虹彩泉根據地)
-('unset', 1, 35603, 152924, -126604, -2304, 0, 0, 33000, 60, 0, 0),  -- 入場管理員(虹彩泉根據地)
-('unset', 1, 35605, 140824, -124844, -1864, 0, 0, 10000, 60, 0, 0),  -- 安格特 執事(虹彩泉根據地)
-('unset', 1, 35623, 59884, -94204, -1344, 0, 0, 27000, 60, 0, 0),    -- 內城守門人(野獸農莊根據地)
-('unset', 1, 35624, 59920, -94336, -1344, 0, 0, 60000, 60, 0, 0),    -- 內城守門人(野獸農莊根據地)
-('unset', 1, 35628, 60880, -94320, -1344, 0, 0, 27000, 60, 0, 0),    -- 奎比亞 農場管理員(野獸農莊根據地)
 ('unset', 1, 35638, 56736, -26400, 568, 0, 0, 49000, 60, 0, 0),      -- 巴倫斯 飛龍管理員
 ('unset', 1, 35639, 58128, -32000, 296, 0, 0, 0, 60, 0, 0),          -- 傑卡德 傳令
 ('unset', 1, 35640, 58024, -25744, 592, 0, 0, 49000, 60, 0, 0),      -- 凡德羅 執事
@@ -876,16 +777,6 @@ REPLACE INTO droplist VALUES
 (22376,15813,1,1,-1,500),
 (22376,15814,1,1,-1,500);
 
--- 修正嗨翻天NPC位置
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30949,30952,32568,30969,32595,32596);
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
-('aden02_npc2318_01',1,30949,114201,13426,-5104,0,0,1722,60,0,0),      -- 調查員 凱普龍
-('aden02_npc2318_01',1,30952,114178,13343,-5104,0,0,0,60,0,0),         -- 因次界點
-('Oren Area',1,32568,88125,38448,-3360,0,0,0,60,0,0),                  -- 可疑的屍體
-('innadril09_npc2324_07',1,30969,109707,220048,-3520,0,0,7656,60,0,0), -- 艾森海內
-('unset',1,32595,152386,-57629,-3424,0,0,0,60,0,0),                    -- 偉大的師傅 勞倫斯
-('unset',1,32596,37069,-49877,-1128,0,0,15920,60,0,0);                 -- 賢者圖書館長 索比亞
-
 -- 修正 Q196 怪物設定為主動
 UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27371; -- 莉莉恩殺戮者
 UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27372; -- 莉莉恩魔導士
@@ -911,33 +802,6 @@ UPDATE npc SET type = 'L2Monster' WHERE id = 18835;  -- 黎明的警衛隊員
 UPDATE `npcaidata` SET `aggro` = 150 WHERE `npcId` = 18835;
 UPDATE npc SET type = 'L2Monster' WHERE id = 27351;  -- 黎明的警衛隊員
 UPDATE `npcaidata` SET `aggro` = 150 WHERE `npcId` = 27351;
-
--- 增加走動NPC 陰暗氣息的 追隨者
-UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4309;
-UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4310;
-UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4311;
-UPDATE npc SET type = 'L2NpcWalker', collision_height=25 WHERE id = 4312;
-
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (4309,4310,4311,4312);
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
-('gludio',1,4309,-14169,121265,-2993,0,0,0,60,0,0),
-('giran',1,4310,84864,147764,-3409,0,0,0,60,0,0),
-('aden',1,4311,146361,24146,-2017,0,0,0,60,0,0),
-('rune',1,4312,43393,-46803,-807,0,0,0,60,0,0);
-
--- 嗨翻天刪除商人
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31432,31433,31438);
-
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32864,32865,32866,32867,32868,32869,32870,32891);
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
-('unset',1,32864,117170,76822,-2699,0,0,35861,60,0,0),
-('unset',1,32865,99110,110356,-3706,0,0,57007,60,0,0),
-('unset',1,32866,116945,113563,-3066,0,0,11829,60,0,0),
-('unset',1,32867,113117,121029,-3721,0,0,5208,60,0,0),
-('unset',1,32868,148549,110545,-3944,0,0,30357,60,0,0),
-('unset',1,32869,146025,111229,-3581,0,0,61567,60,0,0),
-('unset',1,32870,73305,118409,-3711,0,0,40573,60,0,0),
-('unset',1,32891,131140,114163,-3709,0,0,30892,60,0,0);
 
 -- 刪除舊龍之谷怪物 NPC
 DELETE FROM `spawnlist` WHERE `location` IN ('giran05_tb2421_59','giran05_tb2421_20','giran05_tb2421_29','giran03_tb2321_24','giran05_tb2421_10','giran05_tb2421_81','giran03_2221_02','giran03_2221_05','giran03_2221_08','giran03_2221_15','giran03_2221_19','giran03_2221_p05','giran03_2321_02','giran03_2321_04','giran03_2321_07','giran03_2321_09','giran03_2321_12','giran03_2321_15','giran05_2421_01','giran05_2421_08','giran05_2421_10','giran05_2421_17','giran05_2421_18','giran05_2421_29','giran05_2421_38','giran05_2421_45','giran05_2421_50','giran05_2421_53','giran05_2421_68','giran05_2421_75','giran05_2421_p04','giran05_2421_p50','giran03_2221_H5');
@@ -3368,30 +3232,6 @@ REPLACE INTO `spawnlist` VALUES
 ('giran03_2221_H5', '1', '22858', '-114318', '-249558', '-2987', '0', '0', '47395', '60', '0', '0'),
 ('giran03_2221_H5', '1', '22860', '-113721', '-249152', '-2993', '0', '0', '13797', '60', '0', '0');
 
--- 增加夢幻島NPC 嗨翻天版本 12-09-2011
-UPDATE npc SET type = 'L2Warehouse' WHERE id = 4315;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4316;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4317;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4318;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4319;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4320;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4321;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4322;
-UPDATE npc SET type = 'L2Teleporter' WHERE id = 4323;
-
-DELETE FROM `spawnlist` WHERE `location` = 'FantasyIsle' AND `npc_templateid` IN (4315,4316,4317,4318,4319,4320,4321,4322,4323);
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4315', '-59288', '-56815', '-2042', '0', '0', '65275', '10', '0', '0');
--- REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4316', '-55534', '-58574', '-2015', '0', '0', '22295', '10', '0', '0'); -- Missing NPC Spawn
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4317', '-57387', '-54787', '-2015', '0', '0', '48792', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4318', '-58015', '-53378', '-2018', '0', '0', '42342', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4319', '-55349', '-56519', '-2015', '0', '0', '43325', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4320', '-55558', '-58521', '-2015', '0', '0', '15949', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4321', '-59111', '-59138', '-2030', '0', '0', '14587', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4322', '-61822', '-59510', '-2031', '0', '0', '231', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4323', '-61152', '-57754', '-2015', '0', '0', '0', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '32521', '-59680', '-57334', '-2043', '0', '0', '48969', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '32522', '-59760', '-57336', '-2043', '0', '0', '48810', '10', '0', '0');
-
 -- 拍照NPC傳送拍照位置
 DELETE FROM `teleport` WHERE `id` IN (12098, 12099, 12100, 12101, 12102, 12103, 12104, 12105, 12106, 12107); 
 REPLACE INTO `teleport` VALUES ('Photo Snow House', '12098', '-57530', '-54527', '-1581', '0', '0', '57'); -- NPCID 4317
@@ -3413,29 +3253,12 @@ UPDATE `npc` SET `collision_radius`=16,`collision_height`=27.5,`level`=79,`sex`=
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32862);
 REPLACE INTO `spawnlist` VALUES ('unset', '1', '32862', '43347', '-87923', '-2825', '0', '0', '37163', '10', '0', '0');
 
--- 嗨翻天版本 修正修加特城鎮冒險家會員NPCID錯誤
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31729,31732,31733,31734,31738,31991,31992,31993,31994,31995);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31991,87130,-140754,-1542,0,0,15201,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31992,88223,-142349,-1343,0,0,60027,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31993,84521,-141191,-1542,0,0,57344,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31994,86514,-142340,-1343,0,0,32768,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31995,90340,-141373,-1542,0,0,39084,60,0,0);
-
 UPDATE `npc` SET `type` = 'L2Warehouse' WHERE `id` = 31226; -- 修正競技場監察官 NPC類型
 
 -- 嗨翻天版本 修正任務 NPC類型
 UPDATE npc SET type = 'L2Monster' WHERE id = 22766;
 UPDATE npcaidata SET aggro = 300 WHERE npcId = 22766;
 UPDATE npc SET type = 'L2QuestGuard' WHERE id = 18846;
-
--- 嗨翻天版本 增加及修正狄恩競技場 NPC 位置 
-REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31690,11762,184101,-3567,0,0,58144,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31688,11769,183921,-3567,0,0,50874,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Dion_Arena_Race Manager',1,30995,13691,182613,-3565,0,0,47313,60,0,0);
-
--- 修正 NPC 高度
-UPDATE npc SET collision_height=25 WHERE id = 32784;
-UPDATE npc SET collision_height=25 WHERE id = 32862;
 
 -- 嗨翻天版本 修正任務 10285 NPC類型
 UPDATE npcaidata SET clan='freya_show_friends', enemyClan = 'freya_show_foes' WHERE npcId = 22767;
@@ -3445,19 +3268,3 @@ UPDATE npcaidata SET enemyRange = 500, clanRange = 500 WHERE npcId = 22767;
 
 UPDATE npc SET type = 'L2Monster' WHERE id IN (18847, 18848, 18849, 18850, 18851, 18853, 18854, 18855, 18856, 18926, 18930, 22767);
 UPDATE npcaidata SET aggro = 300 WHERE npcId IN (18847, 18930, 22767);
-
--- 嗨翻天版本 修正傳送資料
-DELETE FROM `teleport` WHERE `id` IN (63,107,102,69,1060,1071,1072,1073,1074,1045,1140,1141);
-REPLACE INTO `teleport` VALUES
-('Giran Harbor -> Giran Town',63,83551,147942,-3400,5200,0,57),
-('Giran Harbor -> Heine',107,111455,219400,-3544,7100,0,57),
-('Hunters -> Ivory Tower',102,85391,16228,-3672,13000,0,57),
-('Hunters -> Dragon Valley',69,73024,118485,-3688,1800,0,57),
-('Hunters -> Antharas Lair',1060,131557,114509,-3712,7000,0,57),
-('Oren -> Goddard',1071,148024,-55281,-2728,37000,0,57),
-('Oren -> Heine',1072,111455,219400,-3544,50000,0,57),
-('Oren -> Dion',1073,15472,142880,-2688,33000,0,57),
-('Oren -> Schuttgart',1074,87126,-143520,-1288,59000,0,57),
-('Gludio -> Isle of Souls Harbor',1045,-74016,51932,-3680,9300,0,57), -- 古魯丁城鎮 -> 英魂之島 港口 - 9300 金幣 NPC 30256
-('Aden -> Isle of Souls Harbor',1140,-74016,51932,-3680,22000,0,57), -- 亞丁城鎮 -> 英魂之島 港口 - 22000 金幣 NPC 30848
-('Aden -> Ivory Tower',1141,85391,16228,-3672,6200,0,57); -- 亞丁城鎮 -> 象牙塔 - 6200 金幣 NPC 30848
