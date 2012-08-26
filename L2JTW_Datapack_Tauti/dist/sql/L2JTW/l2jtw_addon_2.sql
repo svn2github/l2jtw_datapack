@@ -10,89 +10,6 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 REPLACE INTO `teleport` VALUES
 ('Cruma Tower 2nd floor -> Cruma Tower 1st floor',24,17728,114750,-11688,0,0,57);
 
-DELETE FROM `merchant_buylists` WHERE `shop_id` > 10015 and `shop_id` < 10033;
-
-DELETE FROM `items` WHERE `item_id` > 17624 and `item_id` < 17715;
-DELETE FROM `items` WHERE `item_id` > 18550 and `item_id` < 18563;
-DELETE FROM `items` WHERE `item_id` > 19400 and `item_id` < 19440;
-DELETE FROM `items` WHERE `item_id` > 19443 and `item_id` < 19447;
-DELETE FROM `items` WHERE `item_id` > 19448 and `item_id` < 19451;
-DELETE FROM `items` WHERE `item_id` > 19464 and `item_id` < 19470;
-DELETE FROM `items` WHERE `item_id` > 19481 and `item_id` < 19500;
-DELETE FROM `items` WHERE `item_id` > 19585 and `item_id` < 19650;
-DELETE FROM `items` WHERE `item_id` > 30231 and `item_id` < 30274;
-DELETE FROM `items` WHERE `item_id` > 32315 and `item_id` < 32317;
-DELETE FROM `items` WHERE `item_id` > 33518 and `item_id` < 33521;
-
-UPDATE `items` SET `item_id` = 19527 WHERE `item_id` = 19655;
-UPDATE `items` SET `item_id` = 19543 WHERE `item_id` = 19671;
-UPDATE `items` SET `item_id` = 19559 WHERE `item_id` = 19687;
-UPDATE `items` SET `item_id` = 19575 WHERE `item_id` = 19703;
-UPDATE `items` SET `item_id` = 19730 WHERE `item_id` = 19858;
-UPDATE `items` SET `item_id` = 19731 WHERE `item_id` = 19859;
-UPDATE `items` SET `item_id` = 19732 WHERE `item_id` = 19860;
-UPDATE `items` SET `item_id` = 19733 WHERE `item_id` = 19861;
-UPDATE `items` SET `item_id` = 19734 WHERE `item_id` = 19862;
-UPDATE `items` SET `item_id` = 19735 WHERE `item_id` = 19863;
-UPDATE `items` SET `item_id` = 19736 WHERE `item_id` = 19864;
-UPDATE `items` SET `item_id` = 19737 WHERE `item_id` = 19865;
-UPDATE `items` SET `item_id` = 19738 WHERE `item_id` = 19866;
-UPDATE `items` SET `item_id` = 19739 WHERE `item_id` = 19867;
-UPDATE `items` SET `item_id` = 19740 WHERE `item_id` = 19868;
-UPDATE `items` SET `item_id` = 19741 WHERE `item_id` = 19869;
-UPDATE `items` SET `item_id` = 19742 WHERE `item_id` = 19870;
-UPDATE `items` SET `item_id` = 19743 WHERE `item_id` = 19871;
-UPDATE `items` SET `item_id` = 19744 WHERE `item_id` = 19872;
-UPDATE `items` SET `item_id` = 19745 WHERE `item_id` = 19873;
-UPDATE `items` SET `item_id` = 19746 WHERE `item_id` = 19874;
-UPDATE `items` SET `item_id` = 19747 WHERE `item_id` = 19875;
-UPDATE `items` SET `item_id` = 19748 WHERE `item_id` = 19876;
-UPDATE `items` SET `item_id` = 19749 WHERE `item_id` = 19877;
-UPDATE `items` SET `item_id` = 19750 WHERE `item_id` = 19878;
-UPDATE `items` SET `item_id` = 19751 WHERE `item_id` = 19879;
-UPDATE `items` SET `item_id` = 19752 WHERE `item_id` = 19880;
-UPDATE `items` SET `item_id` = 19753 WHERE `item_id` = 19881;
-UPDATE `items` SET `item_id` = 19754 WHERE `item_id` = 19882;
-UPDATE `items` SET `item_id` = 19755 WHERE `item_id` = 19883;
-UPDATE `items` SET `item_id` = 19756 WHERE `item_id` = 19884;
-UPDATE `items` SET `item_id` = 19757 WHERE `item_id` = 19885;
-UPDATE `items` SET `item_id` = 19758 WHERE `item_id` = 19886;
-UPDATE `items` SET `item_id` = 19759 WHERE `item_id` = 19887;
-UPDATE `items` SET `item_id` = 19760 WHERE `item_id` = 19888;
-UPDATE `items` SET `item_id` = 19761 WHERE `item_id` = 19889;
-UPDATE `items` SET `item_id` = 19762 WHERE `item_id` = 19890;
-UPDATE `items` SET `item_id` = 19763 WHERE `item_id` = 19891;
-UPDATE `items` SET `item_id` = 19764 WHERE `item_id` = 19892;
-UPDATE `items` SET `item_id` = 19765 WHERE `item_id` = 19893;
-UPDATE `items` SET `item_id` = 19766 WHERE `item_id` = 19894;
-UPDATE `items` SET `item_id` = 19767 WHERE `item_id` = 19895;
-UPDATE `items` SET `item_id` = 19768 WHERE `item_id` = 19896;
-UPDATE `items` SET `item_id` = 19769 WHERE `item_id` = 19897;
-UPDATE `items` SET `item_id` = 19770 WHERE `item_id` = 19898;
-UPDATE `items` SET `item_id` = 19771 WHERE `item_id` = 19899;
-UPDATE `items` SET `item_id` = 19772 WHERE `item_id` = 19900;
-UPDATE `items` SET `item_id` = 19773 WHERE `item_id` = 19901;
-UPDATE `items` SET `item_id` = 19774 WHERE `item_id` = 19902;
-UPDATE `items` SET `item_id` = 19775 WHERE `item_id` = 19903;
-UPDATE `items` SET `item_id` = 19776 WHERE `item_id` = 19904;
-UPDATE `items` SET `item_id` = 19777 WHERE `item_id` = 19905;
-UPDATE `items` SET `item_id` = 19778 WHERE `item_id` = 19906;
-UPDATE `items` SET `item_id` = 19779 WHERE `item_id` = 19907;
-UPDATE `items` SET `item_id` = 19780 WHERE `item_id` = 19908;
-UPDATE `items` SET `item_id` = 19781 WHERE `item_id` = 19909;
-UPDATE `items` SET `item_id` = 19782 WHERE `item_id` = 19910;
-UPDATE `items` SET `item_id` = 19783 WHERE `item_id` = 19911;
-UPDATE `items` SET `item_id` = 19784 WHERE `item_id` = 19912;
-UPDATE `items` SET `item_id` = 19785 WHERE `item_id` = 19913;
-UPDATE `items` SET `item_id` = 19786 WHERE `item_id` = 19914;
-UPDATE `items` SET `item_id` = 19787 WHERE `item_id` = 19915;
-UPDATE `items` SET `item_id` = 19788 WHERE `item_id` = 19916;
-UPDATE `items` SET `item_id` = 19789 WHERE `item_id` = 19917;
-UPDATE `items` SET `item_id` = 19790 WHERE `item_id` = 19918;
-UPDATE `items` SET `item_id` = 19791 WHERE `item_id` = 19919;
-UPDATE `items` SET `item_id` = 19792 WHERE `item_id` = 19920;
-UPDATE `items` SET `item_id` = 19793 WHERE `item_id` = 19921;
-
 REPLACE INTO `merchant_shopids` VALUES (10016, 'gm');
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (19730, 0, 10016, 1),
@@ -707,29 +624,123 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (30317, 0, 10032, 8);
 
 -- 「精靈村莊」刪除舊的 NPC
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30146,30147,30148,30149,30150,30151,30152,30153,30154,30155,30156,30157,30158,30216,30217,30218,30219,30220,30221,30222,30223,30284,30285,30361,30362,30363,30414,30599,30991,31031,31358,31359,31563,31688,31769,31780,31781,31848,32478,32783,35230);
-
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30146,30147,30148,30149,30150,30151,30152,30153,30154,30155,30156,30157,30158,30216,30217,30218,30219,30220,30221,30222,30223,30284,30285,30361,30362,30363,30370,30400,30414,30599,30991,31031,31358,31359,31563,31688,31769,31780,31781,31848,32478,32529,32783,35230);
 -- 「精靈村莊」加入新的 NPC
-REPLACE INTO `npc` VALUES
-(30146,30146,'LineageNPC.teleport_dummy',0,'傳送裝置',0,'','28','40',85,'etc','L2Teleporter',40,'4228','2038','100','50',40,43,30,21,20,20,0,0,'1000','350','700','250',299,4,398,0,0,0,50,120,0,1);
-
+REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
+(30146,30146,'30146','','',28,40,85,'L2Teleporter',40,6680,2486,10,5,1200,400,900,300,329,4,210,0,50,120,1);
 REPLACE INTO `npcaidata` VALUES
 (30146,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
-
 REPLACE INTO `npc_elementals` VALUES
 (30146,0,0,20,20,20,20,20,20);
+REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
+('精靈村莊',1,30146,45173,48889,-3056,0,60);
+-- 「精靈村莊」加入新的傳送(尚未加入全價/半價收費的對話)
+REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`) VALUES
+('精靈村莊',3014600,-14593,123936,-3120,0),
+('精靈村莊',3014601,115357,-178212,-928,0),
+('精靈村莊',3014602,-111988,257240,-1376,0),
+('精靈村莊',3014603,-44124,-113390,-240,0),
+('精靈村莊',3014604,-117001,46589,360,0),
+('精靈村莊',3014605,21362,51122,-3688,0),
+('精靈村莊',3014606,29294,74968,-3776,0),
+('精靈村莊',3014607,-10612,75881,-3592,0);
 
-REPLACE INTO `spawnlist` VALUES
-('',1,30146,45173,48889,-3056,0,0,0,60,0,0);
 
--- 「精靈村莊」加入新的 NPC 的傳送
--- 尚未加入全價/半價收費的對話
-REPLACE INTO `teleport` VALUES
-('',3014601,-14593,123936,-3120,0,0,57),
-('',3014602,115357,-178212,-928,0,0,57),
-('',3014603,-111988,257240,-1376,0,0,57),
-('',3014604,-44124,-113390,-240,0,0,57),
-('',3014605,-117001,46589,360,0,0,57),
-('',3014606,21362,51122,-3688,0,0,57),
-('',3014607,29294,74968,-3776,0,0,57),
-('',3014608,-10612,75881,-3592,0,0,57);
+-- 「黑暗精靈村莊」刪除舊的 NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30129,30130,30131,30132,30133,30134,30135,30136,30137,30138,30139,30140,30141,30143,30144,30145,30224,30305,30307,30346,30347,30348,30349,30350,30351,30352,30353,30354,30355,30356,30357,30358,30359,30360,30600,31031,31034,31360,31361,31564,31688,31770,31777,31778,31779,32478,32783,35231);
+-- 「黑暗精靈村莊」加入新的 NPC
+REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
+(30134,30134,'30134','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
+REPLACE INTO `npcaidata` VALUES
+(30134,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npc_elementals` VALUES
+(30134,0,0,20,20,20,20,20,20);
+REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
+('黑暗精靈村莊',1,30134,11171,15932,-4584,0,60);
+-- 「黑暗精靈村莊」加入新的傳送(尚未加入全價/半價收費的對話)
+REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`) VALUES
+('黑暗精靈村莊',3013400,-14593,123936,-3120,0),
+('黑暗精靈村莊',3013401,115357,-178212,-928,0),
+('黑暗精靈村莊',3013402,-111988,257240,-1376,0),
+('黑暗精靈村莊',3013403,-44124,-113390,-240,0),
+('黑暗精靈村莊',3013404,-117001,46589,360,0),
+('黑暗精靈村莊',3013405,-15826,30477,-3616,0),
+('黑暗精靈村莊',3013406,-61095,75104,-3352,0),
+('黑暗精靈村莊',3013407,-10612,75881,-3592,0);
+
+
+-- 「矮人村莊」刪除舊的 NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30516,30517,30518,30519,30520,30521,30522,30523,30524,30525,30526,30527,30528,30529,30530,30531,30532,30533,30534,30535,30536,30537,30538,30539,30540,30541,30542,30543,30544,30545,30546,30547,30548,30550,30553,30554,30555,30601,30650,30651,30671,31031,31035,31362,31363,31566,31688,31772,31782,31783,32478,32486,32783,35644);
+-- 「矮人村莊」加入新的 NPC
+REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
+(30540,30540,'30540','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
+REPLACE INTO `npcaidata` VALUES
+(30540,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npc_elementals` VALUES
+(30540,0,0,20,20,20,20,20,20);
+REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
+('矮人村莊',1,30540,115441,-178117,-928,0,60);
+-- 「矮人村莊」加入新的傳送(尚未加入全價/半價收費的對話)
+REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`) VALUES
+('矮人村莊',3054000,-14593,123936,-3120,0),
+('矮人村莊',3054001,87126,-143520,-1288,0),
+('矮人村莊',3054002,11167,16012,-4584,0),
+('矮人村莊',3054003,-111988,257240,-1376,0),
+('矮人村莊',3054004,44734,49210,-3056,0),
+('矮人村莊',3054005,-44124,-113390,-240,0),
+('矮人村莊',3054006,-117001,46589,360,0),
+('矮人村莊',3054007,139714,-177456,-1536,0),
+('矮人村莊',3054008,169008,-208272,-3496,0),
+('矮人村莊',3054009,136910,-205082,-3664,0),
+('矮人村莊',3054010,171946,-173352,3440,0),
+('矮人村莊',3054011,178591,-184615,-360,0);
+
+-- 「半獸人村莊」刪除舊的 NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30558,30559,30560,30561,30562,30563,30564,30565,30566,30567,30568,30569,30570,30571,30572,30573,30575,30576,30577,30578,30579,30580,30581,30582,30583,30584,30585,30587,30602,31031,31364,31365,31424,31565,31688,31771,31784,31785,31786,32478,32783,35645);
+-- 「半獸人村莊」加入新的 NPC
+REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
+(30576,30576,'30576','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
+REPLACE INTO `npcaidata` VALUES
+(30576,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npc_elementals` VALUES
+(30576,0,0,20,20,20,20,20,20);
+REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
+('半獸人村莊',1,30576,-43964,-113389,-232,0,60);
+-- 「半獸人村莊」加入新的傳送(尚未加入全價/半價收費的對話)
+REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`) VALUES
+('半獸人村莊',3057600,-14593,123936,-3120,0),
+('半獸人村莊',3057601,87126,-143520,-1288,0),
+('半獸人村莊',3057602,11167,16012,-4584,0),
+('半獸人村莊',3057603,115357,-178212,-928,0),
+('半獸人村莊',3057604,-111988,257240,-1376,0),
+('半獸人村莊',3057605,44734,49210,-3056,0),
+('半獸人村莊',3057606,-117001,46589,360,0),
+('半獸人村莊',3057607,-4190,-80040,-2696,0),
+('半獸人村莊',3057608,-10983,-117484,-2464,0),
+('半獸人村莊',3057609,9340,-112509,-2536,0),
+('半獸人村莊',3057610,8652,-139941,-1144,0);
+
+-- 「闇天使村莊」刪除舊的 NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31688,31690,32133,32134,32135,32136,32137,32138,32139,32140,32141,32142,32143,32144,32145,32146,32147,32148,32149,32150,32151,32152,32153,32154,32155,32156,32157,32158,32159,32160,32161,32162,32163,32164,32165,32166,32167,32170,32171,32172,32173,32174,32175,32176,32177,32178,32179,32180,32335,32337,32338,32339,32340,32348,32469,32478,32783,36456);
+-- 「闇天使村莊」加入新的 NPC
+REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
+(32163,32163,'32163','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
+REPLACE INTO `npcaidata` VALUES
+(32163,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npc_elementals` VALUES
+(32163,0,0,20,20,20,20,20,20);
+REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
+('闇天使村莊',1,32163,-116882,46565,360,0,60);
+-- 「闇天使村莊」加入新的傳送(尚未加入全價/半價收費的對話)
+REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`) VALUES
+('闇天使村莊',3216300,-14593,123936,-3120,0),
+('闇天使村莊',3216301,146783,25808,-2008,0),
+('闇天使村莊',3216302,-111988,257240,-1376,0),
+('闇天使村莊',3216303,11167,16012,-4584,0),
+('闇天使村莊',3216304,44734,49210,-3056,0),
+('闇天使村莊',3216305,115357,-178212,-928,0),
+('闇天使村莊',3216306,-44124,-113390,-240,0),
+('闇天使村莊',3216307,-122410,73205,-2872,0),
+('闇天使村莊',3216308,-95540,52150,-2024,0),
+('闇天使村莊',3216309,-85928,37095,-2048,0),
+('闇天使村莊',3216310,-73983,51956,-3680,0);
