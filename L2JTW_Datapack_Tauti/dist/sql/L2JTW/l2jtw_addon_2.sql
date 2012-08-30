@@ -628,8 +628,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30146,30147,30148,30149,30150
 -- 「精靈村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30146,30146,'30146','','',28,40,85,'L2Teleporter',40,6680,2486,10,5,1200,400,900,300,329,4,210,0,50,120,1);
-REPLACE INTO `npcaidata` VALUES
-(30146,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
+(30146,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30146,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -651,8 +651,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30129,30130,30131,30132,30133
 -- 「黑暗精靈村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30134,30134,'30134','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` VALUES
-(30134,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
+(30134,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30134,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -674,8 +674,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30516,30517,30518,30519,30520
 -- 「矮人村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30540,30540,'30540','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` VALUES
-(30540,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
+(30540,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30540,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -700,8 +700,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30558,30559,30560,30561,30562
 -- 「半獸人村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30576,30576,'30576','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` VALUES
-(30576,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
+(30576,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30576,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -725,8 +725,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31688,31690,32133,32134,32135
 -- 「闇天使村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (32163,32163,'32163','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` VALUES
-(32163,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
+(32163,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (32163,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -777,24 +777,24 @@ REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_rad
 (33576,33576,'33576','','',8,25.3,85,'L2Npc',40,7324,2797,10,5,1200,400,900,300,299,4,398,15304,50,160,1),
 (33577,33577,'33577','','',13,25,85,'L2Npc',40,7324,2797,10,5,1200,400,900,300,299,4,398,15304,50,80,1);
 
-REPLACE INTO `npcaidata` VALUES
-(32972,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(32138,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33004,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33111,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33112,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33372,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33477,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33480,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33481,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33482,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33483,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33484,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33485,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33486,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33487,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33576,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced'),
-(33577,7,15,0,1000,0,1,1,0,0,0,0,0,0,0,0,0,0,NULL,300,NULL,0,0,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
+(32972,'balanced'),
+(32138,'balanced'),
+(33004,'balanced'),
+(33111,'balanced'),
+(33112,'balanced'),
+(33372,'balanced'),
+(33477,'balanced'),
+(33480,'balanced'),
+(33481,'balanced'),
+(33482,'balanced'),
+(33483,'balanced'),
+(33484,'balanced'),
+(33485,'balanced'),
+(33486,'balanced'),
+(33487,'balanced'),
+(33576,'balanced'),
+(33577,'balanced');
 
 REPLACE INTO `npc_elementals` VALUES
 (32972,0,0,20,20,20,20,20,20),
