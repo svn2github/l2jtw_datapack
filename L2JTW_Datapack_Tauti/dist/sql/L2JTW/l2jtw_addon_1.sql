@@ -70,8 +70,8 @@ REPLACE INTO `teleport` VALUES
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30992,30993,30994);
 
 -- 刪除其中一隻轉職管理員(不定時改刪另一個)
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
--- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
 
 /************ Add by pmq *********/
