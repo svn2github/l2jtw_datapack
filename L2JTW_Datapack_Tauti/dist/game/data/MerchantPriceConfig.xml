@@ -10,13 +10,13 @@
 <!-- Merchant Price Formula price = baseItemPrice * (1 + baseTax/100 + castleTax/100) -->
 <merchantPriceConfig defaultPriceConfig="18" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/MerchantPriceConfig.xsd">
 	<priceConfig id="0" name="奇岩城鎮" baseTax="10" castleId="3" zoneId="11020" />
-	<priceConfig id="1" name="黑暗精靈村莊" baseTax="15" castleId="4" zoneId="11021" />
-	<priceConfig id="2" name="說話之島" baseTax="15" castleId="1" zoneId="11022" />
-	<priceConfig id="3" name="精靈村莊" baseTax="15" castleId="4" zoneId="11023" />
-	<priceConfig id="4" name="半獸人村莊" baseTax="15" castleId="9" zoneId="11024" />
+	<priceConfig id="1" name="黑暗精靈村莊" baseTax="20" castleId="4" zoneId="11021" />
+	<priceConfig id="2" name="說話之島" baseTax="20" castleId="1" zoneId="11022" />
+	<priceConfig id="3" name="精靈村莊" baseTax="20" castleId="4" zoneId="11023" />
+	<priceConfig id="4" name="半獸人村莊" baseTax="20" castleId="9" zoneId="11024" />
 	<priceConfig id="5" name="古魯丁村莊" baseTax="20" castleId="1" zoneId="11025" />
-	<priceConfig id="6" name="矮人村莊" baseTax="15" castleId="9" zoneId="11026" />
-	<priceConfig id="7" name="闇天使村莊" baseTax="15" castleId="5" zoneId="11038" />
+	<priceConfig id="6" name="矮人村莊" baseTax="20" castleId="9" zoneId="11026" />
+	<priceConfig id="7" name="闇天使村莊" baseTax="20" castleId="5" zoneId="11038" />
 	<priceConfig id="8" name="古魯丁城鎮" baseTax="20" castleId="1" zoneId="11027" />
 	<priceConfig id="9" name="狄恩城鎮" baseTax="20" castleId="2" zoneId="11028" />
 	<priceConfig id="10" name="歐瑞城鎮" baseTax="15" castleId="4" zoneId="11029" />
