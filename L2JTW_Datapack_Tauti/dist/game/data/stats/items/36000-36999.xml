@@ -6,104 +6,120 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30300" name="刻印祕傳書-遺忘篇" type="EtcItem">
 		<set name="icon" val="icon.codex_of_incuse_forgetting"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30301" name="刻印祕傳書抄本" type="EtcItem">
 		<set name="icon" val="icon.codex_of_incuse"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30302" name="刻印祕傳書抄本-熟練篇" type="EtcItem">
 		<set name="icon" val="icon.codex_of_incuse_dexterity"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30303" name="刻印祕傳書抄本-訓練篇" type="EtcItem">
 		<set name="icon" val="icon.codex_of_incuse_training"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30304" name="刻印祕傳書抄本-遺忘篇" type="EtcItem">
 		<set name="icon" val="icon.codex_of_incuse_forgetting"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30305" name="認證測試用道具" type="EtcItem">
 		<set name="icon" val="icon.weapon_vesper_shaper_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30306" name="下巨人的精髓" type="EtcItem">
 		<set name="icon" val="icon.essence_of_giant"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="2"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30318" name="黃昏的報告書" type="EtcItem">
 		<set name="icon" val="icon.etc_old_evil_book_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="liquid"/>
 		<set name="weight" val="10"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30319" name="努力的憑證" type="EtcItem">
 		<set name="icon" val="icon.armor_soul_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="crystal"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30320" name="塔林獸人的標誌" type="EtcItem">
 		<set name="icon" val="icon.etc_badge_silver_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="crystal"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30321" name="紀念水晶" type="EtcItem">
 		<set name="icon" val="icon.etc_crystal_cave_crystal_i02"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="crystal"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30322" name="火焰的灰燼" type="EtcItem">
 		<set name="icon" val="icon.etc_fire_crystal_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="crystal"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30323" name="經驗的水晶" type="EtcItem">
 		<set name="icon" val="icon.etc_crystal_cave_crystal_i03"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="crystal"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30324" name="強化的菲拉卡戒指" type="EtcItem">
 		<set name="icon" val="icon.accessary_mithril_ring_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="2"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30325" name="回歸冒險者憑證" type="EtcItem">
 		<set name="icon" val="icon.etc_permit_card_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="2"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30326" name="安塔瑞斯紋章染料" type="EtcItem">
 		<set name="icon" val="icon.etc_str_hena_i02"/>
 		<set name="etcitem_type" val="dye"/>
@@ -111,7 +127,8 @@
 		<set name="material" val="liquid"/>
 		<set name="weight" val="150"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30327" name="巴拉卡斯紋章染料" type="EtcItem">
 		<set name="icon" val="icon.etc_str_hena_i02"/>
 		<set name="etcitem_type" val="dye"/>
@@ -119,7 +136,8 @@
 		<set name="material" val="liquid"/>
 		<set name="weight" val="150"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30328" name="地蟲紋章染料" type="EtcItem">
 		<set name="icon" val="icon.etc_str_hena_i02"/>
 		<set name="etcitem_type" val="dye"/>
@@ -127,7 +145,8 @@
 		<set name="material" val="liquid"/>
 		<set name="weight" val="150"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30329" name="死神專用武器" type="Weapon">
 		<set name="icon" val="icon.weapon_monster_i00"/>
 		<set name="default_action" val="equip"/>
@@ -152,7 +171,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30330" name="特級古魯丁 水的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -167,7 +187,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30331" name="特級狄恩 聖的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -182,7 +203,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30332" name="特級奇岩 風的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -197,7 +219,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30333" name="特級歐瑞 暗的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -212,7 +235,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30334" name="特級亞丁 地的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -227,7 +251,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30335" name="特級因納得立 水的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -242,7 +267,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30336" name="特級高達特 火的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -257,7 +283,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30337" name="特級魯因 火的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -272,7 +299,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30338" name="特級修加特 風的守護項鍊" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -287,7 +315,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="158"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30339" name="特級古魯丁 水的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -302,7 +331,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30340" name="特級狄恩 聖的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -317,7 +347,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30341" name="特級奇岩 風的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -332,7 +363,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30342" name="特級歐瑞 暗的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -347,7 +379,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30343" name="特級亞丁 地的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -362,7 +395,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30344" name="特級因納得立 水的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -377,7 +411,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30345" name="特級高達特 火的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -392,7 +427,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30346" name="特級魯因 火的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -407,7 +443,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30347" name="特級修加特 風的守護耳環" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
 		<set name="default_action" val="equip"/>
@@ -422,7 +459,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="118"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30348" name="特級古魯丁 地的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -437,7 +475,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30349" name="特級狄恩 水的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -452,7 +491,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30350" name="特級奇岩 火的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -467,7 +507,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30351" name="特級歐瑞 地的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -482,7 +523,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30352" name="特級亞丁 聖的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -497,7 +539,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30353" name="特級因納得立 聖的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -512,7 +555,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30354" name="特級高達特 暗的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -527,7 +571,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30355" name="特級魯因 風的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -542,7 +587,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30356" name="特級修加特 暗的守護戒指" type="Armor">
 		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -557,7 +603,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30459" name="束縛的革命劍*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -579,7 +626,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30460" name="束縛的革命劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -601,7 +649,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30461" name="束縛的革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_sword_of_revolution_i00"/>
 		<set name="default_action" val="equip"/>
@@ -623,7 +672,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30649" name="束縛的緋紅劍*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -645,7 +695,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30650" name="束縛的緋紅劍*緋紅劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -667,7 +718,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30651" name="束縛的緋紅劍*精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -689,7 +741,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30652" name="束縛的緋紅劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -711,7 +764,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30653" name="束縛的緋紅劍" type="Weapon">
 		<set name="icon" val="icon.weapon_crimson_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -733,7 +787,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30679" name="束縛的武士刀*武士刀" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -755,7 +810,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30680" name="束縛的武士刀*靈魂之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -777,7 +833,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30681" name="束縛的武士刀*襲擊劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -799,7 +856,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30683" name="束縛的武士刀" type="Weapon">
 		<set name="icon" val="icon.weapon_katana_i01"/>
 		<set name="default_action" val="equip"/>
@@ -821,7 +879,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30749" name="束縛的工匠之劍*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -843,7 +902,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30750" name="束縛的工匠之劍*緋紅劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -865,7 +925,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30751" name="束縛的工匠之劍*工匠之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -887,7 +948,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30752" name="束縛的工匠之劍*精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -909,7 +971,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30753" name="束縛的工匠之劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -931,7 +994,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30754" name="束縛的工匠之劍*騎士劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -953,7 +1017,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30755" name="束縛的工匠之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_artisans_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -975,7 +1040,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30829" name="束縛的精靈劍*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -997,7 +1063,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30830" name="束縛的精靈劍*精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1019,7 +1086,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30831" name="束縛的精靈劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1041,7 +1109,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30832" name="束縛的精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_elven_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1063,7 +1132,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30833" name="束縛的精靈弓" type="Weapon">
 		<set name="icon" val="icon.weapon_elven_bow_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1090,7 +1160,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30841" name="束縛的精靈長劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1112,7 +1183,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30842" name="束縛的精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_elven_long_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1134,7 +1206,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30985" name="束縛的靈魂之劍*靈魂之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1156,7 +1229,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30986" name="束縛的靈魂之劍*襲擊劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1178,7 +1252,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30987" name="束縛的靈魂之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_spirits_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1200,7 +1275,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30988" name="束縛的靈魂之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_spirits_sword_i01"/>
 		<set name="default_action" val="equip"/>
@@ -1222,7 +1298,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30995" name="束縛的椎骨之劍*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1244,7 +1321,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30996" name="束縛的椎骨之劍*緋紅劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1266,7 +1344,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30997" name="束縛的椎骨之劍*工匠之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1288,7 +1367,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30998" name="束縛的椎骨之劍*精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1310,7 +1390,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30999" name="束縛的椎骨之劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1332,7 +1413,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 
 
 	<item id="31000" name="束縛的椎骨之劍*椎骨之劍" type="Weapon">
@@ -1356,7 +1438,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31001" name="束縛的椎骨之劍*騎士劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1378,7 +1461,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31002" name="束縛的椎骨之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_spinebone_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1400,7 +1484,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31008" name="束縛的暴風之劍*武士刀" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1422,7 +1507,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31009" name="束縛的暴風之劍*靈魂之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1444,7 +1530,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31010" name="束縛的暴風之劍*暴風之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1466,7 +1553,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31011" name="束縛的暴風之劍*彎刀" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1488,7 +1576,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31012" name="束縛的暴風之劍*襲擊劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1510,7 +1599,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31015" name="束縛的暴風之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_stormbringer_i01"/>
 		<set name="default_action" val="equip"/>
@@ -1532,7 +1622,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31114" name="束縛的軍刀*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1554,7 +1645,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31115" name="束縛的軍刀*緋紅劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1576,7 +1668,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31116" name="束縛的軍刀*工匠之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1598,7 +1691,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31117" name="束縛的軍刀*精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1620,7 +1714,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31118" name="束縛的軍刀*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1642,7 +1737,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31119" name="束縛的軍刀*椎骨之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1664,7 +1760,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31120" name="束縛的軍刀*軍刀" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1686,7 +1783,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31121" name="束縛的軍刀*重劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1708,7 +1806,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31122" name="束縛的軍刀*騎士劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1730,7 +1829,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31123" name="束縛的軍刀" type="Weapon">
 		<set name="icon" val="icon.weapon_saber_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1752,7 +1852,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31124" name="束縛的三刃刀" type="Weapon">
 		<set name="icon" val="icon.weapon_triple-edged_jamadhr_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1777,7 +1878,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31130" name="束縛的彎刀*武士刀" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1799,7 +1901,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31131" name="束縛的彎刀*靈魂之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1821,7 +1924,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31132" name="束縛的彎刀*彎刀" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1843,7 +1947,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31133" name="束縛的彎刀*襲擊劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1865,7 +1970,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31135" name="束縛的彎刀" type="Weapon">
 		<set name="icon" val="icon.weapon_shamshir_i01"/>
 		<set name="default_action" val="equip"/>
@@ -1887,7 +1993,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31245" name="束縛的重劍*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1909,7 +2016,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31246" name="束縛的重劍*緋紅劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1931,7 +2039,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31247" name="束縛的重劍*工匠之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1953,7 +2062,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31248" name="束縛的重劍*精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1975,7 +2085,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31249" name="束縛的重劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -1997,7 +2108,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31250" name="束縛的重劍*椎骨之劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2019,7 +2131,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31251" name="束縛的重劍*重劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2041,7 +2154,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31252" name="束縛的重劍*騎士劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2063,7 +2177,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31253" name="束縛的重劍" type="Weapon">
 		<set name="icon" val="icon.weapon_bastard_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2085,7 +2200,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31343" name="束縛的襲擊劍*襲擊劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2107,7 +2223,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31345" name="束縛的襲擊劍" type="Weapon">
 		<set name="icon" val="icon.weapon_raid_sword_i01"/>
 		<set name="default_action" val="equip"/>
@@ -2129,7 +2246,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31503" name="束縛的騎士劍*革命劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2151,7 +2269,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31504" name="束縛的騎士劍*緋紅劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2173,7 +2292,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31505" name="束縛的騎士劍*精靈劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2195,7 +2315,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31507" name="束縛的騎士劍*精靈長劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2217,7 +2338,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31508" name="束縛的騎士劍*騎士劍" type="Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2239,7 +2361,8 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="31510" name="束縛的騎士劍" type="Weapon">
 		<set name="icon" val="icon.weapon_knights_sword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2261,7 +2384,37 @@
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="32249" name="無限木箭筒" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="arrow"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="32250" name="無限骨箭筒" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="arrow"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="32257" name="無限骨製弩箭筒" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="bolt"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->		
 	<item id="32608" name="永生襯衫" type="Armor">
 		<set name="icon" val="icon.r1_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2275,7 +2428,8 @@
 			<add order="0x10" stat="pDef" val="38"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32609" name="永生襯衫" type="Armor">
 		<set name="icon" val="icon.r1_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2289,7 +2443,8 @@
 			<add order="0x10" stat="pDef" val="38"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32610" name="永生襯衫" type="Armor">
 		<set name="icon" val="icon.r1_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2303,7 +2458,8 @@
 			<add order="0x10" stat="pDef" val="38"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32611" name="煉獄襯衫" type="Armor">
 		<set name="icon" val="icon.r2_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2317,7 +2473,8 @@
 			<add order="0x10" stat="pDef" val="42"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32612" name="煉獄襯衫" type="Armor">
 		<set name="icon" val="icon.r2_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2331,7 +2488,8 @@
 			<add order="0x10" stat="pDef" val="42"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32613" name="煉獄襯衫" type="Armor">
 		<set name="icon" val="icon.r2_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2345,7 +2503,8 @@
 			<add order="0x10" stat="pDef" val="42"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32614" name="卡戴拉襯衫" type="Armor">
 		<set name="icon" val="icon.r95_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2359,7 +2518,8 @@
 			<add order="0x10" stat="pDef" val="46"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32615" name="卡戴拉襯衫" type="Armor">
 		<set name="icon" val="icon.r95_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2373,7 +2533,8 @@
 			<add order="0x10" stat="pDef" val="46"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32616" name="卡戴拉襯衫" type="Armor">
 		<set name="icon" val="icon.r95_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2387,196 +2548,228 @@
 			<add order="0x10" stat="pDef" val="46"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32700" name="下級魔法古文夾-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32701" name="中級魔法古文夾-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32702" name="上級魔法古文夾-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32703" name="特級魔法古文夾-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i02"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32704" name="下級魔法飾品-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32705" name="中級魔法飾品-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32706" name="上級魔法飾品-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32707" name="特級魔法飾品-R級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i02"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32708" name="下級魔法古文夾-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32709" name="中級魔法古文夾-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32710" name="上級魔法古文夾-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32711" name="特級魔法古文夾-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_rune_clip_i02"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32712" name="下級魔法飾品-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32713" name="中級魔法飾品-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32714" name="上級魔法飾品-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32715" name="特級魔法飾品-R95級" type="EtcItem">
 		<set name="icon" val="icon.etc_belt_deco_i02"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="leather"/>
 		<set name="weight" val="20"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33780" name="靈魂彈-R級" type="EtcItem">
 		<set name="icon" val="icon.soulshot_r_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="crystal_type" val="r"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33794" name="祝福的魔靈彈-R級" type="EtcItem">
 		<set name="icon" val="icon.blessed_spiritshot_r_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="crystal_type" val="r"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33804" name="學徒憑證" type="EtcItem">
 		<set name="icon" val="icon.mentee_mark"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33805" name="畢業證書" type="EtcItem">
 		<set name="icon" val="icon.mentee_graduate_proof"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33819" name="頭飾用生命石" type="EtcItem">
 		<set name="icon" val="icon.life_dust_hairacc_general"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33828" name="搜魂變更石-A" type="EtcItem">
 		<set name="icon" val="icon.etc_bead_red_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33829" name="搜魂變更石-S" type="EtcItem">
 		<set name="icon" val="icon.etc_bead_silver_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33830" name="搜魂變更石-S80" type="EtcItem">
 		<set name="icon" val="icon.etc_bead_silver_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33831" name="搜魂變更石-R" type="EtcItem">
 		<set name="icon" val="icon.etc_bead_gold_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33832" name="搜魂變更石-R95" type="EtcItem">
 		<set name="icon" val="icon.etc_bead_gold_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="wood"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33833" name="屬性變更水晶-S級" type="EtcItem">
 		<set name="icon" val="icon.change_elemental_crystal"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33834" name="屬性變更水晶-S80級" type="EtcItem">
 		<set name="icon" val="icon.change_elemental_crystal"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33835" name="屬性變更水晶-R級" type="EtcItem">
 		<set name="icon" val="icon.change_elemental_crystal"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33836" name="屬性變更水晶-R95級" type="EtcItem">
 		<set name="icon" val="icon.change_elemental_crystal"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33837" name="屬性變更水晶-R99級" type="EtcItem">
 		<set name="icon" val="icon.change_elemental_crystal"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33850" name="武器用強化輔助石-D級" type="EtcItem">
 		<set name="icon" val="icon.ench_wp_stone_i00"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
@@ -2584,7 +2777,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33851" name="武器用強化輔助石-C級" type="EtcItem">
 		<set name="icon" val="icon.ench_wp_stone_i01"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
@@ -2592,7 +2786,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33852" name="武器用強化輔助石-B級" type="EtcItem">
 		<set name="icon" val="icon.ench_wp_stone_i02"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
@@ -2600,7 +2795,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33853" name="武器用強化輔助石-A級" type="EtcItem">
 		<set name="icon" val="icon.ench_wp_stone_i03"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
@@ -2608,7 +2804,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33854" name="武器用強化輔助石-S級" type="EtcItem">
 		<set name="icon" val="icon.ench_wp_stone_i04"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
@@ -2616,7 +2813,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33855" name="武器用強化輔助石-R級" type="EtcItem">
 		<set name="icon" val="icon.ench_wp_potion_violet_i00"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
@@ -2624,7 +2822,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33856" name="防具用強化輔助石-D級" type="EtcItem">
 		<set name="icon" val="icon.ench_am_stone_i00"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
@@ -2632,7 +2831,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33857" name="防具用強化輔助石-C級" type="EtcItem">
 		<set name="icon" val="icon.ench_am_stone_i01"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
@@ -2640,7 +2840,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33858" name="防具用強化輔助石-B級" type="EtcItem">
 		<set name="icon" val="icon.ench_am_stone_i02"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
@@ -2648,7 +2849,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33859" name="防具用強化輔助石-A級" type="EtcItem">
 		<set name="icon" val="icon.ench_am_stone_i03"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
@@ -2656,7 +2858,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33860" name="防具用強化輔助石-S級" type="EtcItem">
 		<set name="icon" val="icon.ench_am_stone_i04"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
@@ -2664,7 +2867,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33861" name="防具用強化輔助石-R級" type="EtcItem">
 		<set name="icon" val="icon.ench_am_potion_violet_i00"/>
 		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
@@ -2672,7 +2876,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33862" name="祝福的秘藥" type="EtcItem">
 		<set name="icon" val="icon.etc_super_potion_i03"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2682,7 +2887,8 @@
 		<set name="material" val="liquid"/>
 		<set name="weight" val="5"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33863" name="火之原石-Super 60" type="EtcItem">
 		<set name="icon" val="icon.etc_fire_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2691,7 +2897,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33864" name="水之原石-Super 60" type="EtcItem">
 		<set name="icon" val="icon.etc_water_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2700,7 +2907,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33865" name="地之原石-Super 60" type="EtcItem">
 		<set name="icon" val="icon.etc_earth_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2709,7 +2917,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33866" name="風之原石-Super 60" type="EtcItem">
 		<set name="icon" val="icon.etc_wind_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2718,7 +2927,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33867" name="暗之原石-Super 60" type="EtcItem">
 		<set name="icon" val="icon.etc_unholy_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2727,7 +2937,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33868" name="聖之原石-Super 60" type="EtcItem">
 		<set name="icon" val="icon.etc_holy_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2736,7 +2947,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33869" name="火之原石-Super 150" type="EtcItem">
 		<set name="icon" val="icon.etc_fire_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2745,7 +2957,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33870" name="水之原石-Super 150" type="EtcItem">
 		<set name="icon" val="icon.etc_water_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2754,7 +2967,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33871" name="地之原石-Super 150" type="EtcItem">
 		<set name="icon" val="icon.etc_earth_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2763,7 +2977,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33872" name="風之原石-Super 150" type="EtcItem">
 		<set name="icon" val="icon.etc_wind_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2772,7 +2987,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33873" name="暗之原石-Super 150" type="EtcItem">
 		<set name="icon" val="icon.etc_unholy_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2781,7 +2997,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33874" name="聖之原石-Super 150" type="EtcItem">
 		<set name="icon" val="icon.etc_holy_stone_i00"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -2790,7 +3007,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33875" name="鎮魂鉋刀" type="Weapon">
 		<set name="icon" val="icon.weapon_aspeda_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2812,7 +3030,8 @@
 			<add order="0x10" stat="accCombat" val="-3.75"/>
 			<set order="0x08" stat="pAtkSpd" val="433"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33876" name="鎮魂切刃" type="Weapon">
 		<set name="icon" val="icon.weapon_estia_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2831,7 +3050,8 @@
 			<set order="0x08" stat="rCrit" val="8"/>
 			<set order="0x08" stat="pAtkSpd" val="379"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33877" name="鎮魂殺刃" type="Weapon">
 		<set name="icon" val="icon.weapon_polion_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2850,7 +3070,8 @@
 			<set order="0x08" stat="rCrit" val="8"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33878" name="鎮魂復仇者" type="Weapon">
 		<set name="icon" val="icon.weapon_batista_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2870,7 +3091,8 @@
 			<add order="0x10" stat="accCombat" val="8.0"/>
 			<set order="0x08" stat="pAtkSpd" val="379"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33879" name="鎮魂戰爪" type="Weapon">
 		<set name="icon" val="icon.weapon_fantasma_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2892,7 +3114,8 @@
 			<add order="0x10" stat="accCombat" val="8.0"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33880" name="鎮魂風暴者" type="Weapon">
 		<set name="icon" val="icon.weapon_soryu_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2912,7 +3135,8 @@
 			<add order="0x10" stat="accCombat" val="-3.75"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33881" name="鎮魂投弓" type="Weapon">
 		<set name="icon" val="icon.weapon_grabathus_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2935,7 +3159,8 @@
 			<add order="0x10" stat="accCombat" val="-3.75"/>
 			<set order="0x08" stat="pAtkSpd" val="293"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33882" name="鎮魂射靈" type="Weapon">
 		<set name="icon" val="icon.weapon_shyayaka_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2956,7 +3181,8 @@
 			<add order="0x10" stat="accCombat" val="-1.5"/>
 			<set order="0x08" stat="pAtkSpd" val="303"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33883" name="鎮魂爆刃" type="Weapon">
 		<set name="icon" val="icon.weapon_kaynon_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2975,7 +3201,8 @@
 			<set order="0x08" stat="rCrit" val="8"/>
 			<set order="0x08" stat="pAtkSpd" val="379"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33884" name="鎮魂術杖" type="Weapon">
 		<set name="icon" val="icon.weapon_anatrian_i00"/>
 		<set name="default_action" val="equip"/>
@@ -2995,7 +3222,8 @@
 			<add order="0x10" stat="accCombat" val="8.0"/>
 			<set order="0x08" stat="pAtkSpd" val="379"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33885" name="鎮魂報恨者" type="Weapon">
 		<set name="icon" val="icon.weapon_grangkaz_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3015,7 +3243,8 @@
 			<add order="0x10" stat="accCombat" val="8.0"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33886" name="鎮魂雙刀" type="Weapon">
 		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3034,7 +3263,8 @@
 			<set order="0x08" stat="rCrit" val="8"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33887" name="鎮魂雙匕首" type="Weapon">
 		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3054,7 +3284,8 @@
 			<add order="0x10" stat="accCombat" val="-3.75"/>
 			<set order="0x08" stat="pAtkSpd" val="433"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33888" name="鎮魂雙鈍器" type="Weapon">
 		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3074,7 +3305,8 @@
 			<add order="0x10" stat="accCombat" val="8.0"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33889" name="永生頭盔" type="Armor">
 		<set name="icon" val="icon.armor_helmet_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3086,7 +3318,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="114"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33890" name="永生胸甲" type="Armor">
 		<set name="icon" val="icon.armor_t501_u_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3099,7 +3332,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="304"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33891" name="永生脛甲" type="Armor">
 		<set name="icon" val="icon.armor_t501_l_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3112,7 +3346,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="190"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33892" name="永生護手" type="Armor">
 		<set name="icon" val="icon.armor_t501_g_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3124,7 +3359,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="76"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33893" name="永生靴" type="Armor">
 		<set name="icon" val="icon.armor_t501_b_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3136,7 +3372,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="76"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33894" name="永生盾" type="Armor">
 		<set name="icon" val="icon.weapon_sacon_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3150,7 +3387,8 @@
 			<set order="0x08" stat="rShld" val="20"/>
 			<set order="0x08" stat="sDef" val="415"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33895" name="永生皮頭盔" type="Armor">
 		<set name="icon" val="icon.armor_leather_helmet_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3162,7 +3400,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="114"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33896" name="永生皮甲" type="Armor">
 		<set name="icon" val="icon.armor_t502_u_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3175,7 +3414,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="228"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33897" name="永生皮脛甲" type="Armor">
 		<set name="icon" val="icon.armor_t502_l_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3188,7 +3428,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="143"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33898" name="永生皮手套" type="Armor">
 		<set name="icon" val="icon.armor_t502_g_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3200,7 +3441,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="76"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33899" name="永生皮靴" type="Armor">
 		<set name="icon" val="icon.armor_t502_b_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3212,7 +3454,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="76"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 
 
 	<item id="33900" name="永生頭箍" type="Armor">
@@ -3226,7 +3469,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="114"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33901" name="永生外衣" type="Armor">
 		<set name="icon" val="icon.armor_t503_u_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3242,7 +3486,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="152"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33902" name="永生長襪" type="Armor">
 		<set name="icon" val="icon.armor_t503_l_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3258,7 +3503,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="95"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33903" name="永生手套" type="Armor">
 		<set name="icon" val="icon.armor_t503_g_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3270,7 +3516,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="76"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33904" name="永生鞋" type="Armor">
 		<set name="icon" val="icon.armor_t503_b_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3282,7 +3529,8 @@
 		<for>
 			<add order="0x10" stat="pDef" val="76"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33905" name="永生符印" type="Armor">
 		<set name="icon" val="icon.weapon_karyen_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3296,7 +3544,8 @@
 			<add order="0x10" stat="pDef" val="19"/>
 			<sub order="0x10" stat="rEvas" val="8"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33906" name="永生項鍊" type="Armor">
 		<set name="icon" val="icon.r1_necklace_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3311,7 +3560,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="123"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33907" name="永生耳環" type="Armor">
 		<set name="icon" val="icon.r1_earring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3326,7 +3576,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="92"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33908" name="永生戒指" type="Armor">
 		<set name="icon" val="icon.r1_ring_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3341,7 +3592,8 @@
 		<for>
 			<add order="0x10" stat="mDef" val="62"/>
 		</for>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34066" name="武器強化卷軸-A級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3350,7 +3602,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34067" name="防具強化卷軸-A級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3359,7 +3612,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34068" name="武器強化卷軸-B級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3368,7 +3622,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34069" name="防具強化卷軸-B級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3377,7 +3632,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34070" name="武器強化卷軸-C級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3386,7 +3642,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34071" name="防具強化卷軸-C級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i02"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3395,7 +3652,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34072" name="武器強化卷軸-D級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3404,7 +3662,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34073" name="防具強化卷軸-D級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3413,7 +3672,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34074" name="武器強化卷軸-S級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3422,7 +3682,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34075" name="防具強化卷軸-S級" type="EtcItem">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3431,7 +3692,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34076" name="武器強化卷軸-R級" type="EtcItem">
 		<set name="icon" val="icon.scroll_of_enchant_weapon_i06"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3440,7 +3702,8 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34077" name="防具強化卷軸-R級" type="EtcItem">
 		<set name="icon" val="icon.scroll_of_enchant_armor_i06"/>
 		<set name="default_action" val="skill_reduce"/>
@@ -3449,34 +3712,40 @@
 		<set name="material" val="paper"/>
 		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34081" name="導師禮盒" type="EtcItem">
 		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34851" name="防具晶體碎片-R" type="EtcItem">
 		<set name="icon" val="Branchsys2.icon.event_cubic_a_piece_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34852" name="武器晶體碎片-R" type="EtcItem">
 		<set name="icon" val="Branchsys2.icon.event_cubic_w_piece_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34853" name="閃耀的防具晶體碎片-R" type="EtcItem">
 		<set name="icon" val="Branchsys2.icon.shine_cubic_a_piece_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34854" name="閃耀的武器晶體碎片-R" type="EtcItem">
 		<set name="icon" val="Branchsys2.icon.shine_cubic_w_piece_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-	</item><!-- 這個檔案裡面的物品，效果/功能都尚未實裝，請不必回報 -->
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 </list>

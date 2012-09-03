@@ -631,8 +631,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30146,30147,30148,30149,30150
 -- 「精靈村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30146,30146,'30146','','',28,40,85,'L2Teleporter',40,6680,2486,10,5,1200,400,900,300,329,4,210,0,50,120,1);
-REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
-(30146,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
+(30146,1000,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30146,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -654,8 +654,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30129,30130,30131,30132,30133
 -- 「黑暗精靈村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30134,30134,'30134','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
-(30134,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
+(30134,1000,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30134,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -677,8 +677,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30516,30517,30518,30519,30520
 -- 「矮人村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30540,30540,'30540','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
-(30540,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
+(30540,1000,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30540,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -703,8 +703,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30558,30559,30560,30561,30562
 -- 「半獸人村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (30576,30576,'30576','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
-(30576,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
+(30576,1000,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (30576,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -728,8 +728,8 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31688,31690,32133,32134,32135
 -- 「闇天使村莊」加入新的 NPC
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (32163,32163,'32163','','',28,40,85,'L2Teleporter',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,1,120,1);
-REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
-(32163,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
+(32163,1000,'balanced');
 REPLACE INTO `npc_elementals` VALUES
 (32163,0,0,20,20,20,20,20,20);
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
@@ -876,133 +876,135 @@ REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_rad
 (32166,32166,'32166','','',13,25,85,'L2Merchant',40,4228,2038,10,5,1200,400,900,300,299,4,398,0,28,120,1),
 (33274,33274,'33274','','',7,17.5,85,'L2Npc',40,7324,2797,10,5,1200,400,900,300,299,4,398,0,50,100,1),
 (33579,33579,'33579','','',8,25,85,'L2PetManager',40,7324,2797,10,5,1200,400,900,300,299,4,398,0,63,20,1),
-(33587,33587,'33587','','',8,23,85,'L2Merchant',40,7324,2797,10,5,1200,400,900,300,299,4,398,0,50,120,1);
+(33587,33587,'33587','','',8,23,85,'L2Merchant',40,7324,2797,10,5,1200,400,900,300,299,4,398,0,50,120,1),
+(32648,32648,'32648','','',5,12.5,85,'L2Teleporter',40,5691,2537,10,5,1200,400,900,300,299,4,398,0,75,120,1);
 
-REPLACE INTO `npcaidata` (`npcId`, `aiType`) VALUES
-(32972,'balanced'),
-(8440,'balanced'),
-(19152,'balanced'),
-(19153,'balanced'),
-(30005,'balanced'),
-(30006,'balanced'),
-(32138,'balanced'),
-(32469,'balanced'),
-(32966,'balanced'),
-(32970,'balanced'),
-(32974,'balanced'),
-(32975,'balanced'),
-(32980,'balanced'),
-(32981,'balanced'),
-(33000,'balanced'),
-(33002,'balanced'),
-(33004,'balanced'),
-(33007,'balanced'),
-(33016,'balanced'),
-(33018,'balanced'),
-(33020,'balanced'),
-(33022,'balanced'),
-(33023,'balanced'),
-(33025,'balanced'),
-(33027,'balanced'),
-(33101,'balanced'),
-(33105,'balanced'),
-(33106,'balanced'),
-(33107,'balanced'),
-(33108,'balanced'),
-(33109,'balanced'),
-(33110,'balanced'),
-(33111,'balanced'),
-(33112,'balanced'),
-(33113,'balanced'),
-(33114,'balanced'),
-(33115,'balanced'),
-(33116,'balanced'),
-(33120,'balanced'),
-(33121,'balanced'),
-(33122,'balanced'),
-(33123,'balanced'),
-(33124,'balanced'),
-(33125,'balanced'),
-(33194,'balanced'),
-(33201,'balanced'),
-(33203,'balanced'),
-(33206,'balanced'),
-(33207,'balanced'),
-(33208,'balanced'),
-(33217,'balanced'),
-(33218,'balanced'),
-(33220,'balanced'),
-(33221,'balanced'),
-(33223,'balanced'),
-(33224,'balanced'),
-(33225,'balanced'),
-(33226,'balanced'),
-(33227,'balanced'),
-(33228,'balanced'),
-(33230,'balanced'),
-(33231,'balanced'),
-(33232,'balanced'),
-(33234,'balanced'),
-(33235,'balanced'),
-(33236,'balanced'),
-(33237,'balanced'),
-(33238,'balanced'),
-(33240,'balanced'),
-(33241,'balanced'),
-(33242,'balanced'),
-(33245,'balanced'),
-(33246,'balanced'),
-(33247,'balanced'),
-(33249,'balanced'),
-(33250,'balanced'),
-(33251,'balanced'),
-(33252,'balanced'),
-(33268,'balanced'),
-(33269,'balanced'),
-(33270,'balanced'),
-(33271,'balanced'),
-(33272,'balanced'),
-(33273,'balanced'),
-(33275,'balanced'),
-(33276,'balanced'),
-(33277,'balanced'),
-(33280,'balanced'),
-(33281,'balanced'),
-(33282,'balanced'),
-(33284,'balanced'),
-(33285,'balanced'),
-(33287,'balanced'),
-(33372,'balanced'),
-(33454,'balanced'),
-(33464,'balanced'),
-(33477,'balanced'),
-(33480,'balanced'),
-(33481,'balanced'),
-(33482,'balanced'),
-(33483,'balanced'),
-(33484,'balanced'),
-(33485,'balanced'),
-(33486,'balanced'),
-(33487,'balanced'),
-(33530,'balanced'),
-(33553,'balanced'),
-(33570,'balanced'),
-(33574,'balanced'),
-(33576,'balanced'),
-(33577,'balanced'),
-(33578,'balanced'),
-(33580,'balanced'),
-(33581,'balanced'),
-(30001,'balanced'),
-(30002,'balanced'),
-(30004,'balanced'),
-(30149,'balanced'),
-(30283,'balanced'),
-(31563,'balanced'),
-(32166,'balanced'),
-(33274,'balanced'),
-(33579,'balanced'),
-(33587,'balanced');
+REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
+(32972,1000,'balanced'),
+(8440,1000,'balanced'),
+(19152,1000,'balanced'),
+(19153,1000,'balanced'),
+(30005,1000,'balanced'),
+(30006,1000,'balanced'),
+(32138,1000,'balanced'),
+(32469,1000,'balanced'),
+(32966,1000,'balanced'),
+(32970,1000,'balanced'),
+(32974,1000,'balanced'),
+(32975,1000,'balanced'),
+(32980,1000,'balanced'),
+(32981,1000,'balanced'),
+(33000,1000,'balanced'),
+(33002,1000,'balanced'),
+(33004,1000,'balanced'),
+(33007,1000,'balanced'),
+(33016,1000,'balanced'),
+(33018,1000,'balanced'),
+(33020,1000,'balanced'),
+(33022,1000,'balanced'),
+(33023,1000,'balanced'),
+(33025,1000,'balanced'),
+(33027,1000,'balanced'),
+(33101,1000,'balanced'),
+(33105,1000,'balanced'),
+(33106,1000,'balanced'),
+(33107,1000,'balanced'),
+(33108,1000,'balanced'),
+(33109,1000,'balanced'),
+(33110,1000,'balanced'),
+(33111,1000,'balanced'),
+(33112,1000,'balanced'),
+(33113,1000,'balanced'),
+(33114,1000,'balanced'),
+(33115,1000,'balanced'),
+(33116,1000,'balanced'),
+(33120,1000,'balanced'),
+(33121,1000,'balanced'),
+(33122,1000,'balanced'),
+(33123,1000,'balanced'),
+(33124,1000,'balanced'),
+(33125,1000,'balanced'),
+(33194,1000,'balanced'),
+(33201,1000,'balanced'),
+(33203,1000,'balanced'),
+(33206,1000,'balanced'),
+(33207,1000,'balanced'),
+(33208,1000,'balanced'),
+(33217,1000,'balanced'),
+(33218,1000,'balanced'),
+(33220,1000,'balanced'),
+(33221,1000,'balanced'),
+(33223,1000,'balanced'),
+(33224,1000,'balanced'),
+(33225,1000,'balanced'),
+(33226,1000,'balanced'),
+(33227,1000,'balanced'),
+(33228,1000,'balanced'),
+(33230,1000,'balanced'),
+(33231,1000,'balanced'),
+(33232,1000,'balanced'),
+(33234,1000,'balanced'),
+(33235,1000,'balanced'),
+(33236,1000,'balanced'),
+(33237,1000,'balanced'),
+(33238,1000,'balanced'),
+(33240,1000,'balanced'),
+(33241,1000,'balanced'),
+(33242,1000,'balanced'),
+(33245,1000,'balanced'),
+(33246,1000,'balanced'),
+(33247,1000,'balanced'),
+(33249,1000,'balanced'),
+(33250,1000,'balanced'),
+(33251,1000,'balanced'),
+(33252,1000,'balanced'),
+(33268,1000,'balanced'),
+(33269,1000,'balanced'),
+(33270,1000,'balanced'),
+(33271,1000,'balanced'),
+(33272,1000,'balanced'),
+(33273,1000,'balanced'),
+(33275,1000,'balanced'),
+(33276,1000,'balanced'),
+(33277,1000,'balanced'),
+(33280,1000,'balanced'),
+(33281,1000,'balanced'),
+(33282,1000,'balanced'),
+(33284,1000,'balanced'),
+(33285,1000,'balanced'),
+(33287,1000,'balanced'),
+(33372,1000,'balanced'),
+(33454,1000,'balanced'),
+(33464,1000,'balanced'),
+(33477,1000,'balanced'),
+(33480,1000,'balanced'),
+(33481,1000,'balanced'),
+(33482,1000,'balanced'),
+(33483,1000,'balanced'),
+(33484,1000,'balanced'),
+(33485,1000,'balanced'),
+(33486,1000,'balanced'),
+(33487,1000,'balanced'),
+(33530,1000,'balanced'),
+(33553,1000,'balanced'),
+(33570,1000,'balanced'),
+(33574,1000,'balanced'),
+(33576,1000,'balanced'),
+(33577,1000,'balanced'),
+(33578,1000,'balanced'),
+(33580,1000,'balanced'),
+(33581,1000,'balanced'),
+(30001,1000,'balanced'),
+(30002,1000,'balanced'),
+(30004,1000,'balanced'),
+(30149,1000,'balanced'),
+(30283,1000,'balanced'),
+(31563,1000,'balanced'),
+(32166,1000,'balanced'),
+(33274,1000,'balanced'),
+(33579,1000,'balanced'),
+(33587,1000,'balanced'),
+(32648,1000,'balanced');
 
 REPLACE INTO `npc_elementals` VALUES
 (32972,0,0,20,20,20,20,20,20),
@@ -1128,7 +1130,8 @@ REPLACE INTO `npc_elementals` VALUES
 (32166,0,0,20,20,20,20,20,20),
 (33274,0,0,20,20,20,20,20,20),
 (33579,0,0,20,20,20,20,20,20),
-(33587,0,0,20,20,20,20,20,20);
+(33587,0,0,20,20,20,20,20,20),
+(32648,0,0,20,20,20,20,20,20);
 
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
 ('新說話之島村莊',1,32972,-114371,260304,-1176,49472,60),
@@ -1413,7 +1416,8 @@ REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`,
 ('新說話之島村莊',1,32166,-115142,253571,-1496,0,60),
 ('新說話之島村莊',1,33274,-114080,254928,-1528,49328,60),
 ('新說話之島村莊',1,33579,-114801,252636,-1544,64427,60),
-('新說話之島村莊',1,33587,-114685,252350,-1560,15879,60);
+('新說話之島村莊',1,33587,-114685,252350,-1560,15879,60),
+('新說話之島村莊',1,32648,-114444,255043,-1528,16384,60);
 
 -- 「新說話之島村莊」加入新的傳送(尚未加入全價/半價收費的對話)
 REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`) VALUES
@@ -1430,13 +1434,19 @@ REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`
 ('新說話之島村莊',3312300,-107881,248658,-3224,0),
 ('新說話之島村莊',3312301,-119592,246398,-1232,0),
 ('新說話之島村莊',3312302,-114986,226633,-2864,0),
-('新說話之島村莊',3312303,-109300,237498,-2944,0);
+('新說話之島村莊',3312303,-109300,237498,-2944,0),
+('新說話之島村莊',3264800,83551,147945,-3400,100000),
+('新說話之島村莊',3264801,146783,25808,-2008,100000),
+('新說話之島村莊',3264802,82971,53207,-1488,100000),
+('新說話之島村莊',3264803,43835,-47749,-792,100000),
+('新說話之島村莊',3264804,148024,-55281,-2728,100000);
 
 UPDATE `npcaidata` SET `targetable` = 0 WHERE `npcId` IN (32966,32970,33000,33002,33007,33016,33018,33020,33022,33025,33027,33101,33105,33106,33107,33108,33109,33110,33111,33112,33113,33114,33115,33116,33120,33121,33122,33125,33203,33206,33207,33208,33217,33218,33220,33221,33223,33224,33225,33226,33227,33228,33230,33231,33232,33234,33235,33236,33237,33238,33280,33281,33282,33284,33285,33287,33372,33553,33570,33574,33576,33577);
 UPDATE `npcaidata` SET `showName` = 0 WHERE `npcId` IN (32966,32970,33000,33002,33007,33016,33018,33020,33022,33025,33027,33101,33105,33106,33107,33108,33109,33110,33111,33112,33113,33114,33115,33116,33120,33121,33122,33125,33203,33206,33207,33208,33217,33218,33220,33221,33223,33224,33225,33226,33227,33228,33230,33231,33232,33234,33235,33236,33237,33238,33280,33281,33282,33284,33285,33287,33372,33553,33570,33574,33576,33577);
 
 REPLACE INTO `merchant_shopids` VALUES
 (3357900,'33579');
+DELETE FROM `merchant_buylists` Where `shop_id` IN (3357900);
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (2505,7000,3357900,0),
 (3439,17000,3357900,1),
@@ -1523,35 +1533,37 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (12752,2582800,3357900,82);
 REPLACE INTO `merchant_shopids` VALUES
 (3156300,'31563');
+DELETE FROM `merchant_buylists` Where `shop_id` IN (3156300);
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
-(7807,50,5432100,0),
-(7808,70,5432100,1),
-(7809,60,5432100,2),
-(6520,120,5432100,3),
-(6523,180,5432100,4),
-(6526,150,5432100,5),
-(8506,120,5432100,6),
-(8509,180,5432100,7),
-(8512,150,5432100,8),
-(8484,240,5432100,9),
-(8485,240,5432100,10),
-(8486,100,5432100,11),
-(6529,30000,5432100,12),
-(6530,100000,5432100,13),
-(6531,400000,5432100,14),
-(6532,1200000,5432100,15),
-(6533,4000000,5432100,16),
-(6534,10000000,5432100,17),
-(7561,100,5432100,18),
-(8193,5000,5432100,19),
-(8194,5000,5432100,20),
-(8195,5000,5432100,21),
-(8196,5000,5432100,22),
-(8197,5000,5432100,23),
-(8198,5000,5432100,24),
-(8199,5000,5432100,25),
-(8200,5000,5432100,26),
-(8202,5000,5432100,27);
+(7807,50,3156300,0),
+(7808,70,3156300,1),
+(7809,60,3156300,2),
+(6520,120,3156300,3),
+(6523,180,3156300,4),
+(6526,150,3156300,5),
+(8506,120,3156300,6),
+(8509,180,3156300,7),
+(8512,150,3156300,8),
+(8484,240,3156300,9),
+(8485,240,3156300,10),
+(8486,100,3156300,11),
+(6529,30000,3156300,12),
+(6530,100000,3156300,13),
+(6531,400000,3156300,14),
+(6532,1200000,3156300,15),
+(6533,4000000,3156300,16),
+(6534,10000000,3156300,17),
+(7561,100,3156300,18),
+(8193,5000,3156300,19),
+(8194,5000,3156300,20),
+(8195,5000,3156300,21),
+(8196,5000,3156300,22),
+(8197,5000,3156300,23),
+(8198,5000,3156300,24),
+(8199,5000,3156300,25),
+(8200,5000,3156300,26),
+(8202,5000,3156300,27);
+DELETE FROM `merchant_buylists` Where `shop_id` IN (3000100,3000101,3000200,3000201,3000400,3014900,3216600);
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (1,590,3000100,0),
 (4,590,3000100,1),
@@ -1678,42 +1690,32 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (8634,600,3000400,29),
 (8635,1400,3000400,30),
 (8615,35000,3000400,31),
-(118,51,5432100,0),
-(906,830,5432100,1),
-(907,3600,5432100,2),
-(908,9120,5432100,3),
-(112,37,5432100,4),
-(113,620,5432100,5),
-(114,2700,5432100,6),
-(115,2700,5432100,7),
-(845,6840,5432100,8),
-(116,25,5432100,9),
-(875,420,5432100,10),
-(876,1800,5432100,11),
-(877,4560,5432100,12),
-(118,51,5432100,0),
-(906,830,5432100,1),
-(907,3600,5432100,2),
-(908,9120,5432100,3),
-(112,37,5432100,4),
-(113,620,5432100,5),
-(114,2700,5432100,6),
-(115,2700,5432100,7),
-(845,6840,5432100,8),
-(116,25,5432100,9),
-(875,420,5432100,10),
-(876,1800,5432100,11),
-(877,4560,5432100,12),
-(118,51,5432100,0),
-(906,830,5432100,1),
-(907,3600,5432100,2),
-(908,9120,5432100,3),
-(112,37,5432100,4),
-(113,620,5432100,5),
-(114,2700,5432100,6),
-(115,2700,5432100,7),
-(845,6840,5432100,8),
-(116,25,5432100,9),
-(875,420,5432100,10),
-(876,1800,5432100,11),
-(877,4560,5432100,12);
+(32249,1580,3000400,32),
+(32250,7320,3000400,33),
+(32257,7320,3000400,34),
+(118,51,3014900,0),
+(906,830,3014900,1),
+(907,3600,3014900,2),
+(908,9120,3014900,3),
+(112,37,3014900,4),
+(113,620,3014900,5),
+(114,2700,3014900,6),
+(115,2700,3014900,7),
+(845,6840,3014900,8),
+(116,25,3014900,9),
+(875,420,3014900,10),
+(876,1800,3014900,11),
+(877,4560,3014900,12),
+(118,51,3216600,0),
+(906,830,3216600,1),
+(907,3600,3216600,2),
+(908,9120,3216600,3),
+(112,37,3216600,4),
+(113,620,3216600,5),
+(114,2700,3216600,6),
+(115,2700,3216600,7),
+(845,6840,3216600,8),
+(116,25,3216600,9),
+(875,420,3216600,10),
+(876,1800,3216600,11),
+(877,4560,3216600,12);
