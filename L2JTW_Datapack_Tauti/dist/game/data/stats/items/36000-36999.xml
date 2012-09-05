@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="23078" name="攻城士兵徽章" type="EtcItem">
+		<set name="icon" val="icon.etc_badge_black_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30297" name="刻印祕傳書" type="EtcItem">
 		<set name="icon" val="icon.codex_of_incuse"/>
 		<set name="immediate_effect" val="1"/>
@@ -2414,7 +2421,7 @@
 		<set name="crystal_type" val="d"/>
 		<set name="material" val="gold"/>
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
-	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->		
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="32608" name="永生襯衫" type="Armor">
 		<set name="icon" val="icon.r1_shirt_i00"/>
 		<set name="default_action" val="equip"/>
@@ -3720,6 +3727,24 @@
 		<set name="is_stackable" val="true"/>
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
 	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34741" name="經驗值葫蘆" type="EtcItem">
+		<set name="icon" val="icon.exp_bottle"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34742" name="經驗值卷軸-5億" type="EtcItem">
+		<set name="icon" val="icon.exp_bottle_scroll"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="120"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="34851" name="防具晶體碎片-R" type="EtcItem">
 		<set name="icon" val="Branchsys2.icon.event_cubic_a_piece_i01"/>
 		<set name="immediate_effect" val="1"/>
@@ -3745,6 +3770,1184 @@
 		<set name="icon" val="Branchsys2.icon.shine_cubic_w_piece_i01"/>
 		<set name="immediate_effect" val="1"/>
 		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34855" name="雷亞尼禮盒" type="EtcItem">
+		<set name="icon" val="icon.present_of_destination_event"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34900" name="謎樣憑證" type="EtcItem">
+		<set name="icon" val="icon.etc_coins_black_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="leather"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34901" name="決議之證" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_white_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="leather"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34902" name="盼望之證" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_blue_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="leather"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34903" name="謎樣之影" type="EtcItem">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="leather"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="34904" name="謎樣之力" type="EtcItem">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="leather"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35571" name="水之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="85"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35572" name="聖之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="85"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35573" name="風之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="85"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35574" name="暗之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="85"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35575" name="地之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="85"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35576" name="火之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="85"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35577" name="特級水之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="158"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35578" name="特級火之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="158"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35579" name="特級聖之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="158"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35580" name="特級暗之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="158"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35581" name="特級風之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="158"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35582" name="特級地之守護項鍊" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="158"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35583" name="地之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="42"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35584" name="水之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="42"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35585" name="火之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="42"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35586" name="聖之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="42"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35587" name="暗之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="42"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35588" name="風之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="42"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35589" name="特級地之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35590" name="特級水之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35591" name="特級火之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35592" name="特級聖之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35593" name="特級暗之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35594" name="特級風之守護戒指" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35595" name="水之親衛項鍊" type="Armor">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="106"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35596" name="地之親衛項鍊" type="Armor">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="106"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35597" name="火之親衛項鍊" type="Armor">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="106"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35598" name="聖之親衛項鍊" type="Armor">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="106"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35599" name="暗之親衛項鍊" type="Armor">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="106"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35600" name="風之親衛項鍊" type="Armor">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="106"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35601" name="水之親衛戒指" type="Armor">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="23"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35602" name="地之親衛戒指" type="Armor">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="23"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35603" name="火之親衛戒指" type="Armor">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="23"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35604" name="聖之親衛戒指" type="Armor">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="23"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35605" name="暗之親衛戒指" type="Armor">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="23"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35606" name="風之親衛戒指" type="Armor">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="23"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35607" name="守護耳環A" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35608" name="守護耳環B" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35609" name="守護耳環C" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35610" name="守護耳環D" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35611" name="守護耳環E" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35612" name="守護耳環F" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35613" name="守護耳環G" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35614" name="守護耳環H" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35615" name="守護耳環I" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35616" name="特級守護耳環-休克" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35617" name="特級守護耳環-束縛" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35618" name="特級守護耳環-出血" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35619" name="特級守護耳環-麻痺" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35620" name="特級守護耳環-精神" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35621" name="特級守護耳環-睡眠" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35622" name="特級守護耳環-毒" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35623" name="特級守護耳環-擊退/擊倒" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35624" name="特級守護耳環-空中束縛" type="Armor">
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="118"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35625" name="親衛耳環A" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35626" name="親衛耳環B" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35627" name="親衛耳環C" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35628" name="親衛耳環D" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35629" name="親衛耳環E" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35630" name="親衛耳環F" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35631" name="親衛耳環G" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35632" name="親衛耳環H" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35633" name="親衛耳環I" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="35"/>
+		</for>
+		<for>
+			<add order="0x10" stat="mDef" val="79"/>
+		</for>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35641" name="疑問的補給箱-魔法別針B、C級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35642" name="疑問的補給箱-魔法小袋B、C級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35643" name="疑問的補給箱-腰帶B、C級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35644" name="疑問的補給箱-魔法別針S、A級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35645" name="疑問的補給箱-魔法小袋S、A級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35646" name="疑問的補給箱-腰帶S、A級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35647" name="疑問的補給箱-魔法古文夾S、A級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35648" name="疑問的補給箱-魔法飾品S、A級" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35649" name="封印的憧憬的護身符" type="EtcItem">
+		<set name="icon" val="icon.accessory_longing_talisman_i01"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="weight" val="100"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35650" name="憎惡惡魔召喚卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35651" name="憎惡惡魔召喚卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35652" name="憎惡惡魔召喚卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35653" name="憎惡惡魔召喚卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35929" name="謎樣的戒指" type="Armor">
+		<set name="icon" val="icon.accessory_shiny_couple_ring"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35930" name="渾沌體力治癒藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_gold_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="potion"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="35931" name="謎樣的卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="120"/>
 		<set name="is_stackable" val="true"/>
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
 	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
