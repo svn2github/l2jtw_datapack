@@ -15,6 +15,22 @@
 		<set name="is_stackable" val="true"/>
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
 	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="30298" name="刻印祕傳書-熟練篇" type="EtcItem">
+		<set name="icon" val="icon.codex_of_incuse_dexterity"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="30299" name="刻印祕傳書-訓練篇" type="EtcItem">
+		<set name="icon" val="icon.codex_of_incuse_training"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="30300" name="刻印祕傳書-遺忘篇" type="EtcItem">
 		<set name="icon" val="icon.codex_of_incuse_forgetting"/>
 		<set name="immediate_effect" val="1"/>
