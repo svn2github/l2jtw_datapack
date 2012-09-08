@@ -23,7 +23,7 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 public class DimensionalMerchants extends Quest
 {
 	private static final String qn = "DimensionalMerchants";
-	private static final int DIMENSIONAL_MERCHANT = 32478;  // 維他命管理者
+	private static final int DIMENSIONAL_MERCHANT = 32478;
 
 	public DimensionalMerchants(int questId, String name, String descr)
 	{
@@ -50,7 +50,8 @@ public class DimensionalMerchants extends Quest
 				st.takeItems(13273, 1);
 				st.giveItems(Integer.valueOf(event), 1);
 				st.exitQuest(true);
-				return "<html><body>維他命管理者：<br>謝謝您的惠顧，<br1>往後我們會以更多的服務來報答各位。<br>";
+				htmltext = "32478-23.htm";
+				return htmltext;
 			}
 			else if (eventItem >= 1)
 			{
@@ -58,10 +59,11 @@ public class DimensionalMerchants extends Quest
 				st.takeItems(13383, 1);
 				st.giveItems(Integer.valueOf(event), 1);
 				st.exitQuest(true);
-				return "<html><body>維他命管理者：<br>謝謝您的惠顧，<br1>往後我們會以更多的服務來報答各位。<br>";
+				htmltext = "32478-23.htm";
+				return htmltext;
 			}
 			else
-				htmltext = "32478-no.htm";
+				htmltext = "32478-21.htm";
 		}
 		else if (event.equalsIgnoreCase("13548") || event.equalsIgnoreCase("13549") || event.equalsIgnoreCase("13550") || event.equalsIgnoreCase("13551"))
 		{
@@ -70,9 +72,10 @@ public class DimensionalMerchants extends Quest
 				st.takeItems(14065, 1);
 				st.giveItems(Integer.valueOf(event), 1);
 				st.exitQuest(true);
-				return "<html><body>維他命管理者：<br>謝謝您的惠顧，<br1>往後我們會以更多的服務來報答各位。<br>";
+				htmltext = "32478-23.htm";
+				return htmltext;
 			}
-			htmltext = "32478-no.htm";
+			htmltext = "32478-21.htm";
 			st.exitQuest(true);
 		}
 		else if (event.equalsIgnoreCase("20915") || event.equalsIgnoreCase("20916") || event.equalsIgnoreCase("20917") || event.equalsIgnoreCase("20918") || event.equalsIgnoreCase("20919") || event.equalsIgnoreCase("20920"))
@@ -82,12 +85,12 @@ public class DimensionalMerchants extends Quest
 				st.takeItems(20914, 1);
 				st.giveItems(Integer.valueOf(event), 1);
 				st.exitQuest(true);
-				return "<html><body>維他命管理者：<br>謝謝您的惠顧，<br1>往後我們會以更多的服務來報答各位。<br>";
+				htmltext = "32478-23.htm";
+				return htmltext;
 			}
-			htmltext = "32478-no1.htm";
+			htmltext = "32478-22.htm";
 			st.exitQuest(true);
 		}
-
 		return htmltext;
 	}
 
