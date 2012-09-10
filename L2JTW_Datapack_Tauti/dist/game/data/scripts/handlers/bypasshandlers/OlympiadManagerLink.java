@@ -90,7 +90,7 @@ public class OlympiadManagerLink implements IBypassHandler
 					activeChar.sendPacket(html);
 					return false;
 				}
-				if (!activeChar.isNoble() || (activeChar.getClassId().level() < 3))
+				if (!activeChar.isNoble() || !activeChar.isAwaken() || activeChar.getLevel() < 85) //rocknow-God
 				{
 					html.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "noble_thirdclass.htm");
 					html.replace("%objectId%", String.valueOf(target.getObjectId()));
@@ -214,10 +214,10 @@ public class OlympiadManagerLink implements IBypassHandler
 						}
 						break;
 					case 7: // Equipment Rewards
-						MultiSell.getInstance().separateAndSend(102, activeChar, (L2Npc) target, false);
+						MultiSell.getInstance().separateAndSend(699, activeChar, (L2Npc) target, false); //rocknow-God
 						break;
 					case 8: // Misc. Rewards
-						MultiSell.getInstance().separateAndSend(103, activeChar, (L2Npc) target, false);
+						MultiSell.getInstance().separateAndSend(712, activeChar, (L2Npc) target, false); //rocknow-God
 						break;
 					case 9: // Your Grand Olympiad Score from the previous period is %points% point(s) | TODO: cleanup (not used anymore)
 						int point = Olympiad.getInstance().getLastNobleOlympiadPoints(activeChar.getObjectId());
