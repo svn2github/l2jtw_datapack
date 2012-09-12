@@ -1,8 +1,6 @@
 /************ Made in Taiwan ************/
 
 -- 修正NPC設定
-UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` = 32191; -- 修正漢娜琳 宗師的NPC類型
-UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` = 32074;    -- 修正古魯丁分會長的NPC類型
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- 刪除官服不存在的NPC
 
 -- 修正NPC掉落:修正封印大天使的掉落,因為spawnlist只有21070封印大天使,沒有21071封印大天使
