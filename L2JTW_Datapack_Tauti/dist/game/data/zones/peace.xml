@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
 	<!-- Peace Zones -->
-	<zone name="talking_island_town_peace_zone1" type="PeaceZone" shape="NPoly" minZ="-4656" maxZ="-1000"> <!-- [17_25] -->
-		<node X="-111281" Y="258406" />
-		<node X="-113139" Y="260893" />
-		<node X="-115493" Y="260745" />
-		<node X="-117625" Y="258112" />
-		<node X="-119147" Y="254898" />
-		<node X="-117214" Y="252172" />
-		<node X="-117214" Y="252172" />
-		<node X="-109431" Y="255707" />
-		<node X="-110398" Y="257899" />
+	<zone name="talking_island_town_peace_zone1" type="PeaceZone" shape="NPoly" minZ="-2200" maxZ="-1000"> <!-- [17_25] -->
+		<node X="-114024" Y="251673" />
+		<node X="-112069" Y="251979" />
+		<node X="-111562" Y="251930" />
+		<node X="-110857" Y="251310" />
+		<node X="-110262" Y="251297" />
+		<node X="-109737" Y="251761" />
+		<node X="-109619" Y="252077" />
+		<node X="-109924" Y="252921" />
+		<node X="-109829" Y="253904" />
+		<node X="-109816" Y="254369" />
+		<node X="-108609" Y="255974" />
+		<node X="-108777" Y="257457" />
+		<node X="-112592" Y="260844" />
+		<node X="-115832" Y="260914" />
+		<node X="-117160" Y="258884" />
+		<node X="-118877" Y="255783" />
+		<node X="-119015" Y="255236" />
+		<node X="-117943" Y="254062" />
+		<node X="-117706" Y="253345" />
+		<node X="-116996" Y="252144" />
+		<node X="-116728" Y="251888" />
+		<node X="-114919" Y="251673" />
+	</zone>
+	<zone name="talking_island_town_peace_zone2" type="PeaceZone" shape="NPoly" minZ="-3200" maxZ="-2700"> <!-- [16_24] -->
+		<node X="-114586" Y="225185" />
+		<node X="-114903" Y="225188" />
+		<node X="-115945" Y="225284" />
+		<node X="-116293" Y="225656" />
+		<node X="-116287" Y="226817" />
+		<node X="-116261" Y="227129" />
+		<node X="-116187" Y="228051" />
+		<node X="-115834" Y="228415" />
+		<node X="-114813" Y="228493" />
+		<node X="-114430" Y="228488" />
+		<node X="-113455" Y="228404" />
+		<node X="-113104" Y="228054" />
+		<node X="-113025" Y="227024" />
+		<node X="-113017" Y="226715" />
+		<node X="-113106" Y="225695" />
+		<node X="-113463" Y="225328" />
 	</zone>
 	<zone name="darkelf_town_peace_zone" type="PeaceZone" shape="NPoly" minZ="-8507" maxZ="-1507"> <!-- [20_18] -->
 		<node X="15719" Y="16735" />
