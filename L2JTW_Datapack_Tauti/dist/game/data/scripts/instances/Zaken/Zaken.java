@@ -23,6 +23,7 @@ import javolution.util.FastList;
 import javolution.util.FastMap;
 import ai.group_template.L2AttackableAIScript;
 
+import com.l2jserver.gameserver.GeoData;
 import com.l2jserver.gameserver.GeoEngine;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.GrandBossManager;
@@ -506,7 +507,11 @@ public class Zaken extends L2AttackableAIScript
 			{
 				for (L2Character obj : world._playersInZakenZone)
 				{
+					/* l2jtw start
 					if (!(GeoEngine.getInstance().canSeeTarget(obj, npc)))
+					 */
+					if (!(GeoData.getInstance().canSeeTarget(obj, npc)))
+					// l2jtw end
 						continue;
 					
 					if (obj instanceof L2PcInstance || obj instanceof L2Summon || obj instanceof L2DecoyInstance)
