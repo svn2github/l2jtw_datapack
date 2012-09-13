@@ -1,3 +1,4 @@
+Set Names utf8;
 /************ Made in Taiwan ************/
 
 REPLACE INTO `auto_announcements` VALUES
