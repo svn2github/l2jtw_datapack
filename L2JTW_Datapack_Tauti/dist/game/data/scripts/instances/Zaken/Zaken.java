@@ -24,7 +24,9 @@ import javolution.util.FastMap;
 import ai.group_template.L2AttackableAIScript;
 
 import com.l2jserver.gameserver.GeoData;
+/* l2jtw
 import com.l2jserver.gameserver.GeoEngine;
+ */
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.GrandBossManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
