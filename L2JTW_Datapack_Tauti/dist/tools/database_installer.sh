@@ -535,4 +535,9 @@ load_config $1
 MYL="$MYSQLPATH -h $LSDBHOST -u $LSUSER --password=$LSPASS -D $LSDB"
 MYG="$MYSQLPATH -h $GSDBHOST -u $GSUSER --password=$GSPASS -D $GSDB"
 MYC="$MYSQLPATH -h $CBDBHOST -u $CBUSER --password=$CBPASS -D $CBDB"
+# l2jtw add start
+echo "create database $LSDB;" | $MYSQLPATH -h $LSDBHOST -u $LSUSER --password=$LSPASS
+echo "create database $GSDB;" | $MYSQLPATH -h $GSDBHOST -u $GSUSER --password=$GSPASS
+echo "create database $CBDB;" | $MYSQLPATH -h $CBDBHOST -u $CBUSER --password=$CBPASS
+# l2jtw add end
 ls_backup
