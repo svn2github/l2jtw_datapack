@@ -11,7 +11,8 @@ from com.l2jserver.gameserver.datatables import SpawnTable
 from com.l2jserver.util import Rnd
 
 selfTalkData = {
-	32975:[[1811294]]
+	32972:[[1811291]]
+	,32975:[[1811294]]
 	,33025:[[1032340],[1032341],[1032342]]
 	,33026:[[1032319],[1032320],[1032321]]
 	,33116:[[1811244]]
