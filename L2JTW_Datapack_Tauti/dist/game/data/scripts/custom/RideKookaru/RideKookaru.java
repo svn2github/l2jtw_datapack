@@ -28,17 +28,25 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 public class RideKookaru extends Quest
 {
 	private static final String qn = "RideKookaru";
+	private static final int[] NPCs =
+	{
+		33124, 33199
+	};
 	
 	public RideKookaru(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		addStartNpc(33124);
-		addTalkId(33124);
+		for (int i : NPCs)
+		{
+			addStartNpc(i);
+			addTalkId(i);
+		}
 	}
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
+		String htmltext = "";
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
 			st = newQuestState(player);
@@ -54,8 +62,21 @@ public class RideKookaru extends Quest
 				SkillTable.getInstance().getInfo(9204, 1).getEffects(npc, player);
 			}
 		}
+		else if (event.equalsIgnoreCase("race"))
+		{
+			if (player.isTransformed() || player.isInStance())
+			{
+			
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 22, npc.getNpcId(), NpcStringId.YOU_CANT_RIDE_A_KOOKARU_NOW));
+			}
+			else 
+			{
+				SkillTable.getInstance().getInfo(9204, 1).getEffects(npc, player);
+				htmltext = "no.htm";
+			}
+		}
 		st.exitQuest(true);
-		return null;
+		return htmltext;
 	}
 	
 	public static void main(String[] args)
