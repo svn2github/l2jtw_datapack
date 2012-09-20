@@ -80,7 +80,12 @@ public class AdminVitaminItem implements IAdminCommandHandler
 		sb.append("<tr><td><td><edit width=120 var=\"tsCnt\"></td></tr>");
 		sb.append("<tr><td</td></tr>");
 		sb.append("<tr><td>給予:</td></tr>");
+		/* l2jtw start
+		 * 3q overzero
 		sb.append("<tr><td><td><combobox width=120 var=tsPpl list=全部玩家;全部線上玩家></td></tr>");
+		 */
+		sb.append("<tr><td><td><combobox width=120 var=tsPpl list=online;全部玩家></td></tr>");
+		// l2jtw end
 		sb.append("</table>");
 		sb.append("<table width=270>");
 		sb.append("<tr>");
