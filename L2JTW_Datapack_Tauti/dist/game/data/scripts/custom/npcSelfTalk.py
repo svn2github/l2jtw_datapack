@@ -11,21 +11,10 @@ from com.l2jserver.gameserver.datatables import SpawnTable
 from com.l2jserver.util import Rnd
 
 selfTalkData = {
-	32972:[[1811291]]
-	,32975:[[1811294]]
-	,33025:[[1032340],[1032341],[1032342]]
-	,33026:[[1032319],[1032320],[1032321]]
-	,33116:[[1811244]]
-	,33124:[[17178345]]
-	,33199:[[1811312]]
-	,33223:[[1811243]]
-	,33229:[[1032318]]
-	,33238:[[1811252]]
-	,33271:[[1811245]]
-	,33284:[[1811248]]
-	,33285:[[1811247]]
-	,33487:[[11021702],[11021704],[11021706],[11021708]]
-	,33581:[[1811313],[1811314],[1811315]]
+	30006:[[1811308]]
+#	,33685:[[1801645]]
+#	,NPCID:[[StringId-1]]
+#	,NPCID:[[StringId-1],[StringId-2],[StringId-3]]
 }
 
 class Quest(JQuest):
@@ -42,7 +31,7 @@ class Quest(JQuest):
 		self.qID, self.qn, self.qDesc = id, name, descr
 		JQuest.__init__(self, id, name, descr)
 		for npcid in selfTalkData:
-			delay = Rnd.get(8, 18)
+			delay = Rnd.get(12, 20)
 			self.startQuestTimer("say_%d_%d" % (npcid, 0), 1000 * delay, None, None, False)
 		print "%s loaded" % self.qn
 
@@ -54,7 +43,7 @@ class Quest(JQuest):
 				if npcid == spawn.getNpcid():
 					self.myBroadcast(spawn.getLastSpawn(), selfTalkData[npcid][index][0])
 			newindex = [index + 1, 0][index + 1 >= len(selfTalkData[npcid])]
-			delay = Rnd.get(8, 18)
+			delay = Rnd.get(12, 20)
 			self.startQuestTimer("say_%d_%d" % (npcid, newindex), 1000 * delay, None, None, False)
 
 Quest()
