@@ -63,15 +63,17 @@ class AutoBuffGoD(JQuest):
 			
 		def process(target):
 			if check(target):
-				for skillid in getBuffList(target):
+				skills = getBuffList(target)
+				for skillid in skills:
 					self.giveBuff(npc, target, skillid, 1)
+				if len(skills) > 0:
+					#1600027	初學者助手對「$s1」施展了輔助魔法。					
+					#essm = ExShowScreenMessage(NpcStringId.NEWBIE_HELPER_HAS_CASTED_BUFFS_ON_S1, 2, 5000) #stringid, position, duration
+					essm = ExShowScreenMessage(NpcStringId.getNpcStringId(1600027), 2, 5000) #stringid, position, duration
+					essm.addStringParameter(target.getName())
+					target.sendPacket(essm)
 				
 		process(player)
-		#1600027	初學者助手對「$s1」施展了輔助魔法。					
-		#essm = ExShowScreenMessage(NpcStringId.NEWBIE_HELPER_HAS_CASTED_BUFFS_ON_S1, 1, 5000) #stringid, position, duration
-		essm = ExShowScreenMessage(NpcStringId.getNpcStringId(1600027), 2, 5000) #stringid, position, duration
-		essm.addStringParameter(player.getName())
-		player.sendPacket(essm)
 		
 
 	def onAdvEvent(self, event, npc, player):
