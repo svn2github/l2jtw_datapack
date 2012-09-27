@@ -19,6 +19,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
 
 /**
@@ -29,7 +30,7 @@ public class TalkingIsland extends Quest
 	private static final String qn = "TalkingIsland";
 	private static final int[] NPCs =
 	{
-		32972
+		32972, 33123, 33180
 	};
 	
 	@Override
@@ -38,12 +39,22 @@ public class TalkingIsland extends Quest
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
 			st = newQuestState(player);
-		
-		if (player.getClassId().level() == 0 && player.getLevel() < 21)
-			player.sendPacket(new ExShowScreenMessage(1,-1,2,0,0,0,1,false,5000,false,"",NpcStringId.BEGIN_TUTORIAL_QUESTS));
-		
-		npc.showChatWindow(player);
+		int npcId = npc.getNpcId();
+		if (npcId == 32972)
+		{
+			if (player.getClassId().level() == 0 && player.getLevel() < 21)
+				player.sendPacket(new ExShowScreenMessage(1,-1,2,0,0,0,1,false,5000,false,"",NpcStringId.BEGIN_TUTORIAL_QUESTS));
+			npc.showChatWindow(player);
+		}
+		else if (npcId == 33123)
+		{
+			if (st.getState() == State.STARTED)
+				npc.showChatWindow(player, 1);
+			else 
+				npc.showChatWindow(player);
+		}
 		return null;
+		
 	}
 	
 	public TalkingIsland(int questId, String name, String descr)
@@ -52,9 +63,10 @@ public class TalkingIsland extends Quest
 		for (int i : NPCs)
 		{
 			addStartNpc(i);
-			addFirstTalkId(i);
 			addTalkId(i);
 		}
+		addFirstTalkId(32972);
+		addFirstTalkId(33123);
 	}
 	
 	@Override
@@ -67,7 +79,15 @@ public class TalkingIsland extends Quest
 		{
 			player.teleToLocation(-114711,243911,-7968);
 		}
-		st.exitQuest(true);
+		else if (event.equalsIgnoreCase("Enter"))
+		{
+			player.teleToLocation(-114675,230171,-1648);
+			st.setState(State.STARTED);
+		}
+		else if (event.equalsIgnoreCase("Remains"))
+		{
+			player.teleToLocation(-109300,237498,-2944);
+		}
 		return null;
 	}
 	

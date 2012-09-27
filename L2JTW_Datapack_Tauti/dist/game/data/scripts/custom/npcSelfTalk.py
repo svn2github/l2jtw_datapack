@@ -31,7 +31,7 @@ class Quest(JQuest):
 		self.qID, self.qn, self.qDesc = id, name, descr
 		JQuest.__init__(self, id, name, descr)
 		for npcid in selfTalkData:
-			delay = Rnd.get(12, 20)
+			delay = Rnd.get(15, 25)
 			self.startQuestTimer("say_%d_%d" % (npcid, 0), 1000 * delay, None, None, False)
 		print "%s loaded" % self.qn
 
@@ -43,7 +43,7 @@ class Quest(JQuest):
 				if npcid == spawn.getNpcid():
 					self.myBroadcast(spawn.getLastSpawn(), selfTalkData[npcid][index][0])
 			newindex = [index + 1, 0][index + 1 >= len(selfTalkData[npcid])]
-			delay = Rnd.get(12, 20)
+			delay = Rnd.get(15, 25)
 			self.startQuestTimer("say_%d_%d" % (npcid, newindex), 1000 * delay, None, None, False)
 
 Quest()
