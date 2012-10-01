@@ -3475,4 +3475,11 @@ INSERT INTO `messagetable` VALUES
 ('1994', 'cn', '红队', '', 'BlockCheckerEngine.java'),
 ('1995', 'en', 'Blue Team', '', 'BlockCheckerEngine.java'),
 ('1995', 'tw', '藍隊', '', 'BlockCheckerEngine.java'),
-('1995', 'cn', '蓝队', '', 'BlockCheckerEngine.java');
+('1995', 'cn', '蓝队', '', 'BlockCheckerEngine.java'),
+
+('2000', 'en', '', 'No skill info found for skill id ; and skill level ;.', 'SkillTable.java'),
+('2000', 'tw', '', '沒有找到這個技能的資料，技能ID:「;」等級:「;」\n請管理者手動刪除 character_skills 資料表裡面的這個技能ID\n', 'SkillTable.java'),
+('2000', 'cn', '', '没有找到这个技能的资料，技能ID:「;」等级:「;」\n请管理者手动删除 character_skills 资料表里面的这个技能ID\n', 'SkillTable.java'),
+('2001', 'en', '', ': Skill Id: ; level: ; is undefined. ; failed.', 'RequestAcquireSkillInfo.java'),
+('2001', 'tw', '', ': 技能ID:「;」等級:「;」的資料並不存在。「;」載入失敗\n請管理者手動刪除 character_skills 資料表裡面的這個技能ID\n', 'RequestAcquireSkillInfo.java'),
+('2001', 'cn', '', ': 技能ID:「;」等级:「;」的资料并不存在。「;」载入失败\n请管理者手动删除 character_skills 资料表里面的这个技能ID\n', 'RequestAcquireSkillInfo.java');
