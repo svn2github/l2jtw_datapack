@@ -39,7 +39,8 @@ class Quest(JQuest):
 		if event.startswith("say_"):
 			dummy, npcid, index = event.split("_")
 			npcid, index = int(npcid), int(index)
-			for spawn in SpawnTable.getInstance().getSpawnTable():
+			allSpawn = SpawnTable.getInstance().getSpawnTable()
+			for spawn in allSpawn:
 				if npcid == spawn.getNpcid():
 					self.myBroadcast(spawn.getLastSpawn(), selfTalkData[npcid][index][0])
 			newindex = [index + 1, 0][index + 1 >= len(selfTalkData[npcid])]
