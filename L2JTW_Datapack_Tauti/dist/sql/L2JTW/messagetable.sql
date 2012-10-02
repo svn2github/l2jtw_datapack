@@ -3484,5 +3484,8 @@ INSERT INTO `messagetable` VALUES
 ('2001', 'tw', '', ': 技能ID:「;」等級:「;」的資料並不存在。「;」載入失敗\n', 'RequestAcquireSkillInfo.java'),
 ('2001', 'cn', '', ': 技能ID:「;」等级:「;」的资料并不存在。「;」载入失败\n', 'RequestAcquireSkillInfo.java'),
 ('2002', 'en', '', 'Skipped null skill Id: ; Level: ; while restoring player skills for playerObjId: ', 'L2PcInstance.java'),
-('2002', 'tw', '', '略過資料不存在的技能ID:「;」等級:「;」，需要修正後才能載入\n擁有此技能的玩家 ObjId: ', 'L2PcInstance.java'),
-('2002', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」，需要修正后才能载入\n拥有此技能的玩家 ObjId: ', 'L2PcInstance.java');
+('2002', 'tw', '', '略過資料不存在的技能ID:「;」等級:「;」，需要修正後才能載入\n擁有此技能的玩家ObjId: ', 'L2PcInstance.java'),
+('2002', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」，需要修正后才能载入\n拥有此技能的玩家ObjId: ', 'L2PcInstance.java'),
+('2003', 'en', '', 'Skipped null skill Id: ; Level: ; autoGet Skill for player: ', 'L2PcInstance.java'),
+('2003', 'tw', '', '略過資料不存在的技能ID:「;」等級:「;」\n請管理者刪除 skillTrees 資料夾裡面的這個學習技能ID\n學習此技能失敗的玩家: ', 'L2PcInstance.java'),
+('2003', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」\n请管理者删除 skillTrees 资料表里面的这个学习技能ID\n学习此技能失败的玩家: ', 'L2PcInstance.java');
