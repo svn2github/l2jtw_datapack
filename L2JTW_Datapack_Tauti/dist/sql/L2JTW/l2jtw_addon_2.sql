@@ -2,7 +2,7 @@ Set Names utf8;
 /************ Made in Taiwan ************/
 
 REPLACE INTO `auto_announcements` VALUES
-(1,900000,9000000,36000,'新說話之島 NPC 目前仍在持續製作中，請勿回報有關新說話之島 NPC 的不正常或不完整。','false');
+(1,900000,9000000,36000,'請注意：官服即將改版，請大家按照以下方法，把「塔武提」更新為「最後更新」的版本。\n1.10月3日~10日之間，請連上官網檢查更新一次\n2.更新完再按一次「檢查檔案」的按鈕\n3.把 system 的資料夾複製到別的地方或者改名\n4.再把論壇上 448 的 system 複製回去','false');
 
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30484,30487);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
