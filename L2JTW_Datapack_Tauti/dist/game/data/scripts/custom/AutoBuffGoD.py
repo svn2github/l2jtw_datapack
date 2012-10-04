@@ -10,6 +10,7 @@ from com.l2jserver.gameserver.model.actor.instance import L2PcInstance
 from com.l2jserver.gameserver.network.serverpackets import ExShowScreenMessage
 from com.l2jserver.gameserver.network import NpcStringId
 from com.l2jserver.gameserver.util import Util
+from com.l2jserver.gameserver.model.skills import L2SkillType
 
 
 class AutoBuffGoD(JQuest):
@@ -19,7 +20,7 @@ class AutoBuffGoD(JQuest):
 	
 	NPCID = [33454] #ªì¾ÇªÌÀ°¤â
 
-	radius = 100 # ¥b®|
+	radius = 50 # ¥b®|
 	
 	blacklist = []
 	
@@ -31,7 +32,10 @@ class AutoBuffGoD(JQuest):
 	def giveBuff(self, npc, player, skill_id, skill_lv):
 		skill = SkillTable.getInstance().getInfo(skill_id, skill_lv)
 		if skill:
-			skill.getEffects(npc, player)
+			if skill.getSkillType() == L2SkillType.BUFF:
+				skill.getEffects(npc, player)
+			else:
+				skill.useSkill(player, (player,))
 
 	def giveBuffs(self, npc, player):
 		def getBuffList(p):
