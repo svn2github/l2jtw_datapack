@@ -2685,6 +2685,14 @@
 		<set name="weight" val="20"/>
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
 	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
+	<item id="33465" name="巨人的幸運禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。"><player level="100" /></cond>
+	</item><!-- 目前這個物品的效果/功能都尚未實裝，請不必回報 -->
 	<item id="33780" name="靈魂彈-R級" type="EtcItem">
 		<set name="icon" val="icon.soulshot_r_i00"/>
 		<set name="immediate_effect" val="1"/>
