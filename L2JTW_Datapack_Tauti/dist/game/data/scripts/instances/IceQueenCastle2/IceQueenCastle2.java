@@ -1653,6 +1653,9 @@ public class IceQueenCastle2 extends Quest
 		for (int objId : world.allowed)
 		{
 			L2PcInstance player = L2World.getInstance().getPlayer(objId);
+			// l2jtw add start
+			if (player == null) continue;
+			// l2jtw add end
 			player.abortAttack();
 			player.abortCast();
 			player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
