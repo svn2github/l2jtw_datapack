@@ -983,6 +983,20 @@ REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_rad
 (33563,33563,'33563','','',13,23.5,85,'L2Npc',40,14612,3567,10,5,1000,100,1200,400,900,300,299,4,398,0,60,120,1),
 (33586,33586,'33586','','',1,40,85,'L2Npc',40,7324,2797,10,5,1000,100,1200,400,900,300,299,4,398,0,1,50,1);
 
+-- NPC基本能力值*2(因為玩家的基本能力值也是*2)
+Update `npc` SET `str`= `str` * 2;
+Update `npc` SET `con`= `con` * 2;
+Update `npc` SET `dex`= `dex` * 2;
+Update `npc` SET `int`= `int` * 2;
+Update `npc` SET `wit`= `wit` * 2;
+Update `npc` SET `men`= `men` * 2;
+UPDATE `npc` set `str` = 149 where `str` > 149;
+UPDATE `npc` set `con` = 149 where `con` > 149;
+UPDATE `npc` set `dex` = 149 where `dex` > 149;
+UPDATE `npc` set `int` = 149 where `int` > 149;
+UPDATE `npc` set `wit` = 149 where `wit` > 149;
+UPDATE `npc` set `men` = 149 where `men` > 149;
+
 REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
 (32972,1000,'balanced'),
 (8440,1000,'balanced'),
