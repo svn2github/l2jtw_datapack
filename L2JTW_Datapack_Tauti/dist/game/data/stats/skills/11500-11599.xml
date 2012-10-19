@@ -779,6 +779,10 @@
 			<mul order="0x30" stat="mReuse" val="0.75" />
 		</for>
 	</skill>
+	<skill id="11549" levels="1" name="Superior Mana Steal">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+	</skill>
 	<skill id="11551" levels="1" name="Grand resist attribute">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -832,6 +836,50 @@
 			<mul order="0x30" stat="mAtkSpd" val="1.15" />
 		</for>
 	</skill>
+	<skill id="11557" levels="1" name="Ultimate Scourge">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="423"/>
+	</skill>
+	<skill id="11558" levels="1" name="Ultimate Oblivion">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="423"/>
+	</skill>
+	<skill id="11559" levels="1" name="Ultimate Suspension">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="423"/>
+	</skill>
+	<skill id="11560" levels="2" name="Celestial Aegis">
+		<table name="#mpConsume"> 423 557 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
 	<skill id="11561" levels="1" name="Giant Root">
 		<set name="mpConsume" val="126" />
 		<set name="magicLvl" val="85" />
@@ -849,6 +897,34 @@
 		<for>
 			<effect name="Root" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="root_magically" />
 		</for>
+	</skill>
+	<skill id="11562" levels="1" name="Devil's Movement">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="2500"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="mpConsume" val="60"/>
+	</skill>
+	<skill id="11563" levels="1" name="Quick Return">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2500"/>
+		<set name="reuseDelay" val="75000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="60"/>
+	</skill>
+	<skill id="11564" levels="3" name="Angel's Resurrection">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="60"/>
 	</skill>
 	<skill id="11565" levels="1" name="Divine Resist">
 		<set name="magicLvl" val="85" />
@@ -904,6 +980,17 @@
 				<sub order="0x40" stat="sleepVuln" val="50" />
 			</effect>
 		</for>
+	</skill>
+	<skill id="11570" levels="1" name="Healing Melody">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2000"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="194"/>
 	</skill>
 	<skill id="11571" levels="1" name="Recovery Poem">
 		<set name="mpConsume" val="120" />

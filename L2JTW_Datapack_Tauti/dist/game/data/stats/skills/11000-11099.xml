@@ -70,6 +70,34 @@
 				<sub order="0x40" stat="poisonVuln" val="#vuln" />
 			</for>
 	</skill>
+	<skill id="11007" levels="1" name="Fire Stance">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="isMagic" val="1"/>
+	</skill>
+	<skill id="11008" levels="1" name="Water Stance">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="isMagic" val="1"/>
+	</skill>
+	<skill id="11009" levels="1" name="Wind Stance">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="isMagic" val="1"/>
+	</skill>
+	<skill id="11010" levels="1" name="Earth Stance">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="isMagic" val="1"/>
+	</skill>
 	<skill id="11011" levels="8" name="Elemental Power">
 		<table name="#pwr">121 122 126 129 133 136 140 143</table>
 		<set name="castRange" val="2000" />
@@ -158,6 +186,19 @@
 		<set name="operateType" val="A1" />
 		<set name="castRange" val="3080" />
 		<set name="effectRange" val="1250" />
+	</skill>
+	<skill id="11017" levels="8" name="Elemental Crash">
+		<table name="#mpConsume"> 53 55 57 60 62 65 67 70 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2780"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="2400"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
 	</skill>
 	<skill id="11020" levels="8" name="Basic strokes Wind">
 		<table name="#pwr">144 146 150 154 159 163 167 171</table>
@@ -361,6 +402,28 @@
 		<for>
 			<effect count="15" name="DamOverTime" abnormalTime="1" val="#DOT" abnormalLvl="1" abnormalType="poison" abnormal="poison" />
 		</for>
+	</skill>
+	<skill id="11030" levels="4" name="Death Siphon">
+		<table name="#mpConsume"> 68 72 84 88 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="10000"/>
+		<set name="reuseDelay" val="20000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11032" levels="4" name="Death Howl">
+		<table name="#mpConsume"> 204 216 252 264 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="4000"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
 	</skill>
 	<skill id="11033" levels="1" name="Giant fist">
 		<set name="coolTime" val="3000" />
@@ -684,6 +747,18 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="11049" levels="2" name="Ignore Divinity">
+		<table name="#mpConsume"> 82 91 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
 	<skill id="11050" levels="1" name="Hellbaund">
 		<set name="hitTime" val="1500" />
 		<set name="isDebuff" val="true" />
@@ -814,6 +889,18 @@
 		<for>
 			<effect name="RemoveTarget" noicon="1" val="0" effectPower="40" effectType="DEBUFF" />
 		</for>
+	</skill>
+	<skill id="11058" levels="3" name="Shadow Snare">
+		<table name="#mpConsume"> 238 252 267 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="1000"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
 	</skill>
 	<skill id="11062" levels="4" name="Wind Wanderer">
 		<table name="#mpInitialConsume">6 10 14 18</table>
@@ -947,6 +1034,15 @@
 				<mul order="0x30" stat="MagicalMpConsumeRate" val="#consume" />
 			</effect>
 		</for>
+	</skill>
+	<skill id="11093" levels="1" name="Crystal Form">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="500"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="mpConsume" val="73"/>
 	</skill>
 	<skill id="11094" levels="6" name="Spatial jump">
 		<table name="#pwr">121 124 129 135 140 145</table>

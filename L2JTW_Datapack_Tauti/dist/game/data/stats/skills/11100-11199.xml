@@ -15,6 +15,10 @@
 			</mul>
 		</for>
 	</skill>
+	<skill id="11184" levels="1" name="Superior Arcane Lore">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+	</skill>
 	<skill id="11185" levels="1" name="Advanced Surge Mana">
 		<set name="magicLvl" val="85" />
 		<set name="target" val="TARGET_SELF" />
@@ -34,5 +38,9 @@
 			<add order="0x10" stat="INT" val="2" />
 			<mul order="0x30" stat="regMp" val="1.36" />
 		</for>
+	</skill>
+	<skill id="11187" levels="1" name="Superior Clear Mind">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
 	</skill>
 </list>

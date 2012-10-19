@@ -40,6 +40,32 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="11754" levels="5" name="Fairy of Life">
+		<table name="#mpConsume"> 43 46 48 52 55 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="2200"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11755" levels="8" name="Radiant Heal">
+		<table name="#mpConsume"> 138 138 141 143 146 148 151 153 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="4500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
 	<skill id="11756" levels="8" name="League of Light"> 
 		<table name="#power"> 1488 1495 1507 1519 1532 1544 1557 1570 </table>
 		<set name="mpInitialConsume" val="95" />
@@ -112,6 +138,19 @@
 			<effect name="Invincible" abnormalTime="10" val="0" special="invincible" abnormalLvl="1" abnormalType="invincibility" />
 		</for>
 	</skill>
+	<skill id="11760" levels="8" name="Radiant Recharge">
+		<table name="#mpConsume"> 183 186 188 192 196 200 203 207 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="5500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
 	<skill id="11761" levels="5" name="Blessed recharge">
 		<table name="#magicLvl"> 85 88 91 94 97 </table>
 		<table name="#power"> 140 143 145 148 150 </table>
@@ -131,6 +170,28 @@
 			<effect count="10" name="ManaHealOverTime" val="#mpRegPerSec" />
 		</for>
 	</skill>
+	<skill id="11762" levels="1" name="Balance Heal">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1500"/>
+		<set name="coolTime" val="1000"/>
+		<set name="reuseDelay" val="20000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="178"/>
+	</skill>
+	<skill id="11763" levels="1" name="Radiant Purge">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="1500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="35"/>
+	</skill>
 	<skill id="11764" levels="1" name="Crystal regeneration">
 		<set name="aggroPoints" val="679" />
 		<set name="hitTime" val="2500" />
@@ -149,6 +210,112 @@
 				<sub order="0x40" stat="debuffVuln" val="100" />
 			</effect>
 		</for>
+	</skill>
+	<skill id="11765" levels="4" name="Crystal Regeneration">
+		<table name="#mpConsume"> 73 77 80 83 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="500"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11766" levels="8" name="Dark Veil">
+		<table name="#mpConsume"> 70 72 76 78 82 85 88 92 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="2400"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11767" levels="8" name="Mass Dark Veil">
+		<table name="#mpConsume"> 423 432 450 468 487 506 526 547 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="5500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11768" levels="1" name="Rebirth">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="66"/>
+	</skill>
+	<skill id="11769" levels="6" name="Dark Backfire">
+		<table name="#mpConsume"> 35 36 38 41 43 46 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11770" levels="1" name="Dissolve">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="500"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="10"/>
+	</skill>
+	<skill id="11772" levels="4" name="Giant's Favor">
+		<table name="#mpConsume"> 17 18 21 22 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="500"/>
+		<set name="reuseDelay" val="900000"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11773" levels="2" name="Lakcis Disc">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+	</skill>
+	<skill id="11774" levels="4" name="Summon Tree of Life">
+		<table name="#mpConsume"> 185 205 225 243 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="5000"/>
+		<set name="coolTime" val="2000"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11776" levels="4" name="Summon Lumi">
+		<table name="#mpConsume"> 96 106 117 127 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="5000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
 	</skill>
 	<skill id="11777" levels="5" name="Mark Of Rumi">
 		<table name="#dot"> 113 118 123 128 134 </table>
@@ -176,6 +343,18 @@
 				<mul order="0x30" stat="mDef" val="#Def" />
 			</effect>
 		</for>
+	</skill>
+	<skill id="11778" levels="6" name="Fatal Sleep">
+		<table name="#mpConsume"> 26 26 27 30 31 33 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1500"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
 	</skill>
 	<skill id="11780" levels="6" name="Dark Devour" >
 		<table name="#gainHp"> 0.5 0.48 0.44 0.4 0.35 0.3 </table>
@@ -208,6 +387,39 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="11783" levels="1" name="Reset">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="6000"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+	</skill>
+	<skill id="11784" levels="4" name="Blessed Resurrection">
+		<table name="#mpConsume"> 35 38 42 46 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2000"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="castRange" val="400"/>
+		<set name="effectRange" val="900"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11785" levels="3" name="Group Resurrection">
+		<table name="#mpConsume"> 133 145 152 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
 	<skill id="11787" levels="1" name="Grand Armor Mastery">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -238,6 +450,10 @@
 			<mul order="0x30" stat="MagicalMpConsumeRate" val="0.85" />
 		</for>
 	</skill>
+	<skill id="11789" levels="1" name="Superior Anti Magic">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+	</skill>
 	<skill id="11790" levels="1" name="Grand Elemental Protection">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -250,6 +466,10 @@
 			<add order="0x40" stat="earthRes" val="20" />
 			<add order="0x40" stat="windRes" val="20" />
 		</for>
+	</skill>
+	<skill id="11791" levels="1" name="Superior Sigil Mastery">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
 	</skill>
 	<skill id="11792" levels="1" name="Grand Traverse Resistance">
 		<set name="target" val="TARGET_SELF" />

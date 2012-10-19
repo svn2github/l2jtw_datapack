@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="11814" levels="8" name="Dark Force">
+		<table name="#mpConsume"> 87 91 95 98 102 107 111 116 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="4500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="4000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11817" levels="8" name="Dark Rain">
+		<table name="#mpConsume"> 282 288 300 312 325 337 351 365 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="7000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11819" levels="1" name="Party Return">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3500"/>
+		<set name="reuseDelay" val="150000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="91"/>
+	</skill>
 	<skill id="11820" levels="1" name="Power of Saha">
 		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="70" />
@@ -118,5 +151,60 @@
 				<sub order="0x40" stat="cancelVuln" val="20" />
 			</effect>
 		</for>
+	</skill>
+	<skill id="11826" levels="1" name="Emblem of Salvation">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="4000"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="mpConsume" val="70"/>
+	</skill>
+	<skill id="11828" levels="1" name="Progressive Heal">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="194"/>
+	</skill>
+	<skill id="11830" levels="1" name="Blessing of Saha">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="700"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="mpConsume" val="35"/>
+	</skill>
+	<skill id="11831" levels="8" name="Erase Impact">
+		<table name="#mpConsume"> 373 377 380 383 384 387 390 393 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2500"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11832" levels="6" name="Mass Fatal Sleep">
+		<table name="#mpConsume"> 52 52 54 60 62 66 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="4000"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="#mpConsume"/>
 	</skill>
 </list>

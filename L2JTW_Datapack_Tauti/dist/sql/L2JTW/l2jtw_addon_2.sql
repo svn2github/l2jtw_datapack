@@ -1,9 +1,7 @@
 Set Names utf8;
 /************ Made in Taiwan ************/
 
-REPLACE INTO `auto_announcements` VALUES
-(1,900000,9000000,36000,'新地區已加入新怪物（但是掉落/技能尚未加入）','false'),
-(2,1800000,9000000,36000,'請注意：官服即將改版，請大家按照以下方法，把「塔武提」更新為「最後更新」的版本。\n1.10月3日~10日之間，請連上官網檢查更新一次\n2.更新完再按一次「檢查檔案」的按鈕\n3.把 system 的資料夾複製到別的地方或者改名\n4.再把論壇上 448 的 system 複製回去','false');
+DELETE FROM `auto_announcements`;
 
 REPLACE INTO `teleport` VALUES
 ('Gludin -> TI Village',9,-111988,257240,-1376,9400,0,57),

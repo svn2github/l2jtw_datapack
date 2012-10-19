@@ -195,6 +195,30 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="1927" levels="1" name="Sigel Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1929" levels="1" name="Tyrr Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1931" levels="1" name="Othell Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1933" levels="1" name="Yul Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
 	<skill id="1935" levels="1" name="Strength Wizard">
 		<set name="aggroPoints" val="679" />
 		<set name="hitTime" val="2500" />
@@ -214,6 +238,18 @@
 				<mul order="0x30" stat="mAtkSpd" val="1.02" />
 			</effect>
 		</for>
+	</skill>
+	<skill id="1937" levels="1" name="Wynn Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1939" levels="1" name="Aeore Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
 	</skill>
 	<skill id="1946" levels="1" name="strength Knight">
 		<set name="aggroPoints" val="679" />

@@ -228,4 +228,13 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
+	<skill id="11316" levels="1" name="Summon Soulshots">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="398"/>
+	</skill>
 </list>

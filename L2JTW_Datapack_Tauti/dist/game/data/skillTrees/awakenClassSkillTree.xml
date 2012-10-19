@@ -23,6 +23,9 @@
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1572" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="席格爾靈氣" skillId="1927" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="騎乘天空行者" skillId="8600" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="極致精通劍鈍兵器" skillId="10001" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通重裝甲" skillId="10002" skillLvl="1" getLevel="85" learnedByNpc="true" />
@@ -174,10 +177,13 @@
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1572" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="提爾靈氣" skillId="1929" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="騎乘野性薔薇" skillId="8601" skillLvl="1" getLevel="1" autoGet="true" />
-		<skill skillName="極致精通重裝甲" skillId="10253" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通武器" skillId="10251" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通二刀流" skillId="10252" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通重裝甲" skillId="10253" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通輕裝甲" skillId="10254" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通鬥力" skillId="10255" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通HP" skillId="10256" skillLvl="1" getLevel="85" learnedByNpc="true" />
@@ -293,6 +299,9 @@
 		<skill skillName="狩者之魂" skillId="10296" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="殺手之魂" skillId="10297" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="強力再生" skillId="10298" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終一擊" skillId="10300" skillLvl="1" getLevel="90" learnedByNpc="true" />
+		<skill skillName="最終一擊" skillId="10300" skillLvl="2" getLevel="95" learnedByNpc="true" />
+		<skill skillName="最終一擊" skillId="10300" skillLvl="3" getLevel="99" learnedByNpc="true" />
 	</skillTree>
 	<!-- 歐瑟遊俠 -->
 	<skillTree type="classSkillTree" classId="141">
@@ -317,14 +326,16 @@
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1572" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="歐瑟靈氣" skillId="1931" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="騎乘血腥爪痕" skillId="8602" skillLvl="1" getLevel="1" autoGet="true" />
-		<skill skillName="極致精通輕裝甲" skillId="10503" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致精通精神" skillId="10506" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致抵抗" skillId="10552" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通匕首" skillId="10501" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通雙匕首" skillId="10502" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通輕裝甲" skillId="10503" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致神速" skillId="10504" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通致命攻擊" skillId="10505" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通精神" skillId="10506" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="死亡之刻" skillId="10507" skillLvl="1" getLevel="99" learnedByNpc="true" />
 		<skill skillName="血影刺擊" skillId="10508" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="血影刺擊" skillId="10508" skillLvl="2" getLevel="86" learnedByNpc="true" />
@@ -455,6 +466,7 @@
 		<skill skillName="疾速踢" skillId="10549" skillLvl="3" getLevel="91" learnedByNpc="true" />
 		<skill skillName="疾速踢" skillId="10549" skillLvl="4" getLevel="94" learnedByNpc="true" />
 		<skill skillName="疾速踢" skillId="10549" skillLvl="5" getLevel="97" learnedByNpc="true" />
+		<skill skillName="極致抵抗" skillId="10552" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="強力愚弄" skillId="10554" skillLvl="1" getLevel="85" learnedByNpc="true" />
 	</skillTree>
 	<!-- 尤爾弓手 -->
@@ -480,13 +492,15 @@
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1572" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="尤爾靈氣" skillId="1933" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="騎乘無限箭羽" skillId="8603" skillLvl="1" getLevel="1" autoGet="true" />
-		<skill skillName="極致魔法抵抗" skillId="10799" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致特性抵抗" skillId="10755" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致精通輕裝甲" skillId="10752" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通弓弩兵器" skillId="10751" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通輕裝甲" skillId="10752" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通鷹之眼" skillId="10753" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通求生能力" skillId="10754" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致特性抵抗" skillId="10755" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致致命箭矢" skillId="10756" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="攻城姿勢" skillId="10757" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="攻城姿勢" skillId="10757" skillLvl="2" getLevel="90" learnedByNpc="true" />
@@ -561,6 +575,19 @@
 		<skill skillName="箭雨風暴" skillId="10772" skillLvl="6" getLevel="94" learnedByNpc="true" />
 		<skill skillName="箭雨風暴" skillId="10772" skillLvl="7" getLevel="96" learnedByNpc="true" />
 		<skill skillName="箭雨風暴" skillId="10772" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="迴避射擊" skillId="10774" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="迴避射擊" skillId="10774" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="迴避射擊" skillId="10774" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="迴避射擊" skillId="10774" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="誘餌分身" skillId="10775" skillLvl="1" getLevel="87" learnedByNpc="true" />
+		<skill skillName="誘餌分身" skillId="10775" skillLvl="2" getLevel="93" learnedByNpc="true" />
+		<skill skillName="誘餌分身" skillId="10775" skillLvl="3" getLevel="99" learnedByNpc="true" />
+		<skill skillName="最終極限逃脫" skillId="10776" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終極限逃脫" skillId="10776" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="最終極限逃脫" skillId="10776" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="最終極限逃脫" skillId="10776" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="誘引射擊" skillId="10777" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="轉移射擊" skillId="10778" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極速射擊" skillId="10779" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極速射擊" skillId="10779" skillLvl="2" getLevel="90" learnedByNpc="true" />
 		<skill skillName="極速射擊" skillId="10779" skillLvl="3" getLevel="95" learnedByNpc="true" />
@@ -571,7 +598,40 @@
 		<skill skillName="緩速箭" skillId="10780" skillLvl="4" getLevel="92" learnedByNpc="true" />
 		<skill skillName="緩速箭" skillId="10780" skillLvl="5" getLevel="95" learnedByNpc="true" />
 		<skill skillName="緩速箭" skillId="10780" skillLvl="6" getLevel="98" learnedByNpc="true" />
+		<skill skillName="支援射擊" skillId="10781" skillLvl="1" getLevel="95" learnedByNpc="true" />
+		<skill skillName="心眼" skillId="10783" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="心眼" skillId="10783" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="心眼" skillId="10783" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="心眼" skillId="10783" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="偽裝" skillId="10784" skillLvl="1" getLevel="97" learnedByNpc="true" />
+		<skill skillName="耀明烈焰" skillId="10785" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="時限炸彈" skillId="10786" skillLvl="1" getLevel="93" learnedByNpc="true" />
+		<skill skillName="時限炸彈" skillId="10786" skillLvl="2" getLevel="96" learnedByNpc="true" />
+		<skill skillName="時限炸彈" skillId="10786" skillLvl="3" getLevel="99" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="召喚雷鷹" skillId="10787" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="遠隔操作" skillId="10788" skillLvl="1" getLevel="91" learnedByNpc="true" />
+		<skill skillName="酷寒陷阱" skillId="10791" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="重力陷阱" skillId="10792" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="閃光" skillId="10793" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致魔法抵抗" skillId="10799" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致元素抵抗" skillId="10800" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="鎖定" skillId="10801" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="鎖定" skillId="10801" skillLvl="2" getLevel="88" learnedByNpc="true" />
+		<skill skillName="鎖定" skillId="10801" skillLvl="3" getLevel="91" learnedByNpc="true" />
+		<skill skillName="鎖定" skillId="10801" skillLvl="4" getLevel="94" learnedByNpc="true" />
+		<skill skillName="鎖定" skillId="10801" skillLvl="5" getLevel="97" learnedByNpc="true" />
+		<skill skillName="多重鎖定" skillId="10802" skillLvl="1" getLevel="99" learnedByNpc="true" />
+		<skill skillName="迅捷瞬步" skillId="10805" skillLvl="1" getLevel="89" learnedByNpc="true" />
+		<skill skillName="迅捷瞬步" skillId="10805" skillLvl="2" getLevel="92" learnedByNpc="true" />
+		<skill skillName="迅捷瞬步" skillId="10805" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="迅捷瞬步" skillId="10805" skillLvl="4" getLevel="98" learnedByNpc="true" />
 	</skillTree>
 	<!-- 菲歐巫師 -->
 	<skillTree type="classSkillTree" classId="143">
@@ -596,13 +656,20 @@
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1597" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="菲歐靈氣" skillId="1935" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="騎乘湛藍幻影" skillId="8604" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="極致精通武器" skillId="11001" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通長袍" skillId="11002" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致抗魔" skillId="11003" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通符印" skillId="11004" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致法師意志" skillId="11005" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致屬性抵抗" skillId="11006" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="原始之火" skillId="11007" skillLvl="1" getLevel="85" autoGet="true" />
+		<skill skillName="原始之水" skillId="11008" skillLvl="1" getLevel="85" autoGet="true" />
+		<skill skillName="原始之風" skillId="11009" skillLvl="1" getLevel="85" autoGet="true" />
+		<skill skillName="原始之土" skillId="11010" skillLvl="1" getLevel="85" autoGet="true" />
 		<skill skillName="元素裂刺" skillId="11011" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="元素裂刺" skillId="11011" skillLvl="2" getLevel="86" learnedByNpc="true" />
 		<skill skillName="元素裂刺" skillId="11011" skillLvl="3" getLevel="88" learnedByNpc="true" />
@@ -611,6 +678,14 @@
 		<skill skillName="元素裂刺" skillId="11011" skillLvl="6" getLevel="94" learnedByNpc="true" />
 		<skill skillName="元素裂刺" skillId="11011" skillLvl="7" getLevel="96" learnedByNpc="true" />
 		<skill skillName="元素裂刺" skillId="11011" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="元素潰滅" skillId="11017" skillLvl="8" getLevel="98" learnedByNpc="true" />
 		<skill skillName="元素破散" skillId="11023" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="元素破散" skillId="11023" skillLvl="2" getLevel="87" learnedByNpc="true" />
 		<skill skillName="元素破散" skillId="11023" skillLvl="3" getLevel="89" learnedByNpc="true" />
@@ -624,6 +699,14 @@
 		<skill skillName="死亡氣息" skillId="11029" skillLvl="3" getLevel="91" learnedByNpc="true" />
 		<skill skillName="死亡氣息" skillId="11029" skillLvl="4" getLevel="94" learnedByNpc="true" />
 		<skill skillName="死亡氣息" skillId="11029" skillLvl="5" getLevel="97" learnedByNpc="true" />
+		<skill skillName="死亡之主" skillId="11030" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="死亡之主" skillId="11030" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="死亡之主" skillId="11030" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="死亡之主" skillId="11030" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="死亡怒吼" skillId="11032" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="死亡怒吼" skillId="11032" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="死亡怒吼" skillId="11032" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="死亡怒吼" skillId="11032" skillLvl="4" getLevel="99" learnedByNpc="true" />
 		<skill skillName="元素爆裂" skillId="11034" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="元素爆裂" skillId="11034" skillLvl="2" getLevel="86" learnedByNpc="true" />
 		<skill skillName="元素爆裂" skillId="11034" skillLvl="3" getLevel="88" learnedByNpc="true" />
@@ -654,6 +737,8 @@
 		<skill skillName="廣域詛咒之意" skillId="11048" skillLvl="4" getLevel="93" learnedByNpc="true" />
 		<skill skillName="廣域詛咒之意" skillId="11048" skillLvl="5" getLevel="96" learnedByNpc="true" />
 		<skill skillName="廣域詛咒之意" skillId="11048" skillLvl="6" getLevel="99" learnedByNpc="true" />
+		<skill skillName="神威滅除" skillId="11049" skillLvl="1" getLevel="93" learnedByNpc="true" />
+		<skill skillName="神威滅除" skillId="11049" skillLvl="2" getLevel="98" learnedByNpc="true" />
 		<skill skillName="地獄束縛" skillId="11050" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="地獄束縛" skillId="11050" skillLvl="2" getLevel="89" learnedByNpc="true" />
 		<skill skillName="地獄束縛" skillId="11050" skillLvl="3" getLevel="93" learnedByNpc="true" />
@@ -683,6 +768,9 @@
 		<skill skillName="極限閃逝" skillId="11057" skillLvl="4" getLevel="93" learnedByNpc="true" />
 		<skill skillName="極限閃逝" skillId="11057" skillLvl="5" getLevel="96" learnedByNpc="true" />
 		<skill skillName="極限閃逝" skillId="11057" skillLvl="6" getLevel="99" learnedByNpc="true" />
+		<skill skillName="集陷地獄" skillId="11058" skillLvl="1" getLevel="91" learnedByNpc="true" />
+		<skill skillName="集陷地獄" skillId="11058" skillLvl="2" getLevel="94" learnedByNpc="true" />
+		<skill skillName="集陷地獄" skillId="11058" skillLvl="3" getLevel="97" learnedByNpc="true" />
 		<skill skillName="浮游" skillId="11062" skillLvl="1" getLevel="87" learnedByNpc="true" />
 		<skill skillName="浮游" skillId="11062" skillLvl="2" getLevel="91" learnedByNpc="true" />
 		<skill skillName="浮游" skillId="11062" skillLvl="3" getLevel="95" learnedByNpc="true" />
@@ -702,6 +790,7 @@
 		<skill skillName="雙重施法" skillId="11068" skillLvl="2" getLevel="90" learnedByNpc="true" />
 		<skill skillName="雙重施法" skillId="11068" skillLvl="3" getLevel="95" learnedByNpc="true" />
 		<skill skillName="雙重施法" skillId="11068" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="自體水晶" skillId="11093" skillLvl="1" getLevel="97" learnedByNpc="true" />
 		<skill skillName="極限曲速" skillId="11094" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極限曲速" skillId="11094" skillLvl="2" getLevel="87" learnedByNpc="true" />
 		<skill skillName="極限曲速" skillId="11094" skillLvl="3" getLevel="90" learnedByNpc="true" />
@@ -710,8 +799,189 @@
 		<skill skillName="極限曲速" skillId="11094" skillLvl="6" getLevel="99" learnedByNpc="true" />
 		<skill skillName="詛咒之手" skillId="11095" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致快速恢復" skillId="11183" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致奧祕律法" skillId="11184" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致魔力強化" skillId="11185" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致速效MP恢復" skillId="11186" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致澄澈心靈" skillId="11187" skillLvl="1" getLevel="85" learnedByNpc="true" />
+	</skillTree>
+	<!-- 維因召喚士 -->
+	<skillTree type="classSkillTree" classId="145">
+		<skill skillName="D級專家" skillId="239" skillLvl="1" getLevel="20" autoGet="true" />
+		<skill skillName="C級專家" skillId="239" skillLvl="2" getLevel="40" autoGet="true" />
+		<skill skillName="B級專家" skillId="239" skillLvl="3" getLevel="52" autoGet="true" />
+		<skill skillName="A級專家" skillId="239" skillLvl="4" getLevel="61" autoGet="true" />
+		<skill skillName="S級專家" skillId="239" skillLvl="5" getLevel="76" autoGet="true" />
+		<skill skillName="S80級專家" skillId="239" skillLvl="6" getLevel="80" autoGet="true" />
+		<skill skillName="S84級專家" skillId="239" skillLvl="7" getLevel="84" autoGet="true" />
+		<skill skillName="R級專家" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="R95級專家" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
+		<skill skillName="R99級專家" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
+		<skill skillName="結晶製作" skillId="248" skillLvl="6" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="1" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="2" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="3" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="4" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="5" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="6" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="7" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
+		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1597" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="維因靈氣" skillId="1937" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="騎乘雲白靈翼" skillId="8605" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="極致精通武器" skillId="11251" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通長袍" skillId="11252" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通魔法" skillId="11253" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通召喚" skillId="11254" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通召喚" skillId="11254" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="極致精通召喚" skillId="11254" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="極致精通召喚" skillId="11254" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="極致精通精神" skillId="11255" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="召喚伶俐巨熊" skillId="11256" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="召喚劍齒利虎" skillId="11257" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="召喚殘酷死神" skillId="11258" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="衰弱烙印" skillId="11259" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="虛空烙印" skillId="11260" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="虛空烙印" skillId="11260" skillLvl="2" getLevel="88" learnedByNpc="true" />
+		<skill skillName="虛空烙印" skillId="11260" skillLvl="3" getLevel="91" learnedByNpc="true" />
+		<skill skillName="虛空烙印" skillId="11260" skillLvl="4" getLevel="94" learnedByNpc="true" />
+		<skill skillName="虛空烙印" skillId="11260" skillLvl="5" getLevel="97" learnedByNpc="true" />
+		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="3" getLevel="90" learnedByNpc="true" />
+		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="4" getLevel="93" learnedByNpc="true" />
+		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="5" getLevel="96" learnedByNpc="true" />
+		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="6" getLevel="99" learnedByNpc="true" />
+		<skill skillName="幻影烙印" skillId="11262" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="幻影烙印" skillId="11262" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="幻影烙印" skillId="11262" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="幻影烙印" skillId="11262" skillLvl="4" getLevel="92" learnedByNpc="true" />
+		<skill skillName="幻影烙印" skillId="11262" skillLvl="5" getLevel="95" learnedByNpc="true" />
+		<skill skillName="幻影烙印" skillId="11262" skillLvl="6" getLevel="98" learnedByNpc="true" />
+		<skill skillName="融合召喚" skillId="11263" skillLvl="1" getLevel="87" learnedByNpc="true" />
+		<skill skillName="融合召喚" skillId="11263" skillLvl="2" getLevel="89" learnedByNpc="true" />
+		<skill skillName="融合召喚" skillId="11263" skillLvl="3" getLevel="91" learnedByNpc="true" />
+		<skill skillName="融合召喚" skillId="11263" skillLvl="4" getLevel="93" learnedByNpc="true" />
+		<skill skillName="融合召喚" skillId="11263" skillLvl="5" getLevel="95" learnedByNpc="true" />
+		<skill skillName="融合召喚" skillId="11263" skillLvl="6" getLevel="97" learnedByNpc="true" />
+		<skill skillName="融合召喚" skillId="11263" skillLvl="7" getLevel="99" learnedByNpc="true" />
+		<skill skillName="意志界限" skillId="11264" skillLvl="1" getLevel="89" learnedByNpc="true" />
+		<skill skillName="意志界限" skillId="11264" skillLvl="2" getLevel="92" learnedByNpc="true" />
+		<skill skillName="意志界限" skillId="11264" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="意志界限" skillId="11264" skillLvl="4" getLevel="98" learnedByNpc="true" />
+		<skill skillName="召喚戰友" skillId="11265" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚死亡之門" skillId="11266" skillLvl="1" getLevel="99" learnedByNpc="true" />
+		<skill skillName="納比亞羅普之魂" skillId="11267" skillLvl="1" getLevel="95" learnedByNpc="true" />
+		<skill skillName="納比亞羅普之魂" skillId="11267" skillLvl="2" getLevel="97" learnedByNpc="true" />
+		<skill skillName="納比亞羅普之魂" skillId="11267" skillLvl="3" getLevel="99" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="召喚報復晶體" skillId="11268" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="魔力共享" skillId="11269" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="魔力共享" skillId="11269" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="魔力共享" skillId="11269" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="魔力共享" skillId="11269" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="最終痛苦轉移" skillId="11270" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終痛苦轉移" skillId="11270" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="最終痛苦轉移" skillId="11270" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="最終痛苦轉移" skillId="11270" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="烙印回收" skillId="11271" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="使魔轉位" skillId="11272" skillLvl="1" getLevel="97" learnedByNpc="true" />
+		<skill skillName="次元放逐" skillId="11273" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="次元放逐" skillId="11273" skillLvl="2" getLevel="88" learnedByNpc="true" />
+		<skill skillName="次元放逐" skillId="11273" skillLvl="3" getLevel="91" learnedByNpc="true" />
+		<skill skillName="次元放逐" skillId="11273" skillLvl="4" getLevel="94" learnedByNpc="true" />
+		<skill skillName="次元放逐" skillId="11273" skillLvl="5" getLevel="97" learnedByNpc="true" />
+		<skill skillName="召喚屏障" skillId="11274" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚屏障" skillId="11274" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="召喚屏障" skillId="11274" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="召喚屏障" skillId="11274" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="次元束縛" skillId="11276" skillLvl="1" getLevel="93" learnedByNpc="true" />
+		<skill skillName="次元束縛" skillId="11276" skillLvl="2" getLevel="96" learnedByNpc="true" />
+		<skill skillName="次元束縛" skillId="11276" skillLvl="3" getLevel="99" learnedByNpc="true" />
+		<skill skillName="極致抵抗" skillId="11287" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終能力共享" skillId="11288" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終能力共享" skillId="11288" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="最終能力共享" skillId="11288" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="極致精通輕裝甲" skillId="11295" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域次元放逐" skillId="11296" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域次元放逐" skillId="11296" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="廣域次元放逐" skillId="11296" skillLvl="3" getLevel="90" learnedByNpc="true" />
+		<skill skillName="廣域次元放逐" skillId="11296" skillLvl="4" getLevel="93" learnedByNpc="true" />
+		<skill skillName="廣域次元放逐" skillId="11296" skillLvl="5" getLevel="96" learnedByNpc="true" />
+		<skill skillName="廣域次元放逐" skillId="11296" skillLvl="6" getLevel="99" learnedByNpc="true" />
+		<skill skillName="巨人祝福" skillId="11297" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="巨人祝福" skillId="11297" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="巨人祝福" skillId="11297" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="巨人祝福" skillId="11297" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="烈炎烙印" skillId="11298" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="使魔生命之衡" skillId="11299" skillLvl="1" getLevel="91" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="廣域使魔魔法盾" skillId="11303" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域使魔速度激發" skillId="11304" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域使魔能量盾" skillId="11305" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域使魔魔力催化" skillId="11306" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域使魔力量強化" skillId="11307" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域使魔迅速" skillId="11308" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域使魔祝福" skillId="11309" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域使魔極限防禦" skillId="11310" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚靈魂彈" skillId="11316" skillLvl="1" getLevel="85" learnedByNpc="true" />
 	</skillTree>
 	<!-- 伊斯法師 -->
 	<skillTree type="classSkillTree" classId="144">
@@ -736,15 +1006,16 @@
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1572" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="騎乘疾速芒星" skillId="8606" skillLvl="1" getLevel="1" autoGet="true" />
-		<skill skillName="極致精通重裝甲" skillId="11504" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通二刀流" skillId="11501" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致精通輕裝甲" skillId="11503" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通長袍" skillId="11502" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通輕裝甲" skillId="11503" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通重裝甲" skillId="11504" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致抗魔" skillId="11505" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致快速恢復" skillId="11548" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致魔力強化" skillId="11507" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致體力強化" skillId="11506" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致魔力強化" skillId="11507" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="突襲衝擊" skillId="11508" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="突襲衝擊" skillId="11508" skillLvl="2" getLevel="87" learnedByNpc="true" />
 		<skill skillName="突襲衝擊" skillId="11508" skillLvl="3" getLevel="90" learnedByNpc="true" />
@@ -864,102 +1135,30 @@
 		<skill skillName="狂熱幻夜曲" skillId="11545" skillLvl="1" getLevel="95" learnedByNpc="true" />
 		<skill skillName="誘惑交響曲" skillId="11546" skillLvl="1" getLevel="99" learnedByNpc="true" />
 		<skill skillName="極致生命恢復" skillId="11547" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致快速恢復" skillId="11548" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致竊取魔力" skillId="11549" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致屬性抗性" skillId="11551" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致神聖真知" skillId="11552" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精神凝聚" skillId="11553" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致第六感" skillId="11554" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致快速施法" skillId="11555" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終懲戒" skillId="11557" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終忘卻" skillId="11558" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終遲緩" skillId="11559" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終不滅" skillId="11560" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="最終不滅" skillId="11560" skillLvl="2" getLevel="99" learnedByNpc="true" />
 		<skill skillName="強效緩速" skillId="11561" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="強效緩速" skillId="11561" skillLvl="2" getLevel="90" learnedByNpc="true" />
 		<skill skillName="強效緩速" skillId="11561" skillLvl="3" getLevel="95" learnedByNpc="true" />
 		<skill skillName="強效緩速" skillId="11561" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="魔靈移步" skillId="11562" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="快速回歸" skillId="11563" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="天靈返生術" skillId="11564" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="元素抵抗" skillId="11565" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="神聖抵抗" skillId="11566" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="心靈抵抗" skillId="11567" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="加持之詩" skillId="11570" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="恢復之詩" skillId="11571" skillLvl="1" getLevel="85" learnedByNpc="true" />
-	</skillTree>
-	<!-- 維因召喚士 -->
-	<skillTree type="classSkillTree" classId="145">
-		<skill skillName="D級專家" skillId="239" skillLvl="1" getLevel="20" autoGet="true" />
-		<skill skillName="C級專家" skillId="239" skillLvl="2" getLevel="40" autoGet="true" />
-		<skill skillName="B級專家" skillId="239" skillLvl="3" getLevel="52" autoGet="true" />
-		<skill skillName="A級專家" skillId="239" skillLvl="4" getLevel="61" autoGet="true" />
-		<skill skillName="S級專家" skillId="239" skillLvl="5" getLevel="76" autoGet="true" />
-		<skill skillName="S80級專家" skillId="239" skillLvl="6" getLevel="80" autoGet="true" />
-		<skill skillName="S84級專家" skillId="239" skillLvl="7" getLevel="84" autoGet="true" />
-		<skill skillName="R級專家" skillId="239" skillLvl="8" getLevel="85" autoGet="true" />
-		<skill skillName="R95級專家" skillId="239" skillLvl="9" getLevel="95" autoGet="true" />
-		<skill skillName="R99級專家" skillId="239" skillLvl="10" getLevel="99" autoGet="true" />
-		<skill skillName="結晶製作" skillId="248" skillLvl="6" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="1" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="2" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="3" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="4" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="5" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="6" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="7" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
-		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
-		<skill skillName="騎乘雲白靈翼" skillId="8605" skillLvl="1" getLevel="1" autoGet="true" />
-		<skill skillName="極致精通武器" skillId="11251" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致精通輕裝甲" skillId="11295" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致精通精神" skillId="11255" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致抵抗" skillId="11287" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致精通長袍" skillId="11252" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致精通魔法" skillId="11253" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="2" getLevel="87" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="3" getLevel="89" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="4" getLevel="91" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="5" getLevel="93" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="6" getLevel="95" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="7" getLevel="97" learnedByNpc="true" />
-		<skill skillName="衰弱烙印" skillId="11259" skillLvl="8" getLevel="99" learnedByNpc="true" />
-		<skill skillName="虛空烙印" skillId="11260" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="虛空烙印" skillId="11260" skillLvl="2" getLevel="88" learnedByNpc="true" />
-		<skill skillName="虛空烙印" skillId="11260" skillLvl="3" getLevel="91" learnedByNpc="true" />
-		<skill skillName="虛空烙印" skillId="11260" skillLvl="4" getLevel="94" learnedByNpc="true" />
-		<skill skillName="虛空烙印" skillId="11260" skillLvl="5" getLevel="97" learnedByNpc="true" />
-		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="2" getLevel="87" learnedByNpc="true" />
-		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="3" getLevel="90" learnedByNpc="true" />
-		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="4" getLevel="93" learnedByNpc="true" />
-		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="5" getLevel="96" learnedByNpc="true" />
-		<skill skillName="瘟疫烙印" skillId="11261" skillLvl="6" getLevel="99" learnedByNpc="true" />
-		<skill skillName="幻影烙印" skillId="11262" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="幻影烙印" skillId="11262" skillLvl="2" getLevel="86" learnedByNpc="true" />
-		<skill skillName="幻影烙印" skillId="11262" skillLvl="3" getLevel="89" learnedByNpc="true" />
-		<skill skillName="幻影烙印" skillId="11262" skillLvl="4" getLevel="92" learnedByNpc="true" />
-		<skill skillName="幻影烙印" skillId="11262" skillLvl="5" getLevel="95" learnedByNpc="true" />
-		<skill skillName="幻影烙印" skillId="11262" skillLvl="6" getLevel="98" learnedByNpc="true" />
-		<skill skillName="魔力共享" skillId="11269" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="魔力共享" skillId="11269" skillLvl="2" getLevel="90" learnedByNpc="true" />
-		<skill skillName="魔力共享" skillId="11269" skillLvl="3" getLevel="95" learnedByNpc="true" />
-		<skill skillName="魔力共享" skillId="11269" skillLvl="4" getLevel="99" learnedByNpc="true" />
-		<skill skillName="最終能力共享" skillId="11288" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="最終能力共享" skillId="11288" skillLvl="2" getLevel="90" learnedByNpc="true" />
-		<skill skillName="最終能力共享" skillId="11288" skillLvl="3" getLevel="95" learnedByNpc="true" />
-		<skill skillName="巨人祝福" skillId="11297" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="巨人祝福" skillId="11297" skillLvl="2" getLevel="90" learnedByNpc="true" />
-		<skill skillName="巨人祝福" skillId="11297" skillLvl="3" getLevel="95" learnedByNpc="true" />
-		<skill skillName="巨人祝福" skillId="11297" skillLvl="4" getLevel="99" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="2" getLevel="86" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="3" getLevel="88" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="4" getLevel="90" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="5" getLevel="92" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="6" getLevel="94" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="7" getLevel="96" learnedByNpc="true" />
-		<skill skillName="使魔極大治癒術" skillId="11302" skillLvl="8" getLevel="98" learnedByNpc="true" />
-		<skill skillName="廣域使魔魔法盾" skillId="11303" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="廣域使魔速度激發" skillId="11304" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="廣域使魔能量盾" skillId="11305" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="廣域使魔魔力催化" skillId="11306" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="廣域使魔力量強化" skillId="11307" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="廣域使魔迅速" skillId="11308" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="廣域使魔祝福" skillId="11309" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="廣域使魔極限防禦" skillId="11310" skillLvl="1" getLevel="85" learnedByNpc="true" />
 	</skillTree>
 	<!-- 艾羅牧師 -->
 	<skillTree type="classSkillTree" classId="146">
@@ -984,10 +1183,11 @@
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="8" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="9" getLevel="85" autoGet="true" />
 		<skill skillName="製作一般道具" skillId="1320" skillLvl="10" getLevel="85" autoGet="true" />
+		<skill skillName="覺醒職業欄位增加" skillId="1571" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="覺醒職業負重增加" skillId="1597" skillLvl="1" getLevel="1" autoGet="true" />
+		<skill skillName="艾羅靈氣" skillId="1939" skillLvl="1" getLevel="1" autoGet="true" />
 		<skill skillName="騎乘閃耀淑女" skillId="8607" skillLvl="1" getLevel="1" autoGet="true" />
-		<skill skillName="極致特性抵抗" skillId="11792" skillLvl="1" getLevel="87" learnedByNpc="true" />
 		<skill skillName="極致精通武器" skillId="11751" skillLvl="1" getLevel="85" learnedByNpc="true" />
-		<skill skillName="極致抗魔" skillId="11003" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="反射治癒" skillId="11752" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="反射治癒" skillId="11752" skillLvl="2" getLevel="87" learnedByNpc="true" />
 		<skill skillName="反射治癒" skillId="11752" skillLvl="3" getLevel="89" learnedByNpc="true" />
@@ -996,6 +1196,19 @@
 		<skill skillName="反射治癒" skillId="11752" skillLvl="6" getLevel="95" learnedByNpc="true" />
 		<skill skillName="反射治癒" skillId="11752" skillLvl="7" getLevel="97" learnedByNpc="true" />
 		<skill skillName="反射治癒" skillId="11752" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="生命妖精" skillId="11754" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="生命妖精" skillId="11754" skillLvl="2" getLevel="88" learnedByNpc="true" />
+		<skill skillName="生命妖精" skillId="11754" skillLvl="3" getLevel="91" learnedByNpc="true" />
+		<skill skillName="生命妖精" skillId="11754" skillLvl="4" getLevel="94" learnedByNpc="true" />
+		<skill skillName="生命妖精" skillId="11754" skillLvl="5" getLevel="97" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="治癒之光" skillId="11755" skillLvl="8" getLevel="98" learnedByNpc="true" />
 		<skill skillName="再生之光" skillId="11756" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="再生之光" skillId="11756" skillLvl="2" getLevel="86" learnedByNpc="true" />
 		<skill skillName="再生之光" skillId="11756" skillLvl="3" getLevel="88" learnedByNpc="true" />
@@ -1014,17 +1227,74 @@
 		<skill skillName="治癒光輝" skillId="11757" skillLvl="8" getLevel="99" learnedByNpc="true" />
 		<skill skillName="光影之盾" skillId="11758" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="光影之陣" skillId="11759" skillLvl="1" getLevel="87" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="泉源之光" skillId="11760" skillLvl="8" getLevel="98" learnedByNpc="true" />
 		<skill skillName="泉源光輝" skillId="11761" skillLvl="1" getLevel="91" learnedByNpc="true" />
 		<skill skillName="泉源光輝" skillId="11761" skillLvl="2" getLevel="93" learnedByNpc="true" />
 		<skill skillName="泉源光輝" skillId="11761" skillLvl="3" getLevel="95" learnedByNpc="true" />
 		<skill skillName="泉源光輝" skillId="11761" skillLvl="4" getLevel="97" learnedByNpc="true" />
 		<skill skillName="泉源光輝" skillId="11761" skillLvl="5" getLevel="99" learnedByNpc="true" />
+		<skill skillName="平靜之光" skillId="11762" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="淨化之光" skillId="11763" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="淨化光輝" skillId="11764" skillLvl="1" getLevel="94" learnedByNpc="true" />
+		<skill skillName="結晶恢復" skillId="11765" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="結晶恢復" skillId="11765" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="結晶恢復" skillId="11765" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="結晶恢復" skillId="11765" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="闇之爆裂" skillId="11766" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="闇之環繞" skillId="11767" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="生命釋放" skillId="11768" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="闇之怠惰" skillId="11769" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="闇之怠惰" skillId="11769" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="闇之怠惰" skillId="11769" skillLvl="3" getLevel="90" learnedByNpc="true" />
+		<skill skillName="闇之怠惰" skillId="11769" skillLvl="4" getLevel="93" learnedByNpc="true" />
+		<skill skillName="闇之怠惰" skillId="11769" skillLvl="5" getLevel="96" learnedByNpc="true" />
+		<skill skillName="闇之怠惰" skillId="11769" skillLvl="6" getLevel="99" learnedByNpc="true" />
+		<skill skillName="自然擬態" skillId="11770" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="高效治癒" skillId="11772" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="高效治癒" skillId="11772" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="高效治癒" skillId="11772" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="高效治癒" skillId="11772" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="拉奇西斯化身" skillId="11773" skillLvl="1" getLevel="99" learnedByNpc="true" />
+		<skill skillName="召喚生命之樹" skillId="11774" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚生命之樹" skillId="11774" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="召喚生命之樹" skillId="11774" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="召喚生命之樹" skillId="11774" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="召喚光之精靈" skillId="11776" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="召喚光之精靈" skillId="11776" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="召喚光之精靈" skillId="11776" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="召喚光之精靈" skillId="11776" skillLvl="4" getLevel="99" learnedByNpc="true" />
 		<skill skillName="光精烙印" skillId="11777" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="光精烙印" skillId="11777" skillLvl="2" getLevel="88" learnedByNpc="true" />
 		<skill skillName="光精烙印" skillId="11777" skillLvl="3" getLevel="91" learnedByNpc="true" />
 		<skill skillName="光精烙印" skillId="11777" skillLvl="4" getLevel="94" learnedByNpc="true" />
 		<skill skillName="光精烙印" skillId="11777" skillLvl="5" getLevel="97" learnedByNpc="true" />
+		<skill skillName="致命沉睡" skillId="11778" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="致命沉睡" skillId="11778" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="致命沉睡" skillId="11778" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="致命沉睡" skillId="11778" skillLvl="4" getLevel="92" learnedByNpc="true" />
+		<skill skillName="致命沉睡" skillId="11778" skillLvl="5" getLevel="95" learnedByNpc="true" />
+		<skill skillName="致命沉睡" skillId="11778" skillLvl="6" getLevel="98" learnedByNpc="true" />
 		<skill skillName="闇之吞噬" skillId="11780" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="闇之吞噬" skillId="11780" skillLvl="2" getLevel="86" learnedByNpc="true" />
 		<skill skillName="闇之吞噬" skillId="11780" skillLvl="3" getLevel="89" learnedByNpc="true" />
@@ -1033,14 +1303,59 @@
 		<skill skillName="闇之吞噬" skillId="11780" skillLvl="6" getLevel="98" learnedByNpc="true" />
 		<skill skillName="緊急治癒" skillId="11782" skillLvl="1" getLevel="95" learnedByNpc="true" />
 		<skill skillName="緊急治癒" skillId="11782" skillLvl="2" getLevel="99" learnedByNpc="true" />
+		<skill skillName="重置" skillId="11783" skillLvl="1" getLevel="97" learnedByNpc="true" />
+		<skill skillName="護體返生術" skillId="11784" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="護體返生術" skillId="11784" skillLvl="2" getLevel="90" learnedByNpc="true" />
+		<skill skillName="護體返生術" skillId="11784" skillLvl="3" getLevel="95" learnedByNpc="true" />
+		<skill skillName="護體返生術" skillId="11784" skillLvl="4" getLevel="99" learnedByNpc="true" />
+		<skill skillName="群體護體返生術" skillId="11785" skillLvl="1" getLevel="89" learnedByNpc="true" />
+		<skill skillName="群體護體返生術" skillId="11785" skillLvl="2" getLevel="93" learnedByNpc="true" />
+		<skill skillName="群體護體返生術" skillId="11785" skillLvl="3" getLevel="96" learnedByNpc="true" />
 		<skill skillName="極致精通護甲" skillId="11787" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致精通施法" skillId="11788" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致抗魔" skillId="11789" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="極致元素保護" skillId="11790" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致精通符印" skillId="11791" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="極致特性抵抗" skillId="11792" skillLvl="1" getLevel="87" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="3" getLevel="88" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="4" getLevel="90" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="5" getLevel="92" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="6" getLevel="94" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="7" getLevel="96" learnedByNpc="true" />
+		<skill skillName="闇之怨氣" skillId="11814" skillLvl="8" getLevel="98" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="闇之暴雨" skillId="11817" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="快速回歸" skillId="11819" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="沙哈鬥力" skillId="11820" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="沙哈致命" skillId="11821" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="沙哈迅捷" skillId="11822" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="沙哈形移" skillId="11823" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="沙哈防護" skillId="11824" skillLvl="1" getLevel="85" learnedByNpc="true" />
 		<skill skillName="沙哈心靈" skillId="11825" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="救贖標誌" skillId="11826" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="連鎖治癒" skillId="11828" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="沙哈祝福" skillId="11830" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="2" getLevel="87" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="4" getLevel="91" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="5" getLevel="93" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="6" getLevel="95" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="7" getLevel="97" learnedByNpc="true" />
+		<skill skillName="衝擊消除" skillId="11831" skillLvl="8" getLevel="99" learnedByNpc="true" />
+		<skill skillName="廣域致命沉睡" skillId="11832" skillLvl="1" getLevel="85" learnedByNpc="true" />
+		<skill skillName="廣域致命沉睡" skillId="11832" skillLvl="2" getLevel="86" learnedByNpc="true" />
+		<skill skillName="廣域致命沉睡" skillId="11832" skillLvl="3" getLevel="89" learnedByNpc="true" />
+		<skill skillName="廣域致命沉睡" skillId="11832" skillLvl="4" getLevel="92" learnedByNpc="true" />
+		<skill skillName="廣域致命沉睡" skillId="11832" skillLvl="5" getLevel="95" learnedByNpc="true" />
+		<skill skillName="廣域致命沉睡" skillId="11832" skillLvl="6" getLevel="98" learnedByNpc="true" />
 	</skillTree>
 </list>

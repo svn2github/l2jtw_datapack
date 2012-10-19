@@ -782,4 +782,16 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
 	</skill>
+	<skill id="10300" levels="3" name="Last Attack">
+		<table name="#mpConsume"> 92 99 105 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="1690"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
 </list>
