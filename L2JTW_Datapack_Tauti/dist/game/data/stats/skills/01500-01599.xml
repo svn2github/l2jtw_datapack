@@ -1532,16 +1532,4 @@
 			<add order="0x40" stat="maxMp" val="#maxMp" />
 		</for>
 	</skill>
-	<skill id="1571" levels="1" name="Awakened Class Inventory Increase">
-		<set name="target" val="TARGET_SELF"/>
-		<set name="operateType" val="P"/>
-	</skill>
-	<skill id="1572" levels="1" name="Awakened Class Weight Increase">
-		<set name="target" val="TARGET_SELF"/>
-		<set name="operateType" val="P"/>
-	</skill>
-	<skill id="1597" levels="1" name="Awakened Class Weight Increase">
-		<set name="target" val="TARGET_SELF"/>
-		<set name="operateType" val="P"/>
-	</skill>
 </list>
