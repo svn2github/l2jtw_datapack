@@ -1,7 +1,8 @@
 Set Names utf8;
 /************ Made in Taiwan ************/
 
-DELETE FROM `auto_announcements`;
+REPLACE INTO `auto_announcements` VALUES
+(1,900000,9000000,36000,'此測試伺服器的各種功能，目前仍然不完整和不穩定，如有發現任何錯誤或Bug，麻煩請回報至論壇。','false');
 
 REPLACE INTO `teleport` VALUES
 ('Gludin -> TI Village',9,-111988,257240,-1376,9400,0,57),
