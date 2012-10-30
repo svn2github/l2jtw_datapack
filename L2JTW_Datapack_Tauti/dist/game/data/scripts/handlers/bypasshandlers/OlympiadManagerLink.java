@@ -332,7 +332,7 @@ public class OlympiadManagerLink implements IBypassHandler
 					case 2: // show rank for a specific class
 						// for example >> Olympiad 1_88
 						int classId = Integer.parseInt(command.substring(11));
-						if (((classId >= 88) && (classId <= 118)) || ((classId >= 131) && (classId <= 134)) || (classId == 136))
+						if (classId >= 139) //rocknow-God
 						{
 							L2FastList<String> names = Olympiad.getInstance().getClassLeaderBoard(classId);
 							reply.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "olympiad_ranking.htm");
