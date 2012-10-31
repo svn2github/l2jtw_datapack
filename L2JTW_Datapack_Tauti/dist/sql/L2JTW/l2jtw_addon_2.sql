@@ -4,6 +4,8 @@ Set Names utf8;
 REPLACE INTO `auto_announcements` VALUES
 (1,900000,9000000,36000,'此測試伺服器的各種功能，目前仍然不完整和不穩定，如有發現任何錯誤或Bug，麻煩請回報至論壇。','false');
 
+Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`currentHp`=`npc`.`hp`*10,`raidboss_spawnlist`.`currentMp`=`npc`.`mp`*10 WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
+
 REPLACE INTO `teleport` VALUES
 ('Gludin -> TI Village',9,-111988,257240,-1376,9400,0,57),
 ('Airship dock -> Talking Island',12119,-111988,257240,-1376,0,0,57);
