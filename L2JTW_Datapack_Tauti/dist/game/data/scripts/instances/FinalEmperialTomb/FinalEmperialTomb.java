@@ -714,7 +714,7 @@ public class FinalEmperialTomb extends Quest
 			}
 			for (int i : _world.portraits.values())
 			{
-				if (_world.demons.size() > MAX_DEMONS)
+				if (_world.demons.size() > MAX_DEMONS || _world.isVideo) //rocknow-Fix-Camera
 					break;
 				L2MonsterInstance demon = (L2MonsterInstance) addSpawn(PORTRAIT_SPAWNS[i][0] + 2, PORTRAIT_SPAWNS[i][5], PORTRAIT_SPAWNS[i][6], PORTRAIT_SPAWNS[i][7], PORTRAIT_SPAWNS[i][8], false, 0, false, _world.instanceId);
 				updateKnownList(_world, demon);
@@ -1073,6 +1073,7 @@ public class FinalEmperialTomb extends Quest
 					_world.isVideo = false;
 					break;
 				case 33:
+					stopPc(); //rocknow-Fix-Camera
 					broadCastPacket(_world, new SpecialCamera(_world.activeScarlet.getObjectId(), 300, _world.scarlet_a - 180, 5, 0, 7000, 0, 0, 1, 0));
 					broadCastPacket(_world, new SpecialCamera(_world.activeScarlet.getObjectId(), 200, _world.scarlet_a, 85, 4000, 10000, 0, 0, 1, 0));
 					ThreadPoolManager.getInstance().scheduleGeneral(new IntroTask(_world, 34), 7400);
@@ -1114,6 +1115,21 @@ public class FinalEmperialTomb extends Quest
 					player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 				}
 			}
+			//rocknow-Fix-Camera-Start
+			for (L2MonsterInstance demon : _world.demons)
+			{
+				if (demon != null)
+				{
+					demon.abortAttack();
+					demon.abortCast();
+					demon.disableAllSkills();
+					demon.setTarget(null);
+					demon.stopMove(null);
+					demon.setIsImmobilized(true);
+					demon.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+				}
+			}
+			//rocknow-Fix-Camera-End
 		}
 		
 		private void startPc()
@@ -1127,6 +1143,16 @@ public class FinalEmperialTomb extends Quest
 					player.setIsImmobilized(false);
 				}
 			}
+			//rocknow-Fix-Camera-Start
+			for (L2MonsterInstance demon : _world.demons)
+			{
+				if (demon != null)
+				{
+					demon.enableAllSkills();
+					demon.setIsImmobilized(false);
+				}
+			}
+			//rocknow-Fix-Camera-End
 		}
 		
 		private void sendPacketX(L2GameServerPacket packet1, L2GameServerPacket packet2, int x)
