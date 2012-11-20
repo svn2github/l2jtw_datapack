@@ -690,6 +690,7 @@ set dest=gs
 for %%i in (..\sql\game\*.sql) do call :dump %%i
 for %%i in (..\sql\game\mods\*.sql) do call :dump %%i
 for %%i in (..\sql\L2JTW\*.sql) do call :dump %%i
+for %%i in (..\sql\game\custom\*.sql) do call :dump %%i
 
 echo งนฆจ...
 echo.
