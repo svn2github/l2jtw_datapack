@@ -493,7 +493,7 @@ public class IceFairySirra extends L2AttackableAIScript
 			int respawn_delay = getRandom(respawnMinDelay, respawnMaxDelay);
 			saveGlobalQuestVar("Sirra_Respawn", String.valueOf(System.currentTimeMillis() + respawn_delay));
 			startQuestTimer("respawn", respawn_delay, null, null);
-			screenMessage(killer,NpcStringId.FREYA_HEATHENS_FEEL_MY_CHILL,10000); //pmq
+			screenMessage(killer,NpcStringId.FREYA_HEATHENS_FEEL_MY_CHILL,10000); // Update by pmq
 		}
 		return super.onKill(npc, killer, isPet);
 	}
