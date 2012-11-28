@@ -1,6 +1,6 @@
 package ai.individual;
 
-import ai.group_template.L2AttackableAIScript;
+import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
@@ -20,7 +20,7 @@ import com.l2jserver.util.Rnd;
  * Sailren AI
  * @author rocknow
  */
-public class Sailren extends L2AttackableAIScript
+public class Sailren extends AbstractNpcAI
 {
 	private static final int SAILREN = 29065;
 	private static final int VELOCIRAPTOR = 22218;
@@ -38,9 +38,9 @@ public class Sailren extends L2AttackableAIScript
 	private static long _LastAction = 0;
 
 	// Boss: Sailren
-	public Sailren(int id,String name,String descr)
+	public Sailren(String name, String descr)
 	{
-		super(id,name,descr);
+		super(name,descr);
 		int[] mob = {SAILREN, VELOCIRAPTOR, PTEROSAUR, TYRANNOSAURUS};
 		this.registerMobs(mob);
 		addStartNpc(STATUE);
@@ -284,6 +284,6 @@ public class Sailren extends L2AttackableAIScript
 	public static void main(String[] args)
 	{
 		// now call the constructor (starts up the ai)
-		new Sailren(-1,"sailren","ai");
+		new Sailren(Sailren.class.getSimpleName(), "ai"); 
 	}
 }

@@ -77,16 +77,16 @@ public abstract class AirShipController extends Quest
 	private static final int SUMMON_COST = 5;
 
 	private static final SystemMessage SM_ALREADY_EXISTS = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_IS_ALREADY_EXISTS); //已有屬於血盟的飛空艇。
-	private static final SystemMessage SM_ALREADY_SUMMONED = SystemMessage.getSystemMessage(SystemMessageId.ANOTHER_AIRSHIP_ALREADY_SUMMONED); //碼頭上已有召喚其他的飛空艇，請稍後再利用。
+	// private static final SystemMessage SM_ALREADY_SUMMONED = SystemMessage.getSystemMessage(SystemMessageId.ANOTHER_AIRSHIP_ALREADY_SUMMONED); //碼頭上已有召喚其他的飛空艇，請稍後再利用。
 	private static final SystemMessage SM_NEED_LICENSE = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_NEED_LICENSE_TO_SUMMON); //尚未輸入飛空艇召喚許可證，或者沒有屬於血盟的飛空艇，因此無法召喚飛空艇。
-	//private static final SystemMessage SM_NEED_CLANLVL5 = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_NEED_CLANLVL_5_TO_SUMMON); //如果想要獲得飛空艇，血盟等級必須要達到等級5才行。
+	// private static final SystemMessage SM_NEED_CLANLVL5 = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_NEED_CLANLVL_5_TO_SUMMON); //如果想要獲得飛空艇，血盟等級必須要達到等級5才行。
 	private static final SystemMessage SM_NO_PRIVS = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_NO_PRIVILEGES); //屬於血盟的飛空艇僅限盟主來購買。
 	private static final SystemMessage SM_ALREADY_USED = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_ALREADY_USED); //屬於血盟的飛空艇已被其他血盟成員使用。
-	//private static final SystemMessage SM_LICENSE_ALREADY_ACQUIRED = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ALREADY_ACQUIRED); //已獲得飛空艇召喚許可證。
+	// private static final SystemMessage SM_LICENSE_ALREADY_ACQUIRED = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ALREADY_ACQUIRED); //已獲得飛空艇召喚許可證。
 	private static final SystemMessage SM_LICENSE_ENTERED = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ENTERED); //飛空艇召喚許可證已輸入完畢，往後貴血盟就能召喚飛空艇。
-	//private static final SystemMessage SM_NEED_MORE = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_NEED_MORE_S1).addItemName(STARSTONE); //「$s1」不足，因而無法召喚飛空艇。
+	// private static final SystemMessage SM_NEED_MORE = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_NEED_MORE_S1).addItemName(STARSTONE); //「$s1」不足，因而無法召喚飛空艇。
 
-	//private static final String ARRIVAL_MSG = "已召喚到飛空艇。5分鐘後，將會自動出發。";
+	// private static final String ARRIVAL_MSG = "已召喚到飛空艇。5分鐘後，將會自動出發。";
 
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)

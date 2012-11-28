@@ -14,6 +14,8 @@
  */
 package quests.Q00027_ChestCaughtWithABaitOfWind;
 
+import quests.Q00050_LanoscosSpecialBait.Q00050_LanoscosSpecialBait;
+
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -22,12 +24,11 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  * Chest Caught With A Bait Of Wind (27)<br>
- * Original Jython script by DooMIta
+ * Original Jython script by DooMIta.
  * @author nonom
  */
-public class Q27_ChestCaughtWithABaitOfWind extends Quest
+public class Q00027_ChestCaughtWithABaitOfWind extends Quest
 {
-	private static final String qn = "27_ChestCaughtWithABaitOfWind";
 	
 	// NPCs
 	private static final int LANOSCO = 31570;
@@ -42,7 +43,7 @@ public class Q27_ChestCaughtWithABaitOfWind extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -84,7 +85,7 @@ public class Q27_ChestCaughtWithABaitOfWind extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -97,7 +98,7 @@ public class Q27_ChestCaughtWithABaitOfWind extends Quest
 				htmltext = getAlreadyCompletedMsg(player);
 				break;
 			case State.CREATED:
-				final QuestState qs = player.getQuestState("50_LanoscosSpecialBait");
+				final QuestState qs = player.getQuestState(Q00050_LanoscosSpecialBait.class.getSimpleName());
 				if (npcId == LANOSCO)
 				{
 					htmltext = "31570-02.htm";
@@ -139,7 +140,7 @@ public class Q27_ChestCaughtWithABaitOfWind extends Quest
 		return htmltext;
 	}
 	
-	public Q27_ChestCaughtWithABaitOfWind(int questId, String name, String descr)
+	public Q00027_ChestCaughtWithABaitOfWind(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -149,6 +150,6 @@ public class Q27_ChestCaughtWithABaitOfWind extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q27_ChestCaughtWithABaitOfWind(27, qn, "Chest Caught With A Bait Of Wind");
+		new Q00027_ChestCaughtWithABaitOfWind(27, Q00027_ChestCaughtWithABaitOfWind.class.getSimpleName(), "Chest Caught With A Bait Of Wind");
 	}
 }

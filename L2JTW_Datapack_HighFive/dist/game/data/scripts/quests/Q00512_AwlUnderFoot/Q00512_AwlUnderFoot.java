@@ -127,7 +127,7 @@ public final class Q00512_AwlUnderFoot extends Quest
 		}
 		for (L2PcInstance partyMember : party.getMembers())
 		{
-			QuestState st = partyMember.getQuestState(qn);
+			QuestState st = partyMember.getQuestState(getName());
 			if ((st == null) || (st.getInt("cond") < 1))
 			{
 				return getHtm(player.getHtmlPrefix(), "CastleWarden-05.htm").replace("%player%", partyMember.getName());
@@ -207,7 +207,7 @@ public final class Q00512_AwlUnderFoot extends Quest
 	
 	private class spawnRaid implements Runnable
 	{
-		private CAUWorld _world;
+		private final CAUWorld _world;
 		
 		public spawnRaid(CAUWorld world)
 		{
@@ -392,7 +392,7 @@ public final class Q00512_AwlUnderFoot extends Quest
 	@Override
 	public String onAttack(L2Npc npc, L2PcInstance player, int damage, boolean isPet)
 	{
-		L2Playable attacker = (isPet ? player.getPet() : player);
+		L2Playable attacker = (isPet ? player.getSummon() : player);
 		if ((attacker.getLevel() - npc.getLevel()) >= 9)
 		{
 			if ((attacker.getBuffCount() > 0) || (attacker.getDanceCount() > 0))
@@ -462,7 +462,7 @@ public final class Q00512_AwlUnderFoot extends Quest
 		_castleDungeons.put(36410, new CastleDungeon(20));
 		_castleDungeons.put(36411, new CastleDungeon(21));
 
-		for (int i : _castleDungeons.keys())
+		for (int i : _castleDungeons.keySet())
 		{
 			addStartNpc(i);
 			addTalkId(i);

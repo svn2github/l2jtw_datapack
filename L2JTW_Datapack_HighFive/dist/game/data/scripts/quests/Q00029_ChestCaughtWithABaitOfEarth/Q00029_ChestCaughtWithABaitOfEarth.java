@@ -14,6 +14,8 @@
  */
 package quests.Q00029_ChestCaughtWithABaitOfEarth;
 
+import quests.Q00052_WilliesSpecialBait.Q00052_WilliesSpecialBait;
+
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -22,12 +24,11 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  * Chest Caught With A Bait Of Earth (29)<br>
- * Original Jython script by Skeleton
+ * Original Jython script by Skeleton.
  * @author nonom
  */
-public class Q29_ChestCaughtWithABaitOfEarth extends Quest
+public class Q00029_ChestCaughtWithABaitOfEarth extends Quest
 {
-	private static final String qn = "29_ChestCaughtWithABaitOfEarth";
 	
 	// NPCs
 	private static final int WILLIE = 31574;
@@ -42,7 +43,7 @@ public class Q29_ChestCaughtWithABaitOfEarth extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -84,7 +85,7 @@ public class Q29_ChestCaughtWithABaitOfEarth extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -97,7 +98,7 @@ public class Q29_ChestCaughtWithABaitOfEarth extends Quest
 				htmltext = getAlreadyCompletedMsg(player);
 				break;
 			case State.CREATED:
-				final QuestState qs = player.getQuestState("52_WilliesSpecialBait");
+				final QuestState qs = player.getQuestState(Q00052_WilliesSpecialBait.class.getSimpleName());
 				if (npcId == WILLIE)
 				{
 					htmltext = "31574-02.htm";
@@ -138,7 +139,7 @@ public class Q29_ChestCaughtWithABaitOfEarth extends Quest
 		return htmltext;
 	}
 	
-	public Q29_ChestCaughtWithABaitOfEarth(int questId, String name, String descr)
+	public Q00029_ChestCaughtWithABaitOfEarth(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -148,6 +149,6 @@ public class Q29_ChestCaughtWithABaitOfEarth extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q29_ChestCaughtWithABaitOfEarth(29, qn, "Chest Caught With A Bait Of Earth");
+		new Q00029_ChestCaughtWithABaitOfEarth(29, Q00029_ChestCaughtWithABaitOfEarth.class.getSimpleName(), "Chest Caught With A Bait Of Earth");
 	}
 }

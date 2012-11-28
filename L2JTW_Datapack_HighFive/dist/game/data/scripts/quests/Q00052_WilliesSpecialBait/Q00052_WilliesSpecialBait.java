@@ -12,7 +12,7 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package quests.Q00051_OFullesSpecialBait;
+package quests.Q00052_WilliesSpecialBait;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -22,47 +22,42 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * O'Fulle's Special Bait (51)<br>
- * Original Jython script by Kilkenny
+ * Willie's Special Bait (52)<br>
+ * Original Jython script by Kilkenny.
  * @author nonom
  */
-public class Q51_OFullesSpecialBait extends Quest
+public class Q00052_WilliesSpecialBait extends Quest
 {
-	private static final String qn = "51_OFullesSpecialBait";
-	
 	// NPCs
-	private static final int OFULLE = 31572;
-	private static final int FETTERED_SOUL = 20552;
+	private static final int WILLIE = 31574;
+	private static final int TARLK_BASILISK = 20573;
 	
 	// Items
-	private static final int LOST_BAIT = 7622;
-	private static final int ICY_AIR_LURE = 7611;
+	private static final int TARLK_EYE = 7623;
+	private static final int EARTH_FISHING_LURE = 7612;
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
-			return htmltext;
+			return getNoQuestMsg(player);
 		}
+		
+		String htmltext = event;
 		
 		switch (event)
 		{
-			case "31572-03.htm":
-				st.set("cond", "1");
-				st.setState(State.STARTED);
-				st.playSound("ItemSound.quest_accept");
+			case "31574-03.htm":
+				st.startQuest();
 				break;
-			case "31572-07.html":
-				if ((st.getInt("cond") == 2) && (st.getQuestItemsCount(LOST_BAIT) >= 100))
+			case "31574-07.html":
+				if (st.isCond(2) && (st.getQuestItemsCount(TARLK_EYE) >= 100))
 				{
-					htmltext = "31572-06.htm";
-					st.giveItems(ICY_AIR_LURE, 4);
-					st.takeItems(LOST_BAIT, -1);
-					st.playSound("ItemSound.quest_finish");
-					st.exitQuest(false);
+					htmltext = "31574-06.htm";
+					st.giveItems(EARTH_FISHING_LURE, 4);
+					st.exitQuest(false, true);
 				}
 				break;
 		}
@@ -72,8 +67,8 @@ public class Q51_OFullesSpecialBait extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		final QuestState st = player.getQuestState(qn);
+		String htmltext = getNoQuestMsg(player);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -82,13 +77,13 @@ public class Q51_OFullesSpecialBait extends Quest
 		switch (st.getState())
 		{
 			case State.COMPLETED:
-				htmltext = "<html><body>這是已經完成的任務。</body></html>";
+				htmltext = getAlreadyCompletedMsg(player);
 				break;
 			case State.CREATED:
-				htmltext = (player.getLevel() >= 36) ? "31572-01.htm" : "31572-02.html";
+				htmltext = (player.getLevel() >= 48) ? "31574-01.htm" : "31574-02.html";
 				break;
 			case State.STARTED:
-				htmltext = (st.getInt("cond") == 1) ? "31572-04.html" : "31572-05.html";
+				htmltext = (st.isCond(1)) ? "31574-05.html" : "31574-04.html";
 				break;
 		}
 		return htmltext;
@@ -103,53 +98,42 @@ public class Q51_OFullesSpecialBait extends Quest
 			return null;
 		}
 		
-		final QuestState st = partyMember.getQuestState(qn);
-		if (st == null)
-		{
-			return null;
-		}
+		final QuestState st = partyMember.getQuestState(getName());
 		
-		final long count = st.getQuestItemsCount(LOST_BAIT);
-		if ((st.getInt("cond") == 1) && (count < 100))
+		if (st.getQuestItemsCount(TARLK_EYE) < 100)
 		{
 			float chance = 33 * Config.RATE_QUEST_DROP;
-			float numItems = chance / 100;
-			chance = chance % 100;
-			
 			if (getRandom(100) < chance)
 			{
-				numItems += 1;
-			}
-			if (numItems > 0)
-			{
-				if ((count + numItems) >= 100)
-				{
-					numItems = 100 - count;
-				}
-				st.set("cond", "2");
-				st.playSound("ItemSound.quest_middle");
-			}
-			else
-			{
+				st.rewardItems(TARLK_EYE, 1);
 				st.playSound("ItemSound.quest_itemget");
 			}
-			st.giveItems(LOST_BAIT, (int) numItems);
+		}
+		
+		if (st.getQuestItemsCount(TARLK_EYE) >= 100)
+		{
+			st.setCond(2, true);
+			
 		}
 		
 		return super.onKill(npc, player, isPet);
 	}
 	
-	public Q51_OFullesSpecialBait(int questId, String name, String descr)
+	public Q00052_WilliesSpecialBait(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
-		addStartNpc(OFULLE);
-		addTalkId(OFULLE);
-		addKillId(FETTERED_SOUL);
+		addStartNpc(WILLIE);
+		addTalkId(WILLIE);
+		addKillId(TARLK_BASILISK);
+		questItemIds = new int[]
+		{
+			TARLK_EYE
+		};
 	}
 	
 	public static void main(String[] args)
 	{
-		new Q51_OFullesSpecialBait(51, qn, "O'Fulle's Special Bait");
+		new Q00052_WilliesSpecialBait(52, Q00052_WilliesSpecialBait.class.getSimpleName(), "Willie's Special Bait");
 	}
 }

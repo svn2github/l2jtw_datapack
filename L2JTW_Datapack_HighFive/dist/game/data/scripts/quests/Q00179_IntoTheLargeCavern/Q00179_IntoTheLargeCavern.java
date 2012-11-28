@@ -22,12 +22,12 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * 2010-10-15 Based on official server Naia
+ * Into the Large Cavern (179)
  * @author Gnacik
+ * @version 2010-10-15 Based on official server Naia
  */
-public class Q179_IntoTheLargeCavern extends Quest
+public class Q00179_IntoTheLargeCavern extends Quest
 {
-	private static final String qn = "179_IntoTheLargeCavern";
 	
 	// NPC's
 	private static final int _kekropus = 32138;
@@ -37,8 +37,7 @@ public class Q179_IntoTheLargeCavern extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
-		
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -46,7 +45,7 @@ public class Q179_IntoTheLargeCavern extends Quest
 		
 		if (npc.getNpcId() == _kekropus)
 		{
-			if (event.equalsIgnoreCase("32138-03.htm"))
+			if (event.equalsIgnoreCase("32138-03.html"))
 			{
 				st.setState(State.STARTED);
 				st.set("cond", "1");
@@ -55,14 +54,14 @@ public class Q179_IntoTheLargeCavern extends Quest
 		}
 		else if (npc.getNpcId() == _nornil)
 		{
-			if (event.equalsIgnoreCase("32258-08.htm"))
+			if (event.equalsIgnoreCase("32258-08.html"))
 			{
 				st.giveItems(391, 1);
 				st.giveItems(413, 1);
 				st.playSound("ItemSound.quest_finish");
 				st.exitQuest(false);
 			}
-			else if (event.equalsIgnoreCase("32258-09.htm"))
+			else if (event.equalsIgnoreCase("32258-09.html"))
 			{
 				st.giveItems(847, 2);
 				st.giveItems(890, 2);
@@ -77,55 +76,59 @@ public class Q179_IntoTheLargeCavern extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		QuestState st = player.getQuestState(qn);
+		String htmltext = getNoQuestMsg(player);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
 		}
 		
-		QuestState _prev = player.getQuestState("178_IconicTrinity");
-		if (player.getRace() != Race.Kamael)
-			return "<html><body>長老凱克洛普斯：<br>很抱歉，這事情與他種族無關。<br>（只有闇天使種族才能執行此任務。）</body></html>";
-
-		if (_prev != null && _prev.getState() == State.COMPLETED && player.getLevel() >= 17 && player.getClassId().level() == 0)
+		if (npc.getNpcId() == _kekropus)
 		{
-			if (npc.getNpcId() == _kekropus)
+			switch (st.getState())
 			{
-				switch (st.getState())
-				{
-					case State.CREATED:
-						htmltext = "32138-01.htm";
-						break;
-					case State.STARTED:
-						if (st.getInt("cond") == 1)
+				case State.CREATED:
+					if (player.getRace() != Race.Kamael)
+					{
+						htmltext = "32138-00b.html";
+					}
+					else
+					{
+						final QuestState prev = player.getQuestState("178_IconicTrinity");
+						final int level = player.getLevel();
+						if ((prev != null) && prev.isCompleted() && (level >= 17) && (level <= 21) && (player.getClassId().level() == 0))
 						{
-							htmltext = "32138-05.htm";
+							htmltext = "32138-01.htm";
 						}
-						break;
-					case State.COMPLETED:
-						htmltext = "<html><body>這是已經完成的任務。</body></html>";
-						break;
-				}
-			}
-			else if ((npc.getNpcId() == _nornil) && (st.getState() == State.STARTED))
-			{
-				htmltext = "32258-01.htm";
-			}
-			else if (npc.getNpcId() == _nornil && st.getState() == State.COMPLETED)
-			{
-				htmltext = "32258-exit.htm";
+						else if (level < 17)
+						{
+							htmltext = "32138-00.html";
+						}
+						else
+						{
+							htmltext = "32138-00c.html";
+						}
+					}
+					break;
+				case State.STARTED:
+					if (st.getInt("cond") == 1)
+					{
+						htmltext = "32138-05.htm";
+					}
+					break;
+				case State.COMPLETED:
+					htmltext = getAlreadyCompletedMsg(player);
+					break;
 			}
 		}
-		else
+		else if ((npc.getNpcId() == _nornil) && (st.getState() == State.STARTED))
 		{
-			htmltext = "32138-00.htm";
+			htmltext = "32258-01.html";
 		}
-		
 		return htmltext;
 	}
 	
-	public Q179_IntoTheLargeCavern(int questId, String name, String descr)
+	public Q00179_IntoTheLargeCavern(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -135,6 +138,6 @@ public class Q179_IntoTheLargeCavern extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q179_IntoTheLargeCavern(179, qn, "進入大空洞");
+		new Q00179_IntoTheLargeCavern(179, Q00179_IntoTheLargeCavern.class.getSimpleName(), "Into The Large Cavern");
 	}
 }

@@ -21,12 +21,12 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Go to the Pastureland (19)
- * @author disKret, malyelfik
+ * Go to the Pastureland (19)<br>
+ * Original Jython script by disKret.
+ * @author malyelfik
  */
-public class Q19_GoToThePastureland extends Quest
+public class Q00019_GoToThePastureland extends Quest
 {
-	private static final String qn = "19_GoToThePastureland";
 	
 	// NPC
 	private static final int Vladimir = 31302;
@@ -39,11 +39,11 @@ public class Q19_GoToThePastureland extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		
 		if (st == null)
 		{
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return getNoQuestMsg(player);
 		}
 		
 		if (event.equalsIgnoreCase("31302-02.htm"))
@@ -84,8 +84,8 @@ public class Q19_GoToThePastureland extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		final QuestState st = player.getQuestState(qn);
+		String htmltext = getNoQuestMsg(player);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -109,7 +109,7 @@ public class Q19_GoToThePastureland extends Quest
 					htmltext = "31302-04.html";
 					break;
 				case State.COMPLETED:
-					htmltext = "<html><body>這是已經完成的任務。</body></html>";
+					htmltext = getAlreadyCompletedMsg(player);
 					break;
 			}
 		}
@@ -120,7 +120,7 @@ public class Q19_GoToThePastureland extends Quest
 		return htmltext;
 	}
 	
-	public Q19_GoToThePastureland(int questId, String name, String descr)
+	public Q00019_GoToThePastureland(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -136,6 +136,6 @@ public class Q19_GoToThePastureland extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q19_GoToThePastureland(19, qn, "前往放牧場吧!");
+		new Q00019_GoToThePastureland(19, Q00019_GoToThePastureland.class.getSimpleName(), "Go to the Pastureland");
 	}
 }

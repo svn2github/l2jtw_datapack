@@ -21,11 +21,11 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
+ * Matras' Curiosity (132)
  * @author GKR, Gladicek
  */
-public final class Q132_MatrasCuriosity extends Quest
+public final class Q00132_MatrasCuriosity extends Quest
 {
-	private static final String qn = "132_MatrasCuriosity";
 	
 	// NPCs
 	private static final int MATRAS = 32245;
@@ -45,7 +45,7 @@ public final class Q132_MatrasCuriosity extends Quest
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return getNoQuestMsg(player);
@@ -87,8 +87,8 @@ public final class Q132_MatrasCuriosity extends Quest
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		final QuestState st = player.getQuestState(qn);
+		String htmltext = getNoQuestMsg(player);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -139,7 +139,7 @@ public final class Q132_MatrasCuriosity extends Quest
 				pl = getRandomPartyMember(player, "rewarded_prince", "1");
 				if (pl != null)
 				{
-					final QuestState st = pl.getQuestState(qn);
+					final QuestState st = pl.getQuestState(getName());
 					st.giveItems(BLUEPRINT_PRINCE, 1);
 					st.set("rewarded_prince", "2");
 					
@@ -158,7 +158,7 @@ public final class Q132_MatrasCuriosity extends Quest
 				pl = getRandomPartyMember(player, "rewarded_ranku", "1");
 				if (pl != null)
 				{
-					final QuestState st = pl.getQuestState(qn);
+					final QuestState st = pl.getQuestState(getName());
 					st.giveItems(BLUEPRINT_RANKU, 1);
 					st.set("rewarded_ranku", "2");
 					
@@ -177,7 +177,7 @@ public final class Q132_MatrasCuriosity extends Quest
 		return null;
 	}
 	
-	public Q132_MatrasCuriosity(int questId, String name, String descr)
+	public Q00132_MatrasCuriosity(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -189,6 +189,6 @@ public final class Q132_MatrasCuriosity extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q132_MatrasCuriosity(132, qn, "Matras' Curiosity");
+		new Q00132_MatrasCuriosity(132, Q00132_MatrasCuriosity.class.getSimpleName(), "Matras' Curiosity");
 	}
 }

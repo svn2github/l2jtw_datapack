@@ -1,6 +1,7 @@
 package ai.individual;
 
-import ai.group_template.L2AttackableAIScript;
+import ai.npc.AbstractNpcAI;
+
 import java.util.Map;
 import javolution.util.FastMap;
 import com.l2jserver.gameserver.ai.CtrlIntention;
@@ -12,7 +13,7 @@ import com.l2jserver.gameserver.model.L2CharPosition;
  * NPC Walk script
  * Update by rocknow
  */
-public class NPC_Walk extends L2AttackableAIScript
+public class NPC_Walk extends AbstractNpcAI
 {
 	private L2Npc wharf_patrol01, wharf_patrol02, wharf_patrol03, wharf_patrol04;
 	private static Map<String, Object[]> walks99 = new FastMap<>();
@@ -44,9 +45,9 @@ public class NPC_Walk extends L2AttackableAIScript
 	walks99.put("3262912", new Object[]{-150410,254860,-184,"3262907"});
 	}
 
-	public NPC_Walk(int id, String name, String descr)
+	public NPC_Walk(String name, String descr)
 	{
-		super(id,name,descr);
+		super(name,descr);
 		load99();
 		wharf_patrol01 = addSpawn(32628,-148230,255280,-184,0,false,0);
 		wharf_patrol02 = addSpawn(32628,-148270,255320,-184,0,false,0);
@@ -79,6 +80,6 @@ public class NPC_Walk extends L2AttackableAIScript
 	public static void main(String[] args)
 	{
 		// now call the constructor (starts up the ai)
-		new NPC_Walk(-1,"npc_walk","ai");
+		new NPC_Walk(NPC_Walk.class.getSimpleName(),"ai");
 	}
 }

@@ -14,6 +14,8 @@
  */
 package quests.Q00017_LightAndDarkness;
 
+import quests.Q00015_SweetWhispers.Q00015_SweetWhispers;
+
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -21,13 +23,12 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Light And Darkness (17).<br>
+ * Light And Darkness (17)<br>
  * Original jython script by disKret, Skeleton & DrLecter.
  * @author nonom
  */
-public class Q17_LightAndDarkness extends Quest
+public class Q00017_LightAndDarkness extends Quest
 {
-	private static final String qn = "17_LightAndDarkness";
 	
 	// NPCs
 	private static final int HIERARCH = 31517;
@@ -43,7 +44,7 @@ public class Q17_LightAndDarkness extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -87,7 +88,7 @@ public class Q17_LightAndDarkness extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -99,7 +100,7 @@ public class Q17_LightAndDarkness extends Quest
 				htmltext = getAlreadyCompletedMsg(player);
 				break;
 			case State.CREATED:
-				final QuestState st2 = player.getQuestState("15_SweetWhispers");
+				final QuestState st2 = player.getQuestState(Q00015_SweetWhispers.class.getSimpleName());
 				htmltext = ((st2 != null) && (st2.isCompleted())) ? "31517-00.htm" : "31517-06.html";
 				break;
 			case State.STARTED:
@@ -140,7 +141,7 @@ public class Q17_LightAndDarkness extends Quest
 		return htmltext;
 	}
 	
-	public Q17_LightAndDarkness(int questId, String name, String descr)
+	public Q00017_LightAndDarkness(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -151,6 +152,6 @@ public class Q17_LightAndDarkness extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q17_LightAndDarkness(17, qn, "Light and Darkness");
+		new Q00017_LightAndDarkness(17, Q00017_LightAndDarkness.class.getSimpleName(), "Light and Darkness");
 	}
 }

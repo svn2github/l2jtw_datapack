@@ -21,13 +21,12 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Meeting With The Golden Ram (18).<br>
+ * Meeting With The Golden Ram (18)<br>
  * Original jython script by disKret.
  * @author nonom
  */
-public class Q18_MeetingWithTheGoldenRam extends Quest
+public class Q00018_MeetingWithTheGoldenRam extends Quest
 {
-	private static final String qn = "18_MeetingWithTheGoldenRam";
 	
 	// NPCs
 	private static final int DONAL = 31314;
@@ -41,7 +40,7 @@ public class Q18_MeetingWithTheGoldenRam extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -82,7 +81,7 @@ public class Q18_MeetingWithTheGoldenRam extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -120,7 +119,7 @@ public class Q18_MeetingWithTheGoldenRam extends Quest
 		return htmltext;
 	}
 	
-	public Q18_MeetingWithTheGoldenRam(int questId, String name, String descr)
+	public Q00018_MeetingWithTheGoldenRam(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -131,6 +130,6 @@ public class Q18_MeetingWithTheGoldenRam extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q18_MeetingWithTheGoldenRam(18, qn, "Meeting With The Golden Ram");
+		new Q00018_MeetingWithTheGoldenRam(18, Q00018_MeetingWithTheGoldenRam.class.getSimpleName(), "Meeting With The Golden Ram");
 	}
 }

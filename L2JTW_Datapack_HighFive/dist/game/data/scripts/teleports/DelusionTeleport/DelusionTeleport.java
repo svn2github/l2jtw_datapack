@@ -59,14 +59,14 @@ public class DelusionTeleport extends Quest
 			y = player.getY();
 			z = player.getZ();
 			player.teleToLocation(-114592,-152509,-6723);
-			if (player.getPet() != null)
-			player.getPet().teleToLocation(-114592,-152509,-6723);
+			if (player.getSummon() != null)
+			player.getSummon().teleToLocation(-114592,-152509,-6723);
 		}
 		else if (npcId == REWARDER_ONE || npcId == REWARDER_TWO || npcId == REWARDER_THREE || npcId == REWARDER_FOUR || npcId == REWARDER_FIVE || npcId == REWARDER_SIX)
 		{	
 			player.teleToLocation(x,y,z);
-			if (player.getPet() != null)
-			player.getPet().teleToLocation(x,y,z);
+			if (player.getSummon() != null)
+			player.getSummon().teleToLocation(x,y,z);
 			st.exitQuest(true);
 		} 
 		return "";

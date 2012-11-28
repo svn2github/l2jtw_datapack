@@ -617,9 +617,9 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	private static final void teleportPlayer(L2PcInstance player, int[] coords, int instanceId)
 	{
 		removeBuffs(player);
-		if (player.getPet() != null)
+		if (player.getSummon() != null)
 		{
-			removeBuffs(player.getPet());
+			removeBuffs(player.getSummon());
 		}
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(instanceId);

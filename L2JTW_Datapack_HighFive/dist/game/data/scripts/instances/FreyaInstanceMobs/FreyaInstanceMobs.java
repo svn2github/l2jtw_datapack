@@ -14,7 +14,7 @@
  */
 package instances.FreyaInstanceMobs;
 
-import ai.group_template.L2AttackableAIScript;
+import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.NpcTable;
@@ -34,7 +34,7 @@ import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage2;
 import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.util.Rnd;
 
-public class FreyaInstanceMobs extends L2AttackableAIScript
+public class FreyaInstanceMobs extends AbstractNpcAI
 {
 	private static final int freyaThrone = 29177;
 	private static final int freyaSpelling = 29178;
@@ -281,15 +281,15 @@ public class FreyaInstanceMobs extends L2AttackableAIScript
 		return null;
 	}
 	
-	public FreyaInstanceMobs(int questId, String name, String descr)
+	public FreyaInstanceMobs(String name, String descr)
 	{
-		super(questId, name, descr);
+		super(name, descr);
 		int[] mobs = {archer_breathe, archer_knight, freyaSpelling, freyaStand, freyaThrone, glacier, jinia, kegor};
 		this.registerMobs(mobs);
 	}
 	
 	public static void main(String[] args)
 	{
-		new FreyaInstanceMobs(-1, "FreyaInstanceMobs", "instances");
+		new FreyaInstanceMobs(FreyaInstanceMobs.class.getSimpleName(), "instances");
 	}
 }

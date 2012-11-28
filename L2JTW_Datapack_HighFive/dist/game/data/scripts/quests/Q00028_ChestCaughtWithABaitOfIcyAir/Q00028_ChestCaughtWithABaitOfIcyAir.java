@@ -14,6 +14,8 @@
  */
 package quests.Q00028_ChestCaughtWithABaitOfIcyAir;
 
+import quests.Q00051_OFullesSpecialBait.Q00051_OFullesSpecialBait;
+
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -22,12 +24,11 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  * Chest Caught With A Bait Of Icy Air (28)<br>
- * Original Jython script by Skeleton
+ * Original Jython script by Skeleton.
  * @author nonom
  */
-public class Q28_ChestCaughtWithABaitOfIcyAir extends Quest
+public class Q00028_ChestCaughtWithABaitOfIcyAir extends Quest
 {
-	private static final String qn = "28_ChestCaughtWithABaitOfIcyAir";
 	
 	// NPCs
 	private static final int OFULLE = 31572;
@@ -42,7 +43,7 @@ public class Q28_ChestCaughtWithABaitOfIcyAir extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -84,7 +85,7 @@ public class Q28_ChestCaughtWithABaitOfIcyAir extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -97,7 +98,7 @@ public class Q28_ChestCaughtWithABaitOfIcyAir extends Quest
 				htmltext = getAlreadyCompletedMsg(player);
 				break;
 			case State.CREATED:
-				final QuestState qs = player.getQuestState("51_OFullesSpecialBait");
+				final QuestState qs = player.getQuestState(Q00051_OFullesSpecialBait.class.getSimpleName());
 				if (npcId == OFULLE)
 				{
 					htmltext = "31572-02.htm";
@@ -138,7 +139,7 @@ public class Q28_ChestCaughtWithABaitOfIcyAir extends Quest
 		return htmltext;
 	}
 	
-	public Q28_ChestCaughtWithABaitOfIcyAir(int questId, String name, String descr)
+	public Q00028_ChestCaughtWithABaitOfIcyAir(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -148,6 +149,6 @@ public class Q28_ChestCaughtWithABaitOfIcyAir extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q28_ChestCaughtWithABaitOfIcyAir(28, qn, "Chest Caught With A Bait Of Icy Air");
+		new Q00028_ChestCaughtWithABaitOfIcyAir(28, Q00028_ChestCaughtWithABaitOfIcyAir.class.getSimpleName(), "Chest Caught With A Bait Of Icy Air");
 	}
 }

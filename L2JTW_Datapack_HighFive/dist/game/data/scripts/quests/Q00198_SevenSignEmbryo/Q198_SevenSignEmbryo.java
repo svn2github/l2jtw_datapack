@@ -95,9 +95,9 @@ public class Q198_SevenSignEmbryo extends Quest
 	{
 		ShilensevilOnSpawn = false;
 		removeBuffs(player);
-		if (player.getPet() != null)
+		if (player.getSummon() != null)
 		{
-			removeBuffs(player.getPet());
+			removeBuffs(player.getSummon());
 		}
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(teleto.instanceId);

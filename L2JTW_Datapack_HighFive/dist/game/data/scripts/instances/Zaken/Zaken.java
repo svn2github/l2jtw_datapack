@@ -21,7 +21,7 @@ import java.util.List;
 
 import javolution.util.FastList;
 import javolution.util.FastMap;
-import ai.group_template.L2AttackableAIScript;
+import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.gameserver.GeoEngine;
 import com.l2jserver.gameserver.datatables.SkillTable;
@@ -54,7 +54,7 @@ import com.l2jserver.util.Rnd;
 /**
  * @author Nyaran (based on org.inc? work)
  */
-public class Zaken extends L2AttackableAIScript 
+public class Zaken extends AbstractNpcAI 
 {
 	private class ZWorld extends InstanceWorld 
 	{
@@ -367,7 +367,7 @@ public class Zaken extends L2AttackableAIScript
 		if (world.instanceId == INSTANCEID_DAY83)
 			player.stopAllEffectsExceptThoseThatLastThroughDeath();
 		
-		L2Summon pet = player.getPet();
+		L2Summon pet = player.getSummon();
 		if (pet != null)
 		{
 			if (world.instanceId == INSTANCEID_DAY83)
@@ -867,7 +867,7 @@ public class Zaken extends L2AttackableAIScript
 			
 			if (zone.isInsideZone(npc))
 			{
-				L2Character target = isPet ? player.getPet() : player;
+				L2Character target = isPet ? player.getSummon() : player;
 				((L2Attackable) npc).addDamageHate(target, 1, 200);
 			}
 			if (player.getZ() > (npc.getZ() - 100) && player.getZ() < (npc.getZ() + 100))
@@ -953,7 +953,7 @@ public class Zaken extends L2AttackableAIScript
 					npc.doCast(SkillTable.getInstance().getInfo(4258, 1));
 				}
 			}
-			L2Character originalAttacker = isPet ? attacker.getPet() : attacker;
+			L2Character originalAttacker = isPet ? attacker.getSummon() : attacker;
 			int hate = (int) (((damage / npc.getMaxHp()) / 0.05) * 20000);
 			((L2Attackable) npc).addDamageHate(originalAttacker, 0, hate);
 			if (Rnd.get(10) < 1)
@@ -1114,9 +1114,9 @@ public class Zaken extends L2AttackableAIScript
 		return super.onExitZone(character, zone);
 	}
 	
-	public Zaken(int questId, String name, String descr)
+	public Zaken(String name, String descr)
 	{
-		super(questId, name, descr);
+		super(name, descr);
 		
 		addStartNpc(PATHFINDER);
 		addTalkId(PATHFINDER);
@@ -1136,6 +1136,6 @@ public class Zaken extends L2AttackableAIScript
 	public static void main(String[] args)
 	{
 		// now call the constructor (starts up the)
-		new Zaken(-1, qn, "instances");
+		new Zaken(Zaken.class.getSimpleName(), "instances");
 	}
 }
