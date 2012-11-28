@@ -14,7 +14,8 @@
  */
 package custom.KetraOrcSupport;
 
-import gnu.trove.map.hash.TIntObjectHashMap;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -28,8 +29,9 @@ import com.l2jserver.gameserver.network.serverpackets.WareHouseWithdrawalList;
 import com.l2jserver.gameserver.util.Util;
 
 /**
- * @authors Emperorc (python), Nyaran (java)
- * @notes Finished by Kerberos_20 (python) 10/23/07
+ * Ketra Orc Support AI.<br>
+ * Original Jython script by Emperorc and Kerberos_20.
+ * @authors Nyaran
  */
 public class KetraOrcSupport extends Quest
 {
@@ -49,7 +51,7 @@ public class KetraOrcSupport extends Quest
 
 	private static final int HORN = 7186;
 
-	private static final TIntObjectHashMap<BuffsData> BUFF = new TIntObjectHashMap<>();
+	private static final Map<Integer, BuffsData> BUFF = new HashMap<>();
 
 	private class BuffsData
 	{

@@ -14,6 +14,8 @@
  */
 package quests.Q00016_TheComingDarkness;
 
+import quests.Q00017_LightAndDarkness.Q00017_LightAndDarkness;
+
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -21,14 +23,13 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * The Coming Darkness (16).<br>
+ * The Coming Darkness (16)<br>
  * Original jython script by disKret.<br>
  * TODO: Zoey76: This quest is still not retail like, Altars AI is incomplete.
  * @author nonom
  */
-public class Q16_TheComingDarkness extends Quest
+public class Q00016_TheComingDarkness extends Quest
 {
-	private static final String qn = "16_TheComingDarkness";
 	
 	// NPCs
 	private static final int HIERARCH = 31517;
@@ -45,7 +46,7 @@ public class Q16_TheComingDarkness extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -81,13 +82,13 @@ public class Q16_TheComingDarkness extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
 		}
 		
-		final QuestState st2 = player.getQuestState("17_LightAndDarkness");
+		final QuestState st2 = player.getQuestState(Q00017_LightAndDarkness.class.getSimpleName());
 		if ((st2 != null) && !st2.isCompleted())
 		{
 			return "31517-04.html";
@@ -131,7 +132,7 @@ public class Q16_TheComingDarkness extends Quest
 		return htmltext;
 	}
 	
-	public Q16_TheComingDarkness(int questId, String name, String descr)
+	public Q00016_TheComingDarkness(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -147,6 +148,6 @@ public class Q16_TheComingDarkness extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q16_TheComingDarkness(16, qn, "The Coming Darkness");
+		new Q00016_TheComingDarkness(16, Q00016_TheComingDarkness.class.getSimpleName(), "The Coming Darkness");
 	}
 }

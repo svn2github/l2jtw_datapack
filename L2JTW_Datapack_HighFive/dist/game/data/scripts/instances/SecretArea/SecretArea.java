@@ -14,7 +14,6 @@
  */
 package instances.SecretArea;
 
-import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
 import com.l2jserver.gameserver.model.Location;
@@ -52,15 +51,8 @@ public class SecretArea extends Quest
 	
 	private void teleportPlayer(L2PcInstance player, Location loc, int instanceId)
 	{
-		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(instanceId);
 		player.teleToLocation(loc, false);
-		if (player.getPet() != null)
-		{
-			player.getPet().getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-			player.getPet().setInstanceId(instanceId);
-			player.getPet().teleToLocation(loc, false);
-		}
 	}
 	
 	protected void enterInstance(L2PcInstance player)

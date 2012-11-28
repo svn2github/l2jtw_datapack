@@ -21,10 +21,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import javolution.util.FastList;
-import ai.group_template.L2AttackableAIScript;
+import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GeoData;
@@ -49,25 +48,34 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.util.Util;
 
 /**
- * Baium AI Note1: if the server gets rebooted while players are still fighting Baium, there is no lock, but players also lose their ability to wake baium up. However, should another person enter the room and wake him up, the players who had stayed inside may join the raid. This can be helpful for
- * players who became victims of a reboot (they only need 1 new player to enter and wake up baium) and is not too exploitable since any player wishing to exploit it would have to suffer 5 days of being parked in an empty room. Note2: Neither version of Baium should be a permanent spawn. This script
- * is fully capable of spawning the statue-version when the lock expires and switching it to the mob version promptly. Additional notes ( source http://aleenaresron.blogspot.com/2006_08_01_archive.html ): * Baium only first respawns five days after his last death. And from those five days he will
- * respawn within 1-8 hours of his last death. So, you have to know his last time of death. * If by some freak chance you are the only one in Baium's chamber and NO ONE comes in [ha, ha] you or someone else will have to wake Baium. There is a good chance that Baium will automatically kill whoever
- * wakes him. There are some people that have been able to wake him and not die, however if you've already gone through the trouble of getting the bloody fabric and camped him out and researched his spawn time, are you willing to take that chance that you'll wake him and not be able to finish your
- * quest? Doubtful. [ this powerful attack vs the player who wakes him up is NOT yet implemented here] * once someone starts attacking Baium no one else can port into the chamber where he is. Unlike with the other raid bosses, you can just show up at any time as long as you are there when they die.
- * Not true with Baium. Once he gets attacked, the port to Baium closes. byebye, see you in 5 days. If nobody attacks baium for 30 minutes, he auto-despawns and unlocks the vortex
+ * Baium's AI.<br>
+ * Note1: if the server gets rebooted while players are still fighting Baium, there is no lock, but players also lose their ability to wake Baium up.<br>
+ * However, should another person enter the room and wake him up, the players who had stayed inside may join the raid.<br>
+ * This can be helpful for players who became victims of a reboot (they only need 1 new player to enter and wake up Baium) and is not too exploitable since any player wishing to exploit it would have to suffer 5 days of being parked in an empty room.<br>
+ * Note2: Neither version of Baium should be a permanent spawn.<br>
+ * This script is fully capable of spawning the statue-version when the lock expires and switching it to the mob version promptly.<br>
+ * Additional notes ( source http://aleenaresron.blogspot.com/2006_08_01_archive.html ):
+ * <ul>
+ * <li>Baium only first respawns five days after his last death. And from those five days he will respawn within 1-8 hours of his last death. So, you have to know his last time of death.</li>
+ * <li>If by some freak chance you are the only one in Baium's chamber and NO ONE comes in [ha, ha] you or someone else will have to wake Baium.<br>
+ * There is a good chance that Baium will automatically kill whoever wakes him.<br>
+ * There are some people that have been able to wake him and not die, however if you've already gone through the trouble of getting the bloody fabric and camped him out and researched his spawn time,<br>
+ * are you willing to take that chance that you'll wake him and not be able to finish your quest? Doubtful. [ this powerful attack vs the player who wakes him up is NOT yet implemented here]</li>
+ * <li>Once someone starts attacking Baium no one else can port into the chamber where he is. Unlike with the other raid bosses, you can just show up at any time as long as you are there when they die.<br>
+ * Not true with Baium. Once he gets attacked, the port to Baium closes. byebye, see you in 5 days. If nobody attacks Baium for 30 minutes, he auto-despawns and unlocks the vortex.</li>
  * @author Fulminus version 0.1
  */
-public class Baium extends L2AttackableAIScript
+public class Baium extends AbstractNpcAI
 {
-	protected static final Logger log = Logger.getLogger(Baium.class.getName());
-	
-	private L2Character _target;
-	private L2Skill _skill;
+	// NPCs
 	private static final int STONE_BAIUM = 29025;
 	private static final int ANGELIC_VORTEX = 31862;
 	private static final int LIVE_BAIUM = 29020;
 	private static final int ARCHANGEL = 29021;
+	private static final int TELEPORT_CUBIC = 31842;
+	
+	// Item
+	private static final int BLOODED_FABRIC = 4295;
 	
 	// Baium status tracking
 	private static final byte ASLEEP = 0; // baium is in the stone version, waiting to be woken up. Entry is unlocked
@@ -88,19 +96,17 @@ public class Baium extends L2AttackableAIScript
 	protected final List<L2Npc> _Minions = new ArrayList<>(5);
 	private L2BossZone _Zone;
 	
-	public Baium(int questId, String name, String descr)
+	private L2Character _target;
+	private L2Skill _skill;
+	
+	private Baium(String name, String descr)
 	{
-		super(questId, name, descr);
-		
-		int[] mob =
-		{
-			LIVE_BAIUM
-		};
-		registerMobs(mob);
+		super(name, descr);
+		registerMobs(LIVE_BAIUM);
 		
 		// Quest NPC starter initialization
-		addStartNpc(STONE_BAIUM, ANGELIC_VORTEX);
-		addTalkId(STONE_BAIUM, ANGELIC_VORTEX);
+		addStartNpc(STONE_BAIUM, ANGELIC_VORTEX, TELEPORT_CUBIC);
+		addTalkId(STONE_BAIUM, ANGELIC_VORTEX, TELEPORT_CUBIC);
 		
 		_Zone = GrandBossManager.getInstance().getZone(113100, 14500, 10077);
 		StatsSet info = GrandBossManager.getInstance().getStatsSet(LIVE_BAIUM);
@@ -205,7 +211,7 @@ public class Baium extends L2AttackableAIScript
 						}
 						catch (Exception e)
 						{
-							log.log(Level.WARNING, "", e);
+							_log.log(Level.WARNING, "", e);
 						}
 					}
 				}, 11100L);
@@ -317,7 +323,7 @@ public class Baium extends L2AttackableAIScript
 						}
 						catch (Throwable e)
 						{
-							log.log(Level.WARNING, "", e);
+							_log.log(Level.WARNING, "", e);
 						}
 					}
 				}, 100L);
@@ -335,9 +341,9 @@ public class Baium extends L2AttackableAIScript
 				return "<html><body>Angelic Vortex:<br>You may not enter while flying a wyvern</body></html>";
 			}
 			
-			if ((GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == ASLEEP) && player.getQuestState("baium").hasQuestItems(4295)) // bloody fabric
+			if ((GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == ASLEEP) && hasQuestItems(player, BLOODED_FABRIC))
 			{
-				player.getQuestState("baium").takeItems(4295, 1);
+				takeItems(player, BLOODED_FABRIC, 1);
 				// allow entry for the player for the next 30 secs (more than enough time for the TP to happen)
 				// Note: this just means 30secs to get in, no limits on how long it takes before we get out.
 				_Zone.allowPlayerEntry(player, 30);
@@ -347,6 +353,34 @@ public class Baium extends L2AttackableAIScript
 			{
 				npc.showChatWindow(player, 1);
 			}
+		}
+		else if (npc.getNpcId() == TELEPORT_CUBIC)
+		{
+			int chance = getRandom(3);
+			int x, y, z;
+			
+			switch (chance)
+			{
+				case 0:
+					x = 108784 + getRandom(100);
+					y = 16000 + getRandom(100);
+					z = -4928;
+					break;
+				
+				case 1:
+					x = 113824 + getRandom(100);
+					y = 10448 + getRandom(100);
+					z = -5164;
+					break;
+				
+				default:
+					x = 115488 + getRandom(100);
+					y = 22096 + getRandom(100);
+					z = -5168;
+					break;
+			}
+			
+			player.teleToLocation(x, y, z);
 		}
 		return htmltext;
 	}
@@ -425,9 +459,7 @@ public class Baium extends L2AttackableAIScript
 			}
 			// update a variable with the last action against baium
 			_LastAttackVsBaiumTime = System.currentTimeMillis();
-			/* l2jtw remove
 			callSkillAI(npc);
-			 */
 		}
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
@@ -438,7 +470,7 @@ public class Baium extends L2AttackableAIScript
 		cancelQuestTimer("baium_despawn", npc, null);
 		npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 		// spawn the "Teleportation Cubic" for 15 minutes (to allow players to exit the lair)
-		addSpawn(29055, 115203, 16620, 10078, 0, false, 900000); // //should we teleport everyone out if the cubic despawns??
+		addSpawn(TELEPORT_CUBIC, 115017, 15549, 10090, 0, false, 900000);
 		// Respawn time is 168 Hours - 48 Random Hours
 		long respawnTime = (long) Config.Interval_Of_Baium_Spawn - getRandom(Config.Random_Of_Baium_Spawn);
 		GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, DEAD);
@@ -456,7 +488,7 @@ public class Baium extends L2AttackableAIScript
 			}
 		}
 		_Minions.clear();
-		final QuestTimer timer =  getQuestTimer("skill_range", npc, null);
+		final QuestTimer timer = getQuestTimer("skill_range", npc, null);
 		if (timer != null)
 		{
 			timer.cancelAndRemove();
@@ -471,7 +503,7 @@ public class Baium extends L2AttackableAIScript
 		{
 			for (L2Object obj : objs)
 			{
-				if (obj.isPlayable() || obj instanceof L2DecoyInstance)
+				if (obj.isPlayable() || (obj instanceof L2DecoyInstance))
 				{
 					if (obj.isPlayer())
 					{
@@ -486,7 +518,7 @@ public class Baium extends L2AttackableAIScript
 						continue;
 					}
 				}
-				if (obj.isPlayable() || obj instanceof L2DecoyInstance)
+				if (obj.isPlayable() || (obj instanceof L2DecoyInstance))
 				{
 					if (Util.checkIfInRange(9000, npc, obj, true) && !((L2Character) obj).isDead())
 					{
@@ -582,9 +614,7 @@ public class Baium extends L2AttackableAIScript
 			}
 			try
 			{
-				/* l2jtw remove
 				Thread.sleep(1000);
-				 */
 				npc.stopMove(null);
 				npc.doCast(skill);
 			}
@@ -714,7 +744,6 @@ public class Baium extends L2AttackableAIScript
 	
 	public static void main(String[] args)
 	{
-		// Quest class and state definition
-		new Baium(-1, "baium", "ai");
+		new Baium(Baium.class.getSimpleName(), "ai");
 	}
 }

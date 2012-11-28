@@ -14,7 +14,9 @@
  */
 package conquerablehalls.FortressOfTheDead;
 
-import gnu.trove.map.hash.TIntIntHashMap;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import com.l2jserver.gameserver.GameTimeController;
 import com.l2jserver.gameserver.ThreadPoolManager;
@@ -23,6 +25,7 @@ import com.l2jserver.gameserver.model.L2Clan;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.clanhall.ClanHallSiegeEngine;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 
 /**
@@ -37,7 +40,7 @@ public final class FortressOfTheDead extends ClanHallSiegeEngine
 	private static final int ALFRED = 35630;
 	private static final int GISELLE = 35631;
 	
-	private static TIntIntHashMap _damageToLidia = new TIntIntHashMap();
+	private static Map<Integer, Integer> _damageToLidia = new HashMap<>();
 	
 	/**
 	 * @param questId
@@ -63,11 +66,11 @@ public final class FortressOfTheDead extends ClanHallSiegeEngine
 	public String onSpawn(L2Npc npc)
 	{
 		if(npc.getNpcId() == LIDIA)
-			broadcastNpcSay(npc, Say2.SHOUT, 1010624);
+			broadcastNpcSay(npc, Say2.NPC_SHOUT, NpcStringId.HMM_THOSE_WHO_ARE_NOT_OF_THE_BLOODLINE_ARE_COMING_THIS_WAY_TO_TAKE_OVER_THE_CASTLE_HUMPH_THE_BITTER_GRUDGES_OF_THE_DEAD_YOU_MUST_NOT_MAKE_LIGHT_OF_THEIR_POWER);
 		else if(npc.getNpcId() == ALFRED)
-			broadcastNpcSay(npc, Say2.SHOUT, 1010636);
+			broadcastNpcSay(npc, Say2.NPC_SHOUT, NpcStringId.HEH_HEH_I_SEE_THAT_THE_FEAST_HAS_BEGUN_BE_WARY_THE_CURSE_OF_THE_HELLMANN_FAMILY_HAS_POISONED_THIS_LAND);
 		else if(npc.getNpcId() == GISELLE)
-			broadcastNpcSay(npc, Say2.SHOUT, 1010637);
+			broadcastNpcSay(npc, Say2.NPC_SHOUT, NpcStringId.ARISE_MY_FAITHFUL_SERVANTS_YOU_MY_PEOPLE_WHO_HAVE_INHERITED_THE_BLOOD_IT_IS_THE_CALLING_OF_MY_DAUGHTER_THE_FEAST_OF_BLOOD_WILL_NOW_BEGIN);
 		return null;
 	}
 	
@@ -105,10 +108,10 @@ public final class FortressOfTheDead extends ClanHallSiegeEngine
 		final int npcId = npc.getNpcId();
 		
 		if(npcId == ALFRED || npcId == GISELLE)
-			broadcastNpcSay(npc, Say2.SHOUT, 1010625);
+			broadcastNpcSay(npc, Say2.NPC_SHOUT, NpcStringId.AARGH_IF_I_DIE_THEN_THE_MAGIC_FORCE_FIELD_OF_BLOOD_WILL);
 		if(npcId == LIDIA)
 		{
-			broadcastNpcSay(npc, Say2.SHOUT, 1010639);
+			broadcastNpcSay(npc, Say2.NPC_SHOUT, NpcStringId.GRARR_FOR_THE_NEXT_2_MINUTES_OR_SO_THE_GAME_ARENA_ARE_WILL_BE_CLEANED_THROW_ANY_ITEMS_YOU_DONT_NEED_TO_THE_FLOOR_NOW);
 			_missionAccomplished = true;
 			synchronized(this)
 			{
@@ -125,13 +128,13 @@ public final class FortressOfTheDead extends ClanHallSiegeEngine
 	{
 		int counter = 0;
 		int damagest = 0;
-		for(int clan : _damageToLidia.keys())
+		for(Entry<Integer, Integer> e : _damageToLidia.entrySet())
 		{
-			final int damage = _damageToLidia.get(clan);
+			final int damage = e.getValue();
 			if(damage > counter)
 			{
 				counter = damage;
-				damagest = clan;
+				damagest = e.getKey();
 			}
 		}
 		return ClanTable.getInstance().getClan(damagest);
@@ -140,9 +143,7 @@ public final class FortressOfTheDead extends ClanHallSiegeEngine
 	@Override
 	public void startSiege()
 	{
-		/*
-		 * Siege must start at night
-		 */
+		// Siege must start at night
 		int hoursLeft = (GameTimeController.getInstance().getGameTime() / 60) % 24;
 		
 		if(hoursLeft < 0 || hoursLeft > 6)

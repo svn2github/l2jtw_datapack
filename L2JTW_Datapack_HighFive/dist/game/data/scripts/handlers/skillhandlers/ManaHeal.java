@@ -16,6 +16,7 @@ package handlers.skillhandlers;
 
 import com.l2jserver.gameserver.handler.ISkillHandler;
 import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.skills.L2Skill;
@@ -98,16 +99,18 @@ public class ManaHeal implements ISkillHandler
 			target.sendPacket(sump);
 			
 			SystemMessage sm;
-			if (activeChar.isPlayer() && activeChar != target)
+			// if skill power is "0 or less" don't show heal system message.
+			if (skill.getPower() > 0)
 			{
-				sm = SystemMessage.getSystemMessage(SystemMessageId.S2_MP_RESTORED_BY_C1);
-				sm.addString(activeChar.getName());
-				sm.addNumber((int) mp);
-				target.sendPacket(sm);
-			}
-			else
-			{
-				sm = SystemMessage.getSystemMessage(SystemMessageId.S1_MP_RESTORED);
+				if (activeChar.isPlayer() && activeChar != target)
+				{
+					sm = SystemMessage.getSystemMessage(SystemMessageId.S2_MP_RESTORED_BY_C1);
+					sm.addCharName(activeChar);
+				}
+				else
+				{
+					sm = SystemMessage.getSystemMessage(SystemMessageId.S1_MP_RESTORED);
+				}
 				sm.addNumber((int) mp);
 				target.sendPacket(sm);
 			}
@@ -134,7 +137,7 @@ public class ManaHeal implements ISkillHandler
 			skill.getEffectsSelf(activeChar);
 		}
 		
-		activeChar.spsUncharge(skill);
+		activeChar.setChargedShot(activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS) ? ShotType.BLESSED_SPIRITSHOTS : ShotType.SPIRITSHOTS, false);
 	}
 	
 	@Override

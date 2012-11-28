@@ -20,6 +20,7 @@ import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.ISkillHandler;
 import com.l2jserver.gameserver.instancemanager.DuelManager;
 import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2ClanHallManagerInstance;
@@ -71,9 +72,9 @@ public class Continuous implements ISkillHandler
 				skill = sk;
 		}
 		
-		boolean ss = activeChar.isSoulshotCharged(skill);
-		boolean sps = activeChar.isSpiritshotCharged(skill);
-		boolean bss = activeChar.isBlessedSpiritshotCharged(skill);
+		boolean ss = skill.isPhysical() && activeChar.isChargedShot(ShotType.SOULSHOTS);
+		boolean sps = skill.isMagic() && activeChar.isChargedShot(ShotType.SPIRITSHOTS);
+		boolean bss = skill.isMagic() && activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS);
 		
 		for (L2Character target: (L2Character[]) targets)
 		{
@@ -152,11 +153,11 @@ public class Continuous implements ISkillHandler
 				else
 				{
 					L2Effect[] effects = skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss));
-					L2Summon summon = target.getPet();
+					L2Summon summon = target.getSummon();
 					if (summon != null && summon != activeChar && summon.isServitor() && effects.length > 0)
 					{
 						if (effects[0].canBeStolen() || skill.isHeroSkill() || skill.isStatic())
-							skill.getEffects(activeChar, target.getPet(), new Env(shld, ss, sps, bss));
+							skill.getEffects(activeChar, target.getSummon(), new Env(shld, ss, sps, bss));
 					}
 				}
 				
@@ -194,7 +195,7 @@ public class Continuous implements ISkillHandler
 			skill.getEffectsSelf(activeChar);
 		}
 		
-		activeChar.spsUncharge(skill);
+		activeChar.setChargedShot(bss ? ShotType.BLESSED_SPIRITSHOTS : ShotType.SPIRITSHOTS, false);
 	}
 	
 	@Override

@@ -21,7 +21,7 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 
 /**
- * Retail Event : 'Heavy Medals'
+ * Heavy Medals event AI.
  * @author Gnacik
  */
 public class HeavyMedal extends Quest
@@ -183,7 +183,7 @@ public class HeavyMedal extends Quest
 						st.takeItems(BADGES[level - 1], -1);
 					}
 					st.giveItems(BADGES[level], 1);
-					st.playSound("Itemsound.quest_itemget");
+					st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 					level++;
 				}
 				htmltext = "31229-" + event.toLowerCase() + "-" + String.valueOf(level) + ".htm";

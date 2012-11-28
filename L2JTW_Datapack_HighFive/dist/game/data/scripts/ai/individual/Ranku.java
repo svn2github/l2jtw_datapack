@@ -14,8 +14,10 @@
  */
 package ai.individual;
 
-import gnu.trove.set.hash.TIntHashSet;
-import ai.group_template.L2AttackableAIScript;
+import java.util.Set;
+
+import javolution.util.FastSet;
+import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2MonsterInstance;
@@ -27,15 +29,23 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.util.MinionList;
 
 /**
+ * Ranku's AI.
  * @author GKR
  */
-public class Ranku extends L2AttackableAIScript
+public class Ranku extends AbstractNpcAI
 {
 	private static final int RANKU = 25542;
 	private static final int MINION = 32305;
 	private static final int MINION_2 = 25543;
 	
-	private static TIntHashSet myTrackingSet = new TIntHashSet();
+	private static final Set<Integer> MY_TRACKING_SET = new FastSet<Integer>().shared();
+	
+	private Ranku(String name, String descr)
+	{
+		super(name, descr);
+		addAttackId(RANKU);
+		addKillId(RANKU, MINION);
+	}
 	
 	@Override
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
@@ -44,7 +54,7 @@ public class Ranku extends L2AttackableAIScript
 		{
 			for (L2MonsterInstance minion : ((L2MonsterInstance) npc).getMinionList().getSpawnedMinions())
 			{
-				if ((minion != null) && !minion.isDead() && myTrackingSet.contains(minion.getObjectId()))
+				if ((minion != null) && !minion.isDead() && MY_TRACKING_SET.contains(minion.getObjectId()))
 				{
 					L2PcInstance[] players = minion.getKnownList().getKnownPlayers().values().toArray(new L2PcInstance[minion.getKnownList().getKnownPlayers().size()]);
 					L2PcInstance killer = players[getRandom(players.length)];
@@ -63,14 +73,11 @@ public class Ranku extends L2AttackableAIScript
 		{
 			for (L2MonsterInstance minion : ((L2MonsterInstance) npc).getMinionList().getSpawnedMinions())
 			{
-				if ((minion != null) && !minion.isDead() && !myTrackingSet.contains(minion.getObjectId()))
+				if ((minion != null) && !minion.isDead() && !MY_TRACKING_SET.contains(minion.getObjectId()))
 				{
-					minion.broadcastPacket(new NpcSay(minion.getObjectId(), Say2.ALL, minion.getNpcId(), NpcStringId.DONT_KILL_ME_PLEASE_SOMETHINGS_STRANGLING_ME));
+					minion.broadcastPacket(new NpcSay(minion.getObjectId(), Say2.NPC_ALL, minion.getNpcId(), NpcStringId.DONT_KILL_ME_PLEASE_SOMETHINGS_STRANGLING_ME));
 					startQuestTimer("checkup", 1000, npc, null);
-					synchronized (myTrackingSet)
-					{
-						myTrackingSet.add(minion.getObjectId());
-					}
+					MY_TRACKING_SET.add(minion.getObjectId());
 				}
 			}
 		}
@@ -82,12 +89,9 @@ public class Ranku extends L2AttackableAIScript
 	{
 		if (npc.getNpcId() == MINION)
 		{
-			if (myTrackingSet.contains(npc.getObjectId()))
+			if (MY_TRACKING_SET.contains(npc.getObjectId()))
 			{
-				synchronized (myTrackingSet)
-				{
-					myTrackingSet.remove(npc.getObjectId());
-				}
+				MY_TRACKING_SET.remove(npc.getObjectId());
 			}
 			
 			final L2MonsterInstance master = ((L2MonsterInstance) npc).getLeader();
@@ -101,29 +105,17 @@ public class Ranku extends L2AttackableAIScript
 		{
 			for (L2MonsterInstance minion : ((L2MonsterInstance) npc).getMinionList().getSpawnedMinions())
 			{
-				if (myTrackingSet.contains(minion.getObjectId()))
+				if (MY_TRACKING_SET.contains(minion.getObjectId()))
 				{
-					synchronized (myTrackingSet)
-					{
-						myTrackingSet.remove(minion.getObjectId());
-					}
+					MY_TRACKING_SET.remove(minion.getObjectId());
 				}
 			}
 		}
 		return super.onKill(npc, killer, isPet);
 	}
 	
-	public Ranku(int id, String name, String descr)
-	{
-		super(id, name, descr);
-		
-		addAttackId(RANKU);
-		addKillId(RANKU);
-		addKillId(MINION);
-	}
-	
 	public static void main(String[] args)
 	{
-		new Ranku(-1, "Ranku", "ai");
+		new Ranku(Ranku.class.getSimpleName(), "ai");
 	}
 }

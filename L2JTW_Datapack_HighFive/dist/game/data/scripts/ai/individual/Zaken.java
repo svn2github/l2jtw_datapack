@@ -14,9 +14,7 @@
  */
 package ai.individual;
 
-import java.util.logging.Logger;
-
-import ai.group_template.L2AttackableAIScript;
+import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GameTimeController;
@@ -40,10 +38,8 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 /**
  * Zaken AI
  */
-public class Zaken extends L2AttackableAIScript
+public class Zaken extends AbstractNpcAI
 {
-	protected static final Logger log = Logger.getLogger(Zaken.class.getName());
-	
 	private int _1001 = 0; // used for first cancel of QuestTimer "1001"
 	private int _ai0 = 0; // used for zaken coords updater
 	private int _ai1 = 0; // used for X coord tracking for non-random teleporting in zaken's self teleport skill
@@ -81,6 +77,7 @@ public class Zaken extends L2AttackableAIScript
 		53950,
 		53930
 	};
+	
 	private static final int[] Ycoords =
 	{
 		219860,
@@ -99,6 +96,7 @@ public class Zaken extends L2AttackableAIScript
 		219860,
 		217760
 	};
+	
 	private static final int[] Zcoords =
 	{
 		-3488,
@@ -124,9 +122,9 @@ public class Zaken extends L2AttackableAIScript
 	
 	private static L2BossZone _Zone;
 	
-	public Zaken(int questId, String name, String descr)
+	private Zaken(String name, String descr)
 	{
-		super(questId, name, descr);
+		super(name, descr);
 		
 		// Zaken doors handling
 		ThreadPoolManager.getInstance().scheduleGeneralAtFixedRate(new Runnable()
@@ -150,7 +148,7 @@ public class Zaken extends L2AttackableAIScript
 								}
 								catch (Throwable e)
 								{
-									log.warning("Cannot close door ID: 21240006 " + e);
+									_log.warning("Cannot close door ID: 21240006 " + e);
 								}
 							}
 						}, 300000L);
@@ -158,7 +156,7 @@ public class Zaken extends L2AttackableAIScript
 				}
 				catch (Throwable e)
 				{
-					log.warning("Cannot open door ID: 21240006 " + e);
+					_log.warning("Cannot open door ID: 21240006 " + e);
 				}
 			}
 		}, 2000L, 600000L);
@@ -171,6 +169,7 @@ public class Zaken extends L2AttackableAIScript
 			pirates_zombie_captain_b,
 			pirates_zombie_b
 		};
+		
 		registerMobs(mobs);
 		_Zone = GrandBossManager.getInstance().getZone(55312, 219168, -3223);
 		
@@ -212,7 +211,7 @@ public class Zaken extends L2AttackableAIScript
 	{
 		if (npc == null)
 		{
-			log.warning("Zaken AI failed to load, missing Zaken in grandboss_data.sql");
+			_log.warning("Zaken AI failed to load, missing Zaken in grandboss_data.sql");
 			return;
 		}
 		GrandBossManager.getInstance().addBoss(npc);
@@ -227,7 +226,7 @@ public class Zaken extends L2AttackableAIScript
 		_quest2 = 3;
 		if (_Zone == null)
 		{
-			log.warning("Zaken AI failed to load, missing zone for Zaken");
+			_log.warning("Zaken AI failed to load, missing zone for Zaken");
 			return;
 		}
 		if (_Zone.isInsideZone(npc))
@@ -803,7 +802,7 @@ public class Zaken extends L2AttackableAIScript
 					npc.doCast(SkillTable.getInstance().getInfo(4258, 1));
 				}
 			}
-			L2Character originalAttacker = isPet ? attacker.getPet() : attacker;
+			L2Character originalAttacker = isPet ? attacker.getSummon() : attacker;
 			int hate = (int) (((damage / npc.getMaxHp()) / 0.05) * 20000);
 			((L2Attackable) npc).addDamageHate(originalAttacker, 0, hate);
 			if (getRandom(10) < 1)
@@ -967,7 +966,7 @@ public class Zaken extends L2AttackableAIScript
 		{
 			if (_Zone.isInsideZone(npc))
 			{
-				L2Character target = isPet ? player.getPet() : player;
+				L2Character target = isPet ? player.getSummon() : player;
 				((L2Attackable) npc).addDamageHate(target, 1, 200);
 			}
 			if ((player.getZ() > (npc.getZ() - 100)) && (player.getZ() < (npc.getZ() + 100)))
@@ -1055,7 +1054,6 @@ public class Zaken extends L2AttackableAIScript
 	
 	public static void main(String[] args)
 	{
-		// now call the constructor (starts up the ai)
-		new Zaken(-1, "zaken", "ai");
+		new Zaken(Zaken.class.getSimpleName(), "ai");
 	}
 }

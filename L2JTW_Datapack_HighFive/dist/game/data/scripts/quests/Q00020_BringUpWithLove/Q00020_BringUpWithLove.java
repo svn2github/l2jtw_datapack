@@ -21,12 +21,12 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * 2010-09-29 Based on official server Franz
+ * Bring Up With Love (20)
  * @author Gnacik
+ * @version 2010-09-29 Based on official server Franz
  */
-public class Q20_BringUpWithLove extends Quest
+public class Q00020_BringUpWithLove extends Quest
 {
-	private static final String qn = "20_BringUpWithLove";
 	
 	// Npc
 	private static final int _tunatun = 31537;
@@ -39,7 +39,7 @@ public class Q20_BringUpWithLove extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		
 		if (st == null)
 		{
@@ -88,8 +88,8 @@ public class Q20_BringUpWithLove extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		QuestState st = player.getQuestState(qn);
+		String htmltext = getNoQuestMsg(player);
+		QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -127,7 +127,7 @@ public class Q20_BringUpWithLove extends Quest
 	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		QuestState st = player.getQuestState(qn);
+		QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			newQuestState(player);
@@ -135,7 +135,7 @@ public class Q20_BringUpWithLove extends Quest
 		return "31537-20.html";
 	}
 	
-	public Q20_BringUpWithLove(int questId, String name, String descr)
+	public Q00020_BringUpWithLove(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -146,6 +146,6 @@ public class Q20_BringUpWithLove extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q20_BringUpWithLove(20, qn, "請以愛心養育");
+		new Q00020_BringUpWithLove(20, Q00020_BringUpWithLove.class.getSimpleName(), "Bring Up With Love");
 	}
 }

@@ -22,6 +22,7 @@ import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.ISkillHandler;
 import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.skills.L2Skill;
@@ -48,6 +49,14 @@ public class Pdam implements ISkillHandler
 		if (activeChar.isAlikeDead())
 			return;
 		
+		if ((skill.getFlyRadius() > 0 || skill.getFlyType() != null) && activeChar.isMovementDisabled())
+		{
+			SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
+			sm.addSkillName(skill);
+			activeChar.sendPacket(sm);
+			return;
+		}
+		
 		int damage = 0;
 		
 		if (Config.DEBUG)
@@ -55,7 +64,7 @@ public class Pdam implements ISkillHandler
 			_log.fine("Begin Skill processing in Pdam.java " + skill.getSkillType());
 		}
 		
-		boolean soul = activeChar.isSoulshotCharged(skill);
+		boolean ss = skill.isPhysical() && activeChar.isChargedShot(ShotType.SOULSHOTS);
 		
 		for (L2Character target: (L2Character[]) targets)
 		{
@@ -78,7 +87,7 @@ public class Pdam implements ISkillHandler
 			if (!crit && (skill.getCondition() & L2Skill.COND_CRIT) != 0)
 				damage = 0;
 			else
-				damage = skill.isStaticDamage() ? (int)skill.getPower() : (int) Formulas.calcPhysDam(activeChar, target, skill, shld, false, dual, soul);
+				damage = skill.isStaticDamage() ? (int)skill.getPower() : (int) Formulas.calcPhysDam(activeChar, target, skill, shld, false, dual, ss);
 			if (!skill.isStaticDamage() && skill.getMaxSoulConsumeCount() > 0 && activeChar.isPlayer())
 			{
 				switch (activeChar.getActingPlayer().getSouls())
@@ -241,7 +250,7 @@ public class Pdam implements ISkillHandler
 			skill.getEffectsSelf(activeChar);
 		}
 		
-		activeChar.ssUncharge(skill);
+		activeChar.setChargedShot(ShotType.SOULSHOTS, false);
 		
 		if (skill.isSuicideAttack())
 			activeChar.doDie(activeChar);

@@ -227,7 +227,7 @@ public class ChamberOfDelusionEast extends Quest
 	{
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
-		L2Summon pet = player.getPet();
+		L2Summon pet = player.getSummon();
 		if (pet != null)
 		{
 			pet.setInstanceId(0);

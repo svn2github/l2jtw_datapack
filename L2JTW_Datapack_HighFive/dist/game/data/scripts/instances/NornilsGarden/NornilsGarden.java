@@ -14,11 +14,14 @@
  */
 package instances.NornilsGarden;
 
+import quests.Q00179_IntoTheLargeCavern.Q00179_IntoTheLargeCavern;
+
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
 import com.l2jserver.gameserver.model.L2Party;
+import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
@@ -271,10 +274,10 @@ public class NornilsGarden extends Quest
 		}
 		removeBuffs(player);
 		giveBuffs(player);
-		if (player.getPet() != null)
+		if (player.hasSummon())
 		{
-			removeBuffs(player.getPet());
-			giveBuffs(player.getPet());
+			removeBuffs(player.getSummon());
+			giveBuffs(player.getSummon());
 		}
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(instanceId);
@@ -331,13 +334,7 @@ public class NornilsGarden extends Quest
 		final Instance inst = InstanceManager.getInstance().getInstance(instanceId);
 		
 		inst.setName(InstanceManager.getInstance().getInstanceIdName(INSTANCE_ID));
-		final int[] returnLoc =
-		{
-			player.getX(),
-			player.getY(),
-			player.getZ()
-		};
-		inst.setSpawnLoc(returnLoc);
+		inst.setSpawnLoc(new Location(player));
 		inst.setAllowSummon(false);
 		inst.setDuration(DURATION_TIME * 60000);
 		inst.setEmptyDestroyTime(EMPTY_DESTROY_TIME * 60000);
@@ -511,7 +508,7 @@ public class NornilsGarden extends Quest
 			}
 			if (partyMember.getRace().ordinal() == 5)
 			{
-				QuestState checkst = partyMember.getQuestState("179_IntoTheLargeCavern");
+				QuestState checkst = partyMember.getQuestState(Q00179_IntoTheLargeCavern.class.getSimpleName());
 				if ((checkst != null) && (checkst.getState() == State.STARTED))
 				{
 					_kamael = true;
@@ -636,7 +633,7 @@ public class NornilsGarden extends Quest
 	{
 		if (Util.contains(_final_gates, npc.getNpcId()))
 		{
-			QuestState cst = player.getQuestState("179_IntoTheLargeCavern");
+			QuestState cst = player.getQuestState(Q00179_IntoTheLargeCavern.class.getSimpleName());
 			if ((cst != null) && (cst.getState() == State.STARTED))
 			{
 				return npc.getNpcId() + "-01.html";

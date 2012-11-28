@@ -22,8 +22,7 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Event Code for "The Valentine Event"<br>
- * http://www.lineage2.com/archive/2009/01/the_valentine_e.html
+ * The Valentine Event event AI.
  * @author Gnacik
  */
 public class TheValentineEvent extends Quest
@@ -107,7 +106,7 @@ public class TheValentineEvent extends Quest
 			else
 			{
 				st.giveItems(_recipe, 1);
-				st.playSound("Itemsound.quest_itemget");
+				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				st.setState(State.COMPLETED);
 			}
 		}

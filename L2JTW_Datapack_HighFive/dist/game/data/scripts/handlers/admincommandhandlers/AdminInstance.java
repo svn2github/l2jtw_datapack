@@ -106,7 +106,7 @@ public class AdminInstance implements IAdminCommandHandler
 					L2PcInstance player = (L2PcInstance) target;
 					player.sendMessage(MessageTable.Messages[1696].getMessage() + val);
 					player.teleToLocation(player.getX(), player.getY(), player.getZ());
-					L2Summon pet = player.getPet();
+					L2Summon pet = player.getSummon();
 					if (pet != null)
 					{
 						pet.setInstanceId(val);

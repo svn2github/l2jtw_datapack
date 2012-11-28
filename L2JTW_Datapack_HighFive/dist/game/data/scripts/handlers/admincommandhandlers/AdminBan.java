@@ -110,7 +110,7 @@ public class AdminBan implements IAdminCommandHandler
 		{
 			// May need to check usage in admin_ban_menu as well.
 			
-			if (targetPlayer == null && player.equals(""))
+			if (targetPlayer == null && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //ban_acc <account_name> (if none, target char's account gets banned)");
 				return false;
@@ -130,7 +130,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_ban_char"))
 		{
-			if (targetPlayer == null && player.equals(""))
+			if (targetPlayer == null && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //ban_char <char_name> (if none, target char is banned)");
 				return false;
@@ -140,7 +140,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_ban_chat"))
 		{
-			if (targetPlayer == null && player.equals(""))
+			if (targetPlayer == null && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //ban_chat <char_name> [penalty_minutes]");
 				return false;
@@ -168,7 +168,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_unban_chat"))
 		{
-			if (targetPlayer == null && player.equals(""))
+			if (targetPlayer == null && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //unban_chat <char_name>");
 				return false;
@@ -206,7 +206,7 @@ public class AdminBan implements IAdminCommandHandler
 				activeChar.sendMessage(targetPlayer.getName()+MessageTable.Messages[1437].getMessage());
 				return false;
 			}
-			else if (!player.equals(""))
+			else if (!player.isEmpty())
 			{
 				LoginServerThread.getInstance().sendAccessLevel(player, 0);
 				activeChar.sendMessage(MessageTable.Messages[1438].getMessage()+player);
@@ -220,7 +220,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_unban_char"))
 		{
-			if (targetPlayer == null && player.equals(""))
+			if (targetPlayer == null && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //unban_char <char_name>");
 				return false;
@@ -238,7 +238,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_jail"))
 		{
-			if (targetPlayer == null && player.equals(""))
+			if (targetPlayer == null && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //jail <charname> [penalty_minutes] (if no name is given, selected target is jailed indefinitely)");
 				return false;
@@ -259,7 +259,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_unjail"))
 		{
-			if (targetPlayer == null && player.equals(""))
+			if (targetPlayer == null && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //unjail <charname> (If no name is given target is used)");
 				return false;
@@ -286,7 +286,7 @@ public class AdminBan implements IAdminCommandHandler
 		
 		String[] command = fullCommand.split(" ");
 		
-		GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", command[0], (target.equals("") ? "no-target" : target), (command.length > 2 ? command[2] : ""));
+		GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", command[0], (target.isEmpty() ? "no-target" : target), (command.length > 2 ? command[2] : ""));
 	}
 	
 	private void banChatOfflinePlayer(L2PcInstance activeChar, String name, int delay, boolean ban)

@@ -14,7 +14,9 @@
  */
 package conquerablehalls.DevastatedCastle;
 
-import gnu.trove.map.hash.TIntIntHashMap;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.ClanTable;
@@ -24,6 +26,7 @@ import com.l2jserver.gameserver.model.L2Clan;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.clanhall.ClanHallSiegeEngine;
+import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 
 /**
@@ -39,7 +42,7 @@ public final class DevastatedCastle extends ClanHallSiegeEngine
 	private static final int DIETRICH = 35408;
 	private static final double GUSTAV_TRIGGER_HP = NpcTable.getInstance().getTemplate(GUSTAV).getBaseHpMax() / 12;
 	
-	private static TIntIntHashMap _damageToGustav = new TIntIntHashMap();
+	private static Map<Integer, Integer> _damageToGustav = new HashMap<>();
 
 	public DevastatedCastle(int questId, String name, String descr, int hallId)
 	{
@@ -56,9 +59,9 @@ public final class DevastatedCastle extends ClanHallSiegeEngine
 	public String onSpawn(L2Npc npc)
 	{
 		if(npc.getNpcId() == MIKHAIL)
-			broadcastNpcSay(npc, Say2.SHOUT, 1000276);
+			broadcastNpcSay(npc, Say2.NPC_SHOUT, NpcStringId.GLORY_TO_ADEN_THE_KINGDOM_OF_THE_LION_GLORY_TO_SIR_GUSTAV_OUR_IMMORTAL_LORD);
 		else if(npc.getNpcId() == DIETRICH)
-			broadcastNpcSay(npc, Say2.SHOUT, 1000277);
+			broadcastNpcSay(npc, Say2.NPC_SHOUT, NpcStringId.SOLDIERS_OF_GUSTAV_GO_FORTH_AND_DESTROY_THE_INVADERS);
 		return null;
 	}
 	
@@ -88,7 +91,7 @@ public final class DevastatedCastle extends ClanHallSiegeEngine
 			if(npc.getCurrentHp() < GUSTAV_TRIGGER_HP
 					&& npc.getAI().getIntention() != CtrlIntention.AI_INTENTION_CAST)
 			{
-				broadcastNpcSay(npc, Say2.ALL, 1000278);
+				broadcastNpcSay(npc, Say2.NPC_ALL, NpcStringId.THIS_IS_UNBELIEVABLE_HAVE_I_REALLY_BEEN_DEFEATED_I_SHALL_RETURN_AND_TAKE_YOUR_HEAD);
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_CAST, SkillTable.getInstance().getInfo(4235, 1), npc);
 			}
 		}
@@ -118,19 +121,18 @@ public final class DevastatedCastle extends ClanHallSiegeEngine
 	@Override
 	public L2Clan getWinner()
 	{
-		double counter = 0;
+		int counter = 0;
 		int damagest = 0;
-		for(int clan : _damageToGustav.keys())
+		for(Entry<Integer, Integer> e : _damageToGustav.entrySet())
 		{
-			final double damage = _damageToGustav.get(clan);
+			final int damage = e.getValue();
 			if(damage > counter)
 			{
 				counter = damage;
-				damagest = clan;
+				damagest = e.getKey();
 			}
 		}
-		L2Clan winner = ClanTable.getInstance().getClan(damagest);
-		return winner;
+		return ClanTable.getInstance().getClan(damagest);
 	}
 	
 	public static void main(String[] args)

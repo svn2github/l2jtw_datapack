@@ -25,12 +25,11 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 
 /**
- * DrChaos AI
+ * DrChaos' AI
  * @author Kerberos
  */
 public class DrChaos extends Quest
 {
-	
 	private static final int DOCTER_CHAOS = 32033;
 	private static final int STRANGE_MACHINE = 32032;
 	private static final int CHAOS_GOLEM = 25703;
@@ -48,7 +47,7 @@ public class DrChaos extends Quest
 	{
 		for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable())
 		{
-			if (spawn != null && spawn.getNpcid() == npcId)
+			if ((spawn != null) && (spawn.getNpcid() == npcId))
 			{
 				return spawn.getLastSpawn();
 			}
@@ -68,12 +67,16 @@ public class DrChaos extends Quest
 				machine_instance.broadcastPacket(new SpecialCamera(machine_instance.getObjectId(), 1, -200, 15, 10000, 20000, 0, 0, 1, 0));
 			}
 			else
+			{
 				// print "Dr Chaos AI: problem finding Strange Machine (npcid = "+STRANGE_MACHINE+"). Error: not spawned!"
 				startQuestTimer("2", 2000, npc, player);
+			}
 			startQuestTimer("3", 10000, npc, player);
 		}
 		else if (event.equalsIgnoreCase("2"))
+		{
 			npc.broadcastSocialAction(3);
+		}
 		else if (event.equalsIgnoreCase("3"))
 		{
 			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(), 1, -150, 10, 3000, 20000, 0, 0, 1, 0));
@@ -97,7 +100,9 @@ public class DrChaos extends Quest
 			}
 		}
 		else if (event.equalsIgnoreCase("6"))
+		{
 			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(), 30, -200, 20, 6000, 8000, 0, 0, 1, 0));
+		}
 		return super.onAdvEvent(event, npc, player);
 	}
 	

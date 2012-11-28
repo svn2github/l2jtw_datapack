@@ -14,6 +14,8 @@
  */
 package custom.Nottingale;
 
+import quests.Q10273_GoodDayToFly.Q10273_GoodDayToFly;
+
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -21,7 +23,9 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.network.serverpackets.RadarControl;
 
 /**
- * @authors Kerberos (python), Nyaran (java)
+ * Nottingale AI.<br>
+ * Original Jython script by Kerberos.
+ * @author Nyaran
  */
 public class Nottingale extends Quest
 {
@@ -41,7 +45,7 @@ public class Nottingale extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		QuestState qs = player.getQuestState("10273_GoodDayToFly");
+		QuestState qs = player.getQuestState(Q10273_GoodDayToFly.class.getSimpleName());
 		if (qs == null || !qs.isCompleted())
 		{
 			player.sendPacket(new RadarControl(2, 2, 0, 0, 0));

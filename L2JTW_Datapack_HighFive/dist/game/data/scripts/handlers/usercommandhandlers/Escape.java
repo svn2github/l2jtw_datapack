@@ -22,7 +22,6 @@ import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.IUserCommandHandler;
-import com.l2jserver.gameserver.instancemanager.GrandBossManager;
 import com.l2jserver.gameserver.instancemanager.MapRegionManager;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.TvTEvent;
@@ -53,34 +52,13 @@ public class Escape implements IUserCommandHandler
 			return false;
 		}
 		
-		
 		int unstuckTimer = (activeChar.getAccessLevel().isGm() ? 1000 : Config.UNSTUCK_INTERVAL * 1000);
 		
-		// Check to see if the player is in a festival.
-		if (activeChar.isFestivalParticipant())
+		if (activeChar.isCastingNow() || activeChar.isMovementDisabled() || activeChar.isMuted() || activeChar.isAlikeDead() || activeChar.isInOlympiadMode() || activeChar.inObserverMode() || activeChar.isCombatFlagEquipped())
 		{
-			activeChar.sendMessage(1162);
 			return false;
 		}
-		
-		// Check to see if player is in jail
-		if (activeChar.isInJail())
-		{
-			activeChar.sendMessage(1163);
-			return false;
-		}
-		
-		if (GrandBossManager.getInstance().getZone(activeChar) != null && !activeChar.isGM())
-		{
-			activeChar.sendMessage(1164);
-			return false;
-		}
-		
-		if (activeChar.isCastingNow() || activeChar.isMovementDisabled() || activeChar.isMuted()
-				|| activeChar.isAlikeDead() || activeChar.isInOlympiadMode() || activeChar.inObserverMode() || activeChar.isCombatFlagEquipped())
-			return false;
-		activeChar.forceIsCasting(GameTimeController.getGameTicks() + unstuckTimer / GameTimeController.MILLIS_IN_TICK);
-		
+		activeChar.forceIsCasting(GameTimeController.getGameTicks() + (unstuckTimer / GameTimeController.MILLIS_IN_TICK));
 		
 		L2Skill escape = SkillTable.getInstance().getInfo(2099, 1); // 5 minutes escape
 		L2Skill GM_escape = SkillTable.getInstance().getInfo(2100, 1); // 1 second escape
@@ -93,7 +71,7 @@ public class Escape implements IUserCommandHandler
 			}
 			activeChar.sendMessage(1165);
 		}
-		else if (Config.UNSTUCK_INTERVAL == 300 && escape  != null)
+		else if ((Config.UNSTUCK_INTERVAL == 300) && (escape != null))
 		{
 			activeChar.doCast(escape);
 			return true;
@@ -105,10 +83,12 @@ public class Escape implements IUserCommandHandler
 				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + unstuckTimer / 60000 + MessageTable.Messages[1166].getExtra(2));
 			}
 			else
+			{
 				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + unstuckTimer / 1000 + MessageTable.Messages[1166].getExtra(3));
+			}
 		}
 		activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-		//SoE Animation section
+		// SoE Animation section
 		activeChar.setTarget(activeChar);
 		activeChar.disableAllSkills();
 		
@@ -116,7 +96,7 @@ public class Escape implements IUserCommandHandler
 		Broadcast.toSelfAndKnownPlayersInRadius(activeChar, msk, 900);
 		SetupGauge sg = new SetupGauge(0, unstuckTimer);
 		activeChar.sendPacket(sg);
-		//End SoE Animation section
+		// End SoE Animation section
 		
 		EscapeFinalizer ef = new EscapeFinalizer(activeChar);
 		// continue execution later
@@ -127,7 +107,7 @@ public class Escape implements IUserCommandHandler
 	
 	static class EscapeFinalizer implements Runnable
 	{
-		private L2PcInstance _activeChar;
+		private final L2PcInstance _activeChar;
 		
 		EscapeFinalizer(L2PcInstance activeChar)
 		{
@@ -138,7 +118,9 @@ public class Escape implements IUserCommandHandler
 		public void run()
 		{
 			if (_activeChar.isDead())
+			{
 				return;
+			}
 			
 			_activeChar.setIsIn7sDungeon(false);
 			_activeChar.enableAllSkills();

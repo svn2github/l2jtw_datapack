@@ -21,7 +21,6 @@ import javolution.util.FastMap;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.actor.instance.L2ServitorInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.network.SystemMessageId;
@@ -265,7 +264,7 @@ public class PcBangPoint extends Quest
 		}
 		else if (PETSKILL.containsKey(event))
 		{
-			if (player.getPet() == null || !(player.getPet() instanceof L2ServitorInstance))
+			if (player.getSummon() == null || !player.getSummon().isServitor())
 			{
 				htmltext = "nosummon.htm";
 			}
@@ -277,7 +276,7 @@ public class PcBangPoint extends Quest
 				smsgpc.addNumber(PETSKILL.get(event)[2]);
 				player.sendPacket(smsgpc);
 				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), PETSKILL.get(event)[2], false, false, 1));
-				npc.setTarget(player.getPet());
+				npc.setTarget(player.getSummon());
 				npc.doCast(SkillTable.getInstance().getInfo(PETSKILL.get(event)[0],PETSKILL.get(event)[1]));
 				return "Individual_pet_skill_info.htm";
 			}
@@ -358,7 +357,7 @@ public class PcBangPoint extends Quest
 		}
 		else if (event.equalsIgnoreCase("pet_warrior"))
 		{
-			if (player.getPet() == null || !(player.getPet() instanceof L2ServitorInstance))
+			if (player.getSummon() == null || !player.getSummon().isServitor())
 			{
 				htmltext = "nosummon.htm";
 			}
@@ -370,7 +369,7 @@ public class PcBangPoint extends Quest
 				smsgpc.addNumber(4000);
 				player.sendPacket(smsgpc);
 				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), 4000, false, false, 1));
-				npc.setTarget(player.getPet());
+				npc.setTarget(player.getSummon());
 				npc.doCast(SkillTable.getInstance().getInfo(4397,1));	// �g�Ԥh��1��
 				npc.doCast(SkillTable.getInstance().getInfo(4393,2));	// �O�q�j��2��
 				npc.doCast(SkillTable.getInstance().getInfo(4392,2));	// �O�@��2��
@@ -422,7 +421,7 @@ public class PcBangPoint extends Quest
 		}
 		else if (event.equalsIgnoreCase("pet_mage"))
 		{
-			if (player.getPet() == null || !(player.getPet() instanceof L2ServitorInstance))
+			if (player.getSummon() == null || !player.getSummon().isServitor())
 			{
 				htmltext = "nosummon.htm";
 			}
@@ -434,7 +433,7 @@ public class PcBangPoint extends Quest
 				smsgpc.addNumber(2100);
 				player.sendPacket(smsgpc);
 				player.sendPacket(new ExPCCafePointInfo(player.getPcBangPoints(), 2100, false, false, 1));
-				npc.setTarget(player.getPet());
+				npc.setTarget(player.getSummon());
 				npc.doCast(SkillTable.getInstance().getInfo(4397,1));	// �g�Ԥh��1��
 				npc.doCast(SkillTable.getInstance().getInfo(4396,1));	// �]�k�̻�1��
 				npc.doCast(SkillTable.getInstance().getInfo(4392,2));	// �O�@��2��

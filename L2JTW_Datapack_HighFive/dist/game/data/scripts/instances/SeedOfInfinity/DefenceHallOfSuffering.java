@@ -179,9 +179,9 @@ public class DefenceHallOfSuffering extends Quest
 				continue;
 			e.exit();
 		}
-		if (ch.getPet() != null)
+		if (ch.getSummon() != null)
 		{
-			for (L2Effect e : ch.getPet().getAllEffects())
+			for (L2Effect e : ch.getSummon().getAllEffects())
 			{
 				if (e == null)
 					continue;
@@ -255,7 +255,7 @@ public class DefenceHallOfSuffering extends Quest
 	{
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
-		L2Summon pet = player.getPet();
+		L2Summon pet = player.getSummon();
 		if (pet != null)
 		{
 			pet.setInstanceId(0);

@@ -36,7 +36,8 @@ public class AirShipGludioGracia extends Quest implements Runnable
 {
 	private static final int[] CONTROLLERS =
 	{
-		32607, 32609
+		32607,
+		32609
 	};
 	
 	private static final int GLUDIO_DOCK_ID = 10;
@@ -88,7 +89,12 @@ public class AirShipGludioGracia extends Quest implements Runnable
 	
 	private static final VehiclePathPoint[] WARPGATE_TO_GLUDIO =
 	{
-		new VehiclePathPoint(-153414, 255385, 221), new VehiclePathPoint(-149548, 258172, 221), new VehiclePathPoint(-146884, 257097, 221), new VehiclePathPoint(-146672, 254239, 221), new VehiclePathPoint(-147855, 252712, 206), new VehiclePathPoint(-149378, 252552, 198)
+		new VehiclePathPoint(-153414, 255385, 221),
+		new VehiclePathPoint(-149548, 258172, 221),
+		new VehiclePathPoint(-146884, 257097, 221),
+		new VehiclePathPoint(-146672, 254239, 221),
+		new VehiclePathPoint(-147855, 252712, 206),
+		new VehiclePathPoint(-149378, 252552, 198)
 	};
 	
 	private final L2AirShipInstance _ship;
@@ -152,13 +158,15 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_HOLDING_A_FLAG);
 			return null;
 		}
-		else if (player.getPet() != null || player.isMounted())
+		else if (player.hasSummon() || player.isMounted())
 		{
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_A_PET_OR_A_SERVITOR_IS_SUMMONED);
 			return null;
 		}
 		else if (_ship.isInDock() && _ship.isInsideRadius(player, 600, true, false))
+		{
 			_ship.addPassenger(player);
+		}
 		
 		return null;
 	}
@@ -166,23 +174,31 @@ public class AirShipGludioGracia extends Quest implements Runnable
 	@Override
 	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		if (player.getQuestState(getName()) == null)
-			newQuestState(player);
-		
 		return npc.getNpcId() + ".htm";
+	}
+	
+	@Override
+	public boolean unload(boolean removeFromList)
+	{
+		if (_ship != null)
+		{
+			_ship.oustPlayers();
+			_ship.deleteMe();
+		}
+		return super.unload(removeFromList);
 	}
 	
 	public AirShipGludioGracia(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		for (int id : CONTROLLERS)
-		{
-			addStartNpc(id);
-			addFirstTalkId(id);
-			addTalkId(id);
-		}
+		
+		addStartNpc(CONTROLLERS);
+		addFirstTalkId(CONTROLLERS);
+		addTalkId(CONTROLLERS);
+		
 		_ship = AirShipManager.getInstance().getNewAirShip(-149378, 252552, 198, 33837);
 		_ship.setOustLoc(OUST_GLUDIO);
+		_ship.setInDock(GLUDIO_DOCK_ID);
 		_ship.registerEngine(this);
 		_ship.runEngine(60000);
 	}
@@ -251,7 +267,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			_atcGludio = findController();
 		}
 		if (_atcGludio != null)
-			_atcGludio.broadcastPacket(new NpcSay(_atcGludio.getObjectId(), Say2.SHOUT, _atcGludio.getNpcId(), npcString));
+			_atcGludio.broadcastPacket(new NpcSay(_atcGludio.getObjectId(), Say2.NPC_SHOUT, _atcGludio.getNpcId(), npcString));
 	}
 	
 	private final void broadcastInGracia(NpcStringId npcStringId)
@@ -262,7 +278,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			_atcGracia = findController();
 		}
 		if (_atcGracia != null)
-			_atcGracia.broadcastPacket(new NpcSay(_atcGracia.getObjectId(), Say2.SHOUT, _atcGracia.getNpcId(), npcStringId));
+			_atcGracia.broadcastPacket(new NpcSay(_atcGracia.getObjectId(), Say2.NPC_SHOUT, _atcGracia.getNpcId(), npcStringId));
 	}
 	
 	private final L2Npc findController()

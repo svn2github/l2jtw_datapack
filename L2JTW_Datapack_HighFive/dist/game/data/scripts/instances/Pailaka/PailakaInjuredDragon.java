@@ -264,7 +264,7 @@ public class PailakaInjuredDragon extends Quest
 	// Synerge - Checks if the summon or pet that the player has can be used
 	private final void checkMaxSummonLevel(L2PcInstance player)
 	{
-		final L2Summon pet = player.getPet();
+		final L2Summon pet = player.getSummon();
 		if (pet instanceof L2PetInstance)
 		{
 			if (pet.getLevel() > MAX_SUMMON_LEVEL)
@@ -415,11 +415,11 @@ public class PailakaInjuredDragon extends Quest
 			player.abortAttack();
 			player.abortCast();
 			player.stopMove(null);
-			if (player.getPet() != null)
+			if (player.getSummon() != null)
 			{
-				player.getPet().abortAttack();
-				player.getPet().abortCast();
-				player.getPet().stopMove(null);
+				player.getSummon().abortAttack();
+				player.getSummon().abortCast();
+				player.getSummon().stopMove(null);
 			}
 			
 			/*InstanceWorld world = InstanceManager.getInstance().getWorld(npc.getInstanceId());

@@ -21,13 +21,12 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Secret Meeting With Varka Silenos (12).<br>
+ * Secret Meeting With Varka Silenos (12)<br>
  * Original Jython script by Emperorc.
  * @author nonom
  */
-public class Q12_SecretMeetingWithVarkaSilenos extends Quest
+public class Q00012_SecretMeetingWithVarkaSilenos extends Quest
 {
-	private static final String qn = "12_SecretMeetingWithVarkaSilenos";
 	
 	// NPCs
 	private static final int CADMON = 31296;
@@ -41,7 +40,7 @@ public class Q12_SecretMeetingWithVarkaSilenos extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -84,7 +83,7 @@ public class Q12_SecretMeetingWithVarkaSilenos extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -128,7 +127,7 @@ public class Q12_SecretMeetingWithVarkaSilenos extends Quest
 		return htmltext;
 	}
 	
-	public Q12_SecretMeetingWithVarkaSilenos(int questId, String name, String descr)
+	public Q00012_SecretMeetingWithVarkaSilenos(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -139,6 +138,6 @@ public class Q12_SecretMeetingWithVarkaSilenos extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q12_SecretMeetingWithVarkaSilenos(12, qn, "Secret Meeting With Varka Silenos");
+		new Q00012_SecretMeetingWithVarkaSilenos(12, Q00012_SecretMeetingWithVarkaSilenos.class.getSimpleName(), "Secret Meeting With Varka Silenos");
 	}
 }

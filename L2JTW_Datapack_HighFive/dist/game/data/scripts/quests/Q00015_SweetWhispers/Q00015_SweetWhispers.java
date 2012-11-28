@@ -21,13 +21,12 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Sweet Whisper (15).<br>
+ * Sweet Whisper (15)<br>
  * Original jython script by disKret.
  * @author nonom
  */
-public class Q15_SweetWhispers extends Quest
+public class Q00015_SweetWhispers extends Quest
 {
-	private static final String qn = "15_SweetWhispers";
 	
 	// NPCs
 	private static final int VLADIMIR = 31302;
@@ -38,7 +37,7 @@ public class Q15_SweetWhispers extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -75,7 +74,7 @@ public class Q15_SweetWhispers extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -126,7 +125,7 @@ public class Q15_SweetWhispers extends Quest
 		return htmltext;
 	}
 	
-	public Q15_SweetWhispers(int questId, String name, String descr)
+	public Q00015_SweetWhispers(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
@@ -137,6 +136,6 @@ public class Q15_SweetWhispers extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q15_SweetWhispers(15, qn, "Sweet Whispers");
+		new Q00015_SweetWhispers(15, Q00015_SweetWhispers.class.getSimpleName(), "Sweet Whispers");
 	}
 }

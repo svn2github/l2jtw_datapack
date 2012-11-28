@@ -31,6 +31,7 @@ import com.l2jserver.gameserver.model.entity.TvTEvent;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.model.skills.targets.L2TargetType;
+import com.l2jserver.gameserver.model.zone.ZoneId;
 import com.l2jserver.gameserver.util.Util;
 
 /**
@@ -56,7 +57,7 @@ public class TargetCorpseClan implements ITargetTypeHandler
 			final L2Clan clan = player.getClan();
 			
 			if (L2Skill.addSummon(activeChar, player, radius, true))
-				targetList.add(player.getPet());
+				targetList.add(player.getSummon());
 			
 			if (clan != null)
 			{
@@ -84,7 +85,7 @@ public class TargetCorpseClan implements ITargetTypeHandler
 						continue;
 					
 					if (!onlyFirst && L2Skill.addSummon(activeChar, obj, radius, true))
-						targetList.add(obj.getPet());
+						targetList.add(obj.getSummon());
 					
 					if (!L2Skill.addCharacter(activeChar, obj, radius, true))
 						continue;
@@ -92,7 +93,7 @@ public class TargetCorpseClan implements ITargetTypeHandler
 					if (skill.getSkillType() == L2SkillType.RESURRECT)
 					{
 						// check target is not in a active siege zone
-						if (obj.isInsideZone(L2Character.ZONE_SIEGE) && !obj.isInSiege())
+						if (obj.isInsideZone(ZoneId.SIEGE) && !obj.isInSiege())
 							continue;
 					}
 					

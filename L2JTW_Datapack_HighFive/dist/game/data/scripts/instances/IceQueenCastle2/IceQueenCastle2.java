@@ -1472,11 +1472,11 @@ public class IceQueenCastle2 extends Quest
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(world.instanceId);
 		player.teleToLocation(113991, -112297, -11200);
-		if(player.getPet() != null)
+		if(player.getSummon() != null)
 		{
-			player.getPet().getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-			player.getPet().setInstanceId(world.instanceId);
-			player.getPet().teleToLocation(113991, -112297, -11200);
+			player.getSummon().getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+			player.getSummon().setInstanceId(world.instanceId);
+			player.getSummon().teleToLocation(113991, -112297, -11200);
 		}
 		return;
 	}

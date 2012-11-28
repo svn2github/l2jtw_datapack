@@ -28,6 +28,7 @@ import com.l2jserver.gameserver.model.entity.TvTEvent;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.model.skills.targets.L2TargetType;
+import com.l2jserver.gameserver.model.zone.ZoneId;
 
 /**
  * @author UnAfraid
@@ -51,7 +52,7 @@ public class TargetCorpseAlly implements ITargetTypeHandler
 			final int radius = skill.getSkillRadius();
 			
 			if (L2Skill.addSummon(activeChar, player, radius, true))
-				targetList.add(player.getPet());
+				targetList.add(player.getSummon());
 			
 			if (player.getClan() != null)
 			{
@@ -84,7 +85,7 @@ public class TargetCorpseAlly implements ITargetTypeHandler
 							continue;
 						
 						if (!onlyFirst && L2Skill.addSummon(activeChar, obj, radius, true))
-							targetList.add(obj.getPet());
+							targetList.add(obj.getSummon());
 						
 						if (!L2Skill.addCharacter(activeChar, obj, radius, true))
 							continue;
@@ -92,7 +93,7 @@ public class TargetCorpseAlly implements ITargetTypeHandler
 						// Siege battlefield resurrect has been made possible for participants
 						if (skill.getSkillType() == L2SkillType.RESURRECT)
 						{
-							if (obj.isInsideZone(L2Character.ZONE_SIEGE) && !obj.isInSiege())
+							if (obj.isInsideZone(ZoneId.SIEGE) && !obj.isInSiege())
 								continue;
 						}
 						

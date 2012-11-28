@@ -259,7 +259,7 @@ public class OlympiadManagerLink implements IBypassHandler
 						break;
 				}
 			}
-			else if (command.toLowerCase().startsWith(COMMANDS[2])) // buff
+			else if (command.toLowerCase().startsWith("olybuff"))
 			{
 				if (activeChar.olyBuff <= 0)
 				{
@@ -298,7 +298,7 @@ public class OlympiadManagerLink implements IBypassHandler
 						activeChar.olyBuff--;
 						target.broadcastPacket(new MagicSkillUse(target, activeChar, skill.getId(), skill.getLevel(), 0, 0));
 						skill.getEffects(activeChar, activeChar);
-						L2Summon summon = activeChar.getPet();
+						L2Summon summon = activeChar.getSummon();
 						if (summon != null)
 						{
 							target.broadcastPacket(new MagicSkillUse(target, summon, skill.getId(), skill.getLevel(), 0, 0));
@@ -318,10 +318,10 @@ public class OlympiadManagerLink implements IBypassHandler
 					html.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "olympiad_nobuffs.htm");
 					html.replace("%objectId%", String.valueOf(target.getObjectId()));
 					activeChar.sendPacket(html);
-					target.deleteMe();
+					target.decayMe();
 				}
 			}
-			else if (command.toLowerCase().startsWith(COMMANDS[3])) // olympiad
+			else if (command.toLowerCase().startsWith("olympiad"))
 			{
 				int val = Integer.parseInt(command.substring(9, 10));
 				

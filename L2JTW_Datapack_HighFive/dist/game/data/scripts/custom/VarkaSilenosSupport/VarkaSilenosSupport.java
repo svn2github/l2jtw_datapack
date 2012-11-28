@@ -14,7 +14,8 @@
  */
 package custom.VarkaSilenosSupport;
 
-import gnu.trove.map.hash.TIntObjectHashMap;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -28,8 +29,9 @@ import com.l2jserver.gameserver.network.serverpackets.WareHouseWithdrawalList;
 import com.l2jserver.gameserver.util.Util;
 
 /**
- * @authors Emperorc (python), Nyaran (java)
- * @notes Finished by Kerberos_20 (python) 10/23/07
+ * Varka Silenos Support AI.<br>
+ * Original Jython script by Emperorc and Kerberos_20.
+ * @author Nyaran
  */
 public class VarkaSilenosSupport extends Quest
 {
@@ -49,7 +51,7 @@ public class VarkaSilenosSupport extends Quest
 
 	private static final int SEED = 7187;
 
-	private static final TIntObjectHashMap<BuffsData> BUFF = new TIntObjectHashMap<>();
+	private static final Map<Integer, BuffsData> BUFF = new HashMap<>();
 
 	private class BuffsData
 	{
@@ -142,15 +144,17 @@ public class VarkaSilenosSupport extends Quest
 		else if (npcId == UDAN)
 		{
 			st.setState(State.STARTED);
-			if (Alevel > -1)
+			if (Alevel > 0)
 				htmltext = "31379-3.htm";
-			else if (Alevel > -3 && Alevel > 0)
+			else if (Alevel > -3)
 				htmltext = "31379-1.htm";
 			else if (Alevel < -2)
+			{
 				if (st.hasQuestItems(SEED))
 					htmltext = "31379-4.htm";
 				else
 					htmltext = "31379-2.htm";
+			}
 		}
 		else if (npcId == DIYABU)
 		{

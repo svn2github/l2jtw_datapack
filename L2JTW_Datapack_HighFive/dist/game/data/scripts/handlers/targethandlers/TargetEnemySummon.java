@@ -21,6 +21,7 @@ import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.targets.L2TargetType;
+import com.l2jserver.gameserver.model.zone.ZoneId;
 
 /**
  * @author UnAfraid
@@ -33,9 +34,9 @@ public class TargetEnemySummon implements ITargetTypeHandler
 		if(target instanceof L2Summon)
 		{
 			L2Summon targetSummon = (L2Summon)target;
-			if (activeChar instanceof L2PcInstance && activeChar.getPet() != targetSummon && !targetSummon.isDead()
+			if (activeChar instanceof L2PcInstance && activeChar.getSummon() != targetSummon && !targetSummon.isDead()
 					&& (targetSummon.getOwner().getPvpFlag() != 0 || targetSummon.getOwner().getKarma() > 0)
-					|| (targetSummon.getOwner().isInsideZone(L2Character.ZONE_PVP) && ((L2PcInstance)activeChar).isInsideZone(L2Character.ZONE_PVP))
+					|| (targetSummon.getOwner().isInsideZone(ZoneId.PVP) && ((L2PcInstance)activeChar).isInsideZone(ZoneId.PVP))
 					|| (targetSummon.getOwner().isInDuel() && ((L2PcInstance)activeChar).isInDuel() && targetSummon.getOwner().getDuelId() == ((L2PcInstance)activeChar).getDuelId()))
 				return new L2Character[]{targetSummon};
 		}

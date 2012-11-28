@@ -601,7 +601,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 	
 	private synchronized void openDoor(L2PcInstance player, int instanceId)
 	{
-		final ArrayList<L2DoorInstance> doors = InstanceManager.getInstance().getInstance(instanceId).getDoors();
+		final ArrayList<L2DoorInstance> doors = (ArrayList<L2DoorInstance>) InstanceManager.getInstance().getInstance(instanceId).getDoors();
 		for (L2DoorInstance door : doors)
 		{
 			switch (door.getDoorId())

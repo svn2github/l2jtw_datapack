@@ -431,7 +431,7 @@ public class PailakaDevilsLegacy extends Quest
 						return "32501-00.htm";
 				}
 			case ADVENTURER1:
-				if (player.getPet() != null)
+				if (!player.hasSummon())
 				{
 					return "32508-03.htm";
 				}
@@ -457,7 +457,7 @@ public class PailakaDevilsLegacy extends Quest
 				}
 				return "32508-02.htm";
 			case ADVENTURER2:
-				if (player.getPet() != null)
+				if (!player.hasSummon())
 				{
 					return "32511-03.htm";
 				}
@@ -510,7 +510,7 @@ public class PailakaDevilsLegacy extends Quest
 						{
 							if (isPet)
 							{
-								attackPlayer((L2Attackable) npc, attacker.getPet());
+								attackPlayer((L2Attackable) npc, attacker.getSummon());
 							}
 							else
 							{

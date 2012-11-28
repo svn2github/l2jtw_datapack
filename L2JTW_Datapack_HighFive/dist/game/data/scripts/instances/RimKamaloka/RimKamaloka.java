@@ -415,7 +415,7 @@ public class RimKamaloka extends Quest
 	{
 		player.setInstanceId(instanceId);
 		player.teleToLocation(coords[0], coords[1], coords[2], true);
-		L2Summon pet = player.getPet();
+		L2Summon pet = player.getSummon();
 		if (pet != null)
 		{
 			pet.setInstanceId(instanceId);

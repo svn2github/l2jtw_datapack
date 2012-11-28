@@ -23,6 +23,7 @@ import com.l2jserver.gameserver.datatables.ExperienceTable;
 import com.l2jserver.gameserver.handler.ISkillHandler;
 import com.l2jserver.gameserver.handler.SkillHandler;
 import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Summon;
@@ -74,9 +75,9 @@ public class Disablers implements ISkillHandler
 		L2SkillType type = skill.getSkillType();
 		
 		byte shld = 0;
-		boolean ss = activeChar.isSoulshotCharged(skill);
-		boolean sps = activeChar.isSpiritshotCharged(skill);
-		boolean bss = activeChar.isBlessedSpiritshotCharged(skill);
+		boolean ss = skill.isPhysical() && activeChar.isChargedShot(ShotType.SOULSHOTS);
+		boolean sps = skill.isMagic() && activeChar.isChargedShot(ShotType.SPIRITSHOTS);
+		boolean bss = skill.isMagic() && activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS);
 		
 		for (L2Object obj: targets)
 		{
@@ -162,8 +163,10 @@ public class Disablers implements ISkillHandler
 						L2Effect[] effects = target.getAllEffects();
 						for (L2Effect e : effects)
 						{
-							if (e.getSkill().getSkillType() == type)
+							if ((e != null) && (e.getSkill() != null) && (e.getSkill().getSkillType() == type))
+							{
 								e.exit();
+							}
 						}
 						skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss));
 					}
@@ -303,7 +306,7 @@ public class Disablers implements ISkillHandler
 					if (Formulas.calcSkillSuccess(activeChar, target, skill, shld, ss, sps, bss) && !(target instanceof L2SiegeSummonInstance))
 					{
 						final L2PcInstance summonOwner = ((L2Summon) target).getOwner();
-						final L2Summon summon = summonOwner.getPet();
+						final L2Summon summon = summonOwner.getSummon();
 						if (summon != null)
 						{
 							// TODO: Retail confirmation for Soul of the Phoenix required.
@@ -322,6 +325,8 @@ public class Disablers implements ISkillHandler
 							{
 								summon.stopAllEffectsExceptThoseThatLastThroughDeath();
 							}
+							summon.abortAttack();
+							summon.abortCast();
 							summon.unSummon(summonOwner);
 							summonOwner.sendPacket(SystemMessageId.YOUR_SERVITOR_HAS_VANISHED);
 						}
@@ -552,8 +557,8 @@ public class Disablers implements ISkillHandler
 			skill.getEffectsSelf(activeChar);
 		}
 		
-		activeChar.spsUncharge(skill);
-	} //end void
+		activeChar.setChargedShot(bss ? ShotType.BLESSED_SPIRITSHOTS : ShotType.SPIRITSHOTS, false);
+	}
 	
 	/**
 	 * 

@@ -58,7 +58,9 @@ public class KeucereusNorthController extends AirShipController
 	
 	private static final int[] FUEL =
 	{
-		0, 50, 100
+		0,
+		50,
+		100
 	};
 	
 	public KeucereusNorthController(int questId, String name, String descr)

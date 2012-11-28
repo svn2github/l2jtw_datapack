@@ -34,7 +34,9 @@ import handlers.effecthandlers.CpDamPercent;
 import handlers.effecthandlers.CpHeal;
 import handlers.effecthandlers.CpHealOverTime;
 import handlers.effecthandlers.CpHealPercent;
+import handlers.effecthandlers.CrystalGradeModify;
 import handlers.effecthandlers.DamOverTime;
+import handlers.effecthandlers.DamOverTimePercent;
 import handlers.effecthandlers.Debuff;
 import handlers.effecthandlers.Disarm;
 import handlers.effecthandlers.DispelBySlot;
@@ -74,6 +76,7 @@ import handlers.effecthandlers.Relax;
 import handlers.effecthandlers.RemoveTarget;
 import handlers.effecthandlers.RestorationRandom;
 import handlers.effecthandlers.Root;
+import handlers.effecthandlers.ServitorShare;
 import handlers.effecthandlers.Signet;
 import handlers.effecthandlers.SignetAntiSummon;
 import handlers.effecthandlers.SignetMDam;
@@ -82,10 +85,12 @@ import handlers.effecthandlers.SilentMove;
 import handlers.effecthandlers.Sleep;
 import handlers.effecthandlers.Spoil;
 import handlers.effecthandlers.Stun;
+import handlers.effecthandlers.SummonAgathion;
 import handlers.effecthandlers.TargetMe;
 import handlers.effecthandlers.ThrowUp;
 import handlers.effecthandlers.TransferDamage;
 import handlers.effecthandlers.Transformation;
+import handlers.effecthandlers.UnsummonAgathion;
 import handlers.effecthandlers.Warp;
 
 import java.lang.reflect.Method;
@@ -95,6 +100,7 @@ import java.util.logging.Logger;
 import com.l2jserver.gameserver.handler.EffectHandler;
 
 /**
+ * Effect Master handler.
  * @author BiggBoss
  */
 public final class EffectMasterHandler
@@ -124,8 +130,10 @@ public final class EffectMasterHandler
 		CpHeal.class,
 		CpHealOverTime.class,
 		CpHealPercent.class,
+		CrystalGradeModify.class,
 		CpDamPercent.class,
 		DamOverTime.class,
+		DamOverTimePercent.class,
 		Debuff.class,
 		DispelBySlot.class,
 		Disarm.class,
@@ -165,6 +173,7 @@ public final class EffectMasterHandler
 		RemoveTarget.class,
 		RestorationRandom.class,
 		Root.class,
+		ServitorShare.class,
 		Signet.class,
 		SignetAntiSummon.class,
 		SignetMDam.class,
@@ -173,10 +182,12 @@ public final class EffectMasterHandler
 		Sleep.class,
 		Spoil.class,
 		Stun.class,
+		SummonAgathion.class,
 		TargetMe.class,
 		ThrowUp.class,
 		TransferDamage.class,
 		Transformation.class,
+		UnsummonAgathion.class,
 		Warp.class,
 	};
 	
@@ -206,9 +217,9 @@ public final class EffectMasterHandler
 					continue; // Disabled handler
 					
 				if (method == null)
-					method = loadInstance.getClass().getMethod("registerHandler", String.class, Class.class);
+					method = loadInstance.getClass().getMethod("registerHandler", Class.class);
 				
-				method.invoke(loadInstance, c.getSimpleName(), c);
+				method.invoke(loadInstance, c);
 				
 			}
 			catch (Exception e)

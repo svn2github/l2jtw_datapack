@@ -14,13 +14,16 @@
  */
 package conquerablehalls.FortressOfResistance;
 
-import gnu.trove.map.hash.TIntLongHashMap;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.datatables.ClanTable;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.model.L2Clan;
 import com.l2jserver.gameserver.model.L2Spawn;
+import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.clanhall.ClanHallSiegeEngine;
@@ -38,15 +41,15 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	private final int MESSENGER = 35382;
 	private final int BLOODY_LORD_NURKA = 35375;
 	
-	private final int[][] NURKA_COORDS =
+	private final Location[] NURKA_COORDS =
 	{
-		{45109,112124,-1900},	// 30%
-		{47653,110816,-2110},	// 40%
-		{47247,109396,-2000}	// 30%
+		new Location(45109,112124,-1900),	// 30%
+		new Location(47653,110816,-2110),	// 40%
+		new Location(47247,109396,-2000)	// 30%
 	};
 	
 	private L2Spawn _nurka; 
-	private TIntLongHashMap _damageToNurka = new TIntLongHashMap();
+	private Map<Integer, Long> _damageToNurka = new HashMap<>();
 	private NpcHtmlMessage _messengerMsg;
 	
 	/**
@@ -69,7 +72,6 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 			_nurka.setAmount(1);
 			_nurka.setRespawnDelay(10800);
 			
-			int[] coords = NURKA_COORDS[0];
 			/*
 			int chance = Rnd.get(100) + 1;
 			if(chance <= 30)
@@ -80,9 +82,7 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 				coords = NURKA_COORDS[2];
 			*/
 			
-			_nurka.setLocx(coords[0]);
-			_nurka.setLocy(coords[1]);
-			_nurka.setLocz(coords[2]);
+			_nurka.setLocation(NURKA_COORDS[0]);
 		}
 		catch(Exception e)
 		{
@@ -118,7 +118,7 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 		int clanId = player.getClanId();
 		if(clanId > 0)
 		{
-			long clanDmg = _damageToNurka.get(clanId) + damage;
+			long clanDmg = (_damageToNurka.containsKey(clanId)) ? _damageToNurka.get(clanId) + damage : damage;
 			_damageToNurka.put(clanId, clanDmg);
 			
 		}
@@ -148,12 +148,12 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	{
 		int winnerId = 0;
 		long counter = 0;
-		for(int i : _damageToNurka.keys())
+		for(Entry<Integer, Long> e : _damageToNurka.entrySet())
 		{	
-			long dam = _damageToNurka.get(i);
+			long dam = e.getValue();
 			if(dam > counter)
 			{
-				winnerId = i;
+				winnerId = e.getKey();
 				counter = dam;
 			}
 		}
@@ -176,5 +176,4 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	{
 		new FortressOfResistance(-1, qn, "conquerablehalls", FORTRESS_RESSISTANCE);
 	}
-
 }
