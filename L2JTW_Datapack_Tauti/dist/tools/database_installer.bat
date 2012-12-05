@@ -1,4 +1,133 @@
 @echo off
+REM 功能說明：每隔一段時間刪除 libs 和快取，以防止 GS 出錯
+if not exist ..\libs\*.jar echo 您必須重新解壓縮「編譯完成」的 GS，才可以繼續安裝資料庫
+if not exist ..\libs\*.jar echo.
+if not exist ..\libs\*.jar pause
+if not exist ..\libs\*.jar exit
+
+REM 如果 libs 快取不存在，表示還沒有啟動過伺服器，則跳過檢查
+if not exist ..\libs\cachedir\ md ..\libs\cachedir\
+if not exist ..\libs\cachedir\packages\*.pkc goto _lib_update
+
+REM 如果 log 不存在，表示還沒有啟動過伺服器，則跳過檢查
+if not exist ..\game\log\*.log goto _lib_update
+
+REM ------------------------------------------------------
+REM _lib_check1 的檢查 開始
+REM 如果 Windows 的 CMD 版本資訊已存在，則跳到檢查1
+if exist ..\libs\cachedir\check_w_ver.txt goto _lib_check1
+
+REM 如果 Windows 的 CMD 版本資訊不存在，則建立資訊
+ver > ..\libs\cachedir\check_w_ver.txt
+goto _lib_del
+
+:_lib_check1
+REM 取得目前的 Windows CMD 版本資訊
+ver > %temp%\check.txt
+FOR /F "skip=1 delims=*" %%a IN (%temp%\check.txt) do set aaa=%%a
+
+REM 取得已存在的 Windows CMD 版本資訊
+FOR /F "skip=1 delims=*" %%b IN (..\libs\cachedir\check_w_ver.txt) do set bbb=%%b
+
+REM 比較 Windows 的 CMD 版本資訊
+if "%aaa%"=="%bbb%" goto _lib_check2
+echo 因為您的 Windows 版本有更新，所以必須刪除舊的 libs 和快取，以防止 GS 出錯
+echo.
+pause
+goto _lib_del
+REM _lib_check1 的檢查 結束
+REM ------------------------------------------------------
+
+
+REM ------------------------------------------------------
+REM _lib_check2 的檢查 開始
+REM 如果 Java 路徑不存在，則跳到下一個檢查
+if not exist "%ProgramFiles%\Java\jdk1.7.*" goto _lib_check3
+
+REM 如果 Java 版本資訊已存在，則跳到檢查2
+if exist ..\libs\cachedir\check_j_ver.txt goto _lib_check2
+
+REM 如果 Java 版本資訊不存在，則建立資訊
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > ..\libs\cachedir\check_j_ver.txt
+goto _lib_del
+
+:_lib_check2
+REM 取得目前的 Java 版本資訊
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > %temp%\check.txt
+FOR /F %%j IN (%temp%\check.txt) DO set jjj=%%j
+
+REM 取得已存在的 Java 版本資訊
+FOR /F %%k IN (..\libs\cachedir\check_j_ver.txt) do set kkk=%%k
+
+REM 比較 Java 版本資訊
+if "%jjj%"=="%kkk%" goto _lib_check3
+echo 因為您的 Java 版本有更新，所以必須刪除舊的 libs 和快取，以防止 GS 出錯
+echo.
+pause
+goto _lib_del
+REM _lib_check2 的檢查 結束
+REM ------------------------------------------------------
+
+
+REM ------------------------------------------------------
+REM _lib_check3 的檢查 開始
+REM 如果 日期-月份 的資訊已存在，則跳到檢查3
+if exist ..\libs\cachedir\check_d_ver.txt goto _lib_check3
+
+REM 如果 日期-月份 的資訊不存在，則建立資訊
+date/t > ..\libs\cachedir\check_d_ver.txt
+goto _lib_del
+
+:_lib_check3
+REM 取得目前的 日期-月份 資訊
+date/t > %temp%\check.txt
+FOR /F "tokens=2 delims=/" %%d IN (%temp%\check.txt) DO set ddd=%%d
+
+REM 取得已存在的 日期-月份 資訊
+FOR /F "tokens=2 delims=/" %%m IN (..\libs\cachedir\check_d_ver.txt) do set mmm=%%m
+
+REM 比較 日期-月份 資訊
+if "%ddd%"=="%mmm%" goto _lib_end
+echo 此為每個月自動清理舊的 libs 和快取，以防止 GS 出錯
+echo.
+pause
+goto _lib_del
+REM _lib_check3 的檢查 結束
+REM ------------------------------------------------------
+
+
+REM ------------------------------------------------------
+:_lib_del
+echo.
+del ..\libs\*.* /F /Q > nul
+del ..\libs\cachedir\packages\*.* /F /Q > nul
+if exist ..\libs\*.jar echo 無法刪除 libs 和快取！請先關閉伺服器或重新開機，然後再試一次
+if exist ..\libs\*.jar echo.
+if exist ..\libs\*.jar pause
+if exist ..\libs\*.jar exit
+if exist ..\libs\cachedir\packages\*.pkc echo 無法刪除 libs 和快取！請先關閉伺服器或重新開機，然後再試一次
+if exist ..\libs\cachedir\packages\*.pkc echo.
+if exist ..\libs\cachedir\packages\*.pkc pause
+if exist ..\libs\cachedir\packages\*.pkc exit
+ver > ..\libs\cachedir\check_w_ver.txt
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > ..\libs\cachedir\check_j_ver.txt
+date/t > ..\libs\cachedir\check_d_ver.txt
+CLS
+echo 舊的 libs 和快取清理完畢！
+echo 您必須重新解壓縮「編譯完成」的 GS，才可以繼續安裝資料庫
+echo.
+pause
+exit
+
+:_lib_update
+ver > ..\libs\cachedir\check_w_ver.txt
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > ..\libs\cachedir\check_j_ver.txt
+date/t > ..\libs\cachedir\check_d_ver.txt
+
+:_lib_end
+REM ------------------------------------------------------
+
+
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
