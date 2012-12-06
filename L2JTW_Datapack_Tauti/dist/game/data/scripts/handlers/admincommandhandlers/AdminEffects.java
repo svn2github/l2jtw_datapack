@@ -725,7 +725,7 @@ public class AdminEffects implements IAdminCommandHandler
 					activeChar.sendPacket(SystemMessageId.NOTHING_HAPPENED);
 					return false;
 				}
-				if ((target instanceof L2Npc) && (action < 1 || action > 3))
+				if ((target instanceof L2Npc) && (action < 1 || action > 10)) //rocknow-God
 				{
 					activeChar.sendPacket(SystemMessageId.NOTHING_HAPPENED);
 					return false;
