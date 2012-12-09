@@ -18,23 +18,23 @@ import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.TransformationManager;
 import com.l2jserver.gameserver.model.L2Transformation;
 
-public class Naviarope extends L2Transformation
+public class BlackBearMount extends L2Transformation
 {
 	private static final int[] SKILLS = new int[]
 	{
 		5491, 619
 	};
 	
-	public Naviarope()
+	public BlackBearMount()
 	{
 		// id, colRadius, colHeight
-		super(509, 26, 39);
+		super(139, 30, 21);
 	}
 	
 	@Override
 	public void onTransform()
 	{
-		if ((getPlayer().getTransformationId() != 509) || getPlayer().isCursedWeaponEquipped())
+		if ((getPlayer().getTransformationId() != 139) || getPlayer().isCursedWeaponEquipped())
 		{
 			return;
 		}
@@ -70,6 +70,6 @@ public class Naviarope extends L2Transformation
 	
 	public static void main(String[] args)
 	{
-		TransformationManager.getInstance().registerTransformation(new Naviarope());
+		TransformationManager.getInstance().registerTransformation(new BlackBearMount());
 	}
 }

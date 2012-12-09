@@ -34,7 +34,7 @@ public class directionB extends L2Transformation
 	@Override
 	public void onTransform()
 	{
-		if ((getPlayer().getTransformationId() != 512) || getPlayer(.isCursedWeaponEquipped())
+		if ((getPlayer().getTransformationId() != 512) || getPlayer().isCursedWeaponEquipped())
 		{
 			return;
 		}

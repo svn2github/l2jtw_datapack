@@ -28,7 +28,7 @@ public class DeadlyRose extends L2Transformation
 	public DeadlyRose()
 	{
 		// id, colRadius, colHeight
-		super(140, 13, 17);
+		super(140, 12, 17);
 	}
 	
 	@Override

@@ -28,7 +28,7 @@ public class OrbisCurse extends L2Transformation
 	public OrbisCurse()
 	{
 		// id, colRadius, colHeight
-		super(128, 30, 47);
+		super(128, 28, 46);
 	}
 	
 	@Override
