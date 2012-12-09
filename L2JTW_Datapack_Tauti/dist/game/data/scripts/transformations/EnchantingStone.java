@@ -18,23 +18,23 @@ import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.TransformationManager;
 import com.l2jserver.gameserver.model.L2Transformation;
 
-public class Kukurin extends L2Transformation
+public class EnchantingStone extends L2Transformation
 {
 	private static final int[] SKILLS = new int[]
 	{
-		5491, 9210
+		5491, 619
 	};
 	
-	public Kukurin()
+	public EnchantingStone()
 	{
 		// id, colRadius, colHeight
-		super(138, 20, 36);
+		super(505, 13, 33);
 	}
 	
 	@Override
 	public void onTransform()
 	{
-		if ((getPlayer().getTransformationId() != 138) || getPlayer().isCursedWeaponEquipped())
+		if ((getPlayer().getTransformationId() != 505) || getPlayer().isCursedWeaponEquipped())
 		{
 			return;
 		}
@@ -47,7 +47,7 @@ public class Kukurin extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Transform Dispel
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(9210, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		
 		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
@@ -63,13 +63,13 @@ public class Kukurin extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Transform Dispel
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(9210, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		
 		getPlayer().setTransformAllowedSkills(EMPTY_ARRAY);
 	}
 	
 	public static void main(String[] args)
 	{
-		TransformationManager.getInstance().registerTransformation(new Kukurin());
+		TransformationManager.getInstance().registerTransformation(new EnchantingStone());
 	}
 }
