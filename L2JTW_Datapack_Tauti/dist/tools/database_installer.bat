@@ -99,6 +99,8 @@ REM ------------------------------------------------------
 REM ------------------------------------------------------
 :_lib_del
 echo.
+if not exist ..\libs\backup\ md ..\libs\backup\
+copy ..\libs\*.* ..\libs\backup\ /Y > nul
 del ..\libs\*.* /F /Q > nul
 del ..\libs\cachedir\packages\*.* /F /Q > nul
 if exist ..\libs\*.jar echo 無法刪除 libs 和快取！請先關閉伺服器或重新開機，然後再試一次
@@ -201,7 +203,7 @@ goto loadconfig
 
 :colors
 if /i "%cmode%"=="n" (
-if not "%1"=="17" (	color F	) else ( color )
+if not "%1"=="17" (	color F ) else ( color )
 ) else ( color %1 )
 goto :eof
 
