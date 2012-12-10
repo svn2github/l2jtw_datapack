@@ -28,7 +28,7 @@ public class SteamBeatle extends L2Transformation
 	public SteamBeatle()
 	{
 		// id, colRadius, colHeight
-		super(110, 40, 27.5);
+		super(110, 30, 27.5);
 	}
 	
 	@Override

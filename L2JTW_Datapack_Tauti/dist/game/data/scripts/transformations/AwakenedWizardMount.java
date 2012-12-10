@@ -28,7 +28,7 @@ public class AwakenedWizardMount extends L2Transformation
 	public AwakenedWizardMount()
 	{
 		// id, colRadius, colHeight
-		super(133, 31, 32.5);
+		super(133, 30, 32.5);
 	}
 	
 	@Override

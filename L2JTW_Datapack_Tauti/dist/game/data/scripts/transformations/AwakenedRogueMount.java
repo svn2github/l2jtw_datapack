@@ -28,7 +28,7 @@ public class AwakenedRogueMount extends L2Transformation
 	public AwakenedRogueMount()
 	{
 		// id, colRadius, colHeight
-		super(131, 31, 32.2);
+		super(131, 30, 32.2);
 	}
 	
 	@Override

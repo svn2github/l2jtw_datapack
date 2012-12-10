@@ -28,7 +28,7 @@ public class AwakenedKnightMount extends L2Transformation
 	public AwakenedKnightMount()
 	{
 		// id, colRadius, colHeight
-		super(129, 31, 30);
+		super(129, 30, 30);
 	}
 	
 	@Override

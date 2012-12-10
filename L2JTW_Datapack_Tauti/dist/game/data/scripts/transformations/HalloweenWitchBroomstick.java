@@ -28,7 +28,7 @@ public class HalloweenWitchBroomstick extends L2Transformation
 	public HalloweenWitchBroomstick()
 	{
 		// id, colRadius, colHeight
-		super(20010, 35, 20);
+		super(20010, 25, 20);
 	}
 	
 	@Override

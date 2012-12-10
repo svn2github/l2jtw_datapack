@@ -28,7 +28,7 @@ public class DemonPrince extends L2Transformation
 	public DemonPrince()
 	{
 		// id, colRadius, colHeight
-		super(311, 33, 49);
+		super(311, 30, 49);
 	}
 	
 	@Override

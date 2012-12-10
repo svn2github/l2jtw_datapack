@@ -28,7 +28,7 @@ public class QueenAnt extends L2Transformation
 	public QueenAnt()
 	{
 		// id, colRadius, colHeight
-		super(143, 33, 20);
+		super(143, 27, 20);
 	}
 	
 	@Override

@@ -28,7 +28,7 @@ public class SaberToothTiger extends L2Transformation
 	public SaberToothTiger()
 	{
 		// id, colRadius, colHeight
-		super(5, 34, 28);
+		super(5, 30, 28);
 	}
 	
 	@Override

@@ -28,7 +28,7 @@ public class JermannC extends L2Transformation
 	public JermannC()
 	{
 		// id, colRadius, colHeight
-		super(20014, 54, 75);
+		super(20014, 28, 75);
 	}
 	
 	@Override

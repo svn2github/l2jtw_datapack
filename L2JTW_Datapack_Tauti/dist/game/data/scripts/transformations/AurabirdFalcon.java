@@ -28,7 +28,7 @@ public class AurabirdFalcon extends L2Transformation
 	public AurabirdFalcon()
 	{
 		// id, colRadius, colHeight
-		super(8, 38, 14.25);
+		super(8, 30, 14.25);
 	}
 	
 	@Override

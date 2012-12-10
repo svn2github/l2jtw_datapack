@@ -28,7 +28,7 @@ public class AwakenedArcherMount extends L2Transformation
 	public AwakenedArcherMount()
 	{
 		// id, colRadius, colHeight
-		super(132, 31, 30);
+		super(132, 30, 30);
 	}
 	
 	@Override

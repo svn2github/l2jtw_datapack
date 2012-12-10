@@ -18,23 +18,23 @@ import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.TransformationManager;
 import com.l2jserver.gameserver.model.L2Transformation;
 
-public class JermannB extends L2Transformation
+public class PixyB extends L2Transformation
 {
-	private static final int[] SKILLS = new int[]
+	private static final int[] SKILLS =
 	{
 		5491, 619
 	};
 	
-	public JermannB()
+	public PixyB()
 	{
 		// id, colRadius, colHeight
-		super(20013, 29, 75);
+		super(501, 5, 25);
 	}
 	
 	@Override
 	public void onTransform()
 	{
-		if ((getPlayer().getTransformationId() != 20013) || getPlayer().isCursedWeaponEquipped())
+		if ((getPlayer().getTransformationId() != 501) || getPlayer().isCursedWeaponEquipped())
 		{
 			return;
 		}
@@ -70,6 +70,6 @@ public class JermannB extends L2Transformation
 	
 	public static void main(String[] args)
 	{
-		TransformationManager.getInstance().registerTransformation(new JermannB());
+		TransformationManager.getInstance().registerTransformation(new PixyB());
 	}
 }

@@ -28,7 +28,7 @@ public class TamePrincessAnt extends L2Transformation
 	public TamePrincessAnt()
 	{
 		// id, colRadius, colHeight
-		super(20008, 50, 38);
+		super(20008, 26, 38);
 	}
 	
 	@Override

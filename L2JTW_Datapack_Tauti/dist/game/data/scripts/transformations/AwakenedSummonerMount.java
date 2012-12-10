@@ -28,7 +28,7 @@ public class AwakenedSummonerMount extends L2Transformation
 	public AwakenedSummonerMount()
 	{
 		// id, colRadius, colHeight
-		super(134, 31, 32.2);
+		super(134, 30, 32.2);
 	}
 	
 	@Override

@@ -28,7 +28,7 @@ public class DarkmanePacer extends L2Transformation
 	public DarkmanePacer()
 	{
 		// id, colRadius, colHeight
-		super(106, 31, 32.5);
+		super(106, 30, 32.5);
 	}
 	
 	@Override

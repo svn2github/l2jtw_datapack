@@ -28,7 +28,7 @@ public class TinPlateGolem extends L2Transformation
 	public TinPlateGolem()
 	{
 		// id, colRadius, colHeight
-		super(24, 13, 24);
+		super(24, 13, 18.5);
 	}
 	
 	@Override

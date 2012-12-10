@@ -28,7 +28,7 @@ public class AwakenedWarriorMount extends L2Transformation
 	public AwakenedWarriorMount()
 	{
 		// id, colRadius, colHeight
-		super(130, 31, 30.2);
+		super(130, 30, 30.2);
 	}
 	
 	@Override

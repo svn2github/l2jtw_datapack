@@ -28,7 +28,7 @@ public class AwakenedEnchanterMount extends L2Transformation
 	public AwakenedEnchanterMount()
 	{
 		// id, colRadius, colHeight
-		super(135, 31, 30.5);
+		super(135, 30, 30.5);
 	}
 	
 	@Override
