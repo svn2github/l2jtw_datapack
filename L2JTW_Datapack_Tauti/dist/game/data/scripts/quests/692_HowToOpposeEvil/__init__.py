@@ -104,7 +104,7 @@ class Quest (JQuest) :
 		npcID = npc.getNpcId()
 		if not npc in targets: return
 		if skill.getId() not in FLASH_WORM : return
-		n = st.getRandom(100)
+		n = self.getRandom(100)
 
 		if npcID == ENERGY_SEED :
 			if n < 80 :
@@ -118,7 +118,7 @@ class Quest (JQuest) :
 		if st :
 			chance = DROP_CHANCE * Config.RATE_QUEST_DROP
 			numItems, chance = divmod(chance,1000)
-			if st.getRandom(1000) < chance : 
+			if self.getRandom(1000) < chance : 
 				numItems += 1
 			if numItems : 
 				if npc.getNpcId() in DESTRUCTION_MOBS :

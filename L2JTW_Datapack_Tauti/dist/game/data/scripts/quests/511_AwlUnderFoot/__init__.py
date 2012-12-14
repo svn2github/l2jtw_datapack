@@ -64,10 +64,10 @@ class PyObject:
 
 def Reward(st) :
 	if st.getState() == State.STARTED :
-		if st.getRandom(9) > 5 : #No retail info about drop quantity. Guesed 1-2. 60% for 1 and 40% for 2 
+		if self.getRandom(9) > 5 : #No retail info about drop quantity. Guesed 1-2. 60% for 1 and 40% for 2 
 			st.giveItems(DL_MARK, int(2 * Config.RATE_QUEST_DROP))
 			st.playSound("ItemSound.quest_itemget")
-		elif st.getRandom(9) < 6  :
+		elif self.getRandom(9) < 6  :
 			st.giveItems(DL_MARK, int(1 * Config.RATE_QUEST_DROP))
 			st.playSound("ItemSound.quest_itemget") 
 

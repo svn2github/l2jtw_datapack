@@ -61,7 +61,7 @@ class Quest (JQuest) :
 			htmltext = "30034-06.htm"
 			st.takeItems(TOOTH_OF_DRAGON,50)
 			st.playSound("ItemSound.quest_finish")
-			item,adena = REWARDS[st.getRandom(len(REWARDS))]
+			item,adena = REWARDS[self.getRandom(len(REWARDS))]
 			st.giveItems(item,1)
 			st.giveItems(57,adena)
 			st.addExpAndSp(435117,23977)

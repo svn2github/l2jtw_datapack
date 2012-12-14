@@ -44,9 +44,9 @@ class Quest (JQuest) :
 				htmltext = "32356-07.htm"
 				st.takeItems(EVIL, 200)
 				if ALT_RP100 == 1 :
-					st.giveItems(REWARDS2[st.getRandom(len(REWARDS2))], 1)
+					st.giveItems(REWARDS2[self.getRandom(len(REWARDS2))], 1)
 				else:
-					st.giveItems(REWARDS[st.getRandom(len(REWARDS))], 1)
+					st.giveItems(REWARDS[self.getRandom(len(REWARDS))], 1)
 			else :
 				htmltext = "32356-05.htm"
 		elif event == "32356-08.htm" :
@@ -56,9 +56,9 @@ class Quest (JQuest) :
 			if evil >= 5 :
 				htmltext = "32356-09.htm"
 				st.takeItems(EVIL,5)
-				st.giveItems(MAT[st.getRandom(len(MAT))], 1)
-				st.giveItems(MAT[st.getRandom(len(MAT))], 1)
-				st.giveItems(MAT[st.getRandom(len(MAT))], 1)
+				st.giveItems(MAT[self.getRandom(len(MAT))], 1)
+				st.giveItems(MAT[self.getRandom(len(MAT))], 1)
+				st.giveItems(MAT[self.getRandom(len(MAT))], 1)
 		return htmltext    
 
 	def onTalk (self, npc, player) :
@@ -94,7 +94,7 @@ class Quest (JQuest) :
 		st = partyMember.getQuestState(qn)
 		if st :
 			if st.getState() == State.STARTED :
-				if st.getRandom(100) < 55 :
+				if self.getRandom(100) < 55 :
 					st.giveItems(EVIL, 2)
 					st.playSound("ItemSound.quest_itemget")
 		return

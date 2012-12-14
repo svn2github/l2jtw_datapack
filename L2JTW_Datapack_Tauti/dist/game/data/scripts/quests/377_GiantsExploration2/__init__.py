@@ -95,7 +95,7 @@ class Quest (JQuest) :
 		npcId = npc.getNpcId()
 		cond = st.getInt("cond")
 		if cond == 1 and npcId in MOBS :
-			if st.getRandom(100) < DROP_CHANCE :
+			if self.getRandom(100) < DROP_CHANCE :
 				st.giveItems(TITAN_ANCIENT_BOOK,1)
 				st.playSound("ItemSound.quest_itemget")
 		return

@@ -89,7 +89,7 @@ class Quest (JQuest) :
 		elif event == "Karakawei_D" :
 			if count >= 300 :
 				st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,300)
-				st.rewardItems(REWARDS[st.getRandom(len(REWARDS))],5)
+				st.rewardItems(REWARDS[self.getRandom(len(REWARDS))],5)
 				htmltext = Karakawei_D
 			else :
 				htmltext = Karakawei_E

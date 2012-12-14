@@ -124,7 +124,7 @@ class Quest (JQuest) :
    if npcId in [20035,20042] :
         st.set("id","0")
         if st.getInt("cond") == 2 and st.getQuestItemsCount(RUSTED_BRONZE_SWORD1)<10 :
-          if st.getRandom(10)<4 :
+          if self.getRandom(10)<4 :
             st.giveItems(RUSTED_BRONZE_SWORD1,1)
             if st.getQuestItemsCount(RUSTED_BRONZE_SWORD1) == 10 :
               st.playSound("ItemSound.quest_middle")

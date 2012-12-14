@@ -242,7 +242,7 @@ class Quest (JQuest) :
 		st.giveItems(item,1)
 		st.playSound("ItemSound.quest_itemget")
 		if self.getRandom(100)<chance :
-			n = st.getRandom(100)
+			n = self.getRandom(100)
 			if n < 25 :
 				st.giveItems(CLAY_URN_FRAGMENT,1)
 			elif n < 50 :

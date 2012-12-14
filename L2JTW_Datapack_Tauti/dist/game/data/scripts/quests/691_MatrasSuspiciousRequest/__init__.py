@@ -98,7 +98,7 @@ class Quest (JQuest) :
 		st = partyMember.getQuestState(qn)
 		if st :
 			if st.getState() == State.STARTED :
-				if st.getRandom(100) < 80 :
+				if self.getRandom(100) < 80 :
 					st.giveItems(REDSTONE, 1)
 					st.playSound("ItemSound.quest_itemget")
 		return
