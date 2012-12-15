@@ -439,6 +439,8 @@ public class CrystalCaverns extends Quest
 	
 	private boolean checkBaylorConditions(L2PcInstance player)
 	{
+		if (debug)
+			return true;
 		L2Party party = player.getParty();
 		if (party == null)
 		{
@@ -611,7 +613,8 @@ public class CrystalCaverns extends Quest
 	{
 		world.status = 0;
 		
-		world.oracle.add(addSpawn(ORACLE_GUIDE_1, 143172, 148894, -11975, 0, false, 0, false, world.instanceId));
+		//world.oracle.add(addSpawn(ORACLE_GUIDE_1, 143172, 148894, -11975, 0, false, 0, false, world.instanceId));
+		world.oracle.add(addSpawn(ORACLE_GUIDE_3, 145107, 143711, -12813, 0, false, 0, false, world.instanceId));
 	}
 	
 	protected void runEmerald(CCWorld world)
@@ -1762,9 +1765,12 @@ public class CrystalCaverns extends Quest
 		if (npcId == ORACLE_GUIDE_1)
 		{
 			teleCoord tele = new teleCoord();
-			tele.x = 143348;
-			tele.y = 148707;
-			tele.z = -11972;
+			//tele.x = 143348;
+			//tele.y = 148707;
+			//tele.z = -11972;
+			tele.x = 145107+50;
+			tele.y = 143711+50;
+			tele.z = -12813;
 			enterInstance(player, "CrystalCaverns.xml", tele);
 			return "";
 		}
