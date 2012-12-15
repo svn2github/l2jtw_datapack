@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<!-- R級/BOSS 其他防具-->
+	<!-- R級腰帶/手鐲/襯衫 -->
+	<item id="19470" name="永生腰帶" type="Armor">
+		<table name="#Desc">可利用R級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r1_belt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19471" name="永生手鐲" type="Armor">
+		<table name="#Desc">MP+187。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r1_bracelet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="item_skill" val="8775-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="187"/>
+		</for>
+	</item>
+	<item id="19472" name="永生襯衫" type="Armor">
+		<set name="icon" val="icon.r1_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="38"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19473" name="煉獄腰帶" type="Armor">
+		<table name="#Desc">可利用R級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r2_belt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19474" name="煉獄手鐲" type="Armor">
+		<table name="#Desc">MP+204。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r2_bracelet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="item_skill" val="8776-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="204"/>
+		</for>
+	</item>
+	<item id="19475" name="煉獄襯衫" type="Armor">
+		<set name="icon" val="icon.r2_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19476" name="卡戴拉腰帶" type="Armor">
+		<table name="#Desc">可利用R95級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r95_belt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19477" name="卡戴拉手鐲" type="Armor">
+		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r95_bracelet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="item_skill" val="8777-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="216"/>
+		</for>
+	</item>
+	<item id="19478" name="卡戴拉襯衫" type="Armor">
+		<set name="icon" val="icon.r95_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19479" name="艾迪奧斯腰帶" type="Armor">
+		<table name="#Desc">可利用R99級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r991_belt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19480" name="艾迪奧斯手鐲" type="Armor">
+		<table name="#Desc">MP+225。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r991_bracelet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="item_skill" val="8778-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="225"/>
+		</for>
+	</item>
+	<item id="19481" name="艾迪奧斯襯衫" type="Armor">
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30307" name="R99(Rare)腰帶" type="Armor">
+		<set name="icon" val="icon.armor_belt_i03"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30308" name="R99(Rare)手鐲" type="Armor">
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="8775-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="230"/>
+		</for>
+	</item>
+	<item id="30309" name="R99(Rare)襯衫" type="Armor">
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="50"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- BOSS 戒指/耳環/項鍊/腰帶/手鐲 -->
+	<item id="19451" name="伊絲蒂娜戒指" type="Armor">
+		<table name="#Desc">賦予裝備者MP+37、命中能力提升3、致命攻擊率提升54.4、水屬性抗性提升20的效果。即使戴上兩個伊絲蒂娜戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.istina_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13320-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="37"/>
+			<add order="0x10" stat="mDef" val="103"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19452" name="伊絲蒂娜耳環" type="Armor">
+		<table name="#Desc">賦予裝備者MP+56、休克抗性提升30%、休克攻擊率提升30%、吸血怒擊、風屬性抗性效果。即使戴上兩個伊絲蒂娜耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.istina_earring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13321-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="56"/>
+			<add order="0x10" stat="mDef" val="154"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19453" name="伊絲蒂娜項鍊" type="Armor">
+		<table name="#Desc">賦予裝備者MP+74、神聖屬性抗性提升35、技能使用冷卻時間縮短、還擊護盾的效果。</table>
+		<set name="icon" val="icon.istina_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13322-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="74"/>
+			<add order="0x10" stat="mDef" val="205"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19454" name="伊絲蒂娜腰帶" type="Armor">
+		<table name="#Desc">增加HP的恢復、道具欄位擴充6格。</table>
+		<set name="icon" val="icon.istina_belt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13323-1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="32"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19455" name="伊絲蒂娜手鐲" type="Armor">
+		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位5格。</table>
+		<set name="icon" val="icon.istina_bracelet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="item_skill" val="8779-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="216"/>
+		</for>
+	</item>
+	<item id="19456" name="伊絲蒂娜襯衫" type="Armor">
+		<table name="#Desc">增加HP465。</table>
+		<set name="icon" val="icon.istina_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13324-1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="60"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19457" name="歐塔比斯戒指" type="Armor">
+		<table name="#Desc">賦予裝備者MP+37、致命傷害提升、火屬性抗性提升20的效果。即使戴上兩個歐塔比斯戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.octavis_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13325-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="37"/>
+			<add order="0x10" stat="mDef" val="103"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19458" name="歐塔比斯耳環" type="Armor">
+		<table name="#Desc">賦予裝備者MP+56、束縛/睡眠抗性提升40%、束縛/睡眠攻擊率提升40%、地屬性抗性提升30的效果。即使戴上兩個歐塔比斯耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.octavis_earring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13326-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="56"/>
+			<add order="0x10" stat="mDef" val="154"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19459" name="歐塔比斯項鍊" type="Armor">
+		<table name="#Desc">賦予裝備者MP+74、黑暗屬性抗性提升35、物理技能攻擊力增加的效果。</table>
+		<set name="icon" val="icon.octavis_necklace_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13327-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="74"/>
+			<add order="0x10" stat="mDef" val="205"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19460" name="歐塔比斯腰帶" type="Armor">
+		<table name="#Desc">增加MP的恢復、可攜帶的重量增加13000。</table>
+		<set name="icon" val="icon.octavis_belt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13328-1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="32"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19461" name="歐塔比斯手鐲" type="Armor">
+		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位5格。</table>
+		<set name="icon" val="icon.octavis_bracelet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="item_skill" val="8780-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="216"/>
+		</for>
+	</item>
+	<item id="19462" name="歐塔比斯襯衫" type="Armor">
+		<table name="#Desc">增加MP247。</table>
+		<set name="icon" val="icon.octavis_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="247"/>
+			<add order="0x10" stat="pDef" val="60"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19463" name="祝福的安塔瑞斯耳環" type="Armor">
+		<table name="#Desc">賦予裝備者MP+59、出血抗性提升50%、出血攻擊率提升50%、治癒量提升、吸血怒擊、衝擊/精神異常抗性提升40%、衝擊/精神異常攻擊率提升40%、降低物理/魔法技能的MP消耗量、大地屬性防禦提升、神聖屬性防禦提升、CON+3、MEN+3的效果。物理/魔法防禦力提升。可以使用衝擊解除技能，並暫時增加衝擊抗性100%。即使戴上兩個祝福的安塔瑞斯耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13313-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="59"/>
+			<add order="0x10" stat="mDef" val="170"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19464" name="祝福的巴拉卡斯項鍊" type="Armor">
+		<table name="#Desc">賦予裝備者HP+625、MP+79、睡眠抗性提升50%、睡眠攻擊率提升50%、縮短物理/魔法技能的使用冷卻時間、野性魔力、還擊護盾、火屬性防禦提升30、黑暗屬性防禦提升20、STR +3、INT +3的效果。物理技能攻擊力提升5%。物理攻擊力提升10%、魔法攻擊力提升20%、可以使用束縛解除技能，並暫時增加束縛抗性100%。</table>
+		<set name="icon" val="icon.accessory_necklace_of_valakas_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13315-1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="79"/>
+			<add order="0x10" stat="mDef" val="226"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+</list>

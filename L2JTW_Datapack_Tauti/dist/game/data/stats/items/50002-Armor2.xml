@@ -1,0 +1,2574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<!-- R級精煉型防具/盾(永生/煉獄/卡戴拉/艾迪奧斯/祝福的都蘭迪亞) -->
+	<!-- R-1:永生(攻擊型/暗殺型/魔法型) -->
+	<item id="19522" name="永生頭盔" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19523" name="永生胸甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t501_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="304"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19524" name="永生脛甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t501_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="190"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19525" name="永生護手" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t501_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19526" name="永生靴" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t501_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19527" name="永生盾" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_sacon_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="415"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19528" name="永生皮頭盔" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19529" name="永生皮甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t502_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="228"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19530" name="永生皮脛甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t502_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="143"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19531" name="永生皮手套" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t502_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19532" name="永生皮靴" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t502_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19533" name="永生頭箍" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19534" name="永生外衣" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t503_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="152"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19535" name="永生長襪" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t503_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="95"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19536" name="永生手套" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t503_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19537" name="永生鞋" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t503_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-2:煉獄(攻擊型/暗殺型/魔法型) -->
+	<item id="19538" name="煉獄頭盔" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19539" name="煉獄胸甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t601_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="335"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19540" name="煉獄脛甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t601_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="209"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19541" name="煉獄護手" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t601_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19542" name="煉獄靴" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t601_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19543" name="煉獄盾" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="458"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19544" name="煉獄皮頭盔" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19545" name="煉獄皮甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="251"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19546" name="煉獄皮脛甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t602_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="157"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19547" name="煉獄皮手套" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t602_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19548" name="煉獄皮靴" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t602_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19549" name="煉獄頭箍" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19550" name="煉獄外衣" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="168"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19551" name="煉獄長襪" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t603_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="105"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19552" name="煉獄手套" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t603_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19553" name="煉獄鞋" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t603_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-95:卡戴拉(攻擊型/暗殺型/魔法型) -->
+	<item id="19554" name="卡戴拉頭盔" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19555" name="卡戴拉胸甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t401_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="370"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19556" name="卡戴拉脛甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t401_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="231"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19557" name="卡戴拉護手" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t401_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19558" name="卡戴拉靴" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t401_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19559" name="卡戴拉盾" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.beranka_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="505"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19560" name="卡戴拉皮頭盔" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19561" name="卡戴拉皮甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t402_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="278"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19562" name="卡戴拉皮脛甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t402_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="173"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19563" name="卡戴拉皮手套" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t402_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19564" name="卡戴拉皮靴" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t402_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19565" name="卡戴拉頭箍" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19566" name="卡戴拉外衣" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t403_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="185"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19567" name="卡戴拉長襪" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t403_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="116"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19568" name="卡戴拉手套" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t403_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19569" name="卡戴拉鞋" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t403_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-99:艾迪奧斯(攻擊型/暗殺型/魔法型) -->
+	<item id="19570" name="艾迪奧斯頭盔" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19571" name="艾迪奧斯胸甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t701_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="385"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19572" name="艾迪奧斯脛甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t701_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="241"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19573" name="艾迪奧斯護手" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t701_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19574" name="艾迪奧斯靴" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t701_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19575" name="艾迪奧斯盾" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_akra_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="526"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19576" name="艾迪奧斯皮頭盔" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19577" name="艾迪奧斯皮甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t702_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="289"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19578" name="艾迪奧斯皮脛甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t702_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="181"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19579" name="艾迪奧斯皮手套" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t702_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19580" name="艾迪奧斯皮靴" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t702_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19581" name="艾迪奧斯頭箍" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19582" name="艾迪奧斯外衣" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t703_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="193"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19583" name="艾迪奧斯長襪" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t703_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="121"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19584" name="艾迪奧斯手套" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t703_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19585" name="艾迪奧斯鞋" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t703_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-99+:祝福的都蘭迪亞防具(攻擊型/暗殺型/魔法型) -->
+	<item id="19714" name="祝福的都蘭迪亞頭盔" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="150"/>
+			<add order="0x10" stat="rEvas" val="1"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19715" name="祝福的都蘭迪亞胸甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t97_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="401"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19716" name="祝福的都蘭迪亞脛甲" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t97_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="250"/>
+			<set order="0x08" stat="rCrit" val="2"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19717" name="祝福的都蘭迪亞護手" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t97_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="accCombat" val="1.15"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19718" name="祝福的都蘭迪亞靴" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<set name="icon" val="icon.armor_t97_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19719" name="祝福的都蘭迪亞盾" type="Armor">
+		<table name="#Plus">攻擊型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="547"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19720" name="祝福的都蘭迪亞皮頭盔" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="150"/>
+			<add order="0x10" stat="rEvas" val="1"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19721" name="祝福的都蘭迪亞皮甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t98_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="301"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19722" name="祝福的都蘭迪亞皮脛甲" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t98_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="188"/>
+			<set order="0x08" stat="rCrit" val="2"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19723" name="祝福的都蘭迪亞皮手套" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t98_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="accCombat" val="1.15"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19724" name="祝福的都蘭迪亞皮靴" type="Armor">
+		<table name="#Plus">暗殺型/輕裝用</table>
+		<set name="icon" val="icon.armor_t98_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19725" name="祝福的都蘭迪亞頭箍" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="150"/>
+			<add order="0x10" stat="rEvas" val="1"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19726" name="祝福的都蘭迪亞外衣" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t99_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="201"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19727" name="祝福的都蘭迪亞長襪" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t99_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="125"/>
+			<set order="0x08" stat="rCrit" val="2"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19728" name="祝福的都蘭迪亞手套" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t99_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="accCombat" val="1.15"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19729" name="祝福的都蘭迪亞鞋" type="Armor">
+		<table name="#Plus">魔法型/長袍用</table>
+		<set name="icon" val="icon.armor_t99_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-1:永生(防禦型/強化型/恢復型) -->
+	<item id="19730" name="永生頭盔" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19731" name="永生胸甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t501_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="304"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19732" name="永生脛甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t501_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="190"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19733" name="永生護手" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t501_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19734" name="永生靴" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t501_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19735" name="永生盾" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_sacon_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="415"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19736" name="永生皮頭盔" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19737" name="永生皮甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t502_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="228"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19738" name="永生皮脛甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t502_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="143"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19739" name="永生皮手套" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t502_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19740" name="永生皮靴" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t502_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19741" name="永生頭箍" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19742" name="永生外衣" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t503_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="152"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19743" name="永生長襪" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t503_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="95"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19744" name="永生手套" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t503_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19745" name="永生鞋" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t503_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-2:煉獄(防禦型/強化型/恢復型) -->
+	<item id="19746" name="煉獄頭盔" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19747" name="煉獄胸甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t601_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="335"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19748" name="煉獄脛甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t601_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="209"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19749" name="煉獄護手" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t601_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19750" name="煉獄靴" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t601_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19751" name="煉獄盾" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="458"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19752" name="煉獄皮頭盔" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19753" name="煉獄皮甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="251"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19754" name="煉獄皮脛甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t602_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="157"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19755" name="煉獄皮手套" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t602_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19756" name="煉獄皮靴" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t602_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19757" name="煉獄頭箍" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19758" name="煉獄外衣" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="168"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19759" name="煉獄長襪" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t603_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="105"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19760" name="煉獄手套" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t603_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19761" name="煉獄鞋" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t603_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-95:卡戴拉(防禦型/強化型/恢復型) -->
+	<item id="19762" name="卡戴拉頭盔" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19763" name="卡戴拉胸甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t401_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="370"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19764" name="卡戴拉脛甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t401_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="231"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19765" name="卡戴拉護手" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t401_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19766" name="卡戴拉靴" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t401_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19767" name="卡戴拉盾" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.beranka_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="505"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19768" name="卡戴拉皮頭盔" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19769" name="卡戴拉皮甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t402_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="278"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19770" name="卡戴拉皮脛甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t402_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="173"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19771" name="卡戴拉皮手套" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t402_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19772" name="卡戴拉皮靴" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t402_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19773" name="卡戴拉頭箍" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19774" name="卡戴拉外衣" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t403_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="185"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19775" name="卡戴拉長襪" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t403_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="116"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19776" name="卡戴拉手套" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t403_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19777" name="卡戴拉鞋" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t403_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-99:艾迪奧斯(防禦型/強化型/恢復型) -->
+	<item id="19778" name="艾迪奧斯頭盔" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19779" name="艾迪奧斯胸甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t701_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="385"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19780" name="艾迪奧斯脛甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t701_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="241"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19781" name="艾迪奧斯護手" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t701_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19782" name="艾迪奧斯靴" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t701_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19783" name="艾迪奧斯盾" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_akra_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="526"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19784" name="艾迪奧斯皮頭盔" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19785" name="艾迪奧斯皮甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t702_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="289"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19786" name="艾迪奧斯皮脛甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t702_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="181"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19787" name="艾迪奧斯皮手套" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t702_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19788" name="艾迪奧斯皮靴" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t702_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19789" name="艾迪奧斯頭箍" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19790" name="艾迪奧斯外衣" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t703_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="193"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19791" name="艾迪奧斯長襪" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t703_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="121"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19792" name="艾迪奧斯手套" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t703_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19793" name="艾迪奧斯鞋" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t703_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<!-- R-99+:祝福的都蘭迪亞防具(防禦型/強化型/恢復型) -->
+	<item id="19922" name="祝福的都蘭迪亞頭盔" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="150"/>
+			<add order="0x10" stat="rEvas" val="1"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19923" name="祝福的都蘭迪亞胸甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">強化+4時，降低物理致命傷害，而額外增加物理防禦力。</table>
+		<set name="icon" val="icon.armor_t97_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="7520"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="401"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19924" name="祝福的都蘭迪亞脛甲" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t97_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="3170"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="250"/>
+			<set order="0x08" stat="rCrit" val="2"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19925" name="祝福的都蘭迪亞護手" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t97_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="accCombat" val="1.15"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19926" name="祝福的都蘭迪亞靴" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<set name="icon" val="icon.armor_t97_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19927" name="祝福的都蘭迪亞盾" type="Armor">
+		<table name="#Plus">防禦型/重裝用</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="damascus"/>
+		<set name="weight" val="1130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<set order="0x08" stat="sDef" val="547"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+		</for>
+	</item>
+	<item id="19928" name="祝福的都蘭迪亞皮頭盔" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="150"/>
+			<add order="0x10" stat="rEvas" val="1"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19929" name="祝福的都蘭迪亞皮甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<table name="#Desc">強化+4時，增加迴避能力、降低物理致命被擊率、增加肉體系抗性。</table>
+		<set name="icon" val="icon.armor_t98_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="4140"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="301"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19930" name="祝福的都蘭迪亞皮脛甲" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t98_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="1320"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="188"/>
+			<set order="0x08" stat="rCrit" val="2"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19931" name="祝福的都蘭迪亞皮手套" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t98_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="accCombat" val="1.15"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19932" name="祝福的都蘭迪亞皮靴" type="Armor">
+		<table name="#Plus">強化型/輕裝用</table>
+		<set name="icon" val="icon.armor_t98_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19933" name="祝福的都蘭迪亞頭箍" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bone"/>
+		<set name="weight" val="530"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="150"/>
+			<add order="0x10" stat="rEvas" val="1"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19934" name="祝福的都蘭迪亞外衣" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<table name="#Desc">強化+4時，增加魔法迴避能力、精神系抗性。</table>
+		<set name="icon" val="icon.armor_t99_u_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1750"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<set order="0x08" stat="pAtk" val="41"/>
+			<add order="0x10" stat="pDef" val="201"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19935" name="祝福的都蘭迪亞長襪" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t99_l_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="magic"/>
+		<set name="bodypart" val="legs"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="weight" val="850"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="125"/>
+			<set order="0x08" stat="rCrit" val="2"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19936" name="祝福的都蘭迪亞手套" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t99_g_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="510"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<add order="0x10" stat="accCombat" val="1.15"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19937" name="祝福的都蘭迪亞鞋" type="Armor">
+		<table name="#Plus">恢復型/長袍用</table>
+		<set name="icon" val="icon.armor_t99_b_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="1070"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+</list>

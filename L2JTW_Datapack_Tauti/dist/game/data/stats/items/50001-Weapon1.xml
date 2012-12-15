@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<!-- R級一般型武器(鎮魂/英啟/幻靈/赫利奧斯/祝福的凱利爾) -->
+	<!-- R-1:鎮魂 -->
+	<item id="17290" name="鎮魂鉋刀" type="Weapon">
+		<table name="#Desc">可以賦予導引、速度激發、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_aspeda_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="369"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17291" name="鎮魂切刃" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、弱點偵測、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_estia_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="422"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17292" name="鎮魂殺刃" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_polion_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="514"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17293" name="鎮魂復仇者" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、Crt.傷害、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_batista_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="422"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17294" name="鎮魂戰爪" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_fantasma_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="514"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17295" name="鎮魂風暴者" type="Weapon">
+		<table name="#Desc">可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_soryu_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="422"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17296" name="鎮魂投弓" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、遠程打擊其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_grabathus_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="831"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17297" name="鎮魂射靈" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、Crt.緩速、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_shyayaka_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1580"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="400"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="535"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+			<add order="0x10" stat="accCombat" val="-1.5"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17298" name="鎮魂爆刃" type="Weapon">
+		<table name="#Desc">可以賦予靈活思緒、魔法束縛、魔力上升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_kaynon_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="338"/>
+			<set order="0x08" stat="mAtk" val="245"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17299" name="鎮魂術杖" type="Weapon">
+		<table name="#Desc">可以賦予魔力催化、靈活思緒、魔法束縛其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_anatrian_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="338"/>
+			<set order="0x08" stat="mAtk" val="245"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17300" name="鎮魂報恨者" type="Weapon">
+		<table name="#Desc">可以賦予魔力再生、靈活思緒、魔力催化其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_grangkaz_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="411"/>
+			<set order="0x08" stat="mAtk" val="270"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17301" name="鎮魂雙刀" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、傷害提升、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="514"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17302" name="鎮魂雙匕首" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、導引其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="2050"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="422"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17303" name="鎮魂雙鈍器" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="514"/>
+			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<!-- R-2:英啟 -->
+	<item id="17324" name="英啟鉋刀" type="Weapon">
+		<table name="#Desc">可以賦予導引、速度激發、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_phasian_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="428"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17325" name="英啟切刃" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、弱點偵測、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_pasis_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17326" name="英啟殺刃" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_volver_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17327" name="英啟復仇者" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、Crt.傷害、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_raksilion_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17328" name="英啟戰爪" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_kirche_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17329" name="英啟風暴者" type="Weapon">
+		<table name="#Desc">可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_grave_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17330" name="英啟投弓" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、遠程打擊其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_spina_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17331" name="英啟射靈" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、Crt.緩速、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_medianox_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1580"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="400"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="620"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+			<add order="0x10" stat="accCombat" val="-1.5"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17332" name="英啟爆刃" type="Weapon">
+		<table name="#Desc">可以賦予靈活思緒、魔法束縛、魔力上升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_imerose_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17333" name="英啟術杖" type="Weapon">
+		<table name="#Desc">可以賦予魔力催化、靈活思緒、魔法束縛其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_yuke_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17334" name="英啟報恨者" type="Weapon">
+		<table name="#Desc">可以賦予魔力再生、靈活思緒、魔力催化其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_herencia_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17335" name="英啟雙刀" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、傷害提升、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17336" name="英啟雙匕首" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、導引其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="2050"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17337" name="英啟雙鈍器" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<!-- R95:幻靈 -->
+	<item id="17382" name="幻靈鉋刀" type="Weapon">
+		<table name="#Desc">可以賦予導引、速度激發、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_ignicion_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17383" name="幻靈切刃" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、弱點偵測、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_ninfea_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17384" name="幻靈殺刃" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_skia_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17385" name="幻靈復仇者" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、Crt.傷害、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_ikeon_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17386" name="幻靈戰爪" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_deodos_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17387" name="幻靈風暴者" type="Weapon">
+		<table name="#Desc">可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_transgredi_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17388" name="幻靈投弓" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、遠程打擊其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_solenas_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1117"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17389" name="幻靈射靈" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、Crt.緩速、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_lapis_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1580"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="400"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="719"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+			<add order="0x10" stat="accCombat" val="-1.5"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17390" name="幻靈爆刃" type="Weapon">
+		<table name="#Desc">可以賦予靈活思緒、魔法束縛、魔力上升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_zihel_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="454"/>
+			<set order="0x08" stat="mAtk" val="330"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17391" name="幻靈術杖" type="Weapon">
+		<table name="#Desc">可以賦予魔力催化、靈活思緒、魔法束縛其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_alacer_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="454"/>
+			<set order="0x08" stat="mAtk" val="330"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17392" name="幻靈報恨者" type="Weapon">
+		<table name="#Desc">可以賦予魔力再生、靈活思緒、魔力催化其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_rupe_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="553"/>
+			<set order="0x08" stat="mAtk" val="363"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17393" name="幻靈雙刀" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、傷害提升、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17394" name="幻靈雙匕首" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、導引其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="2050"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17395" name="幻靈雙鈍器" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<!-- R99:赫利奧斯 -->
+	<item id="17416" name="赫利奧斯鉋刀" type="Weapon">
+		<table name="#Desc">可以賦予導引、速度激發、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_stanpid_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="527"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17417" name="赫利奧斯切刃" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、弱點偵測、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_plenitas_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="602"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17418" name="赫利奧斯殺刃" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_bauen_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="733"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17419" name="赫利奧斯復仇者" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、Crt.傷害、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_qutram_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="602"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17420" name="赫利奧斯戰爪" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_durga_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="733"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17421" name="赫利奧斯風暴者" type="Weapon">
+		<table name="#Desc">可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_crabel_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="602"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17422" name="赫利奧斯投弓" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、遠程打擊其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_castron_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1185"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17423" name="赫利奧斯射靈" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、Crt.緩速、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_stilla_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1580"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="400"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="763"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+			<add order="0x10" stat="accCombat" val="-1.5"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17424" name="赫利奧斯爆刃" type="Weapon">
+		<table name="#Desc">可以賦予靈活思緒、魔法束縛、魔力上升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weaon_serapear_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="350"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17425" name="赫利奧斯術杖" type="Weapon">
+		<table name="#Desc">可以賦予魔力催化、靈活思緒、魔法束縛其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_pilia_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="350"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17426" name="赫利奧斯報恨者" type="Weapon">
+		<table name="#Desc">可以賦予魔力再生、靈活思緒、魔力催化其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_shaelon_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="587"/>
+			<set order="0x08" stat="mAtk" val="385"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17427" name="赫利奧斯雙刀" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、傷害提升、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="733"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17428" name="赫利奧斯雙匕首" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、導引其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="2050"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="602"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17429" name="赫利奧斯雙鈍器" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="733"/>
+			<set order="0x08" stat="mAtk" val="298"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<!-- R99+:祝福的凱利爾 -->
+	<item id="17450" name="祝福的凱利爾鉋刀" type="Weapon">
+		<table name="#Desc">可以賦予導引、速度激發、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_vesper_shaper_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="559"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17451" name="祝福的凱利爾切刃" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、弱點偵測、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_vesper_cutter_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17452" name="祝福的凱利爾殺刃" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_vesper_slasher_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17453" name="祝福的凱利爾復仇者" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、Crt.傷害、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_vesper_avenger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17454" name="祝福的凱利爾戰爪" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_octoclaw_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17455" name="祝福的凱利爾風暴者" type="Weapon">
+		<table name="#Desc">可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_vesper_stormer_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17456" name="祝福的凱利爾投弓" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、遠程打擊其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_vesper_thrower_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1257"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17457" name="祝福的凱利爾射靈" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、Crt.緩速、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_vesper_schutze_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1580"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="400"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="809"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+			<add order="0x10" stat="accCombat" val="-1.5"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17458" name="祝福的凱利爾爆刃" type="Weapon">
+		<table name="#Desc">可以賦予靈活思緒、魔法束縛、魔力上升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_vesper_burster_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17459" name="祝福的凱利爾術杖" type="Weapon">
+		<table name="#Desc">可以賦予魔力催化、靈活思緒、魔法束縛其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_vesper_caster_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17460" name="祝福的凱利爾報恨者" type="Weapon">
+		<table name="#Desc">可以賦予魔力再生、靈活思緒、魔力催化其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_vesper_singer_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="is_magic_weapon" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="622"/>
+			<set order="0x08" stat="mAtk" val="408"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17461" name="祝福的凱利爾雙刀" type="Weapon">
+		<table name="#Desc">可以賦予速度激發、傷害提升、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17462" name="祝福的凱利爾雙匕首" type="Weapon">
+		<table name="#Desc">可以賦予傷害提升、弱點偵測、導引其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="2050"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="17463" name="祝福的凱利爾雙鈍器" type="Weapon">
+		<table name="#Desc">可以賦予弱點偵測、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+</list>

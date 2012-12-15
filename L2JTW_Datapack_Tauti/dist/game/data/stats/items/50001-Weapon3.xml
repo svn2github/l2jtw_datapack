@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<!-- 英雄武器/覺醒封印武器 -->
+	<!-- 英雄武器 -->
+	<item id="30392" name="無限鉋刀" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13146-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="640"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+		</for>
+	</item>
+	<item id="30393" name="無限切刃" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13147-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="720"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="30394" name="無限殺刃" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13148-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="877"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="30395" name="無限復仇者" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13149-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="720"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="30396" name="無限戰爪" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13150-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="877"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="30397" name="無限風暴者" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13151-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="720"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="30398" name="無限投弓" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="reuse_delay" val="1500"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13152-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1419"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+		</for>
+	</item>
+	<item id="30399" name="無限射靈" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_infinity_shooter_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="reuse_delay" val="400"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13153-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="908"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+			<add order="0x10" stat="accCombat" val="-1.5"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+		</for>
+	</item>
+	<item id="30400" name="無限爆刃" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度。額外增加靈活思緒效果。</table>
+		<set name="icon" val="icon.weapon_infinity_sword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_magic_weapon" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13154-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="592"/>
+			<set order="0x08" stat="mAtk" val="508"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="30401" name="無限術杖" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度。額外增加靈活思緒效果。</table>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_magic_weapon" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13155-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="592"/>
+			<set order="0x08" stat="mAtk" val="508"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="30402" name="無限報恨者" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度。額外增加靈活思緒效果。</table>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_magic_weapon" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13156-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="721"/>
+			<set order="0x08" stat="mAtk" val="551"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="30403" name="無限雙刀" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13157-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="877"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="30404" name="無限雙匕首" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13158-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="738"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+		</for>
+	</item>
+	<item id="30405" name="無限雙鈍器" type="Weapon">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/PvP時所造成的傷害，並增加攻擊速度和施法速度、致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="item_skill" val="13159-1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="877"/>
+			<set order="0x08" stat="mAtk" val="399"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<!-- 覺醒封印武器 -->
+	<item id="33717" name="封印著決鬥者力量的雙刀" type="Weapon">
+		<table name="#Desc">封印著決鬥者力量的雙刀。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="fine_steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33718" name="封印著猛將力量的長戟" type="Weapon">
+		<table name="#Desc">封印著猛將力量的長戟。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_eigelus_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33719" name="封印著聖凰騎士力量的長劍" type="Weapon">
+		<table name="#Desc">封印著聖凰騎士力量的長劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33720" name="封印著煉獄騎士力量的長劍" type="Weapon">
+		<table name="#Desc">封印著煉獄騎士力量的長劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33721" name="封印著人馬力量的長弓" type="Weapon">
+		<table name="#Desc">封印著人馬力量的長弓。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_karupis_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="material" val="wood"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<set name="mp_consume" val="1"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+		</for>
+	</item>
+	<item id="33722" name="封印著冒險英豪力量的雙匕首" type="Weapon">
+		<table name="#Desc">封印著冒險英豪力量的雙匕首。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+		</for>
+	</item>
+	<item id="33723" name="封印著大魔導士力量的魔劍" type="Weapon">
+		<table name="#Desc">封印著大魔導士力量的魔劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_terakan_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="bronze"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33724" name="封印著魂狩術士力量的魔劍" type="Weapon">
+		<table name="#Desc">封印著魂狩術士力量的魔劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_terakan_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="bronze"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33725" name="封印著祕儀召主力量的法杖" type="Weapon">
+		<table name="#Desc">封印著祕儀召主力量的法杖。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_kitz_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="wood"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33726" name="封印著樞機主教力量的魔杖" type="Weapon">
+		<table name="#Desc">封印著樞機主教力量的魔杖。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_arcorda_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="crystal"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33727" name="封印著昭聖者力量的魔杖" type="Weapon">
+		<table name="#Desc">封印著昭聖者力量的魔杖。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_arcorda_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="crystal"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33728" name="封印著伊娃神殿騎士力量的長劍" type="Weapon">
+		<table name="#Desc">封印著伊娃神殿騎士力量的長劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33729" name="封印著伊娃吟遊詩人力量的長劍" type="Weapon">
+		<table name="#Desc">封印著伊娃吟遊詩人力量的長劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33730" name="封印著疾風浪人力量的匕首" type="Weapon">
+		<table name="#Desc">封印著疾風浪人力量的匕首。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_radice_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+		</for>
+	</item>
+	<item id="33731" name="封印著月光箭靈力量的長弓" type="Weapon">
+		<table name="#Desc">封印著月光箭靈力量的長弓。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_karupis_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="material" val="wood"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<set name="mp_consume" val="1"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+		</for>
+	</item>
+	<item id="33732" name="封印著伊娃祕術詩人力量的魔劍" type="Weapon">
+		<table name="#Desc">封印著伊娃祕術詩人力量的魔劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_terakan_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="bronze"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33733" name="封印著元素支配者力量的法杖" type="Weapon">
+		<table name="#Desc">封印著元素支配者力量的法杖。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_kitz_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="wood"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33734" name="封印著伊娃聖者力量的法杖" type="Weapon">
+		<table name="#Desc">封印著伊娃聖者力量的法杖。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_kitz_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="wood"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33735" name="封印著席琳冥殿騎士力量的長劍" type="Weapon">
+		<table name="#Desc">封印著席琳冥殿騎士力量的長劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33736" name="封印著幽冥舞者力量的雙刀" type="Weapon">
+		<table name="#Desc">封印著幽冥舞者力量的雙刀。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="fine_steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33737" name="封印著魅影獵者力量的匕首" type="Weapon">
+		<table name="#Desc">封印著魅影獵者力量的匕首。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_radice_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+		</for>
+	</item>
+	<item id="33738" name="封印著幽冥箭靈力量的長弓" type="Weapon">
+		<table name="#Desc">封印著幽冥箭靈力量的長弓。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_karupis_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="material" val="wood"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<set name="mp_consume" val="1"/>
+		<set name="reuse_delay" val="1500"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+		</for>
+	</item>
+	<item id="33739" name="封印著暴風狂嘯者力量的魔劍" type="Weapon">
+		<table name="#Desc">封印著暴風狂嘯者力量的魔劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_terakan_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="bronze"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33740" name="封印著闇影支配者力量的魔劍" type="Weapon">
+		<table name="#Desc">封印著闇影支配者力量的魔劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_terakan_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="bronze"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33741" name="封印著席琳聖者力量的法杖" type="Weapon">
+		<table name="#Desc">封印著席琳聖者力量的法杖。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_kitz_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="wood"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33742" name="封印著泰坦力量的雙手劍" type="Weapon">
+		<table name="#Desc">封印著泰坦力量的雙手劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_spigel_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33743" name="封印著卡巴塔里宗師力量的雙手拳套" type="Weapon">
+		<table name="#Desc">封印著卡巴塔里宗師力量的雙手拳套。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_fantasma_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="material" val="leather"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33744" name="封印著君主力量的魔劍" type="Weapon">
+		<table name="#Desc">封印著君主力量的魔劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33745" name="封印著末日戰狂力量的雙刀" type="Weapon">
+		<table name="#Desc">封印著末日戰狂力量的雙刀。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="fine_steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33746" name="封印著財富獵人力量的匕首" type="Weapon">
+		<table name="#Desc">封印著財富獵人力量的匕首。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_radice_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+		</for>
+	</item>
+	<item id="33747" name="封印著巨匠力量的魔杖" type="Weapon">
+		<table name="#Desc">封印著巨匠力量的魔杖。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_arcorda_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="crystal"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+		</for>
+	</item>
+	<item id="33760" name="封印著末日使者力量的長劍" type="Weapon">
+		<table name="#Desc">封印著末日使者力量的劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33761" name="封印著追魂使(男)力量的長劍" type="Weapon">
+		<table name="#Desc">封印著追魂使（男）力量的劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_terakan_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="bronze"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33762" name="封印著追魂使(女)力量的長劍" type="Weapon">
+		<table name="#Desc">封印著追魂使（女）力量的劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_terakan_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="bronze"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="33763" name="封印著魔彈射手力量的十字弓" type="Weapon">
+		<table name="#Desc">封印著魔彈射手力量的十字弓。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_netra_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<set name="reuse_delay" val="400"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+			<add order="0x10" stat="accCombat" val="-1.5"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+		</for>
+	</item>
+	<item id="33765" name="封印著軍武判官力量的長劍" type="Weapon">
+		<table name="#Desc">封印著軍武判官力量的劍。無法交易/丟棄/刪除/出售於個人商店/利用代售系統。無法強化/精煉/賦予屬性的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.weapon_aseldor_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="6"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="30"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+</list>
