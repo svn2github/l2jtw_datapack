@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-<!-- 箭/弩箭/結晶/寶石/靈魂彈/魔靈彈/強化卷軸/生命石/紋章染料/假髮 -->
+<!-- 箭/弩箭/結晶/寶石/靈魂彈/魔靈彈/移動卷軸/強化卷軸/生命石/紋章染料/假髮 -->
 	<!-- 箭/弩箭 -->
 	<item id="18550" name="奧里哈魯根箭" type="EtcItem">
 		<table name="#Desc">用奧里哈魯根合金製成的弓箭。R級弓使用。</table>
@@ -70,6 +70,21 @@
 		<set name="is_stackable" val="true"/>
 		<set name="handler" val="BlessedSpiritShot"/>
 		<set name="item_skill" val="9195-1"/>
+	</item>
+	<!-- 移動卷軸 -->
+	<item id="32226" name="說話之島移動卷軸" type="EtcItem">
+		<table name="#Desc">能傳送至說話之島村莊的魔法卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9224-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
 	</item>
 	<!-- 武器/防具強化卷軸 -->
 	<item id="17526" name="武器強化卷軸-R級" type="EtcItem">
