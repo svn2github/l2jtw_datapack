@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-<!-- R級一般型防具/盾/符印/項鍊/耳環/戒指(永生/煉獄/卡戴拉/艾迪奧斯/祝福的都蘭迪亞) -->
+<!-- R級一般型防具/盾(永生/煉獄/卡戴拉/艾迪奧斯/祝福的都蘭迪亞) -->
 	<!-- R-1:永生 -->
 	<item id="17304" name="永生頭盔" type="Armor">
 		<table name="#Plus">重裝用</table>
@@ -265,67 +265,6 @@
 		<for>
 			<add order="0x10" stat="pDef" val="76"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17320" name="永生符印" type="Armor">
-		<table name="#Plus">長袍用</table>
-		<set name="icon" val="icon.weapon_karyen_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="armor_type" val="sigil"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="steel"/>
-		<set name="weight" val="920"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="19"/>
-			<sub order="0x10" stat="rEvas" val="8"/>
-			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17321" name="永生項鍊" type="Armor">
-		<table name="#Desc">永生項鍊。可得到MP+53的效果。</table>
-		<set name="icon" val="icon.r1_necklace_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="neck"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="53"/>
-			<add order="0x10" stat="mDef" val="123"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17322" name="永生耳環" type="Armor">
-		<table name="#Desc">永生耳環。可得到MP+40的效果。</table>
-		<set name="icon" val="icon.r1_earring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rear;lear"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="40"/>
-			<add order="0x10" stat="mDef" val="92"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17323" name="永生戒指" type="Armor">
-		<table name="#Desc">永生戒指。可得到MP+26的效果。</table>
-		<set name="icon" val="icon.r1_ring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rfinger;lfinger"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="gold"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="26"/>
-			<add order="0x10" stat="mDef" val="62"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
 		</for>
 	</item>
 	<!-- R-2:煉獄 -->
@@ -594,67 +533,6 @@
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
 	</item>
-	<item id="17354" name="煉獄符印" type="Armor">
-		<table name="#Plus">長袍用</table>
-		<set name="icon" val="icon.weapon_dynaksus_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="armor_type" val="sigil"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="steel"/>
-		<set name="weight" val="920"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="21"/>
-			<sub order="0x10" stat="rEvas" val="8"/>
-			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17355" name="煉獄項鍊" type="Armor">
-		<table name="#Desc">煉獄項鍊。可得到MP+58的效果。</table>
-		<set name="icon" val="icon.r2_necklace_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="neck"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="58"/>
-			<add order="0x10" stat="mDef" val="139"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17356" name="煉獄耳環" type="Armor">
-		<table name="#Desc">煉獄耳環。可得到MP+43的效果。</table>
-		<set name="icon" val="icon.r2_earring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rear;lear"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="43"/>
-			<add order="0x10" stat="mDef" val="105"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17357" name="煉獄戒指" type="Armor">
-		<table name="#Desc">煉獄戒指。可得到MP+29的效果。</table>
-		<set name="icon" val="icon.r2_ring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rfinger;lfinger"/>
-		<set name="crystal_type" val="r"/>
-		<set name="material" val="gold"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="29"/>
-			<add order="0x10" stat="mDef" val="70"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
 	<!-- R95:卡戴拉 -->
 	<item id="17396" name="卡戴拉頭盔" type="Armor">
 		<table name="#Plus">重裝用</table>
@@ -921,67 +799,6 @@
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
 	</item>
-	<item id="17412" name="卡戴拉符印" type="Armor">
-		<table name="#Plus">長袍用</table>
-		<set name="icon" val="icon.airtoil_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="armor_type" val="sigil"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="material" val="steel"/>
-		<set name="weight" val="920"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="23"/>
-			<sub order="0x10" stat="rEvas" val="8"/>
-			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17413" name="卡戴拉項鍊" type="Armor">
-		<table name="#Desc">卡戴拉項鍊。可得到MP+62的效果。</table>
-		<set name="icon" val="icon.r95_necklace_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="neck"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="62"/>
-			<add order="0x10" stat="mDef" val="158"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17414" name="卡戴拉耳環" type="Armor">
-		<table name="#Desc">卡戴拉耳環。可得到MP+46的效果。</table>
-		<set name="icon" val="icon.r95_earring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rear;lear"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="46"/>
-			<add order="0x10" stat="mDef" val="118"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17415" name="卡戴拉戒指" type="Armor">
-		<table name="#Desc">卡戴拉戒指。可得到MP+31的效果。</table>
-		<set name="icon" val="icon.r95_ring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rfinger;lfinger"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="material" val="gold"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="31"/>
-			<add order="0x10" stat="mDef" val="79"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
 	<!-- R99:艾迪奧斯 -->
 	<item id="17430" name="艾迪奧斯頭盔" type="Armor">
 		<table name="#Plus">重裝用</table>
@@ -1246,67 +1063,6 @@
 		<for>
 			<add order="0x10" stat="pDef" val="96"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17446" name="艾迪奧斯符印" type="Armor">
-		<table name="#Plus">長袍用</table>
-		<set name="icon" val="icon.elos_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="armor_type" val="sigil"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="steel"/>
-		<set name="weight" val="920"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="24"/>
-			<sub order="0x10" stat="rEvas" val="8"/>
-			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17447" name="艾迪奧斯項鍊" type="Armor">
-		<table name="#Desc">艾迪奧斯項鍊。可得到MP+65的效果。</table>
-		<set name="icon" val="icon.r991_necklace_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="neck"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="65"/>
-			<add order="0x10" stat="mDef" val="166"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17448" name="艾迪奧斯耳環" type="Armor">
-		<table name="#Desc">艾迪奧斯耳環。可得到MP+49的效果。</table>
-		<set name="icon" val="icon.r991_earring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rear;lear"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="49"/>
-			<add order="0x10" stat="mDef" val="124"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17449" name="艾迪奧斯戒指" type="Armor">
-		<table name="#Desc">艾迪奧斯戒指。可得到MP+33的效果。</table>
-		<set name="icon" val="icon.r991_ring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rfinger;lfinger"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="gold"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="33"/>
-			<add order="0x10" stat="mDef" val="83"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
 		</for>
 	</item>
 	<!-- R99+:祝福的都蘭迪亞 -->
@@ -1588,64 +1344,6 @@
 		<for>
 			<add order="0x10" stat="pDef" val="100"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17480" name="祝福的都蘭迪亞符印" type="Armor">
-		<table name="#Plus">長袍用</table>
-		<set name="icon" val="icon.verper_sigil_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="armor_type" val="sigil"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="steel"/>
-		<set name="weight" val="920"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="25"/>
-			<sub order="0x10" stat="rEvas" val="8"/>
-			<enchant order="0x0C" stat="pDef" val="0"/>
-		</for>
-	</item>
-	<item id="17481" name="祝福的都蘭迪亞項鍊" type="Armor">
-		<set name="icon" val="icon.vesper_necklace_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="neck"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="67"/>
-			<add order="0x10" stat="mDef" val="174"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17482" name="祝福的都蘭迪亞耳環" type="Armor">
-		<set name="icon" val="icon.vesper_earring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rear;lear"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="50"/>
-			<add order="0x10" stat="mDef" val="131"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
-		</for>
-	</item>
-	<item id="17483" name="祝福的都蘭迪亞戒指" type="Armor">
-		<set name="icon" val="icon.vesper_ring_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="rfinger;lfinger"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="material" val="gold"/>
-		<set name="weight" val="150"/>
-		<set name="enchant_enabled" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="34"/>
-			<add order="0x10" stat="mDef" val="87"/>
-			<enchant order="0x0C" stat="mDef" val="0"/>
 		</for>
 	</item>
 </list>
