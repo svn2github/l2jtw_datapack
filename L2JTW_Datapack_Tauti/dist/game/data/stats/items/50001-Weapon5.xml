@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="22650" name="光束武器-單手劍" type="Weapon">
+		<table name="#Desc">光束武器。單手劍型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_sword"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="144"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22651" name="光束武器-匕首" type="Weapon">
+		<table name="#Desc">光束武器。匕首型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_sword"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="106"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22652" name="光束武器-雙手劍" type="Weapon">
+		<table name="#Desc">光束武器。雙手劍型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_twohand_sword"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="209"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22653" name="光束武器-格鬥兵器" type="Weapon">
+		<table name="#Desc">光束武器。格鬥武器型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_dualfist"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="152"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22654" name="光束武器-槍" type="Weapon">
+		<table name="#Desc">光束武器。長矛型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_pole"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="205"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22655" name="光束武器-弓" type="Weapon">
+		<table name="#Desc">光束武器。弓型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_bow"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="181"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<set name="mp_consume" val="2"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="reuse_delay" val="1500"/>
+	</item>
+	<item id="22656" name="光束武器-弩弓" type="Weapon">
+		<table name="#Desc">光束武器。弩弓型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_twohand_crossbow"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="181"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="reuse_delay" val="400"/>
+	</item>
+	<item id="22657" name="光束武器-單手鈍器" type="Weapon">
+		<table name="#Desc">光束武器。單手鈍器型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="172"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22658" name="光束武器-雙手鈍器" type="Weapon">
+		<table name="#Desc">光束武器。雙手鈍器型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_twohand_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="101"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22659" name="光束武器-單手魔法鈍器" type="Weapon">
+		<table name="#Desc">光束武器。單手魔法鈍器型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_magic_twohand_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="172"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22660" name="光束武器-雙手魔法鈍器" type="Weapon">
+		<table name="#Desc">光束武器。雙手魔法鈍器型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_magic_twohand_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="101"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22661" name="光束武器-雙刀" type="Weapon">
+		<table name="#Desc">光束武器。雙刀型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_dual"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="247"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22662" name="光束武器-雙匕首" type="Weapon">
+		<table name="#Desc">光束武器。雙匕首型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_dualdagger"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="205"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22663" name="光束武器-雙鈍器" type="Weapon">
+		<table name="#Desc">光束武器。雙鈍器型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_dualblunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="250"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22664" name="光束武器-盾牌" type="Armor">
+		<table name="#Desc">光束武器。盾牌型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_shield"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="200"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22665" name="光束武器-符印" type="Armor">
+		<table name="#Desc">光束武器。符印型態。光束武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_sigil"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="sigil"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="100"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22711" name="和風刀" type="Weapon">
+		<table name="#Desc">和風武器。單手劍型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_sword"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="144"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22712" name="和風匕首" type="Weapon">
+		<table name="#Desc">和風武器。匕首型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_dagger"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="106"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22713" name="和風長刀" type="Weapon">
+		<table name="#Desc">和風武器。雙手劍型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_twohand_sword"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="209"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22714" name="和風格鬥兵器" type="Weapon">
+		<table name="#Desc">和風武器。格鬥兵器型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_dualfist"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="152"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22715" name="和風長矛" type="Weapon">
+		<table name="#Desc">和風武器。長矛型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_pole"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="205"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22716" name="和風弓" type="Weapon">
+		<table name="#Desc">和風武器。弓型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_bow"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="181"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<set name="mp_consume" val="2"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="reuse_delay" val="1500"/>
+	</item>
+	<item id="22717" name="和風弩弓" type="Weapon">
+		<table name="#Desc">和風武器。弩弓型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_twohand_crossbow"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="181"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="reuse_delay" val="400"/>
+	</item>
+	<item id="22718" name="和風鈍器" type="Weapon">
+		<table name="#Desc">和風武器。單手鈍器型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="172"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22719" name="和風巨大鈍器" type="Weapon">
+		<table name="#Desc">和風武器。雙手鈍器型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_twohand_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="101"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22720" name="和風魔法鈍器" type="Weapon">
+		<table name="#Desc">和風武器。單手魔法鈍器型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_magic_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="172"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22721" name="和風巨大魔法鈍器" type="Weapon">
+		<table name="#Desc">和風武器。雙手魔法鈍器型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_magic_twohand_blunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="101"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22722" name="和風雙刀" type="Weapon">
+		<table name="#Desc">和風武器。雙刀型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_dual"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="247"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22723" name="和風雙匕首" type="Weapon">
+		<table name="#Desc">和風武器。雙匕首型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_dualdagger"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="205"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22724" name="和風雙鈍器" type="Weapon">
+		<table name="#Desc">和風武器。雙鈍器型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_dualblunt"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="250"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22725" name="和風盾牌" type="Armor">
+		<table name="#Desc">和風武器。盾牌型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_shield"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="200"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+	<item id="22726" name="和風符印" type="Armor">
+		<table name="#Desc">和風武器。符印型態。和風武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.Icon.g_japan_sigil"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="sigil"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="100"/>
+		<set name="enchant_enabled" val="1"/>
+	</item>
+</list>
