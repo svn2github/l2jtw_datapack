@@ -160,3 +160,5 @@ UPDATE `char_templates` SET `STR`=38, `CON`=41, `DEX`=27, `_INT`=79, `WIT`=78, `
 UPDATE `char_templates` SET `STR`=36, `CON`=38, `DEX`=32, `_INT`=74, `WIT`=84, `MEN`=77 WHERE `ClassId` in (25,26,27,28,29,30,103,104,105);
 UPDATE `char_templates` SET `STR`=39, `CON`=37, `DEX`=30, `_INT`=85, `WIT`=77, `MEN`=73 WHERE `ClassId` in (38,39,40,41,42,43,110,111,112);
 UPDATE `char_templates` SET `STR`=40, `CON`=43, `DEX`=23, `_INT`=77, `WIT`=74, `MEN`=84 WHERE `ClassId` in (49,50,51,52,115,116);
+UPDATE `char_templates` SET `STR`=40, `CON`=42, `DEX`=24, `_INT`=82, `WIT`=72, `MEN`=81 WHERE `ClassId` in (144);
+UPDATE `char_templates` SET `STR`=40, `CON`=38, `DEX`=28, `_INT`=82, `WIT`=78, `MEN`=75 WHERE `ClassId` in (146);
