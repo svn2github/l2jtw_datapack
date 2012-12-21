@@ -90,15 +90,6 @@
 			<player level="100"/>
 		</cond>
 	</item>
-	<item id="30305" name="認證測試用道具" type="EtcItem">
-		<table name="#Desc">認證測試用道具。</table>
-		<set name="icon" val="icon.weapon_vesper_shaper_i00"/>
-		<set name="weight" val="100"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
 	<item id="30306" name="下巨人的精髓" type="EtcItem">
 		<table name="#Desc">前往覺醒地區尋找巨人的手下「拉比多夫」的話，就可以交換成「刻印祕傳書」。</table>
 		<set name="icon" val="icon.essence_of_giant"/>
@@ -108,137 +99,6 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
-	</item>
-	<item id="30318" name="黃昏的報告書" type="EtcItem">
-		<table name="#Desc">這是有關被派遣到地下墓穴和古代公墓的黃昏革命軍搜索隊的搜索結果報告。點擊後可查看內容。</table>
-		<set name="icon" val="icon.etc_old_evil_book_i00"/>
-		<set name="material" val="liquid"/>
-		<set name="weight" val="10"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30319" name="努力的憑證" type="EtcItem">
-		<table name="#Desc">象徵回歸冒險者之努力的憑證。證明可以透過冒險家會員接受各種援助的資格。另外，擁有越多的努力的憑證，就能累積越多的優惠並能提升獎勵。</table>
-		<set name="icon" val="icon.armor_soul_i00"/>
-		<set name="material" val="crystal"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30320" name="塔林獸人的標誌" type="EtcItem">
-		<table name="#Desc">獵人村莊退休的冒險家-銀影 伊塞兒吩咐去收集的塔林獸人的標誌。</table>
-		<set name="icon" val="icon.etc_badge_silver_i00"/>
-		<set name="material" val="crystal"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30321" name="紀念水晶" type="EtcItem">
-		<table name="#Desc">獵人村莊退休的冒險家-銀影 伊塞兒吩咐去收集的憑證。透過與監護人一起狩獵的過程，可在短時間內獲得爆炸性的經驗。</table>
-		<set name="icon" val="icon.etc_crystal_cave_crystal_i02"/>
-		<set name="material" val="crystal"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30322" name="火焰的灰燼" type="EtcItem">
-		<table name="#Desc">亞丁城鎮的鐵匠師傅 匹黎茲吩咐去收集的火焰灰燼。</table>
-		<set name="icon" val="icon.etc_fire_crystal_i00"/>
-		<set name="material" val="crystal"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30323" name="經驗的水晶" type="EtcItem">
-		<table name="#Desc">亞丁城鎮的鐵匠師傅 匹黎茲吩咐去收集的憑證。透過與監護人一起狩獵的過程，可在短時間內獲得爆炸性的經驗。</table>
-		<set name="icon" val="icon.etc_crystal_cave_crystal_i03"/>
-		<set name="material" val="crystal"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30324" name="強化的菲拉卡戒指" type="EtcItem">
-		<table name="#Desc">菲拉卡遺忘神殿的獎勵品。魔法防禦力傑出的戒指。具有MP+15的效果。無法交易、丟棄、強化。</table>
-		<set name="icon" val="icon.accessary_mithril_ring_i00"/>
-		<set name="material" val="paper"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30325" name="回歸冒險者憑證" type="EtcItem">
-		<table name="#Desc">證明是回歸冒險者的憑證。證明可以透過冒險家會員接受各種援助的資格。限時30日。</table>
-		<set name="icon" val="icon.etc_permit_card_i00"/>
-		<set name="material" val="paper"/>
-		<set name="weight" val="2"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30326" name="安塔瑞斯紋章染料" type="EtcItem">
-		<set name="icon" val="icon.etc_str_hena_i02"/>
-		<set name="etcitem_type" val="dye"/>
-		<set name="material" val="liquid"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30327" name="巴拉卡斯紋章染料" type="EtcItem">
-		<set name="icon" val="icon.etc_str_hena_i02"/>
-		<set name="etcitem_type" val="dye"/>
-		<set name="material" val="liquid"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30328" name="地蟲紋章染料" type="EtcItem">
-		<set name="icon" val="icon.etc_str_hena_i02"/>
-		<set name="etcitem_type" val="dye"/>
-		<set name="material" val="liquid"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="30329" name="死神專用武器" type="Weapon">
-		<table name="#Desc">死神的專用武器。</table>
-		<set name="icon" val="icon.weapon_monster_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="weapon_type" val="dagger"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="attack_range" val="40"/>
-		<set name="damage_range" val="0;0;40;120"/>
-		<set name="crystal_type" val="d"/>
-		<set name="material" val="steel"/>
-		<set name="weight" val="300"/>
-		<set name="soulshots" val="2"/>
-		<set name="spiritshots" val="2"/>
-		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-		<for>
-			<set order="0x08" stat="pAtk" val="5"/>
-			<set order="0x08" stat="mAtk" val="5"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-			<add order="0x10" stat="accCombat" val="-3.75"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-		</for>
 	</item>
 	<item id="30330" name="特級古魯丁 水的守護項鍊" type="Armor">
 		<table name="#Desc">賜給古魯丁領地守護者的項鍊。水屬性防禦力+30。無法交易或丟棄。</table>
@@ -1402,36 +1262,6 @@
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
 	</item>
-	<item id="30833" name="束縛的精靈弓" type="Weapon">
-		<table name="#Desc">束縛的精靈弓。使用束縛解除卷軸後，可以變更為一般狀態的道具。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
-		<set name="icon" val="icon.weapon_elven_bow_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="weapon_type" val="bow"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="attack_range" val="500"/>
-		<set name="damage_range" val="0;0;10;0"/>
-		<set name="crystal_type" val="d"/>
-		<set name="material" val="mithril"/>
-		<set name="weight" val="1850"/>
-		<set name="soulshots" val="6"/>
-		<set name="spiritshots" val="2"/>
-		<set name="mp_consume" val="2"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="reuse_delay" val="1500"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-		<for>
-			<set order="0x08" stat="pAtk" val="105"/>
-			<set order="0x08" stat="mAtk" val="32"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-			<add order="0x10" stat="accCombat" val="-3.75"/>
-			<set order="0x08" stat="pAtkSpd" val="293"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-		</for>
-	</item>
 	<item id="30841" name="束縛的精靈長劍*精靈長劍" type="Weapon">
 		<table name="#Desc">束縛的精靈長劍*精靈長劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
 		<set name="icon" val="icon.weapon_dual_sword_i00"/>
@@ -1536,33 +1366,6 @@
 			<set order="0x08" stat="mAtk" val="83"/>
 			<set order="0x08" stat="rCrit" val="8"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-		</for>
-	</item>
-	<item id="30987" name="束縛的靈魂之劍" type="Weapon">
-		<table name="#Desc">束縛的靈魂之劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
-		<set name="icon" val="icon.weapon_spirits_sword_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="weapon_type" val="sword"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="attack_range" val="40"/>
-		<set name="damage_range" val="0;0;40;120"/>
-		<set name="crystal_type" val="c"/>
-		<set name="material" val="fine_steel"/>
-		<set name="weight" val="1420"/>
-		<set name="soulshots" val="2"/>
-		<set name="spiritshots" val="2"/>
-		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-		<for>
-			<set order="0x08" stat="pAtk" val="122"/>
-			<set order="0x08" stat="mAtk" val="68"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
@@ -2240,34 +2043,6 @@
 			<set order="0x08" stat="mAtk" val="26"/>
 			<set order="0x08" stat="rCrit" val="8"/>
 			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-		</for>
-	</item>
-	<item id="31124" name="束縛的三刃刀" type="Weapon">
-		<table name="#Desc">束縛的三刃刀。使用束縛解除卷軸後，可以變更為一般狀態的道具。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
-		<set name="icon" val="icon.weapon_triple-edged_jamadhr_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="weapon_type" val="dualfist"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="attack_range" val="40"/>
-		<set name="damage_range" val="0;0;32;120"/>
-		<set name="crystal_type" val="d"/>
-		<set name="material" val="fine_steel"/>
-		<set name="weight" val="1540"/>
-		<set name="soulshots" val="2"/>
-		<set name="spiritshots" val="2"/>
-		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-		<for>
-			<set order="0x08" stat="pAtk" val="78"/>
-			<set order="0x08" stat="mAtk" val="39"/>
-			<set order="0x08" stat="rCrit" val="4"/>
-			<add order="0x10" stat="accCombat" val="8.0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
 			<enchant order="0x0C" stat="pAtk" val="0"/>
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
@@ -6105,15 +5880,6 @@
 	<item id="35648" name="疑問的補給箱-魔法飾品S、A級" type="EtcItem">
 		<table name="#Desc">標有謎樣的紋章的箱子。以一定的機率可以獲得佩戴在腰帶上的上級魔法飾品。可以交易、丟棄。</table>
 		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="is_stackable" val="true"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
-	</item>
-	<item id="35649" name="封印的憧憬的護身符" type="EtcItem">
-		<table name="#Desc">封印的憧憬護身符。點兩下時，就可獲得憧憬護身符。獲得的憧憬護身符無法交易/丟棄/出售於個人商店。</table>
-		<set name="icon" val="icon.accessory_longing_talisman_i01"/>
 		<set name="weight" val="100"/>
 		<set name="is_stackable" val="true"/>
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
