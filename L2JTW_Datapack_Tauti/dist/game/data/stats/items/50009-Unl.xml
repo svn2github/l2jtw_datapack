@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 <!-- 效果尚未實裝的物品-->
+	<item id="17623" name="地蟲心臟戒指" type="Armor">
+		<table name="#Desc">賦予裝備者MP+38、肉體系抗性、精神系抗性、魔力再生、致命傷害提升；命中率提升、毒抗性提升50%、毒攻擊率提升50%；擊退、擊倒、捕獲抗性提升20；增加攻擊速度、增加施法速度、風/水屬性防禦提升。對隊員可使用能提升攻擊速度、施法速度、吸血效果的技能和解毒效果。即使戴上兩個地蟲心臟戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_earthworm_heart"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="38"/>
+			<add order="0x10" stat="mDef" val="108"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
 	<item id="18578" name="鎮魂鉋刀" type="Weapon">
 		<table name="#Plus">導引</table>
 		<table name="#Desc">＜搜魂石特效＞命中能力提升7.6。PvP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
@@ -5641,6 +5656,972 @@
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
 	</item>
+	<item id="22775" name="龍獸衝槌" type="Weapon">
+		<table name="#Desc">龍獸之王使用的雙手鈍器。賦予裝備者特別的力量。可以賦予強健、HP吸收、體力再生其中之一的特殊效果。</table>
+		<set name="icon" val="BranchSys3.Icon.g_drake_maul_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="532"/>
+			<set order="0x08" stat="mAtk" val="192"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22776" name="龍獸衝槌" type="Weapon">
+		<table name="#Plus">HP吸收</table>
+		<table name="#Desc">＜搜魂石特效＞龍獸之王使用的雙手鈍器。賦予裝備者特別的力量。普通攻擊的同時能恢復自己的HP，恢復量為所造成傷害值的4%。PVP時提升所造成的傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_drake_maul_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="532"/>
+			<set order="0x08" stat="mAtk" val="192"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22777" name="龍獸衝槌" type="Weapon">
+		<table name="#Plus">體力再生</table>
+		<table name="#Desc">＜搜魂石特效＞龍獸之王使用的雙手鈍器。賦予裝備者特別的力量。提升HP的恢復速度。PVP時提升所造成的傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_drake_maul_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="532"/>
+			<set order="0x08" stat="mAtk" val="192"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22778" name="龍獸衝槌" type="Weapon">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">＜搜魂石特效＞龍獸之王使用的雙手鈍器。賦予裝備者特別的力量。HP最大值提升約25%。PVP時提升所造成的傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_drake_maul_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="532"/>
+			<set order="0x08" stat="mAtk" val="192"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22791" name="芙蕾雅魔杖" type="Weapon">
+		<table name="#Desc">芙蕾雅使用的雙手魔法鈍器。賦予裝備者特別的力量。可以賦予魔力再生、魔法束縛、魔力催化其中之一的特殊效果。</table>
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="426"/>
+			<set order="0x08" stat="mAtk" val="281"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22792" name="芙蕾雅魔杖" type="Weapon">
+		<table name="#Plus">魔法束縛</table>
+		<table name="#Desc">＜搜魂石特效＞芙蕾雅使用的雙手魔法鈍器。賦予裝備者特別的力量。對目標施展魔法技能時，以20%的機率施放樹精之足。PVP時提升所造成的傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="426"/>
+			<set order="0x08" stat="mAtk" val="281"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22793" name="芙蕾雅魔杖" type="Weapon">
+		<table name="#Plus">魔力催化</table>
+		<table name="#Desc">＜搜魂石特效＞芙蕾雅使用的雙手魔法鈍器。賦予裝備者特別的力量。魔法攻擊力提升約177。PVP時提升所造成的傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="426"/>
+			<set order="0x08" stat="mAtk" val="281"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22794" name="芙蕾雅魔杖" type="Weapon">
+		<table name="#Plus">魔力再生</table>
+		<table name="#Desc">＜搜魂石特效＞芙蕾雅使用的雙手魔法鈍器。賦予裝備者特別的力量。提升MP的恢復速度。PVP時提升所造成的傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="426"/>
+			<set order="0x08" stat="mAtk" val="281"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22807" name="斯佩席亞戰爪" type="Weapon">
+		<table name="#Desc">斯佩席亞使用的格鬥兵器。賦予裝備者特別的力量。可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22808" name="斯佩席亞戰爪" type="Weapon">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">＜搜魂石特效＞斯佩席亞使用的格鬥兵器。賦予裝備者特別的力量。致命攻擊率提升約76。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22809" name="斯佩席亞戰爪" type="Weapon">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">＜搜魂石特效＞斯佩席亞使用的格鬥兵器。賦予裝備者特別的力量。物理攻擊力提升約332。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22810" name="斯佩席亞戰爪" type="Weapon">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">＜搜魂石特效＞斯佩席亞使用的格鬥兵器。賦予裝備者特別的力量。攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22811" name="斯佩席亞戰爪" type="Weapon">
+		<table name="#Plus">偵測 + 傷害上升</table>
+		<table name="#Desc">＜搜魂石特效＞斯佩席亞使用的格鬥兵器。賦予裝備者特別的力量。致命攻擊率提升約78.9、物理攻擊力提升約332。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22812" name="斯佩席亞戰爪" type="Weapon">
+		<table name="#Plus">傷害上升 + 速度激發</table>
+		<table name="#Desc">＜搜魂石特效＞斯佩席亞使用的格鬥兵器。賦予裝備者特別的力量。物理攻擊力提升約415、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22813" name="斯佩席亞戰爪" type="Weapon">
+		<table name="#Plus">速度激發 + 偵測</table>
+		<table name="#Desc">＜搜魂石特效＞斯佩席亞使用的格鬥兵器。賦予裝備者特別的力量。攻擊速度提升約15%、致命攻擊率提升約76。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22814" name="梅莉莎風暴者" type="Weapon">
+		<table name="#Desc">梅莉莎使用的長矛。可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22815" name="梅莉莎風暴者" type="Weapon">
+		<table name="#Plus">HP吸收</table>
+		<table name="#Desc">＜搜魂石特效＞梅莉莎使用的長矛。普通攻擊的同時能恢復自己的HP，恢復量為所造成傷害值的4%。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22816" name="梅莉莎風暴者" type="Weapon">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">＜搜魂石特效＞梅莉莎使用的長矛。命中能力提升7.6。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22817" name="梅莉莎風暴者" type="Weapon">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">＜搜魂石特效＞梅莉莎使用的長矛。物理攻擊力提升約288。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22818" name="梅莉莎風暴者" type="Weapon">
+		<table name="#Plus">HP吸收 + 導引</table>
+		<table name="#Desc">＜搜魂石特效＞梅莉莎使用的長矛。普通攻擊的同時能恢復自己的HP，恢復量為所造成傷害值的4%。命中能力提升7.6。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22819" name="梅莉莎風暴者" type="Weapon">
+		<table name="#Plus">導引 + 傷害上升</table>
+		<table name="#Desc">＜搜魂石特效＞梅莉莎使用的長矛。命中能力提升7.6、物理攻擊力提升約288。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22820" name="梅莉莎風暴者" type="Weapon">
+		<table name="#Plus">傷害上升 + HP吸收</table>
+		<table name="#Desc">＜搜魂石特效＞梅莉莎使用的長矛。物理攻擊力提升約288。普通攻擊的同時能恢復自己的HP，恢復量為所造成傷害值的4%。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22821" name="斯泰里格斯匕首" type="Weapon">
+		<table name="#Desc">斯泰里格斯使用的匕首。可以賦予導引、速度激發、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22822" name="斯泰里格斯匕首" type="Weapon">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">＜搜魂石特效＞斯泰里格斯使用的匕首。命中能力提升7.7。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22823" name="斯泰里格斯匕首" type="Weapon">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">＜搜魂石特效＞斯泰里格斯使用的匕首。攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22824" name="斯泰里格斯匕首" type="Weapon">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">＜搜魂石特效＞斯泰里格斯使用的匕首。致命攻擊率提升約82.3。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22825" name="斯泰里格斯匕首" type="Weapon">
+		<table name="#Plus">導引 + 速度激發</table>
+		<table name="#Desc">＜搜魂石特效＞斯泰里格斯使用的匕首。命中能力提升7.9、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22826" name="斯泰里格斯匕首" type="Weapon">
+		<table name="#Plus">速度激發 + 偵測</table>
+		<table name="#Desc">＜搜魂石特效＞斯泰里格斯使用的匕首。攻擊速度提升約15%、致命攻擊率提升約82.3。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22827" name="斯泰里格斯匕首" type="Weapon">
+		<table name="#Plus">偵測 + 導引</table>
+		<table name="#Desc">＜搜魂石特效＞斯泰里格斯使用的匕首。致命攻擊率提升約82.3、命中能力提升7.7。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22828" name="普倫雙鈍器" type="Weapon">
+		<table name="#Desc">普倫使用的雙鈍器。賦予裝備者特別的力量。可以賦予弱點偵測、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22829" name="普倫雙鈍器" type="Weapon">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">＜搜魂石特效＞普倫使用的雙鈍器。賦予裝備者特別的力量。致命攻擊率提升約78.9。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22830" name="普倫雙鈍器" type="Weapon">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">＜搜魂石特效＞普倫使用的雙鈍器。賦予裝備者特別的力量。命中能力提升7.8。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22831" name="普倫雙鈍器" type="Weapon">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">＜搜魂石特效＞普倫使用的雙鈍器。賦予裝備者特別的力量。物理攻擊力提升約377。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22832" name="普倫雙鈍器" type="Weapon">
+		<table name="#Plus">偵測 + 導引</table>
+		<table name="#Desc">＜搜魂石特效＞普倫使用的雙鈍器。賦予裝備者特別的力量。致命攻擊率提升約79.2、命中能力提升7.8。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22833" name="普倫雙鈍器" type="Weapon">
+		<table name="#Plus">導引 + 傷害上升</table>
+		<table name="#Desc">＜搜魂石特效＞普倫使用的雙鈍器。賦予裝備者特別的力量。命中能力提升7.7、物理攻擊力提升約377。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="22834" name="普倫雙鈍器" type="Weapon">
+		<table name="#Plus">傷害上升 + 偵測 </table>
+		<table name="#Desc">＜搜魂石特效＞普倫使用的雙鈍器。賦予裝備者特別的力量。物理攻擊力提升約377、致命攻擊率提升約78.9。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
 	<item id="23078" name="攻城士兵徽章" type="EtcItem">
 		<table name="#Desc">於攻城戰期間內，為了紀念既非攻城方，亦非守城方，獨立自主參與的無名士兵而製作的徽章。無法交易/丟棄，但可以刪除。透過各村莊的謎樣的執事可以換取各種道具為獎勵。</table>
 		<set name="icon" val="icon.etc_badge_black_i00"/>
@@ -10149,6 +11130,20 @@
 			<player level="100"/>
 		</cond>
 	</item>
+	<item id="34859" name="進階型伊絲蒂娜手鐲" type="EtcItem">
+		<table name="#Desc">功能提升的伊絲蒂娜手鐲。裝備時，可以開啟護身符欄位5個。具有MP+216、Con+1、Men+1的功能。無法交易/丟棄/強化/利用個人商店的道具。</table>
+		<set name="icon" val="icon.istina_bangel"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="34860" name="進階型歐塔比斯手鐲" type="EtcItem">
+		<table name="#Desc">功能提升的歐塔比斯手鐲。裝備時，可以開啟護身符欄位5個。具有MP+216、Dex+1、Wit+1的功能。無法交易/丟棄/強化/利用個人商店的道具。</table>
+		<set name="icon" val="icon.octavis_bangel"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+	</item>
 	<item id="34900" name="謎樣憑證" type="EtcItem">
 		<table name="#Desc">隱隱約約可以感覺到黑暗的力量。拿去交給位於各村莊的謎樣的執事看看吧。無法交易、丟棄、買賣，但可以保管在個人倉庫。</table>
 		<set name="icon" val="icon.etc_coins_black_i00"/>
@@ -10193,6 +11188,106 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
+	</item>
+	<item id="34998" name="塔武提單手巨斧" type="Weapon">
+		<table name="#Desc">提煉塔武提的破片之後製造的武器。裝備時，可以使用塔武提的憤怒技能。裝備時，增加攻擊速度約15%、致命攻擊率150、HP最大值25%、物理攻擊力415。PVP時提升所造成的傷害。無法強化、賦予屬性、搜魂、精煉。</table>
+		<set name="icon" val="icon.weapon_tauti_one_hand_axe_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1000"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="629"/>
+			<set order="0x08" stat="mAtk" val="322"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="34999" name="塔武提巨斧" type="Weapon">
+		<table name="#Desc">提煉塔武提的破片之後製造的武器。裝備時，可以使用塔武提的憤怒技能。裝備時，增加攻擊速度約15%、致命攻擊率150、HP最大值25%、物理攻擊力415。PVP時提升所造成的傷害。無法強化、賦予屬性、搜魂、精煉。</table>
+		<set name="icon" val="icon.weapon_tauti_one_hand_magic_axe_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1000"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="766"/>
+			<set order="0x08" stat="mAtk" val="322"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="35000" name="塔武提雙手巨斧" type="Weapon">
+		<table name="#Desc">提煉塔武提的破片之後製造的武器。裝備時，可以使用塔武提的憤怒技能。裝備時，增加攻擊速度約15%、致命攻擊率150、HP最大值25%、物理攻擊力415。PVP時提升所造成的傷害。無法強化、賦予屬性、搜魂、精煉。</table>
+		<set name="icon" val="icon.weapon_tauti_two_hand_pole_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1300"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="629"/>
+			<set order="0x08" stat="mAtk" val="322"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="35001" name="塔武提雙刃巨斧" type="Weapon">
+		<table name="#Desc">提煉塔武提的破片之後製造的武器。裝備時，可以使用塔武提的憤怒技能。裝備時，增加攻擊速度約15%、致命攻擊率150、HP最大值25%、物理攻擊力415。PVP時提升所造成的傷害。無法強化、賦予屬性、搜魂、精煉。</table>
+		<set name="icon" val="icon.weapon_tauti_dual_axe_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1700"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="766"/>
+			<set order="0x08" stat="mAtk" val="322"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
 	</item>
 	<item id="35002" name="黑暗艾迪奧斯頭盔" type="Armor">
 		<table name="#Plus">攻擊型</table>
@@ -16918,6 +18013,47 @@
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
 	</item>
+	<item id="35293" name="塔武提手鐲" type="Armor">
+		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位5格。</table>
+		<set name="icon" val="icon.accessory_bracelet_of_tauti_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="216"/>
+		</for>
+	</item>
+	<item id="35294" name="進階型塔武提手鐲" type="Armor">
+		<table name="#Desc">功能提升的塔武提手鐲。裝備時，可以開啟護身符欄位5個。具有MP+216、Str+1、Int+1的功能。無法交易/丟棄/強化/利用個人商店的道具。</table>
+		<set name="icon" val="icon.accessory_bangel_of_tauti_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="216"/>
+		</for>
+	</item>
+	<item id="35570" name="塔武提戒指" type="Armor">
+		<table name="#Desc">塔武提戒指。賦予裝備者增加火/黑暗抗性25、增加MP38、增加致命傷害15%、增加技能攻擊力5%、增加PVP傷害5%、增加麻痺/束縛/驅逐抗性10、增加傷害反射抗性5、增加吸血抗性5、降低PVP被擊傷害5%；使用鈍器時，增加致命攻擊率54的效果。</table>
+		<set name="icon" val="icon.accessary_tauti_ring"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="38"/>
+			<add order="0x10" stat="mDef" val="108"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
 	<item id="35571" name="水之守護項鍊" type="Armor">
 		<table name="#Desc">在謎樣的宅邸購買的項鍊。水屬性防禦力+26、增加MP33。可以交易、丟棄、買賣。</table>
 		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
@@ -18328,5 +19464,29 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
+	</item>
+	<item id="36279" name="邪教的惡魔之環" type="Armor">
+		<table name="#Desc">安蒂莉雅絲 班 胡爾特給予的惡魔之環。</table>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="36280" name="邪教的惡魔之環" type="Armor">
+		<table name="#Desc">安蒂莉雅絲 班 胡爾特給予的惡魔之環。裝備的話，就可獲得物理攻擊力增加5%的效果。</table>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="36281" name="邪教的惡魔之環" type="Armor">
+		<table name="#Desc">安蒂莉雅絲 班 胡爾特給予的惡魔之環。裝備的話，就可獲得魔法攻擊力增加10%的效果。</table>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="10"/>
 	</item>
 </list>
