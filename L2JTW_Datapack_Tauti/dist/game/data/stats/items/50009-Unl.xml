@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 <!-- 效果尚未實裝的物品-->
+	<item id="17372" name="投擲兵之槍" type="Weapon">
+		<set name="icon" val="icon.weapon_doomed_dagger_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="d"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="60"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="5"/>
+			<set order="0x08" stat="mAtk" val="5"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+			<add order="0x10" stat="accCombat" val="-3.75"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+		</for>
+	</item>
 	<item id="17623" name="地蟲心臟戒指" type="Armor">
 		<table name="#Desc">賦予裝備者MP+38、肉體系抗性、精神系抗性、魔力再生、致命傷害提升；命中率提升、毒抗性提升50%、毒攻擊率提升50%；擊退、擊倒、捕獲抗性提升20；增加攻擊速度、增加施法速度、風/水屬性防禦提升。對隊員可使用能提升攻擊速度、施法速度、吸血效果的技能和解毒效果。即使戴上兩個地蟲心臟戒指也只能發揮一個的特殊效果。</table>
 		<set name="icon" val="icon.ring_earthworm_heart"/>
@@ -5656,6 +5680,139 @@
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
 	</item>
+	<item id="22361" name="翡翠劍" type="Weapon">
+		<table name="#Desc">翡翠劍，單手劍</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_1h_sword"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1600"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="22362" name="翡翠雙刀" type="Weapon">
+		<table name="#Desc">翡翠雙刀，雙刀</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="2520"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+	</item>
+	<item id="22366" name="黑熊掌" type="Weapon">
+		<table name="#Desc">看似強悍的黑熊掌型態的格鬥兵器。物理攻擊力極弱。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hands_of_blackbear"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="material" val="adamantaite"/>
+		<set name="weight" val="450"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="22368" name="黑熊帽" type="Armor">
+		<table name="#Desc">可以感覺到強悍的黑熊帽。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hat_of_blackbear"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="22376" name="華麗海灘遮陽帽" type="Armor">
+		<table name="#Desc">可以徹底防曬的華麗海灘遮陽帽。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.icon.g_beach_cap"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="22378" name="繽紛花漾草帽" type="Armor">
+		<table name="#Desc">用草編製的帽子。會佔用頭飾欄位3格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.icon.g_straw_hat"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="22384" name="萬聖夜騎乘掃帚" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以騎乘飄浮空中的萬聖夜掃帚。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_flying_broom_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="30"/>
+	</item>
+	<item id="22388" name="萬聖夜鐮刀" type="Weapon">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以感受到死亡陰影的鐮刀。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_scythe"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="2040"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+	</item>
+	<item id="22390" name="萬聖夜斗篷" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以感受到超凡魅力的斗篷。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add order="0x10" stat="pDef" val="20"/>
+		</for>
+	</item>
+	<item id="22392" name="萬聖夜南瓜帽" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">恐怖的南瓜帽。此物為萬聖夜活動獎勵道具。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_magic_hat"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="22480" name="聖誕少女斗篷" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以同時感受到輕盈與寬鬆的斗篷。此物為聖誕少女的聖誕活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add order="0x10" stat="pDef" val="20"/>
+		</for>
+	</item>
+	<item id="22611" name="新天堂II緣份覺醒派對紀念斗篷" type="Armor">
+		<table name="#Desc">突顯純白之美的斗篷。新天堂II緣份覺醒派對紀念活動所給予的道具。開啟斗篷欄位後便可以進行裝備。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。透過維他命管理者可與帳號內的其他角色共享。</table>
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i02"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+		</for>
+	</item>
 	<item id="22775" name="龍獸衝槌" type="Weapon">
 		<table name="#Desc">龍獸之王使用的雙手鈍器。賦予裝備者特別的力量。可以賦予強健、HP吸收、體力再生其中之一的特殊效果。</table>
 		<set name="icon" val="BranchSys3.Icon.g_drake_maul_i00"/>
@@ -7259,6 +7416,38 @@
 		<for>
 			<add order="0x10" stat="mDef" val="79"/>
 			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30372" name="英雄斗篷" type="Armor">
+		<table name="#Desc">神聖的英雄斗篷。增加HP和CP、魔法防禦力+80、增加所有能力2、增加屬性抗性10。</table>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="50"/>
+			<add order="0x10" stat="pDef" val="60"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30373" name="名譽斗篷" type="Armor">
+		<table name="#Desc">名譽斗篷。增加HP和CP、魔法防禦力+50、增加所有能力1、增加屬性抗性5。</table>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="50"/>
+			<add order="0x10" stat="pDef" val="60"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
 	</item>
 	<item id="30459" name="束縛的革命劍*革命劍" type="Weapon">
@@ -9309,9 +9498,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="38"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9327,9 +9513,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="38"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9345,9 +9528,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="38"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9363,9 +9543,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="42"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9381,9 +9558,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="42"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9399,9 +9573,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="42"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9417,9 +9588,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="46"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9435,9 +9603,6 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="46"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
@@ -9453,11 +9618,53 @@
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
 		<set name="enchant_enabled" val="1"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32617" name="艾迪奧斯襯衫" type="Armor">
+		<table name="#Plus">HP</table>
+		<table name="#Desc">強化4以上時，將會賦予HP最大值增加339的精煉效果。</table>
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32618" name="艾迪奧斯襯衫" type="Armor">
+		<table name="#Plus">MP</table>
+		<table name="#Desc">強化4以上時，將會賦予MP最大值增加182的精煉效果。</table>
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32619" name="艾迪奧斯襯衫" type="Armor">
+		<table name="#Plus">CP</table>
+		<table name="#Desc">強化4以上時，將會賦予CP最大值增加912的精煉效果。</table>
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
 			<enchant order="0x0C" stat="pDef" val="0"/>
 		</for>
 	</item>
@@ -9614,6 +9821,51 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
+	</item>
+	<item id="33480" name="Wi-Fi頭盔" type="Armor">
+		<table name="#Desc">Wi-Fi頭盔。無法交易、丟棄、刪除、出售於個人商店，但可以保管在個人倉庫。透過維他命管理者可在相同帳號內的角色之間轉移。</table>
+		<set name="icon" val="icon.wifi_event_goggle_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="33509" name="命運襯衫" type="Armor">
+		<table name="#Desc">為凱旋英雄所準備的命運襯衫。裝備時，將產生STR+1、INT+1的效果。無法交易/丟棄/刪除，但可以保管在個人倉庫。透過維他命管理者可與帳號內的其他角色共享。</table>
+		<set name="icon" val="icon.shirt_of_destination_event"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+	</item>
+	<item id="33649" name="酷酷林羽毛頭盔" type="Armor">
+		<table name="#Desc">酷酷林羽毛頭盔。無法交易或丟棄。透過維他命管理者可在相同帳號內的角色之間轉移。</table>
+		<set name="icon" val="icon.accessory_tengallon_brown_hat_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="33650" name="席琳魔杖" type="Weapon">
+		<table name="#Desc">席琳魔杖。</table>
+		<set name="icon" val="icon.weapon_apprentices_wand_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="10"/>
+			<set order="0x08" stat="mAtk" val="10"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+			<add order="0x10" stat="accCombat" val="8.0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
 	</item>
 	<item id="33780" name="靈魂彈-R級" type="EtcItem">
 		<table name="#Plus">活動</table>
@@ -11063,6 +11315,54 @@
 			<player level="100"/>
 		</cond>
 	</item>
+	<item id="34623" name="帕格立歐襯衫" type="Armor">
+		<table name="#Desc">蘊含著火之神-帕格立歐氣息的魔法襯衫。維他命道具利用殷海薩襯衫強化卷軸，最多可以強化至+10。強化+7以上時，可以解除異常狀態，並在一段時間內可以使用絕對無敵技能。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_fire"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="34624" name="沙哈襯衫" type="Armor">
+		<table name="#Desc">蘊含著風之神-沙哈氣息的魔法襯衫。維他命道具利用殷海薩襯衫強化卷軸，最多可以強化至+10。強化+7以上時，可以使用可在指定位置開設傳送門之後傳送到該傳送門的傳送技能（無法在奧林匹亞上使用）。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_wind"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="34625" name="伊娃襯衫" type="Armor">
+		<table name="#Desc">蘊含著水之神-伊娃氣息的魔法襯衫。維他命道具利用殷海薩襯衫強化卷軸，最多可以強化至+10。強化+7以上時，可以使用HP、MP、CP恢復技能。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_water"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="34626" name="梅芙襯衫" type="Armor">
+		<table name="#Desc">蘊含著大地之神-梅芙氣息的魔法襯衫。維他命道具利用殷海薩襯衫強化卷軸，最多可以強化至+10。裝備強化+7以上的梅芙襯衫時，增加強化成功機率。（不適用於奧林匹亞）。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_earth"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
 	<item id="34741" name="經驗值葫蘆" type="EtcItem">
 		<table name="#Desc">經驗值葫蘆壺精的禮物。透過副職業大師 「雷亞尼」可以交換成經驗值卷軸。無法交易、丟棄、刪除，但可以保管在個人倉庫。</table>
 		<set name="icon" val="icon.exp_bottle"/>
@@ -11084,6 +11384,15 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
+	</item>
+	<item id="34759" name="學徒頭戴式耳機" type="Armor">
+		<table name="#Desc">頒發給學徒的頭飾。裝備的話，就會出現很氣派的效果，並告知你是個學徒。</table>
+		<set name="icon" val="BranchSys.icon.br_headphone_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hair"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+		<set name="duration" val="4320"/>
 	</item>
 	<item id="34851" name="防具晶體碎片-R" type="EtcItem">
 		<table name="#Desc">透過倉庫管理員可以交換成防具強化卷軸 - R級。</table>
@@ -11188,6 +11497,50 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
+	</item>
+	<item id="34925" name="光之斗篷" type="Armor">
+		<table name="#Desc">象徵名譽和光芒的斗篷。侯爵階級以上才可裝備。增加物理防禦力50、魔法防禦力40、所有能力值+2、降低PVP時所受的傷害5%。可使用城堡返回技能。處於邪惡狀態時無法裝備，而且效果將不生效。</table>
+		<set name="icon" val="icon.amor_goodness_cloak"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="leather"/>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<add order="0x10" stat="pDef" val="50"/>
+		</for>
+	</item>
+	<item id="34926" name="暗之斗篷" type="Armor">
+		<table name="#Desc">象徵貪欲和黑暗的斗篷。侯爵階級以上才可裝備。增加物理防禦力50、魔法防禦力40、所有能力值+2、降低PVP時所受的傷害5%。可使用城堡返回技能。</table>
+		<set name="icon" val="icon.amor_evilness_cloak"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="leather"/>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<add order="0x10" stat="pDef" val="50"/>
+		</for>
+	</item>
+	<item id="34996" name="燦爛的光輝斗篷" type="Armor">
+		<table name="#Desc">象徵名譽和光芒的斗篷。只有城主才可裝備。所有能力值+3、降低PVP時所受的傷害15%。可使用城堡返回技能。處於邪惡狀態時無法裝備，而且效果將不生效。</table>
+		<set name="icon" val="icon.amor_goodness_cloak"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="steel"/>
+		<for>
+			<add order="0x10" stat="mDef" val="80"/>
+			<add order="0x10" stat="pDef" val="100"/>
+		</for>
+	</item>
+	<item id="34997" name="冷冽的黑暗斗篷" type="Armor">
+		<table name="#Desc">象徵貪欲和黑暗的斗篷。只有城主才可裝備。所有能力值+3、降低PVP時所受的傷害15%。可使用城堡返回技能。</table>
+		<set name="icon" val="icon.amor_evilness_cloak"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="steel"/>
+		<for>
+			<add order="0x10" stat="mDef" val="80"/>
+			<add order="0x10" stat="pDef" val="100"/>
+		</for>
 	</item>
 	<item id="34998" name="塔武提單手巨斧" type="Weapon">
 		<table name="#Desc">提煉塔武提的破片之後製造的武器。裝備時，可以使用塔武提的憤怒技能。裝備時，增加攻擊速度約15%、致命攻擊率150、HP最大值25%、物理攻擊力415。PVP時提升所造成的傷害。無法強化、賦予屬性、搜魂、精煉。</table>
@@ -18013,6 +18366,17 @@
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
 	</item>
+	<item id="35291" name="名譽襯衫" type="Armor">
+		<table name="#Desc">名譽襯衫。增加HP465。</table>
+		<set name="icon" val="icon.honor_shirt_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<for>
+			<add order="0x10" stat="pDef" val="60"/>
+		</for>
+	</item>
 	<item id="35293" name="塔武提手鐲" type="Armor">
 		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位5格。</table>
 		<set name="icon" val="icon.accessory_bracelet_of_tauti_i01"/>
@@ -19430,6 +19794,284 @@
 			<player level="100"/>
 		</cond>
 	</item>
+	<item id="35678" name="測試鉋刀" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_stanpid_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35679" name="測試切刃" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_plenitas_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35680" name="測試殺刃" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_bauen_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35681" name="測試復仇者" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_qutram_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35682" name="測試戰爪" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_durga_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1550"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35683" name="測試風暴者" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_crabel_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="2010"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35684" name="測試投弓" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_castron_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="1500"/>
+	</item>
+	<item id="35685" name="測試射靈" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_stilla_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1580"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+		<set name="reuse_delay" val="400"/>
+	</item>
+	<item id="35686" name="測試爆刃" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weaon_serapear_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35687" name="測試術杖" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_pilia_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35688" name="測試報恨者" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_shaelon_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="1080"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35689" name="測試雙刀" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35690" name="測試雙匕首" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="2050"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35691" name="測試雙鈍器" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i10"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="1740"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="element_enabled" val="true"/>
+	</item>
+	<item id="35692" name="怪物用武器" type="Weapon">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">測試用武器。</table>
+		<set name="icon" val="BranchSys2.icon.br_wp_Caladbulg_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="1520"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="35748" name="紅龍帽" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可愛的紅龍帽。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
 	<item id="35929" name="謎樣的戒指" type="Armor">
 		<table name="#Desc">在謎樣的宅邸購買的戒指。可使用60天，而且可以將所選的血盟員召喚到自已的位置。使用冷卻時間為1小時。無法交易/丟棄/個人商店/利用個人商店/參與奧林匹亞。</table>
 		<set name="icon" val="icon.accessory_shiny_couple_ring"/>
@@ -19464,6 +20106,218 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
+	</item>
+	<item id="36207" name="充滿英雄之力的鉋刀" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36208" name="充滿英雄之力的切刃" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36209" name="充滿英雄之力的殺刃" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigsword"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36210" name="充滿英雄之力的復仇者" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36211" name="充滿英雄之力的戰爪" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36212" name="充滿英雄之力的風暴者" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36213" name="充滿英雄之力的投弓" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="500"/>
+		<set name="damage_range" val="0;0;10;0"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="reuse_delay" val="1500"/>
+	</item>
+	<item id="36214" name="充滿英雄之力的射靈" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_infinity_shooter_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="400"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="reuse_delay" val="400"/>
+	</item>
+	<item id="36215" name="充滿英雄之力的爆刃" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_infinity_sword_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36216" name="充滿英雄之力的術杖" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36217" name="充滿英雄之力的報恨者" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="bigblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36218" name="充滿英雄之力的雙刀" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36219" name="充滿英雄之力的雙匕首" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36220" name="充滿英雄之力的雙鈍器" type="Weapon">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">充滿著英雄之力的武器。可適用於所有等級。但必需使用普通 靈魂彈/魔靈彈/祝福的魔靈彈。無法交易/丟棄/利用個人商店，但可利用個人倉庫的道具。2小時限時道具。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualblunt"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;40;120"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="500"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
 	</item>
 	<item id="36279" name="邪教的惡魔之環" type="Armor">
 		<table name="#Desc">安蒂莉雅絲 班 胡爾特給予的惡魔之環。</table>
