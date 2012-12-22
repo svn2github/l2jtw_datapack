@@ -262,6 +262,16 @@
 		<set name="item_skill" val="12873-1" />
 	</item>
 	<!-- R級生命石 -->
+	<item id="18563" name="生命石-R級" type="EtcItem">
+		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的一般礦石。等級85以上的角色可以使用。</table>
+		<set name="icon" val="icon.etc_mineral_general_i03"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<cond msgId="113">
+			<player level="85"/>
+		</cond>
+	</item>
 	<item id="18564" name="中級生命石-R級" type="EtcItem">
 		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的中級礦石。等級85以上的角色可以使用。</table>
 		<set name="icon" val="icon.r_mineral_special_i00"/>
@@ -292,6 +302,16 @@
 			<player level="85"/>
 		</cond>
 	</item>
+	<item id="18568" name="生命石-R95級" type="EtcItem">
+		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的一般礦石。等級95以上的角色可以使用。</table>
+		<set name="icon" val="icon.etc_mineral_general_i03"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<cond msgId="113">
+			<player level="85"/>
+		</cond>
+	</item>
 	<item id="18569" name="中級生命石-R95級" type="EtcItem">
 		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的中級礦石。等級95以上的角色可以使用。</table>
 		<set name="icon" val="icon.r95_mineral_special_i00"/>
@@ -315,6 +335,16 @@
 	<item id="18571" name="特級生命石-R95級" type="EtcItem">
 		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的最高級礦石。等級95以上的角色可以使用。</table>
 		<set name="icon" val="icon.r95_mineral_unique_i00"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<cond msgId="113">
+			<player level="95"/>
+		</cond>
+	</item>
+	<item id="18573" name="生命石-R99級" type="EtcItem">
+		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的一般礦石。等級99以上的角色可以使用。</table>
+		<set name="icon" val="icon.etc_mineral_general_i03"/>
 		<set name="material" val="liquid"/>
 		<set name="weight" val="2"/>
 		<set name="is_stackable" val="true"/>
