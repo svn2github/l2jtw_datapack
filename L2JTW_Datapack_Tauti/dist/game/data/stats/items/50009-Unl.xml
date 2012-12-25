@@ -1,6 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 <!-- 效果尚未實裝的物品-->
+	<item id="17358" name="傲慢皮帶" type="Armor">
+		<set name="icon" val="icon.belt_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="14"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17359" name="傲慢襯衫" type="Armor">
+		<table name="#Desc">強化4以上時，將會賦予HP最大值增加246的精煉效果。</table>
+		<set name="icon" val="icon.tshirt_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="130"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="30"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17360" name="傲慢手鐲" type="Armor">
+		<table name="#Desc">裝備時，可啟用護身符欄位四格。增加MP最大值60。</table>
+		<set name="icon" val="icon.bracelet_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="60"/>
+		</for>
+	</item>
+	<item id="17361" name="傲慢項鍊" type="Armor">
+		<table name="#Desc">傲慢項鍊。可得到MP+26的效果。</table>
+		<set name="icon" val="icon.necklace_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="26"/>
+			<add order="0x10" stat="mDef" val="95"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17362" name="傲慢戒指I" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17363" name="傲慢戒指II" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17364" name="傲慢戒指III" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%、毒攻擊率提升10%效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17365" name="傲慢戒指IV" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%、毒攻擊率提升10%、束縛抗性提升10%的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17366" name="傲慢戒指V" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%、毒攻擊率提升10%、束縛抗性提升10%、束縛攻擊率提升10%的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17367" name="傲慢戒指VI" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%、毒攻擊率提升10%、束縛抗性提升10%、束縛攻擊率提升10%、命中率提升的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17368" name="傲慢戒指VII" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%、毒攻擊率提升10%、束縛抗性提升10%、束縛攻擊率提升10%、命中率提升、攻擊速度加快的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17369" name="傲慢戒指VIII" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%、毒攻擊率提升10%、束縛抗性提升10%、束縛攻擊率提升10%、命中率提升、攻擊速度加快、施法速度提升的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17370" name="傲慢戒指IX" type="Armor">
+		<table name="#Desc">賦予裝備者MP+15、毒抗性提升10%、毒攻擊率提升10%、束縛抗性提升10%、束縛攻擊率提升10%、命中率提升、攻擊速度加快、施法速度提升、致命傷害提升的效果。即使戴上兩個傲慢戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_of_oman"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="15"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
 	<item id="17372" name="投擲兵之槍" type="Weapon">
 		<set name="icon" val="icon.weapon_doomed_dagger_i00"/>
 		<set name="default_action" val="equip"/>
@@ -39,6 +230,138 @@
 			<add order="0x10" stat="mDef" val="108"/>
 			<enchant order="0x0C" stat="mDef" val="0"/>
 		</for>
+	</item>
+	<item id="18551" name="紅色搜魂石-R級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的紅光水晶 - R級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r_soul_stone_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18552" name="綠色搜魂石-R級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的綠光水晶 - R級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r_soul_stone_i01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18553" name="藍色搜魂石-R級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的藍光水晶 - R級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r_soul_stone_i02"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18554" name="紅色搜魂石-R95級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的紅光水晶 - R95級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r95_soul_stone_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18555" name="綠色搜魂石-R95級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的綠光水晶 - R95級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r95_soul_stone_i01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18556" name="藍色搜魂石-R95級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的藍光水晶 - R95級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r95_soul_stone_i02"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18557" name="紅色搜魂石-R99級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的紅光水晶 - R99級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r99_soul_stone_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18558" name="綠色搜魂石-R99級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的綠光水晶 - R99級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r99_soul_stone_i01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18559" name="藍色搜魂石-R99級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的藍光水晶 - R99級。可以賦予武器特殊能力。</table>
+		<set name="icon" val="icon.r99_soul_stone_i02"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18560" name="黃色搜魂石-R99級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的黃光水晶 - R99級。在完成紅色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r99_soul_stone_i03"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18561" name="藍綠色搜魂石-R99級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的藍綠光水晶 - R99級。在完成綠色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r99_soul_stone_i04"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="18562" name="紫色搜魂石-R99級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的紫光水晶 - R99級。在完成藍色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r99_soul_stone_i05"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</item>
 	<item id="18578" name="鎮魂鉋刀" type="Weapon">
 		<table name="#Plus">導引</table>
@@ -5680,6 +6003,67 @@
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
 	</item>
+	<item id="19449" name="巨人手鐲" type="Armor">
+		<table name="#Desc">裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r2_bracelet_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rbracelet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="19502" name="黃色搜魂石-R級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的黃光水晶 - R級。在完成紅色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r_soul_stone_i03"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="19503" name="藍綠色搜魂石-R級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的藍綠光水晶 - R級。在完成綠色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r_soul_stone_i04"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="19504" name="紫色搜魂石-R級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的紫光水晶 - R級。在完成藍色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r_soul_stone_i05"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="19505" name="黃色搜魂石-R95級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的黃光水晶 - R95級。在完成紅色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r95_soul_stone_i03"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="19506" name="藍綠色搜魂石-R95級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的藍綠光水晶 - R95級。在完成綠色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r95_soul_stone_i04"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="19507" name="紫色搜魂石-R95級" type="EtcItem">
+		<table name="#Desc">可吸收靈魂的傳說的紫光水晶 - R95級。在完成藍色搜魂的武器上可以額外賦予特殊能力。</table>
+		<set name="icon" val="icon.r95_soul_stone_i05"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="crystal"/>
+		<set name="weight" val="20"/>
+	</item>
 	<item id="22361" name="翡翠劍" type="Weapon">
 		<table name="#Desc">翡翠劍，單手劍</table>
 		<set name="icon" val="BranchSys3.Icon.g_beam_1h_sword"/>
@@ -5707,88 +6091,6 @@
 		<set name="weight" val="2520"/>
 		<set name="soulshots" val="3"/>
 		<set name="spiritshots" val="3"/>
-	</item>
-	<item id="22366" name="黑熊掌" type="Weapon">
-		<table name="#Desc">看似強悍的黑熊掌型態的格鬥兵器。物理攻擊力極弱。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_hands_of_blackbear"/>
-		<set name="default_action" val="equip"/>
-		<set name="weapon_type" val="dualfist"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="attack_range" val="40"/>
-		<set name="damage_range" val="0;0;32;120"/>
-		<set name="material" val="adamantaite"/>
-		<set name="weight" val="450"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-	</item>
-	<item id="22368" name="黑熊帽" type="Armor">
-		<table name="#Desc">可以感覺到強悍的黑熊帽。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_hat_of_blackbear"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hairall"/>
-		<set name="material" val="wood"/>
-		<set name="weight" val="10"/>
-	</item>
-	<item id="22376" name="華麗海灘遮陽帽" type="Armor">
-		<table name="#Desc">可以徹底防曬的華麗海灘遮陽帽。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.icon.g_beach_cap"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hairall"/>
-		<set name="material" val="cloth"/>
-		<set name="weight" val="10"/>
-	</item>
-	<item id="22378" name="繽紛花漾草帽" type="Armor">
-		<table name="#Desc">用草編製的帽子。會佔用頭飾欄位3格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.icon.g_straw_hat"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hairall"/>
-		<set name="material" val="cloth"/>
-		<set name="weight" val="10"/>
-	</item>
-	<item id="22384" name="萬聖夜騎乘掃帚" type="Armor">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">可以騎乘飄浮空中的萬聖夜掃帚。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_halloween_flying_broom_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="30"/>
-	</item>
-	<item id="22388" name="萬聖夜鐮刀" type="Weapon">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">可以感受到死亡陰影的鐮刀。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_halloween_scythe"/>
-		<set name="default_action" val="equip"/>
-		<set name="weapon_type" val="pole"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="attack_range" val="80"/>
-		<set name="damage_range" val="0;0;66;120"/>
-		<set name="material" val="fine_steel"/>
-		<set name="weight" val="2040"/>
-		<set name="soulshots" val="2"/>
-		<set name="spiritshots" val="2"/>
-	</item>
-	<item id="22390" name="萬聖夜斗篷" type="Armor">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">可以感受到超凡魅力的斗篷。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_halloween_cloack_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="back"/>
-		<set name="material" val="cloth"/>
-		<set name="weight" val="220"/>
-		<for>
-			<add order="0x10" stat="pDef" val="20"/>
-		</for>
-	</item>
-	<item id="22392" name="萬聖夜南瓜帽" type="Armor">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">恐怖的南瓜帽。此物為萬聖夜活動獎勵道具。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_halloween_magic_hat"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hairall"/>
-		<set name="material" val="cloth"/>
-		<set name="weight" val="10"/>
 	</item>
 	<item id="22480" name="聖誕少女斗篷" type="Armor">
 		<table name="#Plus">活動</table>
@@ -6779,6 +7081,17 @@
 			<enchant order="0x0C" stat="mAtk" val="0"/>
 		</for>
 	</item>
+	<item id="22886" name="海賊王 烏山卡戒指" type="Armor">
+		<table name="#Desc">據說對海賊王 烏山卡的靈魂表示哀悼的話，就可以入手的戒指。裝備時，可變身為海賊王烏山卡。</table>
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="material" val="bronze"/>
+		<set name="weight" val="150"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
 	<item id="23078" name="攻城士兵徽章" type="EtcItem">
 		<table name="#Desc">於攻城戰期間內，為了紀念既非攻城方，亦非守城方，獨立自主參與的無名士兵而製作的徽章。無法交易/丟棄，但可以刪除。透過各村莊的謎樣的執事可以換取各種道具為獎勵。</table>
 		<set name="icon" val="icon.etc_badge_black_i00"/>
@@ -7417,6 +7730,84 @@
 			<add order="0x10" stat="mDef" val="79"/>
 			<enchant order="0x0C" stat="mDef" val="0"/>
 		</for>
+	</item>
+	<item id="30357" name="生命靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復HP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i02"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="30358" name="精神靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復MP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="30359" name="鬥志靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復CP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="30360" name="超強力生命靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復HP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i02"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="30361" name="超強力精神靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復MP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="30362" name="超強力鬥志靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復CP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</item>
 	<item id="30372" name="英雄斗篷" type="Armor">
 		<table name="#Desc">神聖的英雄斗篷。增加HP和CP、魔法防禦力+80、增加所有能力2、增加屬性抗性10。</table>
@@ -9476,6 +9867,77 @@
 			<player level="100"/>
 		</cond>
 	</item>
+	<item id="32251" name="無限鐵箭筒" type="EtcItem">
+		<table name="#Desc">內裝用鋼鐵製成的強力箭之箭筒。C級弓使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_fine_steel_arrows_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="arrow"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="c"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32252" name="無限銀箭筒" type="EtcItem">
+		<table name="#Desc">內裝外表鍍銀的鋼鐵箭之箭筒。B級弓使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_silver_arrows_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="arrow"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32253" name="無限米索莉之箭筒" type="EtcItem">
+		<table name="#Desc">內裝外表鍍米索莉的鋼鐵箭之箭筒。A級弓使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="arrow"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32254" name="無限閃耀箭筒" type="EtcItem">
+		<table name="#Desc">內裝材質不明的箭之箭筒。S級弓使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_arrows_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="arrow"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32255" name="無限奧里哈魯根箭筒" type="EtcItem">
+		<table name="#Desc">內裝用奧里哈魯根合金製作的箭之箭筒。R級弓使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="arrow"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32256" name="無限木製弩箭筒" type="EtcItem">
+		<table name="#Desc">內裝用木頭製作的弩箭之箭筒。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="bolt"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
 	<item id="32257" name="無限骨製弩箭筒" type="EtcItem">
 		<table name="#Desc">內裝將骨頭削尖製成的弩箭之箭筒。D級弩使用。</table>
 		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00"/>
@@ -9487,6 +9949,111 @@
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
+	</item>
+	<item id="32258" name="無限鋼鐵弩箭筒" type="EtcItem">
+		<table name="#Desc">內裝用鋼鐵製成的強力弩箭之箭筒。C級弩使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_fine_steel_bolts_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="bolt"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="c"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32259" name="無限銀弩箭筒" type="EtcItem">
+		<table name="#Desc">內裝外表鍍銀的鋼鐵弩箭之箭筒。B級弩使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_silver_bolts_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="bolt"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="b"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32260" name="無限米索莉弩箭筒" type="EtcItem">
+		<table name="#Desc">內裝外表鍍米索莉的鋼鐵弩箭之箭筒。A級弩使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="bolt"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="a"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32261" name="無限閃耀弩箭筒" type="EtcItem">
+		<table name="#Desc">內裝材質不明的弩箭之箭筒。S級弩使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_bolts_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="bolt"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32262" name="無限奧里哈魯根弩箭筒" type="EtcItem">
+		<table name="#Desc">內裝用奧里哈魯根合金製作的弩箭之箭筒。R級弩使用。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="etcitem_type" val="bolt"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="32289" name="奧林匹亞守護勇士的戒指" type="Armor">
+		<table name="#Desc">奧林匹亞守護勇士的戒指。可以裝備30天的限時道具。可得到MP+28的效果。無法交易或丟棄。</table>
+		<set name="icon" val="icon.accessory_ring_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="28"/>
+			<add order="0x10" stat="mDef" val="87"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="32290" name="奧林匹亞守護勇士的項鍊" type="Armor">
+		<table name="#Desc">奧林匹亞守護勇士的項鍊。可以裝備30天的限時道具。可得到MP+57的效果。無法交易或丟棄。</table>
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="57"/>
+			<add order="0x10" stat="mDef" val="174"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="32291" name="奧林匹亞守護勇士的耳環" type="Armor">
+		<table name="#Desc">奧林匹亞守護勇士的耳環。可以裝備30天的限時道具。可得到MP+42的效果。無法交易或丟棄。</table>
+		<set name="icon" val="icon.accessory_earring_of_hero_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="42"/>
+			<add order="0x10" stat="mDef" val="131"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
 	</item>
 	<item id="32608" name="永生襯衫" type="Armor">
 		<table name="#Plus">HP</table>
@@ -9822,13 +10389,18 @@
 			<player level="100"/>
 		</cond>
 	</item>
-	<item id="33480" name="Wi-Fi頭盔" type="Armor">
-		<table name="#Desc">Wi-Fi頭盔。無法交易、丟棄、刪除、出售於個人商店，但可以保管在個人倉庫。透過維他命管理者可在相同帳號內的角色之間轉移。</table>
-		<set name="icon" val="icon.wifi_event_goggle_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hairall"/>
-		<set name="material" val="wood"/>
+	<item id="33475" name="勇氣護符-R級" type="EtcItem">
+		<table name="#Desc">一段時間內，在攻城戰/要塞戰/根據地戰的戰場上死亡時，可就地進行復活（用於等級85~99）。未滿等級85的角色也可使用。</table>
+		<set name="icon" val="icon.etc_charm_of_courage_i05"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</item>
 	<item id="33509" name="命運襯衫" type="Armor">
 		<table name="#Desc">為凱旋英雄所準備的命運襯衫。裝備時，將產生STR+1、INT+1的效果。無法交易/丟棄/刪除，但可以保管在個人倉庫。透過維他命管理者可與帳號內的其他角色共享。</table>
@@ -9838,14 +10410,22 @@
 		<set name="bodypart" val="chest"/>
 		<set name="material" val="crystal"/>
 		<set name="weight" val="130"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</item>
-	<item id="33649" name="酷酷林羽毛頭盔" type="Armor">
-		<table name="#Desc">酷酷林羽毛頭盔。無法交易或丟棄。透過維他命管理者可在相同帳號內的角色之間轉移。</table>
-		<set name="icon" val="icon.accessory_tengallon_brown_hat_i00"/>
+	<item id="33510" name="命運腰帶" type="Armor">
+		<table name="#Desc">為凱旋英雄所準備的命運腰帶。裝備時，將產生放寬負重上限5000的效果。無法交易或丟棄，但可以保管在個人倉庫。透過維他命管理者可與帳號內的其他角色共享。</table>
+		<set name="icon" val="icon.belt_of_destination_event"/>
 		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hairall"/>
-		<set name="material" val="wood"/>
-		<set name="weight" val="10"/>
+		<set name="armor_type" val="light"/>
+		<set name="bodypart" val="waist"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="440"/>
+		<set name="enchant_enabled" val="1"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</item>
 	<item id="33650" name="席琳魔杖" type="Weapon">
 		<table name="#Desc">席琳魔杖。</table>
@@ -11385,15 +11965,6 @@
 			<player level="100"/>
 		</cond>
 	</item>
-	<item id="34759" name="學徒頭戴式耳機" type="Armor">
-		<table name="#Desc">頒發給學徒的頭飾。裝備的話，就會出現很氣派的效果，並告知你是個學徒。</table>
-		<set name="icon" val="BranchSys.icon.br_headphone_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hair"/>
-		<set name="material" val="wood"/>
-		<set name="weight" val="10"/>
-		<set name="duration" val="4320"/>
-	</item>
 	<item id="34851" name="防具晶體碎片-R" type="EtcItem">
 		<table name="#Desc">透過倉庫管理員可以交換成防具強化卷軸 - R級。</table>
 		<set name="icon" val="Branchsys2.icon.event_cubic_a_piece_i01"/>
@@ -11494,6 +12065,50 @@
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="material" val="leather"/>
 		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="34905" name="血盟專用寵物(浣熊)" type="EtcItem">
+		<table name="#Desc">可以召喚培育用血盟寵物（浣熊）的道具。召喚72小時時，可獲得血盟聲望100，並可隨機獲得額外道具。只有加入等級5以上的血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00"/>
+		<set name="default_action" val="skill_maintain"/>
+		<set name="etcitem_type" val="pet_collar"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="10"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="34906" name="血盟專用寵物(白貓)" type="EtcItem">
+		<table name="#Desc">可以召喚培育用血盟寵物（白貓）的道具。召喚72小時時，可獲得血盟聲望100，並可隨機獲得額外道具。只有加入等級5以上的血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00"/>
+		<set name="default_action" val="skill_maintain"/>
+		<set name="etcitem_type" val="pet_collar"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="10"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="34907" name="血盟專用寵物(沙漠小狐)" type="EtcItem">
+		<table name="#Desc">可以召喚培育用血盟寵物（沙漠小狐）的道具。召喚72小時時，可獲得血盟聲望100，並可隨機獲得額外道具。只有加入等級5以上的血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00"/>
+		<set name="default_action" val="skill_maintain"/>
+		<set name="etcitem_type" val="pet_collar"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="10"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="34908" name="對練用血盟寵物" type="EtcItem">
+		<table name="#Desc">可以召喚對練用血盟寵物的道具。在30秒內若將寵物的HP降為0的話，就可獲得血盟聲望50和個人聲望10。只有加入血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00"/>
+		<set name="default_action" val="skill_maintain"/>
+		<set name="etcitem_type" val="pet_collar"/>
+		<set name="material" val="leather"/>
+		<set name="weight" val="10"/>
 		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
 			<player level="100"/>
 		</cond>
@@ -19794,6 +20409,65 @@
 			<player level="100"/>
 		</cond>
 	</item>
+	<item id="35670" name="野獸魔靈彈" type="EtcItem">
+		<table name="#Plus">維因召喚士專用</table>
+		<table name="#Desc">精靈之光加持於寵物/使魔，瞬間對敵人加以強力衝擊。無法交易/丟棄。可在寵物/使魔視窗確認靈魂彈的消耗量。（可在主人的道具清單內使用。）</table>
+		<set name="icon" val="BranchSys.icon.br_beast_soul_shot_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="35671" name="祝福的野獸魔靈彈" type="EtcItem">
+		<table name="#Plus">維因召喚士專用</table>
+		<table name="#Desc">上級精靈之光加持於寵物/使魔，瞬間強化魔法的威力。非常輕盈。無法交易/丟棄。可在寵物/使魔視窗確認靈魂彈的消耗量。（可在主人的道具清單內使用。）</table>
+		<set name="icon" val="BranchSys.icon.br_blessed_beast_spirit_shot_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="35675" name="高級生命靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復HP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i02"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="35676" name="高級精神靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復MP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="35677" name="高級鬥志靈藥-R級" type="EtcItem">
+		<table name="#Desc">恢復CP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="elixir"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
 	<item id="35678" name="測試鉋刀" type="Weapon">
 		<table name="#Plus">測試用</table>
 		<table name="#Desc">測試用（非GD2.0 改版內容）</table>
@@ -20063,15 +20737,6 @@
 		<set name="soulshots" val="1"/>
 		<set name="spiritshots" val="1"/>
 	</item>
-	<item id="35748" name="紅龍帽" type="Armor">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">可愛的紅龍帽。</table>
-		<set name="icon" val="icon.etc_ev_draco_hair_acc"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="hairall"/>
-		<set name="material" val="wood"/>
-		<set name="weight" val="10"/>
-	</item>
 	<item id="35929" name="謎樣的戒指" type="Armor">
 		<table name="#Desc">在謎樣的宅邸購買的戒指。可使用60天，而且可以將所選的血盟員召喚到自已的位置。使用冷卻時間為1小時。無法交易/丟棄/個人商店/利用個人商店/參與奧林匹亞。</table>
 		<set name="icon" val="icon.accessory_shiny_couple_ring"/>
@@ -20318,6 +20983,45 @@
 		<set name="weight" val="500"/>
 		<set name="soulshots" val="1"/>
 		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="36254" name="巨蟻女王的靈魂戒指" type="Armor">
+		<table name="#Desc">賦有巨蟻女王靈魂的戒指，賦予裝備者MP+31、提升中毒/出血抗性20%、毒/出血攻擊率提升20%、增加物理致命傷害15%的效果。即使戴上兩個巨蟻女王的靈魂戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+		</for>
+	</item>
+	<item id="36255" name="奧爾芬的靈魂耳環" type="Armor">
+		<table name="#Desc">賦有奧爾芬靈魂的耳環，賦予裝備者MP+46、提升睡眠/衝擊抗性20%、睡眠/衝擊攻擊率提升20%、治癒量提升10%的效果。即使戴上兩個奧爾芬耳環也只能發揮一個的特殊效果</table>
+		<set name="icon" val="icon.accessory_earring_of_orfen_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+		</for>
+	</item>
+	<item id="36257" name="莉莉絲的靈魂項鍊" type="Armor">
+		<table name="#Desc">賦有莉莉絲靈魂的項鍊，賦予裝備者MP+62、提升精神/麻痺抗性20%、精神/麻痺攻擊率提升20%、增加魔法致命攻擊率20的效果。</table>
+		<set name="icon" val="icon.accessary_blessed_lilith"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="r"/>
+		<set name="material" val="gold"/>
+		<set name="weight" val="150"/>
+		<set name="enchant_enabled" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+		</for>
 	</item>
 	<item id="36279" name="邪教的惡魔之環" type="Armor">
 		<table name="#Desc">安蒂莉雅絲 班 胡爾特給予的惡魔之環。</table>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="16032" levels="1" name="裴基成天堂II">
+		<set name="isMagic" val="2" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9500" levels="1" name="回聲水晶-永遠的冒險">
+		<set name="isMagic" val="2" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9501" levels="1" name="回聲水晶-戰爭的開端">
+		<set name="isMagic" val="2" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+	</skill>
+	<skill id="9502" levels="1" name="回聲水晶-Reload">
+		<set name="isMagic" val="2" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+	</skill>
+</list>

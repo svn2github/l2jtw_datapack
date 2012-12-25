@@ -901,4 +901,167 @@
 			</and>
 		</cond>
 	</item>
+	<item id="22366" name="黑熊掌" type="Weapon">
+		<table name="#Desc">看似強悍的黑熊掌型態的格鬥兵器。物理攻擊力極弱。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hands_of_blackbear"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="attack_range" val="40"/>
+		<set name="damage_range" val="0;0;32;120"/>
+		<set name="material" val="adamantaite"/>
+		<set name="weight" val="450"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="22368" name="黑熊帽" type="Armor">
+		<table name="#Desc">可以感覺到強悍的黑熊帽。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hat_of_blackbear"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="22376" name="華麗海灘遮陽帽" type="Armor">
+		<table name="#Desc">可以徹底防曬的華麗海灘遮陽帽。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.icon.g_beach_cap"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="22378" name="繽紛花漾草帽" type="Armor">
+		<table name="#Desc">用草編製的帽子。會佔用頭飾欄位3格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.icon.g_straw_hat"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="22384" name="萬聖夜騎乘掃帚" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以騎乘飄浮空中的萬聖夜掃帚。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_flying_broom_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="30"/>
+		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</item>
+	<item id="22388" name="萬聖夜鐮刀" type="Weapon">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以感受到死亡陰影的鐮刀。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_scythe"/>
+		<set name="default_action" val="equip"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="attack_range" val="80"/>
+		<set name="damage_range" val="0;0;66;120"/>
+		<set name="material" val="fine_steel"/>
+		<set name="weight" val="2040"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+	</item>
+	<item id="22390" name="萬聖夜斗篷" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以感受到超凡魅力的斗篷。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add order="0x10" stat="pDef" val="20"/>
+		</for>
+	</item>
+	<item id="22392" name="萬聖夜南瓜帽" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">恐怖的南瓜帽。此物為萬聖夜活動獎勵道具。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_magic_hat"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="33480" name="Wi-Fi頭盔" type="Armor">
+		<table name="#Desc">Wi-Fi頭盔。無法交易、丟棄、刪除、出售於個人商店，但可以保管在個人倉庫。透過維他命管理者可在相同帳號內的角色之間轉移。</table>
+		<set name="icon" val="icon.wifi_event_goggle_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="33649" name="酷酷林羽毛頭盔" type="Armor">
+		<table name="#Desc">酷酷林羽毛頭盔。無法交易或丟棄。透過維他命管理者可在相同帳號內的角色之間轉移。</table>
+		<set name="icon" val="icon.accessory_tengallon_brown_hat_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="34065" name="回聲水晶-耀眼的你" type="EtcItem">
+		<table name="#Desc">演奏裴基成之歌「耀眼的你」的回聲水晶。使用1次後就消失。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i00"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="16032-1" />
+	</item>
+	<item id="34759" name="學徒頭戴式耳機" type="Armor">
+		<table name="#Desc">頒發給學徒的頭飾。裝備的話，就會出現很氣派的效果，並告知你是個學徒。</table>
+		<set name="icon" val="BranchSys.icon.br_headphone_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hair"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+		<set name="duration" val="4320"/>
+	</item>
+	<item id="35705" name="回聲水晶-永遠的冒險(第5屆 Fantic  Award)" type="EtcItem">
+		<table name="#Desc">第5屆天堂II Fantic  Award 綜合大獎獲獎作品。藉由泰恩伺服器內的「Orange Elf」的作品，在輕鬆愉快的旋律中可以感受到天堂II的冒險精神。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i03"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9500-1" />
+	</item>
+	<item id="35706" name="回聲水晶-戰爭的開端(第5屆 Fantic  Award)" type="EtcItem">
+		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由史坦瑞斯伺服器內的「蒼術」的作品，展現了天堂II夢幻世界觀的演奏曲。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i04"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9501-1" />
+	</item>
+	<item id="35707" name="回聲水晶-Reload(第5屆 Fantic  Award)" type="EtcItem">
+		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由黎歐納伺服器內的「Suhr21」的作品，利用吉他即興重複段展現了工整卻帶有緊張感的演奏曲。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i01"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9502-1" />
+	</item>
+	<item id="35748" name="紅龍帽" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可愛的紅龍帽。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<set name="weight" val="10"/>
+	</item>
 </list>
