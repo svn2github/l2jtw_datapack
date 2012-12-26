@@ -10,6 +10,8 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21259-1;23334-1;23333-1" />
 		<set name="time" val="47520" />
 	</item>
 	<item id="22201" type="EtcItem" name="Lantern Agathion Pack - Event">
@@ -893,6 +895,8 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21266-1;23336-1;23335-1" />
 		<set name="time" val="47520" />
 	</item>
 	<item id="22288" type="EtcItem" name="Juju Agathion Pack - Event">

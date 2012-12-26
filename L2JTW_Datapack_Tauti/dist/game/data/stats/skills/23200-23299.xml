@@ -157,9 +157,12 @@
 	</skill>
 	<skill id="23216" levels="1" name="Granny Tiger Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1585" />
+		</cond>
 	</skill>
 	<skill id="23217" levels="1" name="Granny Tiger Agathion Special Skill - Fundamentals">
 		<!-- For 1 minute(s), 50% of the standard short-range physical damage inflicted on the enemy is recovered as HP. Reuse delay is 1 hours. -->
@@ -171,23 +174,32 @@
 	</skill>
 	<skill id="23218" levels="1" name="Flower Fairy Spirit Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1586" />
+		</cond>
 	</skill>
 	<skill id="23219" levels="1" name="Flower Fairy Spirit Agathion Special Skill - Fairy's Blessing">
 		<!-- For 5 minutes, increases Atk. Spd. by 30% and all attribute defense by 10. Reuse delay is 1 hours. -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</skill>
 	<skill id="23220" levels="1" name="Cheerleader Orodriel Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1587" />
+		</cond>
 	</skill>
 	<skill id="23221" levels="1" name="Cheerleader Orodriel Agathion Special Skill - Joy of Cheering">
 		<!-- For 20 minutes, increases Casting Spd. by 10% and Atk. Spd. by 10%. Decreases MP consumption for skill use by 30%. Reuse delay is 2 hours. -->
@@ -199,9 +211,12 @@
 	</skill>
 	<skill id="23222" levels="1" name="Cheerleader Lana Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1588" />
+		</cond>
 	</skill>
 	<skill id="23223" levels="1" name="Cheerleader Lana Agathion Special Skill - Joy of Cheering">
 		<!-- For 20 minutes, increases Casting Spd. by 10% and Atk. Spd. by 10%. Decreases MP consumption for skill use by 30%. Reuse delay is 2 hours. -->
@@ -213,9 +228,12 @@
 	</skill>
 	<skill id="23224" levels="1" name="Cheerleader Naonin Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1589" />
+		</cond>
 	</skill>
 	<skill id="23225" levels="1" name="Cheerleader Naonin Agathion Special Skill - Joy of Cheering">
 		<!-- For 20 minutes, increases Casting Spd. by 10% and Atk. Spd. by 10%. Decreases MP consumption for skill use by 30%. Reuse delay is 2 hours. -->
@@ -227,9 +245,12 @@
 	</skill>
 	<skill id="23226" levels="1" name="Cheerleader Mortia Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1590" />
+		</cond>
 	</skill>
 	<skill id="23227" levels="1" name="Cheerleader Mortia Agathion Special Skill - Joy of Cheering">
 		<!-- For 20 minutes, increases Casting Spd. by 10% and Atk. Spd. by 10%. Decreases MP consumption for skill use by 30%. Reuse delay is 2 hours. -->
@@ -241,9 +262,12 @@
 	</skill>
 	<skill id="23228" levels="1" name="Cheerleader Kaurin Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1591" />
+		</cond>
 	</skill>
 	<skill id="23229" levels="1" name="Cheerleader Kaurin Agathion Special Skill - Joy of Cheering">
 		<!-- For 20 minutes, increases Casting Spd. by 10% and Atk. Spd. by 10%. Decreases MP consumption for skill use by 30%. Reuse delay is 2 hours. -->
@@ -255,9 +279,12 @@
 	</skill>
 	<skill id="23230" levels="1" name="Cheerleader Meruril Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1592" />
+		</cond>
 	</skill>
 	<skill id="23231" levels="1" name="Cheerleader Meruril Agathion Special Skill - Joy of Cheering">
 		<!-- For 20 minutes, increases Casting Spd. by 10% and Atk. Spd. by 10%. Decreases MP consumption for skill use by 30%. Reuse delay is 2 hours. -->
@@ -269,9 +296,12 @@
 	</skill>
 	<skill id="23232" levels="1" name="Handy Agathion Cute Trick">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1593" />
+		</cond>
 	</skill>
 	<skill id="23233" levels="1" name="Handy Agathion Special Skill - Halloween's Blessing">
 		<!-- For 1 hour, increases Max HP by 40% and Max MP by 40%. Increases Atk. Spd. by 20% and P. Atk. by 10%. Increases resistance to darkness by 20. Reuse delay is 2 hours. -->
@@ -282,28 +312,42 @@
 		<set name="reuseDelay" val="7200000" />
 	</skill>
 	<skill id="23234" levels="1" name="Singer Dancer Agathion Cute Trick">
-		<!-- You can see the summoned spirit's cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1594" />
+		</cond>
 	</skill>
 	<skill id="23235" levels="1" name="Singer Dancer Agathion Special Skill - Song of Hunter">
 		<!-- Increases critical attack rate by 100% for 2 minutes. Reuse delay 20 minutes. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A2" />
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</skill>
 	<skill id="23236" levels="1" name="Zaken Spirit Sword Cute Trick">
-		<!-- You can see the summoned spirit's cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1595" />
+		</cond>
 	</skill>
 	<skill id="23237" levels="1" name="Zaken Spirit Sword Special Skill - Song of the Sword">
 		<!-- "For 30 minutes, increases Max HP by 40% and Max MP by 40%. Increases Atk. Spd. by 20% and P. Atk. by 10%. Reuse delay is 2 hours." -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A2" />
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</skill>
 	<skill id="23238" levels="1" name="Master's Blessing - Eye of Pa'agrio">
 		<!-- High Five Skill -->
@@ -541,22 +585,31 @@
 		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="23250" levels="1" name="Kau Agathion Cute Trick">
-		<!-- You can see the summoned spirit's cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1596" />
+		</cond>
 	</skill>
 	<skill id="23251" levels="1" name="Tow Agathion Cute Trick">
-		<!-- You can see the summoned spirit's cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1597" />
+		</cond>
 	</skill>
 	<skill id="23252" levels="1" name="Griffin Agathion Cute Trick">
-		<!-- You can see the summoned spirit's cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1598" />
+		</cond>
 	</skill>
 	<skill id="23253" levels="1" name="Master's Blessing - Focus">
 		<!-- High Five Skill -->

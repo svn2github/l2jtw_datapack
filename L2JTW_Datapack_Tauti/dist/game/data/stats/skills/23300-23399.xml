@@ -42,21 +42,31 @@
 	</skill>
 	<skill id="23305" levels="1" name="Zinenze Agathion - Yunbokhwan">
 		<!-- Restores all HP/MP/CP and becomes invincible for 5 seconds. But can only be used when HP is below 30%. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A2" />
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</skill>
 	<skill id="23306" levels="1" name="Zinenze Agathion Cute Trick">
-		<!-- Able to see the summoned Zinenze perform cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1599" />
+		</cond>
 	</skill>
 	<skill id="23307" levels="1" name="Enze Agathion Cute Trick">
-		<!-- Able to see the summoned Enze perform cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1600" />
+		</cond>
 	</skill>
 	<skill id="23308" levels="1" name="Totem's Energy - Body">
 		<!-- Increases HP Recovery Bonus by 30% and decreases damage from the topography by 80% through the mysterious totem's energy. The energy disappears when the totem becomes out of range. -->
@@ -231,27 +241,41 @@
 	</skill>
 	<skill id="23333" levels="1" name="Agathion's New Year's Wish">
 		<!-- Description: Through the power of the Lantern Agathion, Vitality is maintained and not consumed. -->
-		<set name="operateType" val="P" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="target" val="TARGET_NONE" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A2" />
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</skill>
 	<skill id="23334" levels="1" name="Lantern Agathion Cute Trick">
-		<!-- Description: Able to see the summoned Lantern's perform cute tricks. -->
-		<set name="operateType" val="P" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="target" val="TARGET_NONE" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1604" />
+		</cond>
 	</skill>
 	<skill id="23335" levels="1" name="Agathion's New Year's Wish">
 		<!-- Description: Vitality is maintained with the power of Juju Agathion. -->
-		<set name="operateType" val="P" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="target" val="TARGET_NONE" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A2" />
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
 	</skill>
 	<skill id="23336" levels="1" name="Juju Agathion Cute Trick">
-		<!-- Description: Summoned Juju performs cute tricks. -->
-		<set name="operateType" val="P" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="target" val="TARGET_NONE" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="1605" />
+		</cond>
 	</skill>
 	<skill id="23337" levels="1" name="Juju Agathion's Gift 1">
 		<set name="operateType" val="P" />

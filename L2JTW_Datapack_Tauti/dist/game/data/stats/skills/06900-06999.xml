@@ -112,21 +112,33 @@
 	</skill>
 	<skill id="6916" levels="1" name="Antharas's Cute Tricks">
 		<!-- You can see the summoned spirit's cute tricks. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16077" />
+		</cond>
 	</skill>
 	<skill id="6917" levels="1" name="Kanna's Splendor">
 		<!-- Able to see the summoned spirit's splendor. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16078" />
+		</cond>
 	</skill>
 	<skill id="6918" levels="1" name="Kallesin's Splendor">
 		<!-- Able to see the summoned spirit's splendor. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16079" />
+		</cond>
 	</skill>
 	<skill id="6919" levels="1" name="Challenge Acceptance">
 		<!-- none -->

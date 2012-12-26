@@ -162,23 +162,30 @@
 	</skill>
 	<skill id="8521" levels="1" name="Release Seal on Agathion - Antharas">
 		<!-- Removes the seal of Agathion. -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
 		<set name="hitTime" val="3000" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
 		<set name="npcId" val="16077" />
 	</skill>
 	<skill id="8522" levels="1" name="Release Seal on Agathion - Nevit's Messenger Kanna">
 		<!-- Removes the seal of Agathion. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="npcId" val="16078" />
 	</skill>
 	<skill id="8523" levels="1" name="Release Seal on Agathion - Guardian of the Dawn Kallesin">
 		<!-- Removes the seal of Agathion. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="npcId" val="16079" />
 	</skill>
 	<skill id="8524" levels="1" name="Hero's Holy Attack">
 		<!-- Divine attck is increased by 250. -->
