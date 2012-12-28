@@ -9,15 +9,6 @@
 		<set name="hitTime" val="3000"/>
 		<set name="npcId" val="16080"/>
 	</skill>
-	<skill id="8528" levels="1" name="壺精封印解除">
-		<table name="#Desc-LV1">解除壺精的封印。</table>
-		<set name="isMagic" val="2"/>
-		<set name="target" val="TARGET_SELF"/>
-		<set name="skillType" val="AGATHION"/>
-		<set name="operateType" val="A1"/>
-		<set name="hitTime" val="3000"/>
-		<set name="npcId" val="16081"/>
-	</skill>
 	<skill id="9307" levels="1" name="壺精封印解除">
 		<table name="#Desc-LV1">解除壺精的封印。</table>
 		<set name="isMagic" val="2"/>
