@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-<!-- 箭/弩箭/結晶/寶石/靈魂彈/魔靈彈/移動卷軸/強化卷軸/生命石/紋章染料/假髮 -->
+<!-- 箭/弩箭/結晶/寶石/靈魂彈/魔靈彈/移動卷軸/強化卷軸/生命石/紋章染料/假髮/回聲水晶/頭飾 -->
 	<!-- 箭/弩箭 -->
 	<item id="18550" name="奧里哈魯根箭" type="EtcItem">
 		<table name="#Desc">用奧里哈魯根合金製成的弓箭。R級弓使用。</table>
@@ -901,6 +901,52 @@
 			</and>
 		</cond>
 	</item>
+	<!-- 回聲水晶 -->
+	<item id="34065" name="回聲水晶-耀眼的你" type="EtcItem">
+		<table name="#Desc">演奏裴基成之歌「耀眼的你」的回聲水晶。使用1次後就消失。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i00"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="16032-1" />
+	</item>
+	<item id="35705" name="回聲水晶-永遠的冒險(第5屆 Fantic  Award)" type="EtcItem">
+		<table name="#Desc">第5屆天堂II Fantic  Award 綜合大獎獲獎作品。藉由泰恩伺服器內的「Orange Elf」的作品，在輕鬆愉快的旋律中可以感受到天堂II的冒險精神。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i03"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9500-1" />
+	</item>
+	<item id="35706" name="回聲水晶-戰爭的開端(第5屆 Fantic  Award)" type="EtcItem">
+		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由史坦瑞斯伺服器內的「蒼術」的作品，展現了天堂II夢幻世界觀的演奏曲。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i04"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9501-1" />
+	</item>
+	<item id="35707" name="回聲水晶-Reload(第5屆 Fantic  Award)" type="EtcItem">
+		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由黎歐納伺服器內的「Suhr21」的作品，利用吉他即興重複段展現了工整卻帶有緊張感的演奏曲。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i01"/>
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="reuse_delay" val="20000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9502-1" />
+	</item>
+	<!-- 頭飾 -->
 	<item id="22366" name="黑熊掌" type="Weapon">
 		<table name="#Desc">看似強悍的黑熊掌型態的格鬥兵器。物理攻擊力極弱。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
 		<set name="icon" val="BranchSys3.Icon.g_hands_of_blackbear"/>
@@ -1002,17 +1048,6 @@
 		<set name="material" val="wood"/>
 		<set name="weight" val="10"/>
 	</item>
-	<item id="34065" name="回聲水晶-耀眼的你" type="EtcItem">
-		<table name="#Desc">演奏裴基成之歌「耀眼的你」的回聲水晶。使用1次後就消失。</table>
-		<set name="icon" val="icon.etc_echo_crystal_i00"/>
-		<set name="default_action" val="skill_reduce" />
-		<set name="material" val="paper"/>
-		<set name="weight" val="10"/>
-		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="16032-1" />
-	</item>
 	<item id="34759" name="學徒頭戴式耳機" type="Armor">
 		<table name="#Desc">頒發給學徒的頭飾。裝備的話，就會出現很氣派的效果，並告知你是個學徒。</table>
 		<set name="icon" val="BranchSys.icon.br_headphone_i00"/>
@@ -1021,39 +1056,6 @@
 		<set name="material" val="wood"/>
 		<set name="weight" val="10"/>
 		<set name="duration" val="4320"/>
-	</item>
-	<item id="35705" name="回聲水晶-永遠的冒險(第5屆 Fantic  Award)" type="EtcItem">
-		<table name="#Desc">第5屆天堂II Fantic  Award 綜合大獎獲獎作品。藉由泰恩伺服器內的「Orange Elf」的作品，在輕鬆愉快的旋律中可以感受到天堂II的冒險精神。</table>
-		<set name="icon" val="icon.etc_echo_crystal_i03"/>
-		<set name="default_action" val="skill_reduce" />
-		<set name="material" val="paper"/>
-		<set name="weight" val="10"/>
-		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="9500-1" />
-	</item>
-	<item id="35706" name="回聲水晶-戰爭的開端(第5屆 Fantic  Award)" type="EtcItem">
-		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由史坦瑞斯伺服器內的「蒼術」的作品，展現了天堂II夢幻世界觀的演奏曲。</table>
-		<set name="icon" val="icon.etc_echo_crystal_i04"/>
-		<set name="default_action" val="skill_reduce" />
-		<set name="material" val="paper"/>
-		<set name="weight" val="10"/>
-		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="9501-1" />
-	</item>
-	<item id="35707" name="回聲水晶-Reload(第5屆 Fantic  Award)" type="EtcItem">
-		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由黎歐納伺服器內的「Suhr21」的作品，利用吉他即興重複段展現了工整卻帶有緊張感的演奏曲。</table>
-		<set name="icon" val="icon.etc_echo_crystal_i01"/>
-		<set name="default_action" val="skill_reduce" />
-		<set name="material" val="paper"/>
-		<set name="weight" val="10"/>
-		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="9502-1" />
 	</item>
 	<item id="35748" name="紅龍帽" type="Armor">
 		<table name="#Plus">活動</table>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="8527" levels="1" name="壺精封印解除-瑪格門妖精">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16080"/>
+	</skill>
+	<skill id="8528" levels="1" name="壺精封印解除">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16081"/>
+	</skill>
+	<skill id="9307" levels="1" name="壺精封印解除">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16083"/>
+	</skill>
+	<skill id="9308" levels="1" name="壺精封印解除">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16084"/>
+	</skill>
+	<skill id="9309" levels="1" name="壺精封印解除">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16085"/>
+	</skill>
+	<skill id="9310" levels="1" name="壺精封印解除">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16086"/>
+	</skill>
+	<skill id="9311" levels="1" name="壺精撒嬌">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<cond msgId="2292">
+			<player agathionId="16083"/>
+		</cond>
+	</skill>
+	<skill id="9312" levels="1" name="壺精撒嬌">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<cond msgId="2292">
+			<player agathionId="16084"/>
+		</cond>
+	</skill>
+	<skill id="9313" levels="1" name="壺精撒嬌">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<cond msgId="2292">
+			<player agathionId="16085"/>
+		</cond>
+	</skill>
+	<skill id="9314" levels="1" name="壺精撒嬌">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<cond msgId="2292">
+			<player agathionId="16086"/>
+		</cond>
+	</skill>
+	<skill id="9407" levels="1" name="壺精封印解除-張熙珍">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="npcId" val="16088" />
+	</skill>
+	<skill id="9408" levels="1" name="壺精封印解除-張赫">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="npcId" val="16089" />
+	</skill>
+	<skill id="9409" levels="1" name="壺精封印解除-金秀路">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="npcId" val="16090" />
+	</skill>
+	<skill id="9410" levels="1" name="壺精封印解除-朴宰范">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="npcId" val="16091" />
+	</skill>
+	<skill id="9411" levels="1" name="壺精封印解除-金信英">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="npcId" val="16092" />
+	</skill>
+	<skill id="9412" levels="1" name="壺精撒嬌-張熙珍">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16088" />
+		</cond>
+	</skill>
+	<skill id="9413" levels="1" name="壺精撒嬌-張赫">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16089" />
+		</cond>
+	</skill>
+	<skill id="9414" levels="1" name="壺精撒嬌-金秀路">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16090" />
+		</cond>
+	</skill>
+	<skill id="9415" levels="1" name="壺精撒嬌-朴宰范">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16091" />
+		</cond>
+	</skill>
+	<skill id="9416" levels="1" name="壺精撒嬌-金信英">
+		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<cond msgId="2292">
+			<player agathionId="16092" />
+		</cond>
+	</skill>
+	<skill id="9472" levels="1" name="壺精封印解除-火花精靈">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16093"/>
+	</skill>
+	<skill id="9531" levels="1" name="張熙珍壺精的祝福的返回">
+		<table name="#Desc-LV1">可以使用祝福的返回技能。使用冷卻時間為1小時。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="9533" levels="1" name="張赫壺精的祝福的返回">
+		<table name="#Desc-LV1">可以使用祝福的返回技能。使用冷卻時間為1小時。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="9535" levels="1" name="金秀路壺精的祝福的返回">
+		<table name="#Desc-LV1">可以使用祝福的返回技能。使用冷卻時間為1小時。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="9537" levels="1" name="朴宰范壺精的祝福的返回">
+		<table name="#Desc-LV1">可以使用祝福的返回技能。使用冷卻時間為1小時。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="9539" levels="1" name="金信英壺精的祝福的返回">
+		<table name="#Desc-LV1">可以使用祝福的返回技能。使用冷卻時間為1小時。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="13345" levels="1" name="壺精封印解除-泰爾錫之光">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16082"/>
+	</skill>
+	<skill id="13346" levels="1" name="壺精封印-泰爾錫之光">
+		<table name="#Desc-LV1">封印壺精。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="0" />
+	</skill>
+	<skill id="13347" levels="1" name="泰爾錫之手">
+		<table name="#Desc-LV1">利用泰爾錫之手，將光芒的破片推擠至後方。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="13375" levels="1" name="壺精封印解除-經驗值葫蘆">
+		<table name="#Desc-LV1">解除經驗值葫蘆壺精的封印。使用技能時，消耗殘存魔力10。只能在等級85以上主職業狀態下使用。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16087"/>
+	</skill>
+	<skill id="13376" levels="1" name="經驗值葫蘆神聖之力">
+		<table name="#Desc-LV1">在得到神聖力量的狀態下獲得一定經驗值的話，就可以領取壺精的禮物。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="13380" levels="1" name="壺精封印-經驗值葫蘆">
+		<table name="#Desc-LV1">封印經驗值葫蘆壺精。使用技能時，消耗殘存魔力5。</table>
+		<set name="isMagic" val="2" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="0" />
+	</skill>
+	<skill id="13383" levels="1" name="壺精封印中">
+		<table name="#Desc-LV1">當解除裝備中的壺精手鐲時，在封印召喚出來的壺精後，接下來的10秒內，將無法得到經驗值葫蘆的神聖力量。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="14102" levels="1" name="壺精聰明伶俐-瑪格門妖精">
+		<table name="#Desc-LV1">可欣賞召喚精靈的逗人模樣。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<cond msgId="2292">
+			<player agathionId="16080" />
+		</cond>
+	</skill>
+	<skill id="14103" levels="1" name="壺精回歸-瑪格門妖精">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="15053" levels="1" name="帕格立歐之手">
+		<table name="#Desc-LV1">利用帕格立歐的援手提升紅龍蛋的溫度。用於小型紅龍蛋的話，可以提升溫度1~10度；用於大型紅龍蛋的話，可以提升溫度0.1~1.0。需要在召喚火花精靈壺精的狀態下才可使用。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="15054" levels="1" name="孵化">
+		<table name="#Desc-LV1">試圖孵化處於可孵化狀態的紅龍蛋。需要在召喚火花精靈壺精的狀態下才可使用。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="21273" levels="7" name="壺精封印解除-巴拉卡斯">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<table name="#NID"> 1606 1607 1608 1609 1610 1611 1612 </table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="#NID"/>
+	</skill>
+	<skill id="21274" levels="6" name="進化開始">
+		<table name="#Desc-LV1">透過進化的傳達者所移動到達的場所中，可以以一定的機率進化為Lv2壺精。使用冷卻時間為24小時。</table>
+		<table name="#Desc-LV2">透過進化的傳達者所移動到達的場所中，可以以一定的機率進化為Lv3壺精。使用冷卻時間為24小時。</table>
+		<table name="#Desc-LV3">透過進化的傳達者所移動到達的場所中，可以以一定的機率進化為Lv4壺精。使用冷卻時間為24小時。</table>
+		<table name="#Desc-LV4">透過進化的傳達者所移動到達的場所中，可以以一定的機率進化為Lv5壺精。使用冷卻時間為24小時。</table>
+		<table name="#Desc-LV5">透過進化的傳達者所移動到達的場所中，可以以一定的機率進化為Lv6壺精。使用冷卻時間為24小時。</table>
+		<table name="#Desc-LV6">透過進化的傳達者所移動到達的場所中，可以以一定的機率進化為Lv7壺精。使用冷卻時間為24小時。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+	<skill id="23346" levels="7" name="巴拉卡斯壺精聰明伶俐">
+		<table name="#Desc-LV1">可欣賞召喚巴拉卡斯的逗人模樣。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+	</skill>
+	<skill id="23347" levels="7" name="巴拉卡斯壺精特殊技能-巴拉卡斯的祝福">
+		<table name="#Desc-LV2">藉由巴拉卡斯的祝福，增加HP/MP/CP最大值10，火屬性攻擊力5、對火屬性攻擊的抗性5。</table>
+		<table name="#Desc-LV3">藉由巴拉卡斯的祝福，增加HP/MP/CP最大值20，火屬性攻擊力10、對火屬性攻擊的抗性10。</table>
+		<table name="#Desc-LV4">藉由巴拉卡斯的祝福，增加HP/MP/CP最大值20，火屬性攻擊力15、對火屬性攻擊的抗性15。</table>
+		<table name="#Desc-LV5">藉由巴拉卡斯的祝福，增加HP/MP/CP最大值30，火屬性攻擊力20、對火屬性攻擊的抗性20。</table>
+		<table name="#Desc-LV6">藉由巴拉卡斯的祝福，增加HP/MP/CP最大值30，火屬性攻擊力25、對火屬性攻擊的抗性25。</table>
+		<table name="#Desc-LV7">藉由巴拉卡斯的祝福，增加HP/MP/CP最大值60，火屬性攻擊力30、對火屬性攻擊的抗性30。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<cond msg="很抱歉，目前這個技能的效果/功能尚未實裝。">
+			<player level="100"/>
+		</cond>
+	</skill>
+</list>

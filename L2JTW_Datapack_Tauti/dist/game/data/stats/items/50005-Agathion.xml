@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<!-- 壺精手鐲 -->
+	<item id="17380" name="妖精壺精手鐲" type="Armor">
+		<table name="#Desc">裝備的話，可以召喚妖精壺精。</table>
+		<set name="icon" val="icon.agathion_magmeld_teleport"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;8527-1;14102-1;14103-1"/>
+	</item>
+	<item id="22394" name="壺精封印手鐲-巴拉卡斯" type="Armor">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">可以召喚等級1巴拉卡斯壺精的手鐲。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;21273-1;23346-1;23347-1;21274-1"/>
+	</item>
+	<item id="22395" name="壺精封印手鐲-巴拉卡斯" type="Armor">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">可以召喚等級2巴拉卡斯壺精的手鐲。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;21273-2;23346-2;23347-2;21274-2"/>
+	</item>
+	<item id="22396" name="壺精封印手鐲-巴拉卡斯" type="Armor">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">可以召喚等級3巴拉卡斯壺精的手鐲。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;21273-3;23346-3;23347-3;21274-3"/>
+	</item>
+	<item id="22397" name="壺精封印手鐲-巴拉卡斯" type="Armor">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">可以召喚等級4巴拉卡斯壺精的手鐲。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;21273-4;23346-4;23347-4;21274-4"/>
+	</item>
+	<item id="22398" name="壺精封印手鐲-巴拉卡斯" type="Armor">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">可以召喚等級5巴拉卡斯壺精的手鐲。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;21273-5;23346-5;23347-5;21274-5"/>
+	</item>
+	<item id="22399" name="壺精封印手鐲-巴拉卡斯" type="Armor">
+		<table name="#Plus">Lv6</table>
+		<table name="#Desc">可以召喚等級6巴拉卡斯壺精的手鐲。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;21273-6;23346-6;23347-6;21274-6"/>
+	</item>
+	<item id="22400" name="壺精封印手鐲-巴拉卡斯" type="Armor">
+		<table name="#Plus">Lv7</table>
+		<table name="#Desc">可以召喚等級7巴拉卡斯壺精的手鐲。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;21273-7;23346-7;23347-7"/>
+	</item>
+	<item id="33797" name="壺精封印手鐲-泰爾錫之光" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以召喚在神殿分發的用於對抗席琳黑暗的泰爾錫之光的壺精手鐲。道具清單的空間和擁有的道具重量超出時，則無法領取光之幻影。無法交易/丟棄/出售於個人商店的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.bracelet_tersi_agathion"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="13346-1;13345-1;13347-1"/>
+	</item>
+	<item id="34595" name="活動用-螺旋槳壺精手鐲" type="Armor">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">可召喚螺旋槳壺精的手鐲。召喚壺精後，就可使用返回卷軸的技能。限時30日。無法交易/丟棄/刪除。</table>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9307-1;9311-1"/>
+		<set name="time" val="43200"/>
+	</item>
+	<item id="34596" name="活動用-魔法少女壺精手鐲" type="Armor">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">可召喚魔法少女壺精的手鐲。召喚壺精後，就可使用返回卷軸的技能。限時30日。無法交易/丟棄/刪除。</table>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9308-1;9312-1"/>
+		<set name="time" val="43200"/>
+	</item>
+	<item id="34597" name="活動用-眼鏡蛇壺精手鐲" type="Armor">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">可召喚眼鏡蛇壺精的手鐲。召喚壺精後，就可使用返回卷軸的技能。限時30日。無法交易/丟棄/刪除。</table>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9309-1;9313-1"/>
+		<set name="time" val="43200"/>
+	</item>
+	<item id="34598" name="活動用-烏帕寶寶壺精手鐲" type="Armor">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">可召喚烏帕寶寶壺精的手鐲。召喚壺精後，就可使用返回卷軸的技能。限時30日。無法交易/丟棄/刪除。</table>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9310-1;9314-1"/>
+		<set name="time" val="43200"/>
+	</item>
+	<item id="34750" name="經驗值葫蘆壺精-80小時" type="Armor">
+		<table name="#Desc">召喚經驗值葫蘆壺精的手鐲。若想封印壺精的話，必須要解除手鐲的裝備。解除手鐲的裝備時，在10秒內無法獲得經驗值葫蘆的神聖力量效果。無法交易、丟棄、刪除，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.exp_bottle_agathion"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="13380-1;13375-1;13376-1;13383-1"/>
+		<set name="duration" val="4800"/>
+	</item>
+	<item id="34869" name="壺精封印手鐲-火花精靈(活動)" type="Armor">
+		<table name="#Desc">為了孵化出淨化的紅龍蛋，由帕格立歐的手下-亞斯蘭所分發的手鐲。裝備的話，就可召喚火花精靈。無法交易、丟棄、刪除、出售於個人商店。</table>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9472-1;15053-1;15054-1"/>
+	</item>
+	<item id="34935" name="巨星壺精手鐲-張熙珍" type="Armor">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法防禦力5%、HP最大值5%、6大屬性防禦力10。使用技能：祝福的返回能力。無法交易/丟棄/刪除/參與奧林匹亞/利用個人商店，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.bracelet_tersi_agathion"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9407-1;9412-1;9531-1"/>
+	</item>
+	<item id="34936" name="巨星壺精手鐲-張赫" type="Armor">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理攻擊力5%、6大屬性防禦力10。使用技能：祝福的返回能力。無法交易/丟棄/刪除/參與奧林匹亞/利用個人商店，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.bracelet_tersi_agathion"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9408-1;9413-1;9533-1"/>
+	</item>
+	<item id="34937" name="巨星壺精手鐲-金秀路" type="Armor">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理防禦力5%、HP最大值5%、6大屬性防禦力10。使用技能：祝福的返回能力。無法交易/丟棄/刪除/參與奧林匹亞/利用個人商店，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.bracelet_tersi_agathion"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9409-1;9414-1;9535-1"/>
+	</item>
+	<item id="34938" name="巨星壺精手鐲-朴宰范" type="Armor">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法攻擊力6%、6大屬性防禦力10。使用技能：祝福的返回能力。無法交易/丟棄/刪除/參與奧林匹亞/利用個人商店，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.bracelet_tersi_agathion"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9410-1;9415-1;9537-1"/>
+	</item>
+	<item id="34939" name="巨星壺精手鐲-金信英" type="Armor">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、6大屬性防禦力10。縮短技能使用冷卻時間3%、降低技能MP消耗量3%。使用技能：祝福的返回能力。無法交易/丟棄/刪除/參與奧林匹亞/利用個人商店，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.bracelet_tersi_agathion"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="150"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="item_skill" val="3267-1;9411-1;9416-1;9539-1"/>
+	</item>
+</list>
