@@ -61,7 +61,6 @@ UPDATE character_quests SET name='Q00508_AClansReputation' WHERE name='508_AClan
 UPDATE character_quests SET name='Q00509_AClansFame' WHERE name='509_AClansFame';
 UPDATE character_quests SET name='Q00510_AClansPrestige' WHERE name='510_AClansPrestige';
 UPDATE character_quests SET name='Q00511_AwlUnderFoot' WHERE name='511_AwlUnderFoot';
-UPDATE character_quests SET name='Q00512_AwlUnderFoot' WHERE name='512_AwlUnderFoot';
 UPDATE character_quests SET name='Q00551_OlympiadStarter' WHERE name='551_OlympiadStarter';
 UPDATE character_quests SET name='Q00552_OlympiadVeteran' WHERE name='552_OlympiadVeteran';
 UPDATE character_quests SET name='Q00553_OlympiadUndefeated' WHERE name='553_OlympiadUndefeated';
