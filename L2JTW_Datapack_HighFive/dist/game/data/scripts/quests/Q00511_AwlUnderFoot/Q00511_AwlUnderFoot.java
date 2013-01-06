@@ -20,7 +20,6 @@ import java.util.logging.Logger;
 
 import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
-import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -30,6 +29,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2RaidBossInstance;
 import com.l2jserver.gameserver.model.entity.Fort;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.holders.SkillHolder;
+import com.l2jserver.gameserver.model.instancezone.InstanceWorld;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
@@ -46,6 +46,7 @@ public final class Q00511_AwlUnderFoot extends Quest
 	
 	protected class FAUWorld extends InstanceWorld
 	{
+		
 	}
 	
 	public static class FortDungeon
@@ -82,10 +83,8 @@ public final class Q00511_AwlUnderFoot extends Quest
 	
 	// QUEST ITEMS
 	private static final int DL_MARK = 9797;
-	
 	// REWARDS
 	private static final int KNIGHT_EPALUETTE = 9912;
-	
 	// MONSTER TO KILL -- Only last 3 Raids (lvl ordered) give DL_MARK
 	protected static final int[] RAIDS1 =
 	{
@@ -106,7 +105,7 @@ public final class Q00511_AwlUnderFoot extends Quest
 		25592,
 		25593
 	};
-	
+	// Skill
 	private static final SkillHolder RAID_CURSE = new SkillHolder(5456, 1);
 	
 	private String checkConditions(L2PcInstance player)
@@ -157,7 +156,7 @@ public final class Q00511_AwlUnderFoot extends Quest
 				player.sendPacket(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER);
 				return "";
 			}
-			teleportPlayer(player, coords, world.instanceId);
+			teleportPlayer(player, coords, world.getInstanceId());
 			return "";
 		}
 		// New instance
@@ -175,9 +174,9 @@ public final class Q00511_AwlUnderFoot extends Quest
 		Instance ins = InstanceManager.getInstance().getInstance(instanceId);
 		ins.setSpawnLoc(new Location(player));
 		world = new FAUWorld();
-		world.instanceId = instanceId;
-		world.templateId = dungeon.getInstanceId();
-		world.status = 0;
+		world.setInstanceId(instanceId);
+		world.setTemplateId(dungeon.getInstanceId());
+		world.setStatus(0);
 		dungeon.setReEnterTime(System.currentTimeMillis() + REENTERTIME);
 		InstanceManager.getInstance().addWorld(world);
 		log.info("Fortress AwlUnderFoot started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
@@ -187,14 +186,14 @@ public final class Q00511_AwlUnderFoot extends Quest
 		if (player.getParty() == null)
 		{
 			teleportPlayer(player, coords, instanceId);
-			world.allowed.add(player.getObjectId());
+			world.addAllowed(player.getObjectId());
 		}
 		else
 		{
 			for (L2PcInstance partyMember : party.getMembers())
 			{
 				teleportPlayer(partyMember, coords, instanceId);
-				world.allowed.add(partyMember.getObjectId());
+				world.addAllowed(partyMember.getObjectId());
 				if (partyMember.getQuestState(getName()) == null)
 				{
 					newQuestState(partyMember);
@@ -219,11 +218,11 @@ public final class Q00511_AwlUnderFoot extends Quest
 			try
 			{
 				int spawnId;
-				if (_world.status == 0)
+				if (_world.getStatus() == 0)
 				{
 					spawnId = RAIDS1[getRandom(RAIDS1.length)];
 				}
-				else if (_world.status == 1)
+				else if (_world.getStatus() == 1)
 				{
 					spawnId = RAIDS2[getRandom(RAIDS2.length)];
 				}
@@ -231,7 +230,7 @@ public final class Q00511_AwlUnderFoot extends Quest
 				{
 					spawnId = RAIDS3[getRandom(RAIDS3.length)];
 				}
-				L2Npc raid = addSpawn(spawnId, 53319, 245814, -6576, 0, false, 0, false, _world.instanceId);
+				L2Npc raid = addSpawn(spawnId, 53319, 245814, -6576, 0, false, 0, false, _world.getInstanceId());
 				if (raid instanceof L2RaidBossInstance)
 				{
 					((L2RaidBossInstance) raid).setUseRaidCurse(false);
@@ -281,17 +280,16 @@ public final class Q00511_AwlUnderFoot extends Quest
 				return getHtm(player.getHtmlPrefix(), "FortressWarden-05.htm").replace("%player%", partyMember.getName());
 			}
 		}
-		
 		return null;
 	}
 	
 	private void rewardPlayer(L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(getName());
-		if (st.getInt("cond") == 1)
+		if (st.isCond(1))
 		{
 			st.giveItems(DL_MARK, 140);
-			st.playSound("ItemSound.quest_itemget");
+			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
 	}
 	
@@ -313,20 +311,16 @@ public final class Q00511_AwlUnderFoot extends Quest
 			st = newQuestState(player);
 		}
 		
-		int cond = st.getInt("cond");
 		if (event.equalsIgnoreCase("FortressWarden-10.htm"))
 		{
-			if (cond == 0)
+			if (st.isCond(0))
 			{
-				st.set("cond", "1");
-				st.setState(State.STARTED);
-				st.playSound("ItemSound.quest_accept");
+				st.startQuest();
 			}
 		}
 		else if (event.equalsIgnoreCase("FortressWarden-15.htm"))
 		{
-			st.playSound("ItemSound.quest_finish");
-			st.exitQuest(true);
+			st.exitQuest(true, true);
 		}
 		return htmltext;
 	}
@@ -430,13 +424,13 @@ public final class Q00511_AwlUnderFoot extends Quest
 					rewardPlayer(player);
 				}
 				
-				Instance instanceObj = InstanceManager.getInstance().getInstance(world.instanceId);
+				Instance instanceObj = InstanceManager.getInstance().getInstance(world.getInstanceId());
 				instanceObj.setDuration(360000);
 				instanceObj.removeNpcs();
 			}
 			else
 			{
-				world.status++;
+				world.incStatus();
 				ThreadPoolManager.getInstance().scheduleGeneral(new spawnRaid(world), RAID_SPAWN_DELAY);
 			}
 		}
@@ -474,18 +468,9 @@ public final class Q00511_AwlUnderFoot extends Quest
 			addTalkId(i);
 		}
 		
-		for (int i : RAIDS1)
-		{
-			addKillId(i);
-		}
-		for (int i : RAIDS2)
-		{
-			addKillId(i);
-		}
-		for (int i : RAIDS3)
-		{
-			addKillId(i);
-		}
+		addKillId(RAIDS1);
+		addKillId(RAIDS2);
+		addKillId(RAIDS3);
 		
 		for (int i = 25572; i <= 25595; i++)
 		{
@@ -495,7 +480,6 @@ public final class Q00511_AwlUnderFoot extends Quest
 	
 	public static void main(String[] args)
 	{
-		// now call the constructor (starts up the)
 		new Q00511_AwlUnderFoot(511, Q00511_AwlUnderFoot.class.getSimpleName(), "instances");
 	}
 }
