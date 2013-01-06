@@ -70,7 +70,6 @@ import handlers.effecthandlers.PhysicalAttackMute;
 import handlers.effecthandlers.PhysicalMute;
 import handlers.effecthandlers.ProtectionBlessing;
 import handlers.effecthandlers.RandomizeHate;
-import handlers.effecthandlers.RecoBonus; // Add By pmq
 import handlers.effecthandlers.Recovery;
 import handlers.effecthandlers.Relax;
 import handlers.effecthandlers.RemoveTarget;
@@ -167,7 +166,6 @@ public final class EffectMasterHandler
 		PhysicalMute.class,
 		ProtectionBlessing.class,
 		RandomizeHate.class,
-		RecoBonus.class, // Add By pmq
 		Recovery.class,
 		Relax.class,
 		RemoveTarget.class,

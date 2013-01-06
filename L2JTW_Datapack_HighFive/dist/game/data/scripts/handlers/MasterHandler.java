@@ -40,7 +40,6 @@ import handlers.admincommandhandlers.AdminCache;
 import handlers.admincommandhandlers.AdminCamera;
 import handlers.admincommandhandlers.AdminChangeAccessLevel;
 import handlers.admincommandhandlers.AdminClan;
-import handlers.admincommandhandlers.AdminPcCondOverride;
 import handlers.admincommandhandlers.AdminCreateItem;
 import handlers.admincommandhandlers.AdminCursedWeapons;
 import handlers.admincommandhandlers.AdminDebug;
@@ -103,7 +102,6 @@ import handlers.admincommandhandlers.AdminTest;
 import handlers.admincommandhandlers.AdminTvTEvent;
 import handlers.admincommandhandlers.AdminUnblockIp;
 import handlers.admincommandhandlers.AdminVitality;
-import handlers.admincommandhandlers.AdminVitaminItem; // Add PI by pmq
 import handlers.admincommandhandlers.AdminZone;
 import handlers.bypasshandlers.ArenaBuff;
 import handlers.bypasshandlers.Augment;
@@ -279,7 +277,7 @@ import handlers.usercommandhandlers.ChannelInfo;
 import handlers.usercommandhandlers.ChannelLeave;
 import handlers.usercommandhandlers.ClanPenalty;
 import handlers.usercommandhandlers.ClanWarsList;
-import handlers.usercommandhandlers.Dismount;
+import handlers.usercommandhandlers.DisMount;
 import handlers.usercommandhandlers.InstanceZone;
 import handlers.usercommandhandlers.Loc;
 import handlers.usercommandhandlers.Mount;
@@ -436,7 +434,6 @@ public class MasterHandler
 			AdminTvTEvent.class,
 			AdminUnblockIp.class,
 			AdminVitality.class,
-			AdminVitaminItem.class, // Add PI by pmq
 			AdminZone.class,
 		},
 		{
@@ -584,7 +581,7 @@ public class MasterHandler
 			// User Command Handlers
 			ClanPenalty.class,
 			ClanWarsList.class,
-			Dismount.class,
+			DisMount.class,
 			Unstuck.class,
 			InstanceZone.class,
 			Loc.class,

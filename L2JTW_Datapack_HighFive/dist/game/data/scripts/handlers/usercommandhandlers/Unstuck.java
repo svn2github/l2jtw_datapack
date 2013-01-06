@@ -14,8 +14,6 @@
  */
 package handlers.usercommandhandlers;
 
-import java.util.logging.Level;
-
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GameTimeController;
 import com.l2jserver.gameserver.ThreadPoolManager;
@@ -30,12 +28,11 @@ import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
 import com.l2jserver.gameserver.util.Broadcast;
-import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
- *
+ * Unstuck user command.
  */
-public class Escape implements IUserCommandHandler
+public class Unstuck implements IUserCommandHandler
 {
 	private static final int[] COMMAND_IDS =
 	{
@@ -69,7 +66,7 @@ public class Escape implements IUserCommandHandler
 				activeChar.doCast(GM_escape);
 				return true;
 			}
-			activeChar.sendMessage(1165);
+			activeChar.sendMessage("You use Escape: 1 second.");
 		}
 		else if ((Config.UNSTUCK_INTERVAL == 300) && (escape != null))
 		{
@@ -80,11 +77,11 @@ public class Escape implements IUserCommandHandler
 		{
 			if (Config.UNSTUCK_INTERVAL > 100)
 			{
-				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + unstuckTimer / 60000 + MessageTable.Messages[1166].getExtra(2));
+				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 60000) + " minutes.");
 			}
 			else
 			{
-				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + unstuckTimer / 1000 + MessageTable.Messages[1166].getExtra(3));
+				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 1000) + " seconds.");
 			}
 		}
 		activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
@@ -98,18 +95,17 @@ public class Escape implements IUserCommandHandler
 		activeChar.sendPacket(sg);
 		// End SoE Animation section
 		
-		EscapeFinalizer ef = new EscapeFinalizer(activeChar);
 		// continue execution later
-		activeChar.setSkillCast(ThreadPoolManager.getInstance().scheduleGeneral(ef, unstuckTimer));
+		activeChar.setSkillCast(ThreadPoolManager.getInstance().scheduleGeneral(new EscapeFinalizer(activeChar), unstuckTimer));
 		
 		return true;
 	}
 	
-	static class EscapeFinalizer implements Runnable
+	private static class EscapeFinalizer implements Runnable
 	{
 		private final L2PcInstance _activeChar;
 		
-		EscapeFinalizer(L2PcInstance activeChar)
+		protected EscapeFinalizer(L2PcInstance activeChar)
 		{
 			_activeChar = activeChar;
 		}
@@ -126,15 +122,7 @@ public class Escape implements IUserCommandHandler
 			_activeChar.enableAllSkills();
 			_activeChar.setIsCastingNow(false);
 			_activeChar.setInstanceId(0);
-			
-			try
-			{
-				_activeChar.teleToLocation(MapRegionManager.TeleportWhereType.Town);
-			}
-			catch (Exception e)
-			{
-				_log.log(Level.SEVERE, "", e);
-			}
+			_activeChar.teleToLocation(MapRegionManager.TeleportWhereType.Town);
 		}
 	}
 	
