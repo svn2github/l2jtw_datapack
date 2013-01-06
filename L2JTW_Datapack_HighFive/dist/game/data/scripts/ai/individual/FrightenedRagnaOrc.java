@@ -31,12 +31,10 @@ import com.l2jserver.util.Rnd;
  * Frightened Ragna Orc AI.
  * @author Gladicek, malyelfik
  */
-public class FrightenedRagnaOrc extends AbstractNpcAI
+public final class FrightenedRagnaOrc extends AbstractNpcAI
 {
 	// NPC ID
 	private static final int MOB_ID = 18807;
-	// Amount of Health
-	private static final int HP = 4500;
 	// Chances
 	private static final int ADENA = 10000;
 	private static final int CHANCE = 1000;
@@ -45,7 +43,7 @@ public class FrightenedRagnaOrc extends AbstractNpcAI
 	// Skill
 	private static final SkillHolder SKILL = new SkillHolder(6234, 1);
 	
-	public FrightenedRagnaOrc(String name, String descr)
+	private FrightenedRagnaOrc(String name, String descr)
 	{
 		super(name, descr);
 		addAttackId(MOB_ID);
@@ -60,7 +58,7 @@ public class FrightenedRagnaOrc extends AbstractNpcAI
 			npc.setScriptValue(1);
 			startQuestTimer("say", (getRandom(5) + 3) * 1000, npc, null, true);
 		}
-		else if ((npc.getCurrentHp() <= HP) && npc.isScriptValue(1))
+		else if ((npc.getCurrentHp() < (npc.getMaxHp() * 0.2)) && npc.isScriptValue(1))
 		{
 			startQuestTimer("reward", 10000, npc, attacker);
 			broadcastNpcSay(npc, Say2.NPC_ALL, NpcStringId.WAIT_WAIT_STOP_SAVE_ME_AND_ILL_GIVE_YOU_10000000_ADENA);
@@ -76,7 +74,6 @@ public class FrightenedRagnaOrc extends AbstractNpcAI
 		broadcastNpcSay(npc, Say2.NPC_ALL, msg);
 		cancelQuestTimer("say", npc, null);
 		cancelQuestTimer("reward", npc, player);
-		npc.setScriptValue(0);
 		return super.onKill(npc, player, isPet);
 	}
 	
@@ -136,7 +133,6 @@ public class FrightenedRagnaOrc extends AbstractNpcAI
 				npc.setRunning();
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition((npc.getX() + getRandom(-800, 800)), (npc.getY() + getRandom(-800, 800)), npc.getZ(), npc.getHeading()));
 				npc.deleteMe();
-				npc.setScriptValue(0);
 				break;
 			}
 		}
