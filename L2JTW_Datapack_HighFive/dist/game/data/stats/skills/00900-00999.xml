@@ -5,6 +5,7 @@
 		<table name="#pvpPower"> 5280 5390 5498 5603 5704 5800 </table>
 		<table name="#pvePower"> 15838 16170 16494 16807 17110 17400 </table>
 		<table name="#magicLvl"> 80 81 82 83 84 85 </table>
+		<set name="fanRange" val="0,0,200,900" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#pvePower" />
 		<set name="pvpPower" val="#pvpPower" />
@@ -76,6 +77,8 @@
 		<table name="#pvpPower"> 116 117 119 120 121 122 </table>
 		<table name="#pvePower"> 348 351 355 358 361 364 </table>
 		<table name="#dot"> 200 225 250 275 300 325 </table>
+		<set name="abnormalLvl" val="8" />
+		<set name="abnormalType" val="poison" />
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 		<set name="lvlDepend" val="1" />
@@ -102,6 +105,8 @@
 		<table name="#mpConsume"> 72 73 74 74 75 75 </table>
 		<table name="#pvpPower"> 4224 4312 4399 4482 4563 4640 </table>
 		<table name="#pvePower"> 12670 12936 13195 13446 13688 13920 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#pvePower" />
 		<set name="pvpPower" val="#pvpPower" />
@@ -123,12 +128,13 @@
 		<table name="#mpConsume"> 72 73 74 74 75 75 </table>
 		<table name="#pvpPower"> 3168 3234 3299 3362 3422 3480 </table>
 		<table name="#pvePower"> 9503 9702 9896 10084 10266 10440 </table>
+		<set name="fanRange" val="0,0,900,100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#pvePower" />
 		<set name="pvpPower" val="#pvpPower" />
 		<set name="magicLvl" val="83" />
 		<set name="target" val="TARGET_FRONT_AURA" />
-		<set name="skillRadius" val="100" />
+		<set name="skillRadius" val="900" />
 		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="1000" />
 		<set name="skillType" val="PDAM" />
@@ -175,6 +181,8 @@
 		<table name="#pvpPower"> 116 117 119 120 121 122 </table>
 		<table name="#pvePower"> 348 351 355 358 361 364 </table>
 		<table name="#dot"> 200 225 250 275 300 325 </table>
+		<set name="abnormalLvl" val="8" />
+		<set name="abnormalType" val="poison" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#pvePower" />
@@ -204,6 +212,8 @@
 		<table name="#mpConsume"> 72 73 74 74 75 75 </table>
 		<table name="#pvpPower"> 4224 4312 4399 4482 4563 4640 </table>
 		<table name="#pvePower"> 12670 12936 13195 13446 13688 13920 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="bleeding" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#pvePower" />
 		<set name="pvpPower" val="#pvpPower" />
@@ -211,6 +221,7 @@
 		<set name="magicLvl" val="83" />
 		<set name="element" val="1" /> <!-- Water -->
 		<set name="elementPower" val="20" />
+		<set name="fanRange" val="0,0,200,900" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="saveVs" val="CON" />
 		<set name="skillRadius" val="100" />
@@ -257,6 +268,8 @@
 		<set name="npcId" val="14918" />
 	</skill>
 	<skill id="913" levels="1" name="Deflect Magic">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="dd_resist" />
 		<set name="hitTime" val="1500" />
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="37" />
@@ -272,6 +285,8 @@
 	</skill>
 	<skill id="914" levels="1" name="Song of Purification">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="song_of_purification" />
 		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="aggroPoints" val="679" />
 		<set name="hitTime" val="2500" />
@@ -293,6 +308,8 @@
 	</skill>
 	<skill id="915" levels="1" name="Dance of Berserker">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="dance_of_berserker" />
 		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="aggroPoints" val="679" />
 		<set name="hitTime" val="2500" />
@@ -324,6 +341,8 @@
 		<table name="#magicLvl"> 60 64 68 72 </table>
 		<table name="#mpConsume"> 28 29 29 29 </table>
 		<table name="#vengeanceMdam"> 20 30 40 50 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="reflect_magic_dd" />
 		<set name="aggroPoints" val="204" />
 		<set name="hitTime" val="500" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -343,6 +362,8 @@
 	</skill>
 	<skill id="917" levels="1" name="Final Secret">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="final_secret" />
 		<set name="aggroPoints" val="597" />
 		<set name="hitTime" val="1500" />
 		<set name="magicLvl" val="81" />
@@ -451,6 +472,8 @@
 	<skill id="922" levels="1" name="Hide">
 		<!-- Confirmed CT2.5 -->
 		<!-- NOTE: Description says "Increases Speed" but is client typo, it "Decrease Speed" -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="hide" />
 		<set name="aggroPoints" val="679" />
 		<set name="magicLvl" val="81" />
 		<set name="operateType" val="A2" />
@@ -532,7 +555,9 @@
 		<table name="#power"> 167 210 261 319 384 419 455 492 531 570 610 651 691 731 </table>
 		<table name="#ench1Power"> 758 766 773 781 788 796 803 811 818 826 833 841 848 856 863 871 878 886 893 901 908 916 923 931 939 946 954 961 969 976 </table>
 		<table name="#dot"> 43 43 43 53 53 53 61 61 61 61 61 66 66 66 </table>
-		<table name="#abnormalLvl"> 5 5 5 6 6 6 7 7 7 7 7 8 8 8 </table>
+		<table name="#abnormalLvls"> 5 5 5 6 6 6 7 7 7 7 7 8 8 8 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="dot_attr" />
 		<set name="baseCritRate" val="10" />
 		<set name="castRange" val="40" />
 		<set name="coolTime" val="720" />
@@ -558,7 +583,7 @@
 			<using kind="Sword,Big Sword,Blunt,Big Blunt,Dual Sword,Dual Fist,Dagger,Dual Dagger,Pole,Ancient,Rapier" />
 		</cond>
 		<for>
-			<effect count="10" name="DamOverTime" val="#dot" abnormalLvl="#abnormalLvl" abnormalType="dot_attr" abnormalVisualEffect="flame" effectPower="50" effectType="DOT" />
+			<effect count="10" name="DamOverTime" val="#dot" abnormalLvl="#abnormalLvls" abnormalType="dot_attr" abnormalVisualEffect="flame" effectPower="50" effectType="DOT" />
 		</for>
 	</skill>
 	<skill id="928" levels="1" name="Dual Blow">
@@ -586,6 +611,8 @@
 		</cond>
 	</skill>
 	<skill id="929" levels="1" name="Spirit of the Cat">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="2500" />
@@ -614,6 +641,8 @@
 		</for>
 	</skill>
 	<skill id="930" levels="1" name="Spirit of the Demon">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="2500" />
@@ -642,6 +671,8 @@
 		</for>
 	</skill>
 	<skill id="931" levels="1" name="Spirit of the Unicorn">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="2500" />
@@ -793,19 +824,21 @@
 		</for>
 	</skill>
 	<skill id="939" levels="1" name="Soul Rage">
-		<set name="mpConsume" val="5" />
-		<set name="hpConsume" val="25" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="SSBoost" val="2.0" />
+		<!-- Confirmed CT2.5 -->
+		<set name="baseCritRate" val="10" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="1500" />
-		<set name="skillType" val="PDAM" />
+		<set name="hpConsume" val="25" />
+		<set name="magicLvl" val="78" />
+		<set name="mpConsume" val="5" />
+		<set name="nextActionAttack" val="true" />
+		<set name="num_souls" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="overHit" val="true" />
-		<set name="nextActionAttack" val="true" />
-		<set name="castRange" val="600" />
-		<set name="effectRange" val="1400" />
-		<set name="baseCritRate" val="15" />
-		<set name="num_souls" val="1" />
+		<set name="skillType" val="PDAM" />
+		<set name="SSBoost" val="2.0" />
+		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="940" levels="1" name="Fake Attack">
 		<set name="target" val="TARGET_SELF" />
@@ -882,6 +915,8 @@
 		</for>
 	</skill>
 	<skill id="948" levels="1" name="Eye for Eye">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="counter_skill" />
 		<set name="hitTime" val="500" />
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="29" />
@@ -897,6 +932,8 @@
 		</for>
 	</skill>
 	<skill id="949" levels="1" name="Onslaught of Pa'agrio">
+		<set name="abnormalLvl" val="9" />
+		<set name="abnormalType" val="dot_attr" />
 		<set name="castRange" val="40" />
 		<set name="coolTime" val="720" />
 		<set name="effectRange" val="400" />
@@ -1004,6 +1041,8 @@
 	</skill>
 	<skill id="954" levels="1" name="Strider Bite">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="6" />
+		<set name="abnormalType" val="bleeding" />
 		<set name="magicLvl" val="56" />
 		<set name="mpConsume" val="68" />
 		<set name="target" val="TARGET_ONE" />
@@ -1027,6 +1066,8 @@
 	</skill>
 	<skill id="955" levels="1" name="Strider Dash">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="speed_up_special" />
 		<set name="magicLvl" val="56" />
 		<set name="mpConsume" val="25" />
 		<set name="target" val="TARGET_SELF" />
@@ -1048,6 +1089,8 @@
 		<table name="#cAtk"> 1.1 1.2 1.3 </table>
 		<table name="#magicLvl"> 43 55 66 </table>
 		<table name="#rCrit"> 50 100 150 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="possession" />
 		<set name="aggroPoints" val="408" />
 		<set name="hitTime" val="2000" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -1124,6 +1167,8 @@
 	</skill>
 	<skill id="959" levels="1" name="Frog Jump">
 		<!-- Increases one's own moving speed by 33 for 15 seconds. -->
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="signal_a" />
 		<set name="mpConsume" val="24" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
@@ -1139,6 +1184,8 @@
 	</skill>
 	<skill id="960" levels="1" name="Race Running">
 		<!-- Increases one's own moving speed by 33 for 15 seconds. -->
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="signal_a" />
 		<set name="mpConsume" val="24" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
@@ -1154,6 +1201,8 @@
 	</skill>
 	<skill id="961" levels="1" name="Swift Dash">
 		<!-- Increases one's own moving speed by 33 for 15 seconds. -->
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="signal_a" />
 		<set name="mpConsume" val="24" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
@@ -1169,6 +1218,8 @@
 	</skill>
 	<skill id="962" levels="1" name="Guard's March">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="signal_a" />
 		<set name="mpInitialConsume" val="5" />
 		<set name="mpConsume" val="19" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
@@ -1186,6 +1237,8 @@
 	</skill>
 	<skill id="963" levels="1" name="Guard's Ambush">
 		<!-- NOTE: Description says "Increases Speed" but is client typo, it "Decrease Speed" -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stealth" />
 		<set name="mpInitialConsume" val="5" />
 		<set name="mpConsume" val="19" />
 		<set name="target" val="TARGET_SELF" />
@@ -1252,6 +1305,8 @@
 	</skill>
 	<skill id="969" levels="1" name="Treykan Dash">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="speed_up_special" />
 		<set name="magicLvl" val="85" />
 		<set name="mpInitialConsume" val="8" />
 		<set name="mpConsume" val="30" />
@@ -1269,6 +1324,8 @@
 	</skill>
 	<skill id="970" levels="1" name="Dash">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="speed_up_special" />
 		<set name="magicLvl" val="46" />
 		<set name="mpConsume" val="20" />
 		<set name="target" val="TARGET_SELF" />
@@ -1285,6 +1342,8 @@
 	</skill>
 	<skill id="971" levels="1" name="Acumen">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="casting_time_down" />
 		<set name="magicLvl" val="48" />
 		<set name="mpInitialConsume" val="8" />
 		<set name="mpConsume" val="30" />
@@ -1305,6 +1364,8 @@
 	</skill>
 	<skill id="972" levels="1" name="Snipe">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="8" />
+		<set name="abnormalType" val="snipe" />
 		<set name="magicLvl" val="74" />
 		<set name="mpConsume" val="35" />
 		<set name="target" val="TARGET_SELF" />
@@ -1334,6 +1395,8 @@
 		<table name="#mpConsume"> 58 59 76 77 77 78 78 79 </table>
 		<table name="#power"> 455 651 845 863 880 897 913 928 </table>
 		<table name="#magicLvl"> 60 70 80 81 82 83 84 85 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -1359,6 +1422,8 @@
 		<table name="#magicLvl"> 70 80 81 82 83 84 85 </table>
 		<table name="#power"> 1951 2534 2588 2639 2690 2738 2784 </table>
 		<table name="#mpConsume"> 107 111 111 112 112 112 112 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="castRange" val="900" />
@@ -1427,6 +1492,8 @@
 		<table name="#magicLvl"> 80 81 82 83 84 85 </table>
 		<table name="#power"> 93 94 95 96 97 97 </table>
 		<table name="#elementPower"> 25 30 35 40 45 50 </table>
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -1455,6 +1522,8 @@
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 80 81 82 83 84 85 </table>
 		<table name="#mpConsume"> 56 56 56 57 57 58 58 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="flyType" val="CHARGE" />
 		<set name="hitTime" val="800" />
 		<set name="isDebuff" val="true" />
@@ -1485,6 +1554,8 @@
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 80 81 82 83 84 85 </table>
 		<table name="#power"> 7427 8137 8851 9570 10292 11018 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="target_lock" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
@@ -1506,6 +1577,8 @@
 		<table name="#mpConsume"> 108 109 110 111 112 112 </table>
 		<table name="#magicLvl"> 80 81 82 83 84 85 </table>
 		<table name="#power"> 6752 7459 8170 8886 9606 10330 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="target_lock" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -1525,6 +1598,8 @@
 		<!-- Confirmed CT2.5 -->
 		<table name="#mpConsume"> 58 58 59 59 60 60 </table>
 		<table name="#magicLvl"> 80 81 82 83 84 85 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="sleep" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="80" /> <!-- Base Land Rate -->
@@ -1549,7 +1624,9 @@
 		<table name="#amount"> 1.03 1.04 1.05 </table>
 		<table name="#magicLvl"> 52 64 70 </table>
 		<table name="#mpConsume"> 38 48 52 </table>
-		<table name="#abnormalLvl"> 1 2 3 </table>
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="knight_aura" />
 		<set name="hitTime" val="1500" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1559,7 +1636,7 @@
 		<set name="skillRadius" val="1000" />
 		<set name="target" val="TARGET_PARTY" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="#abnormalLvl" abnormalType="knight_aura">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="#abnormalLvls" abnormalType="knight_aura">
 				<mul order="0x30" stat="pAtk" val="#amount" />
 				<mul order="0x30" stat="pAtkSpd" val="#amount" />
 			</effect>
@@ -1648,7 +1725,7 @@
 		<set name="hitTime" val="3000" />
 		<set name="mpConsume" val="162" />
 		<set name="magicLvl" val="82" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
+		<set name="operateType" val="A1" />
 		<set name="overHit" val="true" />
 		<set name="power" val="16667" />
 		<set name="reuseDelay" val="12000" />
@@ -1670,7 +1747,7 @@
 		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="30" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -1689,7 +1766,7 @@
 		<set name="isMagic" val="3" /> <!-- Dance Skill -->
 		<set name="magicLvl" val="60" />
 		<set name="mpConsume" val="30" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
+		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -1709,7 +1786,7 @@
 		<set name="hitTime" val="3500" />
 		<set name="magicLvl" val="83" />
 		<set name="mpConsume" val="165" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
+		<set name="operateType" val="A1" />
 		<set name="overHit" val="true" />
 		<set name="power" val="24306" />
 		<set name="reuseDelay" val="12000" />
@@ -1800,15 +1877,14 @@
 		<!-- High Five Skill -->
 		<set name="castRange" val="400" />
 		<set name="coolTime" val="200" />
-		<set name="effectRange" val="900" />
+		<set name="effectRange" val="600" />
 		<set name="flyType" val="CHARGE" />
 		<set name="hitTime" val="800" />
 		<set name="magicLvl" val="40" />
 		<set name="mpConsume" val="38" />
-		<set name="offensive" val="true" />
 		<set name="nextActionAttack" val="true" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
-		<set name="reuseDelay" val="3000" />
+		<set name="offensive" val="true" />
+		<set name="operateType" val="DA1" />
 		<set name="target" val="TARGET_ONE" />
 		<cond msgId="113" addName="1">
 			<and>
@@ -1824,6 +1900,8 @@
 	</skill>
 	<skill id="995" levels="1" name="Rush Impact">
 		<!-- High Five Skill -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="castRange" val="600" />
 		<set name="coolTime" val="200" />
 		<set name="effectRange" val="800" />
@@ -1834,7 +1912,7 @@
 		<set name="magicLvl" val="83" />
 		<set name="mpConsume" val="82" />
 		<set name="nextActionAttack" val="true" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
+		<set name="operateType" val="DA2" />
 		<set name="power" val="4224" />
 		<set name="reuseDelay" val="20000" />
 		<set name="saveVs" val="CON" />
@@ -1857,6 +1935,8 @@
 	</skill>
 	<skill id="996" levels="1" name="Disarm">
 		<!-- High Five Skill -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="disarm" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 		<set name="hitTime" val="1500" />
@@ -1864,10 +1944,10 @@
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="74" />
 		<set name="mpConsume" val="55" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
+		<set name="operateType" val="A2" />
 		<set name="power" val="70" /> <!-- Base Land Rate -->
-		<set name="saveVs" val="STR" />
 		<set name="reuseDelay" val="8000" />
+		<set name="saveVs" val="STR" />
 		<set name="skillType" val="DISARM" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
@@ -1886,7 +1966,7 @@
 		<set name="hitTime" val="800" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="operateType" val="A1" /> <!-- FIXME: value unconfirmed -->
+		<set name="operateType" val="A2" />
 		<set name="overHit" val="true" />
 		<set name="power" val="#power" />
 		<set name="reuseDelay" val="5000" />

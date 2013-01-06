@@ -197,6 +197,8 @@
 	</skill>
 	<skill id="3321" levels="1" name="Blue Talisman of Evasion">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="379" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
@@ -386,6 +388,8 @@
 	</skill>
 	<skill id="3335" levels="1" name="Transform Yeti">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="aggroPoints" val="1" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="56" />
@@ -399,6 +403,8 @@
 	</skill>
 	<skill id="3336" levels="1" name="Transform Buffalo">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="aggroPoints" val="1" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="56" />
@@ -414,6 +420,8 @@
 	</skill>
 	<skill id="3337" levels="1" name="Transform Cutie Pig">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="aggroPoints" val="1" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="56" />
@@ -729,6 +737,8 @@
 	</skill>
 	<skill id="3359" levels="1" name="Transform Native">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="aggroPoints" val="1" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="56" />
@@ -754,12 +764,16 @@
 		</for>
 	</skill>
 	<skill id="3361" levels="1" name="Summon Agathion - Fortress">
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
+		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="3000" />
-		<set name="operateType" val="A1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="65" />
 		<set name="npcId" val="16029" />
+		<set name="operateType" val="A1" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="SummonAgathion" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="3362" levels="1" name="Traits Strengthen Necklace">
 		<set name="target" val="TARGET_NONE" />

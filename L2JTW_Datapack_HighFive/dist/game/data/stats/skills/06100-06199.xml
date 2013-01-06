@@ -168,6 +168,8 @@
 		</for>
 	</skill>
 	<skill id="6120" levels="1" name="Santa Claus' Reward">
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="event_santa_reward" />
 		<set name="target" val="TARGET_AURA" />
 		<set name="magicLvl" val="1" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -252,6 +254,8 @@
 	<skill id="6125" levels="1" name="Paralysis">
 		<!-- Summon Binding Cubic Skill Effect -->
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="paralyze" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isDebuff" val="true" />
 		<set name="isTriggeredSkill" val="true" />
@@ -267,6 +271,8 @@
 	</skill>
 	<skill id="6126" levels="1" name="Paralysis">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="paralyze" />
 		<set name="magicLvl" val="40" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="isDebuff" val="true" />
@@ -281,9 +287,13 @@
 		</for>
 	</skill>
 	<skill id="6127" levels="1" name="Anti-limit">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="80" />
 		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Buff" abnormalTime="-1" val="0" abnormalLvl="100" abnormalType="limit" /> <!-- FIXME: Temp Fix until support for blockBuff by abnormalType is done -->
+		</for>
 	</skill>
 	<skill id="6128" levels="1" name="Presentation - Cow Rage">
 		<!-- Update by pmq -->
@@ -293,6 +303,8 @@
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="6129" levels="1" name="Shock">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -304,6 +316,8 @@
 		<set name="trait" val="SHOCK" />
 	</skill>
 	<skill id="6130" levels="1" name="Curse of the Mutant Animal">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -315,6 +329,8 @@
 		<set name="trait" val="SHOCK" />
 	</skill>
 	<skill id="6131" levels="1" name="Decrease Spd">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -325,6 +341,8 @@
 		<set name="lvlDepend" val="2" />
 	</skill>
 	<skill id="6132" levels="1" name="Decrease Atk. Spd">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="attack_time_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -335,6 +353,8 @@
 		<set name="saveVs" val="MEN" />
 	</skill>
 	<skill id="6133" levels="1" name="Effect of Doubt">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="big_head" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -342,6 +362,8 @@
 		<set name="trait" val="ETC" />
 	</skill>
 	<skill id="6134" levels="1" name="Curse of the Mutant Animal">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="all_speed_down" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -352,6 +374,8 @@
 		<set name="saveVs" val="MEN" />
 	</skill>
 	<skill id="6135" levels="1" name="Cow Basic Attack">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -412,12 +436,17 @@
 		</for>
 	</skill>
 	<skill id="6140" levels="3" name="Bog Stride">
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="6141" levels="1" name="Swamp's Wish">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="attack_time_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -429,13 +458,33 @@
 		<!-- Lvl 1: Covered in hot and sticky tar. Movement is impaired. Due to the burning tar, for 5 minbutes, moving speed is decreased 30% and P. Def. and evasion are decreased 10%. -->
 		<!-- Lvl 2: Covered in hot and sticky tar. Movement is impaired. Due to the burning tar, for 5 minbutes, moving speed is decreased 60% and P. Def. and evasion are decreased 20%. -->
 		<!-- Lvl 3: Covered in hot and sticky tar. Movement is impaired. Due to the burning tar, for 5 minbutes, moving speed is decreased 90% and P. Def. and evasion are decreased 30%. -->
-		<set name="isMagic" val="1" /> <!-- Magic Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<table name="#speed"> 0.7 0.4 0.1 </table>
+		<table name="#pDef"> 0.9 0.8 0.7 </table>
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="speed_down" />
+		<set name="mpInitialConsume" val="15" />
+		<set name="mpConsume" val="57" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="operateType" val="A2" />
-		<set name="lvlDepend" val="2" />
+		<set name="power" val="90" /> 
 		<set name="reuseDelay" val="30000" />
+		<set name="hitTime" val="1000" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlDepend" val="2" />
 		<set name="saveVs" val="MEN" />
+		<set name="castRange" val="300" />
+		<set name="effectRange" val="600" />
+		<set name="canBeDispeled" val="false" />
+		<for>
+			<effect name="Debuff" abnormalTime="300" val="0" abnormalLvl="#abnormalLvls" abnormalType="speed_down">
+				<mul order="0x30" stat="runSpd" val="#speed" />
+				<mul order="0x30" stat="pDef" val="#pDef" />
+				<mul order="0x30" stat="rEvas" val="#pDef" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="6143" levels="1" name="Ancient Beam">
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
@@ -452,12 +501,16 @@
 		<set name="reuseDelay" val="4000" />
 	</skill>
 	<skill id="6145" levels="1" name="Earthworm's Evil Aura">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="pd_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="6146" levels="1" name="Forfeiture of Will">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="pd_down" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -465,6 +518,8 @@
 		<set name="reuseDelay" val="4000" />
 	</skill>
 	<skill id="6147" levels="1" name="Kasha's Divine Protection">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="dmg_shield" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="magicLvl" val="85" />
 		<set name="skillType" val="BUFF" />
@@ -484,6 +539,8 @@
 	</skill>
 	<skill id="6148" levels="1" name="Altar's Curse">
 		<!-- You have been weakened by the Altar's Curse. You probably can't fight in this condition. -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="silence" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MUTE" />
 		<set name="mpConsume" val="59" />
@@ -508,6 +565,8 @@
 	<skill id="6149" levels="1" name="Kasha's Betrayal">
 		<!-- Kasha's Betrayal. For 15 minutes, decreases P. Atk./P. Def./moving speed by 50%. -->
 		<!-- Only when a eye explode -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="multi_debuff" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
@@ -530,6 +589,8 @@
 		<!-- Lvl 3 Only if 3 red eyes are present inside the zone -->
 		<!-- Lvl 4 Only if 4 red eyes are present inside the zone -->
 		<table name="#pAtkSpd"> 1.02 1.04 1.06 1.08 </table>
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="pd_down" />
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="A2" />
@@ -565,6 +626,8 @@
 		<!-- Lvl 3 Only if 3 green eyes are present inside the zone -->
 		<!-- Lvl 4 Only if 4 green eyes are present inside the zone -->
 		<table name="#pAtk"> 1.02 1.04 1.06 1.08 </table>
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="signal_a" />
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="A2" />
@@ -578,6 +641,8 @@
 		</for>
 	</skill>
 	<skill id="6153" levels="4" name="Kasha's Yearning">
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="signal_a" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -589,6 +654,8 @@
 		<!-- Lvl 3 Only if 3 blue eyes are present inside the zone -->
 		<!-- Lvl 4 Only if 4 blue eyes are present inside the zone -->
 		<table name="#rCrit"> 150 200 520 750 </table>
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalType" val="max_hp_down" />
 		<set name="canBeDispeled" val="false" />
 		<set name="isDebuff" val="true" />
 		<set name="operateType" val="A2" />
@@ -621,6 +688,8 @@
 		</for>
 	</skill>
 	<skill id="6166" levels="1" name="Hold">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="root_magically" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -631,6 +700,8 @@
 		<set name="trait" val="HOLD" />
 	</skill>
 	<skill id="6167" levels="12" name="Shock">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -640,6 +711,8 @@
 		<set name="trait" val="SHOCK" />
 	</skill>
 	<skill id="6168" levels="12" name="Shock">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="stun" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
@@ -651,6 +724,8 @@
 	<skill id="6169" levels="1" name="Shyeed's Fury">
 		<!-- Confirmed CT2.5 -->
 		<!-- Zone Skill -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="public_slot" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="83" />
 		<set name="operateType" val="A2" />
@@ -664,6 +739,8 @@
 	<skill id="6170" levels="1" name="Shyeed's Fury">
 		<!-- Confirmed CT2.5 -->
 		<!-- Zone Skill -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="multi_buff" />
 		<set name="aggroPoints" val="100" />
 		<set name="magicLvl" val="83" />
 		<set name="operateType" val="A2" />
@@ -683,6 +760,8 @@
 	<skill id="6171" levels="1" name="Full Authority">
 		<!-- Confirmed CT2.5 -->
 		<!-- Zone Skill -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="ultimate_buff" />
 		<set name="aggroPoints" val="100" />
 		<set name="magicLvl" val="83" />
 		<set name="operateType" val="A2" />
@@ -868,6 +947,8 @@
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="6196" levels="1" name="Agathion Oink Oink's Ability">
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalType" val="vp_keep" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -904,11 +985,12 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="target" val="TARGET_AREA" />
+		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="operateType" val="A1" />
 		<set name="skillType" val="PDAM" />
 		<set name="castRange" val="150" />
 		<set name="effectRange" val="500" />
+		<set name="fanRange" val="0,0,150,60" />
 		<set name="hitTime" val="2000" />
 		<set name="reuseDelay" val="6000" />
 	</skill>

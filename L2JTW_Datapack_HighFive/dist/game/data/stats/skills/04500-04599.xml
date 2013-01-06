@@ -89,6 +89,8 @@
 		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="4515" levels="1" name="Raid Curse">
+		<set name="abnormalLvl" val="99" />
+		<set name="abnormalType" val="turn_stone" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PARALYZE" />
 		<set name="isDebuff" val="true" />
@@ -187,6 +189,8 @@
 		</for>
 	</skill>
 	<skill id="4522" levels="1" name="Eye of Assassin">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="public_slot" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
@@ -204,6 +208,8 @@
 		</for>
 	</skill>
 	<skill id="4523" levels="1" name="Quest - BOSS Evasion">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="public_slot" />
 		<set name="hitTime" val="10000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="76" />
@@ -218,6 +224,8 @@
 		</for>
 	</skill>
 	<skill id="4524" levels="1" name="Quest - BOSS Bluff">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="public_slot" />
 		<set name="hitTime" val="10000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="76" />
@@ -251,6 +259,8 @@
 		</for>
 	</skill>
 	<skill id="4527" levels="1" name="Quest - BOSS Inc HP to Summoned">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="public_slot" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -267,6 +277,8 @@
 		</for>
 	</skill>
 	<skill id="4528" levels="1" name="Quest - BOSS Movement to Summoned">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="public_slot" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -326,6 +338,8 @@
 		</for>
 	</skill>
 	<skill id="4533" levels="1" name="Dance of Resistance">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="dance_of_inspiration" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -343,6 +357,8 @@
 		</for>
 	</skill>
 	<skill id="4534" levels="1" name="Dance of Nihil">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="dance_of_fury" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -360,6 +376,8 @@
 		</for>
 	</skill>
 	<skill id="4535" levels="1" name="Dance of Weakness">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="dance_of_vampire" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -377,6 +395,8 @@
 		</for>
 	</skill>
 	<skill id="4536" levels="1" name="Song of Seduce">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="song_of_wind" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -394,6 +414,8 @@
 		</for>
 	</skill>
 	<skill id="4537" levels="1" name="Song of Sweet Whisper">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="song_of_water" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -411,6 +433,8 @@
 		</for>
 	</skill>
 	<skill id="4538" levels="1" name="Song of Temptation">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="song_of_vengeance" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -428,6 +452,8 @@
 		</for>
 	</skill>
 	<skill id="4539" levels="1" name="Curse of Vague">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="hit_up" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -446,6 +472,8 @@
 		</for>
 	</skill>
 	<skill id="4540" levels="1" name="Curse of Weakness">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="pd_up" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -464,6 +492,8 @@
 		</for>
 	</skill>
 	<skill id="4541" levels="1" name="Curse of Nihil">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalType" val="pa_up" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -503,6 +533,9 @@
 		<table name="#pDef"> 0.8 0.6 0.7 </table>
 		<table name="#pAtkSpd"> 0.9 0.8 0.6 </table>
 		<table name="#pAtk"> 0.7 0.6 0.5 </table>
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="public_slot" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="A2" />
@@ -539,6 +572,8 @@
 	</skill>
 	<skill id="4547" levels="1" name="Gaze of Watcher">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="watcher_gaze" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="1000" />
 		<set name="effectRange" val="1500" />
@@ -580,7 +615,9 @@
 	<skill id="4551" levels="10" name="Hot Springs Rheumatism">
 		<table name="#pDef"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
 		<table name="#rCrit"> 30 50 80 100 50 0 0 0 0 0 </table>
-		<table name="#abnormalLvl"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="spa_disease_a" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -594,7 +631,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="-100" />
 		<for>
-			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvl" abnormalType="spa_disease_a" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_a" abnormalVisualEffect="poison">
 				<mul order="0x30" stat="pDef" val="#pDef" />
 				<add order="0x40" stat="rCrit" val="#rCrit" />
 			</effect>
@@ -603,7 +640,9 @@
 	<skill id="4552" levels="10" name="Hot Springs Cholera">
 		<table name="#rEvas"> 0 3 3 3 5 5 5 8 8 10 </table>
 		<table name="#accCombat"> 3 6 8 10 6 0 0 0 0 0 </table>
-		<table name="#abnormalLvl"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="spa_disease_b" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -617,7 +656,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="-100" />
 		<for>
-			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvl" abnormalType="spa_disease_b" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_b" abnormalVisualEffect="poison">
 				<sub order="0x40" stat="rEvas" val="#rEvas" />
 				<add order="0x40" stat="accCombat" val="#accCombat" />
 			</effect>
@@ -626,7 +665,9 @@
 	<skill id="4553" levels="10" name="Hot Springs Flu">
 		<table name="#pAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<table name="#pAtk"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
-		<table name="#abnormalLvl"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="spa_disease_c" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -640,7 +681,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="-100" />
 		<for>
-			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvl" abnormalType="spa_disease_c" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_c" abnormalVisualEffect="poison">
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
@@ -649,7 +690,9 @@
 	<skill id="4554" levels="10" name="Hot Spring Malaria">
 		<table name="#mAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<table name="#MpConsumeRate"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.84 </table>
-		<table name="#abnormalLvl"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="spa_disease_d" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -663,7 +706,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="-100" />
 		<for>
-			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvl" abnormalType="spa_disease_d" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="600" val="0" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_d" abnormalVisualEffect="poison">
 				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
 				<mul order="0x30" stat="MagicalMpConsumeRate" val="#MpConsumeRate" />
 			</effect>
@@ -735,6 +778,8 @@
 	<skill id="4559" levels="1" name="Hot Spring Illusion">
 		<!-- Confirmed CT2.5 -->
 		<!-- Zone Skill -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="big_head" />
 		<set name="magicLvl" val="75" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
@@ -1026,7 +1071,9 @@
 		<table name="#mpInitialConsume"> 4 10 </table>
 		<table name="#mpConsume"> 16 39 </table>
 		<table name="#pAtkSpd"> 1.15 1.33 </table>
-		<table name="#abnormalLvl"> 1 2 </table>
+		<table name="#abnormalLvls"> 1 2 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="attack_time_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1039,7 +1086,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="attack_time_down">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvls" abnormalType="attack_time_down">
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			</effect>
 		</for>
@@ -1049,7 +1096,9 @@
 		<table name="#mpInitialConsume"> 3 6 10 </table>
 		<table name="#mpConsume"> 12 21 39 </table>
 		<table name="#reflectDam"> 10 15 20 </table>
-		<table name="#abnormalLvl"> 1 2 3 </table>
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="dmg_shield" />
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="2000" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
@@ -1062,7 +1111,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_CLAN" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="dmg_shield">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvls" abnormalType="dmg_shield">
 				<add order="0x40" stat="reflectDam" val="#reflectDam" />
 			</effect>
 		</for>
@@ -1072,7 +1121,9 @@
 		<table name="#accCombat"> 1 2 3 4 5 6 7 8 9 10 11 12 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="hit_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1088,12 +1139,14 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvl" abnormalType="hit_down">
+			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvls" abnormalType="hit_down">
 				<sub order="0x40" stat="accCombat" val="#accCombat" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="4578" levels="1" name="Petrification">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="turn_stone" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="500" />
@@ -1114,8 +1167,10 @@
 		<table name="#mpConsume"> 25 40 56 76 99 121 142 151 159 165 168 170 </table>
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
 		<table name="#power"> 137 314 656 1249 2164 3408 4878 5627 6335 6960 7461 7850 </table>
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="bleeding" />
 		<set name="blowChance" val="20" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1132,7 +1187,7 @@
 		<set name="effectRange" val="200" />
 		<set name="trait" val="BLEED" />
 		<for>
-			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvl" abnormalType="bleeding" abnormalVisualEffect="bleed" effectType="BLEED" effectPower="100" />
+			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvls" abnormalType="bleeding" abnormalVisualEffect="bleed" effectType="BLEED" effectPower="100" />
 		</for>
 	</skill>
 	<skill id="4580" levels="12" name="Decrease P. Atk.">
@@ -1140,7 +1195,9 @@
 		<table name="#mpConsume"> 24 39 54 73 94 116 136 144 152 158 161 163 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="pa_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1155,7 +1212,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 		<for>
-			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvl" abnormalType="pa_down">
+			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvls" abnormalType="pa_down">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
@@ -1163,6 +1220,8 @@
 	<skill id="4581" levels="12" name="Hold">
 		<table name="#mpConsume"> 24 39 54 73 94 116 136 144 152 158 161 163 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="root_magically" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1185,7 +1244,9 @@
 		<table name="#mpConsume"> 24 39 54 73 94 116 136 144 152 158 161 163 </table>
 		<table name="#dmg"> 36 54 72 93 114 132 144 144 150 150 153 153 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="poison" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1201,14 +1262,16 @@
 		<set name="effectRange" val="200" />
 		<set name="trait" val="POISON" />
 		<for>
-			<effect count="10" name="DamOverTime" abnormalTime="3" val="#dmg" abnormalLvl="#abnormalLvl" abnormalType="poison" abnormalVisualEffect="poison" />
+			<effect count="10" name="DamOverTime" abnormalTime="3" val="#dmg" abnormalLvl="#abnormalLvls" abnormalType="poison" abnormalVisualEffect="poison" />
 		</for>
 	</skill>
 	<skill id="4583" levels="12" name="Decrease Speed">
 		<table name="#mpConsume"> 36 59 82 111 143 176 206 220 231 239 244 247 </table>
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1223,7 +1286,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="1200" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvl" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="speed_down">
 				<mul order="0x30" stat="runSpd" val="#runSpd" />
 			</effect>
 		</for>
@@ -1232,7 +1295,9 @@
 		<table name="#mpConsume"> 24 39 54 73 94 116 136 144 152 158 161 163 </table>
 		<table name="#pDef"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 11 12 12 13 13 13 13 13 13 13 13 13 </table>
+		<table name="#abnormalLvls"> 11 12 12 13 13 13 13 13 13 13 13 13 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="stun" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_ONE" />
@@ -1247,7 +1312,7 @@
 		<set name="effectRange" val="200" />
 		<set name="trait" val="SHOCK" />
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="#abnormalLvl" abnormalType="stun">
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="#abnormalLvls" abnormalType="stun">
 				<mul order="0x30" stat="pDef" val="#pDef" />
 			</effect>
 		</for>
@@ -1263,7 +1328,9 @@
 		<table name="#runSpd"> 5 5 8 </table>
 		<table name="#pDef"> 0.95 0.95 0.92 </table>
 		<table name="#mDef"> 0.9 0.9 0.84 </table>
-		<table name="#abnormalLvl"> 1 2 3 </table>
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="multi_buff" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1276,7 +1343,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect name="Grow" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="multi_buff">
+			<effect name="Grow" abnormalTime="120" val="0" abnormalLvl="#abnormalLvls" abnormalType="multi_buff">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 				<mul order="0x30" stat="mAtk" val="#mAtk" />
@@ -1291,7 +1358,9 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 77 78 83 </table>
 		<table name="#rEvas"> 1 2 3 4 5 6 7 8 9 10 11 12 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="avoid_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1317,7 +1386,9 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#pAtk"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="pa_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1333,7 +1404,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvl" abnormalType="pa_down">
+			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvls" abnormalType="pa_down">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
@@ -1349,7 +1420,9 @@
 		<table name="#runSpd"> 5 8 </table>
 		<table name="#pDef"> 0.95 0.92 </table>
 		<table name="#mDef"> 0.9 0.84 </table>
-		<table name="#abnormalLvl"> 1 2 </table>
+		<table name="#abnormalLvls"> 1 2 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="multi_buff" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1362,7 +1435,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="multi_buff">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvls" abnormalType="multi_buff">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 				<mul order="0x30" stat="mAtk" val="#mAtk" />
@@ -1377,7 +1450,9 @@
 		<table name="#mpConsume"> 35 58 79 105 135 165 194 207 217 224 229 233 </table>
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1393,7 +1468,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvl" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="speed_down">
 				<mul order="0x30" stat="runSpd" val="#runSpd" />
 			</effect>
 		</for>
@@ -1402,7 +1477,9 @@
 		<table name="#mpConsume"> 35 58 79 105 135 165 194 207 217 224 229 233 </table>
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1417,7 +1494,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvl" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="speed_down">
 				<mul order="0x30" stat="runSpd" val="#runSpd" />
 			</effect>
 		</for>
@@ -1426,7 +1503,9 @@
 		<table name="#mpConsume"> 35 58 79 105 135 165 194 207 217 224 229 233 </table>
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1441,7 +1520,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="1300" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvl" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="speed_down">
 				<mul order="0x30" stat="runSpd" val="#runSpd" />
 			</effect>
 		</for>
@@ -1451,7 +1530,9 @@
 		<table name="#pDef"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="pd_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1467,7 +1548,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvl" abnormalType="pd_down">
+			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvls" abnormalType="pd_down">
 				<mul order="0x30" stat="pDef" val="#pDef" />
 			</effect>
 		</for>
@@ -1477,7 +1558,9 @@
 		<table name="#pDef"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="pd_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1492,7 +1575,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvl" abnormalType="pd_down">
+			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvls" abnormalType="pd_down">
 				<mul order="0x30" stat="pDef" val="#pDef" />
 			</effect>
 		</for>
@@ -1502,7 +1585,9 @@
 		<table name="#pDef"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="pd_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1517,7 +1602,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="1300" />
 		<for>
-			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvl" abnormalType="pd_down">
+			<effect name="Debuff" abnormalTime="#time" val="0" abnormalLvl="#abnormalLvls" abnormalType="pd_down">
 				<mul order="0x30" stat="pDef" val="#pDef" />
 			</effect>
 		</for>
@@ -1528,7 +1613,9 @@
 		<table name="#mpConsume"> 23 42 78 </table>
 		<table name="#mAtkSpd"> 1.15 1.23 1.3 </table>
 		<table name="#pDef"> 1.08 1.12 1.15 </table>
-		<table name="#abnormalLvl"> 1 2 3 </table>
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="multi_buff" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1541,7 +1628,7 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="multi_buff">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvls" abnormalType="multi_buff">
 				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
 				<mul order="0x30" stat="pDef" val="#pDef" />
 			</effect>
@@ -1551,7 +1638,9 @@
 		<table name="#mpConsume"> 29 47 64 88 113 138 162 173 180 188 192 194 </table>
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="bleeding" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1568,14 +1657,16 @@
 		<set name="effectRange" val="900" />
 		<set name="trait" val="BLEED" />
 		<for>
-			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvl" abnormalType="bleeding" abnormalVisualEffect="bleed" />
+			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvls" abnormalType="bleeding" abnormalVisualEffect="bleed" />
 		</for>
 	</skill>
 	<skill id="4597" levels="12" name="Bleed">
 		<table name="#mpConsume"> 20 34 47 63 82 100 117 124 130 135 138 140 </table>
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="bleeding" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1591,14 +1682,16 @@
 		<set name="effectRange" val="900" />
 		<set name="trait" val="BLEED" />
 		<for>
-			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvl" abnormalType="bleeding" abnormalVisualEffect="bleed" />
+			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvls" abnormalType="bleeding" abnormalVisualEffect="bleed" />
 		</for>
 	</skill>
 	<skill id="4598" levels="12" name="Bleed">
 		<table name="#mpConsume"> 20 34 47 63 82 100 117 124 130 135 138 140 </table>
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="bleeding" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1614,14 +1707,16 @@
 		<set name="effectRange" val="1300" />
 		<set name="trait" val="BLEED" />
 		<for>
-			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvl" abnormalType="bleeding" abnormalVisualEffect="bleed" />
+			<effect count="7" name="DamOverTime" abnormalTime="3" val="#damage" abnormalLvl="#abnormalLvls" abnormalType="bleeding" abnormalVisualEffect="bleed" />
 		</for>
 	</skill>
 	<skill id="4599" levels="12" name="Decrease Speed">
 		<table name="#mpConsume"> 35 58 81 109 141 174 203 216 227 235 241 244 </table>
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
-		<table name="#abnormalLvl"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<table name="#abnormalLvls"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalType" val="speed_down" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1636,7 +1731,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="200" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvl" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="#abnormalLvls" abnormalType="speed_down">
 				<mul order="0x30" stat="runSpd" val="#runSpd" />
 			</effect>
 		</for>

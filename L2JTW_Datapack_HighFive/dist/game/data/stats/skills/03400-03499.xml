@@ -32,6 +32,8 @@
 	</skill>
 	<skill id="3404" levels="1" name="Mystery Effect">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="0" />
+		<set name="abnormalType" val="big_head" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
@@ -65,6 +67,8 @@
 	</skill>
 	<skill id="3407" levels="1" name="Stealth Ring">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="0" />
+		<set name="abnormalType" val="stealth" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<!-- set name="avoidAggro" val="100" / -->
 		<set name="magicLvl" val="1" />
@@ -87,6 +91,11 @@
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="RECALL" />
 		<set name="target" val="TARGET_SELF" />
+		<cond msgId="113" addName="1">
+			<not>
+				<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+			</not>
+		</cond>
 	</skill>
 	<skill id="3409" levels="1" name="Blessed Ring of Resurrection">
 		<!-- Confirmed CT2.5 -->
@@ -102,6 +111,8 @@
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
 	</skill>
 	<skill id="3410" levels="1" name="Blue Talisman of Reflection">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="55" />
@@ -204,6 +215,8 @@
 		</for>
 	</skill>
 	<skill id="3418" levels="1" name="Active Skill: Transform Pig">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="transform" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="reuseDelay" val="600000" />
@@ -252,28 +265,40 @@
 		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="3423" levels="1" name="Little Angel Agathion - Summon (or Release)">
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
+		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="3000" />
-		<set name="operateType" val="A1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="85" />
 		<set name="npcId" val="16031" />
+		<set name="operateType" val="A1" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="SummonAgathion" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="3424" levels="1" name="Little Devil Agathion - Summon (or Release)">
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
+		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="3000" />
-		<set name="operateType" val="A1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="85" />
 		<set name="npcId" val="16032" />
+		<set name="operateType" val="A1" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="SummonAgathion" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="3425" levels="1" name="Rudolph Agathion - Summon (or Release)">
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
+		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="3000" />
-		<set name="operateType" val="A1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="85" />
 		<set name="npcId" val="16033" />
+		<set name="operateType" val="A1" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="SummonAgathion" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="3426" levels="1" name="Maximum Ability">
 		<!-- Confirmed CT2.5 -->
@@ -304,6 +329,8 @@
 	</skill>
 	<skill id="3428" levels="1" name="Blue Talisman - Explosion">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -336,6 +363,8 @@
 	</skill>
 	<skill id="3430" levels="1" name="White Talisman - Darkness">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -354,6 +383,8 @@
 	</skill>
 	<skill id="3431" levels="1" name="White Talisman - Storm">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -372,6 +403,8 @@
 	</skill>
 	<skill id="3432" levels="1" name="White Talisman - Water">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -390,6 +423,8 @@
 	</skill>
 	<skill id="3433" levels="1" name="White Talisman - Fire">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -408,6 +443,8 @@
 	</skill>
 	<skill id="3434" levels="1" name="White Talisman - Earth">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -426,6 +463,8 @@
 	</skill>
 	<skill id="3435" levels="1" name="White Talisman - Light">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -457,6 +496,8 @@
 	</skill>
 	<skill id="3437" levels="1" name="Blue Talisman - Magic Explosive Power">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -476,6 +517,8 @@
 	</skill>
 	<skill id="3438" levels="1" name="Blue Talisman - Great Healing">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="669" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -854,6 +897,8 @@
 	</skill>
 	<skill id="3487" levels="1" name="Blue Talisman of Power">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="532" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -872,6 +917,8 @@
 	</skill>
 	<skill id="3488" levels="1" name="Blue Talisman of Protection">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="532" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->

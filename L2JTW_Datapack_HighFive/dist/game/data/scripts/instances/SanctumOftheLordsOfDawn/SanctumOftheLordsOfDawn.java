@@ -19,7 +19,7 @@ import java.util.Collection;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
-import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
+import com.l2jserver.gameserver.model.instancezone.InstanceWorld;
 import com.l2jserver.gameserver.model.L2CharPosition;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -386,24 +386,24 @@ public class SanctumOftheLordsOfDawn extends Quest
 			{
 				HSWorld world = (HSWorld) tmpworld;
 				// STATIC NPCS IN CIRCLE
-				world.S_C_NPC_1 = addSpawn(PRIESTS, -79225, 205933, -7908, 38276, false, 0, false, world.instanceId);
+				world.S_C_NPC_1 = addSpawn(PRIESTS, -79225, 205933, -7908, 38276, false, 0, false, world.getInstanceId());
 				world.S_C_NPC_1.setIsNoRndWalk(true);
-				world.S_C_NPC_2 = addSpawn(PRIESTS, -79229, 205780, -7908, 27559, false, 0, false, world.instanceId);
+				world.S_C_NPC_2 = addSpawn(PRIESTS, -79229, 205780, -7908, 27559, false, 0, false, world.getInstanceId());
 				world.S_C_NPC_2.setIsNoRndWalk(true);
-				world.S_C_NPC_3 = addSpawn(PRIESTS, -79360, 205705, -7908, 16383, false, 0, false, world.instanceId);
+				world.S_C_NPC_3 = addSpawn(PRIESTS, -79360, 205705, -7908, 16383, false, 0, false, world.getInstanceId());
 				world.S_C_NPC_3.setIsNoRndWalk(true);
-				world.S_C_NPC_4 = addSpawn(PRIESTS, -79491, 205780, -7908, 5208, false, 0, false, world.instanceId);
+				world.S_C_NPC_4 = addSpawn(PRIESTS, -79491, 205780, -7908, 5208, false, 0, false, world.getInstanceId());
 				world.S_C_NPC_4.setIsNoRndWalk(true);
-				world.S_C_NPC_5 = addSpawn(PRIESTS, -79488, 205929, -7908, 60699, false, 0, false, world.instanceId);
+				world.S_C_NPC_5 = addSpawn(PRIESTS, -79488, 205929, -7908, 60699, false, 0, false, world.getInstanceId());
 				world.S_C_NPC_5.setIsNoRndWalk(true);
-				world.S_C_NPC_6 = addSpawn(PRIESTS, -79361, 206006, -7908, 48480, false, 0, false, world.instanceId);
+				world.S_C_NPC_6 = addSpawn(PRIESTS, -79361, 206006, -7908, 48480, false, 0, false, world.getInstanceId());
 				world.S_C_NPC_6.setIsNoRndWalk(true);
 			}
 		}*/
 		else if (event.equalsIgnoreCase("password"))
 		{
 			InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-			openDoor(player, world.instanceId);
+			openDoor(player, world.getInstanceId());
 			return "32577-03.htm";
 		}
 		else if (event.equalsIgnoreCase("nopass"))
@@ -457,16 +457,16 @@ public class SanctumOftheLordsOfDawn extends Quest
 				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return 0;
 			}
-			teleto.instanceId = world.instanceId;
+			teleto.instanceId = world.getInstanceId();
 			teleportplayer(player, teleto);
 			return instanceId;
 		}
 		//New instance
 		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
 		world = new HSWorld();
-		world.instanceId = instanceId;
-		world.templateId = INSTANCEID;
-		world.status = 0;
+		world.setInstanceId(instanceId);
+		world.setTemplateId(INSTANCEID);
+		world.setStatus(0);
 		((HSWorld) world).storeTime[0] = System.currentTimeMillis();
 		InstanceManager.getInstance().addWorld(world);
 		spawnState((HSWorld) world);
@@ -474,121 +474,121 @@ public class SanctumOftheLordsOfDawn extends Quest
 		// teleport players
 		teleto.instanceId = instanceId;
 		teleportplayer(player, teleto);
-		world.allowed.add(player.getObjectId());
+		world.addAllowed(player.getObjectId());
 		return instanceId;
 	}
 	
 	private void spawnState(HSWorld world)
 	{
 		// STATIC NPC's
-		L2Npc S_NPC_0 = addSpawn(DEVICE, -75710, 213535, -7126, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_0 = addSpawn(DEVICE, -75710, 213535, -7126, 0, false, 0, false, world.getInstanceId());
 		S_NPC_0.setIsNoRndWalk(true);
-		L2Npc S_NPC_1 = addSpawn(DEVICE, -78288, 205747, -7889, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_1 = addSpawn(DEVICE, -78288, 205747, -7889, 0, false, 0, false, world.getInstanceId());
 		S_NPC_1.setIsNoRndWalk(true);
-		L2Npc S_NPC_2 = addSpawn(PWDEVICE, -80133, 205743, -7888, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_2 = addSpawn(PWDEVICE, -80133, 205743, -7888, 0, false, 0, false, world.getInstanceId());
 		S_NPC_2.setIsNoRndWalk(true);
-		L2Npc S_NPC_3 = addSpawn(SHELF, -81386, 205562, -7992, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_3 = addSpawn(SHELF, -81386, 205562, -7992, 0, false, 0, false, world.getInstanceId());
 		S_NPC_3.setIsNoRndWalk(true);
-		L2Npc S_NPC_4 = addSpawn(BLACK, -76003, 213413, -7124, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_4 = addSpawn(BLACK, -76003, 213413, -7124, 0, false, 0, false, world.getInstanceId());
 		S_NPC_4.setIsNoRndWalk(true);
-		L2Npc S_NPC_5 = addSpawn(GUARD, -74921, 213450, -7222, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_5 = addSpawn(GUARD, -74921, 213450, -7222, 0, false, 0, false, world.getInstanceId());
 		S_NPC_5.setIsNoRndWalk(true);
-		L2Npc S_NPC_7 = addSpawn(WPRIEST, -74951, 211621, -7317, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_7 = addSpawn(WPRIEST, -74951, 211621, -7317, 0, false, 0, false, world.getInstanceId());
 		S_NPC_7.setIsNoRndWalk(true);
-		L2Npc S_NPC_8 = addSpawn(WGUARD, -75329, 209990, -7392, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_8 = addSpawn(WGUARD, -75329, 209990, -7392, 0, false, 0, false, world.getInstanceId());
 		S_NPC_8.setIsNoRndWalk(true);
-		L2Npc S_NPC_9 = addSpawn(WGUARD, -74568, 209981, -7390, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_9 = addSpawn(WGUARD, -74568, 209981, -7390, 0, false, 0, false, world.getInstanceId());
 		S_NPC_9.setIsNoRndWalk(true);
-		L2Npc S_NPC_10 = addSpawn(WPRIEST, -77167, 207637, -7703, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_10 = addSpawn(WPRIEST, -77167, 207637, -7703, 0, false, 0, false, world.getInstanceId());
 		S_NPC_10.setIsNoRndWalk(true);
-		L2Npc S_NPC_11 = addSpawn(WGUARD, -74276, 208794, -7486, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_11 = addSpawn(WGUARD, -74276, 208794, -7486, 0, false, 0, false, world.getInstanceId());
 		S_NPC_11.setIsNoRndWalk(true);
-		L2Npc S_NPC_12 = addSpawn(GUARD, -74959, 207618, -7486, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_12 = addSpawn(GUARD, -74959, 207618, -7486, 0, false, 0, false, world.getInstanceId());
 		S_NPC_12.setIsNoRndWalk(true);
-		L2Npc S_NPC_13 = addSpawn(WGUARD, -77701, 208305, -7701, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_13 = addSpawn(WGUARD, -77701, 208305, -7701, 0, false, 0, false, world.getInstanceId());
 		S_NPC_13.setIsNoRndWalk(true);
-		L2Npc S_NPC_14 = addSpawn(WGUARD, -77702, 207286, -7704, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_14 = addSpawn(WGUARD, -77702, 207286, -7704, 0, false, 0, false, world.getInstanceId());
 		S_NPC_14.setIsNoRndWalk(true);
-		L2Npc S_NPC_15 = addSpawn(WPRIEST, -78338, 207149, -7703, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_15 = addSpawn(WPRIEST, -78338, 207149, -7703, 0, false, 0, false, world.getInstanceId());
 		S_NPC_15.setIsNoRndWalk(true);
-		L2Npc S_NPC_16 = addSpawn(WPRIEST, -78108, 207388, -7701, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_16 = addSpawn(WPRIEST, -78108, 207388, -7701, 0, false, 0, false, world.getInstanceId());
 		S_NPC_16.setIsNoRndWalk(true);
-		L2Npc S_NPC_17 = addSpawn(WPRIEST, -77548, 207131, -7703, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_17 = addSpawn(WPRIEST, -77548, 207131, -7703, 0, false, 0, false, world.getInstanceId());
 		S_NPC_17.setIsNoRndWalk(true);
-		L2Npc S_NPC_18 = addSpawn(WPRIEST, -77720, 207512, -7701, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_18 = addSpawn(WPRIEST, -77720, 207512, -7701, 0, false, 0, false, world.getInstanceId());
 		S_NPC_18.setIsNoRndWalk(true);
-		L2Npc S_NPC_19 = addSpawn(WGUARD, -78878, 206292, -7894, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_19 = addSpawn(WGUARD, -78878, 206292, -7894, 0, false, 0, false, world.getInstanceId());
 		S_NPC_19.setIsNoRndWalk(true);
-		L2Npc S_NPC_20 = addSpawn(WGUARD, -79800, 206274, -7894, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_20 = addSpawn(WGUARD, -79800, 206274, -7894, 0, false, 0, false, world.getInstanceId());
 		S_NPC_20.setIsNoRndWalk(true);
-		L2Npc S_NPC_21 = addSpawn(WGUARD, -79809, 205446, -7894, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_21 = addSpawn(WGUARD, -79809, 205446, -7894, 0, false, 0, false, world.getInstanceId());
 		S_NPC_21.setIsNoRndWalk(true);
-		L2Npc S_NPC_22 = addSpawn(WGUARD, -78917, 205414, -7894, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_22 = addSpawn(WGUARD, -78917, 205414, -7894, 0, false, 0, false, world.getInstanceId());
 		S_NPC_22.setIsNoRndWalk(true);
-		L2Npc S_NPC_23 = addSpawn(WGUARD, -74575, 206628, -7511, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_23 = addSpawn(WGUARD, -74575, 206628, -7511, 0, false, 0, false, world.getInstanceId());
 		S_NPC_23.setIsNoRndWalk(true);
-		L2Npc S_NPC_24 = addSpawn(WGUARD, -75434, 206743, -7511, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_24 = addSpawn(WGUARD, -75434, 206743, -7511, 0, false, 0, false, world.getInstanceId());
 		S_NPC_24.setIsNoRndWalk(true);
-		L2Npc S_NPC_25 = addSpawn(GUARD, -75448, 208164, -7510, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_25 = addSpawn(GUARD, -75448, 208164, -7510, 0, false, 0, false, world.getInstanceId());
 		S_NPC_25.setIsNoRndWalk(true);
-		L2Npc S_NPC_26 = addSpawn(GUARD, -75655, 208175, -7512, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_26 = addSpawn(GUARD, -75655, 208175, -7512, 0, false, 0, false, world.getInstanceId());
 		S_NPC_26.setIsNoRndWalk(true);
-		L2Npc S_NPC_27 = addSpawn(WGUARD, -81531, 205555, -7989, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_27 = addSpawn(WGUARD, -81531, 205555, -7989, 0, false, 0, false, world.getInstanceId());
 		S_NPC_27.setIsNoRndWalk(true);
-		L2Npc S_NPC_28 = addSpawn(WGUARD, -81531, 206170, -7989, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_28 = addSpawn(WGUARD, -81531, 206170, -7989, 0, false, 0, false, world.getInstanceId());
 		S_NPC_28.setIsNoRndWalk(true);
-		L2Npc S_NPC_29 = addSpawn(WPRIEST, -77239, 208298, -7710, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_29 = addSpawn(WPRIEST, -77239, 208298, -7710, 0, false, 0, false, world.getInstanceId());
 		S_NPC_29.setIsNoRndWalk(true);
 		
 		// WALKING NPC's
-		world.NPC_1 = addSpawn(WPRIEST, -75022, 212090, -7317, 0, false, 0, false, world.instanceId);
-		world.NPC_2 = addSpawn(WPRIEST, -75334, 212109, -7317, 0, false, 0, false, world.instanceId);
-		world.NPC_3 = addSpawn(WPRIEST, -74205, 212102, -7319, 0, false, 0, false, world.instanceId);
-		world.NPC_4 = addSpawn(WPRIEST, -75228, 211458, -7319, 0, false, 0, false, world.instanceId);
-		world.NPC_5 = addSpawn(WPRIEST, -74673, 211129, -7321, 0, false, 0, false, world.instanceId);
-		world.NPC_6 = addSpawn(GUARD, -75215, 210171, -7415, 0, false, 0, false, world.instanceId);
-		world.NPC_7 = addSpawn(GUARD, -74685, 209824, -7415, 0, false, 0, false, world.instanceId);
-		world.NPC_8 = addSpawn(GUARD, -75545, 207553, -7511, 0, false, 0, false, world.instanceId);
-		world.NPC_9 = addSpawn(GUARD, -75412, 207137, -7511, 0, false, 0, false, world.instanceId);
-		world.NPC_10 = addSpawn(GUARD, -74512, 208266, -7511, 0, false, 0, false, world.instanceId);
-		world.NPC_11 = addSpawn(GUARD, -74515, 207060, -7509, 0, false, 0, false, world.instanceId);
-		world.NPC_12 = addSpawn(GUARD, -74241, 206518, -7511, 0, false, 0, false, world.instanceId);
-		world.NPC_13 = addSpawn(GUARD, -76374, 207850, -7606, 0, false, 0, false, world.instanceId);
-		world.NPC_14 = addSpawn(GUARD, -76374, 208206, -7606, 0, false, 0, false, world.instanceId);
-		world.NPC_15 = addSpawn(GUARD, -76371, 208853, -7606, 0, false, 0, false, world.instanceId);
-		world.NPC_16 = addSpawn(GUARD, -76930, 209445, -7606, 0, false, 0, false, world.instanceId);
-		world.NPC_17 = addSpawn(GUARD, -77180, 209436, -7607, 0, false, 0, false, world.instanceId);
-		world.NPC_18 = addSpawn(WPRIEST, -78038, 208470, -7706, 0, false, 0, false, world.instanceId);
-		world.NPC_19 = addSpawn(WPRIEST, -77691, 208131, -7704, 0, false, 0, false, world.instanceId);
-		world.NPC_20 = addSpawn(WPRIEST, -78102, 208037, -7701, 0, false, 0, false, world.instanceId);
-		world.NPC_21 = addSpawn(WPRIEST, -77287, 208041, -7701, 0, false, 0, false, world.instanceId);
-		world.NPC_22 = addSpawn(GUARD, -78925, 206091, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_23 = addSpawn(GUARD, -79361, 206329, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_24 = addSpawn(GUARD, -79078, 206234, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_25 = addSpawn(GUARD, -79646, 206245, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_26 = addSpawn(GUARD, -79789, 206100, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_27 = addSpawn(GUARD, -79782, 205610, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_28 = addSpawn(GUARD, -79657, 205469, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_29 = addSpawn(GUARD, -79362, 205383, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_30 = addSpawn(GUARD, -78984, 205568, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_31 = addSpawn(GUARD, -79118, 205436, -7893, 0, false, 0, false, world.instanceId);
-		world.NPC_32 = addSpawn(WGUARD, -81948, 205857, -7989, 0, false, 0, false, world.instanceId);
-		world.NPC_33 = addSpawn(GUARD, -74948, 206370, -7514, 0, false, 0, false, world.instanceId);
-		world.NPC_34 = addSpawn(WPRIEST, -77053, 207113, -7703, 0, false, 0, false, world.instanceId);
-		world.NPC_35 = addSpawn(WPRIEST, -77048, 207800, -7709, 0, false, 0, false, world.instanceId);
+		world.NPC_1 = addSpawn(WPRIEST, -75022, 212090, -7317, 0, false, 0, false, world.getInstanceId());
+		world.NPC_2 = addSpawn(WPRIEST, -75334, 212109, -7317, 0, false, 0, false, world.getInstanceId());
+		world.NPC_3 = addSpawn(WPRIEST, -74205, 212102, -7319, 0, false, 0, false, world.getInstanceId());
+		world.NPC_4 = addSpawn(WPRIEST, -75228, 211458, -7319, 0, false, 0, false, world.getInstanceId());
+		world.NPC_5 = addSpawn(WPRIEST, -74673, 211129, -7321, 0, false, 0, false, world.getInstanceId());
+		world.NPC_6 = addSpawn(GUARD, -75215, 210171, -7415, 0, false, 0, false, world.getInstanceId());
+		world.NPC_7 = addSpawn(GUARD, -74685, 209824, -7415, 0, false, 0, false, world.getInstanceId());
+		world.NPC_8 = addSpawn(GUARD, -75545, 207553, -7511, 0, false, 0, false, world.getInstanceId());
+		world.NPC_9 = addSpawn(GUARD, -75412, 207137, -7511, 0, false, 0, false, world.getInstanceId());
+		world.NPC_10 = addSpawn(GUARD, -74512, 208266, -7511, 0, false, 0, false, world.getInstanceId());
+		world.NPC_11 = addSpawn(GUARD, -74515, 207060, -7509, 0, false, 0, false, world.getInstanceId());
+		world.NPC_12 = addSpawn(GUARD, -74241, 206518, -7511, 0, false, 0, false, world.getInstanceId());
+		world.NPC_13 = addSpawn(GUARD, -76374, 207850, -7606, 0, false, 0, false, world.getInstanceId());
+		world.NPC_14 = addSpawn(GUARD, -76374, 208206, -7606, 0, false, 0, false, world.getInstanceId());
+		world.NPC_15 = addSpawn(GUARD, -76371, 208853, -7606, 0, false, 0, false, world.getInstanceId());
+		world.NPC_16 = addSpawn(GUARD, -76930, 209445, -7606, 0, false, 0, false, world.getInstanceId());
+		world.NPC_17 = addSpawn(GUARD, -77180, 209436, -7607, 0, false, 0, false, world.getInstanceId());
+		world.NPC_18 = addSpawn(WPRIEST, -78038, 208470, -7706, 0, false, 0, false, world.getInstanceId());
+		world.NPC_19 = addSpawn(WPRIEST, -77691, 208131, -7704, 0, false, 0, false, world.getInstanceId());
+		world.NPC_20 = addSpawn(WPRIEST, -78102, 208037, -7701, 0, false, 0, false, world.getInstanceId());
+		world.NPC_21 = addSpawn(WPRIEST, -77287, 208041, -7701, 0, false, 0, false, world.getInstanceId());
+		world.NPC_22 = addSpawn(GUARD, -78925, 206091, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_23 = addSpawn(GUARD, -79361, 206329, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_24 = addSpawn(GUARD, -79078, 206234, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_25 = addSpawn(GUARD, -79646, 206245, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_26 = addSpawn(GUARD, -79789, 206100, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_27 = addSpawn(GUARD, -79782, 205610, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_28 = addSpawn(GUARD, -79657, 205469, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_29 = addSpawn(GUARD, -79362, 205383, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_30 = addSpawn(GUARD, -78984, 205568, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_31 = addSpawn(GUARD, -79118, 205436, -7893, 0, false, 0, false, world.getInstanceId());
+		world.NPC_32 = addSpawn(WGUARD, -81948, 205857, -7989, 0, false, 0, false, world.getInstanceId());
+		world.NPC_33 = addSpawn(GUARD, -74948, 206370, -7514, 0, false, 0, false, world.getInstanceId());
+		world.NPC_34 = addSpawn(WPRIEST, -77053, 207113, -7703, 0, false, 0, false, world.getInstanceId());
+		world.NPC_35 = addSpawn(WPRIEST, -77048, 207800, -7709, 0, false, 0, false, world.getInstanceId());
 		
 		// STATIC NPCS IN CIRCLE
-		world.S_C_NPC_1 = addSpawn(PRIESTS, -79225, 205933, -7908, 38276, false, 0, false, world.instanceId);
+		world.S_C_NPC_1 = addSpawn(PRIESTS, -79225, 205933, -7908, 38276, false, 0, false, world.getInstanceId());
 		world.S_C_NPC_1.setIsNoRndWalk(true);
-		world.S_C_NPC_2 = addSpawn(PRIESTS, -79229, 205780, -7908, 27559, false, 0, false, world.instanceId);
+		world.S_C_NPC_2 = addSpawn(PRIESTS, -79229, 205780, -7908, 27559, false, 0, false, world.getInstanceId());
 		world.S_C_NPC_2.setIsNoRndWalk(true);
-		world.S_C_NPC_3 = addSpawn(PRIESTS, -79360, 205705, -7908, 16383, false, 0, false, world.instanceId);
+		world.S_C_NPC_3 = addSpawn(PRIESTS, -79360, 205705, -7908, 16383, false, 0, false, world.getInstanceId());
 		world.S_C_NPC_3.setIsNoRndWalk(true);
-		world.S_C_NPC_4 = addSpawn(PRIESTS, -79491, 205780, -7908, 5208, false, 0, false, world.instanceId);
+		world.S_C_NPC_4 = addSpawn(PRIESTS, -79491, 205780, -7908, 5208, false, 0, false, world.getInstanceId());
 		world.S_C_NPC_4.setIsNoRndWalk(true);
-		world.S_C_NPC_5 = addSpawn(PRIESTS, -79488, 205929, -7908, 60699, false, 0, false, world.instanceId);
+		world.S_C_NPC_5 = addSpawn(PRIESTS, -79488, 205929, -7908, 60699, false, 0, false, world.getInstanceId());
 		world.S_C_NPC_5.setIsNoRndWalk(true);
-		world.S_C_NPC_6 = addSpawn(PRIESTS, -79361, 206006, -7908, 48480, false, 0, false, world.instanceId);
+		world.S_C_NPC_6 = addSpawn(PRIESTS, -79361, 206006, -7908, 48480, false, 0, false, world.getInstanceId());
 		world.S_C_NPC_6.setIsNoRndWalk(true);
 		
 		// START TIMERS
@@ -680,7 +680,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
 					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-					openDoor(player, world.instanceId);
+					openDoor(player, world.getInstanceId());
 					return "32578-03.htm";
 				}
 				return null;
@@ -694,7 +694,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
 					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
+					world.removeAllowed(player.getObjectId());
 					teleCoord tele = new teleCoord();
 					tele.instanceId = 0;
 					exitInstance(player, tele);
@@ -705,7 +705,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				if (player.getTransformationId() == 113 && st.hasQuestItems(IDENTITY_CARD))
 				{
 					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
+					world.removeAllowed(player.getObjectId());
 					teleCoord tele = new teleCoord();
 					tele.instanceId = 0;
 					exitInstance(player, tele);

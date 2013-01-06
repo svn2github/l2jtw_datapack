@@ -29,10 +29,10 @@ import com.l2jserver.gameserver.util.Util;
  */
 public class CharacterBirthday extends Quest
 {
-	private static final int _npc = 32600;
-	private static int _spawns = 0;
+	private static final int ALEGRIA = 32600;
+	private static int SPAWNS = 0;
 	
-	private final static int[] _gk =
+	private final static int[] GK =
 	{
 		30006, 30059, 30080, 30134, 30146, 30177, 30233, 30256, 30320, 30540, 30576, 30836, 30848, 30878, 30899, 31275, 31320, 31964, 32163
 	};
@@ -40,13 +40,10 @@ public class CharacterBirthday extends Quest
 	public CharacterBirthday(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		addStartNpc(_npc);
-		addTalkId(_npc);
-		for (int id : _gk)
-		{
-			addStartNpc(id);
-			addTalkId(id);
-		}
+		addStartNpc(ALEGRIA);
+		addStartNpc(GK);
+		addTalkId(ALEGRIA);
+		addTalkId(GK);
 	}
 	
 	@Override
@@ -58,7 +55,7 @@ public class CharacterBirthday extends Quest
 		if (event.equalsIgnoreCase("despawn_npc"))
 		{
 			npc.doDie(player);
-			_spawns--;
+			SPAWNS--;
 			
 			htmltext = null;
 		}
@@ -72,7 +69,7 @@ public class CharacterBirthday extends Quest
 				htmltext = null; // FIXME: Probably has html
 				// Despawn npc
 				npc.doDie(player);
-				_spawns--;
+				SPAWNS--;
 			}
 			else
 			{
@@ -85,7 +82,7 @@ public class CharacterBirthday extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		if (_spawns >= 3)
+		if (SPAWNS >= 3)
 		{
 			return "busy.htm";
 		}
@@ -102,7 +99,7 @@ public class CharacterBirthday extends Quest
 			player.sendPacket(new PlaySound(1, "HB01", 0, 0, 0, 0, 0));
 			st.setState(State.STARTED);
 			st.startQuestTimer("despawn_npc", 180000, spawned);
-			_spawns++;
+			SPAWNS++;
 		}
 		else
 		{
@@ -113,6 +110,6 @@ public class CharacterBirthday extends Quest
 	
 	public static void main(String[] args)
 	{
-		new CharacterBirthday(-1, "CharacterBirthday", "events");
+		new CharacterBirthday(-1, CharacterBirthday.class.getSimpleName(), "events");
 	}
 }

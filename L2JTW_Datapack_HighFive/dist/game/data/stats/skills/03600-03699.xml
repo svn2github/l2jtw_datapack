@@ -181,7 +181,7 @@
 			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="10" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5607" triggeredLevel="#triggeredLevel" />
 		</for>
 	</skill>
-	<skill id="3610" levels="2" name="Apella Robe Set">
+	<skill id="3610" levels="3" name="Apella Robe Set">
 		<!-- Confirmed CT2.5 -->
 		<table name="#maxCP"> 1035 1116 1116 </table>
 		<table name="#mpConsumeRate"> 1 0.95 0.95 </table>
@@ -535,6 +535,8 @@
 	</skill>
 	<skill id="3632" levels="1" name="Clan Gate">
 		<!-- CT2.5 retail confirmed -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="abnormal_item" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="60" />
@@ -544,6 +546,11 @@
 		<cond msgId="1509">
 			<player olympiad="false" />
 		</cond>
+		<cond msgId="113" addName="1">
+			<not>
+				<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+			</not>
+		</cond>
 		<for>
 			<effect name="ClanGate" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="abnormal_item" />
 			<effect name="ImmobileBuff" abnormalTime="120" noicon="1" val="0" />
@@ -552,6 +559,8 @@
 	<skill id="3633" levels="2" name="Residential Shock Immunity">
 		<!-- CT2.5 retail confirmed -->
 		<table name="#vuln"> 80 100 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="abnormal_item" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="600000" />
@@ -917,6 +926,8 @@
 	</skill>
 	<skill id="3664" levels="1" name="Red Talisman - Max. CP">
 		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="532" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -935,6 +946,9 @@
 	</skill>
 	<skill id="3665" levels="2" name="Red Talisman - CP Regeneration">
 		<!-- Confirmed CT2.5 -->
+		<!-- This skill only has one level, 2. -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalType" val="talisman" />
 		<set name="aggroPoints" val="532" />
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
