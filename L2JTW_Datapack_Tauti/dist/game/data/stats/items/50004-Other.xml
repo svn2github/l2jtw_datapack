@@ -79,11 +79,11 @@
 		<set name="etcitem_type" val="scroll"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="9224-1" />
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9224-1"/>
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="false"/>
 		</cond>
 	</item>
 	<!-- 武器/防具強化卷軸 -->
@@ -240,26 +240,26 @@
 	<item id="33478" name="破滅武器強化卷軸-R級" type="EtcItem">
 		<table name="#Desc">強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。強化失敗時，藉由破滅女神之力，現有的裝備雖不會被結晶化，但將維持現有的強化數值。無法用於強化+15以上的防具。</table>
 		<set name="icon" val="icon.scroll_of_enchant_weapon_i06"/>
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="scrl_enchant_wp" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="EnchantScrolls" />
-		<set name="item_skill" val="12872-1" />
+		<set name="is_premium" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="12872-1"/>
 	</item>
 	<item id="33479" name="破滅防具強化卷軸-R級" type="EtcItem">
 		<table name="#Desc">強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。強化失敗時，藉由破滅女神之力，現有的裝備雖不會被結晶化，但將維持現有的強化數值。無法用於強化+6以上的防具。</table>
 		<set name="icon" val="icon.scroll_of_enchant_armor_i06"/>
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="scrl_enchant_am" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="EnchantScrolls" />
-		<set name="item_skill" val="12873-1" />
+		<set name="is_premium" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="12873-1"/>
 	</item>
 	<!-- R級生命石 -->
 	<item id="18563" name="生命石-R級" type="EtcItem">
@@ -905,46 +905,46 @@
 	<item id="34065" name="回聲水晶-耀眼的你" type="EtcItem">
 		<table name="#Desc">演奏裴基成之歌「耀眼的你」的回聲水晶。使用1次後就消失。</table>
 		<set name="icon" val="icon.etc_echo_crystal_i00"/>
-		<set name="default_action" val="skill_reduce" />
+		<set name="default_action" val="skill_reduce"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="16032-1" />
+		<set name="reuse_delay" val="20000"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="16032-1"/>
 	</item>
 	<item id="35705" name="回聲水晶-永遠的冒險(第5屆 Fantic  Award)" type="EtcItem">
 		<table name="#Desc">第5屆天堂II Fantic  Award 綜合大獎獲獎作品。藉由泰恩伺服器內的「Orange Elf」的作品，在輕鬆愉快的旋律中可以感受到天堂II的冒險精神。</table>
 		<set name="icon" val="icon.etc_echo_crystal_i03"/>
-		<set name="default_action" val="skill_reduce" />
+		<set name="default_action" val="skill_reduce"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="9500-1" />
+		<set name="reuse_delay" val="20000"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9500-1"/>
 	</item>
 	<item id="35706" name="回聲水晶-戰爭的開端(第5屆 Fantic  Award)" type="EtcItem">
 		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由史坦瑞斯伺服器內的「蒼術」的作品，展現了天堂II夢幻世界觀的演奏曲。</table>
 		<set name="icon" val="icon.etc_echo_crystal_i04"/>
-		<set name="default_action" val="skill_reduce" />
+		<set name="default_action" val="skill_reduce"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="9501-1" />
+		<set name="reuse_delay" val="20000"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9501-1"/>
 	</item>
 	<item id="35707" name="回聲水晶-Reload(第5屆 Fantic  Award)" type="EtcItem">
 		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由黎歐納伺服器內的「Suhr21」的作品，利用吉他即興重複段展現了工整卻帶有緊張感的演奏曲。</table>
 		<set name="icon" val="icon.etc_echo_crystal_i01"/>
-		<set name="default_action" val="skill_reduce" />
+		<set name="default_action" val="skill_reduce"/>
 		<set name="material" val="paper"/>
 		<set name="weight" val="10"/>
 		<set name="is_stackable" val="true"/>
-		<set name="reuse_delay" val="20000" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="9502-1" />
+		<set name="reuse_delay" val="20000"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9502-1"/>
 	</item>
 	<!-- 頭飾 -->
 	<item id="22366" name="黑熊掌" type="Weapon">
@@ -984,17 +984,6 @@
 		<set name="bodypart" val="hairall"/>
 		<set name="material" val="cloth"/>
 		<set name="weight" val="10"/>
-	</item>
-	<item id="22384" name="萬聖夜騎乘掃帚" type="Armor">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">可以騎乘飄浮空中的萬聖夜掃帚。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_halloween_flying_broom_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="material" val="silver"/>
-		<set name="weight" val="30"/>
-		<cond msg="很抱歉，目前這個物品的效果/功能尚未實裝。">
-			<player level="100"/>
-		</cond>
 	</item>
 	<item id="22388" name="萬聖夜鐮刀" type="Weapon">
 		<table name="#Plus">活動</table>

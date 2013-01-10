@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+<!-- 壺精手鐲 -->
 	<skill id="8527" levels="1" name="壺精封印解除-瑪格門妖精">
 		<table name="#Desc-LV1">解除壺精的封印。</table>
 		<set name="isMagic" val="2"/>
@@ -87,97 +88,97 @@
 	</skill>
 	<skill id="9407" levels="1" name="壺精封印解除-張熙珍">
 		<table name="#Desc-LV1">解除壺精的封印。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
-		<set name="npcId" val="16088" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16088"/>
 	</skill>
 	<skill id="9408" levels="1" name="壺精封印解除-張赫">
 		<table name="#Desc-LV1">解除壺精的封印。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
-		<set name="npcId" val="16089" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16089"/>
 	</skill>
 	<skill id="9409" levels="1" name="壺精封印解除-金秀路">
 		<table name="#Desc-LV1">解除壺精的封印。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
-		<set name="npcId" val="16090" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16090"/>
 	</skill>
 	<skill id="9410" levels="1" name="壺精封印解除-朴宰范">
 		<table name="#Desc-LV1">解除壺精的封印。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
-		<set name="npcId" val="16091" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16091"/>
 	</skill>
 	<skill id="9411" levels="1" name="壺精封印解除-金信英">
 		<table name="#Desc-LV1">解除壺精的封印。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
-		<set name="npcId" val="16092" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="npcId" val="16092"/>
 	</skill>
 	<skill id="9412" levels="1" name="壺精撒嬌-張熙珍">
 		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
 		<cond msgId="2292">
-			<player agathionId="16088" />
+			<player agathionId="16088"/>
 		</cond>
 	</skill>
 	<skill id="9413" levels="1" name="壺精撒嬌-張赫">
 		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
 		<cond msgId="2292">
-			<player agathionId="16089" />
+			<player agathionId="16089"/>
 		</cond>
 	</skill>
 	<skill id="9414" levels="1" name="壺精撒嬌-金秀路">
 		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
 		<cond msgId="2292">
-			<player agathionId="16090" />
+			<player agathionId="16090"/>
 		</cond>
 	</skill>
 	<skill id="9415" levels="1" name="壺精撒嬌-朴宰范">
 		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
 		<cond msgId="2292">
-			<player agathionId="16091" />
+			<player agathionId="16091"/>
 		</cond>
 	</skill>
 	<skill id="9416" levels="1" name="壺精撒嬌-金信英">
 		<table name="#Desc-LV1">可欣賞壺精的逗人模樣。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="operateType" val="A1" />
-		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
 		<cond msgId="2292">
-			<player agathionId="16092" />
+			<player agathionId="16092"/>
 		</cond>
 	</skill>
 	<skill id="9472" levels="1" name="壺精封印解除-火花精靈">
@@ -245,12 +246,12 @@
 	</skill>
 	<skill id="13346" levels="1" name="壺精封印-泰爾錫之光">
 		<table name="#Desc-LV1">封印壺精。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
-		<set name="hitTime" val="3000" />
-		<set name="operateType" val="A1" />
-		<set name="npcId" val="0" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="hitTime" val="3000"/>
+		<set name="operateType" val="A1"/>
+		<set name="npcId" val="0"/>
 	</skill>
 	<skill id="13347" levels="1" name="泰爾錫之手">
 		<table name="#Desc-LV1">利用泰爾錫之手，將光芒的破片推擠至後方。</table>
@@ -281,12 +282,12 @@
 	</skill>
 	<skill id="13380" levels="1" name="壺精封印-經驗值葫蘆">
 		<table name="#Desc-LV1">封印經驗值葫蘆壺精。使用技能時，消耗殘存魔力5。</table>
-		<set name="isMagic" val="2" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="AGATHION" />
-		<set name="hitTime" val="3000" />
-		<set name="operateType" val="A1" />
-		<set name="npcId" val="0" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="AGATHION"/>
+		<set name="hitTime" val="3000"/>
+		<set name="operateType" val="A1"/>
+		<set name="npcId" val="0"/>
 	</skill>
 	<skill id="13383" levels="1" name="壺精封印中">
 		<table name="#Desc-LV1">當解除裝備中的壺精手鐲時，在封印召喚出來的壺精後，接下來的10秒內，將無法得到經驗值葫蘆的神聖力量。</table>
@@ -304,7 +305,7 @@
 		<set name="operateType" val="A1"/>
 		<set name="hitTime" val="3000"/>
 		<cond msgId="2292">
-			<player agathionId="16080" />
+			<player agathionId="16080"/>
 		</cond>
 	</skill>
 	<skill id="14103" levels="1" name="壺精回歸-瑪格門妖精">
