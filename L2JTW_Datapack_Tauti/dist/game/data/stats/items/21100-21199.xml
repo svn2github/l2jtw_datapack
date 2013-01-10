@@ -819,6 +819,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22199-1"/>
 	</item>
 	<item id="21181" type="EtcItem" name="Transformation Scroll: Veil Master - Event">
 		<!-- Description: Transformation scroll that transforms you into a Veil Master for 30 minute(s). No effect if used while transformed. -->
@@ -826,6 +830,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22200-1"/>
 	</item>
 	<item id="21182" type="EtcItem" name="Transformation Scroll: Saber Tooth Tiger - Event">
 		<!-- Description: Transformation scroll that transforms you into a Saber Tooth Tiger for 30 minute(s). No effect if used while transformed. -->
@@ -833,6 +841,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22201-1"/>
 	</item>
 	<item id="21183" type="EtcItem" name="Transformation Scroll: Ol Mahum - Event">
 		<!-- Description: Transformation scroll that transforms you into an Ol Mahum for 30 minute(s). No effect if used while transformed. -->
@@ -840,6 +852,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22202-1"/>
 	</item>
 	<item id="21184" type="EtcItem" name="Transformation Scroll: Doll Blader - Event">
 		<!-- Description: Transformation scroll that transforms you into a Doll Blader for 30 minute(s). No effect if used while transformed. -->
@@ -847,6 +863,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22203-1"/>
 	</item>
 	<item id="21185" type="EtcItem" name="Transformation Scroll: Zaken - Event">
 		<!-- Description: Transformation scroll that transforms you into Zaken for 30 minute(s). No effect if used while transformed. -->
@@ -854,6 +874,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22204-1"/>
 	</item>
 	<item id="21186" type="EtcItem" name="Transformation Scroll: Anakim - Event">
 		<!-- Description: Transformation scroll that transforms you into Anakim for 30 minute(s). No effect if used while transformed. -->
@@ -861,6 +885,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22205-1"/>
 	</item>
 	<item id="21187" type="EtcItem" name="Transformation Scroll: Venom - Event">
 		<!-- Description: Transformation scroll that transforms you into Venom for 30 minute(s). No effect if used while transformed. -->
@@ -868,6 +896,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22206-1"/>
 	</item>
 	<item id="21188" type="EtcItem" name="Transformation Scroll: Gordon - Event">
 		<!-- Description: Transformation scroll that transforms you into Gordon for 30 minute(s). No effect if used while transformed. -->
@@ -875,6 +907,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22207-1"/>
 	</item>
 	<item id="21189" type="EtcItem" name="Transformation Scroll: Ranku - Event">
 		<!-- Description: Transformation scroll that transforms you into Ranku for 30 minute(s). No effect if used while transformed. -->
@@ -882,6 +918,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22208-1"/>
 	</item>
 	<item id="21190" type="EtcItem" name="Transformation Scroll: Kechi - Event">
 		<!-- Description: Transformation scroll that transforms you into Kechi for 30 minute(s). No effect if used while transformed. -->
@@ -889,6 +929,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22209-1"/>
 	</item>
 	<item id="21191" type="EtcItem" name="Transformation Scroll: Demon Prince - Event">
 		<!-- Description: Transformation scroll that transforms you into Demon Prince for 30 minute(s). No effect if used while transformed. -->
@@ -896,6 +940,10 @@
 		<set name="material" val="paper" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22210-1"/>
 	</item>
 	<item id="21192" type="EtcItem" name="Dimension Diamond Pack">
 		<!-- Description: Dimensional item pack. Gift box containing 50 dimension diamonds. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->

@@ -770,6 +770,7 @@
 		<set name="material" val="steel" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="item_skill" val="2994-1"/>
 		<set name="time" val="43200" />
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
@@ -789,6 +790,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
+		<set name="item_skill" val="2994-1"/>
 		<set name="time" val="43200" />
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
@@ -808,6 +810,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="item_skill" val="2994-1"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
 			<set order="0x08" stat="mAtk" val="1" />

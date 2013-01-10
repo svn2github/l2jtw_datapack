@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<!-- 變身卷軸/騎乘手鐲 -->
+	<item id="22356" name="溫馴螞蟻公主騎乘手鐲" type="Armor">
+		<table name="#Desc">裝備的話，可以騎乘溫馴螞蟻公主。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_ant_princess_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="30"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="item_skill" val="21270-1"/>
+	</item>
+	<item id="22364" name="黑熊騎乘手鐲" type="Armor">
+		<table name="#Desc">裝備的話，可以騎乘黑熊。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_black_bear_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="30"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="item_skill" val="21271-1"/>
+	</item>
+	<item id="22384" name="萬聖夜騎乘掃帚" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以騎乘飄浮空中的萬聖夜掃帚。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_flying_broom_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="30"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="item_skill" val="21272-1"/>
+	</item>
+	<item id="22743" name="變身卷軸-晴空之伯盧那" type="EtcItem">
+		<table name="#Desc">維他命道具可維持30分鐘變身為晴空之伯盧那的卷軸。晴空之伯盧那具有菲歐巫師和艾羅牧師的能力，而且可以使用根據地返回技能。等級80以上可以使用。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="22583-1"/>
+	</item>
+	<item id="22887" name="獨角獸騎乘手鐲" type="Armor">
+		<table name="#Desc">維他命道具裝備時，可以騎乘獨角獸。無法交易或丟棄的道具，但可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.lcon.g_pi_transformation_unicorn"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="30"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="item_skill" val="21286-1"/>
+	</item>
+	<item id="33507" name="酷酷魯騎乘卷軸" type="EtcItem">
+		<table name="#Desc">用於騎乘酷酷魯的卷軸。達到等級40以上後使用卷軸的話，就可騎乘酷酷魯。無法交易/丟棄/刪除，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.scroll_of_kukur_event"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="120"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9209-1"/>
+		<cond msgId="113" addName="1">
+			<player level="40"/>
+		</cond>
+	</item>
+	<item id="33642" name="酷酷林手鐲" type="EtcItem">
+		<table name="#Desc">裝備時可以騎乘酷酷林。無法交易/丟棄/刪除/出售於個人商店，但可以保管在個人倉庫。透過維他命管理者可在相同帳號內的角色之間轉移。</table>
+		<set name="icon" val="icon.accessary_blue_coral_ring_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="lbracelet"/>
+		<set name="material" val="silver"/>
+		<set name="weight" val="30"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_premium" val="true"/>
+		<set name="item_skill" val="9213-1"/>
+	</item>
+	<item id="34600" name="活動用-玫瑰精靈(女)變身卷軸" type="EtcItem">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">覺醒之前角色用，進行法師型攻擊。變身為玫瑰精靈（女）10分鐘。無法交易/丟棄。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9324-1"/>
+	</item>
+	<item id="34601" name="活動用-玫瑰精靈(男)變身卷軸" type="EtcItem">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">覺醒之前角色用，進行戰士型攻擊。變身為玫瑰精靈（男）10分鐘。無法交易/丟棄。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9323-1"/>
+	</item>
+	<item id="36258" name="巨蟻女王變身藥水" type="EtcItem">
+		<table name="#Desc">雖然沒有特殊的能力但可以變身為巨蟻女王。提升移動速度。無法交易/丟棄/利用個人商店/在奧林匹亞使用，但可保管在個人倉庫的道具。</table>
+		<set name="icon" val="icon.etc_lesser_potion_clear_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="120"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9745-1"/>
+	</item>
+	<item id="36259" name="奧爾芬變身藥水" type="EtcItem">
+		<table name="#Desc">雖然沒有特殊的能力但可以變身為奧爾芬。提升移動速度。無法交易/丟棄/利用個人商店/在奧林匹亞使用，但可保管在個人倉庫的道具。</table>
+		<set name="icon" val="icon.etc_lesser_potion_purple_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="120"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9746-1"/>
+	</item>
+	<item id="36260" name="亞納變身藥水" type="EtcItem">
+		<table name="#Desc">雖然沒有特殊的能力但可以變身為亞納。提升移動速度。無法交易/丟棄/利用個人商店/在奧林匹亞使用，但可保管在個人倉庫的道具。</table>
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="120"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9747-1"/>
+	</item>
+	<item id="36261" name="莉莉絲變身藥水" type="EtcItem">
+		<table name="#Desc">雖然沒有特殊的能力但可以變身為莉莉絲。提升移動速度。無法交易/丟棄/利用個人商店/在奧林匹亞使用，但可保管在個人倉庫的道具。</table>
+		<set name="icon" val="icon.etc_lesser_potion_red_i00"/>
+		<set name="default_action" val="skill_reduce"/>
+		<set name="etcitem_type" val="scroll"/>
+		<set name="material" val="paper"/>
+		<set name="weight" val="120"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9748-1"/>
+	</item>
+</list>

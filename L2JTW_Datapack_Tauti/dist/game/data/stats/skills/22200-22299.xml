@@ -2,69 +2,179 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="22200" levels="1" name="Transformation Scroll - Veil Master">
 		<!-- Transformed into a Veil Master. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21181"/>
+		<set name="transformId" val="4"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22201" levels="1" name="Transformation Scroll - Saber Tooth Tiger">
 		<!-- Transformed into a Saber Tooth Tiger. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21182"/>
+		<set name="transformId" val="5"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22202" levels="1" name="Transformation Scroll - Ol Mahum">
 		<!-- Transformed into an Ol Mahum. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21183"/>
+		<set name="transformId" val="6"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22203" levels="1" name="Transformation Scroll - Doll Blader">
 		<!-- Transformed into a Doll Blader. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21184"/>
+		<set name="transformId" val="7"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22204" levels="1" name="Transformation Scroll - Zaken">
 		<!-- Transformed into Zaken. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21185"/>
+		<set name="transformId" val="305"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22205" levels="1" name="Transformation Scroll - Anakim">
 		<!-- Transformed into Anakim. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21186"/>
+		<set name="transformId" val="306"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22206" levels="1" name="Transformation Scroll - Venom">
 		<!-- Transformed into Venom. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21187"/>
+		<set name="transformId" val="307"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22207" levels="1" name="Transformation Scroll - Gordon">
 		<!-- Transformed into Gordon. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21188"/>
+		<set name="transformId" val="308"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22208" levels="1" name="Transformation Scroll - Ranku">
 		<!-- Transformed into Ranku. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21189"/>
+		<set name="transformId" val="309"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22209" levels="1" name="Transformation Scroll - Kietch">
 		<!-- Transformed into Kietch. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21190"/>
+		<set name="transformId" val="310"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22210" levels="1" name="Transformation Scroll - Duke Devil">
 		<!-- Transformed into Duke Devil. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="P" />
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="21191"/>
+		<set name="transformId" val="311"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
 	</skill>
 	<skill id="22211" levels="1" name="Blessed Scroll of Escape">
 		<!-- none -->

@@ -268,6 +268,8 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="13800" />
 		<set name="transformId" val="111" />
 		<cond msgId="1509">
 			<player olympiad="false" />
@@ -281,6 +283,8 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="13801" />
 		<set name="transformId" val="112" />
 		<cond msgId="1509">
 			<player olympiad="false" />

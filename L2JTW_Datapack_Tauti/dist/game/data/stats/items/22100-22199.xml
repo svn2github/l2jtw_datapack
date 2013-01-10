@@ -1222,6 +1222,7 @@
 		<set name="weight" val="30" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="item_skill" val="21258-1"/>
 	</item>
 	<item id="22194" type="EtcItem" name="1st Place Treasure Sack">
 		<!-- Description: When double-clicked, a random 1st Place prize is granted. -->

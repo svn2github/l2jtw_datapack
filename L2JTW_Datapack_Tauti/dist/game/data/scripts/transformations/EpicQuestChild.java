@@ -22,7 +22,7 @@ public class EpicQuestChild extends L2Transformation
 {
 	private static final int[] SKILLS =
 	{
-		5437, 960
+		5437, 960, 619
 	};
 	
 	public EpicQuestChild()
@@ -48,6 +48,7 @@ public class EpicQuestChild extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5437, 1), false);
 		// Race Running
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(960, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		
 		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
@@ -64,6 +65,7 @@ public class EpicQuestChild extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5437, 1), false);
 		// Race Running
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(960, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		
 		getPlayer().setTransformAllowedSkills(EMPTY_ARRAY);
 	}

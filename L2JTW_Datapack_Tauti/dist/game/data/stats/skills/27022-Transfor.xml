@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 變身技能 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="9209" levels="1" name="酷酷魯">
+		<table name="#Desc-LV1">騎乘酷酷魯。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="33507"/>
+		<set name="transformId" val="137"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform">
+				<add order="0x40" stat="runSpd" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9213" levels="1" name="酷酷林">
+		<table name="#Desc-LV1">騎乘酷酷林。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="transformId" val="138"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform">
+				<add order="0x40" stat="runSpd" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9323" levels="1" name="活動專用-變身 玫瑰精靈(男)">
+		<table name="#Desc-LV1">在10分鐘內變身為玫瑰精靈（男）。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="34601"/>
+		<set name="transformId" val="140"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="pAtk" val="1.2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9324" levels="1" name="活動專用-變身 玫瑰精靈(女)">
+		<table name="#Desc-LV1">在10分鐘內變身為玫瑰精靈（女）。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="34600"/>
+		<set name="transformId" val="141"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="mAtk" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9349" levels="1" name="降下">
+		<table name="#Desc-LV1">從黑熊身上降下。</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="TRANSFORMDISPEL"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2500"/>
+	</skill>
+	<skill id="9350" levels="1" name="疾奔">
+		<table name="#Desc-LV1">在30秒內黑熊將以最高速度疾走。</table>
+		<set name="mpConsume" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<for>
+			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="mount_speed_up">
+				<mul order="0x30" stat="runSpd" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9745" levels="1" name="巨蟻女王變身藥水">
+		<table name="#Desc-LV1">在10分鐘內變身為巨蟻女王的狀態。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="36258"/>
+		<set name="transformId" val="143"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9746" levels="1" name="奧爾芬變身藥水">
+		<table name="#Desc-LV1">在10分鐘內變身為奧爾芬的狀態。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="36259"/>
+		<set name="transformId" val="142"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9747" levels="1" name="亞納變身藥水">
+		<table name="#Desc-LV1">在10分鐘內變身為亞納的狀態。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="36260"/>
+		<set name="transformId" val="145"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9748" levels="1" name="莉莉絲變身藥水">
+		<table name="#Desc-LV1">在10分鐘內變身為莉莉絲的狀態。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="36261"/>
+		<set name="transformId" val="144"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="transform">
+				<mul order="0x30" stat="runSpd" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21270" levels="1" name="騎乘螞蟻公主">
+		<table name="#Desc-LV1">騎乘溫馴螞蟻公主。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="transformId" val="20008"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform">
+				<add order="0x40" stat="runSpd" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21271" levels="1" name="騎乘黑熊">
+		<table name="#Desc-LV1">騎乘黑熊。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="transformId" val="139"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform">
+				<add order="0x40" stat="runSpd" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21272" levels="1" name="騎乘萬聖夜魔女掃帚">
+		<table name="#Desc-LV1">騎乘萬聖夜魔女掃帚。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="transformId" val="20010"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform">
+				<add order="0x40" stat="runSpd" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21286" levels="1" name="獨角獸騎乘">
+		<table name="#Desc-LV1">騎乘獨角獸。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="transformId" val="20016"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform">
+				<add order="0x40" stat="runSpd" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22583" levels="1" name="變身卷軸-伯盧那">
+		<table name="#Desc-LV1">變身為晴空之伯盧那的狀態。</table>
+		<set name="isMagic" val="2"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="22743"/>
+		<set name="transformId" val="20015"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+		<for>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform"/>
+		</for>
+	</skill>
+</list>
