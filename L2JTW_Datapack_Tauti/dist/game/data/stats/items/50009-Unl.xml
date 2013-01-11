@@ -6092,29 +6092,6 @@
 		<set name="soulshots" val="3"/>
 		<set name="spiritshots" val="3"/>
 	</item>
-	<item id="22480" name="聖誕少女斗篷" type="Armor">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">可以同時感受到輕盈與寬鬆的斗篷。此物為聖誕少女的聖誕活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.icon.g_christmas_cloak"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="back"/>
-		<set name="material" val="cloth"/>
-		<set name="weight" val="220"/>
-		<for>
-			<add order="0x10" stat="pDef" val="20"/>
-		</for>
-	</item>
-	<item id="22611" name="新天堂II緣份覺醒派對紀念斗篷" type="Armor">
-		<table name="#Desc">突顯純白之美的斗篷。新天堂II緣份覺醒派對紀念活動所給予的道具。開啟斗篷欄位後便可以進行裝備。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。透過維他命管理者可與帳號內的其他角色共享。</table>
-		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i02"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="back"/>
-		<set name="material" val="cloth"/>
-		<set name="weight" val="220"/>
-		<for>
-			<add order="0x10" stat="pDef" val="25"/>
-		</for>
-	</item>
 	<item id="22775" name="龍獸衝槌" type="Weapon">
 		<table name="#Desc">龍獸之王使用的雙手鈍器。賦予裝備者特別的力量。可以賦予強健、HP吸收、體力再生其中之一的特殊效果。</table>
 		<set name="icon" val="BranchSys3.Icon.g_drake_maul_i00"/>

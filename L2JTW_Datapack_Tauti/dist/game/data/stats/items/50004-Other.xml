@@ -1000,18 +1000,6 @@
 		<set name="soulshots" val="2"/>
 		<set name="spiritshots" val="2"/>
 	</item>
-	<item id="22390" name="萬聖夜斗篷" type="Armor">
-		<table name="#Plus">活動</table>
-		<table name="#Desc">可以感受到超凡魅力的斗篷。此物為萬聖夜活動獎勵道具。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
-		<set name="icon" val="BranchSys3.Icon.g_halloween_cloack_i00"/>
-		<set name="default_action" val="equip"/>
-		<set name="bodypart" val="back"/>
-		<set name="material" val="cloth"/>
-		<set name="weight" val="220"/>
-		<for>
-			<add order="0x10" stat="pDef" val="20"/>
-		</for>
-	</item>
 	<item id="22392" name="萬聖夜南瓜帽" type="Armor">
 		<table name="#Plus">活動</table>
 		<table name="#Desc">恐怖的南瓜帽。此物為萬聖夜活動獎勵道具。會佔用頭飾欄位2格。無法交易、丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
