@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package custom.HeroWeapon;
 
@@ -27,12 +31,29 @@ public class HeroWeapon extends Quest
 {
 	private final static int[] npcIds =
 	{
-		31690,31769,31770,31771,31772
+		31690,
+		31769,
+		31770,
+		31771,
+		31772
 	};
 	
 	private final static int[] weaponIds =
 	{
-		6611,6612,6613,6614,6615,6616,6617,6618,6619,6620,6621,9388,9389,9390
+		6611,
+		6612,
+		6613,
+		6614,
+		6615,
+		6616,
+		6617,
+		6618,
+		6619,
+		6620,
+		6621,
+		9388,
+		9389,
+		9390
 	};
 	
 	public HeroWeapon(int questId, String name, String descr)
@@ -52,7 +73,9 @@ public class HeroWeapon extends Quest
 		
 		int weaponId = Integer.valueOf(event);
 		if (Util.contains(weaponIds, weaponId))
+		{
 			st.giveItems(weaponId, 1);
+		}
 		
 		st.exitQuest(true);
 		return null;
@@ -75,7 +98,9 @@ public class HeroWeapon extends Quest
 				st.exitQuest(true);
 			}
 			else
+			{
 				htmltext = "weapon_list.htm";
+			}
 		}
 		else
 		{
@@ -91,7 +116,9 @@ public class HeroWeapon extends Quest
 		for (int i : weaponIds)
 		{
 			if (player.getInventory().getItemByItemId(i) != null)
+			{
 				return true;
+			}
 		}
 		
 		return false;

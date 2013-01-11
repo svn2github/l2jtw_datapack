@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
@@ -33,13 +37,13 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 public class Festival implements IBypassHandler
 {
 	private static final String[] COMMANDS =
 	{
-		"festival", 
+		"festival",
 		"festivaldesc"
 	};
 	
@@ -77,6 +81,9 @@ public class Festival implements IBypassHandler
 					// Check if a festival is in progress, then don't allow registration yet.
 					if (SevenSignsFestival.getInstance().isFestivalInitialized())
 					{
+						/* Move To MessageTable For L2JTW
+						activeChar.sendMessage("You cannot sign up while a festival is in progress.");
+						*/
 						activeChar.sendMessage(1927);
 						return true;
 					}
@@ -150,6 +157,9 @@ public class Festival implements IBypassHandler
 					// Check if a festival is in progress, if it is don't register the score.
 					if (SevenSignsFestival.getInstance().isFestivalInProgress())
 					{
+						/* Move To MessageTable For L2JTW
+						activeChar.sendMessage("You cannot register a score while a festival is in progress.");
+						*/
 						activeChar.sendMessage(1928);
 						return true;
 					}
@@ -182,6 +192,9 @@ public class Festival implements IBypassHandler
 					// Check if the player collected any blood offerings during the festival.
 					if (bloodOfferings == null)
 					{
+						/* Move To MessageTable For L2JTW
+						activeChar.sendMessage("You do not have any blood offerings to contribute.");
+						*/
 						activeChar.sendMessage(1929);
 						return true;
 					}
@@ -207,6 +220,9 @@ public class Festival implements IBypassHandler
 					}
 					break;
 				case 4: // Current High Scores
+					/* Move To MessageTable For L2JTW
+					final StringBuilder strBuffer = StringUtil.startAppend(500, "<html><body>Festival Guide:<br>These are the top scores of the week, for the ");
+					*/
 					final StringBuilder strBuffer = StringUtil.startAppend(500,	"<html><body>"+ MessageTable.Messages[1930].getMessage() +"<br>"+ MessageTable.Messages[1931].getMessage());
 					
 					final StatsSet dawnData = SevenSignsFestival.getInstance().getHighestScoreData(SevenSigns.CABAL_DAWN, npc.getFestivalType());
@@ -223,23 +239,38 @@ public class Festival implements IBypassHandler
 						overallScore = overallData.getInteger("score");
 					}
 					
+					/* Move To MessageTable For L2JTW
+					StringUtil.append(strBuffer, SevenSignsFestival.getFestivalName(npc.getFestivalType()), " festival.<br>");
+					*/
 					StringUtil.append(strBuffer, SevenSignsFestival.getFestivalName(npc.getFestivalType()),	MessageTable.Messages[1932].getMessage() +"<br>");
 					
 					if (dawnScore > 0)
 					{
+						/* Move To MessageTable For L2JTW
+						StringUtil.append(strBuffer, "Dawn: ", calculateDate(dawnData.getString("date")), ". Score ", String.valueOf(dawnScore), "<br>", dawnData.getString("members"), "<br>");
+						*/
 						StringUtil.append(strBuffer, MessageTable.Messages[1934].getMessage(), calculateDate(dawnData.getString("date")), MessageTable.Messages[1933].getMessage(), String.valueOf(dawnScore), "<br>", dawnData.getString("members"), "<br>");
 					}
 					else
 					{
+						/* Move To MessageTable For L2JTW
+						strBuffer.append("Dawn: No record exists. Score 0<br>");
+						*/
 						strBuffer.append(MessageTable.Messages[1935].getMessage() +"<br>");
 					}
 					
 					if (duskScore > 0)
 					{
+						/* Move To MessageTable For L2JTW
+						StringUtil.append(strBuffer, "Dusk: ", calculateDate(duskData.getString("date")), ". Score ", String.valueOf(duskScore), "<br>", duskData.getString("members"), "<br>");
+						*/
 						StringUtil.append(strBuffer, MessageTable.Messages[1936].getMessage(), calculateDate(duskData.getString("date")), MessageTable.Messages[1933].getMessage(), String.valueOf(duskScore), "<br>", duskData.getString("members"), "<br>");
 					}
 					else
 					{
+						/* Move To MessageTable For L2JTW
+						strBuffer.append("Dusk: No record exists. Score 0<br>");
+						*/
 						strBuffer.append(MessageTable.Messages[1937].getMessage() +"<br>");
 					}
 					
@@ -248,20 +279,35 @@ public class Festival implements IBypassHandler
 						final String cabalStr;
 						if (overallData.getString("cabal").equals("dawn"))
 						{
+							/* Move To MessageTable For L2JTW
+							cabalStr = "Children of Dawn";
+							*/
 							cabalStr = MessageTable.Messages[1939].getMessage();
 						}
 						else
 						{
+							/* Move To MessageTable For L2JTW
+							cabalStr = "Children of Dusk";
+							*/
 							cabalStr = MessageTable.Messages[1938].getMessage();
 						}
 						
+						/* Move To MessageTable For L2JTW
+						StringUtil.append(strBuffer, "Consecutive top scores: ", calculateDate(overallData.getString("date")), ". Score ", String.valueOf(overallScore), "<br>Affilated side: ", cabalStr, "<br>", overallData.getString("members"), "<br>");
+						*/
 						StringUtil.append(strBuffer, MessageTable.Messages[1940].getMessage(), calculateDate(overallData.getString("date")), MessageTable.Messages[1933].getMessage(), String.valueOf(overallScore), "<br>"+ MessageTable.Messages[1941].getMessage(), cabalStr, "<br>", overallData.getString("members"), "<br>");
 					}
 					else
 					{
+						/* Move To MessageTable For L2JTW
+						strBuffer.append("Consecutive top scores: No record exists. Score 0<br>");
+						*/
 						strBuffer.append(MessageTable.Messages[1942].getMessage() +"<br>");
 					}
 					
+					/* Move To MessageTable For L2JTW
+					StringUtil.append(strBuffer, "<a action=\"bypass -h npc_", String.valueOf(npc.getObjectId()), "_Chat 0\">Go back.</a></body></html>");
+					*/
 					StringUtil.append(strBuffer, "<a action=\"bypass -h npc_", String.valueOf(npc.getObjectId()), "_Chat 0\">"+ MessageTable.Messages[1943].getMessage() +"</a></body></html>");
 					
 					NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
@@ -314,6 +360,9 @@ public class Festival implements IBypassHandler
 						}
 						else
 						{
+							/* Move To MessageTable For L2JTW
+							activeChar.sendMessage("Only the party leader can leave a festival when a party has minimum number of members.");
+							*/
 							activeChar.sendMessage(1944);
 						}
 					}
@@ -321,6 +370,9 @@ public class Festival implements IBypassHandler
 				case 0: // Distribute Accumulated Bonus
 					if (!SevenSigns.getInstance().isSealValidationPeriod())
 					{
+						/* Update L2JTW
+						activeChar.sendMessage("Bonuses cannot be paid during the competition period.");
+						*/
 						activeChar.sendPacket(SystemMessageId.SETTLE_ACCOUNT_ONLY_IN_SEAL_VALIDATION);
 						return true;
 					}

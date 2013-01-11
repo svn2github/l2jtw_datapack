@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.targethandlers;
 
@@ -37,20 +41,27 @@ public class TargetPartyNotMe implements ITargetTypeHandler
 	{
 		List<L2Character> targetList = new FastList<>();
 		if (onlyFirst)
-			return new L2Character[] { activeChar };
+		{
+			return new L2Character[]
+			{
+				activeChar
+			};
+		}
 		
 		L2PcInstance player = null;
 		
-		if (activeChar instanceof L2Summon)
+		if (activeChar.isSummon())
 		{
 			player = ((L2Summon) activeChar).getOwner();
 			targetList.add(player);
 		}
-		else if (activeChar instanceof L2PcInstance)
+		else if (activeChar.isPlayer())
 		{
-			player = (L2PcInstance) activeChar;
+			player = activeChar.getActingPlayer();
 			if (activeChar.getSummon() != null)
+			{
 				targetList.add(activeChar.getSummon());
+			}
 		}
 		
 		if (activeChar.getParty() != null)
@@ -60,17 +71,23 @@ public class TargetPartyNotMe implements ITargetTypeHandler
 			for (L2PcInstance partyMember : partyList)
 			{
 				if (partyMember == null)
+				{
 					continue;
+				}
 				else if (partyMember == player)
+				{
 					continue;
+				}
 				else if (!partyMember.isDead() && Util.checkIfInRange(skill.getSkillRadius(), activeChar, partyMember, true))
 				{
-					if (skill.getMaxTargets() > -1 && targetList.size() >= skill.getMaxTargets())
+					if ((skill.getMaxTargets() > -1) && (targetList.size() >= skill.getMaxTargets()))
+					{
 						break;
+					}
 					
 					targetList.add(partyMember);
 					
-					if (partyMember.getSummon() != null && !partyMember.getSummon().isDead())
+					if ((partyMember.getSummon() != null) && !partyMember.getSummon().isDead())
 					{
 						targetList.add(partyMember.getSummon());
 					}

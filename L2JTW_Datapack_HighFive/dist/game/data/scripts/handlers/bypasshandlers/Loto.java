@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
@@ -29,7 +33,7 @@ import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.InventoryUpdate;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 public class Loto implements IBypassHandler
 {
@@ -41,7 +45,7 @@ public class Loto implements IBypassHandler
 	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
-		if (!(target instanceof L2Npc))
+		if (!target.isNpc())
 		{
 			return false;
 		}
@@ -168,6 +172,10 @@ public class Loto implements IBypassHandler
 			
 			if (count == 5)
 			{
+				/* Move To MessageTable For L2JTW
+				String search = "0\">Return";
+				String replace = "22\">Your lucky numbers have been selected above.";
+				*/
 				String search = "0\">"+MessageTable.Messages[1004].getMessage();
 				String replace = "22\">"+MessageTable.Messages[1005].getMessage();
 				html.replace(search, replace);
@@ -261,6 +269,9 @@ public class Loto implements IBypassHandler
 				}
 				if ((item.getItemId() == 4442) && (item.getCustomType1() < lotonumber))
 				{
+					/* Move To MessageTable For L2JTW
+					message = message + "<a action=\"bypass -h npc_%objectId%_Loto " + item.getObjectId() + "\">" + item.getCustomType1() + " Event Number ";
+					*/
 					message = message + "<a action=\"bypass -h npc_%objectId%_Loto " + item.getObjectId() + "\">" + item.getCustomType1() + MessageTable.Messages[1006].getMessage();
 					int[] numbers = Lottery.getInstance().decodeNumbers(item.getEnchantLevel(), item.getCustomType2());
 					for (int i = 0; i < 5; i++)
@@ -273,18 +284,33 @@ public class Loto implements IBypassHandler
 						switch ((int) check[0])
 						{
 							case 1:
+								/* Move To MessageTable For L2JTW
+								message += "- 1st Prize";
+								*/
 								message += MessageTable.Messages[1007].getMessage();
 								break;
 							case 2:
+								/* Move To MessageTable For L2JTW
+								message += "- 2nd Prize";
+								*/
 								message += MessageTable.Messages[1008].getMessage();
 								break;
 							case 3:
+								/* Move To MessageTable For L2JTW
+								message += "- 3th Prize";
+								*/
 								message += MessageTable.Messages[1009].getMessage();
 								break;
 							case 4:
+								/* Move To MessageTable For L2JTW
+								message += "- 4th Prize";
+								*/
 								message += MessageTable.Messages[1010].getMessage();
 								break;
 						}
+						/* Move To MessageTable For L2JTW
+						message += " " + check[1] + "a.";
+						*/
 						message += " " + check[1] + MessageTable.Messages[1011].getMessage();
 					}
 					message += "</a><br>";
@@ -292,6 +318,9 @@ public class Loto implements IBypassHandler
 			}
 			if (message.isEmpty())
 			{
+				/* Move To MessageTable For L2JTW
+				message += "There has been no winning lottery ticket.<br>";
+				*/
 				message += MessageTable.Messages[1012].getMessage()+"<br>";
 			}
 			html.replace("%result%", message);

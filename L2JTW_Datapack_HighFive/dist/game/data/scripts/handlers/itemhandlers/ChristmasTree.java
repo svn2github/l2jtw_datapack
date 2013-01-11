@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.itemhandlers;
 
@@ -24,7 +28,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.templates.L2NpcTemplate;
 import com.l2jserver.gameserver.model.items.instance.L2ItemInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 public class ChristmasTree implements IItemHandler
 {
@@ -51,11 +55,15 @@ public class ChristmasTree implements IItemHandler
 		}
 		
 		if (template1 == null)
+		{
 			return false;
+		}
 		
 		L2Object target = activeChar.getTarget();
 		if (target == null)
+		{
 			target = activeChar;
+		}
 		
 		try
 		{
@@ -69,6 +77,9 @@ public class ChristmasTree implements IItemHandler
 			
 			activeChar.destroyItem("Consume", item.getObjectId(), 1, null, false);
 			
+			/* Move To MessageTable For L2JTW
+			activeChar.sendMessage("Created " + template1.getName() + " at x: " + spawn.getLocx() + " y: " + spawn.getLocy() + " z: " + spawn.getLocz());
+			*/
 			activeChar.sendMessage(MessageTable.Messages[1118].getMessage() + template1.getName() + MessageTable.Messages[1119].getMessage() + " x: " + spawn.getLocx() + " y: " + spawn.getLocy() + " z: " + spawn.getLocz());
 			return true;
 		}

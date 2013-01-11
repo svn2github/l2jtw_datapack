@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.npc.Teleports.StrongholdsTeleports;
 
@@ -28,7 +32,10 @@ public class StrongholdsTeleports extends AbstractNpcAI
 {
 	private final static int[] NPCs =
 	{
-		32163, 32181, 32184, 32186
+		32163,
+		32181,
+		32184,
+		32186
 	};
 	
 	@Override
@@ -37,9 +44,13 @@ public class StrongholdsTeleports extends AbstractNpcAI
 		String htmltext = "";
 		
 		if (player.getLevel() < 20)
+		{
 			htmltext = String.valueOf(npc.getNpcId()) + ".htm";
+		}
 		else
+		{
 			htmltext = String.valueOf(npc.getNpcId()) + "-no.htm";
+		}
 		
 		return htmltext;
 	}

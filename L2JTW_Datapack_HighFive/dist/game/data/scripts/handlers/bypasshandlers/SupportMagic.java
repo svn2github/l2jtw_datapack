@@ -1,21 +1,24 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
 import com.l2jserver.gameserver.datatables.HelperBuffTable;
-import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.IBypassHandler;
 import com.l2jserver.gameserver.model.L2HelperBuff;
@@ -24,6 +27,7 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 public class SupportMagic implements IBypassHandler
 {
@@ -36,7 +40,7 @@ public class SupportMagic implements IBypassHandler
 	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
-		if (!(target instanceof L2Npc))
+		if (!target.isNpc())
 		{
 			return false;
 		}
@@ -64,9 +68,9 @@ public class SupportMagic implements IBypassHandler
 	 * <FONT COLOR=#FF0000><B> Newbie Helper Buff list is define in sql table helper_buff_list</B></FONT><BR>
 	 * <BR>
 	 * @param player The L2PcInstance that talk with the L2NpcInstance
-	 * @param npc 
-	 * @param isSummon 
-	 * @return 
+	 * @param npc
+	 * @param isSummon
+	 * @return
 	 */
 	public static boolean makeSupportMagic(L2PcInstance player, L2Npc npc, boolean isSummon)
 	{
@@ -89,6 +93,9 @@ public class SupportMagic implements IBypassHandler
 		{
 			if (!player.hasSummon() || !player.getSummon().isServitor())
 			{
+				/* Move To MessageTable For L2JTW
+				String content = "<html><body>Only servitors can receive this Support Magic. If you do not have a servitor, you cannot access these spells.</body></html>";
+				*/
 				String content = "<html><body>"+ MessageTable.Messages[1081].getMessage() +"</body></html>";
 				npc.insertObjectIdAndShowChatWindow(player, content);
 				return true;
@@ -123,6 +130,9 @@ public class SupportMagic implements IBypassHandler
 		// If the player is too high level, display a message and return
 		if (player_level > highestLevel)
 		{
+			/* Move To MessageTable For L2JTW
+			String content = "<html><body>Newbie Guide:<br>Only a <font color=\"LEVEL\">novice character of level " + highestLevel + " or less</font> can receive my support magic.<br>Your novice character is the first one that you created and raised in this world.</body></html>";
+			*/
 			String content = "<html><body>"+ MessageTable.Messages[1082].getMessage() +"<br>"+ MessageTable.Messages[1083].getMessage() +"<font color=\"LEVEL\">"+ MessageTable.Messages[1084].getMessage() + highestLevel + MessageTable.Messages[1085].getMessage() +"</font>"+ MessageTable.Messages[1086].getMessage() +"</body></html>";
 			npc.insertObjectIdAndShowChatWindow(player, content);
 			return true;
@@ -131,6 +141,9 @@ public class SupportMagic implements IBypassHandler
 		// If the player is too low level, display a message and return
 		if (player_level < lowestLevel)
 		{
+			/* Move To MessageTable For L2JTW
+			String content = "<html><body>Come back here when you have reached level " + lowestLevel + ". I will give you support magic then.</body></html>";
+			*/
 			String content = "<html><body>"+ MessageTable.Messages[1087].getMessage() + lowestLevel + MessageTable.Messages[1088].getMessage() +"</body></html>";
 			npc.insertObjectIdAndShowChatWindow(player, content);
 			return true;

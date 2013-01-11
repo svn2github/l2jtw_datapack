@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.effecthandlers;
 
@@ -56,22 +60,26 @@ public class Fear extends L2Effect
 	@Override
 	public boolean onStart()
 	{
-		if (getEffected() instanceof L2NpcInstance
-				|| getEffected() instanceof L2DefenderInstance
-				|| getEffected() instanceof L2FortCommanderInstance
-				|| getEffected() instanceof L2SiegeFlagInstance
-				|| getEffected() instanceof L2SiegeSummonInstance)
+		if ((getEffected() instanceof L2NpcInstance) || (getEffected() instanceof L2DefenderInstance) || (getEffected() instanceof L2FortCommanderInstance) || (getEffected() instanceof L2SiegeFlagInstance) || (getEffected() instanceof L2SiegeSummonInstance))
+		{
 			return false;
+		}
 		
 		if (!getEffected().isAfraid())
 		{
-			if(getEffected().isCastingNow() && getEffected().canAbortCast())
+			if (getEffected().isCastingNow() && getEffected().canAbortCast())
+			{
 				getEffected().abortCast();
-
+			}
+			
 			if (getEffected().getX() > getEffector().getX())
+			{
 				_dX = 1;
+			}
 			if (getEffected().getY() > getEffector().getY())
+			{
 				_dY = 1;
+			}
 			
 			getEffected().startFear();
 			onActionTime();
@@ -94,9 +102,13 @@ public class Fear extends L2Effect
 		int posZ = getEffected().getZ();
 		
 		if (getEffected().getX() > getEffector().getX())
+		{
 			_dX = 1;
+		}
 		if (getEffected().getY() > getEffector().getY())
+		{
 			_dY = 1;
+		}
 		
 		posX += _dX * FEAR_RANGE;
 		posY += _dY * FEAR_RANGE;
@@ -109,7 +121,9 @@ public class Fear extends L2Effect
 		}
 		
 		if (!(getEffected() instanceof L2PetInstance))
+		{
 			getEffected().setRunning();
+		}
 		
 		getEffected().getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(posX, posY, posZ, 0));
 		return true;

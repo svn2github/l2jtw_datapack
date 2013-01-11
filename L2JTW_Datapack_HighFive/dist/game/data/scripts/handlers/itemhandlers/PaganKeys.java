@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.itemhandlers;
 
@@ -55,19 +59,27 @@ public class PaganKeys implements IItemHandler
 		
 		if (!(activeChar.isInsideRadius(door, INTERACTION_DISTANCE, false, false)))
 		{
+			/* Update L2JTW
+			activeChar.sendMessage("Too far.");
+			*/
 			activeChar.sendPacket(SystemMessageId.TARGET_TOO_FAR);
 			activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 			return false;
 		}
-		if (activeChar.getAbnormalEffect() > 0 || activeChar.isInCombat())
+		if ((activeChar.getAbnormalEffect() > 0) || activeChar.isInCombat())
 		{
+			/* Move To MessageTable For L2JTW
+			activeChar.sendMessage("You cannot use the key now.");
+			*/
 			activeChar.sendMessage(1123);
 			activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 			return false;
 		}
 		
 		if (!playable.destroyItem("Consume", item.getObjectId(), 1, null, false))
+		{
 			return false;
+		}
 		
 		// TODO: Unhardcode these!
 		switch (itemId)
@@ -77,13 +89,10 @@ public class PaganKeys implements IItemHandler
 				{
 					if (activeChar.getInstanceId() != door.getInstanceId())
 					{
-						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+						final L2DoorInstance instanceDoor = InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoor(door.getDoorId());
+						if (instanceDoor != null)
 						{
-							if (instanceDoor.getDoorId() == door.getDoorId())
-							{
-								instanceDoor.openMe();
-								break;
-							}
+							instanceDoor.openMe();
 						}
 					}
 					else
@@ -93,6 +102,9 @@ public class PaganKeys implements IItemHandler
 				}
 				else
 				{
+					/* Move To MessageTable For L2JTW
+					activeChar.sendMessage("Incorrect Door.");
+					*/
 					activeChar.sendMessage(1124);
 				}
 				break;
@@ -101,13 +113,10 @@ public class PaganKeys implements IItemHandler
 				{
 					if (activeChar.getInstanceId() != door.getInstanceId())
 					{
-						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+						final L2DoorInstance instanceDoor = InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoor(door.getDoorId());
+						if (instanceDoor != null)
 						{
-							if (instanceDoor.getDoorId() == door.getDoorId())
-							{
-								instanceDoor.openMe();
-								break;
-							}
+							instanceDoor.openMe();
 						}
 					}
 					else
@@ -117,17 +126,23 @@ public class PaganKeys implements IItemHandler
 				}
 				else
 				{
+					/* Move To MessageTable For L2JTW
+					activeChar.sendMessage("Incorrect Door.");
+					*/
 					activeChar.sendMessage(1124);
 				}
 				break;
 			case 8056:
-				if (door.getDoorId() == 23150004 || door.getDoorId() == 23150003)
+				if ((door.getDoorId() == 23150004) || (door.getDoorId() == 23150003))
 				{
 					DoorTable.getInstance().getDoor(23150003).openMe();
 					DoorTable.getInstance().getDoor(23150004).openMe();
 				}
 				else
 				{
+					/* Move To MessageTable For L2JTW
+					activeChar.sendMessage("Incorrect Door.");
+					*/
 					activeChar.sendMessage(1124);
 				}
 				break;

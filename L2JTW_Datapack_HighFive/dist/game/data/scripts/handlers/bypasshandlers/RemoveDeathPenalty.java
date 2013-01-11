@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
@@ -22,7 +26,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.EtcStatusUpdate;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 public class RemoveDeathPenalty implements IBypassHandler
 {
@@ -31,15 +35,22 @@ public class RemoveDeathPenalty implements IBypassHandler
 		"remove_dp"
 	};
 	
-	private static final int[] pen_clear_price =
+	private static final int[] PEN_CLEAR_PRICE =
 	{
-		3600, 8640, 25200, 50400, 86400, 144000, 144000, 144000
+		3600,
+		8640,
+		25200,
+		50400,
+		86400,
+		144000,
+		144000,
+		144000
 	};
 	
 	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
-		if (!(target instanceof L2Npc))
+		if (!target.isNpc())
 		{
 			return false;
 		}
@@ -55,18 +66,21 @@ public class RemoveDeathPenalty implements IBypassHandler
 					NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
 					html.setFile(activeChar.getHtmlPrefix(), filename);
 					html.replace("%objectId%", String.valueOf(npc.getObjectId()));
-					html.replace("%dp_price%", String.valueOf(pen_clear_price[activeChar.getExpertiseLevel()]));
+					html.replace("%dp_price%", String.valueOf(PEN_CLEAR_PRICE[activeChar.getExpertiseLevel()]));
 					activeChar.sendPacket(html);
 					break;
 				case 2:
 					NpcHtmlMessage Reply = new NpcHtmlMessage(npc.getObjectId());
+					/* Move To MessageTable For L2JTW
+					final StringBuilder replyMSG = StringUtil.startAppend(400, "<html><body>Black Judge:<br>");
+					*/
 					final StringBuilder replyMSG = StringUtil.startAppend(400, "<html><body>"+ MessageTable.Messages[1022].getMessage() +"<br>");
 					
 					if (activeChar.getDeathPenaltyBuffLevel() > 0)
 					{
-						if (activeChar.getAdena() >= pen_clear_price[activeChar.getExpertiseLevel()])
+						if (activeChar.getAdena() >= PEN_CLEAR_PRICE[activeChar.getExpertiseLevel()])
 						{
-							if (!activeChar.reduceAdena("DeathPenality", pen_clear_price[activeChar.getExpertiseLevel()], npc, true))
+							if (!activeChar.reduceAdena("DeathPenality", PEN_CLEAR_PRICE[activeChar.getExpertiseLevel()], npc, true))
 							{
 								return false;
 							}
@@ -75,10 +89,16 @@ public class RemoveDeathPenalty implements IBypassHandler
 							activeChar.sendPacket(new EtcStatusUpdate(activeChar));
 							return true;
 						}
+						/* Move To MessageTable For L2JTW
+						replyMSG.append("The wound you have received from death's touch is too deep to be healed for the money you have to give me. Find more money if you wish death's mark to be fully removed from you.");
+						*/
 						replyMSG.append(MessageTable.Messages[1023].getMessage());
 					}
 					else
 					{
+						/* Move To MessageTable For L2JTW
+						replyMSG.append("You have no more death wounds that require healing.<br>" + "Go forth and fight, both for this world and your own glory.");
+						*/
 						replyMSG.append(MessageTable.Messages[1024].getMessage()+"<br>" + MessageTable.Messages[1025].getMessage());
 					}
 					

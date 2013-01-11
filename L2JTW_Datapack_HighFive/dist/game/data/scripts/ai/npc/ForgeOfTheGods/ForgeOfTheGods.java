@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.npc.ForgeOfTheGods;
 
@@ -45,7 +49,8 @@ public class ForgeOfTheGods extends AbstractNpcAI
 		22646, // Ashuras of Destruction
 		22647, // Lavasillisk
 		22648, // Blazing Ifrit
-		22649  // Magma Drake
+		22649
+	// Magma Drake
 	};
 	
 	private static final int[] LAVASAURUSES =
@@ -54,7 +59,8 @@ public class ForgeOfTheGods extends AbstractNpcAI
 		18800, // Fledgling Lavasaurus
 		18801, // Adult Lavasaurus
 		18802, // Elderly Lavasaurus
-		18803  // Ancient Lavasaurus
+		18803
+	// Ancient Lavasaurus
 	};
 	
 	private static final int REFRESH = 15;
@@ -75,6 +81,7 @@ public class ForgeOfTheGods extends AbstractNpcAI
 	private static final int FORGE_BONUS02 = 40;
 	
 	private static int _npcCount = 0;
+	
 	// private static int _npcsAlive = 0; TODO: Require zone spawn support
 	
 	@Override
@@ -103,7 +110,7 @@ public class ForgeOfTheGods extends AbstractNpcAI
 		_npcCount++;
 		
 		// For monsters at Forge of the Gods - Lower level
-		if (npc.getSpawn().getLocz() < -5000) // && (_npcsAlive < 48)) 
+		if (npc.getSpawn().getLocz() < -5000) // && (_npcsAlive < 48))
 		{
 			if ((_npcCount > BONUS_LOWER_LV03) && (rand <= FORGE_BONUS02))
 			{
@@ -122,7 +129,8 @@ public class ForgeOfTheGods extends AbstractNpcAI
 				mob = spawnLavasaurus(npc, rand, LAVASAURUSES[2], LAVASAURUSES[1]);
 			}
 		}
-		else // if (_npcsAlive < 32)
+		else
+		// if (_npcsAlive < 32)
 		{
 			if ((_npcCount > BONUS_UPPER_LV05) && (rand <= FORGE_BONUS02))
 			{

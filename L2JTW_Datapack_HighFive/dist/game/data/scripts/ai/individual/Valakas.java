@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.individual;
 
@@ -56,7 +60,8 @@ public class Valakas extends AbstractNpcAI
 		new SkillHolder(4681, 1), // Valakas Trample
 		new SkillHolder(4682, 1), // Valakas Trample
 		new SkillHolder(4683, 1), // Valakas Dragon Breath
-		new SkillHolder(4689, 1) // Valakas Fear TODO: has two levels only level one is used.
+		new SkillHolder(4689, 1)
+	// Valakas Fear TODO: has two levels only level one is used.
 	};
 	private static final SkillHolder[] VALAKAS_LOWHP_SKILLS =
 	{
@@ -64,7 +69,8 @@ public class Valakas extends AbstractNpcAI
 		new SkillHolder(4682, 1), // Valakas Trample
 		new SkillHolder(4683, 1), // Valakas Dragon Breath
 		new SkillHolder(4689, 1), // Valakas Fear TODO: has two levels only level one is used.
-		new SkillHolder(4690, 1) // Valakas Meteor Storm
+		new SkillHolder(4690, 1)
+	// Valakas Meteor Storm
 	};
 	private static final SkillHolder[] VALAKAS_AOE_SKILLS =
 	{
@@ -74,7 +80,8 @@ public class Valakas extends AbstractNpcAI
 		new SkillHolder(4686, 1), // Valakas Tail Stomp
 		new SkillHolder(4688, 1), // Valakas Stun
 		new SkillHolder(4689, 1), // Valakas Fear TODO: has two levels only level one is used.
-		new SkillHolder(4690, 1) // Valakas Meteor Storm
+		new SkillHolder(4690, 1)
+	// Valakas Meteor Storm
 	};
 	// Locations
 	private static final Location TELEPORT_CUBE_LOCATIONS[] =

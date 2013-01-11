@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
@@ -33,7 +37,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 public class QuestLink implements IBypassHandler
 {
@@ -45,7 +49,7 @@ public class QuestLink implements IBypassHandler
 	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
-		if (!(target instanceof L2Npc))
+		if (!target.isNpc())
 		{
 			return false;
 		}
@@ -97,10 +101,16 @@ public class QuestLink implements IBypassHandler
 			}
 			else if (qs.isStarted())
 			{
+				/* Move To MessageTable For L2JTW
+				state = q.isCustomQuest() ? " (In Progress)" : "02";
+				*/
 				state = q.isCustomQuest() ? MessageTable.Messages[1016].getMessage() : "02";
 			}
 			else if (qs.isCompleted())
 			{
+				/* Move To MessageTable For L2JTW
+				state = q.isCustomQuest() ? " (Done)" : "03";
+				*/
 				state = q.isCustomQuest() ? MessageTable.Messages[1017].getMessage() : "03";
 			}
 			

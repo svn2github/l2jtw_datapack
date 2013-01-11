@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.effecthandlers;
 
@@ -54,9 +58,13 @@ public class Signet extends L2Effect
 	public boolean onStart()
 	{
 		if (getSkill() instanceof L2SkillSignet)
+		{
 			_skill = SkillTable.getInstance().getInfo(getSkill().getEffectId(), getLevel());
+		}
 		else if (getSkill() instanceof L2SkillSignetCasttime)
+		{
 			_skill = SkillTable.getInstance().getInfo(getSkill().getEffectId(), getLevel());
+		}
 		_actor = (L2EffectPointInstance) getEffected();
 		_srcInArena = (getEffector().isInsideZone(ZoneId.PVP) && !getEffector().isInsideZone(ZoneId.SIEGE));
 		return true;
@@ -66,7 +74,9 @@ public class Signet extends L2Effect
 	public boolean onActionTime()
 	{
 		if (_skill == null)
+		{
 			return true;
+		}
 		int mpConsume = _skill.getMpConsume();
 		
 		if (mpConsume > getEffector().getCurrentMp())
@@ -80,10 +90,14 @@ public class Signet extends L2Effect
 		for (L2Character cha : _actor.getKnownList().getKnownCharactersInRadius(getSkill().getSkillRadius()))
 		{
 			if (cha == null)
+			{
 				continue;
+			}
 			
 			if (_skill.isOffensive() && !L2Skill.checkForAreaOffensiveSkills(getEffector(), cha, _skill, _srcInArena))
+			{
 				continue;
+			}
 			
 			// there doesn't seem to be a visible effect with MagicSkillLaunched packet...
 			_actor.broadcastPacket(new MagicSkillUse(_actor, cha, _skill.getId(), _skill.getLevel(), 0, 0));
@@ -91,7 +105,9 @@ public class Signet extends L2Effect
 		}
 		
 		if (!targets.isEmpty())
+		{
 			getEffector().callSkill(_skill, targets.toArray(new L2Character[targets.size()]));
+		}
 		FastList.recycle(targets);
 		return true;
 	}
@@ -100,6 +116,8 @@ public class Signet extends L2Effect
 	public void onExit()
 	{
 		if (_actor != null)
+		{
 			_actor.deleteMe();
+		}
 	}
 }

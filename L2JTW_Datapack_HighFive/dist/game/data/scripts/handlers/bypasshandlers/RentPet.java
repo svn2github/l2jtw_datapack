@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
@@ -24,7 +28,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2MerchantInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 public class RentPet implements IBypassHandler
 {
@@ -59,6 +63,9 @@ public class RentPet implements IBypassHandler
 			if (st.countTokens() < 1)
 			{
 				NpcHtmlMessage msg = new NpcHtmlMessage(((L2Npc) target).getObjectId());
+				/* Move To MessageTable For L2JTW
+				msg.setHtml("<html><body>Pet Manager:<br>" + "You can rent a wyvern or strider for adena.<br>My prices:<br1>" + "<table border=0><tr><td>Ride</td></tr>" + "<tr><td>Wyvern</td><td>Strider</td></tr>" + "<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 1\">30 sec/1800 adena</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 11\">30 sec/900 adena</a></td></tr>" + "<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 2\">1 min/7200 adena</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 12\">1 min/3600 adena</a></td></tr>" + "<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 3\">10 min/720000 adena</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 13\">10 min/360000 adena</a></td></tr>" + "<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 4\">30 min/6480000 adena</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 14\">30 min/3240000 adena</a></td></tr>" + "</table>" + "</body></html>");
+				*/
 				msg.setHtml("<html><body>"+ MessageTable.Messages[1029].getMessage() +"<br>"+ MessageTable.Messages[1030].getMessage() +"<br>"+ MessageTable.Messages[1031].getMessage() +"<br1>"+"<table border=0><tr><td>"+ MessageTable.Messages[1032].getMessage() +"</td></tr>"+"<tr><td>"+ MessageTable.Messages[1033].getMessage() +"</td><td>"+ MessageTable.Messages[1034].getMessage() +"</td></tr>"+"<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 1\">"+ MessageTable.Messages[1035].getMessage() +"</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 11\">"+ MessageTable.Messages[1036].getMessage() +"</a></td></tr>"+"<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 2\">"+ MessageTable.Messages[1037].getMessage() +"</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 12\">"+ MessageTable.Messages[1038].getMessage() +"</a></td></tr>" + "<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 3\">"+ MessageTable.Messages[1039].getMessage() +"</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 13\">"+ MessageTable.Messages[1040].getMessage() +"</a></td></tr>"+"<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 4\">"+ MessageTable.Messages[1041].getMessage() +"</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 14\">"+ MessageTable.Messages[1042].getMessage() +"</a></td></tr>"+"</table>"+"</body></html>");
 				msg.replace("%objectId%", String.valueOf(((L2Npc) target).getObjectId()));
 				activeChar.sendPacket(msg);
@@ -92,11 +99,17 @@ public class RentPet implements IBypassHandler
 		double price = 1;
 		int cost[] =
 		{
-			1800, 7200, 720000, 6480000
+			1800,
+			7200,
+			720000,
+			6480000
 		};
 		int ridetime[] =
 		{
-			30, 60, 600, 1800
+			30,
+			60,
+			600,
+			1800
 		};
 		
 		if (val > 10)
