@@ -14,6 +14,7 @@
  */
 package quests.Q00196_SevenSignsSealOfTheEmperor;
 
+import quests.Q00195_SevenSignsSecretRitualOfThePriests.Q00195_SevenSignsSecretRitualOfThePriests;
 import javolution.util.FastList;
 import javolution.util.FastMap;
 
@@ -23,7 +24,6 @@ import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.entity.Instance;
@@ -67,7 +67,6 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 	private static boolean debug = false;
 	private static boolean noRndWalk = true;
 	
-	public static final String qn = "196_SevenSignSealOfTheEmperor";
 	private static final int INSTANCEID        = 112;
 	
 	// NPCs
@@ -236,7 +235,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		
 		world.rooms.put("StartRoom", StartRoom);
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: first room spawned in instance " + world.getInstanceId());
+			_log.info("SevenSignsSealOfTheEmperor: first room spawned in instance " + world.getInstanceId());
 	}
 	
 	/**
@@ -268,7 +267,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		world.setStatus(1);
 
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: spawned First room");
+			_log.info("SevenSignsSealOfTheEmperor: spawned First room");
 	}
 	
 	/**
@@ -308,7 +307,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		world.setStatus(2);
 		
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: spawned second room");
+			_log.info("SevenSignsSealOfTheEmperor: spawned second room");
 	}
 	
 	/**
@@ -356,7 +355,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		world.setStatus(3);
 		
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: spawned Third room");
+			_log.info("SevenSignsSealOfTheEmperor: spawned Third room");
 	}
 	
 	/**
@@ -404,7 +403,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		world.setStatus(4);
 		
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: spawned Forth room");
+			_log.info("SevenSignsSealOfTheEmperor: spawned Forth room");
 	}
 	
 	/**
@@ -468,7 +467,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		world.setStatus(5);
 		
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: spawned Fifth room");
+			_log.info("SevenSignsSealOfTheEmperor: spawned Fifth room");
 	}
 	
 	protected void runBossRoom(SIGNSWorld world)
@@ -551,7 +550,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		world.rooms.put("BossRoom", BossRoom);
 		world.setStatus(6);
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: spawned Boss room");
+			_log.info("SevenSignsSealOfTheEmperor: spawned Boss room");
 	}
 	
 	protected void runSDRoom(SIGNSWorld world)
@@ -597,7 +596,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		
 		world.rooms.put("SDRoom", SDRoom);
 		if (debug)
-			_log.info("SevenSignSealOfTheEmperor: spawned SD room");
+			_log.info("SevenSignsSealOfTheEmperor: spawned SD room");
 	}
 	
 	protected boolean checkKillProgress(L2Npc npc, SIGNSRoom room)
@@ -624,13 +623,6 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(instanceId);
 		player.teleToLocation(coords[0], coords[1], coords[2], true);
-	}
-	
-	private static final void openDoor(int doorId, int instanceId)
-	{
-		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
-			if (door.getDoorId() == doorId)
-				door.openMe();
 	}
 	
 	private final synchronized void enterInstance(L2PcInstance player)
@@ -706,7 +698,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		QuestState st = player.getQuestState(qn);
+		QuestState st = player.getQuestState(getName());
 		
 		if (st == null)
 			return htmltext;
@@ -809,9 +801,9 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		QuestState st = player.getQuestState(qn);
-		QuestState qs = player.getQuestState("195_SevenSignSecretRitualOfThePriests");
+		String htmltext = getNoQuestMsg(player);
+		QuestState st = player.getQuestState(getName());
+		QuestState qs = player.getQuestState(Q00195_SevenSignsSecretRitualOfThePriests.class.getSimpleName());
 		
 		if (st == null)
 			return htmltext;
@@ -846,13 +838,13 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 								return "30969-12.htm";
 						}
 					case State.COMPLETED:
-						return "<html><body>這是已經完成的任務。</body></html>";
+						return getAlreadyCompletedMsg(player);
 				}
 			case WOOD:
 				if (cond == 6)
 					return "32593-01.htm";
 				else if (st.getState() == State.COMPLETED)
-					return "<html><body>這是已經完成的任務。</body></html>";
+					return getAlreadyCompletedMsg(player);
 			case MAMMON:
 				switch (st.getInt("cond"))
 				{
@@ -945,7 +937,7 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		QuestState st = player.getQuestState(qn);
+		QuestState st = player.getQuestState(getName());
 		
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 		SIGNSWorld world;
@@ -1073,6 +1065,6 @@ public class Q00196_SevenSignsSealOfTheEmperor extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q00196_SevenSignsSealOfTheEmperor(196, qn, "七封印，皇帝的封印");
+		new Q00196_SevenSignsSealOfTheEmperor(196, Q00196_SevenSignsSealOfTheEmperor.class.getSimpleName(), "Seven Signs, Seal Of The Emperor");
 	}
 }

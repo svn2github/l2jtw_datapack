@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package vehicles.AirShipGludioGracia;
 
@@ -251,7 +255,9 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			}
 			_cycle++;
 			if (_cycle > 7)
+			{
 				_cycle = 0;
+			}
 		}
 		catch (Exception e)
 		{
@@ -267,7 +273,9 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			_atcGludio = findController();
 		}
 		if (_atcGludio != null)
+		{
 			_atcGludio.broadcastPacket(new NpcSay(_atcGludio.getObjectId(), Say2.NPC_SHOUT, _atcGludio.getNpcId(), npcString));
+		}
 	}
 	
 	private final void broadcastInGracia(NpcStringId npcStringId)
@@ -278,7 +286,9 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			_atcGracia = findController();
 		}
 		if (_atcGracia != null)
+		{
 			_atcGracia.broadcastPacket(new NpcSay(_atcGracia.getObjectId(), Say2.NPC_SHOUT, _atcGracia.getNpcId(), npcStringId));
+		}
 	}
 	
 	private final L2Npc findController()
@@ -286,12 +296,14 @@ public class AirShipGludioGracia extends Quest implements Runnable
 		// check objects around the ship
 		for (L2Object obj : L2World.getInstance().getVisibleObjects(_ship, 600))
 		{
-			if (obj instanceof L2Npc)
+			if (obj.isNpc())
 			{
 				for (int id : CONTROLLERS)
 				{
 					if (((L2Npc) obj).getNpcId() == id)
+					{
 						return (L2Npc) obj;
+					}
 				}
 			}
 		}

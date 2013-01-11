@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package instances.FinalEmperialTomb;
 
@@ -44,11 +48,11 @@ import com.l2jserver.gameserver.model.L2Object.InstanceType;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.L2Territory;
 import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.PcCondOverride;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2MonsterInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -72,8 +76,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.util.Util;
 
 /**
- * Final Emperial Tomb instance zone.
- * TODO:<br>
+ * Final Emperial Tomb instance zone. TODO:<br>
  * Test when Frintezza song use 5008 effect skill.<br>
  * Test deeply Scarlet van Halisha's AI.<br>
  * Use correct Song names.<br>
@@ -151,12 +154,7 @@ public class FinalEmperialTomb extends Quest
 	private final List<Integer> _mustKillMobsId = new FastList<>();
 	
 	// Teleports
-	private static final int[] ENTER_TELEPORT =
-	{
-		-88015,
-		-141153,
-		-9168
-	};
+	private static final Location ENTER_TELEPORT = new Location(-88015, -141153, -9168);
 	
 	// NPCs
 	private static final int GUIDE = 32011;
@@ -518,31 +516,6 @@ public class FinalEmperialTomb extends Quest
 		}
 	}
 	
-	protected void openDoor(int doorId, int instanceId)
-	{
-		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
-		{
-			if (door.getDoorId() == doorId)
-			{
-				door.openMe();
-			}
-		}
-	}
-	
-	protected void closeDoor(int doorId, int instanceId)
-	{
-		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
-		{
-			if (door.getDoorId() == doorId)
-			{
-				if (door.getOpen())
-				{
-					door.closeMe();
-				}
-			}
-		}
-	}
-	
 	private boolean checkConditions(L2PcInstance player)
 	{
 		if (debug || player.canOverrideCond(PcCondOverride.INSTANCE_CONDITIONS))
@@ -606,13 +579,7 @@ public class FinalEmperialTomb extends Quest
 		return true;
 	}
 	
-	private void teleportPlayer(L2PcInstance player, int[] coords, int instanceId)
-	{
-		player.setInstanceId(instanceId);
-		player.teleToLocation(coords[0], coords[1], coords[2]);
-	}
-	
-	protected int enterInstance(L2PcInstance player, String template, int[] coords)
+	protected int enterInstance(L2PcInstance player, String template, Location loc)
 	{
 		int instanceId = 0;
 		// check for existing instances for this player
@@ -625,7 +592,7 @@ public class FinalEmperialTomb extends Quest
 				player.sendPacket(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER);
 				return 0;
 			}
-			teleportPlayer(player, coords, world.getInstanceId());
+			teleportPlayer(player, loc, world.getInstanceId(), false);
 			return world.getInstanceId();
 		}
 		
@@ -642,6 +609,7 @@ public class FinalEmperialTomb extends Quest
 		// Instance ins = InstanceManager.getInstance().getInstance(instanceId);
 		// ins.setSpawnLoc(new int[]{player.getX(),player.getY(),player.getZ()});
 		world = new FETWorld();
+		world.setTemplateId(INSTANCEID);
 		world.setInstanceId(instanceId);
 		world.setStatus(0);
 		InstanceManager.getInstance().addWorld(world);
@@ -651,14 +619,14 @@ public class FinalEmperialTomb extends Quest
 		if ((player.getParty() == null) || (player.getParty().getCommandChannel() == null))
 		{
 			world.addAllowed(player.getObjectId());
-			teleportPlayer(player, coords, instanceId);
+			teleportPlayer(player, loc, instanceId, false);
 		}
 		else
 		{
 			for (L2PcInstance channelMember : player.getParty().getCommandChannel().getMembers())
 			{
 				world.addAllowed(channelMember.getObjectId());
-				teleportPlayer(channelMember, coords, instanceId);
+				teleportPlayer(channelMember, loc, instanceId, false);
 			}
 		}
 		return instanceId;
@@ -800,7 +768,7 @@ public class FinalEmperialTomb extends Quest
 						}
 						break;
 				}
-				world.setStatus(world.getStatus() + 1);
+				world.incStatus();
 				return true;
 			}
 			finally

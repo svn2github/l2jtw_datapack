@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -40,7 +44,8 @@ public class AdminPcCondOverride implements IAdminCommandHandler
 		StringTokenizer st = new StringTokenizer(command);
 		if (st.hasMoreTokens())
 		{
-			switch (st.nextToken()) // command
+			switch (st.nextToken())
+			// command
 			{
 				case "admin_exceptions":
 				{
@@ -49,7 +54,7 @@ public class AdminPcCondOverride implements IAdminCommandHandler
 					StringBuilder sb = new StringBuilder();
 					for (PcCondOverride ex : PcCondOverride.values())
 					{
-						sb.append("<tr><td fixwidth=\"180\">" + ex.getDescription() + ":</td><td><a action=\"bypass -h admin_set_exception " + ex.ordinal() + "\">" + (activeChar.canOverrideCond(ex) ? "Disable" : "Enable") + "</a></td></tr>");	
+						sb.append("<tr><td fixwidth=\"180\">" + ex.getDescription() + ":</td><td><a action=\"bypass -h admin_set_exception " + ex.ordinal() + "\">" + (activeChar.canOverrideCond(ex) ? "Disable" : "Enable") + "</a></td></tr>");
 					}
 					msg.replace("%cond_table%", sb.toString());
 					activeChar.sendPacket(msg);
@@ -115,7 +120,7 @@ public class AdminPcCondOverride implements IAdminCommandHandler
 		}
 		return true;
 	}
-
+	
 	@Override
 	public String[] getAdminCommandList()
 	{

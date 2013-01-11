@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -28,21 +32,13 @@ import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.util.GMAudit;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 /**
- * This class handles following admin commands:
- * - ban_acc <account_name> = changes account access level to -1 and logs him off. If no account is specified target's account is used.
- * - ban_char <char_name> = changes a characters access level to -1 and logs him off. If no character is specified target is used.
- * - ban_chat <char_name> <duration> = chat bans a character for the specified duration. If no name is specified the target is chat banned indefinitely.
- * - unban_acc <account_name> = changes account access level to 0.
- * - unban_char <char_name> = changes specified characters access level to 0.
- * - unban_chat <char_name> = lifts chat ban from specified player. If no player name is specified current target is used.
- * - jail charname [penalty_time] = jails character. Time specified in minutes. For ever if no time is specified.
- * - unjail charname = Unjails player, teleport him to Floran.
- *
- * @version $Revision: 1.1.6.3 $ $Date: 2005/04/11 10:06:06 $
- * con.close() change by Zoey76 24/02/2011
+ * This class handles following admin commands: - ban_acc <account_name> = changes account access level to -1 and logs him off. If no account is specified target's account is used. - ban_char <char_name> = changes a characters access level to -1 and logs him off. If no character is specified target
+ * is used. - ban_chat <char_name> <duration> = chat bans a character for the specified duration. If no name is specified the target is chat banned indefinitely. - unban_acc <account_name> = changes account access level to 0. - unban_char <char_name> = changes specified characters access level to 0.
+ * - unban_chat <char_name> = lifts chat ban from specified player. If no player name is specified current target is used. - jail charname [penalty_time] = jails character. Time specified in minutes. For ever if no time is specified. - unjail charname = Unjails player, teleport him to Floran.
+ * @version $Revision: 1.1.6.3 $ $Date: 2005/04/11 10:06:06 $ con.close() change by Zoey76 24/02/2011
  */
 public class AdminBan implements IAdminCommandHandler
 {
@@ -89,13 +85,13 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else
 		{
-			if (activeChar.getTarget() != null && activeChar.getTarget().isPlayer())
+			if ((activeChar.getTarget() != null) && activeChar.getTarget().isPlayer())
 			{
 				targetPlayer = activeChar.getTarget().getActingPlayer();
 			}
 		}
 		
-		if (targetPlayer != null && targetPlayer.equals(activeChar))
+		if ((targetPlayer != null) && targetPlayer.equals(activeChar))
 		{
 			activeChar.sendPacket(SystemMessageId.CANNOT_USE_ON_YOURSELF);
 			return false;
@@ -110,7 +106,7 @@ public class AdminBan implements IAdminCommandHandler
 		{
 			// May need to check usage in admin_ban_menu as well.
 			
-			if (targetPlayer == null && player.isEmpty())
+			if ((targetPlayer == null) && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //ban_acc <account_name> (if none, target char's account gets banned)");
 				return false;
@@ -118,19 +114,25 @@ public class AdminBan implements IAdminCommandHandler
 			else if (targetPlayer == null)
 			{
 				LoginServerThread.getInstance().sendAccessLevel(player, -1);
-				activeChar.sendMessage(MessageTable.Messages[1430].getExtra(1)+player+MessageTable.Messages[1430].getExtra(2));
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Ban request sent for account " + player);
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1430].getExtra(1) + player + MessageTable.Messages[1430].getExtra(2));
 				auditAction(command, activeChar, player);
 			}
 			else
 			{
 				targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.ACC, 0);
-				activeChar.sendMessage(MessageTable.Messages[1431].getExtra(1)+targetPlayer.getAccountName()+MessageTable.Messages[1431].getExtra(2));
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Account " + targetPlayer.getAccountName() + " banned.");
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1431].getExtra(1) + targetPlayer.getAccountName() + MessageTable.Messages[1431].getExtra(2));
 				auditAction(command, activeChar, targetPlayer.getAccountName());
 			}
 		}
 		else if (command.startsWith("admin_ban_char"))
 		{
-			if (targetPlayer == null && player.isEmpty())
+			if ((targetPlayer == null) && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //ban_char <char_name> (if none, target char is banned)");
 				return false;
@@ -140,7 +142,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_ban_chat"))
 		{
-			if (targetPlayer == null && player.isEmpty())
+			if ((targetPlayer == null) && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //ban_chat <char_name> [penalty_minutes]");
 				return false;
@@ -149,14 +151,25 @@ public class AdminBan implements IAdminCommandHandler
 			{
 				if (targetPlayer.getPunishLevel().value() > 0)
 				{
-					activeChar.sendMessage(targetPlayer.getName()+MessageTable.Messages[1432].getMessage());
+					/* Move To MessageTable For L2JTW
+					activeChar.sendMessage(targetPlayer.getName() + " is already jailed or banned.");
+					*/
+					activeChar.sendMessage(targetPlayer.getName() + MessageTable.Messages[1432].getMessage());
 					return false;
 				}
 				String banLengthStr = "";
 				
 				targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.CHAT, duration);
 				if (duration > 0)
+				{
+					/* Move To MessageTable For L2JTW
+					banLengthStr = " for " + duration + " minutes";
+					*/
 					banLengthStr = MessageTable.Messages[1433].getExtra(1) + duration + MessageTable.Messages[1433].getExtra(2);
+				}
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage(targetPlayer.getName() + " is now chat banned" + banLengthStr + ".");
+				*/
 				activeChar.sendMessage(targetPlayer.getName() + MessageTable.Messages[1434].getExtra(1) + banLengthStr + MessageTable.Messages[1434].getExtra(2));
 				auditAction(command, activeChar, targetPlayer.getName());
 			}
@@ -168,7 +181,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_unban_chat"))
 		{
-			if (targetPlayer == null && player.isEmpty())
+			if ((targetPlayer == null) && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //unban_chat <char_name>");
 				return false;
@@ -178,11 +191,17 @@ public class AdminBan implements IAdminCommandHandler
 				if (targetPlayer.isChatBanned())
 				{
 					targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.NONE, 0);
+					/* Move To MessageTable For L2JTW
+					activeChar.sendMessage(targetPlayer.getName() + "'s chat ban has now been lifted.");
+					*/
 					activeChar.sendMessage(targetPlayer.getName() + MessageTable.Messages[1435].getMessage());
 					auditAction(command, activeChar, targetPlayer.getName());
 				}
 				else
 				{
+					/* Move To MessageTable For L2JTW
+					activeChar.sendMessage(targetPlayer.getName() + " is not currently chat banned.");
+					*/
 					activeChar.sendMessage(targetPlayer.getName() + MessageTable.Messages[1436].getMessage());
 				}
 			}
@@ -203,13 +222,19 @@ public class AdminBan implements IAdminCommandHandler
 			
 			if (targetPlayer != null)
 			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage(targetPlayer.getName() + " is currently online so must not be banned.");
+				*/
 				activeChar.sendMessage(targetPlayer.getName()+MessageTable.Messages[1437].getMessage());
 				return false;
 			}
 			else if (!player.isEmpty())
 			{
 				LoginServerThread.getInstance().sendAccessLevel(player, 0);
-				activeChar.sendMessage(MessageTable.Messages[1438].getMessage()+player);
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Unban request sent for account " + player);
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1438].getMessage() + player);
 				auditAction(command, activeChar, player);
 			}
 			else
@@ -220,14 +245,17 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_unban_char"))
 		{
-			if (targetPlayer == null && player.isEmpty())
+			if ((targetPlayer == null) && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //unban_char <char_name>");
 				return false;
 			}
 			else if (targetPlayer != null)
 			{
-				activeChar.sendMessage(targetPlayer.getName()+MessageTable.Messages[1437].getMessage());
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage(targetPlayer.getName() + " is currently online so must not be banned.");
+				*/
+				activeChar.sendMessage(targetPlayer.getName() + MessageTable.Messages[1437].getMessage());
 				return false;
 			}
 			else
@@ -238,7 +266,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_jail"))
 		{
-			if (targetPlayer == null && player.isEmpty())
+			if ((targetPlayer == null) && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //jail <charname> [penalty_minutes] (if no name is given, selected target is jailed indefinitely)");
 				return false;
@@ -246,9 +274,14 @@ public class AdminBan implements IAdminCommandHandler
 			if (targetPlayer != null)
 			{
 				if (targetPlayer.isFlyingMounted())
+				{
 					targetPlayer.untransform();
+				}
 				targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.JAIL, duration);
-				activeChar.sendMessage(MessageTable.Messages[1439].getExtra(1)+targetPlayer.getName()+MessageTable.Messages[1439].getExtra(2)+(duration>0 ? duration+MessageTable.Messages[1439].getExtra(3) : MessageTable.Messages[1439].getExtra(4)));
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character " + targetPlayer.getName() + " jailed for " + (duration > 0 ? duration + " minutes." : "ever!"));
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1439].getExtra(1) + targetPlayer.getName() + MessageTable.Messages[1439].getExtra(2) + (duration>0 ? duration + MessageTable.Messages[1439].getExtra(3) : MessageTable.Messages[1439].getExtra(4)));
 				auditAction(command, activeChar, targetPlayer.getName());
 			}
 			else
@@ -259,7 +292,7 @@ public class AdminBan implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_unjail"))
 		{
-			if (targetPlayer == null && player.isEmpty())
+			if ((targetPlayer == null) && player.isEmpty())
 			{
 				activeChar.sendMessage("Usage: //unjail <charname> (If no name is given target is used)");
 				return false;
@@ -267,7 +300,10 @@ public class AdminBan implements IAdminCommandHandler
 			else if (targetPlayer != null)
 			{
 				targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.NONE, 0);
-				activeChar.sendMessage(MessageTable.Messages[1440].getExtra(1)+targetPlayer.getName()+MessageTable.Messages[1440].getExtra(2));
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character " + targetPlayer.getName() + " removed from jail");
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1440].getExtra(1) + targetPlayer.getName() + MessageTable.Messages[1440].getExtra(2));
 				auditAction(command, activeChar, targetPlayer.getName());
 			}
 			else
@@ -282,18 +318,20 @@ public class AdminBan implements IAdminCommandHandler
 	private void auditAction(String fullCommand, L2PcInstance activeChar, String target)
 	{
 		if (!Config.GMAUDIT)
+		{
 			return;
+		}
 		
 		String[] command = fullCommand.split(" ");
 		
-		GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", command[0], (target.isEmpty() ? "no-target" : target), (command.length > 2 ? command[2] : ""));
+		GMAudit.auditGMAction(activeChar.getName() + " [" + activeChar.getObjectId() + "]", command[0], (target.isEmpty() ? "no-target" : target), (command.length > 2 ? command[2] : ""));
 	}
 	
 	private void banChatOfflinePlayer(L2PcInstance activeChar, String name, int delay, boolean ban)
 	{
 		int level = 0;
 		long value = 0;
-		if(ban)
+		if (ban)
 		{
 			level = L2PcInstance.PunishLevel.CHAT.value();
 			value = (delay > 0 ? delay * 60000L : 60000);
@@ -316,18 +354,34 @@ public class AdminBan implements IAdminCommandHandler
 			statement.close();
 			
 			if (count == 0)
+			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character not found!");
+				*/
 				activeChar.sendMessage(1441);
+			}
+			else if (ban)
+			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character " + name + " chat-banned for " + (delay > 0 ? delay + " minutes." : "ever!"));
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1442].getExtra(1) + name + MessageTable.Messages[1442].getExtra(2) + (delay > 0 ? delay + MessageTable.Messages[1442].getExtra(3) : MessageTable.Messages[1442].getExtra(4)));
+			}
 			else
-				if(ban)
-					activeChar.sendMessage(MessageTable.Messages[1442].getExtra(1) + name + MessageTable.Messages[1442].getExtra(2) + (delay > 0 ? delay + MessageTable.Messages[1442].getExtra(3) : MessageTable.Messages[1442].getExtra(4)));
-				else
-					activeChar.sendMessage(MessageTable.Messages[1442].getExtra(1) + name + MessageTable.Messages[1442].getExtra(5));
+			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character " + name + "'s chat-banned lifted");
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1442].getExtra(1) + name + MessageTable.Messages[1442].getExtra(5));
+			}
 		}
 		catch (SQLException se)
 		{
 			activeChar.sendMessage("SQLException while chat-banning player");
 			if (Config.DEBUG)
+			{
 				se.printStackTrace();
+			}
 		}
 	}
 	
@@ -348,15 +402,27 @@ public class AdminBan implements IAdminCommandHandler
 			statement.close();
 			
 			if (count == 0)
+			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character not found!");
+				*/
 				activeChar.sendMessage(1441);
+			}
 			else
+			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character " + name + " jailed for " + (delay > 0 ? delay + " minutes." : "ever!"));
+				*/
 				activeChar.sendMessage(MessageTable.Messages[1439].getExtra(1) + name + MessageTable.Messages[1439].getExtra(2) + (delay > 0 ? delay + MessageTable.Messages[1439].getExtra(3) : MessageTable.Messages[1439].getExtra(4)));
+			}
 		}
 		catch (SQLException se)
 		{
 			activeChar.sendMessage("SQLException while jailing player");
 			if (Config.DEBUG)
+			{
 				se.printStackTrace();
+			}
 		}
 	}
 	
@@ -375,15 +441,27 @@ public class AdminBan implements IAdminCommandHandler
 			int count = statement.getUpdateCount();
 			statement.close();
 			if (count == 0)
+			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character not found!");
+				*/
 				activeChar.sendMessage(1441);
+			}
 			else
+			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Character " + name + " removed from jail");
+				*/
 				activeChar.sendMessage(MessageTable.Messages[1443].getExtra(1) + name + MessageTable.Messages[1443].getExtra(2));
+			}
 		}
 		catch (SQLException se)
 		{
 			activeChar.sendMessage("SQLException while jailing player");
 			if (Config.DEBUG)
+			{
 				se.printStackTrace();
+			}
 		}
 	}
 	
@@ -392,9 +470,15 @@ public class AdminBan implements IAdminCommandHandler
 		if (targetPlayer != null)
 		{
 			targetPlayer.setAccessLevel(lvl);
+			/* Move To MessageTable For L2JTW
+			targetPlayer.sendMessage("Your character has been banned. Goodbye.");
+			*/
 			targetPlayer.sendMessage(1444);
 			targetPlayer.logout();
 			RegionBBSManager.getInstance().changeCommunityBoard();
+			/* Move To MessageTable For L2JTW
+			activeChar.sendMessage("The character " + targetPlayer.getName() + " has now been banned.");
+			*/
 			activeChar.sendMessage(MessageTable.Messages[1445].getExtra(1) + targetPlayer.getName() + MessageTable.Messages[1445].getExtra(2));
 		}
 		else
@@ -409,16 +493,24 @@ public class AdminBan implements IAdminCommandHandler
 				statement.close();
 				if (count == 0)
 				{
+					/* Move To MessageTable For L2JTW
+					activeChar.sendMessage("Character not found or access level unaltered.");
+					*/
 					activeChar.sendMessage(1446);
 					return false;
 				}
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage(player + " now has an access level of " + lvl);
+				*/
 				activeChar.sendMessage(player + MessageTable.Messages[1447].getMessage() + lvl);
 			}
 			catch (SQLException se)
 			{
 				activeChar.sendMessage("SQLException while changing character's access level");
 				if (Config.DEBUG)
+				{
 					se.printStackTrace();
+				}
 				return false;
 			}
 		}
@@ -426,7 +518,8 @@ public class AdminBan implements IAdminCommandHandler
 	}
 	
 	@Override
-	public String[] getAdminCommandList() {
+	public String[] getAdminCommandList()
+	{
 		return ADMIN_COMMANDS;
 	}
 }

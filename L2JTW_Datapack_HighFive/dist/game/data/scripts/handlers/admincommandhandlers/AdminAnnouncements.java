@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -30,17 +34,11 @@ import com.l2jserver.gameserver.taskmanager.AutoAnnounceTaskManager;
 import com.l2jserver.gameserver.taskmanager.AutoAnnounceTaskManager.AutoAnnouncement;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
 
 /**
- * This class handles following admin commands:
- * - announce text = announces text to all players
- * - list_announcements = show menu
- * - reload_announcements = reloads announcements from txt file
- * - announce_announcements = announce all stored announcements to all players
- * - add_announcement text = adds text to startup announcements
- * - del_announcement id = deletes announcement with respective id
- *
+ * This class handles following admin commands: - announce text = announces text to all players - list_announcements = show menu - reload_announcements = reloads announcements from txt file - announce_announcements = announce all stored announcements to all players - add_announcement text = adds
+ * text to startup announcements - del_announcement id = deletes announcement with respective id
  * @version $Revision: 1.4.4.5 $ $Date: 2005/04/11 10:06:06 $
  */
 public class AdminAnnouncements implements IAdminCommandHandler
@@ -84,8 +82,10 @@ public class AdminAnnouncements implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_announce_menu"))
 		{
-			if (Config.GM_ANNOUNCER_NAME && command.length() > 20)
-				command += " ("+activeChar.getName()+")";
+			if (Config.GM_ANNOUNCER_NAME && (command.length() > 20))
+			{
+				command += " (" + activeChar.getName() + ")";
+			}
 			Announcements.getInstance().handleAnnounce(command, 20, false);
 			AdminHelpPage.showHelpPage(activeChar, "gm_menu.htm");
 		}
@@ -95,8 +95,10 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				command = command.substring(24);
 				
-				if (Config.GM_CRITANNOUNCER_NAME && command.length() > 0)
+				if (Config.GM_CRITANNOUNCER_NAME && (command.length() > 0))
+				{
 					command = activeChar.getName() + ": " + command;
+				}
 				Announcements.getInstance().handleAnnounce(command, 0, true);
 			}
 			catch (StringIndexOutOfBoundsException e)
@@ -108,7 +110,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 		else if (command.equals("admin_announce_announcements"))
 		{
 			for (L2PcInstance player : L2World.getInstance().getAllPlayersArray())
+			{
 				Announcements.getInstance().showAnnouncements(player);
+			}
 			Announcements.getInstance().listAnnouncements(activeChar);
 		}
 		else if (command.startsWith("admin_add_announcement"))
@@ -173,8 +177,10 @@ public class AdminAnnouncements implements IAdminCommandHandler
 		// Command is admin announce
 		else if (command.startsWith("admin_announce"))
 		{
-			if (Config.GM_ANNOUNCER_NAME && command.length() > 15)
-				command += " ("+activeChar.getName()+")";
+			if (Config.GM_ANNOUNCER_NAME && (command.length() > 15))
+			{
+				command += " (" + activeChar.getName() + ")";
+			}
 			// Call method from another class
 			Announcements.getInstance().handleAnnounce(command, 15, false);
 		}
@@ -184,8 +190,10 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				command = command.substring(19);
 				
-				if (Config.GM_CRITANNOUNCER_NAME && command.length() > 0)
+				if (Config.GM_CRITANNOUNCER_NAME && (command.length() > 0))
+				{
 					command = activeChar.getName() + ": " + command;
+				}
 				Announcements.getInstance().handleAnnounce(command, 0, true);
 			}
 			catch (StringIndexOutOfBoundsException e)
@@ -199,6 +207,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 		else if (command.startsWith("admin_reload_autoann"))
 		{
 			AutoAnnounceTaskManager.getInstance().restore();
+			/* Move To MessageTable For L2JTW
+			activeChar.sendMessage("AutoAnnouncement Reloaded.");
+			*/
 			activeChar.sendMessage(1420);
 			listAutoAnnouncements(activeChar);
 		}
@@ -209,6 +220,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				*/
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -221,6 +235,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			long initial = Long.parseLong(token);
 			if (!st.hasMoreTokens())
 			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				*/
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -233,6 +250,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			long delay = Long.parseLong(token);
 			if (!st.hasMoreTokens())
 			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				*/
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -245,12 +265,18 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			int repeat = Integer.parseInt(token);
 			if (!st.hasMoreTokens())
 			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				*/
 				activeChar.sendMessage(1421);
 				return false;
 			}
 			boolean isCritical = Boolean.valueOf(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				*/
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -261,7 +287,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 				memo.append(" ");
 			}
 			
-			AutoAnnounceTaskManager.getInstance().addAutoAnnounce(initial*1000, delay*1000, repeat, memo.toString().trim(), isCritical);
+			AutoAnnounceTaskManager.getInstance().addAutoAnnounce(initial * 1000, delay * 1000, repeat, memo.toString().trim(), isCritical);
 			listAutoAnnouncements(activeChar);
 		}
 		
@@ -272,6 +298,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
+				/* Move To MessageTable For L2JTW
+				activeChar.sendMessage("Not enough parameters for deleting autoannounce!");
+				*/
 				activeChar.sendMessage(1422);
 				return false;
 			}
@@ -306,7 +335,10 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			}
 			replyMSG.append("<table width=260><tr><td width=220><font color=\"" + (autoann.isCritical() ? "00FCFC" : "7FFCFC") + "\">");
 			replyMSG.append(memo2.toString().trim());
-			replyMSG.append("</font></td><td width=40><button value=\""+MessageTable.Messages[1423].getMessage()+"\" action=\"bypass -h admin_del_autoann ");
+			/* Move To MessageTable For L2JTW
+			replyMSG.append("</font></td><td width=40><button value=\"Delete\" action=\"bypass -h admin_del_autoann ");
+			*/
+			replyMSG.append("</font></td><td width=40><button value=\""+ MessageTable.Messages[1423].getMessage() +"\" action=\"bypass -h admin_del_autoann ");
 			replyMSG.append(i);
 			replyMSG.append("\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table>");
 		}

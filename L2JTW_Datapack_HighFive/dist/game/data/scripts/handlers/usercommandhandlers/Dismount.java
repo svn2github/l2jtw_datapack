@@ -16,29 +16,44 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package handlers.admincommandhandlers;
+package handlers.usercommandhandlers;
 
-import com.l2jserver.gameserver.communitybbs.Manager.AdminBBSManager;
-import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.handler.IUserCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
-public class AdminBBS implements IAdminCommandHandler
+/**
+ * Dismount user command.
+ * @author Micht
+ */
+public class Dismount implements IUserCommandHandler
 {
-	private static final String[] ADMIN_COMMANDS =
+	private static final int[] COMMAND_IDS =
 	{
-		"admin_bbs"
+		62
 	};
 	
 	@Override
-	public boolean useAdminCommand(String command, L2PcInstance activeChar)
+	public synchronized boolean useUserCommand(int id, L2PcInstance activeChar)
 	{
-		AdminBBSManager.getInstance().parsecmd(command, activeChar);
+		if (id != COMMAND_IDS[0])
+		{
+			return false;
+		}
+		
+		if (activeChar.isRentedPet())
+		{
+			activeChar.stopRentPet();
+		}
+		else if (activeChar.isMounted())
+		{
+			activeChar.dismount();
+		}
 		return true;
 	}
 	
 	@Override
-	public String[] getAdminCommandList()
+	public int[] getUserCommandList()
 	{
-		return ADMIN_COMMANDS;
+		return COMMAND_IDS;
 	}
 }

@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -46,18 +50,20 @@ public class AdminZone implements IAdminCommandHandler
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (activeChar == null)
+		{
 			return false;
+		}
 		
 		StringTokenizer st = new StringTokenizer(command, " ");
 		String actualCommand = st.nextToken(); // Get actual command
 		
-		//String val = "";
-		//if (st.countTokens() >= 1) {val = st.nextToken();}
+		// String val = "";
+		// if (st.countTokens() >= 1) {val = st.nextToken();}
 		
 		if (actualCommand.equalsIgnoreCase("admin_zone_check"))
 		{
 			showHtml(activeChar);
-			activeChar.sendMessage("MapRegion: x:" + MapRegionManager.getInstance().getMapRegionX(activeChar.getX()) + " y:" + MapRegionManager.getInstance().getMapRegionY(activeChar.getY()) + " ("+MapRegionManager.getInstance().getMapRegionLocId(activeChar)+")");
+			activeChar.sendMessage("MapRegion: x:" + MapRegionManager.getInstance().getMapRegionX(activeChar.getX()) + " y:" + MapRegionManager.getInstance().getMapRegionY(activeChar.getY()) + " (" + MapRegionManager.getInstance().getMapRegionLocId(activeChar) + ")");
 			getGeoRegionXY(activeChar);
 			activeChar.sendMessage("Closest Town: " + MapRegionManager.getInstance().getClosestTownName(activeChar));
 			
@@ -130,16 +136,20 @@ public class AdminZone implements IAdminCommandHandler
 		L2WorldRegion region = L2World.getInstance().getRegion(activeChar.getX(), activeChar.getY());
 		for (L2ZoneType zone : region.getZones())
 		{
-			if(zone.isCharacterInZone(activeChar))
+			if (zone.isCharacterInZone(activeChar))
 			{
 				if (zone.getName() != null)
 				{
 					StringUtil.append(zones, zone.getName() + "<br1>");
-					if (zone.getId() < 300000) // not display id for dynamic zones
+					if (zone.getId() < 300000)
+					{
 						StringUtil.append(zones, "(", String.valueOf(zone.getId()), ")");
+					}
 				}
 				else
+				{
 					StringUtil.append(zones, String.valueOf(zone.getId()));
+				}
 				StringUtil.append(zones, " ");
 			}
 		}
@@ -150,10 +160,10 @@ public class AdminZone implements IAdminCommandHandler
 	private static void getGeoRegionXY(L2PcInstance activeChar)
 	{
 		int worldX = activeChar.getX();
-		int worldY = activeChar.getY();				
-		int geoX = ((((worldX - (-327680)) >> 4) >> 11)+10);
-		int geoY = ((((worldY - (-262144)) >> 4) >> 11)+10);
-		activeChar.sendMessage("GeoRegion: "+geoX+"_"+geoY+"");
+		int worldY = activeChar.getY();
+		int geoX = ((((worldX - (-327680)) >> 4) >> 11) + 10);
+		int geoY = ((((worldY - (-262144)) >> 4) >> 11) + 10);
+		activeChar.sendMessage("GeoRegion: " + geoX + "_" + geoY + "");
 	}
 	
 	@Override

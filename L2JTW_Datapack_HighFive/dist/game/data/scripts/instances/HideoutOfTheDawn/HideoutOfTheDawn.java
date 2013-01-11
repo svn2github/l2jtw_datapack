@@ -1,6 +1,23 @@
+/*
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
 package instances.HideoutOfTheDawn;
 
-import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Character;
@@ -61,13 +78,6 @@ public class HideoutOfTheDawn extends Quest
 		return super.onTalk(npc, talker);
 	}
 	
-	private void teleportPlayer(L2PcInstance player, Location loc)
-	{
-		removeBuffs(player);
-		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-		player.teleToLocation(loc, 0);
-	}
-	
 	protected int enterInstance(L2PcInstance player, String template, Location loc)
 	{
 		// check for existing instances for this player
@@ -80,8 +90,8 @@ public class HideoutOfTheDawn extends Quest
 				player.sendPacket(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER);
 				return 0;
 			}
-			loc.setInstanceId(world.getInstanceId());
-			teleportPlayer(player, loc);
+			teleportPlayer(player, loc, world.getInstanceId(), false);
+			removeBuffs(player);
 			return 0;
 		}
 		// New instance
@@ -93,8 +103,8 @@ public class HideoutOfTheDawn extends Quest
 		InstanceManager.getInstance().addWorld(world);
 		_log.info("SevenSign started " + template + " Instance: " + world.getInstanceId() + " created by player: " + player.getName());
 		// teleport players
-		loc.setInstanceId(world.getInstanceId());
-		teleportPlayer(player, loc);
+		teleportPlayer(player, loc, world.getInstanceId(), false);
+		removeBuffs(player);
 		world.addAllowed(player.getObjectId());
 		
 		return world.getInstanceId();

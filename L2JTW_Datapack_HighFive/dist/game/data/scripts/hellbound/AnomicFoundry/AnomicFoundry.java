@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package hellbound.AnomicFoundry;
 
@@ -48,19 +52,44 @@ public class AnomicFoundry extends Quest
 	private static int[][] SPAWNS =
 	{
 		{
-			LESSER_EVIL, 27883, 248613, -3209, -13248, 5
+			LESSER_EVIL,
+			27883,
+			248613,
+			-3209,
+			-13248,
+			5
 		},
 		{
-			LESSER_EVIL, 26142, 246442, -3216, 7064, 5
+			LESSER_EVIL,
+			26142,
+			246442,
+			-3216,
+			7064,
+			5
 		},
 		{
-			LESSER_EVIL, 27335, 246217, -3668, -7992, 5
+			LESSER_EVIL,
+			27335,
+			246217,
+			-3668,
+			-7992,
+			5
 		},
 		{
-			LESSER_EVIL, 28486, 245913, -3698, 0, 10
+			LESSER_EVIL,
+			28486,
+			245913,
+			-3698,
+			0,
+			10
 		},
 		{
-			GREATER_EVIL, 28684, 244118, -3700, -22560, 10
+			GREATER_EVIL,
+			28684,
+			244118,
+			-3700,
+			-22560,
+			10
 		}
 	};
 	
@@ -70,7 +99,11 @@ public class AnomicFoundry extends Quest
 	
 	private final int[] _spawned =
 	{
-		0, 0, 0, 0, 0
+		0,
+		0,
+		0,
+		0,
+		0
 	};
 	private final Map<Integer, Integer> _atkIndex = new FastMap<>();
 	
