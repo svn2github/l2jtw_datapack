@@ -1742,7 +1742,11 @@ public class AdminEditNpc implements IAdminCommandHandler
 			
 			if (Config.CUSTOM_NPC_SKILLS_TABLE)
 			{
+				/* l2jtw start
 				PreparedStatement statement2 = con.prepareStatement("SELECT `skillid`, `level` FROM `npcskills` WHERE `npcid`=? AND `skillid` <> 4416");
+				*/
+				PreparedStatement statement2 = con.prepareStatement("SELECT `skillid`, `level` FROM `custom_npcskills` WHERE `npcid`=? AND `skillid` <> 4416");
+				// l2jtw end
 				statement2.setInt(1, npcId);
 				ResultSet skillDataList2 = statement2.executeQuery();
 				
