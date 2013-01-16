@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00125_TheNameOfEvil1;
 
@@ -33,21 +37,20 @@ import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
  */
 public class Q00125_TheNameOfEvil1 extends Quest
 {
-	
-	// NPC
+	// NPCs
 	private static final int MUSHIKA = 32114;
 	private static final int KARAKAWEI = 32117;
 	private static final int ULU_KAIMU = 32119;
 	private static final int BALU_KAIMU = 32120;
 	private static final int CHUTA_KAIMU = 32121;
-	
-	// Quest Item
+	// Items
 	private static final int ORNITHOMIMUS_CLAW = 8779;
 	private static final int DEINONYCHUS_BONE = 8780;
 	private static final int EPITAPH_OF_WISDOM = 8781;
 	private static final int GAZKH_FRAGMENT = 8782;
 	
 	private static final Map<Integer, Integer> ORNITHOMIMUS = new HashMap<>();
+	private static final Map<Integer, Integer> DEINONYCHUS = new HashMap<>();
 	
 	static
 	{
@@ -56,12 +59,6 @@ public class Q00125_TheNameOfEvil1 extends Quest
 		ORNITHOMIMUS.put(22202, 661);
 		ORNITHOMIMUS.put(22219, 327);
 		ORNITHOMIMUS.put(22224, 327);
-	}
-	
-	private static final Map<Integer, Integer> DEINONYCHUS = new HashMap<>();
-	
-	static
-	{
 		DEINONYCHUS.put(22203, 651);
 		DEINONYCHUS.put(22204, 326);
 		DEINONYCHUS.put(22205, 651);
@@ -79,7 +76,6 @@ public class Q00125_TheNameOfEvil1 extends Quest
 		}
 		
 		String htmltext = event;
-		
 		switch (event)
 		{
 			case "32114-05.html":
@@ -235,7 +231,6 @@ public class Q00125_TheNameOfEvil1 extends Quest
 				}
 				break;
 		}
-		
 		return htmltext;
 	}
 	
@@ -266,7 +261,7 @@ public class Q00125_TheNameOfEvil1 extends Quest
 						}
 						break;
 					case State.STARTED:
-						switch (st.getInt("cond"))
+						switch (st.getCond())
 						{
 							case 1:
 								htmltext = "32114-09.html";
@@ -299,7 +294,7 @@ public class Q00125_TheNameOfEvil1 extends Quest
 			case KARAKAWEI:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 							htmltext = "32117-01.html";
@@ -334,7 +329,7 @@ public class Q00125_TheNameOfEvil1 extends Quest
 			case ULU_KAIMU:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -369,7 +364,7 @@ public class Q00125_TheNameOfEvil1 extends Quest
 			case BALU_KAIMU:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -405,7 +400,7 @@ public class Q00125_TheNameOfEvil1 extends Quest
 			case CHUTA_KAIMU:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -444,7 +439,6 @@ public class Q00125_TheNameOfEvil1 extends Quest
 				}
 				break;
 		}
-		
 		return htmltext;
 	}
 	
@@ -458,7 +452,6 @@ public class Q00125_TheNameOfEvil1 extends Quest
 		}
 		
 		final QuestState st = partyMember.getQuestState(getName());
-		
 		int npcId = npc.getNpcId();
 		if (ORNITHOMIMUS.containsKey(npcId))
 		{
@@ -468,7 +461,7 @@ public class Q00125_TheNameOfEvil1 extends Quest
 				if (getRandom(1000) < chance)
 				{
 					st.giveItems(ORNITHOMIMUS_CLAW, 1);
-					st.playSound("ItemSound.quest_itemget");
+					st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				}
 			}
 		}
@@ -480,7 +473,7 @@ public class Q00125_TheNameOfEvil1 extends Quest
 				if (getRandom(1000) < chance)
 				{
 					st.giveItems(DEINONYCHUS_BONE, 1);
-					st.playSound("ItemSound.quest_itemget");
+					st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				}
 			}
 		}
@@ -489,34 +482,17 @@ public class Q00125_TheNameOfEvil1 extends Quest
 		{
 			st.setCond(4, true);
 		}
-		
 		return super.onKill(npc, player, isPet);
 	}
 	
 	public Q00125_TheNameOfEvil1(int id, String name, String descr)
 	{
 		super(id, name, descr);
-		
 		addStartNpc(MUSHIKA);
 		addTalkId(MUSHIKA, KARAKAWEI, ULU_KAIMU, BALU_KAIMU, CHUTA_KAIMU);
-		
-		for (int npcId : ORNITHOMIMUS.keySet())
-		{
-			addKillId(npcId);
-		}
-		
-		for (int npcId : DEINONYCHUS.keySet())
-		{
-			addKillId(npcId);
-		}
-		
-		questItemIds = new int[]
-		{
-			ORNITHOMIMUS_CLAW,
-			DEINONYCHUS_BONE,
-			EPITAPH_OF_WISDOM,
-			GAZKH_FRAGMENT
-		};
+		addKillId(ORNITHOMIMUS.keySet());
+		addKillId(DEINONYCHUS.keySet());
+		registerQuestItems(ORNITHOMIMUS_CLAW, DEINONYCHUS_BONE, EPITAPH_OF_WISDOM, GAZKH_FRAGMENT);
 	}
 	
 	public static void main(String[] args)

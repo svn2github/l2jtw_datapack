@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00241_PossessorOfAPreciousSoul1;
 
@@ -38,14 +42,13 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 	private static final int VIRGIL = 31742;
 	private static final int KASSANDRA = 31743;
 	private static final int OGMAR = 31744;
-	
+	// Mobs
 	private static final int BARAHAM = 27113;
 	private static final int MALRUK_SUCCUBUS_1 = 20244;
 	private static final int MALRUK_SUCCUBUS_TUREN_1 = 20245;
 	private static final int MALRUK_SUCCUBUS_2 = 20283;
 	private static final int MALRUK_SUCCUBUS_TUREN_2 = 20284;
 	private static final int TAIK_ORC_SUPPLY_LEADER = 20669;
-	
 	// Items
 	private static final int LEGEND_OF_SEVENTEEN = 7587;
 	private static final int MALRUK_SUCCUBUS_CLAW = 7597;
@@ -54,7 +57,6 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 	private static final int CRIMSON_MOSS = 7598;
 	private static final int RAHORAKTIS_MEDICINE = 7599;
 	private static final int VIRGILS_LETTER = 7677;
-	
 	// Rewards
 	private static final int CRIMSON_MOSS_CHANCE = 30;
 	private static final int MALRUK_SUCCUBUS_CLAW_CHANCE = 60;
@@ -385,7 +387,7 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 					}
 					else
 					{
-						st.playSound("ItemSound.quest_itemget");
+						st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 					}
 				}
 				break;
@@ -405,7 +407,7 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 					}
 					else
 					{
-						st.playSound("ItemSound.quest_itemget");
+						st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 					}
 				}
 				break;
@@ -419,15 +421,7 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 		addStartNpc(TALIEN);
 		addTalkId(TALIEN, STEDMIEL, GABRIELLE, GILMORE, KANTABILON, RAHORAKTI, CARADINE, KASSANDRA, VIRGIL, OGMAR);
 		addKillId(BARAHAM, MALRUK_SUCCUBUS_1, MALRUK_SUCCUBUS_TUREN_1, MALRUK_SUCCUBUS_2, MALRUK_SUCCUBUS_TUREN_2, TAIK_ORC_SUPPLY_LEADER);
-		questItemIds = new int[]
-		{
-			LEGEND_OF_SEVENTEEN,
-			MALRUK_SUCCUBUS_CLAW,
-			ECHO_CRYSTAL,
-			POETRY_BOOK,
-			CRIMSON_MOSS,
-			RAHORAKTIS_MEDICINE
-		};
+		registerQuestItems(LEGEND_OF_SEVENTEEN, MALRUK_SUCCUBUS_CLAW, ECHO_CRYSTAL, POETRY_BOOK, CRIMSON_MOSS, RAHORAKTIS_MEDICINE);
 	}
 	
 	public static void main(String[] args)

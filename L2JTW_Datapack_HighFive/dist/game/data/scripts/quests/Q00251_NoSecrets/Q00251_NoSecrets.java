@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00251_NoSecrets;
 
@@ -25,13 +29,11 @@ import com.l2jserver.gameserver.util.Util;
  * No Secrets (251)
  * @author Dumpster
  */
-public class Q251_NoSecrets extends Quest
+public class Q00251_NoSecrets extends Quest
 {
 	public static final int PINAPS = 30201;
 	public static final int DIARY = 15508;
 	public static final int TABLE = 15509;
-	
-	public static final String qn = "251_NoSecrets";
 	
 	private static final int[] MOBS =
 	{
@@ -49,27 +51,23 @@ public class Q251_NoSecrets extends Quest
 		22778
 	};
 	
-	public Q251_NoSecrets(int id, String name, String descr)
+	public Q00251_NoSecrets(int id, String name, String descr)
 	{
 		super(id, name, descr);
 		addStartNpc(PINAPS);
 		addTalkId(PINAPS);
 		addKillId(MOBS);
 		addKillId(MOBS2);
-		questItemIds = new int[]
-		{
-			DIARY,
-			TABLE
-		};
+		registerQuestItems(DIARY, TABLE);
 	}
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		QuestState st = player.getQuestState(qn);
+		QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return getNoQuestMsg(player);
 		}
 		
 		if (event.equals("30201-03.htm"))
@@ -82,8 +80,8 @@ public class Q251_NoSecrets extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		final QuestState st = player.getQuestState(qn);
+		String htmltext = getNoQuestMsg(player);
+		final QuestState st = player.getQuestState(getName());
 		if (st == null)
 		{
 			return htmltext;
@@ -95,15 +93,14 @@ public class Q251_NoSecrets extends Quest
 				htmltext = (player.getLevel() > 81) ? "30201-01.htm" : "30201-00.htm";
 				break;
 			case State.STARTED:
-				int cond = st.getInt("cond");
-				if (cond == 1)
+				if (st.isCond(1))
 				{
 					htmltext = "30201-05.htm";
 				}
-				else if ((cond == 2) && (st.getQuestItemsCount(DIARY) >= 10) && (st.getQuestItemsCount(TABLE) >= 5))
+				else if ((st.isCond(2)) && (st.getQuestItemsCount(DIARY) >= 10) && (st.getQuestItemsCount(TABLE) >= 5))
 				{
 					htmltext = "30201-04.htm";
-					st.rewardItems(57, 313355);
+					st.giveAdena(313355, true);
 					st.addExpAndSp(56787, 160578);
 					st.exitQuest(false, true);
 				}
@@ -132,7 +129,7 @@ public class Q251_NoSecrets extends Quest
 				}
 				else
 				{
-					st.playSound("ItemSound.quest_itemget");
+					st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				}
 			}
 			else if (Util.contains(MOBS2, npcId) && (getRandom(100) < 5) && (st.getQuestItemsCount(TABLE) < 5))
@@ -144,7 +141,7 @@ public class Q251_NoSecrets extends Quest
 				}
 				else
 				{
-					st.playSound("ItemSound.quest_itemget");
+					st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				}
 			}
 		}
@@ -153,6 +150,6 @@ public class Q251_NoSecrets extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q251_NoSecrets(251, qn, "No Secrets");
+		new Q00251_NoSecrets(251, Q00251_NoSecrets.class.getSimpleName(), "No Secrets");
 	}
 }

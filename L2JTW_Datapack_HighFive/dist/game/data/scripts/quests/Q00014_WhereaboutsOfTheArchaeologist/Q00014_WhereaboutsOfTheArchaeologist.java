@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00014_WhereaboutsOfTheArchaeologist;
 
@@ -21,18 +25,16 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Where abouts Of The Archaeologist (14)<br>
+ * Whereabouts of the Archaeologist (14)<br>
  * Original Jython script by disKret.
  * @author nonom
  */
 public class Q00014_WhereaboutsOfTheArchaeologist extends Quest
 {
-	
 	// NPCs
 	private static final int LIESEL = 31263;
 	private static final int GHOST_OF_ADVENTURER = 31538;
-	
-	// Items
+	// Item
 	private static final int LETTER = 7253;
 	
 	@Override
@@ -48,19 +50,15 @@ public class Q00014_WhereaboutsOfTheArchaeologist extends Quest
 		switch (event)
 		{
 			case "31263-02.html":
-				st.set("cond", "1");
-				st.setState(State.STARTED);
+				st.startQuest();
 				st.giveItems(LETTER, 1);
-				st.playSound("ItemSound.quest_accept");
 				break;
 			case "31538-01.html":
-				if ((st.getInt("cond") == 1) && st.hasQuestItems(LETTER))
+				if (st.isCond(1) && st.hasQuestItems(LETTER))
 				{
-					st.takeItems(LETTER, -1);
-					st.giveItems(57, 136928);
+					st.giveAdena(136928, true);
 					st.addExpAndSp(325881, 32524);
-					st.playSound("ItemSound.quest_finish");
-					st.exitQuest(false);
+					st.exitQuest(false, true);
 				}
 				else
 				{
@@ -94,7 +92,7 @@ public class Q00014_WhereaboutsOfTheArchaeologist extends Quest
 				}
 				break;
 			case State.STARTED:
-				if (st.getInt("cond") == 1)
+				if (st.isCond(1))
 				{
 					switch (npcId)
 					{
@@ -114,14 +112,13 @@ public class Q00014_WhereaboutsOfTheArchaeologist extends Quest
 	public Q00014_WhereaboutsOfTheArchaeologist(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(LIESEL);
-		addTalkId(LIESEL);
-		addTalkId(GHOST_OF_ADVENTURER);
+		addTalkId(LIESEL, GHOST_OF_ADVENTURER);
+		registerQuestItems(LETTER);
 	}
 	
 	public static void main(String[] args)
 	{
-		new Q00014_WhereaboutsOfTheArchaeologist(14, Q00014_WhereaboutsOfTheArchaeologist.class.getSimpleName(), "Whereabouts Of The Archaeologist");
+		new Q00014_WhereaboutsOfTheArchaeologist(14, Q00014_WhereaboutsOfTheArchaeologist.class.getSimpleName(), "Whereabouts of the Archaeologist");
 	}
 }

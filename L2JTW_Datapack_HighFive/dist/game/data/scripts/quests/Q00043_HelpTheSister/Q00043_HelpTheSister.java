@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00043_HelpTheSister;
 
@@ -30,11 +34,9 @@ public class Q00043_HelpTheSister extends Quest
 	// NPCs
 	private static final int COOPER = 30829;
 	private static final int GALLADUCCI = 30097;
-	
-	// Monster
+	// Monsters
 	private static final int SPECTER = 20171;
 	private static final int SORROW_MAIDEN = 20197;
-	
 	// Items
 	private static final int CRAFTED_DAGGER = 220;
 	private static final int MAP_PIECE = 7550;
@@ -103,7 +105,6 @@ public class Q00043_HelpTheSister extends Quest
 	{
 		String htmltext = getNoQuestMsg(player);
 		final QuestState st = player.getQuestState(getName());
-		
 		if (st == null)
 		{
 			return htmltext;
@@ -174,7 +175,7 @@ public class Q00043_HelpTheSister extends Quest
 			}
 			else
 			{
-				st.playSound("ItemSound.quest_itemget");
+				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 			}
 		}
 		return super.onKill(npc, player, isPet);
@@ -186,12 +187,7 @@ public class Q00043_HelpTheSister extends Quest
 		addStartNpc(COOPER);
 		addTalkId(COOPER, GALLADUCCI);
 		addKillId(SORROW_MAIDEN, SPECTER);
-		
-		questItemIds = new int[]
-		{
-			MAP,
-			MAP_PIECE
-		};
+		registerQuestItems(MAP, MAP_PIECE);
 	}
 	
 	public static void main(String[] args)

@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00018_MeetingWithTheGoldenRam;
 
@@ -27,13 +31,11 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public class Q00018_MeetingWithTheGoldenRam extends Quest
 {
-	
 	// NPCs
 	private static final int DONAL = 31314;
 	private static final int DAISY = 31315;
 	private static final int ABERCROMBIE = 31555;
-	
-	// Items
+	// Item
 	private static final int BOX = 7245;
 	
 	@Override
@@ -59,16 +61,15 @@ public class Q00018_MeetingWithTheGoldenRam extends Quest
 				}
 				break;
 			case State.STARTED:
-				final int cond = st.getInt("cond");
 				if (npcId == DONAL)
 				{
 					htmltext = "31314-04.html";
 				}
 				else if (npcId == DAISY)
 				{
-					htmltext = (cond < 2) ? "31315-01.html" : "31315-03.html";
+					htmltext = (st.getCond() < 2) ? "31315-01.html" : "31315-03.html";
 				}
-				else if ((npcId == ABERCROMBIE) && (cond == 2) && st.hasQuestItems(BOX))
+				else if ((npcId == ABERCROMBIE) && st.isCond(2) && st.hasQuestItems(BOX))
 				{
 					htmltext = "31555-01.html";
 				}
@@ -92,9 +93,7 @@ public class Q00018_MeetingWithTheGoldenRam extends Quest
 			case "31314-03.html":
 				if (player.getLevel() >= 66)
 				{
-					st.set("cond", "1");
-					st.setState(State.STARTED);
-					st.playSound("ItemSound.quest_accept");
+					st.startQuest();
 				}
 				else
 				{
@@ -102,17 +101,15 @@ public class Q00018_MeetingWithTheGoldenRam extends Quest
 				}
 				break;
 			case "31315-02.html":
-				st.set("cond", "2");
+				st.setCond(2, true);
 				st.giveItems(BOX, 1);
 				break;
 			case "31555-02.html":
 				if (st.hasQuestItems(BOX))
 				{
 					st.giveAdena(40000, true);
-					st.takeItems(BOX, -1);
 					st.addExpAndSp(126668, 11731);
-					st.playSound("ItemSound.quest_finish");
-					st.exitQuest(false);
+					st.exitQuest(false, true);
 				}
 				break;
 		}
@@ -122,10 +119,9 @@ public class Q00018_MeetingWithTheGoldenRam extends Quest
 	public Q00018_MeetingWithTheGoldenRam(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(DONAL);
-		
 		addTalkId(DONAL, DAISY, ABERCROMBIE);
+		registerQuestItems(BOX);
 	}
 	
 	public static void main(String[] args)

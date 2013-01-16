@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00042_HelpTheUncle;
 
@@ -30,11 +34,9 @@ public class Q00042_HelpTheUncle extends Quest
 	// NPCs
 	private static final int WATERS = 30828;
 	private static final int SOPHYA = 30735;
-	
-	// Monster
+	// Monsters
 	private static final int MONSTER_EYE_DESTROYER = 20068;
 	private static final int MONSTER_EYE_GAZER = 20266;
-	
 	// Items
 	private static final int TRIDENT = 291;
 	private static final int MAP_PIECE = 7548;
@@ -174,7 +176,7 @@ public class Q00042_HelpTheUncle extends Quest
 			}
 			else
 			{
-				st.playSound("ItemSound.quest_itemget");
+				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 			}
 		}
 		return super.onKill(npc, player, isPet);
@@ -186,12 +188,7 @@ public class Q00042_HelpTheUncle extends Quest
 		addStartNpc(WATERS);
 		addTalkId(WATERS, SOPHYA);
 		addKillId(MONSTER_EYE_DESTROYER, MONSTER_EYE_GAZER);
-		
-		questItemIds = new int[]
-		{
-			MAP,
-			MAP_PIECE
-		};
+		registerQuestItems(MAP, MAP_PIECE);
 	}
 	
 	public static void main(String[] args)

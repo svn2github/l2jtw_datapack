@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00240_ImTheOnlyOneYouCanTrust;
 
@@ -28,7 +32,6 @@ public class Q00240_ImTheOnlyOneYouCanTrust extends Quest
 {
 	// NPC
 	private static final int KINTAIJIN = 32640;
-	
 	// Monster
 	private static final int[] MOBS =
 	{
@@ -50,9 +53,8 @@ public class Q00240_ImTheOnlyOneYouCanTrust extends Quest
 		22632,
 		22633
 	};
-	
 	// Item
-	private static final int STAKATOFANGS = 14879;
+	private static final int STAKATO_FANG = 14879;
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
@@ -89,13 +91,13 @@ public class Q00240_ImTheOnlyOneYouCanTrust extends Quest
 				switch (st.getCond())
 				{
 					case 1:
-						htmltext = (!st.hasQuestItems(STAKATOFANGS)) ? "32640-8.html" : "32640-9.html";
+						htmltext = (!st.hasQuestItems(STAKATO_FANG)) ? "32640-8.html" : "32640-9.html";
 						break;
 					case 2:
-						if (st.getQuestItemsCount(STAKATOFANGS) >= 25)
+						if (st.getQuestItemsCount(STAKATO_FANG) >= 25)
 						{
 							st.giveAdena(147200, true);
-							st.takeItems(STAKATOFANGS, -1);
+							st.takeItems(STAKATO_FANG, -1);
 							st.addExpAndSp(589542, 36800);
 							st.exitQuest(false, true);
 							htmltext = "32640-10.html";
@@ -120,14 +122,14 @@ public class Q00240_ImTheOnlyOneYouCanTrust extends Quest
 		}
 		
 		final QuestState st = partyMember.getQuestState(getName());
-		st.giveItems(STAKATOFANGS, 1);
-		if (st.getQuestItemsCount(STAKATOFANGS) >= 25)
+		st.giveItems(STAKATO_FANG, 1);
+		if (st.getQuestItemsCount(STAKATO_FANG) >= 25)
 		{
 			st.setCond(2, true);
 		}
 		else
 		{
-			st.playSound("ItemSound.quest_itemget");
+			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
 		return super.onKill(npc, player, isPet);
 	}
@@ -138,11 +140,7 @@ public class Q00240_ImTheOnlyOneYouCanTrust extends Quest
 		addStartNpc(KINTAIJIN);
 		addTalkId(KINTAIJIN);
 		addKillId(MOBS);
-		
-		questItemIds = new int[]
-		{
-			STAKATOFANGS
-		};
+		registerQuestItems(STAKATO_FANG);
 	}
 	
 	public static void main(String[] args)

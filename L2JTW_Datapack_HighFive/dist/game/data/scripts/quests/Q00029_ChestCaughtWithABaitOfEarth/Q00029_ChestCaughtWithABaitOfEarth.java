@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00029_ChestCaughtWithABaitOfEarth;
 
@@ -29,11 +33,9 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public class Q00029_ChestCaughtWithABaitOfEarth extends Quest
 {
-	
 	// NPCs
 	private static final int WILLIE = 31574;
 	private static final int ANABEL = 30909;
-	
 	// Items
 	private static final int PURPLE_TREASURE_BOX = 6507;
 	private static final int SMALL_GLASS_BOX = 7627;
@@ -52,28 +54,23 @@ public class Q00029_ChestCaughtWithABaitOfEarth extends Quest
 		switch (event)
 		{
 			case "31574-04.htm":
-				st.set("cond", "1");
-				st.setState(State.STARTED);
-				st.playSound("ItemSound.quest_accept");
+				st.startQuest();
 				break;
 			case "31574-08.htm":
-				if ((st.getInt("cond") == 1) && (st.hasQuestItems(PURPLE_TREASURE_BOX)))
+				if (st.isCond(1) && st.hasQuestItems(PURPLE_TREASURE_BOX))
 				{
-					htmltext = "31574-07.htm";
-					st.set("cond", "2");
 					st.giveItems(SMALL_GLASS_BOX, 1);
 					st.takeItems(PURPLE_TREASURE_BOX, -1);
-					st.playSound("ItemSound.quest_middle");
+					st.setCond(2, true);
+					htmltext = "31574-07.htm";
 				}
 				break;
 			case "30909-03.htm":
-				if ((st.getInt("cond") == 2) && (st.hasQuestItems(SMALL_GLASS_BOX)))
+				if (st.isCond(2) && st.hasQuestItems(SMALL_GLASS_BOX))
 				{
-					htmltext = "30909-02.htm";
 					st.giveItems(PLATED_LEATHER_GLOVES, 1);
-					st.takeItems(SMALL_GLASS_BOX, -1);
-					st.playSound("ItemSound.quest_finish");
-					st.exitQuest(false);
+					st.exitQuest(false, true);
+					htmltext = "30909-02.htm";
 				}
 				break;
 		
@@ -109,11 +106,10 @@ public class Q00029_ChestCaughtWithABaitOfEarth extends Quest
 				}
 				break;
 			case State.STARTED:
-				final int cond = st.getInt("cond");
 				switch (npcId)
 				{
 					case WILLIE:
-						switch (cond)
+						switch (st.getCond())
 						{
 							case 1:
 								htmltext = "31574-06.htm";
@@ -128,7 +124,7 @@ public class Q00029_ChestCaughtWithABaitOfEarth extends Quest
 						}
 						break;
 					case ANABEL:
-						if (cond == 2)
+						if (st.isCond(2))
 						{
 							htmltext = "30909-01.htm";
 						}
@@ -142,9 +138,9 @@ public class Q00029_ChestCaughtWithABaitOfEarth extends Quest
 	public Q00029_ChestCaughtWithABaitOfEarth(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(WILLIE);
 		addTalkId(WILLIE, ANABEL);
+		registerQuestItems(SMALL_GLASS_BOX);
 	}
 	
 	public static void main(String[] args)

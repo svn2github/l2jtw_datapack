@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00246_PossessorOfAPreciousSoul3;
 
@@ -32,7 +36,6 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 	private static final int LADD = 30721;
 	private static final int CARADINE = 31740;
 	private static final int OSSIAN = 31741;
-	
 	private static final int PILGRIM_OF_SPLENDOR = 21541;
 	private static final int JUDGE_OF_SPLENDOR = 21544;
 	private static final int BARAKIEL = 25325;
@@ -45,7 +48,6 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 		21539, // Wailing of Splendor
 		21540, // Wailing of Splendor
 	};
-	
 	// Items
 	private static final int CARADINE_LETTER = 7678;
 	private static final int CARADINE_LETTER_LAST = 7679;
@@ -54,7 +56,6 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 	private static final int RAIN_SONG = 7593;
 	private static final int RELIC_BOX = 7594;
 	private static final int FRAGMENTS = 21725;
-	
 	// Rewards
 	private static final int CHANCE_FOR_DROP = 30;
 	private static final int CHANCE_FOR_DROP_FRAGMENTS = 60;
@@ -236,7 +237,7 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 							}
 							else
 							{
-								st.playSound("ItemSound.quest_itemget");
+								st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 							}
 						}
 					}
@@ -260,7 +261,7 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 							}
 							else
 							{
-								st.playSound("ItemSound.quest_itemget");
+								st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 							}
 						}
 					}
@@ -310,7 +311,7 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 						st.giveItems(FRAGMENTS, 1);
 						if (st.getQuestItemsCount(FRAGMENTS) < 100)
 						{
-							st.playSound("ItemSound.quest_itemget");
+							st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 						else
 						{
@@ -330,14 +331,7 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 		addTalkId(LADD, CARADINE, OSSIAN);
 		addKillId(PILGRIM_OF_SPLENDOR, JUDGE_OF_SPLENDOR, BARAKIEL);
 		addKillId(MOBS);
-		questItemIds = new int[]
-		{
-			WATERBINDER,
-			EVERGREEN,
-			FRAGMENTS,
-			RAIN_SONG,
-			RELIC_BOX
-		};
+		registerQuestItems(WATERBINDER, EVERGREEN, FRAGMENTS, RAIN_SONG, RELIC_BOX);
 	}
 	
 	public static void main(String[] args)

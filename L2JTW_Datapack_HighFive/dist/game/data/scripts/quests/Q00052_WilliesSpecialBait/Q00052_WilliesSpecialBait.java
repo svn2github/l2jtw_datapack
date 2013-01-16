@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00052_WilliesSpecialBait;
 
@@ -31,7 +35,6 @@ public class Q00052_WilliesSpecialBait extends Quest
 	// NPCs
 	private static final int WILLIE = 31574;
 	private static final int TARLK_BASILISK = 20573;
-	
 	// Items
 	private static final int TARLK_EYE = 7623;
 	private static final int EARTH_FISHING_LURE = 7612;
@@ -46,7 +49,6 @@ public class Q00052_WilliesSpecialBait extends Quest
 		}
 		
 		String htmltext = event;
-		
 		switch (event)
 		{
 			case "31574-03.htm":
@@ -99,37 +101,30 @@ public class Q00052_WilliesSpecialBait extends Quest
 		}
 		
 		final QuestState st = partyMember.getQuestState(getName());
-		
 		if (st.getQuestItemsCount(TARLK_EYE) < 100)
 		{
 			float chance = 33 * Config.RATE_QUEST_DROP;
 			if (getRandom(100) < chance)
 			{
 				st.rewardItems(TARLK_EYE, 1);
-				st.playSound("ItemSound.quest_itemget");
+				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 			}
 		}
 		
 		if (st.getQuestItemsCount(TARLK_EYE) >= 100)
 		{
 			st.setCond(2, true);
-			
 		}
-		
 		return super.onKill(npc, player, isPet);
 	}
 	
 	public Q00052_WilliesSpecialBait(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(WILLIE);
 		addTalkId(WILLIE);
 		addKillId(TARLK_BASILISK);
-		questItemIds = new int[]
-		{
-			TARLK_EYE
-		};
+		registerQuestItems(TARLK_EYE);
 	}
 	
 	public static void main(String[] args)

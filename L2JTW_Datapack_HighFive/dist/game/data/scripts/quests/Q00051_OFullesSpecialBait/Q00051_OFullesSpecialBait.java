@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00051_OFullesSpecialBait;
 
@@ -31,7 +35,6 @@ public class Q00051_OFullesSpecialBait extends Quest
 	// NPCs
 	private static final int OFULLE = 31572;
 	private static final int FETTERED_SOUL = 20552;
-	
 	// Items
 	private static final int LOST_BAIT = 7622;
 	private static final int ICY_AIR_LURE = 7611;
@@ -106,7 +109,7 @@ public class Q00051_OFullesSpecialBait extends Quest
 			if (getRandom(100) < chance)
 			{
 				st.rewardItems(LOST_BAIT, 1);
-				st.playSound("ItemSound.quest_itemget");
+				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 			}
 		}
 		
@@ -122,14 +125,10 @@ public class Q00051_OFullesSpecialBait extends Quest
 	public Q00051_OFullesSpecialBait(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(OFULLE);
 		addTalkId(OFULLE);
 		addKillId(FETTERED_SOUL);
-		questItemIds = new int[]
-		{
-			LOST_BAIT
-		};
+		registerQuestItems(LOST_BAIT);
 	}
 	
 	public static void main(String[] args)

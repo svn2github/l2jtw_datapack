@@ -1,24 +1,22 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00110_ToThePrimevalIsle;
-
-/**
- * To the Primeval Isle (110).<br>
- * Original Jython script by Ethernaly, updated by Zoey76.
- * @author Adry_85
- */
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -26,14 +24,16 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
-public class Q110_ToThePrimevalIsle extends Quest
+/**
+ * To the Primeval Isle (110)
+ * @author Adry_85
+ */
+public class Q00110_ToThePrimevalIsle extends Quest
 {
-	private static final String qn = "110_ToThePrimevalIsle";
-	// NPC
+	// NPCs
 	private static final int ANTON = 31338;
 	private static final int MARQUEZ = 32113;
-	
-	// Quest Item
+	// Item
 	private static final int ANCIENT_BOOK = 8777;
 	
 	@Override
@@ -53,13 +53,11 @@ public class Q110_ToThePrimevalIsle extends Quest
 				break;
 			case "32113-2.html":
 			case "32113-2a.html":
-				st.takeItems(ANCIENT_BOOK, -1);
 				st.giveAdena(191678, true);
 				st.addExpAndSp(251602, 25245);
 				st.exitQuest(false, true);
 				break;
 		}
-		
 		return event;
 	}
 	
@@ -99,16 +97,16 @@ public class Q110_ToThePrimevalIsle extends Quest
 		return htmltext;
 	}
 	
-	public Q110_ToThePrimevalIsle(int id, String name, String descr)
+	public Q00110_ToThePrimevalIsle(int id, String name, String descr)
 	{
 		super(id, name, descr);
-		
 		addStartNpc(ANTON);
 		addTalkId(ANTON, MARQUEZ);
+		registerQuestItems(ANCIENT_BOOK);
 	}
 	
 	public static void main(String[] args)
 	{
-		new Q110_ToThePrimevalIsle(110, qn, "To the Primeval Isle");
+		new Q00110_ToThePrimevalIsle(110, Q00110_ToThePrimevalIsle.class.getSimpleName(), "To the Primeval Isle");
 	}
 }

@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00017_LightAndDarkness;
 
@@ -29,15 +33,13 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public class Q00017_LightAndDarkness extends Quest
 {
-	
 	// NPCs
 	private static final int HIERARCH = 31517;
 	private static final int SAINT_ALTAR_1 = 31508;
 	private static final int SAINT_ALTAR_2 = 31509;
 	private static final int SAINT_ALTAR_3 = 31510;
 	private static final int SAINT_ALTAR_4 = 31511;
-	
-	// Items
+	// Item
 	private static final int BLOOD_OF_SAINT = 7168;
 	
 	@Override
@@ -52,14 +54,11 @@ public class Q00017_LightAndDarkness extends Quest
 		
 		switch (event)
 		{
-		
 			case "31517-02.html":
 				if (player.getLevel() >= 61)
 				{
+					st.startQuest();
 					st.giveItems(BLOOD_OF_SAINT, 4);
-					st.set("cond", "1");
-					st.setState(State.STARTED);
-					st.playSound("ItemSound.quest_accept");
 				}
 				else
 				{
@@ -70,14 +69,13 @@ public class Q00017_LightAndDarkness extends Quest
 			case "31509-02.html":
 			case "31510-02.html":
 			case "31511-02.html":
-				final int cond = st.getInt("cond");
+				final int cond = st.getCond();
 				final int npcId = Integer.parseInt(event.replace("-02.html", ""));
 				if ((cond == (npcId - 31507)) && st.hasQuestItems(BLOOD_OF_SAINT))
 				{
 					htmltext = npcId + "-01.html";
 					st.takeItems(BLOOD_OF_SAINT, 1);
-					st.set("cond", String.valueOf(cond + 1));
-					st.playSound("ItemSound.quest_middle");
+					st.setCond(cond + 1, true);
 				}
 				break;
 		}
@@ -105,32 +103,30 @@ public class Q00017_LightAndDarkness extends Quest
 				break;
 			case State.STARTED:
 				final long blood = st.getQuestItemsCount(BLOOD_OF_SAINT);
-				final int cond = st.getInt("cond");
 				final int npcId = npc.getNpcId();
 				switch (npcId)
 				{
 					case HIERARCH:
-						if (cond < 5)
+						if (st.getCond() < 5)
 						{
 							htmltext = (blood >= 5) ? "31517-05.html" : "31517-04.html";
 						}
 						else
 						{
-							htmltext = "31517-03.html";
 							st.addExpAndSp(697040, 54887);
-							st.playSound("ItemSound.quest_finish");
-							st.exitQuest(false);
+							st.exitQuest(false, true);
+							htmltext = "31517-03.html";
 						}
 						break;
 					case SAINT_ALTAR_1:
 					case SAINT_ALTAR_2:
 					case SAINT_ALTAR_3:
 					case SAINT_ALTAR_4:
-						if ((npcId - 31507) == cond)
+						if ((npcId - 31507) == st.getCond())
 						{
 							htmltext = npcId + ((blood > 0) ? "-00.html" : "-02.html");
 						}
-						else if (cond > (npcId - 31507))
+						else if (st.getCond() > (npcId - 31507))
 						{
 							htmltext = npcId + "-03.html";
 						}
@@ -144,10 +140,9 @@ public class Q00017_LightAndDarkness extends Quest
 	public Q00017_LightAndDarkness(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(HIERARCH);
-		
 		addTalkId(HIERARCH, SAINT_ALTAR_1, SAINT_ALTAR_2, SAINT_ALTAR_3, SAINT_ALTAR_4);
+		registerQuestItems(BLOOD_OF_SAINT);
 	}
 	
 	public static void main(String[] args)

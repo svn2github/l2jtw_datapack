@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00013_ParcelDelivery;
 
@@ -27,12 +31,10 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public class Q00013_ParcelDelivery extends Quest
 {
-	
 	// NPCs
 	private static final int FUNDIN = 31274;
 	private static final int VULCAN = 31539;
-	
-	// Items
+	// Item
 	private static final int PACKAGE = 7263;
 	
 	@Override
@@ -48,19 +50,15 @@ public class Q00013_ParcelDelivery extends Quest
 		switch (event)
 		{
 			case "31274-02.html":
-				st.set("cond", "1");
+				st.startQuest();
 				st.giveItems(PACKAGE, 1);
-				st.setState(State.STARTED);
-				st.playSound("ItemSound.quest_accept");
 				break;
 			case "31539-01.html":
-				if ((st.getInt("cond") == 1) && (st.hasQuestItems(PACKAGE)))
+				if (st.isCond(1) && st.hasQuestItems(PACKAGE))
 				{
-					st.takeItems(PACKAGE, -1);
-					st.giveItems(57, 157834);
+					st.giveAdena(157834, true);
 					st.addExpAndSp(589092, 58794);
-					st.playSound("ItemSound.quest_finish");
-					st.exitQuest(false);
+					st.exitQuest(false, true);
 				}
 				else
 				{
@@ -94,8 +92,7 @@ public class Q00013_ParcelDelivery extends Quest
 				}
 				break;
 			case State.STARTED:
-				final int cond = st.getInt("cond");
-				if (cond == 1)
+				if (st.isCond(1))
 				{
 					switch (npcId)
 					{
@@ -115,15 +112,9 @@ public class Q00013_ParcelDelivery extends Quest
 	public Q00013_ParcelDelivery(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(FUNDIN);
-		
 		addTalkId(FUNDIN, VULCAN);
-		
-		questItemIds = new int[]
-		{
-			PACKAGE
-		};
+		registerQuestItems(PACKAGE);
 	}
 	
 	public static void main(String[] args)

@@ -1,23 +1,24 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00126_TheNameOfEvil2;
 
-/**
- * The Name of Evil - 2 (126).
- * @author Adry_85
- */
+import quests.Q00125_TheNameOfEvil1.Q00125_TheNameOfEvil1;
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -26,10 +27,13 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 
-public class Q126_TheNameOfEvil2 extends Quest
+/**
+ * The Name of Evil - 2 (126)
+ * @author Adry_85
+ */
+public class Q00126_TheNameOfEvil2 extends Quest
 {
-	private static final String qn = "126_TheNameOfEvil2";
-	// NPC
+	// NPCs
 	private static final int SHILENS_STONE_STATUE = 32109;
 	private static final int MUSHIKA = 32114;
 	private static final int ASAMAH = 32115;
@@ -37,11 +41,9 @@ public class Q126_TheNameOfEvil2 extends Quest
 	private static final int BALU_KAIMU = 32120;
 	private static final int CHUTA_KAIMU = 32121;
 	private static final int WARRIORS_GRAVE = 32122;
-	
-	// Quest Item
+	// Items
 	private static final int GAZKH_FRAGMENT = 8782;
 	private static final int BONE_POWDER = 8783;
-	
 	// Reward
 	private static final int ENCHANT_WEAPON_A = 729;
 	
@@ -79,7 +81,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 				break;
 			case "32119-4a.html":
 			case "32119-5b.html":
-				st.playSound("EtcSound.elcroki_song_1st");
+				st.playSound(QuestSound.ETCSOUND_ELROKI_SOUND_1ST);
 				break;
 			case "32119-5.html":
 				if (st.isCond(4))
@@ -101,7 +103,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 				break;
 			case "32120-4a.html":
 			case "32120-5b.html":
-				st.playSound("EtcSound.elcroki_song_2nd");
+				st.playSound(QuestSound.ETCSOUND_ELROKI_SOUND_2ND);
 				break;
 			case "32120-5.html":
 				if (st.isCond(7))
@@ -123,7 +125,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 				break;
 			case "32121-4a.html":
 			case "32121-5b.html":
-				st.playSound("EtcSound.elcroki_song_3rd");
+				st.playSound(QuestSound.ETCSOUND_ELROKI_SOUND_3RD);
 				break;
 			case "32121-5.html":
 				if (st.isCond(10))
@@ -272,7 +274,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 				break;
 			case "32122-7.html":
 				st.giveItems(BONE_POWDER, 1);
-				st.playSound("EtcSound.elcroki_song_full");
+				st.playSound(QuestSound.ETCSOUND_ELROKI_SOUND_FULL);
 				npc.broadcastPacket(new MagicSkillUse(npc, player, 5089, 1, 1000, 0));
 				break;
 			case "32122-8.html":
@@ -319,7 +321,6 @@ public class Q126_TheNameOfEvil2 extends Quest
 				st.exitQuest(false, true);
 				break;
 		}
-		
 		return event;
 	}
 	
@@ -345,12 +346,12 @@ public class Q126_TheNameOfEvil2 extends Quest
 						}
 						else
 						{
-							st = player.getQuestState("125_TheNameOfEvil1");
+							st = player.getQuestState(Q00125_TheNameOfEvil1.class.getSimpleName());
 							htmltext = ((st != null) && st.isCompleted()) ? "32115-0a.htm" : "32115-0b.htm";
 						}
 						break;
 					case State.STARTED:
-						switch (st.getInt("cond"))
+						switch (st.getCond())
 						{
 							case 1:
 								htmltext = "32115-1d.html";
@@ -396,7 +397,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 			case ULU_KAIMU:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 							htmltext = "32119-1.html";
@@ -420,7 +421,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 			case BALU_KAIMU:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -447,7 +448,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 			case CHUTA_KAIMU:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -477,7 +478,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 			case WARRIORS_GRAVE:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -540,7 +541,7 @@ public class Q126_TheNameOfEvil2 extends Quest
 			case SHILENS_STONE_STATUE:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -582,12 +583,11 @@ public class Q126_TheNameOfEvil2 extends Quest
 			case MUSHIKA:
 				if (st.isStarted())
 				{
-					int cond = st.getInt("cond");
-					if (cond < 22)
+					if (st.getCond() < 22)
 					{
 						htmltext = "32114-4.html";
 					}
-					else if (cond == 22)
+					else if (st.isCond(22))
 					{
 						htmltext = "32114-1.html";
 					}
@@ -601,21 +601,16 @@ public class Q126_TheNameOfEvil2 extends Quest
 		return htmltext;
 	}
 	
-	public Q126_TheNameOfEvil2(int id, String name, String descr)
+	public Q00126_TheNameOfEvil2(int id, String name, String descr)
 	{
 		super(id, name, descr);
-		
 		addStartNpc(ASAMAH);
 		addTalkId(ASAMAH, ULU_KAIMU, BALU_KAIMU, CHUTA_KAIMU, WARRIORS_GRAVE, SHILENS_STONE_STATUE, MUSHIKA);
-		questItemIds = new int[]
-		{
-			GAZKH_FRAGMENT,
-			BONE_POWDER
-		};
+		registerQuestItems(GAZKH_FRAGMENT, BONE_POWDER);
 	}
 	
 	public static void main(String[] args)
 	{
-		new Q126_TheNameOfEvil2(126, qn, "The Name of Evil - 2");
+		new Q00126_TheNameOfEvil2(126, Q00126_TheNameOfEvil2.class.getSimpleName(), "The Name of Evil - 2");
 	}
 }

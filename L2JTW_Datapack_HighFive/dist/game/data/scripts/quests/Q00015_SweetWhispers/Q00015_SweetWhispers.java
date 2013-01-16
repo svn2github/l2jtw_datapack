@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) 2004-2013 L2J DataPack
+ * 
+ * This file is part of L2J DataPack.
+ * 
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00015_SweetWhispers;
 
@@ -27,7 +31,6 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public class Q00015_SweetWhispers extends Quest
 {
-	
 	// NPCs
 	private static final int VLADIMIR = 31302;
 	private static final int HIERARCH = 31517;
@@ -43,27 +46,22 @@ public class Q00015_SweetWhispers extends Quest
 			return htmltext;
 		}
 		
-		final int cond = st.getInt("cond");
 		switch (event)
 		{
 			case "31302-01.html":
-				st.set("cond", "1");
-				st.setState(State.STARTED);
-				st.playSound("ItemSound.quest_accept");
+				st.startQuest();
 				break;
 			case "31518-01.html":
-				if (cond == 1)
+				if (st.isCond(1))
 				{
-					st.set("cond", "2");
-					st.playSound("ItemSound.quest_middle");
+					st.setCond(2);
 				}
 				break;
 			case "31517-01.html":
-				if (cond == 2)
+				if (st.isCond(2))
 				{
 					st.addExpAndSp(350531, 28204);
-					st.playSound("ItemSound.quest_finish");
-					st.exitQuest(false);
+					st.exitQuest(false, true);
 				}
 				break;
 		}
@@ -93,17 +91,16 @@ public class Q00015_SweetWhispers extends Quest
 				}
 				break;
 			case State.STARTED:
-				final int cond = st.getInt("cond");
 				switch (npcId)
 				{
 					case VLADIMIR:
-						if (cond == 1)
+						if (st.isCond(1))
 						{
 							htmltext = "31302-01a.html";
 						}
 						break;
 					case M_NECROMANCER:
-						switch (cond)
+						switch (st.getCond())
 						{
 							case 1:
 								htmltext = "31518-00.html";
@@ -114,7 +111,7 @@ public class Q00015_SweetWhispers extends Quest
 						}
 						break;
 					case HIERARCH:
-						if (cond == 2)
+						if (st.isCond(2))
 						{
 							htmltext = "31517-00.html";
 						}
@@ -128,9 +125,7 @@ public class Q00015_SweetWhispers extends Quest
 	public Q00015_SweetWhispers(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(VLADIMIR);
-		
 		addTalkId(VLADIMIR, HIERARCH, M_NECROMANCER);
 	}
 	

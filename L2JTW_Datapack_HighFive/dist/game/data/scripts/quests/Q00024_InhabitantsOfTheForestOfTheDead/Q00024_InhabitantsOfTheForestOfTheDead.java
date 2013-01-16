@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00024_InhabitantsOfTheForestOfTheDead;
 
@@ -31,7 +35,6 @@ public class Q00024_InhabitantsOfTheForestOfTheDead extends Quest
 	private static final int MYSTERIOUS_WIZARD = 31522;
 	private static final int TOMBSTONE = 31531;
 	private static final int LIDIA_MAID = 31532;
-	
 	// Items
 	private static final int LIDIA_LETTER = 7065;
 	private static final int LIDIA_HAIRPIN = 7148;
@@ -40,7 +43,6 @@ public class Q00024_InhabitantsOfTheForestOfTheDead extends Quest
 	private static final int SILVER_CROSS_OF_EINHASAD = 7153;
 	private static final int BROKEN_SILVER_CROSS_OF_EINHASAD = 7154;
 	private static final int TOTEM = 7156;
-	
 	// Monsters @formatter:off
 	private static final int[] MOBS = {21557, 21558, 21560, 21563, 21564, 21565, 21566, 21567};
 	// @formatter:on
@@ -340,7 +342,6 @@ public class Q00024_InhabitantsOfTheForestOfTheDead extends Quest
 		addStartNpc(DORIAN);
 		addTalkId(DORIAN, MYSTERIOUS_WIZARD, TOMBSTONE, LIDIA_MAID);
 		addKillId(MOBS);
-		
 		registerQuestItems(LIDIA_LETTER, LIDIA_HAIRPIN, SUSPICIOUS_TOTEM_DOLL, FLOWER_BOUQUET, SILVER_CROSS_OF_EINHASAD, BROKEN_SILVER_CROSS_OF_EINHASAD);
 	}
 	

@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00124_MeetingTheElroki;
 
@@ -21,21 +25,18 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Meeting the Elroki (124)<br>
- * Original Jython script by Kerb.
+ * Meeting the Elroki (124)
  * @author Adry_85
  */
 public class Q00124_MeetingTheElroki extends Quest
 {
-	
-	// NPC
+	// NPCs
 	private static final int MARQUEZ = 32113;
 	private static final int MUSHIKA = 32114;
 	private static final int ASAMAH = 32115;
 	private static final int KARAKAWEI = 32117;
 	private static final int MANTARASA = 32118;
-	
-	// Quest Item
+	// Item
 	private static final int MANTARASA_EGG = 8778;
 	
 	@Override
@@ -84,7 +85,6 @@ public class Q00124_MeetingTheElroki extends Quest
 				}
 				break;
 		}
-		
 		return event;
 	}
 	
@@ -148,7 +148,7 @@ public class Q00124_MeetingTheElroki extends Quest
 			case ASAMAH:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -178,7 +178,7 @@ public class Q00124_MeetingTheElroki extends Quest
 			case KARAKAWEI:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -200,7 +200,7 @@ public class Q00124_MeetingTheElroki extends Quest
 			case MANTARASA:
 				if (st.isStarted())
 				{
-					switch (st.getInt("cond"))
+					switch (st.getCond())
 					{
 						case 1:
 						case 2:
@@ -224,13 +224,9 @@ public class Q00124_MeetingTheElroki extends Quest
 	public Q00124_MeetingTheElroki(int id, String name, String descr)
 	{
 		super(id, name, descr);
-		
 		addStartNpc(MARQUEZ);
 		addTalkId(MARQUEZ, MUSHIKA, ASAMAH, KARAKAWEI, MANTARASA);
-		questItemIds = new int[]
-		{
-			MANTARASA_EGG
-		};
+		registerQuestItems(MANTARASA_EGG);
 	}
 	
 	public static void main(String[] args)

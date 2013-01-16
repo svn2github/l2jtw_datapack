@@ -1,24 +1,22 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00109_InSearchOfTheNest;
-
-/**
- * In Search of the Nest (109).<br>
- * Original Jython script by Eyerobot and Emperorc.
- * @author Adry_85
- */
 
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -26,16 +24,18 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
-public class Q109_InSearchOfTheNest extends Quest
+/**
+ * In Search of the Nest (109)
+ * @author Adry_85
+ */
+public class Q00109_InSearchOfTheNest extends Quest
 {
-	private static final String qn = "109_InSearchOfTheNest";
-	// NPC
+	// NPCs
 	private static final int PIERCE = 31553;
 	private static final int SCOUTS_CORPSE = 32015;
 	private static final int KAHMAN = 31554;
-	
-	// Quest Item
-	private static final int SCOUTS_MEMO = 8083;
+	// Items
+	private static final int SCOUTS_NOTE = 14858;
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
@@ -52,11 +52,11 @@ public class Q109_InSearchOfTheNest extends Quest
 				st.startQuest();
 				break;
 			case "32015-2.html":
-				st.giveItems(SCOUTS_MEMO, 1);
+				st.giveItems(SCOUTS_NOTE, 1);
 				st.setCond(2, true);
 				break;
 			case "31553-3.html":
-				st.takeItems(SCOUTS_MEMO, -1);
+				st.takeItems(SCOUTS_NOTE, -1);
 				st.setCond(3, true);
 				break;
 			case "31554-2.html":
@@ -65,7 +65,6 @@ public class Q109_InSearchOfTheNest extends Quest
 				st.exitQuest(false, true);
 				break;
 		}
-		
 		return event;
 	}
 	
@@ -129,16 +128,16 @@ public class Q109_InSearchOfTheNest extends Quest
 		return htmltext;
 	}
 	
-	public Q109_InSearchOfTheNest(int id, String name, String descr)
+	public Q00109_InSearchOfTheNest(int id, String name, String descr)
 	{
 		super(id, name, descr);
-		
 		addStartNpc(PIERCE);
 		addTalkId(PIERCE, SCOUTS_CORPSE, KAHMAN);
+		registerQuestItems(SCOUTS_NOTE);
 	}
 	
 	public static void main(String[] args)
 	{
-		new Q109_InSearchOfTheNest(109, qn, "In Search of the Nest");
+		new Q00109_InSearchOfTheNest(109, Q00109_InSearchOfTheNest.class.getSimpleName(), "In Search of the Nest");
 	}
 }

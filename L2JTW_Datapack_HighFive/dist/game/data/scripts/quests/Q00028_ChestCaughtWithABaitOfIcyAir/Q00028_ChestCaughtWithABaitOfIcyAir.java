@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00028_ChestCaughtWithABaitOfIcyAir;
 
@@ -29,11 +33,9 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public class Q00028_ChestCaughtWithABaitOfIcyAir extends Quest
 {
-	
 	// NPCs
 	private static final int OFULLE = 31572;
 	private static final int KIKI = 31442;
-	
 	// Items
 	private static final int YELLOW_TREASURE_BOX = 6503;
 	private static final int KIKIS_LETTER = 7626;
@@ -52,28 +54,23 @@ public class Q00028_ChestCaughtWithABaitOfIcyAir extends Quest
 		switch (event)
 		{
 			case "31572-04.htm":
-				st.set("cond", "1");
-				st.setState(State.STARTED);
-				st.playSound("ItemSound.quest_accept");
+				st.startQuest();
 				break;
 			case "31572-08.htm":
-				if ((st.getInt("cond") == 1) && (st.hasQuestItems(YELLOW_TREASURE_BOX)))
+				if (st.isCond(1) && st.hasQuestItems(YELLOW_TREASURE_BOX))
 				{
-					htmltext = "31572-07.htm";
-					st.set("cond", "2");
 					st.giveItems(KIKIS_LETTER, 1);
 					st.takeItems(YELLOW_TREASURE_BOX, -1);
-					st.playSound("ItemSound.quest_middle");
+					st.setCond(2, true);
+					htmltext = "31572-07.htm";
 				}
 				break;
 			case "31442-03.htm":
-				if ((st.getInt("cond") == 2) && (st.hasQuestItems(KIKIS_LETTER)))
+				if (st.isCond(2) && st.hasQuestItems(KIKIS_LETTER))
 				{
-					htmltext = "31442-02.htm";
 					st.giveItems(ELVEN_RING, 1);
-					st.takeItems(KIKIS_LETTER, -1);
-					st.playSound("ItemSound.quest_finish");
-					st.exitQuest(false);
+					st.exitQuest(false, true);
+					htmltext = "31442-02.htm";
 				}
 				break;
 		
@@ -109,11 +106,10 @@ public class Q00028_ChestCaughtWithABaitOfIcyAir extends Quest
 				}
 				break;
 			case State.STARTED:
-				final int cond = st.getInt("cond");
 				switch (npcId)
 				{
 					case OFULLE:
-						switch (cond)
+						switch (st.getCond())
 						{
 							case 1:
 								htmltext = "31572-06.htm";
@@ -128,7 +124,7 @@ public class Q00028_ChestCaughtWithABaitOfIcyAir extends Quest
 						}
 						break;
 					case KIKI:
-						if (cond == 2)
+						if (st.isCond(2))
 						{
 							htmltext = "31442-01.htm";
 						}
@@ -142,9 +138,9 @@ public class Q00028_ChestCaughtWithABaitOfIcyAir extends Quest
 	public Q00028_ChestCaughtWithABaitOfIcyAir(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
 		addStartNpc(OFULLE);
 		addTalkId(OFULLE, KIKI);
+		registerQuestItems(KIKIS_LETTER);
 	}
 	
 	public static void main(String[] args)
