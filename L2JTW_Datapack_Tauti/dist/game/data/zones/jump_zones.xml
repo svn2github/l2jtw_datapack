@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
-	<zone name="TIJump" type="JumpZone" shape="Cylinder" minZ="-2000" maxZ="1" rad="100">
+	<zone name="說話之島村莊 --> 埃薩吉拉遺蹟地" type="JumpZone" shape="Cylinder" minZ="-1520" maxZ="-1470" rad="50">
 		<node X="-112552" Y="257046" />
 	</zone>
-	<zone name="GAJump" type="JumpZone" shape="Cylinder" minZ="-150" maxZ="-100" rad="100">
+	<zone name="古魯丁飛空艇碼頭 --> 柯塞勒斯同盟聯合基地" type="JumpZone" shape="Cylinder" minZ="-150" maxZ="-100" rad="50">
 		<node X="-149248" Y="253323" />
 	</zone>
-	<zone name="DFJump" type="JumpZone" shape="Cylinder" minZ="-3700" maxZ="-3600" rad="50">
-		<node X="-15589" Y="30655" />
-	</zone>
-	<zone name="Jump11" type="JumpZone" shape="Cylinder" minZ="-2100" maxZ="-2000" rad="50">
-		<node X="221509" Y="118860" />
-	</zone>
-	<zone name="Jump22" type="JumpZone" shape="Cylinder" minZ="2600" maxZ="2650" rad="100">
+	<zone name="柯塞勒斯同盟聯合基地 --> 古魯丁飛空艇碼頭" type="JumpZone" shape="Cylinder" minZ="2600" maxZ="2650" rad="50">
 		<node X="-186315" Y="243738" />
 	</zone>
-	<zone name="Jump33" type="JumpZone" shape="Cylinder" minZ="400" maxZ="500" rad="50">
-		<node X="205887" Y="80587" />
-	</zone>	
-	<zone name="Jump44" type="JumpZone" shape="Cylinder" minZ="800" maxZ="900" rad="50">
-		<node X="213681" Y="80686" />
-	</zone>	
-	<zone name="Jump55" type="JumpZone" shape="Cylinder" minZ="800" maxZ="900" rad="50">
-		<node X="214394" Y="81570" />
+	<zone name="黑暗精靈森林 --> 血之沼澤" type="JumpZone" shape="Cylinder" minZ="-3630" maxZ="-3590" rad="50">
+		<node X="-15610" Y="30704" />
+	</zone>
+	<zone name="黑暗精靈森林 --> 魔物祭壇" type="JumpZone" shape="Cylinder" minZ="-3630" maxZ="-3590" rad="50">
+		<node X="-15559" Y="30602" />
+	</zone>
+	<zone name="狄恩城鎮 --> 基洛德要塞西門" type="JumpZone" shape="Cylinder" minZ="-2710" maxZ="-2670" rad="50">
+		<node X="15384" Y="143228" />
+	</zone>
+	<zone name="狄恩城鎮 --> 基洛德要塞北門" type="JumpZone" shape="Cylinder" minZ="-2710" maxZ="-2670" rad="50">
+		<node X="15430" Y="143114" />
+	</zone>
+	<zone name="奇岩城鎮 --> 基洛德要塞東門" type="JumpZone" shape="Cylinder" minZ="-3430" maxZ="-3380" rad="50">
+		<node X="83913" Y="147693" />
+	</zone>
+	<zone name="奇岩城鎮 --> 基洛德要塞北門" type="JumpZone" shape="Cylinder" minZ="-3430" maxZ="-3380" rad="50">
+		<node X="84028" Y="147743" />
 	</zone>
 </list>
