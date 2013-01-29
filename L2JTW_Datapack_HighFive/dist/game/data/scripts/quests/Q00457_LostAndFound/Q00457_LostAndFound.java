@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00457_LostAndFound;
 
@@ -123,14 +127,14 @@ public final class Q00457_LostAndFound extends Quest
 				startQuestTimer("talk_time2", 30000, npc, player);
 				break;
 			case "talk_time":
-				npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.ALL, npc.getName(), NpcStringId.AH_I_THINK_I_REMEMBER_THIS_PLACE));
+				npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.NPC_ALL, npc.getName(), NpcStringId.AH_I_THINK_I_REMEMBER_THIS_PLACE));
 				break;
 			case "talk_time2":
-				npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.ALL, npc.getName(), NpcStringId.WHAT_WERE_YOU_DOING_HERE));
+				npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.NPC_ALL, npc.getName(), NpcStringId.WHAT_WERE_YOU_DOING_HERE));
 				startQuestTimer("talk_time3", 10 * 1000, npc, player);
 				break;
 			case "talk_time3":
-				npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.ALL, npc.getName(), NpcStringId.I_GUESS_YOURE_THE_SILENT_TYPE_THEN_ARE_YOU_LOOKING_FOR_TREASURE_LIKE_ME));
+				npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.NPC_ALL, npc.getName(), NpcStringId.I_GUESS_YOURE_THE_SILENT_TYPE_THEN_ARE_YOU_LOOKING_FOR_TREASURE_LIKE_ME));
 				break;
 			case "time_limit":
 				startQuestTimer("stop", 2000, npc, player);
@@ -147,12 +151,12 @@ public final class Q00457_LostAndFound extends Quest
 					}
 					else if (_count == 0)
 					{
-						npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.ALL, npc.getName(), NpcStringId.HEY_DONT_GO_SO_FAST));
+						npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.NPC_ALL, npc.getName(), NpcStringId.HEY_DONT_GO_SO_FAST));
 						_count = 1;
 					}
 					else if (_count == 1)
 					{
-						npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.ALL, npc.getName(), NpcStringId.ITS_HARD_TO_FOLLOW));
+						npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.NPC_ALL, npc.getName(), NpcStringId.ITS_HARD_TO_FOLLOW));
 						_count = 2;
 					}
 					else if (_count == 2)
@@ -168,7 +172,7 @@ public final class Q00457_LostAndFound extends Quest
 						startQuestTimer("stop", 1000, npc, player);
 						startQuestTimer("bye", 3000, npc, player);
 						cancelQuestTimer("check", npc, player);
-						npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.ALL, npc.getName(), NpcStringId.AH_FRESH_AIR));
+						npc.broadcastPacket(new CreatureSay(npc.getObjectId(), Say2.NPC_ALL, npc.getName(), NpcStringId.AH_FRESH_AIR));
 						st.giveItems(PACKAGED_BOOK, 1);
 						st.exitQuest(QuestType.DAILY, true);
 						break;
@@ -200,7 +204,7 @@ public final class Q00457_LostAndFound extends Quest
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		if (_gumiel == null && getRandom(100) < CHANCE_SPAWN)
+		if ((_gumiel == null) && (getRandom(100) < CHANCE_SPAWN))
 		{
 			addSpawn(GUMIEL, new Location(npc.getX(), npc.getY(), npc.getZ()), false, 0);
 		}
