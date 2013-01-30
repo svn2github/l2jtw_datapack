@@ -27,4 +27,40 @@
 	<zone name="奇岩城鎮 --> 基洛德要塞北門" type="JumpZone" shape="Cylinder" minZ="-3430" maxZ="-3380" rad="50">
 		<node X="84028" Y="147743" />
 	</zone>
+	<zone name="亞丁城鎮北方 --> 亞丁城鎮西方" type="JumpZone" shape="Cylinder" minZ="-2000" maxZ="-1950" rad="50">
+		<node X="146420" Y="19705" />
+	</zone>
+	<zone name="亞丁城鎮北方 --> 亞丁城鎮東方" type="JumpZone" shape="Cylinder" minZ="-1985" maxZ="-1935" rad="50">
+		<node X="146308" Y="19653" />
+	</zone>
+	<zone name="亞丁城鎮東方 --> 亞丁城鎮西方" type="JumpZone" shape="Cylinder" minZ="-2135" maxZ="-2085" rad="50">
+		<node X="153232" Y="24511" />
+	</zone>
+	<zone name="亞丁城鎮東方 --> 亞丁城鎮北方" type="JumpZone" shape="Cylinder" minZ="-2135" maxZ="-2085" rad="50">
+		<node X="153218" Y="24623" />
+	</zone>
+	<zone name="亞丁城鎮西方 --> 亞丁城鎮東方" type="JumpZone" shape="Cylinder" minZ="-2245" maxZ="-2195" rad="50">
+		<node X="140373" Y="25259" />
+	</zone>
+	<zone name="亞丁城鎮西方 --> 亞丁城鎮北方" type="JumpZone" shape="Cylinder" minZ="-2240" maxZ="-2190" rad="50">
+		<node X="140421" Y="25142" />
+	</zone>
+	<zone name="英魂之島港口 --> 第2據點" type="JumpZone" shape="Cylinder" minZ="-3705" maxZ="-3655" rad="50">
+		<node X="-74655" Y="53102" />
+	</zone>
+	<zone name="英魂之島港口 --> 第3據點" type="JumpZone" shape="Cylinder" minZ="-3705" maxZ="-3655" rad="50">
+		<node X="-74548" Y="53146" />
+	</zone>
+	<zone name="第2據點 --> 英魂之島港口" type="JumpZone" shape="Cylinder" minZ="-2055" maxZ="-2005" rad="50">
+		<node X="-95070" Y="52014" />
+	</zone>
+	<zone name="第2據點 --> 第3據點" type="JumpZone" shape="Cylinder" minZ="-2055" maxZ="-2005" rad="50">
+		<node X="-95012" Y="52100" />
+	</zone>
+	<zone name="第3據點 --> 英魂之島港口" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="50">
+		<node X="-86132" Y="36957" />
+	</zone>
+	<zone name="第3據點 --> 第2據點" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="50">
+		<node X="-86043" Y="37028" />
+	</zone>
 </list>
