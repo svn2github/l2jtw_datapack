@@ -63,4 +63,22 @@
 	<zone name="第3據點 --> 第2據點" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="50">
 		<node X="-86043" Y="37028" />
 	</zone>
+	<zone name="魯因城鎮 --> 魯因城外城1號地區" type="JumpZone" shape="Cylinder" minZ="-865" maxZ="-815" rad="50">
+		<node X="40795" Y="-52105" />
+	</zone>
+	<zone name="魯因城鎮 --> 魯因城外城2號地區" type="JumpZone" shape="Cylinder" minZ="-865" maxZ="-815" rad="50">
+		<node X="40693" Y="-52196" />
+	</zone>
+	<zone name="魯因城 --> 魯因城外城1號地區" type="JumpZone" shape="Cylinder" minZ="-1325" maxZ="-1275" rad="50">
+		<node X="22210" Y="-50451" />
+	</zone>
+	<zone name="魯因城 --> 魯因城外城2號地區" type="JumpZone" shape="Cylinder" minZ="-1325" maxZ="-1275" rad="50">
+		<node X="22297" Y="-50366" />
+	</zone>
+	<zone name="魯因城外城 --> 魯因城1號地區" type="JumpZone" shape="Cylinder" minZ="-1315" maxZ="-1265" rad="50">
+		<node X="27965" Y="-49205" />
+	</zone>
+	<zone name="魯因城外城 --> 魯因城2號地區" type="JumpZone" shape="Cylinder" minZ="-1325" maxZ="-1275" rad="50">
+		<node X="28055" Y="-49134" />
+	</zone>
 </list>
