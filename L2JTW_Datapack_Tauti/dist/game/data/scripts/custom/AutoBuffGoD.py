@@ -11,6 +11,7 @@ from com.l2jserver.gameserver.network.serverpackets import ExShowScreenMessage
 from com.l2jserver.gameserver.network import NpcStringId
 from com.l2jserver.gameserver.util import Util
 from com.l2jserver.gameserver.model.skills import L2SkillType
+from com.l2jserver.gameserver.model import L2World
 
 
 class AutoBuffGoD(JQuest):
@@ -42,7 +43,7 @@ class AutoBuffGoD(JQuest):
 			myBuffList = []
 			isPet = not isinstance(p, L2PcInstance)
 			if isPet:
-				t = p.getOwner()
+				t = p #.getOwner()
 				if 6 <= t.getLevel() <= 75:
 					myBuffList += [5627, 5628, 5637]
 					myBuffList += [5633, 5634, 5635, 5636]
@@ -84,20 +85,15 @@ class AutoBuffGoD(JQuest):
 		if event == "check":
 			old_blacklist = self.blacklist[:]
 			self.blacklist = []
-			for spawn in SpawnTable.getInstance().getSpawnTable():
-				if spawn.getNpcid() in self.NPCID:
-					npc = spawn.getLastSpawn()
-					for player in npc.getKnownList().getKnownPlayersInRadius(self.radius):
-						playeroid = player.getObjectId()
+			for p in L2World.getInstance().getAllPlayers().values():
+				for n in p.getKnownList().getKnownCharactersInRadius(self.radius):
+					if n.isNpc() and n.getNpcId() in self.NPCID:
+						playeroid = p.getObjectId()
 						self.blacklist.append(playeroid)
 						if playeroid not in old_blacklist:
-							self.giveBuffs(npc, player)
-					for player in npc.getKnownList().getKnownSummons().values():
-						if Util.checkIfInRange(self.radius, npc, player, True):
-							playeroid = player.getObjectId()
-							self.blacklist.append(playeroid)
-							if playeroid not in old_blacklist:
-								self.giveBuffs(npc, player)
+							self.giveBuffs(n, p)
+							if p.getPet():
+								self.giveBuffs(n, p.getPet())
 
 AutoBuffGoD()
 
