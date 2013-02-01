@@ -81,4 +81,34 @@
 	<zone name="魯因城外城 --> 魯因城2號地區" type="JumpZone" shape="Cylinder" minZ="-1325" maxZ="-1275" rad="50">
 		<node X="28055" Y="-49134" />
 	</zone>
+	<zone name="妖精殖民地(左) --> 古都 亞爾康(左)" type="JumpZone" shape="Cylinder" minZ="800" maxZ="850" rad="50">
+		<node X="213680" Y="80686" />
+	</zone>
+	<zone name="妖精殖民地(右) --> 古都 亞爾康(右)" type="JumpZone" shape="Cylinder" minZ="800" maxZ="850" rad="50">
+		<node X="214400" Y="81571" />
+	</zone>
+	<zone name="古都 亞爾康(左) --> 北方森林深處" type="JumpZone" shape="Cylinder" minZ="395" maxZ="445" rad="50">
+		<node X="205939" Y="80563" />
+	</zone>
+	<zone name="古都 亞爾康(左) --> 提米妮爾懷抱" type="JumpZone" shape="Cylinder" minZ="395" maxZ="445" rad="50">
+		<node X="205835" Y="80607" />
+	</zone>
+	<zone name="古都 亞爾康(右) --> 南方森林深處" type="JumpZone" shape="Cylinder" minZ="110" maxZ="160" rad="50">
+		<node X="211830" Y="82957" />
+	</zone>
+	<zone name="古都 亞爾康(右) --> 提米妮爾懷抱" type="JumpZone" shape="Cylinder" minZ="110" maxZ="160" rad="50">
+		<node X="211792" Y="82851" />
+	</zone>
+	<zone name="創世庭園(上) --> 庭園東方 --> 噴水池庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
+		<node X="206822" Y="110657" />
+	</zone>
+	<zone name="創世庭園(上) --> 庭園東方 --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
+		<node X="206788" Y="110748" />
+	</zone>
+	<zone name="創世庭園(上) --> 庭園南方 --> 天使像庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
+		<node X="206866" Y="110779" />
+	</zone>
+	<zone name="創世庭園(上) --> 庭園南方 --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
+		<node X="206905" Y="110698" />
+	</zone>
 </list>
