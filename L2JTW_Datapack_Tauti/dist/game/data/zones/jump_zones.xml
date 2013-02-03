@@ -3,6 +3,9 @@
 	<zone name="說話之島村莊 --> 埃薩吉拉遺蹟地" type="JumpZone" shape="Cylinder" minZ="-1520" maxZ="-1470" rad="50">
 		<node X="-112552" Y="257046" />
 	</zone>
+	<zone name="英魂之墓 --> 說話之島村莊" type="JumpZone" shape="Cylinder" minZ="-2875" maxZ="-2825" rad="50">
+		<node X="-114647" Y="226866" />
+	</zone>
 	<zone name="古魯丁飛空艇碼頭 --> 柯塞勒斯同盟聯合基地" type="JumpZone" shape="Cylinder" minZ="-150" maxZ="-100" rad="50">
 		<node X="-149248" Y="253323" />
 	</zone>
@@ -110,5 +113,14 @@
 	</zone>
 	<zone name="創世庭園(上) --> 庭園南方 --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
 		<node X="206905" Y="110698" />
+	</zone>
+	<zone name="創世庭園(下) --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園" type="JumpZone" shape="Cylinder" minZ="-2090" maxZ="-2040" rad="40">
+		<node X="221532" Y="118800" />
+	</zone>
+	<zone name="創世庭園(下) --> 進行 --> 噴水池庭園" type="JumpZone" shape="Cylinder" minZ="-2085" maxZ="-2035" rad="40">
+		<node X="221530" Y="118910" />
+	</zone>
+	<zone name="創世庭園(下) --> 進行 --> 創世庭園入口" type="JumpZone" shape="Cylinder" minZ="-2100" maxZ="-2050" rad="40">
+		<node X="221444" Y="118845" />
 	</zone>
 </list>
