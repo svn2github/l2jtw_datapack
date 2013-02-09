@@ -67,9 +67,14 @@ REPLACE INTO `teleport` VALUES
 -- 刪除村莊的彩券商人,因為官服沒有彩券商人
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30992,30993,30994);
 
+-- 「新說話之島村莊」加入轉職管理員
+REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
+('新說話之島村莊',1,31756,-113661,255162,-1499,33264,60),
+('新說話之島村莊',1,31757,-113658,255456,-1499,32414,60);
+
 -- 刪除其中一隻轉職管理員(不定時改刪另一個)
--- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
 
 /************ Add by pmq *********/
