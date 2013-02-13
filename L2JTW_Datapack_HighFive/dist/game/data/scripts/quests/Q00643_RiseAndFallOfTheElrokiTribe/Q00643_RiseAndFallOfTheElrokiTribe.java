@@ -220,7 +220,7 @@ public class Q00643_RiseAndFallOfTheElrokiTribe extends Quest
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		final L2PcInstance partyMember = getRandomPartyMember(player, "1");
+		final L2PcInstance partyMember = getRandomPartyMember(player, 1);
 		if (partyMember == null)
 		{
 			return super.onKill(npc, player, isPet);

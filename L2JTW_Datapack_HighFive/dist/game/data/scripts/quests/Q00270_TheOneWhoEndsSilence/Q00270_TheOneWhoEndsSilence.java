@@ -358,7 +358,7 @@ public class Q00270_TheOneWhoEndsSilence extends Quest
 	 */
 	private void giveItem(L2PcInstance killer, L2Npc npc, int chance, boolean atLeastOne)
 	{
-		final L2PcInstance player = getRandomPartyMember(killer, "1");
+		final L2PcInstance player = getRandomPartyMember(killer, 1);
 		if ((player != null) && Util.checkIfInRange(1500, npc, player, false))
 		{
 			final int count = ((getRandom(1000) < chance) ? 1 : 0) + (atLeastOne ? 1 : 0);

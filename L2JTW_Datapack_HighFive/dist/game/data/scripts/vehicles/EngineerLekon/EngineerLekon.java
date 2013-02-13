@@ -41,6 +41,14 @@ public class EngineerLekon extends Quest
 	private static final SystemMessage SM_LICENSE_ALREADY_ACQUIRED = SystemMessage.getSystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ALREADY_ACQUIRED);
 	*/
 	
+	public EngineerLekon(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addStartNpc(LEKON);
+		addFirstTalkId(LEKON);
+		addTalkId(LEKON);
+	}
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -99,14 +107,6 @@ public class EngineerLekon extends Quest
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		return npc.getNpcId() + ".htm";
-	}
-	
-	public EngineerLekon(int questId, String name, String descr)
-	{
-		super(questId, name, descr);
-		addStartNpc(LEKON);
-		addFirstTalkId(LEKON);
-		addTalkId(LEKON);
 	}
 	
 	public static void main(String[] args)

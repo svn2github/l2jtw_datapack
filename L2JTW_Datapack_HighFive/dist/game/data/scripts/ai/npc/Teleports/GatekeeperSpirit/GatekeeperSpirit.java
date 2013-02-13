@@ -23,7 +23,6 @@ import ai.npc.AbstractNpcAI;
 import com.l2jserver.gameserver.SevenSigns;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.quest.Quest;
 
 /**
  * Gatekeeper Spirit AI.
@@ -37,14 +36,13 @@ public class GatekeeperSpirit extends AbstractNpcAI
 	private final static int LILITH = 25283;
 	private final static int ANAKIM = 25286;
 	
-	private GatekeeperSpirit(String name, String descr)
+	private GatekeeperSpirit()
 	{
-		super(name, descr);
+		super(GatekeeperSpirit.class.getSimpleName(), "ai/npc/Teleports/");
 		addStartNpc(GATEKEEPER_SPIRIT_ENTER);
 		addFirstTalkId(GATEKEEPER_SPIRIT_ENTER);
 		addTalkId(GATEKEEPER_SPIRIT_ENTER);
-		addEventId(LILITH, Quest.QuestEventType.ON_KILL);
-		addEventId(ANAKIM, Quest.QuestEventType.ON_KILL);
+		addKillId(LILITH, ANAKIM);
 	}
 	
 	@Override
@@ -84,7 +82,7 @@ public class GatekeeperSpirit extends AbstractNpcAI
 	/**
 	 * TODO: Should be spawned 10 seconds after boss dead
 	 */
-	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
 		int npcId = npc.getNpcId();
 		if (npcId == LILITH)
@@ -97,11 +95,11 @@ public class GatekeeperSpirit extends AbstractNpcAI
 			// exit_necropolis_boss_anakim
 			addSpawn(GATEKEEPER_SPIRIT_EXIT, 184410, -13102, -5488, 0, false, 900000);
 		}
-		return super.onKill(npc, killer, isPet);
+		return super.onKill(npc, killer, isSummon);
 	}
 	
 	public static void main(String[] args)
 	{
-		new GatekeeperSpirit(GatekeeperSpirit.class.getSimpleName(), "ai/npc/Teleports/");
+		new GatekeeperSpirit();
 	}
 }

@@ -32,6 +32,7 @@ import com.l2jserver.gameserver.util.Util;
 public class HuntingGroundsTeleport extends AbstractNpcAI
 {
 	// NPCs
+	// @formatter:off
 	private final static int[] PRIESTS =
 	{
 		31078,
@@ -72,10 +73,11 @@ public class HuntingGroundsTeleport extends AbstractNpcAI
 		31694,
 		31997
 	};
+	// @formatter:on
 	
-	private HuntingGroundsTeleport(String name, String descr)
+	private HuntingGroundsTeleport()
 	{
-		super(name, descr);
+		super(HuntingGroundsTeleport.class.getSimpleName(), "ai/npc/Teleports/");
 		addStartNpc(PRIESTS);
 		addTalkId(PRIESTS);
 	}
@@ -171,6 +173,6 @@ public class HuntingGroundsTeleport extends AbstractNpcAI
 	
 	public static void main(String[] args)
 	{
-		new HuntingGroundsTeleport(HuntingGroundsTeleport.class.getSimpleName(), "ai/npc/Teleports/");
+		new HuntingGroundsTeleport();
 	}
 }

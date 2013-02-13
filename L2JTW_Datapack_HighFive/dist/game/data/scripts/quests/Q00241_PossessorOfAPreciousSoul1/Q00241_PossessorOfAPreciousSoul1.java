@@ -358,7 +358,7 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 		switch (npc.getNpcId())
 		{
 			case BARAHAM:
-				partyMember = getRandomPartyMember(player, "3");
+				partyMember = getRandomPartyMember(player, 3);
 				if (partyMember == null)
 				{
 					return null;
@@ -372,7 +372,7 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 			case MALRUK_SUCCUBUS_TUREN_1:
 			case MALRUK_SUCCUBUS_2:
 			case MALRUK_SUCCUBUS_TUREN_2:
-				partyMember = getRandomPartyMember(player, "6");
+				partyMember = getRandomPartyMember(player, 6);
 				if (partyMember == null)
 				{
 					return null;
@@ -392,7 +392,7 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 				}
 				break;
 			case TAIK_ORC_SUPPLY_LEADER:
-				partyMember = getRandomPartyMember(player, "14");
+				partyMember = getRandomPartyMember(player, 14);
 				if (partyMember == null)
 				{
 					return null;

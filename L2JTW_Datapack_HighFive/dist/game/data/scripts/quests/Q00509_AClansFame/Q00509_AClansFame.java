@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00509_AClansFame;
 
@@ -57,6 +61,14 @@ public class Q00509_AClansFame extends Quest
 		25322
 	};
 	
+	public Q00509_AClansFame(int id, String name, String descr)
+	{
+		super(id, name, descr);
+		addStartNpc(VALDIS);
+		addTalkId(VALDIS);
+		addKillId(RAID_BOSS);
+	}
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -95,59 +107,6 @@ public class Q00509_AClansFame extends Quest
 	}
 	
 	@Override
-	public String onTalk(L2Npc npc, L2PcInstance player)
-	{
-		String htmltext = getNoQuestMsg(player);
-		QuestState st = player.getQuestState(getName());
-		if (st == null)
-		{
-			return htmltext;
-		}
-		
-		L2Clan clan = player.getClan();
-		switch (st.getState())
-		{
-			case State.CREATED:
-				htmltext = ((clan == null) || !player.isClanLeader() || (clan.getLevel() < 6)) ? "31331-0a.htm" : "31331-0b.htm";
-				break;
-			case State.STARTED:
-				if ((clan == null) || !player.isClanLeader())
-				{
-					st.exitQuest(true);
-					return "31331-6.html";
-				}
-				
-				int raid = st.getInt("raid");
-				
-				if (REWARD_POINTS.containsKey(raid))
-				{
-					if (st.hasQuestItems(REWARD_POINTS.get(raid).get(1)))
-					{
-						htmltext = "31331-" + raid + "b.html";
-						st.playSound("ItemSound.quest_fanfare_1");
-						st.takeItems(REWARD_POINTS.get(raid).get(1), -1);
-						final int rep = REWARD_POINTS.get(raid).get(2);
-						clan.addReputationScore(rep, true);
-						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CLAN_QUEST_COMPLETED_AND_S1_POINTS_GAINED).addNumber(rep));
-						clan.broadcastToOnlineMembers(new PledgeShowInfoUpdate(clan));
-					}
-					else
-					{
-						htmltext = "31331-" + raid + "a.html";
-					}
-				}
-				else
-				{
-					htmltext = "31331-0.html";
-				}
-				break;
-			default:
-				break;
-		}
-		return htmltext;
-	}
-	
-	@Override
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		if (player.getClan() == null)
@@ -177,20 +136,64 @@ public class Q00509_AClansFame extends Quest
 				if ((npc.getNpcId() == REWARD_POINTS.get(raid).get(0)) && !st.hasQuestItems(REWARD_POINTS.get(raid).get(1)))
 				{
 					st.rewardItems(REWARD_POINTS.get(raid).get(1), 1);
-					st.playSound("ItemSound.quest_itemget");
+					st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				}
 			}
 		}
 		return null;
 	}
 	
-	public Q00509_AClansFame(int id, String name, String descr)
+	@Override
+	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		super(id, name, descr);
+		String htmltext = getNoQuestMsg(player);
+		QuestState st = player.getQuestState(getName());
+		if (st == null)
+		{
+			return htmltext;
+		}
 		
-		addStartNpc(VALDIS);
-		addTalkId(VALDIS);
-		addKillId(RAID_BOSS);
+		L2Clan clan = player.getClan();
+		switch (st.getState())
+		{
+			case State.CREATED:
+				htmltext = ((clan == null) || !player.isClanLeader() || (clan.getLevel() < 6)) ? "31331-0a.htm" : "31331-0b.htm";
+				break;
+			case State.STARTED:
+				if ((clan == null) || !player.isClanLeader())
+				{
+					st.exitQuest(true);
+					return "31331-6.html";
+				}
+				
+				int raid = st.getInt("raid");
+				
+				if (REWARD_POINTS.containsKey(raid))
+				{
+					if (st.hasQuestItems(REWARD_POINTS.get(raid).get(1)))
+					{
+						htmltext = "31331-" + raid + "b.html";
+						st.playSound(QuestSound.ITEMSOUND_QUEST_FANFARE_1);
+						st.takeItems(REWARD_POINTS.get(raid).get(1), -1);
+						final int rep = REWARD_POINTS.get(raid).get(2);
+						clan.addReputationScore(rep, true);
+						player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CLAN_QUEST_COMPLETED_AND_S1_POINTS_GAINED).addNumber(rep));
+						clan.broadcastToOnlineMembers(new PledgeShowInfoUpdate(clan));
+					}
+					else
+					{
+						htmltext = "31331-" + raid + "a.html";
+					}
+				}
+				else
+				{
+					htmltext = "31331-0.html";
+				}
+				break;
+			default:
+				break;
+		}
+		return htmltext;
 	}
 	
 	public static void main(String[] args)

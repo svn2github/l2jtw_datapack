@@ -228,7 +228,7 @@ public class Sailren extends AbstractNpcAI
 	}
 
 	@Override
-	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
+	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isSummon)
 	{
 		_LastAction = System.currentTimeMillis();
 		if (npc.isInvul() && npc.getNpcId() == SAILREN)
@@ -244,11 +244,11 @@ public class Sailren extends AbstractNpcAI
 				this.startQuestTimer("camera_6", 0, npc, null);
 			}
 		}
-		return super.onAttack(npc, attacker, damage, isPet);
+		return super.onAttack(npc, attacker, damage, isSummon);
 	}
 
 	@Override
-	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
+	public String onKill (L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
 		if (GrandBossManager.getInstance().getBossStatus(SAILREN) == FIGHTING && npc.getNpcId() == SAILREN)
 		{
@@ -278,7 +278,7 @@ public class Sailren extends AbstractNpcAI
 			this.cancelQuestTimer("sailren_despawn", npc, null);
 			this.startQuestTimer("waiting_boss", 15000, npc, null);
 		}
-		return super.onKill(npc,killer,isPet);
+		return super.onKill(npc,killer,isSummon);
 	}
 
 	public static void main(String[] args)

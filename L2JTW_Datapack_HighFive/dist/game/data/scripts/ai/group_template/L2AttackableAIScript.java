@@ -64,7 +64,7 @@ public final class L2AttackableAIScript extends QuestJython
 	}
 	
 	@Override
-	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isSummon)
 	{
 		if (caster == null)
 		{
@@ -96,7 +96,7 @@ public final class L2AttackableAIScript extends QuestJython
 				{
 					if ((npcTarget == skillTarget) || (npc == skillTarget))
 					{
-						L2Character originalCaster = isPet ? caster.getSummon() : caster;
+						L2Character originalCaster = isSummon ? caster.getSummon() : caster;
 						attackable.addDamageHate(originalCaster, 0, (skillAggroPoints * 150) / (attackable.getLevel() + 7));
 					}
 				}
@@ -107,14 +107,14 @@ public final class L2AttackableAIScript extends QuestJython
 	}
 	
 	@Override
-	public String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
+	public String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isSummon)
 	{
 		if (attacker == null)
 		{
 			return null;
 		}
 		
-		L2Character originalAttackTarget = (isPet ? attacker.getSummon() : attacker);
+		L2Character originalAttackTarget = (isSummon ? attacker.getSummon() : attacker);
 		if (attacker.isInParty() && attacker.getParty().isInDimensionalRift())
 		{
 			byte riftType = attacker.getParty().getDimensionalRift().getType();
@@ -134,14 +134,14 @@ public final class L2AttackableAIScript extends QuestJython
 	}
 	
 	@Override
-	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
+	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isSummon)
 	{
 		if (player == null)
 		{
 			return null;
 		}
 		
-		L2Character target = isPet ? player.getSummon() : player;
+		L2Character target = isSummon ? player.getSummon() : player;
 		
 		((L2Attackable) npc).addDamageHate(target, 0, 1);
 		
@@ -160,13 +160,13 @@ public final class L2AttackableAIScript extends QuestJython
 	}
 	
 	@Override
-	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
+	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isSummon)
 	{
 		if ((attacker != null) && (npc instanceof L2Attackable))
 		{
 			L2Attackable attackable = (L2Attackable) npc;
 			
-			L2Character originalAttacker = isPet ? attacker.getSummon() : attacker;
+			L2Character originalAttacker = isSummon ? attacker.getSummon() : attacker;
 			attackable.getAI().notifyEvent(CtrlEvent.EVT_ATTACKED, originalAttacker);
 			attackable.addDamageHate(originalAttacker, damage, (damage * 100) / (attackable.getLevel() + 7));
 		}
@@ -174,7 +174,7 @@ public final class L2AttackableAIScript extends QuestJython
 	}
 	
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
 		if (npc instanceof L2MonsterInstance)
 		{
@@ -206,12 +206,12 @@ public final class L2AttackableAIScript extends QuestJython
 				{
 					if (L2Attackable.class.isAssignableFrom(Class.forName("com.l2jserver.gameserver.model.actor.instance." + t.getType() + "Instance")))
 					{
-						ai.addEventId(t.getNpcId(), Quest.QuestEventType.ON_ATTACK);
-						ai.addEventId(t.getNpcId(), Quest.QuestEventType.ON_KILL);
-						ai.addEventId(t.getNpcId(), Quest.QuestEventType.ON_SPAWN);
-						ai.addEventId(t.getNpcId(), Quest.QuestEventType.ON_SKILL_SEE);
-						ai.addEventId(t.getNpcId(), Quest.QuestEventType.ON_FACTION_CALL);
-						ai.addEventId(t.getNpcId(), Quest.QuestEventType.ON_AGGRO_RANGE_ENTER);
+						ai.addEventId(Quest.QuestEventType.ON_ATTACK, t.getNpcId());
+						ai.addEventId(Quest.QuestEventType.ON_KILL, t.getNpcId());
+						ai.addEventId(Quest.QuestEventType.ON_SPAWN, t.getNpcId());
+						ai.addEventId(Quest.QuestEventType.ON_SKILL_SEE, t.getNpcId());
+						ai.addEventId(Quest.QuestEventType.ON_FACTION_CALL, t.getNpcId());
+						ai.addEventId(Quest.QuestEventType.ON_AGGRO_RANGE_ENTER, t.getNpcId());
 					}
 				}
 				catch (ClassNotFoundException ex)

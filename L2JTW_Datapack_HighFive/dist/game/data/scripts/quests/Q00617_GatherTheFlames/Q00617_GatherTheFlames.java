@@ -1,16 +1,20 @@
 /*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later
- * version.
+ * Copyright (C) 2004-2013 L2J DataPack
  * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
+ * This file is part of L2J DataPack.
  * 
- * You should have received a copy of the GNU General Public License along with
- * this program. If not, see <http://www.gnu.org/licenses/>.
+ * L2J DataPack is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * L2J DataPack is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package quests.Q00617_GatherTheFlames;
 
@@ -32,10 +36,8 @@ public class Q00617_GatherTheFlames extends Quest
 	private static final int HILDA = 31271;
 	private static final int VULCAN = 31539;
 	private static final int ROONEY = 32049;
-	
 	// Item
 	private static final int TORCH = 7264;
-	
 	// Reward
 	private static final int[] REWARD =
 	{
@@ -74,6 +76,15 @@ public class Q00617_GatherTheFlames extends Quest
 		MOBS.put(22649, 685);
 	}
 	
+	public Q00617_GatherTheFlames(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addStartNpc(HILDA, VULCAN);
+		addTalkId(ROONEY, HILDA, VULCAN);
+		addKillId(MOBS.keySet());
+		registerQuestItems(TORCH);
+	}
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -95,7 +106,7 @@ public class Q00617_GatherTheFlames extends Quest
 			case "31539-06.html":
 				break;
 			case "31539-07.html":
-				if (st.getQuestItemsCount(TORCH) < 1000 || !st.isStarted())
+				if ((st.getQuestItemsCount(TORCH) < 1000) || !st.isStarted())
 				{
 					return getNoQuestMsg(player);
 				}
@@ -113,20 +124,22 @@ public class Q00617_GatherTheFlames extends Quest
 			case "6895":
 			case "6897":
 			case "6899":
-				if (st.getQuestItemsCount(TORCH) < 1200 || !st.isStarted())
+				if ((st.getQuestItemsCount(TORCH) < 1200) || !st.isStarted())
 				{
 					return getNoQuestMsg(player);
 				}
-				giveItem(st, event);
+				st.giveItems(Integer.valueOf(event), 1);
+				st.takeItems(TORCH, 1200);
 				htmltext = "32049-04.html";
 				break;
 			case "6887":
 			case "6881":
-				if (st.getQuestItemsCount(TORCH) < 1200 || !st.isStarted())
+				if ((st.getQuestItemsCount(TORCH) < 1200) || !st.isStarted())
 				{
 					return getNoQuestMsg(player);
 				}
-				giveItem(st, event);
+				st.giveItems(Integer.valueOf(event), 1);
+				st.takeItems(TORCH, 1200);
 				htmltext = "32049-03.html";
 				break;
 			default:
@@ -134,6 +147,29 @@ public class Q00617_GatherTheFlames extends Quest
 				break;
 		}
 		return htmltext;
+	}
+	
+	@Override
+	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
+	{
+		final L2PcInstance partyMember = getRandomPartyMember(player, 1);
+		if (partyMember == null)
+		{
+			return super.onKill(npc, player, isPet);
+		}
+		
+		final QuestState st = partyMember.getQuestState(getName());
+		
+		if (getRandom(1000) < MOBS.get(npc.getNpcId()))
+		{
+			st.giveItems(TORCH, 2);
+		}
+		else
+		{
+			st.giveItems(TORCH, 1);
+		}
+		st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+		return super.onKill(npc, player, isPet);
 	}
 	
 	@Override
@@ -176,45 +212,6 @@ public class Q00617_GatherTheFlames extends Quest
 				break;
 		}
 		return htmltext;
-	}
-	
-	@Override
-	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
-	{
-		final L2PcInstance partyMember = getRandomPartyMember(player, "1");
-		if (partyMember == null)
-		{
-			return super.onKill(npc, player, isPet);
-		}
-		
-		final QuestState st = partyMember.getQuestState(getName());
-		
-		if (getRandom(1000) < MOBS.get(npc.getNpcId()))
-		{
-			st.giveItems(TORCH, 2);
-		}
-		else
-		{
-			st.giveItems(TORCH, 1);
-		}
-		st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-		return super.onKill(npc, player, isPet);
-	}
-	
-	private void giveItem(QuestState st, String itemId)
-	{
-		st.giveItems(Integer.valueOf(itemId), 1);
-		st.takeItems(TORCH, 1200);
-	}
-	
-	public Q00617_GatherTheFlames(int questId, String name, String descr)
-	{
-		super(questId, name, descr);
-		addStartNpc(HILDA, VULCAN);
-		addTalkId(ROONEY, HILDA, VULCAN);
-		addKillId(MOBS.keySet());
-		
-		registerQuestItems(TORCH);
 	}
 	
 	public static void main(String[] args)
