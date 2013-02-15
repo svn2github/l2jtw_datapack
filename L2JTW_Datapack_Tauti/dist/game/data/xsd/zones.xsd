@@ -54,6 +54,7 @@
 												<xs:enumeration value="taxById" />
 												<xs:enumeration value="territoryId" />
 												<xs:enumeration value="townId" />
+												<xs:enumeration value="trackId" />
 											</xs:restriction>
 										</xs:simpleType>
 									</xs:attribute>
