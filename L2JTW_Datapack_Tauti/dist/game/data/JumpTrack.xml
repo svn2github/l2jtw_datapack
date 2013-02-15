@@ -135,7 +135,6 @@
 			<jumpLoc next="1" x="80668" y="148470" z="-2952" />
 			<jumpLoc next="10" x="82054" y="145324" z="-2384" />
 		</way>
-		
 		<way id="1"><jumpLoc next="2" x="78580" y="148107" z="-2448" /></way>
 		<way id="2"><jumpLoc next="3" x="75786" y="150098" z="-2976" /></way>
 		<way id="3"><jumpLoc next="4" x="73158" y="151248" z="-2400" /></way>
@@ -160,11 +159,12 @@
 		<way id="1"><jumpLoc next="2" x="147434" y="23748" z="-568" /></way>
 		<way id="2"><jumpLoc next="3" x="147455" y="25104" z="-568" /></way>
 		<way id="3">
-			<jumpLoc next="-1" x="146063" y="27140" z="-1552" />
+			<jumpLoc next="300" x="146063" y="27140" z="-1552" />
+		</way>
+		<way id="300">
 			<jumpLoc next="4" x="143409" y="25560" z="-1392" />
 			<jumpLoc next="7" x="151492" y="26898" z="-1248" />
 		</way>
-		
 		<way id="4"><jumpLoc next="5" x="140277" y="25564" z="-2240" /></way>
 		<way id="5"><jumpLoc next="-1" x="140277" y="25564" z="-2240" /></way>
 		
@@ -176,11 +176,12 @@
 		<way id="0"><jumpLoc next="1" x="151215" y="23809" z="-1256" /></way>
 		<way id="1"><jumpLoc next="2" x="149513" y="24697" z="-1320" /></way>
 		<way id="2">
-			<jumpLoc next="-1" x="147930" y="26384" z="-1288" />
+			<jumpLoc next="200" x="147930" y="26384" z="-1288" />
+		</way>
+		<way id="200">
 			<jumpLoc next="3" x="146986" y="26402" z="-1288" />
 			<jumpLoc next="8" x="148510" y="20262" z="-1200" />
 		</way>
-		
 		<way id="3"><jumpLoc next="4" x="145708" y="25394" z="-1512" /></way>
 		<way id="4"><jumpLoc next="5" x="143266" y="25584" z="-1392" /></way>
 		<way id="5"><jumpLoc next="6" x="142081" y="24439" z="-2240" /></way>
@@ -193,11 +194,12 @@
 		<way id="0"><jumpLoc next="1" x="143390" y="25209" z="-1512" /></way>
 		<way id="1"><jumpLoc next="2" x="146043" y="26667" z="-1552" /></way>
 		<way id="2">
-			<jumpLoc next="-1" x="148853" y="27622" z="-1088" />
+			<jumpLoc next="200" x="148853" y="27622" z="-1088" />
+		</way>
+		<way id="200">
 			<jumpLoc next="3" x="151261" y="26957" z="-1240" />
 			<jumpLoc next="6" x="145825" y="22984" z="-1384" />
 		</way>
-		
 		<way id="3"><jumpLoc next="4" x="153312" y="24995" z="-2112" /></way>
 		<way id="4"><jumpLoc next="-1" x="153312" y="24995" z="-2112" /></way>
 
@@ -211,7 +213,6 @@
 			<jumpLoc next="1" x="-85716" y="52123" z="-1496" />
 			<jumpLoc next="6" x="-74701" y="50543" z="-3285" />
 		</way>
-		
 		<way id="1"><jumpLoc next="2" x="-89465" y="51188" z="-2105" /></way>
 		<way id="2"><jumpLoc next="3" x="-92585" y="52596" z="-1529" /></way>
 		<way id="3"><jumpLoc next="4" x="-94777" y="52484" z="-1609" /></way>
@@ -231,7 +232,6 @@
 			<jumpLoc next="1" x="-89465" y="51188" z="-2105" />
 			<jumpLoc next="6" x="-93820" y="49460" z="-1456" />
 		</way>
-		
 		<way id="1"><jumpLoc next="2" x="-85716" y="52123" z="-1496" /></way>
 		<way id="2"><jumpLoc next="3" x="-79081" y="53684" z="-2361" /></way>
 		<way id="3"><jumpLoc next="4" x="-75129" y="53060" z="-3289" /></way>
@@ -250,7 +250,6 @@
 			<jumpLoc next="1" x="-82173" y="40927" z="-1917" />
 			<jumpLoc next="8" x="-89644" y="42483" z="-1124" />
 		</way>
-		
 		<way id="1"><jumpLoc next="2" x="-75310" y="43052" z="-1670" /></way>
 		<way id="2"><jumpLoc next="3" x="-73580" y="46015" z="-2677" /></way>
 		<way id="3"><jumpLoc next="4" x="-73919" y="47882" z="-2677" /></way>
@@ -272,7 +271,6 @@
 		<way id="4"><jumpLoc next="5" x="33209" y="-50683" z="-392" /></way>
 		<way id="5"><jumpLoc next="6" x="31584" y="-50164" z="-608" /></way>
 		<way id="6">
-			<jumpLoc next="-1" x="28992" y="-48644" z="-1336" />
 			<jumpLoc next="7" x="27762" y="-50166" z="-1304" />
 			<jumpLoc next="8" x="28992" y="-48644" z="-1336" />
 		</way>
@@ -285,7 +283,6 @@
 		<way id="2"><jumpLoc next="3" x="24093" y="-49345" z="-1128" /></way>
 		<way id="3"><jumpLoc next="4" x="26957" y="-49328" z="-1112" /></way>
 		<way id="4">
-			<jumpLoc next="-1" x="27314" y="-51562" z="-1352" />
 			<jumpLoc next="5" x="27314" y="-51562" z="-1352" />
 			<jumpLoc next="6" x="28697" y="-48710" z="-1352" />
 		</way>
@@ -298,7 +295,9 @@
 		<way id="2"><jumpLoc next="3" x="23112" y="-50806" z="-1560" /></way>
 		<way id="3"><jumpLoc next="4" x="22582" y="-50670" z="-1256" /></way>
 		<way id="4">
-			<jumpLoc next="-1" x="22551" y="-49385" z="-1104" />
+			<jumpLoc next="400" x="22551" y="-49385" z="-1104" />
+		</way>
+		<way id="400">
 			<jumpLoc next="5" x="22096" y="-48413" z="-1296" />
 		    <jumpLoc next="6" x="22096" y="-49760" z="-1296" />
 		</way>
@@ -349,5 +348,76 @@
 		<way id="7"><jumpLoc next="-1" x="222064" y="88944" z="812" /></way>
 		         
 		<way id="9"><jumpLoc next="-1" x="214032" y="81304" z="824" /></way>
+	</track>
+	<track trackId="19" maxNum="4" zone="創世庭園(下) --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園">
+		<way id="0">
+			<jumpLoc next="1" x="217793" y="119365" z="-1412" />
+		</way>
+		<way id="1">
+			<jumpLoc next="2" x="217791" y="119065" z="-1764" />
+			<jumpLoc next="4" x="218586" y="116649" z="-909" />
+		</way>
+		<way id="2"><jumpLoc next="3" x="213693" y="119065" z="-897" /></way>
+		<way id="3"><jumpLoc next="-1" x="213692" y="118426" z="-1026" /></way>
+
+		<way id="4"><jumpLoc next="5" x="218072" y="115261" z="-1341" /></way>
+		<way id="5"><jumpLoc next="6" x="218950" y="115019" z="-715" /></way>
+		<way id="6">
+			<jumpLoc next="7" x="219675" y="114155" z="-819" />
+			<jumpLoc next="11" x="215148" y="113648" z="-490" />
+		</way>
+		<way id="7"><jumpLoc next="8" x="220943" y="113582" z="-1202" /></way>
+		<way id="8"><jumpLoc next="9" x="221926" y="111849" z="-1236" /></way>
+		<way id="9"><jumpLoc next="-1" x="221489" y="111141" z="-1680" /></way>
+
+		<way id="11"><jumpLoc next="12" x="214493" y="112627" z="-40" /></way>
+		<way id="12"><jumpLoc next="13" x="211524" y="111880" z="-1136" /></way>
+		<way id="13"><jumpLoc next="14" x="209650" y="112165" z="-1474" /></way>
+		<way id="14"><jumpLoc next="15" x="207541" y="112487" z="-1807" /></way>
+		<way id="15"><jumpLoc next="-1" x="207825" y="112263" z="-2060" /></way>
+	</track>
+	<track trackId="18" zone="創世庭園(上) --> 庭園東方 --> 噴水池庭園">
+		<way id="0">
+			<jumpLoc next="100" x="207786" y="109675" z="-1102" />
+		</way>
+		<way id="100">
+			<jumpLoc next="23" x="208453" y="109434" z="-848" />
+			<jumpLoc next="25" x="206071" y="113246" z="-1128" />
+		</way>
+		<way id="23"><jumpLoc next="2301" x="209457" y="108552" z="-1056" /></way>
+		<way id="2301"><jumpLoc next="2302" x="211246" y="108653" z="-886" /></way>
+		<way id="2302"><jumpLoc next="2303" x="212654" y="108160" z="-1149" /></way>
+		<way id="2303"><jumpLoc next="2304" x="214113" y="108549" z="-1048" /></way>
+		<way id="2304"><jumpLoc next="2305" x="215489" y="107803" z="-1001" /></way>
+		<way id="2305">
+			<jumpLoc next="11" x="217554" y="107266" z="-796" />
+			<jumpLoc next="4" x="213567" y="110362" z="-1055" />
+		</way>
+		<way id="11"><jumpLoc next="-1" x="217768" y="107458" z="-1673" /></way>
+
+		<way id="4"><jumpLoc next="401" x="213567" y="110362" z="-1055" /></way>
+		<way id="401"><jumpLoc next="402" x="214033" y="111348" z="-1253" /></way>
+		<way id="402"><jumpLoc next="403" x="214096" y="111164" z="-1679" /></way>
+		<way id="403"><jumpLoc next="404" x="216195" y="114178" z="-1162" /></way>
+		<way id="404">
+			<jumpLoc next="19" x="217493" y="115253" z="-895" />
+		</way>
+		<way id="19"><jumpLoc next="-1" x="217662" y="115261" z="-1274" /></way>
+
+		<way id="25"><jumpLoc next="2501" x="205028" y="114828" z="-1292" /></way>
+		<way id="2501"><jumpLoc next="2502" x="206386" y="114871" z="-1242" /></way>
+
+		<way id="2502">
+			<jumpLoc next="5" x="205948" y="118978" z="-1224" />
+			<jumpLoc next="13" x="208298" y="115264" z="-1684" />
+		</way>
+		<way id="5"><jumpLoc next="-1" x="205912" y="119379" z="-1673" /></way>
+		
+		<way id="13"><jumpLoc next="1301" x="209494" y="115818" z="-1220" /></way>
+		<way id="1301"><jumpLoc next="1302" x="209608" y="115641" z="-1679" /></way>
+		<way id="1302"><jumpLoc next="1303" x="211883" y="117085" z="-682" /></way>
+		<way id="1303"><jumpLoc next="1304" x="212718" y="117794" z="-1158" /></way>
+		<way id="1304"><jumpLoc next="1305" x="213693" y="119065" z="-897" /></way>
+		<way id="1305"><jumpLoc next="-1" x="213696" y="119227" z="-1274" /></way>
 	</track>
 </list>
