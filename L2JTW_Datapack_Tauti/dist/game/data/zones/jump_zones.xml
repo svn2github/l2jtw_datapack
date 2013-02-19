@@ -80,33 +80,13 @@
 		<stat name="trackId" val="15" />
 		<node X="211809" Y="82905" />
 	</zone>
-	<zone name="創世庭園(上) --> 庭園東方 --> 噴水池庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
+	<zone name="創世庭園(上) --> 阿芙蘿絲庭園/噴水池庭園/天使像庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
 		<stat name="trackId" val="18" />
-		<node X="206822" Y="110657" />
+		<node X="206849" Y="110723" />
 	</zone>
-	<zone name="創世庭園(上) --> 庭園東方 --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
-		<stat name="trackId" val="18" />
-		<node X="206788" Y="110748" />
-	</zone>
-	<zone name="創世庭園(上) --> 庭園南方 --> 天使像庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
-		<stat name="trackId" val="18" />
-		<node X="206866" Y="110779" />
-	</zone>
-	<zone name="創世庭園(上) --> 庭園南方 --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園" type="JumpZone" shape="Cylinder" minZ="-2080" maxZ="-2030" rad="40">
-		<stat name="trackId" val="18" />
-		<node X="206905" Y="110698" />
-	</zone>
-	<zone name="創世庭園(下) --> 阿芙蘿絲庭園 --> 阿芙蘿絲庭園" type="JumpZone" shape="Cylinder" minZ="-2090" maxZ="-2040" rad="40">
+	<zone name="創世庭園(下) --> 阿芙蘿絲庭園/噴水池庭園/創世庭園入口" type="JumpZone" shape="Cylinder" minZ="-2090" maxZ="-2040" rad="40">
 		<stat name="trackId" val="19" />
-		<node X="221532" Y="118800" />
-	</zone>
-	<zone name="創世庭園(下) --> 進行 --> 噴水池庭園" type="JumpZone" shape="Cylinder" minZ="-2085" maxZ="-2035" rad="40">
-		<stat name="trackId" val="19" />
-		<node X="221530" Y="118910" />
-	</zone>
-	<zone name="創世庭園(下) --> 進行 --> 創世庭園入口" type="JumpZone" shape="Cylinder" minZ="-2100" maxZ="-2050" rad="40">
-		<stat name="trackId" val="19" />
-		<node X="221444" Y="118845" />
+		<node X="221507" Y="118861" />
 	</zone>
 	<zone name="刑場一層(北) --> 刑場二層(北)" type="JumpZone" shape="Cylinder" minZ="-3685" maxZ="-3635" rad="50">
 		<stat name="trackId" val="35" />
