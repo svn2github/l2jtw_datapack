@@ -211,75 +211,14 @@ public class L2NpcActionShift implements IActionHandler
 			/*
 			final StringBuilder html1 = StringUtil.startAppend(1000, "<html><body>" + "<br><center><font color=\"LEVEL\">[Combat Stats]</font></center>" + "<table border=0 width=\"100%\">" + "<tr><td>Max.HP</td><td>", String.valueOf(((L2Character) target).getMaxHp() / hpMul), "*", String.valueOf(hpMul), "</td><td>Max.MP</td><td>", String.valueOf(((L2Character) target).getMaxMp()), "</td></tr>" + "<tr><td>P.Atk.</td><td>", String.valueOf(((L2Character) target).getPAtk(null)), "</td><td>M.Atk.</td><td>", String.valueOf(((L2Character) target).getMAtk(null, null)), "</td></tr>" + "<tr><td>P.Def.</td><td>", String.valueOf(((L2Character) target).getPDef(null)), "</td><td>M.Def.</td><td>", String.valueOf(((L2Character) target).getMDef(null, null)), "</td></tr>" + "<tr><td>Accuracy</td><td>", String.valueOf(((L2Character) target).getAccuracy()), "</td><td>Evasion</td><td>", String.valueOf(((L2Character) target).getEvasionRate(null)), "</td></tr>" + "<tr><td>Critical</td><td>", String.valueOf(((L2Character) target).getCriticalHit(null, null)), "</td><td>Speed</td><td>", String.valueOf(((L2Character) target).getRunSpeed()), "</td></tr>" + "<tr><td>Atk.Speed</td><td>", String.valueOf(((L2Character) target).getPAtkSpd()), "</td><td>Cast.Speed</td><td>", String.valueOf(((L2Character) target).getMAtkSpd()), "</td></tr>" + "<tr><td>Race</td><td>", ((L2Npc) target).getTemplate().getRace().toString(), "</td><td></td><td></td></tr>" + "</table>" + "<br><center><font color=\"LEVEL\">[Basic Stats]</font></center>" + "<table border=0 width=\"100%\">" + "<tr><td>STR</td><td>", String.valueOf(((L2Character) target).getSTR()), "</td><td>DEX</td><td>", String.valueOf(((L2Character) target).getDEX()), "</td><td>CON</td><td>", String.valueOf(((L2Character) target).getCON()), "</td></tr>" + "<tr><td>INT</td><td>", String.valueOf(((L2Character) target).getINT()), "</td><td>WIT</td><td>", String.valueOf(((L2Character) target).getWIT()), "</td><td>MEN</td><td>", String.valueOf(((L2Character) target).getMEN()), "</td></tr>" + "</table>");
 			*/
-			final StringBuilder html1 = StringUtil.startAppend(
-					1000,
-					"<html><body>" +
-					"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1338].getMessage()+"</font></center>" +
-					"<table border=0 width=\"100%\">" +
-					"<tr><td>"+MessageTable.Messages[1320].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMaxHp() / hpMul),
-					"*",
-					String.valueOf(hpMul),
-					"</td><td>"+MessageTable.Messages[1321].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMaxMp()),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1322].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getPAtk(null)),
-					"</td><td>"+MessageTable.Messages[1323].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMAtk(null, null)),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1324].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getPDef(null)),
-					"</td><td>"+MessageTable.Messages[1325].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMDef(null, null)),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1326].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getAccuracy()),
-					"</td><td>"+MessageTable.Messages[1327].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getEvasionRate(null)),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1328].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getCriticalHit(null, null)),
-					"</td><td>"+MessageTable.Messages[1329].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getRunSpeed()),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1330].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getPAtkSpd()),
-					"</td><td>"+MessageTable.Messages[1331].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMAtkSpd()),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1339].getMessage()+"</td><td>",
-					((L2Npc)target).getTemplate().getRace().toString(),
-					"</td><td></td><td></td></tr>" +
-					"</table>" +
-					"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1340].getMessage()+"</font></center>" +
-					"<table border=0 width=\"100%\">" +
-					"<tr><td>STR</td><td>",
-					String.valueOf(((L2Character)target).getSTR()),
-					"</td><td>DEX</td><td>",
-					String.valueOf(((L2Character)target).getDEX()),
-					"</td><td>CON</td><td>",
-					String.valueOf(((L2Character)target).getCON()),
-					"</td></tr>" +
-					"<tr><td>INT</td><td>",
-					String.valueOf(((L2Character)target).getINT()),
-					"</td><td>WIT</td><td>",
-					String.valueOf(((L2Character)target).getWIT()),
-					"</td><td>MEN</td><td>",
-					String.valueOf(((L2Character)target).getMEN()),
-					"</td></tr>" +
-					"</table>"
-			);
+			final StringBuilder html1 = StringUtil.startAppend(1000, "<html><body>" + "<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1338].getMessage()+"</font></center>" + "<table border=0 width=\"100%\">" + "<tr><td>"+MessageTable.Messages[1320].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getMaxHp() / hpMul), "*", String.valueOf(hpMul), "</td><td>"+MessageTable.Messages[1321].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getMaxMp()), "</td></tr>" + "<tr><td>"+MessageTable.Messages[1322].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getPAtk(null)), "</td><td>"+MessageTable.Messages[1323].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getMAtk(null, null)), "</td></tr>" + "<tr><td>"+MessageTable.Messages[1324].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getPDef(null)), "</td><td>"+MessageTable.Messages[1325].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getMDef(null, null)), "</td></tr>" + "<tr><td>"+MessageTable.Messages[1326].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getAccuracy()), "</td><td>"+MessageTable.Messages[1327].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getEvasionRate(null)), "</td></tr>" + "<tr><td>"+MessageTable.Messages[1328].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getCriticalHit(null, null)), "</td><td>"+MessageTable.Messages[1329].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getRunSpeed()), "</td></tr>" + "<tr><td>"+MessageTable.Messages[1330].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getPAtkSpd()), "</td><td>"+MessageTable.Messages[1331].getMessage()+"</td><td>", String.valueOf(((L2Character)target).getMAtkSpd()), "</td></tr>" + "<tr><td>"+MessageTable.Messages[1339].getMessage()+"</td><td>", ((L2Npc)target).getTemplate().getRace().toString(), "</td><td></td><td></td></tr>" + "</table>" + "<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1340].getMessage()+"</font></center>" + "<table border=0 width=\"100%\">" + "<tr><td>STR</td><td>", String.valueOf(((L2Character)target).getSTR()), "</td><td>DEX</td><td>", String.valueOf(((L2Character)target).getDEX()), "</td><td>CON</td><td>", String.valueOf(((L2Character)target).getCON()), "</td></tr>" + "<tr><td>INT</td><td>", String.valueOf(((L2Character)target).getINT()), "</td><td>WIT</td><td>", String.valueOf(((L2Character)target).getWIT()), "</td><td>MEN</td><td>", String.valueOf(((L2Character)target).getMEN()), "</td></tr>" + "</table>");
 			
 			if (!((L2Npc) target).getTemplate().getDropData().isEmpty())
 			{
 				/*
 				StringUtil.append(html1, "<br><center><font color=\"LEVEL\">[Drop Info]</font></center>" + "<br>Rates legend: <font color=\"ff9999\">50%+</font> <font color=\"00ff00\">30%+</font> <font color=\"0066ff\">less than 30%</font>" + "<table border=0 width=\"100%\">");
 				*/
-				StringUtil.append(html1,
-						"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1341].getMessage()+"</font></center>" +
-						"<br>"+MessageTable.Messages[1342].getMessage()+"<font color=\"ff9999\">50%+</font> <font color=\"00ff00\">30%+</font> <font color=\"0066ff\">"+MessageTable.Messages[1343].getMessage()+"</font>" +
-						"<table border=0 width=\"100%\">");
+				StringUtil.append(html1, "<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1341].getMessage()+"</font></center>" + "<br>"+MessageTable.Messages[1342].getMessage()+"<font color=\"ff9999\">50%+</font> <font color=\"00ff00\">30%+</font> <font color=\"0066ff\">"+MessageTable.Messages[1343].getMessage()+"</font>" + "<table border=0 width=\"100%\">");
 				for (L2DropCategory cat : ((L2Npc) target).getTemplate().getDropData())
 				{
 					for (L2DropData drop : cat.getAllDrops())
@@ -308,13 +247,7 @@ public class L2NpcActionShift implements IActionHandler
 						/*
 						StringUtil.append(html1, "<tr>", "<td><img src=\"" + item.getIcon() + "\" height=32 width=32></td>" + "<td><font color=\"", color, "\">", item.getName(), "</font></td>", "<td>", (drop.isQuestDrop() ? "Quest" : (cat.isSweep() ? "Sweep" : "Drop")), "</td>", "</tr>");
 						*/
-						StringUtil.append(html1,
-								"<tr>",
-								"<td><img src=\"" + item.getIcon() + "\" height=32 width=32></td>" + 
-								"<td><font color=\"", color, "\">", item.getName(), "</font></td>",
-								"<td>", (drop.isQuestDrop() ? MessageTable.Messages[1344].getExtra(1) : (cat.isSweep() ? MessageTable.Messages[1344].getExtra(2) : MessageTable.Messages[1344].getExtra(3))),"</td>",
-								"</tr>"
-						);
+						StringUtil.append(html1, "<tr>", "<td><img src=\"" + item.getIcon() + "\" height=32 width=32></td>" + "<td><font color=\"", color, "\">", item.getName(), "</font></td>", "<td>", (drop.isQuestDrop() ? MessageTable.Messages[1344].getExtra(1) : (cat.isSweep() ? MessageTable.Messages[1344].getExtra(2) : MessageTable.Messages[1344].getExtra(3))),"</td>", "</tr>");
 					}
 				}
 				html1.append("</table>");

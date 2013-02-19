@@ -24,7 +24,7 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 
 /**
- * Temple Champion Part 1 (137)
+ * Temple Champion - 1 (137)
  * @author nonom
  */
 public class Q00137_TempleChampionPart1 extends Quest
@@ -95,7 +95,7 @@ public class Q00137_TempleChampionPart1 extends Quest
 	}
 	
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
+	public String onKill(L2Npc npc, L2PcInstance player, boolean isSummon)
 	{
 		final QuestState st = player.getQuestState(getName());
 		if ((st != null) && st.isStarted() && st.isCond(2) && (st.getQuestItemsCount(FRAGMENT) < 30))
@@ -110,7 +110,7 @@ public class Q00137_TempleChampionPart1 extends Quest
 				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 			}
 		}
-		return super.onKill(npc, player, isPet);
+		return super.onKill(npc, player, isSummon);
 	}
 	
 	@Override
@@ -158,7 +158,7 @@ public class Q00137_TempleChampionPart1 extends Quest
 				}
 				break;
 			default:
-				htmltext = ((player.getLevel() >= 35) && st.hasQuestItems(EXECUTOR) && st.hasQuestItems(MISSIONARY)) ? "30070-01.htm" : "30070-00.html";
+				htmltext = ((player.getLevel() >= 35) && st.hasQuestItems(EXECUTOR, MISSIONARY)) ? "30070-01.htm" : "30070-00.html";
 				break;
 		}
 		return htmltext;
@@ -166,6 +166,6 @@ public class Q00137_TempleChampionPart1 extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q00137_TempleChampionPart1(137, Q00137_TempleChampionPart1.class.getSimpleName(), "Temple Champion Part 1");
+		new Q00137_TempleChampionPart1(137, Q00137_TempleChampionPart1.class.getSimpleName(), "Temple Champion - 1");
 	}
 }

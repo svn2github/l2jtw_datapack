@@ -24,7 +24,6 @@ import com.l2jserver.gameserver.datatables.SpawnTable;
 import com.l2jserver.gameserver.model.L2Spawn;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.util.Util;
 
 /**
  * See Through Silent Move AI.
@@ -56,14 +55,18 @@ public class SeeThroughSilentMove extends AbstractNpcAI
 	private SeeThroughSilentMove(String name, String descr)
 	{
 		super(name, descr);
-		for (L2Spawn npc : SpawnTable.getInstance().getSpawnTable())
+		for (int npcId : MOBIDS)
 		{
-			if (Util.contains(MOBIDS, npc.getNpcid()) && (npc.getLastSpawn() != null) && npc.getLastSpawn().isL2Attackable())
+			for (L2Spawn spawn : SpawnTable.getInstance().getSpawns(npcId))
 			{
-				((L2Attackable) npc.getLastSpawn()).setSeeThroughSilentMove(true);
+				final L2Npc npc = spawn.getLastSpawn();
+				if ((npc != null) && npc.isL2Attackable())
+				{
+					((L2Attackable) npc).setSeeThroughSilentMove(true);
+				}
 			}
 		}
-		registerMobs(MOBIDS, QuestEventType.ON_SPAWN);
+		addSpawnId(MOBIDS);
 	}
 	
 	@Override

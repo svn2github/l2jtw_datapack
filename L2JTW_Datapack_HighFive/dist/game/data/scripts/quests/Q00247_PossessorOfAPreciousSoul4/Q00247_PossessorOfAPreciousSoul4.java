@@ -18,6 +18,8 @@
  */
 package quests.Q00247_PossessorOfAPreciousSoul4;
 
+import quests.Q00246_PossessorOfAPreciousSoul3.Q00246_PossessorOfAPreciousSoul3;
+
 import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -45,6 +47,13 @@ public class Q00247_PossessorOfAPreciousSoul4 extends Quest
 	// Skill
 	private static SkillHolder MIMIRS_ELIXIR = new SkillHolder(4339, 1);
 	
+	public Q00247_PossessorOfAPreciousSoul4(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addStartNpc(CARADINE);
+		addTalkId(CARADINE, LADY_OF_LAKE);
+	}
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -62,12 +71,12 @@ public class Q00247_PossessorOfAPreciousSoul4 extends Quest
 		{
 			case "31740-3.html":
 				st.startQuest();
+				st.takeItems(CARADINE_LETTER_LAST, -1);
 				break;
 			case "31740-5.html":
-				if (st.hasQuestItems(CARADINE_LETTER_LAST))
+				if (st.isCond(1))
 				{
 					st.setCond(2, true);
-					st.takeItems(CARADINE_LETTER_LAST, -1);
 					player.teleToLocation(CARADINE_LOC, 0);
 				}
 				break;
@@ -108,10 +117,14 @@ public class Q00247_PossessorOfAPreciousSoul4 extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = ((player.getLevel() >= 75) ? "31740-1.htm" : "31740-2.html");
+						final QuestState qs = player.getQuestState(Q00246_PossessorOfAPreciousSoul3.class.getSimpleName());
+						if ((qs != null) && qs.isCompleted())
+						{
+							htmltext = ((player.getLevel() >= 75) ? "31740-1.htm" : "31740-2.html");
+						}
 						break;
 					case State.STARTED:
-						if (st.isCond(1) && st.hasQuestItems(CARADINE_LETTER_LAST))
+						if (st.isCond(1))
 						{
 							htmltext = "31740-6.html";
 						}
@@ -132,13 +145,6 @@ public class Q00247_PossessorOfAPreciousSoul4 extends Quest
 			}
 		}
 		return htmltext;
-	}
-	
-	public Q00247_PossessorOfAPreciousSoul4(int questId, String name, String descr)
-	{
-		super(questId, name, descr);
-		addStartNpc(CARADINE);
-		addTalkId(CARADINE, LADY_OF_LAKE);
 	}
 	
 	public static void main(String[] args)

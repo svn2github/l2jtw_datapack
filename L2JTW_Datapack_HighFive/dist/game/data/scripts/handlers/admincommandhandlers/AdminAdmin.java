@@ -294,9 +294,9 @@ public class AdminAdmin implements IAdminCommandHandler
 					if (npcId != null)
 					{
 						NpcTable.getInstance().reloadNpc(npcId);
-						for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable())
+						for (L2Spawn spawn : SpawnTable.getInstance().getSpawns(npcId))
 						{
-							if ((spawn != null) && (spawn.getNpcid() == npcId))
+							if (spawn != null)
 							{
 								spawn.respawnNpc(spawn.getLastSpawn());
 							}

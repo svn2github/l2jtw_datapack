@@ -80,12 +80,9 @@ public class Dorian extends AbstractNpcAI
 		super(name, descr);
 		addSpawnId(DORIAN);
 		
-		for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable())
+		for (L2Spawn spawn : SpawnTable.getInstance().getSpawns(DORIAN))
 		{
-			if ((spawn != null) && (spawn.getNpcid() == DORIAN))
-			{
-				startQuestTimer("checkArea", 3000, spawn.getLastSpawn(), null, true);
-			}
+			startQuestTimer("checkArea", 3000, spawn.getLastSpawn(), null, true);
 		}
 	}
 	

@@ -61,6 +61,15 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 	private static final int CRIMSON_MOSS_CHANCE = 30;
 	private static final int MALRUK_SUCCUBUS_CLAW_CHANCE = 60;
 	
+	public Q00241_PossessorOfAPreciousSoul1(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		addStartNpc(TALIEN);
+		addTalkId(TALIEN, STEDMIEL, GABRIELLE, GILMORE, KANTABILON, RAHORAKTI, CARADINE, KASSANDRA, VIRGIL, OGMAR);
+		addKillId(BARAHAM, MALRUK_SUCCUBUS_1, MALRUK_SUCCUBUS_TUREN_1, MALRUK_SUCCUBUS_2, MALRUK_SUCCUBUS_TUREN_2, TAIK_ORC_SUPPLY_LEADER);
+		registerQuestItems(LEGEND_OF_SEVENTEEN, MALRUK_SUCCUBUS_CLAW, ECHO_CRYSTAL, POETRY_BOOK, CRIMSON_MOSS, RAHORAKTIS_MEDICINE);
+	}
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -80,23 +89,32 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 				st.startQuest();
 				break;
 			case "30753-02.html":
-				st.setCond(2, true);
+				if (st.isCond(1))
+				{
+					st.setCond(2, true);
+				}
 				break;
 			case "30754-02.html":
-				st.setCond(3, true);
+				if (st.isCond(2))
+				{
+					st.setCond(3, true);
+				}
 				break;
 			case "31739-05.html":
-				if (st.hasQuestItems(LEGEND_OF_SEVENTEEN))
+				if (st.isCond(4) && st.hasQuestItems(LEGEND_OF_SEVENTEEN))
 				{
 					st.takeItems(LEGEND_OF_SEVENTEEN, -1);
 					st.setCond(5, true);
 				}
 				break;
 			case "31042-02.html":
-				st.setCond(6, true);
+				if (st.isCond(5))
+				{
+					st.setCond(6, true);
+				}
 				break;
 			case "31042-05.html":
-				if (st.getQuestItemsCount(MALRUK_SUCCUBUS_CLAW) >= 10)
+				if (st.isCond(7) && (st.getQuestItemsCount(MALRUK_SUCCUBUS_CLAW) >= 10))
 				{
 					st.takeItems(MALRUK_SUCCUBUS_CLAW, -1);
 					st.giveItems(ECHO_CRYSTAL, 1);
@@ -104,37 +122,46 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 				}
 				break;
 			case "31739-08.html":
-				if (st.hasQuestItems(ECHO_CRYSTAL))
+				if (st.isCond(8) && st.hasQuestItems(ECHO_CRYSTAL))
 				{
 					st.takeItems(ECHO_CRYSTAL, -1);
 					st.setCond(9, true);
 				}
 				break;
 			case "30692-02.html":
-				if (!st.hasQuestItems(POETRY_BOOK))
+				if (st.isCond(9) && !st.hasQuestItems(POETRY_BOOK))
 				{
 					st.giveItems(POETRY_BOOK, 1);
 					st.setCond(10, true);
 				}
 				break;
 			case "31739-11.html":
-				if (st.hasQuestItems(POETRY_BOOK))
+				if (st.isCond(10) && st.hasQuestItems(POETRY_BOOK))
 				{
 					st.takeItems(POETRY_BOOK, -1);
 					st.setCond(11, true);
 				}
 				break;
 			case "31742-02.html":
-				st.setCond(12, true);
+				if (st.isCond(11))
+				{
+					st.setCond(12, true);
+				}
 				break;
 			case "31744-02.html":
-				st.setCond(13, true);
+				if (st.isCond(12))
+				{
+					st.setCond(13, true);
+				}
 				break;
 			case "31336-02.html":
-				st.setCond(14, true);
+				if (st.isCond(13))
+				{
+					st.setCond(14, true);
+				}
 				break;
 			case "31336-05.html":
-				if (st.getQuestItemsCount(CRIMSON_MOSS) >= 5)
+				if (st.isCond(15) && (st.getQuestItemsCount(CRIMSON_MOSS) >= 5))
 				{
 					st.takeItems(CRIMSON_MOSS, -1);
 					st.giveItems(RAHORAKTIS_MEDICINE, 1);
@@ -142,14 +169,17 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 				}
 				break;
 			case "31743-02.html":
-				if (st.hasQuestItems(RAHORAKTIS_MEDICINE))
+				if (st.isCond(16) && st.hasQuestItems(RAHORAKTIS_MEDICINE))
 				{
 					st.takeItems(RAHORAKTIS_MEDICINE, -1);
 					st.setCond(17, true);
 				}
 				break;
 			case "31742-05.html":
-				st.setCond(18, true);
+				if (st.isCond(17))
+				{
+					st.setCond(18, true);
+				}
 				break;
 			case "31740-05.html":
 				if (st.getCond() >= 18)
@@ -161,6 +191,71 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 				break;
 		}
 		return event;
+	}
+	
+	@Override
+	public String onKill(L2Npc npc, L2PcInstance player, boolean isSummon)
+	{
+		final L2PcInstance partyMember;
+		final QuestState st;
+		switch (npc.getNpcId())
+		{
+			case BARAHAM:
+				partyMember = getRandomPartyMember(player, 3);
+				if (partyMember == null)
+				{
+					return null;
+				}
+				
+				st = partyMember.getQuestState(getName());
+				st.giveItems(LEGEND_OF_SEVENTEEN, 1);
+				st.setCond(4, true);
+				break;
+			case MALRUK_SUCCUBUS_1:
+			case MALRUK_SUCCUBUS_TUREN_1:
+			case MALRUK_SUCCUBUS_2:
+			case MALRUK_SUCCUBUS_TUREN_2:
+				partyMember = getRandomPartyMember(player, 6);
+				if (partyMember == null)
+				{
+					return null;
+				}
+				st = partyMember.getQuestState(getName());
+				if ((MALRUK_SUCCUBUS_CLAW_CHANCE >= getRandom(100)) && (st.getQuestItemsCount(MALRUK_SUCCUBUS_CLAW) < 10))
+				{
+					st.giveItems(MALRUK_SUCCUBUS_CLAW, 1);
+					if (st.getQuestItemsCount(MALRUK_SUCCUBUS_CLAW) == 10)
+					{
+						st.setCond(7, true);
+					}
+					else
+					{
+						st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+					}
+				}
+				break;
+			case TAIK_ORC_SUPPLY_LEADER:
+				partyMember = getRandomPartyMember(player, 14);
+				if (partyMember == null)
+				{
+					return null;
+				}
+				st = partyMember.getQuestState(getName());
+				if ((CRIMSON_MOSS_CHANCE >= getRandom(100)) && (st.getQuestItemsCount(CRIMSON_MOSS) < 5))
+				{
+					st.giveItems(CRIMSON_MOSS, 1);
+					if (st.getQuestItemsCount(CRIMSON_MOSS) == 5)
+					{
+						st.setCond(15, true);
+					}
+					else
+					{
+						st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+					}
+				}
+				break;
+		}
+		return super.onKill(npc, player, isSummon);
 	}
 	
 	@Override
@@ -348,80 +443,6 @@ public class Q00241_PossessorOfAPreciousSoul1 extends Quest
 				break;
 		}
 		return htmltext;
-	}
-	
-	@Override
-	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
-	{
-		final L2PcInstance partyMember;
-		final QuestState st;
-		switch (npc.getNpcId())
-		{
-			case BARAHAM:
-				partyMember = getRandomPartyMember(player, 3);
-				if (partyMember == null)
-				{
-					return null;
-				}
-				
-				st = partyMember.getQuestState(getName());
-				st.giveItems(LEGEND_OF_SEVENTEEN, 1);
-				st.setCond(4, true);
-				break;
-			case MALRUK_SUCCUBUS_1:
-			case MALRUK_SUCCUBUS_TUREN_1:
-			case MALRUK_SUCCUBUS_2:
-			case MALRUK_SUCCUBUS_TUREN_2:
-				partyMember = getRandomPartyMember(player, 6);
-				if (partyMember == null)
-				{
-					return null;
-				}
-				st = partyMember.getQuestState(getName());
-				if ((MALRUK_SUCCUBUS_CLAW_CHANCE >= getRandom(100)) && (st.getQuestItemsCount(MALRUK_SUCCUBUS_CLAW) < 10))
-				{
-					st.giveItems(MALRUK_SUCCUBUS_CLAW, 1);
-					if (st.getQuestItemsCount(MALRUK_SUCCUBUS_CLAW) == 10)
-					{
-						st.setCond(7, true);
-					}
-					else
-					{
-						st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-					}
-				}
-				break;
-			case TAIK_ORC_SUPPLY_LEADER:
-				partyMember = getRandomPartyMember(player, 14);
-				if (partyMember == null)
-				{
-					return null;
-				}
-				st = partyMember.getQuestState(getName());
-				if ((CRIMSON_MOSS_CHANCE >= getRandom(100)) && (st.getQuestItemsCount(CRIMSON_MOSS) < 5))
-				{
-					st.giveItems(CRIMSON_MOSS, 1);
-					if (st.getQuestItemsCount(CRIMSON_MOSS) == 5)
-					{
-						st.setCond(15, true);
-					}
-					else
-					{
-						st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-					}
-				}
-				break;
-		}
-		return super.onKill(npc, player, isPet);
-	}
-	
-	public Q00241_PossessorOfAPreciousSoul1(int questId, String name, String descr)
-	{
-		super(questId, name, descr);
-		addStartNpc(TALIEN);
-		addTalkId(TALIEN, STEDMIEL, GABRIELLE, GILMORE, KANTABILON, RAHORAKTI, CARADINE, KASSANDRA, VIRGIL, OGMAR);
-		addKillId(BARAHAM, MALRUK_SUCCUBUS_1, MALRUK_SUCCUBUS_TUREN_1, MALRUK_SUCCUBUS_2, MALRUK_SUCCUBUS_TUREN_2, TAIK_ORC_SUPPLY_LEADER);
-		registerQuestItems(LEGEND_OF_SEVENTEEN, MALRUK_SUCCUBUS_CLAW, ECHO_CRYSTAL, POETRY_BOOK, CRIMSON_MOSS, RAHORAKTIS_MEDICINE);
 	}
 	
 	public static void main(String[] args)

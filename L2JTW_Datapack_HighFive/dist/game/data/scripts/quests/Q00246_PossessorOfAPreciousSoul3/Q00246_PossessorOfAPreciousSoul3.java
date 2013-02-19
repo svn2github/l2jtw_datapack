@@ -18,6 +18,8 @@
  */
 package quests.Q00246_PossessorOfAPreciousSoul3;
 
+import quests.Q00242_PossessorOfAPreciousSoul2.Q00242_PossessorOfAPreciousSoul2;
+
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -88,15 +90,12 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 			case "31740-4.html":
 				if (st.isCreated())
 				{
-					if (st.hasQuestItems(CARADINE_LETTER))
-					{
-						st.takeItems(CARADINE_LETTER, -1);
-						st.startQuest();
-					}
+					st.takeItems(CARADINE_LETTER, -1);
+					st.startQuest();
 				}
 				break;
 			case "31741-2.html":
-				if (st.isStarted())
+				if (st.isStarted() && st.isCond(1))
 				{
 					st.set("awaitsWaterbinder", "1");
 					st.set("awaitsEvergreen", "1");
@@ -138,7 +137,7 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 	}
 	
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
+	public String onKill(L2Npc npc, L2PcInstance player, boolean isSummon)
 	{
 		final L2PcInstance partyMember;
 		final QuestState st;
@@ -227,7 +226,7 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 				st = player.getQuestState(getName());
 				if ((st == null))
 				{
-					return super.onKill(npc, player, isPet);
+					return super.onKill(npc, player, isSummon);
 				}
 				
 				if (Util.contains(MOBS, npc.getNpcId()) && (st.getQuestItemsCount(FRAGMENTS) < 100) && (st.isCond(4)))
@@ -247,7 +246,7 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 				}
 				break;
 		}
-		return super.onKill(npc, player, isPet);
+		return super.onKill(npc, player, isSummon);
 	}
 	
 	@Override
@@ -270,7 +269,8 @@ public class Q00246_PossessorOfAPreciousSoul3 extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() >= 65) ? "31740-1.htm" : "31740-2.html";
+						final QuestState qs = player.getQuestState(Q00242_PossessorOfAPreciousSoul2.class.getSimpleName());
+						htmltext = ((player.getLevel() >= 65) && (qs != null) && qs.isCompleted()) ? "31740-1.htm" : "31740-2.html";
 						break;
 					case State.STARTED:
 						htmltext = "31740-5.html";
