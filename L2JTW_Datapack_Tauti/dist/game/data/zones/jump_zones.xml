@@ -108,24 +108,25 @@
 		<stat name="trackId" val="19" />
 		<node X="221444" Y="118845" />
 	</zone>
-	<zone name="刑場一層(上) -> 刑場？層" type="JumpZone" shape="Cylinder" minZ="-3685" maxZ="-3635" rad="50">
-		<stat name="trackId" val="36" />
+	<zone name="刑場一層(北) --> 刑場二層(北)" type="JumpZone" shape="Cylinder" minZ="-3685" maxZ="-3635" rad="50">
+		<stat name="trackId" val="35" />
 		<node X="49083" Y="142616" />
 	</zone>
-	<zone name="刑場一層(下) -> 刑場二層" type="JumpZone" shape="Cylinder" minZ="-3575" maxZ="-3525" rad="50">
-		<stat name="trackId" val="35" />
+	<zone name="刑場一層(南) --> 刑場二層(南)" type="JumpZone" shape="Cylinder" minZ="-3575" maxZ="-3525" rad="50">
+		<stat name="trackId" val="36" />
 		<node X="50803" Y="152845" />
 	</zone>
-	<zone name="刑場二層 -> 刑場高層" type="JumpZone" shape="Cylinder" minZ="-2580" maxZ="-2530" rad="50">
+	<zone name="刑場二層(北) --> 刑場高層(北)" type="JumpZone" shape="Cylinder" minZ="-2580" maxZ="-2530" rad="50">
 		<stat name="trackId" val="26" />
 		<node X="44373" Y="142191" />
 	</zone>
-	<zone name="刑場三層 -> 刑場上層" type="JumpZone" shape="Cylinder" minZ="-1965" maxZ="-1915" rad="50">
+	<zone name="刑場三層(南) --> 刑場上層(南)" type="JumpZone" shape="Cylinder" minZ="-1965" maxZ="-1915" rad="50">
 		<stat name="trackId" val="24" />
 		<node X="47046" Y="154392" />
 	</zone>
-	<zone name="刑場上層 -> 刑場三層" type="JumpZone" shape="Cylinder" minZ="-1100" maxZ="-1050" rad="50">
+	<zone name="刑場上層(南) --> 刑場三層(南)" type="JumpZone" shape="Cylinder" minZ="-1100" maxZ="-1050" rad="50">
 		<stat name="trackId" val="25" />
 		<node X="45075" Y="154690" />
-	</zone>
+	</zone>	
+	
 </list>
