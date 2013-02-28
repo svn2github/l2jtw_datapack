@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 覺醒技能-其他 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="1571" levels="1" name="Awakened Class Inventory Increase">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+	</skill>
+	<skill id="1572" levels="1" name="Awakened Class Weight Increase">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+	</skill>
+	<skill id="1597" levels="1" name="Awakened Class Weight Increase">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+	</skill>
+	<skill id="1927" levels="1" name="Sigel Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1929" levels="1" name="Tyrr Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1931" levels="1" name="Othell Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1933" levels="1" name="Yul Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1935" levels="1" name="Strength Wizard">
+		<set name="aggroPoints" val="679" />
+		<set name="hitTime" val="2500" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="81" />
+		<set name="mpConsume" val="60" />
+		<set name="nextDanceCost" val="30" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="240000" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="dance_of_berserker">
+				<mul order="0x30" stat="pAtkSpd" val="1.05" />
+					<using kind="CrossBow" />
+				<mul order="0x30" stat="mAtkSpd" val="1.02" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="1937" levels="1" name="Wynn Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+	<skill id="1939" levels="1" name="Aeore Aura">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="T"/>
+		<set name="reuseDelay" val="5000"/>
+	</skill>
+</list>

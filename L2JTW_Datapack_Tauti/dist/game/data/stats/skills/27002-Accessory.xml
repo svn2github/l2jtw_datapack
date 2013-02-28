@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 飾品技能 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="8775" levels="1" name="Immortal Bracelet"><!-- Check OK -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<set order="0x50" stat="talisman" val="5" />
+		</for>
+	</skill>
+	<skill id="8776" levels="1" name="Twilight Bracelet"><!-- Check OK -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<set order="0x50" stat="talisman" val="5" />
+		</for>
+	</skill>
+	<skill id="8777" levels="1" name="Seraph Bracelet"><!-- Check OK -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<set order="0x50" stat="talisman" val="5" />
+		</for>
+	</skill>
+	<skill id="8778" levels="1" name="Eternal Bracelet"><!-- Check OK -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<set order="0x50" stat="talisman" val="5" />
+		</for>
+	</skill>
+	<skill id="8779" levels="1" name="Istina's Bracelet"><!-- Check OK -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<set order="0x50" stat="talisman" val="5" />
+		</for>
+	</skill>
+	<skill id="8780" levels="1" name="Octavis' Bracelet"><!-- Check OK -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<set order="0x50" stat="talisman" val="5" />
+		</for>
+	</skill>
+	<skill id="13313" levels="1" name="Blessed Antharas Earring"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="pDef" val="1.04" />
+			<mul order="0x30" stat="mDef" val="1.08" />
+			<add order="0x40" stat="earthRes" val="15" />
+			<add order="0x40" stat="holyRes" val="15" />
+			<sub order="0x40" stat="bleedVuln" val="40" />
+			<add order="0x40" stat="bleedProf" val="40" />
+			<sub order="0x40" stat="stunVuln" val="30" />
+			<add order="0x40" stat="stunProf" val="30" />
+			<sub order="0x40" stat="derangementVuln" val="30" />
+			<add order="0x40" stat="derangementProf" val="30" />
+			<mul order="0x30" stat="gainHp" val="1.1" />
+			<mul order="0x30" stat="MagicalMpConsumeRate" val="0.95" />
+			<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.95" />
+			<add order="0x40" stat="absorbDam" val="4" />
+			<add order="0x10" stat="CON" val="3" />
+			<add order="0x10" stat="MEN" val="3" />
+		</for>
+	</skill>
+	<skill id="13315" levels="1" name="Blessed Valakas Necklace"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<add order="0x40" stat="fireRes" val="15" />
+			<add order="0x40" stat="darkRes" val="15" />
+			<sub order="0x40" stat="sleepVuln" val="40" />
+			<add order="0x40" stat="sleepProf" val="40" />
+			<add order="0x40" stat="maxHp" val="445" />
+			<mul order="0x30" stat="pAtk" val="1.04" />
+			<mul order="0x30" stat="mAtk" val="1.08" />
+			<add order="0x40" stat="mCritRate" val="2" />
+			<mul order="0x30" stat="pReuse" val="0.9" />
+			<mul order="0x30" stat="mReuse" val="0.9" />
+			<add order="0x40" stat="reflectDam" val="5" />
+			<add order="0x10" stat="STR" val="3" />
+			<add order="0x10" stat="INT" val="3" />
+		</for>
+	</skill>
+	<skill id="13320" levels="1" name="Istina's Ring"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<add order="0x40" stat="accCombat" val="3" />
+			<add order="0x40" stat="waterRes" val="20" />
+			<basemul order="0x30" stat="rCrit" val="0.544" />
+		</for>
+	</skill>
+	<skill id="13321" levels="1" name="Istina's Earring"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<sub order="0x40" stat="stunVuln" val="30" />
+			<add order="0x40" stat="absorbDam" val="5" />
+			<add order="0x40" stat="windRes" val="20" />
+		</for>
+	</skill>
+	<skill id="13322" levels="1" name="Istina's Necklace"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="pReuse" val="0.9" />
+			<mul order="0x30" stat="mReuse" val="0.9" />
+			<add order="0x40" stat="reflectDam" val="3" />
+			<add order="0x40" stat="holyRes" val="35" />
+		</for>
+	</skill>
+	<skill id="13323" levels="1" name="Istina's Belt"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="inventoryLimit" val="6" />
+			<mul order="0x30" stat="regHp" val="1.348" />
+		</for>
+	</skill>
+	<skill id="13324" levels="1" name="Istina's Shirt"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="maxHp" val="465" />
+		</for>
+	</skill>
+	<skill id="13325" levels="1" name="Octavis' Ring"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<add order="0x40" stat="fireRes" val="20" />
+			<mul order="0x30" stat="cAtk" val="1.15" />
+		</for>
+	</skill>
+	<skill id="13326" levels="1" name="Octavis' Earring"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<sub order="0x40" stat="sleepVuln" val="40" />
+			<sub order="0x40" stat="rootVuln" val="40" />
+			<add order="0x40" stat="sleepProf" val="40" />
+			<add order="0x40" stat="rootProf" val="40" />
+			<add order="0x40" stat="earthRes" val="30" />
+		</for>
+	</skill>
+	<skill id="13327" levels="1" name="Octavis' Necklace"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<add order="0x40" stat="darkRes" val="35" />
+			<mul order="0x30" stat="physicalSkillPower" val="1.05" />
+		</for>
+	</skill>
+	<skill id="13328" levels="1" name="Octavis' Belt"><!-- Check OK -->
+		<set name="magicLvl" val="86" />
+		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<add order="0x40" stat="weightPenalty" val="13000" />
+			<mul order="0x30" stat="regMp" val="1.23" />
+		</for>
+	</skill>
+</list>

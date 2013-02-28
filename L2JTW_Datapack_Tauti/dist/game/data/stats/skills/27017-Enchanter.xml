@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 覺醒技能-伊斯法師 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="11501" levels="1" name="Grand Dual weapon Master">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pAtk" val="235" />
+			<add order="0x40" stat="mAtk" val="104" />
+			<mul order="0x30" stat="pAtkSpd" val="1.1" />
+			<using kind="Dual Sword,Dual Blunt" />
+		</for>
+	</skill>
+	<skill id="11502" levels="1" name="The skill of wearing robes">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pDef" val="91" />
+			<using kind="Robe" />
+		</for>
+	</skill>
+	<skill id="11503" levels="1" name="The skill of wearing Light">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pDef" val="73" />
+			<mul order="0x30" stat="regMp" val="1.25" />
+			<using kind="Light" />
+		</for>
+	</skill>
+	<skill id="11504" levels="1" name="Skill wearing heavy armor">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pDef" val="73" />
+			<using kind="Heavy" />
+		</for>
+	</skill>
+	<skill id="11505" levels="1" name="Grand Anti-Magic">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="mDef" val="139" />
+		</for>
+	</skill>
+	<skill id="11506" levels="1" name="Increase HP">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<add order="0x40" stat="maxHp" val="366" />
+		</for>
+	</skill>
+		<skill id="11507" levels="1" name="Increase MP">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<add order="0x40" stat="maxMp" val="313" />
+		</for>
+	</skill>
+	<skill id="11508" levels="1" name="Rush">
+		<set name="castRange" val="400" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="900" />
+		<set name="flyType" val="CHARGE" />
+		<set name="hitTime" val="800" />
+		<set name="magicLvl" val="85" />
+		<set name="mpInitialConsume" val="6" />
+		<set name="mpConsume" val="38" />
+		<set name="neutral" val="true" />
+		<set name="nextActionAttack" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="DUMMY" />
+		<set name="reuseDelay" val="15000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<for>
+			<effect name="EnemyCharge" noicon="1" val="0" />
+			<effect name="Stun" abnormalTime="1" val="0" abnormalLvl="1" abnormalType="stun" />
+		</for>
+	</skill>
+	<skill id="11509" levels="8" name="The main attack">
+		<table name="#pwr"> 8268 8556 9134 9711 10288 10866 11443 12020 </table>
+		<set name="mpConsume" val="46" />
+		<set name="power" val="#pwr" />
+		<set name="coolTime" val="200" />
+		<set name="magicLvl" val="85" />
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="7000" />
+		<set name="hitTime" val="1080" />
+		<set name="isDebuff" val="true" />
+		<set name="saveVs" val="MEN" />
+		<set name="nextActionAttack" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect name="Debuff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="speed_down">
+				<mul order="0x30" stat="pDef" val="0.70" />
+				<mul order="0x30" stat="mDef" val="0.70" />
+				<sub order="0x40" stat="rEvas" val="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11510" levels="8" name="Blade of darkness">
+		<table name="#pwr"> 9133 9769 10404 11040 11675 12311 12946 13582 </table>
+		<set name="mpConsume" val="50" />
+		<set name="power" val="#pwr" />
+		<set name="coolTime" val="200" />
+		<set name="magicLvl" val="85" />
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="7000" />
+		<set name="hitTime" val="1080" />
+		<set name="isDebuff" val="true" />
+		<set name="saveVs" val="MEN" />
+		<set name="nextActionAttack" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect name="Debuff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="speed_down">
+				<mul order="0x30" stat="mAtk" val="0.30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11511" levels="8" name="Death blow">
+		<table name="#pwr"> 14326 14819 15803 16788 17773 18758 19743 20727 </table>
+		<set name="power" val="#pwr" />
+		<set name="mpConsume" val="50" />
+		<set name="coolTime" val="200" />
+		<set name="magicLvl" val="85" />
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="7000" />
+		<set name="hitTime" val="1080" />
+		<set name="nextActionAttack" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+	</skill>
+	<skill id="11513" levels="8" name="Burn">
+		<table name="#pwr"> 10263 10616 11322 12027 12733 13438 14144 14849 </table>
+		<set name="power" val="#pwr" />
+		<set name="mpConsume" val="130" />
+		<set name="coolTime" val="200" />
+		<set name="magicLvl" val="85" />
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="target" val="TARGET_AURA" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1080" />
+		<set name="isDebuff" val="true" />
+		<set name="saveVs" val="MEN" />
+		<set name="nextActionAttack" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect name="Debuff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="speed_down">
+				<mul order="0x30" stat="mDef" val="0.30" />
+				<mul order="0x30" stat="pDef" val="0.30" />
+				<mul order="0x30" stat="rEvas" val="0.10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11514" levels="8" name="Storm">
+		<table name="#pwr"> 11722 12525 13327 14130 14933 15736 16539 17342 </table>
+		<set name="power" val="#pwr" />	
+		<set name="mpConsume" val="146" />
+		<set name="coolTime" val="200" />
+		<set name="magicLvl" val="85" />
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="target" val="TARGET_AURA" />
+		<set name="reuseDelay" val="15000" />
+		<set name="hitTime" val="1080" />
+		<set name="isDebuff" val="true" />
+		<set name="nextActionAttack" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+	</skill>
+	<skill id="11517" levels="4" name="Poem forge">
+		<table name="#pAtk"> 1.17 1.19 1.21 1.23 </table>
+		<table name="#mAtk"> 1.79 1.83 1.87 1.91 </table>
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="magicLvl" val="85" />
+		<set name="skillType" val="BUFF" />
+		<set name="skillRadius" val="1000" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="583" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="berserker">
+				<mul order="0x30" stat="pDef" val="1.15" />
+				<mul order="0x30" stat="pAtk" val="#pAtk" />
+				<mul order="0x30" stat="mAtk" val="#mAtk" />
+				<mul order="0x30" stat="mDef" val="1.30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11518" levels="3" name="Poem of the drum">
+		<table name="#spd"> 0.85 0.9 0.95 </table>
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="skillRadius" val="1000" />
+		<set name="magicLvl" val="85" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="berserker5">>
+				<mul order="0x30" stat="regHp" val="1.2" />
+				<mul order="0x30" stat="maxMp" val="1.2" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="cAtk" val="1.2" />
+				<mul order="0x30" stat="runSpd" val="#spd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11519" levels="4" name="Poem of the body">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<table name="#vuln"> 1.37 1.39 1.41 1.43 </table>
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="magicLvl" val="85" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="berserker2">
+				<mul order="0x30" stat="maxHp" val="#vuln" />
+				<mul order="0x30" stat="maxMp" val="#vuln" />
+				<mul order="0x30" stat="maxCp" val="#vuln" />
+				<mul order="0x30" stat="regMp" val="1.20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11520" levels="4" name="Poem of the guitar">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<table name="#vuln"> 1.32 1.34 1.36 1.38 </table>
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="skillRadius" val="1000" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="berserker3">
+				<mul order="0x30" stat="rCrit" val="#vuln" />
+				<mul order="0x30" stat="mCritRate" val="1.20" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.9" />
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11521" levels="4" name="Poem harp">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<table name="#vuln"> 5 6 7 8 </table>
+		<table name="#vuln2"> 34 35 36 37 </table>
+		<set name="mpConsume" val="70" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="skillRadius" val="1000" />
+		<set name="magicLvl" val="85" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="berserker4">
+				<mul order="0x30" stat="rCrit" val="0.9" />
+				<mul order="0x30" stat="mCritRate" val="1.20" />
+				<add order="0x40" stat="accCombat" val="#vuln" />
+				<add order="0x40" stat="runSpd" val="#vuln2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11522" levels="1" name="Poem horn">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<table name="#vuln"> 15 </table>
+		<table name="#vuln1"> 1.34 1.35 1.36 1.37 </table>
+		<table name="#vuln2"> 1.31 1.32 1.33 1.34 </table>
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillRadius" val="1000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="berserker1">
+				<mul order="0x30" stat="maxMp" val="1.30" />
+				<mul order="0x30" stat="regHp" val="1.20" />
+				<mul order="0x30" stat="pAtkSpd" val="#vuln1" />
+				<mul order="0x30" stat="mAtkSpd" val="#vuln2" />
+				<mul order="0x30" stat="mAtk" val="1.20" />
+				<mul order="0x30" stat="mCritRate" val="1.2" />
+				<sub order="0x40" stat="rootVuln" val="#vuln" />
+				<sub order="0x40" stat="sleepVuln" val="#vuln" />
+				<sub order="0x40" stat="derangementVuln" val="#vuln" />
+				<mul order="0x30" stat="runSpd" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11523" levels="1" name="Harmony Guardian">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="70" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="buff_one">
+				<mull order="0x30" stat="pAtk" val="1.12" />
+				<mul order="0x30" stat="pDef" val="1.45" />
+				<add order="0x40" stat="rShld" val="50" />
+				<add order="0x40" stat="rCrit" val="3.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11524" levels="1" name="Harmony Berserk">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="70" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="magicLvl" val="85" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="buff_one">
+				<mul order="0x30" stat="pAtk" val="1.35" />
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="mAtkSpd" val="1.8" />
+				<add order="0x40" stat="rCrit" val="3.5" />
+				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<add order="0x40" stat="runSpd" val="8" />
+				<mul order="0x30" stat="pDef" val="1.08" />
+				<mul order="0x30" stat="mDef" val="1.16" />
+				<add order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11525" levels="1" name="Harmony Mage">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="70" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="buff_one">
+				<mul order="0x30" stat="pAtk" val="1.35" />
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="mAtkSpd" val="1.8" />
+				<mul order="0x30" stat="pAtkSpd" val="1.8" />
+				<basemul order="0x30" stat="mCritRate" val="1" />
+				<add order="0x40" stat="runSpd" val="8" />
+				<mul order="0x30" stat="pDef" val="1.08" />
+				<mul order="0x30" stat="mDef" val="1.14" />
+				<add order="0x40" stat="rEvas" val="4" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.15" />
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.5" />
+				<mul order="0x30" stat="mReuse" val="1.20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11529" levels="1" name="Battle Sonata">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="120" />
+		<set name="nextDanceCost" val="30" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="nextDanceCost" val="30" />
+		<set name="magicLvl" val="85" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="2500" />
+		<set name="skillType" val="BUFF" />
+		<set name="isDance" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="aggroPoints" val="467" />
+		<for>
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="batle_sonata">
+				<mul order="0x30" stat="mAtkSpd" val="1.30" />
+				<mul order="0x30" stat="pAtkSpd" val="1.15" />
+				<mul order="0x30" stat="maxHp" val="1.30" />
+				<mul order="0x30" stat="regMp" val="1.20" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.10" />
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11530" levels="1" name="Sonata Movement">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="120" />
+		<set name="nextDanceCost" val="30" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="nextDanceCost" val="30" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="2500" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="isDance" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="aggroPoints" val="467" />
+		<for>
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="Sonata_Movement">
+				<mul order="0x30" stat="pAtk" val="1.08" />
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
+				<mul order="0x30" stat="pAtkSpd" val="1.15" />
+				<mul order="0x30" stat="pDef" val="1.03" />
+				<mul order="0x30" stat="mDef" val="1.11" />
+				<add order="0x40" stat="absorbDam" val="8" />
+				<add order="0x40" stat="reflectDam" val="10" /> 
+				<add order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11532" levels="1" name="Sonata Meditation">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="120" />
+		<set name="nextDanceCost" val="30" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="nextDanceCost" val="30" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="2500" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="isDance" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="aggroPoints" val="467" />
+		<for>
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="Sonata_Meditation">
+				<mul order="0x30" stat="regHp" val="1.20" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.8" />
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.8" />
+				<add order="0x40" stat="accCombat" val="4" />
+				<add order="0x40" stat="runSpd" val="4" />
+				<mul order="0x30" stat="pReuse" val="0.9" />
+				<mul order="0x30" stat="mReuse" val="0.9" />
+				<add order="0x40" stat="rEvas" val="3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11533" levels="1" name="Bloody Requiem">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="916" />
+		<set name="magicLvl" val="97" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="reuseDelay" val="600000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="1900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="special_buff">
+				<add order="0x40" stat="absorbDam" val="80" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11534" levels="5" name="Angela hand">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="916" />
+		<set name="magicLvl" val="97" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="reuseDelay" val="600000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="1900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="special_buff">
+				<sub order="0x40" stat="rootVuln" val="100" />
+				<sub order="0x40" stat="sleepVuln" val="100" />
+		</effect>
+		</for>
+	</skill>
+	<skill id="11536" levels="11" name="The final elimination">
+		<set name="mpConsume" val="70" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="25" /> <!-- Base Land Rate -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="300000" />
+		<set name="hitTime" val="6000" />
+		<set name="skillType" val="CANCEL" />
+		<set name="operateType" val="A1" />
+		<set name="SkillRadius" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="maxNegated" val="5" />
+	</skill>
+	<skill id="11537" levels="7" name="Changing body">
+		<table name="#spd"> 0.8 0.7 0.6 0.5 0.4 0.3 0.2 </table>
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="55" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="3000" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="2" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="4000" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="AGGREDUCE_CHAR" />
+		<set name="operateType" val="A1" />
+		<set name="isDebuff" val="true" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect name="Debuff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="speed_down">
+				<mul order="0x30" stat="runSpd" val="#spd" />
+				<mul order="0x30" stat="pAtkSpd" val="0.9" />
+				<mul order="0x30" stat="mAtkSpd" val="0.9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11538" levels="33" name="Dryad Root">
+		<set name="mpConsume" val="256" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="120" /> <!-- Base Land Rate -->
+		<set name="lvlDepend" val="2" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="reuseDelay" val="120000" />
+		<set name="hitTime" val="2500" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="ROOT" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="20" />
+		<set name="effectRange" val="500" />
+		<for>
+			<effect name="Root" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="root_magically" />
+		</for>
+	</skill>
+	<skill id="11539" levels="1" name="Change Stone">
+		<set name="castRange" val="200" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="800" />
+		<set name="magicLvl" val="85" />
+		<set name="skillRadius" val="300" />
+		<set name="mpInitialConsume" val="6" />
+		<set name="mpConsume" val="70" />
+		<set name="neutral" val="true" />
+		<set name="power" val="300" />
+		<set name="nextActionAttack" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="reuseDelay" val="120000" />
+		<set name="skillRadius" val="1000" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<for>
+			<effect name="Petrification" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="turn_stone" />
+		</for>
+	</skill>
+	<skill id="11540" levels="4" name="Cutie Pig">
+		<table name="#mDef"> 3000 3500 4000 4500 </table>
+		<table name="#spd"> 1.3 1.4 1.5 1.6 </table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="reuseDelay" val="60000" />
+		<set name="operateType" val="A1" />
+		<set name="isMagic" val="1" />
+		<set name="transformId" val="104" />
+		<for>
+			<effect name="Transformation" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="transform">
+			<add order="0x40" stat="mDef" val="#mDef" />
+			<mul order="0x30" stat="runSpd" val="#spd" />
+		</effect>
+		</for>
+	</skill>
+	<skill id="11541" levels="1" name="The transformation into stone">
+		<set name="target" val="TARGET_SELF" />
+		<set name="mpConsume" val="70" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="1200" />
+		<set name="reuseDelay" val="600000" />
+		<for>
+			<effect name="Petrification" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="turn_stone" />
+		</for>
+	</skill>
+	<skill id="11543" levels="3" name="Changing body">
+		<table name="#Def"> 2000 3000 4000 </table>
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="120" />
+		<set name="nextDanceCost" val="30" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="nextDanceCost" val="30" />
+		<set name="reuseDelay" val="600000" />
+		<set name="hitTime" val="2500" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="93" />
+		<set name="isDance" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="aggroPoints" val="467" />
+		<for>
+			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="Super_Buff1">
+				<mul order="0x30" stat="pAtk" val="0.2" />
+				<mul order="0x30" stat="mAtk" val="0.2" />
+				<add order="0x40" stat="pDef" val="#Def" />
+				<add order="0x40" stat="mDef" val="#Def" />
+				<add order="0x40" stat="runSpd" val="44" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11544" levels="1" name="Battlestar Rhapsody">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="916" />
+		<set name="magicLvl" val="89" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="reuseDelay" val="600000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="1900" />
+		<set name="aggroPoints" val="514" />
+		<for>
+			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="special_buff">
+				<mul order="0x30" stat="pAtk" val="2" />
+				<mul order="0x30" stat="pAtkSpd" val="2" />
+				<mul order="0x30" stat="mDef" val="2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11545" levels="1" name="Mad Nocturne">
+		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
+		<set name="mpConsume" val="120" />
+		<set name="nextDanceCost" val="30" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="nextDanceCost" val="30" />
+		<set name="reuseDelay" val="600000" />
+		<set name="hitTime" val="2500" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="95" />
+		<set name="isDance" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="aggroPoints" val="467" />
+		<for>
+			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="Super_buff2">
+				<mul order="0x30" stat="pReuse" val="0.5" />
+				<mul order="0x30" stat="mReuse" val="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11546" levels="1" name="Symphony temteyisyeon">
+		<set name="power" val="13629" />
+		<set name="mpConsume" val="1003" />
+		<set name="coolTime" val="200" />
+		<set name="magicLvl" val="99" />
+		<set name="weaponsAllowed" val="Dual Sword,Blunt,Dual Blunt,Sword" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1080" />
+		<set name="isDebuff" val="true" />
+		<set name="saveVs" val="MEN" />
+		<set name="nextActionAttack" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="speed_down">
+				<mul order="0x30" stat="mDef" val="0.5" />
+				<mul order="0x30" stat="pDef" val="0.50" />
+				<mul order="0x30" stat="pAtk" val="0.50" />
+				<mul order="0x30" stat="mAtk" val="0.50" />
+				<mul order="0x30" stat="runSpd" val="0.50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11547" levels="1" name="Regen MP">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<mul order="0x1" stat="regMp" val="2.8" />
+			<mul order="0x1" stat="regHp" val="2.8" />
+			<add order="0x40" stat="absorbDamMana" val="10" />
+		</for>
+	</skill>
+	<skill id="11548" levels="1" name="Grand quick recovery">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<mul order="0x30" stat="mReuse" val="0.75" />
+		</for>
+	</skill>
+	<skill id="11549" levels="1" name="Superior Mana Steal">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+	</skill>
+	<skill id="11551" levels="1" name="Grand resist attribute">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="poisonVuln" val="30" />
+			<add order="0x40" stat="rootVuln" val="30" />
+			<add order="0x40" stat="sleepVuln" val="30" />
+			<add order="0x40" stat="bleedVuln" val="30" />
+			<add order="0x40" stat="paralyzeVuln" val="30" />
+		</for>
+	</skill>
+	<skill id="11552" levels="1" name="Grand Divine Lore">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<mul order="0x30" stat="MagicalMpConsumeRate" val="0.94" />
+		</for>
+	</skill>
+	<skill id="11553" levels="1" name="Grand Focus Mind">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<add order="0x40" stat="regMp" val="8.4" />
+		</for>
+	</skill>
+	<skill id="11554" levels="1" name="Grand Six Senses">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<add order="0x40" stat="rEvas" val="17" >
+			<player hp="30" />
+			</add>
+		</for>
+	</skill>
+	<skill id="11555" levels="1" name="Grand Fast Spell Casting">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<for>
+			<mul order="0x30" stat="mAtkSpd" val="1.15" />
+		</for>
+	</skill>
+	<skill id="11557" levels="1" name="Ultimate Scourge">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="423"/>
+	</skill>
+	<skill id="11558" levels="1" name="Ultimate Oblivion">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="423"/>
+	</skill>
+	<skill id="11559" levels="1" name="Ultimate Suspension">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="mpConsume" val="423"/>
+	</skill>
+	<skill id="11560" levels="2" name="Celestial Aegis">
+		<table name="#mpConsume"> 423 557 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1000"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="#mpConsume"/>
+	</skill>
+	<skill id="11561" levels="1" name="Giant Root">
+		<set name="mpConsume" val="126" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="100" /> 
+		<set name="lvlDepend" val="2" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="20000" />
+		<set name="hitTime" val="2500" />
+		<set name="skillType" val="ROOT" />
+		<set name="isMagic" val="1" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect name="Root" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="root_magically" />
+		</for>
+	</skill>
+	<skill id="11562" levels="1" name="Devil's Movement">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="2500"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="mpConsume" val="60"/>
+	</skill>
+	<skill id="11563" levels="1" name="Quick Return">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2500"/>
+		<set name="reuseDelay" val="75000"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="60"/>
+	</skill>
+	<skill id="11564" levels="3" name="Angel's Resurrection">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="60"/>
+	</skill>
+	<skill id="11565" levels="1" name="Divine Resist">
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="reuseDelay" val="900000" />
+		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A1" />
+		<set name="isMagic" val="1" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="2" abnormalType="buff">
+				<add order="0x40" stat="fireRes" val="30" />
+				<add order="0x40" stat="waterRes" val="30" />
+				<add order="0x40" stat="holyRes" val="30" />
+				<add order="0x40" stat="darkRes" val="30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11566" levels="1" name="Divine Resist">
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="reuseDelay" val="900000" />
+		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A1" />
+		<set name="isMagic" val="1" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="2" abnormalType="buff">
+				<sub order="0x40" stat="bleedVuln" val="50" />
+				<sub order="0x40" stat="poisonVuln" val="50" />
+				<add order="0x40" stat="holyRes" val="30" />
+				<add order="0x40" stat="darkRes" val="30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11567" levels="1" name="Mental Resist">
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="140" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="reuseDelay" val="900000" />
+		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A1" />
+		<set name="isMagic" val="1" />
+		<for>
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="2" abnormalType="buff">
+				<sub order="0x40" stat="cancelVuln" val="30" />
+				<sub order="0x40" stat="paralyzeVuln" val="50" />
+				<sub order="0x40" stat="debuffVuln" val="20" />
+				<sub order="0x40" stat="rootVuln" val="50" />
+				<sub order="0x40" stat="sleepVuln" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11570" levels="1" name="Healing Melody">
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2000"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume" val="194"/>
+	</skill>
+	<skill id="11571" levels="1" name="Recovery Poem">
+		<set name="mpConsume" val="120" />
+		<set name="reuseDelay" val="50000" />
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="1000" />
+	</skill>
+</list>

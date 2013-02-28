@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 覺醒技能-歐瑟遊俠 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="10501" levels="1" name="Grand Dagger Mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<mul order="0x30" stat="pAtkSpd" val="1.25">
+				<using kind="Dagger" />
+			</mul>
+			<add order="0x40" stat="pAtk" val="344">
+				<using kind="Dagger" />
+			</add>
+		</for>
+	</skill>
+	<skill id="10502" levels="1" name="Grand Dual Dagger Mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pAtk" val="344">
+				<using kind="Dual Dagger" />
+			</add>
+		</for>
+	</skill>
+	<skill id="10503" levels="1" name="Grand Light Armor Mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pDef" val="89">
+				<using kind="Light" />
+			</add>
+			<add order="0x40" stat="rEvas" val="15">
+				<using kind="Light" />
+			</add>
+		</for>
+	</skill>
+	<skill id="10504" levels="1" name="Grand Movement">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="rEvas" val="7" />
+			<add order="0x40" stat="regHp" val="6.3" />
+			<add order="0x40" stat="rEvas" val="17">
+				<player hp="30" />
+			</add>
+		</for>
+	</skill>
+	<skill id="10505" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10506" levels="1" name="Grand Spirit Mastery">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="sleepVuln" val="30" />
+			<add order="0x40" stat="paralyzeVuln" val="30" />
+			<add order="0x40" stat="bleedVuln" val="30" />
+			<add order="0x40" stat="poisonVuln" val="30" />
+		</for>
+	</skill>
+	<skill id="10507" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10508" levels="8" name="Blood Staff ">
+		<table name="#power"> 18329 18976 20271 21566 22862 24151 25452 26747 </table>
+		<set name="blowChance" val="30" />
+		<set name="castRange" val="40" />
+		<set name="condition" val="16" /> <!-- Crit -->
+		<set name="coolTime" val="720" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1080" />
+		<set name="lethal1" val="10" /> <!-- Half-Kill -->
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="59" />
+		<set name="nextActionAttack" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="overHit" val="true" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="5000" />
+		<set name="skillType" val="BLOW" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="weaponsAllowed" val="Dagger, Dual Dagger" /> <!-- Dagger/Dual Daggers -->
+	</skill>
+	<skill id="10509" levels="8" name="Heart Breaker ">
+		<table name="#power"> 19404 20075 21419 22762 24105 25449 26792 28136 </table>
+		<set name="blowChance" val="30" />
+		<set name="castRange" val="40" />
+		<set name="condition" val="16" /> <!-- Crit -->
+		<set name="coolTime" val="720" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1080" />
+		<set name="lethal1" val="10" /> <!-- Half-Kill -->
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="67" />
+		<set name="nextActionAttack" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="overHit" val="true" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="5000" />
+		<set name="skillType" val="BLOW" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="weaponsAllowed" val="Dagger, Dual Dagger" /> <!-- Dagger/Dual Daggers -->
+		<for>
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="2" abnormalType="speed_up_special">
+				<add order="0x40" stat="runSpd" val="40" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10510" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10511" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10512" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10513" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10514" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10515" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10516" levels="1" name="Chase Shadow">
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="38" />
+		<set name="operateType" val="A1" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="INSTANT_JUMP" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="reuseDelay" val="15000" />
+		<set name="hitTime" val="900" />
+		<for>
+			<effect name="Stun" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="stun" effectPower="40" effectType="STUN" />
+			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" effectType="DEBUFF" />
+		</for>
+	</skill>
+	<skill id="10517" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10518" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10519" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10520" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10521" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10522" levels="1" name="Poison Cloud">
+		<table name="#mpInitialConsume"> 21 </table>
+		<table name="#mpConsume"> 76 </table>
+		<table name="#magicLvl"> 86 </table>
+		<table name="#dot"> 687 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="65" />
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="skillRadius" val="400" />
+		<set name="isDebuff" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="4000" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="POISON" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="500" />
+		<set name="effectRange" val="1000" />
+		<for>
+			<effect count="10" name="DamOverTime" abnormalTime="3" val="#dot" abnormalLvl="8" abnormalType="poison" abnormal="poison" />
+			<effect name="Debuff" abnormalTime="10" val="0" effectPower="80" effectType="DEBUFF" abnormalLvl="4" abnormalType="speed_down">
+				<mul order="0x30" stat="runSpd" val="0.2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10523" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10524" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10525" levels="4" name="Dash Shadow">
+		<table name="#spd"> 40 45 54 66 </table>
+		<set name="mpConsume" val="38" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="60000" />
+		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A1" />
+		<set name="magicLvl" val="85" />
+		<for>
+			<effect name="Buff" abnormalTime="15" val="0">
+				<add order="0x40" stat="runSpd" val="#spd" />
+				<add order="0x40" stat="rEvas" val="10" />
+				<add order="0x40" stat="regHp" val="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10526" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10527" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10528" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10529" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10530" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10531" levels="2" name="Angel Of Death">
+		<table name="#spd"> 30 34 </table>
+		<table name="#pEvas"> 40 45 </table>
+		<table name="#crt"> 1.4 1.45 </table>
+		<set name="mpConsume" val="45" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="127000" />
+		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A1" />
+		<set name="magicLvl" val="85" />
+		<for>
+			<effect name="Buff" abnormalTime="15" val="0">
+				<add order="0x40" stat="runSpd" val="#spd" />
+				<add order="0x40" stat="pSkillEvas" val="#pEvas" />
+				<mul order="0x30" stat="cAtk" val="#crt" />
+				<mul order="0x30" stat="debuffVuln" val="0.2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10532" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10533" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10534" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10535" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10536" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10537" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10538" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10539" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10540" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10541" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10542" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10543" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10544" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10545" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10546" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10547" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10548" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10549" levels="1" name="Kick">
+		<table name="#magicLvl"> 85 </table>
+		<table name="#mpConsume"> 69 </table>
+		<set name="flyRadius" val="270" />
+		<set name="flyType" val="DUMMY" />
+		<set name="power" val="19997" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="6000" />
+		<set name="hitTime" val="1200" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="1" />
+		<set name="effectRange" val="400" />
+		<set name="isDebuff" val="true" />
+		<set name="weaponsAllowed" val="Dagger, Dual Dagger" />
+	</skill>
+	<skill id="10550" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10551" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10552" levels="1" name="Grand Resist">
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<add order="0x40" stat="mDef" val="199" />
+			<add order="0x40" stat="fireRes" val="20" />
+			<add order="0x40" stat="waterRes" val="20" />
+			<add order="0x40" stat="windRes" val="20" />
+			<add order="0x40" stat="earthRes" val="20" />
+		</for>
+	</skill>
+	<skill id="10553" levels="1" name="Last peyisyeonseu">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="10554" levels="1" name="Power Bluff" >
+		<!-- NOT DONE Need more information-->
+		<set name="weaponsAllowed" val="Dagger, Dual Dagger" /> <!-- Dagger/Dual Daggers -->
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="40" />
+		<set name="power" val="40" /> <!-- Base Land Rate -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="AGGREDUCE_CHAR" />
+		<set name="lvlDepend" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="isDebuff" val="true" />
+		<set name="effectRange" val="400" />
+		<set name="reuseDelay" val="8000" />
+		<set name="hitTime" val="1000" />
+		<for>
+			<effect name="Stun" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="stun" effectPower="40" effectType="STUN" />
+			<effect name="Bluff" noicon="1" val="0" />
+			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" effectType="DEBUFF" />
+		</for>
+	</skill>
+</list>
