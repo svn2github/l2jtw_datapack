@@ -2436,7 +2436,7 @@ REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_rad
 (32159,32159,'32159','','',7,16.5,85,'L2Trainer',40,4228,2038,10,5,1000,100,1200,400,900,300,299,4,398,0,50,120,1),
 (32160,32160,'32160','','',8,22,85,'L2VillageMasterDElf',40,4228,2038,10,5,1000,100,1200,400,900,300,299,4,398,0,50,120,1),
 (32161,32161,'32161','','',8,23,85,'L2Trainer',40,4228,2038,10,5,1000,100,1200,400,900,300,299,4,398,0,50,120,1),
-(33359,33359,'33359','','',10,20,85,'L2Npc',40,7324,2797,10,5,1000,100,1200,400,900,300,299,4,398,0,50,160,1),
+(33359,33359,'33359','','',10,20,85,'L2Teleporter',40,7324,2797,10,5,1000,100,1200,400,900,300,299,4,398,0,50,160,1),
 (33490,33490,'33490','','',8,23,85,'L2Npc',40,7324,2797,10,5,1000,100,1200,400,900,300,299,4,398,0,50,120,1),
 (33491,33491,'33491','','',8,22.5,85,'L2Npc',40,7324,2797,10,5,1000,100,1200,400,900,300,299,4,398,0,30,120,1),
 (33685,33685,'33685','','',8,23,85,'L2Npc',40,14612,3567,10,5,1000,100,1200,400,900,300,299,4,398,0,40,120,1),
@@ -3799,7 +3799,24 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (876,1800,3216600,11),
 (877,4560,3216600,12);
 
+-- 清理暫時加入的跳躍點
 DELETE FROM `npc` WHERE (`id` > 61000 AND `id` < 61050);
 DELETE FROM `npcaidata` WHERE (`npcId` > 61000 AND `npcId` < 61050);
 DELETE FROM `npc_elementals` WHERE (`npc_id` > 61000 AND `npc_id` < 61050);
 DELETE FROM `spawnlist` WHERE (`npc_templateid` > 61000 AND `npc_templateid` < 61050);
+
+-- pmq 的支援型根據地
+REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `exp`, `sp`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
+(33360,33360,'33360','','',9,22.25,85,'L2Warehouse',40,7324,198797,10,5,1000,100,1200,400,900,300,299,4,398,0,50,120,1);
+REPLACE INTO `npcaidata` (`npcId`, `agroRange`, `aiType`) VALUES
+(33360,1000,'balanced');
+REPLACE INTO `npc_elementals` VALUES
+(33360,0,0,20,20,20,20,20,20);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (33360);
+REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
+('pmq 的支援型根據地',1,33360,-117489,-116463,-5728,63111,60);
+REPLACE INTO `teleport` (`Description`, `id`, `loc_x`, `loc_y`, `loc_z`, `price`) VALUES
+('進入支援型根據地',3335900,-116352,-116622,-5768,0),
+('亞丁城',3336000,147869,25781,-2008,2000),
+('魯因城',3336001,43039,-48251,-792,2000),
+('離開（說話之島）',3336002,-116309,256636,-1456,0);
