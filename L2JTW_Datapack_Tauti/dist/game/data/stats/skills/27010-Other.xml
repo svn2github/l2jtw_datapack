@@ -13,6 +13,201 @@
 		<set name="target" val="TARGET_SELF"/>
 		<set name="operateType" val="P"/>
 	</skill>
+	<skill id="1901" levels="1" name="Aim">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="3" />
+			<mul order="0x30" stat="rCrit" val="0.97" />
+		</for>
+	</skill>
+	<skill id="1902" levels="1" name="Mental Fortress">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="mDef" val="18" />
+			<add order="0x40" stat="mAtk" val="32" />
+			<add order="0x40" stat="pAtk" val="31" />
+		</for>
+	</skill>
+	<skill id="1903" levels="1" name="HP MP Regen">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="regHp" val="1" />
+			<add order="0x40" stat="regMp" val="1" />
+		</for>
+	</skill>
+	<skill id="1904" levels="1" name="Unbind">
+		<set name="hitTime" val="1000" />
+		<set name="mpConsume" val="43" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="600000" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="counter_skill" >
+				<mul order="0x30" stat="poisonVuln" val="0" />
+				<mul order="0x30" stat="bleedVuln" val="0" />
+				<mul order="0x30" stat="stunVuln" val="0" />
+				<mul order="0x30" stat="rootVuln" val="0" /> 
+			</effect>
+		</for>
+	</skill>
+	<skill id="1905" levels="1" name="Swiftness">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pAtkSpd" val="4" />
+			<add order="0x40" stat="mAtkSpd" val="3" />
+		</for>
+	</skill>
+	<skill id="1906" levels="1" name="Water Blessing">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="waterRes" val="10" />
+			<add order="0x40" stat="regMp" val="2" />
+			<add order="0x40" stat="waterPower" val="10" />
+		</for>
+	</skill>
+	<skill id="1907" levels="1" name="Prevision">
+		<set name="hitTime" val="1000" />
+		<set name="mpConsume" val="43" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="600000" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="counter_skill" >
+				<add order="0x40" stat="pSkillEvas" val="30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="1908" levels="1" name="Delicacy">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="mCritRate" val="10" />
+			<add order="0x40" stat="rCrit" val="15" />
+		</for>
+	</skill>
+	<skill id="1909" levels="1" name="Delicacy">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+	</skill>
+	<skill id="1910" levels="1" name="Dark Presence">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="1" />
+			<add order="0x10" stat="INT" val="1" />
+			<game night="true" />
+		</for>
+	</skill>
+	<skill id="1911" levels="1" name="Wind Blessing">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="windRes" val="10" />
+			<add order="0x40" stat="windPower" val="10" />
+		</for>
+	</skill>
+	<skill id="1913" levels="1" name="Life Siphon">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="absorbDam" val="1" />
+		</for>
+	</skill>
+	<skill id="1914" levels="1" name="Savage">
+		<set name="hitTime" val="1000" />
+		<set name="mpConsume" val="43" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="600000" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="1" abnormalType="counter_skill" >
+				<mul order="0x30" stat="pAtkSpd" val="1.17" />
+				<mul order="0x30" stat="pDef" val="0.85" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="1915" levels="1" name="Fire Blessing">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="fireRes" val="10" />
+			<add order="0x40" stat="firePower" val="10" />
+		</for>
+	</skill>
+	<skill id="1916" levels="1" name="Energetic">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="regHp" val="3" />
+		</for>
+	</skill>
+	<skill id="1919" levels="1" name="Dexterity">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<mul order="0x30" stat="pAtk" val="1.02" /> 
+		</for>
+	</skill>
+	<skill id="1921" levels="1" name="Earth Blessing">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="earthRes" val="10" />
+			<add order="0x40" stat="earthPower" val="10" />
+		</for>
+	</skill>
+	<skill id="1923" levels="1" name="Battle Instinct">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="pvpPhysDmg" val="1.01" />
+		</for>
+	</skill>
+	<skill id="1924" levels="1" name="Dark Blessing">
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x40" stat="darkRes" val="10" />
+			<add order="0x40" stat="darkPower" val="10" />
+		</for>
+	</skill>
+	<skill id="1925" levels="1" name="Soul Protection">
+		<set name="hitTime" val="1000" />
+		<set name="mpConsume" val="43" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="600000" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Buff" abnormalTime="20" val="0" abnormalLvl="1" abnormalType="counter_skill" >
+				<mul order="0x30" stat="debuffVuln" val="0.5" />
+			</effect>
+		</for>
+	</skill>
 	<skill id="1927" levels="1" name="Sigel Aura">
 		<set name="target" val="TARGET_NONE"/>
 		<set name="skillType" val="NOTDONE"/>
