@@ -153,7 +153,8 @@ public class SummonItems implements IItemHandler
 				final L2Object oldTarget = activeChar.getTarget();
 				activeChar.setTarget(activeChar);
 				Broadcast.toSelfAndKnownPlayers(activeChar, new MagicSkillUse(activeChar, 2046, 1, 5000, 0));
-				activeChar.setTarget(oldTarget);
+				if (oldTarget != null) //rocknow-God
+					activeChar.setTarget(oldTarget); //rocknow-God
 				activeChar.sendPacket(new SetupGauge(0, 5000));
 				activeChar.sendPacket(SystemMessageId.SUMMON_A_PET);
 				activeChar.setIsCastingNow(true);
