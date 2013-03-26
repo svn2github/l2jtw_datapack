@@ -19,6 +19,7 @@ import com.l2jserver.gameserver.model.effects.EffectTemplate;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.effects.L2EffectType;
 import com.l2jserver.gameserver.model.stats.Env;
+import com.l2jserver.gameserver.network.SystemMessageId;
 
 public class ChanceSkillTrigger extends L2Effect
 {
@@ -68,8 +69,23 @@ public class ChanceSkillTrigger extends L2Effect
 	@Override
 	public boolean onActionTime()
 	{
+		if (getEffected().isDead())
+			return false;
+		
+		double manaDam = calc();
+		
+		if (manaDam > getEffected().getCurrentMp())
+		{
+			if (getSkill().isToggle())
+			{
+				getEffected().sendPacket(SystemMessageId.SKILL_REMOVED_DUE_LACK_MP);
+				return false;
+			}
+		}
+		
+		getEffected().reduceCurrentMp(manaDam);
 		getEffected().onActionTimeChanceEffect(getSkill().getElement());
-		return false;
+		return true;
 	}
 	
 	@Override
