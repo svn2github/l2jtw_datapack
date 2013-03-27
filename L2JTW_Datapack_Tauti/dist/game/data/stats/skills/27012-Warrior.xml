@@ -257,7 +257,12 @@
 			<effect name="Stun" abnormalTime="4" val="0" effectPower="65" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 		</for>
 	</skill>
-	<skill id="10267" levels="1" name="Hurricane rush">
+	<skill id="10267" levels="6" name="Hurricane rush">
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume">38 39 41 43 44 47</table>
+		<table name="#power">4224 4224 4224 4224 4224 4224</table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
 		<set name="castRange" val="600" />
 		<set name="coolTime" val="200" />
 		<set name="effectRange" val="800" />
@@ -265,12 +270,10 @@
 		<set name="hitTime" val="800" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlDepend" val="1" />
-		<set name="magicLvl" val="85" />
 		<set name="weaponsAllowed" val="Pole, Sword, Blunt, Dual Sword, Big Blunt, Big Sword, Dual Fist" /> <!-- Pole/Sword/Blunt/Dual Sword/Big Blunt/Big Sword/Dual Fist -->
-		<set name="mpConsume" val="78" />
 		<set name="nextActionAttack" val="true" />
 		<set name="operateType" val="A1" />
-		<set name="power" val="4224" />
+		<set name="power" val="#power" />
 		<set name="reuseDelay" val="15000" />
 		<set name="saveVs" val="CON" />
 		<set name="skillRadius" val="700" />
@@ -278,10 +281,10 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<cond msgId="113" addName="1">
-			<target mindistance="150" />
+			<target mindistance="200" />
 		</cond>
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" effectPower="60" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Stun" abnormalTime="3" val="0" effectPower="60" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 		</for>
 	</skill>
 	<skill id="10268" levels="6" name="Peal">
