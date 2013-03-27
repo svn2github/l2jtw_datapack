@@ -594,12 +594,14 @@
 		<set name="staticDamage" val="true" />
 	</skill>
 	<skill id="10288" levels="8" name="Hurricane Storm">
+		<table name="#magicLvl">85 86 88 90 92 94 96 98</table>
 		<table name="#pwr">11557 11956 12754 13553 14351 15150 15948 16747</table>
+		<table name="#mpConsume">161 163 169 175 180 186 192 198</table>
 		<set name="weaponsAllowed" val="Pole, Sword, Blunt, Dual Sword, Big Blunt, Big Sword, Dual Fist" /> <!-- Pole/Sword/Blunt/Dual Sword/Big Blunt/Big Sword/Dual Fist -->
-		<set name="mpConsume" val="161" />
-		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLvl" val="#magicLvl" />
 		<set name="nextActionAttack" val="true" />
-		<set name="power" val="16747" />
+		<set name="power" val="#pwr" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="skillScope" val="fan;80;150" />
 		<set name="skillRadius" val="85" />
@@ -612,6 +614,20 @@
 		<set name="operateType" val="A1" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<for>
+			<mul order="0x30" stat="physicalSkillPower" val="0.9">
+				<and>
+					<using kind="Sword, Blunt, Dual Sword, Big Blunt, Big Sword, Dual Fist" />
+					<using skill="10288" />
+				</and>
+			</mul>
+			<mul order="0x30" stat="physicalSkillPower" val="1.5">
+				<and>
+					<using kind="Pole" />
+					<using skill="10288" />
+				</and>
+			</mul>
+		</for>
 	</skill>
 	<skill id="10289" levels="4" name="courage">
 		<table name="#pvpPhysDmg"> 1.05 1.1 1.15 1.2 </table>
