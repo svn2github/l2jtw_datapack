@@ -591,6 +591,7 @@
 		<set name="skillRadius" val="70" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="A1" />
+		<set name="staticDamage" val="true" />
 	</skill>
 	<skill id="10288" levels="8" name="Hurricane Storm">
 		<table name="#pwr">11557 11956 12754 13553 14351 15150 15948 16747</table>
