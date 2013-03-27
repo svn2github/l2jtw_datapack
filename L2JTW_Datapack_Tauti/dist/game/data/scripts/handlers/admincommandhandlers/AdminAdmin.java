@@ -28,6 +28,7 @@ import com.l2jserver.gameserver.datatables.ItemTable;
 import com.l2jserver.gameserver.datatables.MultiSell;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.datatables.NpcWalkerRoutesData;
+import com.l2jserver.gameserver.datatables.SkillNameTable;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.datatables.SpawnTable;
 import com.l2jserver.gameserver.datatables.TeleportLocationTable;
@@ -245,6 +246,7 @@ public class AdminAdmin implements IAdminCommandHandler
 				else if (type.startsWith("skill"))
 				{
 					SkillTable.getInstance().reload();
+					SkillNameTable.getInstance().reload();
 					activeChar.sendMessage(1380);
 				}
 				else if (type.startsWith("npcId"))
