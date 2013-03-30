@@ -749,8 +749,8 @@
 		</for>
 	</skill>
 	<skill id="11049" levels="2" name="神威滅除">
-		<table name="#desc-LV1">解除目標一個輔助魔法。</table>
-		<table name="#desc-LV2">解除目標最多兩個輔助魔法。</table>
+<!-- 		<table name="#desc-LV1">解除目標一個輔助魔法。</table> -->
+<!-- 		<table name="#desc-LV2">解除目標最多兩個輔助魔法。</table> -->
 		<table name="#magicLvl"> 85 90 </table>
 		<table name="#mpConsume"> 82 91 </table>
 		<table name="#power"> 2000 2200 </table>
