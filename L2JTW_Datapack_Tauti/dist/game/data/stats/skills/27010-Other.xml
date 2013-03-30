@@ -229,11 +229,7 @@
 		<set name="skillRadius" val="600" /> 
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="sigel_force">
-				<mul order="0x30" stat="pAtk" val="200.01">
-					<not>
-						<player active_skill_id="1927" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="pAtk" val="1.01"/>
 			</effect>
 		</for>
 	</skill>
@@ -258,11 +254,7 @@
 		<set name="skillRadius" val="600" /> 
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="tyrr_force">
-				<mul order="0x30" stat="rCrit" val="1.01">
-					<not>
-						<player active_skill_id="1929" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="rCrit" val="1.01"/>
 			</effect>
 		</for>
 	</skill>
@@ -287,11 +279,7 @@
 		<set name="skillRadius" val="600" /> 
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="othell_force">
-				<mul order="0x30" stat="pAtkSpd" val="1.01">
-					<not>
-						<player active_skill_id="1931" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="pAtkSpd" val="1.01"/>
 			</effect>
 		</for>
 	</skill>
@@ -316,11 +304,7 @@
 		<set name="skillRadius" val="600" /> 
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="yul_force">
-				<mul order="0x30" stat="regMp" val="1.5">
-					<not>
-						<player active_skill_id="1933" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="regMp" val="1.5"/>
 			</effect>
 		</for>
 	</skill>
@@ -345,11 +329,7 @@
 		<set name="skillRadius" val="600" /> 
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="feoh_force">
-				<mul order="0x30" stat="mAtkSpd" val="1.01">
-					<not>
-						<player active_skill_id="1935" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="mAtkSpd" val="1.01"/>
 			</effect>
 		</for>
 	</skill>
@@ -374,16 +354,8 @@
 		<set name="skillRadius" val="600" /> 
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="wynn_force">
-				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97">
-					<not>
-						<player active_skill_id="1937" />
-					</not>
-				</mul>
-				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.97">
-					<not>
-						<player active_skill_id="1937" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97"/>
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.97"/>
 			</effect>
 		</for>
 	</skill>
@@ -408,11 +380,7 @@
 		<set name="skillRadius" val="600" /> 
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="aeore_force">
-				<mul order="0x30" stat="mAtk" val="1.01">
-					<not>
-						<player active_skill_id="1939" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="mAtk" val="1.01"/>
 			</effect>
 		</for>
 	</skill>
