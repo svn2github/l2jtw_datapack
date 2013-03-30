@@ -768,26 +768,24 @@
 		<set name="power" val="#power"/>
 		<set name="maxNegated" val="#maxNegated" />
 	</skill>
-	<skill id="11050" levels="1" name="Hellbaund">
-		<set name="hitTime" val="1500" />
-		<set name="isDebuff" val="true" />
-		<set name="isMagic" val="1" />
-		<set name="lvlDepend" val="2" />
-	 	<set name="flyRadius" val="90" />
-	 	<set name="flyType" val="LIFT_UP" />
-	 	<set name="castRange" val="1200" />
-		<set name="magicLvl" val="89" />
-		<set name="mpConsume" val="70" />
-		<set name="mpInitialConsume" val="22" />
-		<set name="operateType" val="A1" />
-		<set name="power" val="500" /> <!-- Base Land Rate -->
-		<set name="reuseDelay" val="300000" />
-		<set name="saveVs" val="MEN" />
-		<set name="skillRadius" val="200" />
+	<skill id="11050" levels="4" name="地獄束縛">
+		<!--table name="#desc-LV1">讓目標飄浮在空中，並使其無法移動。</table-->
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#mpConsume"> 70 76 82 88 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="120000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
 		<set name="skillType" val="DEBUFF" />
-		<set name="target" val="TARGET_ONE" />
 		<for>
-		<effect name="Paralyze" abnormalTime="10" val="0" abnormal="floatroot" abnormalType="paralyze" abnormalLvl="1" />
+			<effect name="AirRoot" abnormalTime="5" val="0" special="s_49" />
 		</for>
 	</skill>
 	<skill id="11052" levels="1" name="Mass Hellbaund">

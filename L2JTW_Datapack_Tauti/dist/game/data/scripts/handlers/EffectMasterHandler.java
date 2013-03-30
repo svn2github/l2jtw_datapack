@@ -15,6 +15,7 @@
 package handlers;
 
 import handlers.effecthandlers.AbortCast;
+import handlers.effecthandlers.AirRoot;
 import handlers.effecthandlers.Betray;
 import handlers.effecthandlers.BigHead;
 import handlers.effecthandlers.BlockResurrection;
@@ -106,6 +107,7 @@ public final class EffectMasterHandler
 	private static final Class<?>[] _effects =
 	{
 		AbortCast.class,
+		AirRoot.class,
 		Betray.class,
 		BigHead.class,
 		BlockResurrection.class,
