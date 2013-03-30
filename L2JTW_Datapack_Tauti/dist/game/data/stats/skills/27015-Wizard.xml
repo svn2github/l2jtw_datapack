@@ -748,17 +748,25 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="11049" levels="2" name="Ignore Divinity">
+	<skill id="11049" levels="2" name="神威滅除">
+		<table name="#desc-LV1">解除目標一個輔助魔法。</table>
+		<table name="#desc-LV2">解除目標最多兩個輔助魔法。</table>
+		<table name="#magicLvl"> 85 90 </table>
 		<table name="#mpConsume"> 82 91 </table>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+		<table name="#power"> 2000 2200 </table>
+		<table name="#maxNegated"> 1 2 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="CANCEL"/>
 		<set name="operateType" val="A1"/>
 		<set name="hitTime" val="3000"/>
 		<set name="reuseDelay" val="300000"/>
 		<set name="castRange" val="900"/>
 		<set name="effectRange" val="1400"/>
 		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="#magicLvl"/>
 		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+		<set name="maxNegated" val="#maxNegated" />
 	</skill>
 	<skill id="11050" levels="1" name="Hellbaund">
 		<set name="hitTime" val="1500" />
