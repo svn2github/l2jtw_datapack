@@ -8,10 +8,10 @@
 		<set name="operateType" val="P" />
 		<for>
 			<mul order="0x30" stat="pAtkSpd" val="1.25">
-				<using kind="Dagger" />
+				<using kind="Dagger,Dual Dagger" />
 			</mul>
 			<add order="0x40" stat="pAtk" val="344">
-				<using kind="Dagger" />
+				<using kind="Dagger,Dual Dagger" />
 			</add>
 		</for>
 	</skill>
