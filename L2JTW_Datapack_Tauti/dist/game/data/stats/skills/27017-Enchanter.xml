@@ -94,25 +94,36 @@
 			<effect name="Stun" abnormalTime="1" val="0" abnormalLvl="1" abnormalType="stun" />
 		</for>
 	</skill>
-	<skill id="11509" levels="8" name="The main attack">
-		<table name="#pwr"> 8268 8556 9134 9711 10288 10866 11443 12020 </table>
-		<set name="mpConsume" val="46" />
-		<set name="power" val="#pwr" />
-		<set name="coolTime" val="200" />
-		<set name="magicLvl" val="85" />
-		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
-		<set name="target" val="TARGET_ONE" />
-		<set name="reuseDelay" val="7000" />
-		<set name="hitTime" val="1080" />
-		<set name="isDebuff" val="true" />
-		<set name="saveVs" val="MEN" />
+	<skill id="11509" levels="8" name="突襲攻擊">
+	<!--
+		<table name="#desc-LV1">在物理攻擊力增加威力8268來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力8556來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力9134來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力9711來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力10288來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV6">在物理攻擊力增加威力10866來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV7">在物理攻擊力增加威力11443來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV8">在物理攻擊力增加威力12020來攻擊目標，並在10秒內降低物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+	-->	
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 46 47 48 50 52 53 55 57 </table>
+		<table name="#power"> 8268 8556 9134 9711 10288 10866 11443 12020 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="910"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="7000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+		<set name="weaponsAllowed" val="Big Sword, Sword, Blunt, Dual Sword, Big Blunt, Dual Blunt" />
 		<set name="nextActionAttack" val="true" />
-		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="A1" />
-		<set name="castRange" val="40" />
-		<set name="effectRange" val="400" />
 		<for>
-			<effect name="Debuff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="speed_down">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="speed_down">
 				<mul order="0x30" stat="pDef" val="0.70" />
 				<mul order="0x30" stat="mDef" val="0.70" />
 				<sub order="0x40" stat="rEvas" val="10" />
