@@ -169,28 +169,39 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 	</skill>
-	<skill id="11513" levels="8" name="Burn">
-		<table name="#pwr"> 10263 10616 11322 12027 12733 13438 14144 14849 </table>
-		<set name="power" val="#pwr" />
-		<set name="mpConsume" val="130" />
-		<set name="coolTime" val="200" />
-		<set name="magicLvl" val="85" />
-		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
-		<set name="target" val="TARGET_AURA" />
-		<set name="reuseDelay" val="10000" />
-		<set name="hitTime" val="1080" />
-		<set name="isDebuff" val="true" />
-		<set name="saveVs" val="MEN" />
+	<skill id="11513" levels="8" name="赤焰刺擊">
+	<!--
+		<table name="#desc-LV1">在物理攻擊力增加威力10263來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力10616來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力11322來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力12027來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力12733來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV6">在物理攻擊力增加威力13438來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV7">在物理攻擊力增加威力14144來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV8">在物理攻擊力增加威力14849來攻擊目標和目標周圍的敵群，並在10秒內降低目標的物理防禦力和魔法防禦力30%、物理迴避能力10。PVP時降低各自的詛咒魔法威力10%。裝備刀劍/鈍器/雙刀/雙鈍器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+	-->
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 130 132 136 142 146 150 156 160 </table>
+		<table name="#power"> 10263 10616 11322 12027 12733 13438 14144 14849 </table>
+		<set name="target" val="TARGET_AURA"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1210"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+		<set name="weaponsAllowed" val="Big Sword, Sword, Blunt, Dual Sword, Big Blunt, Dual Blunt" />
 		<set name="nextActionAttack" val="true" />
-		<set name="skillType" val="PDAM" />
-		<set name="operateType" val="A1" />
-		<set name="castRange" val="40" />
-		<set name="effectRange" val="400" />
 		<for>
-			<effect name="Debuff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="speed_down">
-				<mul order="0x30" stat="mDef" val="0.30" />
-				<mul order="0x30" stat="pDef" val="0.30" />
-				<mul order="0x30" stat="rEvas" val="0.10" />
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="speed_down">
+				<mul order="0x30" stat="mDef" val="0.70" />
+				<mul order="0x30" stat="pDef" val="0.70" />
+				<sub order="0x40" stat="rEvas" val="10" />
 			</effect>
 		</for>
 	</skill>
