@@ -228,7 +228,7 @@
 		<set name="magicLvl" val="85"/>
 		<set name="skillRadius" val="600" /> 
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="sigel_force">
+			<effect count="2" name="Buff" abnormalTime="5" val="0" abnormalLvl="85" abnormalType="sigel_force">
 				<mul order="0x30" stat="pAtk" val="1.01"/>
 			</effect>
 		</for>
@@ -253,7 +253,7 @@
 		<set name="magicLvl" val="85"/>
 		<set name="skillRadius" val="600" /> 
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="tyrr_force">
+			<effect count="2" name="Buff" abnormalTime="5" val="0" abnormalLvl="85" abnormalType="tyrr_force">
 				<mul order="0x30" stat="rCrit" val="1.01"/>
 			</effect>
 		</for>
@@ -278,7 +278,7 @@
 		<set name="magicLvl" val="85"/>
 		<set name="skillRadius" val="600" /> 
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="othell_force">
+			<effect count="2" name="Buff" abnormalTime="5" val="0" abnormalLvl="85" abnormalType="othell_force">
 				<mul order="0x30" stat="pAtkSpd" val="1.01"/>
 			</effect>
 		</for>
@@ -303,7 +303,7 @@
 		<set name="magicLvl" val="85"/>
 		<set name="skillRadius" val="600" /> 
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="yul_force">
+			<effect count="2" name="Buff" abnormalTime="5" val="0" abnormalLvl="85" abnormalType="yul_force">
 				<mul order="0x30" stat="regMp" val="1.5"/>
 			</effect>
 		</for>
@@ -328,7 +328,7 @@
 		<set name="magicLvl" val="85"/>
 		<set name="skillRadius" val="600" /> 
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="feoh_force">
+			<effect count="2" name="Buff" abnormalTime="5" val="0" abnormalLvl="85" abnormalType="feoh_force">
 				<mul order="0x30" stat="mAtkSpd" val="1.01"/>
 			</effect>
 		</for>
@@ -353,7 +353,7 @@
 		<set name="magicLvl" val="85"/>
 		<set name="skillRadius" val="600" /> 
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="wynn_force">
+			<effect count="2" name="Buff" abnormalTime="5" val="0" abnormalLvl="85" abnormalType="wynn_force">
 				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97"/>
 				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.97"/>
 			</effect>
@@ -379,7 +379,7 @@
 		<set name="magicLvl" val="85"/>
 		<set name="skillRadius" val="600" /> 
 		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="85" abnormalType="aeore_force">
+			<effect count="2" name="Buff" abnormalTime="5" val="0" abnormalLvl="85" abnormalType="aeore_force">
 				<mul order="0x30" stat="mAtk" val="1.01"/>
 			</effect>
 		</for>
