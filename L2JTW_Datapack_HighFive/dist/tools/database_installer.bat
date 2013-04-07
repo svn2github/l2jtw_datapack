@@ -1,4 +1,153 @@
 @echo off
+REM ÀË¬d¬O§_¦s¦b GS ¤ä´©ªºª©¥»¸ê°T
+set dp_err=0
+if not exist ..\doc\L2J_Server_Ver.txt echo ¨S¦³µo²{ GS ¤ä´©ªºª©¥»¸ê°T¡I
+if not exist ..\doc\L2J_Server_Ver.txt echo ½Ð¦A¤@¦¸¡G§ó·s GS ¡÷ ½sÄ¶ GS ¡÷ ¸ÑÀ£ÁY GS ¡÷ ³]©w Config
+if not exist ..\doc\L2J_Server_Ver.txt echo.
+if not exist ..\doc\L2J_Server_Ver.txt pause
+if not exist ..\doc\L2J_Server_Ver.txt goto end
+REM ¨ú±o GS ¤ä´©ªºª©¥»¸ê°T
+FOR /F %%g IN (..\doc\L2J_Server_Ver.txt) DO set vgs=%%g
+REM ÀË¬d GS ¤ä´©ªºª©¥»¸ê°T
+if not %vgs% == High_Five echo µLªkÄ~Äò¦w¸Ë¸ê®Æ®w¡A¦]¬°¡G
+if not %vgs% == High_Five echo GS ¤ä´©ªºª©¥»¬O¡G%vgs%
+if not %vgs% == High_Five echo DP ¤ä´©ªºª©¥»¬O¡GHigh_Five
+if not %vgs% == High_Five echo ½Ð½T©w GS ©M DP ³£¨Ï¥Î¬Û¦Pªºª©¥»«á¡A¦A¸Õ¤@¦¸
+if not %vgs% == High_Five echo.
+if not %vgs% == High_Five pause
+if not %vgs% == High_Five goto end
+
+REM ¥\¯à»¡©ú¡G¨C¹j¤@¬q®É¶¡§R°£ libs ©M§Ö¨ú¡A¥H¨¾¤î GS ¥X¿ù
+if not exist ..\libs\*.jar echo ±z¥²¶·­«·s¸ÑÀ£ÁY¡u½sÄ¶§¹¦¨¡vªº GS¡A¤~¥i¥HÄ~Äò¦w¸Ë¸ê®Æ®w
+if not exist ..\libs\*.jar echo.
+if not exist ..\libs\*.jar pause
+if not exist ..\libs\*.jar exit
+
+REM ¦pªG libs §Ö¨ú¤£¦s¦b¡Aªí¥ÜÁÙ¨S¦³±Ò°Ê¹L¦øªA¾¹¡A«h¸õ¹LÀË¬d
+if not exist ..\libs\cachedir\ md ..\libs\cachedir\
+if not exist ..\libs\cachedir\packages\*.pkc goto _lib_update
+
+REM ¦pªG log ¤£¦s¦b¡Aªí¥ÜÁÙ¨S¦³±Ò°Ê¹L¦øªA¾¹¡A«h¸õ¹LÀË¬d
+if not exist ..\game\log\*.log goto _lib_update
+
+REM ------------------------------------------------------
+REM _lib_check1 ªºÀË¬d ¶}©l
+REM ¦pªG Windows ªº CMD ª©¥»¸ê°T¤w¦s¦b¡A«h¸õ¨ìÀË¬d1
+if exist ..\libs\cachedir\check_w_ver.txt goto _lib_check1
+
+REM ¦pªG Windows ªº CMD ª©¥»¸ê°T¤£¦s¦b¡A«h«Ø¥ß¸ê°T
+ver > ..\libs\cachedir\check_w_ver.txt
+goto _lib_del
+
+:_lib_check1
+REM ¨ú±o¥Ø«eªº Windows CMD ª©¥»¸ê°T
+ver > %temp%\check.txt
+FOR /F "skip=1 delims=*" %%a IN (%temp%\check.txt) do set aaa=%%a
+
+REM ¨ú±o¤w¦s¦bªº Windows CMD ª©¥»¸ê°T
+FOR /F "skip=1 delims=*" %%b IN (..\libs\cachedir\check_w_ver.txt) do set bbb=%%b
+
+REM ¤ñ¸û Windows ªº CMD ª©¥»¸ê°T
+if "%aaa%"=="%bbb%" goto _lib_check2
+echo ¦]¬°±zªº Windows ª©¥»¦³§ó·s¡A©Ò¥H¥²¶·§R°£ÂÂªº libs ©M§Ö¨ú¡A¥H¨¾¤î GS ¥X¿ù
+echo.
+pause
+goto _lib_del
+REM _lib_check1 ªºÀË¬d µ²§ô
+REM ------------------------------------------------------
+
+
+REM ------------------------------------------------------
+REM _lib_check2 ªºÀË¬d ¶}©l
+REM ¦pªG Java ¸ô®|¤£¦s¦b¡A«h¸õ¨ì¤U¤@­ÓÀË¬d
+if not exist "%ProgramFiles%\Java\jdk1.7.*" goto _lib_check3
+
+REM ¦pªG Java ª©¥»¸ê°T¤w¦s¦b¡A«h¸õ¨ìÀË¬d2
+if exist ..\libs\cachedir\check_j_ver.txt goto _lib_check2
+
+REM ¦pªG Java ª©¥»¸ê°T¤£¦s¦b¡A«h«Ø¥ß¸ê°T
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > ..\libs\cachedir\check_j_ver.txt
+goto _lib_del
+
+:_lib_check2
+REM ¨ú±o¥Ø«eªº Java ª©¥»¸ê°T
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > %temp%\check.txt
+FOR /F %%j IN (%temp%\check.txt) DO set jjj=%%j
+
+REM ¨ú±o¤w¦s¦bªº Java ª©¥»¸ê°T
+FOR /F %%k IN (..\libs\cachedir\check_j_ver.txt) do set kkk=%%k
+
+REM ¤ñ¸û Java ª©¥»¸ê°T
+if "%jjj%"=="%kkk%" goto _lib_check3
+echo ¦]¬°±zªº Java ª©¥»¦³§ó·s¡A©Ò¥H¥²¶·§R°£ÂÂªº libs ©M§Ö¨ú¡A¥H¨¾¤î GS ¥X¿ù
+echo.
+pause
+goto _lib_del
+REM _lib_check2 ªºÀË¬d µ²§ô
+REM ------------------------------------------------------
+
+
+REM ------------------------------------------------------
+REM _lib_check3 ªºÀË¬d ¶}©l
+REM ¦pªG ¤é´Á-¤ë¥÷ ªº¸ê°T¤w¦s¦b¡A«h¸õ¨ìÀË¬d3
+if exist ..\libs\cachedir\check_d_ver.txt goto _lib_check3
+
+REM ¦pªG ¤é´Á-¤ë¥÷ ªº¸ê°T¤£¦s¦b¡A«h«Ø¥ß¸ê°T
+date/t > ..\libs\cachedir\check_d_ver.txt
+goto _lib_del
+
+:_lib_check3
+REM ¨ú±o¥Ø«eªº ¤é´Á-¤ë¥÷ ¸ê°T
+date/t > %temp%\check.txt
+FOR /F "tokens=2 delims=/" %%d IN (%temp%\check.txt) DO set ddd=%%d
+
+REM ¨ú±o¤w¦s¦bªº ¤é´Á-¤ë¥÷ ¸ê°T
+FOR /F "tokens=2 delims=/" %%m IN (..\libs\cachedir\check_d_ver.txt) do set mmm=%%m
+
+REM ¤ñ¸û ¤é´Á-¤ë¥÷ ¸ê°T
+if "%ddd%"=="%mmm%" goto _lib_end
+echo ¦¹¬°¨C­Ó¤ë¦Û°Ê²M²zÂÂªº libs ©M§Ö¨ú¡A¥H¨¾¤î GS ¥X¿ù
+echo.
+pause
+goto _lib_del
+REM _lib_check3 ªºÀË¬d µ²§ô
+REM ------------------------------------------------------
+
+
+REM ------------------------------------------------------
+:_lib_del
+echo.
+if not exist ..\libs\backup\ md ..\libs\backup\
+copy ..\libs\*.* ..\libs\backup\ /Y > nul
+del ..\libs\*.* /F /Q > nul
+del ..\libs\cachedir\packages\*.* /F /Q > nul
+if exist ..\libs\*.jar echo µLªk§R°£ libs ©M§Ö¨ú¡I½Ð¥ýÃö³¬¦øªA¾¹©Î­«·s¶}¾÷¡AµM«á¦A¸Õ¤@¦¸
+if exist ..\libs\*.jar echo.
+if exist ..\libs\*.jar pause
+if exist ..\libs\*.jar exit
+if exist ..\libs\cachedir\packages\*.pkc echo µLªk§R°£ libs ©M§Ö¨ú¡I½Ð¥ýÃö³¬¦øªA¾¹©Î­«·s¶}¾÷¡AµM«á¦A¸Õ¤@¦¸
+if exist ..\libs\cachedir\packages\*.pkc echo.
+if exist ..\libs\cachedir\packages\*.pkc pause
+if exist ..\libs\cachedir\packages\*.pkc exit
+ver > ..\libs\cachedir\check_w_ver.txt
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > ..\libs\cachedir\check_j_ver.txt
+date/t > ..\libs\cachedir\check_d_ver.txt
+CLS
+echo ÂÂªº libs ©M§Ö¨ú²M²z§¹²¦¡I
+echo ±z¥²¶·­«·s¸ÑÀ£ÁY¡u½sÄ¶§¹¦¨¡vªº GS¡A¤~¥i¥HÄ~Äò¦w¸Ë¸ê®Æ®w
+echo.
+pause
+exit
+
+:_lib_update
+ver > ..\libs\cachedir\check_w_ver.txt
+dir "%ProgramFiles%\Java\jdk1.7.*" /A:D /B /O > ..\libs\cachedir\check_j_ver.txt
+date/t > ..\libs\cachedir\check_d_ver.txt
+
+:_lib_end
+REM ------------------------------------------------------
+
+
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
@@ -689,6 +838,7 @@ if %logging% == 0 set output=NUL
 set dest=gs
 for %%i in (..\sql\game\*.sql) do call :dump %%i
 for %%i in (..\sql\game\mods\*.sql) do call :dump %%i
+for %%i in (..\sql\game\custom\*.sql) do call :dump %%i
 for %%i in (..\sql\L2JTW\*.sql) do call :dump %%i
 
 echo §¹¦¨...
@@ -718,6 +868,11 @@ if %logging%==0 if NOT %ERRORLEVEL%==0 call :omfg2 %1
 goto :eof
 
 :omfg2
+REM ------------------------------------------------------
+REM ¸ê®Æ®w¦w¸Ë¹Lµ{¤¤µo¥Í¿ù»~
+set dp_err=1
+echo ¸ê®Æ®w¦w¸Ë¹Lµ{¤¤µo¥Í¿ù»~> ..\doc\L2J_DataPack_Ver.txt
+REM ------------------------------------------------------
 cls
 set ntpebcak=c
 call :colors 47
@@ -741,6 +896,7 @@ echo.
 set /p ntpebcak=½Ð¿ï¾Ü¡]¹w³]­È-Ä~Äò¡^:
 if /i %ntpebcak%==c (call :colors 17 & goto :eof)
 if /i %ntpebcak%==l (call :logginon %1 & goto :eof)
+if /i %ntpebcak%==r set dp_err=0
 if /i %ntpebcak%==r (call :configure & exit)
 if /i %ntpebcak%==q (call :end)
 goto omfg2
@@ -826,9 +982,18 @@ for %%i in (..\sql\game\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser
 call temp.bat> nul
 del temp.bat
 move mods_errors.log %workdir%
+REM ------------------------------------------------------
+REM ¸ê®Æ®w¦w¸Ë§¹¦¨
+if not %dp_err% == 1 set dp_err=2
+REM ------------------------------------------------------
 goto end
 
 :omfg
+REM ------------------------------------------------------
+REM ¸ê®Æ®w¦w¸Ë¹Lµ{¤¤µo¥Í¿ù»~
+set dp_err=1
+echo ¸ê®Æ®w¦w¸Ë¹Lµ{¤¤µo¥Í¿ù»~> ..\doc\L2J_DataPack_Ver.txt
+REM ------------------------------------------------------
 set omfgprompt=q
 call :colors 57
 cls
@@ -855,6 +1020,7 @@ echo (q)°h¥X
 echo.
 set /p omfgprompt=½Ð¿ï¾Ü¡]¹w³]­È-°h¥X¡^:
 if /i %omfgprompt%==c goto %label%
+if /i %omfgprompt%==r set dp_err=0
 if /i %omfgprompt%==r goto configure
 if /i %omfgprompt%==q goto end
 goto omfg
@@ -864,6 +1030,10 @@ if EXIST "%mysqlBinPath%" (echo §ä¨ìªº MySQL) else (echo ¨S¦³§ä¨ì MySQL¡A½Ð¦b¤U­
 goto :eof
 
 :end
+REM ------------------------------------------------------
+REM Àx¦s DP ¤ä´©ªºª©¥»¸ê°T
+if %dp_err% == 2 echo High_Five> ..\doc\L2J_DataPack_Ver.txt
+REM ------------------------------------------------------
 call :colors 17
 title L2JTW DataPack ¦w¸Ë - For¡GL2JTW GameServer HighFive Alpha
 cls
