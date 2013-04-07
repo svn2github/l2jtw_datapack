@@ -766,25 +766,79 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
 	</skill>
-	<skill id="10043" levels="1" name="Summon Crystal Knight">
-		<!-- Spectral Master's Smart Cubic -->
-		<set name="hitTime" val="6000" />
+	<skill id="10043" levels="8" name="召喚幻影晶體">
+<!-- 		<table name="#desc-LV1">召喚騎士晶體。召喚出來的晶體將協助解除召喚者的詛咒魔法。</table> -->
+<!-- 		<table name="#desc-LV2">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態3秒鐘。</table> -->
+<!-- 		<table name="#desc-LV3">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘。</table> -->
+<!-- 		<table name="#desc-LV4">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力500。</table> -->
+<!-- 		<table name="#desc-LV5">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table> -->
+<!-- 		<table name="#desc-LV6">召喚騎士晶體。召喚出來的晶體將會恢復HP最大值3%、解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table> -->
+<!-- 		<table name="#desc-LV7">召喚騎士晶體。召喚出來的晶體將會恢復HP最大值6%、解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table> -->
+<!-- 		<table name="#desc-LV8">召喚騎士晶體。召喚出來的晶體將會恢復HP最大值10%、解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table> -->
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 96 98 101 105 108 111 115 118 </table>
+		<table name="#HealPercent"> 0 0 0 0 0 3 6 10 </table>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2200"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
 		<set name="isMagic" val="1" />
-		<set name="magicLvl" val="80" />
-		<set name="mpConsume" val="59" />
-		<set name="mpInitialConsume" val="14" />
-		<set name="operateType" val="A1" />
-		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="SUMMON" />
 		<set name="target" val="TARGET_SELF" />
 		<!-- Summon-specific -->
 		<set name="activationchance" val="30" />
 		<set name="activationtime" val="13" />
-		<set name="maxcount" val="30" />
+		<set name="maxcount" val="3000" />
 		<set name="power" val="700" />
 		<set name="isCubic" val="true" />
-		<set name="npcId" val="14" /> <!-- Cubic Id -->
+		<set name="npcId" val="15" /> <!-- Cubic Id --><!-- GS support -->
 		<set name="summonTotalLifeTime" val="900000" />
+		<for>
+			<effect name="HealPercent" noicon="1" val="#HealPercent" /><!-- not done -->
+		</for>
+	</skill>
+	<skill id="10056" levels="8" name="晶體加護">
+	<!--
+		none
+		在3秒內對惡性異常狀態呈現免疫狀態。
+		在6秒內對惡性異常狀態呈現免疫狀態。
+		在6秒內對惡性異常狀態呈現免疫狀態，並增加物理防禦力500。
+		在6秒內對惡性異常狀態呈現免疫狀態，並增加物理防禦力/魔法防禦力500。
+		在6秒內對惡性異常狀態呈現免疫狀態，並增加物理防禦力/魔法防禦力500。
+		在6秒內對惡性異常狀態呈現免疫狀態，並增加物理防禦力/魔法防禦力500。
+		在6秒內對惡性異常狀態呈現免疫狀態，並增加物理防禦力/魔法防禦力500。
+	-->
+		<table name="#abnormalTime"> 0 3 6 6 6 6 6 6 </table>
+		<table name="#debuffImmunity"> 0 1 1 1 1 1 1 1 </table>
+		<table name="#pDef"> 0 0 0 500 500 500 500 500 </table>
+		<table name="#mDef"> 0 0 0 0 500 500 500 500 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="operateType" val="A2" />
+		<set name="skillType" val="BUFF" />
+		<set name="isTriggeredSkill" val="true" />
+		<for>
+			<effect name="Buff" abnormalTime="#abnormalTime" val="0" abnormalLvl="3" abnormalType="abnormal_invincibility">
+				<set order="0x08" stat="debuffImmunity" val="#debuffImmunity" />
+			</effect>
+			<effect name="Buff" abnormalTime="#abnormalTime" val="0" noicon="1">
+				<add order="0x40" stat="pDef" val="#pDef" />
+				<add order="0x40" stat="mDef" val="#mDef" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="11292" levels="8" name="晶體淨罪">
+	<!--
+	解除自己身上的詛咒魔法。
+	-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="operateType" val="A2" />
+		<set name="skillType" val="BUFF" />
+		<set name="isTriggeredSkill" val="true" />
+		<for>
+			<effect name="CancelDebuff" noicon="1" val="0" effectType="CANCEL_DEBUFF" />
+		</for>
 	</skill>
 	<skill id="10044" levels="1" name="Elemental Protection">
 		<!-- Element 21 22 23 24 25 26 27 28 29 30 -lvl 100+ -->
