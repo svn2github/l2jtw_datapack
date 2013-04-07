@@ -1,4 +1,22 @@
 @echo off
+REM ÀË¬d¬O§_¦s¦b GS ¤ä´©ªºª©¥»¸ê°T
+set dp_err=0
+if not exist ..\doc\L2J_Server_Ver.txt echo ¨S¦³µo²{ GS ¤ä´©ªºª©¥»¸ê°T¡I
+if not exist ..\doc\L2J_Server_Ver.txt echo ½Ð¦A¤@¦¸¡G§ó·s GS ¡÷ ½sÄ¶ GS ¡÷ ¸ÑÀ£ÁY GS ¡÷ ³]©w Config
+if not exist ..\doc\L2J_Server_Ver.txt echo.
+if not exist ..\doc\L2J_Server_Ver.txt pause
+if not exist ..\doc\L2J_Server_Ver.txt goto end
+REM ¨ú±o GS ¤ä´©ªºª©¥»¸ê°T
+FOR /F %%g IN (..\doc\L2J_Server_Ver.txt) DO set vgs=%%g
+REM ÀË¬d GS ¤ä´©ªºª©¥»¸ê°T
+if not %vgs% == Tauti echo µLªkÄ~Äò¦w¸Ë DP¡A¦]¬°¡G
+if not %vgs% == Tauti echo GS ¤ä´©ªºª©¥»¬O¡G%vgs%
+if not %vgs% == Tauti echo DP ¤ä´©ªºª©¥»¬O¡GTauti
+if not %vgs% == Tauti echo ½Ð½T©w GS ©M DP ³£¨Ï¥Î¬Û¦Pªºª©¥»«á¡A¦A¸Õ¤@¦¸
+if not %vgs% == Tauti echo.
+if not %vgs% == Tauti pause
+if not %vgs% == Tauti goto end
+
 REM ¥\¯à»¡©ú¡G¨C¹j¤@¬q®É¶¡§R°£ libs ©M§Ö¨ú¡A¥H¨¾¤î GS ¥X¿ù
 if not exist ..\libs\*.jar echo ±z¥²¶·­«·s¸ÑÀ£ÁY¡u½sÄ¶§¹¦¨¡vªº GS¡A¤~¥i¥HÄ~Äò¦w¸Ë¸ê®Æ®w
 if not exist ..\libs\*.jar echo.
@@ -203,7 +221,7 @@ goto loadconfig
 
 :colors
 if /i "%cmode%"=="n" (
-if not "%1"=="17" (	color F ) else ( color )
+if not "%1"=="17" (	color F	) else ( color )
 ) else ( color %1 )
 goto :eof
 
@@ -850,6 +868,10 @@ if %logging%==0 if NOT %ERRORLEVEL%==0 call :omfg2 %1
 goto :eof
 
 :omfg2
+REM ------------------------------------------------------
+REM ¨S¦³¥¿½T¦w¸Ë DP
+set dp_err=1
+REM ------------------------------------------------------
 cls
 set ntpebcak=c
 call :colors 47
@@ -873,6 +895,7 @@ echo.
 set /p ntpebcak=½Ð¿ï¾Ü¡]¹w³]­È-Ä~Äò¡^:
 if /i %ntpebcak%==c (call :colors 17 & goto :eof)
 if /i %ntpebcak%==l (call :logginon %1 & goto :eof)
+if /i %ntpebcak%==r set dp_err=0
 if /i %ntpebcak%==r (call :configure & exit)
 if /i %ntpebcak%==q (call :end)
 goto omfg2
@@ -958,9 +981,17 @@ for %%i in (..\sql\game\mods\*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser
 call temp.bat> nul
 del temp.bat
 move mods_errors.log %workdir%
+REM ------------------------------------------------------
+REM §¹¦¨¦w¸Ë DP
+if not %dp_err% == 1 set dp_err=2
+REM ------------------------------------------------------
 goto end
 
 :omfg
+REM ------------------------------------------------------
+REM ¨S¦³¥¿½T¦w¸Ë DP
+set dp_err=1
+REM ------------------------------------------------------
 set omfgprompt=q
 call :colors 57
 cls
@@ -987,6 +1018,7 @@ echo (q)°h¥X
 echo.
 set /p omfgprompt=½Ð¿ï¾Ü¡]¹w³]­È-°h¥X¡^:
 if /i %omfgprompt%==c goto %label%
+if /i %omfgprompt%==r set dp_err=0
 if /i %omfgprompt%==r goto configure
 if /i %omfgprompt%==q goto end
 goto omfg
@@ -996,6 +1028,10 @@ if EXIST "%mysqlBinPath%" (echo §ä¨ìªº MySQL) else (echo ¨S¦³§ä¨ì MySQL¡A½Ð¦b¤U­
 goto :eof
 
 :end
+REM ------------------------------------------------------
+REM Àx¦s DP ¤ä´©ªºª©¥»¸ê°T
+if %dp_err% == 2 echo Tauti> ..\doc\L2J_DataPack_Ver.txt
+REM ------------------------------------------------------
 call :colors 17
 title L2JTW DataPack ¦w¸Ë - For¡GL2JTW GameServer HighFive Alpha
 cls
