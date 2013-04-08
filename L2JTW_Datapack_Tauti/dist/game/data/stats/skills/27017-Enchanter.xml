@@ -952,7 +952,7 @@
 		<set name="reuseDelay" val="30000"/>
 		<set name="castRange" val="900"/>
 		<set name="effectRange" val="1400"/>
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="isMagic" val="1" />
 		<set name="magicLvl" val="#magicLvl"/>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
