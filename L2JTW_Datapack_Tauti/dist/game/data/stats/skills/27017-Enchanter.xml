@@ -929,26 +929,37 @@
 		<set name="reuseDelay" val="3000"/>
 		<set name="mpConsume" val="60"/>
 	</skill>
-	<skill id="11563" levels="1" name="Quick Return">
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+	<skill id="11563" levels="1" name="快速回歸">
+<!-- 		<table name="#desc-LV1">傳送到村莊。在GM諮詢處等地的特殊區域無法使用。</table> -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="RECALL" />
 		<set name="operateType" val="A1"/>
 		<set name="hitTime" val="2500"/>
 		<set name="reuseDelay" val="75000"/>
 		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="85"/>
 		<set name="mpConsume" val="60"/>
 	</skill>
-	<skill id="11564" levels="3" name="Angel's Resurrection">
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+	<skill id="11564" levels="3" name="天靈返生術">
+<!-- 		<table name="#desc-LV1">可使死亡的目標復活，並額外恢復經驗值40%。</table> -->
+<!-- 		<table name="#desc-LV2">可使死亡的目標復活，並額外恢復經驗值50%。</table> -->
+<!-- 		<table name="#desc-LV3">可使死亡的目標復活，並額外恢復經驗值60%。</table> -->
+		<table name="#mpConsume"> 60 62 65 </table>
+		<table name="#power"> 40 50 60 </table>
+		<table name="#magicLvl"> 85 90 95 </table>
 		<set name="operateType" val="A1"/>
 		<set name="hitTime" val="3000"/>
 		<set name="reuseDelay" val="30000"/>
 		<set name="castRange" val="900"/>
 		<set name="effectRange" val="1400"/>
-		<set name="isMagic" val="1"/>
-		<set name="mpConsume" val="60"/>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_CORPSE_PLAYER" />
+		<set name="skillType" val="RESURRECT" />
 	</skill>
+	
 	<skill id="11565" levels="1" name="Divine Resist">
 		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="140" />
@@ -1004,16 +1015,21 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="11570" levels="1" name="Healing Melody">
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+	<skill id="11570" levels="1" name="加持之詩">
+<!-- 		<table name="#desc-LV1">按照HP偏低的順序，將目標和目標周圍的我軍最多恢復至10名。此時所恢復的HP恢復量，將會按照接受效果的順序，由35%依次降低。</table> -->
 		<set name="operateType" val="A1"/>
 		<set name="hitTime" val="2000"/>
 		<set name="reuseDelay" val="5000"/>
 		<set name="castRange" val="900"/>
 		<set name="effectRange" val="1400"/>
 		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="85"/>
 		<set name="mpConsume" val="194"/>
+		<set name="power" val="30" />
+		<set name="aggroPoints" val="398" />
+		<set name="maxTargets" val="10" /><!-- 最大目标十个 -->
+		<set name="skillType" val="CHAIN_HEAL" />
+		<set name="target" val="TARGET_ALLY" />
 	</skill>
 	<skill id="11571" levels="1" name="Recovery Poem">
 		<set name="mpConsume" val="120" />
