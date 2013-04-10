@@ -1,0 +1,1 @@
+ALTER TABLE `character_summons`	DROP PRIMARY KEY, ADD INDEX `Index 1` (`ownerId`);
