@@ -23,6 +23,7 @@ import com.l2jserver.gameserver.handler.ITargetTypeHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Playable;
+import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.TvTEvent;
 import com.l2jserver.gameserver.model.skills.L2Skill;
@@ -50,8 +51,13 @@ public class TargetCorpseAlly implements ITargetTypeHandler
 			
 			final int radius = skill.getSkillRadius();
 			
-			if (L2Skill.addSummon(activeChar, player, radius, true))
-				targetList.add(player.getPet());
+			for(L2Summon s : player.getPets())
+			{
+				if(L2Skill.addCharacter(activeChar, s, radius, false))
+				{
+					targetList.add(s);
+				}
+			}
 			
 			if (player.getClan() != null)
 			{
@@ -82,10 +88,15 @@ public class TargetCorpseAlly implements ITargetTypeHandler
 						
 						if (!TvTEvent.checkForTvTSkill(player, obj, skill))
 							continue;
-						
-						if (!onlyFirst && L2Skill.addSummon(activeChar, obj, radius, true))
-							targetList.add(obj.getPet());
-						
+
+						for(L2Summon s : obj.getPets())
+						{
+							if(!onlyFirst && L2Skill.addCharacter(activeChar, s, radius, false))
+							{
+								targetList.add(s);
+							}
+						}
+
 						if (!L2Skill.addCharacter(activeChar, obj, radius, true))
 							continue;
 						

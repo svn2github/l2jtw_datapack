@@ -30,7 +30,9 @@ public class TargetPet implements ITargetTypeHandler
 	{
 		target = activeChar.getPet();
 		if (target != null && !target.isDead())
-			return new L2Character[] { target };
+			//return new L2Character[] { target };
+			
+			return activeChar.getPets().toArray(new L2Character[activeChar.getPets().size()]);
 		
 		return _emptyTargetList;
 	}

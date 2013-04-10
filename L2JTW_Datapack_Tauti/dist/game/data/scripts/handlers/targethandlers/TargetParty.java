@@ -50,8 +50,13 @@ public class TargetParty implements ITargetTypeHandler
 		}
 		else if (activeChar instanceof L2PcInstance)
 		{
-			if (L2Skill.addSummon(activeChar, player, radius, false))
-				targetList.add(player.getPet());
+			for(L2Summon s : player.getPets())
+			{
+				if(L2Skill.addCharacter(activeChar, s, radius, false))
+				{
+					targetList.add(s);
+				}
+			}
 		}
 		
 		if (activeChar.isInParty())
@@ -68,8 +73,13 @@ public class TargetParty implements ITargetTypeHandler
 				if (L2Skill.addCharacter(activeChar, partyMember, radius, false))
 					targetList.add(partyMember);
 				
-				if (L2Skill.addSummon(activeChar, partyMember, radius, false))
-					targetList.add(partyMember.getPet());
+				for(L2Summon s : partyMember.getPets())
+				{
+					if(L2Skill.addCharacter(activeChar, s, radius, false))
+					{
+						targetList.add(s);
+					}
+				}
 			}
 		}
 		return targetList.toArray(new L2Character[targetList.size()]);
