@@ -42,9 +42,18 @@
 			<mul order="0x30" stat="mReuse" val="0.75" />
 		</for>
 	</skill>
-	<skill id="11254" levels="4" name="Superior Summon Mastery">
+	<skill id="11254" levels="4" name="極致精通召喚">
+	<!--
+		<table name="#desc-LV1">增加INT2，在召喚點數4以內可以召喚出使魔。當自己遭受傷害的話，就能引導出使魔的憤怒。</table>
+	-->
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#maxSummonPoint"> 6 7 8 9 </table>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="operateType" val="P"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<for>
+			<set order="0x10" stat="maxSummonPoint" val="#maxSummonPoint" />
+		</for>
 	</skill>
 	<skill id="11255" levels="1" name="Grand Spirit Mastery">
 		<table name="#vuln"> 30 </table>
