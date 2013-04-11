@@ -90,7 +90,7 @@ public class SummonItems implements IItemHandler
 		
 		final L2SummonItem sitem = SummonItemsData.getInstance().getSummonItem(item.getItemId());
 		
-		if ((!activeChar.canSummon() || activeChar.isMounted()) && sitem.isPetSummon())
+		if ((!activeChar.canSummon(0) || activeChar.isMounted()) && sitem.isPetSummon())
 		{
 			activeChar.sendPacket(SystemMessageId.YOU_ALREADY_HAVE_A_PET);
 			return false;
