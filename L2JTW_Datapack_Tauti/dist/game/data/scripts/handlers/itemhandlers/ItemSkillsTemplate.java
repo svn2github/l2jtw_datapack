@@ -245,14 +245,6 @@ public class ItemSkillsTemplate implements IItemHandler
 				}
 			}
 			sm.addNumber(seconds);
-		}
-		else if (skill == null)
-		{
-			sm = SystemMessage.getSystemMessage(SystemMessageId.S1_PREPARED_FOR_REUSE);
-			sm.addItemName(item);
-		}
-		if (sm != null)
-		{
 			player.sendPacket(sm);
 		}
 		return isAvailable;
