@@ -47,72 +47,81 @@ public class BeastSoulShot implements IItemHandler
 			playable.sendPacket(SystemMessageId.PET_CANNOT_USE_ITEM);
 			return false;
 		}
-		
-		L2Summon activePet = activeOwner.getPet();
-		
-		if (activePet == null)
+		for(L2Summon s : activeOwner.getPets())
 		{
-			activeOwner.sendPacket(SystemMessageId.PETS_ARE_NOT_AVAILABLE_AT_THIS_TIME);
-			return false;
-		}
-		
-		if (activePet.isDead())
-		{
-			activeOwner.sendPacket(SystemMessageId.SOULSHOTS_AND_SPIRITSHOTS_ARE_NOT_AVAILABLE_FOR_A_DEAD_PET);
-			return false;
-		}
-		
-		final int itemId = item.getItemId();
-		final short shotConsumption = activePet.getSoulShotsPerHit();
-		final long shotCount = item.getCount();
-		final SkillHolder[] skills = item.getItem().getSkills();
-		
-		if (skills == null)
-		{
-			_log.log(Level.WARNING, getClass().getSimpleName() + ": is missing skills!");
-			return false;
-		}
-		
-		if (!(shotCount > shotConsumption))
-		{
-			// Not enough Soulshots to use.
-			if (!activeOwner.disableAutoShot(itemId))
-				activeOwner.sendPacket(SystemMessageId.NOT_ENOUGH_SOULSHOTS_FOR_PET);
-			return false;
-		}
-		
-		L2ItemInstance weaponInst = activePet.getActiveWeaponInstance();
-		
-		if (weaponInst == null)
-		{
-			if (activePet.getChargedSoulShot() != L2ItemInstance.CHARGED_NONE) // SoulShots are already active.
+			L2Summon activePet = s;
+			
+			if (activePet == null)
 			{
-				return false;
+				activeOwner.sendPacket(SystemMessageId.PETS_ARE_NOT_AVAILABLE_AT_THIS_TIME);
+				continue; // FIXME 
+				//return false;
 			}
 			
-			activePet.setChargedSoulShot(L2ItemInstance.CHARGED_SOULSHOT);
-		}
-		else
-		{
-			if (weaponInst.getChargedSoulshot() != L2ItemInstance.CHARGED_NONE) // SoulShots are already active.
-			{	
-				return false;
+			if (activePet.isDead())
+			{
+				activeOwner.sendPacket(SystemMessageId.SOULSHOTS_AND_SPIRITSHOTS_ARE_NOT_AVAILABLE_FOR_A_DEAD_PET);
+				continue; // FIXME 
+				//return false;
 			}
-			weaponInst.setChargedSoulshot(L2ItemInstance.CHARGED_SOULSHOT);
+			
+			final int itemId = item.getItemId();
+			final short shotConsumption = activePet.getSoulShotsPerHit();
+			final long shotCount = item.getCount();
+			final SkillHolder[] skills = item.getItem().getSkills();
+			
+			if (skills == null)
+			{
+				_log.log(Level.WARNING, getClass().getSimpleName() + ": is missing skills!");
+				continue; // FIXME 
+				//return false;
+			}
+			
+			if (!(shotCount > shotConsumption))
+			{
+				// Not enough Soulshots to use.
+				if (!activeOwner.disableAutoShot(itemId))
+					activeOwner.sendPacket(SystemMessageId.NOT_ENOUGH_SOULSHOTS_FOR_PET);
+				continue; // FIXME 
+				//return false;
+			}
+			
+			L2ItemInstance weaponInst = activePet.getActiveWeaponInstance();
+			
+			if (weaponInst == null)
+			{
+				if (activePet.getChargedSoulShot() != L2ItemInstance.CHARGED_NONE) // SoulShots are already active.
+				{
+					continue; // FIXME 
+					//return false;
+				}
+				
+				activePet.setChargedSoulShot(L2ItemInstance.CHARGED_SOULSHOT);
+			}
+			else
+			{
+				if (weaponInst.getChargedSoulshot() != L2ItemInstance.CHARGED_NONE) // SoulShots are already active.
+				{	
+					continue; // FIXME 
+					//return false;
+				}
+				weaponInst.setChargedSoulshot(L2ItemInstance.CHARGED_SOULSHOT);
+			}
+			
+			// If the player doesn't have enough beast soulshot remaining, remove any auto soulshot task.
+			if (!activeOwner.destroyItemWithoutTrace("Consume", item.getObjectId(), shotConsumption, null, false))
+			{
+				if (!activeOwner.disableAutoShot(itemId))
+					activeOwner.sendPacket(SystemMessageId.NOT_ENOUGH_SOULSHOTS_FOR_PET);
+				continue; // FIXME 
+				//return false;
+			}
+			
+			// Pet uses the power of spirit.
+			//activeOwner.sendPacket(SystemMessageId.PET_USE_SPIRITSHOT);  //Update Del by pmq
+			
+			Broadcast.toSelfAndKnownPlayersInRadius(activeOwner, new MagicSkillUse(activePet, activePet, skills[0].getSkillId(), skills[0].getSkillLvl(), 0, 0), 600);
 		}
-		
-		// If the player doesn't have enough beast soulshot remaining, remove any auto soulshot task.
-		if (!activeOwner.destroyItemWithoutTrace("Consume", item.getObjectId(), shotConsumption, null, false))
-		{
-			if (!activeOwner.disableAutoShot(itemId))
-				activeOwner.sendPacket(SystemMessageId.NOT_ENOUGH_SOULSHOTS_FOR_PET);
-			return false;
-		}
-		
-		// Pet uses the power of spirit.
-		//activeOwner.sendPacket(SystemMessageId.PET_USE_SPIRITSHOT);  //Update Del by pmq
-		
-		Broadcast.toSelfAndKnownPlayersInRadius(activeOwner, new MagicSkillUse(activePet, activePet, skills[0].getSkillId(), skills[0].getSkillLvl(), 0, 0), 600);
 		return true;
 	}
 }
