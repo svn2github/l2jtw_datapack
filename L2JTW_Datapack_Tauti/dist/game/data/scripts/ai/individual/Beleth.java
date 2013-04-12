@@ -646,7 +646,9 @@ public class Beleth extends L2AttackableAIScript
 	{
 		if ((minions != null) && !minions.isEmpty())
 		{
-			for (L2Npc npc : minions)
+			ArrayList<L2Npc> local_minions = (ArrayList<L2Npc>)minions.clone();
+			minions.clear();
+			for (L2Npc npc : local_minions)
 			{
 				if ((npc == null) || npc.isDead())
 				{
@@ -658,7 +660,7 @@ public class Beleth extends L2AttackableAIScript
 				npc.deleteMe();
 			}
 		}
-		minions.clear();
+		//minions.clear();
 		allowObjectId = 0;
 		attacked = false;
 	}
