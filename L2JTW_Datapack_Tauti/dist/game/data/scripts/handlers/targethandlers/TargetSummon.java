@@ -14,9 +14,13 @@
  */
 package handlers.targethandlers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.l2jserver.gameserver.handler.ITargetTypeHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2ServitorInstance;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.targets.L2TargetType;
@@ -29,11 +33,18 @@ public class TargetSummon implements ITargetTypeHandler
 	@Override
 	public L2Object[] getTargetList(L2Skill skill, L2Character activeChar, boolean onlyFirst, L2Character target)
 	{
-		target = activeChar.getPet();
-		if (target != null && !target.isDead() && target instanceof L2ServitorInstance)
-			return new L2Character[] { target };
-		
-		return _emptyTargetList;
+		ArrayList<L2Character> targets = new ArrayList<>();
+		for(L2Summon s : activeChar.getPets())
+		{
+			target = s;
+			if (target != null && !target.isDead() && target instanceof L2ServitorInstance)
+			{
+				targets.add(target);
+				//return new L2Character[] { target };
+			}
+		}
+		return targets.toArray(new L2Character[targets.size()]);
+		//return _emptyTargetList;
 	}
 	
 	@Override
