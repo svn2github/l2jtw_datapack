@@ -543,35 +543,47 @@
 			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
 		</for>
 	</skill>
-	<skill id="10025" levels="4" name="The vow of a Knight">
-		<!-- Deceres MP Consume -lvl 100+ -->
-		<!-- time 62 64 66 68 70 72 74 76 78 80 -lvl 200+ -->
-		<!-- DECERESE REUSE TIME -lvl 900+-->
+	<skill id="10025" levels="4" name="騎士誓言">
+<!-- 		<table name="#desc-LV1">在1分鐘內增加物理防禦力和魔法防禦力50%、移動速度10；裝備刀劍/鈍器時，增加命中能力4、攻擊速度10%；裝備刀劍時，額外增加致命攻擊率30；裝備鈍器時，額外增加致命傷害30%。</table> -->
+<!-- 		<table name="#desc-LV2">在1分鐘內增加物理防禦力和魔法防禦力70%、移動速度20；裝備刀劍/鈍器時，增加命中能力6、攻擊速度15%；裝備刀劍時，額外增加致命攻擊率40；裝備鈍器時，額外增加致命傷害40%。</table> -->
+<!-- 		<table name="#desc-LV3">在1分鐘內增加物理防禦力和魔法防禦力100%、移動速度25；裝備刀劍/鈍器時，增加命中能力8、攻擊速度20%；裝備刀劍時，額外增加致命攻擊率50；裝備鈍器時，額外增加致命傷害50%。</table> -->
+<!-- 		<table name="#desc-LV4">在1分鐘內增加物理防禦力和魔法防禦力120%、移動速度30；裝備刀劍/鈍器時，增加命中能力10、攻擊速度25%；裝備刀劍時，額外增加致命攻擊率60；裝備鈍器時，額外增加致命傷害60%。</table> -->
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#mpConsume"> 20 21 23 24 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
 		<table name="#Def">1.5 1.7 2 2.2</table>
 		<table name="#Spd">10 20 25 30</table>
-		<table name="#AtkSpd">10 15 20 25</table>
+		<table name="#AtkSpd">1.10 1.15 1.20 1.25</table>
 		<table name="#cAtk">1.3 1.4 1.5 1.6</table>
 		<table name="#rCrit">30 40 50 60</table>
-		<set name="mpInitialConsume" val="5" />
-		<set name="mpConsume" val="20" />
+		<table name="#accCombat">4 6 8 10</table>
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="600000" />
-		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="500"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
 		<set name="isMagic" val="1" />
-		<set name="operateType" val="A1" />
+		<set name="operateType" val="A2" />
 		<set name="aggroPoints" val="523" />
 		<for>
 			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="3" abnormalType="md_up">
 				<mul order="0x30" stat="mDef" val="#Def" />
 				<mul order="0x30" stat="pDef" val="#Def" />
 				<add order="0x40" stat="runSpd" val="#Spd" />
-				<mul order="0x30" stat="pAtkSpd" val="#AtkSpd" />
+				<add order="0x40" stat="accCombat" val="#accCombat">
+					<using king="Sword,Blunt,Big Blunt,Big Sword" />
+				</add>
+				<mul order="0x30" stat="pAtkSpd" val="#AtkSpd" >
+					<using king="Sword,Blunt,Big Blunt,Big Sword" />
+				</mul>
 				<mul order="0x30" stat="cAtk" val="#cAtk">
-				<using kind="Blunt" />
+					<using kind="Blunt" />
 				</mul>
 				<add order="0x40" stat="rCrit" val="#rCrit">
-				<using kind="Sword" />
+					<using kind="Sword" />
 				</add>
 			</effect>
 		</for>
