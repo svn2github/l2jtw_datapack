@@ -646,7 +646,7 @@ public class Beleth extends L2AttackableAIScript
 	{
 		if ((minions != null) && !minions.isEmpty())
 		{
-			ArrayList<L2Npc> local_minions = (ArrayList<L2Npc>)minions.clone();
+			L2Npc[] local_minions = (L2Npc[])minions.toArray();
 			minions.clear();
 			for (L2Npc npc : local_minions)
 			{
