@@ -91,27 +91,41 @@
 		</for>
 		-->
 	</skill>
-	<skill id="11257" levels="8" name="Summon Saber Tooth Cougar">
+	<skill id="11257" levels="8" name="召喚劍齒利虎">
+	<!--
+		<table name="#desc-LV1">召喚野獸界勇猛的老虎。消耗召喚點數2點。</table>
+	-->
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
 		<table name="#mpConsume"> 351 361 376 391 406 421 436 456 </table>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+		<table name="#npcId"> 14930 14954 14955 14956 14957 14958 14959 14960</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="SUMMON"/>
 		<set name="operateType" val="A1"/>
 		<set name="hitTime" val="3800"/>
 		<set name="coolTime" val="200"/>
 		<set name="reuseDelay" val="5000"/>
 		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="#magicLvl"/>
 		<set name="mpConsume" val="#mpConsume"/>
+		<set name="npcId" val="#npcId" />
 	</skill>
-	<skill id="11258" levels="8" name="Summon Soul Reaper">
+	<skill id="11258" levels="8" name="召喚殘酷死神">
+	<!--
+		<table name="#desc-LV1">召喚魔界惡名昭彰的死神。消耗召喚點數2點。</table>
+	-->
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
 		<table name="#mpConsume"> 351 361 376 391 406 421 436 456 </table>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+		<table name="#npcId"> 14931 14961 14962 14963 14964 14965 14966 14967</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="SUMMON"/>
 		<set name="operateType" val="A1"/>
 		<set name="hitTime" val="3800"/>
 		<set name="coolTime" val="200"/>
 		<set name="reuseDelay" val="5000"/>
 		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="#magicLvl"/>
 		<set name="mpConsume" val="#mpConsume"/>
+		<set name="npcId" val="#npcId" />
 	</skill>
 	<skill id="11259" levels="8" name="Week of Nice marked">
 		<table name="#DOT"> 269 272 276 280 283 287 290 294 </table>
