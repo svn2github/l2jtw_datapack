@@ -360,6 +360,123 @@
 		<set name="isDebuff" val="True"/>
 		<set name="mpConsume" val="90"/>
 	</skill>
+	<skill id="11278" levels="9" name="熊之利爪">
+	<!--
+		<table name="#desc-LV1">激起敵人的攻擊慾望，並給予傷害。</table>
+	-->
+		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 79 81 84 86 89 92 95 98 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1560"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="castRange" val="50"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+		<set name="aggroPoints" val="9999" /> <!-- FIXME -->
+	</skill>
+	<skill id="11279" levels="9" name="熊之翻滾">
+	<!--
+		<table name="#desc-LV1">就地翻滾，並對大地造成衝擊，且將周圍目標暫時處於無法移動的狀態。</table>
+	-->
+		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 332 337 349 360 372 384 396 408 414 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="1660"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="7000"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+		<for>
+			<effect name="Root" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="root_magically" />
+		</for>
+	</skill>
+	<skill id="11280" levels="9" name="虎之咬嚙">
+<!-- 		<table name="#desc-LV1">撕咬目標，並給予傷害。</table> -->
+		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 79 81 84 86 89 92 95 98 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="1560"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="castRange" val="50"/>
+		<set name="effectRange" val="900"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="11281" levels="9" name="虎之跳擊">
+<!-- 		<table name="#desc-LV1">跳躍後，針對位於一定距離以上的目標和周圍造成傷害，並降低移動速度50%。</table> -->
+		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 194 197 204 210 217 224 231 238 242 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<set name="target" val="TARGET_AREA"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="660"/>
+		<set name="coolTime" val="600"/>
+		<set name="reuseDelay" val="7000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+		<for>
+			<effect name="Debuff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="speed_down" >
+				<mul order="0x30" stat="runSpd" val="0.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11282" levels="9" name="死神吸收">
+<!-- 		<table name="#desc-LV1">對敵人施予傷害，並將傷害的20%吸取為HP。</table> -->
+		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 56 57 59 61 64 66 69 71 73 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DRAIN" />
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2560"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+		<set name="absorbPart" val="0.2" />
+	</skill>
+	<skill id="11283" levels="9" name="死神之力">
+<!-- 		<table name="#desc-LV1">將敵人周圍轉變為死亡空間，並給予傷害。</table> -->
+		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 218 222 231 241 250 260 270 281 286 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<set name="target" val="TARGET_AREA"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2560"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="castRange" val="500"/>
+		<set name="effectRange" val="1000"/>
+		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
 	<skill id="11287" levels="1" name="Grand Resist">
 		<set name="magicLvl" val="85" />
 		<set name="target" val="TARGET_SELF" />
