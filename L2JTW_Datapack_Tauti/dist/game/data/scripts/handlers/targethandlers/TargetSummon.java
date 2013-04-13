@@ -15,8 +15,6 @@
 package handlers.targethandlers;
 
 import java.util.ArrayList;
-import java.util.List;
-
 import com.l2jserver.gameserver.handler.ITargetTypeHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Character;
