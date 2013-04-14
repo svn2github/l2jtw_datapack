@@ -85,11 +85,7 @@
 		<set name="magicLvl" val="#magicLvl"/>
 		<set name="mpConsume" val="#mpConsume"/>
 		<set name="npcId" val="#npcId" />
-		<!--
-		<for>
-			<add order="0x40" stat="summonPoint" val="3" />
-		</for>
-		-->
+		<set name="summonPoint" val="3" />
 	</skill>
 	<skill id="11257" levels="8" name="召喚劍齒利虎">
 	<!--
@@ -108,6 +104,7 @@
 		<set name="magicLvl" val="#magicLvl"/>
 		<set name="mpConsume" val="#mpConsume"/>
 		<set name="npcId" val="#npcId" />
+		<set name="summonPoint" val="2" />
 	</skill>
 	<skill id="11258" levels="8" name="召喚殘酷死神">
 	<!--
@@ -126,6 +123,7 @@
 		<set name="magicLvl" val="#magicLvl"/>
 		<set name="mpConsume" val="#mpConsume"/>
 		<set name="npcId" val="#npcId" />
+		<set name="summonPoint" val="2" />
 	</skill>
 	<skill id="11259" levels="8" name="Week of Nice marked">
 		<table name="#DOT"> 269 272 276 280 283 287 290 294 </table>
