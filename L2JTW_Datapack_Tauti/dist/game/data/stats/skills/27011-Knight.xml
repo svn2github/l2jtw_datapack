@@ -392,12 +392,13 @@
 			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
 		</for>
 	</skill>
-	<skill id="10017" levels="4" name="absolute protection">
+<skill id="10017" levels="4" name="absolute protection">
 	<!-- Deceres MP Consume -lvl 100+ -->
 	<!-- Time Ench 31 32 33 34 35 36 37 38 39 40 -lvl 200+ -->
 	<!-- DECERESE REUSE TIME -lvl 900+ -->
+	<!-- 最终极限防御 -->
 		<table name="#pDef">4000 6000 8000 10000</table>
-		<table name="#mDef">1.4 1.6 1.8 2</table>
+		<table name="#mDef">4000 6000 8000 10000</table>
 		<table name="#ref">0.60 0.40 0.20 1</table>
 		<set name="hitTime" val="1000" />
 		<set name="mpConsume" val="43" />
