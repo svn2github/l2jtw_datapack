@@ -14,6 +14,7 @@
  */
 package handlers.itemhandlers;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.handler.IItemHandler;
 import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -38,7 +39,7 @@ public class TeleportBookmark implements IItemHandler
 		
 		L2PcInstance player = playable.getActingPlayer();
 		
-		if (player.getBookMarkSlot() >= 9)
+		if (player.getBookMarkSlot() >= Config.MAX_BOOKMARKSLOT)
 		{
 			player.sendPacket(SystemMessageId.YOUR_NUMBER_OF_MY_TELEPORTS_SLOTS_HAS_REACHED_ITS_MAXIMUM_LIMIT);
 			return false;
