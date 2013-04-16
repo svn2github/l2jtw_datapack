@@ -212,10 +212,18 @@ public class Continuous implements ISkillHandler
 				{
 					L2Effect[] effects = skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss));
 					L2Summon summon = target.getPet();
-					if (summon != null && summon != activeChar && summon instanceof L2ServitorInstance && effects.length > 0)
+					if (summon != null && summon != activeChar && effects.length > 0)
 					{
 						if (effects[0].canBeStolen() || skill.isHeroSkill())
-							skill.getEffects(activeChar, target.getPet(), new Env(shld, ss, sps, bss));
+						{
+							for(L2Summon s : target.getPets())
+							{
+								if(summon instanceof L2ServitorInstance)
+								{
+									skill.getEffects(activeChar, s, new Env(shld, ss, sps, bss));
+								}
+							}
+						}
 					}
 				}
 				
