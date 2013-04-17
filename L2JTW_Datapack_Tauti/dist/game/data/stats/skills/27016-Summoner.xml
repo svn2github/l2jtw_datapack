@@ -439,10 +439,10 @@
 		</for>
 	</skill>
 	<skill id="11282" levels="9" name="死神吸收">
-<!-- 		<table name="#desc-LV1">對敵人施予傷害，並將傷害的20%吸取為HP。</table> -->
+<!--   	<table name="#desc-LV1">對敵人施予傷害，並將傷害的20%吸取為HP。</table> -->
 		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
 		<table name="#mpConsume"> 56 57 59 61 64 66 69 71 73 </table>
-		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<table name="#power"> 20 30 40 50 60 70 80 90 100 </table>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="DRAIN" />
 		<set name="operateType" val="A1"/>
@@ -461,7 +461,7 @@
 <!-- 		<table name="#desc-LV1">將敵人周圍轉變為死亡空間，並給予傷害。</table> -->
 		<table name="#magicLvl"> 85 86 87 89 91 93 95 97 99 </table>
 		<table name="#mpConsume"> 218 222 231 241 250 260 270 281 286 </table>
-		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 3600 </table>
+		<table name="#power"> 20 30 40 50 60 70 80 90 100 </table>
 		<set name="target" val="TARGET_AREA"/>
 		<set name="skillType" val="MDAM"/>
 		<set name="operateType" val="A1"/>
