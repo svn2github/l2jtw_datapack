@@ -230,7 +230,7 @@ public class IceQueen_Kegor extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "<html><body>ï¿½Ø«eï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡Aï¿½Î±ï¿½ó¤£²Å¡C</body></html>";
+		String htmltext = "<html><body>¥Ø«e¨S¦³°õ¦æ¥ô°È¡A©Î±ø¥ó¤£²Å¡C</body></html>";
 		QuestState hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
 		
 		int npcId = npc.getNpcId();
