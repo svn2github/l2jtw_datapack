@@ -49,6 +49,7 @@ import com.l2jserver.gameserver.model.zone.L2ZoneType;
 import com.l2jserver.gameserver.model.zone.type.L2BossZone;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.AbstractNpcInfo;
+import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.util.Util;
@@ -719,7 +720,10 @@ public class Zaken extends L2AttackableAIScript
 				npcUpdate(npc);
 				
 				if (npc == world._zakenBarel1 || npc == world._zakenBarel2 || npc == world._zakenBarel3 || npc == world._zakenBarel4)
+				{
+					npc.broadcastPacket(new CreatureSay(npc.getObjectId(), 0, npc.getName(), "札肯就在附近")); //因為木桶沒藍光 所以暫時用說話. 
 					startQuestTimer("BlueBarrel", 5000, npc, player);
+				}
 				else
 					startQuestTimer("RedBarrel", 5000, npc, player);
 			}
