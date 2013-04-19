@@ -1538,7 +1538,6 @@
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="0"/>
 		<set name="hitTime" val="5000"/>
-		<set name="displayId" val="1566"/>
 		<!--set name="reusedelay" val="3000"/-->
 		<cond msgId="3574">
 			<not>
@@ -1595,11 +1594,11 @@
 		<set name="stayAfterDeath" val="true" />
 		<for>
 			<effect self="1" name="Buff" abnormalTime="15" val="0">
-				<mul order="0x30" stat="pAtk" val="0.40"/>
-				<mul order="0x30" stat="mAtk" val="0.40"/>
-				<mul order="0x30" stat="mAtkSpd" val="0.85"/>
-				<mul order="0x30" stat="pAtkSpd" val="0.85"/>
-				<mul order="0x30" stat="accCombat" val="0.90"/>
+				<mul order="0x30" stat="pAtk" val="0.6"/>
+				<mul order="0x30" stat="mAtk" val="0.6"/>
+				<mul order="0x30" stat="mAtkSpd" val="0.6"/>
+				<mul order="0x30" stat="pAtkSpd" val="0.6"/>
+				<mul order="0x30" stat="accCombat" val="0.95"/>
 			</effect>
 		</for>
 	</skill>
