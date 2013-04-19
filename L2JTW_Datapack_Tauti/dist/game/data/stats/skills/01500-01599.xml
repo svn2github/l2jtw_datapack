@@ -1537,35 +1537,70 @@
 		<set name="skillType" val="CLASSCHANGE"/>
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="0"/>
-		<set name="displayId" val="-1"/>
+		<set name="hitTime" val="5000"/>
+		<set name="displayId" val="1566"/>
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570"/>
+			</not>
+		</cond>
 	</skill>
 	<skill id="1567" levels="1" name="職業變更">
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="CLASSCHANGE"/>
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="1"/>
-		<set name="displayId" val="-1"/>
+		<set name="hitTime" val="5000"/>
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570"/>
+			</not>
+		</cond>
 	</skill>
 	<skill id="1568" levels="1" name="職業變更">
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="CLASSCHANGE"/>
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="2"/>
-		<set name="displayId" val="-1"/>
+		<set name="hitTime" val="5000"/>
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570"/>
+			</not>
+		</cond>
 	</skill>
 	<skill id="1569" levels="1" name="職業變更">
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="CLASSCHANGE"/>
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="3"/>
-		<set name="displayId" val="-1"/>
+		<set name="hitTime" val="5000"/>
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570"/>
+			</not>
+		</cond>
 	</skill>
 	<skill id="1570" levels="1" name="身份混亂">
 	<!--
 	在15秒內感受到身份造成的混亂，促使戰鬥能力降低，並無法使用技能和道具，但可使用藥水種類的道具。而且主職業/雙職業/副職業之間無法進行變更。
 	-->
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
-		<set name="operateType" val="P" />
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2" />
+		<set name="stayAfterDeath" val="true" />
+		<for>
+			<effect self="1" name="Buff" abnormalTime="15" val="0">
+				<mul order="0x30" stat="pAtk" val="0.40"/>
+				<mul order="0x30" stat="mAtk" val="0.40"/>
+				<mul order="0x30" stat="mAtkSpd" val="0.85"/>
+				<mul order="0x30" stat="pAtkSpd" val="0.85"/>
+				<mul order="0x30" stat="accCombat" val="0.90"/>
+			</effect>
+		</for>
 	</skill>
 </list>
