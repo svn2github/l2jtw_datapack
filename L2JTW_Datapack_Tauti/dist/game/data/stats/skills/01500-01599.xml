@@ -1538,6 +1538,7 @@
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="0"/>
 		<set name="hitTime" val="5000"/>
+		<set name="showSkillListIcon" val="false"/>
 		<!--set name="reusedelay" val="3000"/-->
 		<cond msgId="3574">
 			<not>
@@ -1551,6 +1552,7 @@
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="1"/>
 		<set name="hitTime" val="5000"/>
+		<set name="showSkillListIcon" val="false"/>
 		<!--set name="reusedelay" val="3000"/-->
 		<cond msgId="3574">
 			<not>
@@ -1564,6 +1566,7 @@
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="2"/>
 		<set name="hitTime" val="5000"/>
+		<set name="showSkillListIcon" val="false"/>
 		<!--set name="reusedelay" val="3000"/-->
 		<cond msgId="3574">
 			<not>
@@ -1577,6 +1580,7 @@
 		<set name="operateType" val="A1"/>
 		<set name="classIndex" val="3"/>
 		<set name="hitTime" val="5000"/>
+		<set name="showSkillListIcon" val="false"/>
 		<!--set name="reusedelay" val="3000"/-->
 		<cond msgId="3574">
 			<not>
