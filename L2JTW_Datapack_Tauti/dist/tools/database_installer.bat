@@ -187,7 +187,7 @@ set fresh_setup=0
 
 :loadconfig
 cls
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 if not exist %config_file% goto configure
 ren %config_file% vars.bat
 call vars.bat
@@ -228,7 +228,7 @@ goto :eof
 :configure
 cls
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 set config_version=2
 if NOT %upgrade_mode% == 2 (
 set fresh_setup=1
@@ -391,7 +391,7 @@ cls
 call :colors 17
 set cmdline=
 set stage=1
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在備份登入伺服器的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %lshost% -u %lsuser% --password=%lspass% %lsdb% ^> "%backup%\ls_backup.sql" 2^> NUL
@@ -402,7 +402,7 @@ if %ERRORLEVEL% == 0 goto ls_db_ok
 cls
 set lsdbprompt=y
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 備份失敗！
 echo 原因是因為資料庫不存在
@@ -430,7 +430,7 @@ cls
 call :colors 17
 set cmdline=
 set stage=2
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在建立登入伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -e "CREATE DATABASE %lsdb%" 2^> NUL
@@ -442,7 +442,7 @@ if %safe_mode% == 1 goto omfg
 cls
 set omfgprompt=q
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 登入伺服器的資料庫建立失敗！
 echo.
@@ -469,7 +469,7 @@ goto ls_err2
 cls
 set loginprompt=u
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 登入伺服器的資料庫安裝：
 echo.
@@ -494,7 +494,7 @@ goto ls_db_ok
 :ls_cleanup
 call :colors 17
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在移除登入伺服器的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< ls_cleanup.sql 2^> NUL
@@ -545,7 +545,7 @@ cls
 call :colors 17
 set cmdline=
 set stage=3
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在備份「討論版專用」的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %cbhost% -u %cbuser% --password=%cbpass% %cbdb% ^> "%backup%\cs_backup.sql" 2^> NUL
@@ -556,7 +556,7 @@ if %ERRORLEVEL% == 0 goto cs_db_ok
 cls
 set cbdbprompt=y
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 備份失敗！
 echo 原因是因為「討論版專用」的資料庫不存在
@@ -584,7 +584,7 @@ cls
 call :colors 17
 set cmdline=
 set stage=4
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在建立「討論版專用」的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -e "CREATE DATABASE %cbdb%" 2^> NUL
@@ -596,7 +596,7 @@ if %safe_mode% == 1 goto omfg
 cls
 set omfgprompt=q
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 「討論版專用」的資料庫建立失敗！
 echo.
@@ -623,7 +623,7 @@ goto cs_err2
 cls
 set communityprompt=u
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 「討論版專用」的資料庫安裝：
 echo.
@@ -648,7 +648,7 @@ goto cs_db_ok
 :cs_cleanup
 call :colors 17
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在移除「討論版專用」的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< cs_cleanup.sql 2^> NUL
@@ -676,12 +676,12 @@ goto cs_install
 cls
 set cmdline=
 if %full% == 1 (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 安裝新的「討論版專用」資料庫...
 echo.
 ) else (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 更新「討論版專用」資料庫...
 echo.
@@ -699,7 +699,7 @@ cls
 call :colors 17
 set cmdline=
 set stage=5
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在備份遊戲伺服器的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %gshost% -u %gsuser% --password=%gspass% %gsdb% ^> "%backup%\gs_backup.sql" 2^> NUL
@@ -710,7 +710,7 @@ if %ERRORLEVEL% == 0 goto gs_db_ok
 cls
 set gsdbprompt=y
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 備份失敗！
 echo 原因是因為資料庫不存在
@@ -738,7 +738,7 @@ cls
 call :colors 17
 set stage=6
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在建立遊戲伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -e "CREATE DATABASE %gsdb%" 2^> NUL
@@ -750,7 +750,7 @@ if %safe_mode% == 1 goto omfg
 cls
 set omfgprompt=q
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 遊戲伺服器的資料庫建立失敗！
 echo.
@@ -774,7 +774,7 @@ goto gs_err2
 cls
 set installtype=u
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 遊戲伺服器的資料庫安裝：
 echo.
@@ -796,7 +796,7 @@ goto gs_db_ok
 :gs_cleanup
 call :colors 17
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 正在移除遊戲伺服器的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< gs_cleanup.sql 2^> NUL
@@ -824,12 +824,12 @@ goto gs_install
 cls
 set cmdline=
 if %full% == 1 (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 安裝新的遊戲資料庫...
 echo.
 ) else (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 更新遊戲資料庫...
 echo.
@@ -875,7 +875,7 @@ REM ------------------------------------------------------
 cls
 set ntpebcak=c
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 出現錯誤：
 echo %mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb%
@@ -903,7 +903,7 @@ goto omfg2
 :logginon
 cls
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 set logging=1
 if %full% == 1 (
   set output=%logdir%\install-%~nx1.log
@@ -929,7 +929,7 @@ set output=NUL
 goto :eof
 
 :custom_ask
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 cls
 set cstprompt=y
 echo.
@@ -956,7 +956,7 @@ move custom_errors.log %workdir%
 goto mod_ask
 
 :mod_ask
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 cls
 set cstprompt=y
 echo.
@@ -995,7 +995,7 @@ REM ------------------------------------------------------
 set omfgprompt=q
 call :colors 57
 cls
-title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Tauti Beta
 echo.
 echo 執行時出現錯誤：
 echo.
@@ -1033,10 +1033,10 @@ REM 儲存 DP 支援的版本資訊
 if %dp_err% == 2 echo Tauti> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 call :colors 17
-title L2JTW DataPack 安裝 - For：L2JTW GameServer HighFive Alpha
+title L2JTW DataPack 安裝 - For：L2JTW GameServer Tauti Beta
 cls
 echo.
-echo L2JTW DataPack 安裝程序 - For：L2JTW GameServer HighFive Alpha
+echo L2JTW DataPack 安裝程序 - For：L2JTW GameServer Tauti Beta
 echo (C) 2007-2012 L2JTW DataPack 開發團隊
 echo.
 echo 感謝使用 L2JTW 伺服器
