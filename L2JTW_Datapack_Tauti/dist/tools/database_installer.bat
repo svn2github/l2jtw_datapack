@@ -1,4 +1,28 @@
 @echo off
+REM 清理
+if exist ..\game\data\stats\skills\01900-01999.xml del ..\game\data\stats\skills\01900-01999.xml
+if exist ..\game\data\stats\skills\08600-08699.xml del ..\game\data\stats\skills\08600-08699.xml
+if exist ..\game\data\stats\skills\08700-08799.xml del ..\game\data\stats\skills\08700-08799.xml
+if exist ..\game\data\stats\skills\09200-09299.xml del ..\game\data\stats\skills\09200-09299.xml
+if exist ..\game\data\stats\skills\10000-10099.xml del ..\game\data\stats\skills\10000-10099.xml
+if exist ..\game\data\stats\skills\10200-10299.xml del ..\game\data\stats\skills\10200-10299.xml
+if exist ..\game\data\stats\skills\10500-10599.xml del ..\game\data\stats\skills\10500-10599.xml
+if exist ..\game\data\stats\skills\10700-10799.xml del ..\game\data\stats\skills\10700-10799.xml
+if exist ..\game\data\stats\skills\10800-10899.xml del ..\game\data\stats\skills\10800-10899.xml
+if exist ..\game\data\stats\skills\11000-11099.xml del ..\game\data\stats\skills\11000-11099.xml
+if exist ..\game\data\stats\skills\11100-11199.xml del ..\game\data\stats\skills\11100-11199.xml
+if exist ..\game\data\stats\skills\11200-11299.xml del ..\game\data\stats\skills\11200-11299.xml
+if exist ..\game\data\stats\skills\11300-11399.xml del ..\game\data\stats\skills\11300-11399.xml
+if exist ..\game\data\stats\skills\11500-11599.xml del ..\game\data\stats\skills\11500-11599.xml
+if exist ..\game\data\stats\skills\11700-11799.xml del ..\game\data\stats\skills\11700-11799.xml
+if exist ..\game\data\stats\skills\11800-11899.xml del ..\game\data\stats\skills\11800-11899.xml
+if exist ..\game\data\stats\skills\12800-12899.xml del ..\game\data\stats\skills\12800-12899.xml
+if exist ..\game\data\stats\skills\13000-13099.xml del ..\game\data\stats\skills\13000-13099.xml
+if exist ..\game\data\stats\skills\13100-13199.xml del ..\game\data\stats\skills\13100-13199.xml
+if exist ..\game\data\stats\skills\13300-13399.xml del ..\game\data\stats\skills\13300-13399.xml
+if exist ..\game\data\stats\skills\14600-14699.xml del ..\game\data\stats\skills\14600-14699.xml
+if exist ..\game\data\stats\skills\14700-14799.xml del ..\game\data\stats\skills\14700-14799.xml
+
 REM 檢查是否存在 GS 支援的版本資訊
 set dp_err=0
 if not exist ..\doc\L2J_Server_Ver.txt echo 沒有發現 GS 支援的版本資訊！
