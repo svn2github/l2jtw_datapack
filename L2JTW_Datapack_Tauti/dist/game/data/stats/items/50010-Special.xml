@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<!-- 特殊服裝-->
+	<item id="23171" name="海灘泳裝" type="Armor">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海灘泳裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_01"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="material" val="cloth"/>
+	</item>
+	<item id="23173" name="艷麗泳裝" type="Armor">
+		<table name="#Desc">印有著華麗紋樣的艷麗泳裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_02"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="material" val="cloth"/>
+	</item>
+	<item id="23226" name="誘人泳裝" type="Armor">
+		<table name="#Desc">印有著華麗紋樣的誘人泳裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_03"/>
+		<set name="default_action" val="equip"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="material" val="cloth"/>
+	</item>
+	<item id="23179" name="忍者衣裳上衣" type="Armor">
+		<table name="#Desc">忍者衣裳上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_u"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23180" name="忍者衣裳下衣" type="Armor">
+		<table name="#Desc">忍者衣裳下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_l"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="legs"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23181" name="忍者衣裳手套" type="Armor">
+		<table name="#Desc">忍者衣裳手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_g"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23182" name="忍者衣裳鞋" type="Armor">
+		<table name="#Desc">忍者衣裳鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_b"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23183" name="忍者頭飾" type="Armor">
+		<table name="#Desc">忍者頭飾。面罩型態。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_hair"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+	</item>
+	<item id="23184" name="台灣傳統衣裳上衣" type="Armor">
+		<table name="#Desc">台灣傳統衣裳上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_u"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23185" name="台灣傳統衣裳下衣" type="Armor">
+		<table name="#Desc">台灣傳統衣裳下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_l"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="legs"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23186" name="台灣傳統衣裳手套" type="Armor">
+		<table name="#Desc">台灣傳統衣裳手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_g"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23187" name="台灣傳統衣裳鞋" type="Armor">
+		<table name="#Desc">台灣傳統衣裳鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_b"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23188" name="台灣傳統頭飾" type="Armor">
+		<table name="#Desc">台灣傳統頭飾。帽子型態。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_hair"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+	</item>
+	<item id="23445" name="俄羅斯傳統頭冠" type="Armor">
+		<table name="#Desc">天堂II 4週年紀念頭飾。印有俄羅斯傳統紋樣的王冠型式。會佔用頭飾欄位2格。女性專用。可以交易/丟棄/刪除，也可以保管在個人倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_hair_kokoshnik_f"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<cond msgId="1518">
+			<and>
+				<player sex="1"/>
+			</and>
+		</cond>
+	</item>
+	<item id="23446" name="俄羅斯海軍帽" type="Armor">
+		<table name="#Desc">天堂II 4週年紀念頭飾。俄羅斯海軍帽。會佔用頭飾欄位2格。男性專用。可以交易/丟棄/刪除，也可以保管在個人倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_hair_peakless_cap_m"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<cond msgId="1518">
+			<and>
+				<player sex="0"/>
+			</and>
+		</cond>
+	</item>
+	<item id="23447" name="俄羅斯紀念斗篷" type="Armor">
+		<table name="#Desc">天堂II 4週年紀念斗篷。印著華麗紋樣。可以交易/丟棄/刪除，也可以保管在個人倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_cloak_anniversary"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+		</for>
+	</item>
+	<item id="23448" name="金屬套裝上衣" type="Armor">
+		<table name="#Desc">金屬套裝上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_u"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23449" name="金屬套裝下衣" type="Armor">
+		<table name="#Desc">金屬套裝下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_l"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="legs"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23450" name="金屬套裝手套" type="Armor">
+		<table name="#Desc">金屬套裝手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_g"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23451" name="金屬套裝鞋" type="Armor">
+		<table name="#Desc">金屬套裝鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_b"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23452" name="金屬套裝頭飾" type="Armor">
+		<table name="#Desc">金屬套裝頭飾。帽子型態。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_hair"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+	</item>
+	<item id="23453" name="軍用上衣" type="Armor">
+		<table name="#Desc">軍用造型上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_u"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="bodypart" val="chest"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23454" name="軍用下衣" type="Armor">
+		<table name="#Desc">軍用造型下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_l"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="legs"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23455" name="軍用手套" type="Armor">
+		<table name="#Desc">軍用造型手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_g"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23456" name="軍用鞋" type="Armor">
+		<table name="#Desc">軍用造型鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_b"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="feet"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="23457" name="軍用頭飾" type="Armor">
+		<table name="#Desc">軍用造型的頭飾。帽子型態。用於服飾。男性為貝雷帽、女性為水手帽。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_hair_m"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="cloth"/>
+	</item>
+	<item id="23458" name="可愛女僕" type="Armor">
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="material" val="cloth"/>
+		<cond msgId="1518">
+			<and>
+				<player sex="1"/>
+			</and>
+		</cond>
+	</item>
+	<item id="23459" name="可愛女僕頭飾" type="Armor">
+		<table name="#Desc">女僕造型的可愛頭飾。用於服飾。女性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid_hair"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="hairall"/>
+		<set name="material" val="wood"/>
+		<cond msgId="1518">
+			<and>
+				<player sex="1"/>
+			</and>
+		</cond>
+	</item>
+	<item id="23485" name="聖誕服" type="Armor">
+		<table name="#Desc">為了慶祝神聖的日子而被製造的聖誕衣裳。</table>
+		<set name="icon" val="Branchsys3.icon1.armor_ev_santas_clothes"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="material" val="cloth"/>
+	</item>
+</list>

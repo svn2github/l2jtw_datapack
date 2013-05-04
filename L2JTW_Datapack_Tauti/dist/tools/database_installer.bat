@@ -22,6 +22,7 @@ if exist ..\game\data\stats\skills\13100-13199.xml del ..\game\data\stats\skills
 if exist ..\game\data\stats\skills\13300-13399.xml del ..\game\data\stats\skills\13300-13399.xml
 if exist ..\game\data\stats\skills\14600-14699.xml del ..\game\data\stats\skills\14600-14699.xml
 if exist ..\game\data\stats\skills\14700-14799.xml del ..\game\data\stats\skills\14700-14799.xml
+if exist ..\game\data\stats\items\50010-Swimsuit.xml del ..\game\data\stats\items\50010-Swimsuit.xml
 
 REM 檢查是否存在 GS 支援的版本資訊
 set dp_err=0
