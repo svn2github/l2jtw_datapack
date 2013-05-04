@@ -177,4 +177,75 @@
 			<add order="0x10" stat="pDef" val="25"/>
 		</for>
 	</item>
+	<item id="23636" name="波蘭專用斗篷" type="Armor">
+		<table name="#Desc">波蘭專用斗篷。印著華麗紋樣。無法交易/丟棄的道具，但可以刪除，也可以保管在個人倉庫。</table>
+		<set name="icon" val="BranchSys3.icon1.g_pl_cape"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+		</for>
+	</item>
+	<item id="36051" name="血盟斗篷-一般" type="Armor">
+		<table name="#Desc">以血締結的決議！象徵血盟名譽的血盟專用斗篷。可透過血盟委託來獲得。只有加入血盟的血盟成員才可裝備。無法交易/丟棄/買賣的道具，但可以利用個人倉庫。裝備所有S級、S80級防具系列或R級以上的防具上衣的話，封印的斗篷欄位將會開啟。</table>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<cond msgId="2453">
+			<player cloakStatus="1"/>
+		</cond>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<add order="0x10" stat="pDef" val="50"/>
+		</for>
+	</item>
+	<item id="36052" name="血盟斗篷-根據地(拍賣型)" type="Armor">
+		<table name="#Desc">以血締結的決議！象徵血盟名譽的血盟專用斗篷。擁有拍賣型根據地的血盟的血盟成員才可裝備。無法交易/丟棄/買賣的道具，但可以利用個人倉庫。裝備所有S級、S80級防具系列或R級以上的防具上衣的話，封印的斗篷欄位將會開啟。</table>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<cond msgId="2453">
+			<player cloakStatus="1"/>
+		</cond>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<add order="0x10" stat="pDef" val="50"/>
+		</for>
+	</item>
+	<item id="36053" name="血盟斗篷-城" type="Armor">
+		<table name="#Desc">以血締結的決議！象徵血盟名譽的血盟專用斗篷。只有擁有城的血盟的血盟成員才可裝備。具有STR+2/INT+2的效果。無法交易/丟棄/買賣的道具，但可以利用個人倉庫。裝備所有S級、S80級防具系列或R級以上的防具上衣的話，封印的斗篷欄位將會開啟。</table>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<cond msgId="2453">
+			<player cloakStatus="1"/>
+		</cond>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<add order="0x10" stat="pDef" val="50"/>
+		</for>
+	</item>
+	<item id="36120" name="血盟斗篷-根據地(佔領型)" type="Armor">
+		<table name="#Desc">以血締結的決議！象徵血盟名譽的血盟專用斗篷。擁有佔領型根據地的血盟的血盟成員才可裝備。具有STR+1/INT+1的效果。無法交易/丟棄/買賣的道具，但可以利用個人倉庫。裝備所有S級、S80級防具系列或R級以上的防具上衣的話，封印的斗篷欄位將會開啟。</table>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="default_action" val="equip"/>
+		<set name="bodypart" val="back"/>
+		<set name="material" val="cloth"/>
+		<set name="weight" val="220"/>
+		<cond msgId="2453">
+			<player cloakStatus="1"/>
+		</cond>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<add order="0x10" stat="pDef" val="50"/>
+		</for>
+	</item>
 </list>
