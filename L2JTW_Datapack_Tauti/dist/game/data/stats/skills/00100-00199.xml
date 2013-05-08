@@ -1086,8 +1086,8 @@
 			<sub order="0x40" stat="rootVuln" val="11" />
 		</for>
 	</skill>
-	<skill id="172" levels="10" name="Create Item">
-		<table name="#magicLvl"> 5 20 28 36 43 49 55 62 79 82 </table>
+	<skill id="172" levels="14" name="Create Item">
+		<table name="#magicLvl"> 5 20 28 36 43 49 55 62 79 82 85 90 95 99 </table>
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="COREDONE" />
