@@ -1023,7 +1023,7 @@
 		<set name="castRange" val="7000" />
 		<set name="effectRange" val="1250" />
 		<for>
-			<effect count="20" name="Fear" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="turn_flee" />
+			<effect count="1" name="Fear" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="turn_flee" />
 		</for>
 	</skill>
 	<skill id="11068" levels="4" name="Double Castr">
