@@ -3196,8 +3196,8 @@ INSERT INTO `messagetable` VALUES
 ('1862', 'tw', '傳送表單重新讀取。', '', 'AdminSpawn.java'),
 ('1862', 'cn', '传送表单重新读取。', '', 'AdminSpawn.java'),
 ('1863', 'en', '', 'You cannot spawn another instance of ;.', 'AdminSpawn.java'),
-('1863', 'tw', '', '無法召喚狩獵首領「;」。', 'AdminSpawn.java'),
-('1863', 'cn', '', '无法召唤狩猎首领「;」。', 'AdminSpawn.java'),
+('1863', 'tw', '', '狩獵首領「;」已經存在，無法重複召喚。', 'AdminSpawn.java'),
+('1863', 'cn', '', '狩猎首领「;」已经存在，无法重复召唤。', 'AdminSpawn.java'),
 ('1864', 'en', '', 'Created ;.', 'AdminSpawn.java'),
 ('1864', 'tw', '', '召喚「;」。', 'AdminSpawn.java'),
 ('1864', 'cn', '', '召唤「;」。', 'AdminSpawn.java'),
@@ -3213,6 +3213,9 @@ INSERT INTO `messagetable` VALUES
 ('1868', 'en', '', 'Spawn Monster:; There are ; Npcs whose name starts with ', 'AdminSpawn.java'),
 ('1868', 'tw', '', 'NPC：; 總共：; 名字開頭：', 'AdminSpawn.java'),
 ('1868', 'cn', '', 'NPC：; 总共：; 名字开头：', 'AdminSpawn.java'),
+('1869', 'en', '', 'You cannot spawn type of ;GrandBoss.', 'AdminSpawn.java'),
+('1869', 'tw', '', '大型首領「;」只能由系統產生，無法手動召喚。', 'AdminSpawn.java'),
+('1869', 'cn', '', '狩猎首领「;」只能由系统产生，无法手动召唤。', 'AdminSpawn.java'),
 
 ('1871', 'en', 'You don\'t have the access right to use this command!', '', 'AdminSummon.java'),
 ('1871', 'tw', '沒有相關權限。', '', 'AdminSummon.java'),
@@ -3488,4 +3491,4 @@ INSERT INTO `messagetable` VALUES
 ('2002', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」，需要修正后才能载入\n拥有此技能的玩家ObjId: ', 'L2PcInstance.java'),
 ('2003', 'en', '', 'Skipped null skill Id: ; Level: ; autoGet Skill for player: ', 'L2PcInstance.java'),
 ('2003', 'tw', '', '略過資料不存在的技能ID:「;」等級:「;」\n請管理者刪除 skillTrees 資料夾裡面的這個學習技能ID\n學習此技能失敗的玩家: ', 'L2PcInstance.java'),
-('2003', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」\n请管理者删除 skillTrees 资料表里面的这个学习技能ID\n学习此技能失败的玩家: ', 'L2PcInstance.java');                                                           
+('2003', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」\n请管理者删除 skillTrees 资料表里面的这个学习技能ID\n学习此技能失败的玩家: ', 'L2PcInstance.java');

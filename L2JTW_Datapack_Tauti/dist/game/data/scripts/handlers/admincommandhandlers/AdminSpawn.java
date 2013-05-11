@@ -371,7 +371,9 @@ public class AdminSpawn implements IAdminCommandHandler
 			else
 				spawn.setInstanceId(0);
 			// TODO add checks for GrandBossSpawnManager
-			if (RaidBossSpawnManager.getInstance().isDefined(spawn.getNpcid()))
+			if (template1.isType("L2GrandBoss")) //rocknow
+				activeChar.sendMessage(MessageTable.Messages[1869].getExtra(1) + template1.getName() + MessageTable.Messages[1869].getExtra(2));
+			else if (RaidBossSpawnManager.getInstance().isDefined(spawn.getNpcid()))
 				activeChar.sendMessage(MessageTable.Messages[1863].getExtra(1) + template1.getName() + MessageTable.Messages[1863].getExtra(2));
 			else
 			{
