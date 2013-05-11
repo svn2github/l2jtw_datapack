@@ -1,0 +1,3483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="19316" type="EtcItem" name="製作卷軸(未確認的鎮魂鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1001"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19317" type="EtcItem" name="製作卷軸(未確認的鎮魂切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1002"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19318" type="EtcItem" name="製作卷軸(未確認的鎮魂殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1003"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19319" type="EtcItem" name="製作卷軸(未確認的鎮魂復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1004"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19320" type="EtcItem" name="製作卷軸(未確認的鎮魂戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1005"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19321" type="EtcItem" name="製作卷軸(未確認的鎮魂風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1006"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19322" type="EtcItem" name="製作卷軸(未確認的鎮魂投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1007"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19323" type="EtcItem" name="製作卷軸(未確認的鎮魂射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1008"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19324" type="EtcItem" name="製作卷軸(未確認的鎮魂爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1009"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19325" type="EtcItem" name="製作卷軸(未確認的鎮魂術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1010"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19326" type="EtcItem" name="製作卷軸(未確認的鎮魂報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1011"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19327" type="EtcItem" name="製作卷軸(未確認的永生頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1012"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19328" type="EtcItem" name="製作卷軸(未確認的永生胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1013"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19329" type="EtcItem" name="製作卷軸(未確認的永生脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1014"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19330" type="EtcItem" name="製作卷軸(未確認的永生護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1015"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19331" type="EtcItem" name="製作卷軸(未確認的永生靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1016"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19332" type="EtcItem" name="製作卷軸(未確認的永生盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1017"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19333" type="EtcItem" name="製作卷軸(未確認的永生皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1018"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19334" type="EtcItem" name="製作卷軸(未確認的永生皮胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1019"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19335" type="EtcItem" name="製作卷軸(未確認的永生皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1020"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19336" type="EtcItem" name="製作卷軸(未確認的永生皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1021"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19337" type="EtcItem" name="製作卷軸(未確認的永生皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1022"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19338" type="EtcItem" name="製作卷軸(未確認的永生頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1023"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19339" type="EtcItem" name="製作卷軸(未確認的永生外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1024"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19340" type="EtcItem" name="製作卷軸(未確認的永生長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1025"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19341" type="EtcItem" name="製作卷軸(未確認的永生手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1026"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19342" type="EtcItem" name="製作卷軸(未確認的永生鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1027"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19343" type="EtcItem" name="製作卷軸(未確認的永生符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1028"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19344" type="EtcItem" name="製作卷軸(未確認的永生項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1029"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19345" type="EtcItem" name="製作卷軸(未確認的永生耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1030"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19346" type="EtcItem" name="製作卷軸(未確認的永生戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1031"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19347" type="EtcItem" name="製作卷軸(未確認的英啟鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1032"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19348" type="EtcItem" name="製作卷軸(未確認的英啟切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1033"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19349" type="EtcItem" name="製作卷軸(未確認的英啟殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1034"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19350" type="EtcItem" name="製作卷軸(未確認的英啟復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1035"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19351" type="EtcItem" name="製作卷軸(未確認的英啟戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1036"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19352" type="EtcItem" name="製作卷軸(未確認的英啟風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1037"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19353" type="EtcItem" name="製作卷軸(未確認的英啟投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1038"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19354" type="EtcItem" name="製作卷軸(未確認的英啟射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1039"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19355" type="EtcItem" name="製作卷軸(未確認的英啟爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1040"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19356" type="EtcItem" name="製作卷軸(未確認的英啟術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1041"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19357" type="EtcItem" name="製作卷軸(未確認的英啟報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1042"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19358" type="EtcItem" name="製作卷軸(未確認的煉獄頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1043"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19359" type="EtcItem" name="製作卷軸(未確認的煉獄胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1044"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19360" type="EtcItem" name="製作卷軸(未確認的煉獄脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1045"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19361" type="EtcItem" name="製作卷軸(未確認的煉獄護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1046"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19362" type="EtcItem" name="製作卷軸(未確認的煉獄靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1047"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19363" type="EtcItem" name="製作卷軸(未確認的煉獄盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1048"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19364" type="EtcItem" name="製作卷軸(未確認的煉獄皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1049"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19365" type="EtcItem" name="製作卷軸(未確認的煉獄皮胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1050"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19366" type="EtcItem" name="製作卷軸(未確認的煉獄皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1051"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19367" type="EtcItem" name="製作卷軸(未確認的煉獄皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1052"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19368" type="EtcItem" name="製作卷軸(未確認的煉獄皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1053"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19369" type="EtcItem" name="製作卷軸(未確認的煉獄頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1054"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19370" type="EtcItem" name="製作卷軸(未確認的煉獄外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1055"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19371" type="EtcItem" name="製作卷軸(未確認的煉獄長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1056"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19372" type="EtcItem" name="製作卷軸(未確認的煉獄手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1057"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19373" type="EtcItem" name="製作卷軸(未確認的煉獄鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1058"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19374" type="EtcItem" name="製作卷軸(未確認的煉獄符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1059"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19375" type="EtcItem" name="製作卷軸(未確認的煉獄項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1060"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19376" type="EtcItem" name="製作卷軸(未確認的煉獄耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1061"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19377" type="EtcItem" name="製作卷軸(未確認的煉獄戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1062"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19378" type="EtcItem" name="製作卷軸(未確認的幻靈鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1063"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19379" type="EtcItem" name="製作卷軸(未確認的幻靈切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1064"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19380" type="EtcItem" name="製作卷軸(未確認的幻靈殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1065"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19381" type="EtcItem" name="製作卷軸(未確認的幻靈復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1066"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19382" type="EtcItem" name="製作卷軸(未確認的幻靈戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1067"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19383" type="EtcItem" name="製作卷軸(未確認的幻靈風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1068"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19384" type="EtcItem" name="製作卷軸(未確認的幻靈投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1069"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19385" type="EtcItem" name="製作卷軸(未確認的幻靈射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1070"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19386" type="EtcItem" name="製作卷軸(未確認的幻靈爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1071"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19387" type="EtcItem" name="製作卷軸(未確認的幻靈術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1072"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19388" type="EtcItem" name="製作卷軸(未確認的幻靈報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1073"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19389" type="EtcItem" name="製作卷軸(未確認的卡戴拉頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1074"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19390" type="EtcItem" name="製作卷軸(未確認的卡戴拉胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1075"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19391" type="EtcItem" name="製作卷軸(未確認的卡戴拉脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1076"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19392" type="EtcItem" name="製作卷軸(未確認的卡戴拉護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1077"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19393" type="EtcItem" name="製作卷軸(未確認的卡戴拉靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1078"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19394" type="EtcItem" name="製作卷軸(未確認的卡戴拉盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1079"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19395" type="EtcItem" name="製作卷軸(未確認的卡戴拉皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1080"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19396" type="EtcItem" name="製作卷軸(未確認的卡戴拉皮胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1081"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19397" type="EtcItem" name="製作卷軸(未確認的卡戴拉皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1082"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19398" type="EtcItem" name="製作卷軸(未確認的卡戴拉皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1083"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19399" type="EtcItem" name="製作卷軸(未確認的卡戴拉皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1084"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19400" type="EtcItem" name="製作卷軸(未確認的卡戴拉頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1085"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19401" type="EtcItem" name="製作卷軸(未確認的卡戴拉外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1086"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19402" type="EtcItem" name="製作卷軸(未確認的卡戴拉長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1087"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19403" type="EtcItem" name="製作卷軸(未確認的卡戴拉手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1088"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19404" type="EtcItem" name="製作卷軸(未確認的卡戴拉鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1089"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19405" type="EtcItem" name="製作卷軸(未確認的卡戴拉符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1090"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19406" type="EtcItem" name="製作卷軸(未確認的卡戴拉項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1091"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19407" type="EtcItem" name="製作卷軸(未確認的卡戴拉耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1092"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19408" type="EtcItem" name="製作卷軸(未確認的卡戴拉戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1093"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19409" type="EtcItem" name="製作卷軸(未確認的赫利奧斯鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1094"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19410" type="EtcItem" name="製作卷軸(未確認的赫利奧斯切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1095"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19411" type="EtcItem" name="製作卷軸(未確認的赫利奧斯殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1096"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19412" type="EtcItem" name="製作卷軸(未確認的赫利奧斯復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1097"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19413" type="EtcItem" name="製作卷軸(未確認的赫利奧斯戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1098"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19414" type="EtcItem" name="製作卷軸(未確認的赫利奧斯風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1099"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19415" type="EtcItem" name="製作卷軸(未確認的赫利奧斯投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1100"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19416" type="EtcItem" name="製作卷軸(未確認的赫利奧斯射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1101"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19417" type="EtcItem" name="製作卷軸(未確認的赫利奧斯爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1102"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19418" type="EtcItem" name="製作卷軸(未確認的赫利奧斯術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1103"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19419" type="EtcItem" name="製作卷軸(未確認的赫利奧斯報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1104"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19420" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1105"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19421" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1106"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19422" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1107"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19423" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1108"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19424" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1109"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19425" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1110"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19426" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1111"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19427" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1112"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19428" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1113"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19429" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1114"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19430" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1115"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19431" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1116"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19432" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1117"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19433" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1118"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19434" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1119"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19435" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1120"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19436" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1121"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19437" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1122"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19438" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1123"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="19439" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1124"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="23308" type="EtcItem" name="製作卷軸(精靈果香啤酒)">
+		<set name="icon" val="BranchSys.icon.br_valentine_recipe_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="3002" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="30423" type="EtcItem" name="製作卷軸(靈魂彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1125"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="30424" type="EtcItem" name="製作卷軸(魔靈彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1126"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="30425" type="EtcItem" name="製作卷軸(祝福的魔靈彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1127"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="30426" type="EtcItem" name="製作卷軸(生命靈藥-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1128"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="30427" type="EtcItem" name="製作卷軸(精神靈藥-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1129"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="30428" type="EtcItem" name="製作卷軸(鬥志靈藥-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1130"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32273" type="EtcItem" name="製作卷軸(人類男性戰士假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1131"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32274" type="EtcItem" name="製作卷軸(人類女性戰士假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1132"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32275" type="EtcItem" name="製作卷軸(人類男性法師假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1133"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32276" type="EtcItem" name="製作卷軸(人類女性法師假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1134"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32277" type="EtcItem" name="製作卷軸(精靈男性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1135"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32278" type="EtcItem" name="製作卷軸(精靈女性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1136"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32279" type="EtcItem" name="製作卷軸(黑暗精靈男性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1137"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32280" type="EtcItem" name="製作卷軸(黑暗精靈女性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1138"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32281" type="EtcItem" name="製作卷軸(矮人男性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1139"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32282" type="EtcItem" name="製作卷軸(矮人女性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1140"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32283" type="EtcItem" name="製作卷軸(半獸人男性戰士假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1141"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32284" type="EtcItem" name="製作卷軸(半獸人女性戰士假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1142"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32285" type="EtcItem" name="製作卷軸(半獸人男性巫醫假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1143"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32286" type="EtcItem" name="製作卷軸(半獸人女性巫醫假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1144"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32287" type="EtcItem" name="製作卷軸(闇天使男性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1145"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32288" type="EtcItem" name="製作卷軸(闇天使女性假髮100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1146"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32292" type="EtcItem" name="製作卷軸(永生腰帶60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1147"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32293" type="EtcItem" name="製作卷軸(永生手鐲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1148"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32294" type="EtcItem" name="製作卷軸(永生襯衫60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1149"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32295" type="EtcItem" name="製作卷軸(煉獄腰帶60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32296" type="EtcItem" name="製作卷軸(煉獄手鐲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1151"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32297" type="EtcItem" name="製作卷軸(煉獄襯衫60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1152"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32298" type="EtcItem" name="製作卷軸(卡戴拉腰帶60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1153"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32299" type="EtcItem" name="製作卷軸(卡戴拉手鐲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1154"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32300" type="EtcItem" name="製作卷軸(卡戴拉襯衫60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1155"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32301" type="EtcItem" name="製作卷軸(艾迪奧斯腰帶60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1156"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32302" type="EtcItem" name="製作卷軸(艾迪奧斯手鐲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1157"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32303" type="EtcItem" name="製作卷軸(艾迪奧斯襯衫60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1158"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32317" type="EtcItem" name="製作卷軸(祝福的秘藥100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1159"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32814" type="EtcItem" name="製作卷軸(靈魂彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1160"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32815" type="EtcItem" name="製作卷軸(魔靈彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1161"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="32816" type="EtcItem" name="製作卷軸(祝福的魔靈彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1162"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="34841" type="EtcItem" name="製作卷軸(壓縮靈魂彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1163"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="34842" type="EtcItem" name="製作卷軸(壓縮魔靈彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1164"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="34843" type="EtcItem" name="製作卷軸(祝福的壓縮魔靈彈-R級100%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1165"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35420" type="EtcItem" name="製作卷軸(幻靈鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1166"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35421" type="EtcItem" name="製作卷軸(幻靈切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1167"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35422" type="EtcItem" name="製作卷軸(幻靈殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1168"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35423" type="EtcItem" name="製作卷軸(幻靈復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1169"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35424" type="EtcItem" name="製作卷軸(幻靈戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1170"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35425" type="EtcItem" name="製作卷軸(幻靈風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1171"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35426" type="EtcItem" name="製作卷軸(幻靈投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1172"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35427" type="EtcItem" name="製作卷軸(幻靈射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1173"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35428" type="EtcItem" name="製作卷軸(幻靈爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1174"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35429" type="EtcItem" name="製作卷軸(幻靈術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1175"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35430" type="EtcItem" name="製作卷軸(幻靈報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1176"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35431" type="EtcItem" name="製作卷軸(卡戴拉頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1177"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35432" type="EtcItem" name="製作卷軸(卡戴拉胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1178"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35433" type="EtcItem" name="製作卷軸(卡戴拉脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1179"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35434" type="EtcItem" name="製作卷軸(卡戴拉護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1180"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35435" type="EtcItem" name="製作卷軸(卡戴拉靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1181"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35436" type="EtcItem" name="製作卷軸(卡戴拉盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1182"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35437" type="EtcItem" name="製作卷軸(卡戴拉皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1183"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35438" type="EtcItem" name="製作卷軸(卡戴拉皮甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1184"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35439" type="EtcItem" name="製作卷軸(卡戴拉皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1185"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35440" type="EtcItem" name="製作卷軸(卡戴拉皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1186"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35441" type="EtcItem" name="製作卷軸(卡戴拉皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1187"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35442" type="EtcItem" name="製作卷軸(卡戴拉頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1188"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35443" type="EtcItem" name="製作卷軸(卡戴拉外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1189"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35444" type="EtcItem" name="製作卷軸(卡戴拉長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1190"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35445" type="EtcItem" name="製作卷軸(卡戴拉手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1191"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35446" type="EtcItem" name="製作卷軸(卡戴拉鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1192"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35447" type="EtcItem" name="製作卷軸(卡戴拉符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1193"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35448" type="EtcItem" name="製作卷軸(卡戴拉項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1194"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35449" type="EtcItem" name="製作卷軸(卡戴拉耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1195"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35450" type="EtcItem" name="製作卷軸(卡戴拉戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1196"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35451" type="EtcItem" name="製作卷軸(赫利奧斯鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1197"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35452" type="EtcItem" name="製作卷軸(赫利奧斯切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1198"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35453" type="EtcItem" name="製作卷軸(赫利奧斯殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1199"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35454" type="EtcItem" name="製作卷軸(赫利奧斯復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1200"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35455" type="EtcItem" name="製作卷軸(赫利奧斯戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1201"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35456" type="EtcItem" name="製作卷軸(赫利奧斯風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1202"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35457" type="EtcItem" name="製作卷軸(赫利奧斯投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1203"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35458" type="EtcItem" name="製作卷軸(赫利奧斯射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1204"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35459" type="EtcItem" name="製作卷軸(赫利奧斯爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1205"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35460" type="EtcItem" name="製作卷軸(赫利奧斯術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1206"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35461" type="EtcItem" name="製作卷軸(赫利奧斯報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1207"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35462" type="EtcItem" name="製作卷軸(艾迪奧斯頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1208"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35463" type="EtcItem" name="製作卷軸(艾迪奧斯胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1209"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35464" type="EtcItem" name="製作卷軸(艾迪奧斯脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1210"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35465" type="EtcItem" name="製作卷軸(艾迪奧斯護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1211"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35466" type="EtcItem" name="製作卷軸(艾迪奧斯靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1212"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35467" type="EtcItem" name="製作卷軸(艾迪奧斯盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1213"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35468" type="EtcItem" name="製作卷軸(艾迪奧斯皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1214"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35469" type="EtcItem" name="製作卷軸(艾迪奧斯皮甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1215"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35470" type="EtcItem" name="製作卷軸(艾迪奧斯皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1216"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35471" type="EtcItem" name="製作卷軸(艾迪奧斯皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1217"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35472" type="EtcItem" name="製作卷軸(艾迪奧斯皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1218"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35473" type="EtcItem" name="製作卷軸(艾迪奧斯頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1219"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35474" type="EtcItem" name="製作卷軸(艾迪奧斯外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1220"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35475" type="EtcItem" name="製作卷軸(艾迪奧斯長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1221"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35476" type="EtcItem" name="製作卷軸(艾迪奧斯手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1222"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35477" type="EtcItem" name="製作卷軸(艾迪奧斯鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1223"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35478" type="EtcItem" name="製作卷軸(艾迪奧斯符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1224"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35479" type="EtcItem" name="製作卷軸(艾迪奧斯項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1225"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35480" type="EtcItem" name="製作卷軸(艾迪奧斯耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1226"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35481" type="EtcItem" name="製作卷軸(艾迪奧斯戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1227"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35482" type="EtcItem" name="製作卷軸(祝福的幻靈鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1228"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35483" type="EtcItem" name="製作卷軸(祝福的幻靈切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1229"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35484" type="EtcItem" name="製作卷軸(祝福的幻靈殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1230"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35485" type="EtcItem" name="製作卷軸(祝福的幻靈復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1231"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35486" type="EtcItem" name="製作卷軸(祝福的幻靈戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1232"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35487" type="EtcItem" name="製作卷軸(祝福的幻靈風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1233"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35488" type="EtcItem" name="製作卷軸(祝福的幻靈投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1234"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35489" type="EtcItem" name="製作卷軸(祝福的幻靈射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1235"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35490" type="EtcItem" name="製作卷軸(祝福的幻靈爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1236"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35491" type="EtcItem" name="製作卷軸(祝福的幻靈術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1237"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35492" type="EtcItem" name="製作卷軸(祝福的幻靈報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1238"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35493" type="EtcItem" name="製作卷軸(祝福的卡戴拉頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1239"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35494" type="EtcItem" name="製作卷軸(祝福的卡戴拉胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1240"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35495" type="EtcItem" name="製作卷軸(祝福的卡戴拉脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1241"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35496" type="EtcItem" name="製作卷軸(祝福的卡戴拉護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1242"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35497" type="EtcItem" name="製作卷軸(祝福的卡戴拉靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1243"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35498" type="EtcItem" name="製作卷軸(祝福的卡戴拉盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1244"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35499" type="EtcItem" name="製作卷軸(祝福的卡戴拉皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1245"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35500" type="EtcItem" name="製作卷軸(祝福的卡戴拉皮甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1246"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35501" type="EtcItem" name="製作卷軸(祝福的卡戴拉皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1247"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35502" type="EtcItem" name="製作卷軸(祝福的卡戴拉皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1248"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35503" type="EtcItem" name="製作卷軸(祝福的卡戴拉皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1249"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35504" type="EtcItem" name="製作卷軸(祝福的卡戴拉頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1250"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35505" type="EtcItem" name="製作卷軸(祝福的卡戴拉外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1251"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35506" type="EtcItem" name="製作卷軸(祝福的卡戴拉長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1252"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35507" type="EtcItem" name="製作卷軸(祝福的卡戴拉手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1253"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35508" type="EtcItem" name="製作卷軸(祝福的卡戴拉鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1254"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35509" type="EtcItem" name="製作卷軸(祝福的卡戴拉符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1255"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35510" type="EtcItem" name="製作卷軸(祝福的卡戴拉項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1256"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35511" type="EtcItem" name="製作卷軸(祝福的卡戴拉耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1257"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35512" type="EtcItem" name="製作卷軸(祝福的卡戴拉戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1258"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35513" type="EtcItem" name="製作卷軸(祝福的赫利奧斯鉋刀60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1259"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35514" type="EtcItem" name="製作卷軸(祝福的赫利奧斯切刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1260"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35515" type="EtcItem" name="製作卷軸(祝福的赫利奧斯殺刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1261"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35516" type="EtcItem" name="製作卷軸(祝福的赫利奧斯復仇者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1262"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35517" type="EtcItem" name="製作卷軸(祝福的赫利奧斯戰爪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1263"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35518" type="EtcItem" name="製作卷軸(祝福的赫利奧斯風暴者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1264"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35519" type="EtcItem" name="製作卷軸(祝福的赫利奧斯投弓60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1265"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35520" type="EtcItem" name="製作卷軸(祝福的赫利奧斯射靈60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1266"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35521" type="EtcItem" name="製作卷軸(祝福的赫利奧斯爆刃60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1267"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35522" type="EtcItem" name="製作卷軸(祝福的赫利奧斯術杖60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1268"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35523" type="EtcItem" name="製作卷軸(祝福的赫利奧斯報恨者60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1269"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35524" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1270"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35525" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯胸甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1271"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35526" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1272"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35527" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯護手60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1273"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35528" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1274"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35529" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯盾60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1275"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35530" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯皮頭盔60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1276"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35531" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯皮甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1277"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35532" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯皮脛甲60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1278"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35533" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯皮手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1279"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35534" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯皮靴60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1280"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35535" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯頭箍60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1281"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35536" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯外衣60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1282"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35537" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯長襪60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1283"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35538" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯手套60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1284"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35539" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯鞋60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1285"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35540" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯符印60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1286"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35541" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯項鍊60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1287"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35542" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯耳環60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1288"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+	<item id="35543" type="EtcItem" name="製作卷軸(祝福的艾迪奧斯戒指60%)">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="default_action" val="recipe"/>
+		<set name="etcitem_type" val="recipe"/>
+		<set name="immediate_effect" val="1"/>
+		<set name="material" val="liquid"/>
+		<set name="weight" val="30"/>
+		<!--<set name="price" val="600" />-->
+		<set name="recipe_id" val="1289"/>
+		<set name="is_stackable" val="true"/>
+		<set name="handler" val="Recipes"/>
+	</item>
+</list>
