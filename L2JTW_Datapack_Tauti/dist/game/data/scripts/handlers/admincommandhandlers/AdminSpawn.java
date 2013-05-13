@@ -371,7 +371,20 @@ public class AdminSpawn implements IAdminCommandHandler
 			else
 				spawn.setInstanceId(0);
 			// TODO add checks for GrandBossSpawnManager
-			if (template1.isType("L2GrandBoss")) //rocknow
+			if (template1.getAIDataStatic().getAggroRange() == -1) //rocknow-Test Only
+			{
+				if (spawn.getNpcid() < 38000)
+				{
+					activeChar.sendMessage(MessageTable.Messages[2005].getExtra(1) + MessageTable.Messages[2005].getExtra(5) + spawn.getNpcid() + MessageTable.Messages[2005].getExtra(6));
+					activeChar.sendMessage(MessageTable.Messages[2005].getExtra(2) + MessageTable.Messages[2005].getExtra(5) + spawn.getNpcid() + MessageTable.Messages[2005].getExtra(6));
+				}
+				else
+				{
+					activeChar.sendMessage(MessageTable.Messages[2005].getExtra(3) + MessageTable.Messages[2005].getExtra(5) + spawn.getNpcid() + MessageTable.Messages[2005].getExtra(6));
+					activeChar.sendMessage(MessageTable.Messages[2005].getExtra(4) + MessageTable.Messages[2005].getExtra(5) + spawn.getNpcid() + MessageTable.Messages[2005].getExtra(6));
+				}
+			}
+			else if (template1.isType("L2GrandBoss")) //rocknow
 				activeChar.sendMessage(MessageTable.Messages[1869].getExtra(1) + template1.getName() + MessageTable.Messages[1869].getExtra(2));
 			else if (RaidBossSpawnManager.getInstance().isDefined(spawn.getNpcid()))
 				activeChar.sendMessage(MessageTable.Messages[1863].getExtra(1) + template1.getName() + MessageTable.Messages[1863].getExtra(2));

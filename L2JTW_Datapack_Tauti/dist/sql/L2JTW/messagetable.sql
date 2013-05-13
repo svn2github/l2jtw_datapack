@@ -3491,4 +3491,11 @@ INSERT INTO `messagetable` VALUES
 ('2002', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」，需要修正后才能载入\n拥有此技能的玩家ObjId: ', 'L2PcInstance.java'),
 ('2003', 'en', '', 'Skipped null skill Id: ; Level: ; autoGet Skill for player: ', 'L2PcInstance.java'),
 ('2003', 'tw', '', '略過資料不存在的技能ID:「;」等級:「;」\n請管理者刪除 skillTrees 資料夾裡面的這個學習技能ID\n學習此技能失敗的玩家: ', 'L2PcInstance.java'),
-('2003', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」\n请管理者删除 skillTrees 资料表里面的这个学习技能ID\n学习此技能失败的玩家: ', 'L2PcInstance.java');
+('2003', 'cn', '', '略过资料不存在的技能ID:「;」等级:「;」\n请管理者删除 skillTrees 资料表里面的这个学习技能ID\n学习此技能失败的玩家: ', 'L2PcInstance.java'),
+
+('2005', 'en', '', 'npcaidata.sql      ;npc_elementals.sql ;custom_npcaidata.sql      ;custom_npc_elementals.sql ;Data missing in NPC ID: ; .', 'SpawnTable.java'),
+('2005', 'tw', '', 'npcaidata.sql      ;npc_elementals.sql ;custom_npcaidata.sql      ;custom_npc_elementals.sql ;缺少 NPC ID: ; 的資料', 'SpawnTable.java'),
+('2005', 'cn', '', 'npcaidata.sql      ;npc_elementals.sql ;custom_npcaidata.sql      ;custom_npc_elementals.sql ;缺少 NPC ID: ; 的资料', 'SpawnTable.java'),
+('2006', 'en', '', 'skip;spawn', 'SpawnTable.java'),
+('2006', 'tw', '', '略過;的刷怪點', 'SpawnTable.java'),
+('2006', 'cn', '', '略过;的刷怪点', 'SpawnTable.java');

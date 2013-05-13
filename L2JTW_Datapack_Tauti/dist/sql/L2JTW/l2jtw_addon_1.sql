@@ -56,6 +56,7 @@ Delete From `spawnlist` Where `npc_templateid` in (32628,32629);
 -- 修正NPC
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- 碼頭巡邏兵的類型改為一般NPC
 UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32540,32542,32602); -- 深淵的守門人/安定的再生種子/臨時傳送師的類型改為傳送
+UPDATE `npc` SET `type` = 'L2Monster' WHERE `id` IN (29030,29033,29036,29037); -- 魔狼的類型"暫時"改為一般怪物
 
 -- 加入新傳送
 REPLACE INTO `teleport` VALUES
@@ -73,8 +74,8 @@ REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`,
 ('新說話之島村莊',1,31757,-113658,255456,-1499,32414,60);
 
 -- 刪除其中一隻轉職管理員(不定時改刪另一個)
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
--- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
 
 /************ Add by pmq *********/
