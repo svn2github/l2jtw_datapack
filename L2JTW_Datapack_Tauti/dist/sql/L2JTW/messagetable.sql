@@ -3214,8 +3214,8 @@ INSERT INTO `messagetable` VALUES
 ('1868', 'tw', '', 'NPC：; 總共：; 名字開頭：', 'AdminSpawn.java'),
 ('1868', 'cn', '', 'NPC：; 总共：; 名字开头：', 'AdminSpawn.java'),
 ('1869', 'en', '', 'You cannot spawn type of ;GrandBoss.', 'AdminSpawn.java'),
-('1869', 'tw', '', '大型首領「;」只能由系統產生，無法手動召喚。', 'AdminSpawn.java'),
-('1869', 'cn', '', '狩猎首领「;」只能由系统产生，无法手动召唤。', 'AdminSpawn.java'),
+('1869', 'tw', '', '大型首領「;」只能由系統產生，無法手動召喚。\n請改召喚 custom_npc 的「類型為一般怪物的大型首領」。', 'AdminSpawn.java'),
+('1869', 'cn', '', '狩猎首领「;」只能由系统产生，无法手动召唤。\n请改召唤 custom_npc 的「类型为一般怪物的大型首领」。', 'AdminSpawn.java'),
 
 ('1871', 'en', 'You don\'t have the access right to use this command!', '', 'AdminSummon.java'),
 ('1871', 'tw', '沒有相關權限。', '', 'AdminSummon.java'),
@@ -3461,8 +3461,8 @@ INSERT INTO `messagetable` VALUES
 ('1971', 'cn', '无', '', 'Castle.java'),
 
 ('1975', 'en', 'Support Client: Tauti\nSupport Protocol: ', '', 'LoginServerThread.java'),
-('1975', 'tw', '測試伺服器啟動完成。\n支援的遊戲版本：塔武提\n支援的協定版本：', '', 'LoginServerThread.java'),
-('1975', 'cn', '测试服务端启动完成。\n支援的游戏版本：塔武提\n支援的协定版本：', '', 'LoginServerThread.java'),
+('1975', 'tw', '測試伺服器啟動完成。\n支援的遊戲版本：榮耀覺醒\n支援的協定版本：', '', 'LoginServerThread.java'),
+('1975', 'cn', '测试服务端启动完成。\n支援的游戏版本：荣耀觉醒\n支援的协定版本：', '', 'LoginServerThread.java'),
 ('1976', 'en', 'Now a New GS Support ???', '', 'LoginServerThread.java'),
 ('1976', 'tw', '現在已經新增一個 GS，支援最新的「？？？」', '', 'LoginServerThread.java'),
 ('1976', 'cn', '现在已经新增一个 GS，支援最新的「？？？」', '', 'LoginServerThread.java'),
