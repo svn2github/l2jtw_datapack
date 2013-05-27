@@ -1,15 +1,15 @@
 DROP TABLE IF EXISTS `lvlupgain`;
 CREATE TABLE `lvlupgain` (
   `classid` tinyint(3) unsigned NOT NULL,
-  `defaulthpbase` decimal(7,3) NOT NULL,
-  `defaulthpadd` decimal(7,3) NOT NULL,
-  `defaulthpmod` decimal(3,2) NOT NULL DEFAULT '0.37',
-  `defaultcpbase` decimal(7,3) NOT NULL,
-  `defaultcpadd` decimal(7,3) NOT NULL,
-  `defaultcpmod` decimal(3,2) NOT NULL DEFAULT '0.22',
-  `defaultmpbase` decimal(7,3) NOT NULL,
-  `defaultmpadd` decimal(7,3) NOT NULL,
-  `defaultmpmod` decimal(3,2) NOT NULL DEFAULT '0.14',
+  `defaulthpbase` decimal(8,3) NOT NULL,
+  `defaulthpadd` decimal(8,3) NOT NULL,
+  `defaulthpmod` decimal(4,2) NOT NULL DEFAULT '0.37',
+  `defaultcpbase` decimal(8,3) NOT NULL,
+  `defaultcpadd` decimal(8,3) NOT NULL,
+  `defaultcpmod` decimal(4,2) NOT NULL DEFAULT '0.22',
+  `defaultmpbase` decimal(8,3) NOT NULL,
+  `defaultmpadd` decimal(8,3) NOT NULL,
+  `defaultmpmod` decimal(4,2) NOT NULL DEFAULT '0.14',
   `class_lvl` tinyint(2) unsigned NOT NULL,
   PRIMARY KEY (`classid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
@@ -128,13 +128,14 @@ INSERT INTO `lvlupgain` (`classid`,`defaulthpbase`,`defaulthpadd`,`defaultcpbase
 (133, 3258.58, 66.40, 1629.29, 33.20, 1555.48, 33.20, 76), -- ok
 (134, 3476.14, 73.04, 1738.07, 36.52, 1283.53, 24.90, 76), -- ok
 (135, 1135.87, 53.30, 567.935, 26.65, 493.48, 26.00, 40), -- ok
-(136, 3312.97, 68.06, 1656.485, 34.03, 1555.48, 33.20, 76), -- ok
+(136, 3312.97, 68.06, 1656.485, 34.03, 1555.48, 33.20, 76); -- ok
 -- Awakening
-(139, 3515.21, 73.04, 1757.605, 36.52, 1166.61, 24.90, 85),
-(140, 3297.65, 66.40, 1648.825, 33.20, 1438.56, 33.20, 85),
-(141, 3258.58, 66.40, 1629.290, 33.20, 1555.48, 33.20, 85),
-(142, 3476.14, 73.04, 1738.070, 36.52, 1283.53, 24.90, 85),
-(143, 3312.97, 68.06, 1656.485, 34.03, 1555.48, 33.20, 85),
-(144, 3312.97, 68.06, 1656.485, 34.03, 1555.48, 33.20, 85),
-(145, 3312.97, 68.06, 1656.485, 34.03, 1555.48, 33.20, 85),
-(146, 3312.97, 68.06, 1656.485, 34.03, 1555.48, 33.20, 85);
+INSERT INTO `lvlupgain` (`classid`,`defaulthpbase`,`defaulthpadd`,`defaulthpmod`,`defaultcpbase`,`defaultcpadd`,`defaultcpmod`,`defaultmpbase`,`defaultmpadd`,`defaultmpmod`,`class_lvl`) VALUES
+(139, 6934, 120, 0.74, 6000, 62, 0.44, 3885, 50, 0.28, 85),
+(140, 7143, 126, 0.74, 8278, 114, 0.44, 3885, 50, 0.28, 85),
+(141, 6613, 106, 0.74, 7010, 58, 0.44, 3885, 50, 0.28, 85),
+(142, 6750, 112, 0.74, 7275, 80, 0.44, 3885, 50, 0.28, 85),
+(143, 6915, 116, 0.74, 7049, 58, 0.44, 4346, 66, 0.28, 85),
+(144, 7000, 123, 0.74, 8000, 100, 0.44, 4000, 55, 0.28, 85),
+(145, 7120, 126, 0.74, 7172, 76, 0.44, 4346, 66, 0.28, 85),
+(146, 7264, 126, 0.74, 8387, 114, 0.44, 4346, 66, 0.28, 85);
