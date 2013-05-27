@@ -160,5 +160,22 @@ UPDATE `char_templates` SET `STR`=38, `CON`=41, `DEX`=27, `_INT`=79, `WIT`=78, `
 UPDATE `char_templates` SET `STR`=36, `CON`=38, `DEX`=32, `_INT`=74, `WIT`=84, `MEN`=77 WHERE `ClassId` in (25,26,27,28,29,30,103,104,105);
 UPDATE `char_templates` SET `STR`=39, `CON`=37, `DEX`=30, `_INT`=85, `WIT`=77, `MEN`=73 WHERE `ClassId` in (38,39,40,41,42,43,110,111,112);
 UPDATE `char_templates` SET `STR`=40, `CON`=43, `DEX`=23, `_INT`=77, `WIT`=74, `MEN`=84 WHERE `ClassId` in (49,50,51,52,115,116);
-UPDATE `char_templates` SET `STR`=40, `CON`=42, `DEX`=24, `_INT`=82, `WIT`=72, `MEN`=81 WHERE `ClassId` in (144);
-UPDATE `char_templates` SET `STR`=40, `CON`=38, `DEX`=28, `_INT`=82, `WIT`=78, `MEN`=75 WHERE `ClassId` in (146);
+
+-- move speed fix
+UPDATE `char_templates` SET `MOVE_SPD`=132 WHERE `ClassId` in (0,1,2,3,4,5,6,7,8,9,88,89,90,91,92,93);
+UPDATE `char_templates` SET `MOVE_SPD`=143 WHERE `ClassId` in (18,19,20,21,22,23,24,99,100,101,102);
+UPDATE `char_templates` SET `MOVE_SPD`=139 WHERE `ClassId` in (31,32,33,34,35,36,37,106,107,108,109);
+UPDATE `char_templates` SET `MOVE_SPD`=130 WHERE `ClassId` in (44,45,46,47,48,113,114);
+UPDATE `char_templates` SET `MOVE_SPD`=131 WHERE `ClassId` in (53,54,55,56,57,117,118);
+UPDATE `char_templates` SET `MOVE_SPD`=140 WHERE `ClassId` in (123,124,125,126,127,128,129,130,131,132,133,134,135,136);
+
+UPDATE `char_templates` SET `MOVE_SPD`=124 WHERE `ClassId` in (10,11,12,13,14,15,16,17,94,95,96,97,98);
+UPDATE `char_templates` SET `MOVE_SPD`=129 WHERE `ClassId` in (25,26,27,28,29,30,103,104,105);
+UPDATE `char_templates` SET `MOVE_SPD`=128 WHERE `ClassId` in (38,39,40,41,42,43,110,111,112);
+UPDATE `char_templates` SET `MOVE_SPD`=128 WHERE `ClassId` in (49,50,51,52,115,116);
+
+-- temp fix
+UPDATE `char_templates` SET `RaceId`=4, `STR`=40, `CON`=42, `DEX`=24, `_INT`=82, `WIT`=72, `MEN`=81 WHERE `ClassId` in (145); -- for Dwarf Mage
+UPDATE `char_templates` SET `RaceId`=5, `STR`=40, `CON`=38, `DEX`=28, `_INT`=82, `WIT`=78, `MEN`=75 WHERE `ClassId` in (146); -- for Kamael Mage
+UPDATE `char_templates` SET `MOVE_SPD`= 128 WHERE `ClassId` in (145); -- Guess for Dwarf Mage
+UPDATE `char_templates` SET `MOVE_SPD`= 130 WHERE `ClassId` in (146); -- Guess for Kamael Mage
