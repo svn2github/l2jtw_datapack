@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="15000" name="友情的末日皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="5500"/>
+		<set name="icon" val="icon.armor_t72_ul_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="202"/>
+		</for>
+	</item>
+	<item id="15001" name="友情的末日頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="66"/>
+		</for>
+	</item>
+	<item id="15002" name="友情的末日手套-重裝用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t71_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="15003" name="友情的末日手套-輕裝用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t72_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="15004" name="友情的末日靴-重裝用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t71_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="15005" name="友情的末日靴-輕裝用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t72_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="15006" name="友情的末日金屬盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="9980"/>
+		<set name="icon" val="icon.armor_t71_ul_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="270"/>
+		</for>
+	</item>
+	<item id="15007" name="友情的末日盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1200"/>
+		<set name="icon" val="icon.shield_doom_shield_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="230"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="15008" name="友情的金屬皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4450"/>
+		<set name="icon" val="icon.armor_t47_u_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="94"/>
+		</for>
+	</item>
+	<item id="15009" name="友情的金屬皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1560"/>
+		<set name="icon" val="icon.armor_t47_l_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="59"/>
+		</for>
+	</item>
+	<item id="15010" name="友情的金屬皮長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1220"/>
+		<set name="icon" val="icon.armor_t47_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="32"/>
+		</for>
+	</item>
+	<item id="15011" name="友情的金屬皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="610"/>
+		<set name="icon" val="icon.armor_t47_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="33"/>
+		</for>
+	</item>
+	<item id="15012" name="友情的全覆式頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="600"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="58"/>
+		</for>
+	</item>
+	<item id="15013" name="友情的全身盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10480"/>
+		<set name="icon" val="icon.armor_t62_ul_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="239"/>
+		</for>
+	</item>
+	<item id="15014" name="友情的全覆式長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1200"/>
+		<set name="icon" val="icon.armor_t62_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="39"/>
+		</for>
+	</item>
+	<item id="15015" name="友情的全覆式長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="600"/>
+		<set name="icon" val="icon.armor_t62_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="39"/>
+		</for>
+	</item>
+	<item id="15016" name="友情的全覆式盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1220"/>
+		<set name="icon" val="icon.shield_full_plate_shield_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="203"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="15017" name="友情的刺尾獅皮襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4520"/>
+		<set name="icon" val="icon.armor_t42_u_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="77"/>
+		</for>
+	</item>
+	<item id="15018" name="友情的刺尾獅皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.armor_t42_l_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
+		</for>
+	</item>
+	<item id="15019" name="友情的刺尾獅皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1260"/>
+		<set name="icon" val="icon.armor_t42_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="27"/>
+		</for>
+	</item>
+	<item id="15020" name="友情的刺尾獅皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="630"/>
+		<set name="icon" val="icon.armor_t42_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="27"/>
+		</for>
+	</item>
+	<item id="15021" name="友情的鎖子甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="8320"/>
+		<set name="icon" val="icon.armor_t43_u_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="103"/>
+		</for>
+	</item>
+	<item id="15022" name="友情的鎖脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3820"/>
+		<set name="icon" val="icon.armor_t43_l_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="64"/>
+		</for>
+	</item>
+	<item id="15023" name="友情的鎖子頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="630"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+		</for>
+	</item>
+	<item id="15024" name="友情的鎖子長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1250"/>
+		<set name="icon" val="icon.armor_t43_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="27"/>
+		</for>
+	</item>
+	<item id="15025" name="友情的鎖子甲長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="630"/>
+		<set name="icon" val="icon.armor_t43_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="27"/>
+		</for>
+	</item>
+	<item id="15026" name="友情的鎖子盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.shield_brigandine_shield_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="142"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="15027" name="友情的夢魘盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="9580"/>
+		<set name="icon" val="icon.armor_t80_ul_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="293"/>
+		</for>
+	</item>
+	<item id="15028" name="友情的夢魘頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="560"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="73"/>
+		</for>
+	</item>
+	<item id="15029" name="友情的夢魘長手套-重裝用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="550"/>
+		<set name="icon" val="icon.armor_t80_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="15030" name="友情的夢魘靴-重裝用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t80_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="15031" name="友情的夢魘盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="256"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="15032" name="友情的奇蹟劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="840"/>
+		<set name="icon" val="icon.weapon_sword_of_miracle_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="186"/>
+			<set order="0x08" stat="mAtk" val="152"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15033" name="友情的巫師之淚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1350"/>
+		<set name="icon" val="icon.weapon_tears_of_wizard_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="155"/>
+			<set order="0x08" stat="mAtk" val="132"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15034" name="友情的何門奎思之劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="950"/>
+		<set name="icon" val="icon.weapon_homunkuluss_sword_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="111"/>
+			<set order="0x08" stat="mAtk" val="101"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15035" name="友情的生命手杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.weapon_life_stick_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="74"/>
+			<set order="0x08" stat="mAtk" val="72"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15036" name="友情的那卡風暴" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="930"/>
+		<set name="icon" val="icon.weapon_naga_storm_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15037" name="友情的波形刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="980"/>
+		<set name="icon" val="icon.weapon_kris_i01"/>
+		<set name="material" val="mithril"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="153"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15038" name="友情的黑暗狂嘯者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1010"/>
+		<set name="icon" val="icon.weapon_dark_screamer_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="122"/>
+			<set order="0x08" stat="mAtk" val="76"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15039" name="友情的米索莉匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1060"/>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="80"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15040" name="友情的夏伊德獵弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1640"/>
+		<set name="icon" val="icon.weapon_shyid_bow_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="570"/>
+			<set order="0x08" stat="mAtk" val="133"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15041" name="友情的冒險弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1700"/>
+		<set name="icon" val="icon.weapon_hazard_bow_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="4"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="400"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15042" name="友情的卓越弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1720"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="323"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15043" name="友情的風暴弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1810"/>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="2"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="191"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="15044" name="友情的貝拉凱爾聖斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15045" name="友情的工藝戰斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1570"/>
+		<set name="icon" val="icon.weapon_art_of_battle_axe_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15046" name="友情的夜叉釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1640"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15047" name="友情的碎骨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1720"/>
+		<set name="icon" val="icon.weapon_bonebreaker_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="92"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15048" name="友情的希露冰刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1300"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15049" name="友情的大馬士革刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1350"/>
+		<set name="icon" val="icon.weapon_sword_of_damascus_i01"/>
+		<set name="material" val="damascus"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15050" name="友情的瑟魯基長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_samurai_longsword_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15051" name="友情的精靈長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1440"/>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="92"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15052" name="友情的伊波斯巨劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1820"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15053" name="友情的守護神之劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1930"/>
+		<set name="icon" val="icon.weapon_guardians_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="236"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15054" name="友情的狂戰士之刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_berserker_blade_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="190"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15055" name="友情的雙刃大砍刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2090"/>
+		<set name="icon" val="icon.weapon_claymore_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="112"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15056" name="友情的索貝克颶風" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1330"/>
+		<set name="icon" val="icon.weapon_sobekk_hurricane_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15057" name="友情的博利恩拳套" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1390"/>
+		<set name="icon" val="icon.weapon_bellion_cestus_i01"/>
+		<set name="material" val="mithril"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="236"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15058" name="友情的巨型帕塔拳刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1460"/>
+		<set name="icon" val="icon.weapon_great_pata_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="190"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15059" name="友情的波浪刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_scallop_jamadhr_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="112"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="15060" name="友情的塔魯刀*大馬士革刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1890"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15061" name="友情的瑟魯基長劍*瑟魯基長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="236"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15062" name="友情的靈魂之劍*襲擊劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2260"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="190"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15063" name="友情的重劍*精靈劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2460"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="107"/>
+			<set order="0x08" stat="mAtk" val="51"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15064" name="友情的岱依封長戟" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1820"/>
+		<set name="icon" val="icon.weapon_tiphon_spear_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15065" name="友情的長槍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1920"/>
+		<set name="icon" val="icon.weapon_lancia_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15066" name="友情的歐西斯戰斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15067" name="友情的闊矛" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.weapon_glaive_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="92"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15068" name="友情的光明守護之劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1820"/>
+		<set name="icon" val="icon.weapon_death_bringer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="272"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15069" name="友情的裂解劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1930"/>
+		<set name="icon" val="icon.weapon_dismantler_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="210"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15070" name="友情的劍齒虎" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_invincible_blade_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="169"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15071" name="友情的將軍格鬥劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_tulwar_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="100"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15072" name="友情的閃光之珠" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1300"/>
+		<set name="icon" val="icon.weapon_greed_stinger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="228"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15073" name="友情的華麗細劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1350"/>
+		<set name="icon" val="icon.weapon_colichemarde_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="176"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15074" name="友情的上將刺劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_blink_slasher_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="141"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15075" name="友情的巨銳劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1440"/>
+		<set name="icon" val="icon.weapon_rapier_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="83"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15076" name="友情的復仇爆弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1640"/>
+		<set name="icon" val="icon.weapon_soul_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="318"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15077" name="友情的冥犬之牙" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1700"/>
+		<set name="icon" val="icon.weapon_hell_hound_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="245"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15078" name="友情的滅形弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_taslam_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="198"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15079" name="友情的齒輪弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1810"/>
+		<set name="icon" val="icon.weapon_hunting_gun_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="117"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="15080" name="友情的聖威耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+	</item>
+	<item id="15081" name="友情的聖威項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+			<add order="0x10" stat="mDef" val="85"/>
+		</for>
+	</item>
+	<item id="15082" name="友情的聖威戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+			<add order="0x10" stat="mDef" val="42"/>
+		</for>
+	</item>
+	<item id="15083" name="友情的黑光耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_earing_of_black_ore_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="54"/>
+		</for>
+	</item>
+	<item id="15084" name="友情的黑光項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="72"/>
+		</for>
+	</item>
+	<item id="15085" name="友情的黑光戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ring_of_black_ore_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="36"/>
+		</for>
+	</item>
+	<item id="15086" name="友情的封印耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_earing_of_binding_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="45"/>
+		</for>
+	</item>
+	<item id="15087" name="友情的封印項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_necklace_of_binding_i00"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="64"/>
+		</for>
+	</item>
+	<item id="15088" name="友情的封印戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ring_of_binding_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="32"/>
+		</for>
+	</item>
+	<item id="15089" name="友情的精靈耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="34"/>
+		</for>
+	</item>
+	<item id="15090" name="友情的精靈項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="45"/>
+		</for>
+	</item>
+	<item id="15091" name="友情的精靈戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="22"/>
+		</for>
+	</item>
+	<item id="15092" name="友情的黑暗水晶長袍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2450"/>
+		<set name="icon" val="icon.armor_t76_ul_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="665"/>
+			<add order="0x10" stat="pDef" val="139"/>
+		</for>
+	</item>
+	<item id="15093" name="友情的黑暗水晶頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="570"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="69"/>
+		</for>
+	</item>
+	<item id="15094" name="友情的黑暗水晶手套-長袍用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t76_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+		</for>
+	</item>
+	<item id="15095" name="友情的黑暗水晶靴-長袍用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t76_b_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+		</for>
+	</item>
+	<item id="15096" name="友情的黑暗水晶盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1190"/>
+		<set name="icon" val="icon.shield_dark_crystal_shield_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="243"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="15097" name="友情的阿巴敦長袍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2540"/>
+		<set name="icon" val="icon.armor_t59_ul_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="561"/>
+			<add order="0x10" stat="pDef" val="127"/>
+		</for>
+	</item>
+	<item id="15098" name="友情的阿巴敦頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="62"/>
+		</for>
+	</item>
+	<item id="15099" name="友情的阿巴敦手套-長袍用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t59_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+		</for>
+	</item>
+</list>

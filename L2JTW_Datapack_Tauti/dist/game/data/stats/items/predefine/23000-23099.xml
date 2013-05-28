@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="23082" name="神祕的祝福的魔靈彈-R級" type="EtcItem">
+		<set name="icon" val="icon.blessed_spiritshot_r_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="23083" name="神祕的祝福的魔靈彈-R級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_spiritshot_r_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23084" name="神祕的祝福的魔靈彈-R級組合包 (3000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_spiritshot_r_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23085" name="沃夫襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="BranchSys2.icon.7anni_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="23086" name="復活節彩蛋" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_ev_easter_egg_ru"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23087" name="強化的沃夫襯衫組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23088" name="Discovery Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23089" name="Adventure Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23090" name="Destiny Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23091" name="S-Grade Support pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23092" name="R-Grade Support pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23093" name="友情的薄暮切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="396"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="23094" name="友情的薄暮殺刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="23095" name="友情的薄暮爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="317"/>
+			<set order="0x08" stat="mAtk" val="234"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="23096" name="友情的薄暮鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="346"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="23097" name="友情的薄暮戰爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+		</for>
+	</item>
+	<item id="23098" name="友情的薄暮風暴者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="396"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="23099" name="友情的薄暮復仇者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="396"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+		</for>
+	</item>
+	<item id="23100" name="友情的薄暮報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_retributer_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+		</for>
+	</item>
+	<item id="23101" name="友情的薄暮術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="317"/>
+			<set order="0x08" stat="mAtk" val="234"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+		</for>
+	</item>
+	<item id="23102" name="友情的薄暮詩杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="386"/>
+			<set order="0x08" stat="mAtk" val="257"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="4"/>
+		</for>
+	</item>
+	<item id="23103" name="友情的薄暮投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="6"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="724"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="23104" name="友情的薄暮螯針" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1280"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="359"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="23105" name="友情的薄暮射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="444"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="23106" name="友情的薄暮槍刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1800"/>
+		<set name="icon" val="icon.weapon_vesper_nagen_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="429"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="23107" name="友情的博佩斯頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="107"/>
+		</for>
+	</item>
+	<item id="23108" name="友情的博佩斯皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="107"/>
+		</for>
+	</item>
+	<item id="23109" name="友情的博佩斯頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="107"/>
+		</for>
+	</item>
+	<item id="23110" name="友情的博佩斯胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t94_u_i03"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="263"/>
+		</for>
+	</item>
+	<item id="23111" name="友情的博佩斯皮胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t95_u_i03"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="197"/>
+		</for>
+	</item>
+	<item id="23112" name="友情的博佩斯外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t96_u_i03"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="132"/>
+		</for>
+	</item>
+	<item id="23113" name="友情的博佩斯脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t94_l_i03"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="164"/>
+		</for>
+	</item>
+	<item id="23114" name="友情的博佩斯皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t95_l_i03"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="123"/>
+		</for>
+	</item>
+	<item id="23115" name="友情的博佩斯長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t96_l_i03"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="82"/>
+		</for>
+	</item>
+	<item id="23116" name="友情的博佩斯護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t94_g_i03"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="71"/>
+		</for>
+	</item>
+	<item id="23117" name="友情的博佩斯皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t95_g_i03"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="71"/>
+		</for>
+	</item>
+	<item id="23118" name="友情的博佩斯手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t96_g_i03"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="71"/>
+		</for>
+	</item>
+	<item id="23119" name="友情的博佩斯靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t94_b_i03"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="71"/>
+		</for>
+	</item>
+	<item id="23120" name="友情的博佩斯皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t95_b_i03"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="71"/>
+		</for>
+	</item>
+	<item id="23121" name="友情的博佩斯鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t96_b_i03"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="71"/>
+		</for>
+	</item>
+	<item id="23122" name="友情的博佩斯盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1190"/>
+		<set name="icon" val="icon.Evilgate_Shield_i01"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="399"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="23123" name="友情的博佩斯符印" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="920"/>
+		<set name="icon" val="icon.belleface_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="armor_type" val="sigil"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="23124" name="友情的博佩斯重裝套裝組-S80級" type="EtcItem">
+		<set name="icon" val="icon.etc_equip_item_box_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="23125" name="友情的博佩斯輕裝套裝組-S80級" type="EtcItem">
+		<set name="icon" val="icon.etc_equip_item_box_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="23126" name="友情的博佩斯長袍套裝組-S80級" type="EtcItem">
+		<set name="icon" val="icon.etc_equip_item_box_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="23127" name="S80級防具禮盒(限時90日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23128" name="S80級武器禮盒(限時90日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23129" name="S80級飾品禮盒(限時90日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23130" name="友情的博佩斯戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ponshrnoen_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="26"/>
+			<add order="0x10" stat="mDef" val="65"/>
+		</for>
+	</item>
+	<item id="23131" name="友情的博佩斯耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ponshrnoen_earring_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="38"/>
+			<add order="0x10" stat="mDef" val="98"/>
+		</for>
+	</item>
+	<item id="23132" name="友情的博佩斯項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ponshrnoen_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="51"/>
+			<add order="0x10" stat="mDef" val="131"/>
+		</for>
+	</item>
+	<item id="23133" name="性別變更" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23134" name="姓名變更" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23135" name="再覺醒" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23136" name="海賊王 烏山卡戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka_jp"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+	</item>
+	<item id="23137" name="追加入場券-遠古卡爾提亞迷宮" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_red_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="23138" name="友情的薄暮雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="23139" name="友情的薄暮雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.dual_dagger_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="360"/>
+			<set order="0x08" stat="mAtk" val="181"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="23140" name="軍用內衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_undwrwear"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="23141" name="優質內衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_premium_underwear"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="23142" name="誘惑內衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_sexy_underwear"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="23143" name="網路內衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_underwear_01"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="23144" name="可愛女僕內衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_maid_underwear_f01"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="23145" name="經過祝聖的驅邪器" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1"/>
+		<set name="icon" val="icon.etc_imperial_scepter_i01"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23146" name="奈比特聖水瓶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1"/>
+		<set name="icon" val="icon.etc_water_potion_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23147" name="驅魔之力" type="EtcItem">
+		<set name="icon" val="icon.etc_water_potion_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23148" name="驅魔憑證" type="EtcItem">
+		<set name="icon" val="icon.etc_badge_black_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23149" name="驅魔的禮物" type="EtcItem">
+		<set name="icon" val="icon.etc_grave_goods_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23150" name="殷海薩的禮物" type="EtcItem">
+		<set name="icon" val="icon.event_july_seven_park_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23151" name="席琳的禮物" type="EtcItem">
+		<set name="icon" val="icon.event_big_july_seven_park_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23152" name="靈魂具現體封印手鐲-伊肯" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_b_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23153" name="靈魂具現體封印手鐲-拉娜" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_a_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23154" name="靈魂具現體封印手鐲-格諾席安" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_f_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23155" name="靈魂具現體封印手鐲-奧羅德利爾" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_e_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23156" name="靈魂具現體封印手鐲-拉齊努斯" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_d_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23157" name="靈魂具現體封印手鐲-墨爾蒂亞" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_c_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23158" name="靈魂具現體封印手鐲-哈因茲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_h_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23159" name="靈魂具現體封印手鐲-梅露利" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_g_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23160" name="靈魂具現體封印手鐲-塔曼 茲 拉帕土伊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_i_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23161" name="靈魂具現體封印手鐲-卡烏林" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_j_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23162" name="靈魂具現體封印手鐲-阿海爾特貝" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_l_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23163" name="靈魂具現體封印手鐲-拿奧寧" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_k_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23164" name="靈魂具現體用大型能量種子" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_shield_bread_i01"/>
+		<set name="material" val="gold"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23165" name="刨冰用巧克力" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_ev_icewater_cho"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23166" name="刨冰用奶油" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_ev_icewater_cream"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23167" name="刨冰用冰塊" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_white_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23168" name="刨冰用餅乾" type="EtcItem">
+		<set name="icon" val="icon.etc_candy_basket_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23169" name="香甜刨冰" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_ev_sweet_icewater"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23170" name="夢幻刨冰" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_ev_sweet_icewater"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23171" name="海灘泳裝" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_01"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="armor_type" val="heavy"/>
+	</item>
+	<item id="23172" name="海灘泳裝加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_scrl_change_co_swimsuit_01"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23173" name="艷麗泳裝" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_02"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="armor_type" val="heavy"/>
+	</item>
+	<item id="23174" name="海莉納的禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_big_july_seven_park_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23175" name="華麗海灘遮陽帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys3.icon.g_beach_cap"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23176" name="繽紛花漾草帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys3.icon.g_straw_hat"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23177" name="華麗海灘遮陽帽 30日/組" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23178" name="繽紛花漾草帽 30日/組" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23179" name="忍者衣裳上衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_u"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="chest"/>
+	</item>
+	<item id="23180" name="忍者衣裳下衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_l"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="legs"/>
+	</item>
+	<item id="23181" name="忍者衣裳手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_g"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+	</item>
+</list>

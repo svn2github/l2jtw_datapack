@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="4400" name="白布" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4401" name="綠色因次石" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_green_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4402" name="藍色因次石" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_blue_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4403" name="紅色因次石" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_red_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4404" name="綠色因次石破片" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_green_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4405" name="藍色因次石破片" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_blue_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4406" name="紅色因次石破片" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_red_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4407" name="艾森海內的票據" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_black_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4408" name="樂譜-愛情之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_musical_note_i01"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4409" name="樂譜-決戰之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_musical_note_i01"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4410" name="樂譜-旅行之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_musical_note_i01"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4411" name="回聲水晶-旅行之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4412" name="回聲水晶-決戰之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i01"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4413" name="回聲水晶-愛情之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i02"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4414" name="回聲水晶-孤獨之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i03"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4415" name="回聲水晶-祝典之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i04"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4416" name="回聲水晶-慶祝之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4417" name="回聲水晶-喜劇之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i01"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4418" name="樂譜-慶祝之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_musical_note_i01"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4419" name="樂譜-喜劇之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_musical_note_i01"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4420" name="樂譜-孤獨之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_musical_note_i01"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4421" name="樂譜-祝典之歌" type="EtcItem">
+		<set name="icon" val="icon.etc_musical_note_i02"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4422" name="風龍號角" type="EtcItem">
+		<set name="icon" val="icon.etc_bugle_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="steel"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="4423" name="星龍號角" type="EtcItem">
+		<set name="icon" val="icon.etc_bugle_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="steel"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="4424" name="黃昏龍號角" type="EtcItem">
+		<set name="icon" val="icon.etc_bugle_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="steel"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="4425" name="贖罪者手銬" type="EtcItem">
+		<set name="icon" val="icon.etc_leash_i00"/>
+		<set name="weight" val="800"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="4426" name="贖罪者手銬" type="EtcItem">
+		<set name="icon" val="icon.etc_leash_i00"/>
+		<set name="weight" val="50"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="4427" name="鱷魚皮帶" type="EtcItem">
+		<set name="icon" val="icon.etc_prefect_belt_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="4428" name="藍色鱷魚皮帶" type="EtcItem">
+		<set name="icon" val="icon.etc_prefect_belt_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="4429" name="寶石鱷魚皮帶" type="EtcItem">
+		<set name="icon" val="icon.etc_prefect_belt_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="4430" name="皮背包" type="EtcItem">
+		<set name="icon" val="icon.etc_handbag_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="4431" name="藍色皮背包" type="EtcItem">
+		<set name="icon" val="icon.etc_handbag_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="4432" name="寶石皮背包" type="EtcItem">
+		<set name="icon" val="icon.etc_handbag_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="leather"/>
+	</item>
+	<item id="4433" name="元素石粉末" type="EtcItem">
+		<set name="icon" val="icon.etc_powder_white_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4434" name="元素石碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_green_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4435" name="元素石破塊" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_green_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4436" name="本特列的清單" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4437" name="卡薩的委託書" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_black_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4438" name="關節拳的刃" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4439" name="阿巴敦盾的破片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4440" name="製作卷軸(關節拳100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_yellow_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="4441" name="製作卷軸(阿巴敦盾100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="4442" name="彩券" type="EtcItem">
+		<set name="icon" val="icon.etc_lottery_card_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="lotto"/>
+	</item>
+	<item id="4443" name="怪物賽票-單勝" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="race_ticket"/>
+	</item>
+	<item id="4444" name="怪物賽票-複勝" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="race_ticket"/>
+	</item>
+	<item id="4445" name="力量染料&lt;Str+1Con-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4446" name="力量染料&lt;Str+1Dex-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4447" name="體質染料&lt;Con+1Str-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4448" name="體質染料&lt;Con+1Dex-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4449" name="敏捷染料&lt;Dex+1Str-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4450" name="敏捷染料&lt;Dex+1Con-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4451" name="智力染料&lt;Int+1Men-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4452" name="智力染料&lt;Int+1Wit-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4453" name="精神染料&lt;Men+1Int-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4454" name="精神染料&lt;Men+1Wit-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4455" name="智慧染料&lt;Wit+1Int-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4456" name="智慧染料&lt;Wit+1Men-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4457" name="力量染料&lt;Str+1Con-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4458" name="力量染料&lt;Str+1Dex-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4459" name="體質染料&lt;Con+1Str-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4460" name="體質染料&lt;Con+1Dex-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4461" name="敏捷染料&lt;Dex+1Str-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4462" name="敏捷染料&lt;Dex+1Con-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4463" name="智力染料&lt;Int+1Men-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4464" name="智力染料&lt;Int+1Wit-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4465" name="精神染料&lt;Men+1Int-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4466" name="精神染料&lt;Men+1Wit-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4467" name="智慧染料&lt;Wit+1Int-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4468" name="智慧染料&lt;Wit+1Men-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4469" name="力量染料&lt;Str+1Con-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4470" name="力量染料&lt;Str+1Dex-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4471" name="體質染料&lt;Con+1Str-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4472" name="體質染料&lt;Con+1Dex-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4473" name="敏捷染料&lt;Dex+1Str-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4474" name="敏捷染料&lt;Dex+1Con-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4475" name="智力染料&lt;Int+1Men-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4476" name="智力染料&lt;Int+1Wit-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4477" name="精神染料&lt;Men+1Int-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4478" name="精神染料&lt;Men+1Wit-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4479" name="智慧染料&lt;Wit+1Int-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4480" name="智慧染料&lt;Wit+1Men-1&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i00"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4481" name="高級力量染料&lt;Str+1Con-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4482" name="高級力量染料&lt;Str+1Dex-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4483" name="高級體質染料&lt;Con+1Str-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4484" name="高級體質染料&lt;Con+1Dex-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4485" name="高級敏捷染料&lt;Dex+1Str-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4486" name="高級敏捷染料&lt;Dex+1Con-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4487" name="高級智力染料&lt;Int+1Men-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4488" name="高級智力染料&lt;Int+1Wit-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4489" name="高級精神染料&lt;Men+1Int-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4490" name="高級精神染料&lt;Men+1Wit-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_men_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4491" name="高級智慧染料&lt;Wit+1Int-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4492" name="高級智慧染料&lt;Wit+1Men-3&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_wit_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4493" name="高級力量染料&lt;Str+1Con-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4494" name="高級力量染料&lt;Str+1Dex-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_str_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4495" name="高級體質染料&lt;Con+1Str-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4496" name="高級體質染料&lt;Con+1Dex-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_con_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4497" name="高級敏捷染料&lt;Dex+1Str-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4498" name="高級敏捷染料&lt;Dex+1Con-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_dex_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="4499" name="高級智力染料&lt;Int+1Men-2&gt;" type="EtcItem">
+		<set name="icon" val="icon.etc_int_hena_i01"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+</list>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="8400" name="魔法書-破邪法" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8401" name="魔法書-極大治癒術" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8402" name="魔法書-極大集體治癒術" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8403" name="高級-敏捷的綠色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8404" name="高級-暴躁的綠色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8405" name="高級-寬扁的綠色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8406" name="高級-敏捷的綠色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8407" name="高級-暴躁的綠色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8408" name="高級-寬扁的綠色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8409" name="高級-敏捷的綠色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8410" name="高級-暴躁的綠色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8411" name="高級-寬扁的綠色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i07"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8412" name="高級-敏捷的翡翠小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8413" name="高級-暴躁的翡翠小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8414" name="高級-寬扁的翡翠小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8415" name="高級-敏捷的翡翠魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8416" name="高級-暴躁的翡翠魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8417" name="高級-寬扁的翡翠魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8418" name="高級-敏捷的翡翠大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8419" name="高級-暴躁的翡翠大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8420" name="高級-寬扁的翡翠大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8421" name="高級-敏捷的藍色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8422" name="高級-暴躁的藍色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8423" name="高級-寬扁的藍色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8424" name="高級-敏捷的藍色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8425" name="高級-暴躁的藍色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8426" name="高級-寬扁的藍色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8427" name="高級-敏捷的藍色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8428" name="高級-暴躁的藍色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8429" name="高級-寬扁的藍色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8430" name="高級-敏捷的黃色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8431" name="高級-暴躁的黃色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8432" name="高級-寬扁的黃色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8433" name="高級-敏捷的黃色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8434" name="高級-暴躁的黃色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8435" name="高級-寬扁的黃色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8436" name="高級-敏捷的黃色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8437" name="高級-暴躁的黃色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8438" name="高級-寬扁的黃色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8439" name="高級-敏捷的橙色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8440" name="高級-暴躁的橙色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8441" name="高級-寬扁的橙色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8442" name="高級-敏捷的橙色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8443" name="高級-暴躁的橙色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8444" name="高級-寬扁的橙色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8445" name="高級-敏捷的橙色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8446" name="高級-暴躁的橙色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8447" name="高級-寬扁的橙色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i08"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8448" name="高級-敏捷的紫色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8449" name="高級-暴躁的紫色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8450" name="高級-寬扁的紫色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8451" name="高級-敏捷的紫色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8452" name="高級-暴躁的紫色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8453" name="高級-寬扁的紫色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8454" name="高級-敏捷的紫色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8455" name="高級-暴躁的紫色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8456" name="高級-寬扁的紫色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8457" name="高級-敏捷的紅色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8458" name="高級-暴躁的紅色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8459" name="高級-寬扁的紅色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8460" name="高級-敏捷的紅色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8461" name="高級-暴躁的紅色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8462" name="高級-寬扁的紅色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8463" name="高級-敏捷的紅色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8464" name="高級-暴躁的紅色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8465" name="高級-寬扁的紅色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8466" name="高級-敏捷的白色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8467" name="高級-暴躁的白色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8468" name="高級-寬扁的白色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8469" name="高級-敏捷的白色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8470" name="高級-暴躁的白色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8471" name="高級-寬扁的白色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8472" name="高級-敏捷的白色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8473" name="高級-暴躁的白色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8474" name="高級-寬扁的白色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8475" name="高級-敏捷的黑色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8476" name="高級-暴躁的黑色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8477" name="高級-寬扁的黑色小魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8478" name="高級-敏捷的黑色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8479" name="高級-暴躁的黑色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8480" name="高級-寬扁的黑色魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8481" name="高級-敏捷的黑色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_tuna_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8482" name="高級-暴躁的黑色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_angler_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8483" name="高級-寬扁的黑色大魚" type="EtcItem">
+		<set name="icon" val="icon.etc_bream_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8484" name="漁靈餌" type="EtcItem">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00"/>
+		<set name="weight" val="4"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="lure"/>
+	</item>
+	<item id="8485" name="漁靈餌-夜釣用" type="EtcItem">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00"/>
+		<set name="weight" val="4"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="lure"/>
+	</item>
+	<item id="8486" name="漁靈餌-初學者用" type="EtcItem">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="lure"/>
+	</item>
+	<item id="8487" name="製作卷軸(破壞者巨鎚60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8488" name="紋路的鎚子" type="EtcItem">
+		<set name="icon" val="icon.weapon_big_hammer_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8489" name="惡魔的眼球" type="EtcItem">
+		<set name="icon" val="icon.etc_eyeball_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8490" name="黑斯提亞的妖精石" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_gold_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8491" name="退化高崙的中樞" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_white_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8492" name="法斯騰的牙齒" type="EtcItem">
+		<set name="icon" val="icon.etc_fang_ivory_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8493" name="夏伊德的爪" type="EtcItem">
+		<set name="icon" val="icon.etc_claw_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8494" name="熾炎石巨人的中樞" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8495" name="灰色星之書" type="EtcItem">
+		<set name="icon" val="icon.etc_memopad_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8496" name="古魯丁夜光魚餌" type="EtcItem">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="lure"/>
+	</item>
+	<item id="8497" name="狄恩夜光魚餌" type="EtcItem">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00"/>
+		<set name="weight" val="4"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="lure"/>
+	</item>
+	<item id="8498" name="奇岩夜光魚餌" type="EtcItem">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00"/>
+		<set name="weight" val="3"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="lure"/>
+	</item>
+	<item id="8499" name="歐瑞夜光魚餌" type="EtcItem">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="lure"/>
+	</item>
+</list>

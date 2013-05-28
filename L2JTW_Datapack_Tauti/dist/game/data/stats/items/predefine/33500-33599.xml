@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="33500" name="領主的憑證" type="EtcItem">
+		<set name="icon" val="icon.campaign_high_rank_reward"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33501" name="國王的憑證" type="EtcItem">
+		<set name="icon" val="icon.campaign_public_reward"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33502" name="武器屬性變更水晶-S級" type="EtcItem">
+		<set name="icon" val="icon.change_elemental_crystal"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33503" name="英雄的祝福輔助魔法卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="33504" name="英雄的祝福輔助魔法卷軸 5張/組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33505" name="貴族的祝福輔助魔法卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="33506" name="貴族的祝福輔助魔法卷軸 5張/組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33507" name="酷酷魯騎乘卷軸" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_kukur_event"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="33508" name="酷酷魯騎乘卷軸 30張/組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33509" name="凱旋英雄的襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.shirt_of_destination_event"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<for>
+			<add order="0x10" stat="pDef" val="3"/>
+		</for>
+	</item>
+	<item id="33510" name="凱旋英雄的腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.belt_of_destination_event"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+	</item>
+	<item id="33511" name="凱旋英雄的憑證" type="EtcItem">
+		<set name="icon" val="icon.return_user_item"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33512" name="凱旋英雄的活力恢復飲料" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_breath_of_hero_i00"/>
+		<set name="weight" val="120"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="33513" name="凱旋英雄的活力恢復飲料 5個/組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33514" name="英雄禮盒" type="EtcItem">
+		<set name="icon" val="icon.present_of_destination_event"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33515" name="命運禮盒" type="EtcItem">
+		<set name="icon" val="icon.new_user_box"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="33516" name="束縛解除卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="33517" name="束縛解除卷軸-R95級" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r95"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="33518" name="祝福的復活卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_resurrection_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="33519" name="武器強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_enchant_weapon_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="33520" name="防具強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_enchant_armor_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="33521" name="假髮禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="33522" name="屬性禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="33523" name="護身符-魔法致命攻擊率 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_mc_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33524" name="護身符-物理命中能力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_ph_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33525" name="護身符-魔法命中能力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_mh_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33526" name="護身符-迴避能力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_pm_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33527" name="護身符-魔法迴避能力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_mm_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33528" name="護身符-物理致命攻擊率 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_cr_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33529" name="護身符-物理致命被擊率 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_cm_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33530" name="護身符-魔法致命攻擊率 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_mc_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33531" name="護身符-物理命中能力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_ph_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33532" name="護身符-魔法命中能力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_mh_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33533" name="護身符-迴避能力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_pm_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33534" name="護身符-魔法迴避能力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_mm_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33535" name="護身符-物理致命攻擊率 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_cr_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33536" name="護身符-物理致命被擊率 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_talisman_cm_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33537" name="基本型護身符-物理攻擊速度" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33538" name="基本型護身符-物理攻擊力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33539" name="基本型護身符-物理防禦力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33540" name="基本型護身符-施法速度" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33541" name="基本型護身符-魔法防禦力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33542" name="基本型護身符-魔法攻擊力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="33543" name="束縛的瑟魯基長劍*瑟魯基長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="236"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33544" name="未確認的瑟魯基長劍*瑟魯基長劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="33545" name="束縛的塔魯刀*大馬士革刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1890"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33546" name="未確認的塔魯刀*大馬士革刀" type="EtcItem">
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="33547" name="束縛的王朝劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33548" name="束縛的王朝劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33549" name="束縛的王朝劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33550" name="束縛的王朝之刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33551" name="束縛的王朝之刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33552" name="束縛的王朝之刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33553" name="束縛的王朝幻影劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="267"/>
+			<set order="0x08" stat="mAtk" val="202"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33554" name="束縛的王朝幻影劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="267"/>
+			<set order="0x08" stat="mAtk" val="202"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33555" name="束縛的王朝幻影劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="267"/>
+			<set order="0x08" stat="mAtk" val="202"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33556" name="束縛的王朝弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="6"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="654"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33557" name="束縛的王朝弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="6"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="654"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33558" name="束縛的王朝弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="6"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="654"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33559" name="束縛的王朝小刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="291"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33560" name="束縛的王朝小刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="291"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33561" name="束縛的王朝小刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="291"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33562" name="束縛的王朝長柄戰戟" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33563" name="束縛的王朝長柄戰戟" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33564" name="束縛的王朝長柄戰戟" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33565" name="束縛的王朝戰鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33566" name="束縛的王朝戰鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33567" name="束縛的王朝戰鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="333"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33568" name="束縛的王朝釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="267"/>
+			<set order="0x08" stat="mAtk" val="202"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33569" name="束縛的王朝釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="267"/>
+			<set order="0x08" stat="mAtk" val="202"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33570" name="束縛的王朝釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="267"/>
+			<set order="0x08" stat="mAtk" val="202"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33571" name="束縛的王朝拳套爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33572" name="束縛的王朝拳套爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33573" name="束縛的王朝拳套爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33574" name="束縛的王朝魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="325"/>
+			<set order="0x08" stat="mAtk" val="222"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33575" name="束縛的王朝魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="325"/>
+			<set order="0x08" stat="mAtk" val="222"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33576" name="束縛的王朝魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="325"/>
+			<set order="0x08" stat="mAtk" val="222"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33577" name="束縛的王朝毀滅者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33578" name="束縛的王朝毀滅者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33579" name="束縛的王朝毀滅者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33580" name="束縛的王朝雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2150"/>
+		<set name="icon" val="icon.dual_dagger_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="304"/>
+			<set order="0x08" stat="mAtk" val="157"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33581" name="束縛的王朝雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33582" name="束縛的王朝細劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1280"/>
+		<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="302"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33583" name="束縛的王朝細劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1280"/>
+		<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="302"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33584" name="束縛的王朝細劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1280"/>
+		<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="302"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33585" name="束縛的王朝古代劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1800"/>
+		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="361"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33586" name="束縛的王朝古代劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1800"/>
+		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="361"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33587" name="束縛的王朝古代劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1800"/>
+		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="361"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33588" name="束縛的王朝十字弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="401"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33589" name="束縛的王朝十字弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="401"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33590" name="束縛的王朝十字弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="401"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33591" name="束縛的王朝盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7570"/>
+		<set name="icon" val="icon.armor_t91_u_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="226"/>
+		</for>
+	</item>
+	<item id="33592" name="束縛的王朝脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3210"/>
+		<set name="icon" val="icon.armor_t91_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="141"/>
+		</for>
+	</item>
+	<item id="33593" name="束縛的王朝頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="92"/>
+		</for>
+	</item>
+	<item id="33594" name="束縛的王朝長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="520"/>
+		<set name="icon" val="icon.armor_t91_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="33595" name="束縛的王朝長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1090"/>
+		<set name="icon" val="icon.armor_t91_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="33596" name="束縛的王朝盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1150"/>
+		<set name="icon" val="icon.shield_dynasty_shield_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="321"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="33597" name="束縛的王朝皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4180"/>
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="33598" name="束縛的王朝皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1370"/>
+		<set name="icon" val="icon.armor_t92_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="106"/>
+		</for>
+	</item>
+	<item id="33599" name="束縛的王朝皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="92"/>
+		</for>
+	</item>
+</list>

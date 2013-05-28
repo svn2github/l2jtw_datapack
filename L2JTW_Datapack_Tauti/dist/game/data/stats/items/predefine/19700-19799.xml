@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="19737" name="永生皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t502_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="243"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="5"/>
+		</for>
+	</item>
+	<item id="19738" name="永生皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t502_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="152"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="3"/>
+		</for>
+	</item>
+	<item id="19739" name="永生皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t502_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19740" name="永生皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t502_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19741" name="永生頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19742" name="永生外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t503_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="167"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="36"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19743" name="永生長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t503_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="104"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="24"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19744" name="永生手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t503_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19745" name="永生鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t503_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19746" name="煉獄頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19747" name="煉獄胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t601_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="335"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19748" name="煉獄脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t601_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="209"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19749" name="煉獄護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t601_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19750" name="煉獄靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t601_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19751" name="煉獄盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="material" val="damascus"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="458"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="19752" name="煉獄皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19753" name="煉獄皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="268"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="5"/>
+		</for>
+	</item>
+	<item id="19754" name="煉獄皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t602_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="168"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="3"/>
+		</for>
+	</item>
+	<item id="19755" name="煉獄皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t602_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19756" name="煉獄皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t602_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19757" name="煉獄頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19758" name="煉獄外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="184"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="41"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19759" name="煉獄長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t603_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="115"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="27"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19760" name="煉獄手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t603_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19761" name="煉獄鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t603_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19762" name="卡戴拉頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19763" name="卡戴拉胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t401_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="370"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19764" name="卡戴拉脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t401_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="231"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19765" name="卡戴拉護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t401_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19766" name="卡戴拉靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t401_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19767" name="卡戴拉盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.beranka_i00"/>
+		<set name="material" val="damascus"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="505"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="19768" name="卡戴拉皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19769" name="卡戴拉皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t402_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="296"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="5"/>
+		</for>
+	</item>
+	<item id="19770" name="卡戴拉皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t402_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="185"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="3"/>
+		</for>
+	</item>
+	<item id="19771" name="卡戴拉皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t402_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19772" name="卡戴拉皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t402_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19773" name="卡戴拉頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19774" name="卡戴拉外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t403_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="204"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="47"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19775" name="卡戴拉長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t403_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="127"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="31"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19776" name="卡戴拉手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t403_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19777" name="卡戴拉鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t403_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19778" name="艾迪奧斯頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19779" name="艾迪奧斯胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t701_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="385"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19780" name="艾迪奧斯脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t701_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="241"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19781" name="艾迪奧斯護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t701_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19782" name="艾迪奧斯靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t701_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19783" name="艾迪奧斯盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.weapon_akra_i00"/>
+		<set name="material" val="damascus"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="526"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="19784" name="艾迪奧斯皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19785" name="艾迪奧斯皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t702_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="308"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="5"/>
+		</for>
+	</item>
+	<item id="19786" name="艾迪奧斯皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t702_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="192"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="3"/>
+		</for>
+	</item>
+	<item id="19787" name="艾迪奧斯皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t702_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19788" name="艾迪奧斯皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t702_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19789" name="艾迪奧斯頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="144"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19790" name="艾迪奧斯外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t703_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="212"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="49"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19791" name="艾迪奧斯長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t703_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="132"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="33"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19792" name="艾迪奧斯手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t703_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19793" name="艾迪奧斯鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t703_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19794" name="束縛的永生頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19795" name="束縛的永生胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t501_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="304"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19796" name="束縛的永生脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t501_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="190"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19797" name="束縛的永生護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t501_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19798" name="束縛的永生靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t501_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19799" name="束縛的永生盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.weapon_sacon_i00"/>
+		<set name="material" val="damascus"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="415"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="19800" name="束縛的永生皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19801" name="束縛的永生皮胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t502_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="243"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="5"/>
+		</for>
+	</item>
+	<item id="19802" name="束縛的永生皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t502_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="152"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="3"/>
+		</for>
+	</item>
+	<item id="19803" name="束縛的永生皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t502_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19804" name="束縛的永生皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t502_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19805" name="束縛的永生頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="114"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19806" name="束縛的永生外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t503_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="167"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="36"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19807" name="束縛的永生長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t503_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="104"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="24"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19808" name="束縛的永生手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t503_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19809" name="束縛的永生鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t503_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="76"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19810" name="束縛的煉獄頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19811" name="束縛的煉獄胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t601_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="335"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19812" name="束縛的煉獄脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t601_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="209"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19813" name="束縛的煉獄護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t601_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19814" name="束縛的煉獄靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t601_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19815" name="束縛的煉獄盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.kratere_i00"/>
+		<set name="material" val="damascus"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="458"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="19816" name="束縛的煉獄皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19817" name="束縛的煉獄皮胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t602_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="268"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="5"/>
+		</for>
+	</item>
+	<item id="19818" name="束縛的煉獄皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t602_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="168"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="3"/>
+		</for>
+	</item>
+	<item id="19819" name="束縛的煉獄皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t602_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19820" name="束縛的煉獄皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t602_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19821" name="束縛的煉獄頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="126"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19822" name="束縛的煉獄外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t603_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="649"/>
+			<add order="0x10" stat="pDef" val="184"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="41"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19823" name="束縛的煉獄長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t603_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="427"/>
+			<add order="0x10" stat="pDef" val="115"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="mDef" val="27"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="19824" name="束縛的煉獄手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t603_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19825" name="束縛的煉獄鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t603_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="84"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19826" name="束縛的卡戴拉頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19827" name="束縛的卡戴拉胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t401_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="370"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19828" name="束縛的卡戴拉脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t401_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="231"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19829" name="束縛的卡戴拉護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t401_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19830" name="束縛的卡戴拉靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t401_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19831" name="束縛的卡戴拉盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.beranka_i00"/>
+		<set name="material" val="damascus"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="505"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="19832" name="束縛的卡戴拉皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="139"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19833" name="束縛的卡戴拉皮胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t402_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="296"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="5"/>
+		</for>
+	</item>
+	<item id="19834" name="束縛的卡戴拉皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t402_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="185"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<add order="0x10" stat="rEvas" val="3"/>
+		</for>
+	</item>
+	<item id="19835" name="束縛的卡戴拉皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t402_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="19836" name="束縛的卡戴拉皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t402_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="93"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+</list>

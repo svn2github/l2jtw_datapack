@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="8700" name="製作卷軸(岱依封長戟60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8701" name="製作卷軸(岱依封長戟100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8702" name="製作卷軸(夏伊德獵弓60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8703" name="製作卷軸(夏伊德獵弓100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8704" name="製作卷軸(索貝克颶風60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8705" name="製作卷軸(索貝克颶風100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8706" name="製作卷軸(緹米絲之舌60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8707" name="製作卷軸(緹米絲之舌100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8708" name="製作卷軸(卡布里歐之手60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8709" name="製作卷軸(卡布里歐之手100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8710" name="製作卷軸(惡魔結晶60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8711" name="製作卷軸(惡魔結晶100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="8712" name="希露冰刃刀身" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8713" name="伊波斯巨劍劍身" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8714" name="貝拉凱爾聖斧碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8715" name="貝希莫斯巨叉碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8716" name="那卡風暴碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8717" name="岱依封長戟刃部" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8718" name="夏伊德獵弓柄" type="EtcItem">
+		<set name="icon" val="icon.etc_branch_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8719" name="索貝克颶風刀緣" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8720" name="緹米絲之舌碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8721" name="卡布里歐之手金屬塊" type="EtcItem">
+		<set name="icon" val="icon.etc_squares_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8722" name="惡魔結晶碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="8723" name="生命石-46級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8724" name="生命石-49級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8725" name="生命石-52級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8726" name="生命石-55級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8727" name="生命石-58級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8728" name="生命石-61級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8729" name="生命石-64級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8730" name="生命石-67級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8731" name="生命石-70級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8732" name="生命石-76級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i03"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8733" name="中級生命石-46級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8734" name="中級生命石-49級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8735" name="中級生命石-52級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8736" name="中級生命石-55級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8737" name="中級生命石-58級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8738" name="中級生命石-61級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8739" name="中級生命石-64級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8740" name="中級生命石-67級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8741" name="中級生命石-70級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8742" name="中級生命石-76級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_special_i03"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8743" name="高級生命石-46級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8744" name="高級生命石-49級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8745" name="高級生命石-52級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8746" name="高級生命石-55級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8747" name="高級生命石-58級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8748" name="高級生命石-61級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8749" name="高級生命石-64級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8750" name="高級生命石-67級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8751" name="高級生命石-70級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8752" name="高級生命石-76級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_rare_i03"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8753" name="特級生命石-46級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8754" name="特級生命石-49級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8755" name="特級生命石-52級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8756" name="特級生命石-55級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8757" name="特級生命石-58級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8758" name="特級生命石-61級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8759" name="特級生命石-64級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8760" name="特級生命石-67級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8761" name="特級生命石-70級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i02"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8762" name="特級生命石-76級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_unique_i03"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8763" name="耶爾可羅獵捕器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_seize_mace_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="8764" name="獵捕石" type="EtcItem">
+		<set name="icon" val="icon.etc_capture_stone_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8765" name="紅色珠子" type="EtcItem">
+		<set name="icon" val="icon.ets_red_abead_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8766" name="精靈的珠子" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_blue_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8767" name="暴龍的爪子" type="EtcItem">
+		<set name="icon" val="icon.etc_claw_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8768" name="日記本片段" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8769" name="探險隊員的紙條" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_envelope_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8770" name="似鳥龍的爪子" type="EtcItem">
+		<set name="icon" val="icon.etc_claw_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8771" name="恐爪龍的骨頭" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_bone_red_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8772" name="厚頭龍的皮革" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_yellow_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8773" name="演習用可羅津捕獲器" type="EtcItem">
+		<set name="icon" val="icon.weapon_seize_mace_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8774" name="恐龍活體組織" type="EtcItem">
+		<set name="icon" val="icon.etc_bodypart_heart_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8775" name="古代之卵" type="EtcItem">
+		<set name="icon" val="icon.etc_dragon_egg_i05"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8776" name="平原恐龍的骨頭" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_bone_black_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8777" name="太古生命體的技術" type="EtcItem">
+		<set name="icon" val="icon.etc_spellbook_gray_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8778" name="曼塔拉薩的蛋" type="EtcItem">
+		<set name="icon" val="icon.etc_dragon_egg_i03"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8779" name="似鳥龍的爪子" type="EtcItem">
+		<set name="icon" val="icon.etc_claw_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8780" name="恐爪龍的骨頭碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_fang_red_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8781" name="智慧的碑文" type="EtcItem">
+		<set name="icon" val="icon.etc_ancient_tablet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8782" name="卡茲克的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_gazk_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8783" name="骨頭粉末" type="EtcItem">
+		<set name="icon" val="icon.etc_powder_gray_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8784" name="卡茲克" type="EtcItem">
+		<set name="icon" val="icon.etc_head_of_gazk_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8785" name="恐龍牙項鍊" type="EtcItem">
+		<set name="icon" val="icon.etc_ketra_friendship_1_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8786" name="原始藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_red_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8787" name="蛛網膜果實" type="EtcItem">
+		<set name="icon" val="icon.etc_fruit_green_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="8788" name="希露冰刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1300"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="8789" name="希露冰刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1300"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="8790" name="希露冰刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1300"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="8791" name="伊波斯巨劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1820"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="8792" name="伊波斯巨劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1820"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="8793" name="伊波斯巨劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1820"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="8794" name="貝拉凱爾聖斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="8795" name="貝拉凱爾聖斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="8796" name="貝拉凱爾聖斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="8797" name="貝希莫斯巨叉" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1890"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="8798" name="貝希莫斯巨叉" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1890"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="8799" name="貝希莫斯巨叉" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1890"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+</list>

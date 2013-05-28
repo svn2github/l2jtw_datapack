@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="4000" name="傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4001" name="傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4002" name="傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4003" name="傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4004" name="傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4005" name="傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4006" name="傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4007" name="傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4008" name="傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4009" name="傭兵配置表(傳送師1)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4010" name="傭兵配置表(傳送師2)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4011" name="傭兵配置表(傳送師3)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4012" name="傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4013" name="傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4014" name="傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4015" name="傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4016" name="傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4017" name="傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4018" name="傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4019" name="傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4020" name="傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4021" name="傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4022" name="傭兵配置表(傳送師1)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4023" name="傭兵配置表(傳送師2)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4024" name="傭兵配置表(傳送師3)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4025" name="傭兵配置表(傳送師4)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4026" name="傭兵配置表(傳送師5)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="4027" name="花束" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.etc_plan_i00"/>
+		<set name="material" val="paper"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="8"/>
+			<set order="0x08" stat="mAtk" val="6"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="4028" name="怪物用(下巨人的武器)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="300"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="5"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="5"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="4029" name="色紙(紅色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4030" name="色紙(橘黃色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4031" name="色紙(黃色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4032" name="色紙(綠色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4033" name="色紙(藍色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4034" name="色紙(紫色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4035" name="色紙(白色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4036" name="色紙(黑色)" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4037" name="幸運貨幣" type="EtcItem">
+		<set name="icon" val="icon.etc_coins_gold_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4038" name="幼龍飼料" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_yellow_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="4039" name="鑄模的黏劑" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_red_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4040" name="鑄模的潤滑劑" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_gold_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4041" name="鑄模的強化劑" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_blue_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4042" name="恩尼亞" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_red_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4043" name="亞索沛" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_blue_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4044" name="梭芷" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_clear_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4045" name="巨匠骨架" type="EtcItem">
+		<set name="icon" val="icon.etc_lump_yellow_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4046" name="巨匠砧鎖" type="EtcItem">
+		<set name="icon" val="icon.etc_lump_dark_gray_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4047" name="刀匠鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4048" name="巨匠模具" type="EtcItem">
+		<set name="icon" val="icon.etc_silver_mold_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4049" name="金剛石耳環的寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4050" name="金剛石戒指的金屬線" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4051" name="金剛石項鍊的鍊子" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4052" name="黑光耳環的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4053" name="黑光戒指的金屬線" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4054" name="黑光項鍊的珠子" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.etc_blackorenecklace_beads_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4055" name="合金盾的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4056" name="夏隆胸甲的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4057" name="夏隆脛甲的材料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4058" name="毀滅靴的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4059" name="寧靜靴的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4060" name="守護神靴的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4061" name="佩勒迪亞靴的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4062" name="元素靴的內襯" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4063" name="恩寵靴的內襯" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4064" name="阿巴敦胸甲的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4065" name="阿巴敦脛甲材料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4066" name="夏隆皮衫的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4067" name="夏隆皮脛甲的材料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4068" name="阿巴敦皮甲的內襯" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4069" name="夏隆外衣的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4070" name="夏隆長襪的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4071" name="阿巴敦長袍的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4072" name="阿巴敦頭箍的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4073" name="封印的阿巴敦手套的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4074" name="寧靜鏈手套的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4075" name="守護神手套的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4076" name="祝福手套的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4077" name="末日盾的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4078" name="青狼胸甲的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4079" name="祝福靴的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4080" name="青狼脛甲的材料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4081" name="末日金屬盔甲的合金" type="EtcItem">
+		<set name="icon" val="icon.etc_lump_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4082" name="青狼皮甲的材料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4083" name="末日皮甲的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4084" name="青狼外衣的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4085" name="末日外衣的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4086" name="青狼長襪的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4087" name="末日長襪的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4088" name="青狼頭盔的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4089" name="末日頭盔的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4090" name="封印的青狼長靴的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4091" name="封印的末日手套的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4092" name="元素手套的內襯" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4093" name="恩寵手套的內襯" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4094" name="毀滅長手套的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4095" name="佩勒迪亞手套的圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4096" name="封印的青狼手套的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4097" name="封印的夏隆靴的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4098" name="封印的阿巴敦靴的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="4099" name="封印的末日靴的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+</list>

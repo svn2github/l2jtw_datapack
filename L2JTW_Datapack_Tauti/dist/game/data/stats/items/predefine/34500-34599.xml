@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="34500" name="活動用-薄暮戰爪 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34501" name="活動用-薄暮戰爪 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34502" name="活動用-薄暮戰爪 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="482"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34503" name="活動用-薄暮螯針 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="128"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="359"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="34504" name="活動用-薄暮螯針 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="128"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="359"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="34505" name="活動用-薄暮螯針 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="128"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="359"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="34506" name="活動用-薄暮螯針 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="128"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="359"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="34507" name="活動用-薄暮螯針 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="128"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="359"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="34508" name="活動用-薄暮螯針 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="128"/>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="359"/>
+			<set order="0x08" stat="mAtk" val="176"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="34509" name="活動用-英啟報恨者 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34510" name="活動用-英啟報恨者 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34511" name="活動用-英啟報恨者 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34512" name="活動用-英啟報恨者 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34513" name="活動用-英啟報恨者 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34514" name="活動用-英啟報恨者 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34515" name="活動用-英啟爆刃 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34516" name="活動用-英啟爆刃 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34517" name="活動用-英啟爆刃 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34518" name="活動用-英啟爆刃 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34519" name="活動用-英啟爆刃 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34520" name="活動用-英啟爆刃 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34521" name="活動用-英啟鉋刀 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_phasian_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="428"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34522" name="活動用-英啟鉋刀 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_phasian_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="428"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34523" name="活動用-英啟鉋刀 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_phasian_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="428"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34524" name="活動用-英啟鉋刀 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_phasian_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="428"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34525" name="活動用-英啟鉋刀 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_phasian_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="428"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34526" name="活動用-英啟鉋刀 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_phasian_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="428"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34527" name="活動用-英啟射靈 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="158"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34528" name="活動用-英啟射靈 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="158"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34529" name="活動用-英啟射靈 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="158"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34530" name="活動用-英啟射靈 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="158"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34531" name="活動用-英啟射靈 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="158"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34532" name="活動用-英啟射靈 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="158"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34533" name="活動用-英啟投弓 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34534" name="活動用-英啟投弓 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34535" name="活動用-英啟投弓 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34536" name="活動用-英啟投弓 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34537" name="活動用-英啟投弓 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34538" name="活動用-英啟投弓 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="34539" name="活動用-英啟風暴者 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="201"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34540" name="活動用-英啟風暴者 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="201"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34541" name="活動用-英啟風暴者 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="201"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34542" name="活動用-英啟風暴者 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="201"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34543" name="活動用-英啟風暴者 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="201"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34544" name="活動用-英啟風暴者 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="201"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34545" name="活動用-英啟殺刃 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_volver_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34546" name="活動用-英啟殺刃 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_volver_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34547" name="活動用-英啟殺刃 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_volver_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34548" name="活動用-英啟殺刃 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_volver_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34549" name="活動用-英啟殺刃 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_volver_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34550" name="活動用-英啟殺刃 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_volver_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34551" name="活動用-英啟復仇者 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_raksilion_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34552" name="活動用-英啟復仇者 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_raksilion_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34553" name="活動用-英啟復仇者 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_raksilion_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34554" name="活動用-英啟復仇者 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_raksilion_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34555" name="活動用-英啟復仇者 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_raksilion_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34556" name="活動用-英啟復仇者 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="174"/>
+		<set name="icon" val="icon.weapon_raksilion_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34557" name="活動用-英啟術杖 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34558" name="活動用-英啟術杖 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34559" name="活動用-英啟術杖 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34560" name="活動用-英啟術杖 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34561" name="活動用-英啟術杖 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34562" name="活動用-英啟術杖 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="108"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34563" name="活動用-英啟切刃 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_pasis_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34564" name="活動用-英啟切刃 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_pasis_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34565" name="活動用-英啟切刃 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_pasis_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34566" name="活動用-英啟切刃 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_pasis_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34567" name="活動用-英啟切刃 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_pasis_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34568" name="活動用-英啟切刃 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="152"/>
+		<set name="icon" val="icon.weapon_pasis_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="34569" name="活動用-英啟戰爪 (大地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34570" name="活動用-英啟戰爪 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34571" name="活動用-英啟戰爪 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34572" name="活動用-英啟戰爪 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34573" name="活動用-英啟戰爪 (神聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34574" name="活動用-英啟戰爪 (黑暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="34575" name="活動用-武器強化卷軸-A級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="34576" name="活動用-武器強化卷軸-B級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="34577" name="活動用-武器強化卷軸-C級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="34578" name="活動用-武器強化卷軸-D級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="34579" name="活動用-武器強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_enchant_weapon_i06"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="34580" name="活動用-武器強化卷軸-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="34581" name="活動用-護身符-魔法防禦力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_md_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34582" name="活動用-護身符-魔法防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34583" name="活動用-護身符-魔法攻擊力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34584" name="活動用-護身符-魔法攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34585" name="活動用-護身符-物理防禦力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34586" name="活動用-護身符-物理防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34587" name="活動用-護身符-物理攻擊力 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34588" name="活動用-護身符-物理攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34589" name="活動用-護身符-CP {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_cp_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34590" name="活動用-護身符-CP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34591" name="活動用-護身符-HP {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_hp_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34592" name="活動用-護身符-HP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34593" name="活動用-護身符-MP {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_mp_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34594" name="活動用-護身符-MP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34595" name="活動用-螺旋槳壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34596" name="活動用-魔法少女壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34597" name="活動用-眼鏡蛇壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34598" name="活動用-烏帕寶寶壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="34599" name="活動用-騎乘用黑熊手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+</list>

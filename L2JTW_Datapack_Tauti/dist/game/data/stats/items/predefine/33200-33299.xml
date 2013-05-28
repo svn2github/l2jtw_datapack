@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="33200" name="命運的青狼頭盔 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="58"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="66"/>
+		</for>
+	</item>
+	<item id="33201" name="命運的青狼皮甲 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="550"/>
+		<set name="icon" val="icon.armor_t69_ul_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="202"/>
+		</for>
+	</item>
+	<item id="33202" name="命運的青狼手套 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="59"/>
+		<set name="icon" val="icon.armor_t69_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="33203" name="命運的青狼長靴 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="113"/>
+		<set name="icon" val="icon.armor_t69_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="33204" name="命運的青狼頭盔 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="58"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="66"/>
+		</for>
+	</item>
+	<item id="33205" name="命運的青狼外衣 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="192"/>
+		<set name="icon" val="icon.armor_t70_u_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="377"/>
+			<add order="0x10" stat="pDef" val="83"/>
+		</for>
+	</item>
+	<item id="33206" name="命運的青狼長襪 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="92"/>
+		<set name="icon" val="icon.armor_t70_l_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="236"/>
+			<add order="0x10" stat="pDef" val="52"/>
+		</for>
+	</item>
+	<item id="33207" name="命運的青狼手套 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="59"/>
+		<set name="icon" val="icon.armor_t70_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="33208" name="命運的青狼長靴 (水, 地, 聖)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="113"/>
+		<set name="icon" val="icon.armor_t70_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+		</for>
+	</item>
+	<item id="33209" name="命運的那卡風暴 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="93"/>
+		<set name="icon" val="icon.weapon_naga_storm_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33210" name="命運的希露冰刃 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33211" name="命運的緹米絲之舌 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="82"/>
+		<set name="icon" val="icon.weapon_tongue_of_themis_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33212" name="命運的閃光之珠 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_greed_stinger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="228"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33213" name="命運的伊波斯巨劍 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33214" name="命運的光明守護之劍 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_death_bringer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="272"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33215" name="命運的夏伊德獵弓 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_shyid_bow_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="570"/>
+			<set order="0x08" stat="mAtk" val="133"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33216" name="命運的復仇爆弩 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_soul_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="318"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33217" name="命運的貝拉凱爾聖斧 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33218" name="命運的卡布里歐之手 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="151"/>
+		<set name="icon" val="icon.weapon_hand_of_cabrio_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33219" name="命運的貝希莫斯巨叉 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33220" name="命運的惡魔結晶 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="88"/>
+		<set name="icon" val="icon.weapon_crystal_of_deamon_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="245"/>
+			<set order="0x08" stat="mAtk" val="177"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33221" name="命運的岱依封長戟 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_tiphon_spear_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33222" name="命運的索貝克颶風 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="133"/>
+		<set name="icon" val="icon.weapon_sobekk_hurricane_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33223" name="命運的塔魯刀*大馬士革刀 (火)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33224" name="命運的那卡風暴 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="93"/>
+		<set name="icon" val="icon.weapon_naga_storm_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33225" name="命運的希露冰刃 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33226" name="命運的緹米絲之舌 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="82"/>
+		<set name="icon" val="icon.weapon_tongue_of_themis_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33227" name="命運的閃光之珠 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_greed_stinger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="228"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33228" name="命運的伊波斯巨劍 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33229" name="命運的光明守護之劍 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_death_bringer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="272"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33230" name="命運的夏伊德獵弓 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_shyid_bow_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="570"/>
+			<set order="0x08" stat="mAtk" val="133"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33231" name="命運的復仇爆弩 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_soul_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="318"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33232" name="命運的貝拉凱爾聖斧 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33233" name="命運的卡布里歐之手 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="151"/>
+		<set name="icon" val="icon.weapon_hand_of_cabrio_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33234" name="命運的貝希莫斯巨叉 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33235" name="命運的惡魔結晶 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="88"/>
+		<set name="icon" val="icon.weapon_crystal_of_deamon_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="245"/>
+			<set order="0x08" stat="mAtk" val="177"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33236" name="命運的岱依封長戟 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_tiphon_spear_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33237" name="命運的索貝克颶風 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="133"/>
+		<set name="icon" val="icon.weapon_sobekk_hurricane_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33238" name="命運的塔魯刀*大馬士革刀 (水)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33239" name="命運的那卡風暴 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="93"/>
+		<set name="icon" val="icon.weapon_naga_storm_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33240" name="命運的希露冰刃 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33241" name="命運的緹米絲之舌 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="82"/>
+		<set name="icon" val="icon.weapon_tongue_of_themis_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33242" name="命運的閃光之珠 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_greed_stinger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="228"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33243" name="命運的伊波斯巨劍 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33244" name="命運的光明守護之劍 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_death_bringer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="272"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33245" name="命運的夏伊德獵弓 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_shyid_bow_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="570"/>
+			<set order="0x08" stat="mAtk" val="133"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33246" name="命運的復仇爆弩 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_soul_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="318"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33247" name="命運的貝拉凱爾聖斧 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33248" name="命運的卡布里歐之手 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="151"/>
+		<set name="icon" val="icon.weapon_hand_of_cabrio_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33249" name="命運的貝希莫斯巨叉 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33250" name="命運的惡魔結晶 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="88"/>
+		<set name="icon" val="icon.weapon_crystal_of_deamon_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="245"/>
+			<set order="0x08" stat="mAtk" val="177"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33251" name="命運的岱依封長戟 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_tiphon_spear_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33252" name="命運的索貝克颶風 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="133"/>
+		<set name="icon" val="icon.weapon_sobekk_hurricane_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33253" name="命運的塔魯刀*大馬士革刀 (風)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33254" name="命運的那卡風暴 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="93"/>
+		<set name="icon" val="icon.weapon_naga_storm_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33255" name="命運的希露冰刃 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33256" name="命運的緹米絲之舌 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="82"/>
+		<set name="icon" val="icon.weapon_tongue_of_themis_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33257" name="命運的閃光之珠 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_greed_stinger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="228"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33258" name="命運的伊波斯巨劍 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33259" name="命運的光明守護之劍 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_death_bringer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="272"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33260" name="命運的夏伊德獵弓 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_shyid_bow_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="570"/>
+			<set order="0x08" stat="mAtk" val="133"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33261" name="命運的復仇爆弩 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_soul_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="318"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33262" name="命運的貝拉凱爾聖斧 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33263" name="命運的卡布里歐之手 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="151"/>
+		<set name="icon" val="icon.weapon_hand_of_cabrio_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33264" name="命運的貝希莫斯巨叉 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33265" name="命運的惡魔結晶 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="88"/>
+		<set name="icon" val="icon.weapon_crystal_of_deamon_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="245"/>
+			<set order="0x08" stat="mAtk" val="177"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33266" name="命運的岱依封長戟 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_tiphon_spear_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33267" name="命運的索貝克颶風 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="133"/>
+		<set name="icon" val="icon.weapon_sobekk_hurricane_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33268" name="命運的塔魯刀*大馬士革刀 (地)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33269" name="命運的那卡風暴 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="93"/>
+		<set name="icon" val="icon.weapon_naga_storm_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33270" name="命運的希露冰刃 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33271" name="命運的緹米絲之舌 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="82"/>
+		<set name="icon" val="icon.weapon_tongue_of_themis_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33272" name="命運的閃光之珠 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_greed_stinger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="228"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33273" name="命運的伊波斯巨劍 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33274" name="命運的光明守護之劍 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_death_bringer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="272"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33275" name="命運的夏伊德獵弓 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_shyid_bow_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="570"/>
+			<set order="0x08" stat="mAtk" val="133"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33276" name="命運的復仇爆弩 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_soul_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="318"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33277" name="命運的貝拉凱爾聖斧 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33278" name="命運的卡布里歐之手 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="151"/>
+		<set name="icon" val="icon.weapon_hand_of_cabrio_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33279" name="命運的貝希莫斯巨叉 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33280" name="命運的惡魔結晶 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="88"/>
+		<set name="icon" val="icon.weapon_crystal_of_deamon_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="245"/>
+			<set order="0x08" stat="mAtk" val="177"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33281" name="命運的岱依封長戟 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_tiphon_spear_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33282" name="命運的索貝克颶風 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="133"/>
+		<set name="icon" val="icon.weapon_sobekk_hurricane_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33283" name="命運的塔魯刀*大馬士革刀 (聖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33284" name="命運的那卡風暴 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="93"/>
+		<set name="icon" val="icon.weapon_naga_storm_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33285" name="命運的希露冰刃 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_sirr_blade_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33286" name="命運的緹米絲之舌 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="82"/>
+		<set name="icon" val="icon.weapon_tongue_of_themis_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33287" name="命運的閃光之珠 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.weapon_greed_stinger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="228"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33288" name="命運的伊波斯巨劍 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_sword_of_ipos_i01"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33289" name="命運的光明守護之劍 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_death_bringer_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="272"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33290" name="命運的夏伊德獵弓 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_shyid_bow_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="570"/>
+			<set order="0x08" stat="mAtk" val="133"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="33291" name="命運的復仇爆弩 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="164"/>
+		<set name="icon" val="icon.weapon_soul_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="318"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="33292" name="命運的貝拉凱爾聖斧 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="155"/>
+		<set name="icon" val="icon.weapon_barakiel_axe_i01"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33293" name="命運的卡布里歐之手 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="151"/>
+		<set name="icon" val="icon.weapon_hand_of_cabrio_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="202"/>
+			<set order="0x08" stat="mAtk" val="161"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33294" name="命運的貝希莫斯巨叉 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33295" name="命運的惡魔結晶 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="88"/>
+		<set name="icon" val="icon.weapon_crystal_of_deamon_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="245"/>
+			<set order="0x08" stat="mAtk" val="177"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33296" name="命運的岱依封長戟 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="182"/>
+		<set name="icon" val="icon.weapon_tiphon_spear_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="251"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33297" name="命運的索貝克颶風 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="133"/>
+		<set name="icon" val="icon.weapon_sobekk_hurricane_i01"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="33298" name="命運的塔魯刀*大馬士革刀 (暗)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="189"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="305"/>
+			<set order="0x08" stat="mAtk" val="121"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="33299" name="命運的聖威頭箍 (火, 風, 暗)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="55"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="73"/>
+		</for>
+	</item>
+</list>

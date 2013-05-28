@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="20937" name="貴族角冠" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_noblesse_oblige_of_vesper_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20938" name="噴射戰車騎乘手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="BranchSys2.icon.br_z_bike_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20939" name="噴射戰車騎乘手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="BranchSys2.icon.br_z_bike_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20940" name="鳳凰壺精封印手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_china_phoenix_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20941" name="鳳凰壺精封印手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_china_phoenix_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20942" name="狐狸面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_fox_japan_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20943" name="狐狸面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_fox_japan_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20944" name="排灣族帽子" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_paiwan_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20945" name="排灣族帽子" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_paiwan_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20946" name="噴射戰車 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20947" name="噴射戰車 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20948" name="鳳凰壺精 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20949" name="鳳凰壺精 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20950" name="狐狸面具組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20951" name="狐狸面具 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20952" name="排灣族帽子組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20953" name="排灣族帽子 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20954" name="小型能量種子" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_shield_bread_i00"/>
+		<set name="material" val="gold"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20955" name="中型能量種子" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_shield_bread_i01"/>
+		<set name="material" val="gold"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20956" name="壺精封印手鐲-殭屍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_gangsi_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20957" name="殭屍壺精 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20958" name="愚人節特別禮物-活動用" type="EtcItem">
+		<set name="icon" val="icon.lucky_bag_box_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20959" name="薄暮皇室王冠組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20960" name="薄暮皇室頭箍組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20961" name="貴族角冠組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20962" name="薄暮皇室王冠 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20963" name="薄暮皇室頭箍 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20964" name="貴族角冠 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20965" name="薄暮皇室王冠組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20966" name="薄暮皇室頭箍組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20967" name="貴族角冠組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20968" name="壺精封印手鐲-關公" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys.icon.br_aga_warriorgod_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20969" name="關公壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20970" name="壺精封印手鐲-三頭龍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_threehead_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20971" name="特雷卓變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_blessed_taiboy_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="20972" name="蘇琴變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_blessed_taigirl_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="20973" name="京劇面具-劉備" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_pekingopera_mask_a_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20974" name="京劇面具-關羽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_pekingopera_mask_b_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20975" name="京劇面具-張飛" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_pekingopera_mask_c_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20976" name="勇士之印" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_pekingopera_symbol_a_i00"/>
+		<set name="material" val="gold"/>
+	</item>
+	<item id="20977" name="友情之印" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_pekingopera_symbol_b_i00"/>
+		<set name="material" val="gold"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20978" name="粽子-B級" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_taiwan_riceball_a_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="20979" name="粽子-A級" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_taiwan_riceball_b_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="20980" name="粽子-S級" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_taiwan_riceball_c_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="20981" name="龍舟帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_dragonboat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20982" name="龍舟帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_dragonboat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="20983" name="壺精封印手鐲-格諾席安控球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_ball_male_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20984" name="壺精封印手鐲-奧羅德利爾控球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_ball_female_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20985" name="壺精封印手鐲-十二碼罰球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_ball_kick_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20986" name="壺精封印手鐲-格諾席安控球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_jball_male_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20987" name="壺精封印手鐲-奧羅德利爾控球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_jball_female_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20988" name="壺精封印手鐲-十二碼罰球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_jball_kick_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20989" name="壺精封印手鐲-格諾席安控球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_male_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20990" name="壺精封印手鐲-奧羅德利爾控球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_female_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20991" name="壺精封印手鐲-十二碼罰球" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_kick_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="20992" name="勝利的解渴飲料" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_victory_potion_i00"/>
+		<set name="material" val="gold"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20993" name="聲援的足球" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_soccer_ball_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20994" name="三頭龍壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20995" name="劉備京劇面具組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20996" name="關羽京劇面具組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20997" name="張飛京劇面具組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20998" name="龍舟帽組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="20999" name="龍舟帽 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21000" name="格諾席安控球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21001" name="奧羅德利爾控球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21002" name="十二碼罰球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21003" name="格諾席安控球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21004" name="奧羅德利爾控球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21005" name="十二碼罰球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21006" name="格諾席安控球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21007" name="奧羅德利爾控球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21008" name="十二碼罰球壺精組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21009" name="足球爆炸頭-白色" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_hair_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21010" name="足球爆炸頭-藍色" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_hair_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21011" name="足球爆炸頭-紅色" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_hair_i02"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21012" name="勝利的標誌-韓國" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_face_deco_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="21013" name="勝利的標誌-日本" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_face_deco_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="21014" name="聲援的標誌" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_face_deco_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="21015" name="聲援的加油棒-紅色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21016" name="聲援的加油棒-橙色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21017" name="聲援的加油棒-黃色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i02"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21018" name="聲援的加油棒-綠色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i03"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21019" name="聲援的加油棒-藍色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i04"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21020" name="聲援的加油棒-靛色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i05"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21021" name="聲援的加油棒-紫色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i06"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21022" name="聲援的加油棒-黑色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i07"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21023" name="聲援的加油棒-白色" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i08"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="21024" name="足球爆炸頭(白色)組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21025" name="足球爆炸頭(藍色)組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21026" name="足球爆炸頭(紅色)組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21027" name="勝利的標誌(韓國)組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21028" name="勝利的標誌(日本)組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21029" name="聲援的標誌組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21030" name="哈汀的加護" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_protection_hadin_i00"/>
+		<set name="weight" val="1"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="21031" name="哈汀的祝福" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_bless_of hadin_i00"/>
+		<set name="weight" val="1"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="21032" name="夏菲德的羽翼" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_wing_of_sylphide_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="21033" name="夏菲德的祝福" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_bless_of_sylphide_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="21034" name="伊貝因的恢復卷軸" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_scroll_of_yibein_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="21035" name="生命古文" type="EtcItem">
+		<set name="icon" val=""/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="21036" name="精神古文" type="EtcItem">
+		<set name="icon" val=""/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+</list>

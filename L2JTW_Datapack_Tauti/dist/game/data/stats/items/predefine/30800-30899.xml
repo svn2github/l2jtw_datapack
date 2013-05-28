@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="30800" name="束縛的巨戰斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1660"/>
+		<set name="icon" val="icon.weapon_war_axe_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="139"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="76"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30801" name="束縛的戰鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_war_hammer_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="64"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30802" name="束縛的單刃刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_single-edged_jamadhr_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="62"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="32"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30803" name="束縛的歐西斯戰斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30804" name="束縛的歐西斯戰斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30805" name="束縛的歐西斯戰斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30806" name="束縛的歐西斯戰斧" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30807" name="束縛的歐西斯闊矛" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2030"/>
+		<set name="icon" val="icon.weapon_orcish_glaive_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="107"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30808" name="束縛的歐西斯闊矛" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2030"/>
+		<set name="icon" val="icon.weapon_orcish_glaive_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="107"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30809" name="束縛的歐西斯闊矛" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2030"/>
+		<set name="icon" val="icon.weapon_orcish_glaive_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="107"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30810" name="束縛的歐西斯闊矛" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2030"/>
+		<set name="icon" val="icon.weapon_orcish_glaive_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="107"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30811" name="束縛的瑪瑙獸眼耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_onyxbeastseye_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="36"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30812" name="束縛的食人魔力量長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="620"/>
+		<set name="icon" val="icon.armor_t45_g_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="29"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30813" name="束縛的食人魔力量長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.armor_t45_g_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="29"/>
+		</for>
+	</item>
+	<item id="30814" name="束縛的古森林項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_near_forest_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30815" name="束縛的古森林項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_near_forest_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30816" name="束縛的靈魂弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1660"/>
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="528"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="125"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30817" name="束縛的靈魂弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1660"/>
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="528"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="125"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30818" name="束縛的靈魂弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1660"/>
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="528"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="125"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30819" name="束縛的靈魂弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1660"/>
+		<set name="icon" val="icon.weapon_soul_bow_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="5"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="528"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="125"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30820" name="束縛的英魂之眼" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30821" name="束縛的英魂之眼" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30822" name="束縛的英魂之眼" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30823" name="束縛的英魂之眼" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30824" name="束縛的永命戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ring_of_ages_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="30"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30825" name="束縛的永命戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ring_of_ages_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="30"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30826" name="束縛的榮譽號角" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="540"/>
+		<set name="icon" val="icon.weapon_horn_of_glory_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="etc"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="98"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30827" name="束縛的奇蹟之鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1250"/>
+		<set name="icon" val="icon.weapon_mace_of_miracle_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="41"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="43"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30828" name="束縛的精靈長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1010"/>
+		<set name="icon" val="icon.armor_t11_l_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="79"/>
+			<add order="0x10" stat="pDef" val="27"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30829" name="束縛的精靈劍*革命劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2410"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="136"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="63"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30830" name="束縛的精靈劍*精靈劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2440"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="118"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="56"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30831" name="束縛的精靈劍*精靈長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2410"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="148"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="68"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30832" name="束縛的精靈劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1470"/>
+		<set name="icon" val="icon.weapon_elven_sword_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="64"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30833" name="束縛的精靈弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1850"/>
+		<set name="icon" val="icon.weapon_elven_bow_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="2"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="105"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="32"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30834" name="束縛的精靈外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.armor_t11_u_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="126"/>
+			<add order="0x10" stat="pDef" val="43"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30835" name="束縛的精靈耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="34"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30836" name="束縛的精靈耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="34"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30837" name="束縛的精靈米索莉靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1250"/>
+		<set name="icon" val="icon.armor_t51_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="27"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30838" name="束縛的精靈米索莉手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="640"/>
+		<set name="icon" val="icon.armor_t51_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="27"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30839" name="束縛的精靈戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="22"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30840" name="束縛的精靈戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="22"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30841" name="束縛的精靈長劍*精靈長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2340"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="162"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="73"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30842" name="束縛的精靈長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1440"/>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="92"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30843" name="束縛的精靈長劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="92"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30844" name="束縛的精靈項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="45"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30845" name="束縛的精靈項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_elven_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="45"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30846" name="束縛的樂園" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="232"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="114"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30847" name="束縛的樂園" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="232"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="114"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30848" name="束縛的樂園" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="232"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="114"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30849" name="束縛的樂園" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_elysian_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="232"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="114"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30850" name="束縛的元素劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="830"/>
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30851" name="束縛的元素劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="830"/>
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30852" name="束縛的元素劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="830"/>
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30853" name="束縛的元素劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="830"/>
+		<set name="icon" val="icon.weapon_elemental_sword_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="143"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30854" name="束縛的元素弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1770"/>
+		<set name="icon" val="icon.weapon_elemental_bow_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="277"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="75"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30855" name="束縛的元素弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1770"/>
+		<set name="icon" val="icon.weapon_elemental_bow_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="277"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="75"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30856" name="束縛的元素弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1770"/>
+		<set name="icon" val="icon.weapon_elemental_bow_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="277"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="75"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30857" name="束縛的元素弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1770"/>
+		<set name="icon" val="icon.weapon_elemental_bow_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="277"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="75"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30858" name="束縛的厄達拉克塔盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1290"/>
+		<set name="icon" val="icon.shield_eldarake_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="166"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="30859" name="束縛的天使殺手" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="950"/>
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="material" val="adamantaite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="246"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="132"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30860" name="束縛的天使殺手" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="950"/>
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="material" val="adamantaite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="246"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="132"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30861" name="束縛的天使殺手" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="950"/>
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="material" val="adamantaite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="246"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="132"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30862" name="束縛的天使殺手" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="950"/>
+		<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+		<set name="material" val="adamantaite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="246"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="132"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30863" name="束縛的銳劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1450"/>
+		<set name="icon" val="icon.weapon_rapier_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="72"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="47"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30864" name="束縛的刺劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1470"/>
+		<set name="icon" val="icon.weapon_rapier_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="58"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30865" name="束縛的刺劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1470"/>
+		<set name="icon" val="icon.weapon_rapier_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="58"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30866" name="束縛的卓越弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1720"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i00"/>
+		<set name="material" val="chrysolite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="323"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30867" name="束縛的卓越弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1720"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="323"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30868" name="束縛的卓越弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1720"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="323"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30869" name="束縛的卓越弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1720"/>
+		<set name="icon" val="icon.weapon_eminence_bow_i01"/>
+		<set name="material" val="chrysolite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="10"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="323"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30870" name="束縛的冰晶弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30871" name="束縛的冰晶弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30872" name="束縛的冰晶弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30873" name="束縛的冰晶弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="mp_consume" val="3"/>
+		<set name="soulshots" val="8"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="220"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30874" name="束縛的刺客刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1100"/>
+		<set name="icon" val="icon.weapon_assassin_knife_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="35"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="26"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="30875" name="束縛的突襲鈍劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1370"/>
+		<set name="icon" val="icon.weapon_assult_fleuret_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="159"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30876" name="束縛的突襲鈍劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1370"/>
+		<set name="icon" val="icon.weapon_assult_fleuret_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="159"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30877" name="束縛的突襲鈍劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1370"/>
+		<set name="icon" val="icon.weapon_assult_fleuret_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="159"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30878" name="束縛的突襲鈍劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1370"/>
+		<set name="icon" val="icon.weapon_assult_fleuret_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="40"/>
+		<set name="weapon_type" val="rapier"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="159"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30879" name="束縛的突襲曲刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_tulwar_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="15"/>
+		<set name="weapon_type" val="ancientsword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="55"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="32"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30880" name="束縛的雙手劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2180"/>
+		<set name="icon" val="icon.weapon_two_handed_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="78"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30881" name="束縛的夜叉釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1640"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30882" name="束縛的夜叉釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1640"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30883" name="束縛的夜叉釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1640"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30884" name="束縛的夜叉釘鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1640"/>
+		<set name="icon" val="icon.weapon_yaksa_mace_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="30885" name="束縛的黑暗項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_necklace_of_darkness_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="30886" name="束縛的爆破之臂" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1820"/>
+		<set name="icon" val="icon.weapon_hunting_gun_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="6"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="100"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="47"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30887" name="束縛的強弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_arbalest_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="135"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30888" name="束縛的強弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_arbalest_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="135"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30889" name="束縛的強弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_arbalest_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="135"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30890" name="束縛的強弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1790"/>
+		<set name="icon" val="icon.weapon_arbalest_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="135"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="61"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="30891" name="束縛的夢魘頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="560"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="73"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30892" name="束縛的夢魘盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="256"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="30893" name="束縛的夢魘靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t80_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30894" name="束縛的夢魘靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t81_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30895" name="束縛的夢魘靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t82_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30896" name="束縛的夢魘長袍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2300"/>
+		<set name="icon" val="icon.armor_t82_ul_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="718"/>
+			<add order="0x10" stat="pDef" val="147"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30897" name="束縛的夢魘皮甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="5300"/>
+		<set name="icon" val="icon.armor_t81_ul_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="220"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="30898" name="束縛的夢魘劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1400"/>
+		<set name="icon" val="icon.weapon_sword_of_nightmare_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="139"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="76"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="30899" name="束縛的夢魘劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1400"/>
+		<set name="icon" val="icon.weapon_sword_of_nightmare_i01"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="139"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="76"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+</list>

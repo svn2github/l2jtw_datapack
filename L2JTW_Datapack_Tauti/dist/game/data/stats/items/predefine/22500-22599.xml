@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="22537" name="改良型鋼鐵手鐲 90日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22538" name="改良型米索莉手鐲 1日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22539" name="改良型米索莉手鐲 15日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22540" name="改良型米索莉手鐲 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22541" name="改良型米索莉手鐲 90日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22542" name="改良型米索莉手鐲組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22543" name="代售手續費折價券 3張/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22544" name="代售手續費免費券 3張/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22545" name="代售登錄期間延長券-15日用 3張/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22546" name="代售登錄期間延長券-30日用 3張/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22547" name="(測試)單手光束劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1600"/>
+		<set name="icon" val="BranchSys3.Icon.g_beam_1h_sword"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+	</item>
+	<item id="22550" name="武器強化卷軸-A級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="22551" name="防具強化卷軸-A級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="22552" name="武器強化卷軸-B級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="22553" name="防具強化卷軸-B級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="22554" name="武器強化卷軸-C級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="22555" name="防具強化卷軸-C級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="22556" name="武器強化卷軸-D級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="22557" name="防具強化卷軸-D級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="22558" name="武器強化卷軸-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="22559" name="防具強化卷軸-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="22560" name="武器強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_enchant_weapon_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="22561" name="防具強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_enchant_armor_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="22562" name="生命靈藥" type="EtcItem">
+		<set name="icon" val="icon.etc_super_potion_i02"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22563" name="精神靈藥" type="EtcItem">
+		<set name="icon" val="icon.etc_super_potion_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22564" name="鬥志靈藥" type="EtcItem">
+		<set name="icon" val="icon.etc_super_potion_i01"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22565" name="維他命支援組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="22566" name="藥水支援組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="22567" name="消耗品支援組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="22568" name="Discovery Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22569" name="Adventure Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22570" name="Destiny Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22571" name="壺精禮盒" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22572" name="靈魂彈-R級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22573" name="祝福的魔靈彈-R級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_blessed_spiritshot_r_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22574" name="靈魂彈-R級組合包 (3000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22575" name="祝福的魔靈彈-R級組合包 (3000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_blessed_spiritshot_r_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22576" name="神祕的靈魂彈-S級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_s_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22577" name="神祕的祝福的魔靈彈-S級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_s_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22578" name="C級武器禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22579" name="B級武器禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22580" name="A級武器禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22581" name="S級武器禮盒(限時90日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22582" name="D級防具禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22583" name="C級防具禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22584" name="B級防具禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22585" name="A級防具禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22586" name="S級防具禮盒(限時90日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22587" name="D級武器禮盒(限時30日)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22588" name="幼苗的氣息" type="EtcItem">
+		<set name="icon" val="icon.etc_leaf_green_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="22589" name="幼苗的氣息 3個/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22590" name="神祕的靈魂彈-D級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_d_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22591" name="神祕的靈魂彈-D級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_d_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22592" name="神祕的靈魂彈-C級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_c_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22593" name="神祕的靈魂彈-C級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_c_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22594" name="神祕的靈魂彈-B級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_b_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22595" name="神祕的靈魂彈-B級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_b_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22596" name="神祕的靈魂彈-A級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_a_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22597" name="神祕的靈魂彈-A級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_a_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22598" name="神祕的魔靈彈-D級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_d_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22599" name="神祕的魔靈彈-D級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_d_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22600" name="神祕的魔靈彈-C級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_c_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22601" name="神祕的魔靈彈-C級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_c_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22602" name="神祕的魔靈彈-B級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_b_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22603" name="神祕的魔靈彈-B級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_b_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22604" name="神祕的魔靈彈-A級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_a_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22605" name="神祕的魔靈彈-A級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_a_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22606" name="神祕的魔靈彈-S級組合包 (10000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_s_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22607" name="神祕的魔靈彈-S級組合包 (5000)" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_s_i00"/>
+		<set name="weight" val="1000"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22608" name="30分鐘活力維持藥水 2個/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22609" name="30分鐘活力維持藥水 4個/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22610" name="高級雞尾酒" type="EtcItem">
+		<set name="icon" val="icon.etc_fruit_cocktail_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="22611" name="新天堂II緣份覺醒派對紀念斗篷" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="220"/>
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i02"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="back"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+		</for>
+	</item>
+	<item id="22612" name="經驗值古文 30% 3小時/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22613" name="經驗值古文 30% 1小時/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22614" name="經驗值古文 50% 1小時/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22615" name="追加入場券-邊緣欲界" type="EtcItem">
+		<set name="icon" val="icon.ticket_i00"/>
+		<set name="weight" val="5"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="22616" name="友情的聖威飾品組" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="22617" name="友情的黑光飾品組" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="22618" name="友情的封印飾品組" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="22619" name="友情的王朝飾品組-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="22620" name="樹之奇蹟" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22621" name="活力恢復藥水" type="EtcItem">
+		<set name="icon" val="BranchSys2.br_essence_rose_i00"/>
+	</item>
+	<item id="22622" name="祝福的返回卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_i01"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="22623" name="祝福的復活卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_resurrection_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="22624" name="生命靈藥" type="EtcItem">
+		<set name="icon" val="icon.etc_super_potion_i02"/>
+		<set name="weight" val="5"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22625" name="精神靈藥" type="EtcItem">
+		<set name="icon" val="icon.etc_super_potion_i00"/>
+		<set name="weight" val="5"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22626" name="鬥志靈藥" type="EtcItem">
+		<set name="icon" val="icon.etc_super_potion_i01"/>
+		<set name="weight" val="5"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22627" name="武器強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_enchant_weapon_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22628" name="防具強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_enchant_armor_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22629" name="高級生命石-R級" type="EtcItem">
+		<set name="icon" val="icon.r_mineral_rare_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22630" name="特級生命石-R級" type="EtcItem">
+		<set name="icon" val="icon.r_mineral_unique_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22631" name="高級生命石-R95級" type="EtcItem">
+		<set name="icon" val="icon.r95_mineral_rare_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22632" name="特級生命石-R95級" type="EtcItem">
+		<set name="icon" val="icon.r95_mineral_unique_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22633" name="高級生命石-R99級" type="EtcItem">
+		<set name="icon" val="icon.r99_mineral_rare_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22634" name="特級生命石-R99級" type="EtcItem">
+		<set name="icon" val="icon.r99_mineral_unique_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22635" name="火之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_stone_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22636" name="水之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_water_stone_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+</list>

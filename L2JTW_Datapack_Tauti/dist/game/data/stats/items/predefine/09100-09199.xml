@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="9100" name="幻象裝備-聖威靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="370"/>
+		<set name="icon" val="icon.armor_t84_b_i00"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="9101" name="幻象裝備-聖威長袍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="777"/>
+		<set name="icon" val="icon.armor_t85_ul_i00"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="onepiece"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="718"/>
+			<add order="0x10" stat="pDef" val="147"/>
+		</for>
+	</item>
+	<item id="9102" name="幻象裝備-聖威手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="180"/>
+		<set name="icon" val="icon.armor_t85_g_i00"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="9103" name="幻象裝備-聖威靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="370"/>
+		<set name="icon" val="icon.armor_t85_b_i00"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="9104" name="合金弓木箭" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9105" name="腰弩骨箭" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9106" name="阿卡特長弓鐵箭" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9107" name="黑暗精靈長弓銀箭" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9108" name="顱之弓米索莉箭" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9109" name="靈魂弓米索莉箭" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9110" name="無等級幻象防具套裝禮盒(重裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9111" name="D級幻象防具組禮盒(重裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9112" name="C級幻象防具組禮盒(重裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9113" name="B級幻象防具組禮盒(重裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9114" name="A級幻象防具組禮盒(重裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9115" name="A級幻象防具組禮盒(重裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9116" name="無等級幻象防具套裝禮盒(輕裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9117" name="D級幻象防具組禮盒(輕裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9118" name="C級幻象防具組禮盒(輕裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9119" name="B級幻象防具組禮盒(輕裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9120" name="A級幻象防具組禮盒(輕裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9121" name="A級幻象防具組禮盒(輕裝用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9122" name="無等級幻象防具套裝禮盒(長袍用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9123" name="D級幻象防具組禮盒(長袍用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9124" name="C級幻象防具組禮盒(長袍用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9125" name="B級幻象防具組禮盒(長袍用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9126" name="A級幻象防具組禮盒(長袍用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9127" name="A級幻象防具組禮盒(長袍用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9128" name="幻象裝備-米索莉長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="200"/>
+		<set name="icon" val="icon.armor_t61_g_i00"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="mithril"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="36"/>
+		</for>
+	</item>
+	<item id="9129" name="幻象裝備-夢魘盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="400"/>
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="256"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="9130" name="無等級消耗品組禮盒(法師用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9131" name="D級消耗品組禮盒(法師用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9132" name="C級消耗品組禮盒(法師用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9133" name="B級消耗品組禮盒(法師用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9134" name="A級消耗品組禮盒(法師用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9135" name="A、S級消耗品組禮盒(法師用)" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9136" name="巴拉卡斯劍(單手)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="9137" name="巴拉卡斯劍(雙手)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2180"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="78"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="9138" name="聖誕帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_santas_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9139" name="聖誕帽" type="EtcItem">
+		<set name="icon" val="icon.accessory_santas_cap_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="9140" name="邱比特之弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="900"/>
+		<set name="icon" val="icon.weapon_krono_bow_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="mp_consume" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="9141" name="邱比特之弓-活動用" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="300"/>
+		<set name="icon" val="icon.weapon_krono_bow_i00"/>
+		<set name="duration" val="230"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="1"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="mp_consume" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="9142" name="豬豬幣" type="EtcItem">
+		<set name="icon" val="icon.etc_pig_adena_i01"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9143" name="黃金豬豬幣" type="EtcItem">
+		<set name="icon" val="icon.etc_pig_adena_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9144" name="豬豬禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9145" name="小天使之翼-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_hair_ring_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair2"/>
+	</item>
+	<item id="9146" name="導引卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9147" name="死之呢喃卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9148" name="弱點偵測卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9149" name="靈活思緒卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9150" name="速度激發卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9151" name="敏捷術卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9152" name="魔力催化卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9153" name="力量強化卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9154" name="風之疾走卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9155" name="保護盾卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9156" name="祝福的返回卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9157" name="祝福的復活卷軸-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_resurrection_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="9158" name="黃金之環-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_gold_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9159" name="白銀之環-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_gold_circlet_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9160" name="中世紀皮帽-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_middle_ages_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9161" name="聖誕鹿角帽" type="EtcItem">
+		<set name="icon" val="icon.accessory_santas_antler_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="9162" name="紅色賢者之石鍊成陣" type="EtcItem">
+		<set name="icon" val="icon.etc_sign_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9163" name="藍色賢者之石鍊成陣" type="EtcItem">
+		<set name="icon" val="icon.etc_sign_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9164" name="橙色賢者之石鍊成陣" type="EtcItem">
+		<set name="icon" val="icon.etc_sign_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9165" name="黑色賢者之石鍊成陣" type="EtcItem">
+		<set name="icon" val="icon.etc_sign_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9166" name="白色賢者之石鍊成陣" type="EtcItem">
+		<set name="icon" val="icon.etc_sign_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9167" name="綠色賢者之石鍊成陣" type="EtcItem">
+		<set name="icon" val="icon.etc_sign_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9168" name="賢者之石原石" type="EtcItem">
+		<set name="icon" val="icon.etc_stone_piece_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="9169" name="賢者之石變換式" type="EtcItem">
+		<set name="icon" val="icon.etc_trans_form_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="9170" name="魔法試劑" type="EtcItem">
+		<set name="icon" val="icon.etc_madicine_bottle_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="9171" name="紅色賢者之石" type="EtcItem">
+		<set name="icon" val="icon.etc_wise_man_stone_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9172" name="藍色賢者之石" type="EtcItem">
+		<set name="icon" val="icon.etc_wise_man_stone_i01"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9173" name="橙色賢者之石" type="EtcItem">
+		<set name="icon" val="icon.etc_wise_man_stone_i03"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9174" name="黑色賢者之石" type="EtcItem">
+		<set name="icon" val="icon.etc_wise_man_stone_i04"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9175" name="白色賢者之石" type="EtcItem">
+		<set name="icon" val="icon.etc_wise_man_stone_i05"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9176" name="綠色賢者之石" type="EtcItem">
+		<set name="icon" val="icon.etc_wise_man_stone_i02"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9177" name="幻象裝備-熊熊帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_bear_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9178" name="幻象裝備-豬豬帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pig_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9179" name="幻象裝備-小丑帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_jester_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9180" name="幻象裝備-魔法師帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_magic_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9181" name="幻象裝備-花花公子帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_dandy_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9182" name="幻象裝備-浪漫圓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9183" name="幻象裝備-鋼鐵之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_iron_circlet_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="9184" name="幻象裝備-熊熊帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_bear_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9185" name="幻象裝備-豬豬帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pig_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9186" name="幻象裝備-小丑帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_jester_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9187" name="幻象裝備-魔法師帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_magic_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9188" name="幻象裝備-花花公子帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_dandy_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9189" name="幻象裝備-浪漫圓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9190" name="幻象裝備-鋼鐵之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_iron_circlet_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="9191" name="幻象裝備-熊熊帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_bear_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9192" name="幻象裝備-豬豬帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pig_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9193" name="幻象裝備-小丑帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_jester_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9194" name="幻象裝備-魔法師帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_magic_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9195" name="幻象裝備-花花公子帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_dandy_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9196" name="幻象裝備-浪漫圓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9197" name="幻象裝備-鋼鐵之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_iron_circlet_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="9198" name="幻象裝備-熊熊帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_bear_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="9199" name="幻象裝備-豬豬帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pig_cap_i00"/>
+		<set name="duration" val="360"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+</list>

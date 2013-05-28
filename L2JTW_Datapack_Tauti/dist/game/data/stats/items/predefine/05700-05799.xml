@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="5700" name="改良巨大柯柏種子" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="5701" name="改良紅色柯德朗種子" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="5702" name="改良海洋柯德朗種子" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="5703" name="幸運符咒-普通" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_luck_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5704" name="柯貝克劍*柯貝克劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="259"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="107"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5705" name="柯貝克劍*大馬士革刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="275"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="112"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5706" name="大馬士革刀*大馬士革刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_dual_sword_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="282"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="114"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5707" name="七個封印的實錄" type="EtcItem">
+		<set name="icon" val="icon.etc_ssq_scroll_i00"/>
+	</item>
+	<item id="5708" name="領主的認可" type="EtcItem">
+		<set name="icon" val="icon.etc_permit_card_i00"/>
+		<set name="etcitem_type" val="ticket_of_lord"/>
+	</item>
+	<item id="5709" name="封印的夏隆長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t64_g_i02"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5710" name="夏隆長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t64_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5711" name="夏隆長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t65_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5712" name="夏隆長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t56_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5713" name="封印的阿巴敦手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t66_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5714" name="阿巴敦手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t66_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5715" name="阿巴敦手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t67_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5716" name="阿巴敦手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t59_g_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5717" name="封印的青狼手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t68_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5718" name="青狼手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t68_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5719" name="青狼手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t69_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5720" name="青狼手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="590"/>
+		<set name="icon" val="icon.armor_t70_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5721" name="封印的末日手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t71_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5722" name="末日手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t71_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5723" name="末日手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t72_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5724" name="末日手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t73_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5725" name="封印的夏隆靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t64_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5726" name="夏隆靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t64_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5727" name="夏隆靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t65_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5728" name="夏隆靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t56_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5729" name="封印的阿巴敦靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t66_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5730" name="阿巴敦靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t66_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5731" name="阿巴敦靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t67_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5732" name="阿巴敦靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1180"/>
+		<set name="icon" val="icon.armor_t59_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5733" name="封印的青狼長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t68_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5734" name="青狼長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t68_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5735" name="青狼長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t69_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5736" name="青狼長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t70_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5737" name="封印的末日靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t71_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5738" name="末日靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t71_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5739" name="末日靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t72_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5740" name="末日靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t73_b_i00"/>
+		<set name="material" val="mithril"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="44"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5741" name="製作卷軸(封印的夏隆長手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5742" name="製作卷軸(封印的夏隆長手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5743" name="製作卷軸(封印的阿巴敦手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5744" name="製作卷軸(封印的阿巴敦手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5745" name="製作卷軸(封印的青狼手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5746" name="製作卷軸(封印的青狼手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5747" name="製作卷軸(封印的末日手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5748" name="製作卷軸(封印的末日手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5749" name="製作卷軸(封印的夏隆靴100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5750" name="製作卷軸(封印的夏隆靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5751" name="製作卷軸(封印的阿巴敦靴100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5752" name="製作卷軸(封印的阿巴敦靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_red_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5753" name="製作卷軸(封印的青狼長靴100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5754" name="製作卷軸(封印的青狼長靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5755" name="製作卷軸(封印的末日靴100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5756" name="製作卷軸(封印的末日靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_violet_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="5757" name="封印的夏隆長手套的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5758" name="封印的阿巴敦手套的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5759" name="封印的青狼手套的布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5760" name="封印的末日手套的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5761" name="封印的夏隆靴的的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5762" name="封印的阿巴敦靴的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_seed_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5763" name="封印的青狼長靴的組件" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_seed_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5764" name="封印的末日靴的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_seed_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="5765" name="黑暗水晶手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t74_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5766" name="黑暗水晶手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t75_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5767" name="黑暗水晶手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t76_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5768" name="塔魯手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t77_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5769" name="塔魯手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t78_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5770" name="塔魯手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="580"/>
+		<set name="icon" val="icon.armor_t79_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5771" name="夢魘長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="550"/>
+		<set name="icon" val="icon.armor_t80_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5772" name="夢魘長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="550"/>
+		<set name="icon" val="icon.armor_t81_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5773" name="夢魘長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="550"/>
+		<set name="icon" val="icon.armor_t82_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5774" name="聖威手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="540"/>
+		<set name="icon" val="icon.armor_t83_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5775" name="聖威手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="540"/>
+		<set name="icon" val="icon.armor_t84_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5776" name="聖威手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="540"/>
+		<set name="icon" val="icon.armor_t85_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5777" name="黑暗水晶靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t74_b_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5778" name="黑暗水晶靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t75_b_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5779" name="黑暗水晶靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t76_b_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5780" name="塔魯靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t77_b_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5781" name="塔魯靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t78_b_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5782" name="塔魯靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.armor_t79_b_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5783" name="夢魘靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t80_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5784" name="夢魘靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t81_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5785" name="夢魘靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t82_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5786" name="聖威靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t83_b_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5787" name="聖威靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t84_b_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5788" name="聖威靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.armor_t85_b_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="5789" name="新手用靈魂彈-普通" type="EtcItem">
+		<set name="icon" val="icon.etc_soulshot_none_for_rookie_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5790" name="新手用魔靈彈-普通" type="EtcItem">
+		<set name="icon" val="icon.etc_spiritshot_none_for_rookie_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5791" name="怪物用(棍棒)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2180"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="78"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5792" name="怪物用(狼牙棒)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2180"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="78"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5793" name="怪物用(權杖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5794" name="怪物用(指揮棒)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5795" name="怪物用(矛)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2180"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="78"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5796" name="怪物用(斧)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2180"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="78"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5797" name="怪物用(指揮棒)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5798" name="怪物用(權杖)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5799" name="怪物用(那芙琳盾)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="142"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+</list>

@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="10500" name="米索莉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_shirts_s_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="10501" name="米索莉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_shirts_s_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="10502" name="米索莉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_shirts_s_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="10503" name="條紋絲質襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+		</for>
+	</item>
+	<item id="10504" name="條紋絲質襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+		</for>
+	</item>
+	<item id="10505" name="條紋絲質襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+		</for>
+	</item>
+	<item id="10506" name="薄條紋皮質襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="22"/>
+		</for>
+	</item>
+	<item id="10507" name="薄條紋皮質襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="22"/>
+		</for>
+	</item>
+	<item id="10508" name="薄條紋皮質襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="22"/>
+		</for>
+	</item>
+	<item id="10509" name="條紋鱗片襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="26"/>
+		</for>
+	</item>
+	<item id="10510" name="條紋鱗片襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="26"/>
+		</for>
+	</item>
+	<item id="10511" name="條紋鱗片襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="26"/>
+		</for>
+	</item>
+	<item id="10512" name="條紋米索莉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="30"/>
+		</for>
+	</item>
+	<item id="10513" name="條紋米索莉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="30"/>
+		</for>
+	</item>
+	<item id="10514" name="條紋米索莉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="30"/>
+		</for>
+	</item>
+	<item id="10515" name="壓縮野獸靈魂彈" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_yellow_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10516" name="壓縮野獸魔靈彈" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_yellow_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10517" name="祝福的壓縮野獸魔靈彈" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_yellow_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10518" name="赤色護身符-生命力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i00"/>
+		<set name="duration" val="70"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10519" name="白色護身符-大地" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="80"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10520" name="回聲水晶-倉木麻衣" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i04"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10521" name="粗劣的火之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_attr"/>
+	</item>
+	<item id="10522" name="粗劣的水之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_water_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_attr"/>
+	</item>
+	<item id="10523" name="粗劣的地之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_earth_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_attr"/>
+	</item>
+	<item id="10524" name="粗劣的風之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_wind_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_attr"/>
+	</item>
+	<item id="10525" name="粗劣的暗之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_unholy_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_attr"/>
+	</item>
+	<item id="10526" name="粗劣的聖之原石" type="EtcItem">
+		<set name="icon" val="icon.etc_holy_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_attr"/>
+	</item>
+	<item id="10527" name="王朝魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="222"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="10528" name="王朝魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="222"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="10529" name="王朝魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="325"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="222"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="10530" name="王朝毀滅者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="10531" name="王朝毀滅者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="10532" name="王朝毀滅者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="405"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="151"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="10533" name="青色護身符-攻擊力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10534" name="青色護身符-盾牌防禦" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10535" name="黃色護身符-防禦力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10536" name="黃色護身符-魔法力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10537" name="黃色護身符-迴避" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10538" name="黃色護身符-治療威力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10539" name="黃色護身符-CP恢復量" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10540" name="黃色護身符-HP恢復量" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10541" name="黃色護身符-次級MP恢復量" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10542" name="赤色護身符-HP/CP恢復" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i00"/>
+		<set name="duration" val="64"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10543" name="黃色護身符-移動速度" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="10544" name="製作卷軸(王朝魔杖60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="10545" name="製作卷軸(王朝毀滅者60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="10546" name="王朝魔杖碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="10547" name="王朝毀滅者碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="10548" name="怪物用(透明盾)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1430"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="lhand"/>
+		<for>
+			<set order="0x08" stat="sDef" val="47"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="10549" name="遺忘祕傳書-古文保護" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_element_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10550" name="遺忘祕傳書-元素保護" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_element_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10551" name="遺忘祕傳書-團結保護" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_element_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10552" name="遺忘祕傳書-戰士的意志" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10553" name="遺忘祕傳書-弓手的意志" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10554" name="遺忘祕傳書-抗魔裝甲" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_shield_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10555" name="遺忘祕傳書-復仇種子" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_shield_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10556" name="遺忘祕傳書-地獄狂嘯" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_shield_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10557" name="遺忘祕傳書-風暴之歌" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10558" name="遺忘祕傳書-刀刃風暴之舞" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10559" name="遺忘祕傳書-第六感" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10560" name="遺忘祕傳書-弱點揭露" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10561" name="遺忘祕傳書-狂熱鬥志" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10562" name="遺忘祕傳書-御風" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10563" name="遺忘祕傳書-鬼行" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10564" name="遺忘祕傳書-火焰之鷹" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10565" name="遺忘祕傳書-箭雨" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10566" name="遺忘祕傳書-鬼刺" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10567" name="遺忘祕傳書-恐懼佈滿" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10568" name="遺忘祕傳書-武器封鎖" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10569" name="遺忘祕傳書-毀滅之力" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10570" name="遺忘祕傳書-壞滅衝擊" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10571" name="遺忘祕傳書-高崙裝甲" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10572" name="遺忘祕傳書-火焰裝甲" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10573" name="遺忘祕傳書-寒霜裝甲" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10574" name="遺忘祕傳書-風暴裝甲" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10575" name="遺忘祕傳書-吸血迷霧" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10576" name="遺忘祕傳書-使魔屏障" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10577" name="遺忘祕傳書-極度忠誠" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10578" name="遺忘祕傳書-相互呼應" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10579" name="遺忘祕傳書-提升戰鬥" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10580" name="遺忘祕傳書-提升魔法" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10581" name="遺忘祕傳書-提升狀態" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10582" name="遺忘祕傳書-提升致命攻擊" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10583" name="遺忘祕傳書-提升盾防禦" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10584" name="遺忘祕傳書-提升行動力" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10585" name="遺忘祕傳書-崇高自我獻祭" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10586" name="遺忘祕傳書-伊娃祝福" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10587" name="遺忘祕傳書-吸血鬼之王" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10588" name="遺忘祕傳書-霸權纏繞" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10589" name="遺忘祕傳書-極限封印" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10590" name="魔法書-召喚聰慧晶體" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_element_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10591" name="遺忘祕傳書-鳳凰之魂" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_shield_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10592" name="遺忘祕傳書-伊娃意志" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_shield_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10593" name="遺忘祕傳書-席琳之痛" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_shield_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10594" name="遺忘祕傳書-野性射擊" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10595" name="遺忘祕傳書-強雷震盪" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10596" name="戰鬥教範-靈魂淨罪" type="EtcItem">
+		<set name="icon" val="icon.etc_kamael_skill_book_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10597" name="戰鬥教範-生命流動詛咒" type="EtcItem">
+		<set name="icon" val="icon.etc_kamael_skill_book_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10598" name="戰鬥教範-魂之旋流" type="EtcItem">
+		<set name="icon" val="icon.etc_kamael_skill_book_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="10599" name="戰鬥教範-魂旋破滅" type="EtcItem">
+		<set name="icon" val="icon.etc_kamael_skill_book_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+</list>

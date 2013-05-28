@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="9900" name="靜音之步戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_ring_of_mana_i00"/>
+		<set name="duration" val="400"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<for>
+			<add order="0x10" stat="mDef" val="7"/>
+		</for>
+	</item>
+	<item id="9901" name="進階型彎刃大刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1530"/>
+		<set name="icon" val="icon.weapon_falchion_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="31"/>
+			<set order="0x08" stat="mAtk" val="21"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="9902" name="進階型長矛" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2120"/>
+		<set name="icon" val="icon.weapon_long_spear_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="31"/>
+			<set order="0x08" stat="mAtk" val="21"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="9903" name="進階型鋼鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1850"/>
+		<set name="icon" val="icon.weapon_iron_hammer_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="31"/>
+			<set order="0x08" stat="mAtk" val="21"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="9904" name="進階型碎劍者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1110"/>
+		<set name="icon" val="icon.weapon_sword_breaker_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="27"/>
+			<set order="0x08" stat="mAtk" val="21"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="9905" name="進階型毒蛇之牙" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1560"/>
+		<set name="icon" val="icon.weapon_vipers_canine_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="38"/>
+			<set order="0x08" stat="mAtk" val="21"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="9906" name="進階型合金弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1880"/>
+		<set name="icon" val="icon.weapon_composition_bow_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="mp_consume" val="1"/>
+		<set name="soulshots" val="7"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="64"/>
+			<set order="0x08" stat="mAtk" val="21"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="9907" name="進階型魔鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1800"/>
+		<set name="icon" val="icon.weapon_buzdygan_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="31"/>
+			<set order="0x08" stat="mAtk" val="21"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="9908" name="進階型法師魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1050"/>
+		<set name="icon" val="icon.weapon_apprentices_staff_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="30"/>
+			<set order="0x08" stat="mAtk" val="31"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="9909" name="壺精封印手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="duration" val="700"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9910" name="血的盟誓" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9911" name="血的決議" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9912" name="騎士肩章" type="EtcItem">
+		<set name="icon" val="icon.etc_shoulder_strap_of_knight_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9913" name="護身符測試" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9914" name="青色護身符-攻擊力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9915" name="青色護身符-魔法致命攻擊機率" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="75"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9916" name="青色護身符-狂暴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9917" name="赤色護身符-使用MP小幅減少" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i00"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9918" name="赤色護身符-使用MP大幅減少" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i00"/>
+		<set name="duration" val="74"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9919" name="青色護身符-傷害反射" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9920" name="青色護身符-透明化" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="64"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9921" name="青色護身符-盾牌防禦" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9922" name="黑色護身符-繃帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i05"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9923" name="黑色護身符-逃脫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i05"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9924" name="青色護身符-治療威力增加" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="64"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9925" name="赤色護身符-HP/CP恢復" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i00"/>
+		<set name="duration" val="64"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9926" name="青色護身符-防禦力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9927" name="青色護身符-魔法防禦力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9928" name="赤色護身符-MP恢復速度" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i00"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9929" name="青色護身符-盾牌防禦率增加" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9930" name="青色護身符-迴避" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9931" name="赤色護身符-MP緩和" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i00"/>
+		<set name="duration" val="74"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9932" name="青色護身符-加護" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i01"/>
+		<set name="duration" val="74"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9933" name="黃色護身符-攻擊力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9934" name="黃色護身符-攻擊速度" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9935" name="黃色護身符-魔法防禦力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9936" name="黃色護身符-魔法力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9937" name="黃色護身符-施法速度" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9938" name="黃色護身符-命中" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9939" name="黃色護身符-防禦力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9940" name="黃色護身符-速度增加" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9941" name="黃色護身符-移動速度" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9942" name="黃色護身符-致命攻擊減少" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9943" name="黃色護身符-致命攻擊威力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9944" name="黃色護身符-致命攻擊迴避" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9945" name="黃色護身符-迴避" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9946" name="黃色護身符-治療威力" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9947" name="黃色護身符-CP恢復量" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9948" name="黃色護身符-HP恢復量" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9949" name="黃色護身符-MP恢復量" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i02"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9950" name="灰色護身符-重量標準" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i07"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9951" name="灰色護身符-中級精通釣魚" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i07"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9952" name="橙色護身符-溫泉鬥志藥水" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i04"/>
+		<set name="duration" val="64"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9953" name="橙色護身符-生命靈藥" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i04"/>
+		<set name="duration" val="64"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9954" name="橙色護身符-精神靈藥" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i04"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9955" name="黑色護身符-魔法沉默解除" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i05"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9956" name="黑色護身符-魔法逃脫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i05"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9957" name="黑色護身符-物理逃脫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i05"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9958" name="黑色護身符-物理沉默解除" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i05"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9959" name="黑色護身符-沉默解除" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i05"/>
+		<set name="duration" val="65"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9960" name="白色護身符-恐懼抗性" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9961" name="白色護身符-麻痺抗性" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9962" name="白色護身符-休克抗性" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9963" name="白色護身符-睡眠抗性" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9964" name="白色護身符-出血抗性" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9965" name="白色護身符-魔法消除抗性" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9966" name="白色護身符-束縛抗性" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_talisman_i06"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="9967" name="製作卷軸(王朝劍60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9968" name="製作卷軸(王朝之刃60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9969" name="製作卷軸(王朝幻影劍60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9970" name="製作卷軸(王朝弓60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9971" name="製作卷軸(王朝小刀60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9972" name="製作卷軸(王朝長柄戰戟60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9973" name="製作卷軸(王朝戰鎚60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9974" name="製作卷軸(王朝釘鎚60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9975" name="製作卷軸(王朝拳套爪60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9976" name="製作卷軸(王朝劍100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9977" name="製作卷軸(王朝之刃100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9978" name="製作卷軸(王朝幻影劍100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9979" name="製作卷軸(王朝弓100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9980" name="製作卷軸(王朝小刀100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9981" name="製作卷軸(王朝長柄戰戟100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9982" name="製作卷軸(王朝戰鎚100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9983" name="製作卷軸(王朝釘鎚100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9984" name="製作卷軸(王朝拳套爪100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9985" name="製作卷軸(封印的王朝耳環(70%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9986" name="製作卷軸(封印的王朝項鍊(70%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9987" name="製作卷軸(封印的王朝戒指(70%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9988" name="製作卷軸(封印的王朝耳環100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9989" name="製作卷軸(封印的王朝項鍊100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9990" name="製作卷軸(封印的王朝戒指100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="9991" name="封印的王朝耳環寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="9992" name="封印的王朝項鍊寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="9993" name="封印的王朝戒指寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="9994" name="地獄邊界地圖" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_red_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="9995" name="短弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1850"/>
+		<set name="icon" val="icon.weapon_hunting_gun_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="64"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="32"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="9996" name="短弩" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1850"/>
+		<set name="icon" val="icon.weapon_hunting_gun_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="4"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="64"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="32"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="9997" name="火屬性強化藥" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_potion_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="9998" name="水屬性強化藥" type="EtcItem">
+		<set name="icon" val="icon.etc_water_potion_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="9999" name="地屬性強化藥" type="EtcItem">
+		<set name="icon" val="icon.etc_earth_potion_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+</list>

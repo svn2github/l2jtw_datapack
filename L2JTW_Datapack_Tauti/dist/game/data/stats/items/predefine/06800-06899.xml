@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="6800" name="高級傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6801" name="高級傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6802" name="黎明傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6803" name="黎明傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6804" name="黎明傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6805" name="黎明傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6806" name="黎明傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6807" name="黎明傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6808" name="黎明傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6809" name="黎明傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6810" name="黎明傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6811" name="黎明傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6812" name="高級訓練兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6813" name="高級訓練兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6814" name="高級訓練兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6815" name="高級訓練兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6816" name="高級訓練兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6817" name="高級訓練兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6818" name="高級訓練兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6819" name="高級訓練兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6820" name="高級訓練兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6821" name="高級訓練兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6822" name="訓練兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6823" name="訓練兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6824" name="訓練兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6825" name="訓練兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6826" name="訓練兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6827" name="訓練兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6828" name="訓練兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6829" name="訓練兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6830" name="訓練兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6831" name="訓練兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6832" name="那芙琳戰士配置表" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6833" name="那芙琳咒術士配置表" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6834" name="因納得立之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pledge_cap1_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6835" name="狄恩之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pledge_cap1_i02"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6836" name="高達特之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pledge_cap1_i03"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6837" name="歐瑞之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pledge_cap1_i04"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6838" name="古魯丁之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pledge_cap1_i05"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6839" name="奇岩之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pledge_cap1_i06"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6840" name="亞丁之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_pledge_cap2_i07"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6841" name="城主的王冠" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_crown_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6842" name="命運之翼" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_hero_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6843" name="貓耳" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_cat_ear_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair2"/>
+	</item>
+	<item id="6844" name="名媛髮飾" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_hairpin_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair2"/>
+	</item>
+	<item id="6845" name="海盜眼罩" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_eye_bandage_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6846" name="單片眼鏡" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_glasses_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="6847" name="製作卷軸(封印的泰狄奧森耳環70%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6848" name="製作卷軸(封印的泰狄奧森耳環100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6849" name="製作卷軸(封印的泰狄奧森戒指70%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6850" name="製作卷軸(封印的泰狄奧森戒指100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6851" name="製作卷軸(封印的泰狄奧森項鍊70%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6852" name="製作卷軸(封印的泰狄奧森項鍊100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6853" name="製作卷軸(封印的帝國聖軍胸甲60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6854" name="製作卷軸(封印的帝國聖軍胸甲100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6855" name="製作卷軸(封印的帝國聖軍脛甲60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6856" name="製作卷軸(封印的帝國聖軍脛甲100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6857" name="製作卷軸(封印的帝國聖軍長手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6858" name="製作卷軸(封印的帝國聖軍長手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6859" name="製作卷軸(封印的帝國聖軍長靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6860" name="製作卷軸(封印的帝國聖軍長靴100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6861" name="製作卷軸(封印的帝國聖軍盾60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6862" name="製作卷軸(封印的帝國聖軍盾100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6863" name="製作卷軸(封印的帝國聖軍頭盔60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6864" name="製作卷軸(封印的帝國聖軍頭盔100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6865" name="製作卷軸(封印的紅龍皮甲60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6866" name="製作卷軸(封印的紅龍皮甲100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6867" name="製作卷軸(封印的紅龍皮手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6868" name="製作卷軸(封印的紅龍皮手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6869" name="製作卷軸(封印的紅龍皮靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6870" name="製作卷軸(封印的紅龍皮靴100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6871" name="製作卷軸(封印的紅龍皮盔60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6872" name="製作卷軸(封印的紅龍皮盔100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6873" name="製作卷軸(封印的大祕儀長袍60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6874" name="製作卷軸(封印的大祕儀長袍100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6875" name="製作卷軸(封印的大祕儀手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6876" name="製作卷軸(封印的大祕儀手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6877" name="製作卷軸(封印的大祕儀長靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6878" name="製作卷軸(封印的大祕儀長靴100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6879" name="製作卷軸(封印的大祕儀頭箍60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6880" name="製作卷軸(封印的大祕儀頭箍100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6881" name="製作卷軸(忘卻之刃60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6882" name="製作卷軸(忘卻之刃100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6883" name="製作卷軸(玄武岩戰鎚60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6884" name="製作卷軸(玄武岩戰鎚100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6885" name="製作卷軸(帝國權杖60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6886" name="製作卷軸(帝國權杖100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6887" name="製作卷軸(天使殺手60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6888" name="製作卷軸(天使殺手100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6889" name="製作卷軸(閃耀弓60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6890" name="製作卷軸(閃耀弓100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6891" name="製作卷軸(狩龍之斧60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6892" name="製作卷軸(狩龍之斧100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6893" name="製作卷軸(聖者之矛60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6894" name="製作卷軸(聖者之矛100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6895" name="製作卷軸(惡魔獵爪60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6896" name="製作卷軸(惡魔獵爪100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6897" name="製作卷軸(天國審判60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6898" name="製作卷軸(天國審判100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="6899" name="製作卷軸(祕儀權杖60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_black_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+</list>

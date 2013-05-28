@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="15400" name="活力腰帶-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.event_energy_belt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+	</item>
+	<item id="15401" name="活力腰帶-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.event_energy_belt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+	</item>
+	<item id="15402" name="活力腰帶-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.event_energy_belt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+	</item>
+	<item id="15403" name="活動用-狂戰士之刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_berserker_blade_i01"/>
+		<set name="duration" val="180"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="190"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="15404" name="祝福之神禮盒(30日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15405" name="祝福之神禮盒(25日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15406" name="祝福之神禮盒(20日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15407" name="祝福之神禮盒(15日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15408" name="祝福之神禮盒(10日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15409" name="祝福之神禮盒(5日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15410" name="祝福之神禮盒(3日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15411" name="祝福之神禮品組(30日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15412" name="祝福之神禮品組(25日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15413" name="祝福之神禮品組(20日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15414" name="祝福之神禮品組(15日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15415" name="祝福之神禮品組(10日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15416" name="祝福之神禮品組(5日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15417" name="祝福之神禮品組(3日)" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15418" name="祝福之神晶體-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cube_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15419" name="祝福之神晶體-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cube_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15420" name="祝福之神晶體-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cube_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15421" name="祝福之神晶體-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cube_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15422" name="祝福之神晶體-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cube_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15423" name="祝福之神晶體-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cube_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15424" name="祝福之神晶體-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cube_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15425" name="英雄的寶箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15426" name="英雄的凱旋點數" type="EtcItem">
+		<set name="icon" val="icon.etc_pccafe_point_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15427" name="祝福之神蛋糕" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cake_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="15428" name="祝福之神耳環-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.event_six_party_earing_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+			<add order="0x10" stat="mDef" val="63"/>
+		</for>
+	</item>
+	<item id="15429" name="祝福之神活力腰帶-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.event_energy_belt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+	</item>
+	<item id="15430" name="活動-萬聖夜糖果" type="EtcItem">
+		<set name="icon" val="icon.ev_hallowinday_candy_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15431" name="活動-兀兒德召喚卷軸" type="EtcItem">
+		<set name="icon" val="icon.ev_scroll_of_wooldie_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="15432" name="活動-貝爾丹蒂召喚卷軸" type="EtcItem">
+		<set name="icon" val="icon.ev_scroll_of_berdandi_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="15433" name="活動-斯庫迪召喚卷軸" type="EtcItem">
+		<set name="icon" val="icon.ev_scroll_of_scooldie_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="15434" name="萬聖夜玩具箱" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="15435" name="閃耀的萬聖夜玩具箱" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="15436" name="萬聖夜變身魔杖" type="EtcItem">
+		<set name="icon" val="icon.weapon_pumpkin_stick_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="steel"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+		</for>
+	</item>
+	<item id="15437" name="變身卷軸箱" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15438" name="10分鐘活力維持藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="15439" name="10萬SP卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_sp_scroll3_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="15440" name="30分鐘活力維持藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="15441" name="紅炎巴拉卡斯頭飾" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_valakas_the_flame_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15442" name="傑克南瓜面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_jack0_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15443" name="科學怪人面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.br_frankenstein_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15444" name="驚聲尖叫面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_scream_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15445" name="憤怒精靈面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_doccabi_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15446" name="不朽骸骨面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_mummy_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15447" name="X235行星面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_alien_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15448" name="黃金傑克南瓜面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_golden_jack0_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15449" name="閃耀的X235行星面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_alien_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15450" name="閃耀的科學怪人面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_frankenstein_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15451" name="閃耀的驚聲尖叫面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_scream_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15452" name="閃耀的憤怒精靈面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_doccabi_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15453" name="閃耀的不朽骸骨面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_mummy_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15454" name="閃耀的X235行星面具組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15455" name="閃耀的科學怪人面具組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15456" name="閃耀的驚聲尖叫面具組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15457" name="閃耀的憤怒精靈面具組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15458" name="閃耀的不朽骸骨面具組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15459" name="萬聖夜香甜南瓜組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15460" name="萬聖夜大王南瓜組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15461" name="萬聖夜香甜南瓜" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_pumpkin_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15462" name="萬聖夜大王南瓜" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_king_pumpkini00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15463" name="萬聖夜小南瓜" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_pumpkin_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15464" name="黃金傑克南瓜面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.ev_golden_jack0_mask_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15465" name="萬聖夜香甜南瓜組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15466" name="萬聖夜大王南瓜組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15467" name="萬聖夜香甜南瓜-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_pumpkin_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="15468" name="萬聖夜大王南瓜-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_king_pumpkini00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15469" name="冰結核" type="EtcItem">
+		<set name="icon" val="icon.etc_freezing_core_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="15470" name="黑色冰結核" type="EtcItem">
+		<set name="icon" val="icon.etc_black_freezing_core_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15471" name="芙蕾雅用透明武器" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i03"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="15472" name="封印神劍" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_mystery_sword_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="15473" name="猛獸訓練鞭" type="EtcItem">
+		<set name="icon" val="icon.etc_training_whip_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="15474" name="金色香料" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_spice_new_i00"/>
+		<set name="weight" val="3"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15475" name="水晶香料" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_spice_new_i00"/>
+		<set name="weight" val="3"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15476" name="祝福的金色香料" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_spice_blessed_i00"/>
+		<set name="weight" val="3"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15477" name="祝福的水晶香料" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_spice_blessed_i00"/>
+		<set name="weight" val="3"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15478" name="金色香料-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_spice_s_i00"/>
+		<set name="weight" val="3"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15479" name="水晶香料-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_spice_s_i00"/>
+		<set name="weight" val="3"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15480" name="古老的金色香料" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i12"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15481" name="古老的水晶香料" type="EtcItem">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i13"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15482" name="金色香料壓縮包" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_spice_comp_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15483" name="水晶香料壓縮包" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_spice_comp_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15484" name="上級天使頭箍" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_highangel_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="15485" name="火炬" type="EtcItem">
+		<set name="icon" val="icon.etc_torchlight_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="15486" name="靈魂石碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_a_broken_piece_of_soul_stone_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15487" name="馬奎安血漿吸收器" type="EtcItem">
+		<set name="icon" val="icon.etc_machine_for_marguene_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="15488" name="馬奎安號角" type="EtcItem">
+		<set name="icon" val="icon.etc_marguene_pet_collar_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="15489" name="精銳馬奎安號角" type="EtcItem">
+		<set name="icon" val="icon.etc_elite_marguene_pet_collar_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="15490" name="馬奎安收集箱" type="EtcItem">
+		<set name="icon" val="icon.etc_marguene_collection_box_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15491" name="精銳馬奎安收集箱" type="EtcItem">
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15492" name="賽爾豺狼鮭魚粥" type="EtcItem">
+		<set name="icon" val="icon.etc_salmon_soup_i00"/>
+		<set name="weight" val="5"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15493" name="夢幻蘑菇孢子" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_yellow_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15494" name="黏黏蘑菇孢子" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_gray_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15495" name="活力之葉" type="EtcItem">
+		<set name="icon" val="icon.etc_leaf_blue_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15496" name="喬尼的認證書" type="EtcItem">
+		<set name="icon" val="icon.etc_paper_white_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15497" name="特級蜥蜴鱗片" type="EtcItem">
+		<set name="icon" val="icon.etc_godad_fish_scale_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15498" name="高級蜥蜴鱗片" type="EtcItem">
+		<set name="icon" val="icon.etc_innadrile_fish_scale_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="15499" name="血液保管瓶" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i04"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+</list>

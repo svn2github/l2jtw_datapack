@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="1700" name="奧里哈魯根(不使用)" type="EtcItem">
+		<set name="icon" val="icon.etc_squares_wood_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1701" name="魔力液" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_gold_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1702" name="金屬模具" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1703" name="高等鐵塊" type="EtcItem">
+		<set name="icon" val="icon.etc_squares_gray_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1704" name="憎恨石" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1705" name="智慧葉" type="EtcItem">
+		<set name="icon" val="icon.etc_leaf_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1706" name="藍鑽碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1707" name="聖者的臼齒" type="EtcItem">
+		<set name="icon" val="icon.etc_molar_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1708" name="混濁水晶" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1709" name="刺尾獅之血" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1710" name="虎眼水晶" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1711" name="豹之爪" type="EtcItem">
+		<set name="icon" val="icon.etc_claw_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1712" name="皮鞋材料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1713" name="皮外衣材料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1714" name="皮長襪材料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1715" name="皮頭盔材料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1716" name="皮手套的外織物" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1717" name="皮手套的內襯" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_green_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1718" name="黑骨碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_bone_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1719" name="硬皮襯衣材料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1720" name="深藍骨碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_bone_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1721" name="硬皮綁腿材料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1722" name="長靴材料(無用)" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1723" name="皮靴材料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1724" name="骷髏碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_skull_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1725" name="黑暗長襪材料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1726" name="高級皮手套的內襯" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1727" name="高級皮手套的外織物" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1728" name="鋼鐵鱗" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_glay_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1729" name="純白布料" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1730" name="淨化藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_clear_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1731" name="脛甲鋼鐵鱗" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1732" name="皮革配件" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1733" name="長鋼鐵板" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1734" name="小型皮革配件" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1735" name="短鋼鐵板" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_glay_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1736" name="鋼鐵靴的原料" type="EtcItem">
+		<set name="icon" val="icon.etc_squares_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1737" name="鋼鐵靴的模具" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1738" name="寬刀刃" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1739" name="寬劍鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1740" name="修剪過的柳樹" type="EtcItem">
+		<set name="icon" val="icon.etc_branch_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1741" name="杖" type="EtcItem">
+		<set name="icon" val="icon.etc_branch_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1742" name="紅柳杉樹枝" type="EtcItem">
+		<set name="icon" val="icon.etc_branch_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1743" name="短刀刃" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1744" name="短刀鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1745" name="刺擊刀刃" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1746" name="短矛刀刃" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1747" name="閃耀刃" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1748" name="反射劍鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1749" name="世界樹的樹枝" type="EtcItem">
+		<set name="icon" val="icon.etc_branch_green_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1750" name="黑暗森林之葉" type="EtcItem">
+		<set name="icon" val="icon.etc_herb_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1751" name="鋼鐵塊" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1752" name="碎劍者的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1753" name="碎劍者的鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1754" name="鐵弓鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1755" name="金屬杖" type="EtcItem">
+		<set name="icon" val="icon.etc_branch_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1756" name="軍刀工匠之靈" type="EtcItem">
+		<set name="icon" val="icon.etc_skull_black_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1757" name="軍刀劍身" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1758" name="軍刀鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1759" name="刺客之血" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1760" name="刺客劍身" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1761" name="刺客劍身鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1762" name="三叉戟碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1763" name="紅寶石碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_powder_red_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1764" name="深海水" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1765" name="脊骨碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_bone_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1766" name="脊骨模型" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1767" name="審判的魔法碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1768" name="審判模型" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1769" name="法咒魔杖之碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1770" name="魔法長笛" type="EtcItem">
+		<set name="icon" val="icon.etc_flute_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1771" name="精靈杖" type="EtcItem">
+		<set name="icon" val="icon.etc_branch_green_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1772" name="世界樹樹葉" type="EtcItem">
+		<set name="icon" val="icon.etc_herb_green_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1773" name="矮人三叉戟的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_green_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1774" name="雙手劍的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_sword_body_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1775" name="雙手劍的鑄模" type="EtcItem">
+		<set name="icon" val="icon.etc_mold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1776" name="狼牙棒的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1777" name="鐵棒碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_glay_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1778" name="森林神的骨頭碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_bone_white_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1779" name="森林神的鬃毛" type="EtcItem">
+		<set name="icon" val="icon.etc_mane_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1780" name="純青銅塊" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_blue_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1781" name="腰弩弓身" type="EtcItem">
+		<set name="icon" val="icon.weapon_short_bow_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1782" name="腰弩附屬品" type="EtcItem">
+		<set name="icon" val="icon.etc_orcish_talisman_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1783" name="惡靈之血" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_gold_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1784" name="受詛咒的皮" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1785" name="精靈礦石" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_white_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="1786" name="製作卷軸(寬劍100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1787" name="製作卷軸(柳木魔杖100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1788" name="製作卷軸(弓100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1789" name="製作卷軸(柏木魔杖100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1790" name="製作卷軸(短刀100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1791" name="製作卷軸(刺擊刀100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1792" name="製作卷軸(短矛100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1793" name="製作卷軸(反射劍100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1794" name="製作卷軸(森林弓100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1795" name="製作卷軸(皮鞋100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1796" name="製作卷軸(皮外衣100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1797" name="製作卷軸(皮長襪100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1798" name="製作卷軸(皮頭盔100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="1799" name="製作卷軸(皮手套100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+</list>

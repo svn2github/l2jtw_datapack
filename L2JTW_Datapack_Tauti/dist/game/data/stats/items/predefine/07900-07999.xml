@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="7900" name="暴風雪巨鎚" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_ice_storm_hammer_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="213"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="7901" name="星爆" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1930"/>
+		<set name="icon" val="icon.weapon_star_buster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="236"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="7902" name="末日毀滅者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1900"/>
+		<set name="icon" val="icon.weapon_doom_crusher_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="282"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="114"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="7903" name="芙琳泰沙之劍" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2180"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="78"/>
+			<set order="0x08" stat="mAtk" val="39"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="7904" name="船票-魯因往古魯丁" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_red_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7905" name="船票-古魯丁往魯因" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_red_i00"/>
+		<set name="weight" val="20"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7906" name="火之祝福" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7907" name="水之祝福" type="EtcItem">
+		<set name="icon" val="icon.etc_water_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7908" name="風之祝福" type="EtcItem">
+		<set name="icon" val="icon.etc_wind_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7909" name="地之祝福" type="EtcItem">
+		<set name="icon" val="icon.etc_earth_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7910" name="暗之祝福" type="EtcItem">
+		<set name="icon" val="icon.etc_unholy_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7911" name="聖之祝福" type="EtcItem">
+		<set name="icon" val="icon.etc_holy_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7912" name="火之結晶" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7913" name="水之結晶" type="EtcItem">
+		<set name="icon" val="icon.etc_water_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7914" name="風之結晶" type="EtcItem">
+		<set name="icon" val="icon.etc_wind_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7915" name="地之結晶" type="EtcItem">
+		<set name="icon" val="icon.etc_earth_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7916" name="暗之結晶" type="EtcItem">
+		<set name="icon" val="icon.etc_unholy_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7917" name="聖之結晶" type="EtcItem">
+		<set name="icon" val="icon.etc_holy_crystal_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="7918" name="傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7919" name="傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7920" name="傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7921" name="傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7922" name="傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7923" name="傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7924" name="傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7925" name="傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7926" name="傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7927" name="傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7928" name="傭兵配置表(傳送師1)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7929" name="傭兵配置表(傳送師2)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7930" name="傭兵配置表(傳送師3)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7931" name="高級傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7932" name="高級傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7933" name="高級傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7934" name="高級傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7935" name="高級傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7936" name="高級傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7937" name="高級傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7938" name="高級傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7939" name="高級傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7940" name="高級傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7941" name="黎明傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7942" name="黎明傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7943" name="黎明傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7944" name="黎明傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7945" name="黎明傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7946" name="黎明傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7947" name="黎明傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7948" name="黎明傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7949" name="黎明傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7950" name="黎明傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7951" name="高級訓練兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7952" name="高級訓練兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7953" name="高級訓練兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7954" name="高級訓練兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7955" name="高級訓練兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7956" name="高級訓練兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7957" name="高級訓練兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7958" name="高級訓練兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7959" name="高級訓練兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7960" name="高級訓練兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7961" name="訓練兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7962" name="訓練兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7963" name="訓練兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7964" name="訓練兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7965" name="訓練兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7966" name="訓練兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7967" name="訓練兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7968" name="訓練兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7969" name="訓練兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7970" name="訓練兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7971" name="那芙琳戰士配置表" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7972" name="那芙琳咒術士配置表" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7973" name="傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7974" name="傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7975" name="傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7976" name="傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7977" name="傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7978" name="傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7979" name="傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7980" name="傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7981" name="傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7982" name="傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7983" name="傭兵配置表(傳送師1)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7984" name="傭兵配置表(傳送師2)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7985" name="傭兵配置表(傳送師3)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7986" name="傭兵配置表(傳送師4)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7987" name="傭兵配置表(傳送師5)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7988" name="高級傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7989" name="高級傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7990" name="高級傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7991" name="高級傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7992" name="高級傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7993" name="高級傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7994" name="高級傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7995" name="高級傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7996" name="高級傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7997" name="高級傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7998" name="黎明傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="7999" name="黎明傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+</list>

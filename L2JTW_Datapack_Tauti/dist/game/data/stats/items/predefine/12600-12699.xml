@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="12600" name="渾沌的封印的聖威金屬盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t83_ul_i02"/>
+		<set name="weight" val="9200"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="293"/>
+		</for>
+	</item>
+	<item id="12601" name="渾沌的封印的夢魘盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t80_ul_i02"/>
+		<set name="weight" val="9580"/>
+		<set name="material" val="blood_steel"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="293"/>
+		</for>
+	</item>
+	<item id="12602" name="渾沌的封印的夢魘長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t80_g_i02"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12603" name="渾沌的封印的夢魘皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t81_ul_i02"/>
+		<set name="weight" val="5300"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="220"/>
+		</for>
+	</item>
+	<item id="12604" name="渾沌的封印的夢魘長袍" type="EtcItem">
+		<set name="icon" val="icon.armor_t82_ul_i02"/>
+		<set name="weight" val="2300"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="147"/>
+		</for>
+	</item>
+	<item id="12605" name="渾沌的封印的夢魘靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t80_b_i02"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12606" name="渾沌的封印的夢魘盾" type="EtcItem">
+		<set name="icon" val="icon.shield_shield_of_nightmare_i02"/>
+		<set name="weight" val="1180"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="256"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="12607" name="渾沌的封印的夢魘頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_leather_helmet_i02"/>
+		<set name="weight" val="560"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="73"/>
+		</for>
+	</item>
+	<item id="12608" name="渾沌的夢魘盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t80_ul_i00"/>
+		<set name="weight" val="9580"/>
+		<set name="material" val="blood_steel"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="293"/>
+		</for>
+	</item>
+	<item id="12609" name="渾沌的夢魘長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t80_g_i00"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12610" name="渾沌的夢魘長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t81_g_i00"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12611" name="渾沌的夢魘長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t82_g_i00"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12612" name="渾沌的夢魘皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t81_ul_i00"/>
+		<set name="weight" val="5300"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="220"/>
+		</for>
+	</item>
+	<item id="12613" name="渾沌的夢魘長袍" type="EtcItem">
+		<set name="icon" val="icon.armor_t82_ul_i00"/>
+		<set name="weight" val="2300"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="147"/>
+		</for>
+	</item>
+	<item id="12614" name="渾沌的夢魘靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t80_b_i00"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12615" name="渾沌的夢魘靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t81_b_i00"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12616" name="渾沌的夢魘靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t82_b_i00"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="49"/>
+		</for>
+	</item>
+	<item id="12617" name="渾沌的夢魘盾" type="EtcItem">
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00"/>
+		<set name="weight" val="1180"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="256"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="12618" name="渾沌的夢魘頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="560"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="73"/>
+		</for>
+	</item>
+	<item id="12619" name="渾沌的紅龍皮手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t89_g_i00"/>
+		<set name="weight" val="540"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12620" name="渾沌的紅龍皮靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t89_b_i00"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12621" name="渾沌的紅龍皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t89_ul_i00"/>
+		<set name="weight" val="4950"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12622" name="渾沌的紅龍皮盔" type="EtcItem">
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+		</for>
+	</item>
+	<item id="12623" name="渾沌的大祕儀手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t90_g_i00"/>
+		<set name="weight" val="540"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12624" name="渾沌的大祕儀長袍" type="EtcItem">
+		<set name="icon" val="icon.armor_t90_ul_i00"/>
+		<set name="weight" val="2300"/>
+		<set name="material" val="cloth"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12625" name="渾沌的大祕儀長靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t90_b_i00"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12626" name="渾沌的大祕儀頭箍" type="EtcItem">
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+		</for>
+	</item>
+	<item id="12627" name="渾沌的封印的紅龍皮手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t89_g_i02"/>
+		<set name="weight" val="540"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12628" name="渾沌的封印的紅龍皮靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t89_b_i02"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12629" name="渾沌的封印的紅龍皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t89_ul_i02"/>
+		<set name="weight" val="4950"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12630" name="渾沌的封印的紅龍皮盔" type="EtcItem">
+		<set name="icon" val="icon.armor_leather_helmet_i02"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+		</for>
+	</item>
+	<item id="12631" name="渾沌的封印的大祕儀手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t90_g_i02"/>
+		<set name="weight" val="540"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12632" name="渾沌的封印的大祕儀長袍" type="EtcItem">
+		<set name="icon" val="icon.armor_t90_ul_i02"/>
+		<set name="weight" val="2300"/>
+		<set name="material" val="cloth"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12633" name="渾沌的封印的大祕儀長靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t90_b_i02"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12634" name="渾沌的封印的大祕儀頭箍" type="EtcItem">
+		<set name="icon" val="icon.armor_leather_helmet_i02"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+		</for>
+	</item>
+	<item id="12635" name="渾沌的封印的帝國聖軍脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_l_i02"/>
+		<set name="weight" val="3260"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12636" name="渾沌的封印的帝國聖軍長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_g_i02"/>
+		<set name="weight" val="540"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12637" name="渾沌的封印的帝國聖軍長靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_b_i02"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12638" name="渾沌的封印的帝國聖軍盾" type="EtcItem">
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i02"/>
+		<set name="weight" val="1170"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="12639" name="渾沌的封印的帝國聖軍頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_helmet_i02"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+		</for>
+	</item>
+	<item id="12640" name="渾沌的封印的帝國聖軍胸甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_u_i02"/>
+		<set name="weight" val="7620"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12641" name="渾沌的帝國聖軍脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_l_i00"/>
+		<set name="weight" val="3260"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12642" name="渾沌的帝國聖軍長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_g_i00"/>
+		<set name="weight" val="540"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12643" name="渾沌的帝國聖軍長靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_b_i00"/>
+		<set name="weight" val="1110"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+		</for>
+	</item>
+	<item id="12644" name="渾沌的帝國聖軍盾" type="EtcItem">
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i00"/>
+		<set name="weight" val="1170"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="12645" name="渾沌的帝國聖軍頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="550"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+		</for>
+	</item>
+	<item id="12646" name="渾沌的帝國聖軍胸甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t88_u_i00"/>
+		<set name="weight" val="7620"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12647" name="渾沌的王朝脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_l_i00"/>
+		<set name="weight" val="3210"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="141"/>
+		</for>
+	</item>
+	<item id="12648" name="渾沌的王朝長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_g_i00"/>
+		<set name="weight" val="520"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12649" name="渾沌的王朝手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_g_i00"/>
+		<set name="weight" val="520"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12650" name="渾沌的王朝皮手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_g_i00"/>
+		<set name="weight" val="520"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12651" name="渾沌的王朝皮脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_l_i00"/>
+		<set name="weight" val="1370"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="106"/>
+		</for>
+	</item>
+	<item id="12652" name="渾沌的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="12653" name="渾沌的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_ud_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="12654" name="渾沌的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_ub_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="12655" name="渾沌的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_ud_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="12656" name="渾沌的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_ub_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="12657" name="渾沌的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_ud_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="12658" name="渾沌的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="170"/>
+		</for>
+	</item>
+	<item id="12659" name="渾沌的王朝皮長靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_b_i00"/>
+		<set name="weight" val="1090"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12660" name="渾沌的王朝皮頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="92"/>
+		</for>
+	</item>
+	<item id="12661" name="渾沌的王朝長靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_b_i00"/>
+		<set name="weight" val="1090"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12662" name="渾沌的王朝盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_u_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="226"/>
+		</for>
+	</item>
+	<item id="12663" name="渾沌的王朝盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uk_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="226"/>
+		</for>
+	</item>
+	<item id="12664" name="渾沌的王朝盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uw_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="226"/>
+		</for>
+	</item>
+	<item id="12665" name="渾沌的王朝盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uf_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="226"/>
+		</for>
+	</item>
+	<item id="12666" name="渾沌的王朝盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uke_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="226"/>
+		</for>
+	</item>
+	<item id="12667" name="渾沌的王朝盾" type="EtcItem">
+		<set name="icon" val="icon.shield_dynasty_shield_i00"/>
+		<set name="weight" val="1390"/>
+		<set name="material" val="steel"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="321"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="12668" name="渾沌的王朝鞋" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_b_i00"/>
+		<set name="weight" val="1090"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12669" name="渾沌的王朝銀絲緞外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_u_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12670" name="渾沌的王朝銀絲緞外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_uh_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12671" name="渾沌的王朝銀絲緞外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_ue_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12672" name="渾沌的王朝銀絲緞外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_us_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12673" name="渾沌的王朝銀絲緞外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_uw_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12674" name="渾沌的王朝頭箍" type="EtcItem">
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="92"/>
+		</for>
+	</item>
+	<item id="12675" name="渾沌的王朝寶石皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12676" name="渾沌的王朝寶石皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_ud_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12677" name="渾沌的王朝寶石皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_ub_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12678" name="渾沌的王朝寶石皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12679" name="渾沌的王朝寶石皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12680" name="渾沌的王朝寶石皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12681" name="渾沌的王朝寶石皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i00"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12682" name="渾沌的王朝外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_u_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="113"/>
+		</for>
+	</item>
+	<item id="12683" name="渾沌的王朝外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_uh_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="113"/>
+		</for>
+	</item>
+	<item id="12684" name="渾沌的王朝外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_ue_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="113"/>
+		</for>
+	</item>
+	<item id="12685" name="渾沌的王朝外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_us_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="113"/>
+		</for>
+	</item>
+	<item id="12686" name="渾沌的王朝外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_uw_i00"/>
+		<set name="weight" val="1780"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="113"/>
+		</for>
+	</item>
+	<item id="12687" name="渾沌的王朝白金盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_u_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12688" name="渾沌的王朝白金盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uk_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12689" name="渾沌的王朝白金盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uw_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12690" name="渾沌的王朝白金盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uf_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12691" name="渾沌的王朝白金盔甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_uke_i00"/>
+		<set name="weight" val="7570"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="12692" name="渾沌的王朝頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="weight" val="530"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="92"/>
+		</for>
+	</item>
+	<item id="12693" name="渾沌的王朝長襪" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_l_i00"/>
+		<set name="weight" val="860"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="71"/>
+		</for>
+	</item>
+	<item id="12694" name="渾沌的封印的王朝脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_l_i02"/>
+		<set name="weight" val="3210"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="134"/>
+		</for>
+	</item>
+	<item id="12695" name="渾沌的封印的王朝長手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t91_g_i02"/>
+		<set name="weight" val="520"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12696" name="渾沌的封印的王朝手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t93_g_i02"/>
+		<set name="weight" val="520"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12697" name="渾沌的封印的王朝皮手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_g_i02"/>
+		<set name="weight" val="520"/>
+		<set name="material" val="leather"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="61"/>
+		</for>
+	</item>
+	<item id="12698" name="渾沌的封印的王朝皮脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_l_i02"/>
+		<set name="weight" val="1370"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="100"/>
+		</for>
+	</item>
+	<item id="12699" name="渾沌的封印的王朝皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t92_u_i02"/>
+		<set name="weight" val="4180"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="161"/>
+		</for>
+	</item>
+</list>

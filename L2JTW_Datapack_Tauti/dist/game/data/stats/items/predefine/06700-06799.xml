@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="6700" name="封印的泰狄奧森項鍊金屬線" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6701" name="封印的帝國聖軍胸甲組件" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6702" name="封印的帝國聖軍脛甲組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6703" name="封印的帝國聖軍長手套圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6704" name="封印的帝國聖軍長靴圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6705" name="封印的帝國聖軍盾碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6706" name="封印的帝國聖軍頭盔組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6707" name="封印的紅龍皮甲組件" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6708" name="封印的紅龍皮手套布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6709" name="封印的紅龍皮靴圖樣" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6710" name="封印的紅龍皮盔組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6711" name="封印的大祕儀長袍組件" type="EtcItem">
+		<set name="icon" val="icon.etc_plate_silver_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6712" name="封印的大祕儀手套布料" type="EtcItem">
+		<set name="icon" val="icon.etc_leather_gray_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6713" name="封印的大祕儀長靴組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6714" name="封印的大祕儀頭箍組件" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_brown_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="6715" name="怪物用(賽勒諾斯射手)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="mp_consume" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="16"/>
+			<set order="0x08" stat="mAtk" val="6"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="6716" name="怪物用(賽勒諾斯咒術士)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="11"/>
+			<set order="0x08" stat="mAtk" val="12"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="6717" name="怪物用(殷海薩戰士)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1560"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="24"/>
+			<set order="0x08" stat="mAtk" val="17"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="6718" name="怪物用(殷海薩法師)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1560"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="adamantaite"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="2"/>
+		<set name="spiritshots" val="2"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="24"/>
+			<set order="0x08" stat="mAtk" val="17"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="6719" name="怪物用(肯特拉獸人隊長)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="990"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="blood_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="141"/>
+			<set order="0x08" stat="mAtk" val="104"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="6720" name="怪物用(哈里夏的影子)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1950"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="mp_consume" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="16"/>
+			<set order="0x08" stat="mAtk" val="6"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="6721" name="怪物用(帝國戰將殭屍盾)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1430"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="leather"/>
+		<set name="bodypart" val="lhand"/>
+		<for>
+			<set order="0x08" stat="sDef" val="47"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="6722" name="怪物用(亞利曼那斯)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2080"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="236"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="6723" name="怪物用(吸血鬼戰士)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2090"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="112"/>
+			<set order="0x08" stat="mAtk" val="54"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="6724" name="封印的泰狄奧森耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessory_tateossian_earring_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="68"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="6725" name="封印的泰狄奧森戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessory_tateossian_ring_i02"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="46"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="6726" name="封印的泰狄奧森項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessory_tateossian_necklace_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="91"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="6727" name="改良巨大柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_great_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6728" name="改良海洋柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6729" name="改良海洋柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6730" name="改良海洋柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6731" name="改良紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6732" name="改良紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6733" name="改良紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6734" name="改良紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6735" name="改良紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6736" name="改良沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6737" name="改良沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6738" name="改良沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6739" name="改良沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6740" name="改良沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6741" name="改良雙生柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_twin_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6742" name="改良藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6743" name="改良藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6744" name="改良藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6745" name="改良藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6746" name="改良藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6747" name="改良金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6748" name="改良金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6749" name="改良金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6750" name="改良金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6751" name="改良金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6752" name="改良金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed2"/>
+	</item>
+	<item id="6753" name="巨大柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_great_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6754" name="海洋柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6755" name="海洋柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6756" name="海洋柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6757" name="紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6758" name="紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6759" name="紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6760" name="紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6761" name="紅色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_red_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6762" name="沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6763" name="沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6764" name="沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6765" name="沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6766" name="沙漠柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6767" name="雙生柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_twin_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6768" name="藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6769" name="藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6770" name="藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6771" name="藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6772" name="藍色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6773" name="金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6774" name="金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6775" name="金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6776" name="金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6777" name="金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6778" name="金色柯巴種子" type="EtcItem">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="seed"/>
+	</item>
+	<item id="6779" name="傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6780" name="傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6781" name="傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6782" name="傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6783" name="傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6784" name="傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6785" name="傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6786" name="傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6787" name="傭兵配置表(牧師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6788" name="傭兵配置表(巫師/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6789" name="傭兵配置表(傳送師1)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6790" name="傭兵配置表(傳送師2)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6791" name="傭兵配置表(傳送師3)" type="EtcItem">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6792" name="高級傭兵配置表(劍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6793" name="高級傭兵配置表(槍/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6794" name="高級傭兵配置表(弓/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6795" name="高級傭兵配置表(牧師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_cleric_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6796" name="高級傭兵配置表(巫師/固定)" type="EtcItem">
+		<set name="icon" val="icon.mticket_wizard_fix_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6797" name="高級傭兵配置表(劍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_sword_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6798" name="高級傭兵配置表(槍/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_pole_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+	<item id="6799" name="高級傭兵配置表(弓/移動)" type="EtcItem">
+		<set name="icon" val="icon.mticket_bow_move_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="castle_guard"/>
+	</item>
+</list>

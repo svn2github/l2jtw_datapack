@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="12300" name="基本型-封印的帝國聖軍長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="180"/>
+		<set name="icon" val="icon.armor_t88_g_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12301" name="基本型-封印的帝國聖軍長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="370"/>
+		<set name="icon" val="icon.armor_t88_b_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12302" name="基本型-封印的帝國聖軍盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="390"/>
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i02"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="12303" name="基本型-封印的帝國聖軍頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="183"/>
+		<set name="icon" val="icon.armor_helmet_i02"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12304" name="基本型-封印的帝國聖軍胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2540"/>
+		<set name="icon" val="icon.armor_t88_u_i02"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="193"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12305" name="基本型-帝國聖軍脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1087"/>
+		<set name="icon" val="icon.armor_t88_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="128"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12306" name="基本型-帝國聖軍長手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="180"/>
+		<set name="icon" val="icon.armor_t88_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12307" name="基本型-帝國聖軍長靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="370"/>
+		<set name="icon" val="icon.armor_t88_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="55"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12308" name="基本型-帝國聖軍盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="390"/>
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="290"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="12309" name="基本型-帝國聖軍頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="183"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="83"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12310" name="基本型-帝國聖軍胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2540"/>
+		<set name="icon" val="icon.armor_t88_u_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="205"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="12311" name="基本型-紅新月耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_red_cresent_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="24"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12312" name="基本型-奉獻項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_necklace_of_devotion_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="32"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12313" name="基本型-奉獻戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_ring_of_devotion_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="16"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12314" name="基本型-魔力耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_enchanted_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="27"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12315" name="基本型-魔力項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_enchanted_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="36"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12316" name="基本型-魔力戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_enchanted_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="18"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12317" name="基本型-古森林項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_near_forest_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12318" name="基本型-虎眼耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_tigerseye_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="30"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12319" name="基本型-黑珍珠戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_black_pearl_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="20"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12320" name="基本型-精靈項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_elven_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="45"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12321" name="基本型-精靈戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_elven_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="22"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12322" name="基本型-精靈耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_elven_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="34"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12323" name="基本型-米索莉戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_mithril_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="24"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12324" name="基本型-黑暗項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_necklace_of_darkness_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12325" name="基本型-瑪瑙獸眼耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_onyxbeastseye_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="d"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="36"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12326" name="基本型-月長石耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_moonstone_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="39"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12327" name="基本型-水石項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_aquastone_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="52"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12328" name="基本型-水石戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_aquastone_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="26"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12329" name="基本型-守護耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_earing_of_protection_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="42"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12330" name="基本型-守護項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_necklace_of_protection_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="56"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12331" name="基本型-守護戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_ring_of_protection_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="28"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12332" name="基本型-封印耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_earing_of_binding_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="45"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12333" name="基本型-永命戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_ring_of_ages_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="30"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12334" name="基本型-人魚之淚" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_necklace_of_mermaid_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12335" name="基本型-娜仙耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_nassens_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12336" name="基本型-封印項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_necklace_of_binding_i00"/>
+		<set name="material" val="adamantaite"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="64"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12337" name="基本型-封印戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_ring_of_binding_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="32"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12338" name="基本型-金剛石耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_adamantite_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="51"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12339" name="基本型-金剛石項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_adamantite_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="68"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12340" name="基本型-金剛石戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_adamantite_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="34"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12341" name="基本型-黑光耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_earing_of_black_ore_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="54"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12342" name="基本型-黑光項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="72"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12343" name="基本型-黑光戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_ring_of_black_ore_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="36"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12344" name="基本型-封印的不死鳥項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_phoenixs_necklace_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="76"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12345" name="基本型-封印的不死鳥耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_phoenixs_earing_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="57"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12346" name="基本型-封印的不死鳥戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_phoenixs_ring_i02"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="38"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12347" name="基本型-不死鳥項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_phoenixs_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="26"/>
+			<add order="0x10" stat="mDef" val="80"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12348" name="基本型-不死鳥戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_phoenixs_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="13"/>
+			<add order="0x10" stat="mDef" val="40"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12349" name="基本型-不死鳥耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_phoenixs_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="20"/>
+			<add order="0x10" stat="mDef" val="60"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12350" name="基本型-封印的聖威項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="80"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12351" name="基本型-封印的聖威戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="40"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12352" name="基本型-封印的聖威耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="60"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12353" name="基本型-聖威項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+			<add order="0x10" stat="mDef" val="85"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12354" name="基本型-聖威戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_inferno_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="17"/>
+			<add order="0x10" stat="mDef" val="42"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12355" name="基本型-聖威耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessary_inferno_earing_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="a"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+			<add order="0x10" stat="mDef" val="63"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12356" name="基本型-封印的泰狄奧森項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessory_tateossian_necklace_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="91"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12357" name="基本型-封印的泰狄奧森戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessory_tateossian_ring_i02"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="46"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12358" name="基本型-封印的泰狄奧森耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessory_tateossian_earring_i02"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="mDef" val="68"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12359" name="基本型-泰狄奧森項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessory_tateossian_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="42"/>
+			<add order="0x10" stat="mDef" val="95"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12360" name="基本型-泰狄奧森戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessory_tateossian_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="21"/>
+			<add order="0x10" stat="mDef" val="48"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12361" name="基本型-泰狄奧森耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="50"/>
+		<set name="icon" val="icon.accessory_tateossian_earring_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+			<add order="0x10" stat="mDef" val="71"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="12362" name="武器用強化輔助石-D級" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="12363" name="武器用強化輔助石-C級" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="12364" name="武器用強化輔助石-B級" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="12365" name="武器用強化輔助石-A級" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="12366" name="武器用強化輔助石-S級" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i04"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="12367" name="防具用強化輔助石-D級" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="12368" name="防具用強化輔助石-C級" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="12369" name="防具用強化輔助石-B級" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="12370" name="防具用強化輔助石-A級" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="12371" name="防具用強化輔助石-S級" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i04"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="12372" name="猴子帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.monkey_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="12373" name="豬仔帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.event_pig_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="12374" name="財富的研磨強化劑" type="EtcItem">
+		<set name="icon" val="icon.etc_mammon_varnish_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="12375" name="渾沌的巨劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_great_sword_i00"/>
+		<set name="weight" val="1930"/>
+		<set name="material" val="steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12376" name="渾沌的巨斧" type="EtcItem">
+		<set name="icon" val="icon.weapon_great_axe_i00"/>
+		<set name="weight" val="1940"/>
+		<set name="material" val="damascus"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12377" name="渾沌的無名之勝" type="EtcItem">
+		<set name="icon" val="icon.weapon_nameless_victory_i00"/>
+		<set name="weight" val="1930"/>
+		<set name="material" val="steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="190"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12378" name="渾沌的黑暗精靈長弓" type="EtcItem">
+		<set name="icon" val="icon.weapon_dark_elven_long_bow_i00"/>
+		<set name="weight" val="1720"/>
+		<set name="material" val="oriharukon"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="397"/>
+			<set order="0x08" stat="mAtk" val="100"/>
+			<set order="0x08" stat="pAtkSpd" val="227"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="12379" name="渾沌的聖堂之劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_sword_of_valhalla_i00"/>
+		<set name="weight" val="900"/>
+		<set name="material" val="oriharukon"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12380" name="渾沌的破咒者" type="EtcItem">
+		<set name="icon" val="icon.weapon_spell_breaker_i00"/>
+		<set name="weight" val="1620"/>
+		<set name="material" val="fine_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12381" name="渾沌的阿斯拉爪" type="EtcItem">
+		<set name="icon" val="icon.weapon_arthro_nail_i00"/>
+		<set name="weight" val="1420"/>
+		<set name="material" val="blood_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12382" name="渾沌的暴風雪巨鎚" type="EtcItem">
+		<set name="icon" val="icon.weapon_ice_storm_hammer_i00"/>
+		<set name="weight" val="1950"/>
+		<set name="material" val="fine_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12383" name="渾沌的突襲鈍劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_assult_fleuret_i00"/>
+		<set name="weight" val="1370"/>
+		<set name="material" val="steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="159"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="406"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="12384" name="渾沌的精靈魔杖" type="EtcItem">
+		<set name="icon" val="icon.weapon_sprites_staff_i00"/>
+		<set name="weight" val="960"/>
+		<set name="material" val="wood"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12385" name="渾沌的波形刃" type="EtcItem">
+		<set name="icon" val="icon.weapon_kris_i00"/>
+		<set name="weight" val="980"/>
+		<set name="material" val="mithril"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="153"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="12386" name="渾沌的柯貝克劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_kshanberk_i00"/>
+		<set name="weight" val="1370"/>
+		<set name="material" val="oriharukon"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12387" name="渾沌的和平使者" type="EtcItem">
+		<set name="icon" val="icon.weapon_peace_maker_i00"/>
+		<set name="weight" val="1720"/>
+		<set name="material" val="steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="221"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="303"/>
+			<sub order="0x10" stat="accCombat" val="1.50"/>
+			<set order="0x08" stat="rCrit" val="10"/>
+		</for>
+	</item>
+	<item id="12388" name="渾沌的巨大戰斧" type="EtcItem">
+		<set name="icon" val="icon.weapon_heavy_war_axe_i00"/>
+		<set name="weight" val="1620"/>
+		<set name="material" val="fine_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="175"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12389" name="渾沌的地獄刀" type="EtcItem">
+		<set name="icon" val="icon.weapon_hell_knife_i00"/>
+		<set name="weight" val="740"/>
+		<set name="material" val="blood_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="153"/>
+			<set order="0x08" stat="mAtk" val="91"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="12390" name="渾沌的守護神之劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_guardians_sword_i00"/>
+		<set name="weight" val="1930"/>
+		<set name="material" val="steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12391" name="渾沌的大馬士革刀" type="EtcItem">
+		<set name="icon" val="icon.weapon_sword_of_damascus_i00"/>
+		<set name="weight" val="1350"/>
+		<set name="material" val="damascus"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12392" name="渾沌的裂解劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_dismantler_i00"/>
+		<set name="weight" val="1930"/>
+		<set name="material" val="steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="210"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="350"/>
+			<add order="0x10" stat="accCombat" val="2.00"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12393" name="渾沌的長槍" type="EtcItem">
+		<set name="icon" val="icon.weapon_lancia_i00"/>
+		<set name="weight" val="1920"/>
+		<set name="material" val="blood_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="12394" name="渾沌的博利恩拳套" type="EtcItem">
+		<set name="icon" val="icon.weapon_bellion_cestus_i00"/>
+		<set name="weight" val="1390"/>
+		<set name="material" val="mithril"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12395" name="渾沌的邪靈魔杖" type="EtcItem">
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00"/>
+		<set name="weight" val="930"/>
+		<set name="material" val="wood"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12396" name="渾沌的亡者榮譽" type="EtcItem">
+		<set name="icon" val="icon.weapon_deadmans_glory_i00"/>
+		<set name="weight" val="1600"/>
+		<set name="material" val="bone"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12397" name="渾沌的星爆" type="EtcItem">
+		<set name="icon" val="icon.weapon_star_buster_i00"/>
+		<set name="weight" val="1930"/>
+		<set name="material" val="fine_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12398" name="渾沌的工藝戰斧" type="EtcItem">
+		<set name="icon" val="icon.weapon_art_of_battle_axe_i00"/>
+		<set name="weight" val="1570"/>
+		<set name="material" val="chrysolite"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="194"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="12399" name="渾沌的惡魔短劍" type="EtcItem">
+		<set name="icon" val="icon.weapon_demons_sword_i00"/>
+		<set name="weight" val="970"/>
+		<set name="material" val="blood_steel"/>
+		<set name="crystal_type" val="b"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="170"/>
+			<set order="0x08" stat="mAtk" val="99"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+</list>

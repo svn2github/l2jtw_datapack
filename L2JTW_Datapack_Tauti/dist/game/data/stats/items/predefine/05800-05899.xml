@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="5800" name="怪物用(那芙琳劍)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5801" name="NPC專用(黃昏)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5802" name="NPC專用(黎明)" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1380"/>
+		<set name="icon" val="icon.weapon_monster_i00"/>
+		<set name="material" val="oriharukon"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="c"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="3"/>
+		<set name="spiritshots" val="3"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="156"/>
+			<set order="0x08" stat="mAtk" val="83"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5803" name="幸運符咒-D級" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_luck_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5804" name="幸運符咒-C級" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_luck_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5805" name="幸運符咒-B級" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_luck_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5806" name="幸運符咒-A級" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_luck_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5807" name="幸運符咒-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_luck_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5808" name="舞會面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.etc_party_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair"/>
+	</item>
+	<item id="5809" name="魔法書-怒濤奔浪" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_element_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5810" name="魔法書-火山爆發" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_element_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5811" name="魔法書-團體緩速術" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_black_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5812" name="魔法書-使魔極限防禦" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_summon_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5813" name="魔法書-使魔治療術" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_summon_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5814" name="魔法書-使魔祝福" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_summon_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5815" name="魔法書-野性魔力" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5816" name="魔法書-伊娃之盾" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5817" name="克魯諾杖鐘" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_chrono_campana_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="5818" name="改良黑暗柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i08"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5819" name="改良紅色柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i03"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5820" name="改良冷氣柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i00"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5821" name="改良藍色柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i02"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5822" name="改良金色柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i04"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5823" name="改良魯特柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i06"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5824" name="改良沙漠柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i05"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5825" name="改良紅色柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i03"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5826" name="改良冷氣柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i00"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5827" name="改良藍色柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i02"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5828" name="改良芒刺柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i07"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5829" name="改良金色柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i04"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5830" name="改良巨大柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i09"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5831" name="改良紅色柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i03"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5832" name="改良海洋柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i06"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5833" name="改良冷氣柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i00"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5834" name="改良藍色柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i02"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5835" name="改良雙生柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i07"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5836" name="改良巨大柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i09"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5837" name="改良沙漠柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i05"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="crop"/>
+	</item>
+	<item id="5838" name="成熟的改良黑暗柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i08"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5839" name="成熟的改良紅色柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i03"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5840" name="成熟的改良冷氣柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5841" name="成熟的改良藍色柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i02"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5842" name="成熟的改良金色柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i04"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5843" name="成熟的改良魯特柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i06"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5844" name="成熟的改良沙漠柯塔" type="EtcItem">
+		<set name="icon" val="icon.etc_coda_i05"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5845" name="成熟的改良紅色柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i03"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5846" name="成熟的改良冷氣柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5847" name="成熟的改良藍色柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i02"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5848" name="成熟的改良芒刺柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i07"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5849" name="成熟的改良金色柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i04"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5850" name="成熟的改良巨大柯柏" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i09"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5851" name="成熟的改良紅色柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i03"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5852" name="成熟的改良海洋柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i06"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5853" name="成熟的改良冷氣柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5854" name="成熟的改良藍色柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i02"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5855" name="成熟的改良雙生柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i07"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5856" name="成熟的改良巨大柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i09"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5857" name="成熟的改良沙漠柯德朗" type="EtcItem">
+		<set name="icon" val="icon.etc_codran_i05"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="maturecrop"/>
+	</item>
+	<item id="5858" name="祝福的根據地返回卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_agit_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5859" name="祝福的城堡返回卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_castle_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="5860" name="翼蛇的蛋" type="EtcItem">
+		<set name="icon" val="icon.etc_dragon_egg_i02"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5861" name="翼蛇的蛋" type="EtcItem">
+		<set name="icon" val="icon.etc_dragon_egg_i01"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5862" name="契約之石" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_silver_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5863" name="鱷魚族的牙" type="EtcItem">
+		<set name="icon" val="icon.etc_fang_red_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5864" name="謎樣的地圖碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_map_piece_ivory_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5865" name="動物型孢子" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_gray_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5866" name="植物型孢子" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_yellow_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5867" name="翡翠石" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_green_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5868" name="蛇的鱗片" type="EtcItem">
+		<set name="icon" val="icon.etc_scale_of_medusa_blue_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5869" name="亞丁居民的遺骸" type="EtcItem">
+		<set name="icon" val="icon.etc_ashes_white_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5870" name="補給證" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5871" name="可疑的文件碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_report_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5872" name="補給品" type="EtcItem">
+		<set name="icon" val="icon.etc_squares_wood_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5873" name="海盜的寶箱" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5874" name="賽頓的銀髮" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_gray_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5875" name="下巨人的燈" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5876" name="下巨人的燈" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_silver_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5877" name="下巨人的燈" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_silver_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5878" name="下巨人的燈" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_silver_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5879" name="下巨人的燈" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_white_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5880" name="破裂的下巨人的燈" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5881" name="刀刃司塔卡拓的牙" type="EtcItem">
+		<set name="icon" val="icon.etc_claw_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5882" name="爆裂的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5883" name="凝結的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_echo_crystal_i01"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5884" name="洞穴獸的牙" type="EtcItem">
+		<set name="icon" val="icon.etc_fang_red_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5885" name="死亡波動的火光" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_green_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5886" name="封印的神祕石" type="EtcItem">
+		<set name="icon" val="icon.etc_dragon_egg_i02"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5887" name="神祕石" type="EtcItem">
+		<set name="icon" val="icon.etc_dragon_egg_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5888" name="卡拉克的角" type="EtcItem">
+		<set name="icon" val="icon.etc_horn_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5889" name="洞穴咆哮者的頭骨" type="EtcItem">
+		<set name="icon" val="icon.etc_skull_red_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5890" name="謎樣的書" type="EtcItem">
+		<set name="icon" val="icon.etc_spellbook_blue_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5891" name="古代的基礎辭典" type="EtcItem">
+		<set name="icon" val="icon.etc_spellbook_gray_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5892" name="古代的中級辭典" type="EtcItem">
+		<set name="icon" val="icon.etc_spellbook_red_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5893" name="安樹的樹葉" type="EtcItem">
+		<set name="icon" val="icon.etc_herb_red_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5894" name="寒冷的石頭" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_blue_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5895" name="里特隆的果實" type="EtcItem">
+		<set name="icon" val="icon.etc_cobol_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5896" name="月野花" type="EtcItem">
+		<set name="icon" val="icon.etc_flower_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5897" name="吸血鬼的體液" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_red_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5898" name="特級會員證" type="EtcItem">
+		<set name="icon" val="icon.etc_royal_membership_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="5899" name="凱依的銅幣" type="EtcItem">
+		<set name="icon" val="icon.etc_magic_coin_blood_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+</list>

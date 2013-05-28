@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="36309" name="戰場體力治癒藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_gold_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="36310" name="戰場卷軸-無敵解除" type="EtcItem">
+		<set name="icon" val="icon.etc_roll_of_paper_white_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36311" name="戰場卷軸-傷害反射抗性" type="EtcItem">
+		<set name="icon" val="icon.etc_roll_of_paper_black_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36312" name="戰場祝福卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_roll_of_paper_blue_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36313" name="戰場卷軸-睡眠" type="EtcItem">
+		<set name="icon" val="icon.etc_roll_of_paper_red_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36314" name="小型紅龍蛋x10" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_small_egg"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36315" name="小型紅龍蛋x50" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_small_egg"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36316" name="紅龍帽-力量墜子" type="EtcItem">
+		<set name="icon" val="icon.etc_hairacc_pandent_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="36317" name="紅龍帽-敏捷墜子" type="EtcItem">
+		<set name="icon" val="icon.etc_hairacc_pandent_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="36318" name="紅龍帽-體質墜子" type="EtcItem">
+		<set name="icon" val="icon.etc_hairacc_pandent_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="36319" name="紅龍帽-精神墜子" type="EtcItem">
+		<set name="icon" val="icon.etc_hairacc_pandent_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="36320" name="紅龍帽-智力墜子" type="EtcItem">
+		<set name="icon" val="icon.etc_hairacc_pandent_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="36321" name="紅龍帽-智慧墜子" type="EtcItem">
+		<set name="icon" val="icon.etc_hairacc_pandent_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="36322" name="麟紅龍的飾品箱" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_draco_gift_box"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36323" name="麟紅龍禮物" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i03"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36324" name="閃耀的紅龍的飾品箱" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_draco_gift_box"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36325" name="紅龍禮物" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i03"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36326" name="閃耀的紅龍禮物" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+</list>

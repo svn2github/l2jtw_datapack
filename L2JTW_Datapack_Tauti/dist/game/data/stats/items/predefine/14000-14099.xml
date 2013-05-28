@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="14000" name="狄恩補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14001" name="奇岩補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14002" name="歐瑞補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14003" name="亞丁補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14004" name="因納得立補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14005" name="高達特補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14006" name="魯因補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14007" name="修加特補給箱-頭飾" type="EtcItem">
+		<set name="icon" val="icon.etc_shirts_a_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14008" name="飾品用生命石-84級" type="EtcItem">
+		<set name="icon" val="icon.etc_mineral_general_i03"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14009" name="紅色星石萃取石" type="EtcItem">
+		<set name="icon" val="icon.general_star_stone_piece_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14010" name="藍色星石萃取石" type="EtcItem">
+		<set name="icon" val="icon.general_star_stone_piece_i01"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14011" name="綠色星石萃取石" type="EtcItem">
+		<set name="icon" val="icon.general_star_stone_piece_i02"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14012" name="中級紅色星石萃取石" type="EtcItem">
+		<set name="icon" val="icon.high_star_stone_piece_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14013" name="中級藍色星石萃取石" type="EtcItem">
+		<set name="icon" val="icon.high_star_stone_piece_i01"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14014" name="中級綠色星石萃取石" type="EtcItem">
+		<set name="icon" val="icon.high_star_stone_piece_i02"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14015" name="火能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.general_energy_condense_i02"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14016" name="水能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.general_energy_condense_i03"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14017" name="風能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.general_energy_condense_i04"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14018" name="地能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.general_energy_condense_i05"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14019" name="黑暗能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.general_energy_condense_i01"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14020" name="神聖能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.general_energy_condense_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14021" name="中級火能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.high_energy_condense_i02"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14022" name="中級水能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.high_energy_condense_i03"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14023" name="中級風能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.high_energy_condense_i04"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14024" name="中級地能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.high_energy_condense_i05"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14025" name="中級黑暗能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.high_energy_condense_i01"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14026" name="中級神聖能量凝結石" type="EtcItem">
+		<set name="icon" val="icon.high_energy_condense_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14027" name="能量凝結裝置召喚手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14028" name="圖案-體力石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i01"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14029" name="圖案-瑪那石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i02"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14030" name="圖案-恢復石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i03"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14031" name="圖案-破壞石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i04"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14032" name="圖案-無敵石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i05"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14033" name="圖案-快速石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i06"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14034" name="圖案-迅速石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i07"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14035" name="圖案-集中石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i08"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14036" name="圖案-悠游石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i09"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14037" name="圖案-豐饒石" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i05"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="14038" name="體力石" type="EtcItem">
+		<set name="icon" val="icon.stone_9_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14039" name="高級體力石" type="EtcItem">
+		<set name="icon" val="icon.stone_9_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14040" name="瑪那石" type="EtcItem">
+		<set name="icon" val="icon.stone_10_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14041" name="高級瑪那石" type="EtcItem">
+		<set name="icon" val="icon.stone_10_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14042" name="恢復石" type="EtcItem">
+		<set name="icon" val="icon.stone_11_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14043" name="高級恢復石" type="EtcItem">
+		<set name="icon" val="icon.stone_11_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14044" name="破壞石" type="EtcItem">
+		<set name="icon" val="icon.stone_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14045" name="無敵石" type="EtcItem">
+		<set name="icon" val="icon.stone_2_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14046" name="快速石" type="EtcItem">
+		<set name="icon" val="icon.stone_3_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14047" name="迅速石" type="EtcItem">
+		<set name="icon" val="icon.stone_8_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14048" name="集中石" type="EtcItem">
+		<set name="icon" val="icon.stone_7_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14049" name="悠游石" type="EtcItem">
+		<set name="icon" val="icon.stone_4_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14050" name="豐饒石" type="EtcItem">
+		<set name="icon" val="icon.stone_5_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14051" name="恢復之石" type="EtcItem">
+		<set name="icon" val="icon.stone_1_i00"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14052" name="薄暮貴族強化石" type="EtcItem">
+		<set name="icon" val="icon.energy_condenser_i01"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14053" name="黃鬃獅子騎乘手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14054" name="蒸汽甲蟲騎乘手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14055" name="活力充能飲料" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_of_energy_i01"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14056" name="雪人變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_snowman_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14057" name="稻草人變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_scarescow_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14058" name="洋鐵高崙變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_tin_golem_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14059" name="男生泰迪熊壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14060" name="女生泰迪熊壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14061" name="玩偶騎士召喚項鍊" type="EtcItem">
+		<set name="icon" val="icon.pet_controler_i01"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="leather"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="14062" name="精靈術士召喚項鍊" type="EtcItem">
+		<set name="icon" val="icon.pet_controler_i01"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="leather"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="14063" name="貓頭鷹術士召喚項鍊" type="EtcItem">
+		<set name="icon" val="icon.pet_controler_i01"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="leather"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="14064" name="烏龜道士召喚項鍊" type="EtcItem">
+		<set name="icon" val="icon.pet_controler_i01"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="leather"/>
+		<set name="etcitem_type" val="pet_collar"/>
+	</item>
+	<item id="14065" name="高級狩獵幫手交換券" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_red_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14066" name="黃鬃獅子騎乘手鐲-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14067" name="蒸汽甲蟲騎乘手鐲-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14068" name="活力充能飲料-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_of_energy_i01"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="14069" name="雪人變身魔杖-活動用" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_snowman_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14070" name="稻草人變身魔杖-活動用" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_scarescow_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14071" name="洋鐵高崙變身魔杖-活動用" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_tin_golem_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14072" name="男生泰迪熊壺精手鐲-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14073" name="女生泰迪熊壺精手鐲-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14074" name="高級狩獵幫手交換券-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_red_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="14075" name="怒氣壺精-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14076" name="開心壺精-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14077" name="嗚咽壺精-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14078" name="武器用強化輔助石-D級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="14079" name="武器用強化輔助石-C級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="14080" name="武器用強化輔助石-B級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="14081" name="武器用強化輔助石-A級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="14082" name="武器用強化輔助石-S級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_wp_stone_i04"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
+	</item>
+	<item id="14083" name="防具用強化輔助石-D級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="14084" name="防具用強化輔助石-C級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="14085" name="防具用強化輔助石-B級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i02"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="14086" name="防具用強化輔助石-A級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i03"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="14087" name="防具用強化輔助石-S級-活動用" type="EtcItem">
+		<set name="icon" val="icon.ench_am_stone_i04"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
+	</item>
+	<item id="14088" name="雪人變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_snowman_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14089" name="稻草人傑克變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_scarescow_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14090" name="洋鐵高崙變身魔杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_tin_golem_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14091" name="男生泰迪熊壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14092" name="女生泰迪熊壺精手鐲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14093" name="怒氣壺精" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14094" name="開心壺精" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14095" name="嗚咽壺精" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="14096" name="雪人變身魔杖-活動用" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_snowman_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14097" name="稻草人傑克變身魔杖-活動用" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_scarescow_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14098" name="洋鐵高崙變身魔杖-活動用" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.weapon_tin_golem_stick_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1"/>
+			<set order="0x08" stat="mAtk" val="1"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="14099" name="男生泰迪熊壺精手鐲-活動用" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+</list>

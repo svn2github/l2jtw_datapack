@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="16400" name="女生泰迪熊召喚手鐲" type="EtcItem">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="weight" val="150"/>
+		<set name="material" val="silver"/>
+	</item>
+	<item id="16401" name="男生泰迪熊召喚手鐲-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="weight" val="150"/>
+		<set name="material" val="silver"/>
+	</item>
+	<item id="16402" name="女生泰迪熊召喚手鐲-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="weight" val="150"/>
+		<set name="material" val="silver"/>
+	</item>
+	<item id="16403" name="聖誕蛋糕" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cake_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="16404" name="白色聖誕節祈願燭" type="EtcItem">
+		<set name="icon" val="icon.etc_candle_white_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="16405" name="聖誕蛋糕-活動用" type="EtcItem">
+		<set name="icon" val="icon.event_six_party_cake_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="16406" name="白色聖誕節祈願燭-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_candle_white_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="16407" name="聖誕老人襪" type="EtcItem">
+		<set name="icon" val="icon.xmas_present_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="16408" name="聖誕老人輔助魔法卷軸" type="EtcItem">
+		<set name="icon" val="icon.mysterious_wedding_i00"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+</list>

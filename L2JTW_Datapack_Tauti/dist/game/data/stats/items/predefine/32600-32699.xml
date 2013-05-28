@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="32600" name="夢幻的薄暮皮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="116"/>
+		</for>
+	</item>
+	<item id="32601" name="夢幻的薄暮頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="116"/>
+		</for>
+	</item>
+	<item id="32602" name="夢幻的薄暮衛盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="material" val="damascus"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="371"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="32603" name="夢幻的薄暮符印" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="920"/>
+		<set name="icon" val="icon.verper_sigil_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="armor_type" val="sigil"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="17"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="32604" name="支援用奧爾比斯獎勵箱" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="32605" name="上級奧爾比斯獎勵箱" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="32606" name="高級奧爾比斯獎勵箱" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="32607" name="特級奧爾比斯獎勵箱" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="32608" name="永生襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r1_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="38"/>
+		</for>
+	</item>
+	<item id="32609" name="永生襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r1_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="38"/>
+		</for>
+	</item>
+	<item id="32610" name="永生襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r1_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="38"/>
+		</for>
+	</item>
+	<item id="32611" name="煉獄襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r2_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="32612" name="煉獄襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r2_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="32613" name="煉獄襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r2_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="42"/>
+		</for>
+	</item>
+	<item id="32614" name="卡戴拉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r95_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+		</for>
+	</item>
+	<item id="32615" name="卡戴拉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r95_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+		</for>
+	</item>
+	<item id="32616" name="卡戴拉襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r95_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="46"/>
+		</for>
+	</item>
+	<item id="32617" name="艾迪奧斯襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
+		</for>
+	</item>
+	<item id="32618" name="艾迪奧斯襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
+		</for>
+	</item>
+	<item id="32619" name="艾迪奧斯襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.r991_shirt_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="underwear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="48"/>
+		</for>
+	</item>
+	<item id="32620" name="下級魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32621" name="普通魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32622" name="上級魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32623" name="特級魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32624" name="下級魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32625" name="普通魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32626" name="上級魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32627" name="特級魔法古文夾永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32628" name="下級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32629" name="普通魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32630" name="上級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32631" name="特級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32632" name="下級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32633" name="普通魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32634" name="上級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32635" name="特級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32636" name="下級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32637" name="普通魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32638" name="上級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32639" name="特級魔法飾品永生腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="19"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32640" name="下級魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32641" name="普通魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32642" name="上級魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32643" name="特級魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32644" name="下級魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32645" name="普通魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32646" name="上級魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32647" name="特級魔法古文夾煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32648" name="下級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32649" name="普通魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32650" name="上級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32651" name="特級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32652" name="下級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32653" name="普通魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32654" name="上級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32655" name="特級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32656" name="下級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32657" name="普通魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32658" name="上級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32659" name="特級魔法飾品煉獄腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="21"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32660" name="下級魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32661" name="普通魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32662" name="上級魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32663" name="特級魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32664" name="下級魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32665" name="普通魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32666" name="上級魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32667" name="特級魔法古文夾卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32668" name="下級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32669" name="普通魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32670" name="上級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32671" name="特級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32672" name="下級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32673" name="普通魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32674" name="上級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32675" name="特級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32676" name="下級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32677" name="普通魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32678" name="上級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32679" name="特級魔法飾品卡戴拉腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="23"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32680" name="下級魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32681" name="普通魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32682" name="上級魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32683" name="特級魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32684" name="下級魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32685" name="普通魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32686" name="上級魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32687" name="特級魔法古文夾艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32688" name="下級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32689" name="普通魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32690" name="上級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32691" name="特級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32692" name="下級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32693" name="普通魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32694" name="上級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32695" name="特級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32696" name="下級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32697" name="普通魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32698" name="上級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="32699" name="特級魔法飾品艾迪奧斯腰帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="24"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+</list>

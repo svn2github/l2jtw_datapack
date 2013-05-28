@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="36100" name="巨星壺精手鐲-瀟灑宰范" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="36101" name="巨星壺精手鐲-可愛信英" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="36102" name="巨星壺精禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_box_joy_pack"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36103" name="N商城變身卷軸禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="steel"/>
+	</item>
+	<item id="36104" name="青銅鑰匙公會徽章" type="EtcItem">
+		<set name="icon" val="icon.etc_badge_silver_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36105" name="黑色鐵砧公會徽章" type="EtcItem">
+		<set name="icon" val="icon.etc_badge_silver_i01"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36106" name="黃金之輪公會徽章" type="EtcItem">
+		<set name="icon" val="icon.etc_badge_silver_i02"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36107" name="血盟任務" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_white_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36108" name="血盟委託-7人" type="EtcItem">
+		<set name="icon" val="icon.item_normal20"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36109" name="卡利艾的寶箱(下級)" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36110" name="卡利艾的寶箱(中級)" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36111" name="卡利艾的寶箱(上級)" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36112" name="卡利艾標章" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_kalie_token"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36113" name="沃爾昆的真金" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_gold_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36114" name="沃爾昆的純銀" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36115" name="沃爾昆的血焰" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_red_i00"/>
+		<set name="weight" val="50"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36116" name="祝福的卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r1"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="wood"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36117" name="祝福的卷軸-R95級" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r95"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="wood"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36118" name="殤曲符印-渾沌祭典" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="920"/>
+		<set name="icon" val="icon.weapon_pricklelotus_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="armor_type" val="sigil"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="36119" name="殤曲盾-渾沌祭典" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1190"/>
+		<set name="icon" val="icon.heavengate_shield_i01"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="36120" name="血盟斗篷-根據地(佔領型)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="back"/>
+		<for>
+			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40"/>
+		</for>
+	</item>
+	<item id="36121" name="兔耳-力量(3日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair2"/>
+	</item>
+	<item id="36122" name="兔耳-敏捷(3日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair2"/>
+	</item>
+	<item id="36123" name="兔耳-智慧(3日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair2"/>
+	</item>
+	<item id="36124" name="兔耳-智力(3日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hair2"/>
+	</item>
+	<item id="36125" name="天使之環-力量(7日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_angel_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36126" name="天使之環-敏捷(7日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_angel_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36127" name="天使之環-智慧(7日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_angel_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36128" name="天使之環-智力(7日)" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_angel_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36129" name="血盟委託-14人" type="EtcItem">
+		<set name="icon" val="icon.item_normal20"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36130" name="防具強化卷軸-R級5個/箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36131" name="體力精神墜子禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36132" name="智力智慧墜子禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36133" name="力敏捷墜子禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36134" name="防禦迴避墜子禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36135" name="攻擊命中墜子禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36136" name="致命攻擊墜子禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36137" name="LV5 傳說精神紋章染料10個/箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36138" name="LV5 傳說智慧紋章染料10個/箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36139" name="LV5 傳說敏捷紋章染料10個/箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36140" name="LV5 傳說體質紋章染料10個/箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36141" name="LV5 傳說智力紋章染料10個/箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36142" name="LV5 傳說力量紋章染料10個/箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36143" name="雙重搜魂 祝 赫利奧斯禮盒(物理)" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36144" name="雙重搜魂 祝 赫利奧斯禮盒(魔法)" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36145" name="雙重搜魂 祝 赫利奧斯禮盒(雙)" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36146" name="血腥赫利奧斯武器禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36147" name="黑暗赫利奧斯武器禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36148" name="卡利艾傳送卷軸禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36149" name="卡利艾靈魂葫蘆禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36150" name="卡利艾沙漏" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="36151" name="卡利艾修煉卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_training_scroll_kalie_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36152" name="卡利艾之力禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36153" name="卡利艾屬性原石禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36154" name="卡利艾屬性水晶禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36155" name="進階型卡利艾屬性原石禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36156" name="進階型卡利艾屬性水晶禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36157" name="頭飾強化卷軸禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36158" name="頭飾用生命石禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36159" name="祝福的卷軸-R(1)級" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r1"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36160" name="祝福的卷軸-R(2)級" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r2"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36161" name="祝福的卷軸-R95級" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r95"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36162" name="祝福的卷軸-R99級" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r99"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36163" name="巨人武器強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.giant_scrl_of_ench_wp_r"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_wp"/>
+	</item>
+	<item id="36164" name="巨人防具強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.giant_scrl_of_ench_am_r"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scrl_enchant_am"/>
+	</item>
+	<item id="36165" name="卡利艾靈魂箱子" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36166" name="卡利艾禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36167" name="奴爾卡皮帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.event_energy_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="36168" name="莉迪亞皮帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.event_energy_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="36169" name="古斯達夫皮帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.event_energy_belt_i00"/>
+		<set name="material" val="cloth"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="36170" name="血之薄霧地帶傳送卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36171" name="英魂之島港口傳送卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36172" name="埃薩吉拉遺蹟地傳送卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36173" name="基洛德要塞傳送卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36174" name="水晶的神諭所傳送卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36175" name="席琳封印傳送卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36176" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36177" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36178" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36179" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36180" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36181" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36182" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36183" name="2013AMD盃奧林匹亞英雄飾品" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="icon.accessory_archer_hat2_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36184" name="卡利艾之力" type="EtcItem">
+		<set name="icon" val="icon.etc_spirit_kalie_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36185" name="卡利艾之力" type="EtcItem">
+		<set name="icon" val="icon.etc_spirit_kalie_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36186" name="卡利艾之力" type="EtcItem">
+		<set name="icon" val="icon.etc_spirit_kalie_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36187" name="雷神襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.dual_shirt1"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="underwear"/>
+		<for>
+			<add order="0x10" stat="pDef" val="38"/>
+		</for>
+	</item>
+	<item id="36188" name="赤焰襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.dual_shirt2"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="underwear"/>
+		<for>
+			<add order="0x10" stat="pDef" val="38"/>
+		</for>
+	</item>
+	<item id="36189" name="雷神皮帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.dual_belt1"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+		</for>
+	</item>
+	<item id="36190" name="赤焰皮帶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="440"/>
+		<set name="icon" val="icon.dual_belt2"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="waist"/>
+		<set name="armor_type" val="light"/>
+		<for>
+			<add order="0x10" stat="pDef" val="25"/>
+		</for>
+	</item>
+	<item id="36191" name="卡利艾的願望" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_kalie_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36192" name="卡利艾的願望袋" type="EtcItem">
+		<set name="icon" val="icon.etc_pouch_gold_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36193" name="封印英雄之力的鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="685"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="36194" name="封印英雄之力的切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="752"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36195" name="封印英雄之力的殺刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="916"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36196" name="封印英雄之力的復仇者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="752"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36197" name="封印英雄之力的戰爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="916"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36198" name="封印英雄之力的風暴者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="752"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36199" name="封印英雄之力的投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1481"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+</list>

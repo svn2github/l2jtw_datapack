@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="17537" name="測試-輕裝-鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t101_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17538" name="測試-輕裝-頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="194"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17539" name="測試-輕裝-盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t95_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="289"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17540" name="測試-輕裝-脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t95_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="180"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17541" name="測試-輕裝-手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t95_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17542" name="測試-輕裝-鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t95_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17543" name="測試-輕裝-頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="194"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17544" name="測試-輕裝-盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t95_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="289"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17545" name="測試-輕裝-脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t95_l_i03"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="180"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17546" name="測試-輕裝-手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t95_g_i03"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17547" name="測試-輕裝-鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t95_b_i03"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17548" name="測試-長袍-頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="194"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17549" name="測試-長袍-盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t99_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="637"/>
+			<add order="0x10" stat="pDef" val="193"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17550" name="測試-長袍-脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t99_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="415"/>
+			<add order="0x10" stat="pDef" val="143"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17551" name="測試-長袍-手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t99_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17552" name="測試-長袍-鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t99_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17553" name="測試-長袍-頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="194"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17554" name="測試-長袍-盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t93_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="637"/>
+			<add order="0x10" stat="pDef" val="193"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17555" name="測試-長袍-脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t93_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="415"/>
+			<add order="0x10" stat="pDef" val="143"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17556" name="測試-長袍-手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t93_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17557" name="測試-長袍-鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t93_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17558" name="測試-長袍-頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="194"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17559" name="測試-長袍-盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t70_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="637"/>
+			<add order="0x10" stat="pDef" val="193"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17560" name="測試-長袍-脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t70_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="415"/>
+			<add order="0x10" stat="pDef" val="143"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17561" name="測試-長袍-手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t70_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17562" name="測試-長袍-鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t70_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17563" name="測試-長袍-頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="530"/>
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="bone"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="head"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="194"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17564" name="測試-長袍-盔甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t75_u_i00"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="289"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17565" name="測試-長袍-脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t75_l_i00"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="180"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17566" name="測試-長袍-手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t75_g_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17567" name="測試-長袍-鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t75_b_i00"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="96"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17568" name="Test-戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.vesper_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+			<add order="0x10" stat="mDef" val="29"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17569" name="Test-耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.vesper_earring_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="37"/>
+			<add order="0x10" stat="mDef" val="44"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17570" name="Test-項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.vesper_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="50"/>
+			<add order="0x10" stat="mDef" val="59"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17571" name="Test-襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.etc_shirts_s_i05"/>
+		<set name="material" val="crystal"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="41"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17572" name="Test-盾" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1130"/>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01"/>
+		<set name="material" val="damascus"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<set order="0x08" stat="sDef" val="457"/>
+			<enchant order="0x0C" stat="sDef" val="0"/>
+			<set order="0x08" stat="rShld" val="20"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="17573" name="Test-符印" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="920"/>
+		<set name="icon" val="icon.verper_sigil_i00"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lhand"/>
+		<set name="armor_type" val="sigil"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="20"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+			<sub order="0x10" stat="rEvas" val="8"/>
+		</for>
+	</item>
+	<item id="17574" name="地下訓練場鑰匙" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i02"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17575" name="神與巨人的戰爭" type="EtcItem">
+		<set name="icon" val="icon.etc_old_evil_book_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17576" name="封鎖的地下訓練場鑰匙" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i01"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17577" name="魔獸的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_dragon_egg_i05"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17578" name="骯髒紙張碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_black_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17579" name="古老的迷宮地圖" type="EtcItem">
+		<set name="icon" val="icon.etc_map_yellow_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17580" name="沙黎的項鍊" type="EtcItem">
+		<set name="icon" val="icon.etc_resonance_amulet_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17581" name="貝莉絲迷宮鑰匙" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17582" name="推薦函" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_white_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17583" name="可疑的標章" type="EtcItem">
+		<set name="icon" val="icon.etc_mark_yellow_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17584" name="沙庫姆的素描A" type="EtcItem">
+		<set name="icon" val="icon.etc_roll_of_paper_blue_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+	</item>
+	<item id="17585" name="沙庫姆的素描B" type="EtcItem">
+		<set name="icon" val="icon.etc_roll_of_paper_red_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+	</item>
+	<item id="17586" name="可疑的碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_green_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17587" name="巨大閃耀石" type="EtcItem">
+		<set name="icon" val="icon.etc_energy_stone_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17588" name="被捕捉的光魂" type="EtcItem">
+		<set name="icon" val="icon.etc_mammon_varnish_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17589" name="席琳的憑證" type="EtcItem">
+		<set name="icon" val="icon.yogi_stick_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17590" name="席琳的高階憑證" type="EtcItem">
+		<set name="icon" val="icon.yogi_stick_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17591" name="巴列斯的憑證" type="EtcItem">
+		<set name="icon" val="icon.etc_orcish_talisman_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17592" name="巴列斯的契約書" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_black_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17593" name="拉奇庫絲的爪" type="EtcItem">
+		<set name="icon" val="icon.weapon_iron_glove_i01"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17594" name="生體能量結晶碎片" type="EtcItem">
+		<set name="icon" val="icon.general_star_stone_piece_i02"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17595" name="空瓶" type="EtcItem">
+		<set name="icon" val="icon.empty_bottle"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17596" name="提米妮爾的營養劑" type="EtcItem">
+		<set name="icon" val="icon.etc_reagent_blue_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17597" name="妖精之翅" type="EtcItem">
+		<set name="icon" val="icon.q466_fairy_wing"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17598" name="繭之碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_crafted_leather_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17599" name="奇梅里安之氣息" type="EtcItem">
+		<set name="icon" val="icon.etc_fish_oil_i02"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17600" name="冥途之書" type="EtcItem">
+		<set name="icon" val="icon.q10338_book_of_hades"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17601" name="地蟲的心臟部分" type="EtcItem">
+		<set name="icon" val="icon.earthworm_heart"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17602" name="生體能量結晶" type="EtcItem">
+		<set name="icon" val="icon.high_star_stone_piece_i02"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17603" name="製作卷軸(樹木營養劑100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="17604" name="微光水晶" type="EtcItem">
+		<set name="icon" val="icon.glimmer_crystal"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17605" name="1千萬金幣" type="EtcItem">
+		<set name="icon" val="icon.fairy_adena_joke"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17606" name="據點的破片" type="EtcItem">
+		<set name="icon" val="icon.gd_square_fragment"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17607" name="寶石大廳鑰匙" type="EtcItem">
+		<set name="icon" val="icon.etc_key_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17608" name="能量控制裝置" type="EtcItem">
+		<set name="icon" val="icon.etc_medicine_of_growth_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17609" name="伊絲蒂娜的項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_queen_of_ice_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="50"/>
+			<add order="0x10" stat="mDef" val="125"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17610" name="生體能量殘留物" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_green_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17611" name="巨型砲彈" type="EtcItem">
+		<set name="icon" val="icon.mde_big_bullet"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17612" name="記憶的破片" type="EtcItem">
+		<set name="icon" val="icon.mde_memory_fragment"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17613" name="遺忘的記憶的破片" type="EtcItem">
+		<set name="icon" val="icon.mde_memory_fragment02"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17614" name="潘提翁的書" type="EtcItem">
+		<set name="icon" val="icon.si_phanteon_book"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17615" name="貝莉絲憑證" type="EtcItem">
+		<set name="icon" val="icon.bel_mark_clear"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17616" name="靈魂之燭" type="EtcItem">
+		<set name="icon" val="icon.darkelf_campaign_candle"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17617" name="寶石箱" type="EtcItem">
+		<set name="icon" val="icon.darkelf_campaign_box"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17618" name="幸運地圖" type="EtcItem">
+		<set name="icon" val="icon.fortuna_enter"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17619" name="遺物探索機" type="EtcItem">
+		<set name="icon" val="icon.summon_object_finder"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17620" name="殺蟲劑" type="EtcItem">
+		<set name="icon" val="icon.bug_spray_a"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17621" name="殺蟲劑" type="EtcItem">
+		<set name="icon" val="icon.bug_spray_b"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17622" name="殺蟲劑" type="EtcItem">
+		<set name="icon" val="icon.bug_spray_c"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17623" name="地蟲心臟戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.ring_earthworm_heart"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="38"/>
+			<add order="0x10" stat="mDef" val="108"/>
+		</for>
+	</item>
+	<item id="17624" name="傲慢標章" type="EtcItem">
+		<set name="icon" val="icon.token_of_oman"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17625" name="LV1 巨人力量紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_str"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17626" name="LV1 巨人敏捷紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_dex"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17627" name="LV1 巨人體質紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_con"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17628" name="LV1 巨人智力紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_int"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17629" name="LV1 巨人智慧紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_wit"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17630" name="LV1 巨人精神紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_men"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17631" name="LV1 古代力量紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_str"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17632" name="LV1 古代敏捷紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_dex"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17633" name="LV1 古代體質紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_con"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17634" name="LV1 古代智力紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_int"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17635" name="LV1 古代智慧紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_wit"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17636" name="LV1 古代精神紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_men"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+</list>

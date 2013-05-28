@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="36200" name="封印英雄之力的射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_infinity_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1333"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="36201" name="封印英雄之力的爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_infinity_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="602"/>
+			<set order="0x08" stat="mAtk" val="486"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36202" name="封印英雄之力的術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="602"/>
+			<set order="0x08" stat="mAtk" val="486"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36203" name="封印英雄之力的報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="733"/>
+			<set order="0x08" stat="mAtk" val="535"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36204" name="封印英雄之力的雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="916"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36205" name="封印英雄之力的雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="752"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="36206" name="封印英雄之力的雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="916"/>
+			<set order="0x08" stat="mAtk" val="414"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36207" name="充滿英雄之力的鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="881"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="36208" name="充滿英雄之力的切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36209" name="充滿英雄之力的殺刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36210" name="充滿英雄之力的復仇者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36211" name="充滿英雄之力的戰爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36212" name="充滿英雄之力的風暴者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36213" name="充滿英雄之力的投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1983"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="36214" name="充滿英雄之力的射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_infinity_shooter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1786"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="36215" name="充滿英雄之力的爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_infinity_sword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="805"/>
+			<set order="0x08" stat="mAtk" val="696"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36216" name="充滿英雄之力的術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="805"/>
+			<set order="0x08" stat="mAtk" val="696"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36217" name="充滿英雄之力的報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="981"/>
+			<set order="0x08" stat="mAtk" val="765"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36218" name="充滿英雄之力的雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="36219" name="充滿英雄之力的雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="36220" name="充滿英雄之力的雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="500"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<cond msgId="1518">
+			<player isHero="true"/>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225"/>
+			<set order="0x08" stat="mAtk" val="521"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="36221" name="充滿英雄之力卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_hero_scroll"/>
+		<set name="weight" val="2"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36222" name="卡利艾晶體" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_cube"/>
+		<set name="material" val="fish"/>
+		<set name="etcitem_type" val="elixir"/>
+	</item>
+	<item id="36223" name="卡爾提亞迷宮入場券-等級85單人" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36224" name="卡爾提亞迷宮入場券-等級90單人" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36225" name="卡爾提亞迷宮入場券-等級95單人" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36226" name="卡爾提亞迷宮入場券-等級85隊伍" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36227" name="凱爾高斯憑證" type="EtcItem">
+		<set name="icon" val="icon.fairy_encounter_letter"/>
+		<set name="material" val="paper"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+	</item>
+	<item id="36228" name="見習生標章" type="EtcItem">
+		<set name="icon" val="icon.etc_red_rose_i00"/>
+		<set name="material" val="wood"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+	</item>
+	<item id="36229" name="邪教標章" type="EtcItem">
+		<set name="icon" val="icon.etc_totem_necklace_red_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+	</item>
+	<item id="36230" name="邪教圖騰" type="EtcItem">
+		<set name="icon" val="icon.etc_totem_necklace_green_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36231" name="邪教之魂" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_white_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36232" name="神聖之箱" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36234" name="首領飾品寶箱" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_draco_gift_box"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="36235" name="伊絲蒂娜項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.istina_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="74"/>
+			<add order="0x10" stat="mDef" val="205"/>
+		</for>
+	</item>
+	<item id="36236" name="伊絲蒂娜戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.istina_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="37"/>
+			<add order="0x10" stat="mDef" val="103"/>
+		</for>
+	</item>
+	<item id="36237" name="伊絲蒂娜耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.istina_earring_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="56"/>
+			<add order="0x10" stat="mDef" val="154"/>
+		</for>
+	</item>
+	<item id="36238" name="歐塔比斯戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.octavis_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="37"/>
+			<add order="0x10" stat="mDef" val="103"/>
+		</for>
+	</item>
+	<item id="36239" name="歐塔比斯項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.octavis_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="74"/>
+			<add order="0x10" stat="mDef" val="205"/>
+		</for>
+	</item>
+	<item id="36240" name="歐塔比斯耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.octavis_earring_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="56"/>
+			<add order="0x10" stat="mDef" val="154"/>
+		</for>
+	</item>
+	<item id="36241" name="祝福的安塔瑞斯耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rear;lear"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="59"/>
+			<add order="0x10" stat="mDef" val="170"/>
+		</for>
+	</item>
+	<item id="36242" name="祝福的巴拉卡斯項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessory_necklace_of_valakas_i00"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="neck"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="79"/>
+			<add order="0x10" stat="mDef" val="226"/>
+		</for>
+	</item>
+	<item id="36243" name="地蟲心臟戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.ring_earthworm_heart"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="38"/>
+			<add order="0x10" stat="mDef" val="108"/>
+		</for>
+	</item>
+	<item id="36244" name="塔武提戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_tauti_ring"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="38"/>
+			<add order="0x10" stat="mDef" val="108"/>
+		</for>
+	</item>
+	<item id="36245" name="夏洛蒂活力充能飲料" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_red_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="36246" name="貝勒多夫的邀請函" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_envelope_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36247" name="主教之鑰" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i01"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36248" name="回憶中的狩獵箱子: 巨蟻女王" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36249" name="回憶中的狩獵箱子: 奧爾芬" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36250" name="回憶中的狩獵箱子: 亞納" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36251" name="回憶中的狩獵箱子: 莉莉絲" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="36252" name="裝有巨蟻女王靈魂之瓶" type="EtcItem">
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i09"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="36253" name="裝有奧爾芬靈魂之瓶" type="EtcItem">
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i10"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="36254" name="巨蟻女王的靈魂戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="31"/>
+			<add order="0x10" stat="mDef" val="79"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="36255" name="奧爾芬的靈魂耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessory_earring_of_orfen_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="46"/>
+			<add order="0x10" stat="mDef" val="118"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="36256" name="亞納變身卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36257" name="莉莉絲的靈魂項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_blessed_lilith"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="62"/>
+			<add order="0x10" stat="mDef" val="158"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="36258" name="巨蟻女王變身藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_clear_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36259" name="奧爾芬變身藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_purple_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36260" name="亞納變身藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36261" name="莉莉絲變身藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_red_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36267" name="次元殘渣" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_blue_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="36268" name="卡爾提亞迷宮入場券-等級90隊伍" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36269" name="卡爾提亞迷宮入場券-等級95隊伍" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36270" name="特拉贊入場券" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36271" name="斯佩席亞入場券-一般" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36272" name="斯佩席亞入場券-極限" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36273" name="天運之地入場券" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36274" name="諾爾妮庭園入場券" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36275" name="伊絲蒂娜入場券-一般" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36276" name="歐塔比斯入場劵-一般" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36277" name="巴爾勒入場劵" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36278" name="邪教之血" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i00"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36279" name="邪教的惡魔之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36280" name="邪教的惡魔之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36281" name="邪教的惡魔之環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="36282" name="障礙補償組合包" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i05"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="36283" name="祝福的武器強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.blessed_scroll_of_enchant_weapon_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="bless_scrl_enchant_wp"/>
+	</item>
+	<item id="36284" name="祝福的防具強化卷軸-R級" type="EtcItem">
+		<set name="icon" val="icon.blessed_scroll_of_enchant_armor_i06"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="bless_scrl_enchant_am"/>
+	</item>
+</list>
