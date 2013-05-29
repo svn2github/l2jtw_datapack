@@ -1,5 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="17000" name="友情的黑光飾品組-B級" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="17001" name="友情的封印飾品組-C級" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="17002" name="友情的精靈飾品組-D級" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="fish"/>
+	</item>
+	<item id="17003" name="聖誕老人的禮物" type="EtcItem">
+		<set name="icon" val="icon.lucky_bag_box_i00"/>
+		<set name="weight" val="1"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17004" name="壺精封印手鐲-麋鹿寶寶" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="17005" name="聖誕老人-鬥志藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_cp_potion_i01"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="17006" name="封印的薄暮貴族胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="7520"/>
+		<set name="icon" val="icon.armor_t94_u_i02"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="236"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17007" name="封印的薄暮貴族皮胸甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="4140"/>
+		<set name="icon" val="icon.armor_t95_u_i02"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="177"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17008" name="封印的薄暮貴族外衣" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1750"/>
+		<set name="icon" val="icon.armor_t96_u_i02"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="chest"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="637"/>
+			<add order="0x10" stat="pDef" val="118"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17009" name="封印的薄暮貴族脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="3170"/>
+		<set name="icon" val="icon.armor_t94_l_i02"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="heavy"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="148"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17010" name="封印的薄暮貴族護手" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t94_g_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="68"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17011" name="封印的薄暮貴族靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t94_b_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="68"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17012" name="封印的薄暮貴族皮脛甲" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1320"/>
+		<set name="icon" val="icon.armor_t95_l_i02"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="light"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="111"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17013" name="封印的薄暮貴族皮手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t95_g_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="68"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17014" name="封印的薄暮貴族皮靴" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t95_b_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="68"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17015" name="封印的薄暮貴族長襪" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="850"/>
+		<set name="icon" val="icon.armor_t96_l_i02"/>
+		<set name="material" val="scale_of_dragon"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="legs"/>
+		<set name="armor_type" val="magic"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="415"/>
+			<add order="0x10" stat="pDef" val="74"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17016" name="封印的薄暮貴族手套" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="510"/>
+		<set name="icon" val="icon.armor_t96_g_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="gloves"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="68"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17017" name="封印的薄暮貴族鞋" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1070"/>
+		<set name="icon" val="icon.armor_t96_b_i02"/>
+		<set name="material" val="leather"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="feet"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x10" stat="pDef" val="68"/>
+			<enchant order="0x0C" stat="pDef" val="0"/>
+		</for>
+	</item>
+	<item id="17018" name="溫泉恢復藥水" type="EtcItem">
+		<set name="icon" val="icon.etc_cp_potion_i01"/>
+		<set name="weight" val="20"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="17019" name="搭乘道具 3種組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17020" name="新鮮牛奶組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17021" name="維他命體驗組30-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17022" name="巴瑞卡卡輪組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17023" name="肯特拉卡輪組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17024" name="活力維持藥水組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17025" name="活動點數(7000點)組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17026" name="提督軍帽組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17027" name="草帽組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17028" name="幻影面具組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17029" name="黑色幻影面具組-活動用" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17030" name="遺忘祕傳書-道具製作Lv10" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i01"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17031" name="芙蕾雅White組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17032" name="英雄的寶箱組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17033" name="冰結頭箍-活動" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_ice_circlet_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="17034" name="遺忘祕傳書-戰士的意志-活動" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17035" name="遺忘祕傳書-弓手的意志-活動" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_sword_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17036" name="遺忘祕傳書-法師的意志-活動" type="EtcItem">
+		<set name="icon" val="BranchSys2.Icon.br_spell_books_magic_i00"/>
+		<set name="weight" val="120"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
 	<item id="17037" name="遺忘祕傳書-古文保護-活動" type="EtcItem">
 		<set name="icon" val="icon.etc_spell_books_element_i00"/>
 		<set name="weight" val="120"/>
@@ -380,197 +702,5 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03"/>
 		<set name="is_stackable" val="true"/>
 		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17100" name="奈比特沙漏-1小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17101" name="奈比特沙漏-1.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17102" name="奈比特沙漏-2小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17103" name="奈比特沙漏-2.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17104" name="奈比特沙漏-3小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17105" name="奈比特沙漏-1小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17106" name="奈比特沙漏-1.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17107" name="奈比特沙漏-2小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17108" name="奈比特沙漏-2.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17109" name="奈比特沙漏-3小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17110" name="奈比特沙漏-1小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17111" name="奈比特沙漏-1.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17112" name="奈比特沙漏-2小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17113" name="奈比特沙漏-2.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17114" name="奈比特沙漏-3小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17115" name="奈比特沙漏-1小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17116" name="奈比特沙漏-1.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17117" name="奈比特沙漏-2小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17118" name="奈比特沙漏-2.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17119" name="奈比特沙漏-3小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17120" name="奈比特沙漏-1小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17121" name="奈比特沙漏-1.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17122" name="奈比特沙漏-2小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17123" name="奈比特沙漏-2.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17124" name="奈比特沙漏-3小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17125" name="奈比特沙漏-1小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17126" name="奈比特沙漏-1.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17127" name="奈比特沙漏-2小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17128" name="奈比特沙漏-2.5小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17129" name="奈比特沙漏-3小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="17130" name="小蒼蘭花束-活動" type="EtcItem">
-		<set name="icon" val="icon.etc_flower_bouquet_i02"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="17131" name="滿天星花束-活動" type="EtcItem">
-		<set name="icon" val="icon.etc_flower_bouquet_i03"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="17132" name="粉紅佳人-活動" type="EtcItem">
-		<set name="icon" val="icon.etc_fruit_cocktail_i02"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="17133" name="六月小蟲-活動" type="EtcItem">
-		<set name="icon" val="icon.etc_fruit_cocktail_i03"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="17134" name="柔軟的起司蛋糕-活動" type="EtcItem">
-		<set name="icon" val="icon.etc_herb_of_cheesecake"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="17135" name="剛烤好的法國麵包-活動" type="EtcItem">
-		<set name="icon" val="icon.etc_herb_of_baguette"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="17136" name="香甜的奶黃麵包-活動" type="EtcItem">
-		<set name="icon" val="icon.etc_herb_of_cream"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
 	</item>
 </list>

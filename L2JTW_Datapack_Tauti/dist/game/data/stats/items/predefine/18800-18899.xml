@@ -1,5 +1,846 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="18800" name="祝福的英啟戰爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18801" name="祝福的英啟戰爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18802" name="祝福的英啟戰爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_kirche_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18803" name="祝福的英啟風暴者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18804" name="祝福的英啟風暴者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18805" name="祝福的英啟風暴者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2010"/>
+		<set name="icon" val="icon.weapon_grave_i01"/>
+		<set name="material" val="bronze"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="pole"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18806" name="祝福的英啟投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18807" name="祝福的英啟投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18808" name="祝福的英啟投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_spina_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="963"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18809" name="祝福的英啟射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18810" name="祝福的英啟射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18811" name="祝福的英啟射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_medianox_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="866"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18812" name="祝福的英啟爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18813" name="祝福的英啟爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18814" name="祝福的英啟爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_imerose_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18815" name="祝福的英啟術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18816" name="祝福的英啟術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18817" name="祝福的英啟術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_yuke_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="392"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="285"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18818" name="祝福的英啟報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18819" name="祝福的英啟報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18820" name="祝福的英啟報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_herencia_i01"/>
+		<set name="material" val="wood"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="477"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="314"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18821" name="祝福的英啟雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18822" name="祝福的英啟雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18823" name="祝福的英啟雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18824" name="祝福的英啟雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18825" name="祝福的英啟雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18826" name="祝福的英啟雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="489"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18827" name="祝福的英啟雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18828" name="祝福的英啟雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18829" name="祝福的英啟雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="595"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="226"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="18830" name="幻靈鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_ignicion_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18831" name="幻靈鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_ignicion_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18832" name="幻靈鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_ignicion_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="496"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="18833" name="幻靈切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_ninfea_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18834" name="幻靈切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_ninfea_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18835" name="幻靈切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_ninfea_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="567"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="18836" name="幻靈殺刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_skia_i01"/>
+		<set name="material" val="steel"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r95"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="690"/>
+			<enchant order="0x0C" stat="pAtk" val="0"/>
+			<set order="0x08" stat="mAtk" val="275"/>
+			<enchant order="0x0C" stat="mAtk" val="0"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
 	<item id="18837" name="幻靈殺刃" type="Weapon">
 		<set name="default_action" val="equip"/>
 		<set name="weight" val="1740"/>
@@ -1430,848 +2271,6 @@
 			<set order="0x08" stat="pAtkSpd" val="379"/>
 			<add order="0x10" stat="accCombat" val="8.00"/>
 			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18900" name="束縛的幻靈術杖" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1080"/>
-		<set name="icon" val="icon.weapon_alacer_i01"/>
-		<set name="material" val="wood"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="454"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="330"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18901" name="束縛的幻靈術杖" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1080"/>
-		<set name="icon" val="icon.weapon_alacer_i01"/>
-		<set name="material" val="wood"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="454"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="330"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18902" name="束縛的幻靈報恨者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1080"/>
-		<set name="icon" val="icon.weapon_rupe_i01"/>
-		<set name="material" val="wood"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="553"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="363"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18903" name="束縛的幻靈報恨者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1080"/>
-		<set name="icon" val="icon.weapon_rupe_i01"/>
-		<set name="material" val="wood"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="553"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="363"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18904" name="束縛的幻靈報恨者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1080"/>
-		<set name="icon" val="icon.weapon_rupe_i01"/>
-		<set name="material" val="wood"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="553"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="363"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18905" name="束縛的幻靈雙刀" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dual"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18906" name="束縛的幻靈雙刀" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dual"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18907" name="束縛的幻靈雙刀" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dual"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18908" name="束縛的幻靈雙匕首" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="2050"/>
-		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dualdagger"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18909" name="束縛的幻靈雙匕首" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="2050"/>
-		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dualdagger"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18910" name="束縛的幻靈雙匕首" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="2050"/>
-		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dualdagger"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18911" name="束縛的幻靈雙鈍器" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
-		<set name="material" val="fine_steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="DualBlunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18912" name="束縛的幻靈雙鈍器" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
-		<set name="material" val="fine_steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="DualBlunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18913" name="束縛的幻靈雙鈍器" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
-		<set name="material" val="fine_steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="DualBlunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18914" name="祝福的幻靈鉋刀" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_ignicion_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="dagger"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="496"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18915" name="祝福的幻靈鉋刀" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_ignicion_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="dagger"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="496"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18916" name="祝福的幻靈鉋刀" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_ignicion_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="dagger"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="496"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18917" name="祝福的幻靈切刃" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_ninfea_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="sword"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18918" name="祝福的幻靈切刃" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_ninfea_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="sword"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18919" name="祝福的幻靈切刃" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_ninfea_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="sword"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18920" name="祝福的幻靈殺刃" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_skia_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="sword"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18921" name="祝福的幻靈殺刃" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_skia_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="sword"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18922" name="祝福的幻靈殺刃" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_skia_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="sword"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18923" name="祝福的幻靈復仇者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_ikeon_i01"/>
-		<set name="material" val="fine_steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18924" name="祝福的幻靈復仇者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_ikeon_i01"/>
-		<set name="material" val="fine_steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18925" name="祝福的幻靈復仇者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1740"/>
-		<set name="icon" val="icon.weapon_ikeon_i01"/>
-		<set name="material" val="fine_steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="rhand"/>
-		<set name="random_damage" val="20"/>
-		<set name="weapon_type" val="blunt"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="379"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18926" name="祝福的幻靈戰爪" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1550"/>
-		<set name="icon" val="icon.weapon_deodos_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="dualfist"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18927" name="祝福的幻靈戰爪" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1550"/>
-		<set name="icon" val="icon.weapon_deodos_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="dualfist"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18928" name="祝福的幻靈戰爪" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1550"/>
-		<set name="icon" val="icon.weapon_deodos_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="dualfist"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="690"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<add order="0x10" stat="accCombat" val="8.00"/>
-			<set order="0x08" stat="rCrit" val="6"/>
-		</for>
-	</item>
-	<item id="18929" name="祝福的幻靈風暴者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="2010"/>
-		<set name="icon" val="icon.weapon_transgredi_i01"/>
-		<set name="material" val="bronze"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="pole"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18930" name="祝福的幻靈風暴者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="2010"/>
-		<set name="icon" val="icon.weapon_transgredi_i01"/>
-		<set name="material" val="bronze"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="pole"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18931" name="祝福的幻靈風暴者" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="2010"/>
-		<set name="icon" val="icon.weapon_transgredi_i01"/>
-		<set name="material" val="bronze"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="pole"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="567"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="18932" name="祝福的幻靈投弓" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_solenas_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="bow"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="1117"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="293"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18933" name="祝福的幻靈投弓" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_solenas_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="bow"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="1117"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="293"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18934" name="祝福的幻靈投弓" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1520"/>
-		<set name="icon" val="icon.weapon_solenas_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="bow"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="1117"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="293"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18935" name="祝福的幻靈射靈" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1580"/>
-		<set name="icon" val="icon.weapon_lapis_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="crossbow"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="1005"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
-		</for>
-	</item>
-	<item id="18936" name="祝福的幻靈射靈" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1580"/>
-		<set name="icon" val="icon.weapon_lapis_i01"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="5"/>
-		<set name="weapon_type" val="crossbow"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="1005"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="275"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<sub order="0x10" stat="accCombat" val="3.75"/>
-			<set order="0x08" stat="rCrit" val="12"/>
 		</for>
 	</item>
 </list>

@@ -1,5 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="18100" name="祝福的艾迪奧斯項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r991_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="65"/>
+			<add order="0x10" stat="mDef" val="166"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="18101" name="祝福的艾迪奧斯耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r991_earring_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="49"/>
+			<add order="0x10" stat="mDef" val="124"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="18102" name="祝福的艾迪奧斯戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r991_ring_i00"/>
+		<set name="material" val="gold"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="33"/>
+			<add order="0x10" stat="mDef" val="83"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="18103" name="未確認的鎮魂鉋刀" type="EtcItem">
+		<set name="icon" val="icon.weapon_aspeda_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18104" name="未確認的鎮魂切刃" type="EtcItem">
+		<set name="icon" val="icon.weapon_estia_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18105" name="未確認的鎮魂殺刃" type="EtcItem">
+		<set name="icon" val="icon.weapon_polion_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18106" name="未確認的鎮魂復仇者" type="EtcItem">
+		<set name="icon" val="icon.weapon_batista_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18107" name="未確認的鎮魂戰爪" type="EtcItem">
+		<set name="icon" val="icon.weapon_fantasma_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18108" name="未確認的鎮魂風暴者" type="EtcItem">
+		<set name="icon" val="icon.weapon_soryu_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18109" name="未確認的鎮魂投弓" type="EtcItem">
+		<set name="icon" val="icon.weapon_grabathus_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18110" name="未確認的鎮魂射靈" type="EtcItem">
+		<set name="icon" val="icon.weapon_shyayaka_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18111" name="未確認的鎮魂爆刃" type="EtcItem">
+		<set name="icon" val="icon.weapon_kaynon_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18112" name="未確認的鎮魂術杖" type="EtcItem">
+		<set name="icon" val="icon.weapon_anatrian_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18113" name="未確認的鎮魂報恨者" type="EtcItem">
+		<set name="icon" val="icon.weapon_grangkaz_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18114" name="未確認的鎮魂雙刀" type="EtcItem">
+		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18115" name="未確認的鎮魂雙匕首" type="EtcItem">
+		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18116" name="未確認的鎮魂雙鈍器" type="EtcItem">
+		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18117" name="未確認的永生頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_helmet_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18118" name="未確認的永生胸甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t501_u_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18119" name="未確認的永生脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t501_l_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18120" name="未確認的永生護手" type="EtcItem">
+		<set name="icon" val="icon.armor_t501_g_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18121" name="未確認的永生靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t501_b_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18122" name="未確認的永生盾" type="EtcItem">
+		<set name="icon" val="icon.weapon_sacon_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18123" name="未確認的永生皮頭盔" type="EtcItem">
+		<set name="icon" val="icon.armor_leather_helmet_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18124" name="未確認的永生皮甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t502_u_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18125" name="未確認的永生皮脛甲" type="EtcItem">
+		<set name="icon" val="icon.armor_t502_l_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18126" name="未確認的永生皮手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t502_g_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18127" name="未確認的永生皮靴" type="EtcItem">
+		<set name="icon" val="icon.armor_t502_b_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18128" name="未確認的永生頭箍" type="EtcItem">
+		<set name="icon" val="icon.armor_circlet_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18129" name="未確認的永生外衣" type="EtcItem">
+		<set name="icon" val="icon.armor_t503_u_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18130" name="未確認的永生長襪" type="EtcItem">
+		<set name="icon" val="icon.armor_t503_l_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18131" name="未確認的永生手套" type="EtcItem">
+		<set name="icon" val="icon.armor_t503_g_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18132" name="未確認的永生鞋" type="EtcItem">
+		<set name="icon" val="icon.armor_t503_b_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18133" name="未確認的永生符印" type="EtcItem">
+		<set name="icon" val="icon.weapon_karyen_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18134" name="未確認的永生項鍊" type="EtcItem">
+		<set name="icon" val="icon.r1_necklace_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18135" name="未確認的永生耳環" type="EtcItem">
+		<set name="icon" val="icon.r1_earring_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="18136" name="未確認的永生戒指" type="EtcItem">
+		<set name="icon" val="icon.r1_ring_i00"/>
+		<set name="material" val="fish"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+	</item>
 	<item id="18137" name="未確認的英啟鉋刀" type="EtcItem">
 		<set name="icon" val="icon.weapon_phasian_i00"/>
 		<set name="material" val="fish"/>
@@ -376,228 +625,6 @@
 		<set name="icon" val="icon.armor_t403_g_i00"/>
 		<set name="material" val="fish"/>
 		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18200" name="未確認的卡戴拉鞋" type="EtcItem">
-		<set name="icon" val="icon.armor_t403_b_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18201" name="未確認的卡戴拉符印" type="EtcItem">
-		<set name="icon" val="icon.airtoil_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18202" name="未確認的卡戴拉項鍊" type="EtcItem">
-		<set name="icon" val="icon.r95_necklace_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18203" name="未確認的卡戴拉耳環" type="EtcItem">
-		<set name="icon" val="icon.r95_earring_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18204" name="未確認的卡戴拉戒指" type="EtcItem">
-		<set name="icon" val="icon.r95_ring_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r95"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18205" name="未確認的赫利奧斯鉋刀" type="EtcItem">
-		<set name="icon" val="icon.weapon_stanpid_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18206" name="未確認的赫利奧斯切刃" type="EtcItem">
-		<set name="icon" val="icon.weapon_plenitas_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18207" name="未確認的赫利奧斯殺刃" type="EtcItem">
-		<set name="icon" val="icon.weapon_bauen_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18208" name="未確認的赫利奧斯復仇者" type="EtcItem">
-		<set name="icon" val="icon.weapon_qutram_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18209" name="未確認的赫利奧斯戰爪" type="EtcItem">
-		<set name="icon" val="icon.weapon_durga_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18210" name="未確認的赫利奧斯風暴者" type="EtcItem">
-		<set name="icon" val="icon.weapon_crabel_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18211" name="未確認的赫利奧斯投弓" type="EtcItem">
-		<set name="icon" val="icon.weapon_castron_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18212" name="未確認的赫利奧斯射靈" type="EtcItem">
-		<set name="icon" val="icon.weapon_stilla_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18213" name="未確認的赫利奧斯爆刃" type="EtcItem">
-		<set name="icon" val="icon.weaon_serapear_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18214" name="未確認的赫利奧斯術杖" type="EtcItem">
-		<set name="icon" val="icon.weapon_pilia_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18215" name="未確認的赫利奧斯報恨者" type="EtcItem">
-		<set name="icon" val="icon.weapon_shaelon_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18216" name="未確認的赫利奧斯雙刀" type="EtcItem">
-		<set name="icon" val="icon.weapon_r_dualsword_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18217" name="未確認的赫利奧斯雙匕首" type="EtcItem">
-		<set name="icon" val="icon.weapon_r_dualdagger_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18218" name="未確認的赫利奧斯雙鈍器" type="EtcItem">
-		<set name="icon" val="icon.weapon_r_dualblunt_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18219" name="未確認的艾迪奧斯頭盔" type="EtcItem">
-		<set name="icon" val="icon.armor_helmet_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18220" name="未確認的艾迪奧斯胸甲" type="EtcItem">
-		<set name="icon" val="icon.armor_t701_u_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18221" name="未確認的艾迪奧斯脛甲" type="EtcItem">
-		<set name="icon" val="icon.armor_t701_l_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18222" name="未確認的艾迪奧斯護手" type="EtcItem">
-		<set name="icon" val="icon.armor_t701_g_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18223" name="未確認的艾迪奧斯靴" type="EtcItem">
-		<set name="icon" val="icon.armor_t701_b_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18224" name="未確認的艾迪奧斯盾" type="EtcItem">
-		<set name="icon" val="icon.weapon_akra_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18225" name="未確認的艾迪奧斯皮頭盔" type="EtcItem">
-		<set name="icon" val="icon.armor_leather_helmet_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18226" name="未確認的艾迪奧斯皮甲" type="EtcItem">
-		<set name="icon" val="icon.armor_t702_u_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18227" name="未確認的艾迪奧斯皮脛甲" type="EtcItem">
-		<set name="icon" val="icon.armor_t702_l_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18228" name="未確認的艾迪奧斯皮手套" type="EtcItem">
-		<set name="icon" val="icon.armor_t702_g_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18229" name="未確認的艾迪奧斯皮靴" type="EtcItem">
-		<set name="icon" val="icon.armor_t702_b_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18230" name="未確認的艾迪奧斯頭箍" type="EtcItem">
-		<set name="icon" val="icon.armor_circlet_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18231" name="未確認的艾迪奧斯外衣" type="EtcItem">
-		<set name="icon" val="icon.armor_t703_u_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18232" name="未確認的艾迪奧斯長襪" type="EtcItem">
-		<set name="icon" val="icon.armor_t703_l_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18233" name="未確認的艾迪奧斯手套" type="EtcItem">
-		<set name="icon" val="icon.armor_t703_g_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18234" name="未確認的艾迪奧斯鞋" type="EtcItem">
-		<set name="icon" val="icon.armor_t703_b_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18235" name="未確認的艾迪奧斯符印" type="EtcItem">
-		<set name="icon" val="icon.elos_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="18236" name="未確認的艾迪奧斯項鍊" type="EtcItem">
-		<set name="icon" val="icon.r991_necklace_i00"/>
-		<set name="material" val="fish"/>
-		<set name="crystal_type" val="r99"/>
 		<set name="crystal_count" val="1"/>
 	</item>
 </list>

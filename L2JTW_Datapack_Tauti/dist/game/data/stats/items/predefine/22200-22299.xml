@@ -1,5 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="22200" name="壺精封印手鐲-秋蓉" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="BranchSys2.icon.event_agathion_han_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="22201" name="秋蓉壺精組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i03"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22202" name="S80高級武器禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="cotton"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22203" name="博佩斯防具禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="cotton"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22204" name="屬性原石禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="cotton"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22205" name="屬性水晶禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="cotton"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22206" name="搜魂石-階段17禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="cotton"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22207" name="搜魂石-階段18禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="cotton"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22208" name="壞壞兔項鍊禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22209" name="壞壞兔耳環禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22210" name="壞壞兔戒指禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22211" name="壞壞兔項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_necklace"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="50"/>
+			<add order="0x10" stat="mDef" val="125"/>
+		</for>
+	</item>
+	<item id="22212" name="壞壞兔耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_earring"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="37"/>
+			<add order="0x10" stat="mDef" val="94"/>
+		</for>
+	</item>
+	<item id="22213" name="壞壞兔戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_ring"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+			<add order="0x10" stat="mDef" val="62"/>
+		</for>
+	</item>
+	<item id="22214" name="壞壞兔項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_necklace"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="neck"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="50"/>
+			<add order="0x10" stat="mDef" val="125"/>
+		</for>
+	</item>
+	<item id="22215" name="壞壞兔耳環" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_earring"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rear;lear"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="37"/>
+			<add order="0x10" stat="mDef" val="94"/>
+		</for>
+	</item>
+	<item id="22216" name="壞壞兔戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="30"/>
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_ring"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="25"/>
+			<add order="0x10" stat="mDef" val="62"/>
+		</for>
+	</item>
+	<item id="22217" name="秋蓉壺精禮物組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22218" name="破滅強化卷軸禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i00"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22219" name="破滅強化卷軸-S級組" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i01"/>
+		<set name="weight" val="100"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22220" name="秋蓉壺精的禮物" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i03"/>
+		<set name="material" val="cotton"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22221" name="破滅武器強化卷軸-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_wp"/>
+	</item>
+	<item id="22222" name="破滅防具強化卷軸-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_am"/>
+	</item>
+	<item id="22223" name="破滅武器強化卷軸-A級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_wp"/>
+	</item>
+	<item id="22224" name="破滅防具強化卷軸-A級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_am"/>
+	</item>
+	<item id="22225" name="破滅武器強化卷軸-B級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_wp"/>
+	</item>
+	<item id="22226" name="破滅防具強化卷軸-B級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_am"/>
+	</item>
+	<item id="22227" name="破滅武器強化卷軸-C級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_wp"/>
+	</item>
+	<item id="22228" name="破滅防具強化卷軸-C級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_c_i02"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_am"/>
+	</item>
+	<item id="22229" name="破滅武器強化卷軸-D級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_d_i01"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_wp"/>
+	</item>
+	<item id="22230" name="破滅防具強化卷軸-D級" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_d_i01"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="ancient_crystal_enchant_am"/>
+	</item>
+	<item id="22231" name="神祕的祝福的魔靈彈-S級" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_shot_gold_i01"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22232" name="神祕的靈魂彈組-S級" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_s_i00"/>
+		<set name="weight" val="500"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22233" name="神祕的祝福的魔靈彈組-S級" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_blessed_spiritshot_s_i00"/>
+		<set name="weight" val="500"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="crystal_type" val="s"/>
+		<set name="crystal_count" val="1"/>
+	</item>
+	<item id="22234" name="香甜巧克力禮盒" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22235" name="香甜巧克力" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="22236" name="情人節愛情小袋" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_lucky_bag_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
 	<item id="22237" name="閃耀對戒" type="Armor">
 		<set name="default_action" val="equip"/>
 		<set name="weight" val="0"/>
@@ -399,286 +644,6 @@
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
 		<set name="weight" val="10"/>
 		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="22300" name="奇蹟的快樂蛋糕 - 裝飾品" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_valentine_deco_i00"/>
-		<set name="weight" val="10"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="22301" name="香甜巧克力餅乾" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_valentine_cookie_i00"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="22302" name="安塔瑞斯耳環" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.accessory_earring_of_antaras_i00"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="rear;lear"/>
-		<set name="crystal_type" val="s"/>
-		<set name="crystal_count" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="37"/>
-			<add order="0x10" stat="mDef" val="94"/>
-		</for>
-	</item>
-	<item id="22303" name="安塔瑞斯耳環" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.accessory_earring_of_antaras_i00"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="rear;lear"/>
-		<set name="crystal_type" val="s"/>
-		<set name="crystal_count" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="37"/>
-			<add order="0x10" stat="mDef" val="94"/>
-		</for>
-	</item>
-	<item id="22304" name="巴溫戒指" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.accessory_ring_of_baium_i00"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="rfinger;lfinger"/>
-		<set name="crystal_type" val="s"/>
-		<set name="crystal_count" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="21"/>
-			<add order="0x10" stat="mDef" val="48"/>
-		</for>
-	</item>
-	<item id="22305" name="巴溫戒指" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.accessory_ring_of_baium_i00"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="rfinger;lfinger"/>
-		<set name="crystal_type" val="s"/>
-		<set name="crystal_count" val="1"/>
-		<for>
-			<add order="0x40" stat="maxMp" val="21"/>
-			<add order="0x10" stat="mDef" val="48"/>
-		</for>
-	</item>
-	<item id="22306" name="武器強化卷軸-S級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_wp"/>
-	</item>
-	<item id="22307" name="武器強化卷軸-A級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_wp"/>
-	</item>
-	<item id="22308" name="防具強化卷軸-S級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_am"/>
-	</item>
-	<item id="22309" name="防具強化卷軸-A級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_am"/>
-	</item>
-	<item id="22310" name="艾雷格拉禮盒" type="EtcItem">
-		<set name="icon" val="Branchsys2.icon2.g_alegra_box"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="22311" name="拉圖斯禮盒" type="EtcItem">
-		<set name="icon" val="Branchsys2.icon2.g-latus_box"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="22312" name="特級魔法別針布腰帶" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="500"/>
-		<set name="icon" val="icon.armor_magic_pin_belt_i00"/>
-		<set name="material" val="cloth"/>
-		<set name="bodypart" val="waist"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="c"/>
-		<set name="crystal_count" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="10"/>
-		</for>
-	</item>
-	<item id="22313" name="特級魔法小袋布腰帶" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="500"/>
-		<set name="icon" val="icon.armor_magic_pouch_belt_i00"/>
-		<set name="material" val="cloth"/>
-		<set name="bodypart" val="waist"/>
-		<set name="armor_type" val="light"/>
-		<set name="crystal_type" val="c"/>
-		<set name="crystal_count" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="10"/>
-		</for>
-	</item>
-	<item id="22314" name="祝福的武器強化卷軸-S級" type="EtcItem">
-		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="bless_scrl_enchant_wp"/>
-	</item>
-	<item id="22315" name="祝福的防具強化卷軸-S級" type="EtcItem">
-		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="bless_scrl_enchant_am"/>
-	</item>
-	<item id="22316" name="祝福的武器強化卷軸-A級" type="EtcItem">
-		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="bless_scrl_enchant_wp"/>
-	</item>
-	<item id="22317" name="祝福的武器強化卷軸-B級" type="EtcItem">
-		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="bless_scrl_enchant_wp"/>
-	</item>
-	<item id="22318" name="祝福的防具強化卷軸-A級" type="EtcItem">
-		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="bless_scrl_enchant_am"/>
-	</item>
-	<item id="22319" name="祝福的防具強化卷軸-B級" type="EtcItem">
-		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="bless_scrl_enchant_am"/>
-	</item>
-	<item id="22320" name="武器強化卷軸-A級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_wp"/>
-	</item>
-	<item id="22321" name="武器強化卷軸-B級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_wp"/>
-	</item>
-	<item id="22322" name="防具強化卷軸-A級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_am"/>
-	</item>
-	<item id="22323" name="防具強化卷軸-B級" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_enchant_am"/>
-	</item>
-	<item id="22324" name="變身卷軸-勞庫" type="EtcItem">
-		<set name="icon" val="icon.etc_trans_4f_s_b_01"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="22325" name="變身卷軸-札肯" type="EtcItem">
-		<set name="icon" val="icon.etc_trans_4f_s_b_01"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="22326" name="青色護身符-魔法消除" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.etc_talisman_i01"/>
-		<set name="duration" val="65"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="22327" name="青色護身符-魔法竊取" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.etc_talisman_i01"/>
-		<set name="duration" val="65"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="22328" name="戰場用超強力生命靈藥" type="EtcItem">
-		<set name="icon" val="icon.etc_super_hp_potion_i05"/>
-		<set name="weight" val="5"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="elixir"/>
-		<set name="crystal_type" val="a"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="22329" name="戰場用超強力精神靈藥" type="EtcItem">
-		<set name="icon" val="icon.etc_super_mp_potion_i05"/>
-		<set name="weight" val="5"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="elixir"/>
-		<set name="crystal_type" val="a"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="22330" name="戰場用超強力鬥志靈藥" type="EtcItem">
-		<set name="icon" val="icon.etc_super_cp_potion_i05"/>
-		<set name="weight" val="5"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="elixir"/>
-		<set name="crystal_type" val="a"/>
-		<set name="crystal_count" val="1"/>
-	</item>
-	<item id="22331" name="7週年紀念禮盒" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="fish"/>
-	</item>
-	<item id="22332" name="7週年紅利禮盒" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="fish"/>
-	</item>
-	<item id="22333" name="英雄的寶箱" type="EtcItem">
-		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
-		<set name="material" val="fish"/>
-	</item>
-	<item id="22334" name="經驗值古文 50%" type="EtcItem">
-		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="etcitem_type" val="rune"/>
-	</item>
-	<item id="22335" name="破滅的精髓" type="EtcItem">
-		<set name="icon" val="icon.etc_crystal_blue_i00"/>
-		<set name="weight" val="10"/>
-		<set name="material" val="leather"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="22336" name="開拓者獎勵品-救護" type="EtcItem">
-		<set name="icon" val="icon.etc_bead_silver_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="fish"/>
 		<set name="is_stackable" val="true"/>
 	</item>
 </list>

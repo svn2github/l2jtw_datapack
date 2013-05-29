@@ -1,5 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="17600" name="冥途之書" type="EtcItem">
+		<set name="icon" val="icon.q10338_book_of_hades"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17601" name="地蟲的心臟部分" type="EtcItem">
+		<set name="icon" val="icon.earthworm_heart"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="17602" name="生體能量結晶" type="EtcItem">
+		<set name="icon" val="icon.high_star_stone_piece_i02"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17603" name="製作卷軸(樹木營養劑100%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_white_i00"/>
+		<set name="weight" val="30"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="17604" name="微光水晶" type="EtcItem">
+		<set name="icon" val="icon.glimmer_crystal"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17605" name="1千萬金幣" type="EtcItem">
+		<set name="icon" val="icon.fairy_adena_joke"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17606" name="據點的破片" type="EtcItem">
+		<set name="icon" val="icon.gd_square_fragment"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17607" name="寶石大廳鑰匙" type="EtcItem">
+		<set name="icon" val="icon.etc_key_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17608" name="能量控制裝置" type="EtcItem">
+		<set name="icon" val="icon.etc_medicine_of_growth_i00"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17609" name="伊絲蒂娜的項鍊" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.accessary_queen_of_ice_necklace_i00"/>
+		<set name="material" val="silver"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="bodypart" val="neck"/>
+		<set name="crystal_type" val="s80"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="50"/>
+			<add order="0x10" stat="mDef" val="125"/>
+			<enchant order="0x0C" stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="17610" name="生體能量殘留物" type="EtcItem">
+		<set name="icon" val="icon.etc_bark_green_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17611" name="巨型砲彈" type="EtcItem">
+		<set name="icon" val="icon.mde_big_bullet"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17612" name="記憶的破片" type="EtcItem">
+		<set name="icon" val="icon.mde_memory_fragment"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17613" name="遺忘的記憶的破片" type="EtcItem">
+		<set name="icon" val="icon.mde_memory_fragment02"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17614" name="潘提翁的書" type="EtcItem">
+		<set name="icon" val="icon.si_phanteon_book"/>
+		<set name="material" val="crystal"/>
+	</item>
+	<item id="17615" name="貝莉絲憑證" type="EtcItem">
+		<set name="icon" val="icon.bel_mark_clear"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17616" name="靈魂之燭" type="EtcItem">
+		<set name="icon" val="icon.darkelf_campaign_candle"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17617" name="寶石箱" type="EtcItem">
+		<set name="icon" val="icon.darkelf_campaign_box"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17618" name="幸運地圖" type="EtcItem">
+		<set name="icon" val="icon.fortuna_enter"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17619" name="遺物探索機" type="EtcItem">
+		<set name="icon" val="icon.summon_object_finder"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17620" name="殺蟲劑" type="EtcItem">
+		<set name="icon" val="icon.bug_spray_a"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17621" name="殺蟲劑" type="EtcItem">
+		<set name="icon" val="icon.bug_spray_b"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17622" name="殺蟲劑" type="EtcItem">
+		<set name="icon" val="icon.bug_spray_c"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17623" name="地蟲心臟戒指" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.ring_earthworm_heart"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="crystal_type" val="r"/>
+		<set name="crystal_count" val="1"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="38"/>
+			<add order="0x10" stat="mDef" val="108"/>
+		</for>
+	</item>
+	<item id="17624" name="傲慢標章" type="EtcItem">
+		<set name="icon" val="icon.token_of_oman"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17625" name="LV1 巨人力量紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_str"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17626" name="LV1 巨人敏捷紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_dex"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17627" name="LV1 巨人體質紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_con"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17628" name="LV1 巨人智力紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_int"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17629" name="LV1 巨人智慧紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_wit"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17630" name="LV1 巨人精神紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_1_dye_men"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17631" name="LV1 古代力量紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_str"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17632" name="LV1 古代敏捷紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_dex"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17633" name="LV1 古代體質紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_con"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17634" name="LV1 古代智力紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_int"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17635" name="LV1 古代智慧紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_wit"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
+	<item id="17636" name="LV1 古代精神紋章染料" type="EtcItem">
+		<set name="icon" val="icon.lv1_2_dye_men"/>
+		<set name="weight" val="150"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="dye"/>
+	</item>
 	<item id="17637" name="LV1 傳說力量紋章染料" type="EtcItem">
 		<set name="icon" val="icon.lv1_3_dye_str"/>
 		<set name="weight" val="150"/>
@@ -377,251 +587,5 @@
 		<set name="weight" val="150"/>
 		<set name="is_stackable" val="true"/>
 		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17700" name="LV5 巨人智力紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_1_dye_int"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17701" name="LV5 巨人智慧紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_1_dye_wit"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17702" name="LV5 巨人精神紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_1_dye_men"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17703" name="LV5 古代力量紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_2_dye_str"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17704" name="LV5 古代敏捷紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_2_dye_dex"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17705" name="LV5 古代體質紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_2_dye_con"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17706" name="LV5 古代智力紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_2_dye_int"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17707" name="LV5 古代智慧紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_2_dye_wit"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17708" name="LV5 古代精神紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_2_dye_men"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17709" name="LV5 傳說力量紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_3_dye_str"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17710" name="LV5 傳說敏捷紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_3_dye_dex"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17711" name="LV5 傳說體質紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_3_dye_con"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17712" name="LV5 傳說智力紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_3_dye_int"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17713" name="LV5 傳說智慧紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_3_dye_wit"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17714" name="LV5 傳說精神紋章染料" type="EtcItem">
-		<set name="icon" val="icon.lv5_3_dye_men"/>
-		<set name="weight" val="150"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="dye"/>
-	</item>
-	<item id="17715" name="Gstar用斗篷" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="220"/>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="material" val="cloth"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="s80"/>
-		<set name="crystal_count" val="1"/>
-		<for>
-			<add order="0x10" stat="pDef" val="20"/>
-		</for>
-	</item>
-	<item id="17716" name="亞格尼諾雅雙刀" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1"/>
-		<set name="icon" val="icon.weapon_dual_sword_i00"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dual"/>
-		<set name="crystal_type" val="s80"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="532"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="192"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="433"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="17717" name="亞格尼諾雅雙刀 {對戰用}" type="Weapon">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="1"/>
-		<set name="icon" val="icon.weapon_dual_sword_i00"/>
-		<set name="material" val="steel"/>
-		<set name="enchant_enabled" val="1"/>
-		<set name="bodypart" val="lrhand"/>
-		<set name="random_damage" val="10"/>
-		<set name="weapon_type" val="dual"/>
-		<set name="crystal_type" val="s80"/>
-		<set name="crystal_count" val="1"/>
-		<set name="soulshots" val="1"/>
-		<set name="spiritshots" val="1"/>
-		<for>
-			<set order="0x08" stat="pAtk" val="532"/>
-			<enchant order="0x0C" stat="pAtk" val="0"/>
-			<set order="0x08" stat="mAtk" val="192"/>
-			<enchant order="0x0C" stat="mAtk" val="0"/>
-			<set order="0x08" stat="pAtkSpd" val="325"/>
-			<set order="0x08" stat="rCrit" val="8"/>
-		</for>
-	</item>
-	<item id="17718" name="石化的巨人手部" type="EtcItem">
-		<set name="icon" val="icon.etc_broken_statue_arm_i00"/>
-		<set name="weight" val="1"/>
-		<set name="material" val="bronze"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17719" name="石化的巨人腳部" type="EtcItem">
-		<set name="icon" val="icon.etc_broken_statue_leg_i00"/>
-		<set name="weight" val="1"/>
-		<set name="material" val="bronze"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17720" name="石化的巨人手部碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_broken_crystal_white_i00"/>
-		<set name="weight" val="1"/>
-		<set name="material" val="bronze"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17721" name="石化的巨人腳部碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_broken_crystal_silver_i00"/>
-		<set name="weight" val="1"/>
-		<set name="material" val="bronze"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17722" name="命運之石" type="EtcItem">
-		<set name="icon" val="icon.destiny_stone"/>
-		<set name="material" val="crystal"/>
-	</item>
-	<item id="17723" name="研磨的古代英雄之盾" type="EtcItem">
-		<set name="icon" val="icon.shield_shrnoens_shield_i00"/>
-		<set name="weight" val="80"/>
-		<set name="material" val="crystal"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17724" name="奧爾比斯古代英雄之盾" type="EtcItem">
-		<set name="icon" val="icon.shield_shrnoens_shield_i00"/>
-		<set name="weight" val="80"/>
-		<set name="material" val="crystal"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17725" name="拉達的信函" type="EtcItem">
-		<set name="icon" val="icon.etc_permit_card_i00"/>
-		<set name="material" val="crystal"/>
-	</item>
-	<item id="17726" name="返回卷軸-克魯瑪高塔" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_return_i00"/>
-		<set name="weight" val="30"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17727" name="返回卷軸-傲慢之塔" type="EtcItem">
-		<set name="icon" val="icon.etc_scroll_of_return_i00"/>
-		<set name="weight" val="30"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17728" name="梅爾提斯之核" type="EtcItem">
-		<set name="icon" val="icon.etc_holy_stone_i00"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="17729" name="梅爾提斯之核" type="EtcItem">
-		<set name="icon" val="icon.etc_holy_stone_i00"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="17730" name="地蟲軀幹部分" type="EtcItem">
-		<set name="icon" val="icon.etc_bodypart_liver_i00"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="17731" name="地蟲心臟部分" type="EtcItem">
-		<set name="icon" val="icon.etc_bodypart_heart_i00"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="17732" name="地蟲尾巴部分" type="EtcItem">
-		<set name="icon" val="icon.etc_scale_of_medusa_green_i00"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="17733" name="受詛咒的殘骸" type="EtcItem">
-		<set name="icon" val="icon.etc_pouch_gray_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17734" name="地蟲遺骸碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_pouch_brown_i00"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="17735" name="特拉贊之卵碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_pouch_yellow_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_depositable" val="false"/>
-		<set name="is_sellable" val="false"/>
-		<set name="is_tradable" val="false"/>
-		<set name="is_questitem" val="true"/>
-		<set name="is_dropable" val="false"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="17736" name="忠實者之血" type="EtcItem">
-		<set name="icon" val="icon.etc_potion_red_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
 	</item>
 </list>

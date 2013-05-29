@@ -1,5 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="21500" name="銀色貓帽組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21501" name="銀色貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21502" name="銀色貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21503" name="銀色貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21504" name="銀色貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21505" name="銀色貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21506" name="銀色貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21507" name="皇后貓帽 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21508" name="皇后貓帽 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21509" name="皇后貓帽 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21510" name="皇后貓帽 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21511" name="皇后貓帽組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21512" name="皇后貓帽組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21513" name="皇后貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21514" name="皇后貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21515" name="皇后貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21516" name="皇后貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21517" name="皇后貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21518" name="皇后貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21519" name="國王貓帽 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21520" name="國王貓帽 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21521" name="國王貓帽 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21522" name="國王貓帽 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21523" name="國王貓帽組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21524" name="國王貓帽組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21525" name="國王貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21526" name="國王貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21527" name="國王貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21528" name="國王貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21529" name="國王貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21530" name="國王貓帽" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="21531" name="緞帶髮飾 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21532" name="緞帶髮飾 7日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21533" name="緞帶髮飾 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21534" name="緞帶髮飾 30日/組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21535" name="緞帶髮飾組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="21536" name="緞帶髮飾組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
 	<item id="21537" name="緞帶髮飾" type="Armor">
 		<set name="default_action" val="equip"/>
 		<set name="weight" val="10"/>
@@ -399,227 +620,6 @@
 	<item id="21599" name="狩獵包裹200" type="EtcItem">
 		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
 		<set name="material" val="fish"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21600" name="標準包裹300" type="EtcItem">
-		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
-		<set name="material" val="fish"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21601" name="經驗值古文 30% 5小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21602" name="經驗值古文 50% 5小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21603" name="經驗值古文 30% 10小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21604" name="經驗值古文 50% 10小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21605" name="經驗值古文 30% 7日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21606" name="經驗值古文 50% 7日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21607" name="SP古文 30% 5小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21608" name="SP古文 50% 5小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21609" name="SP古文 30% 10小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21610" name="SP古文 50% 10小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21611" name="SP古文 30% 7日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21612" name="SP古文 50% 7日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21613" name="結晶型古文 3級 5小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21614" name="結晶型古文 5級 5小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21615" name="結晶型古文 3級 10小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21616" name="結晶型古文 5級 10小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21617" name="結晶型古文 3級 7日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21618" name="結晶型古文 5級 7日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21619" name="羽毛古文 24小時/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21620" name="武器用強化輔助石-D級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21621" name="武器用強化輔助石-C級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21622" name="武器用強化輔助石-B級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21623" name="武器用強化輔助石-A級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21624" name="武器用強化輔助石-S級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21625" name="防具用強化輔助石-D級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21626" name="防具用強化輔助石-C級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21627" name="防具用強化輔助石-B級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21628" name="防具用強化輔助石-A級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21629" name="防具用強化輔助石-S級/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21630" name="活力維持藥水組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21631" name="活力充能藥水組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21632" name="香甜水果雞尾酒組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21633" name="爽口水果雞尾酒組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21634" name="淡紫鬃馬騎乘手鐲 7日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21635" name="淡紫鬃馬騎乘手鐲 30日/組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="21636" name="淡紫鬃馬騎乘手鐲組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
 	</item>
 </list>

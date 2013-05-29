@@ -1,5 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="19300" name="未確認的艾迪奧斯鞋材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19301" name="未確認的艾迪奧斯符印材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19302" name="未確認的艾迪奧斯項鍊寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r991_necklace_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19303" name="未確認的艾迪奧斯耳環寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r991_earring_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19304" name="未確認的艾迪奧斯戒指寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r991_ring_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19305" name="巨人戰爭工匠的骨架" type="EtcItem">
+		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19306" name="巨人里澳林的模具" type="EtcItem">
+		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19307" name="巨人名匠砧鎖" type="EtcItem">
+		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19308" name="巨人戰爭工匠的模具" type="EtcItem">
+		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19309" name="都蘭達合金" type="EtcItem">
+		<set name="icon" val="icon.etc_lump_silver_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19310" name="高級合成炭焦" type="EtcItem">
+		<set name="icon" val="icon.etc_synthetic_cokes_i01"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19311" name="拉托雷里姆" type="EtcItem">
+		<set name="icon" val="icon.etc_sardonyx_i00_32"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19312" name="伊特紐合金" type="EtcItem">
+		<set name="icon" val="icon.etc_lump_gold_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19313" name="埃泰爾" type="EtcItem">
+		<set name="icon" val="icon.etc_gem_violet_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19314" name="黑鐵" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_violet_i00"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19315" name="製工溶劑" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i04"/>
+		<set name="weight" val="2"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19316" name="製作卷軸(未確認的鎮魂鉋刀60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19317" name="製作卷軸(未確認的鎮魂切刃60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19318" name="製作卷軸(未確認的鎮魂殺刃60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19319" name="製作卷軸(未確認的鎮魂復仇者60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19320" name="製作卷軸(未確認的鎮魂戰爪60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19321" name="製作卷軸(未確認的鎮魂風暴者60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19322" name="製作卷軸(未確認的鎮魂投弓60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19323" name="製作卷軸(未確認的鎮魂射靈60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19324" name="製作卷軸(未確認的鎮魂爆刃60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19325" name="製作卷軸(未確認的鎮魂術杖60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19326" name="製作卷軸(未確認的鎮魂報恨者60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19327" name="製作卷軸(未確認的永生頭盔60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19328" name="製作卷軸(未確認的永生胸甲60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19329" name="製作卷軸(未確認的永生脛甲60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19330" name="製作卷軸(未確認的永生護手60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19331" name="製作卷軸(未確認的永生靴60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19332" name="製作卷軸(未確認的永生盾60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19333" name="製作卷軸(未確認的永生皮頭盔60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19334" name="製作卷軸(未確認的永生皮胸甲60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19335" name="製作卷軸(未確認的永生皮脛甲60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
+	<item id="19336" name="製作卷軸(未確認的永生皮手套60%)" type="EtcItem">
+		<set name="icon" val="icon.etc_recipe_gold_i00"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="recipe"/>
+	</item>
 	<item id="19337" name="製作卷軸(未確認的永生皮靴60%)" type="EtcItem">
 		<set name="icon" val="icon.etc_recipe_gold_i00"/>
 		<set name="weight" val="30"/>
@@ -373,228 +595,6 @@
 		<set name="etcitem_type" val="recipe"/>
 	</item>
 	<item id="19399" name="製作卷軸(未確認的卡戴拉皮靴60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19400" name="製作卷軸(未確認的卡戴拉頭箍60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19401" name="製作卷軸(未確認的卡戴拉外衣60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19402" name="製作卷軸(未確認的卡戴拉長襪60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19403" name="製作卷軸(未確認的卡戴拉手套60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19404" name="製作卷軸(未確認的卡戴拉鞋60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19405" name="製作卷軸(未確認的卡戴拉符印60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19406" name="製作卷軸(未確認的卡戴拉項鍊60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19407" name="製作卷軸(未確認的卡戴拉耳環60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19408" name="製作卷軸(未確認的卡戴拉戒指60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19409" name="製作卷軸(未確認的赫利奧斯鉋刀60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19410" name="製作卷軸(未確認的赫利奧斯切刃60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19411" name="製作卷軸(未確認的赫利奧斯殺刃60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19412" name="製作卷軸(未確認的赫利奧斯復仇者60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19413" name="製作卷軸(未確認的赫利奧斯戰爪60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19414" name="製作卷軸(未確認的赫利奧斯風暴者60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19415" name="製作卷軸(未確認的赫利奧斯投弓60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19416" name="製作卷軸(未確認的赫利奧斯射靈60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19417" name="製作卷軸(未確認的赫利奧斯爆刃60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19418" name="製作卷軸(未確認的赫利奧斯術杖60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19419" name="製作卷軸(未確認的赫利奧斯報恨者60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19420" name="製作卷軸(未確認的艾迪奧斯頭盔60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19421" name="製作卷軸(未確認的艾迪奧斯胸甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19422" name="製作卷軸(未確認的艾迪奧斯脛甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19423" name="製作卷軸(未確認的艾迪奧斯護手60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19424" name="製作卷軸(未確認的艾迪奧斯靴60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19425" name="製作卷軸(未確認的艾迪奧斯盾60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19426" name="製作卷軸(未確認的艾迪奧斯皮頭盔60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19427" name="製作卷軸(未確認的艾迪奧斯皮胸甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19428" name="製作卷軸(未確認的艾迪奧斯皮脛甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19429" name="製作卷軸(未確認的艾迪奧斯皮手套60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19430" name="製作卷軸(未確認的艾迪奧斯皮靴60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19431" name="製作卷軸(未確認的艾迪奧斯頭箍60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19432" name="製作卷軸(未確認的艾迪奧斯外衣60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19433" name="製作卷軸(未確認的艾迪奧斯長襪60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19434" name="製作卷軸(未確認的艾迪奧斯手套60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19435" name="製作卷軸(未確認的艾迪奧斯鞋60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19436" name="製作卷軸(未確認的艾迪奧斯符印60%)" type="EtcItem">
 		<set name="icon" val="icon.etc_recipe_gold_i00"/>
 		<set name="weight" val="30"/>
 		<set name="is_stackable" val="true"/>

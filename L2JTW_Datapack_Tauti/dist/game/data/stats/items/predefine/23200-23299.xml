@@ -1,5 +1,441 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="23200" name="台灣傳統衣裳加工石組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23201" name="黑暗飾品箱" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23202" name="閃耀的X235行星面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_alien_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23203" name="閃耀的科學怪人面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_frankenstein_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23204" name="閃耀的驚聲尖叫面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_scream_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23205" name="閃耀的憤怒精靈面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_doccabi_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23206" name="閃耀的不朽骸骨面具" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="10"/>
+		<set name="icon" val="icon.ev_shiny_mummy_mask_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23207" name="調皮頭飾禮盒" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23208" name="再生的紅色藥水" type="EtcItem">
+		<set name="icon" val="BranchSys2.br_essence_rose_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="23209" name="恢復的藍色藥水" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_vitality_potion_i00"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="23210" name="殭屍變身卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_white_i00"/>
+		<set name="weight" val="10"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23211" name="龍獸衝槌加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_blunt"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23212" name="芙蕾雅魔杖加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_blunt"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23213" name="斯佩席亞戰爪加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualfist"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23214" name="梅莉莎風暴者加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_pole"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23215" name="斯泰里格斯匕首加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dagger"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23216" name="普倫雙鈍器加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualblunt"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23217" name="達里昂的貫雷劍加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23218" name="人偶刀手的庖刀" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualdagger"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23219" name="蒂雅特的蒂雅堤諾加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_blunt"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23220" name="亞恩奇奈爾的阿斯塔洛特加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dual"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23221" name="艾罕 克蘭尼庫斯的提爾鋒加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_sword"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23222" name="瑪蒂之風的加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23223" name="怪物武器加工石禮盒A" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23224" name="怪物武器加工石禮盒B" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="fish"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23225" name="靈魂具現體用超大型能量種子" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_shield_bread_i01"/>
+		<set name="material" val="gold"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23226" name="誘人泳裝" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_03"/>
+		<set name="material" val="cloth"/>
+		<set name="bodypart" val="alldress"/>
+		<set name="armor_type" val="heavy"/>
+	</item>
+	<item id="23227" name="蘋果氣泡水" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_apfelschorle_germany"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23228" name="烤香腸" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_bratwurst_germany"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23229" name="德國麵包" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_brezel_germany"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23230" name="綜合點心" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon1.g_studentenfutter_germany"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23231" name="亞利亞戰士的頭盔" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys2.icon.br_close_helmet_i00"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="hairall"/>
+	</item>
+	<item id="23232" name="遠古卡爾提亞迷宮的痕跡" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_ev_magic_powder"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="23233" name="遠古卡爾提亞迷宮的痕跡" type="EtcItem">
+		<set name="icon" val="BranchSys3.Icon.g_ev_magic_powder"/>
+		<set name="weight" val="10"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="potion"/>
+	</item>
+	<item id="23234" name="艷麗泳裝加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_scrl_change_co_swimsuit_01"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23235" name="誘人泳裝加工石" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_scrl_change_co_swimsuit_01"/>
+		<set name="material" val="steel"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="scroll"/>
+	</item>
+	<item id="23236" name="海賊王 烏山卡之墓回歸卷軸" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_i00"/>
+		<set name="material" val="paper"/>
+	</item>
+	<item id="23237" name="壺精封印手鐲-海賊王 烏山卡" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="0"/>
+		<set name="icon" val="BranchSys.icon.br_aga_uthanka_i00"/>
+		<set name="material" val="silver"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="23238" name="祝福的殷海薩襯衫強化卷軸禮盒" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23239" name="強化的帕格立歐襯衫組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23240" name="帕格立歐襯衫" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="130"/>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_fire"/>
+		<set name="material" val="crystal"/>
+		<set name="bodypart" val="chest"/>
+		<for>
+			<add order="0x10" stat="pDef" val="28"/>
+		</for>
+	</item>
+	<item id="23241" name="祝福的殷海薩襯衫強化卷軸" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="bless_scrl_enchant_am"/>
+	</item>
+	<item id="23242" name="蘊含光之祝福的武器禮盒-D" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23243" name="蘊含光之祝福的武器禮盒-C" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23244" name="蘊含光之祝福的武器禮盒-B" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23245" name="蘊含光之祝福的武器禮盒-A" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23246" name="蘊含光之祝福的武器禮盒-S" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23247" name="蘊含光之祝福的防具禮盒-D" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23248" name="蘊含光之祝福的防具禮盒-C" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23249" name="蘊含光之祝福的防具禮盒-B" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23250" name="蘊含光之祝福的防具禮盒-A" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23251" name="蘊含光之祝福的防具禮盒-S" type="EtcItem">
+		<set name="icon" val="icon.event_hero_treasure_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23252" name="盟約憑證" type="EtcItem">
+		<set name="icon" val="icon.etc_badge_black_i00"/>
+		<set name="material" val="crystal"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23253" name="經驗值古文 50%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23254" name="經驗值古文 100%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23255" name="經驗值古文 100%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23256" name="經驗值古文 100%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23257" name="經驗值古文 200%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23258" name="經驗值古文 200%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23259" name="經驗值古文 200%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23260" name="SP古文 50%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23261" name="SP古文 100%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23262" name="SP古文 100%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23263" name="SP古文 100%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23264" name="SP古文 200%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23265" name="SP古文 200%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23266" name="SP古文 200%" type="EtcItem">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23267" name="伊娃古文" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_rune_of_eva_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23268" name="伊娃古文" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_rune_of_eva_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23269" name="伊娃古文" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_rune_of_eva_i00"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23270" name="梅芙古文 50%" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23271" name="梅芙古文 100%" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23272" name="梅芙古文 200%" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23273" name="梅芙古文 50%" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23274" name="梅芙古文 100%" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23275" name="梅芙古文 200%" type="EtcItem">
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up"/>
+		<set name="material" val="paper"/>
+		<set name="etcitem_type" val="rune"/>
+	</item>
+	<item id="23276" name="經驗值古文 50%（30日）組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23277" name="經驗值古文 100%（1小時）組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23278" name="經驗值古文 100%（7日）組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23279" name="經驗值古文 100%（30日）組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23280" name="經驗值古文 200%（1小時）組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="23281" name="經驗值古文 200%（7日）組" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="material" val="paper"/>
+		<set name="is_stackable" val="true"/>
+	</item>
 	<item id="23282" name="經驗值古文 200%（30日）組" type="EtcItem">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
 		<set name="material" val="paper"/>
@@ -89,462 +525,5 @@
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
 		<set name="material" val="paper"/>
 		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23300" name="強化的沙哈襯衫組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23301" name="沙哈襯衫" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="130"/>
-		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_wind"/>
-		<set name="material" val="crystal"/>
-		<set name="bodypart" val="chest"/>
-		<for>
-			<add order="0x10" stat="pDef" val="28"/>
-		</for>
-	</item>
-	<item id="23302" name="祝福的殷海薩襯衫強化卷軸禮盒" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23303" name="強化的伊娃襯衫組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23304" name="伊娃襯衫" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="130"/>
-		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_water"/>
-		<set name="material" val="crystal"/>
-		<set name="bodypart" val="chest"/>
-		<for>
-			<add order="0x10" stat="pDef" val="28"/>
-		</for>
-	</item>
-	<item id="23305" name="祝福的殷海薩襯衫強化卷軸禮盒" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23306" name="強化的梅芙襯衫組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23307" name="梅芙襯衫" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="130"/>
-		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_earth"/>
-		<set name="material" val="crystal"/>
-		<set name="bodypart" val="chest"/>
-		<for>
-			<add order="0x10" stat="pDef" val="28"/>
-		</for>
-	</item>
-	<item id="23308" name="製作卷軸(精靈果香啤酒)" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_valentine_recipe_i00"/>
-		<set name="weight" val="10"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="23309" name="精靈果香啤酒" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_lager"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23310" name="狄恩特調" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_lager"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23311" name="矮人皇室釀酒" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_lager"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23312" name="亞丁白啤酒" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_lager"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23313" name="格蘭肯快樂啤酒" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_octoberfest_beer"/>
-		<set name="weight" val="100"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23314" name="啤酒材料-大麥" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_malt"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23315" name="啤酒材料-啤酒花" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_hops"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23316" name="啤酒材料-酵母" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_yeast"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23318" name="啤酒桶" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_beerfestival_beer_barrel"/>
-		<set name="weight" val="10"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23319" name="封印著哈普力量古文-限時3日" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_power"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23320" name="封印著哈普魔法古文-限時3日" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_magic"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23321" name="封印著弗林特意志古文-限時3日" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_will"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23322" name="封印著弗林特破壞古文-限時3日" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_destroy"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23323" name="封印著毀滅博士技巧古文-限時3日" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_tech"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23324" name="封印著毀滅博士智慧古文-限時3日" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_wisdom"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23325" name="封印著哈普力量古文" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_power"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23326" name="封印著哈普魔法古文" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_magic"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23327" name="封印著弗林特意志古文" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_will"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23328" name="封印著弗林特破壞古文" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_destroy"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23329" name="封印著毀滅博士技巧古文" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_tech"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23330" name="封印著毀滅博士智慧古文" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_wisdom"/>
-		<set name="material" val="paper"/>
-	</item>
-	<item id="23331" name="30分鐘活力維持藥水" type="EtcItem">
-		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="23332" name="奈比特沙漏-1小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="23333" name="奈比特沙漏-2小時" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i03"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="23334" name="靈魂彈組-R級" type="EtcItem">
-		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00"/>
-		<set name="weight" val="500"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23335" name="祝福的魔靈彈組-R級" type="EtcItem">
-		<set name="icon" val="icon.br_cash_pack_of_blessed_spiritshot_r_i00"/>
-		<set name="weight" val="500"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23336" name="上級活力提升卷軸" type="EtcItem">
-		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_count_up_2"/>
-		<set name="weight" val="30"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="23337" name="特級活力提升卷軸" type="EtcItem">
-		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_count_up_3"/>
-		<set name="weight" val="30"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="23338" name="活力充能卷軸" type="EtcItem">
-		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up"/>
-		<set name="weight" val="30"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="23339" name="高級活力充能卷軸" type="EtcItem">
-		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up_2"/>
-		<set name="weight" val="30"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="23340" name="特級活力充能卷軸" type="EtcItem">
-		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up_3"/>
-		<set name="weight" val="30"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scroll"/>
-	</item>
-	<item id="23341" name="活力充能藥草茶" type="EtcItem">
-		<set name="icon" val="icon.etc_hot_spring_mineral_i00"/>
-		<set name="weight" val="80"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="23342" name="古代武器強化結晶-R級" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_wp_s_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="ancient_crystal_enchant_wp"/>
-	</item>
-	<item id="23343" name="神聖武器強化結晶-R級" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="ancient_crystal_enchant_wp"/>
-	</item>
-	<item id="23344" name="古代防具強化結晶-R級" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="ancient_crystal_enchant_am"/>
-	</item>
-	<item id="23345" name="神聖防具強化結晶-R級" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_am_s_i00"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="ancient_crystal_enchant_am"/>
-	</item>
-	<item id="23346" name="文字收藏家的禮物" type="EtcItem">
-		<set name="icon" val="icon.shield_bread_i01"/>
-		<set name="weight" val="5"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="potion"/>
-	</item>
-	<item id="23347" name="武器用強化輔助石-R級" type="EtcItem">
-		<set name="icon" val="icon.ench_wp_potion_violet_i00"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp"/>
-	</item>
-	<item id="23348" name="防具用強化輔助石-R級" type="EtcItem">
-		<set name="icon" val="icon.ench_am_potion_violet_i00"/>
-		<set name="weight" val="120"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="scrl_inc_enchant_prop_am"/>
-	</item>
-	<item id="23349" name="強化的沃夫襯衫組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23350" name="變身卷軸禮盒" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="cotton"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23351" name="武器加工石-R級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_wp_stone_r"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23352" name="武器加工石-S級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_wp_stone_s"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23353" name="武器加工石-A級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_wp_stone_a"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23354" name="祝福的武器加工石-R級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_bless_shape_shifting__wp_stone_r"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23355" name="祝福的武器加工石-S級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_bless_shape_shifting__wp_stone_s"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23356" name="祝福的武器加工石-A級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_bless_shape_shifting__wp_stone_a"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23357" name="武器外型復原石-R級" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_r"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23358" name="武器外型復原石-S級" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_s"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23359" name="武器外型復原石-A級" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_a"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23360" name="防具加工石-R級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_am_stone_r"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23361" name="防具加工石-S級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_am_stone_s"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23362" name="防具加工石-A級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_am_stone_a"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23363" name="祝福的防具加工石-R級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_bless_shape_shifting__am_stone_r"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23364" name="祝福的防具加工石-S級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_bless_shape_shifting__am_stone_s"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23365" name="祝福的防具加工石-A級" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_bless_shape_shifting__am_stone_a"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23366" name="防具外型復原石-R級" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_r"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23367" name="防具外型復原石-S級" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_s"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23368" name="防具外型復原石-A級" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_a"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23369" name="頭飾加工石" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2_stone"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23370" name="祝福的頭飾加工石" type="EtcItem">
-		<set name="icon" val="BranchSys3.Icon.g_bless_shape_shifting_hair2_stone"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23371" name="頭飾外型復原石" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_r"/>
-		<set name="material" val="paper"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23372" name="武器加工石&amp;復原石-R級/1個組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23373" name="武器加工石&amp;復原石-S級/1個組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23374" name="防具加工石&amp;復原石-R級/1個組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23375" name="防具加工石&amp;復原石-S級/1個組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23376" name="頭飾加工石&amp;復原石-1個組" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
-		<set name="material" val="steel"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23377" name="天堂寶箱" type="EtcItem">
-		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_box_r"/>
-		<set name="material" val="cotton"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="23378" name="夢幻寶箱" type="EtcItem">
-		<set name="icon" val="BranchSys.icon.br_fortuna_box_s_i00"/>
-		<set name="material" val="cotton"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23379" name="榮譽寶箱" type="EtcItem">
-		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00"/>
-		<set name="material" val="cotton"/>
-		<set name="is_stackable" val="true"/>
-	</item>
-	<item id="23380" name="雅戴妮軍用內衣" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="130"/>
-		<set name="icon" val="BranchSys3.icon1.g_co_military_undwrwear"/>
-		<set name="material" val="crystal"/>
-		<set name="bodypart" val="underwear"/>
-		<for>
-			<add order="0x10" stat="pDef" val="35"/>
-			<add order="0x10" stat="mDef" val="15"/>
-		</for>
-	</item>
-	<item id="23381" name="雅戴妮優質內衣" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="130"/>
-		<set name="icon" val="BranchSys3.icon1.g_co_premium_underwear"/>
-		<set name="material" val="crystal"/>
-		<set name="bodypart" val="underwear"/>
-		<for>
-			<add order="0x10" stat="pDef" val="35"/>
-			<add order="0x10" stat="mDef" val="15"/>
-		</for>
 	</item>
 </list>

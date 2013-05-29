@@ -1,5 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="19200" name="未確認的永生項鍊寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r1_necklace_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19201" name="未確認的永生耳環寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r1_earring_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19202" name="未確認的永生戒指寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r1_ring_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19203" name="未確認的英啟鉋刀碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_shaper_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19204" name="未確認的英啟切刃碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_cutter_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19205" name="未確認的英啟殺刃碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_slasher_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19206" name="未確認的英啟復仇者碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_avenger_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19207" name="未確認的英啟戰爪碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_fighter_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19208" name="未確認的英啟風暴者碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_stormer_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19209" name="未確認的英啟投弓碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19210" name="未確認的英啟射靈碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19211" name="未確認的英啟爆刃碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_burster_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19212" name="未確認的英啟術杖碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_caster_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19213" name="未確認的英啟報恨者碎片" type="EtcItem">
+		<set name="icon" val="icon.etc_vesper_singer_piece_i00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19217" name="未確認的煉獄頭盔材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19218" name="未確認的煉獄胸甲材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19219" name="未確認的煉獄脛甲材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19220" name="未確認的煉獄護手材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19221" name="未確認的煉獄靴材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19222" name="未確認的煉獄盾材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19223" name="未確認的煉獄皮頭盔材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19224" name="未確認的煉獄皮胸甲材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19225" name="未確認的煉獄皮脛甲材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19226" name="未確認的煉獄皮手套材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19227" name="未確認的煉獄皮靴材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19228" name="未確認的煉獄頭箍材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19229" name="未確認的煉獄外衣材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19230" name="未確認的煉獄長襪材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19231" name="未確認的煉獄手套材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19232" name="未確認的煉獄鞋材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19233" name="未確認的煉獄符印材料" type="EtcItem">
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19234" name="未確認的煉獄項鍊寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r2_necklace_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19235" name="未確認的煉獄耳環寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r2_earring_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
+	<item id="19236" name="未確認的煉獄戒指寶石" type="EtcItem">
+		<set name="icon" val="icon.etc_r2_ring_piece"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="etcitem_type" val="material"/>
+	</item>
 	<item id="19237" name="未確認的幻靈鉋刀碎片" type="EtcItem">
 		<set name="icon" val="icon.etc_vesper_shaper_piece_i00"/>
 		<set name="weight" val="60"/>
@@ -341,227 +545,5 @@
 		<set name="weight" val="60"/>
 		<set name="is_stackable" val="true"/>
 		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19300" name="未確認的艾迪奧斯鞋材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19301" name="未確認的艾迪奧斯符印材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19302" name="未確認的艾迪奧斯項鍊寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r991_necklace_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19303" name="未確認的艾迪奧斯耳環寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r991_earring_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19304" name="未確認的艾迪奧斯戒指寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r991_ring_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19305" name="巨人戰爭工匠的骨架" type="EtcItem">
-		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19306" name="巨人里澳林的模具" type="EtcItem">
-		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19307" name="巨人名匠砧鎖" type="EtcItem">
-		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19308" name="巨人戰爭工匠的模具" type="EtcItem">
-		<set name="icon" val="icon.etc_blacksmiths_frame_i01"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19309" name="都蘭達合金" type="EtcItem">
-		<set name="icon" val="icon.etc_lump_silver_i00"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19310" name="高級合成炭焦" type="EtcItem">
-		<set name="icon" val="icon.etc_synthetic_cokes_i01"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19311" name="拉托雷里姆" type="EtcItem">
-		<set name="icon" val="icon.etc_sardonyx_i00_32"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19312" name="伊特紐合金" type="EtcItem">
-		<set name="icon" val="icon.etc_lump_gold_i00"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19313" name="埃泰爾" type="EtcItem">
-		<set name="icon" val="icon.etc_gem_violet_i00"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19314" name="黑鐵" type="EtcItem">
-		<set name="icon" val="icon.etc_crystal_ball_violet_i00"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19315" name="製工溶劑" type="EtcItem">
-		<set name="icon" val="icon.etc_dragons_blood_i04"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19316" name="製作卷軸(未確認的鎮魂鉋刀60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19317" name="製作卷軸(未確認的鎮魂切刃60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19318" name="製作卷軸(未確認的鎮魂殺刃60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19319" name="製作卷軸(未確認的鎮魂復仇者60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19320" name="製作卷軸(未確認的鎮魂戰爪60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19321" name="製作卷軸(未確認的鎮魂風暴者60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19322" name="製作卷軸(未確認的鎮魂投弓60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19323" name="製作卷軸(未確認的鎮魂射靈60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19324" name="製作卷軸(未確認的鎮魂爆刃60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19325" name="製作卷軸(未確認的鎮魂術杖60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19326" name="製作卷軸(未確認的鎮魂報恨者60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19327" name="製作卷軸(未確認的永生頭盔60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19328" name="製作卷軸(未確認的永生胸甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19329" name="製作卷軸(未確認的永生脛甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19330" name="製作卷軸(未確認的永生護手60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19331" name="製作卷軸(未確認的永生靴60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19332" name="製作卷軸(未確認的永生盾60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19333" name="製作卷軸(未確認的永生皮頭盔60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19334" name="製作卷軸(未確認的永生皮胸甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19335" name="製作卷軸(未確認的永生皮脛甲60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
-	</item>
-	<item id="19336" name="製作卷軸(未確認的永生皮手套60%)" type="EtcItem">
-		<set name="icon" val="icon.etc_recipe_gold_i00"/>
-		<set name="weight" val="30"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="recipe"/>
 	</item>
 </list>

@@ -1,5 +1,301 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="18400" name="R95特別護身符-MP恢復{被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_mp_rg_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18401" name="R99特別護身符-MP恢復{被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_mp_rg_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18402" name="R特別護身符-MP消耗量減少{被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r_sp_talisman_mp_rd_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18403" name="R85特別護身符-恢復魔法強化 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18404" name="R90特別護身符-恢復魔法強化 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18405" name="R95特別護身符-恢復魔法強化 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18406" name="R99特別護身符-恢復魔法強化 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_passive"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18407" name="R85特別護身符-恢復魔法強化 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18408" name="R90特別護身符-恢復魔法強化 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18409" name="R95特別護身符-恢復魔法強化 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18410" name="R99特別護身符-恢復魔法強化 {主動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_sp_talisman_hl_up_active"/>
+		<set name="duration" val="60"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18411" name="R85護身符-物理攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18412" name="R90護身符-物理攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18413" name="R95護身符-物理攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18414" name="R99護身符-物理攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18415" name="R85護身符-物理防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18416" name="R90護身符-物理防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18417" name="R95護身符-物理防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18418" name="R99護身符-物理防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18419" name="R85護身符-魔法攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18420" name="R90護身符-魔法攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18421" name="R95護身符-魔法攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18422" name="R99護身符-魔法攻擊力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18423" name="R85護身符-魔法防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18424" name="R90護身符-魔法防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18425" name="R95護身符-魔法防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18426" name="R99護身符-魔法防禦力 {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_md_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18427" name="R85護身符-HP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18428" name="R90護身符-HP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18429" name="R95護身符-HP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18430" name="R99護身符-HP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18431" name="R85護身符-MP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18432" name="R90護身符-MP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18433" name="R95護身符-MP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18434" name="R99護身符-MP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18435" name="R85護身符-CP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
+	<item id="18436" name="R90護身符-CP {被動}" type="Armor">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="150"/>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive"/>
+		<set name="duration" val="600"/>
+		<set name="material" val="gold"/>
+		<set name="bodypart" val="underwear"/>
+	</item>
 	<item id="18437" name="R95護身符-CP {被動}" type="Armor">
 		<set name="default_action" val="equip"/>
 		<set name="weight" val="150"/>
@@ -500,302 +796,6 @@
 		<set name="default_action" val="equip"/>
 		<set name="weight" val="150"/>
 		<set name="icon" val="icon.r85_sp_talisman_sd_up_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18500" name="R99特別護身符-盾牌防禦力 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sd_up_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18501" name="R85特別護身符-盾牌防禦力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sd_up_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18502" name="R90特別護身符-盾牌防禦力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sd_up_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18503" name="R95特別護身符-盾牌防禦力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sd_up_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18504" name="R99特別護身符-盾牌防禦力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sd_up_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18505" name="R85特別護身符-鬥力 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18506" name="R90特別護身符-鬥力 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18507" name="R95特別護身符-鬥力 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18508" name="R99特別護身符-鬥力 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18509" name="R85特別護身符-鬥力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18510" name="R90特別護身符-鬥力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18511" name="R95特別護身符-鬥力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18512" name="R99特別護身符-鬥力 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18513" name="R85特別護身符-MP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18514" name="R90特別護身符-MP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18515" name="R95特別護身符-MP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18516" name="R99特別護身符-MP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18517" name="R85特別護身符-HP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18518" name="R90特別護身符-HP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18519" name="R95特別護身符-HP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18520" name="R99特別護身符-HP吸收" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18521" name="R85特別護身符-射程距離增加 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18522" name="R90特別護身符-射程距離增加 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18523" name="R95特別護身符-射程距離增加 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18524" name="R99特別護身符-射程距離增加 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18525" name="R85特別護身符-射程距離增加 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18526" name="R90特別護身符-射程距離增加 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18527" name="R95特別護身符-射程距離增加 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18528" name="R99特別護身符-射程距離增加 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18529" name="R85特別護身符-使魔強化 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sm_st_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18530" name="R90特別護身符-使魔強化 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sm_st_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18531" name="R95特別護身符-使魔強化 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sm_st_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18532" name="R99特別護身符-使魔強化 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_sm_st_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18533" name="R特別護身符-使魔恢復 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r_sp_talisman_sm_rt_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18534" name="R特別護身符-施法中斷 {被動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r_sp_talisman_mg_rs_passive"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18535" name="R特別護身符-施法中斷 {主動}" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r_sp_talisman_mg_cc_active"/>
-		<set name="duration" val="600"/>
-		<set name="material" val="gold"/>
-		<set name="bodypart" val="underwear"/>
-	</item>
-	<item id="18536" name="R85特別護身符-MP恢復" type="Armor">
-		<set name="default_action" val="equip"/>
-		<set name="weight" val="150"/>
-		<set name="icon" val="icon.r85_sp_talisman_mp_rg_passive"/>
 		<set name="duration" val="600"/>
 		<set name="material" val="gold"/>
 		<set name="bodypart" val="underwear"/>

@@ -1,5 +1,733 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="19100" name="祝福的凱利爾投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1257"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19101" name="祝福的凱利爾投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1257"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19102" name="祝福的凱利爾投弓" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="bow"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="1257"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="293"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19103" name="祝福的凱利爾射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="809"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19104" name="祝福的凱利爾射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="809"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19105" name="祝福的凱利爾射靈" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1580"/>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="crossbow"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="809"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19106" name="祝福的凱利爾爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19107" name="祝福的凱利爾爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19108" name="祝福的凱利爾爆刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_burster_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19109" name="祝福的凱利爾術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19110" name="祝福的凱利爾術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19111" name="祝福的凱利爾術杖" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_caster_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="511"/>
+			<set order="0x08" stat="mAtk" val="371"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19112" name="祝福的凱利爾報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="622"/>
+			<set order="0x08" stat="mAtk" val="408"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19113" name="祝福的凱利爾報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="622"/>
+			<set order="0x08" stat="mAtk" val="408"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19114" name="祝福的凱利爾報恨者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1080"/>
+		<set name="icon" val="icon.weapon_vesper_singer_i01"/>
+		<set name="material" val="wood"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="622"/>
+			<set order="0x08" stat="mAtk" val="408"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19115" name="祝福的凱利爾雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19116" name="祝福的凱利爾雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19117" name="祝福的凱利爾雙刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dual"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19118" name="祝福的凱利爾雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19119" name="祝福的凱利爾雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19120" name="祝福的凱利爾雙匕首" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="2050"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="dualdagger"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19121" name="祝福的凱利爾雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19122" name="祝福的凱利爾雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19123" name="祝福的凱利爾雙鈍器" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="DualBlunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19124" name="祝福的凱利爾鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="559"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19125" name="祝福的凱利爾鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="559"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19126" name="祝福的凱利爾鉋刀" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dagger"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="559"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="433"/>
+			<sub order="0x10" stat="accCombat" val="3.75"/>
+			<set order="0x08" stat="rCrit" val="12"/>
+		</for>
+	</item>
+	<item id="19127" name="祝福的凱利爾切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19128" name="祝福的凱利爾切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19129" name="祝福的凱利爾切刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1520"/>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19130" name="祝福的凱利爾殺刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19131" name="祝福的凱利爾殺刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19132" name="祝福的凱利爾殺刃" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="10"/>
+		<set name="weapon_type" val="sword"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<set order="0x08" stat="rCrit" val="8"/>
+		</for>
+	</item>
+	<item id="19133" name="祝福的凱利爾復仇者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19134" name="祝福的凱利爾復仇者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19135" name="祝福的凱利爾復仇者" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1740"/>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01"/>
+		<set name="material" val="fine_steel"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="random_damage" val="20"/>
+		<set name="weapon_type" val="blunt"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="639"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="379"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
+	<item id="19136" name="祝福的凱利爾戰爪" type="Weapon">
+		<set name="default_action" val="equip"/>
+		<set name="weight" val="1550"/>
+		<set name="icon" val="icon.weapon_octoclaw_i01"/>
+		<set name="material" val="steel"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="random_damage" val="5"/>
+		<set name="weapon_type" val="dualfist"/>
+		<set name="crystal_type" val="r99"/>
+		<set name="crystal_count" val="1"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<for>
+			<set order="0x08" stat="pAtk" val="778"/>
+			<set order="0x08" stat="mAtk" val="327"/>
+			<set order="0x08" stat="pAtkSpd" val="325"/>
+			<add order="0x10" stat="accCombat" val="8.00"/>
+			<set order="0x08" stat="rCrit" val="6"/>
+		</for>
+	</item>
 	<item id="19137" name="祝福的凱利爾戰爪" type="Weapon">
 		<set name="default_action" val="equip"/>
 		<set name="weight" val="1550"/>
@@ -753,210 +1481,6 @@
 	</item>
 	<item id="19199" name="未確認的永生符印材料" type="EtcItem">
 		<set name="icon" val="icon.weapon_karyen_i00_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19200" name="未確認的永生項鍊寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r1_necklace_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19201" name="未確認的永生耳環寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r1_earring_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19202" name="未確認的永生戒指寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r1_ring_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19203" name="未確認的英啟鉋刀碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_shaper_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19204" name="未確認的英啟切刃碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_cutter_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19205" name="未確認的英啟殺刃碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_slasher_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19206" name="未確認的英啟復仇者碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_avenger_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19207" name="未確認的英啟戰爪碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_fighter_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19208" name="未確認的英啟風暴者碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_stormer_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19209" name="未確認的英啟投弓碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_thrower_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19210" name="未確認的英啟射靈碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_thrower_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19211" name="未確認的英啟爆刃碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_burster_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19212" name="未確認的英啟術杖碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_caster_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19213" name="未確認的英啟報恨者碎片" type="EtcItem">
-		<set name="icon" val="icon.etc_vesper_singer_piece_i00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19217" name="未確認的煉獄頭盔材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19218" name="未確認的煉獄胸甲材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19219" name="未確認的煉獄脛甲材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19220" name="未確認的煉獄護手材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19221" name="未確認的煉獄靴材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19222" name="未確認的煉獄盾材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19223" name="未確認的煉獄皮頭盔材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19224" name="未確認的煉獄皮胸甲材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19225" name="未確認的煉獄皮脛甲材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19226" name="未確認的煉獄皮手套材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19227" name="未確認的煉獄皮靴材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19228" name="未確認的煉獄頭箍材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19229" name="未確認的煉獄外衣材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19230" name="未確認的煉獄長襪材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19231" name="未確認的煉獄手套材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19232" name="未確認的煉獄鞋材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19233" name="未確認的煉獄符印材料" type="EtcItem">
-		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19234" name="未確認的煉獄項鍊寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r2_necklace_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19235" name="未確認的煉獄耳環寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r2_earring_piece"/>
-		<set name="weight" val="60"/>
-		<set name="is_stackable" val="true"/>
-		<set name="etcitem_type" val="material"/>
-	</item>
-	<item id="19236" name="未確認的煉獄戒指寶石" type="EtcItem">
-		<set name="icon" val="icon.etc_r2_ring_piece"/>
 		<set name="weight" val="60"/>
 		<set name="is_stackable" val="true"/>
 		<set name="etcitem_type" val="material"/>
