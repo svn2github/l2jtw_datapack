@@ -1,5 +1,5 @@
 /************ Made in Taiwan ************/
-
+Set Names utf8;
 -- 修正NPC設定
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- 刪除官服不存在的NPC
 
