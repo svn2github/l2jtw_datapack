@@ -48,7 +48,8 @@ UPDATE `castle` SET `siegeDate` = '978782400000' WHERE `siegeDate` = '0' AND `id
 UPDATE `castle` SET `siegeDate` = '979459200000' WHERE `siegeDate` = '0' AND `id` IN (3,4,6,7);
 
 -- 修正狩獵首領重生時，HP/MP全滿 (感謝 wolo 提供)
-Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
+-- Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
+Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=cast(`npc`.`hp` as decimal(30,0)),`raidboss_spawnlist`.`currentMp`=cast(`npc`.`mp` as decimal(30,0)) WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 
 -- 碼頭巡邏兵改成AI控制
 Delete From `spawnlist` Where `npc_templateid` in (32628,32629);
@@ -664,7 +665,8 @@ REPLACE INTO npcskills VALUES
 (18660,5759,1); -- 展示-拉塔那起身
 
 -- 沉默修道院狩獵首領
-UPDATE `npc` SET `hp`=837564.609209036, `patk`=4094.68934, `pdef`=1428.96384939, `matk`=1092.88500315956, `mdef`=576.114, `matkspd`=6000 where id='25701';  -- 輝煌的支配者 亞奈斯
+-- UPDATE `npc` SET `hp`=837564.609209036, `patk`=4094.68934, `pdef`=1428.96384939, `matk`=1092.88500315956, `mdef`=576.114, `matkspd`=6000 where id='25701';  -- 輝煌的支配者 亞奈斯
+UPDATE `npc` SET `hp`=837564.609209036, `patk`=4094.68934, `pdef`=cast(1428.96384939 as decimal(12,5)), `matk`=cast(1092.88500315956 as decimal(12,5)), `mdef`=576.114, `matkspd`=6000 where id='25701';  -- 輝煌的支配者 亞奈斯
 UPDATE `spawnlist` SET `locx` = 119120, `locy` = -80576, `locz` = -2694 WHERE `npc_templateid` = 32757;
 UPDATE `raidboss_spawnlist` SET `boss_id` = 25701 WHERE `boss_id` = 29096;
 UPDATE `minions` SET `boss_id` = 25701 WHERE `boss_id` = 29096;
@@ -3251,8 +3253,10 @@ REPLACE INTO `teleport` VALUES ('Photo Snow Clock Tower', '12107', '-61265', '-5
 
 -- 增加任務 10292 人物
 -- DELETE FROM `npc` WHERE `id` IN (32784,32862,27422,27424);
-UPDATE `npc` SET `collision_radius`=10,`collision_height`=27.5,`level`=79,`sex`='female',`type`='L2Monster',`hp`=1050.81652,`mp`=531,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=198.34591,`pdef`=164.88513,`matk`=135.44454,`mdef`=109.782377202178,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=80,`runspd`=135,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27422;
-UPDATE `npc` SET `collision_radius`=16,`collision_height`=27.5,`level`=79,`sex`='male',`type`='L2Monster',`hp`=1094.28943,`mp`=557.4,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=210.04832,`pdef`=169.13417,`matk`=143.43577,`mdef`=112.611442266143,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=140,`runspd`=170,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27424;
+-- UPDATE `npc` SET `collision_radius`=10,`collision_height`=27.5,`level`=79,`sex`='female',`type`='L2Monster',`hp`=1050.81652,`mp`=531,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=198.34591,`pdef`=164.88513,`matk`=135.44454,`mdef`=109.782377202178,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=80,`runspd`=135,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27422;
+-- UPDATE `npc` SET `collision_radius`=16,`collision_height`=27.5,`level`=79,`sex`='male',`type`='L2Monster',`hp`=1094.28943,`mp`=557.4,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=210.04832,`pdef`=169.13417,`matk`=143.43577,`mdef`=112.611442266143,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=140,`runspd`=170,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27424;
+UPDATE `npc` SET `collision_radius`=10,`collision_height`=27.5,`level`=79,`sex`='female',`type`='L2Monster',`hp`=1050.81652,`mp`=531,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=198.34591,`pdef`=164.88513,`matk`=135.44454,`mdef`=cast(109.782377202178 as decimal(12,5)),`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=80,`runspd`=135,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27422;
+UPDATE `npc` SET `collision_radius`=16,`collision_height`=27.5,`level`=79,`sex`='male',`type`='L2Monster',`hp`=1094.28943,`mp`=557.4,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=210.04832,`pdef`=169.13417,`matk`=143.43577,`mdef`=cast(112.611442266143 as decimal(12,5)),`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=140,`runspd`=170,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27424;
 
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32862);
 REPLACE INTO `spawnlist` VALUES ('unset', '1', '32862', '43347', '-87923', '-2825', '0', '0', '37163', '10', '0', '0');
