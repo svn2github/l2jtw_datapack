@@ -1,29 +1,30 @@
-/************ Made in Taiwan ************/
 Set Names utf8;
--- ­×¥¿NPC³]©w
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- §R°£©xªA¤£¦s¦bªºNPC
+/************ Made in Taiwan ************/
 
--- ­×¥¿NPC±¼¸¨:­×¥¿«Ê¦L¤j¤Ñ¨Ïªº±¼¸¨,¦]¬°spawnlist¥u¦³21070«Ê¦L¤j¤Ñ¨Ï,¨S¦³21071«Ê¦L¤j¤Ñ¨Ï
+-- ä¿®æ­£NPCè¨­å®š
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- åˆªé™¤å®˜æœä¸å­˜åœ¨çš„NPC
+
+-- ä¿®æ­£NPCæ‰è½:ä¿®æ­£å°å°å¤§å¤©ä½¿çš„æ‰è½,å› ç‚ºspawnliståªæœ‰21070å°å°å¤§å¤©ä½¿,æ²’æœ‰21071å°å°å¤§å¤©ä½¿
 UPDATE `droplist` SET `mobId` = 21070 WHERE `mobId` = 21071;
 
--- ¾É¤Jl2jtw_addon_1.sql«á,´N¥i¥H°¨¤W¬D¾ÔBOSS(µ¥«İ¤U¦¸¬D¾Ôªº®É¶¡Âk0)
+-- å°å…¥l2jtw_addon_1.sqlå¾Œ,å°±å¯ä»¥é¦¬ä¸ŠæŒ‘æˆ°BOSS(ç­‰å¾…ä¸‹æ¬¡æŒ‘æˆ°çš„æ™‚é–“æ­¸0)
 REPLACE INTO `grandboss_data` VALUES
-(29001, -21610, 181594, -5734, 0, 0, 229898.48, 667.776, 0), -- ¥¨ÃÆ¤k¤ı (40)
-(29006, 17726, 108915, -6480, 0, 0, 622493.58388, 3793.536, 0), -- ®Ö¤ß (50)
-(29014, 55024, 17368, -5412, 10126, 0, 622493.58388, 3793.536, 0), -- ¶øº¸ªâ (50)
-(29019, 185708, 114298, -8221, 32768, 0, 17850000, 39960, 0), -- ¦w¶ğ·ç´µ (79)
-(29020, 116033, 17447, 10104, 40188, 0, 4068372, 39960, 0), -- ¤Ú·Å (75)
-(29022, 55312, 219168, -3223, 0, 0, 858518.36, 399600, 0), -- ¥¾ªÖ (60)
-(29028, -105200, -253104, -15264, 0, 0, 223107426.1796109, 4497143.692870192, 0), -- ¤Ú©Ô¥d´µ (85)
-(29066, 185708, 114298, -8221,32768, 0, 14518000, 3996000, 0), -- ¦w¶ğ·ç´µ Ä±¿ô (79)
-(29067, 185708, 114298, -8221,32768, 0, 16184000, 3996000, 0), -- ¦w¶ğ·ç´µ ±` (79)
-(29068, 185708, 114298, -8221,32768, 0, 204677324.07859, 3996000, 0), -- ¦w¶ğ·ç´µ ±j§§ (85)
-(29045, 0, 0, 0, 0, 0, 1018821.42723286, 52001.06567747795, 0), -- ªÜµY®õ¨F (85)
-(29065, -123348, -248881, -15537, 44732, 0, 1532678, 4255, 0), -- ÁÉº¸Äõ
-(29099, 153569, 142075, -12732, 60025, 0, 1448567, 3718, 0), -- ¤Úº¸°Ç
-(29118, 0, 0, 0, 0, 0, 4109288, 1220547, 0); -- ¤Ú¦C´µ (83)
+(29001, -21610, 181594, -5734, 0, 0, 229898.48, 667.776, 0), -- å·¨èŸ»å¥³ç‹ (40)
+(29006, 17726, 108915, -6480, 0, 0, 622493.58388, 3793.536, 0), -- æ ¸å¿ƒ (50)
+(29014, 55024, 17368, -5412, 10126, 0, 622493.58388, 3793.536, 0), -- å¥§çˆ¾èŠ¬ (50)
+(29019, 185708, 114298, -8221, 32768, 0, 17850000, 39960, 0), -- å®‰å¡”ç‘æ–¯ (79)
+(29020, 116033, 17447, 10104, 40188, 0, 4068372, 39960, 0), -- å·´æº« (75)
+(29022, 55312, 219168, -3223, 0, 0, 858518.36, 399600, 0), -- æœ­è‚¯ (60)
+(29028, -105200, -253104, -15264, 0, 0, 223107426.1796109, 4497143.692870192, 0), -- å·´æ‹‰å¡æ–¯ (85)
+(29066, 185708, 114298, -8221,32768, 0, 14518000, 3996000, 0), -- å®‰å¡”ç‘æ–¯ è¦ºé†’ (79)
+(29067, 185708, 114298, -8221,32768, 0, 16184000, 3996000, 0), -- å®‰å¡”ç‘æ–¯ å¸¸ (79)
+(29068, 185708, 114298, -8221,32768, 0, 204677324.07859, 3996000, 0), -- å®‰å¡”ç‘æ–¯ å¼·å£¯ (85)
+(29045, 0, 0, 0, 0, 0, 1018821.42723286, 52001.06567747795, 0), -- èŠ™ç³æ³°æ²™ (85)
+(29065, -123348, -248881, -15537, 44732, 0, 1532678, 4255, 0), -- è³½çˆ¾è˜­
+(29099, 153569, 142075, -12732, 60025, 0, 1448567, 3718, 0), -- å·´çˆ¾å‹’
+(29118, 0, 0, 0, 0, 0, 4109288, 1220547, 0); -- å·´åˆ—æ–¯ (83)
 
--- ­×¥¿ÁÉº¸Äõ/¤Úº¸°Ç
+-- ä¿®æ­£è³½çˆ¾è˜­/å·´çˆ¾å‹’
 UPDATE `npc` SET `hp` = '1532678', `mp` = '4255', `type` = 'L2GrandBoss', `level` = '87' WHERE `id` IN (29065);
 UPDATE `npc` SET `atkspd` = '540', `matkspd` = '253', `walkspd` = '80', `runspd` = '120' WHERE `id` IN (29099);
 UPDATE `npc` SET `collision_radius` = '38.00', `collision_height` = '77.00' WHERE `id` IN (29108);
@@ -40,62 +41,62 @@ REPLACE INTO `npcskills` VALUES
 (29099,4789,1),
 (29100,4305,1);
 
--- ­×¥¿«°³ù¸ê®Æ®wªºPRIMARY KEY,¥Ñname§ï¬°id,¥H¨¾¤î¤¤¤å¤Æ«á,ÁÙ¥i¥H¾É¤J­^¤å¦WºÙªº«°³ù¸ê®Æ®w
+-- ä¿®æ­£åŸå ¡è³‡æ–™åº«çš„PRIMARY KEY,ç”±nameæ”¹ç‚ºid,ä»¥é˜²æ­¢ä¸­æ–‡åŒ–å¾Œ,é‚„å¯ä»¥å°å…¥è‹±æ–‡åç¨±çš„åŸå ¡è³‡æ–™åº«
 ALTER TABLE `castle` DROP PRIMARY KEY, ADD PRIMARY KEY (`id`);
 
--- ­×¥¿§ğ«°ªº¹w³]®É¶¡:¥j¾|¤B/¨f®¦/¨È¤B/¾|¦]/­×¥[¯S¬°¬P´Á¤é20:00,©_©¥/¼Ú·ç/¦]¯Ç±o¥ß/°ª¹F¯S¬°¬P´Á¤é16:00(¥u­­¥ş·s¦w¸Ë¸ê®Æ®w¤~¦³®Ä)
+-- ä¿®æ­£æ”»åŸçš„é è¨­æ™‚é–“:å¤é­¯ä¸/ç‹„æ©/äºä¸/é­¯å› /ä¿®åŠ ç‰¹ç‚ºæ˜ŸæœŸæ—¥20:00,å¥‡å²©/æ­ç‘/å› ç´å¾—ç«‹/é«˜é”ç‰¹ç‚ºæ˜ŸæœŸæ—¥16:00(åªé™å…¨æ–°å®‰è£è³‡æ–™åº«æ‰æœ‰æ•ˆ)
 UPDATE `castle` SET `siegeDate` = '978782400000' WHERE `siegeDate` = '0' AND `id` IN (1,2,5,8,9);
 UPDATE `castle` SET `siegeDate` = '979459200000' WHERE `siegeDate` = '0' AND `id` IN (3,4,6,7);
 
--- ­×¥¿¬¼Ây­º»â­«¥Í®É¡AHP/MP¥şº¡ (·PÁÂ wolo ´£¨Ñ)
+-- ä¿®æ­£ç‹©çµé¦–é ˜é‡ç”Ÿæ™‚ï¼ŒHP/MPå…¨æ»¿ (æ„Ÿè¬ wolo æä¾›)
 -- Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=cast(`npc`.`hp` as decimal(30,0)),`raidboss_spawnlist`.`currentMp`=cast(`npc`.`mp` as decimal(30,0)) WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 
--- ½XÀY¨µÅŞ§L§ï¦¨AI±±¨î
+-- ç¢¼é ­å·¡é‚å…µæ”¹æˆAIæ§åˆ¶
 Delete From `spawnlist` Where `npc_templateid` in (32628,32629);
 
--- ­×¥¿NPC
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- ½XÀY¨µÅŞ§LªºÃş«¬§ï¬°¤@¯ëNPC
-UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32540,32542,32602); -- ²`²Wªº¦uªù¤H/¦w©wªº¦A¥ÍºØ¤l/Á{®É¶Ç°e®vªºÃş«¬§ï¬°¶Ç°e
-UPDATE `npc` SET `type` = 'L2Monster' WHERE `id` IN (29030,29033,29036,29037); -- Å]¯TªºÃş«¬"¼È®É"§ï¬°¤@¯ë©Çª«
+-- ä¿®æ­£NPC
+UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- ç¢¼é ­å·¡é‚å…µçš„é¡å‹æ”¹ç‚ºä¸€èˆ¬NPC
+UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32540,32542,32602); -- æ·±æ·µçš„å®ˆé–€äºº/å®‰å®šçš„å†ç”Ÿç¨®å­/è‡¨æ™‚å‚³é€å¸«çš„é¡å‹æ”¹ç‚ºå‚³é€
+UPDATE `npc` SET `type` = 'L2Monster' WHERE `id` IN (29030,29033,29036,29037); -- é­”ç‹¼çš„é¡å‹"æš«æ™‚"æ”¹ç‚ºä¸€èˆ¬æ€ªç‰©
 
--- ¥[¤J·s¶Ç°e
+-- åŠ å…¥æ–°å‚³é€
 REPLACE INTO `teleport` VALUES
-('3254001', '3254001', '-212836', '209824', '4288', '0', '0', '57'),   -- ²`²Wªº¦uªù¤H
-('3260201', '3260201', '-245833', '220174', '-12104', '0', '0', '57'), -- Á{®É¶Ç°e®v
-('3260202', '3260202', '-251624', '213420', '-12072', '0', '0', '57'), -- Á{®É¶Ç°e®v
-('3260203', '3260203', '-249774', '207316', '-11952', '0', '0', '57'); -- Á{®É¶Ç°e®v
+('3254001', '3254001', '-212836', '209824', '4288', '0', '0', '57'),   -- æ·±æ·µçš„å®ˆé–€äºº
+('3260201', '3260201', '-245833', '220174', '-12104', '0', '0', '57'), -- è‡¨æ™‚å‚³é€å¸«
+('3260202', '3260202', '-251624', '213420', '-12072', '0', '0', '57'), -- è‡¨æ™‚å‚³é€å¸«
+('3260203', '3260203', '-249774', '207316', '-11952', '0', '0', '57'); -- è‡¨æ™‚å‚³é€å¸«
 
--- §R°£§ø²øªº±m¨é°Ó¤H,¦]¬°©xªA¨S¦³±m¨é°Ó¤H
+-- åˆªé™¤æ‘èŠçš„å½©åˆ¸å•†äºº,å› ç‚ºå®˜æœæ²’æœ‰å½©åˆ¸å•†äºº
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30992,30993,30994);
 
--- ¡u·s»¡¸Ü¤§®q§ø²ø¡v¥[¤JÂàÂ¾ºŞ²z­û
+-- ã€Œæ–°èªªè©±ä¹‹å³¶æ‘èŠã€åŠ å…¥è½‰è·ç®¡ç†å“¡
 REPLACE INTO `spawnlist` (`location`, `count`, `npc_templateid`, `locx`, `locy`, `locz`, `heading`, `respawn_delay`) VALUES
-('·s»¡¸Ü¤§®q§ø²ø',1,31756,-113661,255162,-1499,33264,60),
-('·s»¡¸Ü¤§®q§ø²ø',1,31757,-113658,255456,-1499,32414,60);
+('New Talking Island',1,31756,-113661,255162,-1499,33264,60),
+('New Talking Island',1,31757,-113658,255456,-1499,32414,60);
 
--- §R°£¨ä¤¤¤@°¦ÂàÂ¾ºŞ²z­û(¤£©w®É§ï§R¥t¤@­Ó)
+-- åˆªé™¤å…¶ä¸­ä¸€éš»è½‰è·ç®¡ç†å“¡(ä¸å®šæ™‚æ”¹åˆªå¦ä¸€å€‹)
 -- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
 
 /************ Add by pmq *********/
--- ¥[¤Jº|±¼ªºNPC
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35601,35602,35603,35605,35623,35624,35628,35638,35639,35640,35641,35642,32761,32777,32778,32781); -- §R°£¤£¥¿½T¦ì¸mªºNPC
+-- åŠ å…¥æ¼æ‰çš„NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35601,35602,35603,35605,35623,35624,35628,35638,35639,35640,35641,35642,32761,32777,32778,32781); -- åˆªé™¤ä¸æ­£ç¢ºä½ç½®çš„NPC
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
-('unset', 1, 35638, 56736, -26400, 568, 0, 0, 49000, 60, 0, 0),      -- ¤Ú­Û´µ ­¸ÀsºŞ²z­û
-('unset', 1, 35639, 58128, -32000, 296, 0, 0, 0, 60, 0, 0),          -- ³Ç¥d¼w ¶Ç¥O
-('unset', 1, 35640, 58024, -25744, 592, 0, 0, 49000, 60, 0, 0),      -- ¤Z¼wÃ¹ °õ¨Æ
-('unset', 1, 35641, 58080, -29552, 568, 0, 0, 49000, 60, 0, 0),      -- ­n¶ë¦uªù¤H
-('unset', 1, 35641, 58137, -29223, 568, 0, 0, 16500, 60, 0, 0),      -- ­n¶ë¦uªù¤H
-('unset', 1, 35642, 58024, -26456, 592, 0, 0, 49000, 60, 0, 0),      -- ­n¶ë¦uªù¤H
-('unset', 1, 35642, 58074, -26325, 597, 0, 0, 15732, 60, 0, 0),      -- ­n¶ë¦uªù¤H
-('unset', 1, 32778, 102471, -124260, -2774, 0, 0, 47093, 60, 0, 0),  -- ¶Ä§L¾Ô¤h ¦N©g¨È¤u·|
-('unset', 1, 32777, 102305, -124365, -2759, 0, 0, 63881, 60, 0, 0),  -- ¤W¯ÅÃM¤h ¦N©g¨È¤u·|
-('unset', 1, 32761, 102537, -124429, -2792, 0, 0, 30357, 60, 0, 0),  -- ³Í°ªº¸
-('unset', 1, 32781, 102393, -124493, -2787, 0, 0, 17538, 60, 0, 0);  -- ¦N©g¨È
+('unset', 1, 35638, 56736, -26400, 568, 0, 0, 49000, 60, 0, 0),      -- å·´å€«æ–¯ é£›é¾ç®¡ç†å“¡
+('unset', 1, 35639, 58128, -32000, 296, 0, 0, 0, 60, 0, 0),          -- å‚‘å¡å¾· å‚³ä»¤
+('unset', 1, 35640, 58024, -25744, 592, 0, 0, 49000, 60, 0, 0),      -- å‡¡å¾·ç¾… åŸ·äº‹
+('unset', 1, 35641, 58080, -29552, 568, 0, 0, 49000, 60, 0, 0),      -- è¦å¡å®ˆé–€äºº
+('unset', 1, 35641, 58137, -29223, 568, 0, 0, 16500, 60, 0, 0),      -- è¦å¡å®ˆé–€äºº
+('unset', 1, 35642, 58024, -26456, 592, 0, 0, 49000, 60, 0, 0),      -- è¦å¡å®ˆé–€äºº
+('unset', 1, 35642, 58074, -26325, 597, 0, 0, 15732, 60, 0, 0),      -- è¦å¡å®ˆé–€äºº
+('unset', 1, 32778, 102471, -124260, -2774, 0, 0, 47093, 60, 0, 0),  -- å‚­å…µæˆ°å£« å‰å¦®äºå·¥æœƒ
+('unset', 1, 32777, 102305, -124365, -2759, 0, 0, 63881, 60, 0, 0),  -- ä¸Šç´šé¨å£« å‰å¦®äºå·¥æœƒ
+('unset', 1, 32761, 102537, -124429, -2792, 0, 0, 30357, 60, 0, 0),  -- å‡±é«˜çˆ¾
+('unset', 1, 32781, 102393, -124493, -2787, 0, 0, 17538, 60, 0, 0);  -- å‰å¦®äº
 
--- ©Çª«¤â®³ªZ¾¹
+-- æ€ªç‰©æ‰‹æ‹¿æ­¦å™¨
 UPDATE `npc` SET`rhand`= 127 where id = 22485;
 UPDATE `npc` SET`rhand`= 127 where id = 22486;
 UPDATE `npc` SET`rhand`= 72 where id = 22487;
@@ -123,190 +124,190 @@ UPDATE `npc` SET`rhand`= 6722 where id = 22449;
 UPDATE `npc` SET`rhand`= 13983 where id = 25648;
 UPDATE `npc` SET`rhand`= 78 where id = 22368;
 
--- ­×§ï¦aº»¤§®q©Çª«
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `hp`=3835, `mp`=1777, `exp`=0, `sp`=0, `walkspd`=0, `runspd`=0 where id='18484';  -- ©`¶®¶ğªù
-UPDATE `npc` SET `level`=81, `hp`=338766, `mp`=1708, `exp`=2629657, `sp`=267913 where id='22326';         -- ©`¶®ªº¦uÅ@ªÌ ®üµY¯Ç§J
-UPDATE `npc` SET `level`=81, `hp`=111546, `mp`=1846, `exp`=0, `sp`=0 where id='18466';                    -- ¥~¹øÄµ½Ã¶¤ªø
-UPDATE `npc` SET `level`=86, `hp`=194672, `mp`=1881, `exp`=944308, `sp`=93684 where id='22448';           -- ¹p¼Ú¹F´µ ¤Ï§Ü­x«ü´§©x
-UPDATE `npc` SET `level`=86, `hp`=4439, `mp`=1881, `exp`=16123, `sp`=1680 where id='22451';               -- ­ì¦í¥Áºë¾U­x
-UPDATE `npc` SET `level`=81, `hp`=197755, `mp`=1708, `exp`=449479, `sp`=47956 where id='22341';           -- ³Í¹F¤h
-UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=12425, `sp`=1325 where id='22342';               -- ¹F¨½©ùªº°õ¦æªÌ
-UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=9997, `sp`=1066 where id='22343';                -- ¹F¨½©ùªº³B¦DªÌ
+-- ä¿®æ”¹åœ°ç„ä¹‹å³¶æ€ªç‰©
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `hp`=3835, `mp`=1777, `exp`=0, `sp`=0, `walkspd`=0, `runspd`=0 where id='18484';  -- å¥ˆé›…å¡”é–€
+UPDATE `npc` SET `level`=81, `hp`=338766, `mp`=1708, `exp`=2629657, `sp`=267913 where id='22326';         -- å¥ˆé›…çš„å®ˆè­·è€… æµ·ç³ç´å…‹
+UPDATE `npc` SET `level`=81, `hp`=111546, `mp`=1846, `exp`=0, `sp`=0 where id='18466';                    -- å¤–å»“è­¦è¡›éšŠé•·
+UPDATE `npc` SET `level`=86, `hp`=194672, `mp`=1881, `exp`=944308, `sp`=93684 where id='22448';           -- é›·æ­é”æ–¯ åæŠ—è»æŒ‡æ®å®˜
+UPDATE `npc` SET `level`=86, `hp`=4439, `mp`=1881, `exp`=16123, `sp`=1680 where id='22451';               -- åŸä½æ°‘ç²¾éŠ³è»
+UPDATE `npc` SET `level`=81, `hp`=197755, `mp`=1708, `exp`=449479, `sp`=47956 where id='22341';           -- å‡±é”å£«
+UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=12425, `sp`=1325 where id='22342';               -- é”é‡Œæ˜‚çš„åŸ·è¡Œè€…
+UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=9997, `sp`=1066 where id='22343';                -- é”é‡Œæ˜‚çš„è™•åˆ‘è€…
 
 -- Seed OF Destruction
 UPDATE `npc` SET `type`='L2Monster' where id='29167';  --
 
 REPLACE INTO npcskills VALUES
--- Às°¨­x ¨B§L
+-- é¾é¦¬è» æ­¥å…µ
 -- Dragon Steed Troop Infantry
 (22541,4299,1),
--- Às°¨­x ¨B§L
+-- é¾é¦¬è» æ­¥å…µ
 -- Dragon Steed Troop Infantry
 (22597,4299,1),
--- Às°¨­x ¨B§L
+-- é¾é¦¬è» æ­¥å…µ
 -- Dragon Steed Troop Infantry
 (22589,4299,1),
--- Às°¨­x ¨B§L
+-- é¾é¦¬è» æ­¥å…µ
 -- Dragon Steed Troop Infantry
 (22575,4299,1),
 (22575,5827,6),
--- ¶Â·t²½¥q
+-- é»‘æš—ç¥­å¸
 -- Priest of Darkness
 (22551,4295,1),
 (22551,5839,1),
--- Às°¨­x Å]ªk®v
+-- é¾é¦¬è» é­”æ³•å¸«
 -- Dragon Steed Troop Magician
 (22543,4299,1),
--- Às°¨­x Å]ªk®v
+-- é¾é¦¬è» é­”æ³•å¸«
 -- Dragon Steed Troop Magician
 (22577,4299,1),
 (22577,5827,6),
--- Às°¨­x Å]ªk®v
+-- é¾é¦¬è» é­”æ³•å¸«
 -- Dragon Steed Troop Magician
 (22584,4299,1),
--- Às°¨­x Å]ªk®v
+-- é¾é¦¬è» é­”æ³•å¸«
 -- Dragon Steed Troop Magician
 (22592,4299,1),
--- ¬ğÅÜÀsÃ~
+-- çªè®Šé¾ç¸
 -- Mutation Drake
 (22552,4299,1),
--- Às°¨­x ¼Ğºj§L
+-- é¾é¦¬è» æ¨™æ§å…µ
 -- Dragon Steed Troop Javelin Thrower
 (22549,4299,1),
--- Às°¨­x ¼Ğºj§L
+-- é¾é¦¬è» æ¨™æ§å…µ
 -- Dragon Steed Troop Javelin Thrower
 (22548,4299,1),
--- Às°¨­x ¼Ğºj§L
+-- é¾é¦¬è» æ¨™æ§å…µ
 -- Dragon Steed Troop Javelin Thrower
 (22581,4299,1),
--- Às°¨­x ¼Ğºj§L
+-- é¾é¦¬è» æ¨™æ§å…µ
 -- Dragon Steed Troop Javelin Thrower
 (22582,4299,1),
--- Às°¨­x ­x¹Îªø
+-- é¾é¦¬è» è»åœ˜é•·
 -- Dragon Steed Troop Commander
 (22538,4299,1),
 (22538,4441,5),
 (22538,4071,5),
--- Às°¨­x ­x¹Îªø
+-- é¾é¦¬è» è»åœ˜é•·
 -- Dragon Steed Troop Commander
 (22572,4299,1),
 (22572,5827,6),
 (22572,4441,5),
 (22572,4071,5),
--- Às°¨­x ­x¹Îªø
+-- é¾é¦¬è» è»åœ˜é•·
 -- Dragon Steed Troop Commander
 (22586,4299,1),
 (22586,5827,6),
 (22586,4441,5),
 (22586,4071,5),
--- Às°¨­x ­x¹Îªø
+-- é¾é¦¬è» è»åœ˜é•·
 -- Dragon Steed Troop Commander
 (22594,4299,1),
 (22594,5827,6),
 (22594,4441,5),
 (22594,4071,5),
--- ¿Ë½Ã¶¤ªø
+-- è¦ªè¡›éšŠé•·
 -- Royal Guard Captain
 (22536,4299,1),
 (22536,5362,9),
--- ¿Ë½Ã¶¤ªø
+-- è¦ªè¡›éšŠé•·
 -- Royal Guard Captain
 (22570,4299,1),
 (22570,5362,9),
--- ´±¦º¶¤ ¸¦¶®¯S¿Ë½Ã¶¤
+-- æ•¢æ­»éšŠ è’‚é›…ç‰¹è¦ªè¡›éšŠ
 -- Soldiers of Bravery (Tiats Bodyguards)
 (29162,4299,1),
 (29162,5259,12),
--- ´±¦º¶¤ ¸¦¶®¯S¿Ë½Ã¶¤
+-- æ•¢æ­»éšŠ è’‚é›…ç‰¹è¦ªè¡›éšŠ
 -- Soldiers of Bravery (Tiats Bodyguards)
 (22569,4299,1),
 (22569,5259,12),
--- Às°¨­x ¤jÅ]ªk®v
+-- é¾é¦¬è» å¤§é­”æ³•å¸«
 -- Dragon Steed Troop Grand Magician
 (22537,4299,1),
--- Às°¨­x ¤jÅ]ªk®v
+-- é¾é¦¬è» å¤§é­”æ³•å¸«
 -- Dragon Steed Troop Grand Magician
 (22571,4299,1),
--- Às°¨­x ªvÀø®v
+-- é¾é¦¬è» æ²»ç™‚å¸«
 -- Dragon Steed Troop Healer
 (22547,4299,1),
--- Às°¨­x ªvÀø®v
+-- é¾é¦¬è» æ²»ç™‚å¸«
 -- Dragon Steed Troop Healer
 (22580,4299,1),
--- ¨g¾Ô¤h
+-- ç‹‚æˆ°å£«
 -- Warrior of Light
 (22546,4299,1),
--- ¨g¾Ô¤h
+-- ç‹‚æˆ°å£«
 -- Warrior of Light
 (22579,4299,1),
--- îîÀsªº±Ú¤H
+-- é—‡é¾çš„æ—äºº
 -- Wife of the Dragon of Darkness
 (22545,4299,1),
--- ¤£¦ºªº¨g«H®{
+-- ä¸æ­»çš„ç‹‚ä¿¡å¾’
 -- Fanatic of Infinity
 (22509,5909,1),
 (22509,5465,1),
--- »G±Ñªº¶Ç¥O
+-- è…æ•—çš„å‚³ä»¤
 -- Rotten Messenger
 (22510,5909,1),
--- ¤£¦ºªº¨g«HªÌ
+-- ä¸æ­»çš„ç‹‚ä¿¡è€…
 -- Zealot of Infinity
 (22511,5910,1),
--- «ÍÅé¤Á³Î¾÷
+-- å±é«”åˆ‡å‰²æ©Ÿ
 -- Body Severer
 (22512,5909,1),
--- «ÍÅé¦¬³Î¾÷
+-- å±é«”æ”¶å‰²æ©Ÿ
 -- Body Harvester
 (22513,5909,1),
--- ÆF»î©â¨úªÌ
+-- éˆé­‚æŠ½å–è€…
 -- Soul Exploiter
 (22514,5910,1),
--- ÆF»î±°­¹ªÌ
+-- éˆé­‚æ é£Ÿè€…
 -- Soul Devourer
 (22515,5909,1),
--- Ã¹®æ¨ºÃ~¤H ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äºº è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc (Spirit Infested)
 (22691,4333,6),
 (22691,4312,1),
--- Ã¹®æ¨ºÃ~¤H¾Ô¤h ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººæˆ°å£« è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Warrior (Spirit Infested)
 (22692,4333,6),
 (22692,4312,1),
--- Ã¹®æ¨ºÃ~¤H­^¶¯ ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººè‹±é›„ è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Hero (Spirit Infested)
 (22693,4333,6),
 (22693,4312,1),
--- Ã¹®æ¨ºÃ~¤H¥q¥O©x ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººå¸ä»¤å®˜ è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Commander (Spirit Infested)
 (22694,4333,6),
--- Ã¹®æ¨ºÃ~¤HªvÀø®v ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººæ²»ç™‚å¸« è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Healer (Spirit Infested)
 (22695,4333,6),
--- Ã¹®æ¨ºÃ~¤H©G³N¤h ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººå’’è¡“å£« è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Shaman (Spirit Infested)
 (22696,4333,6),
--- Ã¹®æ¨ºÃ~¤H¹w¨¥ªÌ ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººé è¨€è€… è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Seer (Spirit Infested)
 (22697,4333,6),
--- Ã¹®æ¨ºÃ~¤H®g¤â ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººå°„æ‰‹ è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Archer (Spirit Infested)
 (22698,4333,6),
 (22698,4313,1),
--- Ã¹®æ¨ºÃ~¤Hª®À»¤â ³Q´cÆFªş¨­ªº
+-- ç¾…æ ¼é‚£ç¸äººç‹™æ“Šæ‰‹ è¢«æƒ¡éˆé™„èº«çš„
 -- Ragna Orc Sniper (Spirit Infested)
 (22699,4333,6),
--- ¤ÚÄõ¥dªº¦uÅ@ªÌ
+-- å·´è˜­å¡çš„å®ˆè­·è€…
 (22700,4417,14),
 (22700,4333,6),
 (22700,4410,13),
 (22700,4413,17),
 (22700,4444,5),
 (22700,5620,2),
--- ¤ÚÄõ¥dªºÅ]ª«
+-- å·´è˜­å¡çš„é­”ç‰©
 -- Varangkas Dre Vanul
 (22701,4417,14),
 (22701,4333,6),
--- ¤ÚÄõ¥dªº·´·ÀªÌ
+-- å·´è˜­å¡çš„æ¯€æ»…è€…
 -- Varangkas Destroyer
 (22702,4417,14),
 (22702,4333,6);
@@ -325,323 +326,323 @@ REPLACE INTO npcskills VALUES
 -- (25254,2,-246730,251982),
 -- (25254,3,-248699,249660);
 
--- ¥|¤èµ²¬É©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86802,  `sp`=9470,  `hp`=3461, `mp`=1708 where id='22708';  -- ´c¹Úªº«I²¤¾Ô¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86975,  `sp`=9490,  `hp`=3461, `mp`=1708 where id='22709';  -- ´c¹Úªº«I²¤ªvÂ¡ªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=55431,  `sp`=6053,  `hp`=3461, `mp`=1708 where id='22710';  -- ´c¹Úªº«I²¤¤Ş¾ÉªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=76351,  `sp`=8361,  `hp`=3461, `mp`=1708 where id='22711';  -- ´c¹Úªº«I²¤¯}ÃaªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=56907,  `sp`=6223,  `hp`=3461, `mp`=1708 where id='22712';  -- ´c¹Úªº«I²¤·t±şªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=71490,  `sp`=7803,  `hp`=3461, `mp`=1708 where id='22713';  -- ´c¹Úªº«I²¤©G³N¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=54103,  `sp`=5901,  `hp`=3461, `mp`=1708 where id='22714';  -- ´c¹Úªº«I²¤¤}½b¤â
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86802,  `sp`=9470,  `hp`=3461, `mp`=1708 where id='22715';  -- ´c¹Úªº«I²¤¤h§L
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86802,  `sp`=9470,  `hp`=3461, `mp`=1708 where id='22716';  -- ´c¹Úªº«I²¤¤h§L
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=94735,  `sp`=10335, `hp`=3461, `mp`=1708 where id='22717';  -- ´c¹Úªº«I²¤¨Ï®{
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=102165, `sp`=11188, `hp`=3461, `mp`=1708 where id='22718';  -- ´c¹Úªº«I²¤ºë¾U§L
+-- å››æ–¹çµç•Œæ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86802,  `sp`=9470,  `hp`=3461, `mp`=1708 where id='22708';  -- æƒ¡å¤¢çš„ä¾µç•¥æˆ°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86975,  `sp`=9490,  `hp`=3461, `mp`=1708 where id='22709';  -- æƒ¡å¤¢çš„ä¾µç•¥æ²»ç™’è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=55431,  `sp`=6053,  `hp`=3461, `mp`=1708 where id='22710';  -- æƒ¡å¤¢çš„ä¾µç•¥å¼•å°è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=76351,  `sp`=8361,  `hp`=3461, `mp`=1708 where id='22711';  -- æƒ¡å¤¢çš„ä¾µç•¥ç ´å£è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=56907,  `sp`=6223,  `hp`=3461, `mp`=1708 where id='22712';  -- æƒ¡å¤¢çš„ä¾µç•¥æš—æ®ºè€…
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=71490,  `sp`=7803,  `hp`=3461, `mp`=1708 where id='22713';  -- æƒ¡å¤¢çš„ä¾µç•¥å’’è¡“å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=54103,  `sp`=5901,  `hp`=3461, `mp`=1708 where id='22714';  -- æƒ¡å¤¢çš„ä¾µç•¥å¼“ç®­æ‰‹
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86802,  `sp`=9470,  `hp`=3461, `mp`=1708 where id='22715';  -- æƒ¡å¤¢çš„ä¾µç•¥å£«å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86802,  `sp`=9470,  `hp`=3461, `mp`=1708 where id='22716';  -- æƒ¡å¤¢çš„ä¾µç•¥å£«å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=94735,  `sp`=10335, `hp`=3461, `mp`=1708 where id='22717';  -- æƒ¡å¤¢çš„ä¾µç•¥ä½¿å¾’
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=102165, `sp`=11188, `hp`=3461, `mp`=1708 where id='22718';  -- æƒ¡å¤¢çš„ä¾µç•¥ç²¾éŠ³å…µ
 
--- ¼s³õµ²¬É©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=173525, `sp`=19428, `hp`=65802, `mp`=1743 where id='22719';  -- µêµLªº«I²¤¾Ô¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165990, `sp`=18584, `hp`=65802, `mp`=1743 where id='22720';  -- µêµLªº«I²¤ªvÂ¡ªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=91554,  `sp`=10250, `hp`=32946, `mp`=1743 where id='22721';  -- µêµLªº«I²¤¤Ş¾ÉªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22722';  -- µêµLªº«I²¤¯}ÃaªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=93237,  `sp`=10439, `hp`=32946, `mp`=1743 where id='22723';  -- µêµLªº«I²¤·t±şªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=166465, `sp`=18638, `hp`=65802, `mp`=1743 where id='22724';  -- µêµLªº«I²¤©G³N¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=162858, `sp`=18234, `hp`=65802, `mp`=1743 where id='22725';  -- µêµLªº«I²¤¤}½b¤â
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22726';  -- µêµLªº«I²¤¤h§L
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22727';  -- µêµLªº«I²¤¤h§L
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22728';  -- µêµLªº«I²¤¨Ï®{
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=310252, `sp`=33057, `hp`=65802, `mp`=1743 where id='22729';  -- µêµLªº«I²¤ºë¾U§L
+-- å»£å ´çµç•Œæ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=173525, `sp`=19428, `hp`=65802, `mp`=1743 where id='22719';  -- è™›ç„¡çš„ä¾µç•¥æˆ°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165990, `sp`=18584, `hp`=65802, `mp`=1743 where id='22720';  -- è™›ç„¡çš„ä¾µç•¥æ²»ç™’è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=91554,  `sp`=10250, `hp`=32946, `mp`=1743 where id='22721';  -- è™›ç„¡çš„ä¾µç•¥å¼•å°è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22722';  -- è™›ç„¡çš„ä¾µç•¥ç ´å£è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=93237,  `sp`=10439, `hp`=32946, `mp`=1743 where id='22723';  -- è™›ç„¡çš„ä¾µç•¥æš—æ®ºè€…
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=166465, `sp`=18638, `hp`=65802, `mp`=1743 where id='22724';  -- è™›ç„¡çš„ä¾µç•¥å’’è¡“å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=162858, `sp`=18234, `hp`=65802, `mp`=1743 where id='22725';  -- è™›ç„¡çš„ä¾µç•¥å¼“ç®­æ‰‹
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22726';  -- è™›ç„¡çš„ä¾µç•¥å£«å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22727';  -- è™›ç„¡çš„ä¾µç•¥å£«å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=165520, `sp`=18532, `hp`=65802, `mp`=1743 where id='22728';  -- è™›ç„¡çš„ä¾µç•¥ä½¿å¾’
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=310252, `sp`=33057, `hp`=65802, `mp`=1743 where id='22729';  -- è™›ç„¡çš„ä¾µç•¥ç²¾éŠ³å…µ
 
--- ¶ğ¤§µ²¬É©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=357615, `sp`=38610, `hp`=112020, `mp`=1812 where id='22730';  -- «èÆFªº«I²¤¾Ô¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=337518, `sp`=36440, `hp`=112020, `mp`=1812 where id='22731';  -- «èÆFªº«I²¤ªvÂ¡ªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=338470, `sp`=36543, `hp`=112020, `mp`=1812 where id='22732';  -- «èÆFªº«I²¤¤Ş¾ÉªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=356663, `sp`=38507, `hp`=112020, `mp`=1812 where id='22733';  -- «èÆFªº«I²¤¯}ÃaªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=166805, `sp`=18009, `hp`=56054,  `mp`=1812 where id='22734';  -- «èÆFªº«I²¤·t±şªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=338470, `sp`=36543, `hp`=112020, `mp`=1812 where id='22735';  -- «èÆFªº«I²¤©G³N¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=159361, `sp`=17205, `hp`=56054,  `mp`=1812 where id='22736';  -- «èÆFªº«I²¤¤}½b¤â
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=336554, `sp`=36336, `hp`=112020, `mp`=1812 where id='22737';  -- «èÆFªº«I²¤¤h§L
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=336554, `sp`=36336, `hp`=112020, `mp`=1812 where id='22738';  -- «èÆFªº«I²¤¤h§L
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=618577, `sp`=63492, `hp`=112020, `mp`=1812 where id='22739';  -- «èÆFªº«I²¤¨Ï®{
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=650929, `sp`=66985, `hp`=112020, `mp`=1812 where id='22740';  -- «èÆFªº«I²¤ºë¾U§L
+-- å¡”ä¹‹çµç•Œæ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=357615, `sp`=38610, `hp`=112020, `mp`=1812 where id='22730';  -- æ€¨éˆçš„ä¾µç•¥æˆ°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=337518, `sp`=36440, `hp`=112020, `mp`=1812 where id='22731';  -- æ€¨éˆçš„ä¾µç•¥æ²»ç™’è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=338470, `sp`=36543, `hp`=112020, `mp`=1812 where id='22732';  -- æ€¨éˆçš„ä¾µç•¥å¼•å°è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=356663, `sp`=38507, `hp`=112020, `mp`=1812 where id='22733';  -- æ€¨éˆçš„ä¾µç•¥ç ´å£è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=166805, `sp`=18009, `hp`=56054,  `mp`=1812 where id='22734';  -- æ€¨éˆçš„ä¾µç•¥æš—æ®ºè€…
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=338470, `sp`=36543, `hp`=112020, `mp`=1812 where id='22735';  -- æ€¨éˆçš„ä¾µç•¥å’’è¡“å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=159361, `sp`=17205, `hp`=56054,  `mp`=1812 where id='22736';  -- æ€¨éˆçš„ä¾µç•¥å¼“ç®­æ‰‹
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=336554, `sp`=36336, `hp`=112020, `mp`=1812 where id='22737';  -- æ€¨éˆçš„ä¾µç•¥å£«å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=336554, `sp`=36336, `hp`=112020, `mp`=1812 where id='22738';  -- æ€¨éˆçš„ä¾µç•¥å£«å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=618577, `sp`=63492, `hp`=112020, `mp`=1812 where id='22739';  -- æ€¨éˆçš„ä¾µç•¥ä½¿å¾’
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=650929, `sp`=66985, `hp`=112020, `mp`=1812 where id='22740';  -- æ€¨éˆçš„ä¾µç•¥ç²¾éŠ³å…µ
 
--- µ²¬É­º»â©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25690';  -- ¨È®¦©_©`º¸ ¹Ú¹Òªº«I»kªÌ  ¥i§l»î
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25691';  -- ¨È®¦©_©`º¸ ¹Ú¹Òªº«I»kªÌ  ¥i§l»î
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25692';  -- ¨È®¦©_©`º¸ ¹Ú¹Òªº«I»kªÌ  ¥i§l»î
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25693';  -- ¨È®¦©_©`º¸ ¹Ú¹Òªº«I»kªÌ  ¥i§l»î
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=82, `exp`=37775745, `sp`=1117041, `hp`=436294, `mp`=18120 where id='25694';  -- ¨È®¦©_©`º¸(Lv82) ¹Ú¹Òªº«I»kªÌ  ¥i§l»î
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=84, `exp`=42720365, `sp`=1206690, `hp`=449514, `mp`=19170 where id='25695';  -- ¨È®¦©_©`º¸(Lv84) ¹Ú¹Òªº«I»kªÌ  ¥i§l»î
+-- çµç•Œé¦–é ˜æ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25690';  -- äºæ©å¥‡å¥ˆçˆ¾ å¤¢å¢ƒçš„ä¾µè•è€…  å¯å¸é­‚
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25691';  -- äºæ©å¥‡å¥ˆçˆ¾ å¤¢å¢ƒçš„ä¾µè•è€…  å¯å¸é­‚
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25692';  -- äºæ©å¥‡å¥ˆçˆ¾ å¤¢å¢ƒçš„ä¾µè•è€…  å¯å¸é­‚
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=81, `exp`=3327990,  `sp`=394141,  `hp`=436294, `mp`=18120 where id='25693';  -- äºæ©å¥‡å¥ˆçˆ¾ å¤¢å¢ƒçš„ä¾µè•è€…  å¯å¸é­‚
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=82, `exp`=37775745, `sp`=1117041, `hp`=436294, `mp`=18120 where id='25694';  -- äºæ©å¥‡å¥ˆçˆ¾(Lv82) å¤¢å¢ƒçš„ä¾µè•è€…  å¯å¸é­‚
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=84, `exp`=42720365, `sp`=1206690, `hp`=449514, `mp`=19170 where id='25695';  -- äºæ©å¥‡å¥ˆçˆ¾(Lv84) å¤¢å¢ƒçš„ä¾µè•è€…  å¯å¸é­‚
 
--- ¨ü¶ËªºÀs©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=21105, `sp`=2186, `hp`=2856, `mp`=1574 where id='18635';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ°V½m§L
-UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=18501, `sp`=1904, `hp`=2856, `mp`=1574 where id='18636';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¨B§L
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=11090, `sp`=1200, `hp`=2856, `mp`=1574 where id='18637';  -- ©ñªªªº²Ü¦Ï
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=25065, `sp`=2642, `hp`=2974, `mp`=1607 where id='18638';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ°»¬d§L
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=24846, `sp`=2618, `hp`=2974, `mp`=1607 where id='18639';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¬¼ÂyªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=24583, `sp`=2580, `hp`=2974, `mp`=1607 where id='18640';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ©G³N¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=25424, `sp`=2681, `hp`=2974, `mp`=1607 where id='18641';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ²½¥q
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=25564, `sp`=2696, `hp`=2974, `mp`=1607 where id='18642';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¾Ô¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=11090, `sp`=1200, `hp`=2856, `mp`=1574 where id='18643';  -- ©ñªªªº²Ü¦Ï
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=33107, `sp`=3490, `hp`=2974, `mp`=1607 where id='18644';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µÆF´C
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=23321, `sp`=2452, `hp`=2974, `mp`=1607 where id='18645';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µÅ]¾É¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=25564, `sp`=2696, `hp`=2974, `mp`=1607 where id='18646';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¤U¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=23952, `sp`=2522, `hp`=2974, `mp`=1607 where id='18647';  -- ©ñªªªºªÜ©Ô¥Ë
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=18178, `sp`=1988, `hp`=2974, `mp`=1607 where id='18648';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ²½¥qªø
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=25065, `sp`=2642, `hp`=2974, `mp`=1607 where id='18649';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¤jÅ]¾É¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=27045, `sp`=2858, `hp`=2974, `mp`=1607 where id='18650';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ­x©x
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=15760, `sp`=1724, `hp`=2974, `mp`=1607 where id='18651';  -- ©ñªªªº²Ü¦Ïªø¦Ñ
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=32231, `sp`=3394, `hp`=2974, `mp`=1607 where id='18652';  -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¤j²½¥qªø
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=26151, `sp`=2761, `hp`=2974, `mp`=1607 where id='18653';  -- ¤Ú·ç¥dºë¾U¿Ë½Ã¶¤
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=31469, `sp`=3310, `hp`=2974, `mp`=1607 where id='18654';  -- ¤Ú·ç¥d­x¹Îªø
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=16812, `sp`=1840, `hp`=2974, `mp`=1607 where id='18655';  -- ¤Ú·ç¥d­º®u¿Ë½Ã¶¤
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=24846, `sp`=2618, `hp`=2974, `mp`=1607 where id='18656';  -- ¤Ú·ç¥d­º®uÅ]¾É¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=16952, `sp`=1855, `hp`=2974, `mp`=1607 where id='18657';  -- ¹w¨¥ªÌªº¿Ë½Ã§L
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=16339, `sp`=1788, `hp`=2974, `mp`=1607 where id='18658';  -- ¹w¨¥ªÌªºªù®{
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=32073, `sp`=3370, `hp`=2974, `mp`=1607 where id='18659';  -- ¤Ú·ç¥d¹w¨¥ªÌ
+-- å—å‚·çš„é¾æ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=21105, `sp`=2186, `hp`=2856, `mp`=1574 where id='18635';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯è¨“ç·´å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=18501, `sp`=1904, `hp`=2856, `mp`=1574 where id='18636';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯æ­¥å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=11090, `sp`=1200, `hp`=2856, `mp`=1574 where id='18637';  -- æ”¾ç‰§çš„ç¾šç¾Š
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=25065, `sp`=2642, `hp`=2974, `mp`=1607 where id='18638';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯åµæŸ¥å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=24846, `sp`=2618, `hp`=2974, `mp`=1607 where id='18639';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯ç‹©çµè€…
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=24583, `sp`=2580, `hp`=2974, `mp`=1607 where id='18640';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯å’’è¡“å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=25424, `sp`=2681, `hp`=2974, `mp`=1607 where id='18641';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯ç¥­å¸
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=25564, `sp`=2696, `hp`=2974, `mp`=1607 where id='18642';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯æˆ°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=11090, `sp`=1200, `hp`=2856, `mp`=1574 where id='18643';  -- æ”¾ç‰§çš„ç¾šç¾Š
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=33107, `sp`=3490, `hp`=2974, `mp`=1607 where id='18644';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯éˆåª’
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=23321, `sp`=2452, `hp`=2974, `mp`=1607 where id='18645';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯é­”å°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=25564, `sp`=2696, `hp`=2974, `mp`=1607 where id='18646';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯ä¸‹å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=23952, `sp`=2522, `hp`=2974, `mp`=1607 where id='18647';  -- æ”¾ç‰§çš„èŠ™æ‹‰ç“¦
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=18178, `sp`=1988, `hp`=2974, `mp`=1607 where id='18648';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯ç¥­å¸é•·
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=25065, `sp`=2642, `hp`=2974, `mp`=1607 where id='18649';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯å¤§é­”å°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=27045, `sp`=2858, `hp`=2974, `mp`=1607 where id='18650';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯è»å®˜
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=15760, `sp`=1724, `hp`=2974, `mp`=1607 where id='18651';  -- æ”¾ç‰§çš„ç¾šç¾Šé•·è€
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=32231, `sp`=3394, `hp`=2974, `mp`=1607 where id='18652';  -- å·´ç‘å¡è³½å‹’è«¾æ–¯å¤§ç¥­å¸é•·
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=26151, `sp`=2761, `hp`=2974, `mp`=1607 where id='18653';  -- å·´ç‘å¡ç²¾éŠ³è¦ªè¡›éšŠ
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=31469, `sp`=3310, `hp`=2974, `mp`=1607 where id='18654';  -- å·´ç‘å¡è»åœ˜é•·
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=16812, `sp`=1840, `hp`=2974, `mp`=1607 where id='18655';  -- å·´ç‘å¡é¦–å¸­è¦ªè¡›éšŠ
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=24846, `sp`=2618, `hp`=2974, `mp`=1607 where id='18656';  -- å·´ç‘å¡é¦–å¸­é­”å°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=16952, `sp`=1855, `hp`=2974, `mp`=1607 where id='18657';  -- é è¨€è€…çš„è¦ªè¡›å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=16339, `sp`=1788, `hp`=2974, `mp`=1607 where id='18658';  -- é è¨€è€…çš„é–€å¾’
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=32073, `sp`=3370, `hp`=2974, `mp`=1607 where id='18659';  -- å·´ç‘å¡é è¨€è€…
 
--- Ãä½tµá©Ô¥d(«°³ù)©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25656';  -- ¥d¯Ç­}´µ ¨g«H®{(Lv79)
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=2730278, `sp`=394141, `hp`=423463, `mp`=1708 where id='25653';  -- ¥d¯Ç­}´µ ¥ıÅXªÌ(Lv81) «I²¤­x
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25657';  -- ¥d¯Ç­}´µ ¨g«H®{(Lv81)
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=2911026, `sp`=402310, `hp`=431974, `mp`=1777 where id='25654';  -- ¥d¯Ç­}´µ ¥ıÅXªÌ(Lv83) «I²¤­x
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=0, `sp`=0, `hp`=8789, `mp`=1777 where id='25658';  -- ¥d¯Ç­}´µ ¨g«H®{(Lv83)
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=3100451, `sp`=410692, `hp`=440657, `mp`=1846 where id='25655';  -- ¥d¯Ç­}´µ ¥ıÅXªÌ(Lv85) «I²¤­x
+-- é‚Šç·£è²æ‹‰å¡(åŸå ¡)æ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25656';  -- å¡ç´è¿ªæ–¯ ç‹‚ä¿¡å¾’(Lv79)
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=2730278, `sp`=394141, `hp`=423463, `mp`=1708 where id='25653';  -- å¡ç´è¿ªæ–¯ å…ˆé©…è€…(Lv81) ä¾µç•¥è»
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25657';  -- å¡ç´è¿ªæ–¯ ç‹‚ä¿¡å¾’(Lv81)
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=2911026, `sp`=402310, `hp`=431974, `mp`=1777 where id='25654';  -- å¡ç´è¿ªæ–¯ å…ˆé©…è€…(Lv83) ä¾µç•¥è»
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=0, `sp`=0, `hp`=8789, `mp`=1777 where id='25658';  -- å¡ç´è¿ªæ–¯ ç‹‚ä¿¡å¾’(Lv83)
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=3100451, `sp`=410692, `hp`=440657, `mp`=1846 where id='25655';  -- å¡ç´è¿ªæ–¯ å…ˆé©…è€…(Lv85) ä¾µç•¥è»
 
--- Ãä½tµá©Ô¥d(­n¶ë)©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25662';  -- ¥d¯Ç­}´µ °l±qªÌ(Lv75)
-UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2588731, `sp`=332450, `hp`=406426, `mp`=1574 where id='25659';  -- ¥d¯Ç­}´µ «e¾ÉªÌ(Lv77) «I²¤­x
-UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25663';  -- ¥d¯Ç­}´µ °l±qªÌ(Lv78)
-UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=2706502, `sp`=353878, `hp`=419270, `mp`=1674 where id='25660';  -- ¥d¯Ç­}´µ «e¾ÉªÌ(Lv80) «I²¤­x
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25664';  -- ¥d¯Ç­}´µ °l±qªÌ(Lv81) 
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=2853103, `sp`=373311, `hp`=431974, `mp`=1777 where id='25661';  -- ¥d¯Ç­}´µ «e¾ÉªÌ(Lv83) «I²¤­x
+-- é‚Šç·£è²æ‹‰å¡(è¦å¡)æ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25662';  -- å¡ç´è¿ªæ–¯ è¿½å¾è€…(Lv75)
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2588731, `sp`=332450, `hp`=406426, `mp`=1574 where id='25659';  -- å¡ç´è¿ªæ–¯ å‰å°è€…(Lv77) ä¾µç•¥è»
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25663';  -- å¡ç´è¿ªæ–¯ è¿½å¾è€…(Lv78)
+UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=2706502, `sp`=353878, `hp`=419270, `mp`=1674 where id='25660';  -- å¡ç´è¿ªæ–¯ å‰å°è€…(Lv80) ä¾µç•¥è»
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25664';  -- å¡ç´è¿ªæ–¯ è¿½å¾è€…(Lv81) 
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=2853103, `sp`=373311, `hp`=431974, `mp`=1777 where id='25661';  -- å¡ç´è¿ªæ–¯ å‰å°è€…(Lv83) ä¾µç•¥è»
 
--- ¦a¤UÄv§Ş³õ©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=45, `exp`=3834,  `sp`=266,  `hp`=1183, `mp`=610  where id='22443';  -- ¬_º¸°óªº¨ÏªÌ(Lv45)
-UPDATE `npc` SET `type`='L2Monster', `level`=55, `exp`=5728,  `sp`=462,  `hp`=1673, `mp`=889  where id='22444';  -- ¬_º¸°óªº¨ÏªÌ(Lv55)
-UPDATE `npc` SET `type`='L2Monster', `level`=65, `exp`=7797,  `sp`=724,  `hp`=2193, `mp`=1188 where id='22445';  -- ¬_º¸°óªº¨ÏªÌ(Lv65)
-UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=9659,  `sp`=1018, `hp`=2676, `mp`=1507 where id='22446';  -- ¬_º¸°óªº¨ÏªÌ(Lv75)
-UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=10183, `sp`=1143, `hp`=3290, `mp`=1674 where id='22447';  -- ¬_º¸°óªº¨ÏªÌ(Lv80)
+-- åœ°ä¸‹ç«¶æŠ€å ´æ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=45, `exp`=3834,  `sp`=266,  `hp`=1183, `mp`=610  where id='22443';  -- æŸ¯çˆ¾å ‚çš„ä½¿è€…(Lv45)
+UPDATE `npc` SET `type`='L2Monster', `level`=55, `exp`=5728,  `sp`=462,  `hp`=1673, `mp`=889  where id='22444';  -- æŸ¯çˆ¾å ‚çš„ä½¿è€…(Lv55)
+UPDATE `npc` SET `type`='L2Monster', `level`=65, `exp`=7797,  `sp`=724,  `hp`=2193, `mp`=1188 where id='22445';  -- æŸ¯çˆ¾å ‚çš„ä½¿è€…(Lv65)
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=9659,  `sp`=1018, `hp`=2676, `mp`=1507 where id='22446';  -- æŸ¯çˆ¾å ‚çš„ä½¿è€…(Lv75)
+UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=10183, `sp`=1143, `hp`=3290, `mp`=1674 where id='22447';  -- æŸ¯çˆ¾å ‚çš„ä½¿è€…(Lv80)
 
--- ¼W¥[¦a¤U¦¬®e©Ò©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=2192267, `sp`=353878, `hp`=192008, `mp`=1410 where id='25572';  -- ¤£ªkªÌ«¢º¸®w ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25574';  -- «¢º¸®wªºÄµ½Ã
-UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25573';  -- «¢º¸®wªº°lÀHªÌ
+-- å¢åŠ åœ°ä¸‹æ”¶å®¹æ‰€æ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=2192267, `sp`=353878, `hp`=192008, `mp`=1410 where id='25572';  -- ä¸æ³•è€…å“ˆçˆ¾åº« éå»çš„å›šçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25574';  -- å“ˆçˆ¾åº«çš„è­¦è¡›
+UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25573';  -- å“ˆçˆ¾åº«çš„è¿½éš¨è€…
 REPLACE INTO `minions` VALUES (25572, 25574, 1, 1);
 REPLACE INTO `minions` VALUES (25572, 25573, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=2234730, `sp`=360602, `hp`=194342, `mp`=1442 where id='25575';  -- ³zµøªÌ®ÔÅK ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25577';  -- ®ÔÅKªº¤ô´¹Åé
-UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25576';  -- ®ÔÅKªº­i½¤
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=2234730, `sp`=360602, `hp`=194342, `mp`=1442 where id='25575';  -- é€è¦–è€…æœ—éµ éå»çš„å›šçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25577';  -- æœ—éµçš„æ°´æ™¶é«”
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25576';  -- æœ—éµçš„è™¹è†œ
 REPLACE INTO `minions` VALUES (25575, 25577, 1, 1);
 REPLACE INTO `minions` VALUES (25575, 25576, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=2234730, `sp`=360602, `hp`=388684, `mp`=1442 where id='25578';  -- ¥v§J¹p ¹L¥hªº¥}¥Ç
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=2234730, `sp`=360602, `hp`=388684, `mp`=1442 where id='25578';  -- å²å…‹é›· éå»çš„å›šçŠ¯
 
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=2280800, `sp`=367102, `hp`=196619, `mp`=1475 where id='25579';  -- ®ü¦è©`º¸ ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25581';  -- ®ü¦è©`º¸ªº¨ë«È
-UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25580';  -- ®ü¦è©`º¸ªº¦uÅ@§L
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=2280800, `sp`=367102, `hp`=196619, `mp`=1475 where id='25579';  -- æµ·è¥¿å¥ˆçˆ¾ éå»çš„å›šçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25581';  -- æµ·è¥¿å¥ˆçˆ¾çš„åˆºå®¢
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25580';  -- æµ·è¥¿å¥ˆçˆ¾çš„å®ˆè­·å…µ
 REPLACE INTO `minions` VALUES (25579, 25581, 1, 1);
 REPLACE INTO `minions` VALUES (25579, 25580, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25582';  -- ¥[º¸¤O¦w ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25584';  -- ¥[º¸¤O¦wªº¹²¤H
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25583';  -- ¥[º¸¤O¦wªº¤k¨à
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25582';  -- åŠ çˆ¾åŠ›å®‰ éå»çš„å›šçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25584';  -- åŠ çˆ¾åŠ›å®‰çš„åƒ•äºº
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25583';  -- åŠ çˆ¾åŠ›å®‰çš„å¥³å…’
 REPLACE INTO `minions` VALUES (25582, 25584, 1, 1);
 REPLACE INTO `minions` VALUES (25582, 25583, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=76, `exp`=2383518, `sp`=369370, `hp`=201046, `mp`=1540 where id='25585';  -- ³Á¥H­} ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25586';  -- ³Á¥H­}¤§©f
-UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25587';  -- ³Á¥H­}¤§§Ì
+UPDATE `npc` SET `type`='L2Monster', `level`=76, `exp`=2383518, `sp`=369370, `hp`=201046, `mp`=1540 where id='25585';  -- éº¥ä»¥è¿ª éå»çš„å›šçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25586';  -- éº¥ä»¥è¿ªä¹‹å¦¹
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25587';  -- éº¥ä»¥è¿ªä¹‹å¼Ÿ
 REPLACE INTO `minions` VALUES (25585, 25586, 1, 1);
 REPLACE INTO `minions` VALUES (25585, 25587, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2441393, `sp`=374864, `hp`=406426, `mp`=1574 where id='25588';  -- µLªkªı¤îªº¹õ¯Q¤h ¹L¥hªº¥}¥Ç
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2441393, `sp`=374864, `hp`=406426, `mp`=1574 where id='25588';  -- ç„¡æ³•é˜»æ­¢çš„å¹•çƒå£« éå»çš„å›šçŠ¯
 
-UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=2504377, `sp`=380180, `hp`=205362, `mp`=1607 where id='25589';  -- ³Q©ñ³vªº¤Ú¨½¹F ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25591';  -- ¤Ú¨½¹Fªº¨Í¤k
-UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25590';  -- ¤Ú¨½¹Fªº¨Í±q
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=2504377, `sp`=380180, `hp`=205362, `mp`=1607 where id='25589';  -- è¢«æ”¾é€çš„å·´é‡Œé” éå»çš„å›šçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25591';  -- å·´é‡Œé”çš„ä¾å¥³
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25590';  -- å·´é‡Œé”çš„ä¾å¾
 REPLACE INTO `minions` VALUES (25589, 25591, 1, 1);
 REPLACE INTO `minions` VALUES (25589, 25590, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=2643172, `sp`=390090, `hp`=209635, `mp`=1674 where id='25593';  -- ±°­¹ªÌ³Íº¸®æ ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25594';  -- ³Íº¸®æªº°lÀHªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25595';  -- ³Íº¸®æªº³¡¤U
+UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=2643172, `sp`=390090, `hp`=209635, `mp`=1674 where id='25593';  -- æ é£Ÿè€…å‡±çˆ¾æ ¼ éå»çš„å›šçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25594';  -- å‡±çˆ¾æ ¼çš„è¿½éš¨è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25595';  -- å‡±çˆ¾æ ¼çš„éƒ¨ä¸‹
 REPLACE INTO `minions` VALUES (25593, 25594, 1, 1);
 REPLACE INTO `minions` VALUES (25593, 25595, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=415001, `mp`=1641 where id='25592';  -- ¤j±N­x¥d©Ô¶© ¹L¥hªº¥}¥Ç
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=415001, `mp`=1641 where id='25592';  -- å¤§å°‡è»å¡æ‹‰éš† éå»çš„å›šçŠ¯
 
--- ¼W¥[«°³ù¦aºÊ©Çª«¸ê®Æ Update 23-08-2010
-UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25546';  -- ­I«Hªº©Ô¥§¦w ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25547';  -- ©Ô¥§¦wªº¦P¹Ù
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25548';  -- ©Ô¥§¦wªºªvÂ¡ªÌ
+-- å¢åŠ åŸå ¡åœ°ç›£æ€ªç‰©è³‡æ–™ Update 23-08-2010
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25546';  -- èƒŒä¿¡çš„æ‹‰å°¼å®‰ éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25547';  -- æ‹‰å°¼å®‰çš„åŒå¤¥
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25548';  -- æ‹‰å°¼å®‰çš„æ²»ç™’è€…
 REPLACE INTO `minions` VALUES (25546, 25547, 1, 1);
 REPLACE INTO `minions` VALUES (25546, 25548, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25549';  -- ¶B´Û¥Ç®õ¦è¨È ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25550';  -- ®õ¦è¨Èªº¤j§Ì¤l
-UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25551';  -- ®õ¦è¨Èªº¶]»L
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25549';  -- è©æ¬ºçŠ¯æ³°è¥¿äº éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25550';  -- æ³°è¥¿äºçš„å¤§å¼Ÿå­
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25551';  -- æ³°è¥¿äºçš„è·‘è…¿
 REPLACE INTO `minions` VALUES (25549, 25550, 1, 1);
 REPLACE INTO `minions` VALUES (25549, 25551, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=76, `exp`=2383518, `sp`=369370, `hp`=402092, `mp`=1540 where id='25552';  -- ÆF»îÂy¤H¬d©ø­} ¹L¥hªº¸o¥Ç
+UPDATE `npc` SET `type`='L2Monster', `level`=76, `exp`=2383518, `sp`=369370, `hp`=402092, `mp`=1540 where id='25552';  -- éˆé­‚çµäººæŸ¥æ˜†è¿ª éå»çš„ç½ªçŠ¯
 
-UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2441393, `sp`=374864, `hp`=406426, `mp`=1574 where id='25553';  -- ©¥¥Û®±§ù®õ®æ ¹L¥hªº¸o¥Ç
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2441393, `sp`=374864, `hp`=406426, `mp`=1574 where id='25553';  -- å²©çŸ³æ‹³æœæ³°æ ¼ éå»çš„ç½ªçŠ¯
 
-UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=2504377, `sp`=380180, `hp`=205362, `mp`=1607 where id='25554';  -- ¤£©}ªº¥¬¾|®õ»ô¼Ú ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25555';  -- ¥¬¾|®õ»ô¼Úªº¥k¤â
-UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25556';  -- ¥¬¾|®õ»ô¼Úªº¥ª¤â
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=2504377, `sp`=380180, `hp`=205362, `mp`=1607 where id='25554';  -- ä¸å±ˆçš„å¸ƒé­¯æ³°é½Šæ­ éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25555';  -- å¸ƒé­¯æ³°é½Šæ­çš„å³æ‰‹
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25556';  -- å¸ƒé­¯æ³°é½Šæ­çš„å·¦æ‰‹
 REPLACE INTO `minions` VALUES (25554, 25555, 1, 1);
 REPLACE INTO `minions` VALUES (25554, 25556, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=207500, `mp`=1641 where id='25557';  -- ´ËªL±°­¹ªÌ³Í³Í¿Õ´µ ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25558';  -- ³Í³Í¿Õ´µªº°¼®Ú
-UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25559';  -- ³Í³Í¿Õ´µªºªá
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=207500, `mp`=1641 where id='25557';  -- æ£®æ—æ é£Ÿè€…å‡±å‡±è«¾æ–¯ éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25558';  -- å‡±å‡±è«¾æ–¯çš„å´æ ¹
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25559';  -- å‡±å‡±è«¾æ–¯çš„èŠ±
 REPLACE INTO `minions` VALUES (25557, 25558, 1, 1);
 REPLACE INTO `minions` VALUES (25557, 25559, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=207500, `mp`=1641 where id='25560';  -- ¼É¨«¼C¤h´µ¨½¥d¼w ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25561';  -- ´µ¨½¥d¼wªºÄÁ
-UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25562';  -- ´µ¨½¥d¼wªº¨£²ß¥Í
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=207500, `mp`=1641 where id='25560';  -- æš´èµ°åŠå£«æ–¯é‡Œå¡å¾· éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25561';  -- æ–¯é‡Œå¡å¾·çš„é˜
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25562';  -- æ–¯é‡Œå¡å¾·çš„è¦‹ç¿’ç”Ÿ
 REPLACE INTO `minions` VALUES (25560, 25561, 1, 1);
 REPLACE INTO `minions` VALUES (25560, 25562, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=2730278, `sp`=394141, `hp`=211731, `mp`=1708 where id='25563';  -- ¬ü»ªªº©`¯÷¨½­C ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25564';  -- ©`¯÷¨½­Cªº°lÀHªÌ
-UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25565';  -- ©`¯÷¨½­Cªº³¡¤U
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=2730278, `sp`=394141, `hp`=211731, `mp`=1708 where id='25563';  -- ç¾è²Œçš„å¥ˆèŒ²é‡Œè€¶ éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25564';  -- å¥ˆèŒ²é‡Œè€¶çš„è¿½éš¨è€…
+UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25565';  -- å¥ˆèŒ²é‡Œè€¶çš„éƒ¨ä¸‹
 REPLACE INTO `minions` VALUES (25563, 25564, 1, 1);
 REPLACE INTO `minions` VALUES (25563, 25565, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=2819564, `sp`=398177, `hp`=213848, `mp`=1743 where id='25566';  -- ²Ê³¥ªº«nÃe ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25567';  -- «nÃeªº¦Ü¥æ
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25568';  -- «nÃeªº¦Ñ¤Í
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=2819564, `sp`=398177, `hp`=213848, `mp`=1743 where id='25566';  -- ç²—é‡çš„å—é¾ éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25567';  -- å—é¾çš„è‡³äº¤
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25568';  -- å—é¾çš„è€å‹
 REPLACE INTO `minions` VALUES (25566, 25567, 1, 1);
 REPLACE INTO `minions` VALUES (25566, 25568, 1, 1);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=2819564, `sp`=398177, `hp`=213848, `mp`=1743 where id='25569';  -- ¯}ÃaªÌ¥[´µ ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25570';  -- ¥[´µªº°»¬d§L
-UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25571';  -- ¥[´µªº¬ğÀ»§L
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=2819564, `sp`=398177, `hp`=213848, `mp`=1743 where id='25569';  -- ç ´å£è€…åŠ æ–¯ éå»çš„ç½ªçŠ¯
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25570';  -- åŠ æ–¯çš„åµæŸ¥å…µ
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25571';  -- åŠ æ–¯çš„çªæ“Šå…µ
 REPLACE INTO `minions` VALUES (25569, 25570, 1, 1);
 REPLACE INTO `minions` VALUES (25569, 25571, 1, 1);
 
--- Åv¯à°ö°V³õ
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22780';  -- ÁÉº¸°[¯T¤h§L(¤}¤â)
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22782';  -- ÁÉº¸°[¯T¤h§L(¾Ô¤h)
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22784';  -- ÁÉº¸°[¯T¤h§L(ªk®v)
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=17547, `sp`=1759,  `hp`=3835, `mp`=1777 where id='18908';  -- ÁÉº¸°[¯T®Æ²zªø
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22786';  -- ÁÉº¸°[¯T¤Q¤Òªø(¤}¤â)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22787';  -- ÁÉº¸°[¯T¤Q¤Òªø(¾Ô¤h)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22788';  -- ÁÉº¸°[¯T¤Q¤Òªø(ªk®v)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=4807,  `sp`=512,   `hp`=4039, `mp`=1812 where id='22781';  -- ÁÉº¸°[¯T¼ô½m§L(¤}¤â)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=8532,  `sp`=910,   `hp`=4039, `mp`=1812 where id='22783';  -- ÁÉº¸°[¯T¼ô½m§L(¾Ô¤h)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=11192, `sp`=1194,  `hp`=4039, `mp`=1812 where id='22785';  -- ÁÉº¸°[¯T¼ô½m§L(ªk®v)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22778';  -- ÁÉº¸°[¯T°V½m±Ğ©x(¤}¤â)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22775';  -- ÁÉº¸°[¯T°V½m±Ğ©x(ªk®v)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22777';  -- ÁÉº¸°[¯T°V½m±Ğ©x(¾Ô¤h)
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=37863, `sp`=3820,  `hp`=4039, `mp`=1812 where id='22776';  -- ÁÉº¸°[¯T°V½m±Ğ©xªø
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=24663, `sp`= 2481, `hp`=4039, `mp`=1812 where id='22779';  -- ÁÉº¸°[¯TÅ@½Ã¾Ô¤h
--- »h»i¯ó­ì
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=19616, `sp`=2145, `hp`=3643, `mp`=1743 where id='18862';  -- ©Z¶ğ»h»i¤H¦uÅ@ªÌ «Õ¨¦°Ç´µªºÀH¦æ­û
-UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=14826, `sp`=1621, `hp`=3643, `mp`=1743 where id='22768';  -- ©Z¶ğ»h»i¤H¨µ¦u
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=21133, `sp`=2282, `hp`=3835, `mp`=1777 where id='22772';  -- ©Z¶ğ»h»i¤H¤}½b¤â
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=19888, `sp`=2147, `hp`=3835, `mp`=1777 where id='22769';  -- ©Z¶ğ»h»i¤H¾Ô¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=20911, `sp`=2258, `hp`=3835, `mp`=1777 where id='22773';  -- ©Z¶ğ»h»i¤HÅ]ªk®v
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=34362, `sp`=3499, `hp`=4039, `mp`=1812 where id='22770';  -- ©Z¶ğ»h»i¤H«i¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=38824, `sp`=3950, `hp`=4039, `mp`=1812 where id='22774';  -- ©Z¶ğ»h»i¤H¥l³ê¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=35295, `sp`=3599, `hp`=4039, `mp`=1812 where id='22771';  -- ©Z¶ğ»h»i¤H¨g¾Ô¤h
-UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=0,     `sp`=0,    `hp`=4039, `mp`=1812 where id='18863';  -- ²½¥qªø «Õ¨¦°Ç´µ ©Z¶ğ»h»i¤H
--- ¬_§J©ÔÁï -- Ïf·À¤§ºØ
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22762';  -- ¥d¥ì¼Ú¯Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22760';  -- ¥d¥§¤ñ
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22761';  -- ©_¨½¼Ú¯Ç
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22765';  -- ºë¾U¥d¥ì¼Ú¯Ç ¬_§J©ÔÁï
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22763';  -- ºë¾U¥d¥§¤ñ ¬_§J©ÔÁï
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22764';  -- ºë¾U©_¨½¼Ú¯Ç ¬_§J©ÔÁï
--- ¤ñ´µ¶ğÁï -- Ïf·À¤§ºØ
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=585939,  `sp`=58904,  `hp`=55817,  `mp`=1846 where id='22749';  -- ¯S¹p§¢
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22746';  -- ¤Ú®æ³s¯S
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22747';  -- ¥¬©Ô©_¦w
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22748';  -- ®æ¬¥¥ì§¢
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22750';  -- ºë¾U¤Ú®æ³s¯S ¤ñ´µ¶ğÁï
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22751';  -- ºë¾U¥¬©Ô»ô¦w ¤ñ´µ¶ğÁï
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22752';  -- ºë¾U®æ¬¥¥ì§¢ ¤ñ´µ¶ğÁï
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22753';  -- ºë¾U¯S¹p§¢ ¤ñ´µ¶ğÁï
--- ¹p´£¨½Áï -- Ïf·À¤§ºØ
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22755';  -- §J©Ô©_¦w
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22756';  -- ¶ğ­}¯Î
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22754';  -- ¦«¯S¾¤¦w
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22758';  -- ºë¾U§J©Ô©_¦w ¹p´£¨½Áï
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22759';  -- ºë¾U¶ğ­}¯Î ¹p´£¨½Áï
-UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22757';  -- ºë¾U¦«¯S¾¤¦w ¹p´£¨½Áï
--- Ïf·À¤§ºØ 85¯Å¬¼Ây­º»â
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25697';  -- ¤g­Û¤Ú ¹p´£¨½Áï
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3078748, `sp`=399008, `hp`=763865, `mp`=18468 where id='25696';  -- ¶ğ§J©Ô¥Ì ¤ñ´µ¶ğÁï  ¥i§l»î
-UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25698';  -- ¦h©¬«Ø ¬_§J©ÔÁï  ¥i§l»î
+-- æ¬Šèƒ½åŸ¹è¨“å ´
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22780';  -- è³½çˆ¾è±ºç‹¼å£«å…µ(å¼“æ‰‹)
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22782';  -- è³½çˆ¾è±ºç‹¼å£«å…µ(æˆ°å£«)
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22784';  -- è³½çˆ¾è±ºç‹¼å£«å…µ(æ³•å¸«)
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=17547, `sp`=1759,  `hp`=3835, `mp`=1777 where id='18908';  -- è³½çˆ¾è±ºç‹¼æ–™ç†é•·
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22786';  -- è³½çˆ¾è±ºç‹¼åå¤«é•·(å¼“æ‰‹)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22787';  -- è³½çˆ¾è±ºç‹¼åå¤«é•·(æˆ°å£«)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22788';  -- è³½çˆ¾è±ºç‹¼åå¤«é•·(æ³•å¸«)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=4807,  `sp`=512,   `hp`=4039, `mp`=1812 where id='22781';  -- è³½çˆ¾è±ºç‹¼ç†Ÿç·´å…µ(å¼“æ‰‹)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=8532,  `sp`=910,   `hp`=4039, `mp`=1812 where id='22783';  -- è³½çˆ¾è±ºç‹¼ç†Ÿç·´å…µ(æˆ°å£«)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=11192, `sp`=1194,  `hp`=4039, `mp`=1812 where id='22785';  -- è³½çˆ¾è±ºç‹¼ç†Ÿç·´å…µ(æ³•å¸«)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22778';  -- è³½çˆ¾è±ºç‹¼è¨“ç·´æ•™å®˜(å¼“æ‰‹)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22775';  -- è³½çˆ¾è±ºç‹¼è¨“ç·´æ•™å®˜(æ³•å¸«)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22777';  -- è³½çˆ¾è±ºç‹¼è¨“ç·´æ•™å®˜(æˆ°å£«)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=37863, `sp`=3820,  `hp`=4039, `mp`=1812 where id='22776';  -- è³½çˆ¾è±ºç‹¼è¨“ç·´æ•™å®˜é•·
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=24663, `sp`= 2481, `hp`=4039, `mp`=1812 where id='22779';  -- è³½çˆ¾è±ºç‹¼è­·è¡›æˆ°å£«
+-- èœ¥èœ´è‰åŸ
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=19616, `sp`=2145, `hp`=3643, `mp`=1743 where id='18862';  -- å¦å¡”èœ¥èœ´äººå®ˆè­·è€… å¹½è°·å‹’æ–¯çš„éš¨è¡Œå“¡
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=14826, `sp`=1621, `hp`=3643, `mp`=1743 where id='22768';  -- å¦å¡”èœ¥èœ´äººå·¡å®ˆ
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=21133, `sp`=2282, `hp`=3835, `mp`=1777 where id='22772';  -- å¦å¡”èœ¥èœ´äººå¼“ç®­æ‰‹
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=19888, `sp`=2147, `hp`=3835, `mp`=1777 where id='22769';  -- å¦å¡”èœ¥èœ´äººæˆ°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=20911, `sp`=2258, `hp`=3835, `mp`=1777 where id='22773';  -- å¦å¡”èœ¥èœ´äººé­”æ³•å¸«
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=34362, `sp`=3499, `hp`=4039, `mp`=1812 where id='22770';  -- å¦å¡”èœ¥èœ´äººå‹‡å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=38824, `sp`=3950, `hp`=4039, `mp`=1812 where id='22774';  -- å¦å¡”èœ¥èœ´äººå¬å–šå£«
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=35295, `sp`=3599, `hp`=4039, `mp`=1812 where id='22771';  -- å¦å¡”èœ¥èœ´äººç‹‚æˆ°å£«
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=0,     `sp`=0,    `hp`=4039, `mp`=1812 where id='18863';  -- ç¥­å¸é•· å¹½è°·å‹’æ–¯ å¦å¡”èœ¥èœ´äºº
+-- æŸ¯å…‹æ‹‰é—Š -- æ®„æ»…ä¹‹ç¨®
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22762';  -- å¡ä¼Šæ­ç´
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22760';  -- å¡å°¼æ¯”
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22761';  -- å¥‡é‡Œæ­ç´
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22765';  -- ç²¾éŠ³å¡ä¼Šæ­ç´ æŸ¯å…‹æ‹‰é—Š
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22763';  -- ç²¾éŠ³å¡å°¼æ¯” æŸ¯å…‹æ‹‰é—Š
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22764';  -- ç²¾éŠ³å¥‡é‡Œæ­ç´ æŸ¯å…‹æ‹‰é—Š
+-- æ¯”æ–¯å¡”é—Š -- æ®„æ»…ä¹‹ç¨®
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=585939,  `sp`=58904,  `hp`=55817,  `mp`=1846 where id='22749';  -- ç‰¹é›·å
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22746';  -- å·´æ ¼é€£ç‰¹
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22747';  -- å¸ƒæ‹‰å¥‡å®‰
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22748';  -- æ ¼æ´›ä¼Šå
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22750';  -- ç²¾éŠ³å·´æ ¼é€£ç‰¹ æ¯”æ–¯å¡”é—Š
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22751';  -- ç²¾éŠ³å¸ƒæ‹‰é½Šå®‰ æ¯”æ–¯å¡”é—Š
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22752';  -- ç²¾éŠ³æ ¼æ´›ä¼Šå æ¯”æ–¯å¡”é—Š
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22753';  -- ç²¾éŠ³ç‰¹é›·å æ¯”æ–¯å¡”é—Š
+-- é›·æé‡Œé—Š -- æ®„æ»…ä¹‹ç¨®
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22755';  -- å…‹æ‹‰å¥‡å®‰
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22756';  -- å¡”è¿ªç¿
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22754';  -- æ‰˜ç‰¹é»å®‰
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22758';  -- ç²¾éŠ³å…‹æ‹‰å¥‡å®‰ é›·æé‡Œé—Š
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22759';  -- ç²¾éŠ³å¡”è¿ªç¿ é›·æé‡Œé—Š
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22757';  -- ç²¾éŠ³æ‰˜ç‰¹é»å®‰ é›·æé‡Œé—Š
+-- æ®„æ»…ä¹‹ç¨® 85ç´šç‹©çµé¦–é ˜
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25697';  -- åœŸå€«å·´ é›·æé‡Œé—Š
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3078748, `sp`=399008, `hp`=763865, `mp`=18468 where id='25696';  -- å¡”å…‹æ‹‰ç”˜ æ¯”æ–¯å¡”é—Š  å¯å¸é­‚
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25698';  -- å¤šå¸•å»º æŸ¯å…‹æ‹‰é—Š  å¯å¸é­‚
 
--- new npc for ¸¬Äª
+-- new npc for è‘«è˜†
 DELETE FROM npcskills WHERE npcid IN (12774,12775,12776,12777,12778,12779,13016,13017);
 -- DELETE FROM npcaidata WHERE npcId IN (12774,12775,12776,12777,12778,12779,13016,13017);
 UPDATE npc SET `type`='L2ChronoMonster' WHERE id IN (12774,12775,12776,12777,12778,12779,13016,13017);
 
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12774;  -- ¥¼¦¨¼ôªº¸¬Äª
-UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12775;  -- Àu¨}ªº¸¬Äª
-UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12776;  -- ¤£¨}ªº¸¬Äª
-UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12777;  -- ¥¼¦¨¼ôªº¤j¸¬Äª
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12778;  -- Àu¨}ªº¤j¸¬Äª
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12779;  -- ¤£¨}ªº¤j¸¬Äª
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13016;  -- Àu¨}ªº¸¬Äª¤ı
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13017;  -- Àu¨}ªº¤j¸¬Äª¤ı
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12774;  -- æœªæˆç†Ÿçš„è‘«è˜†
+UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12775;  -- å„ªè‰¯çš„è‘«è˜†
+UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12776;  -- ä¸è‰¯çš„è‘«è˜†
+UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12777;  -- æœªæˆç†Ÿçš„å¤§è‘«è˜†
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12778;  -- å„ªè‰¯çš„å¤§è‘«è˜†
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=12779;  -- ä¸è‰¯çš„å¤§è‘«è˜†
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13016;  -- å„ªè‰¯çš„è‘«è˜†ç‹
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13017;  -- å„ªè‰¯çš„å¤§è‘«è˜†ç‹
 
 -- NPC
 DELETE FROM npcskills WHERE  npcid IN (13271,13272,13273,13274,13275,13276,13277,13278);
 -- DELETE FROM npcaidata WHERE npcId IN (13271,13272,13273,13274,13275,13276,13277,13278);
 UPDATE npc SET `type`='L2ChronoMonster' WHERE id IN (13271,13272,13273,13274,13275,13276,13277,13278);
 
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13271; -- ¥¼¦¨¼ôªº¦è¥Ê
-UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13272; -- ¤£¨}ªº¦è¥Ê
-UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13273; -- Àu¨}ªº¦è¥Ê
-UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13274; -- Àu¨}ªº¦è¥Ê¤ı
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13275; -- ¥¼¦¨¼ôªº­»²¢¦è¥Ê
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13276; -- ¤£¨}ªº­»²¢¦è¥Ê
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13277; -- Àu¨}ªº­»²¢¦è¥Ê
-UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13278; -- Àu¨}ªº­»²¢¦è¥Ê¤ı
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13271; -- æœªæˆç†Ÿçš„è¥¿ç“œ
+UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13272; -- ä¸è‰¯çš„è¥¿ç“œ
+UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13273; -- å„ªè‰¯çš„è¥¿ç“œ
+UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13274; -- å„ªè‰¯çš„è¥¿ç“œç‹
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13275; -- æœªæˆç†Ÿçš„é¦™ç”œè¥¿ç“œ
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13276; -- ä¸è‰¯çš„é¦™ç”œè¥¿ç“œ
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13277; -- å„ªè‰¯çš„é¦™ç”œè¥¿ç“œ
+UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13278; -- å„ªè‰¯çš„é¦™ç”œè¥¿ç“œç‹
 
--- ¿Õº¸©g®x¶é­º»â©Çª«¸ê®Æ 
-UPDATE `npc` SET `type`='L2RaidBoss' where id='25528';  -- ³Ì²×¸Õ½m©x ¶ğ§È¨½¼Ú´µ
-UPDATE `npc` SET `type`='L2Monster', `exp`=0,  `sp`=0 where id='25529';  -- ¸Õ½m©xªº³¡¤U ®x¶éªºÄµ½Ã¶¤
-UPDATE `npc` SET `type`='L2Monster', `exp`=0,  `sp`=0 where id='25530';  -- ¸Õ½m©xªº³¡¤U ®x¶éªºÄµ½Ã¶¤
+-- è«¾çˆ¾å¦®åº­åœ’é¦–é ˜æ€ªç‰©è³‡æ–™ 
+UPDATE `npc` SET `type`='L2RaidBoss' where id='25528';  -- æœ€çµ‚è©¦ç·´å®˜ å¡”åº‡é‡Œæ­æ–¯
+UPDATE `npc` SET `type`='L2Monster', `exp`=0,  `sp`=0 where id='25529';  -- è©¦ç·´å®˜çš„éƒ¨ä¸‹ åº­åœ’çš„è­¦è¡›éšŠ
+UPDATE `npc` SET `type`='L2Monster', `exp`=0,  `sp`=0 where id='25530';  -- è©¦ç·´å®˜çš„éƒ¨ä¸‹ åº­åœ’çš„è­¦è¡›éšŠ
 REPLACE INTO `minions` VALUES (25528, 25529, 3, 3);
 REPLACE INTO `minions` VALUES (25528, 25530, 1, 1);
 
 DELETE FROM npcskills WHERE npcid IN (18437);
 
--- ­×§ï LV 16071 °¨«¶¦w / 16072 ºë¾U°¨«¶¦w
+-- ä¿®æ”¹ LV 16071 é¦¬å¥å®‰ / 16072 ç²¾éŠ³é¦¬å¥å®‰
 UPDATE npc SET `level` = '75' WHERE `id` in (16071,16072);
 
--- ­×¥¿(µá©Ô¥d-¨ü¶ËªºÀs)NPC³]©w
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18635; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ°V½m§L
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18636; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¨B§L
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18640; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ©G³N¤h
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18641; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ²½¥q
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18642; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¾Ô¤h
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18644; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µÆF´C
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18645; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µÅ]¾É¤h
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18646; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¤U¤h
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18648; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ²½¥qªø
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18649; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¤jÅ]¾É¤h
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18650; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ­x©x
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18652; -- ¤Ú·ç¥dÁÉ°Ç¿Õ´µ¤j²½¥qªø
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18653; -- ¤Ú·ç¥dºë¾U¿Ë½Ã¶¤
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18654; -- ¤Ú·ç¥d­x¹Îªø
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18655; -- ¤Ú·ç¥d­º®u¿Ë½Ã¶¤
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18656; -- ¤Ú·ç¥d­º®uÅ]¾É¤h
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18657; -- ¹w¨¥ªÌªº¿Ë½Ã§L
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18658; -- ¹w¨¥ªÌªºªù®{
-UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18659; -- ¤Ú·ç¥d¹w¨¥ªÌ
-UPDATE `npcaidata` SET `aggro` = 1200 WHERE `npcId` = 18660; -- ©Ô¶ğ¨º
+-- ä¿®æ­£(è²æ‹‰å¡-å—å‚·çš„é¾)NPCè¨­å®š
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18635; -- å·´ç‘å¡è³½å‹’è«¾æ–¯è¨“ç·´å…µ
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18636; -- å·´ç‘å¡è³½å‹’è«¾æ–¯æ­¥å…µ
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18640; -- å·´ç‘å¡è³½å‹’è«¾æ–¯å’’è¡“å£«
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18641; -- å·´ç‘å¡è³½å‹’è«¾æ–¯ç¥­å¸
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18642; -- å·´ç‘å¡è³½å‹’è«¾æ–¯æˆ°å£«
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18644; -- å·´ç‘å¡è³½å‹’è«¾æ–¯éˆåª’
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18645; -- å·´ç‘å¡è³½å‹’è«¾æ–¯é­”å°å£«
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18646; -- å·´ç‘å¡è³½å‹’è«¾æ–¯ä¸‹å£«
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18648; -- å·´ç‘å¡è³½å‹’è«¾æ–¯ç¥­å¸é•·
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18649; -- å·´ç‘å¡è³½å‹’è«¾æ–¯å¤§é­”å°å£«
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18650; -- å·´ç‘å¡è³½å‹’è«¾æ–¯è»å®˜
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18652; -- å·´ç‘å¡è³½å‹’è«¾æ–¯å¤§ç¥­å¸é•·
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18653; -- å·´ç‘å¡ç²¾éŠ³è¦ªè¡›éšŠ
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18654; -- å·´ç‘å¡è»åœ˜é•·
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18655; -- å·´ç‘å¡é¦–å¸­è¦ªè¡›éšŠ
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18656; -- å·´ç‘å¡é¦–å¸­é­”å°å£«
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18657; -- é è¨€è€…çš„è¦ªè¡›å…µ
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18658; -- é è¨€è€…çš„é–€å¾’
+UPDATE `npcaidata` SET `aggro` = 900 WHERE `npcId` = 18659; -- å·´ç‘å¡é è¨€è€…
+UPDATE `npcaidata` SET `aggro` = 1200 WHERE `npcId` = 18660; -- æ‹‰å¡”é‚£
 
 REPLACE INTO npcskills VALUES
--- µá©Ô¥d-¨ü¶ËªºÀs
+-- è²æ‹‰å¡-å—å‚·çš„é¾
 (18635,4032,7), -- NPC Strike
 (18636,4573,7), -- NPC Sonic Blaster
 (18640,4065,7), -- NPC Heal
@@ -651,22 +652,22 @@ REPLACE INTO npcskills VALUES
 (18646,4572,7), -- NPC Triple Sonic Slash
 (18648,4065,7), -- NPC Heal
 (18649,4573,7), -- NPC Sonic Blaster
-(18650,4072,7), -- ¥ğ§J
+(18650,4072,7), -- ä¼‘å…‹
 (18654,4573,7), -- NPC Sonic Blaster
 (18655,4573,7), -- NPC Sonic Blaster
 (18656,4065,7), -- NPC Heal
 (18657,4573,7), -- NPC Sonic Blaster
 (18658,4065,7), -- NPC Heal
 (18659,4065,7), -- NPC Heal
-(18660,5715,1), -- ¹q¬y¤õ¿V
-(18660,5716,1), -- ½ÄÀ»
-(18660,5717,1), -- ¤õµK®ğ®§
-(18660,5718,1), -- «ãÀ»
-(18660,5759,1); -- ®i¥Ü-©Ô¶ğ¨º°_¨­
+(18660,5715,1), -- é›»æµç«ç‡„
+(18660,5716,1), -- è¡æ“Š
+(18660,5717,1), -- ç«ç„°æ°£æ¯
+(18660,5718,1), -- æ€’æ“Š
+(18660,5759,1); -- å±•ç¤º-æ‹‰å¡”é‚£èµ·èº«
 
--- ¨IÀq­×¹D°|¬¼Ây­º»â
--- UPDATE `npc` SET `hp`=837564.609209036, `patk`=4094.68934, `pdef`=1428.96384939, `matk`=1092.88500315956, `mdef`=576.114, `matkspd`=6000 where id='25701';  -- ½÷·×ªº¤ä°tªÌ ¨È©`´µ
-UPDATE `npc` SET `hp`=837564.609209036, `patk`=4094.68934, `pdef`=cast(1428.96384939 as decimal(12,5)), `matk`=cast(1092.88500315956 as decimal(12,5)), `mdef`=576.114, `matkspd`=6000 where id='25701';  -- ½÷·×ªº¤ä°tªÌ ¨È©`´µ
+-- æ²‰é»˜ä¿®é“é™¢ç‹©çµé¦–é ˜
+-- UPDATE `npc` SET `hp`=837564.609209036, `patk`=4094.68934, `pdef`=1428.96384939, `matk`=1092.88500315956, `mdef`=576.114, `matkspd`=6000 where id='25701';  -- è¼ç…Œçš„æ”¯é…è€… äºå¥ˆæ–¯
+UPDATE `npc` SET `hp`=837564.609209036, `patk`=4094.68934, `pdef`=cast(1428.96384939 as decimal(12,5)), `matk`=cast(1092.88500315956 as decimal(12,5)), `mdef`=576.114, `matkspd`=6000 where id='25701';  -- è¼ç…Œçš„æ”¯é…è€… äºå¥ˆæ–¯
 UPDATE `spawnlist` SET `locx` = 119120, `locy` = -80576, `locz` = -2694 WHERE `npc_templateid` = 32757;
 UPDATE `raidboss_spawnlist` SET `boss_id` = 25701 WHERE `boss_id` = 29096;
 UPDATE `minions` SET `boss_id` = 25701 WHERE `boss_id` = 29096;
@@ -684,7 +685,7 @@ UPDATE `npcaidata` SET `clan` = 'solina_clan', `clanRange` = 1000, `aiType` = 'b
 -- DELETE  FROM spawnlist where  (npc_templateid=20949 AND locx<=97580 AND locx>=76270 AND locy<=73220 AND locy>=54290);
 -- DELETE  FROM spawnlist where  (npc_templateid=20953 AND locx<=97580 AND locx>=76270 AND locy<=73220 AND locy>=54290);
 
--- ­×¥¿¨©´µ¤§¶ğ©Çª«·s±¼¸¨
+-- ä¿®æ­£è²æ–¯ä¹‹å¡”æ€ªç‰©æ–°æ‰è½
 DELETE FROM `droplist` WHERE `mobId` IN (22373,22374,22375,22376);
 
 REPLACE INTO droplist VALUES
@@ -783,36 +784,36 @@ REPLACE INTO droplist VALUES
 (22376,15813,1,1,-1,500),
 (22376,15814,1,1,-1,500);
 
--- ­×¥¿ Q196 ©Çª«³]©w¬°¥D°Ê
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27371; -- ²ú²ú®¦±ş¼®ªÌ
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27372; -- ²ú²ú®¦Å]¾É¤h
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27373; -- ²ú²ú®¦ÀH±qÃM¤h
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27374; -- ®uµYªº¨¸©À
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27375; -- ®uµYªº¨¸©À
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27376; -- ²ú²ú®¦ÃM¤h
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27377; -- ²ú²ú®¦¨ë«È
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27378; -- ²ú²ú®¦¤jÅ]¹D¤h
-UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27379; -- ²ú²ú®¦¸T½ÃÃM¤h
+-- ä¿®æ­£ Q196 æ€ªç‰©è¨­å®šç‚ºä¸»å‹•
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27371; -- è‰è‰æ©æ®ºæˆ®è€…
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27372; -- è‰è‰æ©é­”å°å£«
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27373; -- è‰è‰æ©éš¨å¾é¨å£«
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27374; -- å¸­ç³çš„é‚ªå¿µ
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27375; -- å¸­ç³çš„é‚ªå¿µ
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27376; -- è‰è‰æ©é¨å£«
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27377; -- è‰è‰æ©åˆºå®¢
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27378; -- è‰è‰æ©å¤§é­”é“å£«
+UPDATE `npcaidata` SET `aggro` = 400 WHERE `npcId` = 27379; -- è‰è‰æ©ç¦è¡›é¨å£«
 
--- ­×¥¿¿ù»~
+-- ä¿®æ­£éŒ¯èª¤
 UPDATE npc SET type = 'L2Monster' WHERE id = 22766;
 UPDATE `npcaidata` SET `aggro` = 300 WHERE `npcId` = 22766;
 DELETE FROM spawnlist WHERE npc_templateid = 32760 AND locx = -24040;
 DELETE FROM spawnlist WHERE npc_templateid = 32777 AND locx = -23993;
 DELETE FROM spawnlist WHERE npc_templateid = 32778 AND locx = -23993;
 
--- ­×¥¿ Q195 ©Çª«³]©w¬°¥D°Ê
-UPDATE npc SET type = 'L2Monster' WHERE id = 18834;  -- ¾¤©úªºÄµ½Ã¶¤­û
+-- ä¿®æ­£ Q195 æ€ªç‰©è¨­å®šç‚ºä¸»å‹•
+UPDATE npc SET type = 'L2Monster' WHERE id = 18834;  -- é»æ˜çš„è­¦è¡›éšŠå“¡
 UPDATE `npcaidata` SET `aggro` = 150 WHERE `npcId` = 18834;
-UPDATE npc SET type = 'L2Monster' WHERE id = 18835;  -- ¾¤©úªºÄµ½Ã¶¤­û
+UPDATE npc SET type = 'L2Monster' WHERE id = 18835;  -- é»æ˜çš„è­¦è¡›éšŠå“¡
 UPDATE `npcaidata` SET `aggro` = 150 WHERE `npcId` = 18835;
-UPDATE npc SET type = 'L2Monster' WHERE id = 27351;  -- ¾¤©úªºÄµ½Ã¶¤­û
+UPDATE npc SET type = 'L2Monster' WHERE id = 27351;  -- é»æ˜çš„è­¦è¡›éšŠå“¡
 UPDATE `npcaidata` SET `aggro` = 150 WHERE `npcId` = 27351;
 
--- §R°£ÂÂÀs¤§¨¦©Çª« NPC
+-- åˆªé™¤èˆŠé¾ä¹‹è°·æ€ªç‰© NPC
 DELETE FROM `spawnlist` WHERE `location` IN ('giran05_tb2421_59','giran05_tb2421_20','giran05_tb2421_29','giran03_tb2321_24','giran05_tb2421_10','giran05_tb2421_81','giran03_2221_02','giran03_2221_05','giran03_2221_08','giran03_2221_15','giran03_2221_19','giran03_2221_p05','giran03_2321_02','giran03_2321_04','giran03_2321_07','giran03_2321_09','giran03_2321_12','giran03_2321_15','giran05_2421_01','giran05_2421_08','giran05_2421_10','giran05_2421_17','giran05_2421_18','giran05_2421_29','giran05_2421_38','giran05_2421_45','giran05_2421_50','giran05_2421_53','giran05_2421_68','giran05_2421_75','giran05_2421_p04','giran05_2421_p50','giran03_2221_H5');
 
--- ­×§ïÀs¤§¨¦©Çª« AI
+-- ä¿®æ”¹é¾ä¹‹è°·æ€ªç‰© AI
 UPDATE `npcaidata` SET `clanRange` = 300, `aggro` = 300, `aiType` = 'fighter' WHERE `npcId` = 22815;
 UPDATE `npcaidata` SET `clanRange` = 300, `aggro` = 300, `aiType` = 'fighter' WHERE `npcId` = 22818;
 UPDATE `npcaidata` SET `clanRange` = 300, `aggro` = 300, `aiType` = 'fighter' WHERE `npcId` = 22819;
@@ -860,7 +861,7 @@ UPDATE `npcaidata` SET `clanRange` = 300, `aggro` = 300, `aiType` = 'balanced' W
 UPDATE `npcaidata` SET `clanRange` = 300, `aggro` = 300, `aiType` = 'balanced' WHERE `npcId` = 22862;
 UPDATE `npcaidata` SET `aggro` = 600 WHERE `npcId` = 25727;
 
--- NPC ¼W¥[©Î­×§ï¤èªk
+-- NPC å¢åŠ æˆ–ä¿®æ”¹æ–¹æ³•
 -- `id`               = 18960,                                smallint(5) unsigned NOT NULL DEFAULT '0',
 -- `idTemplate`       = 18960,                                smallint(5) unsigned NOT NULL DEFAULT '0',
 -- `name`             = 'Drake Lord',                         varchar(200) NOT NULL DEFAULT '',
@@ -905,7 +906,7 @@ UPDATE `npcaidata` SET `aggro` = 600 WHERE `npcId` = 25727;
 -- REPLACE INTO `npc` VALUES 
 -- (18960,18960,'Drake Lord',0,'',0,'LineageMonster6.transform_clodecus',25,35,80,'male','L2Npc',40,2444,2444,0,0,10,10,10,10,10,10,0,0,500,500,500,500,278,1,333,0,0,0,60,160,0,1),
 
--- ¼W¥[NPC Às¤§¨¦
+-- å¢åŠ NPC é¾ä¹‹è°·
 UPDATE `npc` SET `collision_radius`=22,`collision_height`=29,`level`=85,`sex`='male',`type`='L2RaidBoss',`hp`=3902308,`mp`=18468,`hpreg`=240,`mpreg`=500,`str`=60,`con`=57,`dex`=73,`int`=76,`wit`=70,`men`=80,`exp`=6653170,`sp`=900069,`patk`=11094,`pdef`=1428,`matk`=1192,`mdef`=576,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=60,`runspd`=160,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=18960;
 UPDATE `npc` SET `collision_radius`=22,`collision_height`=52,`level`=85,`sex`='male',`type`='L2RaidBoss',`hp`=3902308,`mp`=18468,`hpreg`=240,`mpreg`=500,`str`=60,`con`=57,`dex`=73,`int`=76,`wit`=70,`men`=80,`exp`=6653170,`sp`=900069,`patk`=11094,`pdef`=1428,`matk`=1192,`mdef`=576,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=60,`runspd`=160,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=18961;
 UPDATE `npc` SET `collision_radius`=12,`collision_height`=29,`level`=80,`sex`='male',`type`='L2Monster',`hp`=3290,`mp`=1777,`hpreg`=8.7,`mpreg`=3.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=41310,`sp`=4436,`patk`=1200,`pdef`=858,`matk`=677,`mdef`=500,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=79,`lhand`=0,`enchant`=0,`walkspd`=60,`runspd`=160,`dropHerbGroup`=1,`basestats`=1 WHERE `id`=22815;
@@ -3238,7 +3239,7 @@ REPLACE INTO `spawnlist` VALUES
 ('giran03_2221_H5', '1', '22858', '-114318', '-249558', '-2987', '0', '0', '47395', '60', '0', '0'),
 ('giran03_2221_H5', '1', '22860', '-113721', '-249152', '-2993', '0', '0', '13797', '60', '0', '0');
 
--- ©ç·ÓNPC¶Ç°e©ç·Ó¦ì¸m
+-- æ‹ç…§NPCå‚³é€æ‹ç…§ä½ç½®
 DELETE FROM `teleport` WHERE `id` IN (12098, 12099, 12100, 12101, 12102, 12103, 12104, 12105, 12106, 12107); 
 REPLACE INTO `teleport` VALUES ('Photo Snow House', '12098', '-57530', '-54527', '-1581', '0', '0', '57'); -- NPCID 4317
 REPLACE INTO `teleport` VALUES ('Photo Snow Parade Tunnel b', '12099', '-57628', '-53278', '-1688', '0', '0', '57'); -- NPCID 4318
@@ -3251,7 +3252,7 @@ REPLACE INTO `teleport` VALUES ('Photo Snow Book House', '12105', '-58955', '-59
 REPLACE INTO `teleport` VALUES ('Photo Snow Book Castle', '12106', '-61937', '-59448', '-1713', '0', '0', '57'); -- NPCID 4322
 REPLACE INTO `teleport` VALUES ('Photo Snow Clock Tower', '12107', '-61265', '-57686', '-1610', '0', '0', '57'); -- NPCID 4323
 
--- ¼W¥[¥ô°È 10292 ¤Hª«
+-- å¢åŠ ä»»å‹™ 10292 äººç‰©
 -- DELETE FROM `npc` WHERE `id` IN (32784,32862,27422,27424);
 -- UPDATE `npc` SET `collision_radius`=10,`collision_height`=27.5,`level`=79,`sex`='female',`type`='L2Monster',`hp`=1050.81652,`mp`=531,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=198.34591,`pdef`=164.88513,`matk`=135.44454,`mdef`=109.782377202178,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=80,`runspd`=135,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27422;
 -- UPDATE `npc` SET `collision_radius`=16,`collision_height`=27.5,`level`=79,`sex`='male',`type`='L2Monster',`hp`=1094.28943,`mp`=557.4,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=210.04832,`pdef`=169.13417,`matk`=143.43577,`mdef`=112.611442266143,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=140,`runspd`=170,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27424;
@@ -3261,14 +3262,14 @@ UPDATE `npc` SET `collision_radius`=16,`collision_height`=27.5,`level`=79,`sex`=
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32862);
 REPLACE INTO `spawnlist` VALUES ('unset', '1', '32862', '43347', '-87923', '-2825', '0', '0', '37163', '10', '0', '0');
 
-UPDATE `npc` SET `type` = 'L2Warehouse' WHERE `id` = 31226; -- ­×¥¿Äv§Ş³õºÊ¹î©x NPCÃş«¬
+UPDATE `npc` SET `type` = 'L2Warehouse' WHERE `id` = 31226; -- ä¿®æ­£ç«¶æŠ€å ´ç›£å¯Ÿå®˜ NPCé¡å‹
 
--- ¶ÙÂ½¤Ñª©¥» ­×¥¿¥ô°È NPCÃş«¬
+-- å—¨ç¿»å¤©ç‰ˆæœ¬ ä¿®æ­£ä»»å‹™ NPCé¡å‹
 UPDATE npc SET type = 'L2Monster' WHERE id = 22766;
 UPDATE npcaidata SET aggro = 300 WHERE npcId = 22766;
 UPDATE npc SET type = 'L2QuestGuard' WHERE id = 18846;
 
--- ¶ÙÂ½¤Ñª©¥» ­×¥¿¥ô°È 10285 NPCÃş«¬
+-- å—¨ç¿»å¤©ç‰ˆæœ¬ ä¿®æ­£ä»»å‹™ 10285 NPCé¡å‹
 UPDATE npcaidata SET clan='freya_show_friends', enemyClan = 'freya_show_foes' WHERE npcId = 22767;
 UPDATE npcaidata SET clan='freya_show_foes', enemyClan = 'freya_show_friends' WHERE npcId IN (18848, 18849, 18926);
 UPDATE npcaidata SET enemyRange = 2000 WHERE npcId IN (18848, 18849, 18926);
