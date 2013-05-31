@@ -1542,6 +1542,9 @@ INSERT INTO `messagetable` VALUES
 ('762', 'en', 'Please, stop flying', '', 'L2VillageMasterInstance.java'),
 ('762', 'tw', '請先停止飛行。', '', 'L2VillageMasterInstance.java'),
 ('762', 'cn', '请先停止飞行。', '', 'L2VillageMasterInstance.java'),
+('763', 'en', 'To many awaken subclass.', '', 'L2VillageMasterInstance.java'),
+('763', 'tw', '因為你擁有二個以上的覺醒副職業，請先將過多的覺醒副職業，變更為初始副職業後，才可以繼續。', '', 'L2VillageMasterInstance.java'),
+('763', 'cn', '因为你拥有二个以上的觉醒副职业，请先将过多的觉醒副职业，变更为初始副职业后，才可以继续。', '', 'L2VillageMasterInstance.java'),
 
 ('765', 'en', 'Congratulations you are married!', '', 'L2WeddingManagerInstance.java'),
 ('765', 'tw', '恭喜你們結婚了！', '', 'L2WeddingManagerInstance.java'),
