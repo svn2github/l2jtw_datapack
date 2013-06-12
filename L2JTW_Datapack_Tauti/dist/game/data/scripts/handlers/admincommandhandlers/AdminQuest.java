@@ -15,6 +15,7 @@
 package handlers.admincommandhandlers;
 
 import java.io.File;
+import java.util.logging.Logger;
 
 import javax.script.ScriptException;
 
@@ -22,6 +23,10 @@ import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.instancemanager.QuestManager;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
+import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.model.quest.State;
+import com.l2jserver.gameserver.network.serverpackets.ExShowQuestMark;
+import com.l2jserver.gameserver.network.serverpackets.QuestList;
 import com.l2jserver.gameserver.scripting.L2ScriptEngineManager;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.gameserver.datatables.MessageTable;
@@ -33,7 +38,10 @@ public class AdminQuest implements IAdminCommandHandler
 		"admin_quest_reload",
 		"admin_script_load",
 		"admin_script_unload",
+		"admin_setquest",
 	};
+	
+	private static Logger _log = Logger.getLogger(AdminAdmin.class.getName());
 	
 	@Override
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
@@ -154,6 +162,33 @@ public class AdminQuest implements IAdminCommandHandler
 				{
 					activeChar.sendMessage("The quest [" + parts[1] + "] was not found!.");
 				}
+			}
+		}
+		else if (command.startsWith("admin_setquest"))
+		{
+			String[] parts = command.split(" ");
+			if (parts.length < 2)
+			{
+				activeChar.sendMessage("Syntax: //setquest questid cond");
+			}
+			else
+			{
+				QuestState qs = activeChar.getQuestState(parts[1]);
+				if(qs == null){
+					try{
+						qs = QuestManager.getInstance().getQuest(Integer.parseInt(parts[1])).newQuestState(activeChar);
+					}catch(Exception e){
+						_log.info("No Quest id:" + parts[1]);
+						return false;
+					}
+				}
+				qs.setState(State.STARTED);
+				if(parts.length > 2 && Integer.parseInt(parts[2]) > 0)
+					qs.set("cond", parts[2]);
+				else
+					qs.set("cond", "1");
+				activeChar.sendPacket(new QuestList());
+				activeChar.sendPacket(new ExShowQuestMark(qs.getQuest().getQuestIntId(), qs.getInt("cond")));
 			}
 		}
 		return true;
