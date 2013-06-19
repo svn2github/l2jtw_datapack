@@ -24,43 +24,38 @@ class Quest (JQuest) :
 		JQuest.__init__(self,id,name,descr)
 		self.questItemIds = [DREAM_FRAGMENT_ID]
 
-	def onAdvEvent (self,event,npc,player) :
+	def onEvent (self,event,st) :
 		htmltext = event
-		st = player.getQuestState(qn)
-		if not st : return
-
 		if event == "2a.htm" :
-			st.set("cond","1")
 			st.setState(State.STARTED)
 			st.playSound("ItemSound.quest_accept")
+			st.set("cond","1")
 		elif event == "500.htm" :
 			st.playSound("ItemSound.quest_finish")
 			st.exitQuest(1)
 		return htmltext
 
 	def onTalk (self,npc,player):
-		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		st = player.getQuestState(qn)
-		if not st : return htmltext
-
-		npcId = npc.getNpcId()
-		id = st.getState()
-		cond = st.getInt("cond")
-
-		if id == State.CREATED :
-			Ocean = player.getQuestState("117_OceanOfDistantStar")
-			if npcId == GHOST and cond == 0 :
-				if Ocean.getState() == State.COMPLETED :
-					if st.getPlayer().getLevel() >= 39:
-						htmltext = "200.htm"
+		if st :
+			npcId = npc.getNpcId()
+			htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+			id = st.getState()
+			if id == State.CREATED :
+				Ocean = player.getQuestState("117_OceanOfDistantStar")
+				if st.getPlayer().getLevel() < 39:
+					htmltext="100.htm"
+					st.exitQuest(1)
+				elif Ocean:
+					if Ocean.getState() == State.COMPLETED :
+						htmltext="200.htm"
 					else :
-						htmltext = "100.htm"
+						htmltext = "600.htm"
 						st.exitQuest(1)
 				else :
 					htmltext = "600.htm"
 					st.exitQuest(1)
-		elif id == State.STARTED :
-			if npcId == GHOST and cond == 1 :
+			elif id == State.STARTED :
 				if st.getQuestItemsCount(DREAM_FRAGMENT_ID):
 					htmltext = "2b.htm"
 				else :
@@ -81,7 +76,6 @@ class Quest (JQuest) :
 QUEST		= Quest(650, qn, "對未完成夢想的執著")
 
 QUEST.addStartNpc(GHOST)
-
 QUEST.addTalkId(GHOST)
 QUEST.addKillId(CREWMAN)
 QUEST.addKillId(VAGABOND)
