@@ -3833,12 +3833,6 @@ REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (876,1800,3216600,11),
 (877,4560,3216600,12);
 
--- 清理暫時加入的跳躍點
-DELETE FROM `npc` WHERE (`id` > 61000 AND `id` < 61050);
-DELETE FROM `npcaidata` WHERE (`npcId` > 61000 AND `npcId` < 61050);
-DELETE FROM `npc_elementals` WHERE (`npc_id` > 61000 AND `npc_id` < 61050);
-DELETE FROM `spawnlist` WHERE (`npc_templateid` > 61000 AND `npc_templateid` < 61050);
-
 -- pmq 的支援型根據地
 REPLACE INTO `npc` (`id`, `idTemplate`, `name`, `title`, `class`, `collision_radius`, `collision_height`, `level`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `exp`, `sp`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `critical`, `matkspd`, `rhand`, `walkspd`, `runspd`, `basestats`) VALUES
 (33360,33360,'33360','','',9,22.25,85,'L2Warehouse',40,7324,198797,10,5,1000,100,1200,400,900,300,299,4,398,0,50,120,1);
