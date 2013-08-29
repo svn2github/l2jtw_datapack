@@ -13,6 +13,8 @@ REPLACE INTO `auto_announcements` VALUES
 (9,8100000,9000000,36000,'過度沉溺遊戲易造成身體及精神狀況不佳，請適度的休息，確保您的健康。','false'),
 (10,9000000,9000000,36000,'不論是在進行交易或是買賣物品的時候，請多加確認數量及所要交易的角色名稱，以避免交易錯誤造成您不必要的損失。','false');
 
+UPDATE `npc` SET `type` = 'L2CastleWyvernManager' WHERE `id` IN (35364); -- 修正高達特城堡，飛龍管理員 哈德烈(35364)，無法讓城主召喚飛龍
+
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`currentHp`=`npc`.`hp`*10,`raidboss_spawnlist`.`currentMp`=`npc`.`mp`*10 WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 
 REPLACE INTO `teleport` VALUES
