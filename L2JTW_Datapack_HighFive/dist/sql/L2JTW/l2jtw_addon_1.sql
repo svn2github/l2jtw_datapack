@@ -46,7 +46,7 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` = 31092 AND `locx` = 113481;    -
 DELETE FROM `spawnlist` WHERE `npc_templateid` = 31677 AND `locx` = 110400;    -- 刪除位置錯誤的NPC:國境守備隊員
 DELETE FROM `spawnlist` WHERE `npc_templateid` = 31677 AND `locx` = 112816;    -- 刪除位置錯誤的NPC:國境守備隊員
 DELETE FROM `spawnlist` WHERE `npc_templateid` = 30768 AND `locx` = 86986;     -- 刪除位置錯誤的NPC:拍賣管理者(修加特城鎮)
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('oren09_npc2018_010', 1, 30134, 9689, 15550, -4574, 0, 0, 5892, 60, 0, 0),    -- 傑斯密(黑暗精靈村莊)
 ('oren16_npc2218_016', 1, 31605, 85692, 16400, -2803, 0, 0, 38000, 60, 0, 0),  -- 金斯雷(象牙塔)
 ('innadril09_npc2324_23', 1, 31092, 114486, 217413, -3631, 0, 0, 0, 60, 0, 0), -- 財富的地下商人(水上都市海音斯)
