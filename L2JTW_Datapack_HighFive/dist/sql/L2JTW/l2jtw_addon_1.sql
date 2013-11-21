@@ -2459,7 +2459,7 @@ REPLACE INTO `npcskills` VALUES
 ('22862', '6857', '2'),
 ('22862', '6858', '1');
 -- 
-REPLACE INTO `spawnlist` VALUES 
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
 ('giran03_2221_H5', '1', '32874', '-83097', '155527', '-3174', '0', '0', '50306', '10', '0', '0'),
 ('giran03_2221_H5', '1', '32875', '-15410', '124702', '-3115', '0', '0', '58498', '10', '0', '0'),
 ('giran03_2221_H5', '1', '32876', '19654', '143056', '-3025', '0', '0', '15712', '10', '0', '0'),
@@ -3385,17 +3385,17 @@ UPDATE npc SET type = 'L2Teleporter' WHERE id = 4322;
 UPDATE npc SET type = 'L2Teleporter' WHERE id = 4323;
 
 DELETE FROM `spawnlist` WHERE `location` = 'FantasyIsle' AND `npc_templateid` IN (4315,4316,4317,4318,4319,4320,4321,4322,4323);
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4315', '-59288', '-56815', '-2042', '0', '0', '65275', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4315', '-59288', '-56815', '-2042', '0', '0', '65275', '10', '0', '0');
 -- REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4316', '-55534', '-58574', '-2015', '0', '0', '22295', '10', '0', '0'); -- Missing NPC Spawn
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4317', '-57387', '-54787', '-2015', '0', '0', '48792', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4318', '-58015', '-53378', '-2018', '0', '0', '42342', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4319', '-55349', '-56519', '-2015', '0', '0', '43325', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4320', '-55558', '-58521', '-2015', '0', '0', '15949', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4321', '-59111', '-59138', '-2030', '0', '0', '14587', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4322', '-61822', '-59510', '-2031', '0', '0', '231', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '4323', '-61152', '-57754', '-2015', '0', '0', '0', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '32521', '-59680', '-57334', '-2043', '0', '0', '48969', '10', '0', '0');
-REPLACE INTO `spawnlist` VALUES ('FantasyIsle', '1', '32522', '-59760', '-57336', '-2043', '0', '0', '48810', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4317', '-57387', '-54787', '-2015', '0', '0', '48792', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4318', '-58015', '-53378', '-2018', '0', '0', '42342', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4319', '-55349', '-56519', '-2015', '0', '0', '43325', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4320', '-55558', '-58521', '-2015', '0', '0', '15949', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4321', '-59111', '-59138', '-2030', '0', '0', '14587', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4322', '-61822', '-59510', '-2031', '0', '0', '231', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '4323', '-61152', '-57754', '-2015', '0', '0', '0', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '32521', '-59680', '-57334', '-2043', '0', '0', '48969', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('FantasyIsle', '1', '32522', '-59760', '-57336', '-2043', '0', '0', '48810', '10', '0', '0');
 
 -- 拍照NPC傳送拍照位置
 DELETE FROM `teleport` WHERE `id` IN (12098, 12099, 12100, 12101, 12102, 12103, 12104, 12105, 12106, 12107); 
@@ -3416,15 +3416,15 @@ UPDATE `npc` SET `collision_radius`=10,`collision_height`=27.5,`level`=79,`sex`=
 UPDATE `npc` SET `collision_radius`=16,`collision_height`=27.5,`level`=79,`sex`='male',`type`='L2Monster',`hp`=1094.28943,`mp`=557.4,`hpreg`=5.5,`mpreg`=2.1,`str`=40,`con`=43,`dex`=30,`int`=21,`wit`=20,`men`=20,`exp`=0,`sp`=0,`patk`=210.04832,`pdef`=169.13417,`matk`=143.43577,`mdef`=112.611442266143,`atkspd`=253,`critical`=4,`matkspd`=333,`rhand`=0,`lhand`=0,`enchant`=0,`walkspd`=140,`runspd`=170,`dropHerbGroup`=0,`basestats`=1 WHERE `id`=27424;
 
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32862);
-REPLACE INTO `spawnlist` VALUES ('unset', '1', '32862', '43347', '-87923', '-2825', '0', '0', '37163', '10', '0', '0');
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('unset', '1', '32862', '43347', '-87923', '-2825', '0', '0', '37163', '10', '0', '0');
 
 -- 嗨翻天版本 修正修加特城鎮冒險家會員NPCID錯誤
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31729,31732,31733,31734,31738,31991,31992,31993,31994,31995);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31991,87130,-140754,-1542,0,0,15201,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31992,88223,-142349,-1343,0,0,60027,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31993,84521,-141191,-1542,0,0,57344,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31994,86514,-142340,-1343,0,0,32768,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Town of Schuttgart',1,31995,90340,-141373,-1542,0,0,39084,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Town of Schuttgart',1,31991,87130,-140754,-1542,0,0,15201,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Town of Schuttgart',1,31992,88223,-142349,-1343,0,0,60027,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Town of Schuttgart',1,31993,84521,-141191,-1542,0,0,57344,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Town of Schuttgart',1,31994,86514,-142340,-1343,0,0,32768,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Town of Schuttgart',1,31995,90340,-141373,-1542,0,0,39084,60,0,0);
 
 UPDATE `npc` SET `type` = 'L2Warehouse' WHERE `id` = 31226; -- 修正競技場監察官 NPC類型
 
@@ -3434,9 +3434,9 @@ UPDATE npcaidata SET aggro = 300 WHERE npcId = 22766;
 UPDATE npc SET type = 'L2QuestGuard' WHERE id = 18846;
 
 -- 嗨翻天版本 增加及修正狄恩競技場 NPC 位置 
-REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31690,11762,184101,-3567,0,0,58144,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Dion_Arena',1,31688,11769,183921,-3567,0,0,50874,60,0,0);
-REPLACE INTO `spawnlist` VALUES ('Dion_Arena_Race Manager',1,30995,13691,182613,-3565,0,0,47313,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Dion_Arena',1,31690,11762,184101,-3567,0,0,58144,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Dion_Arena',1,31688,11769,183921,-3567,0,0,50874,60,0,0);
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES ('Dion_Arena_Race Manager',1,30995,13691,182613,-3565,0,0,47313,60,0,0);
 
 -- 修正 NPC 高度
 UPDATE npc SET collision_height=25 WHERE id = 32784;
