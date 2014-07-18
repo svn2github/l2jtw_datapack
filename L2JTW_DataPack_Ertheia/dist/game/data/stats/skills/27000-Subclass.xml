@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="1566" levels="1" name="職業變更">
+		<set name="targetType" val="SELF" />
+		<set name="operateType" val="A1" />
+		<set name="classIndex" val="0" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="showSkillListIcon" val="false" />
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570" />
+			</not>
+		</cond>
+		<for>
+			<effect name="Buff" />
+		</for>
+	</skill>
+	<skill id="1567" levels="1" name="職業變更">
+		<set name="targetType" val="SELF" />
+		<set name="operateType" val="A1" />
+		<set name="classIndex" val="1" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="showSkillListIcon" val="false" />
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570" />
+			</not>
+		</cond>
+		<for>
+			<effect name="Buff" />
+		</for>
+	</skill>
+	<skill id="1568" levels="1" name="職業變更">
+		<set name="targetType" val="SELF" />
+		<set name="operateType" val="A1" />
+		<set name="classIndex" val="2" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="showSkillListIcon" val="false" />
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570" />
+			</not>
+		</cond>
+		<for>
+			<effect name="Buff" />
+		</for>
+	</skill>
+	<skill id="1569" levels="1" name="職業變更">
+		<set name="targetType" val="SELF" />
+		<set name="operateType" val="A1" />
+		<set name="classIndex" val="3" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="showSkillListIcon" val="false" />
+		<!--set name="reusedelay" val="3000"/-->
+		<cond msgId="3574">
+			<not>
+				<player active_effect_id="1570" />
+			</not>
+		</cond>
+		<for>
+			<effect name="Buff" />
+		</for>
+	</skill>
+	<skill id="1570" levels="1" name="身份混亂">
+	<!--
+	在15秒內感受到身份造成的混亂，促使戰鬥能力降低，並無法使用技能和道具，但可使用藥水種類的道具。而且主職業/雙職業/副職業之間無法進行變更。
+	-->
+		<set name="abnormalLvl" val="8" />
+		<set name="abnormalTime" val="15" />
+		<set name="abnormalType" val="OBLIVION" />
+		<set name="abnormalVisualEffect" val="DOT_POISON" />
+		<set name="targetType" val="SELF" />
+		<set name="operateType" val="A2" />
+		<set name="stayAfterDeath" val="true" />
+		<set name="trait" val="DERANGEMENT" />
+		<for>
+			<effect name="Buff">
+				<mul order="0x30" stat="pAtk" val="0.6" />
+				<mul order="0x30" stat="mAtk" val="0.6" />
+				<mul order="0x30" stat="mAtkSpd" val="0.6" />
+				<mul order="0x30" stat="pAtkSpd" val="0.6" />
+				<mul order="0x30" stat="accCombat" val="0.95" />
+			</effect>
+		</for>
+	</skill>
+</list>

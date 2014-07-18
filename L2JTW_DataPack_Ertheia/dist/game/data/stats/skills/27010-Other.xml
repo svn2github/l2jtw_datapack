@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 覺醒技能-其他 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="1571" levels="1" name="覺醒職業欄位增加">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add order="0x40" stat="inventoryLimit" val="18" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="1572" levels="1" name="覺醒職業負重增加">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add order="0x40" stat="weightPenalty" val="10000" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="1597" levels="1" name="覺醒職業負重增加">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add order="0x40" stat="weightPenalty" val="15000" />
+			</effect>
+		</for>
+	</skill>
+</list>

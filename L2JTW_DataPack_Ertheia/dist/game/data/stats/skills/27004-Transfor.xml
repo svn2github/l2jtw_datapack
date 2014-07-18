@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 變身技能 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="8600" levels="1" name="騎乘天空行者">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8600" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="129" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="8601" levels="1" name="騎乘野性薔薇">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8601" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="130" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="8602" levels="1" name="騎乘血腥爪痕">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8602" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="131" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="8603" levels="1" name="騎乘無限箭羽">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8603" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="132" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="8604" levels="1" name="騎乘湛藍幻影">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8604" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="133" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="8605" levels="1" name="騎乘雲白靈翼">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8605" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="134" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="8606" levels="1" name="騎乘疾速芒星">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8606" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="135" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="8607" levels="1" name="騎乘閃耀淑女">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skill8607" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="136" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="9204" levels="1" name="酷酷魯">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="60" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="blockedInOlympiad" val="true" />
+		<set name="effectPoint" val="1" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<for>
+			<effect name="Transformation">
+				<param id="137" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="9206" levels="1" name="疾奔">
+		<set name="abnormalTime" val="30" />
+		<set name="mpConsume" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="45000" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add order="0x40" stat="runSpd" val="95" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="9210" levels="1" name="降下">
+		<set name="effectPoint" val="10" />
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill9210" />
+		<set name="magicLvl" val="56" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canUntransform="true" />
+		</cond>
+		<for>
+			<effect name="DispelBySlot">
+				<param dispel="TRANSFORM,-1" />
+			</effect>
+		</for>
+	</skill>
+</list>
