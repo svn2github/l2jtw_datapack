@@ -3479,8 +3479,8 @@ INSERT INTO `messagetable` VALUES
 ('1971', 'cn', '无', '', 'Castle.java'),
 
 ('1975', 'en', 'Support Client: Tauti\nSupport Protocol: ', '', 'LoginServerThread.java'),
-('1975', 'tw', '測試伺服器啟動完成。\n支援的遊戲版本：林德拜爾\n支援的協定版本：', '', 'LoginServerThread.java'),
-('1975', 'cn', '测试服务端启动完成。\n支援的游戏版本：林德拜尔\n支援的协定版本：', '', 'LoginServerThread.java'),
+('1975', 'tw', '測試伺服器啟動完成。\n支援的遊戲版本：沙哈之裔\n支援的協定版本：', '', 'LoginServerThread.java'),
+('1975', 'cn', '测试服务端启动完成。\n支援的游戏版本：沙哈之裔\n支援的协定版本：', '', 'LoginServerThread.java'),
 ('1976', 'en', 'Now a New GS Support ???', '', 'LoginServerThread.java'),
 ('1976', 'tw', '現在已經新增一個 GS，支援最新的「？？？」', '', 'LoginServerThread.java'),
 ('1976', 'cn', '现在已经新增一个 GS，支援最新的「？？？」', '', 'LoginServerThread.java'),
