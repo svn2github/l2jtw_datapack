@@ -1907,7 +1907,7 @@
 			<height normal="75" />
 		</collision>
 	</npc>
-	<npc id="29030" level="84" type="L2Monster" name="Fenril Hound Kerinne" title="Family of Valakas"> <!-- l2jtw temp fix to L2Monster -->
+	<npc id="29030" level="84" type="L2RaidBoss" name="Fenril Hound Kerinne" title="Family of Valakas">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<minions name="Privates">
@@ -2058,7 +2058,7 @@
 			<height normal="45" />
 		</collision>
 	</npc>
-	<npc id="29033" level="84" type="L2Monster" name="Fenril Hound Freki" title="Family of Valakas"> <!-- l2jtw temp fix to L2Monster -->
+	<npc id="29033" level="84" type="L2RaidBoss" name="Fenril Hound Freki" title="Family of Valakas">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<minions name="Privates">
@@ -2209,7 +2209,7 @@
 			<height normal="45" />
 		</collision>
 	</npc>
-	<npc id="29036" level="84" type="L2Monster" name="Fenril Hound Uruz" title="Family of Valakas"> <!-- l2jtw temp fix to L2Monster -->
+	<npc id="29036" level="84" type="L2RaidBoss" name="Fenril Hound Uruz" title="Family of Valakas">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<skill name="SelfRangeCancel_a" id="4177" level="9" /> <!-- BOSS Cancel Magic -->
@@ -2272,7 +2272,7 @@
 			<height normal="30" />
 		</collision>
 	</npc>
-	<npc id="29037" level="84" type="L2Monster" name="Fenril Hound Kinaz" title="Family of Valakas"> <!-- l2jtw temp fix to L2Monster -->
+	<npc id="29037" level="84" type="L2RaidBoss" name="Fenril Hound Kinaz" title="Family of Valakas">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<minions name="Privates">

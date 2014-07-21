@@ -364,7 +364,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ManaPotion" />
-		<set name="item_skill" val="27000-1" /> <!-- l2jtw change Custom_Skill-ID -->
+		<set name="item_skill" val="10000-1" />
 		<set name="for_npc" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
@@ -395,7 +395,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ManaPotion" />
-		<set name="item_skill" val="27001-1" /> <!-- l2jtw change Custom_Skill-ID -->
+		<set name="item_skill" val="10001-1" />
 		<set name="for_npc" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="false" />

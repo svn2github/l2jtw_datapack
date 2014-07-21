@@ -1257,7 +1257,7 @@
 			<height normal="140" />
 		</collision>
 	</npc>
-	<npc id="25721" level="84" type="L2Monster" name="Blackdagger Wing" title="Raid Boss"> <!-- l2jtw temp fix to L2Monster -->
+	<npc id="25721" level="84" type="L2RaidBoss" name="Blackdagger Wing" title="Raid Boss">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="IsAggressive" value="1" />
