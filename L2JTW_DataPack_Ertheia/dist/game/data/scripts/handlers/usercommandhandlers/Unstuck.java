@@ -33,6 +33,7 @@ import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
 import com.l2jserver.gameserver.util.Broadcast;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * Unstuck user command.
@@ -83,7 +84,10 @@ public class Unstuck implements IUserCommandHandler
 				activeChar.doCast(GM_escape);
 				return true;
 			}
+			/* MessageTable.Messages[1165]
 			activeChar.sendMessage("You use Escape: 1 second.");
+			*/
+			activeChar.sendMessage(1165);
 		}
 		else if ((Config.UNSTUCK_INTERVAL == 300) && (escape != null))
 		{
@@ -94,11 +98,17 @@ public class Unstuck implements IUserCommandHandler
 		{
 			if (Config.UNSTUCK_INTERVAL > 100)
 			{
+				/*
 				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 60000) + " minutes.");
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + (unstuckTimer / 60000) + MessageTable.Messages[1166].getExtra(2));
 			}
 			else
 			{
+				/*
 				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 1000) + " seconds.");
+				*/
+				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + (unstuckTimer / 1000) + MessageTable.Messages[1166].getExtra(3));
 			}
 		}
 		activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);

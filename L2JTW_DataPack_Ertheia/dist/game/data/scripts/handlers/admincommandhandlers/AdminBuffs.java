@@ -301,7 +301,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				*/
 				html.append("<td>" + MessageTable.Messages[1458].getMessage());
 				html.append(pagenr);
-				html.append(MessageTable.Messages[1458].getExtra(1)+"</td>");
+				html.append(MessageTable.Messages[1458].getExtra(1) + "</td>");
 			}
 			else
 			{
@@ -316,7 +316,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				*/
 				html.append("\"> " + MessageTable.Messages[1458].getMessage());
 				html.append(pagenr);
-				html.append(MessageTable.Messages[1458].getExtra(1)+"</a></td>");
+				html.append(MessageTable.Messages[1458].getExtra(1) + "</a></td>");
 			}
 		}
 		

@@ -136,7 +136,7 @@ public class AdminDoorControl implements IAdminCommandHandler
 				}
 				else
 				{
-					/* MessageTable.Messages[xxx]
+					/* MessageTable.Messages[1527]
 					activeChar.sendMessage("Incorrect target.");
 					*/
 					activeChar.sendMessage(1527);
