@@ -1,4 +1,4 @@
-/*
+/* MessageTable
  * Copyright (C) 2004-2014 L2J DataPack
  * 
  * This file is part of L2J DataPack.
@@ -40,7 +40,7 @@ import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
-/**
+/* MessageTable*
  * This class handles all siege commands.
  * @author Zoey76 (rework)
  */
@@ -356,7 +356,7 @@ public class AdminSiege implements IAdminCommandHandler
 		return true;
 	}
 	
-	/**
+	/* MessageTable*
 	 * Show castle select page.
 	 * @param activeChar the active char
 	 */
@@ -507,7 +507,7 @@ public class AdminSiege implements IAdminCommandHandler
 		adminReply.replace("%clanhallName%", clanhall.getName());
 		adminReply.replace("%clanhallId%", String.valueOf(clanhall.getId()));
 		final L2Clan owner = ClanTable.getInstance().getClan(clanhall.getOwnerId());
-		/*
+		/* MessageTable
 		adminReply.replace("%clanhallOwner%", (owner == null) ? "None" : owner.getName());
 		 */
 		adminReply.replace("%clanhallOwner%", (owner == null) ? MessageTable.Messages[1823].getMessage() : owner.getName());
@@ -528,14 +528,14 @@ public class AdminSiege implements IAdminCommandHandler
 		if (hall.getOwnerId() > 0)
 		{
 			final L2Clan owner = ClanTable.getInstance().getClan(hall.getOwnerId());
-			/*
+			/* MessageTable
 			msg.replace("%clanhallOwner%", (owner != null) ? owner.getName() : "No Owner");
 			 */
 			msg.replace("%clanhallOwner%", (owner != null) ? owner.getName() : MessageTable.Messages[1824].getMessage());
 		}
 		else
 		{
-			/*
+			/* MessageTable
 			msg.replace("%clanhallOwner%", "No Owner");
 			 */
 			msg.replace("%clanhallOwner%", MessageTable.Messages[1824].getMessage());

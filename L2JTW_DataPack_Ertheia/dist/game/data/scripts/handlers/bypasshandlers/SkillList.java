@@ -72,14 +72,14 @@ public class SkillList implements IBypassHandler
 						}
 					}
 					
-					/*
+					/* MessageTable
 					String text = "<html><body><center>Skill learning:</center><br>";
 					 */
 					String text = "<html><body><center>" + MessageTable.Messages[1061].getMessage() + "</center><br>";
 					
 					if (!own_class)
 					{
-						/*
+						/* MessageTable
 						String charType = activeChar.getClassId().isMage() ? "fighter" : "mage";
 						text += "Skills of your class are the easiest to learn.<br>" + "Skills of another class of your race are a little harder.<br>" + "Skills for classes of another race are extremely difficult.<br>" + "But the hardest of all to learn are the  " + charType + "skills!<br>";
 						 */
@@ -107,7 +107,7 @@ public class SkillList implements IBypassHandler
 									continue;
 								}
 								
-								/*
+								/* MessageTable
 								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">Learn " + cid + "'s class Skills</a><br>\n";
 								 */
 								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">" + MessageTable.Messages[1069].getExtra(1) + ClassListData.getInstance().getClass(cid.getId()).getClassName() + MessageTable.Messages[1069].getExtra(2) +"</a><br>\n"; // Update by rocknow (Class Name)
@@ -119,7 +119,7 @@ public class SkillList implements IBypassHandler
 					}
 					else
 					{
-						/*
+						/* MessageTable
 						text += "No Skills.<br>";
 						 */
 						text += MessageTable.Messages[1070].getMessage() + "<br>";

@@ -111,7 +111,7 @@ public class AdminHeal implements IAdminCommandHandler
 						}
 					}
 					
-					/*
+					/* MessageTable
 					activeChar.sendMessage("Healed within " + radius + " unit radius.");
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1688].getExtra(1) + radius + MessageTable.Messages[1688].getExtra(2));

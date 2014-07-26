@@ -78,7 +78,7 @@ public class AdminDelete implements IAdminCommandHandler
 				}
 			}
 			
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Deleted " + target.getName() + " from " + target.getObjectId() + ".");
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1517].getExtra(1) + target.getName() + MessageTable.Messages[1517].getExtra(2) + target.getObjectId() + MessageTable.Messages[1517].getExtra(3));

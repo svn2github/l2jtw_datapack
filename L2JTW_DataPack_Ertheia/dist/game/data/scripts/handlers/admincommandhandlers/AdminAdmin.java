@@ -276,7 +276,7 @@ public class AdminAdmin implements IAdminCommandHandler
 				String pValue = parameter[1].trim();
 				if (Config.setParameterValue(pName, pValue))
 				{
-					/*
+					/* MessageTable
 					activeChar.sendMessage("parameter " + pName + " succesfully set to " + pValue);
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1392].getExtra(1) + pName + MessageTable.Messages[1392].getExtra(2) + pValue);
@@ -364,7 +364,7 @@ public class AdminAdmin implements IAdminCommandHandler
 	public void showConfigPage(L2PcInstance activeChar)
 	{
 		final NpcHtmlMessage adminReply = new NpcHtmlMessage();
-		/*
+		/* MessageTable
 		TextBuilder replyMSG = new TextBuilder("<html><title>L2J :: Config</title><body>");
 		replyMSG.append("<center><table width=270><tr><td width=60><button value=\"Main\" action=\"bypass -h admin_admin\" width=60 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=150>Config Server Panel</td><td width=60><button value=\"Back\" action=\"bypass -h admin_admin4\" width=60 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table></center><br>");
 		replyMSG.append("<center><table width=260><tr><td width=140></td><td width=40></td><td width=40></td></tr>");

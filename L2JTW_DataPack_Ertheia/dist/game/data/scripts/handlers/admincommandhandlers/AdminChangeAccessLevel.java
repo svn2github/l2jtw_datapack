@@ -93,7 +93,7 @@ public final class AdminChangeAccessLevel implements IAdminCommandHandler
 					}
 					else
 					{
-						/*
+						/* MessageTable
 						activeChar.sendMessage("Character's access level is now set to " + lvl);
 						 */
 						activeChar.sendMessage(MessageTable.Messages[1474].getMessage() + lvl);
@@ -131,7 +131,7 @@ public final class AdminChangeAccessLevel implements IAdminCommandHandler
 			{
 				final L2AccessLevel acccessLevel = AdminTable.getInstance().getAccessLevel(lvl);
 				player.setAccessLevel(lvl);
-				/*
+				/* MessageTable
 				player.sendMessage("Your access level has been changed to " + acccessLevel.getName() + " (" + acccessLevel.getLevel() + ").");
 				activeChar.sendMessage(player.getName() + "'s access level has been changed to " + acccessLevel.getName() + " (" + acccessLevel.getLevel() + ").");
 				 */
@@ -140,7 +140,7 @@ public final class AdminChangeAccessLevel implements IAdminCommandHandler
 			}
 			else
 			{
-				/*
+				/* MessageTable
 				activeChar.sendMessage("You are trying to set unexisting access level: " + lvl + " please try again with a valid one!");
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1478].getMessage() + lvl + MessageTable.Messages[1478].getExtra(1));

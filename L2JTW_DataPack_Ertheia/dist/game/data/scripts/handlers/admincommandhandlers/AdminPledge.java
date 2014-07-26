@@ -86,7 +86,7 @@ public class AdminPledge implements IAdminCommandHandler
 				L2Clan clan = ClanTable.getInstance().createClan(player, parameter);
 				if (clan != null)
 				{
-					/*
+					/* MessageTable
 					activeChar.sendMessage("Clan " + parameter + " created. Leader: " + player.getName());
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1790].getExtra(1) + parameter + MessageTable.Messages[1790].getExtra(2) + player.getName());
@@ -141,7 +141,7 @@ public class AdminPledge implements IAdminCommandHandler
 				if ((level >= 0) && (level < 12))
 				{
 					player.getClan().changeLevel(level);
-					/*
+					/* MessageTable
 					activeChar.sendMessage("You set level " + level + " for clan " + player.getClan().getName());
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1793].getExtra(1) + level + MessageTable.Messages[1793].getExtra(2) + player.getClan().getName());
@@ -170,7 +170,7 @@ public class AdminPledge implements IAdminCommandHandler
 						return false;
 					}
 					clan.addReputationScore(points, true);
-					/*
+					/* MessageTable
 					activeChar.sendMessage("You " + (points > 0 ? "add " : "remove ") + Math.abs(points) + " points " + (points > 0 ? "to " : "from ") + clan.getName() + "'s reputation. Their current score is " + clan.getReputationScore());
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1796].getExtra(1) + (points > 0 ? MessageTable.Messages[1796].getExtra(2) : MessageTable.Messages[1796].getExtra(3)) + Math.abs(points) + MessageTable.Messages[1796].getExtra(4) + (points > 0 ? MessageTable.Messages[1796].getExtra(5) : MessageTable.Messages[1796].getExtra(6)) + clan.getName() + MessageTable.Messages[1796].getExtra(7) + clan.getReputationScore());

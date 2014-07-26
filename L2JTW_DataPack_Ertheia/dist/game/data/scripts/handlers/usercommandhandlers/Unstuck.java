@@ -98,14 +98,14 @@ public class Unstuck implements IUserCommandHandler
 		{
 			if (Config.UNSTUCK_INTERVAL > 100)
 			{
-				/*
+				/* MessageTable
 				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 60000) + " minutes.");
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + (unstuckTimer / 60000) + MessageTable.Messages[1166].getExtra(2));
 			}
 			else
 			{
-				/*
+				/* MessageTable
 				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 1000) + " seconds.");
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + (unstuckTimer / 1000) + MessageTable.Messages[1166].getExtra(3));

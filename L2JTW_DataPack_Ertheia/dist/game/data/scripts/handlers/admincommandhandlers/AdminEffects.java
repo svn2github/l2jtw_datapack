@@ -166,7 +166,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			final L2Character target = (L2Character) activeChar.getTarget();
 			target.setInvisible(!target.isInvisible());
-			/*
+			/* MessageTable
 			activeChar.sendMessage("You've made " + target.getName() + " " + (target.isInvisible() ? "invisible" : "visible") + ".");
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1650].getExtra(1) + target.getName() + MessageTable.Messages[1650].getExtra(2) + (target.isInvisible() ? MessageTable.Messages[1650].getExtra(3) : MessageTable.Messages[1650].getExtra(4)) + MessageTable.Messages[1650].getExtra(5));
@@ -491,7 +491,7 @@ public class AdminEffects implements IAdminCommandHandler
 						{
 							if (performSocial(social, player, activeChar))
 							{
-								/*
+								/* MessageTable
 								activeChar.sendMessage(player.getName() + " was affected by your request.");
 								 */
 								activeChar.sendMessage(MessageTable.Messages[1651].getExtra(1) + player.getName() + MessageTable.Messages[1651].getExtra(2));
@@ -510,7 +510,7 @@ public class AdminEffects implements IAdminCommandHandler
 										performSocial(social, object, activeChar);
 									}
 								}
-								/*
+								/* MessageTable
 								activeChar.sendMessage(radius + " units radius affected by your request.");
 								 */
 								activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
@@ -532,7 +532,7 @@ public class AdminEffects implements IAdminCommandHandler
 					
 					if (performSocial(social, obj, activeChar))
 					{
-						/*
+						/* MessageTable
 						activeChar.sendMessage(obj.getName() + " was affected by your request.");
 						 */
 						activeChar.sendMessage(MessageTable.Messages[1651].getExtra(1) + obj.getName() + MessageTable.Messages[1651].getExtra(2));
@@ -639,7 +639,7 @@ public class AdminEffects implements IAdminCommandHandler
 				{
 					L2Character target = (L2Character) obj;
 					target.broadcastPacket(new MagicSkillUse(target, activeChar, skill, level, hittime, 0));
-					/*
+					/* MessageTable
 					activeChar.sendMessage(obj.getName() + " performs MSU " + skill + "/" + level + " by your request.");
 					 */
 					activeChar.sendMessage(obj.getName() + MessageTable.Messages[1655].getExtra(1) + skill + "/" + level + MessageTable.Messages[1655].getExtra(2));
@@ -801,7 +801,7 @@ public class AdminEffects implements IAdminCommandHandler
 		PlaySound _snd = new PlaySound(1, sound, 0, 0, 0, 0, 0);
 		activeChar.sendPacket(_snd);
 		activeChar.broadcastPacket(_snd);
-		/*
+		/* MessageTable
 		activeChar.sendMessage("Playing " + sound + ".");
 		 */
 		activeChar.sendMessage(MessageTable.Messages[1656].getExtra(1) + sound +  MessageTable.Messages[1656].getExtra(2));

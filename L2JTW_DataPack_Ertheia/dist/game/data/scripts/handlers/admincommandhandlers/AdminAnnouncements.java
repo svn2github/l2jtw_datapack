@@ -335,7 +335,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			}
 			replyMSG.append("<table width=260><tr><td width=220><font color=\"" + (autoann.isCritical() ? "00FCFC" : "7FFCFC") + "\">");
 			replyMSG.append(memo2.toString().trim());
-			/*
+			/* MessageTable
 			replyMSG.append("</font></td><td width=40><button value=\"Delete\" action=\"bypass -h admin_del_autoann ");
 			 */
 			replyMSG.append("</font></td><td width=40><button value=\"" + MessageTable.Messages[1423].getMessage() + "\" action=\"bypass -h admin_del_autoann ");

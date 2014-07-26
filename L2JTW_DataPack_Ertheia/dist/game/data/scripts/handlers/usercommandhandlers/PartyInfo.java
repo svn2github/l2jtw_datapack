@@ -73,7 +73,7 @@ public class PartyInfo implements IUserCommandHandler
 				sm.addPcName(party.getLeader());
 				activeChar.sendPacket(sm);
 			}
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Members: " + party.getMemberCount() + "/9"); // TODO: Custom?
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1171].getMessage() + party.getMemberCount() + "/7"); // l2jtw add

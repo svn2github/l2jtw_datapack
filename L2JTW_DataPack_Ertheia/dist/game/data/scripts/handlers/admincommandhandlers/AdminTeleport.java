@@ -359,7 +359,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 			activeChar.teleToLocation(x, y, z);
 			
-			/*
+			/* MessageTable
 			activeChar.sendMessage("You have been teleported to " + Coords);
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1878].getMessage() + Coords);
@@ -390,7 +390,7 @@ public class AdminTeleport implements IAdminCommandHandler
 		}
 		final NpcHtmlMessage adminReply = new NpcHtmlMessage();
 		
-		/*
+		/* MessageTable
 		final String replyMSG = StringUtil.concat("<html><title>Teleport Character</title>" + "<body>" + "The character you will teleport is ", player.getName(), "." + "<br>" + "Co-ordinate x" + "<edit var=\"char_cord_x\" width=110>" + "Co-ordinate y" + "<edit var=\"char_cord_y\" width=110>" + "Co-ordinate z" + "<edit var=\"char_cord_z\" width=110>" + "<button value=\"Teleport\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" + "<button value=\"Teleport near you\" action=\"bypass -h admin_teleport_character ", String.valueOf(activeChar.getX()), " ", String.valueOf(activeChar.getY()), " ", String.valueOf(activeChar.getZ()), "\" width=115 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" + "<center><button value=\"Back\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" + "</body></html>");
 		 */
 		final String replyMSG = StringUtil.concat("<html><title>" + MessageTable.Messages[1879].getMessage() + "</title>" + "<body>" + MessageTable.Messages[1880].getMessage(), player.getName(), MessageTable.Messages[1881].getMessage() + "<br>" + MessageTable.Messages[1882].getExtra(1) + "<edit var=\"char_cord_x\" width=110>" + MessageTable.Messages[1882].getExtra(2) + "<edit var=\"char_cord_y\" width=110>" + MessageTable.Messages[1882].getExtra(3) + "<edit var=\"char_cord_z\" width=110>" + "<button value=\"" + MessageTable.Messages[1883].getMessage() + "\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" + "<button value=\"" + MessageTable.Messages[1884].getMessage() + "\" action=\"bypass -h admin_teleport_character ", String.valueOf(activeChar.getX()), " ", String.valueOf(activeChar.getY()), " ", String.valueOf(activeChar.getZ()), "\" width=115 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" + "<center><button value=\"" + MessageTable.Messages[1885].getMessage() + "\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" + "</body></html>");
@@ -447,7 +447,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			// Check for jail
 			if (player.isJailed())
 			{
-				/*
+				/* MessageTable
 				activeChar.sendMessage("Sorry, player " + player.getName() + " is in Jail.");
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1886].getExtra(1) + player.getName() + MessageTable.Messages[1886].getExtra(2));
@@ -458,7 +458,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				if ((activeChar != null) && (activeChar.getInstanceId() >= 0))
 				{
 					player.setInstanceId(activeChar.getInstanceId());
-					/*
+					/* MessageTable
 					activeChar.sendMessage("You have recalled " + player.getName());
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1887].getExtra(1) + player.getName() + MessageTable.Messages[1887].getExtra(2));
@@ -512,7 +512,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 			activeChar.teleToLocation(new Location(x, y, z), true);
 			
-			/*
+			/* MessageTable
 			activeChar.sendMessage("You have teleported to character " + player.getName() + ".");
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1889].getExtra(1) + player.getName() + MessageTable.Messages[1889].getExtra(2));
@@ -543,7 +543,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			}
 			else
 			{
-				/*
+				/* MessageTable
 				activeChar.sendMessage("Player's [" + name + "] position is now set to (" + x + "," + y + "," + z + ").");
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1891].getExtra(1) + name + MessageTable.Messages[1891].getExtra(2) + x + "," + y + "," + z + MessageTable.Messages[1891].getExtra(3));
@@ -616,7 +616,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				SpawnTable.getInstance().addNewSpawn(spawn, true);
 				spawn.init();
 				
-				/*
+				/* MessageTable
 				activeChar.sendMessage("Created " + template1.getName() + " on " + target.getObjectId() + ".");
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1894].getExtra(1) + template1.getName() +  MessageTable.Messages[1894].getExtra(2));

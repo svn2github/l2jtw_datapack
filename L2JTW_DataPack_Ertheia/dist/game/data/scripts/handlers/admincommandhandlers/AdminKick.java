@@ -47,7 +47,7 @@ public class AdminKick implements IAdminCommandHandler
 				if (plyr != null)
 				{
 					plyr.logout();
-					/*
+					/* MessageTable
 					activeChar.sendMessage("You kicked " + plyr.getName() + " from the game.");
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1721].getExtra(1) + plyr.getName() + MessageTable.Messages[1721].getExtra(2));
@@ -65,7 +65,7 @@ public class AdminKick implements IAdminCommandHandler
 					player.logout();
 				}
 			}
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Kicked " + counter + " players");
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1722].getExtra(1) + counter + MessageTable.Messages[1722].getExtra(2));

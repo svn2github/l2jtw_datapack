@@ -172,7 +172,7 @@ public class Loto implements IBypassHandler
 			
 			if (count == 5)
 			{
-				/*
+				/* MessageTable
 				String search = "0\">Return";
 				String replace = "22\">Your lucky numbers have been selected above.";
 				 */
@@ -269,7 +269,7 @@ public class Loto implements IBypassHandler
 				}
 				if ((item.getId() == 4442) && (item.getCustomType1() < lotonumber))
 				{
-					/*
+					/* MessageTable
 					message = message + "<a action=\"bypass -h npc_%objectId%_Loto " + item.getObjectId() + "\">" + item.getCustomType1() + " Event Number ";
 					 */
 					message = message + "<a action=\"bypass -h npc_%objectId%_Loto " + item.getObjectId() + "\">" + item.getCustomType1() + MessageTable.Messages[1006].getMessage();
@@ -284,31 +284,31 @@ public class Loto implements IBypassHandler
 						switch ((int) check[0])
 						{
 							case 1:
-								/*
+								/* MessageTable
 								message += "- 1st Prize";
 								 */
 								message += MessageTable.Messages[1007].getMessage();
 								break;
 							case 2:
-								/*
+								/* MessageTable
 								message += "- 2nd Prize";
 								 */
 								message += MessageTable.Messages[1008].getMessage();
 								break;
 							case 3:
-								/*
+								/* MessageTable
 								message += "- 3th Prize";
 								 */
 								message += MessageTable.Messages[1009].getMessage();
 								break;
 							case 4:
-								/*
+								/* MessageTable
 								message += "- 4th Prize";
 								 */
 								message += MessageTable.Messages[1010].getMessage();
 								break;
 						}
-						/*
+						/* MessageTable
 						message += " " + check[1] + "a.";
 						 */
 						message += " " + check[1] + MessageTable.Messages[1011].getMessage();
@@ -318,7 +318,7 @@ public class Loto implements IBypassHandler
 			}
 			if (message.isEmpty())
 			{
-				/*
+				/* MessageTable
 				message += "There has been no winning lottery ticket.<br>";
 				 */
 				message += MessageTable.Messages[1012].getMessage() + "<br>";

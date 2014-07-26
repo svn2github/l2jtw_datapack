@@ -113,7 +113,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			final int id = Integer.parseInt(parts[1]);
 			if (!TransformData.getInstance().transformPlayer(id, player))
 			{
-				/*
+				/* MessageTable
 				player.sendMessage("Unknown transformation ID: " + id);
 				 */
 				player.sendMessage(MessageTable.Messages[1800].getMessage() + id);

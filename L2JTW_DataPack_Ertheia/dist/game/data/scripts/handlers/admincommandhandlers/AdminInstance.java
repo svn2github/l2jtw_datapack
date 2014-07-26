@@ -89,7 +89,7 @@ public class AdminInstance implements IAdminCommandHandler
 		{
 			for (Instance temp : InstanceManager.getInstance().getInstances().values())
 			{
-				/*
+				/* MessageTable
 				activeChar.sendMessage("Id: " + temp.getId() + " Name: " + temp.getName());
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1693].getExtra(1) + temp.getId() + MessageTable.Messages[1693].getExtra(2) + temp.getName());
@@ -102,7 +102,7 @@ public class AdminInstance implements IAdminCommandHandler
 				int val = Integer.parseInt(st.nextToken());
 				if (InstanceManager.getInstance().getInstance(val) == null)
 				{
-					/*
+					/* MessageTable
 					activeChar.sendMessage("Instance " + val + " doesnt exist.");
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1694].getExtra(1) + val + MessageTable.Messages[1694].getExtra(2));
@@ -122,13 +122,13 @@ public class AdminInstance implements IAdminCommandHandler
 				if (target instanceof L2PcInstance)
 				{
 					L2PcInstance player = (L2PcInstance) target;
-					/*
+					/* MessageTable
 					player.sendMessage("Admin set your instance to:" + val);
 					 */
 					player.sendMessage(MessageTable.Messages[1696].getMessage() + val);
 					player.teleToLocation(player.getLocation());
 				}
-				/*
+				/* MessageTable
 				activeChar.sendMessage("Moved " + target.getName() + " to instance " + target.getInstanceId() + ".");
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1698].getExtra(1) + target.getName() + MessageTable.Messages[1698].getExtra(2) + target.getInstanceId() + MessageTable.Messages[1698].getExtra(3));

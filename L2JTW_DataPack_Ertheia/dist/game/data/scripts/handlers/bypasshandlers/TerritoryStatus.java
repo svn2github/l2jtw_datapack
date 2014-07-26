@@ -66,14 +66,14 @@ public class TerritoryStatus implements IBypassHandler
 		{
 			if (npc.getCastle().getResidenceId() > 6)
 			{
-				/*
+				/* MessageTable
 				html.replace("%territory%", "The Kingdom of Elmore");
 				 */
 				html.replace("%territory%", MessageTable.Messages[1092].getMessage());
 			}
 			else
 			{
-				/*
+				/* MessageTable
 				html.replace("%territory%", "The Kingdom of Aden");
 				 */
 				html.replace("%territory%", MessageTable.Messages[1093].getMessage());

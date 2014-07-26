@@ -74,7 +74,7 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 					if (cw.isActivated())
 					{
 						L2PcInstance pl = cw.getPlayer();
-						/*
+						/* MessageTable
 						activeChar.sendMessage("  Player holding: " + (pl == null ? "null" : pl.getName()));
 						activeChar.sendMessage("    Player karma: " + cw.getPlayerKarma());
 						activeChar.sendMessage("    Time Remaining: " + (cw.getTimeLeft() / 60000) + " min.");
@@ -116,7 +116,7 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 				{
 					itemId = cw.getItemId();
 					
-					/*
+					/* MessageTable
 					StringUtil.append(replyMSG, "<table width=270><tr><td>Name:</td><td>", cw.getName(), "</td></tr>");
 					 */
 					StringUtil.append(replyMSG, "<table width=270><tr><td>" + MessageTable.Messages[1498].getMessage() + "</td><td>", cw.getName(), "</td></tr>");
@@ -124,21 +124,21 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 					if (cw.isActivated())
 					{
 						L2PcInstance pl = cw.getPlayer();
-						/*
+						/* MessageTable
 						StringUtil.append(replyMSG, "<tr><td>Weilder:</td><td>", (pl == null ? "null" : pl.getName()), "</td></tr>" + "<tr><td>Karma:</td><td>", String.valueOf(cw.getPlayerKarma()), "</td></tr>" + "<tr><td>Kills:</td><td>", String.valueOf(cw.getPlayerPkKills()), "/", String.valueOf(cw.getNbKills()), "</td></tr>" + "<tr><td>Time remaining:</td><td>", String.valueOf(cw.getTimeLeft() / 60000), " min.</td></tr>" + "<tr><td><button value=\"Remove\" action=\"bypass -h admin_cw_remove ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td><button value=\"Go\" action=\"bypass -h admin_cw_goto ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 						 */
 						StringUtil.append(replyMSG, "<tr><td>" + MessageTable.Messages[1499].getMessage() + "</td><td>", (pl == null ? MessageTable.Messages[1500].getMessage() : pl.getName()), "</td></tr>" + "<tr><td>" + MessageTable.Messages[1501].getMessage() + "</td><td>", String.valueOf(cw.getPlayerKarma()), "</td></tr>" + "<tr><td>" + MessageTable.Messages[1502].getMessage() + "</td><td>", String.valueOf(cw.getPlayerPkKills()), "/", String.valueOf(cw.getNbKills()), "</td></tr>" + "<tr><td>" + MessageTable.Messages[1503].getMessage() + "</td><td>", String.valueOf(cw.getTimeLeft() / 60000), MessageTable.Messages[1504].getMessage() + "</td></tr>" + "<tr><td><button value=\"" + MessageTable.Messages[1505].getMessage() + "\" action=\"bypass -h admin_cw_remove ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td><button value=\"" + MessageTable.Messages[1506].getMessage() + "\" action=\"bypass -h admin_cw_goto ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 					}
 					else if (cw.isDropped())
 					{
-						/*
+						/* MessageTable
 						StringUtil.append(replyMSG, "<tr><td>Position:</td><td>Lying on the ground</td></tr>" + "<tr><td>Time remaining:</td><td>", String.valueOf(cw.getTimeLeft() / 60000), " min.</td></tr>" + "<tr><td>Kills:</td><td>", String.valueOf(cw.getNbKills()), "</td></tr>" + "<tr><td><button value=\"Remove\" action=\"bypass -h admin_cw_remove ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td><button value=\"Go\" action=\"bypass -h admin_cw_goto ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 						 */
 						StringUtil.append(replyMSG, "<tr><td>" + MessageTable.Messages[1507].getMessage() + "</td><td>" + MessageTable.Messages[1508].getMessage() + "</td></tr>" + "<tr><td>" + MessageTable.Messages[1503].getMessage() + "</td><td>", String.valueOf(cw.getTimeLeft() / 60000), MessageTable.Messages[1504].getMessage() + "</td></tr>" + "<tr><td>" + MessageTable.Messages[1502].getMessage() + "</td><td>", String.valueOf(cw.getNbKills()), "</td></tr>" + "<tr><td><button value=\"" + MessageTable.Messages[1505].getMessage() + "\" action=\"bypass -h admin_cw_remove ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td><button value=\"" + MessageTable.Messages[1506].getMessage() + "\" action=\"bypass -h admin_cw_goto ", String.valueOf(itemId), "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 					}
 					else
 					{
-						/*
+						/* MessageTable
 						StringUtil.append(replyMSG, "<tr><td>Position:</td><td>Doesn't exist.</td></tr>" + "<tr><td><button value=\"Give to Target\" action=\"bypass -h admin_cw_add ", String.valueOf(itemId), "\" width=130 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr>");
 						 */
 						StringUtil.append(replyMSG, "<tr><td>" + MessageTable.Messages[1507].getMessage() + "</td><td>" + MessageTable.Messages[1509].getMessage() + "</td></tr>" + "<tr><td><button value=\"" + MessageTable.Messages[1510].getMessage() + "\" action=\"bypass -h admin_cw_add ", String.valueOf(itemId), "\" width=130 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr>");

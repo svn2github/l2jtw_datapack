@@ -75,7 +75,7 @@ public class AdminLogin implements IAdminCommandHandler
 				try
 				{
 					LoginServerThread.getInstance().setMaxPlayer(Integer.parseInt(number));
-					/*
+					/* MessageTable
 					activeChar.sendMessage("maxPlayer set to " + number);
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1733].getMessage() + number);

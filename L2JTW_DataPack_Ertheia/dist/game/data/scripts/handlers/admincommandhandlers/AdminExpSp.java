@@ -148,7 +148,7 @@ public class AdminExpSp implements IAdminCommandHandler
 		if ((expval != 0) || (spval != 0))
 		{
 			// Common character information
-			/*
+			/* MessageTable
 			player.sendMessage("Admin is adding you " + expval + " xp and " + spval + " sp.");
 			 */
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1673]);
@@ -157,7 +157,7 @@ public class AdminExpSp implements IAdminCommandHandler
 			player.sendMessage(cm.renderMsg());
 			player.addExpAndSp(expval, spval);
 			// Admin information
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Added " + expval + " xp and " + spval + " sp to " + player.getName() + ".");
 			 */
 			cm = new L2CoreMessage (MessageTable.Messages[1674]);
@@ -209,7 +209,7 @@ public class AdminExpSp implements IAdminCommandHandler
 		if ((expval != 0) || (spval != 0))
 		{
 			// Common character information
-			/*
+			/* MessageTable
 			player.sendMessage("Admin is removing you " + expval + " xp and " + spval + " sp.");
 			 */
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1675]);
@@ -218,7 +218,7 @@ public class AdminExpSp implements IAdminCommandHandler
 			player.sendMessage(cm.renderMsg());
 			player.removeExpAndSp(expval, spval);
 			// Admin information
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Removed " + expval + " xp and " + spval + " sp from " + player.getName() + ".");
 			 */
 			cm = new L2CoreMessage (MessageTable.Messages[1676]);

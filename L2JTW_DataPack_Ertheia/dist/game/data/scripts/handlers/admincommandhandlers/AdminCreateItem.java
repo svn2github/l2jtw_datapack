@@ -201,14 +201,14 @@ public class AdminCreateItem implements IAdminCommandHandler
 				if ((activeChar != onlinePlayer) && onlinePlayer.isOnline() && ((onlinePlayer.getClient() != null) && !onlinePlayer.getClient().isDetached()))
 				{
 					onlinePlayer.getInventory().addItem("Admin", idval, numval, onlinePlayer, activeChar);
-					/*
+					/* MessageTable
 					onlinePlayer.sendMessage("Admin spawned " + numval + " " + template.getName() + " in your inventory.");
 					 */
 					onlinePlayer.sendMessage(MessageTable.Messages[1485].getExtra(1) + numval + MessageTable.Messages[1485].getExtra(2) + template.getName() + MessageTable.Messages[1485].getExtra(3));
 					counter++;
 				}
 			}
-			/*
+			/* MessageTable
 			activeChar.sendMessage(counter + " players rewarded with " + template.getName());
 			 */
 			activeChar.sendMessage(counter + MessageTable.Messages[1488].getMessage() + template.getName());
@@ -246,12 +246,12 @@ public class AdminCreateItem implements IAdminCommandHandler
 		
 		if (activeChar != target)
 		{
-			/*
+			/* MessageTable
 			target.sendMessage("Admin spawned " + num + " " + template.getName() + " in your inventory.");
 			 */
 			target.sendMessage(MessageTable.Messages[1485].getExtra(1) + num + MessageTable.Messages[1485].getExtra(2) + template.getName() + MessageTable.Messages[1485].getExtra(3));
 		}
-		/*
+		/* MessageTable
 		activeChar.sendMessage("You have spawned " + num + " " + template.getName() + "(" + id + ") in " + target.getName() + " inventory.");
 		 */
 		activeChar.sendMessage(MessageTable.Messages[1486].getExtra(1) + num + MessageTable.Messages[1486].getExtra(2) + template.getName() + MessageTable.Messages[1486].getExtra(3) + id + MessageTable.Messages[1486].getExtra(4) + target.getName() + MessageTable.Messages[1486].getExtra(5));
@@ -260,56 +260,56 @@ public class AdminCreateItem implements IAdminCommandHandler
 	private int getCoinId(String name)
 	{
 		int id;
-		/*
+		/* MessageTable
 		if (name.equalsIgnoreCase("adena"))
 		 */
 		if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(1)))
 		{
 			id = 57;
 		}
-		/*
+		/* MessageTable
 		else if (name.equalsIgnoreCase("ancientadena"))
 		 */
 		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(2)))
 		{
 			id = 5575;
 		}
-		/*
+		/* MessageTable
 		else if (name.equalsIgnoreCase("festivaladena"))
 		 */
 		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(3)))
 		{
 			id = 6673;
 		}
-		/*
+		/* MessageTable
 		else if (name.equalsIgnoreCase("blueeva"))
 		 */
 		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(4)))
 		{
 			id = 4355;
 		}
-		/*
+		/* MessageTable
 		else if (name.equalsIgnoreCase("goldeinhasad"))
 		 */
 		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(5)))
 		{
 			id = 4356;
 		}
-		/*
+		/* MessageTable
 		else if (name.equalsIgnoreCase("silvershilen"))
 		 */
 		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(6)))
 		{
 			id = 4357;
 		}
-		/*
+		/* MessageTable
 		else if (name.equalsIgnoreCase("bloodypaagrio"))
 		 */
 		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(7)))
 		{
 			id = 4358;
 		}
-		/*
+		/* MessageTable
 		else if (name.equalsIgnoreCase("fantasyislecoin"))
 		 */
 		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(8)))

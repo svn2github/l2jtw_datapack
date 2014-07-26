@@ -157,7 +157,7 @@ public class AdminQuest implements IAdminCommandHandler
 				}
 				else
 				{
-					/*
+					/* MessageTable
 					activeChar.sendMessage("File Not Found: " + parts[1]);
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1808].getMessage() + parts[1]);

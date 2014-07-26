@@ -64,7 +64,7 @@ public class L2StaticObjectInstanceAction implements IActionHandler
 					
 					if (content == null)
 					{
-						/*
+						/* MessageTable
 						html.setHtml("<html><body>Signboard is missing:<br>" + filename + "</body></html>");
 						 */
 						html.setHtml("<html><body>" + MessageTable.Messages[1355].getMessage() + "<br>" + filename + "</body></html>");

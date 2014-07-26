@@ -241,7 +241,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.broadcastUserInfo();
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
-					/*
+					/* MessageTable
 					player.sendMessage("A GM changed your PK count to " + pk);
 					activeChar.sendMessage(player.getName() + "'s PK count changed to " + pk);
 					 */
@@ -276,7 +276,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.broadcastUserInfo();
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
-					/*
+					/* MessageTable
 					player.sendMessage("A GM changed your PVP count to " + pvp);
 					activeChar.sendMessage(player.getName() + "'s PVP count changed to " + pvp);
 					 */
@@ -311,7 +311,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.broadcastUserInfo();
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
-					/*
+					/* MessageTable
 					player.sendMessage("A GM changed your Reputation points to " + fame);
 					activeChar.sendMessage(player.getName() + "'s Fame changed to " + fame);
 					 */
@@ -347,7 +347,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
 					player.sendPacket(new ExVoteSystemInfo(player));
-					/*
+					/* MessageTable
 					player.sendMessage("A GM changed your Recommend points to " + recVal);
 					activeChar.sendMessage(player.getName() + "'s Recommend changed to " + recVal);
 					 */
@@ -397,7 +397,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					}
 					String newclass = ClassListData.getInstance().getClass(player.getClassId()).getClassName();
 					player.storeMe();
-					/*
+					/* MessageTable
 					player.sendMessage("A GM changed your class to " + newclass + ".");
 					player.broadcastUserInfo();
 					activeChar.sendMessage(player.getName() + " is a " + newclass + ".");
@@ -468,7 +468,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				}
 				if (CharNameTable.getInstance().getIdByName(val) > 0)
 				{
-					/*
+					/* MessageTable
 					activeChar.sendMessage("Warning, player " + val + " already exists");
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1536].getExtra(1) + val + MessageTable.Messages[1536].getExtra(2));
@@ -642,7 +642,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					}
 				}
 				
-				/*
+				/* MessageTable
 				activeChar.sendMessage("Clan penalty successfully removed to character: " + playerName);
 				 */
 				activeChar.sendMessage(MessageTable.Messages[1542].getExtra(1) + playerName + MessageTable.Messages[1542].getExtra(2));
@@ -886,7 +886,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				player.setNoble(!player.isNoble());
 				if (player.getObjectId() != activeChar.getObjectId())
 				{
-					/*
+					/* MessageTable
 					activeChar.sendMessage("You've changed nobless status of: " + player.getName());
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1550].getExtra(1) + player.getName() + MessageTable.Messages[1550].getExtra(2));
@@ -1133,7 +1133,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			sm.addInt(newKarma);
 			player.sendPacket(sm);
 			// Admin information
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Successfully Changed karma for " + player.getName() + " from (" + oldKarma + ") to (" + newKarma + ").");
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1548].getExtra(1) + player.getName() + MessageTable.Messages[1548].getExtra(2) + oldKarma + MessageTable.Messages[1548].getExtra(3) + newKarma + MessageTable.Messages[1548].getExtra(4));
@@ -1207,14 +1207,14 @@ public class AdminEditChar implements IAdminCommandHandler
 		
 		if (CharactersFound == 0)
 		{
-			/*
+			/* MessageTable
 			replyMSG2 = "s. Please try again.";
 			 */
 			replyMSG2 = MessageTable.Messages[1552].getMessage();
 		}
 		else if (CharactersFound > 20)
 		{
-			/*
+			/* MessageTable
 			adminReply.replace("%number%", " more than 20");
 			replyMSG2 = "s.<br>Please refine your search to see all of the results.";
 			 */
@@ -1223,14 +1223,14 @@ public class AdminEditChar implements IAdminCommandHandler
 		}
 		else if (CharactersFound == 1)
 		{
-			/*
+			/* MessageTable
 			replyMSG2 = ".";
 			 */
 			replyMSG2 = MessageTable.Messages[1555].getMessage();
 		}
 		else
 		{
-			/*
+			/* MessageTable
 			replyMSG2 = "s.";
 			 */
 			replyMSG2 = MessageTable.Messages[1556].getMessage();
@@ -1312,14 +1312,14 @@ public class AdminEditChar implements IAdminCommandHandler
 		
 		if (CharactersFound == 0)
 		{
-			/*
+			/* MessageTable
 			replyMSG2 = "s. Maybe they got d/c? :)";
 			 */
 			replyMSG2 = MessageTable.Messages[1557].getMessage();
 		}
 		else if (CharactersFound > 20)
 		{
-			/*
+			/* MessageTable
 			adminReply.replace("%number%", " more than " + String.valueOf(CharactersFound));
 			replyMSG2 = "s.<br>In order to avoid you a client crash I won't <br1>display results beyond the 20th character.";
 			 */
@@ -1328,14 +1328,14 @@ public class AdminEditChar implements IAdminCommandHandler
 		}
 		else if (CharactersFound == 1)
 		{
-			/*
+			/* MessageTable
 			replyMSG2 = ".";
 			 */
 			replyMSG2 = MessageTable.Messages[1555].getMessage();
 		}
 		else
 		{
-			/*
+			/* MessageTable
 			replyMSG2 = "s.";
 			 */
 			replyMSG2 = MessageTable.Messages[1556].getMessage();
@@ -1585,14 +1585,14 @@ public class AdminEditChar implements IAdminCommandHandler
 		if (target instanceof L2PetInstance)
 		{
 			int objId = target.getActingPlayer().getObjectId();
-			/*
+			/* MessageTable
 			html.replace("%inv%", " <a action=\"bypass admin_show_pet_inv " + objId + "\">view</a>");
 			 */
 			html.replace("%inv%", " <a action=\"bypass admin_show_pet_inv " + objId + "\">" + MessageTable.Messages[1560].getMessage() + "</a>");
 		}
 		else
 		{
-			/*
+			/* MessageTable
 			html.replace("%inv%", "none");
 			 */
 			html.replace("%inv%", MessageTable.Messages[1561].getMessage());

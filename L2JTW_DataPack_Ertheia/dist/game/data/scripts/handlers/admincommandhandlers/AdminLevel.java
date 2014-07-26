@@ -91,7 +91,7 @@ public class AdminLevel implements IAdminCommandHandler
 				}
 				else
 				{
-					/*
+					/* MessageTable
 					activeChar.sendMessage("You must specify level between 1 and " + ExperienceTable.getInstance().getMaxLevel() + ".");
 					 */
 					activeChar.sendMessage(MessageTable.Messages[1728].getExtra(1) + ExperienceTable.getInstance().getMaxLevel() + MessageTable.Messages[1728].getExtra(2));

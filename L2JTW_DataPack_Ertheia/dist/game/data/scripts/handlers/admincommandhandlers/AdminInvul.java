@@ -71,7 +71,7 @@ public class AdminInvul implements IAdminCommandHandler
 		if (activeChar.isInvul())
 		{
 			activeChar.setIsInvul(false);
-			/*
+			/* MessageTable
 			text = activeChar.getName() + " is now mortal";
 			 */
 			text = activeChar.getName() + MessageTable.Messages[1717].getMessage();
@@ -83,7 +83,7 @@ public class AdminInvul implements IAdminCommandHandler
 		else
 		{
 			activeChar.setIsInvul(true);
-			/*
+			/* MessageTable
 			text = activeChar.getName() + " is now invulnerable";
 			 */
 			text = activeChar.getName() + MessageTable.Messages[1718].getMessage();

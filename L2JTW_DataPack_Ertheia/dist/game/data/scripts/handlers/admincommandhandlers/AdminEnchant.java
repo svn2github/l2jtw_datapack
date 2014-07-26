@@ -228,7 +228,7 @@ public class AdminEnchant implements IAdminCommandHandler
 			player.broadcastPacket(new ExBrExtraUserInfo(player));
 			
 			// informations
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Changed enchantment of " + player.getName() + "'s " + itemInstance.getItem().getName() + " from " + curEnchant + " to " + ench + ".");
 			player.sendMessage("Admin has changed the enchantment of your " + itemInstance.getItem().getName() + " from " + curEnchant + " to " + ench + ".");
 			 */

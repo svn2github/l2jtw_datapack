@@ -84,7 +84,7 @@ public class AdminVitality implements IAdminCommandHandler
 				}
 				
 				target.setVitalityPoints(vitality, true);
-				/*
+				/* MessageTable
 				target.sendMessage("Admin set your Vitality points to " + vitality);
 				 */
 				target.sendMessage(MessageTable.Messages[1912].getMessage() + vitality);
@@ -117,7 +117,7 @@ public class AdminVitality implements IAdminCommandHandler
 						vitality = PcStat.VITALITY_LEVELS[level]; // rocknow-God
 					}
 					target.setVitalityPoints(vitality, true);
-					/*
+					/* MessageTable
 					target.sendMessage("Admin set your Vitality level to " + level);
 					 */
 					target.sendMessage(MessageTable.Messages[1914].getMessage() + level);
@@ -151,7 +151,7 @@ public class AdminVitality implements IAdminCommandHandler
 				level = target.getVitalityLevel();
 				vitality = target.getVitalityPoints();
 				
-				/*
+				/* MessageTable
 				activeChar.sendMessage("Player vitality level: " + level);
 				activeChar.sendMessage("Player vitality points: " + vitality);
 				 */

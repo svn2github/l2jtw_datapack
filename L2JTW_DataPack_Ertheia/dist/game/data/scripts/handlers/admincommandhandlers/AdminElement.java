@@ -145,7 +145,7 @@ public class AdminElement implements IAdminCommandHandler
 			Elementals element = itemInstance.getElemental(type);
 			if (element == null)
 			{
-				/*
+				/* MessageTable
 				old = "None";
 				 */
 				old = MessageTable.Messages[1660].getMessage();
@@ -169,7 +169,7 @@ public class AdminElement implements IAdminCommandHandler
 			
 			if (itemInstance.getElementals() == null)
 			{
-				/*
+				/* MessageTable
 				current = "None";
 				 */
 				current = MessageTable.Messages[1660].getMessage();
@@ -185,13 +185,13 @@ public class AdminElement implements IAdminCommandHandler
 			player.sendPacket(iu);
 			
 			// informations
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Changed elemental power of " + player.getName() + "'s " + itemInstance.getItem().getName() + " from " + old + " to " + current + ".");
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1661].getExtra(1) + player.getName() + MessageTable.Messages[1661].getExtra(2) + itemInstance.getItem().getName() + MessageTable.Messages[1661].getExtra(3) + old + MessageTable.Messages[1661].getExtra(4) + current + MessageTable.Messages[1661].getExtra(5));
 			if (player != activeChar)
 			{
-				/*
+				/* MessageTable
 				player.sendMessage(activeChar.getName() + " has changed the elemental power of your " + itemInstance.getItem().getName() + " from " + old + " to " + current + ".");
 				 */
 				player.sendMessage(MessageTable.Messages[1662].getExtra(1) + activeChar.getName() + MessageTable.Messages[1662].getExtra(2) + itemInstance.getItem().getName() + MessageTable.Messages[1662].getExtra(3) + old + MessageTable.Messages[1662].getExtra(4) + current + MessageTable.Messages[1662].getExtra(5));

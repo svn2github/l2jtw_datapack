@@ -282,7 +282,7 @@ public class Wedding implements IVoicedCommandHandler
 		ptarget.setEngageRequest(true, activeChar.getObjectId());
 		ptarget.addAction(PlayerAction.USER_ENGAGE);
 		
-		/*
+		/* MessageTable
 		final ConfirmDlg dlg = new ConfirmDlg(activeChar.getName() + " is asking to engage you. Do you want to start a new relationship?");
 		 */
 		final ConfirmDlg dlg = new ConfirmDlg(activeChar.getName() + MessageTable.Messages[1228].getMessage());
@@ -594,7 +594,7 @@ public class Wedding implements IVoicedCommandHandler
 		}
 		
 		final int teleportTimer = Config.L2JMOD_WEDDING_TELEPORT_DURATION * 1000;
-		/*
+		/* MessageTable
 		activeChar.sendMessage("After " + (teleportTimer / 60000) + " min. you will be teleported to your partner.");
 		 */
 		activeChar.sendMessage(MessageTable.Messages[1259].getExtra(1) + (teleportTimer / 60000) + MessageTable.Messages[1259].getExtra(2));

@@ -72,7 +72,7 @@ public class AdminDisconnect implements IAdminCommandHandler
 		}
 		else
 		{
-			/*
+			/* MessageTable
 			activeChar.sendMessage("Character " + player.getName() + " disconnected from server.");
 			 */
 			activeChar.sendMessage(MessageTable.Messages[1523].getExtra(1) + player.getName() + MessageTable.Messages[1523].getExtra(2));
