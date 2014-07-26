@@ -52,7 +52,7 @@ public class AdminLogin implements IAdminCommandHandler
 			gmOnly();
 			/* MessageTable.Messages[1731]
 			activeChar.sendMessage("Server is now GM only");
-			*/
+			 */
 			activeChar.sendMessage(1731);
 			showMainPage(activeChar);
 		}
@@ -61,7 +61,7 @@ public class AdminLogin implements IAdminCommandHandler
 			allowToAll();
 			/* MessageTable.Messages[1732]
 			activeChar.sendMessage("Server is not GM only anymore");
-			*/
+			 */
 			activeChar.sendMessage(1732);
 			showMainPage(activeChar);
 		}
@@ -77,7 +77,7 @@ public class AdminLogin implements IAdminCommandHandler
 					LoginServerThread.getInstance().setMaxPlayer(Integer.parseInt(number));
 					/*
 					activeChar.sendMessage("maxPlayer set to " + number);
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1733].getMessage() + number);
 					showMainPage(activeChar);
 				}

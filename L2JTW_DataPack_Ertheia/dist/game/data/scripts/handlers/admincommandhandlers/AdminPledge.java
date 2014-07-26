@@ -88,7 +88,7 @@ public class AdminPledge implements IAdminCommandHandler
 				{
 					/*
 					activeChar.sendMessage("Clan " + parameter + " created. Leader: " + player.getName());
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1790].getExtra(1) + parameter + MessageTable.Messages[1790].getExtra(2) + player.getName());
 				}
 				else
@@ -96,7 +96,7 @@ public class AdminPledge implements IAdminCommandHandler
 					player.setClanCreateExpiryTime(cet);
 					/*
 					activeChar.sendMessage("There was a problem while creating the clan.");
-					*/
+					 */
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.FAILED_TO_CREATE_CLAN));
 				}
 			}
@@ -116,14 +116,14 @@ public class AdminPledge implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1791]
 					activeChar.sendMessage("Clan disbanded.");
-					*/
+					 */
 					activeChar.sendMessage(1791);
 				}
 				else
 				{
 					/* MessageTable.Messages[1792]
 					activeChar.sendMessage("There was a problem while destroying the clan.");
-					*/
+					 */
 					activeChar.sendMessage(1792);
 				}
 			}
@@ -143,14 +143,14 @@ public class AdminPledge implements IAdminCommandHandler
 					player.getClan().changeLevel(level);
 					/*
 					activeChar.sendMessage("You set level " + level + " for clan " + player.getClan().getName());
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1793].getExtra(1) + level + MessageTable.Messages[1793].getExtra(2) + player.getClan().getName());
 				}
 				else
 				{
 					/* MessageTable.Messages[1794]
 					activeChar.sendMessage("Level incorrect.");
-					*/
+					 */
 					activeChar.sendMessage(1794);
 				}
 			}
@@ -164,7 +164,7 @@ public class AdminPledge implements IAdminCommandHandler
 					{
 						/* MessageTable.Messages[1795]
 						activeChar.sendMessage("Only clans of level 5 or above may receive reputation points.");
-						*/
+						 */
 						activeChar.sendMessage(1795);
 						showMainPage(activeChar);
 						return false;
@@ -172,7 +172,7 @@ public class AdminPledge implements IAdminCommandHandler
 					clan.addReputationScore(points, true);
 					/*
 					activeChar.sendMessage("You " + (points > 0 ? "add " : "remove ") + Math.abs(points) + " points " + (points > 0 ? "to " : "from ") + clan.getName() + "'s reputation. Their current score is " + clan.getReputationScore());
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1796].getExtra(1) + (points > 0 ? MessageTable.Messages[1796].getExtra(2) : MessageTable.Messages[1796].getExtra(3)) + Math.abs(points) + MessageTable.Messages[1796].getExtra(4) + (points > 0 ? MessageTable.Messages[1796].getExtra(5) : MessageTable.Messages[1796].getExtra(6)) + clan.getName() + MessageTable.Messages[1796].getExtra(7) + clan.getReputationScore());
 				}
 				catch (Exception e)

@@ -55,12 +55,12 @@ public class ChatHeroVoice implements IChatHandler
 			
 			/* modify By Tiger
 			if (!activeChar.getFloodProtectors().getHeroVoice().tryPerformAction("hero voice"))
-			*/
+			 */
 			if (!activeChar.getFloodProtectors().getHeroVoice().tryPerformAction("hero voice") && !activeChar.isGM())
 			{
 				/* MessageTable.Messages[1097]
 				activeChar.sendMessage("Action failed. Heroes are only able to speak in the global channel once every 10 seconds.");
-				*/
+				 */
 				activeChar.sendMessage(1097);
 				return;
 			}

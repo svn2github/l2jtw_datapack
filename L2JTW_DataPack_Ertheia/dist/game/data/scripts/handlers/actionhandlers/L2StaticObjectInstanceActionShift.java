@@ -40,7 +40,7 @@ public class L2StaticObjectInstanceActionShift implements IActionHandler
 			
 			/*
 			final NpcHtmlMessage html = new NpcHtmlMessage(StringUtil.concat("<html><body><center><font color=\"LEVEL\">Static Object Info</font></center><br><table border=0><tr><td>Coords X,Y,Z: </td><td>", String.valueOf(target.getX()), ", ", String.valueOf(target.getY()), ", ", String.valueOf(target.getZ()), "</td></tr><tr><td>Object ID: </td><td>", String.valueOf(target.getObjectId()), "</td></tr><tr><td>Static Object ID: </td><td>", String.valueOf(target.getId()), "</td></tr><tr><td>Mesh Index: </td><td>", String.valueOf(((L2StaticObjectInstance) target).getMeshIndex()), "</td></tr><tr><td><br></td></tr><tr><td>Class: </td><td>", target.getClass().getSimpleName(), "</td></tr></table></body></html>"));
-			*/
+			 */
 			final NpcHtmlMessage html = new NpcHtmlMessage(StringUtil.concat("<html><body><center><font color=\"LEVEL\">" + MessageTable.Messages[1358].getMessage() + "</font></center><br><table border=0><tr><td>" + MessageTable.Messages[1359].getMessage() + "</td><td>", String.valueOf(target.getX()), ", ", String.valueOf(target.getY()), ", ", String.valueOf(target.getZ()), "</td></tr><tr><td>" + MessageTable.Messages[1360].getMessage() + "</td><td>", String.valueOf(target.getObjectId()), "</td></tr><tr><td>" + MessageTable.Messages[1361].getMessage() + "</td><td>", String.valueOf(target.getId()), "</td></tr><tr><td>" + MessageTable.Messages[1362].getMessage() + "</td><td>", String.valueOf(((L2StaticObjectInstance) target).getMeshIndex()), "</td></tr><tr><td><br></td></tr><tr><td>" + MessageTable.Messages[1363].getMessage() + "</td><td>", target.getClass().getSimpleName(), "</td></tr></table></body></html>"));
 			activeChar.sendPacket(html);
 		}

@@ -45,7 +45,7 @@ public class TeleportBookmark implements IItemHandler
 		
 		/* l2jtw add
 		if (player.getBookMarkSlot() >= 9)
-		*/
+		 */
 		if (player.getBookMarkSlot() >= Config.MAX_BOOKMARKSLOT)
 		{
 			player.sendPacket(SystemMessageId.YOUR_NUMBER_OF_MY_TELEPORTS_SLOTS_HAS_REACHED_ITS_MAXIMUM_LIMIT);

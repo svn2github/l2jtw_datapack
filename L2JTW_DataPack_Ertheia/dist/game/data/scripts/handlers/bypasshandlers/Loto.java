@@ -175,7 +175,7 @@ public class Loto implements IBypassHandler
 				/*
 				String search = "0\">Return";
 				String replace = "22\">Your lucky numbers have been selected above.";
-				*/
+				 */
 				String search = "0\">" + MessageTable.Messages[1004].getMessage();
 				String replace = "22\">" + MessageTable.Messages[1005].getMessage();
 				html.replace(search, replace);
@@ -271,7 +271,7 @@ public class Loto implements IBypassHandler
 				{
 					/*
 					message = message + "<a action=\"bypass -h npc_%objectId%_Loto " + item.getObjectId() + "\">" + item.getCustomType1() + " Event Number ";
-					*/
+					 */
 					message = message + "<a action=\"bypass -h npc_%objectId%_Loto " + item.getObjectId() + "\">" + item.getCustomType1() + MessageTable.Messages[1006].getMessage();
 					int[] numbers = Lottery.getInstance().decodeNumbers(item.getEnchantLevel(), item.getCustomType2());
 					for (int i = 0; i < 5; i++)
@@ -286,31 +286,31 @@ public class Loto implements IBypassHandler
 							case 1:
 								/*
 								message += "- 1st Prize";
-								*/
+								 */
 								message += MessageTable.Messages[1007].getMessage();
 								break;
 							case 2:
 								/*
 								message += "- 2nd Prize";
-								*/
+								 */
 								message += MessageTable.Messages[1008].getMessage();
 								break;
 							case 3:
 								/*
 								message += "- 3th Prize";
-								*/
+								 */
 								message += MessageTable.Messages[1009].getMessage();
 								break;
 							case 4:
 								/*
 								message += "- 4th Prize";
-								*/
+								 */
 								message += MessageTable.Messages[1010].getMessage();
 								break;
 						}
 						/*
 						message += " " + check[1] + "a.";
-						*/
+						 */
 						message += " " + check[1] + MessageTable.Messages[1011].getMessage();
 					}
 					message += "</a><br>";
@@ -320,7 +320,7 @@ public class Loto implements IBypassHandler
 			{
 				/*
 				message += "There has been no winning lottery ticket.<br>";
-				*/
+				 */
 				message += MessageTable.Messages[1012].getMessage() + "<br>";
 			}
 			html.replace("%result%", message);

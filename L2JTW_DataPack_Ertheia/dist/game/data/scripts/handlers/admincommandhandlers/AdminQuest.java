@@ -84,14 +84,14 @@ public class AdminQuest implements IAdminCommandHandler
 					{
 						/* MessageTable.Messages[1806]
 						activeChar.sendMessage("Quest Reloaded Successfully.");
-						*/
+						 */
 						activeChar.sendMessage(1806);
 					}
 					else
 					{
 						/* MessageTable.Messages[1807]
 						activeChar.sendMessage("Quest Reloaded Failed");
-						*/
+						 */
 						activeChar.sendMessage(1807);
 					}
 				}
@@ -159,7 +159,7 @@ public class AdminQuest implements IAdminCommandHandler
 				{
 					/*
 					activeChar.sendMessage("File Not Found: " + parts[1]);
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1808].getMessage() + parts[1]);
 				}
 			}

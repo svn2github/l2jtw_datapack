@@ -79,7 +79,7 @@ public class Time implements IUserCommandHandler
 		{
 			/*
 			activeChar.sendMessage("Server time is " + fmt.format(new Date(System.currentTimeMillis())));
-			*/
+			 */
 			activeChar.sendMessage(MessageTable.Messages[1175].getMessage() + fmt.format(new Date(System.currentTimeMillis())));
 		}
 		return true;

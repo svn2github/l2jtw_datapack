@@ -43,7 +43,7 @@ public class AdminInstanceZone implements IAdminCommandHandler
 	{
 		/*
 		String target = (activeChar.getTarget() != null) ? activeChar.getTarget().getName() : "no-target";
-		*/
+		 */
 		String target = (activeChar.getTarget() != null) ? activeChar.getTarget().getName() : MessageTable.Messages[1705].getMessage();
 		GMAudit.auditGMAction(activeChar.getName(), command, target, "");
 		
@@ -61,7 +61,7 @@ public class AdminInstanceZone implements IAdminCommandHandler
 				/*
 				activeChar.sendMessage("Instance zone " + name + " cleared for player " + player.getName());
 				player.sendMessage("Admin cleared instance zone " + name + " for you");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1706].getExtra(1) + name + MessageTable.Messages[1706].getExtra(2) + player.getName() + MessageTable.Messages[1706].getExtra(3));
 				player.sendMessage(MessageTable.Messages[1707].getExtra(1) + name + MessageTable.Messages[1707].getExtra(2));
 				
@@ -130,7 +130,7 @@ public class AdminInstanceZone implements IAdminCommandHandler
 		
 		/*
 		final StringBuilder html = StringUtil.startAppend(500 + (instanceTimes.size() * 200), "<html><center><table width=260><tr>" + "<td width=40><button value=\"Main\" action=\"bypass -h admin_admin\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td width=180><center>Character Instances</center></td>" + "<td width=40><button value=\"Back\" action=\"bypass -h admin_current_player\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "</tr></table><br><font color=\"LEVEL\">Instances for ", player.getName(), "</font><center><br>" + "<table>" + "<tr><td width=150>Name</td><td width=50>Time</td><td width=70>Action</td></tr>");
-		*/
+		 */
 		final StringBuilder html = StringUtil.startAppend(500 + (instanceTimes.size() * 200), "<html><center><table width=260><tr>" + "<td width=40><button value=\"" + MessageTable.Messages[1708].getMessage() + "\" action=\"bypass -h admin_admin\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td width=180><center>" + MessageTable.Messages[1709].getMessage() + "</center></td>" + "<td width=40><button value=\"" + MessageTable.Messages[1710].getMessage() + "\" action=\"bypass -h admin_current_player\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "</tr></table><br><font color=\"LEVEL\">" + MessageTable.Messages[1711].getMessage(), player.getName(), "</font><center><br>" + "<table>" + "<tr><td width=150>" + MessageTable.Messages[1712].getExtra(1) + "</td><td width=50>" + MessageTable.Messages[1712].getExtra(2) + "</td><td width=70>" + MessageTable.Messages[1712].getExtra(3) + "</td></tr>");
 		
 		for (int id : instanceTimes.keySet())
@@ -146,7 +146,7 @@ public class AdminInstanceZone implements IAdminCommandHandler
 			
 			/*
 			StringUtil.append(html, "<tr><td>", InstanceManager.getInstance().getInstanceIdName(id), "</td><td>", String.valueOf(hours), ":", String.valueOf(minutes), "</td><td><button value=\"Clear\" action=\"bypass -h admin_instancezone_clear ", player.getName(), " ", String.valueOf(id), "\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-			*/
+			 */
 			StringUtil.append(html, "<tr><td>", InstanceManager.getInstance().getInstanceIdName(id), "</td><td>", String.valueOf(hours), ":", String.valueOf(minutes), "</td><td><button value=\"" + MessageTable.Messages[1713].getMessage() + "\" action=\"bypass -h admin_instancezone_clear ", player.getName(), " ", String.valueOf(id), "\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 		}
 		

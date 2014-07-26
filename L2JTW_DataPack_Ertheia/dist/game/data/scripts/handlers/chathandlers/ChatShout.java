@@ -70,7 +70,7 @@ public class ChatShout implements IChatHandler
 			{
 				/* MessageTable.Messages[1101]
 				activeChar.sendMessage("Do not spam shout channel.");
-				*/
+				 */
 				activeChar.sendMessage(1101);
 				return;
 			}

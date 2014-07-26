@@ -177,7 +177,7 @@ public class PlayerHandler implements ITelnetHandler
 				if (enchant > 65535)
 				{
 					enchant = 65535;
-				*/
+				 */
 				if (enchant > 127)
 				{
 					enchant = 127;

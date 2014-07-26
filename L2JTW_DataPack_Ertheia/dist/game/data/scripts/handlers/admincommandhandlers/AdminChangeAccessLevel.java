@@ -88,14 +88,14 @@ public final class AdminChangeAccessLevel implements IAdminCommandHandler
 					{
 						/* MessageTable.Messages[1473]
 						activeChar.sendMessage("Character not found or access level unaltered.");
-						*/
+						 */
 						activeChar.sendMessage(1473);
 					}
 					else
 					{
 						/*
 						activeChar.sendMessage("Character's access level is now set to " + lvl);
-						*/
+						 */
 						activeChar.sendMessage(MessageTable.Messages[1474].getMessage() + lvl);
 					}
 				}
@@ -142,7 +142,7 @@ public final class AdminChangeAccessLevel implements IAdminCommandHandler
 			{
 				/*
 				activeChar.sendMessage("You are trying to set unexisting access level: " + lvl + " please try again with a valid one!");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1478].getMessage() + lvl + MessageTable.Messages[1478].getExtra(1));
 			}
 		}
@@ -151,7 +151,7 @@ public final class AdminChangeAccessLevel implements IAdminCommandHandler
 			player.setAccessLevel(lvl);
 			/* MessageTable.Messages[1476]
 			player.sendMessage("Your character has been banned. Bye.");
-			*/
+			 */
 			player.sendMessage(1476);
 			player.logout();
 		}

@@ -108,7 +108,7 @@ public class AdminSiege implements IAdminCommandHandler
 							{
 								/* MessageTable.Messages[1820]
 								activeChar.sendMessage("This Clan Hall is not free!");
-								*/
+								 */
 								activeChar.sendMessage(1820);
 								return false;
 							}
@@ -118,7 +118,7 @@ public class AdminSiege implements IAdminCommandHandler
 							{
 								/* MessageTable.Messages[1821]
 								activeChar.sendMessage("You have already a Clan Hall!");
-								*/
+								 */
 								activeChar.sendMessage(1821);
 								return false;
 							}
@@ -150,7 +150,7 @@ public class AdminSiege implements IAdminCommandHandler
 								{
 									/* MessageTable.Messages[1822]
 									activeChar.sendMessage("This Clan Hall is already free!");
-									*/
+									 */
 									activeChar.sendMessage(1822);
 								}
 							}
@@ -245,7 +245,7 @@ public class AdminSiege implements IAdminCommandHandler
 					case "admin_move_defenders":
 						/* MessageTable.Messages[1817]
 						activeChar.sendMessage("Not implemented yet.");
-						*/
+						 */
 						activeChar.sendMessage(1817);
 						break;
 					case "admin_setcastle":
@@ -268,7 +268,7 @@ public class AdminSiege implements IAdminCommandHandler
 						{
 							/* MessageTable.Messages[1818]
 							activeChar.sendMessage("Unable to remove castle.");
-							*/
+							 */
 							activeChar.sendMessage(1818);
 						}
 						break;
@@ -325,7 +325,7 @@ public class AdminSiege implements IAdminCommandHandler
 							{
 								/* MessageTable.Messages[1819]
 								activeChar.sendMessage("Unable to change Siege Date");
-								*/
+								 */
 								activeChar.sendMessage(1819);
 							}
 							else if (cal.getTimeInMillis() != castle.getSiegeDate().getTimeInMillis())
@@ -374,7 +374,7 @@ public class AdminSiege implements IAdminCommandHandler
 				String cname = castle.getCName(); // l2jtw add CName
 				/* l2jtw add CName
 				StringUtil.append(cList, "<td fixwidth=90><a action=\"bypass -h admin_siege ", name, "\">", name, "</a></td>");
-				*/
+				 */
 				StringUtil.append(cList, "<td fixwidth=90><a action=\"bypass -h admin_siege ", name, "\">", cname, "</a></td>");
 				i++;
 			}
@@ -509,7 +509,7 @@ public class AdminSiege implements IAdminCommandHandler
 		final L2Clan owner = ClanTable.getInstance().getClan(clanhall.getOwnerId());
 		/*
 		adminReply.replace("%clanhallOwner%", (owner == null) ? "None" : owner.getName());
-		*/
+		 */
 		adminReply.replace("%clanhallOwner%", (owner == null) ? MessageTable.Messages[1823].getMessage() : owner.getName());
 		activeChar.sendPacket(adminReply);
 	}
@@ -530,14 +530,14 @@ public class AdminSiege implements IAdminCommandHandler
 			final L2Clan owner = ClanTable.getInstance().getClan(hall.getOwnerId());
 			/*
 			msg.replace("%clanhallOwner%", (owner != null) ? owner.getName() : "No Owner");
-			*/
+			 */
 			msg.replace("%clanhallOwner%", (owner != null) ? owner.getName() : MessageTable.Messages[1824].getMessage());
 		}
 		else
 		{
 			/*
 			msg.replace("%clanhallOwner%", "No Owner");
-			*/
+			 */
 			msg.replace("%clanhallOwner%", MessageTable.Messages[1824].getMessage());
 		}
 		activeChar.sendPacket(msg);

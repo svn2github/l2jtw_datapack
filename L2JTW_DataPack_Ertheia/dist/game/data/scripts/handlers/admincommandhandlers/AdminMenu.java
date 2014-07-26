@@ -75,7 +75,7 @@ public class AdminMenu implements IAdminCommandHandler
 				{
 					/*
 					teleportCharacter(player, new Location(Integer.parseInt(data[2]), Integer.parseInt(data[3]), Integer.parseInt(data[4])), activeChar, "Admin is teleporting you.");
-					*/
+					 */
 					teleportCharacter(player, new Location(Integer.parseInt(data[2]), Integer.parseInt(data[3]), Integer.parseInt(data[4])), activeChar, MessageTable.Messages[1777].getMessage());
 				}
 			}
@@ -89,7 +89,7 @@ public class AdminMenu implements IAdminCommandHandler
 				L2PcInstance player = L2World.getInstance().getPlayer(targetName);
 				/*
 				teleportCharacter(player, activeChar.getLocation(), activeChar, "Admin is teleporting you.");
-				*/
+				 */
 				teleportCharacter(player, activeChar.getLocation(), activeChar, MessageTable.Messages[1777].getMessage());
 			}
 			catch (StringIndexOutOfBoundsException e)
@@ -112,7 +112,7 @@ public class AdminMenu implements IAdminCommandHandler
 					/* MessageTable.Messages[1778]
 					activeChar.sendMessage("Player is not in party.");
 					teleportCharacter(player, activeChar.getLocation(), activeChar, "Admin is teleporting you.");
-					*/
+					 */
 					activeChar.sendMessage(1778);
 					teleportCharacter(player, activeChar.getLocation(), activeChar, MessageTable.Messages[1777].getMessage());
 					return true;
@@ -121,7 +121,7 @@ public class AdminMenu implements IAdminCommandHandler
 				{
 					/*
 					teleportCharacter(pm, activeChar.getLocation(), activeChar, "Your party is being teleported by an Admin.");
-					*/
+					 */
 					teleportCharacter(pm, activeChar.getLocation(), activeChar, MessageTable.Messages[1779].getMessage());
 				}
 			}
@@ -147,7 +147,7 @@ public class AdminMenu implements IAdminCommandHandler
 					/* MessageTable.Messages[1780]
 					activeChar.sendMessage("Player is not in a clan.");
 					teleportCharacter(player, activeChar.getLocation(), activeChar, "Admin is teleporting you.");
-					*/
+					 */
 					activeChar.sendMessage(1780);
 					teleportCharacter(player, activeChar.getLocation(), activeChar, MessageTable.Messages[1777].getMessage());
 					return true;
@@ -157,7 +157,7 @@ public class AdminMenu implements IAdminCommandHandler
 				{
 					/*
 					teleportCharacter(member, activeChar.getLocation(), activeChar, "Your clan is being teleported by an Admin.");
-					*/
+					 */
 					teleportCharacter(member, activeChar.getLocation(), activeChar, MessageTable.Messages[1781].getMessage());
 				}
 			}
@@ -197,14 +197,14 @@ public class AdminMenu implements IAdminCommandHandler
 					plyr.logout();
 					/*
 					text = "You kicked " + plyr.getName() + " from the game.";
-					*/
+					 */
 					text = MessageTable.Messages[1782].getExtra(1) + plyr.getName() + MessageTable.Messages[1782].getExtra(2);
 				}
 				else
 				{
 					/*
 					text = "Player " + player + " was not found in the game.";
-					*/
+					 */
 					text = MessageTable.Messages[1783].getExtra(1) + player + MessageTable.Messages[1783].getExtra(2);
 				}
 				activeChar.sendMessage(text);
@@ -221,7 +221,7 @@ public class AdminMenu implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1784]
 					activeChar.sendMessage("You don't have the access right to use this command!");
-					*/
+					 */
 					activeChar.sendMessage(1784);
 					_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 					return false;
@@ -241,7 +241,7 @@ public class AdminMenu implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1784]
 					activeChar.sendMessage("You don't have the access right to use this command!");
-					*/
+					 */
 					activeChar.sendMessage(1784);
 					_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 					return false;
@@ -278,7 +278,7 @@ public class AdminMenu implements IAdminCommandHandler
 				target = plyr;
 				/*
 				activeChar.sendMessage("You killed " + plyr.getName());
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1785].getExtra(1) + plyr.getName() + MessageTable.Messages[1785].getExtra(2));
 			}
 		}
@@ -337,7 +337,7 @@ public class AdminMenu implements IAdminCommandHandler
 			activeChar.teleToLocation(player.getLocation(), true);
 			/*
 			activeChar.sendMessage("You're teleporting yourself to character " + player.getName());
-			*/
+			 */
 			activeChar.sendMessage(MessageTable.Messages[1786].getExtra(1) + player.getName() + MessageTable.Messages[1786].getExtra(2));
 		}
 		showMainPage(activeChar);

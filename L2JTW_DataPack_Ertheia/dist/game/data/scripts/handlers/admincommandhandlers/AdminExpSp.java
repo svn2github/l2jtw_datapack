@@ -150,7 +150,7 @@ public class AdminExpSp implements IAdminCommandHandler
 			// Common character information
 			/*
 			player.sendMessage("Admin is adding you " + expval + " xp and " + spval + " sp.");
-			*/
+			 */
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1673]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);
@@ -159,7 +159,7 @@ public class AdminExpSp implements IAdminCommandHandler
 			// Admin information
 			/*
 			activeChar.sendMessage("Added " + expval + " xp and " + spval + " sp to " + player.getName() + ".");
-			*/
+			 */
 			cm = new L2CoreMessage (MessageTable.Messages[1674]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);
@@ -211,7 +211,7 @@ public class AdminExpSp implements IAdminCommandHandler
 			// Common character information
 			/*
 			player.sendMessage("Admin is removing you " + expval + " xp and " + spval + " sp.");
-			*/
+			 */
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1675]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);
@@ -220,7 +220,7 @@ public class AdminExpSp implements IAdminCommandHandler
 			// Admin information
 			/*
 			activeChar.sendMessage("Removed " + expval + " xp and " + spval + " sp from " + player.getName() + ".");
-			*/
+			 */
 			cm = new L2CoreMessage (MessageTable.Messages[1676]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);

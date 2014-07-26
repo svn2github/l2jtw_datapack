@@ -53,7 +53,7 @@ public class AdminVitality implements IAdminCommandHandler
 		{
 			/* MessageTable.Messages[1910]
 			activeChar.sendMessage("Vitality is not enabled on the server!");
-			*/
+			 */
 			activeChar.sendMessage(1910);
 			return false;
 		}
@@ -79,14 +79,14 @@ public class AdminVitality implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1911]
 					activeChar.sendMessage("Incorrect vitality");
-					*/
+					 */
 					activeChar.sendMessage(1911);
 				}
 				
 				target.setVitalityPoints(vitality, true);
 				/*
 				target.sendMessage("Admin set your Vitality points to " + vitality);
-				*/
+				 */
 				target.sendMessage(MessageTable.Messages[1912].getMessage() + vitality);
 			}
 			else if (cmd.equals("admin_set_vitality_level"))
@@ -99,7 +99,7 @@ public class AdminVitality implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1913]
 					activeChar.sendMessage("Incorrect vitality level (0-4)");
-					*/
+					 */
 					activeChar.sendMessage(1913);
 				}
 				
@@ -113,20 +113,20 @@ public class AdminVitality implements IAdminCommandHandler
 					{
 						/*
 						vitality = PcStat.VITALITY_LEVELS[level - 1];
-						*/
+						 */
 						vitality = PcStat.VITALITY_LEVELS[level]; // rocknow-God
 					}
 					target.setVitalityPoints(vitality, true);
 					/*
 					target.sendMessage("Admin set your Vitality level to " + level);
-					*/
+					 */
 					target.sendMessage(MessageTable.Messages[1914].getMessage() + level);
 				}
 				else
 				{
 					/* MessageTable.Messages[1913]
 					activeChar.sendMessage("Incorrect vitality level (0-4)");
-					*/
+					 */
 					activeChar.sendMessage(1913);
 				}
 			}
@@ -135,7 +135,7 @@ public class AdminVitality implements IAdminCommandHandler
 				target.setVitalityPoints(PcStat.MAX_VITALITY_POINTS, true);
 				/* MessageTable.Messages[1915]
 				target.sendMessage("Admin completly recharged your Vitality");
-				*/
+				 */
 				target.sendMessage(1915);
 			}
 			else if (cmd.equals("admin_empty_vitality"))
@@ -143,7 +143,7 @@ public class AdminVitality implements IAdminCommandHandler
 				target.setVitalityPoints(PcStat.MIN_VITALITY_POINTS, true);
 				/* MessageTable.Messages[1916]
 				target.sendMessage("Admin completly emptied your Vitality");
-				*/
+				 */
 				target.sendMessage(1916);
 			}
 			else if (cmd.equals("admin_get_vitality"))
@@ -154,7 +154,7 @@ public class AdminVitality implements IAdminCommandHandler
 				/*
 				activeChar.sendMessage("Player vitality level: " + level);
 				activeChar.sendMessage("Player vitality points: " + vitality);
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1917].getMessage() + level);
 				activeChar.sendMessage(MessageTable.Messages[1918].getMessage() + vitality);
 			}
@@ -162,7 +162,7 @@ public class AdminVitality implements IAdminCommandHandler
 		}
 		/* MessageTable.Messages[1919]
 		activeChar.sendMessage("Target not found or not a player");
-		*/
+		 */
 		activeChar.sendMessage(1919);
 		return false;
 	}

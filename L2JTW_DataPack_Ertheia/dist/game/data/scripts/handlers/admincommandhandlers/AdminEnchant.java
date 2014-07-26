@@ -142,12 +142,12 @@ public class AdminEnchant implements IAdminCommandHandler
 					// check value
 					/* l2jtw fix Max_Enchant
 					if ((ench < 0) || (ench > 65535))
-					*/
+					 */
 					if ((ench < 0) || (ench > 127))
 					{
 						/* MessageTable.Messages[1666]
 						activeChar.sendMessage("You must set the enchant level to be between 0-65535.");
-						*/
+						 */
 						activeChar.sendMessage(1666);
 					}
 					else
@@ -231,7 +231,7 @@ public class AdminEnchant implements IAdminCommandHandler
 			/*
 			activeChar.sendMessage("Changed enchantment of " + player.getName() + "'s " + itemInstance.getItem().getName() + " from " + curEnchant + " to " + ench + ".");
 			player.sendMessage("Admin has changed the enchantment of your " + itemInstance.getItem().getName() + " from " + curEnchant + " to " + ench + ".");
-			*/
+			 */
 			activeChar.sendMessage(MessageTable.Messages[1667].getExtra(1) + player.getName() + MessageTable.Messages[1667].getExtra(2) + itemInstance.getItem().getName() + MessageTable.Messages[1667].getExtra(3) + curEnchant + MessageTable.Messages[1667].getExtra(4) + ench + MessageTable.Messages[1667].getExtra(5));
 			player.sendMessage(MessageTable.Messages[1668].getExtra(1) + itemInstance.getItem().getName() + MessageTable.Messages[1668].getExtra(2) + curEnchant + MessageTable.Messages[1668].getExtra(3) + ench + MessageTable.Messages[1668].getExtra(4));
 		}

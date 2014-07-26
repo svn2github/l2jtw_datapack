@@ -59,7 +59,7 @@ public class TerritoryStatus implements IBypassHandler
 		}
 		/* l2jtw add CName
 		html.replace("%castlename%", npc.getCastle().getName());
-		*/
+		 */
 		html.replace("%castlename%", npc.getCastle().getCName());
 		html.replace("%taxpercent%", "" + npc.getCastle().getTaxPercent());
 		html.replace("%objectId%", String.valueOf(npc.getObjectId()));
@@ -68,14 +68,14 @@ public class TerritoryStatus implements IBypassHandler
 			{
 				/*
 				html.replace("%territory%", "The Kingdom of Elmore");
-				*/
+				 */
 				html.replace("%territory%", MessageTable.Messages[1092].getMessage());
 			}
 			else
 			{
 				/*
 				html.replace("%territory%", "The Kingdom of Aden");
-				*/
+				 */
 				html.replace("%territory%", MessageTable.Messages[1093].getMessage());
 			}
 		}

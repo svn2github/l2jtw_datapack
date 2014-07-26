@@ -76,7 +76,7 @@ public class AdminKill implements IAdminCommandHandler
 							
 							/*
 							activeChar.sendMessage("Killed all characters within a " + radius + " unit radius.");
-							*/
+							 */
 							activeChar.sendMessage(MessageTable.Messages[1725].getExtra(1) + radius + MessageTable.Messages[1725].getExtra(2));
 							return true;
 						}
@@ -105,7 +105,7 @@ public class AdminKill implements IAdminCommandHandler
 						
 						/*
 						activeChar.sendMessage("Killed all characters within a " + radius + " unit radius.");
-						*/
+						 */
 						activeChar.sendMessage(MessageTable.Messages[1725].getExtra(1) + radius + MessageTable.Messages[1725].getExtra(2));
 						return true;
 					}

@@ -119,7 +119,7 @@ public class AdminEffects implements IAdminCommandHandler
 				activeChar.spawnMe();
 				/* MessageTable.Messages[1648]
 				activeChar.sendMessage("You are now invisible.");
-				*/
+				 */
 				activeChar.sendMessage(1648);
 			}
 			else
@@ -128,7 +128,7 @@ public class AdminEffects implements IAdminCommandHandler
 				activeChar.broadcastUserInfo();
 				/* MessageTable.Messages[1649]
 				activeChar.sendMessage("You are now visible.");
-				*/
+				 */
 				activeChar.sendMessage(1649);
 			}
 			RegionBBSManager.getInstance().changeCommunityBoard();
@@ -144,7 +144,7 @@ public class AdminEffects implements IAdminCommandHandler
 			RegionBBSManager.getInstance().changeCommunityBoard();
 			/* MessageTable.Messages[1648]
 			activeChar.sendMessage("You are now invisible.");
-			*/
+			 */
 			activeChar.sendMessage(1648);
 		}
 		else if (command.startsWith("admin_vis"))
@@ -154,7 +154,7 @@ public class AdminEffects implements IAdminCommandHandler
 			RegionBBSManager.getInstance().changeCommunityBoard();
 			/* MessageTable.Messages[1649]
 			activeChar.sendMessage("You are now visible.");
-			*/
+			 */
 			activeChar.sendMessage(1649);
 		}
 		else if (command.startsWith("admin_setinvis"))
@@ -168,7 +168,7 @@ public class AdminEffects implements IAdminCommandHandler
 			target.setInvisible(!target.isInvisible());
 			/*
 			activeChar.sendMessage("You've made " + target.getName() + " " + (target.isInvisible() ? "invisible" : "visible") + ".");
-			*/
+			 */
 			activeChar.sendMessage(MessageTable.Messages[1650].getExtra(1) + target.getName() + MessageTable.Messages[1650].getExtra(2) + (target.isInvisible() ? MessageTable.Messages[1650].getExtra(3) : MessageTable.Messages[1650].getExtra(4)) + MessageTable.Messages[1650].getExtra(5));
 			
 			if (target.isPlayer())
@@ -493,7 +493,7 @@ public class AdminEffects implements IAdminCommandHandler
 							{
 								/*
 								activeChar.sendMessage(player.getName() + " was affected by your request.");
-								*/
+								 */
 								activeChar.sendMessage(MessageTable.Messages[1651].getExtra(1) + player.getName() + MessageTable.Messages[1651].getExtra(2));
 							}
 						}
@@ -512,7 +512,7 @@ public class AdminEffects implements IAdminCommandHandler
 								}
 								/*
 								activeChar.sendMessage(radius + " units radius affected by your request.");
-								*/
+								 */
 								activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
 							}
 							catch (NumberFormatException nbe)
@@ -534,7 +534,7 @@ public class AdminEffects implements IAdminCommandHandler
 					{
 						/*
 						activeChar.sendMessage(obj.getName() + " was affected by your request.");
-						*/
+						 */
 						activeChar.sendMessage(MessageTable.Messages[1651].getExtra(1) + obj.getName() + MessageTable.Messages[1651].getExtra(2));
 					}
 					else
@@ -641,7 +641,7 @@ public class AdminEffects implements IAdminCommandHandler
 					target.broadcastPacket(new MagicSkillUse(target, activeChar, skill, level, hittime, 0));
 					/*
 					activeChar.sendMessage(obj.getName() + " performs MSU " + skill + "/" + level + " by your request.");
-					*/
+					 */
 					activeChar.sendMessage(obj.getName() + MessageTable.Messages[1655].getExtra(1) + skill + "/" + level + MessageTable.Messages[1655].getExtra(2));
 				}
 				
@@ -715,7 +715,7 @@ public class AdminEffects implements IAdminCommandHandler
 				}
 				/* l2jtw add NPC Max_Social = 10
 				if ((target instanceof L2Npc) && ((action < 1) || (action > 3)))
-				*/
+				 */
 				if ((target instanceof L2Npc) && ((action < 1) || (action > 10)))
 				{
 					activeChar.sendPacket(SystemMessageId.NOTHING_HAPPENED);
@@ -723,7 +723,7 @@ public class AdminEffects implements IAdminCommandHandler
 				}
 				/* l2jtw add L2Character Max_Social = 36
 				if ((target instanceof L2PcInstance) && ((action < 2) || ((action > 18) && (action != SocialAction.LEVEL_UP))))
-				*/
+				 */
 				if ((target instanceof L2PcInstance) && ((action < 2) || ((action > 36) && (action != SocialAction.LEVEL_UP))))
 				{
 					activeChar.sendPacket(SystemMessageId.NOTHING_HAPPENED);
@@ -803,7 +803,7 @@ public class AdminEffects implements IAdminCommandHandler
 		activeChar.broadcastPacket(_snd);
 		/*
 		activeChar.sendMessage("Playing " + sound + ".");
-		*/
+		 */
 		activeChar.sendMessage(MessageTable.Messages[1656].getExtra(1) + sound +  MessageTable.Messages[1656].getExtra(2));
 	}
 	

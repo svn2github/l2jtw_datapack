@@ -74,7 +74,7 @@ public class ChatTell implements IChatHandler
 			{
 				/* MessageTable.Messages[1105]
 				activeChar.sendMessage("Player is in jail.");
-				*/
+				 */
 				activeChar.sendMessage(1105);
 				return;
 			}
@@ -87,7 +87,7 @@ public class ChatTell implements IChatHandler
 			{
 				/* MessageTable.Messages[1106]
 				activeChar.sendMessage("Player is in offline mode.");
-				*/
+				 */
 				activeChar.sendMessage(1106);
 				return;
 			}

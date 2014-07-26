@@ -209,7 +209,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			AutoAnnounceTaskManager.getInstance().restore();
 			/* MessageTable.Messages[1420]
 			activeChar.sendMessage("AutoAnnouncement Reloaded.");
-			*/
+			 */
 			activeChar.sendMessage(1420);
 			listAutoAnnouncements(activeChar);
 		}
@@ -222,7 +222,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1421]
 				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
-				*/
+				 */
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -237,7 +237,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1421]
 				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
-				*/
+				 */
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -252,7 +252,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1421]
 				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
-				*/
+				 */
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -267,7 +267,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1421]
 				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
-				*/
+				 */
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -276,7 +276,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1421]
 				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
-				*/
+				 */
 				activeChar.sendMessage(1421);
 				return false;
 			}
@@ -300,7 +300,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1422]
 				activeChar.sendMessage("Not enough parameters for deleting autoannounce!");
-				*/
+				 */
 				activeChar.sendMessage(1422);
 				return false;
 			}
@@ -337,7 +337,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			replyMSG.append(memo2.toString().trim());
 			/*
 			replyMSG.append("</font></td><td width=40><button value=\"Delete\" action=\"bypass -h admin_del_autoann ");
-			*/
+			 */
 			replyMSG.append("</font></td><td width=40><button value=\"" + MessageTable.Messages[1423].getMessage() + "\" action=\"bypass -h admin_del_autoann ");
 			replyMSG.append(i);
 			replyMSG.append("\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table>");

@@ -105,7 +105,7 @@ public class AdminRes implements IAdminCommandHandler
 					
 					/*
 					activeChar.sendMessage("Resurrected all players within a " + radius + " unit radius.");
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1812].getExtra(1) + radius + MessageTable.Messages[1812].getExtra(2));
 					return;
 				}
@@ -163,7 +163,7 @@ public class AdminRes implements IAdminCommandHandler
 				
 				/*
 				activeChar.sendMessage("Resurrected all non-players within a " + radius + " unit radius.");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1813].getExtra(1) + radius + MessageTable.Messages[1813].getExtra(2));
 			}
 		}

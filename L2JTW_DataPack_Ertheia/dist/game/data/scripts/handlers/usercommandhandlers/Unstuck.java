@@ -86,7 +86,7 @@ public class Unstuck implements IUserCommandHandler
 			}
 			/* MessageTable.Messages[1165]
 			activeChar.sendMessage("You use Escape: 1 second.");
-			*/
+			 */
 			activeChar.sendMessage(1165);
 		}
 		else if ((Config.UNSTUCK_INTERVAL == 300) && (escape != null))
@@ -100,14 +100,14 @@ public class Unstuck implements IUserCommandHandler
 			{
 				/*
 				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 60000) + " minutes.");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + (unstuckTimer / 60000) + MessageTable.Messages[1166].getExtra(2));
 			}
 			else
 			{
 				/*
 				activeChar.sendMessage("You use Escape: " + (unstuckTimer / 1000) + " seconds.");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + (unstuckTimer / 1000) + MessageTable.Messages[1166].getExtra(3));
 			}
 		}

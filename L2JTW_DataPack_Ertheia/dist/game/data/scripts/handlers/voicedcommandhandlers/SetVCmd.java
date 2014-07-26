@@ -71,7 +71,7 @@ public class SetVCmd implements IVoicedCommandHandler
 				player.getClanPrivileges().setBitmask(n);
 				/*
 				activeChar.sendMessage("Your clan privileges have been set to " + n + " by " + activeChar.getName() + ".");
-				*/
+				 */
 				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1204]);
 				cm.addNumber(n);
 				cm.addString(activeChar.getName());

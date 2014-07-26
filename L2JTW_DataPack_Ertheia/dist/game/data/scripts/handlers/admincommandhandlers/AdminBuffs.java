@@ -81,7 +81,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				}
 				/*
 				activeChar.sendMessage("The player " + playername + " is not online.");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1451].getExtra(1) + playername + MessageTable.Messages[1451].getExtra(2));
 				return false;
 			}
@@ -152,7 +152,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				
 				/*
 				activeChar.sendMessage("All effects canceled within radius " + radius);
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1452].getExtra(1) + radius + MessageTable.Messages[1452].getExtra(2));
 				return true;
 			}
@@ -270,7 +270,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		
 		/*
 		final StringBuilder html = StringUtil.startAppend(500 + (effects.size() * 200), "<html><table width=\"100%\"><tr><td width=45><button value=\"Main\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">Effects of ", target.getName(), "</font></td><td width=45><button value=\"Back\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=200>Skill</td><td width=30>Rem. Time</td><td width=70>Action</td></tr>");
-		*/
+		 */
 		final StringBuilder html = StringUtil.startAppend(500 + (effects.size() * 200), "<html><table width=\"100%\"><tr><td width=45><button value=\"" + MessageTable.Messages[1453].getMessage() + "\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">" + MessageTable.Messages[1454].getMessage(), target.getName(), "</font></td><td width=45><button value=\"" + MessageTable.Messages[1455].getMessage() + "\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=150>" + MessageTable.Messages[1456].getExtra(1) + "</td><td width=50>" + MessageTable.Messages[1456].getExtra(2) + "</td><td width=70>" + MessageTable.Messages[1456].getExtra(3) + "</td></tr>");
 		int start = ((page - 1) * PAGE_LIMIT);
 		int end = Math.min(((page - 1) * PAGE_LIMIT) + PAGE_LIMIT, effects.size());
@@ -298,7 +298,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				html.append("<td>Page ");
 				html.append(pagenr);
 				html.append("</td>");
-				*/
+				 */
 				html.append("<td>" + MessageTable.Messages[1458].getMessage());
 				html.append(pagenr);
 				html.append(MessageTable.Messages[1458].getExtra(1) + "</td>");
@@ -313,7 +313,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				html.append("\"> Page ");
 				html.append(pagenr);
 				html.append(" </a></td>");
-				*/
+				 */
 				html.append("\"> " + MessageTable.Messages[1458].getMessage());
 				html.append(pagenr);
 				html.append(MessageTable.Messages[1458].getExtra(1) + "</a></td>");
@@ -326,7 +326,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		/*
 		StringUtil.append(html, "<br><center><button value=\"Refresh\" action=\"bypass -h admin_getbuffs", (passive ? "_ps " : " "), target.getName(), "\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
 		StringUtil.append(html, "<button value=\"Remove All\" action=\"bypass -h admin_stopallbuffs ", Integer.toString(target.getObjectId()), "\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br>");
-		*/
+		 */
 		StringUtil.append(html, "<br><center><button value=\"" + MessageTable.Messages[1459].getExtra(1) + "\" action=\"bypass -h admin_getbuffs", (passive ? "_ps " : " "), target.getName(), "\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
 		StringUtil.append(html, "<button value=\"" + MessageTable.Messages[1459].getExtra(2) + "\" action=\"bypass -h admin_stopallbuffs ", Integer.toString(target.getObjectId()), "\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br>");
 		// Legend
@@ -377,7 +377,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				target.stopSkillEffects(true, skillId);
 				/*
 				activeChar.sendMessage("Removed skill ID: " + skillId + " effects from " + target.getName() + " (" + objId + ").");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1460].getExtra(1) + skillId + MessageTable.Messages[1460].getExtra(2) + target.getName() + " (" + objId + MessageTable.Messages[1460].getExtra(3));
 			}
 			
@@ -405,7 +405,7 @@ public class AdminBuffs implements IAdminCommandHandler
 			target.stopAllEffects();
 			/*
 			activeChar.sendMessage("Removed all effects from " + target.getName() + " (" + objId + ")");
-			*/
+			 */
 			activeChar.sendMessage(MessageTable.Messages[1461].getMessage() + target.getName() + " (" + objId + ")");
 			showBuffs(activeChar, target, 1, false);
 			if (Config.GMAUDIT)

@@ -330,7 +330,7 @@ public class AdminShowQuests implements IAdminCommandHandler
 				target.sendPacket(new QuestList());
 				/* l2jtw add-God
 				target.sendPacket(new ExShowQuestMark(qs.getQuest().getId()));
-				*/
+				 */
 				target.sendPacket(new ExShowQuestMark(qs.getQuest().getId(), qs.getInt("cond")));
 			}
 			else if (val[2].equals("CREATE"))
@@ -341,7 +341,7 @@ public class AdminShowQuests implements IAdminCommandHandler
 				target.sendPacket(new QuestList());
 				/* l2jtw add-God
 				target.sendPacket(new ExShowQuestMark(qs.getQuest().getId()));
-				*/
+				 */
 				target.sendPacket(new ExShowQuestMark(qs.getQuest().getId(), qs.getInt("cond")));
 				val[0] = qs.getQuest().getName();
 			}
@@ -352,7 +352,7 @@ public class AdminShowQuests implements IAdminCommandHandler
 				target.sendPacket(new QuestList());
 				/* l2jtw add-God
 				target.sendPacket(new ExShowQuestMark(qs.getQuest().getId()));
-				*/
+				 */
 				target.sendPacket(new ExShowQuestMark(qs.getQuest().getId(), qs.getInt("cond")));
 				val[0] = qs.getQuest().getName();
 			}
@@ -370,7 +370,7 @@ public class AdminShowQuests implements IAdminCommandHandler
 			target.sendPacket(new QuestList());
 			/* l2jtw add-God
 			target.sendPacket(new ExShowQuestMark(qs.getQuest().getId()));
-			*/
+			 */
 			target.sendPacket(new ExShowQuestMark(qs.getQuest().getId(), qs.getInt("cond")));
 		}
 		actor.sendMessage("");

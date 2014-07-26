@@ -255,7 +255,7 @@ public class AdminReload implements IAdminCommandHandler
 			}
 			/* MessageTable.Messages[1810]
 			activeChar.sendMessage("WARNING: There are several known issues regarding this feature. Reloading server data during runtime is STRONGLY NOT RECOMMENDED for live servers, just for developing environments.");
-			*/
+			 */
 			activeChar.sendMessage(1810);
 		}
 		return true;

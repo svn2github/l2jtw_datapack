@@ -45,7 +45,7 @@ public class AdminGm implements IAdminCommandHandler
 			activeChar.setAccessLevel(0);
 			/* MessageTable.Messages[1685]
 			activeChar.sendMessage("You no longer have GM status.");
-			*/
+			 */
 			activeChar.sendMessage(1685);
 			_log.info("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") turned his GM status off");
 		}

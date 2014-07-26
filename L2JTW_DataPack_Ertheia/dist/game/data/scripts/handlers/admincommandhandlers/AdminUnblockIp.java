@@ -53,7 +53,7 @@ public class AdminUnblockIp implements IAdminCommandHandler
 				{
 					/*
 					activeChar.sendMessage("Removed IP " + ipAddress + " from blocklist!");
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1907].getExtra(1) + ipAddress + MessageTable.Messages[1907].getExtra(2));
 				}
 			}

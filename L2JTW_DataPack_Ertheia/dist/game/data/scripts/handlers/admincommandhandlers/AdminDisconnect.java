@@ -67,14 +67,14 @@ public class AdminDisconnect implements IAdminCommandHandler
 		{
 			/* MessageTable.Messages[1522]
 			activeChar.sendMessage("You cannot logout your own character.");
-			*/
+			 */
 			activeChar.sendMessage(1522);
 		}
 		else
 		{
 			/*
 			activeChar.sendMessage("Character " + player.getName() + " disconnected from server.");
-			*/
+			 */
 			activeChar.sendMessage(MessageTable.Messages[1523].getExtra(1) + player.getName() + MessageTable.Messages[1523].getExtra(2));
 			
 			player.logout();

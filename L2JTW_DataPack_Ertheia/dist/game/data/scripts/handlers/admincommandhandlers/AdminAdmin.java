@@ -83,7 +83,7 @@ public class AdminAdmin implements IAdminCommandHandler
 			AdminTable.getInstance().showGm(activeChar);
 			/* MessageTable.Messages[1370]
 			activeChar.sendMessage("Registered into gm list");
-			*/
+			 */
 			activeChar.sendMessage(1370);
 			AdminHtml.showAdminHtml(activeChar, "gm_menu.htm");
 		}
@@ -92,7 +92,7 @@ public class AdminAdmin implements IAdminCommandHandler
 			AdminTable.getInstance().hideGm(activeChar);
 			/* MessageTable.Messages[1371]
 			activeChar.sendMessage("Removed from gm list");
-			*/
+			 */
 			activeChar.sendMessage(1371);
 			AdminHtml.showAdminHtml(activeChar, "gm_menu.htm");
 		}
@@ -115,7 +115,7 @@ public class AdminAdmin implements IAdminCommandHandler
 			Olympiad.getInstance().saveOlympiadStatus();
 			/* MessageTable.Messages[1372]
 			activeChar.sendMessage("olympiad system saved.");
-			*/
+			 */
 			activeChar.sendMessage(1372);
 		}
 		else if (command.startsWith("admin_endolympiad"))
@@ -130,7 +130,7 @@ public class AdminAdmin implements IAdminCommandHandler
 			}
 			/* MessageTable.Messages[1373]
 			activeChar.sendMessage("Heroes formed.");
-			*/
+			 */
 			activeChar.sendMessage(1373);
 		}
 		else if (command.startsWith("admin_manualhero") || command.startsWith("admin_sethero"))
@@ -156,7 +156,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setDietMode(true);
 					/* MessageTable.Messages[1374]
 					activeChar.sendMessage("Diet mode on");
-					*/
+					 */
 					activeChar.sendMessage(1374);
 				}
 				else if (st.nextToken().equalsIgnoreCase("off"))
@@ -164,7 +164,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setDietMode(false);
 					/* MessageTable.Messages[1375]
 					activeChar.sendMessage("Diet mode off");
-					*/
+					 */
 					activeChar.sendMessage(1375);
 				}
 			}
@@ -175,7 +175,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setDietMode(false);
 					/* MessageTable.Messages[1375]
 					activeChar.sendMessage("Diet mode off");
-					*/
+					 */
 					activeChar.sendMessage(1375);
 				}
 				else
@@ -183,7 +183,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setDietMode(true);
 					/* MessageTable.Messages[1374]
 					activeChar.sendMessage("Diet mode on");
-					*/
+					 */
 					activeChar.sendMessage(1374);
 				}
 			}
@@ -203,7 +203,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setTradeRefusal(true);
 					/* MessageTable.Messages[1376]
 					activeChar.sendMessage("Trade refusal enabled");
-					*/
+					 */
 					activeChar.sendMessage(1376);
 				}
 				else if (mode.equalsIgnoreCase("off"))
@@ -211,7 +211,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setTradeRefusal(false);
 					/* MessageTable.Messages[1377]
 					activeChar.sendMessage("Trade refusal disabled");
-					*/
+					 */
 					activeChar.sendMessage(1377);
 				}
 			}
@@ -222,7 +222,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setTradeRefusal(false);
 					/* MessageTable.Messages[1377]
 					activeChar.sendMessage("Trade refusal disabled");
-					*/
+					 */
 					activeChar.sendMessage(1377);
 				}
 				else
@@ -230,7 +230,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.setTradeRefusal(true);
 					/* MessageTable.Messages[1376]
 					activeChar.sendMessage("Trade refusal enabled");
-					*/
+					 */
 					activeChar.sendMessage(1376);
 				}
 			}
@@ -252,7 +252,7 @@ public class AdminAdmin implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1391]
 					activeChar.sendMessage("Invalid parameter!");
-					*/
+					 */
 					activeChar.sendMessage(1391);
 				}
 			}
@@ -278,14 +278,14 @@ public class AdminAdmin implements IAdminCommandHandler
 				{
 					/*
 					activeChar.sendMessage("parameter " + pName + " succesfully set to " + pValue);
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1392].getExtra(1) + pName + MessageTable.Messages[1392].getExtra(2) + pValue);
 				}
 				else
 				{
 					/* MessageTable.Messages[1391]
 					activeChar.sendMessage("Invalid parameter!");
-					*/
+					 */
 					activeChar.sendMessage(1391);
 				}
 			}
@@ -378,7 +378,7 @@ public class AdminAdmin implements IAdminCommandHandler
 		replyMSG.append("<tr><td><font color=\"LEVEL\">Enchant Element Crystal</font> = " + Config.ENCHANT_CHANCE_ELEMENT_CRYSTAL + "</td><td><edit var=\"param9\" width=40 height=15></td><td><button value=\"Set\" action=\"bypass -h admin_setconfig EnchantChanceElementCrystal $param9\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 		replyMSG.append("<tr><td><font color=\"LEVEL\">Enchant Element Jewel</font> = " + Config.ENCHANT_CHANCE_ELEMENT_JEWEL + "</td><td><edit var=\"param10\" width=40 height=15></td><td><button value=\"Set\" action=\"bypass -h admin_setconfig EnchantChanceElementJewel $param10\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 		replyMSG.append("<tr><td><font color=\"LEVEL\">Enchant Element Energy</font> = " + Config.ENCHANT_CHANCE_ELEMENT_ENERGY + "</td><td><edit var=\"param11\" width=40 height=15></td><td><button value=\"Set\" action=\"bypass -h admin_setconfig EnchantChanceElementEnergy $param11\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-		*/
+		 */
 		TextBuilder replyMSG = new TextBuilder("<html><title>L2JTW :: Config</title><body>");
 		replyMSG.append("<center><table width=270><tr><td width=60><button value=\"" + MessageTable.Messages[1393].getMessage() + "\" action=\"bypass -h admin_admin\" width=60 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=150>" + MessageTable.Messages[1394].getMessage() + "</td><td width=60><button value=\"" + MessageTable.Messages[1395].getMessage() + "\" action=\"bypass -h admin_admin4\" width=60 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table></center><br>");
 		replyMSG.append("<center><table width=260><tr><td width=140></td><td width=40></td><td width=40></td></tr>");

@@ -77,7 +77,7 @@ public class AdminMammon implements IAdminCommandHandler
 					final int x1 = blackInst[0].getX(), y1 = blackInst[0].getY(), z1 = blackInst[0].getZ();
 					/*
 					activeChar.sendMessage("Blacksmith of Mammon: " + x1 + " " + y1 + " " + z1);
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1739].getMessage() + x1 + " " + y1 + " " + z1);
 					if (teleportIndex == 1)
 					{
@@ -89,7 +89,7 @@ public class AdminMammon implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1740]
 				activeChar.sendMessage("Blacksmith of Mammon isn't registered for spawn.");
-				*/
+				 */
 				activeChar.sendMessage(1740);
 			}
 			
@@ -101,7 +101,7 @@ public class AdminMammon implements IAdminCommandHandler
 					final int x2 = merchInst[0].getX(), y2 = merchInst[0].getY(), z2 = merchInst[0].getZ();
 					/*
 					activeChar.sendMessage("Merchant of Mammon: " + x2 + " " + y2 + " " + z2);
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1741].getMessage() + x2 + " " + y2 + " " + z2);
 					if (teleportIndex == 2)
 					{
@@ -113,7 +113,7 @@ public class AdminMammon implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1742]
 				activeChar.sendMessage("Merchant of Mammon isn't registered for spawn.");
-				*/
+				 */
 				activeChar.sendMessage(1742);
 			}
 		}
@@ -130,14 +130,14 @@ public class AdminMammon implements IAdminCommandHandler
 				long merchRespawn = AutoSpawnHandler.getInstance().getTimeToNextSpawn(merchSpawnInst);
 				/*
 				activeChar.sendMessage("The Merchant of Mammon will respawn in " + (merchRespawn / 60000) + " minute(s).");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1743].getExtra(1) + (merchRespawn / 60000) + MessageTable.Messages[1743].getExtra(2));
 			}
 			else
 			{
 				/* MessageTable.Messages[1742]
 				activeChar.sendMessage("Merchant of Mammon isn't registered for spawn.");
-				*/
+				 */
 				activeChar.sendMessage(1742);
 			}
 			
@@ -146,14 +146,14 @@ public class AdminMammon implements IAdminCommandHandler
 				long blackRespawn = AutoSpawnHandler.getInstance().getTimeToNextSpawn(blackSpawnInst);
 				/*
 				activeChar.sendMessage("The Blacksmith of Mammon will respawn in " + (blackRespawn / 60000) + " minute(s).");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1744].getExtra(1) + (blackRespawn / 60000) + MessageTable.Messages[1744].getExtra(2));
 			}
 			else
 			{
 				/* MessageTable.Messages[1740]
 				activeChar.sendMessage("Blacksmith of Mammon isn't registered for spawn.");
-				*/
+				 */
 				activeChar.sendMessage(1740);
 			}
 		}

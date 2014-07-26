@@ -44,7 +44,7 @@ public class Banking implements IVoicedCommandHandler
 		{
 			/*
 			activeChar.sendMessage(".deposit (" + Config.BANKING_SYSTEM_ADENA + " Adena = " + Config.BANKING_SYSTEM_GOLDBARS + " Goldbar) / .withdraw (" + Config.BANKING_SYSTEM_GOLDBARS + " Goldbar = " + Config.BANKING_SYSTEM_ADENA + " Adena)");
-			*/
+			 */
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1179]);
 			cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 			cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
@@ -64,7 +64,7 @@ public class Banking implements IVoicedCommandHandler
 				activeChar.getInventory().updateDatabase();
 				/*
 				activeChar.sendMessage("Thank you, you now have " + Config.BANKING_SYSTEM_GOLDBARS + " Goldbar(s), and " + Config.BANKING_SYSTEM_ADENA + " less adena.");
-				*/
+				 */
 				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1180]);
 				cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
@@ -74,7 +74,7 @@ public class Banking implements IVoicedCommandHandler
 			{
 				/*
 				activeChar.sendMessage("You do not have enough Adena to convert to Goldbar(s), you need " + Config.BANKING_SYSTEM_ADENA + " Adena.");
-				*/
+				 */
 				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1181]);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				activeChar.sendMessage(cm.renderMsg());
@@ -92,7 +92,7 @@ public class Banking implements IVoicedCommandHandler
 				activeChar.getInventory().updateDatabase();
 				/*
 				activeChar.sendMessage("Thank you, you now have " + Config.BANKING_SYSTEM_ADENA + " Adena, and " + Config.BANKING_SYSTEM_GOLDBARS + " less Goldbar(s).");
-				*/
+				 */
 				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1182]);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
@@ -102,7 +102,7 @@ public class Banking implements IVoicedCommandHandler
 			{
 				/*
 				activeChar.sendMessage("You do not have any Goldbars to turn into " + Config.BANKING_SYSTEM_ADENA + " Adena.");
-				*/
+				 */
 				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1183]);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				activeChar.sendMessage(cm.renderMsg());

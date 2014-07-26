@@ -49,7 +49,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1901]
 				activeChar.sendMessage("You should select a player!");
-				*/
+				 */
 				activeChar.sendMessage(1901);
 				return true;
 			}
@@ -64,7 +64,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1901]
 				activeChar.sendMessage("You should select a player!");
-				*/
+				 */
 				activeChar.sendMessage(1901);
 				return true;
 			}
@@ -91,7 +91,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 		{
 			/* MessageTable.Messages[1902]
 			activeChar.sendMessage("Player already participated in the event!");
-			*/
+			 */
 			activeChar.sendMessage(1902);
 			return;
 		}
@@ -100,7 +100,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 		{
 			/* MessageTable.Messages[1903]
 			activeChar.sendMessage("Player instance could not be added, it seems to be null!");
-			*/
+			 */
 			activeChar.sendMessage(1903);
 			return;
 		}
@@ -117,7 +117,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 		{
 			/* MessageTable.Messages[1904]
 			activeChar.sendMessage("Player is not part of the event!");
-			*/
+			 */
 			activeChar.sendMessage(1904);
 			return;
 		}

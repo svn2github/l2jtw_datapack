@@ -113,7 +113,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1680]
 				activeChar.sendMessage("Not implemented yet.");
-				*/
+				 */
 				activeChar.sendMessage(1680);
 			}
 			else if (command.equalsIgnoreCase("admin_setfort"))
@@ -138,7 +138,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1681]
 					activeChar.sendMessage("Unable to remove fort");
-					*/
+					 */
 					activeChar.sendMessage(1681);
 				}
 			}
@@ -171,14 +171,14 @@ public class AdminFortSiege implements IAdminCommandHandler
 			{
 				/*
 				StringUtil.append(cList, "<td fixwidth=90><a action=\"bypass -h admin_fortsiege ", String.valueOf(fort.getResidenceId()), "\">", fort.getName(), " id: ", String.valueOf(fort.getResidenceId()), "</a></td>");
-				*/
+				 */
 				StringUtil.append(cList, "<td fixwidth=90><a action=\"bypass -h admin_fortsiege ", String.valueOf(fort.getResidenceId()), "\">", fort.getCName(), " ID: ", String.valueOf(fort.getResidenceId()), "</a></td>"); // Update by pmq
 				i++;
 			}
 			
 			/* DP-comment-001
 			if (i > 2)
-			*/
+			 */
 			if (i > 0)
 			{
 				cList.append("</tr><tr>");
@@ -196,7 +196,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/fort.htm");
 		/* l2jtw add CName
 		adminReply.replace("%fortName%", fort.getName());
-		*/
+		 */
 		adminReply.replace("%fortName%", fort.getCName());
 		adminReply.replace("%fortId%", String.valueOf(fort.getResidenceId()));
 		activeChar.sendPacket(adminReply);

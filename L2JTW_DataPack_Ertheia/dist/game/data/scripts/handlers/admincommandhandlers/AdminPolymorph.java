@@ -115,7 +115,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			{
 				/*
 				player.sendMessage("Unknown transformation ID: " + id);
-				*/
+				 */
 				player.sendMessage(MessageTable.Messages[1800].getMessage() + id);
 				return false;
 			}
@@ -178,7 +178,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			obj.spawnMe(obj.getX(), obj.getY(), obj.getZ());
 			/* MessageTable.Messages[1801]
 			activeChar.sendMessage("Polymorph succeed");
-			*/
+			 */
 			activeChar.sendMessage(1801);
 		}
 		else
@@ -201,7 +201,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			target.spawnMe(target.getX(), target.getY(), target.getZ());
 			/* MessageTable.Messages[1802]
 			activeChar.sendMessage("Unpolymorph succeed");
-			*/
+			 */
 			activeChar.sendMessage(1802);
 		}
 		else

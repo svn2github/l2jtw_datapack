@@ -72,7 +72,7 @@ public class AdminSummon implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1871]
 				activeChar.sendMessage("You don't have the access right to use this command!");
-				*/
+				 */
 				activeChar.sendMessage(1871);
 				_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 				return false;
@@ -87,7 +87,7 @@ public class AdminSummon implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1871]
 				activeChar.sendMessage("You don't have the access right to use this command!");
-				*/
+				 */
 				activeChar.sendMessage(1871);
 				_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 				return false;
@@ -96,7 +96,7 @@ public class AdminSummon implements IAdminCommandHandler
 			
 			/* MessageTable.Messages[1872]
 			activeChar.sendMessage("This is only a temporary spawn.  The mob(s) will NOT respawn.");
-			*/
+			 */
 			activeChar.sendMessage(1872);
 			id -= 1000000;
 			ach.useAdminCommand(subCommand + " " + id + " " + count, activeChar);

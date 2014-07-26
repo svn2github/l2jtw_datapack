@@ -107,14 +107,14 @@ public class QuestLink implements IBypassHandler
 			{
 				/*
 				state = q.isCustomQuest() ? " (In Progress)" : "02";
-				*/
+				 */
 				state = q.isCustomQuest() ? MessageTable.Messages[1016].getMessage() : "02";
 			}
 			else if (qs.isCompleted())
 			{
 				/*
 				state = q.isCustomQuest() ? " (Done)" : "03";
-				*/
+				 */
 				state = q.isCustomQuest() ? MessageTable.Messages[1017].getMessage() : "03";
 			}
 			

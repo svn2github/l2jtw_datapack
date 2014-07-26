@@ -64,7 +64,7 @@ public class AdminTarget implements IAdminCommandHandler
 			{
 				/*
 				activeChar.sendMessage("Player " + targetName + " not found");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1875].getExtra(1) + targetName + MessageTable.Messages[1875].getExtra(2));
 			}
 		}

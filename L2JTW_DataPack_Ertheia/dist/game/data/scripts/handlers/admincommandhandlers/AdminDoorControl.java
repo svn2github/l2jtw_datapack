@@ -122,7 +122,7 @@ public class AdminDoorControl implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1527]
 					activeChar.sendMessage("Incorrect target.");
-					*/
+					 */
 					activeChar.sendMessage(1527);
 				}
 			}
@@ -138,7 +138,7 @@ public class AdminDoorControl implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1527]
 					activeChar.sendMessage("Incorrect target.");
-					*/
+					 */
 					activeChar.sendMessage(1527);
 				}
 			}

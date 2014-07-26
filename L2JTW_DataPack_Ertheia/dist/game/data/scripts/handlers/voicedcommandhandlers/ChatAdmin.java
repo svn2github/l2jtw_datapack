@@ -77,7 +77,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					{
 						/* MessageTable.Messages[1189]
 						activeChar.sendMessage("Player not online !");
-						*/
+						 */
 						activeChar.sendMessage(1189);
 						return false;
 					}
@@ -85,7 +85,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					{
 						/* MessageTable.Messages[1190]
 						activeChar.sendMessage("Player is already punished !");
-						*/
+						 */
 						activeChar.sendMessage(1190);
 						return false;
 					}
@@ -93,7 +93,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					{
 						/* MessageTable.Messages[1191]
 						activeChar.sendMessage("You can't ban yourself !");
-						*/
+						 */
 						activeChar.sendMessage(1191);
 						return false;
 					}
@@ -101,7 +101,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					{
 						/* MessageTable.Messages[1192]
 						activeChar.sendMessage("You can't ban GM !");
-						*/
+						 */
 						activeChar.sendMessage(1192);
 						return false;
 					}
@@ -109,7 +109,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					{
 						/* MessageTable.Messages[1193]
 						activeChar.sendMessage("You can't ban moderator !");
-						*/
+						 */
 						activeChar.sendMessage(1193);
 						return false;
 					}
@@ -117,21 +117,21 @@ public class ChatAdmin implements IVoicedCommandHandler
 					PunishmentManager.getInstance().startPunishment(new PunishmentTask(objId, PunishmentAffect.CHARACTER, PunishmentType.CHAT_BAN, expirationTime, "Chat banned by moderator", activeChar.getName()));
 					/*
 					player.sendMessage("Chat banned by moderator " + activeChar.getName());
-					*/
+					 */
 					player.sendMessage(MessageTable.Messages[1194].getMessage() + activeChar.getName());
 					
 					if (expirationTime > 0)
 					{
 						/*
 						activeChar.sendMessage("Player " + player.getName() + " chat banned for " + expirationTime + " minutes.");
-						*/
+						 */
 						activeChar.sendMessage(MessageTable.Messages[1195].getExtra(1) + player.getName() + MessageTable.Messages[1195].getExtra(2) + expirationTime + MessageTable.Messages[1195].getExtra(3));
 					}
 					else
 					{
 						/*
 						activeChar.sendMessage("Player " + player.getName() + " chat banned forever.");
-						*/
+						 */
 						activeChar.sendMessage(MessageTable.Messages[1195].getExtra(1) + player.getName() + MessageTable.Messages[1195].getExtra(4));
 					}
 				}
@@ -139,7 +139,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 				{
 					/* MessageTable.Messages[1196]
 					activeChar.sendMessage("Player not found !");
-					*/
+					 */
 					activeChar.sendMessage(1196);
 					return false;
 				}
@@ -165,7 +165,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					{
 						/* MessageTable.Messages[1189]
 						activeChar.sendMessage("Player not online !");
-						*/
+						 */
 						activeChar.sendMessage(1189);
 						return false;
 					}
@@ -173,7 +173,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					{
 						/* MessageTable.Messages[1197]
 						activeChar.sendMessage("Player is not chat banned !");
-						*/
+						 */
 						activeChar.sendMessage(1197);
 						return false;
 					}
@@ -183,7 +183,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 					/*
 					activeChar.sendMessage("Player " + player.getName() + " chat unbanned.");
 					player.sendMessage("Chat unbanned by moderator " + activeChar.getName());
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1195].getExtra(1) + player.getName() + MessageTable.Messages[1195].getExtra(5));
 					player.sendMessage(MessageTable.Messages[1198].getMessage() + activeChar.getName());
 				}
@@ -191,7 +191,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 				{
 					/* MessageTable.Messages[1196]
 					activeChar.sendMessage("Player not found !");
-					*/
+					 */
 					activeChar.sendMessage(1196);
 					return false;
 				}

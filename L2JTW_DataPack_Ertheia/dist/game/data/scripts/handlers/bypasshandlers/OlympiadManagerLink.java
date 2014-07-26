@@ -95,7 +95,7 @@ public class OlympiadManagerLink implements IBypassHandler
 				}
 				/* rocknow-God
 				if (!activeChar.isNoble() || (activeChar.getClassId().level() < 3))
-				*/
+				 */
 				if (!activeChar.isNoble() || !activeChar.isAwaken() || activeChar.getLevel() < 85)
 				{
 					html.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "noble_thirdclass.htm");
@@ -112,7 +112,7 @@ public class OlympiadManagerLink implements IBypassHandler
 						/* pmq
 						if (!OlympiadManager.getInstance().isRegistered(activeChar))
 						{
-						*/
+						 */
 							final int olympiad_round = 0; // TODO : implement me
 							final int olympiad_week = 0; // TODO: implement me
 							final int olympiad_participant = 0; // TODO: implement me
@@ -131,7 +131,7 @@ public class OlympiadManagerLink implements IBypassHandler
 							html.replace("%objectId%", String.valueOf(target.getObjectId()));
 							activeChar.sendPacket(html);
 						}
-						*/
+						 */
 						break;
 					case 1: // unregister
 						OlympiadManager.getInstance().unRegisterNoble(activeChar);
@@ -168,7 +168,7 @@ public class OlympiadManagerLink implements IBypassHandler
 						html.replace("%objectId%", String.valueOf(target.getObjectId()));
 						activeChar.sendPacket(html);
 						break;
-					*/
+					 */
 					case 3: // There are %points% Grand Olympiad points granted for this event. | TODO: cleanup (not used anymore)
 						int points = Olympiad.getInstance().getNoblePoints(activeChar.getObjectId());
 						html.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "noble_points1.htm");
@@ -179,7 +179,7 @@ public class OlympiadManagerLink implements IBypassHandler
 					case 4: // register non classed
 						/* pmq
 						OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.NON_CLASSED);
-						*/
+						 */
 						// Add by pmq Start
 						if (OlympiadManager.getInstance().isRegistered(activeChar))
 						{
@@ -194,7 +194,7 @@ public class OlympiadManagerLink implements IBypassHandler
 					case 5: // register classed
 						/* pmq
 						OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.CLASSED);
-						*/
+						 */
 						// Add by pmq Start
 						if (OlympiadManager.getInstance().isRegistered(activeChar))
 						{
@@ -253,7 +253,7 @@ public class OlympiadManagerLink implements IBypassHandler
 					case 11: // register team
 						/* pmq
 						OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.TEAMS);
-						*/
+						 */
 						// Add by pmq Start
 						if (OlympiadManager.getInstance().isRegistered(activeChar))
 						{
@@ -341,7 +341,7 @@ public class OlympiadManagerLink implements IBypassHandler
 						int classId = Integer.parseInt(command.substring(11));
 						/* rocknow-God
 						if (((classId >= 88) && (classId <= 118)) || ((classId >= 131) && (classId <= 134)) || (classId == 136))
-						*/
+						 */
 						if (((classId >= 148) && (classId <= 181)) || (classId == 144))
 						{
 							List<String> names = Olympiad.getInstance().getClassLeaderBoard(classId);

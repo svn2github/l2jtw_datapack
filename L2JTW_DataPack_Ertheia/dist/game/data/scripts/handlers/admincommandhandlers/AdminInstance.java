@@ -66,14 +66,14 @@ public class AdminInstance implements IAdminCommandHandler
 					{
 						/* MessageTable.Messages[1691]
 						activeChar.sendMessage("Instance created.");
-						*/
+						 */
 						activeChar.sendMessage(1691);
 					}
 					else
 					{
 						/* MessageTable.Messages[1692]
 						activeChar.sendMessage("Failed to create instance.");
-						*/
+						 */
 						activeChar.sendMessage(1692);
 					}
 					return true;
@@ -91,7 +91,7 @@ public class AdminInstance implements IAdminCommandHandler
 			{
 				/*
 				activeChar.sendMessage("Id: " + temp.getId() + " Name: " + temp.getName());
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1693].getExtra(1) + temp.getId() + MessageTable.Messages[1693].getExtra(2) + temp.getName());
 			}
 		}
@@ -104,7 +104,7 @@ public class AdminInstance implements IAdminCommandHandler
 				{
 					/*
 					activeChar.sendMessage("Instance " + val + " doesnt exist.");
-					*/
+					 */
 					activeChar.sendMessage(MessageTable.Messages[1694].getExtra(1) + val + MessageTable.Messages[1694].getExtra(2));
 					return false;
 				}
@@ -114,7 +114,7 @@ public class AdminInstance implements IAdminCommandHandler
 				{
 					/* MessageTable.Messages[1695]
 					activeChar.sendMessage("Incorrect target.");
-					*/
+					 */
 					activeChar.sendMessage(1695);
 					return false;
 				}
@@ -124,13 +124,13 @@ public class AdminInstance implements IAdminCommandHandler
 					L2PcInstance player = (L2PcInstance) target;
 					/*
 					player.sendMessage("Admin set your instance to:" + val);
-					*/
+					 */
 					player.sendMessage(MessageTable.Messages[1696].getMessage() + val);
 					player.teleToLocation(player.getLocation());
 				}
 				/*
 				activeChar.sendMessage("Moved " + target.getName() + " to instance " + target.getInstanceId() + ".");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1698].getExtra(1) + target.getName() + MessageTable.Messages[1698].getExtra(2) + target.getInstanceId() + MessageTable.Messages[1698].getExtra(3));
 				return true;
 			}
@@ -147,7 +147,7 @@ public class AdminInstance implements IAdminCommandHandler
 				InstanceManager.getInstance().destroyInstance(val);
 				/* MessageTable.Messages[1699]
 				activeChar.sendMessage("Instance destroyed");
-				*/
+				 */
 				activeChar.sendMessage(1699);
 			}
 			catch (Exception e)
@@ -166,7 +166,7 @@ public class AdminInstance implements IAdminCommandHandler
 			activeChar.getAppearance().setGhostMode(true);
 			/* MessageTable.Messages[1700]
 			activeChar.sendMessage("Ghost mode enabled");
-			*/
+			 */
 			activeChar.sendMessage(1700);
 			activeChar.broadcastUserInfo();
 			activeChar.decayMe();
@@ -178,7 +178,7 @@ public class AdminInstance implements IAdminCommandHandler
 			activeChar.getAppearance().setGhostMode(false);
 			/* MessageTable.Messages[1701]
 			activeChar.sendMessage("Ghost mode disabled");
-			*/
+			 */
 			activeChar.sendMessage(1701);
 			activeChar.broadcastUserInfo();
 			activeChar.decayMe();

@@ -70,7 +70,7 @@ public class ChatTrade implements IChatHandler
 			{
 				/* MessageTable.Messages[1110]
 				activeChar.sendMessage("Do not spam trade channel.");
-				*/
+				 */
 				activeChar.sendMessage(1110);
 				return;
 			}

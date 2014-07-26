@@ -102,7 +102,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1215]
 			activeChar.sendMessage("You are now divorced.");
-			*/
+			 */
 			activeChar.sendMessage(1215);
 			
 			AdenaAmount = (activeChar.getAdena() / 100) * Config.L2JMOD_WEDDING_DIVORCE_COSTS;
@@ -113,7 +113,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1216]
 			activeChar.sendMessage("You have broken up as a couple.");
-			*/
+			 */
 			activeChar.sendMessage(1216);
 		}
 		
@@ -125,14 +125,14 @@ public class Wedding implements IVoicedCommandHandler
 			{
 				/* MessageTable.Messages[1217]
 				partner.sendMessage("Your spouse has decided to divorce you.");
-				*/
+				 */
 				partner.sendMessage(1217);
 			}
 			else
 			{
 				/* MessageTable.Messages[1218]
 				partner.sendMessage("Your fiance has decided to break the engagement with you.");
-				*/
+				 */
 				partner.sendMessage(1218);
 			}
 			
@@ -152,7 +152,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1219]
 			activeChar.sendMessage("You have no one targeted.");
-			*/
+			 */
 			activeChar.sendMessage(1219);
 			return false;
 		}
@@ -160,7 +160,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1220]
 			activeChar.sendMessage("You can only ask another player to engage you.");
-			*/
+			 */
 			activeChar.sendMessage(1220);
 			return false;
 		}
@@ -168,7 +168,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1221]
 			activeChar.sendMessage("You are already engaged.");
-			*/
+			 */
 			activeChar.sendMessage(1221);
 			if (Config.L2JMOD_WEDDING_PUNISH_INFIDELITY)
 			{
@@ -206,7 +206,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1222]
 			activeChar.sendMessage("Is there something wrong with you, are you trying to go out with youself?");
-			*/
+			 */
 			activeChar.sendMessage(1222);
 			return false;
 		}
@@ -215,7 +215,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1223]
 			activeChar.sendMessage("Player already married.");
-			*/
+			 */
 			activeChar.sendMessage(1223);
 			return false;
 		}
@@ -224,7 +224,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1224]
 			activeChar.sendMessage("Player already asked by someone else.");
-			*/
+			 */
 			activeChar.sendMessage(1224);
 			return false;
 		}
@@ -233,7 +233,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1225]
 			activeChar.sendMessage("Player already engaged with someone else.");
-			*/
+			 */
 			activeChar.sendMessage(1225);
 			return false;
 		}
@@ -242,7 +242,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1226]
 			activeChar.sendMessage("Gay marriage is not allowed on this server!");
-			*/
+			 */
 			activeChar.sendMessage(1226);
 			return false;
 		}
@@ -274,7 +274,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1227]
 			activeChar.sendMessage("The player you want to ask is not on your friends list, you must first be on each others friends list before you choose to engage.");
-			*/
+			 */
 			activeChar.sendMessage(1227);
 			return false;
 		}
@@ -284,7 +284,7 @@ public class Wedding implements IVoicedCommandHandler
 		
 		/*
 		final ConfirmDlg dlg = new ConfirmDlg(activeChar.getName() + " is asking to engage you. Do you want to start a new relationship?");
-		*/
+		 */
 		final ConfirmDlg dlg = new ConfirmDlg(activeChar.getName() + MessageTable.Messages[1228].getMessage());
 		dlg.addTime(15 * 1000);
 		ptarget.sendPacket(dlg);
@@ -297,7 +297,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1229]
 			activeChar.sendMessage("You're not married.");
-			*/
+			 */
 			activeChar.sendMessage(1229);
 			return false;
 		}
@@ -306,7 +306,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1230]
 			activeChar.sendMessage("Couldn't find your fiance in the Database - Inform a Gamemaster.");
-			*/
+			 */
 			activeChar.sendMessage(1230);
 			_log.severe("Married but couldn't find parter for " + activeChar.getName());
 			return false;
@@ -316,7 +316,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1231]
 			activeChar.sendMessage("You are inside a Boss Zone.");
-			*/
+			 */
 			activeChar.sendMessage(1231);
 			return false;
 		}
@@ -325,7 +325,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1232]
 			activeChar.sendMessage("While you are holding a Combat Flag or Territory Ward you can't go to your love!");
-			*/
+			 */
 			activeChar.sendMessage(1232);
 			return false;
 		}
@@ -334,7 +334,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1257]
 			activeChar.sendMessage("While you are holding a Cursed Weapon you can't go to your love!");
-			*/
+			 */
 			activeChar.sendMessage(1257);
 			return false;
 		}
@@ -343,7 +343,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1231]
 			activeChar.sendMessage("You are inside a Boss Zone.");
-			*/
+			 */
 			activeChar.sendMessage(1231);
 			return false;
 		}
@@ -352,7 +352,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1248]
 			activeChar.sendMessage("You are in Jail!");
-			*/
+			 */
 			activeChar.sendMessage(1248);
 			return false;
 		}
@@ -361,7 +361,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1249]
 			activeChar.sendMessage("You are in the Olympiad now.");
-			*/
+			 */
 			activeChar.sendMessage(1249);
 			return false;
 		}
@@ -370,7 +370,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1250]
 			activeChar.sendMessage("You are in an event.");
-			*/
+			 */
 			activeChar.sendMessage(1250);
 			return false;
 		}
@@ -379,7 +379,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1251]
 			activeChar.sendMessage("You are in a duel!");
-			*/
+			 */
 			activeChar.sendMessage(1251);
 			return false;
 		}
@@ -388,7 +388,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1252]
 			activeChar.sendMessage("You are in the observation.");
-			*/
+			 */
 			activeChar.sendMessage(1252);
 			return false;
 		}
@@ -397,7 +397,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1253]
 			activeChar.sendMessage("You are in a siege, you cannot go to your partner.");
-			*/
+			 */
 			activeChar.sendMessage(1253);
 			return false;
 		}
@@ -406,7 +406,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1254]
 			activeChar.sendMessage("You are in a festival.");
-			*/
+			 */
 			activeChar.sendMessage(1254);
 			return false;
 		}
@@ -415,7 +415,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1255]
 			activeChar.sendMessage("You are in the dimensional rift.");
-			*/
+			 */
 			activeChar.sendMessage(1255);
 			return false;
 		}
@@ -431,7 +431,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1256]
 			activeChar.sendMessage("You are in area which blocks summoning.");
-			*/
+			 */
 			activeChar.sendMessage(1256);
 			return false;
 		}
@@ -441,7 +441,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1233]
 			activeChar.sendMessage("Your partner is not online.");
-			*/
+			 */
 			activeChar.sendMessage(1233);
 			return false;
 		}
@@ -450,7 +450,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1234]
 			activeChar.sendMessage("Your partner is in another World!");
-			*/
+			 */
 			activeChar.sendMessage(1234);
 			return false;
 		}
@@ -459,7 +459,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1235]
 			activeChar.sendMessage("Your partner is in Jail.");
-			*/
+			 */
 			activeChar.sendMessage(1235);
 			return false;
 		}
@@ -468,7 +468,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1258]
 			activeChar.sendMessage("Your partner is holding a Cursed Weapon and you can't go to your love!");
-			*/
+			 */
 			activeChar.sendMessage(1258);
 			return false;
 		}
@@ -477,7 +477,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1236]
 			activeChar.sendMessage("Your partner is inside a Boss Zone.");
-			*/
+			 */
 			activeChar.sendMessage(1236);
 			return false;
 		}
@@ -486,7 +486,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1237]
 			activeChar.sendMessage("Your partner is in the Olympiad now.");
-			*/
+			 */
 			activeChar.sendMessage(1237);
 			return false;
 		}
@@ -495,7 +495,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1238]
 			activeChar.sendMessage("Your partner is in an event.");
-			*/
+			 */
 			activeChar.sendMessage(1238);
 			return false;
 		}
@@ -504,7 +504,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1239]
 			activeChar.sendMessage("Your partner is in a duel.");
-			*/
+			 */
 			activeChar.sendMessage(1239);
 			return false;
 		}
@@ -513,7 +513,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1240]
 			activeChar.sendMessage("Your partner is in a festival.");
-			*/
+			 */
 			activeChar.sendMessage(1240);
 			return false;
 		}
@@ -522,7 +522,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1241]
 			activeChar.sendMessage("Your partner is in dimensional rift.");
-			*/
+			 */
 			activeChar.sendMessage(1241);
 			return false;
 		}
@@ -531,7 +531,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1242]
 			activeChar.sendMessage("Your partner is in the observation.");
-			*/
+			 */
 			activeChar.sendMessage(1242);
 			return false;
 		}
@@ -540,7 +540,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1243]
 			activeChar.sendMessage("Your partner is in a siege, you cannot go to your partner.");
-			*/
+			 */
 			activeChar.sendMessage(1243);
 			return false;
 		}
@@ -557,7 +557,7 @@ public class Wedding implements IVoicedCommandHandler
 				{
 					/* MessageTable.Messages[1244]
 					activeChar.sendMessage("Your Partner is in a Seven Signs Dungeon and you are not in the winner Cabal!");
-					*/
+					 */
 					activeChar.sendMessage(1244);
 					return false;
 				}
@@ -568,7 +568,7 @@ public class Wedding implements IVoicedCommandHandler
 				{
 					/* MessageTable.Messages[1245]
 					activeChar.sendMessage("Your Partner is in a Seven Signs Dungeon and you are not registered!");
-					*/
+					 */
 					activeChar.sendMessage(1245);
 					return false;
 				}
@@ -579,7 +579,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1246]
 			activeChar.sendMessage("Your partner is in an event.");
-			*/
+			 */
 			activeChar.sendMessage(1246);
 			return false;
 		}
@@ -588,7 +588,7 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			/* MessageTable.Messages[1247]
 			activeChar.sendMessage("Your partner is in area which blocks summoning.");
-			*/
+			 */
 			activeChar.sendMessage(1247);
 			return false;
 		}
@@ -596,7 +596,7 @@ public class Wedding implements IVoicedCommandHandler
 		final int teleportTimer = Config.L2JMOD_WEDDING_TELEPORT_DURATION * 1000;
 		/*
 		activeChar.sendMessage("After " + (teleportTimer / 60000) + " min. you will be teleported to your partner.");
-		*/
+		 */
 		activeChar.sendMessage(MessageTable.Messages[1259].getExtra(1) + (teleportTimer / 60000) + MessageTable.Messages[1259].getExtra(2));
 		activeChar.getInventory().reduceAdena("Wedding", Config.L2JMOD_WEDDING_TELEPORT_PRICE, activeChar, null);
 		
@@ -644,7 +644,7 @@ public class Wedding implements IVoicedCommandHandler
 			{
 				/* MessageTable.Messages[1260]
 				_activeChar.sendMessage("Your partner is in siege, you can't go to your partner.");
-				*/
+				 */
 				_activeChar.sendMessage(1260);
 				return;
 			}

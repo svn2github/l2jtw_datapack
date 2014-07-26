@@ -65,7 +65,7 @@ public class AdminManor implements IAdminCommandHandler
 			CastleManorManager.getInstance().updateManorRefresh();
 			/* MessageTable.Messages[1748]
 			activeChar.sendMessage("Manor System: set to next period");
-			*/
+			 */
 			activeChar.sendMessage(1748);
 			showMainPage(activeChar);
 		}
@@ -76,7 +76,7 @@ public class AdminManor implements IAdminCommandHandler
 			CastleManorManager.getInstance().updatePeriodApprove();
 			/* MessageTable.Messages[1749]
 			activeChar.sendMessage("Manor System: next period approved");
-			*/
+			 */
 			activeChar.sendMessage(1749);
 			showMainPage(activeChar);
 		}
@@ -97,7 +97,7 @@ public class AdminManor implements IAdminCommandHandler
 				castle.resetManor();
 				/*
 				activeChar.sendMessage("Manor data for " + castle.getName() + " was nulled");
-				*/
+				 */
 				activeChar.sendMessage(MessageTable.Messages[1750].getExtra(1) + castle.getName() + MessageTable.Messages[1750].getExtra(2));
 			}
 			else
@@ -108,7 +108,7 @@ public class AdminManor implements IAdminCommandHandler
 				}
 				/* MessageTable.Messages[1751]
 				activeChar.sendMessage("Manor data was nulled");
-				*/
+				 */
 				activeChar.sendMessage(1751);
 			}
 			showMainPage(activeChar);
@@ -121,14 +121,14 @@ public class AdminManor implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1752]
 				activeChar.sendMessage("Manor System: not under maintenance");
-				*/
+				 */
 				activeChar.sendMessage(1752);
 			}
 			else
 			{
 				/* MessageTable.Messages[1753]
 				activeChar.sendMessage("Manor System: under maintenance");
-				*/
+				 */
 				activeChar.sendMessage(1753);
 			}
 			showMainPage(activeChar);
@@ -138,7 +138,7 @@ public class AdminManor implements IAdminCommandHandler
 			CastleManorManager.getInstance().save();
 			/* MessageTable.Messages[1754]
 			activeChar.sendMessage("Manor System: all data saved");
-			*/
+			 */
 			activeChar.sendMessage(1754);
 			showMainPage(activeChar);
 		}
@@ -150,14 +150,14 @@ public class AdminManor implements IAdminCommandHandler
 			{
 				/* MessageTable.Messages[1755]
 				activeChar.sendMessage("Manor System: enabled");
-				*/
+				 */
 				activeChar.sendMessage(1755);
 			}
 			else
 			{
 				/* MessageTable.Messages[1756]
 				activeChar.sendMessage("Manor System: disabled");
-				*/
+				 */
 				activeChar.sendMessage(1756);
 			}
 			showMainPage(activeChar);
@@ -196,14 +196,14 @@ public class AdminManor implements IAdminCommandHandler
 		final List<Castle> castles = CastleManager.getInstance().getCastles();
 		/*
 		final StringBuilder replyMSG = StringUtil.startAppend(1000 + (castles.size() * 50), "<html><body>" + "<center><table width=270><tr>" + "<td width=45><button value=\"Main\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td width=180><center>Manor Info</center></td>" + "<td width=45><button value=\"Back\" action=\"bypass -h admin_admin2\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "</tr></table><font color=\"LEVEL\"> [Manor System] </font></center><br>" + "<table width=\"100%\"><tr><td>" + "Disabled: ", CastleManorManager.getInstance().isDisabled() ? "yes" : "no", "</td><td>" + "Under Maintenance: ", CastleManorManager.getInstance().isUnderMaintenance() ? "yes" : "no", "</td></tr><tr><td>" + "Time to refresh: ", formatTime(CastleManorManager.getInstance().getMillisToManorRefresh()), "</td><td>" + "Time to approve: ", formatTime(CastleManorManager.getInstance().getMillisToNextPeriodApprove()), "</td></tr>" + "</table>" + "<center><table><tr><td>" + "<button value=\"Set Next\" action=\"bypass -h admin_manor_setnext\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td>" + "<button value=\"Approve Next\" action=\"bypass -h admin_manor_approve\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr><tr><td>" + "<button value=\"", CastleManorManager.getInstance().isUnderMaintenance() ? "Set normal" : "Set mainteance", "\" action=\"bypass -h admin_manor_setmaintenance\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td>" + "<button value=\"", CastleManorManager.getInstance().isDisabled() ? "Enable" : "Disable", "\" action=\"bypass -h admin_manor_disable\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr><tr><td>" + "<button value=\"Refresh\" action=\"bypass -h admin_manor\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td>" + "<button value=\"Back\" action=\"bypass -h admin_admin\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" + "</table></center>" + "<br><center>Castle Information:<table width=\"100%\">" + "<tr><td></td><td>Current Period</td><td>Next Period</td></tr>");
-		*/
+		 */
 		final StringBuilder replyMSG = StringUtil.startAppend(1000 + (castles.size() * 50), "<html><body>" + "<center><table width=270><tr>" + "<td width=45><button value=\"" + MessageTable.Messages[1757].getMessage() + "\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "<td width=180><center>" + MessageTable.Messages[1758].getMessage() + "</center></td>" + "<td width=45><button value=\"" + MessageTable.Messages[1759].getMessage() + "\" action=\"bypass -h admin_admin2\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" + "</tr></table><font color=\"LEVEL\">" + MessageTable.Messages[1760].getMessage() + "</font></center><br>" + "<table width=\"100%\"><tr><td>" + MessageTable.Messages[1761].getMessage(), CastleManorManager.getInstance().isDisabled() ? MessageTable.Messages[1762].getExtra(1) : MessageTable.Messages[1762].getExtra(2), "</td><td>" + MessageTable.Messages[1763].getMessage(), CastleManorManager.getInstance().isUnderMaintenance() ? MessageTable.Messages[1762].getExtra(1) : MessageTable.Messages[1762].getExtra(2), "</td></tr><tr><td>" + MessageTable.Messages[1764].getMessage(), formatTime(CastleManorManager.getInstance().getMillisToManorRefresh()), "</td><td>" + MessageTable.Messages[1765].getMessage(), formatTime(CastleManorManager.getInstance().getMillisToNextPeriodApprove()), "</td></tr>" + "</table>" + "<center><table><tr><td>" + "<button value=\"" + MessageTable.Messages[1766].getMessage() + "\" action=\"bypass -h admin_manor_setnext\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td>" + "<button value=\"" + MessageTable.Messages[1767].getMessage() + "\" action=\"bypass -h admin_manor_approve\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr><tr><td>" + "<button value=\"", CastleManorManager.getInstance().isUnderMaintenance() ? MessageTable.Messages[1768].getExtra(1) : MessageTable.Messages[1768].getExtra(2), "\" action=\"bypass -h admin_manor_setmaintenance\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td>" + "<button value=\"", CastleManorManager.getInstance().isDisabled() ? MessageTable.Messages[1769].getExtra(1) : MessageTable.Messages[1769].getExtra(2), "\" action=\"bypass -h admin_manor_disable\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr><tr><td>" + "<button value=\"" + MessageTable.Messages[1770].getMessage() + "\" action=\"bypass -h admin_manor\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td>" + "<button value=\"" + MessageTable.Messages[1759].getMessage() + "\" action=\"bypass -h admin_admin\" width=110 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" + "</table></center>" + "<br><center>" + MessageTable.Messages[1771].getMessage() + "<br1><table width=\"100%\">" + "<tr><td>" + MessageTable.Messages[1771].getExtra(1) + "</td><td>" + MessageTable.Messages[1772].getMessage() + "</td><td>" + MessageTable.Messages[1773].getMessage() + "</td></tr>");
 		
 		for (Castle c : CastleManager.getInstance().getCastles())
 		{
 			/* l2jtw add CName
 			StringUtil.append(replyMSG, "<tr><td>", c.getName(), "</td>" + "<td>", String.valueOf(c.getManorCost(CastleManorManager.PERIOD_CURRENT)), "a</td>" + "<td>", String.valueOf(c.getManorCost(CastleManorManager.PERIOD_NEXT)), "a</td>" + "</tr>");
-			*/
+			 */
 			StringUtil.append(replyMSG, "<tr><td>", c.getCName(), "</td>" + "<td>", String.valueOf(c.getManorCost(CastleManorManager.PERIOD_CURRENT)), "a</td>" + "<td>", String.valueOf(c.getManorCost(CastleManorManager.PERIOD_NEXT)), "a</td>" + "</tr>");
 		}
 		
