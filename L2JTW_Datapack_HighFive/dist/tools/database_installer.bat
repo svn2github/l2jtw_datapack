@@ -871,7 +871,7 @@ goto :eof
 REM ------------------------------------------------------
 REM 資料庫安裝過程中發生錯誤
 set dp_err=1
-echo 資料庫安裝過程中發生錯誤> ..\doc\L2J_DataPack_Ver.txt
+echo 資料庫安裝過程中發生錯誤(HighFive)> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 cls
 set ntpebcak=c
@@ -992,7 +992,7 @@ goto end
 REM ------------------------------------------------------
 REM 資料庫安裝過程中發生錯誤
 set dp_err=1
-echo 資料庫安裝過程中發生錯誤> ..\doc\L2J_DataPack_Ver.txt
+echo 資料庫安裝過程中發生錯誤(HighFive)> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 set omfgprompt=q
 call :colors 57
