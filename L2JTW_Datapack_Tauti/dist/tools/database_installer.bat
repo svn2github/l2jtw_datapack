@@ -894,8 +894,9 @@ goto :eof
 
 :omfg2
 REM ------------------------------------------------------
-REM 沒有正確安裝 DP
+REM 資料庫安裝過程中發生錯誤
 set dp_err=1
+echo 資料庫安裝過程中發生錯誤(Tauti)> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 cls
 set ntpebcak=c
@@ -1007,15 +1008,16 @@ call temp.bat> nul
 del temp.bat
 move mods_errors.log %workdir%
 REM ------------------------------------------------------
-REM 完成安裝 DP
+REM 資料庫安裝完成
 if not %dp_err% == 1 set dp_err=2
 REM ------------------------------------------------------
 goto end
 
 :omfg
 REM ------------------------------------------------------
-REM 沒有正確安裝 DP
+REM 資料庫安裝過程中發生錯誤
 set dp_err=1
+echo 資料庫安裝過程中發生錯誤(Tauti)> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 set omfgprompt=q
 call :colors 57
