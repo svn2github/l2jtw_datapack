@@ -78,39 +78,12 @@ REM 取得已存在的 Java 版本資訊
 FOR /F %%k IN (..\libs\cachedir\check_j_ver.txt) do set kkk=%%k
 
 REM 比較 Java 版本資訊
-if "%jjj%"=="%kkk%" goto _lib_check3
+if "%jjj%"=="%kkk%" goto _lib_end
 echo 因為您的 Java 版本有更新，所以必須刪除舊的 libs 和快取，以防止 GS 出錯
 echo.
 pause
 goto _lib_del
 REM _lib_check2 的檢查 結束
-REM ------------------------------------------------------
-
-
-REM ------------------------------------------------------
-REM _lib_check3 的檢查 開始
-REM 如果 日期-月份 的資訊已存在，則跳到檢查3
-if exist ..\libs\cachedir\check_d_ver.txt goto _lib_check3
-
-REM 如果 日期-月份 的資訊不存在，則建立資訊
-date/t > ..\libs\cachedir\check_d_ver.txt
-goto _lib_del
-
-:_lib_check3
-REM 取得目前的 日期-月份 資訊
-date/t > %temp%\check.txt
-FOR /F "tokens=2 delims=/" %%d IN (%temp%\check.txt) DO set ddd=%%d
-
-REM 取得已存在的 日期-月份 資訊
-FOR /F "tokens=2 delims=/" %%m IN (..\libs\cachedir\check_d_ver.txt) do set mmm=%%m
-
-REM 比較 日期-月份 資訊
-if "%ddd%"=="%mmm%" goto _lib_end
-echo 此為每個月自動清理舊的 libs 和快取，以防止 GS 出錯
-echo.
-pause
-goto _lib_del
-REM _lib_check3 的檢查 結束
 REM ------------------------------------------------------
 
 
@@ -871,7 +844,7 @@ goto :eof
 REM ------------------------------------------------------
 REM 資料庫安裝過程中發生錯誤
 set dp_err=1
-echo 資料庫安裝過程中發生錯誤(HighFive)> ..\doc\L2J_DataPack_Ver.txt
+echo 資料庫安裝過程中發生錯誤：HighFive> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 cls
 set ntpebcak=c
@@ -984,15 +957,15 @@ del temp.bat
 move mods_errors.log %workdir%
 REM ------------------------------------------------------
 REM 資料庫安裝完成
-if not %dp_err% == 1 set dp_err=2
+if %dp_err% == 0 set dp_err=1
 REM ------------------------------------------------------
 goto end
 
 :omfg
 REM ------------------------------------------------------
 REM 資料庫安裝過程中發生錯誤
-set dp_err=1
-echo 資料庫安裝過程中發生錯誤(HighFive)> ..\doc\L2J_DataPack_Ver.txt
+set dp_err=2
+echo 資料庫安裝過程中發生錯誤：HighFive> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 set omfgprompt=q
 call :colors 57
@@ -1032,7 +1005,8 @@ goto :eof
 :end
 REM ------------------------------------------------------
 REM 儲存 DP 支援的版本資訊
-if %dp_err% == 2 echo High_Five> ..\doc\L2J_DataPack_Ver.txt
+if %dp_err% == 0 echo 資料庫安裝未完成：High_Five> ..\doc\L2J_DataPack_Ver.txt
+if %dp_err% == 1 echo High_Five> ..\doc\L2J_DataPack_Ver.txt
 REM ------------------------------------------------------
 call :colors 17
 title L2JTW DataPack 安裝 - For：L2JTW GameServer HighFive Alpha
