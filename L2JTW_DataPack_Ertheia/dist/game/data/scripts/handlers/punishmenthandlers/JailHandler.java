@@ -37,6 +37,7 @@ import com.l2jserver.gameserver.model.zone.ZoneId;
 import com.l2jserver.gameserver.model.zone.type.L2JailZone;
 import com.l2jserver.gameserver.network.L2GameClient;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * This class handles jail punishment.
@@ -184,7 +185,10 @@ public class JailHandler implements IPunishmentHandler
 		}
 		else
 		{
+			/* MessageTable
 			msg.setHtml("<html><body>You have been put in jail by an admin.</body></html>");
+			 */
+			msg.setHtml("<html><body>" + MessageTable.Messages[1855].getMessage() + "</body></html>");
 		}
 		player.sendPacket(msg);
 		if (task != null)
@@ -192,11 +196,17 @@ public class JailHandler implements IPunishmentHandler
 			long delay = ((task.getExpirationTime() - System.currentTimeMillis()) / 1000);
 			if (delay > 0)
 			{
+				/* MessageTable
 				player.sendMessage("You've been jailed for " + (delay > 60 ? ((delay / 60) + " minutes.") : delay + " seconds."));
+				 */
+				player.sendMessage(MessageTable.Messages[1856].getExtra(1) + (delay > 60 ? ((delay / 60) + MessageTable.Messages[1856].getExtra(2)) : delay + MessageTable.Messages[1856].getExtra(3)));
 			}
 			else
 			{
+				/* MessageTable.Messages[1857]
 				player.sendMessage("You've been jailed forever.");
+				 */
+				player.sendMessage(1857);
 			}
 		}
 	}
@@ -218,7 +228,10 @@ public class JailHandler implements IPunishmentHandler
 		}
 		else
 		{
+			/* MessageTable
 			msg.setHtml("<html><body>You are free for now, respect server rules!</body></html>");
+			 */
+			msg.setHtml("<html><body>" + MessageTable.Messages[1858].getMessage() + "</body></html>");
 		}
 		player.sendPacket(msg);
 	}

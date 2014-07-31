@@ -33,8 +33,8 @@ public final class CrumaTower extends AbstractNpcAI
 	// NPC
 	private static final int MOZELLA = 30483;
 	// Locations
-	private static final Location TELEPORT_LOC1 = new Location(17776, 113968, -11671);
-	private static final Location TELEPORT_LOC2 = new Location(17680, 113968, -11671);
+	private static final Location TELEPORT_LOC1 = new Location(17727, 114577, -11653);
+	private static final Location TELEPORT_LOC2 = new Location(17727, 114577, -11653);
 	// Misc
 	private static final int MAX_LEVEL = 55;
 	

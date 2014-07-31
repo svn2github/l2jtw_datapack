@@ -24,6 +24,7 @@ import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.items.instance.L2ItemInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * @author JIV
@@ -45,7 +46,10 @@ public class Bypass implements IItemHandler
 		final NpcHtmlMessage html = new NpcHtmlMessage(0, item.getId());
 		if (content == null)
 		{
+			/* MessageTable
 			html.setHtml("<html><body>My Text is missing:<br>" + filename + "</body></html>");
+			 */
+			html.setHtml("<html><body>" + MessageTable.Messages[1122].getMessage() + "<br>" + filename + "</body></html>");
 			activeChar.sendPacket(html);
 		}
 		else

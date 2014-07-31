@@ -26,6 +26,7 @@ import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * @author Nos
@@ -108,7 +109,10 @@ public class AdminHtml implements IAdminCommandHandler
 		}
 		else
 		{
+			/* MessageTable
 			html.setHtml("<html><body>My text is missing:<br>" + path + "</body></html>");
+			 */
+			html.setHtml("<html><body>" + MessageTable.Messages[1118].getMessage() + "<br>" + path + "</body></html>");
 		}
 		activeChar.sendPacket(html);
 	}
