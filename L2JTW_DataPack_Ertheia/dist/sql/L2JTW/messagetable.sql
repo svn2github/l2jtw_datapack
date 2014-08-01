@@ -2595,6 +2595,10 @@ INSERT INTO `messagetable` VALUES
 ('2003', 'tw', '', '略過資料不存在的技能 ID:「;」等級:「;」\n學習此技能失敗的玩家: ', 'L2PcInstance.java'),
 ('2003', 'cn', '', '略过资料不存在的技能 ID:「;」等级:「;」\n学习此技能失败的玩家: ', 'L2PcInstance.java'),
 
+('2006', 'en', '', 'skip;spawn', 'SpawnTable.java'),
+('2006', 'tw', '', '略過;的刷怪點。', 'SpawnTable.java'),
+('2006', 'cn', '', '略过;的刷怪点。', 'SpawnTable.java'),
+
 ('2008', 'en', 'NO Name', '', 'OfflineTradersTable.java'),
 ('2008', 'tw', '沒有名稱', '', 'OfflineTradersTable.java'),
 ('2008', 'cn', '没有名称', '', 'OfflineTradersTable.java');
