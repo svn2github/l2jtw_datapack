@@ -577,10 +577,10 @@ public class Wedding implements IVoicedCommandHandler
 		
 		if (!TvTEvent.onEscapeUse(partner.getObjectId()))
 		{
-			/* MessageTable.Messages[1246]
+			/* MessageTable.Messages[1238]
 			activeChar.sendMessage("Your partner is in an event.");
 			 */
-			activeChar.sendMessage(1246);
+			activeChar.sendMessage(1238);
 			return false;
 		}
 		
