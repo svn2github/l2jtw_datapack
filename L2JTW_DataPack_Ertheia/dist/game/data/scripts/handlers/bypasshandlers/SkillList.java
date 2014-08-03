@@ -107,10 +107,10 @@ public class SkillList implements IBypassHandler
 									continue;
 								}
 								
-								/* MessageTable
+								/* Update by rocknow (Class Name) + MessageTable
 								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">Learn " + cid + "'s class Skills</a><br>\n";
 								 */
-								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">" + MessageTable.Messages[1069].getExtra(1) + ClassListData.getInstance().getClass(cid.getId()).getClassName() + MessageTable.Messages[1069].getExtra(2) +"</a><br>\n"; // Update by rocknow (Class Name)
+								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">" + MessageTable.Messages[1069].getExtra(1) + ClassListData.getInstance().getClass(cid.getId()).getClassName() + MessageTable.Messages[1069].getExtra(2) +"</a><br>\n";
 								count++;
 							}
 							classCheck = classCheck.getParent();

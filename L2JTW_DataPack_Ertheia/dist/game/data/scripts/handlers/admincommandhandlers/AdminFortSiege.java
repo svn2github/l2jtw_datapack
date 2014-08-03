@@ -169,10 +169,10 @@ public class AdminFortSiege implements IAdminCommandHandler
 		{
 			if (fort != null)
 			{
-				/*
+				/* l2jtw add CName
 				StringUtil.append(cList, "<td fixwidth=90><a action=\"bypass -h admin_fortsiege ", String.valueOf(fort.getResidenceId()), "\">", fort.getName(), " id: ", String.valueOf(fort.getResidenceId()), "</a></td>");
 				 */
-				StringUtil.append(cList, "<td fixwidth=90><a action=\"bypass -h admin_fortsiege ", String.valueOf(fort.getResidenceId()), "\">", fort.getCName(), " ID: ", String.valueOf(fort.getResidenceId()), "</a></td>"); // Update by pmq
+				StringUtil.append(cList, "<td fixwidth=90><a action=\"bypass -h admin_fortsiege ", String.valueOf(fort.getResidenceId()), "\">", fort.getCName(), " ID: ", String.valueOf(fort.getResidenceId()), "</a></td>");
 				i++;
 			}
 			

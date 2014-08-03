@@ -753,7 +753,6 @@ public class AdminEditChar implements IAdminCommandHandler
 				activeChar.sendMessage("Invalid target.");
 				 */
 				activeChar.sendMessage(1543);
-
 			}
 		}
 		else if (command.startsWith("admin_unsummon"))
@@ -987,6 +986,9 @@ public class AdminEditChar implements IAdminCommandHandler
 		
 		final PageResult result = HtmlUtil.createPage(players, page, 20, i ->
 		{
+			/* MessageTable
+			return "<td align=center><a action=\"bypass -h admin_show_characters " + i + "\">Page " + (i + 1) + "</a></td>";
+			 */
 			return "<td align=center><a action=\"bypass -h admin_show_characters " + i + "\">" +MessageTable.Messages[1547].getMessage() + (i + 1) + MessageTable.Messages[1547].getExtra(1) + "</a></td>";
 		}, player ->
 		{

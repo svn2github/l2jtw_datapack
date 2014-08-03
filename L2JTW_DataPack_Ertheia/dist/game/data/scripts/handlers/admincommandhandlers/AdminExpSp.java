@@ -165,7 +165,6 @@ public class AdminExpSp implements IAdminCommandHandler
 			cm.addNumber(spval);
 			cm.addString(player.getName());
 			activeChar.sendMessage(cm.renderMsg());
-
 			if (Config.DEBUG)
 			{
 				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") added " + expval + " xp and " + spval + " sp to " + player.getObjectId() + ".");

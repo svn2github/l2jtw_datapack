@@ -1,4 +1,4 @@
-/* MessageTable
+/*
  * Copyright (C) 2004-2014 L2J DataPack
  * 
  * This file is part of L2J DataPack.
@@ -40,7 +40,7 @@ import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
-/* MessageTable*
+/**
  * This class handles all siege commands.
  * @author Zoey76 (rework)
  */
@@ -356,7 +356,7 @@ public class AdminSiege implements IAdminCommandHandler
 		return true;
 	}
 	
-	/* MessageTable*
+	/**
 	 * Show castle select page.
 	 * @param activeChar the active char
 	 */
