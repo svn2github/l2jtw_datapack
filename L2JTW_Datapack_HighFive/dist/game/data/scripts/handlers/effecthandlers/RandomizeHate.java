@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.effecthandlers;
 
@@ -47,16 +43,12 @@ public class RandomizeHate extends L2Effect
 	@Override
 	public boolean onStart()
 	{
-		if ((getEffected() == null) || (getEffected() == getEffector()))
-		{
+		if (getEffected() == null || getEffected() == getEffector())
 			return false;
-		}
 		
 		// Effect is for mobs only.
-		if (!getEffected().isL2Attackable())
-		{
+		if (!(getEffected() instanceof L2Attackable))
 			return false;
-		}
 		
 		L2Attackable effectedMob = (L2Attackable) getEffected();
 		
@@ -67,22 +59,18 @@ public class RandomizeHate extends L2Effect
 		Collection<L2Character> chars = getEffected().getKnownList().getKnownCharacters();
 		for (L2Character cha : chars)
 		{
-			if ((cha != null) && (cha != effectedMob) && (cha != getEffector()))
+			if (cha != null && (cha != effectedMob) && (cha != getEffector()))
 			{
 				// Aggro cannot be transfered to a mob of the same faction.
-				if (cha.isL2Attackable() && (((L2Attackable) cha).getFactionId() != null) && ((L2Attackable) cha).getFactionId().equals(effectedMob.getFactionId()))
-				{
+				if (cha instanceof L2Attackable && ((L2Attackable) cha).getFactionId() != null && ((L2Attackable) cha).getFactionId().equals(effectedMob.getFactionId()))
 					continue;
-				}
 				
 				targetList.add(cha);
 			}
 		}
 		// if there is no target, exit function
 		if (targetList.isEmpty())
-		{
 			return true;
-		}
 		
 		// Choosing randomly a new target
 		final L2Character target = targetList.get(Rnd.get(targetList.size()));

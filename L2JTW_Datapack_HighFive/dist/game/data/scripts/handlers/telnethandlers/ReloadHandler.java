@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.telnethandlers;
 
@@ -34,6 +30,7 @@ import com.l2jserver.gameserver.datatables.SpawnTable;
 import com.l2jserver.gameserver.datatables.TeleportLocationTable;
 import com.l2jserver.gameserver.handler.ITelnetHandler;
 import com.l2jserver.gameserver.instancemanager.DayNightSpawnManager;
+import com.l2jserver.gameserver.instancemanager.Manager;
 import com.l2jserver.gameserver.instancemanager.QuestManager;
 import com.l2jserver.gameserver.instancemanager.RaidBossSpawnManager;
 import com.l2jserver.gameserver.instancemanager.ZoneManager;
@@ -91,6 +88,12 @@ public class ReloadHandler implements ITelnetHandler
 					ItemTable.getInstance().reload();
 					_print.println("done");
 				}
+				else if (type.equals("instancemanager"))
+				{
+					_print.print("Reloading instance managers... ");
+					Manager.reloadAll();
+					_print.println("done");
+				}
 				else if (type.equals("zone"))
 				{
 					_print.print("Reloading zone tables... ");
@@ -110,8 +113,8 @@ public class ReloadHandler implements ITelnetHandler
 					DayNightSpawnManager.getInstance().cleanUp();
 					L2World.getInstance().deleteVisibleNpcSpawns();
 					NpcTable.getInstance().reloadAllNpc();
-					SpawnTable.getInstance().load();
-					RaidBossSpawnManager.getInstance().load();
+					SpawnTable.getInstance().reloadAll();
+					RaidBossSpawnManager.getInstance().reloadBosses();
 					_print.println("done\n");
 				}
 				else if (type.equalsIgnoreCase("script"))

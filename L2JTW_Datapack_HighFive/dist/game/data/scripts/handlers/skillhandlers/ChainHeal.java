@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.skillhandlers;
 
@@ -28,6 +24,7 @@ import com.l2jserver.gameserver.handler.ISkillHandler;
 import com.l2jserver.gameserver.handler.SkillHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.network.SystemMessageId;
@@ -40,21 +37,19 @@ import com.l2jserver.util.ValueSortMap;
  */
 public class ChainHeal implements ISkillHandler
 {
-	private static final L2SkillType[] SKILL_IDS =
-	{
-		L2SkillType.CHAIN_HEAL
+	private static final L2SkillType[] SKILL_IDS = 
+	{ 
+		L2SkillType.CHAIN_HEAL 
 	};
 	
 	@Override
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
-		// check for other effects
+		//check for other effects
 		ISkillHandler handler = SkillHandler.getInstance().getHandler(L2SkillType.BUFF);
 		
 		if (handler != null)
-		{
 			handler.useSkill(activeChar, skill, targets);
-		}
 		
 		SystemMessage sm;
 		double amount = 0;
@@ -65,36 +60,26 @@ public class ChainHeal implements ISkillHandler
 		// Get top 10 most damaged and iterate the heal over them
 		for (L2Character character : characters)
 		{
-			// 1505 - sublime self sacrifice
-			if ((character.isDead() || character.isInvul()) && (skill.getId() != 1505))
-			{
+			//1505 - sublime self sacrifice
+			if ((character == null || character.isDead() || character.isInvul()) && skill.getId() != 1505)
 				continue;
-			}
 			
 			// Cursed weapon owner can't heal or be healed
 			if (character != activeChar)
 			{
-				if (character.isPlayer() && character.getActingPlayer().isCursedWeaponEquipped())
-				{
+				if (character instanceof L2PcInstance && ((L2PcInstance) character).isCursedWeaponEquipped())
 					continue;
-				}
 			}
 			
 			if (power == 100.)
-			{
 				amount = character.getMaxHp();
-			}
 			else
-			{
-				amount = (character.getMaxHp() * power) / 100.0;
-			}
+				amount = character.getMaxHp() * power / 100.0;
 			
 			amount = Math.min(amount, character.getMaxRecoverableHp() - character.getCurrentHp());
 			
 			if (amount < 0)
-			{
 				amount = 0;
-			}
 			
 			character.setCurrentHp(amount + character.getCurrentHp());
 			
@@ -104,9 +89,7 @@ public class ChainHeal implements ISkillHandler
 				sm.addCharName(activeChar);
 			}
 			else
-			{
 				sm = SystemMessage.getSystemMessage(SystemMessageId.S1_HP_RESTORED);
-			}
 			sm.addNumber((int) amount);
 			character.sendPacket(sm);
 			
@@ -126,25 +109,19 @@ public class ChainHeal implements ISkillHandler
 		
 		for (L2Character target : targets)
 		{
-			// 1505 - sublime self sacrifice
-			if (((target == null) || target.isDead() || target.isInvul()))
-			{
+			//1505 - sublime self sacrifice
+			if ((target == null || target.isDead() || target.isInvul()))
 				continue;
-			}
 			
-			if (target.getMaxHp() == target.getCurrentHp())
-			{
+			if (target.getMaxHp() == target.getCurrentHp()) // Full hp ..
 				continue;
-			}
 			
 			double hpPercent = target.getCurrentHp() / target.getMaxHp();
 			tmpTargets.put(target, hpPercent);
 			
 			curTargets++;
-			if (curTargets >= 10)
-			{
+			if (curTargets >= 10) // Unhardcode?
 				break;
-			}
 		}
 		
 		// Sort in ascending order then add the values to the list

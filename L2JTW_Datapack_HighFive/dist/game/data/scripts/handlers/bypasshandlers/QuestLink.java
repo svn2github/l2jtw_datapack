@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
@@ -35,9 +31,8 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
-import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class QuestLink implements IBypassHandler
 {
@@ -49,7 +44,7 @@ public class QuestLink implements IBypassHandler
 	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
-		if (!target.isNpc())
+		if (!(target instanceof L2Npc))
 		{
 			return false;
 		}
@@ -70,13 +65,17 @@ public class QuestLink implements IBypassHandler
 		{
 			showQuestWindow(activeChar, (L2Npc) target, quest);
 		}
+		
 		return true;
 	}
 	
 	/**
-	 * Open a choose quest window on client with all quests available of the L2NpcInstance.<br>
-	 * <b><u>Actions</u>:</b><br>
-	 * <li>Send a Server->Client NpcHtmlMessage containing the text of the L2NpcInstance to the L2PcInstance</li>
+	 * Open a choose quest window on client with all quests available of the L2NpcInstance.<BR>
+	 * <BR>
+	 * <B><U> Actions</U> :</B><BR>
+	 * <BR>
+	 * <li>Send a Server->Client NpcHtmlMessage containing the text of the L2NpcInstance to the L2PcInstance</li><BR>
+	 * <BR>
 	 * @param player The L2PcInstance that talk with the L2NpcInstance
 	 * @param npc The table containing quests of the L2NpcInstance
 	 * @param quests
@@ -99,18 +98,12 @@ public class QuestLink implements IBypassHandler
 			{
 				state = q.isCustomQuest() ? "" : "01";
 			}
-			else if (qs.isStarted())
+			else if (qs.isStarted() && (qs.getInt("cond") > 0))
 			{
-				/* Move To MessageTable For L2JTW
-				state = q.isCustomQuest() ? " (In Progress)" : "02";
-				*/
 				state = q.isCustomQuest() ? MessageTable.Messages[1016].getMessage() : "02";
 			}
 			else if (qs.isCompleted())
 			{
-				/* Move To MessageTable For L2JTW
-				state = q.isCustomQuest() ? " (Done)" : "03";
-				*/
 				state = q.isCustomQuest() ? MessageTable.Messages[1017].getMessage() : "03";
 			}
 			
@@ -140,16 +133,16 @@ public class QuestLink implements IBypassHandler
 	}
 	
 	/**
-	 * Open a quest window on client with the text of the L2NpcInstance.<br>
-	 * <b><u>Actions</u>:</b><br>
-	 * <ul>
-	 * <li>Get the text of the quest state in the folder data/scripts/quests/questId/stateId.htm</li>
-	 * <li>Send a Server->Client NpcHtmlMessage containing the text of the L2NpcInstance to the L2PcInstance</li>
-	 * <li>Send a Server->Client ActionFailed to the L2PcInstance in order to avoid that the client wait another packet</li>
-	 * </ul>
-	 * @param player the L2PcInstance that talk with the {@code npc}
-	 * @param npc the L2NpcInstance that chats with the {@code player}
-	 * @param questId the Id of the quest to display the message
+	 * Open a quest window on client with the text of the L2NpcInstance.<BR>
+	 * <BR>
+	 * <B><U> Actions</U> :</B><BR>
+	 * <BR>
+	 * <li>Get the text of the quest state in the folder data/scripts/quests/questId/stateId.htm</li> <li>Send a Server->Client NpcHtmlMessage containing the text of the L2NpcInstance to the L2PcInstance</li> <li>Send a Server->Client ActionFailed to the L2PcInstance in order to avoid that the
+	 * client wait another packet</li><BR>
+	 * <BR>
+	 * @param player the L2PcInstance that talk with the {@code npc}.
+	 * @param npc the L2NpcInstance that chats with the {@code player}.
+	 * @param questId the Id of the quest to display the message.
 	 */
 	public static void showQuestWindow(L2PcInstance player, L2Npc npc, String questId)
 	{
@@ -162,7 +155,7 @@ public class QuestLink implements IBypassHandler
 		
 		if (q != null)
 		{
-			if (((q.getQuestIntId() >= 1) && (q.getQuestIntId() < 20000)) && ((player.getWeightPenalty() >= 3) || !player.isInventoryUnder90(true)))
+			if (((q.getQuestIntId() >= 1) && (q.getQuestIntId() < 20000)) && ((player.getWeightPenalty() >= 3) || !player.isInventoryUnder80(true)))
 			{
 				player.sendPacket(SystemMessageId.INVENTORY_LESS_THAN_80_PERCENT);
 				return;
@@ -172,12 +165,9 @@ public class QuestLink implements IBypassHandler
 			{
 				if ((q.getQuestIntId() >= 1) && (q.getQuestIntId() < 20000))
 				{
-					// Too many ongoing quests.
-					if (player.getAllActiveQuests().length > 40)
+					if (player.getAllActiveQuests().length > 40) // if too many ongoing quests, don't show window and send message
 					{
-						final NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
-						html.setFile(player.getHtmlPrefix(), "data/html/fullquest.html");
-						player.sendPacket(html);
+						player.sendPacket(SystemMessageId.TOO_MANY_QUESTS);
 						return;
 					}
 				}
@@ -204,7 +194,7 @@ public class QuestLink implements IBypassHandler
 		
 		if (qs != null)
 		{
-			// If the quest is already started, no need to show a window
+			// If the quest is alreday started, no need to show a window
 			if (!qs.getQuest().notifyTalk(npc, qs))
 			{
 				return;

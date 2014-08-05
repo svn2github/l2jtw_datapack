@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -31,8 +27,11 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
- * This class handles following admin commands: - heal = restores HP/MP/CP on target, name or radius
- * @version $Revision: 1.2.4.5 $ $Date: 2005/04/11 10:06:06 $ Small typo fix by Zoey76 24/02/2011
+ * This class handles following admin commands:
+ * - heal = restores HP/MP/CP on target, name or radius
+ *
+ * @version $Revision: 1.2.4.5 $ $Date: 2005/04/11 10:06:06 $
+ * Small typo fix by Zoey76 24/02/2011
  */
 public class AdminHeal implements IAdminCommandHandler
 {
@@ -47,9 +46,7 @@ public class AdminHeal implements IAdminCommandHandler
 	{
 		
 		if (command.equals("admin_heal"))
-		{
 			handleHeal(activeChar);
-		}
 		else if (command.startsWith("admin_heal"))
 		{
 			try
@@ -60,9 +57,7 @@ public class AdminHeal implements IAdminCommandHandler
 			catch (StringIndexOutOfBoundsException e)
 			{
 				if (Config.DEVELOPER)
-				{
 					_log.warning("Heal error: " + e);
-				}
 				activeChar.sendMessage("Incorrect target/radius specified.");
 			}
 		}
@@ -89,9 +84,7 @@ public class AdminHeal implements IAdminCommandHandler
 			L2PcInstance plyr = L2World.getInstance().getPlayer(player);
 			
 			if (plyr != null)
-			{
 				obj = plyr;
-			}
 			else
 			{
 				try
@@ -105,12 +98,10 @@ public class AdminHeal implements IAdminCommandHandler
 							L2Character character = (L2Character) object;
 							character.setCurrentHpMp(character.getMaxHp(), character.getMaxMp());
 							if (object instanceof L2PcInstance)
-							{
 								character.setCurrentCp(character.getMaxCp());
-							}
 						}
 					}
-					
+				
 					activeChar.sendMessage(MessageTable.Messages[1688].getExtra(1) + radius + MessageTable.Messages[1688].getExtra(2));
 					return;
 				}
@@ -120,25 +111,17 @@ public class AdminHeal implements IAdminCommandHandler
 			}
 		}
 		if (obj == null)
-		{
 			obj = activeChar;
-		}
 		if (obj instanceof L2Character)
 		{
 			L2Character target = (L2Character) obj;
 			target.setCurrentHpMp(target.getMaxHp(), target.getMaxMp());
 			if (target instanceof L2PcInstance)
-			{
 				target.setCurrentCp(target.getMaxCp());
-			}
 			if (Config.DEBUG)
-			{
 				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") healed character " + target.getName());
-			}
 		}
 		else
-		{
 			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
-		}
 	}
 }

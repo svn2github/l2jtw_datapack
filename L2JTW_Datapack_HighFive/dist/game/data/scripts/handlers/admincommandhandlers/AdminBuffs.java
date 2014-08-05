@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -34,7 +30,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SkillCoolTime;
 import com.l2jserver.gameserver.util.GMAudit;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class AdminBuffs implements IAdminCommandHandler
 {
@@ -76,15 +72,10 @@ public class AdminBuffs implements IAdminCommandHandler
 				{
 					int page = 1;
 					if (st.hasMoreTokens())
-					{
 						page = Integer.parseInt(st.nextToken());
-					}
 					showBuffs(activeChar, player, page);
 					return true;
 				}
-				/* Move To MessageTable For L2JTW
-				activeChar.sendMessage("The player " + playername + " is not online");
-				*/
 				activeChar.sendMessage(MessageTable.Messages[1451].getExtra(1) + playername + MessageTable.Messages[1451].getExtra(2));
 				return false;
 			}
@@ -147,15 +138,10 @@ public class AdminBuffs implements IAdminCommandHandler
 				
 				for (L2Character knownChar : activeChar.getKnownList().getKnownCharactersInRadius(radius))
 				{
-					if (knownChar.isPlayer() && !knownChar.equals(activeChar))
-					{
+					if ((knownChar instanceof L2PcInstance) && !(knownChar.equals(activeChar)))
 						knownChar.stopAllEffects();
-					}
 				}
 				
-				/* Move To MessageTable For L2JTW
-				activeChar.sendMessage("All effects canceled within raidus " + radius);
-				*/
 				activeChar.sendMessage(MessageTable.Messages[1452].getExtra(1) + radius + MessageTable.Messages[1452].getExtra(2));
 				return true;
 			}
@@ -189,9 +175,9 @@ public class AdminBuffs implements IAdminCommandHandler
 					return false;
 				}
 			}
-			else if (activeChar.getTarget().isPlayer())
+			else if (activeChar.getTarget() instanceof L2PcInstance)
 			{
-				player = activeChar.getTarget().getActingPlayer();
+				player = (L2PcInstance) activeChar.getTarget();
 			}
 			else
 			{
@@ -255,21 +241,17 @@ public class AdminBuffs implements IAdminCommandHandler
 	{
 		final L2Effect[] effects = target.getAllEffects();
 		
-		if ((page > ((effects.length / PAGE_LIMIT) + 1)) || (page < 1))
-		{
+		if (page > effects.length / PAGE_LIMIT + 1 || page < 1)
 			return;
-		}
 		
 		int max = effects.length / PAGE_LIMIT;
-		if (effects.length > (PAGE_LIMIT * max))
-		{
+		if (effects.length > PAGE_LIMIT * max)
 			max++;
-		}
 		
-		/* Move To MessageTable For L2JTW
-		final StringBuilder html = StringUtil.startAppend(500 + (effects.length * 200), "<html><table width=\"100%\"><tr><td width=45><button value=\"Main\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">Effects of ", target.getName(), "</font></td><td width=45><button value=\"Back\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=200>Skill</td><td width=30>Rem. Time</td><td width=70>Action</td></tr>");
-		*/
-		final StringBuilder html = StringUtil.startAppend(500 + (effects.length * 200), "<html><table width=\"100%\"><tr><td width=45><button value=\""+ MessageTable.Messages[1453].getMessage() +"\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">"+ MessageTable.Messages[1454].getMessage(), target.getName(), "</font></td><td width=45><button value=\""+ MessageTable.Messages[1455].getMessage() +"\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=150>"+ MessageTable.Messages[1456].getExtra(1) +"</td><td width=50>"+ MessageTable.Messages[1456].getExtra(2) +"</td><td width=70>"+ MessageTable.Messages[1456].getExtra(3) +"</td></tr>");
+		final StringBuilder html = StringUtil.startAppend(500 + effects.length * 200,
+				"<html><table width=\"100%\"><tr><td width=45><button value=\""+MessageTable.Messages[1453].getMessage()+"\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">"+MessageTable.Messages[1454].getMessage(), 
+				target.getName(),
+		"</font></td><td width=45><button value=\""+MessageTable.Messages[1455].getMessage()+"\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=150>"+MessageTable.Messages[1456].getExtra(1)+"</td><td width=50>"+MessageTable.Messages[1456].getExtra(2)+"</td><td width=70>"+MessageTable.Messages[1456].getExtra(3)+"</td></tr>");
 		
 		int start = ((page - 1) * PAGE_LIMIT);
 		int end = Math.min(((page - 1) * PAGE_LIMIT) + PAGE_LIMIT, effects.length);
@@ -279,10 +261,16 @@ public class AdminBuffs implements IAdminCommandHandler
 			L2Effect e = effects[i];
 			if (e != null)
 			{
-				/* Move To MessageTable For L2JTW
-				StringUtil.append(html, "<tr><td>", e.getSkill().getName(), "</td><td>", e.getSkill().isToggle() ? "toggle" : (e.getAbnormalTime() - e.getTime()) + "s", "</td><td><button value=\"Remove\" action=\"bypass -h admin_stopbuff ", Integer.toString(target.getObjectId()), " ", String.valueOf(e.getSkill().getId()), "\" width=60 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-				*/
-				StringUtil.append(html, "<tr><td>", e.getSkill().getName(), "</td><td>", e.getSkill().isToggle() ? "toggle" : e.getAbnormalTime() - e.getTime() + "s", "</td><td><button value=\""+ MessageTable.Messages[1457].getMessage() +"\" action=\"bypass -h admin_stopbuff ", Integer.toString(target.getObjectId()), " ", String.valueOf(e.getSkill().getId()), "\" width=60 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
+				StringUtil.append(html,
+						"<tr><td>",
+						e.getSkill().getName(),
+						"</td><td>",
+						e.getSkill().isToggle() ? "toggle" : e.getAbnormalTime() - e.getTime() + "s",
+								"</td><td><button value=\""+MessageTable.Messages[1457].getMessage()+"\" action=\"bypass -h admin_stopbuff ",
+								Integer.toString(target.getObjectId()),
+								" ",
+								String.valueOf(e.getSkill().getId()),
+				"\" width=60 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 			}
 		}
 		
@@ -292,15 +280,9 @@ public class AdminBuffs implements IAdminCommandHandler
 			int pagenr = x + 1;
 			if (page == pagenr)
 			{
-				/* Move To MessageTable For L2JTW
-				html.append("<td>Page ");
-				*/
-				html.append("<td>"+ MessageTable.Messages[1458].getMessage());
+				html.append("<td>"+MessageTable.Messages[1458].getMessage());
 				html.append(pagenr);
-				/* Move To MessageTable For L2JTW
-				html.append("</td>");
-				*/
-				html.append(MessageTable.Messages[1458].getExtra(1) +"</td>");
+				html.append(MessageTable.Messages[1458].getExtra(1)+"</td>");
 			}
 			else
 			{
@@ -308,33 +290,24 @@ public class AdminBuffs implements IAdminCommandHandler
 				html.append(target.getName());
 				html.append(" ");
 				html.append(x + 1);
-				/* Move To MessageTable For L2JTW
-				html.append("\"> Page ");
-				*/
-				html.append("\"> "+ MessageTable.Messages[1458].getMessage());
+				html.append("\"> "+MessageTable.Messages[1458].getMessage());
 				html.append(pagenr);
-				/* Move To MessageTable For L2JTW
-				html.append(" </a></td>");
-				*/
-				html.append(MessageTable.Messages[1458].getExtra(1) +"</a></td>");
+				html.append(MessageTable.Messages[1458].getExtra(1)+"</a></td>");
 			}
 		}
 		
 		html.append("</tr></table>");
 		
-		/* Move To MessageTable For L2JTW
-		StringUtil.append(html, "<br><center><button value=\"Remove All\" action=\"bypass -h admin_stopallbuffs ", Integer.toString(target.getObjectId()), "\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></html>");
-		*/
-		StringUtil.append(html, "<br><center><button value=\""+ MessageTable.Messages[1459].getMessage() +"\" action=\"bypass -h admin_stopallbuffs ", Integer.toString(target.getObjectId()), "\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></html>");
+		StringUtil.append(html, "<br><center><button value=\""+MessageTable.Messages[1459].getMessage()+"\" action=\"bypass -h admin_stopallbuffs ", 
+				Integer.toString(target.getObjectId()),
+		"\" width=80 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></html>");
 		
 		NpcHtmlMessage ms = new NpcHtmlMessage(1);
 		ms.setHtml(html.toString());
 		activeChar.sendPacket(ms);
 		
 		if (Config.GMAUDIT)
-		{
-			GMAudit.auditGMAction(activeChar.getName() + " [" + activeChar.getObjectId() + "]", "getbuffs", target.getName() + " (" + Integer.toString(target.getObjectId()) + ")", "");
-		}
+			GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", "getbuffs", target.getName() + " (" + Integer.toString(target.getObjectId()) + ")", "");
 	}
 	
 	private void removeBuff(L2PcInstance activeChar, int objId, int skillId)
@@ -357,17 +330,12 @@ public class AdminBuffs implements IAdminCommandHandler
 				if ((e != null) && (e.getSkill().getId() == skillId))
 				{
 					e.exit();
-					/* Move To MessageTable For L2JTW
-					activeChar.sendMessage("Removed " + e.getSkill().getName() + " level " + e.getSkill().getLevel() + " from " + target.getName() + " (" + objId + ")");
-					*/
 					activeChar.sendMessage(MessageTable.Messages[1460].getExtra(1) + e.getSkill().getName() + MessageTable.Messages[1460].getExtra(2) + e.getSkill().getLevel() + MessageTable.Messages[1460].getExtra(3) + target.getName() + " (" + objId + ")");
 				}
 			}
 			showBuffs(activeChar, target, 1);
 			if (Config.GMAUDIT)
-			{
-				GMAudit.auditGMAction(activeChar.getName() + " [" + activeChar.getObjectId() + "]", "stopbuff", target.getName() + " (" + objId + ")", Integer.toString(skillId));
-			}
+				GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", "stopbuff", target.getName() + " (" + objId + ")", Integer.toString(skillId));
 		}
 	}
 	
@@ -385,15 +353,10 @@ public class AdminBuffs implements IAdminCommandHandler
 		if (target != null)
 		{
 			target.stopAllEffects();
-			/* Move To MessageTable For L2JTW
-			activeChar.sendMessage("Removed all effects from " + target.getName() + " (" + objId + ")");
-			*/
 			activeChar.sendMessage(MessageTable.Messages[1461].getMessage() + target.getName() + " (" + objId + ")");
 			showBuffs(activeChar, target, 1);
 			if (Config.GMAUDIT)
-			{
-				GMAudit.auditGMAction(activeChar.getName() + " [" + activeChar.getObjectId() + "]", "stopallbuffs", target.getName() + " (" + objId + ")", "");
-			}
+				GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", "stopallbuffs", target.getName() + " (" + objId + ")", "");
 		}
 	}
 }

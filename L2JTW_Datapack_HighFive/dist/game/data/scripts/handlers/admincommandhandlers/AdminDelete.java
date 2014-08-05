@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -25,10 +21,11 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Spawn;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * This class handles following admin commands: - delete = deletes target
+ *
  * @version $Revision: 1.2.2.1.2.4 $ $Date: 2005/04/11 10:05:56 $
  */
 public class AdminDelete implements IAdminCommandHandler
@@ -42,9 +39,7 @@ public class AdminDelete implements IAdminCommandHandler
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.equals("admin_delete"))
-		{
 			handleDelete(activeChar);
-		}
 		return true;
 	}
 	
@@ -69,26 +64,14 @@ public class AdminDelete implements IAdminCommandHandler
 				spawn.stopRespawn();
 				
 				if (RaidBossSpawnManager.getInstance().isDefined(spawn.getNpcid()))
-				{
 					RaidBossSpawnManager.getInstance().deleteSpawn(spawn, true);
-				}
 				else
-				{
 					SpawnTable.getInstance().deleteSpawn(spawn, true);
-				}
 			}
 			
-			/* Move To MessageTable For L2JTW
-			activeChar.sendMessage("Deleted " + target.getName() + " from " + target.getObjectId() + ".");
-			*/
 			activeChar.sendMessage(MessageTable.Messages[1517].getExtra(1) + target.getName() + MessageTable.Messages[1517].getExtra(2) + target.getObjectId() + MessageTable.Messages[1517].getExtra(3));
 		}
 		else
-		{
-			/* Move To MessageTable For L2JTW
-			activeChar.sendMessage("Incorrect target.");
-			*/
 			activeChar.sendMessage(1518);
-		}
 	}
 }

@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
 
@@ -31,8 +27,8 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.base.ClassId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
-import com.l2jserver.gameserver.datatables.ClassListData; // Update by rocknow (Class Name)
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.datatables.ClassListData; //Update by rocknow (Class Name)
 
 public class SkillList implements IBypassHandler
 {
@@ -72,17 +68,10 @@ public class SkillList implements IBypassHandler
 						}
 					}
 					
-					/* Move To MessageTable For L2JTW
-					String text = "<html><body><center>Skill learning:</center><br>";
-					*/
 					String text = "<html><body><center>"+ MessageTable.Messages[1061].getMessage() +"</center><br>";
 					
 					if (!own_class)
 					{
-						/* Move To MessageTable For L2JTW
-						String charType = activeChar.getClassId().isMage() ? "fighter" : "mage";
-						text += "Skills of your class are the easiest to learn.<br>" + "Skills of another class of your race are a little harder.<br>" + "Skills for classes of another race are extremely difficult.<br>" + "But the hardest of all to learn are the  " + charType + "skills!<br>";
-						*/
 						String charType = activeChar.getClassId().isMage() ? MessageTable.Messages[1062].getMessage() : MessageTable.Messages[1063].getMessage();
 						text += MessageTable.Messages[1064].getMessage() +"<br>"+ MessageTable.Messages[1065].getMessage() +"<br>"+ MessageTable.Messages[1066].getMessage() +"<br>"+ MessageTable.Messages[1067].getMessage() + charType + MessageTable.Messages[1068].getMessage() +"<br>";
 					}
@@ -107,10 +96,7 @@ public class SkillList implements IBypassHandler
 									continue;
 								}
 								
-								/* Move To MessageTable For L2JTW
-								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">Learn " + cid + "'s class Skills</a><br>\n";
-								*/
-								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">"+ MessageTable.Messages[1069].getExtra(1) + ClassListData.getInstance().getClass(cid.getId()).getClassName() + MessageTable.Messages[1069].getExtra(2) +"</a><br>\n"; // Update by rocknow (Class Name)
+								text += "<a action=\"bypass -h npc_%objectId%_SkillList " + cid.getId() + "\">"+ MessageTable.Messages[1069].getExtra(1) + ClassListData.getInstance().getClass(cid.getId()).getClassName() + MessageTable.Messages[1069].getExtra(2) +"</a><br>\n"; //Update by rocknow (Class Name)
 								count++;
 							}
 							classCheck = classCheck.getParent();
@@ -119,9 +105,6 @@ public class SkillList implements IBypassHandler
 					}
 					else
 					{
-						/* Move To MessageTable For L2JTW
-						text += "No Skills.<br>";
-						*/
 						text += MessageTable.Messages[1070].getMessage() +"<br>";
 					}
 					text += "</body></html>";

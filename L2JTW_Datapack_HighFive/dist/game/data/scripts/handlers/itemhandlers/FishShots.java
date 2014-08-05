@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.itemhandlers;
 
@@ -22,7 +18,6 @@ import java.util.logging.Level;
 
 import com.l2jserver.gameserver.handler.IItemHandler;
 import com.l2jserver.gameserver.model.L2Object;
-import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.holders.SkillHolder;
@@ -52,15 +47,11 @@ public class FishShots implements IItemHandler
 		final L2ItemInstance weaponInst = activeChar.getActiveWeaponInstance();
 		final L2Weapon weaponItem = activeChar.getActiveWeaponItem();
 		
-		if ((weaponInst == null) || (weaponItem.getItemType() != L2WeaponType.FISHINGROD))
-		{
+		if (weaponInst == null || weaponItem.getItemType() != L2WeaponType.FISHINGROD)
 			return false;
-		}
 		
-		if (activeChar.isChargedShot(ShotType.FISH_SOULSHOTS))
-		{
+		if (weaponInst.getChargedFishshot()) // spirit shot is already active
 			return false;
-		}
 		
 		final long count = item.getCount();
 		final SkillHolder[] skills = item.getItem().getSkills();
@@ -71,7 +62,7 @@ public class FishShots implements IItemHandler
 			return false;
 		}
 		
-		boolean gradeCheck = item.isEtcItem() && (item.getEtcItem().getDefaultAction() == L2ActionType.fishingshot) && (weaponInst.getItem().getItemGradeSPlus() == item.getItem().getItemGradeSPlus());
+		boolean gradeCheck = item.isEtcItem() && item.getEtcItem().getDefaultAction() == L2ActionType.fishingshot && weaponInst.getItem().getItemGradeSPlus() == item.getItem().getItemGradeSPlus();
 		
 		if (!gradeCheck)
 		{
@@ -80,11 +71,9 @@ public class FishShots implements IItemHandler
 		}
 		
 		if (count < 1)
-		{
 			return false;
-		}
 		
-		activeChar.setChargedShot(ShotType.FISH_SOULSHOTS, true);
+		weaponInst.setChargedFishshot(true);
 		activeChar.destroyItemWithoutTrace("Consume", item.getObjectId(), 1, null, false);
 		L2Object oldTarget = activeChar.getTarget();
 		activeChar.setTarget(activeChar);

@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -34,7 +30,8 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 /**
  * <B>Pledge Manipulation:</B><BR>
  * <LI>With target in a character without clan:<BR>
- * //pledge create clanname <LI>With target in a clan leader:<BR>
+ * //pledge create clanname
+ * <LI>With target in a clan leader:<BR>
  * //pledge info<BR>
  * //pledge dismiss<BR>
  * //pledge setlevel level<BR>
@@ -53,9 +50,7 @@ public class AdminPledge implements IAdminCommandHandler
 		L2Object target = activeChar.getTarget();
 		L2PcInstance player = null;
 		if (target instanceof L2PcInstance)
-		{
 			player = (L2PcInstance) target;
-		}
 		else
 		{
 			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
@@ -85,9 +80,7 @@ public class AdminPledge implements IAdminCommandHandler
 				player.setClanCreateExpiryTime(0);
 				L2Clan clan = ClanTable.getInstance().createClan(player, parameter);
 				if (clan != null)
-				{
 					activeChar.sendMessage(MessageTable.Messages[1790].getExtra(1) + parameter + MessageTable.Messages[1790].getExtra(2) + player.getName());
-				}
 				else
 				{
 					player.setClanCreateExpiryTime(cet);
@@ -107,34 +100,26 @@ public class AdminPledge implements IAdminCommandHandler
 				ClanTable.getInstance().destroyClan(player.getClanId());
 				L2Clan clan = player.getClan();
 				if (clan == null)
-				{
 					activeChar.sendMessage(1791);
-				}
 				else
-				{
 					activeChar.sendMessage(1792);
-				}
 			}
 			else if (action.equals("info"))
 			{
 				activeChar.sendPacket(new GMViewPledgeInfo(player.getClan(), player));
 			}
 			else if (parameter == null)
-			{
 				activeChar.sendMessage("Usage: //pledge <setlevel|rep> <number>");
-			}
 			else if (action.equals("setlevel"))
 			{
 				int level = Integer.parseInt(parameter);
-				if ((level >= 0) && (level < 12))
+				if (level >= 0 && level < 12)
 				{
 					player.getClan().changeLevel(level);
 					activeChar.sendMessage(MessageTable.Messages[1793].getExtra(1) + level + MessageTable.Messages[1793].getExtra(2) + player.getClan().getName());
 				}
 				else
-				{
 					activeChar.sendMessage(1794);
-				}
 			}
 			else if (action.startsWith("rep"))
 			{

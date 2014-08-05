@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.usercommandhandlers;
 
@@ -24,10 +20,10 @@ import com.l2jserver.gameserver.handler.IUserCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable; // Add By L2JTW
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
- * Clan Penalty user command.
+ * Support for clan penalty user command.
  * @author Tempy
  */
 public class ClanPenalty implements IUserCommandHandler
@@ -41,55 +37,59 @@ public class ClanPenalty implements IUserCommandHandler
 	public boolean useUserCommand(int id, L2PcInstance activeChar)
 	{
 		if (id != COMMAND_IDS[0])
-		{
 			return false;
-		}
 		
 		boolean penalty = false;
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-		/* Move To MessageTable For L2JTW
-		final StringBuilder htmlContent = StringUtil.startAppend(500, "<html><body><center><table width=270 border=0 bgcolor=111111><tr><td width=170>Penalty</td><td width=100 align=center>Expiration Date</td></tr></table><table width=270 border=0><tr>");
-		*/
-		final StringBuilder htmlContent = StringUtil.startAppend(500, "<html><body><center><table width=270 border=0 bgcolor=111111><tr><td width=170>"+MessageTable.Messages[1153].getMessage()+"</td><td width=100 align=center>"+MessageTable.Messages[1154].getMessage()+"</td></tr></table><table width=270 border=0><tr>");
+		final StringBuilder htmlContent = StringUtil.startAppend(500,
+				"<html><body>" +
+				"<center><table width=270 border=0 bgcolor=111111>" +
+				"<tr><td width=170>"+MessageTable.Messages[1153].getMessage()+"</td>" +
+				"<td width=100 align=center>"+MessageTable.Messages[1154].getMessage()+"</td></tr>" +
+				"</table><table width=270 border=0><tr>"
+		);
 		
-		if (activeChar.getClanJoinExpiryTime() > System.currentTimeMillis())
-		{
-			/* Move To MessageTable For L2JTW
-			StringUtil.append(htmlContent, "<td width=170>Unable to join a clan.</td><td width=100 align=center>", format.format(activeChar.getClanJoinExpiryTime()), "</td>");
-			*/
-			StringUtil.append(htmlContent, "<td width=170>" + MessageTable.Messages[1155].getMessage() + "</td><td width=100 align=center>", format.format(activeChar.getClanJoinExpiryTime()), "</td>");
+		if (activeChar.getClanJoinExpiryTime() > System.currentTimeMillis()) {
+			StringUtil.append(htmlContent,
+					"<td width=170>"+MessageTable.Messages[1155].getMessage()+"</td>" +
+					"<td width=100 align=center>",
+					format.format(activeChar.getClanJoinExpiryTime()),
+					"</td>"
+			);
 			penalty = true;
 		}
 		
-		if (activeChar.getClanCreateExpiryTime() > System.currentTimeMillis())
-		{
-			/* Move To MessageTable For L2JTW
-			StringUtil.append(htmlContent, "<td width=170>Unable to create a clan.</td><td width=100 align=center>", format.format(activeChar.getClanCreateExpiryTime()), "</td>");
-			*/
-			StringUtil.append(htmlContent, "<td width=170>"+MessageTable.Messages[1156].getMessage()+"</td><td width=100 align=center>", format.format(activeChar.getClanCreateExpiryTime()),"</td>");
+		if (activeChar.getClanCreateExpiryTime() > System.currentTimeMillis()) {
+			StringUtil.append(htmlContent,
+					"<td width=170>"+MessageTable.Messages[1156].getMessage()+"</td>" +
+					"<td width=100 align=center>",
+					format.format(activeChar.getClanCreateExpiryTime()),
+					"</td>"
+			);
 			penalty = true;
 		}
 		
-		if ((activeChar.getClan() != null) && (activeChar.getClan().getCharPenaltyExpiryTime() > System.currentTimeMillis()))
-		{
-			/* Move To MessageTable For L2JTW
-			StringUtil.append(htmlContent, "<td width=170>Unable to invite a clan member.</td><td width=100 align=center>", format.format(activeChar.getClan().getCharPenaltyExpiryTime()), "</td>");
-			*/
-			StringUtil.append(htmlContent, "<td width=170>"+MessageTable.Messages[1157].getMessage()+"</td><td width=100 align=center>", format.format(activeChar.getClan().getCharPenaltyExpiryTime()), "</td>");
+		if (activeChar.getClan() != null && activeChar.getClan().getCharPenaltyExpiryTime() > System.currentTimeMillis()) {
+			StringUtil.append(htmlContent,
+					"<td width=170>"+MessageTable.Messages[1157].getMessage()+"</td>" +
+					"<td width=100 align=center>",
+					format.format(activeChar.getClan().getCharPenaltyExpiryTime()),
+					"</td>"
+			);
 			penalty = true;
 		}
 		
-		if (!penalty)
-		{
-			/* Move To MessageTable For L2JTW
-			htmlContent.append("<td width=170>No penalty is imposed.</td><td width=100 align=center></td>");
-			*/
-			htmlContent.append("<td width=170>"+MessageTable.Messages[1158].getMessage()+"</td><td width=100 align=center> </td>");
+		if (!penalty) {
+			htmlContent.append(
+					"<td width=170>"+MessageTable.Messages[1158].getMessage()+"</td>" +
+			"<td width=100 align=center> </td>");
 		}
 		
-		htmlContent.append("</tr></table><img src=\"L2UI.SquareWhite\" width=270 height=1></center></body></html>");
+		htmlContent.append(
+				"</tr></table><img src=\"L2UI.SquareWhite\" width=270 height=1>" +
+		"</center></body></html>");
 		
-		final NpcHtmlMessage penaltyHtml = new NpcHtmlMessage(0);
+		NpcHtmlMessage penaltyHtml = new NpcHtmlMessage(0);
 		penaltyHtml.setHtml(htmlContent.toString());
 		activeChar.sendPacket(penaltyHtml);
 		

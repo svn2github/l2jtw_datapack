@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package hellbound.Budenka;
 
@@ -35,21 +31,15 @@ public class Budenka extends Quest
 	{
 		int hellboundLevel = HellboundManager.getInstance().getLevel();
 		if (hellboundLevel < 2)
-		{
 			return "32294.htm";
-		}
-		if (hellboundLevel >= 2 && player.getInventory().getInventoryItemCount(BASIC_CERT, -1, false) > 0)
-		{
-			return "32294-basic.htm";
-		}
-		if (hellboundLevel >= 2 && player.getInventory().getInventoryItemCount(PREMIUM_CERT, -1, false) > 0)
-		{
-			return "32294-premium.htm";
-		}
-		if (hellboundLevel >= 2 && player.getInventory().getInventoryItemCount(STANDART_CERT, -1, false) > 0)
-		{
-			return "32294-standart.htm";
-		}
+		else if (hellboundLevel >= 2)
+			if (player.getInventory().getInventoryItemCount(BASIC_CERT, -1, false) > 0)
+				return "32294-basic.htm";
+			if (player.getInventory().getInventoryItemCount(PREMIUM_CERT, -1, false) > 0)
+				return "32294-premium.htm";
+			if (player.getInventory().getInventoryItemCount(STANDART_CERT, -1, false) > 0)
+				return "32294-standart.htm";
+		
 		npc.showChatWindow(player);
 		return null;
 	}

@@ -1,24 +1,10 @@
-/*
- * Copyright (C) 2004-2013 L2J DataPack
+/**
  * 
- * This file is part of L2J DataPack.
- * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.effecthandlers;
 
 import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.effects.EffectTemplate;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.effects.L2EffectType;
@@ -29,6 +15,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * @author UnAfraid
+ *
  */
 public class ManaHealPercent extends L2Effect
 {
@@ -47,37 +34,27 @@ public class ManaHealPercent extends L2Effect
 	public boolean onStart()
 	{
 		L2Character target = getEffected();
-		if ((target == null) || target.isDead() || target.isDoor())
-		{
+		if (target == null || target.isDead() || target instanceof L2DoorInstance)
 			return false;
-		}
 		StatusUpdate su = new StatusUpdate(target);
 		double amount = 0;
 		double power = calc();
 		boolean full = (power == 100.0);
 		
 		if (full)
-		{
 			amount = target.getMaxMp();
-		}
 		else
-		{
-			amount = (target.getMaxMp() * power) / 100.0;
-		}
+			amount = target.getMaxMp() * power / 100.0;
 		
 		amount = Math.min(amount, target.getMaxRecoverableMp() - target.getCurrentMp());
 		
 		// Prevent negative amounts
 		if (amount < 0)
-		{
 			amount = 0;
-		}
 		
 		// To prevent -value heals, set the value only if current mp is less than max recoverable.
 		if (target.getCurrentMp() < target.getMaxRecoverableMp())
-		{
 			target.setCurrentMp(amount + target.getCurrentMp());
-		}
 		
 		SystemMessage sm;
 		if (getEffector().getObjectId() != target.getObjectId())
@@ -86,9 +63,7 @@ public class ManaHealPercent extends L2Effect
 			sm.addCharName(getEffector());
 		}
 		else
-		{
 			sm = SystemMessage.getSystemMessage(SystemMessageId.S1_MP_RESTORED);
-		}
 		sm.addNumber((int) amount);
 		target.sendPacket(sm);
 		su.addAttribute(StatusUpdate.CUR_MP, (int) target.getCurrentMp());

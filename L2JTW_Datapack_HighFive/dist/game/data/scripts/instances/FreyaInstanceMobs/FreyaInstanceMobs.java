@@ -14,7 +14,7 @@
  */
 package instances.FreyaInstanceMobs;
 
-import ai.npc.AbstractNpcAI;
+import ai.group_template.L2AttackableAIScript;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.NpcTable;
@@ -30,11 +30,11 @@ import com.l2jserver.gameserver.model.actor.templates.L2NpcTemplate;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.skills.L2Skill;
-//import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
-//import com.l2jserver.gameserver.util.Broadcast;
+import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage2;
+import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.util.Rnd;
 
-public class FreyaInstanceMobs extends AbstractNpcAI
+public class FreyaInstanceMobs extends L2AttackableAIScript
 {
 	private static final int freyaThrone = 29177;
 	private static final int freyaSpelling = 29178;
@@ -238,8 +238,8 @@ public class FreyaInstanceMobs extends AbstractNpcAI
 	
 	private void broadcastString(int instanceId)
 	{
-		// ExShowScreenMessage sm = new ExShowScreenMessage(1801111, 3000, ExShowScreenMessage.MIDDLE_CENTER, true, false, -1, false);
-		// Broadcast.toPlayersInInstance(sm, instanceId);
+		ExShowScreenMessage2 sm = new ExShowScreenMessage2(1801111, 3000,ExShowScreenMessage2.ScreenMessageAlign.MIDDLE_CENTER, true, false, -1, false);
+		Broadcast.toPlayersInInstance(sm, instanceId);
 	}
 	
 	@Override
@@ -281,15 +281,15 @@ public class FreyaInstanceMobs extends AbstractNpcAI
 		return null;
 	}
 	
-	public FreyaInstanceMobs(String name, String descr)
+	public FreyaInstanceMobs(int questId, String name, String descr)
 	{
-		super(name, descr);
+		super(questId, name, descr);
 		int[] mobs = {archer_breathe, archer_knight, freyaSpelling, freyaStand, freyaThrone, glacier, jinia, kegor};
 		this.registerMobs(mobs);
 	}
 	
 	public static void main(String[] args)
 	{
-		new FreyaInstanceMobs(FreyaInstanceMobs.class.getSimpleName(), "instances");
+		new FreyaInstanceMobs(-1, "FreyaInstanceMobs", "instances");
 	}
 }

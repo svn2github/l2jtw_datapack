@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -31,8 +27,16 @@ import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
- * Admin comand handler for Manor System This class handles following admin commands: - manor_info = shows info about current manor state - manor_approve = approves settings for the next manor period - manor_setnext = changes manor settings to the next day's - manor_reset castle = resets all manor
- * data for specified castle (or all) - manor_setmaintenance = sets manor system under maintenance mode - manor_save = saves all manor data into database - manor_disable = disables manor system
+ * Admin comand handler for Manor System
+ * This class handles following admin commands:
+ * - manor_info = shows info about current manor state
+ * - manor_approve = approves settings for the next manor period
+ * - manor_setnext = changes manor settings to the next day's
+ * - manor_reset castle = resets all manor data for specified castle (or all)
+ * - manor_setmaintenance = sets manor system under maintenance mode
+ * - manor_save = saves all manor data into database
+ * - manor_disable = disables manor system
+ *
  * @author l3x
  */
 public class AdminManor implements IAdminCommandHandler
@@ -106,13 +110,9 @@ public class AdminManor implements IAdminCommandHandler
 			boolean mode = CastleManorManager.getInstance().isUnderMaintenance();
 			CastleManorManager.getInstance().setUnderMaintenance(!mode);
 			if (mode)
-			{
 				activeChar.sendMessage(1752);
-			}
 			else
-			{
 				activeChar.sendMessage(1753);
-			}
 			showMainPage(activeChar);
 		}
 		else if (command.equals("admin_manor_save"))
@@ -126,13 +126,9 @@ public class AdminManor implements IAdminCommandHandler
 			boolean mode = CastleManorManager.getInstance().isDisabled();
 			CastleManorManager.getInstance().setDisabled(!mode);
 			if (mode)
-			{
 				activeChar.sendMessage(1755);
-			}
 			else
-			{
 				activeChar.sendMessage(1756);
-			}
 			showMainPage(activeChar);
 		}
 		
@@ -155,9 +151,7 @@ public class AdminManor implements IAdminCommandHandler
 		mins -= hours * 60;
 		
 		if (hours > 0)
-		{
 			s += hours + ":";
-		}
 		s += mins + ":";
 		s += secs;
 		return s;
@@ -205,12 +199,23 @@ public class AdminManor implements IAdminCommandHandler
 												"<tr><td></td><td>"+MessageTable.Messages[1772].getMessage()+"</td><td>"+MessageTable.Messages[1773].getMessage()+"</td></tr>"
 		);
 		
-		for (Castle c : CastleManager.getInstance().getCastles())
-		{
-			StringUtil.append(replyMSG, "<tr><td>", c.getName(), "</td>" + "<td>", String.valueOf(c.getManorCost(CastleManorManager.PERIOD_CURRENT)), "a</td>" + "<td>", String.valueOf(c.getManorCost(CastleManorManager.PERIOD_NEXT)), "a</td>" + "</tr>");
+		for (Castle c : CastleManager.getInstance().getCastles()) {
+			StringUtil.append(replyMSG,
+					"<tr><td>",
+					c.getName(),
+					"</td>" +
+					"<td>",
+					String.valueOf(c.getManorCost(CastleManorManager.PERIOD_CURRENT)),
+					"a</td>" +
+					"<td>",
+					String.valueOf(c.getManorCost(CastleManorManager.PERIOD_NEXT)),
+					"a</td>" +
+			"</tr>");
 		}
 		
-		replyMSG.append("</table><br>" + "</body></html>");
+		replyMSG.append(
+				"</table><br>" +
+		"</body></html>");
 		
 		adminReply.setHtml(replyMSG.toString());
 		activeChar.sendPacket(adminReply);

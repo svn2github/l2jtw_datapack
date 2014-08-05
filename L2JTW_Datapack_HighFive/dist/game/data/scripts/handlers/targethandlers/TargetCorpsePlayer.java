@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.targethandlers;
 
@@ -30,7 +26,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PetInstance;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.model.skills.targets.L2TargetType;
-import com.l2jserver.gameserver.model.zone.ZoneId;
 import com.l2jserver.gameserver.network.SystemMessageId;
 
 /**
@@ -42,39 +37,27 @@ public class TargetCorpsePlayer implements ITargetTypeHandler
 	public L2Object[] getTargetList(L2Skill skill, L2Character activeChar, boolean onlyFirst, L2Character target)
 	{
 		List<L2Character> targetList = new FastList<>();
-		if ((target != null) && target.isDead())
+		if (target != null && target.isDead())
 		{
 			final L2PcInstance player;
-			if (activeChar.isPlayer())
-			{
-				player = activeChar.getActingPlayer();
-			}
+			if (activeChar instanceof L2PcInstance)
+				player = (L2PcInstance) activeChar;
 			else
-			{
 				player = null;
-			}
 			
 			final L2PcInstance targetPlayer;
-			if (target.isPlayer())
-			{
-				targetPlayer = target.getActingPlayer();
-			}
+			if (target instanceof L2PcInstance)
+				targetPlayer = (L2PcInstance) target;
 			else
-			{
 				targetPlayer = null;
-			}
 			
 			final L2PetInstance targetPet;
-			if (target.isPet())
-			{
+			if (target instanceof L2PetInstance)
 				targetPet = (L2PetInstance) target;
-			}
 			else
-			{
 				targetPet = null;
-			}
 			
-			if ((player != null) && ((targetPlayer != null) || (targetPet != null)))
+			if (player != null && (targetPlayer != null || targetPet != null))
 			{
 				boolean condGood = true;
 				
@@ -83,7 +66,7 @@ public class TargetCorpsePlayer implements ITargetTypeHandler
 					if (targetPlayer != null)
 					{
 						// check target is not in a active siege zone
-						if (targetPlayer.isInsideZone(ZoneId.SIEGE) && !targetPlayer.isInSiege())
+						if (targetPlayer.isInsideZone(L2Character.ZONE_SIEGE) && !targetPlayer.isInSiege())
 						{
 							condGood = false;
 							activeChar.sendPacket(SystemMessageId.CANNOT_BE_RESURRECTED_DURING_SIEGE);
@@ -97,13 +80,9 @@ public class TargetCorpsePlayer implements ITargetTypeHandler
 						if (targetPlayer.isReviveRequested())
 						{
 							if (targetPlayer.isRevivingPet())
-							{
 								player.sendPacket(SystemMessageId.MASTER_CANNOT_RES); // While a pet is attempting to resurrect, it cannot help in resurrecting its master.
-							}
 							else
-							{
 								player.sendPacket(SystemMessageId.RES_HAS_ALREADY_BEEN_PROPOSED); // Resurrection is already been proposed.
-							}
 							condGood = false;
 						}
 					}
@@ -114,13 +93,9 @@ public class TargetCorpsePlayer implements ITargetTypeHandler
 							if (targetPet.getOwner().isReviveRequested())
 							{
 								if (targetPet.getOwner().isRevivingPet())
-								{
 									player.sendPacket(SystemMessageId.RES_HAS_ALREADY_BEEN_PROPOSED); // Resurrection is already been proposed.
-								}
 								else
-								{
 									player.sendPacket(SystemMessageId.CANNOT_RES_PET2); // A pet cannot be resurrected while it's owner is in the process of resurrecting.
-								}
 								condGood = false;
 							}
 						}
@@ -134,10 +109,7 @@ public class TargetCorpsePlayer implements ITargetTypeHandler
 						targetList.add(target);
 						return targetList.toArray(new L2Object[targetList.size()]);
 					}
-					return new L2Character[]
-					{
-						target
-					};
+					return new L2Character[] { target };
 				}
 			}
 		}

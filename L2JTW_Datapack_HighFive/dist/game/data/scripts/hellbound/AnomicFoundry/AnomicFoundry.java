@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package hellbound.AnomicFoundry;
 
@@ -25,6 +21,7 @@ import javolution.util.FastMap;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SpawnTable;
 import com.l2jserver.gameserver.instancemanager.HellboundManager;
+import com.l2jserver.gameserver.instancemanager.WalkingManager;
 import com.l2jserver.gameserver.model.L2CharPosition;
 import com.l2jserver.gameserver.model.L2Spawn;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
@@ -51,44 +48,19 @@ public class AnomicFoundry extends Quest
 	private static int[][] SPAWNS =
 	{
 		{
-			LESSER_EVIL,
-			27883,
-			248613,
-			-3209,
-			-13248,
-			5
+			LESSER_EVIL, 27883, 248613, -3209, -13248, 5
 		},
 		{
-			LESSER_EVIL,
-			26142,
-			246442,
-			-3216,
-			7064,
-			5
+			LESSER_EVIL, 26142, 246442, -3216, 7064, 5
 		},
 		{
-			LESSER_EVIL,
-			27335,
-			246217,
-			-3668,
-			-7992,
-			5
+			LESSER_EVIL, 27335, 246217, -3668, -7992, 5
 		},
 		{
-			LESSER_EVIL,
-			28486,
-			245913,
-			-3698,
-			0,
-			10
+			LESSER_EVIL, 28486, 245913, -3698, 0, 10
 		},
 		{
-			GREATER_EVIL,
-			28684,
-			244118,
-			-3700,
-			-22560,
-			10
+			GREATER_EVIL, 28684, 244118, -3700, -22560, 10
 		}
 	};
 	
@@ -98,11 +70,7 @@ public class AnomicFoundry extends Quest
 	
 	private final int[] _spawned =
 	{
-		0,
-		0,
-		0,
-		0,
-		0
+		0, 0, 0, 0, 0
 	};
 	private final Map<Integer, Integer> _atkIndex = new FastMap<>();
 	
@@ -164,25 +132,24 @@ public class AnomicFoundry extends Quest
 	}
 	
 	@Override
-	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isSummon)
+	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
+		// Announcements.getInstance().announceToAll("Aggro Range triggered");
 		if (getRandom(10000) < 2000)
 		{
-			requestHelp(npc, player, 500, FOREMAN);
-			requestHelp(npc, player, 500, LESSER_EVIL);
-			requestHelp(npc, player, 500, GREATER_EVIL);
+			requestHelp(npc, player, 500);
 		}
 		
-		return super.onAggroRangeEnter(npc, player, isSummon);
+		return super.onAggroRangeEnter(npc, player, isPet);
 	}
 	
 	@Override
-	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isSummon, L2Skill skill)
+	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
 	{
 		int atkIndex = _atkIndex.containsKey(npc.getObjectId()) ? _atkIndex.get(npc.getObjectId()) : 0;
 		if (atkIndex == 0)
 		{
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getNpcId(), NpcStringId.ENEMY_INVASION_HURRY_UP));
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), NpcStringId.ENEMY_INVASION_HURRY_UP));
 			cancelQuestTimer("return_laborer", npc, null);
 			startQuestTimer("return_laborer", 60000, npc, null);
 			
@@ -200,20 +167,19 @@ public class AnomicFoundry extends Quest
 		{
 			atkIndex++;
 			_atkIndex.put(npc.getObjectId(), atkIndex);
-			requestHelp(npc, attacker, 1000 * atkIndex, FOREMAN);
-			requestHelp(npc, attacker, 1000 * atkIndex, LESSER_EVIL);
-			requestHelp(npc, attacker, 1000 * atkIndex, GREATER_EVIL);
+			requestHelp(npc, attacker, 1000 * atkIndex);
+			
 			if (getRandom(10) < 1)
 			{
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition((npc.getX() + getRandom(-800, 800)), (npc.getY() + getRandom(-800, 800)), npc.getZ(), npc.getHeading()));
 			}
 		}
 		
-		return super.onAttack(npc, attacker, damage, isSummon, skill);
+		return super.onAttack(npc, attacker, damage, isPet, skill);
 	}
 	
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (getSpawnGroup(npc) >= 0)
 		{
@@ -225,7 +191,7 @@ public class AnomicFoundry extends Quest
 		{
 			if (getRandom(10000) < 8000)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getNpcId(), NpcStringId.PROCESS_SHOULDNT_BE_DELAYED_BECAUSE_OF_ME));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), NpcStringId.PROCESS_SHOULDNT_BE_DELAYED_BECAUSE_OF_ME));
 				if (respawnTime < respawnMax)
 				{
 					respawnTime += 10000;
@@ -238,7 +204,7 @@ public class AnomicFoundry extends Quest
 			_atkIndex.remove(npc.getObjectId());
 		}
 		
-		return super.onKill(npc, killer, isSummon);
+		return super.onKill(npc, killer, isPet);
 	}
 	
 	@Override
@@ -252,15 +218,21 @@ public class AnomicFoundry extends Quest
 				_spawned[getSpawnGroup(npc)]++;
 			}
 			
+			// Announcements.getInstance().announceToAll("Spawned Evil in group " + Integer.toString(getSpawnGroup(npc)) + ". Total spawned = " + Integer.toString(_spawned[getSpawnGroup(npc)]));
+			
 			if (npc.getNpcId() == LABORER)
 			{
 				npc.setIsNoRndWalk(true);
 			}
 		}
 		
-		else
+		if ((getSpawnGroup(npc) >= 0) && (getSpawnGroup(npc) <= 2))
 		{
-			if ((getSpawnGroup(npc) >= 0) && (getSpawnGroup(npc) <= 2))
+			if (!npc.isTeleporting())
+			{
+				WalkingManager.getInstance().startMoving(npc, getRoute(npc));
+			}
+			else
 			{
 				_spawned[getSpawnGroup(npc)]--;
 				SpawnTable.getInstance().deleteSpawn(npc.getSpawn(), false);
@@ -270,7 +242,15 @@ public class AnomicFoundry extends Quest
 					addSpawn(SPAWNS[3][0], SPAWNS[3][1], SPAWNS[3][2], SPAWNS[3][3], SPAWNS[3][4], false, 0, false);
 				}
 			}
-			else if (getSpawnGroup(npc) == 3)
+		}
+		
+		else if (getSpawnGroup(npc) == 3)
+		{
+			if (!npc.isTeleporting())
+			{
+				WalkingManager.getInstance().startMoving(npc, getRoute(npc));
+			}
+			else
 			{
 				// Announcements.getInstance().announceToAll("Greater spawn is added");
 				startQuestTimer("make_spawn_2", respawnTime * 2, null, null);
@@ -278,6 +258,11 @@ public class AnomicFoundry extends Quest
 				SpawnTable.getInstance().deleteSpawn(npc.getSpawn(), false);
 				npc.scheduleDespawn(100);
 			}
+		}
+		
+		else if ((getSpawnGroup(npc) == 4) && !npc.isTeleporting())
+		{
+			WalkingManager.getInstance().startMoving(npc, getRoute(npc));
 		}
 		
 		return super.onSpawn(npc);
@@ -299,15 +284,25 @@ public class AnomicFoundry extends Quest
 		return -1;
 	}
 	
-	// Zoey76: TODO: This should be done with onFactionCall(..)
-	private static void requestHelp(L2Npc requester, L2PcInstance agressor, int range, int helperId)
+	private static int getRoute(L2Npc npc)
 	{
-		for (L2Spawn spawn : SpawnTable.getInstance().getSpawns(helperId))
+		final int ret = getSpawnGroup(npc);
+		
+		return ret >= 0 ? ret + 6 : -1;
+	}
+	
+	private static void requestHelp(L2Npc requester, L2PcInstance agressor, int range)
+	{
+		for (L2Spawn npcSpawn : SpawnTable.getInstance().getSpawnTable())
 		{
-			final L2MonsterInstance monster = (L2MonsterInstance) spawn.getLastSpawn();
-			if ((monster != null) && (agressor != null) && !monster.isDead() && monster.isInsideRadius(requester, range, true, false) && !agressor.isDead())
+			if ((npcSpawn.getNpcid() == FOREMAN) || (npcSpawn.getNpcid() == LESSER_EVIL) || (npcSpawn.getNpcid() == GREATER_EVIL))
 			{
-				monster.addDamageHate(agressor, 0, 1000);
+				final L2MonsterInstance monster = (L2MonsterInstance) npcSpawn.getLastSpawn();
+				
+				if ((monster != null) && !monster.isDead() && monster.isInsideRadius(requester, range, true, false) && (agressor != null) && !agressor.isDead())
+				{
+					monster.addDamageHate(agressor, 0, 1000);
+				}
 			}
 		}
 	}

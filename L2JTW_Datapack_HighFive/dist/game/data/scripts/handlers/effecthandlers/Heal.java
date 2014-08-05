@@ -1,25 +1,24 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.effecthandlers;
 
-import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.L2Summon;
+import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.effects.EffectTemplate;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.effects.L2EffectType;
@@ -53,43 +52,32 @@ public class Heal extends L2Effect
 	{
 		L2Character target = getEffected();
 		L2Character activeChar = getEffector();
-		if ((target == null) || target.isDead() || target.isDoor())
-		{
+		if (target == null || target.isDead() || target instanceof L2DoorInstance)
 			return false;
-		}
 		
 		double amount = calc();
+		final L2ItemInstance weaponInst = activeChar.getActiveWeaponInstance();
 		double staticShotBonus = 0;
 		int mAtkMul = 1;
-		boolean sps = getSkill().isMagic() && activeChar.isChargedShot(ShotType.SPIRITSHOTS);
-		boolean bss = getSkill().isMagic() && activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS);
 		
-		if (((sps || bss) && (activeChar.isPlayer() && activeChar.getActingPlayer().isMageClass())) || activeChar.isSummon())
+		if (weaponInst != null && weaponInst.getChargedSpiritshot() != L2ItemInstance.CHARGED_NONE)
 		{
-			staticShotBonus = getSkill().getMpConsume(); // static bonus for spiritshots
-			
-			if (bss)
+			if (activeChar instanceof L2PcInstance && ((L2PcInstance) activeChar).isMageClass())
 			{
-				mAtkMul = 4;
-				staticShotBonus *= 2.4; // static bonus for blessed spiritshots
+				staticShotBonus = getSkill().getMpConsume(); // static bonus for spiritshots
+				
+				if (weaponInst.getChargedSpiritshot() == L2ItemInstance.CHARGED_BLESSED_SPIRITSHOT)
+				{
+					mAtkMul = 4;
+					staticShotBonus *= 2.4; // static bonus for blessed spiritshots
+				}
+				else
+					mAtkMul = 2;
 			}
 			else
 			{
-				mAtkMul = 2;
-			}
-		}
-		else if ((sps || bss) && activeChar.isNpc())
-		{
-			staticShotBonus = 2.4 * getSkill().getMpConsume(); // always blessed spiritshots
-			mAtkMul = 4;
-		}
-		else
-		{
-			// no static bonus
-			// grade dynamic bonus
-			final L2ItemInstance weaponInst = activeChar.getActiveWeaponInstance();
-			if (weaponInst != null)
-			{
+				// no static bonus
+				// grade dynamic bonus
 				switch (weaponInst.getItem().getItemGrade())
 				{
 					case L2Item.CRYSTAL_S84:
@@ -99,16 +87,36 @@ public class Heal extends L2Effect
 						mAtkMul = 2;
 						break;
 				}
+				// shot dynamic bonus
+				if (weaponInst.getChargedSpiritshot() == L2ItemInstance.CHARGED_BLESSED_SPIRITSHOT)
+					mAtkMul *= 4; // 16x/8x/4x s84/s80/other
+				else
+					mAtkMul += 1; // 5x/3x/1x s84/s80/other
 			}
-			// shot dynamic bonus
-			if (bss)
+			
+			weaponInst.setChargedSpiritshot(L2ItemInstance.CHARGED_NONE);
+		}
+		// If there is no weapon equipped, check for an active summon.
+		else if (activeChar instanceof L2Summon && ((L2Summon) activeChar).getChargedSpiritShot() != L2ItemInstance.CHARGED_NONE)
+		{
+			staticShotBonus = getSkill().getMpConsume(); // static bonus for spiritshots
+			
+			if (((L2Summon) activeChar).getChargedSpiritShot() == L2ItemInstance.CHARGED_BLESSED_SPIRITSHOT)
 			{
-				mAtkMul *= 4; // 16x/8x/4x s84/s80/other
+				staticShotBonus *= 2.4; // static bonus for blessed spiritshots
+				mAtkMul = 4;
 			}
 			else
-			{
-				mAtkMul += 1; // 5x/3x/1x s84/s80/other
-			}
+				mAtkMul = 2;
+			
+			((L2Summon) activeChar).setChargedSpiritShot(L2ItemInstance.CHARGED_NONE);
+		}
+		else if (activeChar instanceof L2Npc && ((L2Npc) activeChar)._spiritshotcharged)
+		{
+			staticShotBonus = 2.4 * getSkill().getMpConsume(); // always blessed spiritshots
+			mAtkMul = 4;
+			
+			((L2Npc) activeChar)._spiritshotcharged = false;
 		}
 		
 		if (!getSkill().isStaticHeal())
@@ -119,31 +127,25 @@ public class Heal extends L2Effect
 			amount *= activeChar.calcStat(Stats.HEAL_PROFICIENCY, 100, null, null) / 100;
 			// Extra bonus (since CT1.5)
 			if (!getSkill().isStatic())
-			{
 				amount += target.calcStat(Stats.HEAL_STATIC_BONUS, 0, null, null);
-			}
 			
 			// Heal critic, since CT2.3 Gracia Final
 			if (!getSkill().isStatic() && Formulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill())))
-			{
 				amount *= 3;
-			}
 		}
 		
 		amount = Math.min(amount, target.getMaxRecoverableHp() - target.getCurrentHp());
 		
 		// Prevent negative amounts
 		if (amount < 0)
-		{
 			amount = 0;
-		}
 		
 		target.setCurrentHp(amount + target.getCurrentHp());
 		StatusUpdate su = new StatusUpdate(target);
 		su.addAttribute(StatusUpdate.CUR_HP, (int) target.getCurrentHp());
 		target.sendPacket(su);
 		
-		if (target.isPlayer())
+		if (target instanceof L2PcInstance)
 		{
 			if (getSkill().getId() == 4051)
 			{
@@ -152,7 +154,7 @@ public class Heal extends L2Effect
 			}
 			else
 			{
-				if (activeChar.isPlayer() && (activeChar != target))
+				if (activeChar instanceof L2PcInstance && activeChar != target)
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.S2_HP_RESTORED_BY_C1);
 					sm.addString(activeChar.getName());
@@ -167,7 +169,7 @@ public class Heal extends L2Effect
 				}
 			}
 		}
-		activeChar.setChargedShot(bss ? ShotType.BLESSED_SPIRITSHOTS : ShotType.SPIRITSHOTS, false);
+		
 		return true;
 	}
 	

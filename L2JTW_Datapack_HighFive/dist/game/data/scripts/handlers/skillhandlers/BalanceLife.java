@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.skillhandlers;
 
@@ -46,38 +42,28 @@ public class BalanceLife implements ISkillHandler
 		ISkillHandler handler = SkillHandler.getInstance().getHandler(L2SkillType.BUFF);
 		
 		if (handler != null)
-		{
 			handler.useSkill(activeChar, skill, targets);
-		}
 		
 		L2PcInstance player = null;
-		if (activeChar.isPlayer())
-		{
-			player = activeChar.getActingPlayer();
-		}
+		if (activeChar instanceof L2PcInstance)
+			player = (L2PcInstance) activeChar;
 		
 		double fullHP = 0;
 		double currentHPs = 0;
 		
-		for (L2Character target : (L2Character[]) targets)
+		for (L2Character target: (L2Character[]) targets)
 		{
 			// We should not heal if char is dead/
-			if ((target == null) || target.isDead())
-			{
+			if (target == null || target.isDead())
 				continue;
-			}
 			
 			// Player holding a cursed weapon can't be healed and can't heal
 			if (target != activeChar)
 			{
-				if (target.isPlayer() && target.getActingPlayer().isCursedWeaponEquipped())
-				{
+				if (target instanceof L2PcInstance && ((L2PcInstance) target).isCursedWeaponEquipped())
 					continue;
-				}
-				else if ((player != null) && player.isCursedWeaponEquipped())
-				{
+				else if (player != null && player.isCursedWeaponEquipped())
 					continue;
-				}
 			}
 			
 			fullHP += target.getMaxHp();
@@ -86,24 +72,18 @@ public class BalanceLife implements ISkillHandler
 		
 		double percentHP = currentHPs / fullHP;
 		
-		for (L2Character target : (L2Character[]) targets)
+		for (L2Character target: (L2Character[]) targets)
 		{
-			if ((target == null) || target.isDead())
-			{
+			if (target == null || target.isDead())
 				continue;
-			}
 			
 			// Player holding a cursed weapon can't be healed and can't heal
 			if (target != activeChar)
 			{
-				if (target.isPlayer() && target.getActingPlayer().isCursedWeaponEquipped())
-				{
+				if (target instanceof L2PcInstance && ((L2PcInstance) target).isCursedWeaponEquipped())
 					continue;
-				}
-				else if ((player != null) && player.isCursedWeaponEquipped())
-				{
+				else if (player != null && player.isCursedWeaponEquipped())
 					continue;
-				}
 			}
 			
 			double newHP = target.getMaxHp() * percentHP;
@@ -112,13 +92,10 @@ public class BalanceLife implements ISkillHandler
 			{
 				// The heal will be blocked if the current hp passes the limit
 				if (target.getCurrentHp() > target.getMaxRecoverableHp())
-				{
 					newHP = target.getCurrentHp();
-				}
+				// Else dont let the newHP pass the limit
 				else if (newHP > target.getMaxRecoverableHp())
-				{
 					newHP = target.getMaxRecoverableHp();
-				}
 			}
 			
 			target.setCurrentHp(newHP);

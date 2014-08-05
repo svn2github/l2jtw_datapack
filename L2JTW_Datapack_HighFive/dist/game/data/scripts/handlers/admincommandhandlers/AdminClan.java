@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -48,8 +44,7 @@ public class AdminClan implements IAdminCommandHandler
 {
 	private static final String[] ADMIN_COMMANDS =
 	{
-		"admin_clan_info",
-		"admin_clan_changeleader"
+		"admin_clan_info", "admin_clan_changeleader"
 	};
 	
 	@Override
@@ -179,14 +174,16 @@ public class AdminClan implements IAdminCommandHandler
 					exLeader.setClan(clan);
 					exLeader.setClanPrivileges(L2Clan.CP_NOTHING);
 					exLeader.broadcastUserInfo();
-					exLeader.setPledgeClass(L2ClanMember.calculatePledgeClass(exLeader));
+					exLeader.setPledgeClass(exLeader.getClan().getClanMember(exLeader.getObjectId()).calculatePledgeClass(exLeader));
 					exLeader.broadcastUserInfo();
 					exLeader.checkItemRestriction();
 				}
 				else if (clan.getLeaderId() > 0)
 				{
-					try (Connection con = L2DatabaseFactory.getInstance().getConnection())
+					Connection con = null;
+					try
 					{
+						con = L2DatabaseFactory.getInstance().getConnection();
 						PreparedStatement statement = con.prepareStatement("UPDATE characters SET clan_privs = ? WHERE charId = ?");
 						statement.setInt(1, L2Clan.CP_NOTHING);
 						statement.setInt(2, clan.getLeaderId());
@@ -202,13 +199,17 @@ public class AdminClan implements IAdminCommandHandler
 					{
 						activeChar.sendPacket(SystemMessageId.NOT_WORKING_PLEASE_TRY_AGAIN_LATER);
 					}
+					finally
+					{
+						L2DatabaseFactory.close(con);
+					}
 				}
 				
 				clan.setLeader(member);
 				clan.updateClanInDB();
 				
 				player.setClan(clan);
-				player.setPledgeClass(L2ClanMember.calculatePledgeClass(player));
+				player.setPledgeClass(member.calculatePledgeClass(player));
 				player.setClanPrivileges(L2Clan.CP_ALL);
 				
 				if (clan.getLevel() >= SiegeManager.getInstance().getSiegeClanMinLevel())

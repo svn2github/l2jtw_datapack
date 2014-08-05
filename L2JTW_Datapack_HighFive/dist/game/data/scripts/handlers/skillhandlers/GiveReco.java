@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
- * 
- * This file is part of L2J DataPack.
- * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.skillhandlers;
 
@@ -44,21 +40,19 @@ public class GiveReco implements ISkillHandler
 	{
 		for (L2Object obj : targets)
 		{
-			if (obj.isPlayer())
+			if (obj instanceof L2PcInstance)
 			{
-				L2PcInstance target = obj.getActingPlayer();
-				int power = (int) skill.getPower();
-				int reco = target.getRecomHave();
+				L2PcInstance target = (L2PcInstance) obj;
+				int power = (int)skill.getPower();
+				int reco  = target.getRecomHave();
 				
-				if ((reco + power) >= 255)
+				if(reco + power >= 255)
+					power = 255-reco;
+
+				if(power > 0)
 				{
-					power = 255 - reco;
-				}
-				
-				if (power > 0)
-				{
-					target.setRecomHave(reco + power);
-					
+					target.setRecomHave(reco+power);
+
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_OBTAINED_S1_RECOMMENDATIONS);
 					sm.addNumber(power);
 					target.sendPacket(sm);
@@ -66,9 +60,7 @@ public class GiveReco implements ISkillHandler
 					target.sendPacket(new ExVoteSystemInfo(target));
 				}
 				else
-				{
 					target.sendPacket(SystemMessageId.NOTHING_HAPPENED);
-				}
 			}
 		}
 	}

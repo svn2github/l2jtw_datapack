@@ -1,24 +1,21 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.effecthandlers;
 
-import com.l2jserver.gameserver.model.effects.EffectFlag;
+import com.l2jserver.gameserver.model.CharEffectList;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.effects.EffectTemplate;
 import com.l2jserver.gameserver.model.effects.L2Effect;
 import com.l2jserver.gameserver.model.effects.L2EffectType;
@@ -44,9 +41,9 @@ public class CharmOfCourage extends L2Effect
 	@Override
 	public boolean onStart()
 	{
-		if (getEffected().isPlayer())
+		if (getEffected() instanceof L2PcInstance)
 		{
-			getEffected().broadcastPacket(new EtcStatusUpdate(getEffected().getActingPlayer()));
+			getEffected().broadcastPacket(new EtcStatusUpdate((L2PcInstance) getEffected()));
 			return true;
 		}
 		return false;
@@ -55,9 +52,9 @@ public class CharmOfCourage extends L2Effect
 	@Override
 	public void onExit()
 	{
-		if (getEffected().isPlayer())
+		if (getEffected() instanceof L2PcInstance)
 		{
-			getEffected().broadcastPacket(new EtcStatusUpdate(getEffected().getActingPlayer()));
+			getEffected().broadcastPacket(new EtcStatusUpdate((L2PcInstance) getEffected()));
 		}
 	}
 	
@@ -70,6 +67,6 @@ public class CharmOfCourage extends L2Effect
 	@Override
 	public int getEffectFlags()
 	{
-		return EffectFlag.CHARM_OF_COURAGE.getMask();
+		return CharEffectList.EFFECT_FLAG_CHARM_OF_COURAGE;
 	}
 }

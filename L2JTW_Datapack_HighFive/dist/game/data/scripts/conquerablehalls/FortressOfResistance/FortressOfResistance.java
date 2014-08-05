@@ -1,33 +1,26 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package conquerablehalls.FortressOfResistance;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
+import gnu.trove.map.hash.TIntLongHashMap;
 
 import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.datatables.ClanTable;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.model.L2Clan;
 import com.l2jserver.gameserver.model.L2Spawn;
-import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.clanhall.ClanHallSiegeEngine;
@@ -45,23 +38,22 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	private final int MESSENGER = 35382;
 	private final int BLOODY_LORD_NURKA = 35375;
 	
-	private final Location[] NURKA_COORDS =
+	private final int[][] NURKA_COORDS =
 	{
-		new Location(45109, 112124, -1900), // 30%
-		new Location(47653, 110816, -2110), // 40%
-		new Location(47247, 109396, -2000)
-	// 30%
+		{45109,112124,-1900},	// 30%
+		{47653,110816,-2110},	// 40%
+		{47247,109396,-2000}	// 30%
 	};
 	
-	private L2Spawn _nurka;
-	private final Map<Integer, Long> _damageToNurka = new HashMap<>();
+	private L2Spawn _nurka; 
+	private TIntLongHashMap _damageToNurka = new TIntLongHashMap();
 	private NpcHtmlMessage _messengerMsg;
 	
 	/**
 	 * @param questId
 	 * @param name
 	 * @param descr
-	 * @param hallId
+	 * @param hallId 
 	 */
 	public FortressOfResistance(int questId, String name, String descr, final int hallId)
 	{
@@ -77,15 +69,24 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 			_nurka.setAmount(1);
 			_nurka.setRespawnDelay(10800);
 			
+			int[] coords = NURKA_COORDS[0];
 			/*
-			 * int chance = Rnd.get(100) + 1; if(chance <= 30) coords = NURKA_COORDS[0]; else if(chance > 30 && chance <= 70) coords = NURKA_COORDS[1]; else coords = NURKA_COORDS[2];
-			 */
+			int chance = Rnd.get(100) + 1;
+			if(chance <= 30)
+				coords = NURKA_COORDS[0];
+			else if(chance > 30 && chance <= 70)
+				coords = NURKA_COORDS[1];
+			else
+				coords = NURKA_COORDS[2];
+			*/
 			
-			_nurka.setLocation(NURKA_COORDS[0]);
+			_nurka.setLocx(coords[0]);
+			_nurka.setLocy(coords[1]);
+			_nurka.setLocz(coords[2]);
 		}
-		catch (Exception e)
+		catch(Exception e)
 		{
-			_log.warning(getName() + ": Couldnt set the Bloody Lord Nurka spawn");
+			_log.warning(getName()+": Couldnt set the Bloody Lord Nurka spawn");
 			e.printStackTrace();
 		}
 	}
@@ -93,11 +94,11 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	private final void buildMessengerMessage()
 	{
 		String html = HtmCache.getInstance().getHtm(null, "data/scripts/conquerablehalls/FortressOfResistance/partisan_ordery_brakel001.htm");
-		if (html != null)
+		if(html != null)
 		{
 			_messengerMsg = new NpcHtmlMessage(5);
 			_messengerMsg.setHtml(html);
-			_messengerMsg.replace("%nextSiege%", Util.formatDate(_hall.getSiegeDate().getTime(), "yyyy-MM-dd HH:mm:ss"));
+			_messengerMsg.replace("%nextSiege%", Util.formatDate(_hall.getSiegeDate().getTime(),"yyyy-MM-dd HH:mm:ss"));
 		}
 	}
 	
@@ -109,17 +110,15 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	}
 	
 	@Override
-	public String onAttack(L2Npc npc, L2PcInstance player, int damage, boolean isSummon)
+	public String onAttack(L2Npc npc, L2PcInstance player, int damage, boolean isPet)
 	{
-		if (!_hall.isInSiege())
-		{
+		if(!_hall.isInSiege())
 			return null;
-		}
 		
 		int clanId = player.getClanId();
-		if (clanId > 0)
+		if(clanId > 0)
 		{
-			long clanDmg = (_damageToNurka.containsKey(clanId)) ? _damageToNurka.get(clanId) + damage : damage;
+			long clanDmg = _damageToNurka.get(clanId) + damage;
 			_damageToNurka.put(clanId, clanDmg);
 			
 		}
@@ -127,16 +126,14 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	}
 	
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
-		if (!_hall.isInSiege())
-		{
+		if(!_hall.isInSiege())
 			return null;
-		}
 		
 		_missionAccomplished = true;
 		
-		synchronized (this)
+		synchronized(this)
 		{
 			npc.getSpawn().stopRespawn();
 			npc.deleteMe();
@@ -151,12 +148,12 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	{
 		int winnerId = 0;
 		long counter = 0;
-		for (Entry<Integer, Long> e : _damageToNurka.entrySet())
-		{
-			long dam = e.getValue();
-			if (dam > counter)
+		for(int i : _damageToNurka.keys())
+		{	
+			long dam = _damageToNurka.get(i);
+			if(dam > counter)
 			{
-				winnerId = e.getKey();
+				winnerId = i;
 				counter = dam;
 			}
 		}
@@ -174,9 +171,10 @@ public final class FortressOfResistance extends ClanHallSiegeEngine
 	{
 		buildMessengerMessage();
 	}
-	
+		
 	public static void main(String[] args)
 	{
 		new FortressOfResistance(-1, qn, "conquerablehalls", FORTRESS_RESSISTANCE);
 	}
+
 }

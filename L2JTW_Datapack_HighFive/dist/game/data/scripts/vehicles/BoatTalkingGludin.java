@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package vehicles;
 
@@ -180,15 +176,11 @@ public class BoatTalkingGludin implements Runnable
 					if (BoatManager.getInstance().dockBusy(BoatManager.GLUDIN_HARBOR))
 					{
 						if (_shoutCount == 0)
-						{
 							BoatManager.getInstance().broadcastPacket(GLUDIN_DOCK[0], TALKING_DOCK[0], BUSY_GLUDIN);
-						}
 						
 						_shoutCount++;
 						if (_shoutCount > 35)
-						{
 							_shoutCount = 0;
-						}
 						
 						ThreadPoolManager.getInstance().scheduleGeneral(this, 5000);
 						return;
@@ -236,15 +228,11 @@ public class BoatTalkingGludin implements Runnable
 					if (BoatManager.getInstance().dockBusy(BoatManager.TALKING_ISLAND))
 					{
 						if (_shoutCount == 0)
-						{
 							BoatManager.getInstance().broadcastPacket(TALKING_DOCK[0], GLUDIN_DOCK[0], BUSY_TALKING);
-						}
 						
 						_shoutCount++;
 						if (_shoutCount > 35)
-						{
 							_shoutCount = 0;
-						}
 						
 						ThreadPoolManager.getInstance().scheduleGeneral(this, 5000);
 						return;
@@ -261,9 +249,7 @@ public class BoatTalkingGludin implements Runnable
 			_shoutCount = 0;
 			_cycle++;
 			if (_cycle > 17)
-			{
 				_cycle = 0;
-			}
 		}
 		catch (Exception e)
 		{

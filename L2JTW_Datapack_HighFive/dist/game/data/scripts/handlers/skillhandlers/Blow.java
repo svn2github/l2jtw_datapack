@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.skillhandlers;
 
@@ -25,10 +21,12 @@ import java.util.logging.Logger;
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.handler.ISkillHandler;
 import com.l2jserver.gameserver.model.L2Object;
-import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.effects.L2Effect;
+import com.l2jserver.gameserver.model.items.instance.L2ItemInstance;
+import com.l2jserver.gameserver.model.items.type.L2WeaponType;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.model.stats.BaseStats;
@@ -38,7 +36,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
- * @author Steuf
+ * @author  Steuf
  */
 public class Blow implements ISkillHandler
 {
@@ -48,25 +46,18 @@ public class Blow implements ISkillHandler
 	{
 		L2SkillType.BLOW
 	};
+
 	
 	@Override
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
 		if (activeChar.isAlikeDead())
-		{
 			return;
-		}
 		
-		boolean ss = skill.useSoulShot() && activeChar.isChargedShot(ShotType.SOULSHOTS);
-		boolean sps = skill.useSpiritShot() && activeChar.isChargedShot(ShotType.SPIRITSHOTS);
-		boolean bss = skill.useSpiritShot() && activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS);
-		
-		for (L2Character target : (L2Character[]) targets)
+		for (L2Character target: (L2Character[]) targets)
 		{
 			if (target.isAlikeDead())
-			{
 				continue;
-			}
 			
 			// Check firstly if target dodges skill
 			final boolean skillIsEvaded = Formulas.calcPhysicalSkillEvasion(target, skill);
@@ -89,9 +80,9 @@ public class Blow implements ISkillHandler
 					{
 						final byte shld = Formulas.calcShldUse(activeChar, target, skill);
 						target.stopSkillEffects(skill.getId());
-						if (Formulas.calcSkillSuccess(activeChar, target, skill, shld, ss, sps, bss))
+						if (Formulas.calcSkillSuccess(activeChar, target, skill, shld, false, false, true))
 						{
-							skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss));
+							skill.getEffects(activeChar, target, new Env(shld, false, false, false));
 							SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
 							sm.addSkillName(skill);
 							target.sendPacket(sm);
@@ -106,33 +97,48 @@ public class Blow implements ISkillHandler
 					}
 				}
 				
+				L2ItemInstance weapon = activeChar.getActiveWeaponInstance();
+				boolean soul = (weapon != null && weapon.getChargedSoulshot() == L2ItemInstance.CHARGED_SOULSHOT && (weapon.getItemType() == L2WeaponType.DAGGER || weapon.getItemType() == L2WeaponType.DUALDAGGER || weapon.getItemType() == L2WeaponType.RAPIER));
 				byte shld = Formulas.calcShldUse(activeChar, target, skill);
 				
-				double damage = skill.isStaticDamage() ? skill.getPower() : (int) Formulas.calcBlowDamage(activeChar, target, skill, shld, ss);
-				if (!skill.isStaticDamage() && (skill.getMaxSoulConsumeCount() > 0) && activeChar.isPlayer())
+				double damage = skill.isStaticDamage() ? skill.getPower() : (int) Formulas.calcBlowDamage(activeChar, target, skill, shld, soul);
+				if (!skill.isStaticDamage() && skill.getMaxSoulConsumeCount() > 0 && activeChar instanceof L2PcInstance)
 				{
-					// Souls Formula (each soul increase +4%)
-					damage *= ((activeChar.getActingPlayer().getSouls() * 0.04) + 1);
+					switch (((L2PcInstance) activeChar).getSouls())
+					{
+						case 0:
+							break;
+						case 1:
+							damage *= 1.10;
+							break;
+						case 2:
+							damage *= 1.12;
+							break;
+						case 3:
+							damage *= 1.15;
+							break;
+						case 4:
+							damage *= 1.18;
+							break;
+						default:
+							damage *= 1.20;
+							break;
+					}
 				}
 				
 				// Crit rate base crit rate for skill, modified with STR bonus
 				if (!skill.isStaticDamage() && Formulas.calcCrit(skill.getBaseCritRate() * 10 * BaseStats.STR.calcBonus(activeChar), true, target))
-				{
 					damage *= 2;
-				}
 				
-				if (Config.LOG_GAME_DAMAGE && activeChar.isPlayable() && (damage > Config.LOG_GAME_DAMAGE_THRESHOLD))
+				if (soul)
+					weapon.setChargedSoulshot(L2ItemInstance.CHARGED_NONE);
+				
+				if (Config.LOG_GAME_DAMAGE
+						&& activeChar instanceof L2Playable
+						&& damage > Config.LOG_GAME_DAMAGE_THRESHOLD)
 				{
 					LogRecord record = new LogRecord(Level.INFO, "");
-					record.setParameters(new Object[]
-					{
-						activeChar,
-						" did damage ",
-						(int) damage,
-						skill,
-						" to ",
-						target
-					});
+					record.setParameters(new Object[]{activeChar, " did damage ", (int)damage, skill, " to ", target});
 					record.setLoggerName("pdam");
 					_logDamage.log(record);
 				}
@@ -142,21 +148,20 @@ public class Blow implements ISkillHandler
 				// vengeance reflected damage
 				if ((reflect & Formulas.SKILL_REFLECT_VENGEANCE) != 0)
 				{
-					if (target.isPlayer())
+					if (target instanceof L2PcInstance)
 					{
 						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.COUNTERED_C1_ATTACK);
 						sm.addCharName(activeChar);
 						target.sendPacket(sm);
 					}
-					if (activeChar.isPlayer())
+					if (activeChar instanceof L2PcInstance)
 					{
 						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_PERFORMING_COUNTERATTACK);
 						sm.addCharName(target);
 						activeChar.sendPacket(sm);
 					}
-					// Formula from Diego Vargas post: http://www.l2guru.com/forum/showthread.php?p=3122630
-					// 1189 x Your PATK / PDEF of target
-					double vegdamage = ((1189 * target.getPAtk(activeChar)) / activeChar.getPDef(target));
+					// Formula from Diego post, 700 from rpg tests
+					double vegdamage = (700 * target.getPAtk(activeChar) / activeChar.getPDef(target));
 					activeChar.reduceCurrentHp(vegdamage, target, skill);
 				}
 				
@@ -166,47 +171,43 @@ public class Blow implements ISkillHandler
 					target.breakAttack();
 					target.breakCast();
 				}
-				
-				if (activeChar.isPlayer())
+
+				if(activeChar instanceof L2PcInstance)
 				{
-					L2PcInstance activePlayer = activeChar.getActingPlayer();
+					L2PcInstance activePlayer = (L2PcInstance) activeChar;
 					
-					activePlayer.sendDamageMessage(target, (int) damage, false, true, false);
+					activePlayer.sendDamageMessage(target, (int)damage, false, true, false);
 				}
 			}
 			
 			// Sending system messages
 			if (skillIsEvaded)
 			{
-				if (activeChar.isPlayer())
+				if (activeChar instanceof L2PcInstance)
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_DODGES_ATTACK);
 					sm.addString(target.getName());
-					activeChar.getActingPlayer().sendPacket(sm);
+					((L2PcInstance) activeChar).sendPacket(sm);
 				}
-				if (target.isPlayer())
+				if (target instanceof L2PcInstance)
 				{
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.AVOIDED_C1_ATTACK);
 					sm.addString(activeChar.getName());
-					target.getActingPlayer().sendPacket(sm);
+					((L2PcInstance) target).sendPacket(sm);
 				}
 			}
 			
-			// Possibility of a lethal strike
+			//Possibility of a lethal strike
 			Formulas.calcLethalHit(activeChar, target, skill);
 			
-			// Self Effect
+			//Self Effect
 			if (skill.hasSelfEffects())
 			{
 				final L2Effect effect = activeChar.getFirstEffect(skill.getId());
-				if ((effect != null) && effect.isSelfEffect())
-				{
+				if (effect != null && effect.isSelfEffect())
 					effect.exit();
-				}
 				skill.getEffectsSelf(activeChar);
 			}
-			
-			activeChar.setChargedShot(ShotType.SOULSHOTS, false);
 		}
 	}
 	

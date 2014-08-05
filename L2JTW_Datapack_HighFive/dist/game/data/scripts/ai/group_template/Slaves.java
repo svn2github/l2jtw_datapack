@@ -1,26 +1,20 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
- * 
- * This file is part of L2J DataPack.
- * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.group_template;
 
 import java.util.List;
-
-import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.HellboundManager;
@@ -34,27 +28,16 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.taskmanager.DecayTaskManager;
 
 /**
- * Hellbound Slaves AI.
  * @author DS
  */
-public class Slaves extends AbstractNpcAI
+public class Slaves extends L2AttackableAIScript
 {
 	private static final int[] MASTERS =
 	{
-		22320,
-		22321
+		22320, 22321
 	};
-	
 	private static final L2CharPosition MOVE_TO = new L2CharPosition(-25451, 252291, -3252, 3500);
-	
 	private static final int TRUST_REWARD = 10;
-	
-	private Slaves(String name, String descr)
-	{
-		super(name, descr);
-		addSpawnId(MASTERS);
-		addKillId(MASTERS);
-	}
 	
 	@Override
 	public final String onSpawn(L2Npc npc)
@@ -67,7 +50,7 @@ public class Slaves extends AbstractNpcAI
 	
 	// Let's count trust points for killing in Engine
 	@Override
-	public final String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
+	public final String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (((L2MonsterInstance) npc).getMinionList() != null)
 		{
@@ -84,7 +67,7 @@ public class Slaves extends AbstractNpcAI
 					slave.clearAggroList();
 					slave.abortAttack();
 					slave.abortCast();
-					slave.broadcastPacket(new NpcSay(slave.getObjectId(), Say2.NPC_ALL, slave.getNpcId(), NpcStringId.THANK_YOU_FOR_SAVING_ME_FROM_THE_CLUTCHES_OF_EVIL));
+					slave.broadcastPacket(new NpcSay(slave.getObjectId(), Say2.ALL, slave.getNpcId(), NpcStringId.THANK_YOU_FOR_SAVING_ME_FROM_THE_CLUTCHES_OF_EVIL));
 					
 					if ((HellboundManager.getInstance().getLevel() >= 1) && (HellboundManager.getInstance().getLevel() <= 2))
 					{
@@ -96,11 +79,21 @@ public class Slaves extends AbstractNpcAI
 				}
 			}
 		}
-		return super.onKill(npc, killer, isSummon);
+		return super.onKill(npc, killer, isPet);
+	}
+	
+	public Slaves(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		for (int npcId : MASTERS)
+		{
+			addSpawnId(npcId);
+			addKillId(npcId);
+		}
 	}
 	
 	public static void main(String[] args)
 	{
-		new Slaves(Slaves.class.getSimpleName(), "ai");
+		new Slaves(-1, "Slaves", "ai");
 	}
 }

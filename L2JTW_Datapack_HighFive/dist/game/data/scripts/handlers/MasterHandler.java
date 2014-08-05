@@ -1,39 +1,18 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers;
-
-import java.lang.reflect.Method;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import com.l2jserver.Config;
-import com.l2jserver.gameserver.handler.ActionHandler;
-import com.l2jserver.gameserver.handler.ActionShiftHandler;
-import com.l2jserver.gameserver.handler.AdminCommandHandler;
-import com.l2jserver.gameserver.handler.BypassHandler;
-import com.l2jserver.gameserver.handler.ChatHandler;
-import com.l2jserver.gameserver.handler.ItemHandler;
-import com.l2jserver.gameserver.handler.SkillHandler;
-import com.l2jserver.gameserver.handler.TargetHandler;
-import com.l2jserver.gameserver.handler.TelnetHandler;
-import com.l2jserver.gameserver.handler.UserCommandHandler;
-import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 
 import handlers.actionhandlers.L2ArtefactInstanceAction;
 import handlers.actionhandlers.L2DecoyAction;
@@ -100,7 +79,6 @@ import handlers.admincommandhandlers.AdminMobGroup;
 import handlers.admincommandhandlers.AdminMonsterRace;
 import handlers.admincommandhandlers.AdminPForge;
 import handlers.admincommandhandlers.AdminPathNode;
-import handlers.admincommandhandlers.AdminPcCondOverride;
 import handlers.admincommandhandlers.AdminPetition;
 import handlers.admincommandhandlers.AdminPledge;
 import handlers.admincommandhandlers.AdminPolymorph;
@@ -123,6 +101,7 @@ import handlers.admincommandhandlers.AdminTest;
 import handlers.admincommandhandlers.AdminTvTEvent;
 import handlers.admincommandhandlers.AdminUnblockIp;
 import handlers.admincommandhandlers.AdminVitality;
+import handlers.admincommandhandlers.AdminVitaminItem; // Add PI by pmq
 import handlers.admincommandhandlers.AdminZone;
 import handlers.bypasshandlers.ArenaBuff;
 import handlers.bypasshandlers.Augment;
@@ -179,7 +158,6 @@ import handlers.itemhandlers.BeastSpice;
 import handlers.itemhandlers.BeastSpiritShot;
 import handlers.itemhandlers.BlessedSpiritShot;
 import handlers.itemhandlers.Book;
-import handlers.itemhandlers.Bypass;
 import handlers.itemhandlers.Calculator;
 import handlers.itemhandlers.Disguise;
 import handlers.itemhandlers.Elixir;
@@ -230,6 +208,7 @@ import handlers.skillhandlers.GetPlayer;
 import handlers.skillhandlers.GiveReco;
 import handlers.skillhandlers.GiveSp;
 import handlers.skillhandlers.GiveVitality;
+import handlers.skillhandlers.Harvest;
 import handlers.skillhandlers.Heal;
 import handlers.skillhandlers.HealPercent;
 import handlers.skillhandlers.InstantJump;
@@ -293,20 +272,20 @@ import handlers.telnethandlers.ReloadHandler;
 import handlers.telnethandlers.ServerHandler;
 import handlers.telnethandlers.StatusHandler;
 import handlers.telnethandlers.ThreadHandler;
+import handlers.usercommandhandlers.Birthday;
 import handlers.usercommandhandlers.ChannelDelete;
-import handlers.usercommandhandlers.ChannelInfo;
 import handlers.usercommandhandlers.ChannelLeave;
+import handlers.usercommandhandlers.ChannelListUpdate;
 import handlers.usercommandhandlers.ClanPenalty;
 import handlers.usercommandhandlers.ClanWarsList;
-import handlers.usercommandhandlers.Dismount;
+import handlers.usercommandhandlers.DisMount;
+import handlers.usercommandhandlers.Escape;
 import handlers.usercommandhandlers.InstanceZone;
 import handlers.usercommandhandlers.Loc;
 import handlers.usercommandhandlers.Mount;
-import handlers.usercommandhandlers.MyBirthday;
 import handlers.usercommandhandlers.OlympiadStat;
 import handlers.usercommandhandlers.PartyInfo;
 import handlers.usercommandhandlers.Time;
-import handlers.usercommandhandlers.Unstuck;
 import handlers.voicedcommandhandlers.Banking;
 import handlers.voicedcommandhandlers.ChangePassword;
 import handlers.voicedcommandhandlers.ChatAdmin;
@@ -317,8 +296,24 @@ import handlers.voicedcommandhandlers.StatsVCmd;
 import handlers.voicedcommandhandlers.TvTVoicedInfo;
 import handlers.voicedcommandhandlers.Wedding;
 
+import java.lang.reflect.Method;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import com.l2jserver.Config;
+import com.l2jserver.gameserver.handler.ActionHandler;
+import com.l2jserver.gameserver.handler.ActionShiftHandler;
+import com.l2jserver.gameserver.handler.AdminCommandHandler;
+import com.l2jserver.gameserver.handler.BypassHandler;
+import com.l2jserver.gameserver.handler.ChatHandler;
+import com.l2jserver.gameserver.handler.ItemHandler;
+import com.l2jserver.gameserver.handler.SkillHandler;
+import com.l2jserver.gameserver.handler.TargetHandler;
+import com.l2jserver.gameserver.handler.TelnetHandler;
+import com.l2jserver.gameserver.handler.UserCommandHandler;
+import com.l2jserver.gameserver.handler.VoicedCommandHandler;
+
 /**
- * Master handler.
  * @author UnAfraid
  */
 public class MasterHandler
@@ -340,7 +335,7 @@ public class MasterHandler
 		TelnetHandler.class,
 	};
 	
-	private static final Class<?>[][] _handlers =
+	private static final Class<?>[][] _handlers = 
 	{
 		{
 			// Action Handlers
@@ -376,7 +371,6 @@ public class MasterHandler
 			AdminChangeAccessLevel.class,
 			AdminCHSiege.class,
 			AdminClan.class,
-			AdminPcCondOverride.class,
 			AdminCreateItem.class,
 			AdminCursedWeapons.class,
 			AdminDebug.class,
@@ -438,6 +432,7 @@ public class MasterHandler
 			AdminTvTEvent.class,
 			AdminUnblockIp.class,
 			AdminVitality.class,
+			AdminVitaminItem.class, // Add PI by pmq
 			AdminZone.class,
 		},
 		{
@@ -504,7 +499,6 @@ public class MasterHandler
 			BlessedSpiritShot.class,
 			BeastSoulShot.class,
 			BeastSpiritShot.class,
-			Bypass.class,
 			Calculator.class,
 			PaganKeys.class,
 			Maps.class,
@@ -570,6 +564,7 @@ public class MasterHandler
 			DeluxeKey.class,
 			Sow.class,
 			Soul.class,
+			Harvest.class,
 			GetPlayer.class,
 			TransformDispel.class,
 			Trap.class,
@@ -585,8 +580,8 @@ public class MasterHandler
 			// User Command Handlers
 			ClanPenalty.class,
 			ClanWarsList.class,
-			Dismount.class,
-			Unstuck.class,
+			DisMount.class,
+			Escape.class,
 			InstanceZone.class,
 			Loc.class,
 			Mount.class,
@@ -595,8 +590,8 @@ public class MasterHandler
 			OlympiadStat.class,
 			ChannelLeave.class,
 			ChannelDelete.class,
-			ChannelInfo.class,
-			MyBirthday.class,
+			ChannelListUpdate.class,
+			Birthday.class,
 		},
 		{
 			// Voiced Command Handlers
@@ -670,7 +665,7 @@ public class MasterHandler
 		
 		Object loadInstance = null;
 		Method method = null;
-		Class<?>[] interfaces = null;
+		Class<?>[]  interfaces = null;
 		Object handler = null;
 		
 		for (int i = 0; i < _loadInstances.length; i++)
@@ -693,17 +688,13 @@ public class MasterHandler
 				try
 				{
 					if (c == null)
-					{
 						continue; // Disabled handler
-					}
-					// Don't wtf some classes extending another like ItemHandler, Elixir, etc.. and we need to find where the hell is interface xD
-					interfaces = c.getInterfaces().length > 0 ? // Standardly handler has implementation
-					c.getInterfaces() : c.getSuperclass().getInterfaces().length > 0 ? // No? then it extends another handler like (ItemSkills->ItemSkillsTemplate)
-					c.getSuperclass().getInterfaces() : c.getSuperclass().getSuperclass().getInterfaces(); // O noh that's Elixir->ItemSkills->ItemSkillsTemplate
+					// Don't wtf some classes extending anothers like ItemHandler, Elixir, etc.. and we need to find where the hell is interface xD
+					interfaces = c.getInterfaces().length > 0 ? // Standartly handler has implementation
+						c.getInterfaces() : c.getSuperclass().getInterfaces().length > 0 ? // No? then it extends another handler like (ItemSkills->ItemSkillsTemplate)
+							c.getSuperclass().getInterfaces() : c.getSuperclass().getSuperclass().getInterfaces(); // O noh that's Elixir->ItemSkills->ItemSkillsTemplate
 					if (method == null)
-					{
 						method = loadInstance.getClass().getMethod("registerHandler", interfaces);
-					}
 					handler = c.newInstance();
 					if (method.getParameterTypes()[0].isInstance(handler))
 					{
@@ -721,7 +712,7 @@ public class MasterHandler
 			{
 				method = loadInstance.getClass().getMethod("size");
 				Object returnVal = method.invoke(loadInstance);
-				_log.log(Level.INFO, loadInstance.getClass().getSimpleName() + ": Loaded " + returnVal + " Handlers");
+				_log.log(Level.INFO, loadInstance.getClass().getSimpleName() + ": Loaded " + returnVal + " Handlers");	
 			}
 			catch (Exception e)
 			{

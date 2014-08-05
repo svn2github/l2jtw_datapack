@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -27,6 +23,7 @@ import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 
 /**
  * @author evill33t, GodKratos
@@ -98,7 +95,7 @@ public class AdminInstance implements IAdminCommandHandler
 				}
 				
 				L2Object target = activeChar.getTarget();
-				if ((target == null) || (target instanceof L2Summon)) // Don't separate summons from masters
+				if (target == null || target instanceof L2Summon) // Don't separate summons from masters
 				{
 					activeChar.sendMessage(1695);
 					return false;
@@ -109,6 +106,13 @@ public class AdminInstance implements IAdminCommandHandler
 					L2PcInstance player = (L2PcInstance) target;
 					player.sendMessage(MessageTable.Messages[1696].getMessage() + val);
 					player.teleToLocation(player.getX(), player.getY(), player.getZ());
+					L2Summon pet = player.getPet();
+					if (pet != null)
+					{
+						pet.setInstanceId(val);
+						pet.teleToLocation(pet.getX(), pet.getY(), pet.getZ());
+						player.sendMessage(MessageTable.Messages[1697].getExtra(1) + pet.getName() + MessageTable.Messages[1697].getExtra(2) + val);
+					}
 				}
 				activeChar.sendMessage(MessageTable.Messages[1698].getExtra(1) + target.getName() + MessageTable.Messages[1698].getExtra(2) + target.getInstanceId());
 				return true;

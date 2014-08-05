@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.individual;
 
@@ -25,9 +21,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javolution.util.FastList;
-import ai.npc.AbstractNpcAI;
+import ai.group_template.L2AttackableAIScript;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GeoData;
@@ -39,6 +36,7 @@ import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.StatsSet;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2DecoyInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -52,34 +50,25 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.util.Util;
 
 /**
- * Baium's AI.<br>
- * Note1: if the server gets rebooted while players are still fighting Baium, there is no lock, but players also lose their ability to wake Baium up.<br>
- * However, should another person enter the room and wake him up, the players who had stayed inside may join the raid.<br>
- * This can be helpful for players who became victims of a reboot (they only need 1 new player to enter and wake up Baium) and is not too exploitable since any player wishing to exploit it would have to suffer 5 days of being parked in an empty room.<br>
- * Note2: Neither version of Baium should be a permanent spawn.<br>
- * This script is fully capable of spawning the statue-version when the lock expires and switching it to the mob version promptly.<br>
- * Additional notes ( source http://aleenaresron.blogspot.com/2006_08_01_archive.html ):
- * <ul>
- * <li>Baium only first respawns five days after his last death. And from those five days he will respawn within 1-8 hours of his last death. So, you have to know his last time of death.</li>
- * <li>If by some freak chance you are the only one in Baium's chamber and NO ONE comes in [ha, ha] you or someone else will have to wake Baium.<br>
- * There is a good chance that Baium will automatically kill whoever wakes him.<br>
- * There are some people that have been able to wake him and not die, however if you've already gone through the trouble of getting the bloody fabric and camped him out and researched his spawn time,<br>
- * are you willing to take that chance that you'll wake him and not be able to finish your quest? Doubtful. [ this powerful attack vs the player who wakes him up is NOT yet implemented here]</li>
- * <li>Once someone starts attacking Baium no one else can port into the chamber where he is. Unlike with the other raid bosses, you can just show up at any time as long as you are there when they die.<br>
- * Not true with Baium. Once he gets attacked, the port to Baium closes. byebye, see you in 5 days. If nobody attacks Baium for 30 minutes, he auto-despawns and unlocks the vortex.</li>
+ * Baium AI Note1: if the server gets rebooted while players are still fighting Baium, there is no lock, but players also lose their ability to wake baium up. However, should another person enter the room and wake him up, the players who had stayed inside may join the raid. This can be helpful for
+ * players who became victims of a reboot (they only need 1 new player to enter and wake up baium) and is not too exploitable since any player wishing to exploit it would have to suffer 5 days of being parked in an empty room. Note2: Neither version of Baium should be a permanent spawn. This script
+ * is fully capable of spawning the statue-version when the lock expires and switching it to the mob version promptly. Additional notes ( source http://aleenaresron.blogspot.com/2006_08_01_archive.html ): * Baium only first respawns five days after his last death. And from those five days he will
+ * respawn within 1-8 hours of his last death. So, you have to know his last time of death. * If by some freak chance you are the only one in Baium's chamber and NO ONE comes in [ha, ha] you or someone else will have to wake Baium. There is a good chance that Baium will automatically kill whoever
+ * wakes him. There are some people that have been able to wake him and not die, however if you've already gone through the trouble of getting the bloody fabric and camped him out and researched his spawn time, are you willing to take that chance that you'll wake him and not be able to finish your
+ * quest? Doubtful. [ this powerful attack vs the player who wakes him up is NOT yet implemented here] * once someone starts attacking Baium no one else can port into the chamber where he is. Unlike with the other raid bosses, you can just show up at any time as long as you are there when they die.
+ * Not true with Baium. Once he gets attacked, the port to Baium closes. byebye, see you in 5 days. If nobody attacks baium for 30 minutes, he auto-despawns and unlocks the vortex
  * @author Fulminus version 0.1
  */
-public class Baium extends AbstractNpcAI
+public class Baium extends L2AttackableAIScript
 {
-	// NPCs
+	protected static final Logger log = Logger.getLogger(Baium.class.getName());
+	
+	private L2Character _target;
+	private L2Skill _skill;
 	private static final int STONE_BAIUM = 29025;
 	private static final int ANGELIC_VORTEX = 31862;
 	private static final int LIVE_BAIUM = 29020;
 	private static final int ARCHANGEL = 29021;
-	private static final int TELEPORT_CUBIC = 31842;
-	
-	// Item
-	private static final int BLOODED_FABRIC = 4295;
 	
 	// Baium status tracking
 	private static final byte ASLEEP = 0; // baium is in the stone version, waiting to be woken up. Entry is unlocked
@@ -100,17 +89,19 @@ public class Baium extends AbstractNpcAI
 	protected final List<L2Npc> _Minions = new ArrayList<>(5);
 	private L2BossZone _Zone;
 	
-	private L2Character _target;
-	private L2Skill _skill;
-	
-	private Baium(String name, String descr)
+	public Baium(int questId, String name, String descr)
 	{
-		super(name, descr);
-		registerMobs(LIVE_BAIUM);
+		super(questId, name, descr);
+		
+		int[] mob =
+		{
+			LIVE_BAIUM
+		};
+		registerMobs(mob);
 		
 		// Quest NPC starter initialization
-		addStartNpc(STONE_BAIUM, ANGELIC_VORTEX, TELEPORT_CUBIC);
-		addTalkId(STONE_BAIUM, ANGELIC_VORTEX, TELEPORT_CUBIC);
+		addStartNpc(STONE_BAIUM, ANGELIC_VORTEX);
+		addTalkId(STONE_BAIUM, ANGELIC_VORTEX);
 		
 		_Zone = GrandBossManager.getInstance().getZone(113100, 14500, 10077);
 		StatsSet info = GrandBossManager.getInstance().getStatsSet(LIVE_BAIUM);
@@ -130,7 +121,7 @@ public class Baium extends AbstractNpcAI
 			{
 				// the time has already expired while the server was offline. Delete the saved time and
 				// immediately spawn the stone-baium. Also the state need not be changed from ASLEEP
-				addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0);
+				addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0);
 				GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, ASLEEP);
 			}
 		}
@@ -168,7 +159,7 @@ public class Baium extends AbstractNpcAI
 		}
 		else
 		{
-			addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0);
+			addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0);
 		}
 	}
 	
@@ -178,7 +169,7 @@ public class Baium extends AbstractNpcAI
 		if (event.equalsIgnoreCase("baium_unlock"))
 		{
 			GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, ASLEEP);
-			addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0);
+			addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0);
 		}
 		else if (event.equalsIgnoreCase("skill_range") && (npc != null))
 		{
@@ -215,7 +206,7 @@ public class Baium extends AbstractNpcAI
 						}
 						catch (Exception e)
 						{
-							_log.log(Level.WARNING, "", e);
+							log.log(Level.WARNING, "", e);
 						}
 					}
 				}, 11100L);
@@ -252,7 +243,7 @@ public class Baium extends AbstractNpcAI
 						}
 					}
 					_Minions.clear();
-					addSpawn(STONE_BAIUM, 116033, 17447, 10107, -25348, false, 0); // spawn stone-baium
+					addSpawn(STONE_BAIUM, 116033, 17447, 10104, 40188, false, 0); // spawn stone-baium
 					GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, ASLEEP); // mark that Baium is not awake any more
 					_Zone.oustAllPlayers();
 					cancelQuestTimer("baium_despawn", npc, null);
@@ -327,7 +318,7 @@ public class Baium extends AbstractNpcAI
 						}
 						catch (Throwable e)
 						{
-							_log.log(Level.WARNING, "", e);
+							log.log(Level.WARNING, "", e);
 						}
 					}
 				}, 100L);
@@ -345,9 +336,9 @@ public class Baium extends AbstractNpcAI
 				return "<html><body>Angelic Vortex:<br>You may not enter while flying a wyvern</body></html>";
 			}
 			
-			if ((GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == ASLEEP) && hasQuestItems(player, BLOODED_FABRIC))
+			if ((GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == ASLEEP) && player.getQuestState("baium").hasQuestItems(4295)) // bloody fabric
 			{
-				takeItems(player, BLOODED_FABRIC, 1);
+				player.getQuestState("baium").takeItems(4295, 1);
 				// allow entry for the player for the next 30 secs (more than enough time for the TP to happen)
 				// Note: this just means 30secs to get in, no limits on how long it takes before we get out.
 				_Zone.allowPlayerEntry(player, 30);
@@ -357,34 +348,6 @@ public class Baium extends AbstractNpcAI
 			{
 				npc.showChatWindow(player, 1);
 			}
-		}
-		else if (npc.getNpcId() == TELEPORT_CUBIC)
-		{
-			int chance = getRandom(3);
-			int x, y, z;
-			
-			switch (chance)
-			{
-				case 0:
-					x = 108784 + getRandom(100);
-					y = 16000 + getRandom(100);
-					z = -4928;
-					break;
-				
-				case 1:
-					x = 113824 + getRandom(100);
-					y = 10448 + getRandom(100);
-					z = -5164;
-					break;
-				
-				default:
-					x = 115488 + getRandom(100);
-					y = 22096 + getRandom(100);
-					z = -5168;
-					break;
-			}
-			
-			player.teleToLocation(x, y, z);
 		}
 		return htmltext;
 	}
@@ -412,17 +375,17 @@ public class Baium extends AbstractNpcAI
 	}
 	
 	@Override
-	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isSummon)
+	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (!_Zone.isInsideZone(attacker))
 		{
 			attacker.reduceCurrentHp(attacker.getCurrentHp(), attacker, false, false, null);
-			return super.onAttack(npc, attacker, damage, isSummon);
+			return super.onAttack(npc, attacker, damage, isPet);
 		}
 		if (npc.isInvul())
 		{
 			npc.getAI().setIntention(AI_INTENTION_IDLE);
-			return super.onAttack(npc, attacker, damage, isSummon);
+			return super.onAttack(npc, attacker, damage, isPet);
 		}
 		else if ((npc.getNpcId() == LIVE_BAIUM) && !npc.isInvul())
 		{
@@ -448,14 +411,14 @@ public class Baium extends AbstractNpcAI
 					{
 						if (npc.isMuted())
 						{
-							return super.onAttack(npc, attacker, damage, isSummon);
+							return super.onAttack(npc, attacker, damage, isPet);
 						}
 					}
 					else
 					{
 						if (npc.isPhysicalMuted())
 						{
-							return super.onAttack(npc, attacker, damage, isSummon);
+							return super.onAttack(npc, attacker, damage, isPet);
 						}
 					}
 					npc.doCast(skill);
@@ -463,20 +426,20 @@ public class Baium extends AbstractNpcAI
 			}
 			// update a variable with the last action against baium
 			_LastAttackVsBaiumTime = System.currentTimeMillis();
-			callSkillAI(npc);
+			//callSkillAI(npc); //l2jtw
 		}
-		return super.onAttack(npc, attacker, damage, isSummon);
+		return super.onAttack(npc, attacker, damage, isPet);
 	}
 	
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		cancelQuestTimer("baium_despawn", npc, null);
 		npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 		// spawn the "Teleportation Cubic" for 15 minutes (to allow players to exit the lair)
-		addSpawn(TELEPORT_CUBIC, 115017, 15549, 10090, 0, false, 900000);
-		// Calculate Min and Max respawn times randomly.
-		long respawnTime = getRandom((Config.Interval_Of_Baium_Spawn - Config.Random_Of_Baium_Spawn), (Config.Interval_Of_Baium_Spawn + Config.Random_Of_Baium_Spawn));
+		addSpawn(29055, 115203, 16620, 10078, 0, false, 900000); // //should we teleport everyone out if the cubic despawns??
+		// "lock" baium for 5 days and 1 to 8 hours [i.e. 432,000,000 + 1*3,600,000 + random-less-than(8*3,600,000) millisecs]
+		long respawnTime = (long) Config.Interval_Of_Baium_Spawn + getRandom(Config.Random_Of_Baium_Spawn);
 		GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM, DEAD);
 		startQuestTimer("baium_unlock", respawnTime, null, null);
 		// also save the respawn time so that the info is maintained past reboots
@@ -492,12 +455,12 @@ public class Baium extends AbstractNpcAI
 			}
 		}
 		_Minions.clear();
-		final QuestTimer timer = getQuestTimer("skill_range", npc, null);
+		final QuestTimer timer =  getQuestTimer("skill_range", npc, null);
 		if (timer != null)
 		{
 			timer.cancelAndRemove();
 		}
-		return super.onKill(npc, killer, isSummon);
+		return super.onKill(npc, killer, isPet);
 	}
 	
 	public L2Character getRandomTarget(L2Npc npc)
@@ -507,11 +470,11 @@ public class Baium extends AbstractNpcAI
 		{
 			for (L2Object obj : objs)
 			{
-				if (obj.isPlayable() || (obj instanceof L2DecoyInstance))
+				if ((obj instanceof L2Playable) || (obj instanceof L2DecoyInstance))
 				{
-					if (obj.isPlayer())
+					if (obj instanceof L2PcInstance)
 					{
-						if (obj.getActingPlayer().getAppearance().getInvisible())
+						if (((L2PcInstance) obj).getAppearance().getInvisible())
 						{
 							continue;
 						}
@@ -522,7 +485,7 @@ public class Baium extends AbstractNpcAI
 						continue;
 					}
 				}
-				if (obj.isPlayable() || (obj instanceof L2DecoyInstance))
+				if ((obj instanceof L2Playable) || (obj instanceof L2DecoyInstance))
 				{
 					if (Util.checkIfInRange(9000, npc, obj, true) && !((L2Character) obj).isDead())
 					{
@@ -618,7 +581,7 @@ public class Baium extends AbstractNpcAI
 			}
 			try
 			{
-				Thread.sleep(1000);
+				//Thread.sleep(1000); //l2jtw
 				npc.stopMove(null);
 				npc.doCast(skill);
 			}
@@ -718,7 +681,7 @@ public class Baium extends AbstractNpcAI
 	}
 	
 	@Override
-	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isSummon)
+	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		if (npc.isInvul())
 		{
@@ -726,7 +689,7 @@ public class Baium extends AbstractNpcAI
 			return null;
 		}
 		npc.setTarget(caster);
-		return super.onSkillSee(npc, caster, skill, targets, isSummon);
+		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
 	
 	public int getDist(int range)
@@ -748,6 +711,7 @@ public class Baium extends AbstractNpcAI
 	
 	public static void main(String[] args)
 	{
-		new Baium(Baium.class.getSimpleName(), "ai");
+		// Quest class and state definition
+		new Baium(-1, "baium", "ai");
 	}
 }

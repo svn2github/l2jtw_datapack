@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package hellbound;
 
@@ -48,37 +44,22 @@ public class Engine extends Quest implements Runnable
 	private static final int[][] DOOR_LIST =
 	{
 		{
-			19250001,
-			5
+			19250001, 5
 		},
 		{
-			19250002,
-			5
+			19250002, 5
 		},
 		{
-			20250001,
-			9
+			20250001, 9
 		},
 		{
-			20250002,
-			7
+			20250002, 7
 		}
 	};
 	
 	private static final int[] MAX_TRUST =
 	{
-		0,
-		300000,
-		600000,
-		1000000,
-		1010000,
-		1400000,
-		1490000,
-		2000000,
-		2000001,
-		2500000,
-		4000000,
-		0
+		0, 300000, 600000, 1000000, 1010000, 1400000, 1490000, 2000000, 2000001, 2500000, 4000000, 0
 	};
 	
 	private static final String ANNOUNCE = "Hellbound now has reached level: %lvl%";
@@ -257,7 +238,7 @@ public class Engine extends Quest implements Runnable
 	
 	// Let's try to manage all trust changes for killing here
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
 		if (pointsInfo.containsKey(npcId))
@@ -275,7 +256,7 @@ public class Engine extends Quest implements Runnable
 			}
 		}
 		
-		return super.onKill(npc, killer, isSummon);
+		return super.onKill(npc, killer, isPet);
 	}
 	
 	public Engine(int questId, String name, String descr)

@@ -1,27 +1,23 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.individual;
 
 import java.util.List;
 
 import javolution.util.FastList;
-import ai.npc.AbstractNpcAI;
+import ai.group_template.L2AttackableAIScript;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
@@ -42,11 +38,12 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.util.Rnd;
 
 /**
- * Queen Ant's AI
+ * Queen Ant AI
  * @author Emperorc
  */
-public class QueenAnt extends AbstractNpcAI
+public class QueenAnt extends L2AttackableAIScript
 {
+	
 	private static final int QUEEN = 29001;
 	private static final int LARVA = 29002;
 	private static final int NURSE = 29003;
@@ -79,9 +76,9 @@ public class QueenAnt extends AbstractNpcAI
 	private L2MonsterInstance _larva = null;
 	private final List<L2MonsterInstance> _nurses = new FastList<>(5);
 	
-	private QueenAnt(String name, String descr)
+	public QueenAnt(int questId, String name, String descr)
 	{
-		super(name, descr);
+		super(questId, name, descr);
 		
 		registerMobs(MOBS, QuestEventType.ON_SPAWN, QuestEventType.ON_KILL, QuestEventType.ON_AGGRO_RANGE_ENTER);
 		addFactionCallId(NURSE);
@@ -246,11 +243,11 @@ public class QueenAnt extends AbstractNpcAI
 	}
 	
 	@Override
-	public String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isSummon)
+	public String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
 	{
 		if ((caller == null) || (npc == null))
 		{
-			return super.onFactionCall(npc, caller, attacker, isSummon);
+			return super.onFactionCall(npc, caller, attacker, isPet);
 		}
 		
 		if (!npc.isCastingNow() && (npc.getAI().getIntention() != CtrlIntention.AI_INTENTION_CAST))
@@ -265,7 +262,7 @@ public class QueenAnt extends AbstractNpcAI
 	}
 	
 	@Override
-	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isSummon)
+	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		if (npc == null)
 		{
@@ -274,10 +271,10 @@ public class QueenAnt extends AbstractNpcAI
 		
 		final boolean isMage;
 		final L2Playable character;
-		if (isSummon)
+		if (isPet)
 		{
 			isMage = false;
-			character = player.getSummon();
+			character = player.getPet();
 		}
 		else
 		{
@@ -318,19 +315,19 @@ public class QueenAnt extends AbstractNpcAI
 			return null;
 		}
 		
-		return super.onAggroRangeEnter(npc, player, isSummon);
+		return super.onAggroRangeEnter(npc, player, isPet);
 	}
 	
 	@Override
-	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
+	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
 		if (npcId == QUEEN)
 		{
 			npc.broadcastPacket(new PlaySound(1, "BS02_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 			GrandBossManager.getInstance().setBossStatus(QUEEN, DEAD);
-			// Calculate Min and Max respawn times randomly.
-			long respawnTime = getRandom((Config.Interval_Of_QueenAnt_Spawn - Config.Random_Of_QueenAnt_Spawn), (Config.Interval_Of_QueenAnt_Spawn + Config.Random_Of_QueenAnt_Spawn));
+			// time is 36hour +/- 17hour
+			long respawnTime = (long) Config.Interval_Of_QueenAnt_Spawn + getRandom(Config.Random_Of_QueenAnt_Spawn);
 			startQuestTimer("queen_unlock", respawnTime, null, null);
 			cancelQuestTimer("action", npc, null);
 			cancelQuestTimer("heal", null, null);
@@ -363,11 +360,12 @@ public class QueenAnt extends AbstractNpcAI
 				}
 			}
 		}
-		return super.onKill(npc, killer, isSummon);
+		return super.onKill(npc, killer, isPet);
 	}
 	
 	public static void main(String[] args)
 	{
-		new QueenAnt(QueenAnt.class.getSimpleName(), "ai");
+		// now call the constructor (starts up the ai)
+		new QueenAnt(-1, "queen_ant", "ai");
 	}
 }

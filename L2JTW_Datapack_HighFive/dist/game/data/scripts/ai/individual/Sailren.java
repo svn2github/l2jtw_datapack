@@ -1,6 +1,6 @@
 package ai.individual;
 
-import ai.npc.AbstractNpcAI;
+import ai.group_template.L2AttackableAIScript;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
@@ -20,7 +20,7 @@ import com.l2jserver.util.Rnd;
  * Sailren AI
  * @author rocknow
  */
-public class Sailren extends AbstractNpcAI
+public class Sailren extends L2AttackableAIScript
 {
 	private static final int SAILREN = 29065;
 	private static final int VELOCIRAPTOR = 22218;
@@ -38,9 +38,9 @@ public class Sailren extends AbstractNpcAI
 	private static long _LastAction = 0;
 
 	// Boss: Sailren
-	public Sailren(String name, String descr)
+	public Sailren(int id,String name,String descr)
 	{
-		super(name,descr);
+		super(id,name,descr);
 		int[] mob = {SAILREN, VELOCIRAPTOR, PTEROSAUR, TYRANNOSAURUS};
 		this.registerMobs(mob);
 		addStartNpc(STATUE);
@@ -228,7 +228,7 @@ public class Sailren extends AbstractNpcAI
 	}
 
 	@Override
-	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isSummon)
+	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		_LastAction = System.currentTimeMillis();
 		if (npc.isInvul() && npc.getNpcId() == SAILREN)
@@ -244,11 +244,11 @@ public class Sailren extends AbstractNpcAI
 				this.startQuestTimer("camera_6", 0, npc, null);
 			}
 		}
-		return super.onAttack(npc, attacker, damage, isSummon);
+		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
 	@Override
-	public String onKill (L2Npc npc, L2PcInstance killer, boolean isSummon)
+	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (GrandBossManager.getInstance().getBossStatus(SAILREN) == FIGHTING && npc.getNpcId() == SAILREN)
 		{
@@ -278,12 +278,12 @@ public class Sailren extends AbstractNpcAI
 			this.cancelQuestTimer("sailren_despawn", npc, null);
 			this.startQuestTimer("waiting_boss", 15000, npc, null);
 		}
-		return super.onKill(npc,killer,isSummon);
+		return super.onKill(npc,killer,isPet);
 	}
 
 	public static void main(String[] args)
 	{
 		// now call the constructor (starts up the ai)
-		new Sailren(Sailren.class.getSimpleName(), "ai"); 
+		new Sailren(-1,"sailren","ai");
 	}
 }

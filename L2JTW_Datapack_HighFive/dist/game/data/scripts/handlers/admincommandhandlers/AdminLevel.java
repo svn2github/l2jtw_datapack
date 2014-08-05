@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -54,9 +50,7 @@ public class AdminLevel implements IAdminCommandHandler
 			try
 			{
 				if (targetChar instanceof L2Playable)
-				{
 					((L2Playable) targetChar).getStat().addLevel(Byte.parseByte(val));
-				}
 			}
 			catch (NumberFormatException e)
 			{
@@ -75,7 +69,7 @@ public class AdminLevel implements IAdminCommandHandler
 				L2PcInstance targetPlayer = (L2PcInstance) targetChar;
 				
 				byte lvl = Byte.parseByte(val);
-				if ((lvl >= 1) && (lvl <= ExperienceTable.getInstance().getMaxLevel()))
+				if (lvl >= 1 && lvl <= ExperienceTable.getInstance().getMaxLevel())
 				{
 					long pXp = targetPlayer.getExp();
 					long tXp = ExperienceTable.getInstance().getExpForLevel(lvl);

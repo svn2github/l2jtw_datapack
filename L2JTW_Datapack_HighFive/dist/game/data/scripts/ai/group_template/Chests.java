@@ -1,24 +1,18 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.group_template;
-
-import ai.npc.AbstractNpcAI;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.model.L2Object;
@@ -33,8 +27,9 @@ import com.l2jserver.gameserver.util.Util;
  * Chest AI implementation.
  * @author Fulminus
  */
-public class Chests extends AbstractNpcAI
+public class Chests extends L2AttackableAIScript
 {
+	
 	private static final int SKILL_DELUXE_KEY = 2229;
 	
 	// Base chance for BOX to be opened
@@ -112,14 +107,16 @@ public class Chests extends AbstractNpcAI
 		21822
 	};
 	
-	private Chests(String name, String descr)
+	public Chests(int questId, String name, String descr)
 	{
-		super(name, descr);
+		// firstly, don't forget to call the parent constructor to prepare the event triggering
+		// mechanisms etc.
+		super(questId, name, descr);
 		registerMobs(NPC_IDS, QuestEventType.ON_ATTACK, QuestEventType.ON_SKILL_SEE);
 	}
 	
 	@Override
-	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isSummon)
+	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		if (npc instanceof L2ChestInstance)
 		{
@@ -127,7 +124,7 @@ public class Chests extends AbstractNpcAI
 			// i.e. when the player is attempting to open the chest using a skill
 			if (!Util.contains(targets, npc))
 			{
-				return super.onSkillSee(npc, caster, skill, targets, isSummon);
+				return super.onSkillSee(npc, caster, skill, targets, isPet);
 			}
 			L2ChestInstance chest = ((L2ChestInstance) npc);
 			int npcId = chest.getNpcId();
@@ -137,7 +134,7 @@ public class Chests extends AbstractNpcAI
 			// check if the chest and skills used are valid for this script. Exit if invalid.
 			if (!Util.contains(NPC_IDS, npcId))
 			{
-				return super.onSkillSee(npc, caster, skill, targets, isSummon);
+				return super.onSkillSee(npc, caster, skill, targets, isPet);
 			}
 			// if this has already been interacted, no further ai decisions are needed
 			// if it's the first interaction, check if this is a box or mimic
@@ -146,17 +143,15 @@ public class Chests extends AbstractNpcAI
 				chest.setInteracted();
 				if (getRandom(100) < IS_BOX)
 				{
-					// if it's a box, either it will be successfully opened by a proper key, or instantly disappear
+					// if it's a box, either it will be successfully openned by a proper key, or instantly disappear
 					if (skillId == SKILL_DELUXE_KEY)
 					{
 						// check the chance to open the box
 						int keyLevelNeeded = chest.getLevel() / 10;
 						keyLevelNeeded -= skillLevel;
 						if (keyLevelNeeded < 0)
-						{
 							keyLevelNeeded *= -1;
-						}
-						int chance = BASE_CHANCE - (keyLevelNeeded * LEVEL_DECREASE);
+						int chance = BASE_CHANCE - keyLevelNeeded * LEVEL_DECREASE;
 						
 						// success, pretend-death with rewards: chest.reduceCurrentHp(99999999, player)
 						if (getRandom(100) < chance)
@@ -172,18 +167,18 @@ public class Chests extends AbstractNpcAI
 				}
 				else
 				{
-					L2Character originalCaster = isSummon ? caster.getSummon() : caster;
+					L2Character originalCaster = isPet ? caster.getPet() : caster;
 					chest.setRunning();
 					chest.addDamageHate(originalCaster, 0, 999);
 					chest.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, originalCaster);
 				}
 			}
 		}
-		return super.onSkillSee(npc, caster, skill, targets, isSummon);
+		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
 	
 	@Override
-	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isSummon)
+	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (npc instanceof L2ChestInstance)
 		{
@@ -192,7 +187,7 @@ public class Chests extends AbstractNpcAI
 			// check if the chest and skills used are valid for this script. Exit if invalid.
 			if (!Util.contains(NPC_IDS, npcId))
 			{
-				return super.onAttack(npc, attacker, damage, isSummon);
+				return super.onAttack(npc, attacker, damage, isPet);
 			}
 			
 			// if this was a mimic, set the target, start the skills and become agro
@@ -206,19 +201,20 @@ public class Chests extends AbstractNpcAI
 				else
 				{
 					// if this weren't a box, upon interaction start the mimic behaviors...
-					// TODO: perhaps a self-buff (skill id 4245) with random chance goes here?
-					L2Character originalAttacker = isSummon ? attacker.getSummon() : attacker;
+					// todo: perhaps a self-buff (skill id 4245) with random chance goes here?
+					L2Character originalAttacker = isPet ? attacker.getPet() : attacker;
 					chest.setRunning();
 					chest.addDamageHate(originalAttacker, 0, (damage * 100) / (chest.getLevel() + 7));
 					chest.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, originalAttacker);
 				}
 			}
 		}
-		return super.onAttack(npc, attacker, damage, isSummon);
+		return super.onAttack(npc, attacker, damage, isPet);
 	}
 	
 	public static void main(String[] args)
 	{
-		new Chests(Chests.class.getSimpleName(), "ai");
+		// now call the constructor (starts up the ai)
+		new Chests(-1, "chests", "ai");
 	}
 }

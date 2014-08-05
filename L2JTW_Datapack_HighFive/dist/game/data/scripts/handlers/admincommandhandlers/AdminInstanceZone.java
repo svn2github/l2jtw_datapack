@@ -1,21 +1,3 @@
-/*
- * Copyright (C) 2004-2013 L2J DataPack
- * 
- * This file is part of L2J DataPack.
- * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package handlers.admincommandhandlers;
 
 import java.util.Map;
@@ -86,9 +68,7 @@ public class AdminInstanceZone implements IAdminCommandHandler
 				}
 				
 				if (player != null)
-				{
 					display(player, activeChar);
-				}
 				else
 				{
 					activeChar.sendMessage("The player " + playername + " is not online");
@@ -99,14 +79,10 @@ public class AdminInstanceZone implements IAdminCommandHandler
 			else if (activeChar.getTarget() != null)
 			{
 				if (activeChar.getTarget() instanceof L2PcInstance)
-				{
 					display((L2PcInstance) activeChar.getTarget(), activeChar);
-				}
 			}
 			else
-			{
 				display(activeChar, activeChar);
-			}
 		}
 		return true;
 	}
@@ -121,7 +97,18 @@ public class AdminInstanceZone implements IAdminCommandHandler
 	{
 		Map<Integer, Long> instanceTimes = InstanceManager.getInstance().getAllInstanceTimes(player.getObjectId());
 		
-		final StringBuilder html = StringUtil.startAppend(500 + (instanceTimes.size() * 200), "<html><center><table width=260><tr><td width=40><button value=\"" + MessageTable.Messages[1708].getMessage() + "\" action=\"bypass -h admin_admin\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center>" + MessageTable.Messages[1709].getMessage() + "</center></td><td width=40><button value=\"" + MessageTable.Messages[1710].getMessage() + "\" action=\"bypass -h admin_current_player\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><font color=\"LEVEL\">" + MessageTable.Messages[1711].getMessage(), player.getName(), "</font><center><br><table><tr><td width=150>" + MessageTable.Messages[1712].getExtra(1) + "</td><td width=50>" + MessageTable.Messages[1712].getExtra(2) + "</td><td width=70>" + MessageTable.Messages[1712].getExtra(3) + "</td></tr>");
+		final StringBuilder html = StringUtil.startAppend(500 + instanceTimes.size() * 200,
+				"<html><center><table width=260><tr>"+
+				"<td width=40><button value=\""+MessageTable.Messages[1708].getMessage()+"\" action=\"bypass -h admin_admin\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>"+
+				"<td width=180><center>"+MessageTable.Messages[1709].getMessage()+"</center></td>"+
+				"<td width=40><button value=\""+MessageTable.Messages[1710].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>"+
+				"</tr></table><br><font color=\"LEVEL\">"+MessageTable.Messages[1711].getMessage(),
+				player.getName(),
+				"</font><center><br>" +
+				"<table>" +
+				"<tr><td width=150>"+MessageTable.Messages[1712].getExtra(1)+"</td><td width=50>"+MessageTable.Messages[1712].getExtra(2)+"</td><td width=70>"+MessageTable.Messages[1712].getExtra(3)+"</td></tr>"
+		);
+		
 		
 		for (int id : instanceTimes.keySet())
 		{
@@ -134,7 +121,19 @@ public class AdminInstanceZone implements IAdminCommandHandler
 				minutes = (int) ((remainingTime % 3600) / 60);
 			}
 			
-			StringUtil.append(html, "<tr><td>", InstanceManager.getInstance().getInstanceIdName(id), "</td><td>", String.valueOf(hours), ":", String.valueOf(minutes), "</td><td><button value=\"" + MessageTable.Messages[1713].getMessage() + "\" action=\"bypass -h admin_instancezone_clear ", player.getName(), " ", String.valueOf(id), "\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
+			StringUtil.append(html,
+					"<tr><td>",
+					InstanceManager.getInstance().getInstanceIdName(id),
+					"</td><td>",
+					String.valueOf(hours),
+					":",
+					String.valueOf(minutes),
+					"</td><td><button value=\""+MessageTable.Messages[1713].getMessage()+"\" action=\"bypass -h admin_instancezone_clear ",
+					player.getName(),
+					" ",
+					String.valueOf(id),
+					"\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>"
+			);
 		}
 		
 		StringUtil.append(html, "</table></html>");

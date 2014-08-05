@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -32,8 +28,10 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
- * This class handles following admin commands: <li>add_exp_sp_to_character <i>shows menu for add or remove</i> <li>add_exp_sp exp sp <i>Adds exp & sp to target, displays menu if a parameter is missing</i> <li>remove_exp_sp exp sp <i>Removes exp & sp from target, displays menu if a parameter is
- * missing</i>
+ * This class handles following admin commands:
+ * <li> add_exp_sp_to_character <i>shows menu for add or remove</i>
+ * <li> add_exp_sp exp sp <i>Adds exp & sp to target, displays menu if a parameter is missing</i>
+ * <li> remove_exp_sp exp sp <i>Removes exp & sp from target, displays menu if a parameter is missing</i>
  * @version $Revision: 1.2.4.6 $ $Date: 2005/04/11 10:06:06 $
  */
 public class AdminExpSp implements IAdminCommandHandler
@@ -56,12 +54,10 @@ public class AdminExpSp implements IAdminCommandHandler
 			{
 				String val = command.substring(16);
 				if (!adminAddExpSp(activeChar, val))
-				{
 					activeChar.sendMessage(1671);
-				}
 			}
 			catch (StringIndexOutOfBoundsException e)
-			{ // Case of missing parameter
+			{ //Case of missing parameter
 				activeChar.sendMessage("Usage: //add_exp_sp exp sp");
 			}
 		}
@@ -71,12 +67,10 @@ public class AdminExpSp implements IAdminCommandHandler
 			{
 				String val = command.substring(19);
 				if (!adminRemoveExpSP(activeChar, val))
-				{
 					activeChar.sendMessage(1672);
-				}
 			}
 			catch (StringIndexOutOfBoundsException e)
-			{ // Case of missing parameter
+			{ //Case of missing parameter
 				activeChar.sendMessage("Usage: //remove_exp_sp exp sp");
 			}
 		}
@@ -95,9 +89,7 @@ public class AdminExpSp implements IAdminCommandHandler
 		L2Object target = activeChar.getTarget();
 		L2PcInstance player = null;
 		if (target instanceof L2PcInstance)
-		{
 			player = (L2PcInstance) target;
-		}
 		else
 		{
 			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
@@ -145,24 +137,22 @@ public class AdminExpSp implements IAdminCommandHandler
 		{
 			return false;
 		}
-		if ((expval != 0) || (spval != 0))
+		if (expval != 0 || spval != 0)
 		{
-			// Common character information
+			//Common character information
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1673]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);
 			player.sendMessage(cm.renderMsg());
 			player.addExpAndSp(expval, spval);
-			// Admin information
+			//Admin information
 			cm = new L2CoreMessage (MessageTable.Messages[1674]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);
 			cm.addString(player.getName());
 			activeChar.sendMessage(cm.renderMsg());
 			if (Config.DEBUG)
-			{
 				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") added " + expval + " xp and " + spval + " sp to " + player.getObjectId() + ".");
-			}
 		}
 		return true;
 	}
@@ -199,24 +189,22 @@ public class AdminExpSp implements IAdminCommandHandler
 		{
 			return false;
 		}
-		if ((expval != 0) || (spval != 0))
+		if (expval != 0 || spval != 0)
 		{
-			// Common character information
+			//Common character information
 			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1675]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);
 			player.sendMessage(cm.renderMsg());
 			player.removeExpAndSp(expval, spval);
-			// Admin information
+			//Admin information
 			cm = new L2CoreMessage (MessageTable.Messages[1676]);
 			cm.addNumber(expval);
 			cm.addNumber(spval);
 			cm.addString(player.getName());
 			activeChar.sendMessage(cm.renderMsg());
 			if (Config.DEBUG)
-			{
 				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") removed " + expval + " xp and " + spval + " sp from " + player.getObjectId() + ".");
-			}
 		}
 		return true;
 	}

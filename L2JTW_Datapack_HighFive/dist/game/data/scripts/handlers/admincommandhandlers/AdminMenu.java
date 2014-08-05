@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.admincommandhandlers;
 
@@ -35,7 +31,9 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
- * This class handles following admin commands: - handles every admin menu command
+ * This class handles following admin commands:
+ * - handles every admin menu command
+ *
  * @version $Revision: 1.3.2.6.2.4 $ $Date: 2005/04/11 10:06:06 $
  */
 public class AdminMenu implements IAdminCommandHandler
@@ -60,9 +58,7 @@ public class AdminMenu implements IAdminCommandHandler
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.equals("admin_char_manage"))
-		{
 			showMainPage(activeChar);
-		}
 		else if (command.startsWith("admin_teleport_character_to_menu"))
 		{
 			String[] data = command.split(" ");
@@ -71,9 +67,7 @@ public class AdminMenu implements IAdminCommandHandler
 				String playerName = data[1];
 				L2PcInstance player = L2World.getInstance().getPlayer(playerName);
 				if (player != null)
-				{
 					teleportCharacter(player, Integer.parseInt(data[2]), Integer.parseInt(data[3]), Integer.parseInt(data[4]), activeChar, MessageTable.Messages[1777].getMessage());
-				}
 			}
 			showMainPage(activeChar);
 		}
@@ -108,9 +102,7 @@ public class AdminMenu implements IAdminCommandHandler
 					return true;
 				}
 				for (L2PcInstance pm : player.getParty().getMembers())
-				{
 					teleportCharacter(pm, x, y, z, activeChar, MessageTable.Messages[1779].getMessage());
-				}
 			}
 			catch (Exception e)
 			{
@@ -138,9 +130,7 @@ public class AdminMenu implements IAdminCommandHandler
 				}
 				
 				for (L2PcInstance member : clan.getOnlineMembers(0))
-				{
 					teleportCharacter(member, x, y, z, activeChar, MessageTable.Messages[1781].getMessage());
-				}
 			}
 			catch (Exception e)
 			{
@@ -179,9 +169,7 @@ public class AdminMenu implements IAdminCommandHandler
 					text = MessageTable.Messages[1782].getExtra(1) + plyr.getName() + MessageTable.Messages[1782].getExtra(2);
 				}
 				else
-				{
 					text = MessageTable.Messages[1783].getExtra(1) + player + MessageTable.Messages[1783].getExtra(2);
-				}
 				activeChar.sendMessage(text);
 			}
 			showMainPage(activeChar);
@@ -199,7 +187,7 @@ public class AdminMenu implements IAdminCommandHandler
 					return false;
 				}
 				IAdminCommandHandler ach = AdminCommandHandler.getInstance().getHandler(subCommand);
-				ach.useAdminCommand(subCommand + command.substring(14), activeChar);
+				ach.useAdminCommand(subCommand+command.substring(14), activeChar);
 			}
 			showMainPage(activeChar);
 		}
@@ -216,7 +204,7 @@ public class AdminMenu implements IAdminCommandHandler
 					return false;
 				}
 				IAdminCommandHandler ach = AdminCommandHandler.getInstance().getHandler(subCommand);
-				ach.useAdminCommand(subCommand + command.substring(16), activeChar);
+				ach.useAdminCommand(subCommand+command.substring(16), activeChar);
 			}
 			showMainPage(activeChar);
 		}
@@ -256,13 +244,9 @@ public class AdminMenu implements IAdminCommandHandler
 				filename = "charmanage.htm";
 			}
 			else if (Config.L2JMOD_CHAMPION_ENABLE && target.isChampion())
-			{
-				target.reduceCurrentHp((target.getMaxHp() * Config.L2JMOD_CHAMPION_HP) + 1, activeChar, null);
-			}
+				target.reduceCurrentHp(target.getMaxHp() * Config.L2JMOD_CHAMPION_HP + 1, activeChar, null);
 			else
-			{
 				target.reduceCurrentHp(target.getMaxHp() + 1, activeChar, null);
-			}
 		}
 		else
 		{
@@ -285,18 +269,14 @@ public class AdminMenu implements IAdminCommandHandler
 	{
 		L2PcInstance player = null;
 		if (target instanceof L2PcInstance)
-		{
 			player = (L2PcInstance) target;
-		}
 		else
 		{
 			activeChar.sendPacket(SystemMessageId.INCORRECT_TARGET);
 			return;
 		}
 		if (player.getObjectId() == activeChar.getObjectId())
-		{
 			player.sendPacket(SystemMessageId.CANNOT_USE_ON_YOURSELF);
-		}
 		else
 		{
 			activeChar.setInstanceId(player.getInstanceId());

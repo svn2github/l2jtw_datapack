@@ -1,20 +1,16 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  * 
- * This file is part of L2J DataPack.
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
  * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.skillhandlers;
 
@@ -23,9 +19,12 @@ import java.util.logging.Level;
 
 import com.l2jserver.gameserver.handler.ISkillHandler;
 import com.l2jserver.gameserver.model.L2Object;
-import com.l2jserver.gameserver.model.ShotType;
 import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.L2Summon;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.effects.L2Effect;
+import com.l2jserver.gameserver.model.items.instance.L2ItemInstance;
 import com.l2jserver.gameserver.model.skills.L2Skill;
 import com.l2jserver.gameserver.model.skills.L2SkillType;
 import com.l2jserver.gameserver.model.stats.Env;
@@ -43,6 +42,43 @@ public class StealBuffs implements ISkillHandler
 	@Override
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
+		// discharge shots
+		final L2ItemInstance weaponInst = activeChar.getActiveWeaponInstance();
+		if (weaponInst != null)
+		{
+			if (skill.isMagic())
+			{
+				if (weaponInst.getChargedSpiritshot() == L2ItemInstance.CHARGED_BLESSED_SPIRITSHOT)
+				{
+					weaponInst.setChargedSpiritshot(L2ItemInstance.CHARGED_NONE);
+				}
+				else if (weaponInst.getChargedSpiritshot() == L2ItemInstance.CHARGED_SPIRITSHOT)
+				{
+					weaponInst.setChargedSpiritshot(L2ItemInstance.CHARGED_NONE);
+				}
+			}
+		}
+		else if (activeChar instanceof L2Summon)
+		{
+			final L2Summon activeSummon = (L2Summon) activeChar;
+			
+			if (skill.isMagic())
+			{
+				if (activeSummon.getChargedSpiritShot() == L2ItemInstance.CHARGED_BLESSED_SPIRITSHOT)
+				{
+					activeSummon.setChargedSpiritShot(L2ItemInstance.CHARGED_NONE);
+				}
+				else if (activeSummon.getChargedSpiritShot() == L2ItemInstance.CHARGED_SPIRITSHOT)
+				{
+					activeSummon.setChargedSpiritShot(L2ItemInstance.CHARGED_NONE);
+				}
+			}
+		}
+		else if (activeChar instanceof L2Npc)
+		{
+			((L2Npc) activeChar)._spiritshotcharged = false;
+		}
+		
 		L2Character target;
 		L2Effect effect;
 		
@@ -60,7 +96,7 @@ public class StealBuffs implements ISkillHandler
 				continue;
 			}
 			
-			if (!target.isPlayer())
+			if (!(target instanceof L2PcInstance))
 			{
 				continue;
 			}
@@ -160,7 +196,7 @@ public class StealBuffs implements ISkillHandler
 					if (effect != null)
 					{
 						effect.scheduleEffect();
-						if (effect.getShowIcon() && activeChar.isPlayer())
+						if (effect.getShowIcon() && (activeChar instanceof L2PcInstance))
 						{
 							SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
 							sm.addSkillName(effect);
@@ -191,8 +227,6 @@ public class StealBuffs implements ISkillHandler
 			}
 			skill.getEffectsSelf(activeChar);
 		}
-		
-		activeChar.setChargedShot(activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS) ? ShotType.BLESSED_SPIRITSHOTS : ShotType.SPIRITSHOTS, false);
 	}
 	
 	@Override
