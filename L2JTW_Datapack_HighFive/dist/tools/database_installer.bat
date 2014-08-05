@@ -226,7 +226,7 @@ set mysqlBinPath=%SystemDrive%\AppServ\MySQL\bin
 :_other
 set lsuser=root
 set lspass=
-set lsdb=l2jls
+set lsdb=l2jls_highfive
 set lshost=localhost
 set cbuser=root
 set cbpass=
@@ -234,7 +234,7 @@ set cbdb=l2jcs
 set cbhost=localhost
 set gsuser=root
 set gspass=
-set gsdb=l2jgs
+set gsdb=l2jgs_highfive
 set gshost=localhost
 set cmode=c
 set backup=.

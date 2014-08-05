@@ -2,8 +2,6 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="22100" levels="1" name="Soul Scent">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf6" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -79,11 +77,6 @@
 		<set name="operateType" val="A1" />
 		<set name="skillType" val="RECALL" />
 		<set name="target" val="TARGET_SELF" />
-		<cond msgId="113" addName="1">
-			<not>
-				<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
-			</not>
-		</cond>
 	</skill>
 	<skill id="22104" levels="1" name="Blessed Scroll of Resurrection (Event)">
 		<!-- Confirmed CT2.5 -->
@@ -330,8 +323,6 @@
 	</skill>
 	<skill id="22118" levels="1" name="Warmth of Kotatz">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="99" />
-		<set name="abnormalType" val="hp_regen_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillRadius" val="200" />
@@ -347,8 +338,6 @@
 	</skill>
 	<skill id="22119" levels="1" name="Love for All Seasons">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -363,8 +352,6 @@
 	</skill>
 	<skill id="22120" levels="1" name="Happy New Year">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -380,8 +367,6 @@
 	</skill>
 	<skill id="22121" levels="1" name="Female Aniruddha">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -397,8 +382,6 @@
 	</skill>
 	<skill id="22122" levels="1" name="Kung Hei Fat Choy">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -420,8 +403,6 @@
 	</skill>
 	<skill id="22123" levels="1" name="Chinese Feast">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -439,8 +420,6 @@
 	</skill>
 	<skill id="22124" levels="1" name="Hwa Gei Bu Gwi">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -455,8 +434,6 @@
 	</skill>
 	<skill id="22125" levels="1" name="Fire Stamp">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -498,17 +475,15 @@
 	</skill>
 	<skill id="22128" levels="3" name="Rudolph's Joy">
 		<!-- Confirmed CT2.5 -->
+		<table name="#abnormalLvl"> 1 2 3 </table>
 		<table name="#AtkSpd"> 1.1 1.15 1.2 </table>
-		<table name="#abnormalLvls"> 1 2 3 </table>
-		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalType" val="br_event_buf2" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="#abnormalLvls" abnormalType="br_event_buf2">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="#abnormalLvl" abnormalType="br_event_buf2">
 				<mul order="0x30" stat="pAtkSpd" val="#AtkSpd" />
 				<mul order="0x30" stat="mAtkSpd" val="#AtkSpd" />
 			</effect>
@@ -528,8 +503,6 @@
 	</skill>
 	<skill id="22130" levels="1" name="Food of Doubt's Effect">
 		<!-- Food of Doubt's effect.For 20 minutes, energy is recovered when Exp. is acquired. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="vp_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -537,8 +510,6 @@
 	</skill>
 	<skill id="22131" levels="1" name="Red Firework Flames">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf10" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -553,8 +524,6 @@
 	</skill>
 	<skill id="22132" levels="1" name="Gold Firework Flames">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf10" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -569,8 +538,6 @@
 	</skill>
 	<skill id="22133" levels="1" name="Blue Firework Flames">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf10" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -585,8 +552,6 @@
 	</skill>
 	<skill id="22134" levels="1" name="Pink Firework Flames">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf10" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -601,8 +566,6 @@
 	</skill>
 	<skill id="22135" levels="1" name="White Firework Flames">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf10" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -617,8 +580,6 @@
 	</skill>
 	<skill id="22136" levels="1" name="Silver Firework Flames">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf10" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="operateType" val="A2" />
@@ -652,8 +613,6 @@
 	</skill>
 	<skill id="22139" levels="1" name="Branding Wind Walk">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="speed_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -666,8 +625,6 @@
 	</skill>
 	<skill id="22140" levels="1" name="Hwa Gei Bu Gwi Haste">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="attack_time_down" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -680,8 +637,6 @@
 	</skill>
 	<skill id="22141" levels="1" name="Branding Agility">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="avoid_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -694,8 +649,6 @@
 	</skill>
 	<skill id="22142" levels="1" name="Female Aniruddha's Shield">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="pd_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -708,8 +661,6 @@
 	</skill>
 	<skill id="22143" levels="1" name="Happy New Year Death Whisper">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="critical_dmg_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -722,8 +673,6 @@
 	</skill>
 	<skill id="22144" levels="1" name="Happy New Year Guidance">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="hit_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -736,8 +685,6 @@
 	</skill>
 	<skill id="22145" levels="1" name="Love for All Seasons Empower">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="ma_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -750,8 +697,6 @@
 	</skill>
 	<skill id="22146" levels="1" name="Chinese Feast Greater Acumen">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="casting_time_down" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -764,8 +709,6 @@
 	</skill>
 	<skill id="22147" levels="1" name="Kung Hei Fat Choy Vampiric Rage">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="vampiric_attack" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -778,8 +721,6 @@
 	</skill>
 	<skill id="22148" levels="1" name="Branding Blessed Body">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="max_hp_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -792,8 +733,6 @@
 	</skill>
 	<skill id="22149" levels="1" name="Kung Hei Fat Choy Berserker Spirit">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="berserker" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -812,8 +751,6 @@
 	</skill>
 	<skill id="22150" levels="1" name="Female Aniruddha's Magic Barrier">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="md_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -826,8 +763,6 @@
 	</skill>
 	<skill id="22151" levels="1" name="Chinese Feast Blessed Soul">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="max_mp_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -840,8 +775,6 @@
 	</skill>
 	<skill id="22152" levels="1" name="Chinese Feast Clarity">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="cheap_magic" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -856,8 +789,6 @@
 	</skill>
 	<skill id="22153" levels="1" name="Love for All Seasons Wild Magic">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="magic_critical_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -870,8 +801,6 @@
 	</skill>
 	<skill id="22154" levels="1" name="Happy New Year Focus">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="critical_prob_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -884,8 +813,6 @@
 	</skill>
 	<skill id="22155" levels="1" name="Female Aniruddha's Blessed Shield">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="shield_prob_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -898,8 +825,6 @@
 	</skill>
 	<skill id="22156" levels="1" name="Hwa Gei Bu Gwi Decrease Weight">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="decrease_weight_penalty" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -912,8 +837,6 @@
 	</skill>
 	<skill id="22157" levels="1" name="Kung Hei Fat Choy Might">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="26" />
-		<set name="abnormalType" val="pa_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -926,9 +849,7 @@
 	</skill>
 	<skill id="22158" levels="10" name="Rose Petal">
 		<!-- Confirmed CT2.5 -->
-		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
-		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalType" val="br_event_buf1" />
+		<table name="#abnormalLvl"> 1 2 3 4 5 6 7 8 9 10 </table>
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="100" />
@@ -937,7 +858,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="#abnormalLvls" abnormalType="br_event_buf1">
+			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="#abnormalLvl" abnormalType="br_event_buf1">
 				<mul order="0x30" stat="regHp" val="1.2" />
 				<mul order="0x30" stat="regMp" val="1.2" />
 			</effect>
@@ -945,8 +866,6 @@
 	</skill>
 	<skill id="22159" levels="1" name="Vesper Super Power">
 		<!-- Increases P. Atk. by 15%, M. Atk. by 20% and Speed by 10 for 10 minutes. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf1" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -963,8 +882,6 @@
 	</skill>
 	<skill id="22160" levels="1" name="Vesper Critical Power">
 		<!-- Increases Physical critical attack rate by 15, Magical critical attack rate by 2 and Speed by 10 for 10 minutes. 5% of the standard short-range physical damage inflicted on the enemy is recovered as HP. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf1" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -982,8 +899,6 @@
 	</skill>
 	<skill id="22161" levels="1" name="Invincible Vesper">
 		<!-- Increases Atk. Spd. by 20%, Casting Spd. by 20% and Speed by 20 for 10 minutes. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf1" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -1000,8 +915,6 @@
 	</skill>
 	<skill id="22162" levels="1" name="Mt. Fuji Herb">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="vp_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="100" />
@@ -1017,8 +930,6 @@
 	</skill>
 	<skill id="22163" levels="1" name="Hawk Herb">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf1" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="100" />
@@ -1036,8 +947,6 @@
 	</skill>
 	<skill id="22164" levels="1" name="Eggplant Herb">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="br_event_buf1" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="100" />
@@ -1116,8 +1025,6 @@
 	</skill>
 	<skill id="22170" levels="1" name="Hardin's Protection">
 		<!-- Maximies P. Def. for 10 seconds. -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="pd_up_special" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1126,8 +1033,6 @@
 	</skill>
 	<skill id="22171" levels="1" name="Hardin's Blessing">
 		<!-- Maximies M. Def. for 10 seconds. -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="pd_up_special" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1136,8 +1041,6 @@
 	</skill>
 	<skill id="22172" levels="1" name="Sylphide's Wings">
 		<!-- Increases one's own moving speed by 300 for 15 seconds. -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="speed_up_special" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1146,8 +1049,6 @@
 	</skill>
 	<skill id="22173" levels="1" name="Sylphide's Blessing">
 		<!-- Increases the moving speed of yourself and friendly nearby targets by 300 for 15 seconds. -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="speed_up_special" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1171,7 +1072,7 @@
 			<player hp="30" />
 		</cond>
 		<for>
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" chanceType="ON_START" triggeredId="23214" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" chanceType="ON_START" triggeredId="23214" />
 		</for>
 	</skill>
 	<skill id="22176" levels="1" name="Rune of Spirit">
@@ -1183,7 +1084,7 @@
 			<player mp="10" />
 		</cond>
 		<for>
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" chanceType="ON_START" triggeredId="23215" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" chanceType="ON_START" triggeredId="23215" />
 		</for>
 	</skill>
 	<skill id="22177" levels="1" name="Warrior's Breath">

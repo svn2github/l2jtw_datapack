@@ -1,19 +1,21 @@
--- These queries are meant to delete any gameserver table you may have from previous
--- L2J installations.
+-- These queries are meant to delete any gameserver table you may have from
+-- previous L2J installations.
 --
--- Queries that create these tables and/or populate them apropiately are available in
--- the ../sql/ folder.
---
--- See the documentation.txt file for more details.  
+-- Queries that create these tables and/or populate them apropiately are
+-- available in the ../sql/ folder. See the documentation.txt file
+-- for more details.
 
-DROP TABLE IF EXISTS 
+DROP TABLE IF EXISTS
 account_gsdata,
 airships,
 auction,
 auction_bid,
 auction_watch,
 auto_announcements,
+auto_chat_text,
+auto_chat,
 castle,
+castle_door,
 castle_doorupgrade,
 castle_functions,
 castle_manor_procure,
@@ -25,6 +27,7 @@ character_friends,
 character_hennas,
 character_instance_time,
 character_item_reuse_save,
+character_lov_bonus,
 character_macroses,
 character_norestart_zone_time,
 character_offline_trade_items,
@@ -64,6 +67,7 @@ fort_doorupgrade,
 fort_functions,
 fort_siege_guards,
 fort_spawnlist,
+fort_staticobjects,
 fortsiege_clans,
 forums,
 four_sepulchers_spawnlist,
@@ -73,6 +77,7 @@ global_variables,
 grandboss_data,
 grandboss_list,
 hellbound_spawnlist,
+helper_buff_list,
 herb_droplist_groups,
 heroes,
 heroes_diary,

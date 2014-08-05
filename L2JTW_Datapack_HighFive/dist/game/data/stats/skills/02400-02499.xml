@@ -61,8 +61,6 @@
 	</skill>
 	<skill id="2404" levels="1" name="Might">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="pa_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="20" />
 		<set name="operateType" val="A2" />
@@ -76,8 +74,6 @@
 	</skill>
 	<skill id="2405" levels="1" name="Shield">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="pd_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="25" />
 		<set name="operateType" val="A2" />
@@ -91,8 +87,6 @@
 	</skill>
 	<skill id="2406" levels="1" name="Wind Walk">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="speed_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="30" />
 		<set name="operateType" val="A2" />
@@ -106,8 +100,6 @@
 	</skill>
 	<skill id="2407" levels="1" name="Focus">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="critical_prob_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="44" />
 		<set name="operateType" val="A2" />
@@ -121,8 +113,6 @@
 	</skill>
 	<skill id="2408" levels="1" name="Death Whisper">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="critical_dmg_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="48" />
 		<set name="operateType" val="A2" />
@@ -136,8 +126,6 @@
 	</skill>
 	<skill id="2409" levels="1" name="Guidance">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="hit_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="48" />
 		<set name="operateType" val="A2" />
@@ -151,8 +139,6 @@
 	</skill>
 	<skill id="2410" levels="1" name="Bless Shield">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="shield_prob_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="48" />
 		<set name="operateType" val="A2" />
@@ -166,8 +152,6 @@
 	</skill>
 	<skill id="2411" levels="1" name="Blessed Body">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="max_hp_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="52" />
 		<set name="operateType" val="A2" />
@@ -181,8 +165,6 @@
 	</skill>
 	<skill id="2412" levels="1" name="Haste">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="attack_time_down" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="44" />
 		<set name="operateType" val="A2" />
@@ -196,8 +178,6 @@
 	</skill>
 	<skill id="2413" levels="1" name="Vampiric Rage">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="vampiric_attack" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="44" />
 		<set name="operateType" val="A2" />
@@ -211,8 +191,6 @@
 	</skill>
 	<skill id="2414" levels="1" name="Berserker Spirit">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="berserker" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="35" />
 		<set name="operateType" val="A2" />
@@ -233,8 +211,6 @@
 	</skill>
 	<skill id="2415" levels="1" name="Magic Barrier">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="md_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="44" />
 		<set name="operateType" val="A2" />
@@ -248,8 +224,6 @@
 	</skill>
 	<skill id="2416" levels="1" name="Blessed Soul">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="max_mp_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="52" />
 		<set name="operateType" val="A2" />
@@ -263,8 +237,6 @@
 	</skill>
 	<skill id="2417" levels="1" name="Empower">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="ma_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="44" />
 		<set name="operateType" val="A2" />
@@ -278,8 +250,6 @@
 	</skill>
 	<skill id="2418" levels="1" name="Acumen">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="casting_time_down" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="35" />
 		<set name="operateType" val="A2" />
@@ -293,8 +263,6 @@
 	</skill>
 	<skill id="2419" levels="1" name="Clarity">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="cheap_magic" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="58" />
 		<set name="operateType" val="A2" />
@@ -466,8 +434,6 @@
 		</for>
 	</skill>
 	<skill id="2428" levels="1" name="Scroll of Transformation - Rabbit">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -480,8 +446,6 @@
 	</skill>
 	<skill id="2429" levels="1" name="Haste Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="attack_time_down" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -496,8 +460,6 @@
 	</skill>
 	<skill id="2430" levels="1" name="Accuracy Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="hit_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -512,8 +474,6 @@
 	</skill>
 	<skill id="2431" levels="1" name="Critical Power Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="critical_dmg_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -528,8 +488,6 @@
 	</skill>
 	<skill id="2432" levels="1" name="Critical Attack Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="critical_prob_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -544,8 +502,6 @@
 	</skill>
 	<skill id="2433" levels="1" name="Casting Speed Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="casting_time_down" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -560,8 +516,6 @@
 	</skill>
 	<skill id="2434" levels="1" name="Evasion Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="avoid_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -576,8 +530,6 @@
 	</skill>
 	<skill id="2435" levels="1" name="Magic Power Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="ma_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -592,8 +544,6 @@
 	</skill>
 	<skill id="2436" levels="1" name="Power Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="pa_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -608,8 +558,6 @@
 	</skill>
 	<skill id="2437" levels="1" name="Speed Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="speed_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -624,8 +572,6 @@
 	</skill>
 	<skill id="2438" levels="1" name="Defense Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="pd_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -640,8 +586,6 @@
 	</skill>
 	<skill id="2439" levels="1" name="MP Consumption Juice">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="cheap_magic" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -1482,7 +1426,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="A1" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="HealPercent" noicon="1" val="15" />
@@ -1495,7 +1439,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="A1" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="ManaHealPercent" noicon="1" val="12" />
@@ -1644,7 +1588,7 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="skillType" val="CREATE_ITEM" />
-		<set name="soulMaxConsumeCount" val="5" />
+		<set name="soulConsumeCount" val="5" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="2195">
 			<player souls="5" />

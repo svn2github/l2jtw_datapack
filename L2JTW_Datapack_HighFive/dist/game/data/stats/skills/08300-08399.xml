@@ -22,7 +22,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="10" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="10" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 		</for>
 	</skill>
 	<skill id="8302" levels="1" name="Vesper Noble Heavy Armor Set for Adults">
@@ -43,7 +43,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="10" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="10" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 		</for>
 	</skill>
 	<skill id="8303" levels="1" name="Vesper Light Armor Set for Adults">
@@ -59,7 +59,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 		</for>
 	</skill>
 	<skill id="8304" levels="1" name="Vesper Noble Light Armor Set for Adults">
@@ -79,7 +79,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 		</for>
 	</skill>
 	<skill id="8305" levels="1" name="Vesper Robe Set for Adults">
@@ -96,7 +96,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 		</for>
 	</skill>
 	<skill id="8306" levels="1" name="Vesper Noble Robe Set for Adults">
@@ -116,32 +116,31 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="25" activationMinDamage="50" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 		</for>
 	</skill>
 	<skill id="8307" levels="1" name="Boing Hammer's Effect of Doubt">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<!-- Update By pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
 		<for>
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="33" activationMinDamage="1" chanceType="ON_HIT" triggeredId="21007" />
+			<effect name="BigHead" abnormalTime="300" val="0" abnormalVisualEffect="bighead" abnormalLvl="1" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="8308" levels="1" name="Red Talisman - Guardian of the Territory">
-		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="talisman" />
-		<set name="aggroPoints" val="532" />
-		<set name="hitTime" val="1200" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="55" />
-		<set name="mpConsume" val="40" />
-		<set name="mpInitialConsume" val="10" />
-		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="360000" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="55" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="mpInitialConsume" val="10" />
+		<set name="mpConsume" val="40" />
+		<set name="hitTime" val="1200" />
+		<set name="reuseDelay" val="360000" />
 		<for>
 			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="talisman">
 				<add order="0x40" stat="maxCp" val="1200" />
@@ -150,19 +149,15 @@
 		</for>
 	</skill>
 	<skill id="8309" levels="1" name="Red Talisman - Territory Convoy">
-		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="talisman" />
-		<set name="aggroPoints" val="532" />
-		<set name="hitTime" val="1200" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="55" />
-		<set name="mpConsume" val="40" />
-		<set name="mpInitialConsume" val="10" />
-		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="360000" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="55" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="mpInitialConsume" val="10" />
+		<set name="mpConsume" val="40" />
+		<set name="hitTime" val="1200" />
+		<set name="reuseDelay" val="360000" />
 		<for>
 			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="talisman">
 				<add order="0x40" stat="maxCp" val="800" />
@@ -197,16 +192,12 @@
 		</for>
 	</skill>
 	<skill id="8314" levels="1" name="Release Seal on Agathion - Saerom">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16063" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16063" />
 	</skill>
 	<skill id="8315" levels="1" name="Santa Claus' Blessed Weapon">
 		<set name="target" val="TARGET_NONE" />
@@ -292,28 +283,20 @@
 		</for>
 	</skill>
 	<skill id="8327" levels="1" name="Release Seal on Agathion - Juju">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16064" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16064" />
 	</skill>
 	<skill id="8328" levels="1" name="Release Seal on Agathion - Oink oink">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16065" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16065" />
 	</skill>
 	<skill id="8329" levels="1" name="Summon Friend">
 		<!-- Update by pmq -->
@@ -327,38 +310,31 @@
 		<set name="castRange" val="-2" />
 		<set name="effectRange" val="-2" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<cond msgId="113" addName="1">
-			<not>
-				<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
-			</not>
-		</cond>
 	</skill>
 	<skill id="8330" levels="1" name="Release Seal on Agathion - Dawn">
-		<!-- Confirmed CT2.5 -->
+		<!-- Update by pmq -->
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="3000" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16066" />
-		<set name="operateType" val="A1" />
+		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16066" />
 	</skill>
 	<skill id="8331" levels="1" name="Blue Talisman - Buff Cancel">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="4000" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="55" />
-		<set name="maxNegated" val="5" />
-		<set name="mpConsume" val="40" />
-		<set name="mpInitialConsume" val="10" />
 		<set name="operateType" val="A1" />
-		<set name="power" val="25" />
-		<set name="reuseDelay" val="360000" />
-		<set name="skillRadius" val="150" />
-		<set name="skillType" val="CANCEL" />
 		<set name="target" val="TARGET_AURA" />
+		<set name="skillType" val="CANCEL" />
+		<set name="power" val="25" />
+		<set name="maxNegated" val="5" />
+		<set name="magicLvl" val="55" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="mpInitialConsume" val="10" />
+		<set name="mpConsume" val="40" />
+		<set name="hitTime" val="4000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="equipDelay" val="30000" /> <!-- FIXME: This should be loaded from "equip_reuse_delay" on items XMLs -->
+		<set name="skillRadius" val="150" />
 	</skill>
 	<skill id="8332" levels="1" name="Blue Talisman - Buff Steal">
 		<!-- Confirmed CT2.5 -->
@@ -377,19 +353,15 @@
 		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="8333" levels="1" name="Red Talisman - Territory Guard">
-		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="talisman" />
-		<set name="aggroPoints" val="532" />
-		<set name="hitTime" val="1200" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="55" />
-		<set name="mpConsume" val="40" />
-		<set name="mpInitialConsume" val="10" />
-		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="300000" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="A2" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="55" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="mpInitialConsume" val="10" />
+		<set name="mpConsume" val="40" />
+		<set name="hitTime" val="1200" />
+		<set name="reuseDelay" val="360000" />
 		<for>
 			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="talisman">
 				<add order="0x40" stat="maxCp" val="1500" />
@@ -398,46 +370,29 @@
 		</for>
 	</skill>
 	<skill id="8334" levels="1" name="Blue Talisman - Lord's Divine Protection">
-		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="talisman" />
-		<set name="aggroPoints" val="532" />
-		<set name="hitTime" val="1200" />
+		<!-- Damage received during PVP is decreased 75% using the power of the talisman. -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="55" />
-		<set name="mpConsume" val="40" />
-		<set name="mpInitialConsume" val="10" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="360000" />
-		<set name="skillType" val="BUFF" />
-		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="talisman">
-				<mul order="0x30" stat="pvpMagicalDef" val="1.75" />
-				<mul order="0x30" stat="pvpPhysDef" val="1.75" />
-			</effect>
-		</for>
 	</skill>
 	<skill id="8335" levels="1" name="White Talisman - Attribute Resistance">
-		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="talisman" />
-		<set name="aggroPoints" val="532" />
-		<set name="hitTime" val="1200" />
+		<!-- For 10 seconds, increases resistance to all attributes by 15 using the power of the talisman. -->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="55" />
-		<set name="mpConsume" val="40" />
-		<set name="mpInitialConsume" val="10" />
-		<set name="operateType" val="A2" />
+		<set name="hitTime" val="4000" />
+		<set name="mpConsume" val="50" />
 		<set name="reuseDelay" val="360000" />
+		<set name="equipDelay" val="30000" /> <!-- FIXME: This should be loaded from "equip_reuse_delay" on items XMLs -->
 		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="A2" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="talisman">
-				<add order="0x40" stat="earthRes" val="15" />
-				<add order="0x40" stat="waterRes" val="15" />
-				<add order="0x40" stat="windRes" val="15" />
 				<add order="0x40" stat="fireRes" val="15" />
+				<add order="0x40" stat="windRes" val="15" />
+				<add order="0x40" stat="waterRes" val="15" />
+				<add order="0x40" stat="earthRes" val="15" />
 				<add order="0x40" stat="holyRes" val="15" />
 				<add order="0x40" stat="darkRes" val="15" />
 			</effect>
@@ -446,9 +401,9 @@
 	<skill id="8336" levels="1" name="Guardian's Strider Mount">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="31" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="hitTime" val="2500" />
 		<set name="reuseDelay" val="3600000" />
@@ -681,10 +636,10 @@
 	</skill>
 	<skill id="8357" levels="1" name="Einhasad's Strike">
 		<!-- Confirmed CT2.5 -->
+		<!-- TODO: Implement proper target type. -->
 		<set name="castRange" val="200" />
 		<set name="coolTime" val="700" />
 		<set name="effectRange" val="400" />
-		<set name="fanRange" val="0,0,300,900" />
 		<set name="hitTime" val="1300" />
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="A1" />
@@ -696,16 +651,13 @@
 		<set name="target" val="TARGET_FRONT_AREA" />
 	</skill>
 	<skill id="8358" levels="1" name="Remove the seal of an Agathion - Towbat">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16070" />
-		<set name="operateType" val="A1" />
+		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="A1" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="npcId" val="16070" />
 	</skill>
 	<skill id="8359" levels="1" name="Notifier">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -716,8 +668,6 @@
 	</skill>
 	<skill id="8360" levels="1" name="Energy Maintenance Effect">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="vp_keep" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="100" />
 		<set name="operateType" val="A2" />
@@ -813,11 +763,10 @@
 	</skill>
 	<skill id="8371" levels="1" name="Transform Halloween Pumpkin">
 		<!-- Update by pmq -->
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="108" />
 		<cond msgId="1509">
@@ -829,8 +778,6 @@
 	</skill>
 	<skill id="8372" levels="1" name="Super Strong Giant's Mask">
 		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, P. Atk. by 5%, and earth tolerance by 5. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="signal_d" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -839,8 +786,6 @@
 	</skill>
 	<skill id="8373" levels="1" name="Silent Scream's Mask">
 		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, Critical rate by 5%, and wind tolerance by 5. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="signal_d" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -849,8 +794,6 @@
 	</skill>
 	<skill id="8374" levels="1" name="Wrathful Spirit's Mask">
 		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, moving speed by 5%, and fire tolerance by 5. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="signal_d" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -859,8 +802,6 @@
 	</skill>
 	<skill id="8375" levels="1" name="Unrotten Corpse's Mask">
 		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, skill's MP consumption by 5%, and darkness tolerance by 5. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="signal_d" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -869,8 +810,6 @@
 	</skill>
 	<skill id="8376" levels="1" name="Planet X235 Alien Mask's Effect">
 		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, damage magic's Prominent Damage occurrence by 2, and water tolerance by 5. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="signal_d" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -879,8 +818,6 @@
 	</skill>
 	<skill id="8377" levels="1" name="Golden Jack O'Lantern Mask's Effect">
 		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 20%, moving speed by 10%, and resistance to debuffs by 10%. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="signal_d" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />

@@ -13,7 +13,7 @@
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 		</for>
 	</skill>
 	<skill id="8201" levels="1" name="Major Arcana Robe Set - PvP">
@@ -30,7 +30,7 @@
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 		</for>
 	</skill>
 	<skill id="8202" levels="1" name="Dynasty Breastplate - PvP">
@@ -45,7 +45,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -63,7 +63,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -81,7 +81,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -98,7 +98,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -115,7 +115,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -132,7 +132,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -150,7 +150,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -168,7 +168,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -184,7 +184,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -202,7 +202,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -220,7 +220,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -238,7 +238,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -255,7 +255,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -272,7 +272,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -290,7 +290,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -308,7 +308,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -326,7 +326,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -344,7 +344,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -362,7 +362,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -379,7 +379,7 @@
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -396,7 +396,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5693" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -414,7 +414,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -432,7 +432,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -449,7 +449,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -467,7 +467,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -485,7 +485,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -503,7 +503,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5694" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -521,7 +521,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -539,7 +539,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -557,7 +557,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -574,7 +574,7 @@
 			<mul order="0x30" stat="pvpMagicalDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 			<mul order="0x30" stat="pvpPhysDef" val="1.05" />
-			<effect name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="2" chanceType="ON_ATTACKED_HIT" triggeredId="5691" />
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
@@ -685,8 +685,6 @@
 		</cond>
 	</skill>
 	<skill id="8241" levels="1" name="Critical Up">
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="critical_prob_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -721,8 +719,6 @@
 		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="8244" levels="1" name="Transform Gatekeeper">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -738,20 +734,14 @@
 		</for>
 	</skill>
 	<skill id="8245" levels="1" name="Summon Agathion - Love">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16049" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16049" />
 	</skill>
 	<skill id="8246" levels="1" name="Transform Pumpkin Ghost">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -766,8 +756,6 @@
 	</skill>
 	<skill id="8247" levels="1" name="Mount Darkmane Pacer">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="A2" />
@@ -811,121 +799,83 @@
 		<set name="npcId" val="#npcIds" />
 	</skill>
 	<skill id="8251" levels="1" name="Collection Agathion Release Seal">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16061" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16061" />
 	</skill>
 	<skill id="8252" levels="1" name="Test - Transform Mount1">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="8253" levels="1" name="Test - Transform Mount2">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="8254" levels="1" name="Release Seal on Agathion - Monkey">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16054" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16054" />
 	</skill>
 	<skill id="8255" levels="1" name="Release Seal on Agathion - Griffin">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16055" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16055" />
 	</skill>
 	<skill id="8256" levels="1" name="Release Seal on Agathion - Joy">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16056" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16056" />
 	</skill>
 	<skill id="8257" levels="1" name="Release Seal on Agathion - Anger">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16058" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16058" />
 	</skill>
 	<skill id="8258" levels="1" name="Release Seal on Agathion - Sorrow">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16057" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16057" />
 	</skill>
 	<skill id="8259" levels="1" name="Release Seal on Agathion - Girl Teddy Boy">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16059" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16059" />
 	</skill>
 	<skill id="8260" levels="1" name="Release Seal on Agathion - Girl Teddy Girl">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="85" />
-		<set name="npcId" val="16060" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16060" />
 	</skill>
 	<skill id="8261" levels="1" name="Steam Beatle Mount">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="A2" />
@@ -941,8 +891,6 @@
 	</skill>
 	<skill id="8262" levels="1" name="Tawny Maned Lion Mount">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="A2" />
@@ -958,8 +906,6 @@
 	</skill>
 	<skill id="8263" levels="1" name="Transform Snow King">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="A2" />
@@ -975,8 +921,6 @@
 	</skill>
 	<skill id="8264" levels="1" name="Transform Scarecrow Jack">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="A2" />
@@ -992,8 +936,6 @@
 	</skill>
 	<skill id="8265" levels="1" name="Transform Tin Golem">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="A2" />
@@ -1008,70 +950,57 @@
 		</for>
 	</skill>
 	<skill id="8266" levels="1" name="Gludio Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8267" levels="1" name="Dion Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8268" levels="1" name="Giran Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8269" levels="1" name="Oren Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8270" levels="1" name="Aden Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8271" levels="1" name="Innadril Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8272" levels="1" name="Goddard Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8273" levels="1" name="Rune Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8274" levels="1" name="Schuttgart Talisman">
-		<!-- Confirmed CT2.5 -->
-		<set name="magicLvl" val="1" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="P" />
-		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="8275" levels="1" name="Release Seal on Agathion - pvp">
-		<!-- Confirmed CT2.5 -->
-		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="magicLvl" val="75" />
-		<set name="npcId" val="16062" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="SummonAgathion" noicon="1" val="0" />
-		</for>
+		<set name="skillType" val="AGATHION" />
+		<set name="hitTime" val="3000" />
+		<set name="operateType" val="A1" />
+		<set name="npcId" val="16062" />
 	</skill>
 	<skill id="8276" levels="1" name="Shield Branding">
 		<!-- Update by pmq -->
@@ -1096,8 +1025,6 @@
 	</skill>
 	<skill id="8277" levels="1" name="Transform Native">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="aggroPoints" val="1" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLvl" val="56" />
@@ -1113,8 +1040,6 @@
 		</for>
 	</skill>
 	<skill id="8278" levels="1" name="Transform Guard of Dawn">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="transform" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1132,7 +1057,6 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="10000" />
 		<set name="hitTime" val="100" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="ElementPwr">
@@ -1145,7 +1069,6 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="10000" />
 		<set name="hitTime" val="100" />
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="ElementPwr">

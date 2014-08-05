@@ -345,6 +345,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3579-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3578-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -410,6 +411,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3581-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3580-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -443,8 +445,8 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="onmagic_chance" val="3" />
-		<set name="onmagic_skill" val="3598-1" />
+		<set name="oncast_chance" val="3" />
+		<set name="oncast_skill" val="3598-1" />
 		<set name="item_skill" val="3597-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -479,6 +481,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3584-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3583-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -512,8 +515,8 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="onmagic_chance" val="3" />
-		<set name="onmagic_skill" val="3596-1" />
+		<set name="oncast_chance" val="3" />
+		<set name="oncast_skill" val="3596-1" />
 		<set name="item_skill" val="3595-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -548,6 +551,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3590-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3589-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -582,6 +586,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3588-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3587-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -618,6 +623,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3594-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3593-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -652,6 +658,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3586-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3585-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -685,6 +692,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3592-1" />
+		<set name="oncrit_chance" val="100" /> <!-- FIXME: It Should be 100% by default, remove me when done -->
 		<set name="item_skill" val="3591-1" />
 		<cond msgId="1518">
 			<player isHero="true" />
@@ -1174,91 +1182,83 @@
 	</item>
 	<item id="6665" type="EtcItem" name="Deluxe Chest Key - Grade 1">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="130" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-1" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-1" />
 	</item>
 	<item id="6666" type="EtcItem" name="Deluxe Chest Key - Grade 2">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="200" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-2" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-2" />
 	</item>
 	<item id="6667" type="EtcItem" name="Deluxe Chest Key - Grade 3">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="320" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-3" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-3" />
 	</item>
 	<item id="6668" type="EtcItem" name="Deluxe Chest Key - Grade 4">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="560" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-4" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-4" />
 	</item>
 	<item id="6669" type="EtcItem" name="Deluxe Chest Key - Grade 5">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="860" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-5" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-5" />
 	</item>
 	<item id="6670" type="EtcItem" name="Deluxe Chest Key - Grade 6">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="1200" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-6" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-6" />
 	</item>
 	<item id="6671" type="EtcItem" name="Deluxe Chest Key - Grade 7">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="1800" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-7" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-7" />
 	</item>
 	<item id="6672" type="EtcItem" name="Deluxe Chest Key - Grade 8">
 		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 		<set name="price" val="2400" />
 		<set name="is_stackable" val="true" />
-		<!-- NOTE: cannot be used anymore in H5 -->
-		<!-- <set name="default_action" val="skill_reduce" /> -->
-		<!-- <set name="handler" val="ItemSkills" /> -->
-		<!-- <set name="item_skill" val="2229-8" /> -->
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2229-8" />
 	</item>
 	<item id="6673" type="EtcItem" name="Festival Adena">
 		<set name="icon" val="icon.etc_coin_of_fair_i00" />

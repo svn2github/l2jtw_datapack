@@ -216,11 +216,6 @@
 		<set name="skillType" val="TELEPORT" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="teleCoords" val="#teleCoords" />
-		<cond msgId="113" addName="1">
-			<not>
-				<player insideZoneId="10501, 10502, 10503" />
-			</not>
-		</cond>
 	</skill>
 	<skill id="2214" levels="10" name="Scroll of Escape to Talking Island">
 		<!-- Confirmed CT2.5 -->
@@ -233,11 +228,6 @@
 		<set name="skillType" val="TELEPORT" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="teleCoords" val="#teleCoords" />
-		<cond msgId="113" addName="1">
-			<not>
-				<player insideZoneId="10501, 10502, 10503" />
-			</not>
-		</cond>
 	</skill>
 	<skill id="2215" levels="4" name="Item - Quest Special Box">
 		<!-- Confirmed CT2.5 -->
@@ -626,8 +616,6 @@
 	</skill>
 	<skill id="2231" levels="1" name="Amulet: Protection of Valakas">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="valakas_item" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="1000" />
 		<set name="itemConsumeCount" val="1" />
@@ -644,8 +632,6 @@
 	</skill>
 	<skill id="2232" levels="1" name="Amulet: Slay Valakas">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="valakas_item" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="1000" />
 		<set name="itemConsumeCount" val="1" />
@@ -676,8 +662,6 @@
 	</skill>
 	<skill id="2234" levels="1" name="Soul Breaking Arrow">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="stun" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -691,10 +675,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="trait" val="SHOCK" />
 		<cond msgId="113" addName="1">
-			<and>
-				<using kind="Bow" />
-				<player insideZoneId="2234" />
-			</and>
+			<using kind="Bow" />
 		</cond>
 		<for>
 			<effect name="Stun" abnormalTime="1" val="0" effectPower="100" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
@@ -770,8 +751,6 @@
 	</skill>
 	<skill id="2239" levels="1" name="Petrification Scroll">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="turn_stone" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -781,9 +760,6 @@
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY" />
-		<cond msgId="113" addName="1">
-			<player insideZoneId="2239" />
-		</cond>
 		<for>
 			<effect name="Petrification" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="turn_stone" />
 		</for>
@@ -800,9 +776,6 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="target" val="TARGET_ONE" />
-		<cond msgId="113" addName="1">
-			<player insideZoneId="2240123" />
-		</cond>
 	</skill>
 	<skill id="2241" levels="1" name="Hot Spring Mineral Water">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -810,9 +783,6 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="A1" />
-		<cond msgId="113" addName="1">
-			<player insideZoneId="2240123" />
-		</cond>
 	</skill>
 	<skill id="2242" levels="1" name="Hot Spring Fountain Water">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -820,9 +790,6 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="A1" />
-		<cond msgId="113" addName="1">
-			<player insideZoneId="2240123" />
-		</cond>
 	</skill>
 	<skill id="2243" levels="1" name="Hot Spring Sulfur">
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
@@ -830,9 +797,6 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="A1" />
-		<cond msgId="113" addName="1">
-			<player insideZoneId="2240123" />
-		</cond>
 	</skill>
 	<skill id="2244" levels="1" name="Herb of Life">
 		<!-- Confirmed CT2.5 -->
@@ -843,7 +807,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Heal" noicon="1" val="60" />
@@ -859,7 +823,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="ManaHeal" noicon="1" val="20" />
@@ -868,8 +832,6 @@
 	</skill>
 	<skill id="2246" levels="1" name="Herb of Power">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="pa_up_herb" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="40" />
@@ -878,7 +840,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="pa_up_herb">
@@ -893,8 +855,6 @@
 	</skill>
 	<skill id="2247" levels="1" name="Herb of Magic">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="ma_up_herb" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="40" />
@@ -903,7 +863,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="1" abnormalType="ma_up_herb">
@@ -912,8 +872,6 @@
 		</for>
 	</skill>
 	<skill id="2248" levels="1" name="Bless of Fire">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="holy_attack" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="element" val="0" /> <!-- Fire -->
@@ -929,8 +887,6 @@
 		</for>
 	</skill>
 	<skill id="2249" levels="1" name="Bless of Water">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="holy_attack" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="element" val="1" /> <!-- Water -->
@@ -946,8 +902,6 @@
 		</for>
 	</skill>
 	<skill id="2250" levels="1" name="Bless of Wind">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="holy_attack" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="element" val="2" /> <!-- Wind -->
@@ -963,8 +917,6 @@
 		</for>
 	</skill>
 	<skill id="2251" levels="1" name="Bless of Earth">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="holy_attack" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="element" val="3" /> <!-- Earth -->
@@ -980,8 +932,6 @@
 		</for>
 	</skill>
 	<skill id="2252" levels="1" name="Bless of Darkness">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="holy_attack" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="element" val="5" /> <!-- Dark -->
@@ -997,8 +947,6 @@
 		</for>
 	</skill>
 	<skill id="2253" levels="1" name="Bless of Sacredness">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="holy_attack" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="element" val="4" /> <!-- Holy -->
@@ -1450,8 +1398,6 @@
 	<skill id="2274" levels="9" name="Fisherman's Potion">
 		<table name="#power"> 2 5 8 11 14 17 20 23 26 </table>
 		<table name="#active_skill_id_lvl"> 1315,4 1315,7 1315,10 1315,13 1315,16 1315,19 1315,22 1315,25 1315,28 </table>
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="fishing_mastery_down" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="#power" />
@@ -1478,13 +1424,25 @@
 		</for>
 	</skill>
 	<skill id="2276" levels="1" name="Dewdrop of Destruction">
-		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="power" val="999999999" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="A1" />
+		<set name="itemConsumeId" val="8556" /> <!-- Dewdrop of Destruction -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="2000" />
+		<set name="coolTime" val="1000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="113" addName="1">
-			<player insideZoneId="2276" />
+			<and>
+				<player flyMounted="False" />
+				<target npcId="29048,29049" /> <!-- Evil Spirit -->
+			</and>
 		</cond>
 	</skill>
 	<skill id="2277" levels="6" name="Event Gift Box">
@@ -1522,7 +1480,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="HealPercent" noicon="1" val="#amount" />
@@ -1538,7 +1496,7 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="ManaHealPercent" noicon="1" val="#amount" />
@@ -1546,8 +1504,6 @@
 	</skill>
 	<skill id="2280" levels="1" name="Herb of Power">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="pa_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="40" />
@@ -1556,7 +1512,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="3" abnormalType="pa_up">
@@ -1566,8 +1522,6 @@
 	</skill>
 	<skill id="2281" levels="1" name="Herb of Magic">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="ma_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="52" />
@@ -1576,7 +1530,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="3" abnormalType="ma_up">
@@ -1586,8 +1540,6 @@
 	</skill>
 	<skill id="2282" levels="1" name="Herb of Atk. Spd.">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="attack_time_down" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="52" />
@@ -1596,7 +1548,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="2" abnormalType="attack_time_down">
@@ -1606,8 +1558,6 @@
 	</skill>
 	<skill id="2283" levels="1" name="Herb of Casting Spd.">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="casting_time_down" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="52" />
@@ -1616,7 +1566,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="3" abnormalType="casting_time_down">
@@ -1626,8 +1576,6 @@
 	</skill>
 	<skill id="2284" levels="1" name="Herb of Critical Attack">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="critical_prob_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="52" />
@@ -1636,7 +1584,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="3" abnormalType="critical_prob_up">
@@ -1646,8 +1594,6 @@
 	</skill>
 	<skill id="2285" levels="1" name="Herb of Speed">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="speed_up" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="100" />
 		<set name="magicLvl" val="52" />
@@ -1656,7 +1602,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
-			<player flyMounted="false" />
+			<player flyMounted="False" />
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="300" val="0" abnormalLvl="2" abnormalType="speed_up">
@@ -1675,7 +1621,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<cond msgId="113" addName="1">
 			<and>
-				<player chaotic="false" />
+				<player chaotic="False" />
 				<player levelRange="#levelRange" />
 			</and>
 		</cond>
@@ -1752,120 +1698,85 @@
 		</for>
 	</skill>
 	<skill id="2291" levels="1" name="Facelifting Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="faceId" val="0" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeFace" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="0" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2292" levels="1" name="Facelifting Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="faceId" val="1" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeFace" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="1" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2293" levels="1" name="Facelifting Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="faceId" val="2" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeFace" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="2" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2294" levels="1" name="Dye Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="hairColorId" val="0" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeHairColor" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="0" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2295" levels="1" name="Dye Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="hairColorId" val="1" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeHairColor" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="1" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2296" levels="1" name="Dye Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="hairColorId" val="2" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeHairColor" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="2" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2297" levels="1" name="Dye Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="hairColorId" val="3" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeHairColor" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="3" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2298" levels="1" name="Hair Style Change Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="hairStyleId" val="0" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeHairStyle" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="0" />
+		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2299" levels="1" name="Hair Style Change Potion">
-		<!-- Confirmed CT2.5 -->
-		<set name="hairStyleId" val="1" />
-		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="magicLvl" val="1" />
-		<set name="operateType" val="A1" />
 		<set name="target" val="TARGET_SELF" />
-		<for>
-			<effect name="ChangeHairStyle" noicon="1" val="0" />
-		</for>
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="trait" val="HOLD" />
 	</skill>
 </list>

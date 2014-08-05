@@ -51,10 +51,10 @@
 												<xs:enumeration value="item_skill" />
 												<xs:enumeration value="material" />
 												<xs:enumeration value="mp_consume" />
+												<xs:enumeration value="oncast_chance" />
+												<xs:enumeration value="oncast_skill" />
 												<xs:enumeration value="oncrit_chance" />
 												<xs:enumeration value="oncrit_skill" />
-												<xs:enumeration value="onmagic_chance" />
-												<xs:enumeration value="onmagic_skill" />
 												<xs:enumeration value="price" />
 												<xs:enumeration value="random_damage" />
 												<xs:enumeration value="recipe_id" />
@@ -182,11 +182,6 @@
 												</xs:attribute>
 												<xs:attribute name="SiegeZone" type="xs:positiveInteger" fixed="126" />
 												<xs:attribute name="vehicleMounted" type="xs:boolean" />
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="target" maxOccurs="unbounded" minOccurs="1">
-											<xs:complexType>
-												<xs:attribute name="levelRange" type="xs:token" />
 											</xs:complexType>
 										</xs:element>
 									</xs:choice>

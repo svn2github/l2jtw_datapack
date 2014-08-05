@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="2800" levels="1" name="Stone of Ease">
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="max_hp_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -16,8 +14,6 @@
 		</for>
 	</skill>
 	<skill id="2801" levels="1" name="Stone of Abundance">
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="max_mp_up" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
@@ -689,8 +685,6 @@
 		</for>
 	</skill>
 	<skill id="2839" levels="1" name="Sacred Light Fragment">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="attribute_potion" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1004,8 +998,6 @@
 	</skill>
 	<skill id="2856" levels="1" name="Santa's Buff Gift Set">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="4000" />
 		<set name="itemConsumeCount" val="1" />
@@ -1023,7 +1015,7 @@
 				<mul order="0x30" stat="mAtk" val="1.2" />
 				<mul order="0x30" stat="mAtkSpd" val="1.2" />
 				<mul order="0x30" stat="maxMp" val="1.2" />
-				<add order="0x40" stat="mCritRate" val="2" />
+				<basemul order="0x30" stat="mCritRate" val="2" />
 				<mul order="0x30" stat="mDef" val="1.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
@@ -1036,8 +1028,6 @@
 	</skill>
 	<skill id="2857" levels="1" name="Christmas Event - Magic Use Enhancement Scroll">
 		<!-- Confirmed CT2.5 -->
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="multi_buff" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="hitTime" val="4000" />
 		<set name="itemConsumeCount" val="1" />
@@ -1053,7 +1043,7 @@
 				<mul order="0x30" stat="DanceMpConsumeRate" val="0.95" />
 				<mul order="0x30" stat="mAtk" val="1.2" />
 				<mul order="0x30" stat="mAtkSpd" val="1.2" />
-				<add order="0x40" stat="mCritRate" val="2" />
+				<basemul order="0x30" stat="mCritRate" val="2" />
 				<mul order="0x30" stat="mDef" val="1.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
@@ -1150,8 +1140,6 @@
 		</for>
 	</skill>
 	<skill id="2863" levels="1" name="Highest Power Healing Potion">
-		<set name="abnormalLvl" val="4" />
-		<set name="abnormalType" val="hp_recover" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1540,8 +1528,6 @@
 		<set name="operateType" val="A1" />
 	</skill>
 	<skill id="2893" levels="1" name="Solo Escape Petition">
-		<set name="abnormalLvl" val="2" />
-		<set name="abnormalType" val="vp_keep" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1600,8 +1586,6 @@
 		</for>
 	</skill>
 	<skill id="2897" levels="1" name="Baguette's Herb">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="wp_change_event" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -1617,8 +1601,6 @@
 		</for>
 	</skill>
 	<skill id="2898" levels="1" name="Fresh Cream Herb">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="wp_change_event" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />
@@ -1639,8 +1621,6 @@
 		</for>
 	</skill>
 	<skill id="2899" levels="1" name="Cheesecake Herb">
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="wp_change_event" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 		<set name="skillType" val="BUFF" />

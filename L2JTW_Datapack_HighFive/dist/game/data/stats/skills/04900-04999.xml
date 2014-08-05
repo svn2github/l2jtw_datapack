@@ -548,76 +548,51 @@
 	<skill id="4991" levels="1" name="Hot Spring Sulfur">
 		<!-- TODO -->
 		<!-- Decreases Atk. Spd. and Casting Spd. Effect 5. -->
-		<set name="abnormalLvl" val="5" />
-		<set name="abnormalType" val="all_speed_down" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 	</skill>
 	<skill id="4992" levels="1" name="Stun">
 		<!-- TODO -->
 		<!-- Shocks and instantly Immobilizes. -->
-		<set name="abnormalLvl" val="1" />
-		<set name="abnormalType" val="stun" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 		<set name="trait" val="SHOCK" />
 	</skill>
 	<skill id="4993" levels="1" name="Venom - Strike">
-		<!-- Confirmed CT2.5 -->
 		<!-- Benom Skills -->
-		<set name="castRange" val="40" />
-		<set name="coolTime" val="660" />
-		<set name="effectRange" val="200" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="830" />
-		<set name="magicLvl" val="79" />
-		<set name="mpConsume" val="88" />
+		<set name="coolTime" val="660" />
 		<set name="operateType" val="A1" />
-		<set name="power" val="57742" />
-		<set name="skillType" val="PDAM" />
-		<set name="target" val="TARGET_ONE" />
+		<set name="castRange" val="40" />
 	</skill>
 	<skill id="4994" levels="1" name="Venom - Sonic Storm">
-		<!-- Confirmed CT2.5 -->
 		<!-- Benom Skills -->
-		<set name="castRange" val="500" />
-		<set name="effectRange" val="1000" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="1900" />
-		<set name="magicLvl" val="79" />
-		<set name="mpConsume" val="88" />
-		<set name="operateType" val="A1" />
-		<set name="power" val="28871" />
 		<set name="reuseDelay" val="20000" />
-		<set name="skillRadius" val="150" />
-		<set name="skillType" val="PDAM" />
-		<set name="target" val="TARGET_AREA" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="500" />
+		<set name="baseCritRate" val="15" />
 	</skill>
 	<skill id="4995" levels="1" name="Venom - Teleport">
-		<!-- Confirmed CT2.5 -->
 		<!-- Benom Skills -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="2900" />
+		<set name="operateType" val="A1" />
 		<set name="castRange" val="800" />
 		<set name="coolTime" val="100" />
-		<set name="effectRange" val="1300" />
-		<set name="hitTime" val="2900" />
-		<set name="magicLvl" val="79" />
-		<set name="operateType" val="A1" />
-		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="4996" levels="1" name="Venom - Range Teleport">
-		<!-- Confirmed CT2.5 -->
 		<!-- Benom Skills -->
-		<set name="castRange" val="800" />
-		<set name="coolTime" val="100" />
-		<set name="effectRange" val="1300" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="2900" />
-		<set name="magicLvl" val="79" />
+		<set name="coolTime" val="100" />
 		<set name="operateType" val="A1" />
-		<set name="skillRadius" val="300" />
-		<set name="target" val="TARGET_AREA" />
+		<set name="castRange" val="800" />
 	</skill>
 	<skill id="4997" levels="1" name="Lidia - Regen">
 		<!-- TODO: Needs to be done -->
-		<set name="abnormalLvl" val="3" />
-		<set name="abnormalType" val="hp_regen_up" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="A2" />
 	</skill>

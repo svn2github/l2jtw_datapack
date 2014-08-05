@@ -8,5 +8,4 @@
 DROP TABLE IF EXISTS
 account_data,
 accounts,
-accounts_ipauth,
 gameservers;
