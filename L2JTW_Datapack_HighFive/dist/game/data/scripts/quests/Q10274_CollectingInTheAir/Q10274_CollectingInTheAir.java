@@ -21,9 +21,11 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.model.skills.L2Skill;
+import com.l2jserver.gameserver.util.Util;
 
 /**
- * Collecting in the Air (10274)
+ * Collecting in the Air (10274).<br>
+ * Original Jython script by Kerberos v1.0 on 2009/04/26
  * @author nonom
  */
 public class Q10274_CollectingInTheAir extends Quest
@@ -41,22 +43,22 @@ public class Q10274_CollectingInTheAir extends Quest
 	
 	private static final int MOBS[] =
 	{
-		18684, // Red Star Stone
-		18685, // Red Star Stone
-		18686, // Red Star Stone
-		18687, // Blue Star Stone
-		18688, // Blue Star Stone
-		18689, // Blue Star Stone
-		18690, // Green Star Stone
-		18691, // Green Star Stone
-		18692, // Green Star Stone
+		18684,
+		18685,
+		18686,
+		18687,
+		18688,
+		18689,
+		18690,
+		18691,
+		18692
 	};
 	
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 		{
 			return htmltext;
@@ -65,31 +67,31 @@ public class Q10274_CollectingInTheAir extends Quest
 		switch (st.getState())
 		{
 			case State.COMPLETED:
-				htmltext = "32557-0a.html";
+				htmltext = "32557-0a.htm";
 				break;
 			case State.CREATED:
-				st = player.getQuestState("10273_GoodDayToFly");
-				if (st == null)
+				QuestState qs = player.getQuestState("10273_GoodDayToFly");
+				if (qs != null)
 				{
-					htmltext = "32557-00.html";
+					htmltext = (qs.isCompleted() && (player.getLevel() >= 75)) ? "32557-01.htm" : "32557-00.htm";
 				}
 				else
 				{
-					htmltext = ((player.getLevel() >= 75) && st.isCompleted()) ? "32557-01.htm" : "32557-00.html";
+					htmltext = "32557-00.htm";
 				}
 				break;
 			case State.STARTED:
 				if ((st.getQuestItemsCount(RED) + st.getQuestItemsCount(BLUE) + st.getQuestItemsCount(GREEN)) >= 8)
 				{
-					htmltext = "32557-05.html";
+					htmltext = "32557-05.htm";
 					st.giveItems(13728, 1);
 					st.addExpAndSp(25160, 2525);
-					st.exitQuest(false, true);
 					st.playSound("ItemSound.quest_finish");
+					st.exitQuest(false);
 				}
 				else
 				{
-					htmltext = "32557-04.html";
+					htmltext = "32557-04.htm";
 				}
 				break;
 		}
@@ -99,19 +101,21 @@ public class Q10274_CollectingInTheAir extends Quest
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
+		String htmltext = event;
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 		{
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return htmltext;
 		}
 		
-		if (event.equals("32557-03.html"))
+		if (event.equalsIgnoreCase("32557-03.htm"))
 		{
-			st.startQuest();
+			st.set("cond", "1");
 			st.giveItems(SCROLL, 8);
+			st.setState(State.STARTED);
 			st.playSound("ItemSound.quest_accept");
 		}
-		return event;
+		return htmltext;
 	}
 	
 	@Override
@@ -123,22 +127,25 @@ public class Q10274_CollectingInTheAir extends Quest
 			return null;
 		}
 		
-		if (st.isCond(1) && (skill.getId() == 2630))
+		if (Util.contains(targets, npc) && (st.getInt("cond") == 1) && (skill.getId() == 2630))
 		{
+			st.playSound("ItemSound.quest_itemget");
 			final int npcId = npc.getNpcId();
+			// Red Star Stones
 			if ((npcId >= 18684) && (npcId <= 18686))
 			{
 				st.giveItems(RED, 1);
 			}
+			// Blue Star Stones
 			else if ((npcId >= 18687) && (npcId <= 18689))
 			{
 				st.giveItems(BLUE, 1);
 			}
+			// Green Star Stones
 			else if ((npcId >= 18690) && (npcId <= 18692))
 			{
 				st.giveItems(GREEN, 1);
 			}
-			st.playSound("ItemSound.quest_itemget");
 			npc.doDie(caster);
 		}
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
@@ -147,9 +154,12 @@ public class Q10274_CollectingInTheAir extends Quest
 	public Q10274_CollectingInTheAir(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
+		
 		addStartNpc(LEKON);
 		addTalkId(LEKON);
+		
 		addSkillSeeId(MOBS);
+		
 		questItemIds = new int[]
 		{
 			SCROLL,

@@ -17,7 +17,7 @@ package quests.Q10292_GirlofDoubt;
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
-import com.l2jserver.gameserver.model.instancezone.InstanceWorld;
+import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2MonsterInstance;
@@ -73,13 +73,7 @@ public class Q10292_GirlofDoubt extends Quest
 	
 	private int _numAtk = 0;
 	
-	protected static class teleCoord
-	{
-		int instanceId;
-		int x;
-		int y;
-		int z;
-	}
+	private class teleCoord {int instanceId; int x; int y; int z;}
 	
 	private static final void removeBuffs(L2Character ch)
 	{
@@ -98,9 +92,9 @@ public class Q10292_GirlofDoubt extends Quest
 	{
 		ShilensevilOnSpawn = false;
 		removeBuffs(player);
-		if (player.getSummon() != null)
+		if (player.getPet() != null)
 		{
-			removeBuffs(player.getSummon());
+			removeBuffs(player.getPet());
 		}
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(teleto.instanceId);
@@ -135,21 +129,21 @@ public class Q10292_GirlofDoubt extends Quest
 				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return 0;
 			}
-			teleto.instanceId = world.getInstanceId();
+			teleto.instanceId = world.instanceId;
 			teleportplayer(player,teleto);
 			return instanceId;
 		}
 		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
 		world = new GoDWorld();
-		world.setInstanceId(instanceId);
-		world.setTemplateId(INSTANCEID);
-		world.setStatus(0);
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID;
+		world.status = 0;
 		((GoDWorld)world).storeTime[0] = System.currentTimeMillis();
 		InstanceManager.getInstance().addWorld(world);
 		_log.info("JiniaGuildHideout started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
 		teleto.instanceId = instanceId;
 		teleportplayer(player,teleto);
-		world.addAllowed(player.getObjectId());
+		world.allowed.add(player.getObjectId());
 		return instanceId;
 	}
 	
@@ -164,21 +158,21 @@ public class Q10292_GirlofDoubt extends Quest
 				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return 0;
 			}
-			teleto.instanceId = world.getInstanceId();
+			teleto.instanceId = world.instanceId;
 			teleportplayer1(player,teleto);
 			return instanceId;
 		}
 		instanceId = InstanceManager.getInstance().createDynamicInstance(template);
 		world = new GoDWorld();
-		world.setInstanceId(instanceId);
-		world.setTemplateId(INSTANCEID1);
-		world.setStatus(0);
+		world.instanceId = instanceId;
+		world.templateId = INSTANCEID1;
+		world.status = 0;
 		((GoDWorld)world).storeTime[0] = System.currentTimeMillis();
 		InstanceManager.getInstance().addWorld(world);
 		_log.info("ElcadiaTent started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
 		teleto.instanceId = instanceId;
 		teleportplayer1(player,teleto);
-		world.addAllowed(player.getObjectId());
+		world.allowed.add(player.getObjectId());
 		return instanceId;
 	}
 	
@@ -222,7 +216,7 @@ public class Q10292_GirlofDoubt extends Quest
 			if (event.equalsIgnoreCase("TimeOut"))
 			{
 				InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-				world.removeAllowed(player.getObjectId());
+				world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
 				teleCoord tele = new teleCoord();
 				tele.instanceId = 0;
 				tele.x = 147052;
@@ -238,7 +232,7 @@ public class Q10292_GirlofDoubt extends Quest
 			if (event.equalsIgnoreCase("32617-02.htm"))
 			{
 				InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-				world.removeAllowed(player.getObjectId());
+				world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
 				teleCoord tele = new teleCoord();
 				tele.instanceId = 0;
 				tele.x = 147052;
@@ -253,7 +247,7 @@ public class Q10292_GirlofDoubt extends Quest
 			if (event.equalsIgnoreCase("tele1"))
 			{
 				InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-				world.removeAllowed(player.getObjectId());
+				world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
 				teleCoord tele = new teleCoord();
 				tele.instanceId = 0;
 				tele.x = 43347;

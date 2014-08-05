@@ -24,7 +24,8 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 
 /**
- * Mutated Kaneus - Dion (10277)
+ * Mutated Kaneus - Dion (10277).<br>
+ * Original Jython script by Gnacik on 2010-06-29
  * @author nonom
  */
 public class Q10277_MutatedKaneusDion extends Quest
@@ -54,30 +55,35 @@ public class Q10277_MutatedKaneusDion extends Quest
 		switch (npc.getNpcId())
 		{
 			case LUKAS:
-				switch (st.getState())
+				if (st.isCompleted())
 				{
-					case State.CREATED:
-						htmltext = (player.getLevel() > 27) ? "30071-01.htm" : "30371-00.htm";
-						break;
-					case State.STARTED:
-						htmltext = (st.hasQuestItems(TISSUE_CH) && st.hasQuestItems(TISSUE_SF)) ? "30371-05.htm" : "30371-04.htm";
-						break;
-					case State.COMPLETED:
-						htmltext = "30071-06.htm";
-						break;
+					htmltext = "30071-06.htm";
+				}
+				else if (st.isCreated())
+				{
+					htmltext = (player.getLevel() >= 28) ? "30071-01.htm" : "30371-00.htm";
+				}
+				else if (st.hasQuestItems(TISSUE_CH) && st.hasQuestItems(TISSUE_SF))
+				{
+					htmltext = "30371-05.htm";
+				}
+				else if (st.getInt("cond") == 1)
+				{
+					htmltext = "30371-04.htm";
 				}
 				break;
 			case MIRIEN:
-				switch (st.getState())
+				if (st.isCompleted())
 				{
-					case State.STARTED:
-						htmltext = (st.hasQuestItems(TISSUE_CH) && st.hasQuestItems(TISSUE_SF)) ? "30461-02.htm" : "30461-01.htm";
-						break;
-					case State.COMPLETED:
-						htmltext = "<html><body>這是已經完成的任務。</body></html>";
-						break;
-					default:
-						break;
+					htmltext = "<html><body>這是已經完成的任務。</body></html>";
+				}
+				else if ((st.hasQuestItems(TISSUE_CH)) && (st.hasQuestItems(TISSUE_SF)))
+				{
+					htmltext = "30461-02.htm";
+				}
+				else
+				{
+					htmltext = "30461-01.htm";
 				}
 				break;
 		}
@@ -87,25 +93,27 @@ public class Q10277_MutatedKaneusDion extends Quest
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
+		String htmltext = event;
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 		{
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return htmltext;
 		}
 		
 		switch (event)
 		{
 			case "30071-03.htm":
-				st.startQuest();
+				st.setState(State.STARTED);
+				st.set("cond", "1");
 				st.playSound("ItemSound.quest_accept");
 				break;
 			case "30461-03.htm":
-				st.giveAdena(20000, true);
-				st.exitQuest(false, true);
+				st.rewardItems(57, 20000);
 				st.playSound("ItemSound.quest_finish");
+				st.exitQuest(false);
 				break;
 		}
-		return event;
+		return htmltext;
 	}
 	
 	@Override
@@ -124,7 +132,11 @@ public class Q10277_MutatedKaneusDion extends Quest
 			for (L2PcInstance member : killer.getParty().getMembers())
 			{
 				st = member.getQuestState(qn);
-				if ((st != null) && st.isStarted() && (((npcId == CRIMSON_HATU) && !st.hasQuestItems(TISSUE_CH)) || ((npcId == SEER_FLOUROS) && !st.hasQuestItems(TISSUE_SF))))
+				if (st == null)
+				{
+					continue;
+				}
+				if ((st.isStarted() && (st.getInt("cond") == 1) && ((npcId == CRIMSON_HATU) && !st.hasQuestItems(TISSUE_CH))) || ((npcId == SEER_FLOUROS) && !st.hasQuestItems(TISSUE_SF)))
 				{
 					PartyMembers.add(st);
 				}
@@ -135,7 +147,7 @@ public class Q10277_MutatedKaneusDion extends Quest
 				rewardItem(npcId, PartyMembers.get(getRandom(PartyMembers.size())));
 			}
 		}
-		else if (st.isStarted())
+		else
 		{
 			rewardItem(npcId, st);
 		}
@@ -143,8 +155,8 @@ public class Q10277_MutatedKaneusDion extends Quest
 	}
 	
 	/**
-	 * @param npcId the ID of the killed monster
-	 * @param st the quest state of the killer or party member
+	 * @param npcId the killed monster Id.
+	 * @param st the quest state of the killer or party member.
 	 */
 	private final void rewardItem(int npcId, QuestState st)
 	{
@@ -163,9 +175,12 @@ public class Q10277_MutatedKaneusDion extends Quest
 	public Q10277_MutatedKaneusDion(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
+		
 		addStartNpc(LUKAS);
 		addTalkId(LUKAS, MIRIEN);
+		
 		addKillId(CRIMSON_HATU, SEER_FLOUROS);
+		
 		questItemIds = new int[]
 		{
 			TISSUE_CH,

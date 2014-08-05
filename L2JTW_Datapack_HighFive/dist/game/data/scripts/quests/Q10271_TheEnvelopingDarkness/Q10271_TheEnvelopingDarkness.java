@@ -37,92 +37,101 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-		QuestState st = player.getQuestState(qn);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 		{
 			return htmltext;
 		}
 		
-		switch (npc.getNpcId())
+		final int npcId = npc.getNpcId();
+		final int cond = st.getInt("cond");
+		if (npcId == ORBYU)
 		{
-			case ORBYU:
-				switch (st.getState())
-				{
-					case State.CREATED:
-						st = player.getQuestState("10269_ToTheSeedOfDestruction");
-						htmltext = ((player.getLevel() >= 75) && (st != null) && st.isCompleted()) ? "32560-01.htm" : "32560-02.html";
-						break;
-					case State.STARTED:
-						switch (st.getInt("cond"))
-						{
-							case 1:
-								htmltext = "32560-05.html"; // TODO this html should most probably be different
-								break;
-							case 2:
-								htmltext = "32560-06.html";
-								break;
-							case 3:
-								htmltext = "32560-07.html";
-								break;
-							case 4:
-								htmltext = "32560-08.html";
-								st.giveAdena(62516, true);
-								st.addExpAndSp(377403, 37867);
-								st.exitQuest(false, true);
-								break;
-						}
-						break;
-					case State.COMPLETED:
-						htmltext = "32560-03.html";
-						break;
-				}
-				
-				break;
-			case EL:
-				if (st.isCompleted())
-				{
-					htmltext = "32556-02.html";
-				}
-				else if (st.isStarted())
-				{
-					switch (st.getInt("cond"))
+			switch (st.getState())
+			{
+				case State.CREATED:
+					final QuestState _prev = player.getQuestState("10269_ToTheSeedOfDestruction");
+					if ((_prev != null) && _prev.isCompleted() && (player.getLevel() >= 75))
 					{
-						case 1:
-							htmltext = "32556-01.html";
-							break;
-						case 2:
-							htmltext = "32556-07.html";
-							break;
-						case 3:
-							htmltext = "32556-08.html";
-							break;
-						case 4:
-							htmltext = "32556-10.html";
-							break;
+						htmltext = "32560-01.htm";
 					}
-				}
-				break;
-			case MEDIBAL_CORPSE:
-				if (st.isCompleted())
-				{
-					htmltext = "32528-02.html";
-				}
-				else if (st.isStarted())
-				{
-					switch (st.getInt("cond"))
+					else
 					{
-						case 2:
-							htmltext = "32528-01.html";
-							st.setCond(3, true);
-							st.giveItems(MEDIBAL_DOCUMENT, 1);
-							break;
-						case 3:
-						case 4:
-							htmltext = "32528-03.html";
-							break;
+						htmltext = "32560-02.htm";
 					}
+					break;
+				case State.STARTED:
+					htmltext = "32560-05.htm";
+					break;
+				case State.COMPLETED:
+					htmltext = "32560-03.htm";
+					break;
+			}
+			
+			switch (cond)
+			{
+				case 2:
+					htmltext = "32560-06.htm";
+					break;
+				case 3:
+					htmltext = "32560-07.htm";
+					break;
+				case 4:
+					htmltext = "32560-08.htm";
+					st.giveAdena(62516, true);
+					st.addExpAndSp(377403, 37867);
+					st.playSound("ItemSound.quest_finish");
+					st.exitQuest(false);
+					break;
+			}
+		}
+		else if (npcId == EL)
+		{
+			if (st.isCompleted())
+			{
+				htmltext = "32556-02.htm";
+			}
+			else
+			{
+				switch (cond)
+				{
+					case 1:
+						htmltext = "32556-01.htm";
+						break;
+					case 2:
+						htmltext = "32556-07.htm";
+						break;
+					case 3:
+						htmltext = "32556-08.htm";
+						break;
+					case 4:
+						htmltext = "32556-10.htm";
+						break;
 				}
-				break;
+			}
+		}
+		else if (npcId == MEDIBAL_CORPSE)
+		{
+			if (st.isCompleted())
+			{
+				htmltext = "32528-02.htm";
+			}
+			else
+			{
+				switch (cond)
+				{
+					case 2:
+						htmltext = "32528-01.htm";
+						st.playSound("ItemSound.quest_middle");
+						st.set("cond", "3");
+						st.giveItems(MEDIBAL_DOCUMENT, 1);
+						break;
+					case 3:
+					case 4:
+						htmltext = "32528-03.htm";
+						break;
+				}
+			}
 		}
 		return htmltext;
 	}
@@ -130,31 +139,32 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
+		String htmltext = event;
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 		{
-			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+			return htmltext;
 		}
 		
-		switch (event)
+		if (event.equalsIgnoreCase("32560-05.htm"))
 		{
-			case "32560-05.html":
-				st.startQuest();
-				break;
-			case "32556-06.html":
-				st.setCond(2, true);
-				break;
-			case "32556-09.html":
-				if (st.hasQuestItems(MEDIBAL_DOCUMENT))
-				{
-					st.takeItems(MEDIBAL_DOCUMENT, -1);
-					st.setCond(4, true);
-				}
-				break;
-			default:
-				break;
+			st.setState(State.STARTED);
+			st.set("cond", "1");
+			st.playSound("ItemSound.quest_accept");
 		}
-		return event;
+		else if (event.equalsIgnoreCase("32556-06.htm"))
+		{
+			st.set("cond", "2");
+			st.playSound("ItemSound.quest_middle");
+		}
+		else if (event.equalsIgnoreCase("32556-09.htm"))
+		{
+			st.set("cond", "4");
+			st.playSound("ItemSound.quest_middle");
+			st.takeItems(MEDIBAL_DOCUMENT, 1);
+			
+		}
+		return htmltext;
 	}
 	
 	public Q10271_TheEnvelopingDarkness(int questId, String name, String descr)
@@ -162,6 +172,7 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 		super(questId, name, descr);
 		addStartNpc(ORBYU);
 		addTalkId(ORBYU, EL, MEDIBAL_CORPSE);
+		
 		questItemIds = new int[]
 		{
 			MEDIBAL_DOCUMENT
@@ -170,6 +181,6 @@ public class Q10271_TheEnvelopingDarkness extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q10271_TheEnvelopingDarkness(10271, qn, "The Enveloping Darkness");
+		new Q10271_TheEnvelopingDarkness(10271, qn, "籠罩的黑暗");
 	}
 }
