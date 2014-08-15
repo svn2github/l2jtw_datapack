@@ -30,7 +30,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="239" />
@@ -82,7 +82,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -170,7 +170,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="103" />
@@ -190,7 +190,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="64" />
@@ -258,7 +258,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -280,7 +280,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="293" />
@@ -315,7 +315,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="49" />
@@ -334,7 +334,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="49" />
@@ -354,7 +354,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />

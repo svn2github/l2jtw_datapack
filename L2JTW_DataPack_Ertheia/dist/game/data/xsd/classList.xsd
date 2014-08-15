@@ -3,13 +3,13 @@
 	<xs:element name="list">
 		<xs:complexType>
 			<xs:sequence minOccurs="1" maxOccurs="1">
-				<xs:element name="class" minOccurs="1" maxOccurs="181"> <!-- l2jtw fix Max_Class-ID -->
+				<xs:element name="class" minOccurs="1" maxOccurs="189"> <!-- l2jtw fix Max_Class-ID -->
 					<xs:complexType>
 						<xs:attribute name="classId" use="required">
 							<xs:simpleType>
 								<xs:restriction base="xs:nonNegativeInteger">
 									<xs:minInclusive value="0" />
-									<xs:maxInclusive value="181" /> <!-- l2jtw fix Max_Class-ID -->
+									<xs:maxInclusive value="189" /> <!-- l2jtw fix Max_Class-ID -->
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:attribute>
@@ -17,7 +17,7 @@
 							<xs:simpleType>
 								<xs:restriction base="xs:nonNegativeInteger">
 									<xs:minInclusive value="0" />
-									<xs:maxInclusive value="181" /> <!-- l2jtw fix Max_Class-ID -->
+									<xs:maxInclusive value="189" /> <!-- l2jtw fix Max_Class-ID -->
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:attribute>

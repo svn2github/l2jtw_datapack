@@ -1760,7 +1760,7 @@
 		<set name="weight" val="3570" />
 		<set name="price" val="997700" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="98" />
@@ -1774,7 +1774,7 @@
 		<set name="weight" val="590" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1799,7 +1799,7 @@
 		<set name="weight" val="590" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1813,7 +1813,7 @@
 		<set name="weight" val="1180" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1838,7 +1838,7 @@
 		<set name="weight" val="1180" />
 		<set name="price" val="399100" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="41" />
@@ -1852,7 +1852,7 @@
 		<set name="weight" val="1210" />
 		<set name="price" val="419000" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />

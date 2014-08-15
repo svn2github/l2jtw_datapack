@@ -7,7 +7,7 @@
 					<xs:simpleType>
 						<xs:restriction base="xs:nonNegativeInteger">
 							<xs:minInclusive value="0" />
-							<xs:maxInclusive value="181" /> <!-- l2jtw fix Max_Class-ID -->
+							<xs:maxInclusive value="189" /> <!-- l2jtw fix Max_Class-ID -->
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>

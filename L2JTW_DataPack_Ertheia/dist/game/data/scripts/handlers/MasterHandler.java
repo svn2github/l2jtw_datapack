@@ -19,6 +19,9 @@
 package handlers;
 
 import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -28,6 +31,7 @@ import com.l2jserver.gameserver.handler.ActionShiftHandler;
 import com.l2jserver.gameserver.handler.AdminCommandHandler;
 import com.l2jserver.gameserver.handler.BypassHandler;
 import com.l2jserver.gameserver.handler.ChatHandler;
+import com.l2jserver.gameserver.handler.IHandler;
 import com.l2jserver.gameserver.handler.ItemHandler;
 import com.l2jserver.gameserver.handler.PunishmentHandler;
 import com.l2jserver.gameserver.handler.TargetHandler;
@@ -38,19 +42,19 @@ import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 import handlers.actionhandlers.L2ArtefactInstanceAction;
 import handlers.actionhandlers.L2DecoyAction;
 import handlers.actionhandlers.L2DoorInstanceAction;
-import handlers.actionhandlers.L2DoorInstanceActionShift;
 import handlers.actionhandlers.L2ItemInstanceAction;
-import handlers.actionhandlers.L2ItemInstanceActionShift;
 import handlers.actionhandlers.L2NpcAction;
-import handlers.actionhandlers.L2NpcActionShift;
 import handlers.actionhandlers.L2PcInstanceAction;
-import handlers.actionhandlers.L2PcInstanceActionShift;
 import handlers.actionhandlers.L2PetInstanceAction;
 import handlers.actionhandlers.L2StaticObjectInstanceAction;
-import handlers.actionhandlers.L2StaticObjectInstanceActionShift;
 import handlers.actionhandlers.L2SummonAction;
-import handlers.actionhandlers.L2SummonActionShift;
 import handlers.actionhandlers.L2TrapAction;
+import handlers.actionshifthandlers.L2DoorInstanceActionShift;
+import handlers.actionshifthandlers.L2ItemInstanceActionShift;
+import handlers.actionshifthandlers.L2NpcActionShift;
+import handlers.actionshifthandlers.L2PcInstanceActionShift;
+import handlers.actionshifthandlers.L2StaticObjectInstanceActionShift;
+import handlers.actionshifthandlers.L2SummonActionShift;
 import handlers.admincommandhandlers.AdminAdmin;
 import handlers.admincommandhandlers.AdminAnnouncements;
 import handlers.admincommandhandlers.AdminBBS;
@@ -275,19 +279,19 @@ public class MasterHandler
 {
 	private static final Logger _log = Logger.getLogger(MasterHandler.class.getName());
 	
-	private static final Class<?>[] _loadInstances =
+	private static final IHandler<?, ?>[] _loadInstances =
 	{
-		ActionHandler.class,
-		ActionShiftHandler.class,
-		AdminCommandHandler.class,
-		BypassHandler.class,
-		ChatHandler.class,
-		ItemHandler.class,
-		PunishmentHandler.class,
-		UserCommandHandler.class,
-		VoicedCommandHandler.class,
-		TargetHandler.class,
-		TelnetHandler.class,
+		ActionHandler.getInstance(),
+		ActionShiftHandler.getInstance(),
+		AdminCommandHandler.getInstance(),
+		BypassHandler.getInstance(),
+		ChatHandler.getInstance(),
+		ItemHandler.getInstance(),
+		PunishmentHandler.getInstance(),
+		UserCommandHandler.getInstance(),
+		VoicedCommandHandler.getInstance(),
+		TargetHandler.getInstance(),
+		TelnetHandler.getInstance(),
 	};
 	
 	private static final Class<?>[][] _handlers =
@@ -568,27 +572,27 @@ public class MasterHandler
 	{
 		_log.log(Level.INFO, "Loading Handlers...");
 		
-		Object loadInstance = null;
-		Method method = null;
-		Class<?>[] interfaces = null;
-		Object handler = null;
-		
-		for (int i = 0; i < _loadInstances.length; i++)
+		Map<IHandler<?, ?>, Method> registerHandlerMethods = new HashMap<>();
+		for (IHandler<?, ?> loadInstance : _loadInstances)
 		{
-			try
+			registerHandlerMethods.put(loadInstance, null);
+			for (Method method : loadInstance.getClass().getMethods())
 			{
-				method = _loadInstances[i].getMethod("getInstance");
-				loadInstance = method.invoke(_loadInstances[i]);
+				if (method.getName().equals("registerHandler") && !method.isBridge())
+				{
+					registerHandlerMethods.put(loadInstance, method);
+				}
 			}
-			catch (Exception e)
-			{
-				_log.log(Level.WARNING, "Failed invoking getInstance method for handler: " + _loadInstances[i].getSimpleName(), e);
-				continue;
-			}
-			
-			method = null;
-			
-			for (Class<?> c : _handlers[i])
+		}
+		
+		registerHandlerMethods.entrySet().stream().filter(e -> e.getValue() == null).forEach(e ->
+		{
+			_log.log(Level.WARNING, "Failed loading handlers of: " + e.getKey().getClass().getSimpleName() + " seems registerHandler function does not exist.");
+		});
+		
+		for (Class<?> classes[] : _handlers)
+		{
+			for (Class<?> c : classes)
 			{
 				if (c == null)
 				{
@@ -597,18 +601,13 @@ public class MasterHandler
 				
 				try
 				{
-					// Don't wtf some classes extending another like ItemHandler, Elixir, etc.. and we need to find where the hell is interface xD
-					interfaces = c.getInterfaces().length > 0 ? // Standardly handler has implementation
-					c.getInterfaces() : c.getSuperclass().getInterfaces().length > 0 ? // No? then it extends another handler like (ItemSkills->ItemSkillsTemplate)
-					c.getSuperclass().getInterfaces() : c.getSuperclass().getSuperclass().getInterfaces(); // O noh that's Elixir->ItemSkills->ItemSkillsTemplate
-					if (method == null)
+					Object handler = c.newInstance();
+					for (Entry<IHandler<?, ?>, Method> entry : registerHandlerMethods.entrySet())
 					{
-						method = loadInstance.getClass().getMethod("registerHandler", interfaces);
-					}
-					handler = c.newInstance();
-					if (method.getParameterTypes()[0].isInstance(handler))
-					{
-						method.invoke(loadInstance, handler);
+						if ((entry.getValue() != null) && entry.getValue().getParameterTypes()[0].isInstance(handler))
+						{
+							entry.getValue().invoke(entry.getKey(), handler);
+						}
 					}
 				}
 				catch (Exception e)
@@ -617,18 +616,11 @@ public class MasterHandler
 					continue;
 				}
 			}
-			// And lets try get size
-			try
-			{
-				method = loadInstance.getClass().getMethod("size");
-				Object returnVal = method.invoke(loadInstance);
-				_log.log(Level.INFO, loadInstance.getClass().getSimpleName() + ": Loaded " + returnVal + " Handlers");
-			}
-			catch (Exception e)
-			{
-				_log.log(Level.WARNING, "Failed invoking size method for handler: " + loadInstance.getClass().getSimpleName(), e);
-				continue;
-			}
+		}
+		
+		for (IHandler<?, ?> loadInstance : _loadInstances)
+		{
+			_log.log(Level.INFO, loadInstance.getClass().getSimpleName() + ": Loaded " + loadInstance.size() + " Handlers");
 		}
 		
 		_log.log(Level.INFO, "Handlers Loaded...");

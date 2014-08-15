@@ -357,7 +357,7 @@
 							<xs:simpleType>
 								<xs:restriction base="xs:positiveInteger">
 									<xs:minInclusive value="1" />
-									<xs:maxInclusive value="20019" /> <!-- l2jtw fix Max_Transform-ID -->
+									<xs:maxInclusive value="20020" /> <!-- l2jtw fix Max_Transform-ID -->
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:attribute>
@@ -365,7 +365,7 @@
 							<xs:simpleType>
 								<xs:restriction base="xs:positiveInteger">
 									<xs:minInclusive value="1" />
-									<xs:maxInclusive value="20019" /> <!-- l2jtw fix Max_Level Max_Transform-ID -->
+									<xs:maxInclusive value="20020" /> <!-- l2jtw fix Max_Level Max_Transform-ID -->
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:attribute>

@@ -154,4 +154,12 @@
 	<class classId="179" name="艾羅樞機主教" serverName="艾羅樞機主教" parentClassId="97" />
 	<class classId="180" name="艾羅伊娃聖者" serverName="艾羅伊娃聖者" parentClassId="105" />
 	<class classId="181" name="艾羅席琳聖者" serverName="艾羅席琳聖者" parentClassId="112" />
+	<class classId="182" name="翼人戰士" serverName="翼人戰士" />
+	<class classId="183" name="翼人巫師" serverName="翼人巫師" />
+	<class classId="184" name="掠奪者" serverName="掠奪者" parentClassId="182" />
+	<class classId="185" name="威嚇者" serverName="威嚇者" parentClassId="183" />
+	<class classId="186" name="拳鬥士" serverName="拳鬥士" parentClassId="184" />
+	<class classId="187" name="暴風威嚇者" serverName="暴風威嚇者" parentClassId="185" />
+	<class classId="188" name="重力拳鬥士" serverName="重力拳鬥士" parentClassId="186" />
+	<class classId="189" name="沙哈預知者" serverName="沙哈預知者" parentClassId="187" />
 </list>
