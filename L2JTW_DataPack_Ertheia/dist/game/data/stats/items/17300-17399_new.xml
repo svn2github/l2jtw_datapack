@@ -18,8 +18,8 @@
 		<set name="element_enabled" val="true"/>
 		<set name="is_magic_weapon" val="true"/>
 		<for>
-			<set order="0x08" stat="pAtk" val="411"/>
-			<set order="0x08" stat="mAtk" val="270"/>
+			<set order="0x08" stat="pAtk" val="423"/>
+			<set order="0x08" stat="mAtk" val="278"/>
 			<set order="0x08" stat="rCrit" val="4"/>
 			<add order="0x10" stat="accCombat" val="8.0"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
@@ -44,8 +44,8 @@
 		<set name="enchant_enabled" val="1"/>
 		<set name="element_enabled" val="true"/>
 		<for>
-			<set order="0x08" stat="pAtk" val="514"/>
-			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="pAtk" val="529"/>
+			<set order="0x08" stat="mAtk" val="189"/>
 			<set order="0x08" stat="rCrit" val="8"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
 			<enchant order="0x0C" stat="pAtk" val="0"/>
@@ -69,8 +69,8 @@
 		<set name="enchant_enabled" val="1"/>
 		<set name="element_enabled" val="true"/>
 		<for>
-			<set order="0x08" stat="pAtk" val="422"/>
-			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="pAtk" val="435"/>
+			<set order="0x08" stat="mAtk" val="189"/>
 			<set order="0x08" stat="rCrit" val="12"/>
 			<add order="0x10" stat="accCombat" val="-3.75"/>
 			<set order="0x08" stat="pAtkSpd" val="433"/>
@@ -95,8 +95,8 @@
 		<set name="enchant_enabled" val="1"/>
 		<set name="element_enabled" val="true"/>
 		<for>
-			<set order="0x08" stat="pAtk" val="514"/>
-			<set order="0x08" stat="mAtk" val="186"/>
+			<set order="0x08" stat="pAtk" val="529"/>
+			<set order="0x08" stat="mAtk" val="189"/>
 			<set order="0x08" stat="rCrit" val="4"/>
 			<add order="0x10" stat="accCombat" val="8.0"/>
 			<set order="0x08" stat="pAtkSpd" val="325"/>
