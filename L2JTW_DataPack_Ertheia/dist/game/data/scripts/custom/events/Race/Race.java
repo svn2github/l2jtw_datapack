@@ -67,10 +67,10 @@ public final class Race extends Event
 	// Locations
 	private static final String[] _locations =
 	{
-		"Heretic catacomb enterance",
-		"Dion castle bridge",
-		"Floran village enterance",
-		"Floran fort gate"
+		"異端者的地下墓穴",
+		"迪恩城堡前方橋",
+		"芙羅蘭村莊入口",
+		"芙羅蘭邊境要塞"
 	};
 	
 	// @formatter:off
@@ -84,20 +84,20 @@ public final class Race extends Event
 	};
 	private static final int[][] _rewards =
 	{
-		{ 6622, 2 }, // Giant's Codex
-		{ 9625, 2 }, // Giant's Codex -
-		{ 9626, 2 }, // Giant's Codex -
-		{ 9627, 2 }, // Giant's Codex -
-		{ 9546, 5 }, // Attr stones
-		{ 9547, 5 },
-		{ 9548, 5 },
-		{ 9549, 5 },
-		{ 9550, 5 },
-		{ 9551, 5 },
-		{ 9574, 3 }, // Mid-Grade Life Stone: level 80
-		{ 9575, 2 }, // High-Grade Life Stone: level 80
-		{ 9576, 1 }, // Top-Grade Life Stone: level 80
-		{ 20034,1 }  // Revita pop
+		{ 6622, 2 }, // 巨人的經典
+		{ 9625, 2 }, // 巨人的經典 - 遺忘篇
+		{ 9626, 2 }, // 巨人的經典 - 訓練篇
+		{ 9627, 2 }, // 巨人的經典 - 熟練篇
+		{ 9546, 5 }, // 火之原石
+		{ 9547, 5 }, // 水之原石
+		{ 9548, 5 }, // 地之原石
+		{ 9549, 5 }, // 風之原石
+		{ 9550, 5 }, // 暗之原石
+		{ 9551, 5 }, // 聖之原石
+		{ 9574, 3 }, // 中級生命石-80級
+		{ 9575, 2 }, // 高級生命石-80級
+		{ 9576, 1 }, // 特級生命石-80級
+		{ 20034,1 }  // 萬聖節活力糖果-活動用
 	};
 	// @formatter:on
 	
@@ -136,8 +136,8 @@ public final class Race extends Event
 		_npc = recordSpawn(_start_npc, 18429, 145861, -3090, 0, false, 0);
 		
 		// Announce event start
-		Announcements.getInstance().announceToAll("* Race Event started! *");
-		Announcements.getInstance().announceToAll("Visit Event Manager in Dion village and signup, you have " + _time_register + " min before Race Start...");
+		Announcements.getInstance().announceToAll("* 賽跑活動開始! *");
+		Announcements.getInstance().announceToAll("活動相關內容與報名，請找迪恩城鎮內的活動管理員。活動即將開始，你還有 " + _time_register + " 分鐘能參與報名...");
 		
 		// Schedule Event end
 		_eventTask = ThreadPoolManager.getInstance().scheduleGeneral(new Runnable()
@@ -158,14 +158,14 @@ public final class Race extends Event
 		// Abort race if no players signup
 		if (_players.isEmpty())
 		{
-			Announcements.getInstance().announceToAll("Race aborted, nobody signup.");
+			Announcements.getInstance().announceToAll("無人參賽，賽跑活動取消!");
 			eventStop();
 			return;
 		}
 		// Set state
 		_isRaceStarted = true;
 		// Announce
-		Announcements.getInstance().announceToAll("Race started!");
+		Announcements.getInstance().announceToAll("開跑！");
 		// Get random Finish
 		int location = getRandom(0, _locations.length - 1);
 		_randspawn = _coords[location];
@@ -178,13 +178,13 @@ public final class Race extends Event
 			{
 				if (player.isInsideRadius(_npc, 500, false, false))
 				{
-					sendMessage(player, "Race started! Go find Finish NPC as fast as you can... He is located near " + _locations[location]);
+					sendMessage(player, "比賽開始！用你最快的速度跑到終點NPC那邊！他的位置在 " + _locations[location]+" 附近");
 					transformPlayer(player);
 					player.getRadar().addMarker(_randspawn[0], _randspawn[1], _randspawn[2]);
 				}
 				else
 				{
-					sendMessage(player, "I told you stay near me right? Distance was too high, you are excluded from race");
+					sendMessage(player, "我不是有叫你待在我身邊嗎？ 你離我太遠了, 你被踢出競賽了");
 					_players.remove(player);
 				}
 			}
@@ -240,7 +240,7 @@ public final class Race extends Event
 		_npclist.clear();
 		_players.clear();
 		// Announce event end
-		Announcements.getInstance().announceToAll("* Race Event finished *");
+		Announcements.getInstance().announceToAll("* 賽跑活動結束 *");
 		
 		return true;
 	}
@@ -252,7 +252,7 @@ public final class Race extends Event
 		{
 			if (_isRaceStarted)
 			{
-				activeChar.sendMessage("Race already started, you cannot change transform skill now");
+				activeChar.sendMessage("賽跑活動進行中，現在你無法變更變身技能");
 			}
 			else
 			{
@@ -261,12 +261,12 @@ public final class Race extends Event
 				if (_sk != null)
 				{
 					_skill = _number;
-					activeChar.sendMessage("Transform skill set to:");
+					activeChar.sendMessage("變身技能設定成:");
 					activeChar.sendMessage(_sk.getName());
 				}
 				else
 				{
-					activeChar.sendMessage("Error while changing transform skill");
+					activeChar.sendMessage("變更變身技能時發生錯誤");
 				}
 			}
 			
@@ -391,7 +391,7 @@ public final class Race extends Event
 		}
 		
 		player.getEffectList().stopSkillEffects(true, AbnormalType.SPEED_UP);
-		player.stopSkillEffects(true, 268);
+		player.stopSkillEffects(true, 268); // Song of Wind
 		player.stopSkillEffects(true, 298); // Rabbit Spirit Totem
 		SkillData.getInstance().getSkill(_skill, 1).applyEffects(player, player);
 	}
@@ -411,7 +411,7 @@ public final class Race extends Event
 	
 	protected void timeUp()
 	{
-		Announcements.getInstance().announceToAll("Time up, nobody wins!");
+		Announcements.getInstance().announceToAll("時間到, 沒人贏得勝利!");
 		eventStop();
 	}
 	
@@ -419,7 +419,7 @@ public final class Race extends Event
 	{
 		int[] _reward = _rewards[getRandom(_rewards.length - 1)];
 		player.addItem("eventModRace", _reward[0], _reward[1], _npc, true);
-		Announcements.getInstance().announceToAll(player.getName() + " is a winner!");
+		Announcements.getInstance().announceToAll(player.getName() + " 獲勝了!");
 		eventStop();
 	}
 	

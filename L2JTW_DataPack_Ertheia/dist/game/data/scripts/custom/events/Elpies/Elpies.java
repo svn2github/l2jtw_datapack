@@ -42,24 +42,25 @@ public final class Elpies extends Event
 	private static final int[][] DROPLIST_CONSUMABLES =
 	{
 		// itemId, chance, min amount, max amount
-		{  1540, 80, 10, 15 },	// Quick Healing Potion
-		{  1538, 60,  5, 10 },	// Blessed Scroll of Escape
-		{  3936, 40,  5, 10 },	// Blessed Scroll of Ressurection
-		{  6387, 25,  5, 10 },	// Blessed Scroll of Ressurection Pets
-		{ 22025, 15,  5, 10 },	// Powerful Healing Potion
-		{  6622, 10,  1, 1 },	// Giant's Codex
-		{ 20034,  5,  1, 1 },	// Revita Pop
-		{ 20004,  1,  1, 1 },	// Energy Ginseng
-		{ 20004,  0,  1, 1 }	// Energy Ginseng
+		{  1540, 80, 10, 15 },	// 瞬間體力治癒藥水
+		{  1538, 60,  5, 10 },	// 祝福的返回卷軸
+		{  3936, 40,  5, 10 },	// 祝福的復活卷軸
+		{  6387, 25,  5, 10 },	// 祝福的寵物復活卷軸
+		{ 22025, 15,  5, 10 },	// 終極治癒藥水
+		{  6622, 10,  1, 1 },	// 巨人的經典
+		{ 20034,  5,  1, 1 },	// 萬聖夜活力糖果-活動用
+		{ 20004,  1,  1, 1 },	// 活力人蔘
+		{ 20004,  0,  1, 1 }	// 活力人蔘
+
 	};
 	
 	private static final int[][] DROPLIST_CRYSTALS =
 	{
-		{ 1458, 80, 50, 100 },	// Crystal D-Grade
-		{ 1459, 60, 40,  80 },	// Crystal C-Grade
-		{ 1460, 40, 30,  60 },	// Crystal B-Grade
-		{ 1461, 20, 20,  30 },	// Crystal A-Grade
-		{ 1462,  0, 10,  20 }	// Crystal S-Grade
+		{ 1458, 80, 50, 100 },	// 結晶-D級
+		{ 1459, 60, 40,  80 },	// 結晶-C級
+		{ 1460, 40, 30,  60 },	// 結晶-B級
+		{ 1461, 20, 20,  30 },	// 結晶-A級
+		{ 1462,  0, 10,  20 }	// 結晶-S級
 	};
 	// @formatter:on
 	// Non-final variables
@@ -110,17 +111,17 @@ public final class Elpies extends Event
 			CURRENT_ELPY_COUNT++;
 		}
 		
-		Announcements.getInstance().announceToAll("*Squeak Squeak*");
-		Announcements.getInstance().announceToAll("Elpy invasion in " + randomLoc.getName());
-		Announcements.getInstance().announceToAll("Help us exterminate them!");
-		Announcements.getInstance().announceToAll("You have " + EVENT_DURATION_MINUTES + " minutes!");
+		Announcements.getInstance().announceToAll("*吱吱*");
+		Announcements.getInstance().announceToAll("獨角兔 入侵了  " + randomLoc.getName());
+		Announcements.getInstance().announceToAll("幫助我們消滅他們!");
+		Announcements.getInstance().announceToAll("你還有 " + EVENT_DURATION_MINUTES + " 分鐘...");
 		
 		_eventTask = ThreadPoolManager.getInstance().scheduleGeneral(new Runnable()
 		{
 			@Override
 			public void run()
 			{
-				Announcements.getInstance().announceToAll("Time is up!");
+				Announcements.getInstance().announceToAll("時間到 !");
 				eventStop();
 			}
 		}, despawnDelay);
@@ -152,8 +153,8 @@ public final class Elpies extends Event
 			}
 		}
 		
-		Announcements.getInstance().announceToAll("*Squeak Squeak*");
-		Announcements.getInstance().announceToAll("Elpy Event finished!");
+		Announcements.getInstance().announceToAll("*吱吱*");
+		Announcements.getInstance().announceToAll("獨角兔 的活動結束!");
 		return true;
 	}
 	
@@ -168,7 +169,7 @@ public final class Elpies extends Event
 			
 			if (CURRENT_ELPY_COUNT <= 0)
 			{
-				Announcements.getInstance().announceToAll("All elpies have been killed!");
+				Announcements.getInstance().announceToAll("已經沒有 獨角兔 了...");
 				eventStop();
 			}
 		}
@@ -186,11 +187,11 @@ public final class Elpies extends Event
 	
 	private static enum EventLocation
 	{
-		ADEN("Aden", 146558, 148341, 26622, 28560, -2200),
-		DION("Dion", 18564, 19200, 144377, 145782, -3081),
-		GLUDIN("Gludin", -84040, -81420, 150257, 151175, -3125),
-		HV("Hunters Village", 116094, 117141, 75776, 77072, -2700),
-		OREN("Oren", 82048, 82940, 53240, 54126, -1490);
+		ADEN("亞丁", 146558, 148341, 26622, 28560, -2200),
+		DION("狄恩", 18564, 19200, 144377, 145782, -3081),
+		GLUDIN("古魯丁", -84040, -81420, 150257, 151175, -3125),
+		HV("獵人村莊", 116094, 117141, 75776, 77072, -2700),
+		OREN("歐瑞", 82048, 82940, 53240, 54126, -1490);
 		
 		private final String _name;
 		private final int _minX;
