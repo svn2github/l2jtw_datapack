@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="35900" type="Armor" name="時髦惡魔的角">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35901" type="EtcItem" name="力量墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予力量+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35902" type="EtcItem" name="敏捷墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予敏捷+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35903" type="EtcItem" name="體質墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予體質+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35904" type="EtcItem" name="精神墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予精神+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35905" type="EtcItem" name="智力墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予智力+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35906" type="EtcItem" name="智慧墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予智慧+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35907" type="EtcItem" name="致命攻擊率墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予致命攻擊率+50的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35908" type="EtcItem" name="致命傷害墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予物理致命傷害+90、魔法致命傷害+68的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35909" type="EtcItem" name="物理防禦力墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35910" type="EtcItem" name="魔法防禦力墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35911" type="EtcItem" name="迴避能力墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予迴避能力+5的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35912" type="EtcItem" name="物理攻擊力墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35913" type="EtcItem" name="魔法攻擊力墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35914" type="EtcItem" name="命中能力墜子">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff 頭盔、聖誕帽的話，就可賦予命中能力+5的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35915" type="Armor" name="紅龍帽">
+		<table name="#Plus">力量(活動)</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35916" type="Armor" name="紅龍帽">
+		<table name="#Plus">敏捷(活動)</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35917" type="Armor" name="紅龍帽">
+		<table name="#Plus">體質(活動)</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35918" type="Armor" name="紅龍帽">
+		<table name="#Plus">精神(活動)</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35919" type="Armor" name="紅龍帽">
+		<table name="#Plus">智力(活動)</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35920" type="Armor" name="紅龍帽">
+		<table name="#Plus">智慧(活動)</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35921" type="Armor" name="紅龍帽">
+		<table name="#Plus">致命攻擊率(活動)</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35922" type="Armor" name="紅龍帽">
+		<table name="#Plus">致命傷害(活動)</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35923" type="Armor" name="紅龍帽">
+		<table name="#Plus">物理防禦力(活動)</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35924" type="Armor" name="紅龍帽">
+		<table name="#Plus">魔法防禦力(活動)</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35925" type="Armor" name="紅龍帽">
+		<table name="#Plus">迴避能力(活動)</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35926" type="Armor" name="紅龍帽">
+		<table name="#Plus">物理攻擊力(活動用)</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35927" type="Armor" name="紅龍帽">
+		<table name="#Plus">魔法攻擊力(活動)</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35928" type="Armor" name="紅龍帽">
+		<table name="#Plus">命中能力(活動)</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35929" type="Armor" name="謎樣的戒指">
+		<table name="#Desc">在謎樣的宅邸購買的戒指。可使用60天，而且可以將所選的血盟員召喚到自已的位置。使用冷卻時間為1小時。無法在奧林匹亞競賽中使用。</table>
+		<set name="icon" val="icon.accessory_shiny_couple_ring" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35930" type="EtcItem" name="渾沌體力治癒藥水">
+		<table name="#Desc">在謎樣的宅邸購買的體力治癒藥水。使用時恢復HP2500，剩餘的威力用來恢復CP。無持續時間。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35931" type="EtcItem" name="謎樣的卷軸">
+		<table name="#Desc">在謎樣的宅邸購買的卷軸。隱隱約約可以感受到黑暗力量。只能用於邪惡角色，而且可以讓所選的邪惡角色返回。使用冷卻時間為30分鐘。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35932" type="EtcItem" name="龍之氣息充能藥水">
+		<table name="#Desc">維他命道具\n使用時能充足一定量的活力。使用冷卻時間為60分鐘。不受限於1週內共使用5次的限制。</table>
+		<set name="icon" val="icon.etc_potion_of_energy_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35933" type="EtcItem" name="奈比特古文(龍之飛翔)7日禮盒">
+		<table name="#Desc">內裝有奈比特古文（龍之飛翔）- 7日道具1個的箱子。效果適用於等級95以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35934" type="EtcItem" name="奈比特古文(龍之飛翔)">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵所得經驗值和SP100%。效果適用於等級95以下的角色。限時7日。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="35935" type="EtcItem" name="貝勒多夫活力充能藥草">
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="35936" type="Armor" name="巨星壺精手鐲-張熙珍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">限時15日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法防禦力5%、HP最大值5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35937" type="Armor" name="巨星壺精手鐲-張赫">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">限時15日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理攻擊力5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35938" type="Armor" name="巨星壺精手鐲-金秀路">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">限時15日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理防禦力5%、HP最大值5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35939" type="Armor" name="巨星壺精手鐲-朴宰范">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">限時15日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法攻擊力6%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35940" type="Armor" name="巨星壺精手鐲-金信英">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">限時15日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、所有屬性防禦力10。縮短技能使用冷卻時間3%、降低技能MP消耗量3%。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35941" type="Armor" name="巨星壺精手鐲-張熙珍">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">限時30日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法防禦力5%、HP最大值5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35942" type="Armor" name="巨星壺精手鐲-張赫">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">限時30日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理攻擊力5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35943" type="Armor" name="巨星壺精手鐲-金秀路">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">限時30日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理防禦力5%、HP最大值5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35944" type="Armor" name="巨星壺精手鐲-朴宰范">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">限時30日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法攻擊力6%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35945" type="Armor" name="巨星壺精手鐲-金信英">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">限時30日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、所有屬性防禦力10。縮短技能使用冷卻時間3%、降低技能MP消耗量3%。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35946" type="EtcItem" name="張熙珍壺精 7日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 張熙珍（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35947" type="EtcItem" name="張赫壺精 7日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 張赫（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35948" type="EtcItem" name="金秀路壺精 7日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 金秀路（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35949" type="EtcItem" name="朴宰范壺精 7日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 朴宰范（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35950" type="EtcItem" name="金信英壺精 7日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 金信英（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35951" type="EtcItem" name="張熙珍壺精 15日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 張熙珍（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35952" type="EtcItem" name="張赫壺精 15日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 張赫（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35953" type="EtcItem" name="金秀路壺精 15日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 金秀路（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35954" type="EtcItem" name="朴宰范壺精 15日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 朴宰范（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35955" type="EtcItem" name="金信英壺精 15日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 金信英（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35956" type="EtcItem" name="張熙珍壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 張熙珍（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35957" type="EtcItem" name="張赫壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 張赫（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35958" type="EtcItem" name="金秀路壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 金秀路（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35959" type="EtcItem" name="朴宰范壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 朴宰范（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35960" type="EtcItem" name="金信英壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲- 金信英（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35961" type="EtcItem" name="張熙珍壺精 7日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 張熙珍（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35962" type="EtcItem" name="張赫壺精 7日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 張赫（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35963" type="EtcItem" name="金秀路壺精 7日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 金秀路（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35964" type="EtcItem" name="朴宰范壺精 7日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 朴宰范（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35965" type="EtcItem" name="金信英壺精 7日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 金信英（限時7日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35966" type="EtcItem" name="張熙珍壺精 15日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 張熙珍（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35967" type="EtcItem" name="張赫壺精 15日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 張赫（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35968" type="EtcItem" name="金秀路壺精 15日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 金秀路（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35969" type="EtcItem" name="朴宰范壺精 15日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 朴宰范（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35970" type="EtcItem" name="金信英壺精 15日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 金信英（限時15日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35971" type="EtcItem" name="張熙珍壺精 30日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 張熙珍（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35972" type="EtcItem" name="張赫壺精 30日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 張赫（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35973" type="EtcItem" name="金秀路壺精 30日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 金秀路（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35974" type="EtcItem" name="朴宰范壺精 30日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 朴宰范（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35975" type="EtcItem" name="金信英壺精 30日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有壺精召喚手鐲- 金信英（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35976" type="EtcItem" name="龍之氣息充能藥水">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n使用時能充足一定量的活力。使用冷卻時間為60分鐘。不受限於1週內共使用5次的限制。</table>
+		<set name="icon" val="icon.etc_potion_of_energy_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35977" type="EtcItem" name="奈比特古文(龍之飛翔)禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有奈比特古文（龍之飛翔）- 7日道具1個的箱子。效果適用於等級95以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35978" type="Armor" name="謎樣的戒指-限時7日">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">謎樣的戒指。可使用7天，而且可以將所選的血盟員召喚到自已的位置。使用冷卻時間為1小時。無法在奧林匹亞競賽中使用。</table>
+		<set name="icon" val="icon.accessory_shiny_couple_ring" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35979" type="EtcItem" name="謎樣的戒指禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有謎樣的戒指 - 7日道具1個的禮盒。無法在奧林匹亞競賽中使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35980" type="Armor" name="殄滅的護身符">
+		<table name="#Plus">限時3日(活動)</table>
+		<table name="#Desc">殄滅護身符限時3日。裝備時，增加HP/MP/CP最大值300、物理/魔法命中能力2、物理迴避能力/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度20、致命攻擊率30、魔法致命攻擊率10、物理攻擊力103、魔法攻擊力156。</table>
+		<set name="icon" val="icon.accessory_extermination_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35981" type="Armor" name="殄滅的護身符">
+		<table name="#Plus">限時7日(活動)</table>
+		<table name="#Desc">殄滅護身符限時7日。裝備時，增加HP/MP/CP最大值300、物理/魔法命中能力2、物理迴避能力/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度20、致命攻擊率30、魔法致命攻擊率10、物理攻擊力103、魔法攻擊力156。</table>
+		<set name="icon" val="icon.accessory_extermination_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="35982" type="EtcItem" name="支配者關懷">
+		<table name="#Desc">為了在渾沌祭典雖曾驍勇善戰，但未能獲勝的人而準備的小袋。點兩下時，可獲得生命石、搜魂石碎片。有可能會獲得好幾個，但也有可能得不到任何東西。</table>
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35983" type="EtcItem" name="HP恢復藥草">
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="35984" type="EtcItem" name="能量藥草">
+		<set name="icon" val="icon.etc_warrior_set_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="35985" type="EtcItem" name="奈比特古文100%-1小時">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">裝載於道具清單時，可增加透過狩獵的所得經驗值和SP100%。效果只會適用於等級85以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="35986" type="EtcItem" name="奈比特古文200%-1小時">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">裝載於道具清單時，可增加透過狩獵的所得經驗值和SP200%。效果只會適用於等級85以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="35987" type="EtcItem" name="奈比特古文100%-1小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100% - 1小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35988" type="EtcItem" name="奈比特古文200%-1小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文200% - 1小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35989" type="Armor" name="祝典斗篷">
+		<table name="#Plus">渾沌祭典</table>
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+	</item>
+	<item id="35990" type="Armor" name="冰結頭箍">
+		<table name="#Plus">渾沌祭典</table>
+		<set name="icon" val="icon.accessory_ice_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35991" type="EtcItem" name="渾沌祭典">
+		<table name="#Plus">攻擊</table>
+		<table name="#Desc">可以在渾沌祭典競技場使用的道具。使用時，在7分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩、狂戰士和聲等級1的效果。只能在渾沌祭典競技場使用。</table>
+		<set name="icon" val="icon.etc_super_potion_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35992" type="EtcItem" name="渾沌祭典">
+		<table name="#Plus">魔法</table>
+		<table name="#Desc">可以在渾沌祭典競技場使用的道具。使用時，在7分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩、大賢者和聲等級1的效果。只能在渾沌祭典競技場使用。</table>
+		<set name="icon" val="icon.etc_super_potion_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35993" type="EtcItem" name="渾沌祭典">
+		<table name="#Plus">防禦</table>
+		<table name="#Desc">可以在渾沌祭典競技場使用的道具。使用時，在7分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩、守護者和聲等級1的效果。只能在渾沌祭典競技場使用。</table>
+		<set name="icon" val="icon.etc_super_potion_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35994" type="EtcItem" name="塔武提的寶箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35995" type="EtcItem" name="寶石">
+		<table name="#Plus">不使用</table>
+		<table name="#Desc">不使用</table>
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35996" type="Weapon" name="測試用奇怪的弩弓">
+		<table name="#Desc">為方便起見，隨意加入statdata。</table>
+		<set name="icon" val="icon.weapon_stilla_i20" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1067" />
+			<set order="0x08" stat="mAtk" val="298" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35997" type="Armor" name="測試用魔鳴重裝">
+		<table name="#Desc">為方便起見，隨意加入statdata。</table>
+		<set name="icon" val="icon.armor_t701_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="385" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="35998" type="Armor" name="測試用魔避重裝">
+		<table name="#Desc">為方便起見，隨意加入statdata。</table>
+		<set name="icon" val="icon.armor_t701_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="385" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="35999" type="EtcItem" name="天堂攻擊餅乾">
+		<table name="#Desc">維他命道具\n在1小時內增加物理攻擊力35%、物理致命威力35%、物理致命攻擊率100%、攻擊速度8%、魔法攻擊力16%、施法速度8%、移動速度8。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_attack_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

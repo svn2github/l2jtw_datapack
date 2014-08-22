@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="34900" type="EtcItem" name="謎樣憑證">
+		<table name="#Desc">隱隱約約可以感覺到黑暗的力量。拿去交給位於各村莊的謎樣的執事看看吧。</table>
+		<set name="icon" val="icon.etc_coins_black_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34901" type="EtcItem" name="決議之證">
+		<table name="#Desc">當血盟主要將血盟等級提升為等級4時所需的道具。僅限血盟主使用。</table>
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34902" type="EtcItem" name="盼望之證">
+		<table name="#Desc">當血盟主要將血盟等級提升為等級5時所需的道具。僅限血盟主使用。</table>
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34903" type="EtcItem" name="謎樣之影">
+		<table name="#Desc">只能在渾沌祭典競技場內使用的道具。使用時，將會變為隱身狀態，並降低移動速度30%。</table>
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34904" type="EtcItem" name="謎樣之力">
+		<table name="#Desc">只能在渾沌祭典競技場內使用的道具。自己的MP/CP將變為1，但HP將維持1/3左右。對目標將會以50%機率適用即死攻擊效果。</table>
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34905" type="EtcItem" name="血盟專用寵物(浣熊)">
+		<table name="#Desc">可以召喚培育用血盟寵物（浣熊）的道具。召喚72小時時，可獲得血盟聲望500，並可隨機獲得額外道具。只有加入等級5以上的血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00" />
+		<set name="default_action" val="SKILL_MAINTAIN" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34906" type="EtcItem" name="血盟專用寵物(白貓)">
+		<table name="#Desc">可以召喚培育用血盟寵物（白貓）的道具。召喚72小時時，可獲得血盟聲望500，並可隨機獲得額外道具。只有加入等級5以上的血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00" />
+		<set name="default_action" val="SKILL_MAINTAIN" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34907" type="EtcItem" name="血盟專用寵物(沙漠小狐)">
+		<table name="#Desc">可以召喚培育用血盟寵物（沙漠小狐）的道具。召喚72小時時，可獲得血盟聲望500，並可隨機獲得額外道具。只有加入等級5以上的血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00" />
+		<set name="default_action" val="SKILL_MAINTAIN" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34908" type="EtcItem" name="對練用血盟寵物">
+		<table name="#Desc">可以召喚對練用血盟寵物的道具。在30秒內若將寵物的HP降為0的話，就可獲得血盟聲望50和個人聲望10。只有加入血盟的玩家才可進行召喚。</table>
+		<set name="icon" val="icon.accessory_necklace_of_pet_i00" />
+		<set name="default_action" val="SKILL_MAINTAIN" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34909" type="EtcItem" name="反抗軍憑證">
+		<table name="#Desc">協助蘇波抵抗軍後作為代價獲得的憑證。參加塔武提戰時必備的物品。</table>
+		<set name="icon" val="icon.scroll_of_verification_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34910" type="EtcItem" name="亞庫憑證">
+		<table name="#Desc">協助亞庫後作為代價獲得的憑證。參加塔武提戰（極限戰）時必備的物品。</table>
+		<set name="icon" val="icon.scroll_of_verification_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34911" type="EtcItem" name="支配者權能">
+		<table name="#Plus">不使用</table>
+		<table name="#Desc">頒發給由謎樣的宅邸所主辦的競賽優勝者的道具。裝備時，增加HP/MP/CP最大值500、增加負重懲罰上限12000、HP/MP恢復、PVP時額外的傷害5%、傷害反射抗性5、道具清單欄位、6大屬性防禦力10。降低PVP時所受的傷害6%。只能在週期優勝期間使用道具技能。</table>
+		<set name="icon" val="icon.etc_spell_books_red_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34912" type="EtcItem" name="召喚石">
+		<table name="#Desc">可在貴族任務中使用的召喚石。點兩下召喚石的話，就可召喚水之精靈 拉尼亞。</table>
+		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="34913" type="EtcItem" name="裝有材料的袋子">
+		<table name="#Desc">裝有材料的袋子。袋子中裝有水之女神 伊娃為了淨化水而製作的武器之4種材料。</table>
+		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34914" type="EtcItem" name="革命軍補給箱">
+		<table name="#Desc">從革命軍隊長那裡獲得的箱子。點兩下的話，就可得到革命軍補給箱。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34915" type="EtcItem" name="堅硬的輸送物資-亞丁">
+		<table name="#Plus">不使用</table>
+		<table name="#Desc">從輸送行李車掠奪的箱子。拿給革命軍的話，就可以獲得活動獎勵。</table>
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34916" type="EtcItem" name="輸送箱">
+		<table name="#Desc">從輸送部隊掠奪的箱子。拿給革命軍的話，就可以獲得活動獎勵。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34917" type="EtcItem" name="高級輸送箱">
+		<table name="#Desc">從輸送行李車掠奪的箱子。拿給革命軍的話，就可以獲得活動獎勵。</table>
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34918" type="EtcItem" name="亞丁王的寶箱">
+		<table name="#Desc">轉達給亞丁王的珍貴寶箱。點兩下的話，就可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34919" type="EtcItem" name="稅金包袱">
+		<table name="#Desc">轉交給革命軍的話，就可獲得活動獎勵。</table>
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34920" type="EtcItem" name="魯因王的寶箱">
+		<table name="#Desc">轉達給魯因王的珍貴寶箱。點兩下的話，就可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34921" type="Weapon" name="革命軍之劍">
+		<table name="#Desc">當革命軍攻擊輸送部隊時使用的道具。可以使用強悍的技能。只能在攻城戰場上使用。等級40以上的角色才可使用。</table>
+		<set name="icon" val="icon.weapon_sword_of_revolution_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34922" type="Weapon" name="革命軍之弓">
+		<table name="#Desc">當革命軍攻擊輸送部隊時使用的道具。可以使用強悍的技能。只能在攻城戰場上使用。等級40以上的角色才可使用。</table>
+		<set name="icon" val="icon.weapon_gastraphetes_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34923" type="Weapon" name="革命軍魔杖">
+		<table name="#Desc">當革命軍攻擊輸送部隊時使用的道具。可以使用強悍的技能。只能在攻城戰場上使用。等級40以上的角色才可使用。</table>
+		<set name="icon" val="icon.weapon_goathead_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34924" type="Weapon" name="革命軍法杖">
+		<table name="#Desc">當革命軍攻擊輸送部隊時使用的道具。可以使用強悍的技能。只能在攻城戰場上使用。等級40以上的角色才可使用。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34925" type="Armor" name="光之斗篷">
+		<table name="#Desc">象徵名譽和光芒的斗篷。侯爵階級以上才可裝備。增加物理防禦力50、魔法防禦力40、STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2、降低PVP時所受的傷害5%。可使用城堡返回技能。處於邪惡狀態時，將不會適用部分的斗篷效果。處於邪惡狀態時無法裝備。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.amor_goodness_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LEATHER" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+		</for>
+	</item>
+	<item id="34926" type="Armor" name="暗之斗篷">
+		<table name="#Desc">象徵貪欲和黑暗的斗篷。侯爵階級以上才可裝備。增加物理防禦力50、魔法防禦力40、STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2、降低PVP時所受的傷害5%。可使用城堡返回技能。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.amor_evilness_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LEATHER" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+		</for>
+	</item>
+	<item id="34927" type="EtcItem" name="次元守護者的藍光禮盒">
+		<table name="#Desc">作為在卡爾提亞迷宮擊倒次元的惡魔們的獎勵，由亞丁王國所賜與的藍光禮盒。點擊後就可查看內容。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34928" type="EtcItem" name="次元守護者的紅光禮盒">
+		<table name="#Desc">作為在卡爾提亞迷宮擊倒次元的惡魔們的獎勵，由亞丁王國所賜與的紅光禮盒。點擊後就可查看內容。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34929" type="EtcItem" name="次元守護者的金光禮盒">
+		<table name="#Desc">作為在卡爾提亞迷宮擊倒次元的惡魔們的獎勵，由亞丁王國所賜與的金光禮盒。點擊後就可查看內容。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34930" type="EtcItem" name="次元旅行者的藍光禮盒">
+		<table name="#Desc">作為在卡爾提亞迷宮擊倒次元的惡魔們的獎勵，由卡爾提亞研究員贈送的藍光禮盒。點擊後就可查看內容。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34931" type="EtcItem" name="次元旅行者的紅光禮盒">
+		<table name="#Desc">作為在卡爾提亞迷宮擊倒次元的惡魔們的獎勵，由卡爾提亞研究員贈送的紅光禮盒。點擊後就可查看內容。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34932" type="EtcItem" name="次元旅行者的金光禮盒">
+		<table name="#Desc">作為在卡爾提亞迷宮擊倒次元的惡魔們的獎勵，由卡爾提亞研究員贈送的金光禮盒。點擊後就可查看內容。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34933" type="EtcItem" name="克蘭肯的禮物">
+		<table name="#Desc">含有克蘭肯的心意的禮物。打開的話，就可獲得R級武器強化卷軸，或防具強化卷軸。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34934" type="EtcItem" name="波布爾的禮物">
+		<table name="#Desc">含有波布爾的心意的禮物。打開的話，就可獲得R級武器強化卷軸，或防具強化卷軸。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34935" type="Armor" name="巨星壺精手鐲-張熙珍">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法防禦力5%、HP最大值5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34936" type="Armor" name="巨星壺精手鐲-張赫">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理攻擊力5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34937" type="Armor" name="巨星壺精手鐲-金秀路">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、物理防禦力5%、HP最大值5%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34938" type="Armor" name="巨星壺精手鐲-朴宰范">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、魔法攻擊力6%、所有屬性防禦力10。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34939" type="Armor" name="巨星壺精手鐲-金信英">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">限時7日\n裝備時，CON+3、MEN+3、增加負重懲罰上限10000、增加HP/MP/CP最大值300、所有屬性防禦力10。縮短技能使用冷卻時間3%、降低技能MP消耗量3%。\n使用技能：祝福的返回能力。</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34940" type="EtcItem" name="頭飾強化卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">頭飾的魔法防禦力可提升2，從強化+4開始將大幅提升魔法防禦力。至+3為止能安全進行強化。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34941" type="EtcItem" name="頭飾用生命石">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">頭飾用生命石。</table>
+		<set name="icon" val="icon.life_dust_hairacc_general" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34942" type="EtcItem" name="Lv2巨人染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv2 巨人的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34943" type="EtcItem" name="Lv2傳說染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv2 傳說的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34944" type="EtcItem" name="Lv2古代染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv2 古代的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34945" type="EtcItem" name="Lv3巨人染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv3 巨人的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34946" type="EtcItem" name="Lv3傳說染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv3 傳說的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34947" type="EtcItem" name="Lv3古代染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv3 古代的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34948" type="EtcItem" name="城鎮返回卷軸禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得城鎮返回卷軸之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34949" type="EtcItem" name="文字收藏家的禮物(天使貓)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">文字收藏家的禮物\n使用時，在1小時內增加攻擊速度10%、施法速度10%、移動速度10、增加MAX HP/MP10%。裝備的武器和防具的外形將變為回憶中的道具。使用冷卻時間為30分鐘。</table>
+		<set name="icon" val="icon.shield_bread_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34950" type="EtcItem" name="Lv4巨人染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv4 巨人的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34951" type="EtcItem" name="Lv4傳說染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv4 傳說的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34952" type="EtcItem" name="Lv4古代染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv4 古代的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34953" type="EtcItem" name="Lv5巨人染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv5 巨人的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34954" type="EtcItem" name="Lv5傳說染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv5 傳說的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34955" type="EtcItem" name="Lv5古代染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開箱子的話，就可獲得Lv5 古代的力量、敏捷、體質、智力、智慧、精神紋章染料之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34956" type="EtcItem" name="L2Day-文字M">
+		<table name="#Desc">L2Day的活動道具。將特定的單字組合後交給文字收藏家「天使貓」的話，就可以得到不錯的禮物！ </table>
+		<set name="icon" val="icon.etc_alphabet_m_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34957" type="EtcItem" name="柯巴爾狄的信">
+		<table name="#Desc">柯塞勒斯同盟聯合基地的柯巴爾狄寄給位於業火之種的希茲拉庫的信件。將此拿去交給位於業火之種的希茲拉庫吧。</table>
+		<set name="icon" val="icon.etc_letter_white_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34958" type="EtcItem" name="不安定的佩特拉">
+		<table name="#Desc">含有火之氣息的蘇波們的生命能量，但是狀態有點不太穩定。拿去交給亞庫吧。</table>
+		<set name="icon" val="icon.etc_torch_on_i09" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34959" type="EtcItem" name="佩特拉">
+		<table name="#Desc">含有火之氣息的蘇波們的生命能量。拿去交給亞庫吧。</table>
+		<set name="icon" val="icon.etc_torch_on_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34960" type="EtcItem" name="塔武提的破片">
+		<table name="#Desc">塔武提的小破片。拿去交給佛格森吧。</table>
+		<set name="icon" val="icon.piece_of_emery_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34961" type="EtcItem" name="求助種子">
+		<table name="#Desc">求助種子。在攻城戰特定地區點兩下時，就可種下求助之樹。</table>
+		<set name="icon" val="icon.etc_help_seed_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34962" type="EtcItem" name="痕跡的粉末">
+		<table name="#Desc">痕跡的粉末。在攻城戰地區種下求助之樹的話，就可獲得痕跡的粉末。</table>
+		<set name="icon" val="icon.etc_powder_orange_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34963" type="EtcItem" name="疑問種子">
+		<table name="#Desc">為了讓花朵綻放時所需的莫名的植物種子。</table>
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34964" type="EtcItem" name="雪白花">
+		<table name="#Desc">名叫雪白花的白色花朵。據說純潔的靈魂受到神之救贖的話，就會開出這朵花以作證明。由於此花具有如雪花般的色彩，才會被如此命名。</table>
+		<set name="icon" val="icon.etc_flower_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34965" type="EtcItem" name="萱草">
+		<table name="#Desc">名叫萱草的黃色花朵。花語為減少悲傷與擔憂。</table>
+		<set name="icon" val="icon.etc_flower_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34966" type="EtcItem" name="牡丹">
+		<table name="#Desc">名叫牡丹的紅色花朵。聽說曾經是象徵富貴榮華的花。</table>
+		<set name="icon" val="icon.etc_flower_i01" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34967" type="EtcItem" name="牽牛花">
+		<table name="#Desc">名叫牽牛花的粉紅色花朵。看著就會讓人感覺溫馨的花。</table>
+		<set name="icon" val="icon.etc_flower_i03" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34968" type="EtcItem" name="三色紫羅蘭">
+		<table name="#Desc">名叫三色紫羅蘭的紫色花朵。花語為「請懷念我」。</table>
+		<set name="icon" val="icon.etc_flower_i04" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34969" type="EtcItem" name="鳶尾">
+		<table name="#Desc">名叫鳶尾的藍色花朵。花語為期許帶來好消息。</table>
+		<set name="icon" val="icon.etc_flower_i05" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34970" type="EtcItem" name="楛溫">
+		<table name="#Desc">名叫楛溫的黑色花朵。由於花朵呈現黑色，因此通常被誤認為是死亡之花，但其實它具有懷念亡者的意思。</table>
+		<set name="icon" val="icon.etc_flower_i06" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34971" type="EtcItem" name="亡者之肉塊">
+		<table name="#Desc">擊倒出現在基洛德要塞的不死生物之後獲得的亡者之肉塊。將此收集後拿去交給位於基洛德要塞的典獄長 羅德力克吧。</table>
+		<set name="icon" val="icon.etc_bodypart_liver_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34972" type="EtcItem" name="希奇蘭的指令書">
+		<table name="#Desc">狄恩城鎮的警衛兵 希奇蘭寄給基洛德要塞的典獄長 安德利格的指令書。點兩下的話，可瀏覽詳細內容。</table>
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34973" type="EtcItem" name="安德利格的報告書">
+		<table name="#Desc">基洛德要塞的典獄長 安德利格想要轉交給夥伴-基洛德要塞的典獄長 羅德力克的調查文件。點兩下的話，可瀏覽詳細內容。</table>
+		<set name="icon" val="icon.mercenary_certification_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34974" type="EtcItem" name="曼陀羅莖部">
+		<table name="#Desc">在基洛德要塞擊倒令人麻煩的曼陀羅草後獲得的曼陀羅莖部。拿去交給基洛德要塞的黑暗精靈 達佩娜吧。</table>
+		<set name="icon" val="icon.etc_branch_gold_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34975" type="EtcItem" name="曼陀羅草根">
+		<table name="#Desc">在基洛德要塞擊倒祈願的曼陀羅草後獲得的曼陀羅草根。拿去交給基洛德要塞的黑暗精靈 達佩娜吧。</table>
+		<set name="icon" val="icon.etc_ginseng_gray_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34976" type="EtcItem" name="熄滅的佩特拉">
+		<table name="#Desc">在業火之種地區透過狩獵獲得的熄滅的佩特拉。將此收集後，拿去交給在業火之種的希茲拉庫吧。</table>
+		<set name="icon" val="icon.etc_torch_off_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34977" type="EtcItem" name="業火的齒輪">
+		<table name="#Desc">在業火之種地區透過採集收穫的物品。含有業火之種的氣息。拿去交給柯塞勒斯同盟聯合基地的特產品仲介人 克可蘭的話，就能交換成有用的物品。</table>
+		<set name="icon" val="icon.etc_leash_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34978" type="EtcItem" name="返回卷軸-溫泉地帶">
+		<table name="#Desc">溫泉地帶返回卷軸。靈魂的試驗任務專用道具。為了執行任務，可以移動到溫泉地帶特定地區。無法再次領取。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34979" type="EtcItem" name="返回卷軸-諸神的熔爐">
+		<table name="#Desc">諸神的熔爐返回卷軸。靈魂的試驗任務專用道具。為了執行任務，可以移動到諸神的熔爐特定地區。無法再次領取。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34980" type="EtcItem" name="返回卷軸-神諭之島">
+		<table name="#Desc">神諭之島返回卷軸。靈魂的試驗任務專用道具。為了執行任務，可以移動到神諭之島特定地區。無法再次領取。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34981" type="EtcItem" name="返回卷軸-亞丁城(攻城)">
+		<table name="#Desc">亞丁城攻城地區返回卷軸。靈魂的試驗任務專用道具。為了執行任務，可以移動到亞丁城攻城特定地區。無法再次領取。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34982" type="EtcItem" name="返回卷軸-魯因城(攻城)">
+		<table name="#Desc">魯因城攻城地區返回卷軸。靈魂的試驗任務專用道具。為了執行任務，可以移動到魯因城攻城特定地區。無法再次領取。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34983" type="EtcItem" name="獲得貴族權限">
+		<set name="icon" val="icon.etc_nobless_teleport_coupon_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34984" type="Armor" name="不滅的護身符">
+		<table name="#Desc">裝備時，增加HP/MP/CP最大值100、物理/魔法命中能力1、物理/魔法迴避能力1、吸血怒擊2%效果、攻擊速度/施法速度10。</table>
+		<set name="icon" val="icon.accessory_immortal_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34985" type="Armor" name="破滅的護身符">
+		<table name="#Desc">裝備時，增加HP/MP/CP最大值100、物理/魔法命中能力2、物理/魔法迴避能力2、吸血怒擊2%效果、攻擊速度/施法速度10、致命攻擊率30、魔法致命攻擊率10。</table>
+		<set name="icon" val="icon.accessory_destruction_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34986" type="Armor" name="殄滅的護身符">
+		<table name="#Desc">裝備時，增加HP/MP/CP最大值300、物理/魔法命中能力2、物理/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度20、致命攻擊率30、魔法致命攻擊率10、物理攻擊力103、魔法攻擊力156。</table>
+		<set name="icon" val="icon.accessory_extermination_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34987" type="Armor" name="業火的護身符">
+		<table name="#Desc">裝備時，增加HP/MP/CP最大值400、物理/魔法命中能力2、物理/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度30、致命攻擊率30、魔法致命攻擊率10、物理攻擊力103、魔法攻擊力156、技能攻擊力1%、傷害反射抗性10、物理/魔法防禦力20。</table>
+		<set name="icon" val="icon.accessory_hellfire_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34988" type="Armor" name="想願的護身符">
+		<table name="#Desc">裝備時，增加HP/MP/CP最大值500、物理/魔法命中能力2、物理/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度40、致命攻擊率30、魔法致命攻擊率10、物理攻擊力203、魔法攻擊力256、技能攻擊力2%、傷害反射抗性20、物理/魔法防禦力40。降低技能MP消耗量1%。</table>
+		<set name="icon" val="icon.accessory_ocean_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34989" type="Armor" name="憧憬的護身符">
+		<table name="#Desc">裝備時，增加HP/MP/CP最大值600、物理/魔法命中能力2、物理/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度50、致命攻擊率30、魔法致命攻擊率10、物理攻擊力303、魔法攻擊力356、技能攻擊力4%、傷害反射抗性30、物理/魔法防禦力60、STR/INT/CON/MEN/DEX/WIT2。降低技能MP消耗量3%。</table>
+		<set name="icon" val="icon.accessory_longing_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34990" type="EtcItem" name="腐蝕的武器碎片">
+		<table name="#Desc">已經腐蝕再也無法使用的材料。可賣給商店或透過亞丁重建公會交換成新的材料。</table>
+		<set name="icon" val="icon.etc_r_weapon_piece_i01" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34991" type="EtcItem" name="腐蝕的防具碎片">
+		<table name="#Desc">已經腐蝕再也無法使用的材料。可賣給商店或透過亞丁重建公會交換成新的材料。</table>
+		<set name="icon" val="icon.etc_r_armor_piece_i01" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34992" type="EtcItem" name="腐蝕的飾品寶石">
+		<table name="#Desc">已經腐蝕再也無法使用的材料。可賣給商店或透過亞丁重建公會交換成新的材料。</table>
+		<set name="icon" val="icon.etc_r_acc_piece_i01" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34993" type="EtcItem" name="高級炭焦">
+		<table name="#Desc">用於製作A級、S級道具的材料。</table>
+		<set name="icon" val="icon.etc_synthetic_cokes_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34994" type="EtcItem" name="寶石">
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34995" type="EtcItem" name="頭飾交換證書">
+		<table name="#Desc">透過亞丁重建聯合員/聯合長可將兔耳、狸耳、貓耳、浪漫圓帽、天使之環、惡魔之環交換成海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角的證書。</table>
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34996" type="Armor" name="燦爛的光輝斗篷">
+		<table name="#Desc">象徵名譽和光芒的斗篷。只有城主才可裝備。STR+3、DEX+3、CON+3、INT+3、WIT+3、MEN+3，降低PVP時所受的傷害15%。可使用城堡返回技能。處於邪惡狀態時，將不會適用部分的斗篷效果。處於邪惡狀態時無法裝備。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.amor_goodness_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="STEEL" />
+		<for>
+			<add order="0x10" stat="mDef" val="80" />
+			<add order="0x10" stat="pDef" val="100" />
+		</for>
+	</item>
+	<item id="34997" type="Armor" name="冷冽的黑暗斗篷">
+		<table name="#Desc">象徵貪欲和黑暗的斗篷。只有城主才可裝備。STR+3、DEX+3、CON+3、INT+3、WIT+3、MEN+3，降低PVP時所受的傷害15%。可使用城堡返回技能。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.amor_evilness_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="STEEL" />
+		<for>
+			<add order="0x10" stat="mDef" val="80" />
+			<add order="0x10" stat="pDef" val="100" />
+		</for>
+	</item>
+	<item id="34998" type="Weapon" name="塔武提單手巨斧">
+		<table name="#Desc">提煉塔武提的破片之後製造的武器。裝備時，可以使用塔武提的憤怒技能。裝備時，增加攻擊速度約15%、致命攻擊率150、HP最大值25%、物理攻擊力415。PVP時提升所造成的傷害。無法強化、賦予屬性、搜魂、精煉、變更外型。</table>
+		<set name="icon" val="icon.weapon_tauti_one_hand_axe_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="322" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34999" type="Weapon" name="塔武提巨斧">
+		<table name="#Desc">提煉塔武提的破片之後製造的武器。裝備時，可以使用塔武提的憤怒技能。裝備時，增加攻擊速度約15%、致命攻擊率150、HP最大值25%、物理攻擊力415。PVP時提升所造成的傷害。無法強化、賦予屬性、搜魂、精煉、變更外型。</table>
+		<set name="icon" val="icon.weapon_tauti_one_hand_magic_axe_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="766" />
+			<set order="0x08" stat="mAtk" val="322" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+</list>

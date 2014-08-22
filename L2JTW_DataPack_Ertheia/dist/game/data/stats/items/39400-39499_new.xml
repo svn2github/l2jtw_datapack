@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="39400" type="EtcItem" name="Lv2 傳說智力紋章染料（魅力）">
+		<table name="#Plus">Int+4 Cha+2</table>
+		<table name="#Desc">LV2 傳說的智力紋章（魅力）染料（Int+4、Cha+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_int_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39401" type="EtcItem" name="Lv2 傳說智慧紋章染料（魅力）">
+		<table name="#Plus">Wit+4 Cha+2</table>
+		<table name="#Desc">LV2 傳說的智慧紋章（魅力）染料（Wit+4、Cha+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_wit_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39402" type="EtcItem" name="Lv2 傳說精神紋章染料（魅力）">
+		<table name="#Plus">Men+4 Cha+2</table>
+		<table name="#Desc">LV2 傳說的精神紋章（魅力）染料（Men+4、Cha+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_men_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39403" type="EtcItem" name="Lv3 傳說力量紋章染料（魅力）">
+		<table name="#Plus">Str+4 Cha+3</table>
+		<table name="#Desc">LV3 傳說的力量紋章（魅力）染料（Str+4、Cha+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_str_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39404" type="EtcItem" name="Lv3 傳說敏捷紋章染料（魅力）">
+		<table name="#Plus">Dex+4 Cha+3</table>
+		<table name="#Desc">LV3 傳說的敏捷紋章（魅力）染料（Dex+4、Cha+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_dex_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39405" type="EtcItem" name="Lv3 傳說體質紋章染料（魅力）">
+		<table name="#Plus">Con+4 Cha+3</table>
+		<table name="#Desc">LV3 傳說的體質紋章（魅力）染料（Con+4、Cha+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_con_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39406" type="EtcItem" name="Lv3 傳說智力紋章染料（魅力）">
+		<table name="#Plus">Int+4 Cha+3</table>
+		<table name="#Desc">LV3 傳說的智力紋章（魅力）染料（Int+4、Cha+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_int_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39407" type="EtcItem" name="Lv3 傳說智慧紋章染料（魅力）">
+		<table name="#Plus">Wit+4 Cha+3</table>
+		<table name="#Desc">LV3 傳說的智慧紋章（魅力）染料（Wit+4、Cha+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_wit_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39408" type="EtcItem" name="Lv3 傳說精神紋章染料（魅力）">
+		<table name="#Plus">Men+4 Cha+3</table>
+		<table name="#Desc">LV3 傳說的精神紋章（魅力）染料（Men+4、Cha+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_men_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39409" type="EtcItem" name="Lv4 傳說力量紋章染料（魅力）">
+		<table name="#Plus">Str+5 Cha+4</table>
+		<table name="#Desc">LV4 傳說的力量紋章（魅力）染料（Str+5、Cha+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_str_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39410" type="EtcItem" name="Lv4 傳說敏捷紋章染料（魅力）">
+		<table name="#Plus">Dex+5 Cha+4</table>
+		<table name="#Desc">LV4 傳說的敏捷紋章（魅力）染料（Dex+5、Cha+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_dex_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39411" type="EtcItem" name="Lv4 傳說體質紋章染料（魅力）">
+		<table name="#Plus">Con+5 Cha+4</table>
+		<table name="#Desc">LV4 傳說的體質紋章（魅力）染料（Con+4、Cha+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_con_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39412" type="EtcItem" name="Lv4 傳說智力紋章染料（魅力）">
+		<table name="#Plus">Int+5 Cha+4</table>
+		<table name="#Desc">LV4 傳說的智力紋章（魅力）染料（Int+5、Cha+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_int_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39413" type="EtcItem" name="Lv4 傳說智慧紋章染料（魅力）">
+		<table name="#Plus">Wit+5 Cha+4</table>
+		<table name="#Desc">LV4 傳說的智慧紋章（魅力）染料（Wit+5、Cha+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_wit_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39414" type="EtcItem" name="Lv4 傳說精神紋章染料（魅力）">
+		<table name="#Plus">Men+5 Cha+4</table>
+		<table name="#Desc">LV4 傳說的精神紋章（魅力）染料（Men+5、Cha+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_men_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39415" type="EtcItem" name="Lv5 傳說力量紋章染料（魅力）">
+		<table name="#Plus">Str+5 Cha+5</table>
+		<table name="#Desc">LV5 傳說的力量紋章（魅力）染料（Str+5、Cha+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_str_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39416" type="EtcItem" name="Lv5 傳說敏捷紋章染料（魅力）">
+		<table name="#Plus">Dex+5 Cha+5</table>
+		<table name="#Desc">LV5 傳說的敏捷紋章（魅力）染料（Dex+5、Cha+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_dex_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39417" type="EtcItem" name="Lv5 傳說體質紋章染料（魅力）">
+		<table name="#Plus">Con+5 Cha+5</table>
+		<table name="#Desc">LV5 傳說的體質紋章（魅力）染料（Con+5、Cha+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_con_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39418" type="EtcItem" name="Lv5 傳說智力紋章染料（魅力）">
+		<table name="#Plus">Int+5 Cha+5</table>
+		<table name="#Desc">LV5 傳說的智力紋章（魅力）染料（Int+5、Cha+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_int_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39419" type="EtcItem" name="Lv5 傳說智慧紋章染料（魅力）">
+		<table name="#Plus">Wit+5 Cha+5</table>
+		<table name="#Desc">LV5 傳說的智慧紋章（魅力）染料（Wit+5、Cha+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_wit_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39420" type="EtcItem" name="Lv5 傳說精神紋章染料（魅力）">
+		<table name="#Plus">Men+5 Cha+5</table>
+		<table name="#Desc">LV5 傳說的精神紋章（魅力）染料（Men+5、Cha+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_men_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39421" type="EtcItem" name="Lv1 傳說力量紋章染料（幸運）">
+		<table name="#Plus">Str+3 Luc+1</table>
+		<table name="#Desc">LV1 傳說的力量紋章（幸運）染料（Str+3、Luc+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_str_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39422" type="EtcItem" name="Lv1 傳說敏捷紋章染料（幸運）">
+		<table name="#Plus">Dex+3 Luc+1</table>
+		<table name="#Desc">LV1 傳說的敏捷紋章（幸運）染料（Dex+3、Luc+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_dex_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39423" type="EtcItem" name="Lv1 傳說體質紋章染料（幸運）">
+		<table name="#Plus">Con+3 Luc+1</table>
+		<table name="#Desc">LV1 傳說的體質紋章（幸運）染料（Con+3、Luc+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_con_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39424" type="EtcItem" name="Lv1 傳說智力紋章染料（幸運）">
+		<table name="#Plus">Int+3 Luc+1</table>
+		<table name="#Desc">LV1 傳說的智力紋章（幸運）染料（Int+3、Luc+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_int_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39425" type="EtcItem" name="Lv1 傳說智慧紋章染料（幸運）">
+		<table name="#Plus">Wit+3 Luc+1</table>
+		<table name="#Desc">LV1 傳說的智慧紋章（幸運）染料（Wit+3、Luc+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_wit_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39426" type="EtcItem" name="Lv1 傳說精神紋章染料（幸運）">
+		<table name="#Plus">Men+3 Luc+1</table>
+		<table name="#Desc">LV1 傳說的精神紋章（幸運）染料（Men+3、Luc+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_men_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39427" type="EtcItem" name="Lv2 傳說力量紋章染料（幸運）">
+		<table name="#Plus">Str+4 Luc+2</table>
+		<table name="#Desc">LV2 傳說的力量紋章（幸運）染料（Str+4、Luc+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_str_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39428" type="EtcItem" name="Lv2 傳說敏捷紋章染料（幸運）">
+		<table name="#Plus">Dex+4 Luc+2</table>
+		<table name="#Desc">LV2 傳說的敏捷紋章（幸運）染料（Dex+4、Luc+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_dex_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39429" type="EtcItem" name="Lv2 傳說體質紋章染料（幸運）">
+		<table name="#Plus">Con+4 Luc+2</table>
+		<table name="#Desc">LV2 傳說的體質紋章（幸運）染料（Con+4、Luc+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_con_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39430" type="EtcItem" name="Lv2 傳說智力紋章染料（幸運）">
+		<table name="#Plus">Int+4 Luc+2</table>
+		<table name="#Desc">LV2 傳說的智力紋章（幸運）染料（Int+4、Luc+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_int_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39431" type="EtcItem" name="Lv2 傳說智慧紋章染料（幸運）">
+		<table name="#Plus">Wit+4 Luc+2</table>
+		<table name="#Desc">LV2 傳說的智慧紋章（幸運）染料（Wit+4、Luc+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_wit_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39432" type="EtcItem" name="Lv2 傳說精神紋章染料（幸運）">
+		<table name="#Plus">Men+4 Luc+2</table>
+		<table name="#Desc">LV2 傳說的精神紋章（幸運）染料（Men+4、Luc+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_men_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39433" type="EtcItem" name="Lv3 傳說力量紋章染料（幸運）">
+		<table name="#Plus">Str+4 Luc+3</table>
+		<table name="#Desc">LV3 傳說的力量紋章（幸運）染料（Str+4、Luc+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_str_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39434" type="EtcItem" name="Lv3 傳說敏捷紋章染料（幸運）">
+		<table name="#Plus">Dex+4 Luc+3</table>
+		<table name="#Desc">LV3 傳說的敏捷紋章（幸運）染料（Dex+4、Luc+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_dex_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39435" type="EtcItem" name="Lv3 傳說體質紋章染料（幸運）">
+		<table name="#Plus">Con+4 Luc+3</table>
+		<table name="#Desc">LV3 傳說的體質紋章（幸運）染料（Con+4、Luc+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_con_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39436" type="EtcItem" name="Lv3 傳說智力紋章染料（幸運）">
+		<table name="#Plus">Int+4 Luc+3</table>
+		<table name="#Desc">LV3 傳說的智力紋章（幸運）染料（Int+4、Luc+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_int_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39437" type="EtcItem" name="Lv3 傳說智慧紋章染料（幸運）">
+		<table name="#Plus">Wit+4 Luc+3</table>
+		<table name="#Desc">LV3 傳說的智慧紋章（幸運）染料（Wit+4、Luc+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_wit_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39438" type="EtcItem" name="Lv3 傳說精神紋章染料（幸運）">
+		<table name="#Plus">Men+4 Luc+3</table>
+		<table name="#Desc">LV3 傳說的精神紋章（幸運）染料（Men+4、Luc+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_men_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39439" type="EtcItem" name="Lv4 傳說力量紋章染料（幸運）">
+		<table name="#Plus">Str+5 Luc+4</table>
+		<table name="#Desc">LV4 傳說的力量紋章（幸運）染料（Str+5、Luc+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_str_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39440" type="EtcItem" name="Lv4 傳說敏捷紋章染料（幸運）">
+		<table name="#Plus">Dex+5 Luc+4</table>
+		<table name="#Desc">LV4 傳說的敏捷紋章（幸運）染料（Dex+5、Luc+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_dex_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39441" type="EtcItem" name="Lv4 傳說體質紋章染料（幸運）">
+		<table name="#Plus">Con+5 Luc+4</table>
+		<table name="#Desc">LV4 傳說的體質紋章（幸運）染料（Con+5、Luc+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_con_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39442" type="EtcItem" name="Lv4 傳說智力紋章染料（幸運）">
+		<table name="#Plus">Int+5 Luc+4</table>
+		<table name="#Desc">LV4 傳說的智力紋章（幸運）染料（Int+5、Luc+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_int_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39443" type="EtcItem" name="Lv4 傳說智慧紋章染料（幸運）">
+		<table name="#Plus">Wit+5 Luc+4</table>
+		<table name="#Desc">LV4 傳說的智慧紋章（幸運）染料（Wit+5、Luc+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_wit_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39444" type="EtcItem" name="Lv4 傳說精神紋章染料（幸運）">
+		<table name="#Plus">Men+5 Luc+4</table>
+		<table name="#Desc">LV4 傳說的精神紋章（幸運）染料（Men+5、Luc+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_men_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39445" type="EtcItem" name="Lv5 傳說力量紋章染料（幸運）">
+		<table name="#Plus">Str+5 Luc+5</table>
+		<table name="#Desc">LV5 傳說的力量紋章（幸運）染料（Str+5、Luc+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_str_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39446" type="EtcItem" name="Lv5 傳說敏捷紋章染料（幸運）">
+		<table name="#Plus">Dex+5 Luc+5</table>
+		<table name="#Desc">LV5 傳說的敏捷紋章（幸運）染料（Dex+5、Luc+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_dex_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39447" type="EtcItem" name="Lv5 傳說體質紋章染料（幸運）">
+		<table name="#Plus">Con+5 Luc+5</table>
+		<table name="#Desc">LV5 傳說的體質紋章（幸運）染料（Con+5、Luc+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_con_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39448" type="EtcItem" name="Lv5 傳說智力紋章染料（幸運）">
+		<table name="#Plus">Int+5 Luc+5</table>
+		<table name="#Desc">LV5 傳說的智力紋章（幸運）染料（Int+5、Luc+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_int_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39449" type="EtcItem" name="Lv5 傳說智慧紋章染料（幸運）">
+		<table name="#Plus">Wit+5 Luc+5</table>
+		<table name="#Desc">LV5 傳說的智慧紋章（幸運）染料（Wit+5、Luc+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_wit_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39450" type="EtcItem" name="Lv5 傳說精神紋章染料（幸運）">
+		<table name="#Plus">Men+5 Luc+5</table>
+		<table name="#Desc">LV5 傳說的精神紋章（幸運）染料（Men+5、Luc+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_men_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39451" type="EtcItem" name="Lv1 風之魅力紋章染料（幸運）">
+		<table name="#Plus">Cha+3 Luc+1</table>
+		<table name="#Desc">LV1 風之魅力（幸運）染料（Cha+3、Luc+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_cha_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39452" type="EtcItem" name="Lv2 風之魅力紋章染料（幸運）">
+		<table name="#Plus">Cha+4 Luc+2</table>
+		<table name="#Desc">LV2 風之魅力（幸運）染料（Cha+4、Luc+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_cha_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39453" type="EtcItem" name="Lv3 風之魅力紋章染料（幸運）">
+		<table name="#Plus">Cha+4 Luc+3</table>
+		<table name="#Desc">LV3 風之魅力（幸運）染料（Cha+4、Luc+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_cha_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39454" type="EtcItem" name="Lv4 風之魅力紋章染料（幸運）">
+		<table name="#Plus">Cha+5 Luc+4</table>
+		<table name="#Desc">LV4 風之魅力（幸運）染料（Cha+5、Luc+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_cha_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39455" type="EtcItem" name="Lv5 風之魅力紋章染料（幸運）">
+		<table name="#Plus">Cha+5 Luc+5</table>
+		<table name="#Desc">LV5 風之魅力（幸運）染料（Cha+5、Luc+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_cha_luc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39456" type="EtcItem" name="Lv1 風之幸運紋章染料（魅力）">
+		<table name="#Plus">Luc+3 Cha+1</table>
+		<table name="#Desc">LV1 風之幸運（魅力）染料（Luc+3、Cha+1）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv1_unique_dye_luc_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39457" type="EtcItem" name="Lv2 風之幸運紋章染料（魅力）">
+		<table name="#Plus">Luc+4 Cha+2</table>
+		<table name="#Desc">LV2 風之幸運（魅力）染料（Luc+4、Cha+2）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv2_unique_dye_luc_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39458" type="EtcItem" name="Lv3 風之幸運紋章染料（魅力）">
+		<table name="#Plus">Luc+4 Cha+3</table>
+		<table name="#Desc">LV3 風之幸運（魅力）染料（Luc+4、Cha+3）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv3_unique_dye_luc_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39459" type="EtcItem" name="Lv4 風之幸運紋章染料（魅力）">
+		<table name="#Plus">Luc+5 Cha+4</table>
+		<table name="#Desc">LV4 風之幸運（魅力）染料（Luc+5、Cha+4）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv4_unique_dye_luc_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39460" type="EtcItem" name="Lv5 風之幸運紋章染料（魅力）">
+		<table name="#Plus">Luc+5 Cha+5</table>
+		<table name="#Desc">LV5 風之幸運（魅力）染料（Luc+5、Cha+5）。去找村莊的紋章製造人的話，可以在身上刻下變化能力的魔法紋章。為了刻印紋章需要10個染料。可以使用的職業：全系列。覺醒或3次解放後才可使用。</table>
+		<set name="icon" val="icon.lv5_unique_dye_luc_cha" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39461" type="EtcItem" name="風石">
+		<table name="#Desc">分解物質界的元素所取得的痕跡。進行煉金術技術時使用的材料。</table>
+		<set name="icon" val="icon.trace_of_wind" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39462" type="EtcItem" name="巨人防具強化輔助石-R級">
+		<table name="#Desc">強化R級防具時，使用巨人防具強化卷軸時，可將機率提升15%的道具。僅限使用於強化3~9的道具；而連身防具則僅限使用於強化4~9的道具。</table>
+		<set name="icon" val="icon.giant_ench_armor_stone_r_i01" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39463" type="EtcItem" name="巨人武器強化輔助石-R級">
+		<table name="#Desc">強化R級武器時，使用巨人武器強化卷軸時，可將機率提升10%的道具。僅限使用於強化3~9的道具。</table>
+		<set name="icon" val="icon.giant_ench_wp_stone_r_i01" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39464" type="EtcItem" name="風之防具強化輔助石-R級">
+		<table name="#Desc">強化R級防具時，使用巨人防具強化卷軸時，可將機率提升30%的道具。僅限使用於強化3~9的道具；而連身防具則僅限使用於強化4~9的道具。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.giant_ench_armor_stone_r_i02" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39465" type="EtcItem" name="風之武器強化輔助石-R級">
+		<table name="#Desc">強化R級武器時，使用巨人武器強化卷軸時，可將機率提升20%的道具。僅限使用於強化3~9的道具。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.giant_ench_wp_stone_r_i02" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39466" type="EtcItem" name="風之體力治癒藥水">
+		<table name="#Desc">快速恢復HP的魔法藥水，會持續15秒鐘。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_scarlet_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39467" type="EtcItem" name="風之強力體力治癒藥水">
+		<table name="#Desc">快速恢復HP的魔法藥水，會持續15秒鐘。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_scarlet_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39468" type="EtcItem" name="風之終極治癒藥水">
+		<table name="#Desc">快速恢復HP的魔法藥水，會持續15秒鐘。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_scarlet_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39469" type="EtcItem" name="風之超強力體力治癒藥水">
+		<table name="#Desc">快速恢復HP的魔法藥水，會持續15秒鐘。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_scarlet_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39470" type="EtcItem" name="風之極強力體力治癒藥水">
+		<table name="#Desc">快速恢復HP的魔法藥水，會持續15秒鐘。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_scarlet_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39471" type="EtcItem" name="風之瞬間體力治癒藥水">
+		<table name="#Desc">使用時恢復HP625，剩餘的威力將用來恢復CP。但無持續時間。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39472" type="EtcItem" name="風之高級瞬間體力治癒藥水">
+		<table name="#Desc">使用時恢復HP1250，剩餘的威力將用來恢復CP。但無持續時間。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39473" type="EtcItem" name="風之強力瞬間體力治癒藥水">
+		<table name="#Desc">使用時恢復HP2500，剩餘的威力將用來恢復CP。但無持續時間。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39474" type="EtcItem" name="風之超強力瞬間體力治癒藥水">
+		<table name="#Desc">使用時恢復HP3750，剩餘的威力將用來恢復CP。但無持續時間。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39475" type="EtcItem" name="風之極強力瞬間體力治癒藥水">
+		<table name="#Desc">使用時恢復HP5000，剩餘的威力將用來恢復CP。但無持續時間。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39476" type="EtcItem" name="下級愛情靈藥">
+		<table name="#Desc">纏繞著不明的氣息。在15秒內瞬間增加物理攻擊力/魔法攻擊力/攻擊速度/施法速度。以不明的氣息轉換武器外型。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.love_potion" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39477" type="EtcItem" name="愛情靈藥">
+		<table name="#Desc">纏繞著不明的氣息。在15秒內瞬間增加物理攻擊力/魔法攻擊力/攻擊速度/施法速度。以不明的氣息轉換武器外型。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.love_potion" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39478" type="EtcItem" name="中級愛情靈藥">
+		<table name="#Desc">纏繞著不明的氣息。在15秒內瞬間增加物理攻擊力/魔法攻擊力/攻擊速度/施法速度。以不明的氣息轉換武器外型。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.love_potion" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39479" type="EtcItem" name="上級愛情靈藥">
+		<table name="#Desc">纏繞著不明的氣息。在15秒內瞬間增加物理攻擊力/魔法攻擊力/攻擊速度/施法速度。以不明的氣息轉換武器外型。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.love_potion" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39480" type="EtcItem" name="殘酷愛情靈藥">
+		<table name="#Desc">纏繞著不明的氣息。點兩下就能得到隨機的愛情效果。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.love_potion" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39481" type="EtcItem" name="Super靈藥">
+		<table name="#Desc">恢復HP/CP/MP。使用冷卻時間為2分鐘。無法在奧林匹亞/渾沌祭典中使用。</table>
+		<set name="icon" val="icon.super_elixir_potion" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39482" type="EtcItem" name="煉金術之書-藥水">
+		<table name="#Desc">記載變換煉金術之藥水技術的文件。透過居住在翼人村莊/魯因城鎮的煉金術師，可以學習精通過程。</table>
+		<set name="icon" val="icon.alchemy_master_potion" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+	</item>
+	<item id="39483" type="EtcItem" name="煉金術之書-強化卷軸">
+		<table name="#Desc">記載變換煉金術之強化卷軸技術的文件。透過居住在翼人村莊/魯因城鎮的煉金術師，可以學習精通過程。</table>
+		<set name="icon" val="icon.alchemy_master_scroll" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+	</item>
+	<item id="39484" type="EtcItem" name="煉金術之書-生命石">
+		<table name="#Desc">記載變換煉金術之生命石技術的文件。透過居住在翼人村莊/魯因城鎮的煉金術師，可以學習精通過程。</table>
+		<set name="icon" val="icon.alchemy_master_dye" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+	</item>
+	<item id="39485" type="EtcItem" name="煉金術之書-染料">
+		<table name="#Desc">記載變換煉金術之染料技術的文件。透過居住在翼人村莊/魯因城鎮的煉金術師，可以學習精通過程。</table>
+		<set name="icon" val="icon.alchemy_master_variation_stone" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+	</item>
+	<item id="39486" type="EtcItem" name="古魯丁村莊傳送卷軸">
+		<table name="#Desc">可傳送至古魯丁村莊的大神官 雷比安附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39487" type="EtcItem" name="土瑞克獸人兵營傳送卷軸">
+		<table name="#Desc">可傳送至土瑞克獸人兵營。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39488" type="EtcItem" name="魔法鎖鏈第一把鑰匙">
+		<table name="#Desc">擊倒傀儡娃娃精靈後取得的物品。看起來是解開被鎖鏈困住的精靈的鑰匙。</table>
+		<set name="icon" val="icon.etc_old_key_i03" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39489" type="EtcItem" name="魔法鎖鏈第二把鑰匙">
+		<table name="#Desc">擊倒采爾圖巴的幻影或采爾圖巴的幻象所取得的物品。看起來是解開被鎖鏈困住的精靈的鑰匙。</table>
+		<set name="icon" val="icon.etc_old_key_i02" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39490" type="EtcItem" name="魔法鎖鏈鑰匙串">
+		<table name="#Desc">可以解開被鎖鏈困住的精靈的鑰匙串。用鑰匙串解開被鎖鏈困住的精靈們吧！</table>
+		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39491" type="EtcItem" name="古魯丁村莊傳送卷軸">
+		<table name="#Desc">可傳送至古魯丁村莊的大神官 雷比安附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39492" type="EtcItem" name="風之丘陵傳送卷軸">
+		<table name="#Desc">可傳送至風之丘陵。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39493" type="EtcItem" name="異界風之氣息">
+		<table name="#Desc">擊倒位在風之丘陵的瘋狂精靈所取得的物品。可以感受到不存在於這個世界的特別氣息。</table>
+		<set name="icon" val="icon.r99_soul_stone_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39494" type="EtcItem" name="血之沼澤傳送卷軸">
+		<table name="#Desc">可傳送至血之沼澤。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39495" type="EtcItem" name="殄滅之種傳送卷軸">
+		<table name="#Desc">可傳送至殄滅之種。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39496" type="EtcItem" name="哈勒那克地下遺蹟傳送卷軸">
+		<table name="#Desc">可傳送至哈勒那克地下遺跡。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39497" type="EtcItem" name="卡爾提亞迷宮傳送卷軸">
+		<table name="#Desc">可傳送至卡爾提亞迷宮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39498" type="EtcItem" name="妖精殖民地傳送卷軸">
+		<table name="#Desc">可傳送至妖精殖民地。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39499" type="EtcItem" name="創世庭園傳送卷軸">
+		<table name="#Desc">可傳送至創世庭園。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

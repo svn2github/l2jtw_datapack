@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="38600" type="EtcItem" name="鋼鐵武器禮盒">
+		<table name="#Desc">點兩下的話，可以獲得鎮魂、英啟、幻靈武器其中之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38601" type="EtcItem" name="鋼鐵防具禮盒">
+		<table name="#Desc">點兩下的話，可以獲得永生、煉獄、卡戴拉防具其中之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38602" type="Armor" name="鋼鐵全覆式頭盔">
+		<table name="#Desc">鋼鐵全覆式頭盔。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="58" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38603" type="Armor" name="鋼鐵全身盔甲">
+		<table name="#Desc">鋼鐵全身盔甲。</table>
+		<set name="icon" val="icon.armor_t62_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="3493" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="239" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38604" type="Armor" name="鋼鐵全覆式長靴">
+		<table name="#Desc">鋼鐵全覆式長靴。</table>
+		<set name="icon" val="icon.armor_t62_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38605" type="Armor" name="鋼鐵全覆式長手套">
+		<table name="#Desc">鋼鐵全覆式長手套。</table>
+		<set name="icon" val="icon.armor_t62_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38606" type="Armor" name="鋼鐵全覆式盾">
+		<table name="#Desc">鋼鐵全覆式盾。</table>
+		<set name="icon" val="icon.shield_full_plate_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="407" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="203" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="38607" type="Armor" name="鋼鐵卡勒米安外衣">
+		<table name="#Desc">鋼鐵卡勒米安外衣。</table>
+		<set name="icon" val="icon.armor_t53_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="660" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<add order="0x40" stat="maxMp" val="225" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38608" type="Armor" name="鋼鐵卡勒米安長襪">
+		<table name="#Desc">鋼鐵卡勒米安長襪。</table>
+		<set name="icon" val="icon.armor_t53_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="323" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+			<add order="0x40" stat="maxMp" val="141" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38609" type="Armor" name="鋼鐵卡勒米安手套">
+		<table name="#Desc">鋼鐵卡勒米安手套。</table>
+		<set name="icon" val="icon.armor_t53_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="207" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38610" type="Armor" name="鋼鐵卡勒米安長靴">
+		<table name="#Desc">鋼鐵卡勒米安長靴。</table>
+		<set name="icon" val="icon.armor_t53_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="410" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38611" type="Armor" name="鋼鐵金屬皮甲">
+		<table name="#Desc">鋼鐵金屬皮甲。</table>
+		<set name="icon" val="icon.armor_t47_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1483" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="94" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38612" type="Armor" name="鋼鐵金屬皮脛甲">
+		<table name="#Desc">鋼鐵金屬皮脛甲。</table>
+		<set name="icon" val="icon.armor_t47_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="520" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="59" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38613" type="Armor" name="鋼鐵金屬皮長靴">
+		<table name="#Desc">鋼鐵金屬皮長靴。</table>
+		<set name="icon" val="icon.armor_t47_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="407" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38614" type="Armor" name="鋼鐵金屬皮手套">
+		<table name="#Desc">鋼鐵金屬皮手套。</table>
+		<set name="icon" val="icon.armor_t47_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="203" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="33" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38615" type="Armor" name="鋼鐵末日頭盔">
+		<table name="#Desc">鋼鐵末日頭盔。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="66" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38616" type="Armor" name="鋼鐵末日手套重裝用">
+		<table name="#Desc">鋼鐵末日手套-重裝用。</table>
+		<set name="icon" val="icon.armor_t71_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38617" type="Armor" name="鋼鐵末日靴重裝用">
+		<table name="#Desc">鋼鐵末日靴-重裝用。</table>
+		<set name="icon" val="icon.armor_t71_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="377" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38618" type="Armor" name="鋼鐵末日金屬盔甲">
+		<table name="#Desc">鋼鐵末日金屬盔甲。</table>
+		<set name="icon" val="icon.armor_t71_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="3327" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="270" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38619" type="Armor" name="鋼鐵末日盾">
+		<table name="#Desc">鋼鐵末日盾。</table>
+		<set name="icon" val="icon.shield_doom_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="230" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="38620" type="Armor" name="鋼鐵阿巴敦長袍">
+		<table name="#Desc">鋼鐵阿巴敦長袍。</table>
+		<set name="icon" val="icon.armor_t59_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="847" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="127" />
+			<add order="0x40" stat="maxMp" val="561" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38621" type="Armor" name="鋼鐵阿巴敦頭箍">
+		<table name="#Desc">鋼鐵阿巴敦頭箍。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="197" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38622" type="Armor" name="鋼鐵阿巴敦手套長袍用">
+		<table name="#Desc">鋼鐵阿巴敦手套-長袍用。</table>
+		<set name="icon" val="icon.armor_t59_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="197" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38623" type="Armor" name="鋼鐵阿巴敦靴長袍用">
+		<table name="#Desc">鋼鐵阿巴敦靴-長袍用。</table>
+		<set name="icon" val="icon.armor_t59_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="393" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38624" type="Armor" name="鋼鐵阿巴敦盾">
+		<table name="#Desc">鋼鐵阿巴敦盾。</table>
+		<set name="icon" val="icon.shield_avadon_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="403" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="216" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="38625" type="Armor" name="鋼鐵末日皮甲">
+		<table name="#Desc">鋼鐵末日皮甲。</table>
+		<set name="icon" val="icon.armor_t72_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1833" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="202" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38626" type="Armor" name="鋼鐵末日手套輕裝用">
+		<table name="#Desc">鋼鐵末日手套-輕裝用。</table>
+		<set name="icon" val="icon.armor_t72_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38627" type="Armor" name="鋼鐵末日靴輕裝用">
+		<table name="#Desc">鋼鐵末日靴-輕裝用。</table>
+		<set name="icon" val="icon.armor_t72_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="377" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38628" type="Armor" name="鋼鐵夢魘盔甲">
+		<table name="#Desc">鋼鐵夢魘盔甲。</table>
+		<set name="icon" val="icon.armor_t80_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="3193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="293" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38629" type="Armor" name="鋼鐵夢魘頭盔">
+		<table name="#Desc">鋼鐵夢魘頭盔。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="187" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38630" type="Armor" name="鋼鐵夢魘護手重裝用">
+		<table name="#Desc">鋼鐵夢魘護手-重裝用。</table>
+		<set name="icon" val="icon.armor_t80_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38631" type="Armor" name="鋼鐵夢魘靴重裝用">
+		<table name="#Desc">鋼鐵夢魘靴-重裝用。</table>
+		<set name="icon" val="icon.armor_t80_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38632" type="Armor" name="鋼鐵夢魘盾">
+		<table name="#Desc">鋼鐵夢魘盾。</table>
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="393" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="256" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="38633" type="Armor" name="鋼鐵黑暗水晶長袍">
+		<table name="#Desc">鋼鐵黑暗水晶長袍。</table>
+		<set name="icon" val="icon.armor_t76_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="817" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="139" />
+			<add order="0x40" stat="maxMp" val="665" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38634" type="Armor" name="鋼鐵黑暗水晶頭盔">
+		<table name="#Desc">鋼鐵黑暗水晶頭盔。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="190" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="69" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38635" type="Armor" name="鋼鐵黑暗水晶手套長袍用">
+		<table name="#Desc">鋼鐵黑暗水晶手套-長袍用。</table>
+		<set name="icon" val="icon.armor_t76_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38636" type="Armor" name="鋼鐵黑暗水晶靴長袍用">
+		<table name="#Desc">鋼鐵黑暗水晶靴-長袍用。</table>
+		<set name="icon" val="icon.armor_t76_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38637" type="Armor" name="鋼鐵黑暗水晶盾">
+		<table name="#Desc">鋼鐵黑暗水晶盾。</table>
+		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="397" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="243" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="38638" type="Armor" name="鋼鐵黑暗水晶皮甲">
+		<table name="#Desc">鋼鐵黑暗水晶皮甲。</table>
+		<set name="icon" val="icon.armor_t75_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1433" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="128" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38639" type="Armor" name="鋼鐵黑暗水晶皮脛甲">
+		<table name="#Desc">鋼鐵黑暗水晶皮脛甲。</table>
+		<set name="icon" val="icon.armor_t75_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="493" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="80" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38640" type="Armor" name="鋼鐵黑暗水晶手套輕裝用">
+		<table name="#Desc">鋼鐵黑暗水晶手套-輕裝用。</table>
+		<set name="icon" val="icon.armor_t75_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38641" type="Armor" name="鋼鐵黑暗水晶靴輕裝用">
+		<table name="#Desc">鋼鐵黑暗水晶靴-輕裝用。</table>
+		<set name="icon" val="icon.armor_t75_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38642" type="Armor" name="鋼鐵帝國聖軍胸甲">
+		<table name="#Desc">鋼鐵帝國聖軍胸甲。</table>
+		<set name="icon" val="icon.armor_t88_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="2540" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="205" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38643" type="Armor" name="鋼鐵帝國聖軍脛甲">
+		<table name="#Desc">鋼鐵帝國聖軍脛甲。</table>
+		<set name="icon" val="icon.armor_t88_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1087" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="128" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38644" type="Armor" name="鋼鐵帝國聖軍長手套">
+		<table name="#Desc">鋼鐵帝國聖軍長手套。</table>
+		<set name="icon" val="icon.armor_t88_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38645" type="Armor" name="鋼鐵帝國聖軍長靴">
+		<table name="#Desc">鋼鐵帝國聖軍長靴。</table>
+		<set name="icon" val="icon.armor_t88_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38646" type="Armor" name="鋼鐵帝國聖軍頭盔">
+		<table name="#Desc">鋼鐵帝國聖軍頭盔。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38647" type="Armor" name="鋼鐵帝國聖軍盾">
+		<table name="#Desc">鋼鐵帝國聖軍盾。</table>
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="390" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="290" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="38648" type="Armor" name="鋼鐵大祕儀長袍">
+		<table name="#Desc">鋼鐵大祕儀長袍。</table>
+		<set name="icon" val="icon.armor_t90_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="767" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="166" />
+			<add order="0x40" stat="maxMp" val="866" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38649" type="Armor" name="鋼鐵大祕儀手套">
+		<table name="#Desc">鋼鐵大祕儀手套。</table>
+		<set name="icon" val="icon.armor_t90_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38650" type="Armor" name="鋼鐵大祕儀長靴">
+		<table name="#Desc">鋼鐵大祕儀長靴。</table>
+		<set name="icon" val="icon.armor_t90_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38651" type="Armor" name="鋼鐵大祕儀頭箍">
+		<table name="#Desc">鋼鐵大祕儀頭箍。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38652" type="Armor" name="鋼鐵祕儀符印">
+		<table name="#Desc">鋼鐵祕儀符印。</table>
+		<set name="icon" val="icon.arcana_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="940" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="13" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38653" type="Armor" name="鋼鐵紅龍皮甲">
+		<table name="#Desc">鋼鐵紅龍皮甲。</table>
+		<set name="icon" val="icon.armor_t89_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1650" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="249" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38654" type="Armor" name="鋼鐵紅龍皮手套">
+		<table name="#Desc">鋼鐵紅龍皮手套。</table>
+		<set name="icon" val="icon.armor_t89_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38655" type="Armor" name="鋼鐵紅龍皮靴">
+		<table name="#Desc">鋼鐵紅龍皮靴。</table>
+		<set name="icon" val="icon.armor_t89_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38656" type="Armor" name="鋼鐵紅龍皮盔">
+		<table name="#Desc">鋼鐵紅龍皮盔。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38657" type="Armor" name="鋼鐵王朝盔甲">
+		<table name="#Desc">鋼鐵王朝盔甲。</table>
+		<set name="icon" val="icon.armor_t91_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="2520" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="226" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38658" type="Armor" name="鋼鐵王朝脛甲">
+		<table name="#Desc">鋼鐵王朝脛甲。</table>
+		<set name="icon" val="icon.armor_t91_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="141" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38659" type="Armor" name="鋼鐵王朝頭盔">
+		<table name="#Desc">鋼鐵王朝頭盔。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38660" type="Armor" name="鋼鐵王朝長手套">
+		<table name="#Desc">鋼鐵王朝長手套。</table>
+		<set name="icon" val="icon.armor_t91_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38661" type="Armor" name="鋼鐵王朝長靴">
+		<table name="#Desc">鋼鐵王朝長靴。</table>
+		<set name="icon" val="icon.armor_t91_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38662" type="Armor" name="鋼鐵王朝盾">
+		<table name="#Desc">鋼鐵王朝盾。</table>
+		<set name="icon" val="icon.shield_dynasty_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="380" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="321" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="38663" type="Armor" name="鋼鐵王朝外衣">
+		<table name="#Desc">鋼鐵王朝外衣。</table>
+		<set name="icon" val="icon.armor_t93_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="590" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38664" type="Armor" name="鋼鐵王朝長襪">
+		<table name="#Desc">鋼鐵王朝長襪。</table>
+		<set name="icon" val="icon.armor_t93_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="290" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<add order="0x40" stat="maxMp" val="370" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38665" type="Armor" name="鋼鐵王朝頭箍">
+		<table name="#Desc">鋼鐵王朝頭箍。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38666" type="Armor" name="鋼鐵王朝手套">
+		<table name="#Desc">鋼鐵王朝手套。</table>
+		<set name="icon" val="icon.armor_t93_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38667" type="Armor" name="鋼鐵王朝鞋">
+		<table name="#Desc">鋼鐵王朝鞋。</table>
+		<set name="icon" val="icon.armor_t93_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38668" type="Armor" name="鋼鐵王朝符印">
+		<table name="#Desc">鋼鐵王朝符印。</table>
+		<set name="icon" val="icon.dynasty_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="310" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="15" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38669" type="Armor" name="鋼鐵王朝皮甲">
+		<table name="#Desc">鋼鐵王朝皮甲。</table>
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1390" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38670" type="Armor" name="鋼鐵王朝皮脛甲">
+		<table name="#Desc">鋼鐵王朝皮脛甲。</table>
+		<set name="icon" val="icon.armor_t92_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="460" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="106" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38671" type="Armor" name="鋼鐵王朝皮頭盔">
+		<table name="#Desc">鋼鐵王朝皮頭盔。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38672" type="Armor" name="鋼鐵王朝皮手套">
+		<table name="#Desc">鋼鐵王朝皮手套。</table>
+		<set name="icon" val="icon.armor_t92_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38673" type="Armor" name="鋼鐵王朝皮長靴">
+		<table name="#Desc">鋼鐵王朝皮長靴。</table>
+		<set name="icon" val="icon.armor_t92_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="38674" type="Armor" name="鋼鐵月長石耳環">
+		<table name="#Desc">鋼鐵月長石耳環。</table>
+		<set name="icon" val="icon.accessary_moonstone_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="39" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38675" type="Armor" name="鋼鐵水石項鍊">
+		<table name="#Desc">鋼鐵水石項鍊。</table>
+		<set name="icon" val="icon.accessary_aquastone_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="52" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38676" type="Armor" name="鋼鐵水石戒指">
+		<table name="#Desc">鋼鐵水石戒指。</table>
+		<set name="icon" val="icon.accessary_aquastone_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38677" type="Armor" name="鋼鐵金剛石耳環">
+		<table name="#Desc">鋼鐵金剛石耳環。</table>
+		<set name="icon" val="icon.accessary_adamantite_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="51" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38678" type="Armor" name="鋼鐵金剛石項鍊">
+		<table name="#Desc">鋼鐵金剛石項鍊。</table>
+		<set name="icon" val="icon.accessary_adamantite_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="68" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38679" type="Armor" name="鋼鐵金剛石戒指">
+		<table name="#Desc">鋼鐵金剛石戒指。</table>
+		<set name="icon" val="icon.accessary_adamantite_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="34" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38680" type="Armor" name="鋼鐵不死鳥耳環">
+		<table name="#Desc">鋼鐵不死鳥耳環。</table>
+		<set name="icon" val="icon.accessary_phoenixs_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="20" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38681" type="Armor" name="鋼鐵不死鳥項鍊">
+		<table name="#Desc">鋼鐵不死鳥項鍊。</table>
+		<set name="icon" val="icon.accessary_phoenixs_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="80" />
+			<add order="0x40" stat="maxMp" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38682" type="Armor" name="鋼鐵不死鳥戒指">
+		<table name="#Desc">鋼鐵不死鳥戒指。</table>
+		<set name="icon" val="icon.accessary_phoenixs_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x40" stat="maxMp" val="13" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38683" type="Armor" name="鋼鐵泰狄奧森耳環">
+		<table name="#Desc">鋼鐵泰狄奧森耳環。</table>
+		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38684" type="Armor" name="鋼鐵泰狄奧森項鍊">
+		<table name="#Desc">鋼鐵泰狄奧森項鍊。</table>
+		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38685" type="Armor" name="鋼鐵泰狄奧森戒指">
+		<table name="#Desc">鋼鐵泰狄奧森戒指。</table>
+		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38686" type="Armor" name="鋼鐵王朝耳環">
+		<table name="#Desc">鋼鐵王朝耳環。</table>
+		<set name="icon" val="icon.accessary_dynasty_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="35" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38687" type="Armor" name="鋼鐵王朝項鍊">
+		<table name="#Desc">鋼鐵王朝項鍊。</table>
+		<set name="icon" val="icon.accessary_dynasty_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38688" type="Armor" name="鋼鐵王朝戒指">
+		<table name="#Desc">鋼鐵王朝戒指。</table>
+		<set name="icon" val="icon.accessary_dynasty_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38689" type="Armor" name="鋼鐵永生耳環(限時30日)">
+		<table name="#Desc">鋼鐵永生耳環。限時30日，</table>
+		<set name="icon" val="icon.r1_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="94" />
+			<add order="0x40" stat="maxMp" val="40" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38690" type="Armor" name="鋼鐵永生項鍊(限時30日)">
+		<table name="#Desc">鋼鐵永生項鍊。限時30日，</table>
+		<set name="icon" val="icon.r1_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="126" />
+			<add order="0x40" stat="maxMp" val="53" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38691" type="Armor" name="鋼鐵永生戒指(限時30日)">
+		<table name="#Desc">鋼鐵永生戒指。限時30日，</table>
+		<set name="icon" val="icon.r1_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="38692" type="Weapon" name="鋼鐵暴風之劍">
+		<table name="#Desc">限制精煉的暴風之劍。\n＜搜魂石特效＞\n致命攻擊率提升約86。</table>
+		<set name="icon" val="icon.weapon_stormbringer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="477" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="38693" type="Weapon" name="鋼鐵夜叉釘鎚">
+		<table name="#Desc">限制精煉的夜叉釘鎚。\n＜搜魂石特效＞\nHP最大值提升約25%。</table>
+		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="547" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="38694" type="Weapon" name="鋼鐵軍刀*革命劍">
+		<table name="#Desc">限制精煉的軍刀*革命劍。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="807" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="118" />
+			<set order="0x08" stat="mAtk" val="56" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="38695" type="Weapon" name="鋼鐵奧祕之刃">
+		<table name="#Desc">限制精煉的奧祕之刃。\n＜搜魂石特效＞\n施法速度提升約15%。</table>
+		<set name="icon" val="icon.weapon_mystery_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="477" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="85" />
+			<set order="0x08" stat="mAtk" val="81" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="38696" type="Weapon" name="鋼鐵殺戮者">
+		<table name="#Desc">限制精煉的殺戮者。\n＜搜魂石特效＞\n致命攻擊時約34%的機率施展衝擊。</table>
+		<set name="icon" val="icon.weapon_body_slasher_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="677" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="38697" type="Weapon" name="鋼鐵魔炎匕首">
+		<table name="#Desc">限制精煉的魔炎匕首。\n＜搜魂石特效＞\nMP最大值提升約30%。</table>
+		<set name="icon" val="icon.weapon_dagger_of_magicflame_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="250" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="86" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="38698" type="Weapon" name="鋼鐵冰晶弓">
+		<table name="#Desc">限制精煉的冰晶弓。\n＜搜魂石特效＞\n命中能力提升約5。</table>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="597" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="220" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="38699" type="Weapon" name="鋼鐵席拉格重劍">
+		<table name="#Desc">限制精煉的席拉格重劍。闇天使專用武器：轉換為焰形劍\n＜搜魂石特效＞\n致命攻擊率提升約86。</table>
+		<set name="icon" val="icon.weapon_schlaeger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="660" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="116" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+</list>

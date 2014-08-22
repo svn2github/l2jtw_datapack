@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="38800" type="Weapon" name="丹帝借來的安塔瑞斯殺刃">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="937" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38801" type="Weapon" name="丹帝借來的安塔瑞斯投弓">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1516" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="38802" type="Weapon" name="丹帝借來的安塔瑞斯爆刃">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、施法速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="616" />
+			<set order="0x08" stat="mAtk" val="481" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38803" type="Weapon" name="丹帝借來的安塔瑞斯切刃">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="770" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38804" type="Weapon" name="丹帝借來的安塔瑞斯風暴者">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="770" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38805" type="Weapon" name="丹帝借來的安塔瑞斯戰爪">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="937" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38806" type="Weapon" name="丹帝借來的安塔瑞斯復仇者">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="770" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38807" type="Weapon" name="丹帝借來的安塔瑞斯雙鈍器">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="937" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38808" type="Weapon" name="丹帝借來的安塔瑞斯雙刀">
+		<table name="#Desc">哥哥安塔瑞斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="937" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38809" type="Weapon" name="丹帝借來的巴拉卡斯鉋刀">
+		<table name="#Desc">哥哥巴拉卡斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="673" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="38810" type="Weapon" name="丹帝借來的巴拉卡斯切刃">
+		<table name="#Desc">哥哥巴拉卡斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="770" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38811" type="Weapon" name="丹帝借來的巴拉卡斯殺刃">
+		<table name="#Desc">哥哥巴拉卡斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="937" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38812" type="Weapon" name="丹帝借來的巴拉卡斯投弓">
+		<table name="#Desc">哥哥巴拉卡斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1516" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="38813" type="Weapon" name="丹帝借來的巴拉卡斯爆刃">
+		<table name="#Desc">哥哥巴拉卡斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、施法速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="616" />
+			<set order="0x08" stat="mAtk" val="481" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38814" type="Weapon" name="丹帝借來的巴拉卡斯術杖">
+		<table name="#Desc">哥哥巴拉卡斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、施法速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="616" />
+			<set order="0x08" stat="mAtk" val="481" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38815" type="Weapon" name="丹帝借來的巴拉卡斯報恨者">
+		<table name="#Desc">哥哥巴拉卡斯借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、施法速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="749" />
+			<set order="0x08" stat="mAtk" val="529" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38816" type="Weapon" name="丹帝借來的林德拜爾鉋刀">
+		<table name="#Desc">哥哥林德拜爾借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="673" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="38817" type="Weapon" name="丹帝借來的林德拜爾投弓">
+		<table name="#Desc">哥哥林德拜爾借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1516" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="38818" type="Weapon" name="丹帝借來的林德拜爾殺刃">
+		<table name="#Desc">哥哥林德拜爾借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="937" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38819" type="Weapon" name="丹帝借來的林德拜爾術杖">
+		<table name="#Desc">哥哥林德拜爾借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、施法速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="616" />
+			<set order="0x08" stat="mAtk" val="481" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38820" type="Weapon" name="丹帝借來的林德拜爾切刃">
+		<table name="#Desc">哥哥林德拜爾借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="770" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38821" type="Weapon" name="丹帝借來的林德拜爾射靈">
+		<table name="#Desc">哥哥林德拜爾借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1365" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38822" type="Weapon" name="丹帝借來的林德拜爾雙匕首">
+		<table name="#Desc">哥哥林德拜爾借給丹帝的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥的微弱之力＞\n增加PvP傷害10%、MAX HP/MP/CP 20%、攻擊速度15%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型/無法結晶化/無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="770" />
+			<set order="0x08" stat="mAtk" val="360" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="38823" type="Weapon" name="傾注極致的安塔瑞斯鉋刀">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="38824" type="Weapon" name="傾注極致的安塔瑞斯殺刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38825" type="Weapon" name="傾注極致的安塔瑞斯投弓">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5678" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="38826" type="Weapon" name="傾注極致的安塔瑞斯爆刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38827" type="Weapon" name="傾注極致的安塔瑞斯切刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38828" type="Weapon" name="傾注極致的安塔瑞斯風暴者">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38829" type="Weapon" name="傾注極致的安塔瑞斯戰爪">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38830" type="Weapon" name="傾注極致的安塔瑞斯復仇者">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38831" type="Weapon" name="傾注極致的安塔瑞斯雙鈍器">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38832" type="Weapon" name="傾注極致的安塔瑞斯雙刀">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38833" type="Weapon" name="傾注極致的巴拉卡斯鉋刀">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="38834" type="Weapon" name="傾注極致的巴拉卡斯切刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38835" type="Weapon" name="傾注極致的巴拉卡斯殺刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38836" type="Weapon" name="傾注極致的巴拉卡斯投弓">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5678" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="38837" type="Weapon" name="傾注極致的巴拉卡斯爆刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38838" type="Weapon" name="傾注極致的巴拉卡斯術杖">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38839" type="Weapon" name="傾注極致的巴拉卡斯報恨者">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2809" />
+			<set order="0x08" stat="mAtk" val="1843" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38840" type="Weapon" name="傾注極致的林德拜爾鉋刀">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.林德拜爾的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.林德拜爾的拍翅攻擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="38841" type="Weapon" name="傾注極致的林德拜爾投弓">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.林德拜爾的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.林德拜爾的拍翅攻擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5678" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="38842" type="Weapon" name="傾注極致的林德拜爾殺刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.林德拜爾的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.林德拜爾的拍翅攻擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38843" type="Weapon" name="傾注極致的林德拜爾術杖">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.林德拜爾的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.林德拜爾的拍翅攻擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38844" type="Weapon" name="傾注極致的林德拜爾切刃">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.林德拜爾的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.林德拜爾的拍翅攻擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38845" type="Weapon" name="傾注極致的林德拜爾射靈">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.林德拜爾的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.林德拜爾的拍翅攻擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5113" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="38846" type="Weapon" name="傾注極致的林德拜爾雙匕首">
+		<table name="#Desc">傾注極致的龍武器。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。限時1小時。\n＜裝備技能：哥哥傾注的強大之力＞\n增加PVP傷害30%、增加HP/MP 100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.林德拜爾的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，到完全僵硬時，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.林德拜爾的拍翅攻擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="38847" type="EtcItem" name="丹帝的封印解除卷軸">
+		<table name="#Desc">充滿哥哥力量的卷軸。將該道具裝載於道具清單內的狀態下，可以使用丹帝的鼻之氣息技能並獲得丹帝借來的龍武器。</table>
+		<set name="icon" val="icon.ev_10th_dandi1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38848" type="EtcItem" name="龍武器傾注提升卷軸">
+		<table name="#Desc">充滿哥哥祝福的卷軸。將該道具裝載於道具清單內的狀態下，透過與丹帝對話，就可以交換到傾注極致的龍武器。</table>
+		<set name="icon" val="icon.ev_10th_dandi1" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38849" type="Armor" name="拉菲安洛茲的胸針">
+		<table name="#Desc">裝備時，可啟用寶石欄位3個。</table>
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38850" type="Armor" name="黃寶石">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">使用時會妨礙目標的施法。對玩家使用時，會給予威力1062的固定傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38851" type="Armor" name="黃寶石">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">使用時會妨礙目標的施法。對玩家使用時，會給予威力3717的固定傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38852" type="Armor" name="黃寶石">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">使用時會妨礙目標的施法。對玩家使用時，會給予威力6903的固定傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38853" type="Armor" name="黃寶石">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">使用時會妨礙目標的施法。對玩家使用時，會給予威力10089的固定傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38854" type="Armor" name="黃寶石">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">使用時會妨礙目標的施法。對玩家使用時，會給予威力13275的固定傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38855" type="Armor" name="紅寶石">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">裝備時，增加靈魂彈、野獸靈魂彈的傷害1%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38856" type="Armor" name="紅寶石">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">裝備時，增加靈魂彈、野獸靈魂彈的傷害3.5%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38857" type="Armor" name="紅寶石">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">裝備時，增加靈魂彈、野獸靈魂彈的傷害7.5%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38858" type="Armor" name="紅寶石">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">裝備時，增加靈魂彈、野獸靈魂彈的傷害12.5%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38859" type="Armor" name="紅寶石">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">裝備時，增加靈魂彈、野獸靈魂彈的傷害20%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38860" type="Armor" name="緊急恢復寶石-Lv1">
+		<table name="#Desc">恢復HP/CP1500。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38861" type="Armor" name="緊急恢復寶石-Lv2">
+		<table name="#Desc">恢復HP/CP3000。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38862" type="Armor" name="緊急恢復寶石-Lv3">
+		<table name="#Desc">恢復HP/CP6000。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38863" type="Armor" name="緊急恢復寶石-Lv4">
+		<table name="#Desc">恢復HP/CP8000。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38864" type="Armor" name="緊急恢復寶石-Lv5">
+		<table name="#Desc">恢復HP/CP13000。</table>
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38865" type="Armor" name="治癒量增加寶石-Lv1">
+		<table name="#Desc">增加所受治癒量3%。</table>
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38866" type="Armor" name="治癒量增加寶石-Lv2">
+		<table name="#Desc">增加所受治癒量6%。</table>
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38867" type="Armor" name="治癒量增加寶石- Lv3">
+		<table name="#Desc">增加所受治癒量9%。</table>
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38868" type="Armor" name="治癒量增加寶石-Lv4">
+		<table name="#Desc">增加所受治癒量13%。</table>
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38869" type="Armor" name="治癒量增加寶石-Lv5">
+		<table name="#Desc">增加所受治癒量21%。</table>
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38870" type="Armor" name="黑曜石">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">裝備時，減少PvP被擊傷害1%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38871" type="Armor" name="黑曜石">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">裝備時，減少PvP被擊傷害3%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38872" type="Armor" name="黑曜石">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">裝備時，減少PvP被擊傷害7%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38873" type="Armor" name="黑曜石">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">裝備時，減少PvP被擊傷害11%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38874" type="Armor" name="黑曜石">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">裝備時，減少PvP被擊傷害15%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38875" type="Armor" name="貓眼石">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">裝備時，增加武器屬性攻擊力10。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38876" type="Armor" name="貓眼石">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">裝備時，增加武器屬性攻擊力20。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38877" type="Armor" name="貓眼石">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">裝備時，增加武器屬性攻擊力40。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38878" type="Armor" name="貓眼石">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">裝備時，增加武器屬性攻擊力70。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38879" type="Armor" name="貓眼石">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">裝備時，增加武器屬性攻擊力120。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38880" type="Armor" name="綠寶石">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">裝備時，可以得到CON+1、MEN+1的效果。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38881" type="Armor" name="綠寶石">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">裝備時，可以得到STR+1、CON+1、INT+1、MEN+1的效果。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38882" type="Armor" name="綠寶石">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">裝備時，可以得到STR+1、DEX+1、CON+1、INT+1、WIT+1、MEN+1的效果。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38883" type="Armor" name="綠寶石">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">裝備時，可以得到STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2的效果。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38884" type="Armor" name="綠寶石">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">裝備時，可以得到STR+3、DEX+3、CON+3、INT+3、WIT+3、MEN+3的效果。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38885" type="Armor" name="海藍寶石">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">裝備後，可以得到施展技能時機率性恢復MP的效果。發動機率1%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38886" type="Armor" name="海藍寶石">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">裝備後，可以得到施展技能時機率性恢復MP的效果。發動機率2%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38887" type="Armor" name="海藍寶石">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">裝備後，可以得到施展技能時機率性恢復MP的效果。發動機率4%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38888" type="Armor" name="海藍寶石">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">裝備後，可以得到施展技能時機率性恢復MP的效果。發動機率9%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38889" type="Armor" name="海藍寶石">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">裝備後，可以得到施展技能時機率性恢復MP的效果。發動機率15%。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38890" type="Armor" name="鑽石">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">裝備時，增加物理防禦力283、減少物理致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38891" type="Armor" name="鑽石">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">裝備時，增加物理防禦力567、減少物理致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38892" type="Armor" name="鑽石">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">裝備時，增加物理防禦力945、減少物理致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38893" type="Armor" name="鑽石">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">裝備時，增加物理防禦力1418、減少物理致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38894" type="Armor" name="鑽石">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">裝備時，增加物理防禦力1986、減少物理致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38895" type="Armor" name="珍珠">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">裝備時，增加魔法防禦力163、減少魔法致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38896" type="Armor" name="珍珠">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">裝備時，增加魔法防禦力328、減少魔法致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38897" type="Armor" name="珍珠">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">裝備時，增加魔法防禦力548、減少魔法致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38898" type="Armor" name="珍珠">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">裝備時，增加魔法防禦力821、減少魔法致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+	<item id="38899" type="Armor" name="珍珠">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">裝備時，增加魔法防禦力1150、減少魔法致命被擊傷害。裝備同樣類型的寶石時，只會發揮一個最高等級寶石的效果。</table>
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+	</item>
+</list>

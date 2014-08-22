@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="22900" type="EtcItem" name="魔法書-擴充道具Lv1">
+		<table name="#Desc">維他命道具\n用於學習擴充道具技能 Lv1的魔法書。若已學習擴充道具技能的話，便無法使用。</table>
+		<set name="icon" val="BranchSys3.lcon.g_inven_expan_book" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22901" type="EtcItem" name="魔法書-擴充道具Lv2">
+		<table name="#Desc">維他命道具\n用於學習擴充道具技能 Lv2的魔法書。只能在學習擴充道具 Lv1後，才可使用。</table>
+		<set name="icon" val="BranchSys3.lcon.g_inven_expan_book" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22902" type="EtcItem" name="魔法書-擴充倉庫Lv1">
+		<table name="#Desc">維他命道具\n用於學習擴充倉庫技能 Lv1的魔法書。若已學習擴充倉庫技能的話，便無法使用。</table>
+		<set name="icon" val="BranchSys3.lcon.g_storage_expan_book" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22903" type="EtcItem" name="魔法書-擴充倉庫Lv2">
+		<table name="#Desc">維他命道具\n用於學習擴充倉庫技能 Lv2的魔法書。只能在學習擴充倉庫 Lv1後，才可使用。</table>
+		<set name="icon" val="BranchSys3.lcon.g_storage_expan_book" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22904" type="EtcItem" name="沃夫襯衫強化卷軸">
+		<table name="#Desc">維他命道具\n沃夫襯衫專用強化卷軸。\n沃夫襯衫的物理、魔法防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，最多可強化至+10。從+4開始將會逐步提升「基本能力（CON、MEN、STR、INT、DEX、WIT）」。強化至+5、+7、+8、+9時，還會賦予額外選項。</table>
+		<set name="icon" val="BranchSys2.icon.etc_scroll_of_enchant_shirt_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22905" type="EtcItem" name="祝福的沃夫襯衫強化卷軸">
+		<table name="#Desc">維他命道具\n沃夫襯衫專用強化卷軸。\n沃夫襯衫的物理、魔法防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，最多可強化至+10。從+4開始將會逐步提升「基本能力（CON、MEN、STR、INT、DEX、WIT）」。強化至+5、+7、+8、+9時，還會增加特別技能。強化失敗時，現有的強化程度會初始化為+0。</table>
+		<set name="icon" val="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22906" type="EtcItem" name="經驗值古文 50% 1小時/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文50%（限時1小時）的壓縮包。解除壓縮包後便無法交易。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22907" type="Armor" name="草帽">
+		<table name="#Desc">維他命道具\n草帽。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_straw_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22908" type="Armor" name="疤痕">
+		<table name="#Desc">維他命道具\n疤痕。男性專用道具。</table>
+		<set name="icon" val="icon.Accessary_scar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="22909" type="Armor" name="暴走族口罩">
+		<table name="#Desc">維他命道具\n暴走族使用的口罩。</table>
+		<set name="icon" val="BranchSys.icon.br_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22910" type="EtcItem" name="婚禮壓縮包">
+		<table name="#Desc">維他命道具壓縮包\n內裝蜜月套票以及大型結婚蛋糕的婚禮壓縮包。</table>
+		<set name="icon" val="BranchSys2.Icon.br_wedding_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22911" type="EtcItem" name="禮服">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝備禮服時，男性的穿著為燕尾服，女性的則是婚紗。可使用30天。裝備時，將會解除防具而不能使用。但，頭飾和武器、魔法防具則不會被解除。</table>
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="22912" type="EtcItem" name="禮服 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有禮服（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_lucky_bag_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22913" type="Armor" name="結婚戒指-男性用">
+		<table name="#Desc">維他命道具\n約定結婚的男女相互交換的結婚戒指。男性用。</table>
+		<set name="icon" val="BranchSys2.Icon.br_wedding_ring_m_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="GOLD" />
+		<for>
+			<add order="0x10" stat="mDef" val="1" />
+		</for>
+	</item>
+	<item id="22914" type="Armor" name="結婚戒指-女性用">
+		<table name="#Desc">維他命道具\n約定結婚的男女相互交換的結婚戒指。女性用。</table>
+		<set name="icon" val="BranchSys2.Icon.br_wedding_ring_f_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="GOLD" />
+		<for>
+			<add order="0x10" stat="mDef" val="1" />
+		</for>
+	</item>
+	<item id="22915" type="EtcItem" name="灑花">
+		<table name="#Desc">維他命道具\n灑在新郎新娘身上的灑花。</table>
+		<set name="icon" val="BranchSys2.Icon.br_flower_shower_i00" />
+		<set name="material" val="WOOD" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22916" type="Weapon" name="邱比特之弓">
+		<table name="#Desc">維他命道具\n滿懷熱情發射愛心。可使用主動技能「愛神之箭」。\n注意：若使用於怪物身上，有可能受到其他玩家的攻擊。</table>
+		<set name="icon" val="icon.weapon_krono_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="WOOD" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="22917" type="Armor" name="時髦小丑帽">
+		<table name="#Desc">維他命道具\n時髦的小丑帽。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22918" type="Armor" name="刺客斗笠">
+		<table name="#Desc">維他命道具\n竹製的斗笠。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22919" type="EtcItem" name="火之原石">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的火之力量；用於防具時，可增強6的火之力量來強化對於水的抗性。屬性可從等級1開始賦予至等級3，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22920" type="EtcItem" name="水之原石">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的水之力量；用於防具時，可增強6的水之力量來強化對於火的抗性。屬性可從等級1開始賦予至等級3，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22921" type="EtcItem" name="地之原石">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的地之力量；用於防具時，可增強6的地之力量來強化對於風的抗性。屬性可從等級1開始賦予至等級3，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22922" type="EtcItem" name="風之原石">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的風之力量；用於防具時，可增強6的風之力量來強化對於地的抗性。屬性可從等級1開始賦予至等級3，此等級以上則不會賦予元素屬性。在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22923" type="EtcItem" name="暗之原石">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的黑暗力量；用於防具時，可增強6的黑暗力量來強化對於神聖的抗性。屬性可從等級1開始賦予至等級3，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22924" type="EtcItem" name="聖之原石">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的神聖力量；用於防具時，可增強6的神聖力量來強化對於黑暗的抗性。屬性可從等級1開始賦予至等級3，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22925" type="EtcItem" name="火之水晶">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的火之力量；用於防具時，可增強6的火之力量來強化對於水的抗性。屬性可從等級1開始賦予至等級6，若賦予此等級以上時，水晶的力量將會消失。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22926" type="EtcItem" name="水之水晶">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的水之力量；用於防具時，可增強6的水之力量來強化對於火的抗性。屬性可從等級1開始賦予至等級6，若賦予此等級以上時，水晶的力量將會消失。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22927" type="EtcItem" name="地之水晶">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的地之力量；用於防具時，可增強6的地之力量來強化對於風的抗性。屬性可從等級1開始賦予至等級6，若賦予此等級以上時，水晶的力量將會消失。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22928" type="EtcItem" name="風之水晶">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的風之力量；用於防具時，可增強6的風之力量來強化對於地的抗性。屬性可從等級1開始賦予至等級6，若賦予此等級以上時，水晶的力量將會消失。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22929" type="EtcItem" name="暗之水晶">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的黑暗力量；用於防具時，可增強6的黑暗力量來強化對於神聖的抗性。屬性可從等級1開始賦予至等級6，若賦予此等級以上時，水晶的力量將會消失。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22930" type="EtcItem" name="聖之水晶">
+		<table name="#Desc">維他命道具\n用於武器時，可增強5的神聖力量；用於防具時，可增強6的神聖力量來強化對於黑暗的抗性。屬性可從等級1開始賦予至等級6，若賦予此等級以上時，水晶的力量將會消失。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22931" type="Armor" name="戰士頭盔">
+		<table name="#Desc">維他命道具\n古代勇猛戰士的頭盔。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys2.icon.br_close_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22932" type="EtcItem" name="卡爾提亞迷宮入場券-等級85單人">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這個入場券的話，可將等級85個人地區的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22933" type="EtcItem" name="卡爾提亞迷宮入場券-等級90單人">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這個入場券的話，可將等級90個人地區的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22934" type="EtcItem" name="卡爾提亞迷宮入場券-等級95單人">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這個入場券的話，可將等級95個人地區的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22935" type="EtcItem" name="卡爾提亞迷宮入場券-等級85隊伍">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這個入場券的話，可將等級85隊伍地區的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22936" type="EtcItem" name="卡爾提亞迷宮入場券-等級90隊伍">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這個入場券的話，可將等級90隊伍地區的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22937" type="EtcItem" name="卡爾提亞迷宮入場券-等級95隊伍">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這個入場券的話，可將等級95隊伍地區的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22938" type="Armor" name="攻城裝備修理工具-亞丁城">
+		<table name="#Desc">在亞丁城引發攻城戰時，可以修理配置於戰場外故障的弩砲的修理工具。裝備時，可以使用「攻城裝備修理」技能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22939" type="Armor" name="攻城裝備修理工具-魯因城">
+		<table name="#Desc">在魯因城引發攻城戰時，可以修理配置於戰場外故障的弩砲的修理工具。裝備時，可以使用「攻城裝備修理」技能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22940" type="Armor" name="腐蝕性化合物容器-亞丁城">
+		<table name="#Desc">內裝具有強大作用的腐蝕性化合物的容器。裝備時，可以使用「投擲腐蝕性化合物」技能。只能在戰場上使用。</table>
+		<set name="icon" val="icon.empty_bottle" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22941" type="Armor" name="腐蝕性化合物容器-魯因城">
+		<table name="#Desc">內裝具有強大作用的腐蝕性化合物的容器。裝備時，可以使用「投擲腐蝕性化合物」技能。只能在戰場上使用。</table>
+		<set name="icon" val="icon.empty_bottle" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22942" type="Armor" name="刻印促進催化石-亞丁城">
+		<table name="#Desc">對亞丁城刻印室的聖物引起反應後，可催化感應者的刻印的裝置。裝備時，可以使用「聖物刻印催化」技能。只能在戰場上使用。</table>
+		<set name="icon" val="icon.etc_raid_f_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22943" type="Armor" name="刻印促進催化石-魯因城">
+		<table name="#Desc">對魯因城刻印室的聖物引起反應後，可催化感應者的刻印的裝置。裝備時，可以使用「聖物刻印催化」技能。只能在戰場上使用。</table>
+		<set name="icon" val="icon.etc_raid_f_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22944" type="EtcItem" name="經驗值古文 50%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加50%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22945" type="EtcItem" name="蜜月套票">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">贈送給新郎新娘的蜜月套票。使用的話，可以維持1小時的活力。限制使用次數的活力道具。</table>
+		<set name="icon" val="BranchSys2.Icon.br_weddin_ticket_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22946" type="EtcItem" name="大型結婚蛋糕">
+		<table name="#Desc">可召喚在婚禮上不可缺少的3層結婚蛋糕的卷軸。</table>
+		<set name="icon" val="BranchSys2.Icon.br_big_wedding_cake_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22947" type="Armor" name="壺精封印手鐲-歌手＆舞者">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n可召喚能歌善舞的詩人＆舞者壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_singer_dancer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="22948" type="Armor" name="黑熊騎乘手鐲">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝備時可騎乘黑熊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_black_bear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="22949" type="Armor" name="黑寶石面具">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n高級金屬材質的黑寶石面具飾品。</table>
+		<set name="icon" val="BranchSys.icon.br_black_gem_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22950" type="Armor" name="時髦天使戒指">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n時髦的天使戒指。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22951" type="Armor" name="時髦惡魔的角">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n時髦的惡魔的角。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22952" type="Armor" name="暴走族口罩">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n暴走族使用的口罩。</table>
+		<set name="icon" val="BranchSys.icon.br_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22953" type="Armor" name="壺精封印手鐲-烏山卡壺精">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n可召喚烏山卡壺精的手鐲。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_uthanka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="22954" type="Armor" name="壺精封印手鐲-啦啦隊長 奧羅德利爾">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n可召喚啦啦隊長-奧羅德利爾的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_cheer_FElf_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="22955" type="Armor" name="溫馴螞蟻公主騎乘手鐲">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝備時可騎乘溫馴螞蟻公主。</table>
+		<set name="icon" val="BranchSys3.Icon.g_ant_princess_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="22956" type="Armor" name="壺精封印手鐲-樹精">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n可召喚樹精壺精的手鐲。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_dryad_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="22957" type="Armor" name="粉紅紙製尖帽面具">
+		<table name="#Plus">神佑之魂-限時30日</table>
+		<table name="#Desc">維他命道具\n用粉紅色色紙所製成的華麗面具和尖帽。特殊技能的使用冷卻時間為1小時。</table>
+		<set name="icon" val="BranchSys.icon.br_party_hat_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22958" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n穿箭的蘋果。可以佩戴在頭上。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22959" type="EtcItem" name="SP古文 50%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加50%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22960" type="EtcItem" name="奈比特古文100%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵的所得經驗值和SP100%。效果只會適用於等級85以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22961" type="EtcItem" name="奈比特古文200%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵的所得經驗值和SP200%。效果只會適用於等級85以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22962" type="Armor" name="遠足用花帽">
+		<table name="#Desc">維他命道具\n遠足用的花帽。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys2.icon2.pi_flowerhat_for_lady" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22963" type="Armor" name="耀眼舞台召喚手鐲">
+		<table name="#Desc">維他命道具\n裝備時，可踏上以華麗的燈光照亮的舞台上。</table>
+		<set name="icon" val="BranchSys2.Icon.br_shiny_platform_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="22964" type="Armor" name="粉紅紙製尖帽面具">
+		<table name="#Desc">維他命道具\n用粉紅色色紙所製成的華麗面具和尖帽。</table>
+		<set name="icon" val="BranchSys.icon.br_party_hat_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22965" type="Armor" name="穿箭蘋果">
+		<table name="#Desc">維他命道具\n穿箭的蘋果。可以佩戴在頭上。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="22966" type="EtcItem" name="1小時活力維持藥水">
+		<table name="#Desc">維他命道具\n使用時，活力維持1小時。透過維他命管理者可與帳號內的其他角色共享。限制使用次數的活力道具。</table>
+		<set name="icon" val="BranchSys2.br_essence_rose_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22967" type="EtcItem" name="壺精封印手鐲-歌手＆舞者 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有壺精封印手鐲-詩人＆舞者限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22968" type="EtcItem" name="黑熊騎乘手鐲 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有黑熊騎乘手鐲限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22969" type="EtcItem" name="黑寶石面具 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有黑寶石面具限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22970" type="EtcItem" name="時髦天使戒指 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有時髦天使戒指限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22971" type="EtcItem" name="時髦惡魔的角 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有時髦惡魔的角限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22972" type="EtcItem" name="暴走族口罩 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有暴走族口罩限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22973" type="EtcItem" name="壺精封印手鐲-烏山卡壺精 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有壺精封印手鐲-烏山卡壺精限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22974" type="EtcItem" name="壺精封印手鐲-啦啦隊長 奧羅德利爾 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有壺精封印手鐲-啦啦隊長 奧羅德利爾限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22975" type="EtcItem" name="溫馴螞蟻公主騎乘手鐲 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有溫馴螞蟻公主騎乘手鐲限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22976" type="EtcItem" name="壺精封印手鐲-樹精 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有壺精封印手鐲-樹精 神佑之魂限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22977" type="EtcItem" name="粉紅紙製尖帽面具 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有粉紅紙製尖帽面具組限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22978" type="EtcItem" name="穿箭蘋果 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有穿箭蘋果限時30日的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22979" type="EtcItem" name="SP古文 50% (1小時) 1個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文50%限時1小時的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22980" type="EtcItem" name="奈比特古文100% (1小時) 1個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有奈比特古文100%限時1小時的壓縮包。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22981" type="EtcItem" name="奈比特古文200% (1小時) 1個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有奈比特古文200%限時1小時的壓縮包。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22982" type="EtcItem" name="LV1 巨人力量紋章染料">
+		<table name="#Plus">Str+3 Dex-2</table>
+		<table name="#Desc">維他命道具\nLv1 巨人力量紋章染料（Str+3、Dex-2）。找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_1_dye_str" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22983" type="EtcItem" name="LV1 巨人敏捷紋章染料">
+		<table name="#Plus">Dex+3 Con-2</table>
+		<table name="#Desc">維他命道具\nLv1 巨人敏捷紋章染料（Dex+3、Con-2）。找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_1_dye_dex" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22984" type="EtcItem" name="LV1 巨人體質紋章染料">
+		<table name="#Plus">Con+3 Str-2</table>
+		<table name="#Desc">維他命道具\nLv1 巨人體力紋章染料（Con+3、Str-2）。找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_1_dye_con" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22985" type="EtcItem" name="LV1 巨人智力紋章染料">
+		<table name="#Plus">Int+3 Wit-2</table>
+		<table name="#Desc">維他命道具\nLv1 巨人智力紋章染料（Int+3、Wit-2）。找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_1_dye_int" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22986" type="EtcItem" name="LV1 巨人智慧紋章染料">
+		<table name="#Plus">Wit+3 Men-2</table>
+		<table name="#Desc">維他命道具\nLv1 巨人智慧紋章染料（Wit+3、Men-2）。找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_1_dye_wit" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22987" type="EtcItem" name="LV1 巨人精神紋章染料">
+		<table name="#Plus">Men+3 Int-2</table>
+		<table name="#Desc">維他命道具\nLv1 巨人精神紋章染料（Men+3、Int-2）。找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_1_dye_men" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22988" type="EtcItem" name="LV1 古代力量紋章染料">
+		<table name="#Plus">Str+3 Dex-2 火屬性抗性 +5</table>
+		<table name="#Desc">維他命道具\nLv1 古代力量紋章染料（Str+3、Dex-2、火屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_2_dye_str" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22989" type="EtcItem" name="LV1 古代敏捷紋章染料">
+		<table name="#Plus">Dex+3 Con-2 大地屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 古代敏捷紋章染料（Dex+3、Con-2、大地屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_2_dye_dex" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22990" type="EtcItem" name="LV1 古代體質紋章染料">
+		<table name="#Plus">Con+3 Str-2 黑暗屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 古代體力紋章染料（Con+3、Str-2、黑暗屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_2_dye_con" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22991" type="EtcItem" name="LV1 古代智力紋章染料">
+		<table name="#Plus">Int+3 Wit-2 水屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 古代智力紋章染料（Int+3、Wit-2、水屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_2_dye_int" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22992" type="EtcItem" name="LV1 古代智慧紋章染料">
+		<table name="#Plus">Wit+3 Men-2 風屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 古代智慧紋章染料（Wit+3、Men-2、風屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_2_dye_wit" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22993" type="EtcItem" name="LV1 古代精神紋章染料">
+		<table name="#Plus">Men+3 Int-2 神聖屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 古代精神紋章染料（Men+3、Int-2、神聖屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_2_dye_men" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22994" type="EtcItem" name="LV1 傳說力量紋章染料">
+		<table name="#Plus">Str+3 Dex-1 火屬性抗性 +5</table>
+		<table name="#Desc">維他命道具\nLv1 傳說力量紋章染料（Str+3、Dex-1、火屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_3_dye_str" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22995" type="EtcItem" name="LV1 傳說敏捷紋章染料">
+		<table name="#Plus">Dex+3 Con-1 大地屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 傳說敏捷紋章染料（Dex+3、Con-1、大地屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_3_dye_dex" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22996" type="EtcItem" name="LV1 傳說體質紋章染料">
+		<table name="#Plus">Con+3 Str-1 黑暗屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 傳說體力紋章染料（Con+3、Str-1、黑暗屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_3_dye_con" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22997" type="EtcItem" name="LV1 傳說智力紋章染料">
+		<table name="#Plus">Int+3 Wit-1 水屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 傳說智力紋章染料（Int+3、Wit-1、水屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_3_dye_int" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22998" type="EtcItem" name="LV1 傳說智慧紋章染料">
+		<table name="#Plus">Wit+3 Men-1 風屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 傳說智慧紋章染料（Wit+3、Men-1、風屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_3_dye_wit" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22999" type="EtcItem" name="LV1 傳說精神紋章染料">
+		<table name="#Plus">Men+3 Int-1 神聖屬性抗性+5</table>
+		<table name="#Desc">維他命道具\nLv1 傳說精神紋章染料（Men+3、Int-1、神聖屬性抗性+5）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。至於屬性抗性的話，即使裝備相同的染料兩個以上也只能適用一個效果。可以使用的職業：全系列。覺醒或三次解放之後可以使用。</table>
+		<set name="icon" val="icon.lv1_3_dye_men" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

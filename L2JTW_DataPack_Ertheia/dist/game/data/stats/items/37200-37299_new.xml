@@ -1,0 +1,2110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="37200" type="Armor" name="鋼鐵王朝脛甲鞋(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲鞋。限時60日。</table>
+		<set name="icon" val="icon.armor_t93_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37201" type="Armor" name="鋼鐵王朝脛甲符印(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲符印。限時60日。</table>
+		<set name="icon" val="icon.dynasty_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="310" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="15" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37202" type="Armor" name="鋼鐵王朝脛甲皮甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲皮甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1390" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37203" type="Armor" name="鋼鐵王朝脛甲皮脛甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲皮脛甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t92_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="460" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="106" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37204" type="Armor" name="鋼鐵王朝脛甲皮頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲皮頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37205" type="Armor" name="鋼鐵王朝脛甲皮手套(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲皮手套。限時60日。</table>
+		<set name="icon" val="icon.armor_t92_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37206" type="Armor" name="鋼鐵王朝脛甲皮靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲皮靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t92_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37207" type="Armor" name="鋼鐵永生胸甲(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生胸甲。限時30日。</table>
+		<set name="icon" val="icon.armor_t501_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="309" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37208" type="Armor" name="鋼鐵永生脛甲(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生脛甲。限時30日。</table>
+		<set name="icon" val="icon.armor_t501_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1060" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="193" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37209" type="Armor" name="鋼鐵永生頭盔(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生頭盔。限時30日。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="116" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37210" type="Armor" name="鋼鐵永生護手(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生護手。限時30日。</table>
+		<set name="icon" val="icon.armor_t501_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37211" type="Armor" name="鋼鐵永生靴(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生靴。限時30日。</table>
+		<set name="icon" val="icon.armor_t501_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37212" type="Armor" name="鋼鐵永生盾(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生盾。限時30日。</table>
+		<set name="icon" val="icon.weapon_sacon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="380" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="422" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37213" type="Armor" name="鋼鐵永生皮甲(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生皮甲。限時30日。</table>
+		<set name="icon" val="icon.armor_t502_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1380" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="247" />
+			<add order="0x10" stat="rEvas" val="5" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37214" type="Armor" name="鋼鐵永生皮脛甲(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生皮脛甲。限時30日。</table>
+		<set name="icon" val="icon.armor_t502_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="154" />
+			<add order="0x10" stat="rEvas" val="3" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37215" type="Armor" name="鋼鐵永生皮頭盔(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生皮頭盔。限時30日。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="116" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37216" type="Armor" name="鋼鐵永生皮手套(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生皮手套。限時30日。</table>
+		<set name="icon" val="icon.armor_t502_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37217" type="Armor" name="鋼鐵永生皮靴(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生皮靴。限時30日。</table>
+		<set name="icon" val="icon.armor_t502_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37218" type="Armor" name="鋼鐵永生外衣(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生外衣。限時30日。</table>
+		<set name="icon" val="icon.armor_t503_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="580" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="36" />
+			<add order="0x10" stat="pDef" val="169" />
+			<add order="0x40" stat="maxMp" val="649" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37219" type="Armor" name="鋼鐵永生長襪(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生長襪。限時30日。</table>
+		<set name="icon" val="icon.armor_t503_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="280" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="24" />
+			<add order="0x10" stat="pDef" val="106" />
+			<add order="0x40" stat="maxMp" val="427" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37220" type="Armor" name="鋼鐵永生頭箍(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生頭箍。限時30日。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="116" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37221" type="Armor" name="鋼鐵永生手套(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生手套。限時30日。</table>
+		<set name="icon" val="icon.armor_t503_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37222" type="Armor" name="鋼鐵永生鞋(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生鞋。限時30日。</table>
+		<set name="icon" val="icon.armor_t503_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37223" type="Armor" name="鋼鐵永生符印(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生符印。限時30日。</table>
+		<set name="icon" val="icon.weapon_karyen_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="310" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="38" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37224" type="Armor" name="鋼鐵月長石耳環(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的月長石耳環。限時60日。</table>
+		<set name="icon" val="icon.accessary_moonstone_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="39" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37225" type="Armor" name="鋼鐵水石項鍊(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的水石項鍊。限時60日。</table>
+		<set name="icon" val="icon.accessary_aquastone_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="52" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37226" type="Armor" name="鋼鐵水石戒指(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的水石戒指。限時60日。</table>
+		<set name="icon" val="icon.accessary_aquastone_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37227" type="Armor" name="鋼鐵金剛石耳環(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的金剛石耳環。限時60日。</table>
+		<set name="icon" val="icon.accessary_adamantite_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="51" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37228" type="Armor" name="鋼鐵金剛石項鍊(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的金剛石項鍊。限時60日。</table>
+		<set name="icon" val="icon.accessary_adamantite_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="68" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37229" type="Armor" name="鋼鐵金剛石戒指(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的金剛石戒指。限時60日。</table>
+		<set name="icon" val="icon.accessary_adamantite_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="34" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37230" type="Armor" name="鋼鐵不死鳥耳環(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的不死鳥耳環。限時60日。</table>
+		<set name="icon" val="icon.accessary_phoenixs_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="20" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37231" type="Armor" name="鋼鐵不死鳥項鍊(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的不死鳥項鍊。限時60日。</table>
+		<set name="icon" val="icon.accessary_phoenixs_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="80" />
+			<add order="0x40" stat="maxMp" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37232" type="Armor" name="鋼鐵不死鳥戒指(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的不死鳥戒指。限時60日。</table>
+		<set name="icon" val="icon.accessary_phoenixs_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x40" stat="maxMp" val="13" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37233" type="Armor" name="鋼鐵泰狄奧森耳環(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的泰狄奧森耳環。限時60日。</table>
+		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37234" type="Armor" name="鋼鐵泰狄奧森項鍊(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的泰狄奧森項鍊。限時60日。</table>
+		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37235" type="Armor" name="鋼鐵泰狄奧森戒指(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的泰狄奧森戒指。限時60日。</table>
+		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37236" type="Armor" name="鋼鐵王朝脛甲耳環(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲耳環。限時60日。</table>
+		<set name="icon" val="icon.accessary_dynasty_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="35" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37237" type="Armor" name="鋼鐵王朝脛甲項鍊(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲項鍊。限時60日。</table>
+		<set name="icon" val="icon.accessary_dynasty_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37238" type="Armor" name="鋼鐵王朝脛甲戒指(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲戒指。限時60日。</table>
+		<set name="icon" val="icon.accessary_dynasty_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37239" type="Armor" name="鋼鐵永生耳環(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生耳環。限時30日。</table>
+		<set name="icon" val="icon.r1_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="94" />
+			<add order="0x40" stat="maxMp" val="40" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37240" type="Armor" name="鋼鐵永生項鍊(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生項鍊。限時30日。</table>
+		<set name="icon" val="icon.r1_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="126" />
+			<add order="0x40" stat="maxMp" val="53" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37241" type="Armor" name="鋼鐵永生戒指(限時30日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的永生戒指。限時30日。</table>
+		<set name="icon" val="icon.r1_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="50" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="37242" type="Weapon" name="鋼鐵暴風之劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的暴風之劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_stormbringer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="477" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37243" type="Weapon" name="鋼鐵夜叉釘鎚(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的夜叉釘鎚。限時60日。</table>
+		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="547" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37244" type="Weapon" name="鋼鐵軍刀*革命劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的軍刀*革命劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="807" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="118" />
+			<set order="0x08" stat="mAtk" val="56" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37245" type="Weapon" name="鋼鐵奧祕之刃(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的奧祕之刃。限時60日。</table>
+		<set name="icon" val="icon.weapon_mystery_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="477" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="85" />
+			<set order="0x08" stat="mAtk" val="81" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37246" type="Weapon" name="鋼鐵殺戮者(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的殺戮者。限時60日。</table>
+		<set name="icon" val="icon.weapon_body_slasher_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="677" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37247" type="Weapon" name="鋼鐵魔炎匕首(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的魔炎匕首。限時60日。</table>
+		<set name="icon" val="icon.weapon_dagger_of_magicflame_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="250" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="86" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37248" type="Weapon" name="鋼鐵冰晶弓(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的冰晶弓。限時60日。</table>
+		<set name="icon" val="icon.weapon_crystallized_ice_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="597" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="220" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37249" type="Weapon" name="鋼鐵席拉格重劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的席拉格重劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_schlaeger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="660" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="116" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37250" type="Weapon" name="鋼鐵軍用刺劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的軍用刺劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="477" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="97" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37251" type="Weapon" name="鋼鐵強弩(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的強弩。限時60日。</table>
+		<set name="icon" val="icon.weapon_arbalest_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="597" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37252" type="Weapon" name="鋼鐵焰形劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的焰形劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_flamberge_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="670" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="130" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37253" type="Weapon" name="鋼鐵圓月輪(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的圓月輪。限時60日。</table>
+		<set name="icon" val="icon.weapon_chakram_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="497" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="130" />
+			<set order="0x08" stat="mAtk" val="61" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37254" type="Weapon" name="鋼鐵聖堂之劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的聖堂之劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_sword_of_valhalla_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="140" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37255" type="Weapon" name="鋼鐵破咒者(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的破咒者。限時60日。</table>
+		<set name="icon" val="icon.weapon_spell_breaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="540" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="140" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37256" type="Weapon" name="鋼鐵暴風之劍*極限之劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的暴風之劍*極限之劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="747" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="197" />
+			<set order="0x08" stat="mAtk" val="86" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37257" type="Weapon" name="鋼鐵巫師之淚(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的巫師之淚。限時60日。</table>
+		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="450" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="155" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37258" type="Weapon" name="鋼鐵巨斧(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的巨斧。限時60日。</table>
+		<set name="icon" val="icon.weapon_great_axe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="647" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37259" type="Weapon" name="鋼鐵地獄刀(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的地獄刀。限時60日。</table>
+		<set name="icon" val="icon.weapon_hell_knife_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="122" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37260" type="Weapon" name="鋼鐵黑暗精靈長弓(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗精靈長弓。限時60日。</table>
+		<set name="icon" val="icon.weapon_dark_elven_long_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="573" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="4" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="397" />
+			<set order="0x08" stat="mAtk" val="100" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="227" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37261" type="Weapon" name="鋼鐵渾沌的無名之勝(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的渾沌的無名之勝。限時60日。</table>
+		<set name="icon" val="icon.weapon_nameless_victory_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="643" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37262" type="Weapon" name="鋼鐵突襲鈍劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的突襲鈍劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_assult_fleuret_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="457" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="159" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37263" type="Weapon" name="鋼鐵冥犬之牙(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的冥犬之牙。限時60日。</table>
+		<set name="icon" val="icon.weapon_hell_hound_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="567" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="245" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37264" type="Weapon" name="鋼鐵巨劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的巨劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_great_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="643" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37265" type="Weapon" name="鋼鐵阿斯拉爪(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的阿斯拉爪。限時60日。</table>
+		<set name="icon" val="icon.weapon_arthro_nail_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="473" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37266" type="Weapon" name="鋼鐵元素劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的元素劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_elemental_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="277" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="170" />
+			<set order="0x08" stat="mAtk" val="143" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37267" type="Weapon" name="鋼鐵英魂之眼(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的英魂之眼。限時60日。</table>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="517" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="170" />
+			<set order="0x08" stat="mAtk" val="143" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37268" type="Weapon" name="鋼鐵柯貝克劍*柯貝克劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的柯貝克劍*柯貝克劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="693" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="259" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37269" type="Weapon" name="鋼鐵奇蹟劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的奇蹟劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_sword_of_miracle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="280" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="186" />
+			<set order="0x08" stat="mAtk" val="152" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37270" type="Weapon" name="鋼鐵長柄戰戟(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的長柄戰戟。限時60日。</table>
+		<set name="icon" val="icon.weapon_halbard_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="633" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37271" type="Weapon" name="鋼鐵血腥之蘭(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的血腥之蘭。限時60日。</table>
+		<set name="icon" val="icon.weapon_bloody_orchid_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="320" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="186" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37272" type="Weapon" name="鋼鐵顱之弓(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的顱之弓。限時60日。</table>
+		<set name="icon" val="icon.weapon_carnium_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="557" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="5" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="440" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37273" type="Weapon" name="鋼鐵天雷(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的天雷。限時60日。</table>
+		<set name="icon" val="icon.weapon_lightning_blaze_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="443" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="193" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37274" type="Weapon" name="鋼鐵末日咒詛(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日咒詛。限時60日。</table>
+		<set name="icon" val="icon.weapon_doom_singer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="557" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="270" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37275" type="Weapon" name="鋼鐵神怨(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的神怨。限時60日。</table>
+		<set name="icon" val="icon.weapon_pain_of_godness_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="633" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="231" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37276" type="Weapon" name="鋼鐵煉獄之主(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的煉獄之主。限時60日。</table>
+		<set name="icon" val="icon.weapon_inferno_master_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="633" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="259" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37277" type="Weapon" name="鋼鐵血旋風(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的血旋風。限時60日。</table>
+		<set name="icon" val="icon.weapon_blood_tornado_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="457" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="259" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37278" type="Weapon" name="鋼鐵忘卻之刃(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的忘卻之刃。限時60日。</table>
+		<set name="icon" val="icon.weapon_forgotten_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="433" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="281" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37279" type="Weapon" name="鋼鐵玄武岩戰鎚(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的玄武岩戰鎚。限時60日。</table>
+		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="523" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="281" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37280" type="Weapon" name="鋼鐵塔魯刀*黑暗軍刀(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的塔魯刀*黑暗軍刀。限時60日。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="693" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="342" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37281" type="Weapon" name="鋼鐵祕儀權杖(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的祕儀權杖。限時60日。</table>
+		<set name="icon" val="icon.weapon_arcana_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="433" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="225" />
+			<set order="0x08" stat="mAtk" val="175" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37282" type="Weapon" name="鋼鐵聖者之矛(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的聖者之矛。限時60日。</table>
+		<set name="icon" val="icon.weapon_saint_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="281" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37283" type="Weapon" name="鋼鐵天使殺手(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的天使殺手。限時60日。</table>
+		<set name="icon" val="icon.weapon_angel_slayer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="317" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="246" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37284" type="Weapon" name="鋼鐵勝利之劍格蘭(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的勝利之劍格蘭。限時60日。</table>
+		<set name="icon" val="icon.weapon_gram_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="304" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37285" type="Weapon" name="鋼鐵烈焚天(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的烈焚天。限時60日。</table>
+		<set name="icon" val="icon.weapon_leavatein_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="433" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="255" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37286" type="Weapon" name="鋼鐵薩倫伽神弩(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的薩倫伽神弩。限時60日。</table>
+		<set name="icon" val="icon.weapon_sarnga_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="533" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="356" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37287" type="Weapon" name="鋼鐵天國審判(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的天國審判。限時60日。</table>
+		<set name="icon" val="icon.weapon_heavens_divider_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="460" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="342" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37288" type="Weapon" name="鋼鐵惡魔獵爪(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的惡魔獵爪。限時60日。</table>
+		<set name="icon" val="icon.weapon_demon_splinter_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="450" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="342" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37289" type="Weapon" name="鋼鐵王朝幻影劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝幻影劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_magic_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="267" />
+			<set order="0x08" stat="mAtk" val="202" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37290" type="Weapon" name="鋼鐵王朝戰鎚(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝戰鎚。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="333" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37291" type="Weapon" name="鋼鐵王朝雙刀(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝雙刀。限時60日。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37292" type="Weapon" name="鋼鐵王朝長柄戰戟(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝長柄戰戟。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="670" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="333" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37293" type="Weapon" name="鋼鐵王朝小刀(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝小刀。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="291" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37294" type="Weapon" name="鋼鐵王朝十字弓(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝十字弓。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_crossbow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="530" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="401" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37295" type="Weapon" name="鋼鐵王朝古代劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝古代劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="361" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37296" type="Weapon" name="鋼鐵王朝細劍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝細劍。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="430" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="302" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37297" type="Weapon" name="鋼鐵王朝之刃(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝之刃。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37298" type="Weapon" name="鋼鐵王朝拳套爪(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝拳套爪。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37299" type="Weapon" name="鋼鐵鎮魂切刃(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n攻擊速度提升約15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_estia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+</list>

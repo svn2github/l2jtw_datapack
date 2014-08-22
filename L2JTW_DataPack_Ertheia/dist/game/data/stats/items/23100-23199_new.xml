@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="23100" type="Weapon" name="友情的薄暮報恨者">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">HP最大值提升約25%。PVP時提升所造成的傷害。可以賦予屬性。</table>
+		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23101" type="Weapon" name="友情的薄暮術杖">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">施法速度加快約15%。PVP時提升所造成的傷害。可以賦予屬性。</table>
+		<set name="icon" val="icon.weapon_vesper_caster_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="317" />
+			<set order="0x08" stat="mAtk" val="234" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23102" type="Weapon" name="友情的薄暮詩杖">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">魔法攻擊力提升約151。PVP時提升所造成的傷害。可以賦予屬性。</table>
+		<set name="icon" val="icon.weapon_vesper_singer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="386" />
+			<set order="0x08" stat="mAtk" val="257" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23103" type="Weapon" name="友情的薄暮投弓">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">致命攻擊率提升約133。PVP時提升所造成的傷害。可以賦予屬性。</table>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="724" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23104" type="Weapon" name="友情的薄暮螯針">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">闇天使專用武器\n致命攻擊率提升約131。致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。PVP時提升所造成的傷害。可以賦予屬性。</table>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="359" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23105" type="Weapon" name="友情的薄暮射靈">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">闇天使專用武器\n致命攻擊率提升約133。PVP時提升所造成的傷害。可以賦予屬性。</table>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="444" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23106" type="Weapon" name="友情的薄暮槍刃">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">闇天使專用武器\n致命攻擊率提升約131。PVP時提升所造成的傷害。可以賦予屬性。</table>
+		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="429" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23107" type="Armor" name="友情的博佩斯頭盔">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="107" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23108" type="Armor" name="友情的博佩斯皮頭盔">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="107" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23109" type="Armor" name="友情的博佩斯頭箍">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="107" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23110" type="Armor" name="友情的博佩斯胸甲">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t94_u_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="263" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23111" type="Armor" name="友情的博佩斯皮胸甲">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t95_u_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="197" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23112" type="Armor" name="友情的博佩斯外衣">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t96_u_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="132" />
+			<add order="0x40" stat="maxMp" val="649" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23113" type="Armor" name="友情的博佩斯脛甲">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t94_l_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="164" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23114" type="Armor" name="友情的博佩斯皮脛甲">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t95_l_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="123" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23115" type="Armor" name="友情的博佩斯長襪">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t96_l_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="82" />
+			<add order="0x40" stat="maxMp" val="427" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23116" type="Armor" name="友情的博佩斯護手">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t94_g_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23117" type="Armor" name="友情的博佩斯皮手套">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t95_g_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23118" type="Armor" name="友情的博佩斯手套">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t96_g_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23119" type="Armor" name="友情的博佩斯靴">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t94_b_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23120" type="Armor" name="友情的博佩斯皮靴">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t95_b_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23121" type="Armor" name="友情的博佩斯鞋">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.armor_t96_b_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23122" type="Armor" name="友情的博佩斯盾">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.Evilgate_Shield_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1190" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="399" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="23123" type="Armor" name="友情的博佩斯符印">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.belleface_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23124" type="EtcItem" name="友情的博佩斯重裝套裝組-S80級">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">使用的話，就可得到友情的博佩斯重裝套裝。若不使用的話，將會在90天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="weight" val="100" />
+	</item>
+	<item id="23125" type="EtcItem" name="友情的博佩斯輕裝套裝組-S80級">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">使用的話，就可得到友情的博佩斯輕裝套裝。若不使用的話，將會在90天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="weight" val="100" />
+	</item>
+	<item id="23126" type="EtcItem" name="友情的博佩斯長袍套裝組-S80級">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">使用的話，就可得到友情的博佩斯長袍套裝。若不使用的話，將會在90天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="weight" val="100" />
+	</item>
+	<item id="23127" type="EtcItem" name="S80級防具禮盒(限時90日)">
+		<table name="#Desc">點兩下禮盒的話，就可獲得限時90日的S80級友情系列防具。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23128" type="EtcItem" name="S80級武器禮盒(限時90日)">
+		<table name="#Desc">點兩下禮盒的話，就可獲得限時90日的S80級友情系列武器。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23129" type="EtcItem" name="S80級飾品禮盒(限時90日)">
+		<table name="#Desc">點兩下禮盒的話，就可獲得限時90日的S80級友情系列飾品。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23130" type="Armor" name="友情的博佩斯戒指">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">可得到MP+26的效果。</table>
+		<set name="icon" val="icon.accessary_ponshrnoen_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="65" />
+			<add order="0x40" stat="maxMp" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="23131" type="Armor" name="友情的博佩斯耳環">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">可得到MP+38的效果。</table>
+		<set name="icon" val="icon.accessary_ponshrnoen_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="98" />
+			<add order="0x40" stat="maxMp" val="38" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="23132" type="Armor" name="友情的博佩斯項鍊">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">可得到MP+51的效果。</table>
+		<set name="icon" val="icon.accessary_ponshrnoen_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="131" />
+			<add order="0x40" stat="maxMp" val="51" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="23133" type="EtcItem" name="性別變更">
+		<table name="#Desc">模型道具。北美地區使用。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23134" type="EtcItem" name="姓名變更">
+		<table name="#Desc">模型道具。北美地區使用。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23135" type="EtcItem" name="再覺醒">
+		<table name="#Desc">模型道具。北美地區使用。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23136" type="Armor" name="海賊王 烏山卡戒指">
+		<table name="#Desc">維他命道具\n據說對海賊王 烏山卡的靈魂表示哀悼的話，就能入手的戒指。裝備時，將變身為烏山卡。</table>
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka_jp" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23137" type="EtcItem" name="追加入場券-遠古卡爾提亞迷宮">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這個入場券的話，可將遠古卡爾提亞迷宮的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23138" type="Weapon" name="友情的薄暮雙刀">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，將會提升致命攻擊109，並提升HP最大值10%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23139" type="Weapon" name="友情的薄暮雙匕首">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">強化雙匕首武器時，物理攻擊力上升的幅度會比一般單手劍更高，強化程度為4以上時，將會提升致命攻擊率109。PvP時提升所造成的傷害。僅限等級81以上的匕首大師裝備。</table>
+		<set name="icon" val="icon.dual_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="360" />
+			<set order="0x08" stat="mAtk" val="181" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23140" type="Armor" name="軍用內衣">
+		<table name="#Desc">維他命道具\n軍用內衣。與軍用服飾成為套裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_undwrwear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+		</for>
+	</item>
+	<item id="23141" type="Armor" name="優質內衣">
+		<table name="#Desc">維他命道具\n優質玩家專用內衣。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_premium_underwear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+		</for>
+	</item>
+	<item id="23142" type="Armor" name="誘惑內衣">
+		<table name="#Desc">維他命道具\n強調性感的華麗內衣。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sexy_underwear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+		</for>
+	</item>
+	<item id="23143" type="Armor" name="網路內衣">
+		<table name="#Desc">維他命道具\n網路內衣。與SF服飾成為套裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_underwear_01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+		</for>
+	</item>
+	<item id="23144" type="Armor" name="可愛女僕內衣">
+		<table name="#Desc">維他命道具\n可愛女僕內衣。與女僕服飾成為套裝。女性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_maid_underwear_f01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+		</for>
+	</item>
+	<item id="23145" type="Armor" name="經過祝聖的驅邪器">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">經過殷海薩祭司團祝聖的聖物，可以使用充滿殷海薩力量的技能，以擊退傳播席琳的瘟疫的殭屍群。可使用30分鐘。</table>
+		<set name="icon" val="icon.etc_imperial_scepter_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="23146" type="Armor" name="奈比特聖水瓶">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有經過殷海薩祭司團祝聖的聖水之瓶。可以使用奈比特技能和水晶恢復技能，以防止被感染到瘟疫的人們變為殭屍前進行治療。可使用30分鐘。</table>
+		<set name="icon" val="icon.etc_water_potion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="23147" type="EtcItem" name="驅魔之力">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">驅魔之力\n使用時，在2小時內增加物理攻擊力20%、魔法攻擊力85%、移動速度20。使用冷卻時間為60分鐘。</table>
+		<set name="icon" val="icon.etc_water_potion_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23148" type="EtcItem" name="驅魔憑證">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">針對抵抗入侵村莊的殭屍群或變成殭屍而參與活動的人所授與的憑證。\n透過驅魔師 賽伊拉或殭屍術士 爾蕾絲蒂娜可以交換成各種道具。</table>
+		<set name="icon" val="icon.etc_badge_black_i00" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23149" type="EtcItem" name="驅魔的禮物">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">驅魔的禮物。使用時，可以獲得實用的各種道具之一。</table>
+		<set name="icon" val="icon.etc_grave_goods_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23150" type="EtcItem" name="殷海薩的禮物">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">殷海薩的禮物。使用時，可以獲得更有價值的實用道具之一。</table>
+		<set name="icon" val="icon.event_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23151" type="EtcItem" name="席琳的禮物">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">席琳的禮物。使用時，可以獲得更有價值的實用道具之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23152" type="Armor" name="靈魂具現體封印手鐲-伊肯">
+		<table name="#Desc">於紅色次元之門將伊肯的分身以靈魂具現化的姿態召喚出來的手鐲。\n對魔法防禦具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23153" type="Armor" name="靈魂具現體封印手鐲-拉娜">
+		<table name="#Desc">於紅色次元之門將拉娜的分身以靈魂具現化的姿態召喚出來的手鐲。\n對魔法防禦具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_a_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23154" type="Armor" name="靈魂具現體封印手鐲-格諾席安">
+		<table name="#Desc">於紅色次元之門將格諾席安的分身以靈魂具現化的姿態召喚出來的手鐲。\n優越於提升施展者的技能能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_f_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23155" type="Armor" name="靈魂具現體封印手鐲-奧羅德利爾">
+		<table name="#Desc">於紅色次元之門將奧羅德利爾的分身以靈魂具現化的姿態召喚出來的手鐲。\n優越於提升施展者的技能能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_e_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23156" type="Armor" name="靈魂具現體封印手鐲-拉齊努斯">
+		<table name="#Desc">於紅色次元之門將拉齊努斯的分身以靈魂具現化的姿態召喚出來的手鐲。\n對魔法攻擊具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_d_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23157" type="Armor" name="靈魂具現體封印手鐲-墨爾蒂亞">
+		<table name="#Desc">於紅色次元之門將墨爾蒂亞的分身以靈魂具現化的姿態召喚出來的手鐲。\n對魔法攻擊具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_c_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23158" type="Armor" name="靈魂具現體封印手鐲-哈因茲">
+		<table name="#Desc">於紅色次元之門將哈因茲的分身以靈魂具現化的姿態召喚出來的手鐲。\n對物理防禦具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_h_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23159" type="Armor" name="靈魂具現體封印手鐲-梅露利">
+		<table name="#Desc">於紅色次元之門將梅露利的分身以靈魂具現化的姿態召喚出來的手鐲。\n對物理防禦具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23160" type="Armor" name="靈魂具現體封印手鐲-塔曼 茲 拉帕土伊">
+		<table name="#Desc">於紅色次元之門將塔曼 茲 拉帕土伊的分身以靈魂具現化的姿態召喚出來的手鐲。\n對物理攻擊具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_i_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23161" type="Armor" name="靈魂具現體封印手鐲-卡烏林">
+		<table name="#Desc">於紅色次元之門將卡烏林的分身以靈魂具現化的姿態召喚出來的手鐲。\n對物理攻擊具有有效能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_j_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23162" type="Armor" name="靈魂具現體封印手鐲-阿海爾特貝">
+		<table name="#Desc">於紅色次元之門將阿海爾特貝的分身以靈魂具現化的姿態召喚出來的手鐲。\n優越於提升施展者的技能能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23163" type="Armor" name="靈魂具現體封印手鐲-拿奧寧">
+		<table name="#Desc">於紅色次元之門將拿奧寧的分身以靈魂具現化的姿態召喚出來的手鐲。\n優越於提升施展者的技能能力。\n無法在奧林匹亞上使用。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_local2009_k_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23164" type="EtcItem" name="靈魂具現體用大型能量種子">
+		<table name="#Desc">維他命道具\n使用的話，可恢復靈魂具現體的100000點能量。在裝備靈魂具現體，且消耗的能量超過100000點以上時，才可補充能量。</table>
+		<set name="icon" val="BranchSys.icon.br_shield_bread_i01" />
+		<set name="material" val="GOLD" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23165" type="EtcItem" name="刨冰用巧克力">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海莉納在尋求的刨冰用巧克力。能夠感覺到香甜的味道。為了製作1個香甜刨冰，需要用到刨冰用巧克力/奶油/冰塊/餅乾各10個。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_icewater_cho" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23166" type="EtcItem" name="刨冰用奶油">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海莉納在尋求的刨冰用奶油。能夠感覺到鬆軟的口感。為了製作1個香甜刨冰，需要用到刨冰用巧克力/奶油/冰塊/餅乾各10個。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_icewater_cream" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23167" type="EtcItem" name="刨冰用冰塊">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海莉納在尋求的刨冰用冰塊。好像能夠刨成小碎冰。為了製作1個香甜刨冰，需要用到刨冰用巧克力/奶油/冰塊/餅乾各10個。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="icon.etc_broken_crystal_white_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23168" type="EtcItem" name="刨冰用餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海莉納在尋求的裝有刨冰用餅乾的籃子。內裝有餅乾、水果、糖果等些許的各種材料。為了製作1個香甜刨冰，需要用到刨冰用巧克力/奶油/冰塊/餅乾各10個。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="icon.etc_candy_basket_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23169" type="EtcItem" name="香甜刨冰">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海莉納製作的刨冰。使用的話，將會變身為穿著海灘泳裝的面貌。在1小時內增加攻擊速度5%、施法速度5%、移動速度5、HP/MP最大值5%。使用冷卻時間為1小時。收集10個的話，可以交換海莉納的禮盒；收集30個以上的話，可以交換海灘泳裝加工石。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_sweet_icewater" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23170" type="EtcItem" name="夢幻刨冰">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海莉納製作的刨冰。刨冰中的特級刨冰。使用的話，將會變身為穿著艷麗泳裝的面貌。在1小時內增加攻擊速度10%、施法速度10%、移動速度10、HP/MP最大值10%。使用冷卻時間為1小時。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_sweet_icewater" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23171" type="Armor" name="海灘泳裝">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">海灘泳裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23172" type="EtcItem" name="海灘泳裝加工石">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用的話，可將防具上衣的外型加工為海灘泳裝。也可加工連身防具。所有職業皆可加工，所有防具的外型將顯示為泳裝型態，而加工之後，將不顯示斗篷。利用復原石可以將外型還原成原狀。活動結束時，將會全部刪除的道具。</table>
+		<set name="icon" val="BranchSys3.lcon.g_scrl_change_co_swimsuit_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23173" type="Armor" name="艷麗泳裝">
+		<table name="#Desc">印有著華麗紋樣的艷麗泳裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23174" type="EtcItem" name="海莉納的禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得夢幻刨冰、海灘泳裝加工石、艷麗泳裝、海灘遮陽帽30日/組、繽紛花漾草帽30日/組之一。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23175" type="Armor" name="華麗海灘遮陽帽">
+		<table name="#Plus">限時30日(活動)</table>
+		<table name="#Desc">可以徹底防曬的華麗海灘遮陽帽。可使用30天。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.icon.g_beach_cap" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="23176" type="Armor" name="繽紛花漾草帽">
+		<table name="#Plus">限時30日(活動)</table>
+		<table name="#Desc">用草編製的帽子。可使用30天。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.icon.g_straw_hat" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="23177" type="EtcItem" name="華麗海灘遮陽帽 30日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝華麗海灘遮陽帽（30天）的壓縮包。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23178" type="EtcItem" name="繽紛花漾草帽 30日/組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝繽紛花漾草帽（30天）的壓縮包。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23179" type="Armor" name="忍者衣裳上衣">
+		<table name="#Desc">忍者衣裳上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_u" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23180" type="Armor" name="忍者衣裳下衣">
+		<table name="#Desc">忍者衣裳下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_l" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23181" type="Armor" name="忍者衣裳手套">
+		<table name="#Desc">忍者衣裳手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_g" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23182" type="Armor" name="忍者衣裳鞋">
+		<table name="#Desc">忍者衣裳鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_b" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23183" type="Armor" name="忍者頭飾">
+		<table name="#Desc">忍者頭飾。面罩型態。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23184" type="Armor" name="台灣傳統衣裳上衣">
+		<table name="#Desc">台灣傳統衣裳上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_u" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23185" type="Armor" name="台灣傳統衣裳下衣">
+		<table name="#Desc">台灣傳統衣裳下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_l" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23186" type="Armor" name="台灣傳統衣裳手套">
+		<table name="#Desc">台灣傳統衣裳手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_g" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23187" type="Armor" name="台灣傳統衣裳鞋">
+		<table name="#Desc">台灣傳統衣裳鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_b" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23188" type="Armor" name="台灣傳統頭飾">
+		<table name="#Desc">台灣傳統頭飾。帽子型態。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23189" type="EtcItem" name="忍者衣裳上衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將上衣轉變成忍者造型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23190" type="EtcItem" name="忍者衣裳下衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將下衣轉變成忍者造型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_legs" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23191" type="EtcItem" name="忍者衣裳手套加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將手套轉變成忍者造型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_gloves" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23192" type="EtcItem" name="忍者衣裳鞋加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將鞋轉變成忍者造型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_feet" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23193" type="EtcItem" name="忍者頭飾加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將頭飾轉變成忍者造型的加工石。只能加工佔用欄位2格的頭飾。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23194" type="EtcItem" name="台灣傳統衣裳上衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將上衣轉變成台灣傳統造型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23195" type="EtcItem" name="台灣傳統衣裳下衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將下衣轉變成台灣傳統造型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_legs" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23196" type="EtcItem" name="台灣傳統衣裳手套加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將手套轉變成台灣傳統造型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_gloves" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23197" type="EtcItem" name="台灣傳統衣裳鞋加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將鞋轉變成台灣傳統造型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_feet" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23198" type="EtcItem" name="台灣傳統頭飾加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將頭飾轉變成台灣傳統造型的加工石。只能加工佔用欄位2格的頭飾。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23199" type="EtcItem" name="忍者衣裳加工石組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有忍者衣裳上衣/下衣/手套/鞋/頭飾加工石的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

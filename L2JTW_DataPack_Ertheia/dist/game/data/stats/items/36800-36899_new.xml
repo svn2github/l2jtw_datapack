@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="36800" type="EtcItem" name="鎮魂投弓碎片">
+		<table name="#Desc">可製作鎮魂投弓的主要材料。</table>
+		<set name="icon" val="icon.weapon_grabathus_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36801" type="EtcItem" name="鎮魂射靈碎片">
+		<table name="#Desc">可製作鎮魂射靈的主要材料。</table>
+		<set name="icon" val="icon.weapon_shyayaka_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36802" type="EtcItem" name="鎮魂爆刃碎片">
+		<table name="#Desc">可製作鎮魂爆刃的主要材料。</table>
+		<set name="icon" val="icon.weapon_kaynon_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36803" type="EtcItem" name="鎮魂術杖碎片">
+		<table name="#Desc">可製作鎮魂術杖的主要材料。</table>
+		<set name="icon" val="icon.weapon_anatrian_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36804" type="EtcItem" name="鎮魂報恨者碎片">
+		<table name="#Desc">可製作鎮魂報恨者的主要材料。</table>
+		<set name="icon" val="icon.weapon_grankaz_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36805" type="EtcItem" name="永生頭盔材料">
+		<table name="#Desc">可製作永生頭盔的主要材料。</table>
+		<set name="icon" val="icon.armor_helmet_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36806" type="EtcItem" name="永生胸甲材料">
+		<table name="#Desc">可製作永生胸甲的主要材料。</table>
+		<set name="icon" val="icon.armor_t501_u_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36807" type="EtcItem" name="永生脛甲材料">
+		<table name="#Desc">可製作永生脛甲的主要材料。</table>
+		<set name="icon" val="icon.armor_t501_l_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36808" type="EtcItem" name="永生護手材料">
+		<table name="#Desc">可製作永生護手的主要材料。</table>
+		<set name="icon" val="icon.armor_t501_g_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36809" type="EtcItem" name="永生靴材料">
+		<table name="#Desc">可製作永生靴的主要材料。</table>
+		<set name="icon" val="icon.armor_t501_b_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36810" type="EtcItem" name="永生盾材料">
+		<table name="#Desc">可製作永生盾的主要材料。</table>
+		<set name="icon" val="icon.weapon_sacon_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36811" type="EtcItem" name="永生皮頭盔材料">
+		<table name="#Desc">可製作永生皮頭盔的主要材料。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36812" type="EtcItem" name="永生皮甲材料">
+		<table name="#Desc">可製作永生皮甲的主要材料。</table>
+		<set name="icon" val="icon.armor_t502_u_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36813" type="EtcItem" name="永生皮脛甲材料">
+		<table name="#Desc">可製作永生皮脛甲的主要材料。</table>
+		<set name="icon" val="icon.armor_t502_l_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36814" type="EtcItem" name="永生皮手套材料">
+		<table name="#Desc">可製作永生皮手套的主要材料。</table>
+		<set name="icon" val="icon.armor_t502_g_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36815" type="EtcItem" name="永生皮靴材料">
+		<table name="#Desc">可製作永生皮靴的主要材料。</table>
+		<set name="icon" val="icon.armor_t502_b_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36816" type="EtcItem" name="永生頭箍材料">
+		<table name="#Desc">可製作永生頭箍的主要材料。</table>
+		<set name="icon" val="icon.armor_circlet_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36817" type="EtcItem" name="永生外衣材料">
+		<table name="#Desc">可製作永生外衣的主要材料。</table>
+		<set name="icon" val="icon.armor_t503_u_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36818" type="EtcItem" name="永生長襪材料">
+		<table name="#Desc">可製作永生長襪的主要材料。</table>
+		<set name="icon" val="icon.armor_t503_l_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36819" type="EtcItem" name="永生手套材料">
+		<table name="#Desc">可製作永生手套的主要材料。</table>
+		<set name="icon" val="icon.armor_t503_g_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36820" type="EtcItem" name="永生鞋材料">
+		<table name="#Desc">可製作永生鞋的主要材料。</table>
+		<set name="icon" val="icon.armor_t503_b_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36821" type="EtcItem" name="永生符印材料">
+		<table name="#Desc">可製作永生符印的主要材料。</table>
+		<set name="icon" val="icon.weapon_karyen_i00_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36822" type="EtcItem" name="永生項鍊的寶石">
+		<table name="#Desc">可製作永生項鍊的主要材料。</table>
+		<set name="icon" val="icon.etc_r1_necklace_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36823" type="EtcItem" name="永生耳環的寶石">
+		<table name="#Desc">可製作永生耳環的主要材料。</table>
+		<set name="icon" val="icon.etc_r1_earring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36824" type="EtcItem" name="永生戒指的寶石">
+		<table name="#Desc">可製作永生戒指的主要材料。</table>
+		<set name="icon" val="icon.etc_r1_ring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36825" type="EtcItem" name="英啟鉋刀碎片">
+		<table name="#Desc">可製作英啟鉋刀的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_shaper_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36826" type="EtcItem" name="英啟切刃碎片">
+		<table name="#Desc">可製作英啟切刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_cutter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36827" type="EtcItem" name="英啟殺刃碎片">
+		<table name="#Desc">可製作英啟殺刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_slasher_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36828" type="EtcItem" name="英啟復仇者碎片">
+		<table name="#Desc">可製作英啟復仇者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_avenger_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36829" type="EtcItem" name="英啟戰爪碎片">
+		<table name="#Desc">可製作英啟戰爪的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_fighter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36830" type="EtcItem" name="英啟風暴者碎片">
+		<table name="#Desc">可製作英啟風暴者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_stormer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36831" type="EtcItem" name="英啟投弓碎片">
+		<table name="#Desc">可製作英啟投弓的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36832" type="EtcItem" name="英啟射靈碎片">
+		<table name="#Desc">可製作英啟射靈的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36833" type="EtcItem" name="英啟爆刃碎片">
+		<table name="#Desc">可製作英啟爆刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_burster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36834" type="EtcItem" name="英啟術杖碎片">
+		<table name="#Desc">可製作英啟術杖的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_caster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36835" type="EtcItem" name="英啟報恨者碎片">
+		<table name="#Desc">可製作英啟報恨者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_singer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36836" type="EtcItem" name="煉獄頭盔材料">
+		<table name="#Desc">可製作煉獄頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36837" type="EtcItem" name="煉獄胸甲材料">
+		<table name="#Desc">可製作煉獄胸甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36838" type="EtcItem" name="煉獄脛甲材料">
+		<table name="#Desc">可製作煉獄脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36839" type="EtcItem" name="煉獄護手材料">
+		<table name="#Desc">可製作煉獄手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36840" type="EtcItem" name="煉獄靴材料">
+		<table name="#Desc">可製作煉獄長靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36841" type="EtcItem" name="煉獄盾材料">
+		<table name="#Desc">可製作煉獄盾的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36842" type="EtcItem" name="煉獄皮頭盔材料">
+		<table name="#Desc">可製作煉獄皮頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36843" type="EtcItem" name="煉獄皮甲材料">
+		<table name="#Desc">可製作煉獄皮甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36844" type="EtcItem" name="煉獄皮脛甲材料">
+		<table name="#Desc">可製作煉獄皮脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36845" type="EtcItem" name="煉獄皮手套材料">
+		<table name="#Desc">可製作煉獄皮手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36846" type="EtcItem" name="煉獄皮靴材料">
+		<table name="#Desc">可製作煉獄皮靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36847" type="EtcItem" name="煉獄頭箍材料">
+		<table name="#Desc">可製作煉獄頭箍的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36848" type="EtcItem" name="煉獄外衣材料">
+		<table name="#Desc">可製作煉獄外衣的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36849" type="EtcItem" name="煉獄長襪材料">
+		<table name="#Desc">可製作煉獄長襪的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36850" type="EtcItem" name="煉獄手套材料">
+		<table name="#Desc">可製作煉獄手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36851" type="EtcItem" name="煉獄鞋材料">
+		<table name="#Desc">可製作煉獄鞋的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36852" type="EtcItem" name="煉獄符印材料">
+		<table name="#Desc">可製作煉獄符印的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36853" type="EtcItem" name="煉獄項鍊的寶石">
+		<table name="#Desc">可製作煉獄項鍊的主要材料。</table>
+		<set name="icon" val="icon.etc_r2_necklace_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36854" type="EtcItem" name="煉獄耳環的寶石">
+		<table name="#Desc">可製作煉獄耳環的主要材料。</table>
+		<set name="icon" val="icon.etc_r2_earring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36855" type="EtcItem" name="煉獄戒指的寶石">
+		<table name="#Desc">可製作煉獄戒指的主要材料。</table>
+		<set name="icon" val="icon.etc_r2_ring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36856" type="EtcItem" name="製作卷軸(舊皮革-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把皮革（Lv2）加工成舊皮革（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36857" type="EtcItem" name="製作卷軸(皮革-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把堅硬皮革（Lv3）加工成皮革（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36858" type="EtcItem" name="製作卷軸(皮革-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把舊皮革（Lv1）加工成皮革（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36859" type="EtcItem" name="製作卷軸(堅硬皮革-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級皮革（Lv4）加工成堅硬皮革（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36860" type="EtcItem" name="製作卷軸(堅硬皮革-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把皮革（Lv2）加工成堅硬皮革（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36861" type="EtcItem" name="製作卷軸(高級皮革-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把最高級皮革（Lv5）加工成高級皮革（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36862" type="EtcItem" name="製作卷軸(高級皮革-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把堅硬皮革（Lv3）加工成高級皮革（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36863" type="EtcItem" name="製作卷軸(最高級皮革-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級皮革（Lv4）加工成最高級皮革（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36864" type="EtcItem" name="製作卷軸(鋼鐵礦-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把銀塊（Lv2）加工成鋼鐵礦（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36865" type="EtcItem" name="製作卷軸(銀-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把金剛石塊（Lv3）加工成銀塊（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36866" type="EtcItem" name="製作卷軸(銀-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把鋼鐵礦（Lv1）加工成銀塊（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36867" type="EtcItem" name="製作卷軸(金剛石塊-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把奧里哈魯根合金（Lv4）加工成金剛石塊（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36868" type="EtcItem" name="製作卷軸(金剛石塊-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把銀塊（Lv2）加工成金剛石塊（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36869" type="EtcItem" name="製作卷軸(奧里哈魯根合金-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把都蘭達（Lv5）加工成奧里哈魯根合金（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36870" type="EtcItem" name="製作卷軸(奧里哈魯根合金-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把金剛石塊（Lv3）加工成奧里哈魯根合金（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36871" type="EtcItem" name="製作卷軸(都蘭達-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把奧里哈魯根合金（Lv4）加工成都蘭達（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36872" type="EtcItem" name="製作卷軸(纖維-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把合成纖維（Lv2）加工成纖維（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36873" type="EtcItem" name="製作卷軸(合成纖維-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把金屬纖維（Lv3）加工成合成纖維（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36874" type="EtcItem" name="製作卷軸(合成纖維-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把纖維（Lv1）加工成合成纖維（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36875" type="EtcItem" name="製作卷軸(金屬纖維-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級纖維（Lv4）加工成金屬纖維（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36876" type="EtcItem" name="製作卷軸(金屬纖維-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把合成纖維（Lv2）加工成金屬纖維（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36877" type="EtcItem" name="製作卷軸(高級纖維-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把最高級纖維（Lv5）加工成高級纖維（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36878" type="EtcItem" name="製作卷軸(高級纖維-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把金屬纖維（Lv3）加工成高級纖維（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36879" type="EtcItem" name="製作卷軸(最高級纖維-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級纖維（Lv4）加工成最高級纖維（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36880" type="EtcItem" name="製作卷軸(線-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把細繩（Lv2）加工成線（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36881" type="EtcItem" name="製作卷軸(細繩-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把合成繩（Lv3）加工成細繩（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36882" type="EtcItem" name="製作卷軸(細繩-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把線（Lv1）加工成細繩（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36883" type="EtcItem" name="製作卷軸(合成繩-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把絞線（Lv4）加工成合成繩（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36884" type="EtcItem" name="製作卷軸(合成繩-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把細繩（Lv2）加工成合成繩（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36885" type="EtcItem" name="製作卷軸(絞線-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級繩（Lv5）加工成絞線（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36886" type="EtcItem" name="製作卷軸(絞線-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把合成繩（Lv3）加工成絞線（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36887" type="EtcItem" name="製作卷軸(高級繩-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把絞線（Lv4）加工成高級繩（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36888" type="EtcItem" name="製作卷軸(舊皮帶-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把皮帶（Lv2）加工成舊皮帶（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36889" type="EtcItem" name="製作卷軸(舊皮帶-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把舊皮革（Lv1）與線（Lv1）加工成舊皮帶（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36890" type="EtcItem" name="製作卷軸(皮帶-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把堅硬皮帶（Lv3）加工成皮帶（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36891" type="EtcItem" name="製作卷軸(皮帶-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把舊皮帶（Lv1）加工成皮帶（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36892" type="EtcItem" name="製作卷軸(皮帶-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把皮革（Lv2）與細繩（Lv2）加工成皮帶（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36893" type="EtcItem" name="製作卷軸(堅硬皮帶-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級皮帶（Lv4）加工成堅硬皮帶（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36894" type="EtcItem" name="製作卷軸(堅硬皮帶-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把皮帶（Lv2）加工成堅硬皮帶（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36895" type="EtcItem" name="製作卷軸(堅固皮帶-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把堅硬皮革（Lv3）與合成繩（Lv3）加工成堅硬皮帶（Lv3）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36896" type="EtcItem" name="製作卷軸(高級皮帶-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把最高級皮帶（Lv5）加工成高級皮帶（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36897" type="EtcItem" name="製作卷軸(高級皮帶-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把堅硬皮帶（Lv3）加工成高級皮帶（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36898" type="EtcItem" name="製作卷軸(高級皮帶-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級皮革（Lv4）與絞線（Lv4）加工成高級皮帶（Lv4）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36899" type="EtcItem" name="製作卷軸(最高級皮帶-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級皮帶（Lv4）加工成最高級皮帶（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

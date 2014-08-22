@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="31700" type="EtcItem" name="未確認的柯貝克劍">
+		<table name="#Desc">尚未經過確認的柯貝克劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/劍）</table>
+		<set name="icon" val="icon.weapon_kshanberk_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31701" type="EtcItem" name="未確認的緋紅劍*革命劍">
+		<table name="#Desc">尚未經過確認的緋紅劍*革命劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31702" type="EtcItem" name="未確認的緋紅劍*緋紅劍">
+		<table name="#Desc">尚未經過確認的緋紅劍*緋紅劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31703" type="EtcItem" name="未確認的緋紅劍*精靈劍">
+		<table name="#Desc">尚未經過確認的緋紅劍*精靈劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31704" type="EtcItem" name="未確認的緋紅劍*精靈長劍">
+		<table name="#Desc">尚未經過確認的緋紅劍*精靈長劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31705" type="EtcItem" name="未確認的緋紅劍">
+		<table name="#Desc">尚未經過確認的緋紅劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/劍）</table>
+		<set name="icon" val="icon.weapon_crimson_sword_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31706" type="EtcItem" name="未確認的水晶魔杖">
+		<table name="#Desc">尚未經過確認的水晶魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_crystal_staff_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31707" type="EtcItem" name="未確認的水晶匕首">
+		<table name="#Desc">尚未經過確認的水晶匕首。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/匕首）</table>
+		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31708" type="EtcItem" name="未確認的波形刃">
+		<table name="#Desc">尚未經過確認的波形刃。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/匕首）</table>
+		<set name="icon" val="icon.weapon_kris_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31709" type="EtcItem" name="未確認的十字弓">
+		<table name="#Desc">闇天使專用武器：轉換為腰弩。尚未經過確認的十字弓。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/弩）</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31710" type="EtcItem" name="未確認的齒輪弩">
+		<table name="#Desc">闇天使專用武器：轉換為風暴弓。尚未經過確認的齒輪弩。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/弩）</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31711" type="EtcItem" name="未確認的反曲刀">
+		<table name="#Desc">尚未經過確認的反曲刀。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/匕首）</table>
+		<set name="icon" val="icon.weapon_kukuri_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31712" type="EtcItem" name="未確認的合金盔甲">
+		<table name="#Desc">尚未經過確認的合金盔甲。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：連身防具/重裝）</table>
+		<set name="icon" val="icon.armor_t61_ul_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31713" type="EtcItem" name="未確認的合金頭盔">
+		<table name="#Desc">尚未經過確認的合金頭盔。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：頭盔）</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31714" type="EtcItem" name="未確認的合金盾">
+		<table name="#Desc">尚未經過確認的合金盾 盾。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：盾牌）</table>
+		<set name="icon" val="icon.shield_composite_shield_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31715" type="EtcItem" name="未確認的合金靴">
+		<table name="#Desc">尚未經過確認的合金靴。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：長靴）</table>
+		<set name="icon" val="icon.armor_t61_b_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31716" type="EtcItem" name="未確認的法咒魔杖">
+		<table name="#Desc">尚未經過確認的法咒魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_conjure_staff_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31717" type="EtcItem" name="未確認的法咒刀">
+		<table name="#Desc">尚未經過確認的法咒刀。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/匕首）</table>
+		<set name="icon" val="icon.weapon_conjure_knife_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31718" type="EtcItem" name="未確認的武士刀*武士刀">
+		<table name="#Desc">尚未經過確認的武士刀*武士刀。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31719" type="EtcItem" name="未確認的武士刀*靈魂之劍">
+		<table name="#Desc">尚未經過確認的武士刀*靈魂之劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31720" type="EtcItem" name="未確認的武士刀*襲擊劍">
+		<table name="#Desc">尚未經過確認的武士刀*襲擊劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31721" type="EtcItem" name="未確認的武士刀">
+		<table name="#Desc">尚未經過確認的武士刀。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/劍）</table>
+		<set name="icon" val="icon.weapon_katana_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31722" type="EtcItem" name="未確認的格鬥劍">
+		<table name="#Desc">闇天使專用武器：轉換為下巨人之劍。尚未經過確認的格鬥劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/古代劍）</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31723" type="EtcItem" name="未確認的卡倚巴奴之骨">
+		<table name="#Desc">尚未經過確認的卡倚巴奴之骨。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31724" type="EtcItem" name="未確認的鳶形盾">
+		<table name="#Desc">尚未經過確認的鳶形盾。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：盾牌）</table>
+		<set name="icon" val="icon.shield_kite_shield_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31725" type="EtcItem" name="未確認的卡拉克衝角">
+		<table name="#Desc">尚未經過確認的卡拉克衝角。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_horn_of_karik_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31726" type="EtcItem" name="未確認的卡里埔士劍">
+		<table name="#Desc">尚未經過確認的卡里埔士劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/劍）</table>
+		<set name="icon" val="icon.weapon_caliburs_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31727" type="EtcItem" name="未確認的卡勒米安長襪">
+		<table name="#Desc">尚未經過確認的卡勒米安長襪。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/長袍）</table>
+		<set name="icon" val="icon.armor_t53_l_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31728" type="EtcItem" name="未確認的卡勒米安外衣">
+		<table name="#Desc">尚未經過確認的卡勒米安外衣。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：上衣/長袍）</table>
+		<set name="icon" val="icon.armor_t53_u_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31729" type="EtcItem" name="未確認的卡勒米安長靴">
+		<table name="#Desc">尚未經過確認的卡勒米安長靴。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：長靴）</table>
+		<set name="icon" val="icon.armor_t53_b_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31730" type="EtcItem" name="未確認的卡勒米安手套">
+		<table name="#Desc">尚未經過確認的卡勒米安手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t53_g_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31731" type="EtcItem" name="未確認的顱之弓">
+		<table name="#Desc">尚未經過確認的顱之弓。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/弓）</table>
+		<set name="icon" val="icon.weapon_carnium_bow_i00" />
+		<set name="crystal_type" val="A" />
+	</item>
+	<item id="31732" type="EtcItem" name="未確認的大和劍">
+		<table name="#Desc">尚未經過確認的大和劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/劍）</table>
+		<set name="icon" val="icon.weapon_tsurugi_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31733" type="EtcItem" name="未確認的鏈盾">
+		<table name="#Desc">尚未經過確認的鏈盾。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：盾牌）</table>
+		<set name="icon" val="icon.shield_chain_shield_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31734" type="EtcItem" name="未確認的鏈甲衫">
+		<table name="#Desc">尚未經過確認的鏈甲衫。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：上衣/重裝）</table>
+		<set name="icon" val="icon.armor_t48_u_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31735" type="EtcItem" name="未確認的鏈脛甲">
+		<table name="#Desc">尚未經過確認的鏈脛甲。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/重裝）</table>
+		<set name="icon" val="icon.armor_t48_l_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31736" type="EtcItem" name="未確認的鏈甲靴">
+		<table name="#Desc">尚未經過確認的鏈甲靴。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：長靴）</table>
+		<set name="icon" val="icon.armor_t48_b_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31737" type="EtcItem" name="未確認的鏈手套">
+		<table name="#Desc">尚未經過確認的鏈手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t48_g_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31738" type="EtcItem" name="未確認的青銅頭盔">
+		<table name="#Desc">尚未經過確認的青銅頭盔。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：頭盔）</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31739" type="EtcItem" name="未確認的青銅盾">
+		<table name="#Desc">尚未經過確認的青銅盾。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：盾牌）</table>
+		<set name="icon" val="icon.shield_bronze_shield_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31740" type="EtcItem" name="未確認的鋼鐵脛甲">
+		<table name="#Desc">尚未經過確認的鋼鐵脛甲。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/重裝）</table>
+		<set name="icon" val="icon.armor_t12_l_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31741" type="EtcItem" name="未確認的圓月輪">
+		<table name="#Desc">尚未經過確認的圓月輪。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/格鬥兵器）</table>
+		<set name="icon" val="icon.weapon_chakram_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31742" type="EtcItem" name="未確認的緋紅靴">
+		<table name="#Desc">尚未經過確認的緋紅靴。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：長靴）</table>
+		<set name="icon" val="icon.armor_t57_b_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31743" type="EtcItem" name="未確認的安魂長手套">
+		<table name="#Desc">尚未經過確認的安魂長手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t40_g_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31744" type="EtcItem" name="未確認的智慧卷軸">
+		<table name="#Desc">尚未經過確認的智慧卷軸。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器）</table>
+		<set name="icon" val="icon.weapon_scroll_of_wisdom_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31745" type="EtcItem" name="未確認的知識長襪">
+		<table name="#Desc">尚未經過確認的知識長襪。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/長袍）</table>
+		<set name="icon" val="icon.armor_t41_l_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31746" type="EtcItem" name="未確認的知識外衣">
+		<table name="#Desc">尚未經過確認的知識外衣。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：上衣/長袍）</table>
+		<set name="icon" val="icon.armor_t41_u_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31747" type="EtcItem" name="未確認的知識手套">
+		<table name="#Desc">尚未經過確認的知識手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t41_g_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31748" type="EtcItem" name="未確認的知識長靴">
+		<table name="#Desc">尚未經過確認的知識長靴。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：長靴）</table>
+		<set name="icon" val="icon.armor_t41_b_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31749" type="EtcItem" name="未確認的條紋絲質襯衫">
+		<table name="#Desc">尚未經過確認的條紋絲質襯衫。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：襯衫）</table>
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31750" type="EtcItem" name="未確認的條紋棉質襯衫">
+		<table name="#Desc">尚未經過確認的條紋棉質襯衫。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：襯衫）</table>
+		<set name="icon" val="icon.etc_stripe_shirts_d_i01" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31751" type="EtcItem" name="未確認的將軍格鬥劍">
+		<table name="#Desc">闇天使專用武器：轉換為雙刃大砍刀。尚未經過確認的將軍格鬥劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/古代劍）</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31752" type="EtcItem" name="未確認的精靈魔杖">
+		<table name="#Desc">尚未經過確認的精靈魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_sprites_staff_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31753" type="EtcItem" name="未確認的受詛咒的突刺刀">
+		<table name="#Desc">尚未經過確認的受詛咒的突刺刀。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/匕首）</table>
+		<set name="icon" val="icon.weapon_maingauche_i01" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31754" type="EtcItem" name="未確認的受詛咒的匕首">
+		<table name="#Desc">尚未經過確認的受詛咒的匕首。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/匕首）</table>
+		<set name="icon" val="icon.weapon_cursed_dagger_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31755" type="EtcItem" name="未確認的受詛咒的長襪">
+		<table name="#Desc">尚未經過確認的受詛咒的長襪。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/長袍）</table>
+		<set name="icon" val="icon.armor_t14_l_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31756" type="EtcItem" name="未確認的受詛咒的外衣">
+		<table name="#Desc">尚未經過確認的受詛咒的外衣。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：上衣/長袍）</table>
+		<set name="icon" val="icon.armor_t14_u_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31757" type="EtcItem" name="未確認的受詛咒的魔杖">
+		<table name="#Desc">尚未經過確認的受詛咒的魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_cursed_staff_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31758" type="EtcItem" name="未確認的工匠之劍*革命劍">
+		<table name="#Desc">尚未經過確認的工匠之劍*革命劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31759" type="EtcItem" name="未確認的工匠之劍*緋紅劍">
+		<table name="#Desc">尚未經過確認的工匠之劍*緋紅劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31760" type="EtcItem" name="未確認的工匠之劍*工匠之劍">
+		<table name="#Desc">尚未經過確認的工匠之劍*工匠之劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31761" type="EtcItem" name="未確認的工匠之劍*精靈劍">
+		<table name="#Desc">尚未經過確認的工匠之劍*精靈劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31762" type="EtcItem" name="未確認的工匠之劍*精靈長劍">
+		<table name="#Desc">尚未經過確認的工匠之劍*精靈長劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31763" type="EtcItem" name="未確認的工匠之劍*騎士劍">
+		<table name="#Desc">尚未經過確認的工匠之劍*騎士劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31764" type="EtcItem" name="未確認的工匠之劍">
+		<table name="#Desc">尚未經過確認的工匠之劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/劍）</table>
+		<set name="icon" val="icon.weapon_artisans_sword_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31765" type="EtcItem" name="未確認的工作鎚">
+		<table name="#Desc">尚未經過確認的工作鎚。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_work_hammer_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31766" type="EtcItem" name="未確認的帝國聖軍胸甲">
+		<table name="#Desc">尚未經過確認的帝國聖軍胸甲。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：上衣/重裝）</table>
+		<set name="icon" val="icon.armor_t88_u_i00" />
+		<set name="crystal_type" val="S" />
+	</item>
+	<item id="31767" type="EtcItem" name="未確認的帝國聖軍頭盔">
+		<table name="#Desc">尚未經過確認的帝國聖軍頭盔。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：頭盔）</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="crystal_type" val="S" />
+	</item>
+	<item id="31768" type="EtcItem" name="未確認的帝國聖軍盾">
+		<table name="#Desc">尚未經過確認的帝國聖軍盾。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：盾牌）</table>
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
+		<set name="crystal_type" val="S" />
+	</item>
+	<item id="31769" type="EtcItem" name="未確認的帝國聖軍長靴">
+		<table name="#Desc">尚未經過確認的帝國聖軍長靴。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：長靴）</table>
+		<set name="icon" val="icon.armor_t88_b_i00" />
+		<set name="crystal_type" val="S" />
+	</item>
+	<item id="31770" type="EtcItem" name="未確認的帝國聖軍長手套">
+		<table name="#Desc">尚未經過確認的帝國聖軍長手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t88_g_i00" />
+		<set name="crystal_type" val="S" />
+	</item>
+	<item id="31771" type="EtcItem" name="未確認的帝國聖軍脛甲">
+		<table name="#Desc">尚未經過確認的帝國聖軍脛甲。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/重裝）</table>
+		<set name="icon" val="icon.armor_t88_l_i00" />
+		<set name="crystal_type" val="S" />
+	</item>
+	<item id="31772" type="EtcItem" name="未確認的帝國權杖">
+		<table name="#Desc">尚未經過確認的帝國權杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_imperial_staff_i00" />
+		<set name="crystal_type" val="S" />
+	</item>
+	<item id="31773" type="EtcItem" name="未確認的地獄魔杖">
+		<table name="#Desc">尚未經過確認的地獄魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_inferno_staff_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31774" type="EtcItem" name="未確認的煉獄之主">
+		<table name="#Desc">尚未經過確認的煉獄之主。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/劍）</table>
+		<set name="icon" val="icon.weapon_inferno_master_i00" />
+		<set name="crystal_type" val="A" />
+	</item>
+	<item id="31775" type="EtcItem" name="未確認的人魚之淚">
+		<table name="#Desc">尚未經過確認的人魚之淚。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：項鍊）</table>
+		<set name="icon" val="icon.accessary_necklace_of_mermaid_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31776" type="EtcItem" name="未確認的人魚之淚">
+		<table name="#Desc">尚未經過確認的人魚之淚。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：項鍊）</table>
+		<set name="icon" val="icon.accessary_necklace_of_mermaid_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31777" type="EtcItem" name="未確認的莫北巨刃">
+		<table name="#Desc">闇天使專用武器：轉換為帕格立歐之劍。尚未經過確認的莫北巨刃。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/古代劍）</table>
+		<set name="icon" val="icon.weapon_invincible_blade_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31778" type="EtcItem" name="未確認的月蝕斧">
+		<table name="#Desc">尚未經過確認的月蝕斧。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31779" type="EtcItem" name="未確認的異教徒之書">
+		<table name="#Desc">尚未經過確認的異教徒之書。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器 /其他）</table>
+		<set name="icon" val="icon.weapon_heathens_book_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31780" type="EtcItem" name="未確認的翼之矛">
+		<table name="#Desc">尚未經過確認的翼之矛。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/槍）</table>
+		<set name="icon" val="icon.weapon_winged_spear_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31781" type="EtcItem" name="未確認的黑寡婦">
+		<table name="#Desc">尚未經過確認的黑寡婦。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/槍）</table>
+		<set name="icon" val="icon.weapon_widow_maker_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31782" type="EtcItem" name="未確認的戰錐">
+		<table name="#Desc">尚未經過確認的戰錐。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_war_pick_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31783" type="EtcItem" name="未確認的巨戰斧">
+		<table name="#Desc">尚未經過確認的巨戰斧。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_war_axe_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31784" type="EtcItem" name="未確認的戰鎚">
+		<table name="#Desc">尚未經過確認的戰鎚。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/槍）</table>
+		<set name="icon" val="icon.weapon_war_hammer_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31785" type="EtcItem" name="未確認的單刃刀">
+		<table name="#Desc">尚未經過確認的單刃刀。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/格鬥兵器）</table>
+		<set name="icon" val="icon.weapon_single-edged_jamadhr_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31786" type="EtcItem" name="未確認的歐西斯戰斧">
+		<table name="#Desc">尚未經過確認的歐西斯戰斧。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/槍）</table>
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31787" type="EtcItem" name="未確認的歐西斯闊矛">
+		<table name="#Desc">尚未經過確認的歐西斯闊矛。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/槍）</table>
+		<set name="icon" val="icon.weapon_orcish_glaive_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31788" type="EtcItem" name="未確認的瑪瑙獸眼耳環">
+		<table name="#Desc">尚未經過確認的瑪瑙獸眼耳環。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：耳環）</table>
+		<set name="icon" val="icon.accessary_onyxbeastseye_earing_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31789" type="EtcItem" name="未確認的食人魔力量長手套">
+		<table name="#Desc">尚未經過確認的食人魔力量長手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31790" type="EtcItem" name="未確認的食人魔力量長手套">
+		<table name="#Desc">尚未經過確認的食人魔力量長手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31791" type="EtcItem" name="未確認的古森林項鍊">
+		<table name="#Desc">尚未經過確認的古森林項鍊。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：項鍊）</table>
+		<set name="icon" val="icon.accessary_near_forest_necklace_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31792" type="EtcItem" name="未確認的古森林項鍊">
+		<table name="#Desc">尚未經過確認的古森林項鍊。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：項鍊）</table>
+		<set name="icon" val="icon.accessary_near_forest_necklace_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31793" type="EtcItem" name="未確認的靈魂弓">
+		<table name="#Desc">尚未經過確認的靈魂弓。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/弓）</table>
+		<set name="icon" val="icon.weapon_soul_bow_i00" />
+		<set name="crystal_type" val="A" />
+	</item>
+	<item id="31794" type="EtcItem" name="未確認的英魂之眼">
+		<table name="#Desc">尚未經過確認的英魂之眼。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_eye_of_soul_i00" />
+		<set name="crystal_type" val="A" />
+	</item>
+	<item id="31795" type="EtcItem" name="未確認的永命戒指">
+		<table name="#Desc">尚未經過確認的永命戒指。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：戒指）</table>
+		<set name="icon" val="icon.accessary_ring_of_ages_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31796" type="EtcItem" name="未確認的永命戒指">
+		<table name="#Desc">尚未經過確認的永命戒指。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：戒指）</table>
+		<set name="icon" val="icon.accessary_ring_of_ages_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31797" type="EtcItem" name="未確認的榮譽號角">
+		<table name="#Desc">尚未經過確認的榮譽號角。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器 /其他）</table>
+		<set name="icon" val="icon.weapon_horn_of_glory_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31798" type="EtcItem" name="未確認的奇蹟之鎚">
+		<table name="#Desc">尚未經過確認的奇蹟之鎚。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_mace_of_miracle_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31799" type="EtcItem" name="未確認的精靈長襪">
+		<table name="#Desc">尚未經過確認的精靈長襪。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/長袍）</table>
+		<set name="icon" val="icon.armor_t11_l_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+</list>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="36000" type="EtcItem" name="天堂防禦餅乾">
+		<table name="#Desc">維他命道具\n在1小時內增加物理攻擊力12%、物理致命威力35%、物理致命攻擊率100%、物理防禦力45%、盾牌防禦率30%、盾牌防禦力50%。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_defence_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36001" type="EtcItem" name="天堂魔法餅乾">
+		<table name="#Desc">維他命道具\n在1小時內增加魔法攻擊力40%、魔法致命攻擊率100%、施法速度8%、物理攻擊力8%、攻擊速度8%、移動速度8、魔法防禦力14%、MP額外恢復量20%，而降低魔法技能的MP消耗量15%、物理技能的MP消耗量5%、技能使用冷卻時間20%。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_magic_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36002" type="EtcItem" name="天堂CP增幅餅乾">
+		<table name="#Desc">維他命道具\n在1小時內增加CP最大值20%。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_cp_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36003" type="EtcItem" name="天堂攻擊特殊禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂攻擊餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36004" type="EtcItem" name="天堂防禦特殊禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂防禦餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36005" type="EtcItem" name="天堂魔法特殊禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂魔法餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36006" type="EtcItem" name="天堂CP增幅特殊禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂CP增幅餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36007" type="EtcItem" name="高級強化輔助石特殊禮盒">
+		<table name="#Desc">維他命道具壓縮包\n可以獲得武器用高級強化輔助石- R級和防具用高級強化輔助石- R級。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36008" type="EtcItem" name="武器用高級強化輔助石-R級">
+		<table name="#Desc">維他命道具\n強化R級武器時，可將成功機率提升20%。僅限使用於強化3~9的道具。無法用於強化10以上的道具。</table>
+		<set name="icon" val="icon.ench_wp_potion_violet_i00" />
+		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36009" type="EtcItem" name="防具用高級強化輔助石-R級">
+		<table name="#Desc">維他命道具\n強化R級防具時，可將成功機率提升30%。僅限使用於強化3~9的道具。無法用於強化10以上的道具。</table>
+		<set name="icon" val="icon.ench_am_potion_violet_i00" />
+		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36010" type="EtcItem" name="天堂攻擊餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n在1小時內增加物理攻擊力35%、物理致命威力35%、物理致命攻擊率100%、攻擊速度8%、魔法攻擊力16%、施法速度8%、移動速度8。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_attack_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36011" type="EtcItem" name="天堂防禦餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n在1小時內增加物理攻擊力12%、物理致命威力35%、物理致命攻擊率100%、物理防禦力45%、盾牌防禦率30%、盾牌防禦力50%。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_defence_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36012" type="EtcItem" name="天堂魔法餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n在1小時內增加魔法攻擊力40%、魔法致命攻擊率100%、施法速度8%、物理攻擊力8%、攻擊速度8%、移動速度8、魔法防禦力14%、MP額外恢復量20%，而降低魔法技能的MP消耗量15%、物理技能的MP消耗量5%、技能使用冷卻時間20%。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_magic_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36013" type="EtcItem" name="天堂CP增幅餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n在1小時內增加CP最大值20%。使用冷卻時間為60分鐘。即使死亡也不會刪除輔助魔法。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_cp_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36014" type="EtcItem" name="天堂攻擊特殊禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂攻擊餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36015" type="EtcItem" name="天堂防禦特殊禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂防禦餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36016" type="EtcItem" name="天堂魔法特殊禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂防禦餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36017" type="EtcItem" name="天堂CP增幅特殊禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒10個/天堂CP增幅餅乾10個的禮盒。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36018" type="EtcItem" name="高級強化輔助石特殊禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具壓縮包\n可以獲得武器用高級強化輔助石- R級和防具用高級強化輔助石- R級。</table>
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36019" type="EtcItem" name="武器用高級強化輔助石-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n強化R級武器時，可將成功機率提升20%。僅限使用於強化3~9的道具。無法用於強化10以上的道具。</table>
+		<set name="icon" val="icon.ench_wp_potion_violet_i00" />
+		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36020" type="EtcItem" name="防具用高級強化輔助石-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n強化R級防具時，可將成功機率提升30%。僅限使用於強化3~9的道具。無法用於強化10以上的道具。</table>
+		<set name="icon" val="icon.ench_am_potion_violet_i00" />
+		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36021" type="EtcItem" name="凱旋英雄的藥水禮盒">
+		<table name="#Desc">內裝凱旋英雄的紅色藥瓶30個、凱旋英雄的活力恢復飲料3個/組1個、天堂雞尾酒6個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36022" type="EtcItem" name="凱旋英雄的紅色藥瓶">
+		<table name="#Desc">使用時恢復HP3000，剩餘的威力將用來恢復CP，但無持續時間。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.etc_bm_hero_red_potion" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36023" type="EtcItem" name="凱旋英雄的支援禮盒">
+		<table name="#Desc">內裝凱旋英雄的襯衫、凱旋英雄的腰帶、凱旋英雄的神祕晶體各1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36024" type="EtcItem" name="凱旋英雄的神祕晶體">
+		<table name="#Desc">點兩下時，可以獲得活力充能藥草 30分/活動點數禮券 700點/天堂雞尾酒2個/城鎮返回卷軸禮盒/祝福的返回卷軸之一。（每天只能使用一次）</table>
+		<set name="icon" val="Branchsys2.icon.cube_event_i02" />
+	</item>
+	<item id="36025" type="EtcItem" name="祝福的羽毛-卡爾提亞迷宮">
+		<table name="#Desc">在卡爾提亞迷宮 - 扭曲次元的襲擊者死亡時，可以立刻復活。（經驗值恢復率50%）</table>
+		<set name="icon" val="icon.etc_feather_gold_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36026" type="EtcItem" name="高級祝福的羽毛-卡爾提亞迷宮">
+		<table name="#Desc">在卡爾提亞迷宮 - 扭曲次元的襲擊者死亡時，可以立刻復活。（經驗值恢復率100%）</table>
+		<set name="icon" val="icon.etc_feather_gold_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36027" type="EtcItem" name="毛球">
+		<table name="#Desc">血盟生產委託A - 可愛的野牛毛球。返還至皮革機械即可。</table>
+		<set name="icon" val="icon.etc_mane_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36028" type="EtcItem" name="水之力量果實">
+		<table name="#Desc">血盟生產委託B - 水之力量果實。拿去交給急性子的豺狼料理師即可。</table>
+		<set name="icon" val="icon.etc_codran_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36029" type="EtcItem" name="火之力量果實">
+		<table name="#Desc">血盟生產委託B - 火之力量果實。拿去交給急性子的豺狼料理師即可。</table>
+		<set name="icon" val="icon.etc_codran_i03" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36030" type="EtcItem" name="風之力量果實">
+		<table name="#Desc">血盟生產委託B - 風之力量果實。拿去交給急性子的豺狼料理師即可。</table>
+		<set name="icon" val="icon.etc_codran_i02" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36031" type="Weapon" name="連擊錘-1">
+		<table name="#Desc">血盟手工委託A - 裝備的話，將產生可以修理或破壞特定機器人的技能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36032" type="Weapon" name="連擊錘">
+		<table name="#Desc">用於血盟委託的道具。</table>
+		<set name="icon" val="icon.weapon_bbyong_hammer_a_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36033" type="Weapon" name="連擊錘-3">
+		<table name="#Desc">血盟生產委託A - 裝備的話，將產生可以修理或破壞特定機器人的技能。</table>
+		<set name="icon" val="icon.weapon_bbyong_hammer_a_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36034" type="Weapon" name="連擊錘-4">
+		<table name="#Desc">血盟生產委託B - 裝備的話，將產生可以修理或破壞特定機器人的技能。</table>
+		<set name="icon" val="icon.weapon_bbyong_hammer_a_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36035" type="Weapon" name="連擊錘-5">
+		<table name="#Desc">血盟改良委託 A - 裝備的話，將產生可以修理或破壞特定機器人的技能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36036" type="Weapon" name="連擊錘-6">
+		<table name="#Desc">血盟改良委託 B - 裝備的話，將產生可以修理或破壞特定機器人的技能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36037" type="EtcItem" name="謎樣的卷軸">
+		<table name="#Desc">只能在渾沌祭典競技場內使用的道具。將所選的目標捕獲至自己的位置。</table>
+		<set name="icon" val="icon.etc_grankain_chain" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36038" type="EtcItem" name="謎樣的防禦">
+		<table name="#Desc">只能在渾沌祭典競技場內使用的道具。使用時，在5秒內將會呈現無敵狀態。</table>
+		<set name="icon" val="icon.etc_grankain_protect" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36039" type="Weapon" name="無盡核心之劍-渾沌祭典">
+		<set name="icon" val="icon.weapon_incessantcore_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36040" type="Weapon" name="熔岩爆刃-渾沌祭典">
+		<set name="icon" val="icon.weapon_lavamond_saw_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36041" type="Weapon" name="粉塵裂鎚-渾沌祭典">
+		<set name="icon" val="icon.weapon_expowder_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36042" type="Weapon" name="神聖痕跡-渾沌祭典">
+		<set name="icon" val="icon.weapon_sacredumors_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36043" type="Weapon" name="派雷斯提戰鎚-渾沌祭典">
+		<set name="icon" val="icon.weapon_pereztear_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36044" type="Weapon" name="靈識權杖-渾沌祭典">
+		<set name="icon" val="icon.weapon_psyskilt_cane_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36045" type="Weapon" name="毒蛇祕刃-渾沌祭典">
+		<set name="icon" val="icon.weapon_mambaedge_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36046" type="Weapon" name="傑特曼戰爪-渾沌祭典">
+		<set name="icon" val="icon.weapon_jademice_claw_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36047" type="Weapon" name="幽魂掃蕩者-渾沌祭典">
+		<set name="icon" val="icon.weapon_ghostcleaner_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36048" type="Weapon" name="無盡核心雙刀-渾沌祭典">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36049" type="Weapon" name="毒蛇祕刃雙匕首-渾沌祭典">
+		<set name="icon" val="icon.dual_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36050" type="Weapon" name="曲刺靈弓-渾沌祭典">
+		<set name="icon" val="icon.weapon_recurvethorne_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36051" type="Armor" name="血盟斗篷-一般">
+		<table name="#Desc">以血締結的決議！象徵血盟名譽的血盟專用斗篷。可透過血盟委託來獲得。只有加入血盟的血盟成員才可裝備。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+		</for>
+	</item>
+	<item id="36052" type="Armor" name="血盟斗篷-根據地(拍賣型)">
+		<table name="#Desc">以血締結的決議！象徵血盟名譽的血盟專用斗篷。擁有拍賣型根據地的血盟的血盟成員才可裝備。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+		</for>
+	</item>
+	<item id="36053" type="Armor" name="血盟斗篷-城">
+		<table name="#Desc">以血締結的決議！象徵血盟名譽的血盟專用斗篷。只有擁有城的血盟的血盟成員才可裝備。具有STR+2/INT+2的效果。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+		</for>
+	</item>
+	<item id="36054" type="EtcItem" name="赤色門鑰匙">
+		<table name="#Desc">位於諾爾妮洞窟的斯比裘拉所攜帶的鑰匙。確切用途不詳。</table>
+		<set name="icon" val="icon.etc_old_key_i02" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36055" type="EtcItem" name="據點佔領卷軸-10秒">
+		<table name="#Desc">可在10秒內佔據毀壞的王座據點、移動據點、攻擊據點的卷軸。</table>
+		<set name="icon" val="icon.etc_doom_capture" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36056" type="EtcItem" name="據點佔領卷軸-20秒">
+		<table name="#Desc">可在20秒內佔據毀壞的王座據點、移動據點、攻擊據點的卷軸。</table>
+		<set name="icon" val="icon.etc_doom_capture" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36057" type="EtcItem" name="據點佔領卷軸-30秒">
+		<table name="#Desc">可在30秒內佔據毀壞的王座據點、移動據點、攻擊據點的卷軸。</table>
+		<set name="icon" val="icon.etc_doom_capture" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36058" type="EtcItem" name="據點佔領卷軸-40秒">
+		<table name="#Desc">可在40秒內佔據毀壞的王座據點、移動據點、攻擊據點的卷軸。</table>
+		<set name="icon" val="icon.etc_doom_capture" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36059" type="EtcItem" name="據點佔領卷軸-50秒">
+		<table name="#Desc">可在50秒內佔據毀壞的王座據點、移動據點、攻擊據點的卷軸。</table>
+		<set name="icon" val="icon.etc_doom_capture" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36060" type="Armor" name="贖罪者手銬">
+		<table name="#Desc">召喚噬罪者壺精的手鐲。為了封印壺精需要解除手鐲。卸下手鐲後，將無法接受贖罪時間效果10秒種。</table>
+		<set name="icon" val="icon.etc_leash_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36061" type="Armor" name="贖罪者手銬">
+		<table name="#Desc">召喚噬罪者壺精的手鐲。為了封印壺精需要解除手鐲。卸下手鐲後，將無法接受贖罪時間效果10秒種。</table>
+		<set name="icon" val="icon.etc_leash_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36062" type="Armor" name="贖罪者手銬">
+		<table name="#Desc">召喚噬罪者壺精的手鐲。為了封印壺精需要解除手鐲。卸下手鐲後，將無法接受贖罪時間效果10秒種。</table>
+		<set name="icon" val="icon.etc_leash_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36063" type="Armor" name="贖罪者手銬">
+		<table name="#Desc">召喚噬罪者壺精的手鐲。為了封印壺精需要解除手鐲。卸下手鐲後，將無法接受贖罪時間效果10秒種。</table>
+		<set name="icon" val="icon.etc_leash_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36064" type="Armor" name="贖罪者手銬">
+		<table name="#Desc">召喚噬罪者壺精的手鐲。為了封印壺精需要解除手鐲。卸下手鐲後，將無法接受贖罪時間效果10秒種。</table>
+		<set name="icon" val="icon.etc_leash_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36065" type="EtcItem" name="波勒拿的疫苗">
+		<table name="#Desc">波勒拿製作的疫苗。可以對偶爾從位於諾爾妮洞窟的偵查高崙中出現的高崙生產裝置上使用。</table>
+		<set name="icon" val="icon.etc_mechanic_box_i00" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="36066" type="EtcItem" name="水中庭園水源之水">
+		<table name="#Desc">從伊娃的水中庭園深處裝來的水。好像不是最清澈的水。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i08" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="36067" type="EtcItem" name="最清澈的水">
+		<table name="#Desc">從湖之女子收取的最乾淨的水。可以對位於精靈村莊正中央的世界樹使用。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="36068" type="EtcItem" name="最明亮的光芒">
+		<table name="#Desc">從位於瑪格門提米妮爾懷抱中的娜魯帕收取的最明亮的光芒。可以在黑暗精靈村莊正中央矗立著的席琳石像前使用。</table>
+		<set name="icon" val="icon.tersi_specter_seed" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="36069" type="EtcItem" name="最純潔的靈魂">
+		<table name="#Desc">從位於聖者之谷的陵墓中獲得的最純潔的靈魂。可以在闇天使村莊附近的英魂鐘乳洞前使用。</table>
+		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="36070" type="EtcItem" name="最炙熱的火花">
+		<table name="#Desc">從位於諸神的熔爐的炎之鐵匠 沃爾昆收取的最炙熱的火花。可以在半獸人村莊的帕格立歐神殿前使用。</table>
+		<set name="icon" val="icon.etc_torch_on_i09" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="36071" type="EtcItem" name="最深情的心情">
+		<table name="#Desc">含有炎之鐵匠 沃爾昆深情的書信。可以在化為廢墟的矮人村莊使用。</table>
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="36072" type="EtcItem" name="謎樣的書信">
+		<table name="#Desc">說話之島村莊的副職業大師 雷亞尼遞交的謎樣的書信。點兩下的話，就可查看內容。</table>
+		<set name="icon" val="icon.etc_roll_of_paper_blue_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="36073" type="EtcItem" name="疫苗箱子">
+		<table name="#Desc">裝有著可以治療萊度病毒的箱子。將此運送給封印著斯比裘拉複製裝置-仁的矮人們吧。</table>
+		<set name="icon" val="icon.etc_squares_wood_i00" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="36074" type="EtcItem" name="仁之痕跡">
+		<table name="#Desc">輸入著瑪土撒拉複製裝置-仁的情報的碎片。等到全部收集完畢的話，拿去交給黑色鐵砧公會的黑瑟德吧。</table>
+		<set name="icon" val="icon.etc_broken_crystal_red_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36075" type="EtcItem" name="情報消失的仁之痕跡">
+		<table name="#Desc">失去了瑪土撒拉複製裝置-仁的情報的碎片。等到全部收集完畢的話，拿去交給黑色鐵砧公會的黑瑟德吧。</table>
+		<set name="icon" val="icon.etc_broken_crystal_gold_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36076" type="EtcItem" name="波勒拿的赤色門鑰匙">
+		<table name="#Desc">可以開啟諾爾妮洞窟的赤色門的鑰匙。</table>
+		<set name="icon" val="icon.etc_old_key_i02" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36077" type="EtcItem" name="贖罪粉末">
+		<table name="#Desc">此物為贖罪憑證。透過噬罪者將擴散在世上的罪惡化為粉末的憑證。</table>
+		<set name="icon" val="icon.etc_powder_white_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36078" type="EtcItem" name="認證書-雙職業">
+		<table name="#Desc">含有雙職業之凝聚力量的魔法書。聽說拿去交給說話之島村莊的特蘭多姆的話，就可以學習到融入其中的力量。</table>
+		<set name="icon" val="icon.etc_dualchange" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36079" type="EtcItem" name="愛情糖">
+		<table name="#Desc">為迎接白色情人節利用由大地女神 梅芙親自栽培出來的花生製作的愛情糖。\n增加額外所得經驗值/SP25%。\n與甜蜜糖重復適用效果，但不會重復適用1個以上。（於3月21日定期維修時將全部刪除）</table>
+		<set name="icon" val="icon.etc_whiteday_candy_i05" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="36080" type="EtcItem" name="甜蜜糖">
+		<table name="#Desc">為迎接白色情人節利用由大地女神 梅芙親自栽培出來的花生製作的甜蜜糖。\n增加額外所得經驗值/SP25%。\n與愛情糖重復適用效果，但不會重復適用1個以上。（於3月21日定期維修時將全部刪除）</table>
+		<set name="icon" val="icon.etc_whiteday_candy_i06" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="36081" type="EtcItem" name="甜蜜蜜禮盒">
+		<table name="#Desc">每個帳號可以領取1次的白色情人節紀念特別禮盒。點擊時，可以隨機獲得愛情糖2個或甜蜜糖2個。（於3月21日定期維修以後將全部刪除）</table>
+		<set name="icon" val="icon.etc_candy_basket_i04_1" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36082" type="EtcItem" name="返回卷軸-英魂之島 自治區">
+		<table name="#Desc">能傳送至英魂之島自治區的魔法卷軸。無法賣給商店。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36083" type="Armor" name="巨星壺精手鐲-清純熙珍">
+		<table name="#Desc">可以召喚清純熙珍壺精的手鐲。（限時30日）。\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36084" type="Armor" name="巨星壺精手鐲-時髦張赫">
+		<table name="#Desc">可以召喚時髦張赫壺精的手鐲。（限時30日）\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36085" type="Armor" name="巨星壺精手鐲-動力秀路">
+		<table name="#Desc">可以召喚動力秀路壺精的手鐲。（限時30日）\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36086" type="Armor" name="巨星壺精手鐲-瀟灑宰范">
+		<table name="#Desc">可以召喚瀟灑宰范壺精的手鐲。（限時30日）\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36087" type="Armor" name="巨星壺精手鐲-可愛信英">
+		<table name="#Desc">可以召喚可愛信英壺精的手鐲。（限時30日）\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36088" type="EtcItem" name="清純熙珍壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲 - 清純熙珍（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36089" type="EtcItem" name="時髦張赫壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲 - 時髦張赫（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36090" type="EtcItem" name="動力秀路壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲 - 動力秀路（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36091" type="EtcItem" name="瀟灑宰范壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲 - 瀟灑宰范（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36092" type="EtcItem" name="可愛信英壺精 30日/組">
+		<table name="#Desc">內裝有壺精召喚手鐲 - 可愛信英（限時30日）1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36093" type="EtcItem" name="巨星壺精的禮物">
+		<table name="#Desc">點兩下的話，可以隨機獲得活力充能星星糖/活力恢復星星糖/活力維持星星糖之一。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36094" type="EtcItem" name="活力充能星星糖">
+		<table name="#Desc">使用時能充足一定量的活力。不受限於1週內共使用5次的限制。</table>
+		<set name="icon" val="BranchSys.br_rudolf_food_red_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36095" type="EtcItem" name="活力恢復星星糖">
+		<table name="#Desc">使用時，10分鐘內適用活力恢復效果。活力恢復效果是指透過狩獵獲得經驗值時，可恢復一定量的活力。不受限於1週內共使用5次的限制。</table>
+		<set name="icon" val="BranchSys.br_rudolf_food_purple_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36096" type="EtcItem" name="活力維持星星糖">
+		<table name="#Desc">使用時維持活力10分鐘。不受限於1週內共使用5次的限制。</table>
+		<set name="icon" val="BranchSys.br_rudolf_food_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="36" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36097" type="Armor" name="巨星壺精手鐲-清純熙珍">
+		<table name="#Desc">可以召喚清純熙珍壺精的手鐲。（限時7日）\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36098" type="Armor" name="巨星壺精手鐲-時髦張赫">
+		<table name="#Desc">可以召喚時髦張赫壺精的手鐲。（限時7日）\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36099" type="Armor" name="巨星壺精手鐲-動力秀路">
+		<table name="#Desc">可以召喚動力秀路壺精的手鐲。（限時7日）\n＜使用技能＞\n1. 巨星壺精的祝福\n在60分鐘內增加所得經驗值和SP30%。（使用冷卻時間為5分鐘）\n2. 巨星壺精的傳送\n可以傳送到各個據點。（使用冷卻時間為30分鐘）\n3. 巨星壺精的禮物\n可以隨機獲得活力充能/維持/恢復道具之一。（使用冷卻時間為20分鐘）</table>
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+</list>

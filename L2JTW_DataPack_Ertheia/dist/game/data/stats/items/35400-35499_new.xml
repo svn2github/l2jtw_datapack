@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="35400" type="EtcItem" name="祝福的艾迪奧斯頭盔材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35401" type="EtcItem" name="祝福的艾迪奧斯胸甲材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯胸甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35402" type="EtcItem" name="祝福的艾迪奧斯脛甲材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35403" type="EtcItem" name="祝福的艾迪奧斯護手材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯長手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35404" type="EtcItem" name="祝福的艾迪奧斯靴材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯長靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35405" type="EtcItem" name="祝福的艾迪奧斯盾材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯盾的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35406" type="EtcItem" name="祝福的艾迪奧斯皮頭盔材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯皮頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35407" type="EtcItem" name="祝福的艾迪奧斯皮甲材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯皮甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35408" type="EtcItem" name="祝福的艾迪奧斯皮脛甲材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯皮脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35409" type="EtcItem" name="祝福的艾迪奧斯皮手套材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯皮手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35410" type="EtcItem" name="祝福的艾迪奧斯皮靴材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯皮靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35411" type="EtcItem" name="祝福的艾迪奧斯頭箍材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯頭箍的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35412" type="EtcItem" name="祝福的艾迪奧斯外衣材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯外衣的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35413" type="EtcItem" name="祝福的艾迪奧斯長襪材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯長襪的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35414" type="EtcItem" name="祝福的艾迪奧斯手套材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35415" type="EtcItem" name="祝福的艾迪奧斯鞋材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯鞋的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35416" type="EtcItem" name="祝福的艾迪奧斯符印材料">
+		<table name="#Desc">可製作祝福的艾迪奧斯符印的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35417" type="EtcItem" name="祝福的艾迪奧斯項鍊的寶石">
+		<table name="#Desc">可製作祝福的艾迪奧斯項鍊的主要材料。</table>
+		<set name="icon" val="icon.etc_r991_necklace_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35418" type="EtcItem" name="祝福的艾迪奧斯耳環的寶石">
+		<table name="#Desc">可製作祝福的艾迪奧斯耳環的主要材料。</table>
+		<set name="icon" val="icon.etc_r991_earring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35419" type="EtcItem" name="祝福的艾迪奧斯戒指的寶石">
+		<table name="#Desc">可製作祝福的艾迪奧斯戒指的主要材料。</table>
+		<set name="icon" val="icon.etc_r991_ring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35420" type="EtcItem" name="製作卷軸(幻靈鉋刀60%)">
+		<table name="#Desc">矮人專用。製作幻靈鉋刀的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35421" type="EtcItem" name="製作卷軸(幻靈切刃60%)">
+		<table name="#Desc">矮人專用。製作幻靈切刃的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35422" type="EtcItem" name="製作卷軸(幻靈殺刃60%)">
+		<table name="#Desc">矮人專用。製作幻靈殺刃的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35423" type="EtcItem" name="製作卷軸(幻靈復仇者60%)">
+		<table name="#Desc">矮人專用。製作幻靈復仇者的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35424" type="EtcItem" name="製作卷軸(幻靈戰爪60%)">
+		<table name="#Desc">矮人專用。製作幻靈戰爪的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35425" type="EtcItem" name="製作卷軸(幻靈風暴者60%)">
+		<table name="#Desc">矮人專用。製作幻靈風暴者的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35426" type="EtcItem" name="製作卷軸(幻靈投弓60%)">
+		<table name="#Desc">矮人專用。製作幻靈投弓的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35427" type="EtcItem" name="製作卷軸(幻靈射靈60%)">
+		<table name="#Desc">矮人專用。製作幻靈射靈的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35428" type="EtcItem" name="製作卷軸(幻靈爆刃60%)">
+		<table name="#Desc">矮人專用。製作幻靈爆刃的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35429" type="EtcItem" name="製作卷軸(幻靈術杖60%)">
+		<table name="#Desc">矮人專用。製作幻靈術杖的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35430" type="EtcItem" name="製作卷軸(幻靈報恨者60%)">
+		<table name="#Desc">矮人專用。製作幻靈報恨者的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35431" type="EtcItem" name="製作卷軸(卡戴拉頭盔60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉頭盔的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35432" type="EtcItem" name="製作卷軸(卡戴拉胸甲60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉胸甲的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35433" type="EtcItem" name="製作卷軸(卡戴拉脛甲60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉脛甲的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35434" type="EtcItem" name="製作卷軸(卡戴拉護手60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉長手套的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35435" type="EtcItem" name="製作卷軸(卡戴拉靴60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉長靴的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35436" type="EtcItem" name="製作卷軸(卡戴拉盾60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉盾的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35437" type="EtcItem" name="製作卷軸(卡戴拉皮頭盔60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉皮頭盔的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35438" type="EtcItem" name="製作卷軸(卡戴拉皮甲60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉皮甲的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35439" type="EtcItem" name="製作卷軸(卡戴拉皮脛甲60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉皮脛甲的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35440" type="EtcItem" name="製作卷軸(卡戴拉皮手套60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉皮手套的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35441" type="EtcItem" name="製作卷軸(卡戴拉皮靴60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉皮靴的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35442" type="EtcItem" name="製作卷軸(卡戴拉頭箍60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉頭箍的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35443" type="EtcItem" name="製作卷軸(卡戴拉外衣60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉外衣的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35444" type="EtcItem" name="製作卷軸(卡戴拉長襪60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉長襪的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35445" type="EtcItem" name="製作卷軸(卡戴拉手套60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉手套的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35446" type="EtcItem" name="製作卷軸(卡戴拉鞋60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉鞋的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35447" type="EtcItem" name="製作卷軸(卡戴拉符印60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉符印的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35448" type="EtcItem" name="製作卷軸(卡戴拉項鍊60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉項鍊的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35449" type="EtcItem" name="製作卷軸(卡戴拉耳環60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉耳環的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35450" type="EtcItem" name="製作卷軸(卡戴拉戒指60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉戒指的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35451" type="EtcItem" name="製作卷軸(赫利奧斯鉋刀60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯鉋刀的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35452" type="EtcItem" name="製作卷軸(赫利奧斯切刃60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯切刃的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35453" type="EtcItem" name="製作卷軸(赫利奧斯殺刃60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯殺刃的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35454" type="EtcItem" name="製作卷軸(赫利奧斯復仇者60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯復仇者的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35455" type="EtcItem" name="製作卷軸(赫利奧斯戰爪60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯戰爪的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35456" type="EtcItem" name="製作卷軸(赫利奧斯風暴者60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯風暴者的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35457" type="EtcItem" name="製作卷軸(赫利奧斯投弓60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯投弓的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35458" type="EtcItem" name="製作卷軸(赫利奧斯射靈60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯射靈的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35459" type="EtcItem" name="製作卷軸(赫利奧斯爆刃60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯爆刃的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35460" type="EtcItem" name="製作卷軸(赫利奧斯術杖60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯術杖的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35461" type="EtcItem" name="製作卷軸(赫利奧斯報恨者60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯報恨者的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35462" type="EtcItem" name="製作卷軸(艾迪奧斯頭盔60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯頭盔的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35463" type="EtcItem" name="製作卷軸(艾迪奧斯胸甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯胸甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35464" type="EtcItem" name="製作卷軸(艾迪奧斯脛甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯脛甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35465" type="EtcItem" name="製作卷軸(艾迪奧斯護手60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯長手套的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35466" type="EtcItem" name="製作卷軸(艾迪奧斯靴60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯長靴的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35467" type="EtcItem" name="製作卷軸(艾迪奧斯盾60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯盾的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35468" type="EtcItem" name="製作卷軸(艾迪奧斯皮頭盔60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮頭盔的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35469" type="EtcItem" name="製作卷軸(艾迪奧斯皮甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35470" type="EtcItem" name="製作卷軸(艾迪奧斯皮脛甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮脛甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35471" type="EtcItem" name="製作卷軸(艾迪奧斯皮手套60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮手套的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35472" type="EtcItem" name="製作卷軸(艾迪奧斯皮靴60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮靴的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35473" type="EtcItem" name="製作卷軸(艾迪奧斯頭箍60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯頭箍的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35474" type="EtcItem" name="製作卷軸(艾迪奧斯外衣60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯外衣的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35475" type="EtcItem" name="製作卷軸(艾迪奧斯長襪60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯長襪的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35476" type="EtcItem" name="製作卷軸(艾迪奧斯手套60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯手套的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35477" type="EtcItem" name="製作卷軸(艾迪奧斯鞋60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯鞋的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35478" type="EtcItem" name="製作卷軸(艾迪奧斯符印60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯符印的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35479" type="EtcItem" name="製作卷軸(艾迪奧斯項鍊60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯項鍊的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35480" type="EtcItem" name="製作卷軸(艾迪奧斯耳環60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯耳環的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35481" type="EtcItem" name="製作卷軸(艾迪奧斯戒指60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯戒指的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，也有可能以極低的機率出現祝福的道具。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35482" type="EtcItem" name="製作卷軸(祝福的幻靈鉋刀60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈鉋刀的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35483" type="EtcItem" name="製作卷軸(祝福的幻靈切刃60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈切刃的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35484" type="EtcItem" name="製作卷軸(祝福的幻靈殺刃60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈殺刃的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35485" type="EtcItem" name="製作卷軸(祝福的幻靈復仇者60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈復仇者的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35486" type="EtcItem" name="製作卷軸(祝福的幻靈戰爪60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈戰爪的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35487" type="EtcItem" name="製作卷軸(祝福的幻靈風暴者60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈風暴者的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35488" type="EtcItem" name="製作卷軸(祝福的幻靈投弓60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈投弓的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35489" type="EtcItem" name="製作卷軸(祝福的幻靈射靈60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈射靈的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35490" type="EtcItem" name="製作卷軸(祝福的幻靈爆刃60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈爆刃的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35491" type="EtcItem" name="製作卷軸(祝福的幻靈術杖60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈術杖的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35492" type="EtcItem" name="製作卷軸(祝福的幻靈報恨者60%)">
+		<table name="#Desc">矮人專用。製作祝福的幻靈報恨者的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35493" type="EtcItem" name="製作卷軸(祝福的卡戴拉頭盔60%)">
+		<table name="#Desc">矮人專用。製作祝福的卡戴拉頭盔的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35494" type="EtcItem" name="製作卷軸(祝福的卡戴拉胸甲60%)">
+		<table name="#Desc">矮人專用。製作祝福的卡戴拉胸甲的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35495" type="EtcItem" name="製作卷軸(祝福的卡戴拉脛甲60%)">
+		<table name="#Desc">矮人專用。製作祝福的卡戴拉脛甲的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35496" type="EtcItem" name="製作卷軸(祝福的卡戴拉護手60%)">
+		<table name="#Desc">矮人專用。製作祝福的卡戴拉長手套的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35497" type="EtcItem" name="製作卷軸(祝福的卡戴拉靴60%)">
+		<table name="#Desc">矮人專用。製作祝福的卡戴拉長靴的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35498" type="EtcItem" name="製作卷軸(祝福的卡戴拉盾60%)">
+		<table name="#Desc">矮人專用。製作祝福的卡戴拉盾的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35499" type="EtcItem" name="製作卷軸(祝福的卡戴拉皮頭盔60%)">
+		<table name="#Desc">矮人專用。製作祝福的卡戴拉皮頭盔的製作卷軸。需要道具製作技能13級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

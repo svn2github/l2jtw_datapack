@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="40300" type="EtcItem" name="芙蕾雅恢復藥水">
+		<table name="#Desc">維他命道具\n使用時，恢復3500的HP，剩餘的威力將用來恢復CP。無持續時間。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.freya_potion" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40301" type="Armor" name="Buff頭盔">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">Buff頭盔。會佔用頭飾欄位2格。裝備的話，可以得到幸運+3的效果。</table>
+		<set name="icon" val="icon.buff_helmet" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40302" type="Armor" name="Buff頭盔">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">Buff頭盔。會佔用頭飾欄位2格。裝備的話，可以得到魅力+3的效果。</table>
+		<set name="icon" val="icon.buff_helmet" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40303" type="EtcItem" name="斯佩席亞入場券-一般">
+		<table name="#Desc">每日即時地區追加入場券。點兩下就會解除斯佩席亞（一般）入場限制。即時地區尚未歸屬的狀態下無法使用。僅限週期內在即時地區外部使用。</table>
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40304" type="EtcItem" name="斯佩席亞入場券-極限">
+		<table name="#Desc">每日即時地區追加入場券。點兩下就會解除斯佩席亞（極限）入場限制。即時地區尚未歸屬的狀態下無法使用。僅限週期內在即時地區外部使用。</table>
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40305" type="EtcItem" name="雙重專家古文-R99">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">持有期間獲得裝備R99級道具不受懲罰的能力。30日限時道具。預計將在2014年2月26日全部刪除。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40306" type="EtcItem" name="雙重專家古文禮盒">
+		<table name="#Plus">R99</table>
+		<table name="#Desc">開啟禮盒就能得到雙重專家古文-R99（30日）。無法在奧林匹亞中使用。預計將在2014年2月26日全部刪除。</table>
+		<set name="icon" val="icon.etc_treasure_box_i06" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40307" type="EtcItem" name="動能雙重大師禮物包裹">
+		<table name="#Desc">開啟禮盒就能得到雙重專家古文禮盒（30日）1個、神祕的好友召喚手鐲組（30日）1個。無法在奧林匹亞中使用。預計將在2014年2月26日全部刪除。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40308" type="EtcItem" name="動能雙重騎士禮物包裹">
+		<table name="#Desc">開啟禮盒就能得到雙重專家古文禮盒（30日）1個、神祕的好友召喚手鐲組（30日）1個、翼人的稀有飾品禮盒（限時7日）2個。無法在奧林匹亞中使用。預計將在2014年2月26日全部刪除。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40309" type="EtcItem" name="矮人村莊回歸卷軸">
+		<table name="#Desc">可移動至矮人村莊的魔法卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i05" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40310" type="EtcItem" name="聖誕帽加工石">
+		<table name="#Desc">可將頭飾轉變成聖誕帽造型的加工石。只能加工佔用欄位2格的頭飾。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40311" type="EtcItem" name="諾艾樂的禮物">
+		<table name="#Desc">協助尋找聖誕老人的勇士而發送的諾艾樂禮物。點兩下時，在6小時內啟用恢復活力的效果。但只有位在安全區域時恢復活力。另外，即使不在安全區域，輔助效果結束時充能一定量的活力。預計將在2014年01月02日全部刪除。</table>
+		<set name="icon" val="icon.etc_whiteday_choco" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40312" type="Armor" name="聖誕斗篷">
+		<table name="#Desc">可以同時感受到輕巧與華美的聖誕活動斗篷。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+	</item>
+	<item id="40313" type="EtcItem" name="聖誕憑證">
+		<table name="#Desc">與襪子妖精、樹木妖精、雪人妖精一起找到聖誕老人的憑證。將此拿給活動NPC諾艾樂，就可以獲得獎賞。</table>
+		<set name="icon" val="BranchSys.icon.br_xmas_present_fun_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40314" type="Armor" name="聖誕帽">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40315" type="Armor" name="聖誕帽">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40316" type="Armor" name="聖誕帽">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40317" type="Armor" name="聖誕帽">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40318" type="Armor" name="聖誕帽">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40319" type="Armor" name="聖誕帽">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40320" type="Armor" name="聖誕帽">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到物理致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40321" type="Armor" name="聖誕帽">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40322" type="Armor" name="聖誕帽">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40323" type="Armor" name="聖誕帽">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40324" type="Armor" name="聖誕帽">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到迴避+5的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40325" type="Armor" name="聖誕帽">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40326" type="Armor" name="聖誕帽">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到魔法攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40327" type="Armor" name="聖誕帽">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到命中+5的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40328" type="Armor" name="聖誕帽">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40329" type="Armor" name="聖誕帽">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">聖誕帽。會佔用頭飾欄位2格。裝備的話，可以得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40330" type="EtcItem" name="聖誕老人服裝加工石">
+		<table name="#Desc">可轉變成聖誕服的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為聖誕服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40331" type="EtcItem" name="友情的魔法杖組">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">使用時，可獲得A~C級的魔法杖5種。若不使用的話，將會在90天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+	</item>
+	<item id="40332" type="Weapon" name="友情的世界樹樹枝">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="226" />
+			<set order="0x08" stat="mAtk" val="167" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40333" type="Weapon" name="友情的邪靈魔杖">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">＜搜魂石特效＞\n對目標施展魔法技能時，以6%的機率施放毒咒術。</table>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="189" />
+			<set order="0x08" stat="mAtk" val="145" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40334" type="Weapon" name="友情的地獄魔杖">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。</table>
+		<set name="icon" val="icon.weapon_inferno_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40335" type="Weapon" name="友情的阿吐巴釘鎚">
+		<table name="#Plus">限時90日</table>
+		<set name="icon" val="icon.weapon_atuba_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1010" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40336" type="Weapon" name="友情的帝國權杖">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法攻擊力增加60。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_imperial_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="910" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="274" />
+			<set order="0x08" stat="mAtk" val="193" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40337" type="Weapon" name="友情的王朝魔杖">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="325" />
+			<set order="0x08" stat="mAtk" val="222" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40338" type="EtcItem" name="翼人戰士系列套裝">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">提供給翼人戰士系列職業群的道具組合。若不使用的話，將會在90天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+	</item>
+	<item id="40339" type="EtcItem" name="翼人巫師系列套裝">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">提供給翼人巫師系列職業群的道具組合。若不使用的話，將會在90天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+	</item>
+	<item id="40340" type="EtcItem" name="友情的格鬥兵器組">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">使用時，可獲得S~C級的格鬥兵器5種。若不使用的話，將會在90天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+	</item>
+	<item id="40341" type="EtcItem" name="友情的格鬥兵器組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">使用時，可獲得A~C級的格鬥兵器3種。若不使用的話，將會在30天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+	</item>
+	<item id="40342" type="EtcItem" name="友情的魔法杖組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">使用時，可獲得A~C級的魔法杖3種。若不使用的話，將會在30天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+	</item>
+	<item id="40343" type="Weapon" name="友情的世界樹樹枝">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="226" />
+			<set order="0x08" stat="mAtk" val="167" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40344" type="Weapon" name="友情的邪靈魔杖">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">＜搜魂石特效＞\n對目標施展魔法技能時，以6%的機率施放毒咒術。</table>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="189" />
+			<set order="0x08" stat="mAtk" val="145" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40345" type="Weapon" name="友情的地獄魔杖">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。</table>
+		<set name="icon" val="icon.weapon_inferno_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40346" type="Weapon" name="友情的阿吐巴釘鎚">
+		<table name="#Plus">限時30日</table>
+		<set name="icon" val="icon.weapon_atuba_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1010" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40347" type="Weapon" name="友情的帝國權杖">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法攻擊力增加60。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_imperial_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="910" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="274" />
+			<set order="0x08" stat="mAtk" val="193" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40348" type="Weapon" name="友情的王朝魔杖">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="325" />
+			<set order="0x08" stat="mAtk" val="222" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40349" type="EtcItem" name="翼人戰士系列套裝">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">提供給翼人戰士系列職業群的道具組合。若不使用的話，將會在30天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+	</item>
+	<item id="40350" type="EtcItem" name="翼人巫師系列套裝">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">提供給翼人巫師系列職業群的道具組合。若不使用的話，將會在30天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+	</item>
+	<item id="40351" type="EtcItem" name="友情的格鬥兵器組">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">使用時，可獲得A~C級的格鬥兵器3種。若不使用的話，將會在10天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+	</item>
+	<item id="40352" type="EtcItem" name="友情的魔法杖組">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">使用時，可獲得A~C級的魔法杖3種。若不使用的話，將會在10天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+	</item>
+	<item id="40353" type="Weapon" name="友情的世界樹樹枝">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="226" />
+			<set order="0x08" stat="mAtk" val="167" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40354" type="Weapon" name="友情的邪靈魔杖">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">＜搜魂石特效＞\n對目標施展魔法技能時，以6%的機率施放毒咒術。</table>
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="189" />
+			<set order="0x08" stat="mAtk" val="145" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40355" type="Weapon" name="友情的地獄魔杖">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。</table>
+		<set name="icon" val="icon.weapon_inferno_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40356" type="Weapon" name="友情的阿吐巴釘鎚">
+		<table name="#Plus">限時10日</table>
+		<set name="icon" val="icon.weapon_atuba_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1010" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40357" type="Weapon" name="友情的帝國權杖">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法攻擊力增加60。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_imperial_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="910" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="274" />
+			<set order="0x08" stat="mAtk" val="193" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40358" type="Weapon" name="友情的王朝魔杖">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法施展速度增加15%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="325" />
+			<set order="0x08" stat="mAtk" val="222" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="40359" type="EtcItem" name="翼人戰士系列套裝">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">提供給翼人戰士系列職業群的道具組合。若不使用的話，將會在10天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+	</item>
+	<item id="40360" type="EtcItem" name="翼人巫師系列套裝">
+		<table name="#Plus">限時10日</table>
+		<table name="#Desc">提供給翼人巫師系列職業群的道具組合。若不使用的話，將會在10天以後自動消失。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+	</item>
+	<item id="40361" type="EtcItem" name="波博鷲恩壺精禮盒">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">點兩下時，就能得到波博鷲恩壺精手鐲（限時30日）。打開禮盒後無法與帳號內的其他角色共享。預計將在2014年4月23日全部刪除。</table>
+		<set name="icon" val="icon.lucky_bag_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40362" type="Armor" name="波博鷲恩壺精手鐲-限時30日">
+		<table name="#Desc">可以召喚波博鷲恩壺精的手鐲，限時30日。無法在奧林匹亞中使用。預計將在2014年4月23日全部刪除。\n\n＜道具技能＞\n1.波博鷲恩的100萬魔力：30分鐘內賦予增加獲得的經驗值/SP10%、攻擊屬性100、物理攻擊力20%、魔法攻擊力30%、攻擊速度10%、施法速度10%、物理命中4、魔法命中4、移動速度10、HP/MP/CP最大值10%、物理防禦力10%、魔法防禦力10%，並減少技能使用必須MP消耗量10%。無法與致命誘惑重複使用，死亡時效果持續維持。\n\n＜使用技能＞1.波博鷲恩返生術：可以使用祝福的復活能力。使用冷卻時間為3小時。</table>
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="40363" type="EtcItem" name="紅蘿蔔">
+		<table name="#Desc">貝古夫所遺失的美味紅蘿蔔，將此收集後交給貝古夫的話，就能得到特別的禮物。可以對在獵場出現的飢餓的貝古夫使用。將於2月12日活動結束時刪除。</table>
+		<set name="icon" val="icon.ev_carrot" />
+		<set name="material" val="GOLD" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40364" type="EtcItem" name="紅蘿蔔袋">
+		<table name="#Desc">點兩下時，可以取得紅蘿蔔7~63個。將於2月12日活動結束時刪除。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40365" type="EtcItem" name="貝古夫的特別福袋">
+		<table name="#Desc">貝古夫的特別福袋。點兩下的話，就能獲得貝古夫特別準備的好獎勵。</table>
+		<set name="icon" val="icon.card_event_luck_pocket" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40366" type="EtcItem" name="貝古夫的禮物袋">
+		<table name="#Desc">已經飽足的貝古夫所給的禮物袋。點兩下的話，可以取得紅蘿蔔袋子1個，感受到青馬的氣息。將於2月12日活動結束時刪除。</table>
+		<set name="icon" val="BranchSys.icon.br_lucky_bag_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40367" type="EtcItem" name="天使貓的祝福禮盒">
+		<table name="#Desc">點兩下禮盒，就能獲得天使貓的祝福-1小時1個。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40368" type="EtcItem" name="BUFF促銷禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">活動道具。使用時，可以獲得特別武器外型加工石(限時30日)的交換券，或以低機率取得特別的頭飾。預計將在2014年03月19日定期維修時將全部刪除。</table>
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40369" type="Armor" name="拿破崙帽">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">內部籠罩著征服世界般氣勢的拿破崙帽。</table>
+		<set name="icon" val="BranchSys.icon.br_napoleonic_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40370" type="Armor" name="甜蜜起司帽">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">用美味的起司所製成的帽子。仔細看可以找到粉紅色的老鼠。</table>
+		<set name="icon" val="BranchSys.icon.br_goldrat_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40371" type="Armor" name="佐羅帽">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">像是變成蘇洛的帽子。</table>
+		<set name="icon" val="icon.zorocap" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="40372" type="Armor" name="祝福的雙魚座壺精手鐲">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以召喚雙魚座壺精的手鐲。\n\n＜使用技能＞\n1.壺精的傳送：提供可以移動到亞丁城鎮/魯因城鎮/奇岩城鎮/水上都市海音斯的傳送技能。（使用冷卻時間為30分鐘）\n\n＜道具技能＞\n1.均衡之力：STR/INT/CON/DEX/WIT/MEN各提升1。\n2.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性攻擊力與防禦力30。</table>
+		<set name="icon" val="icon.agathion_magmeld_teleport" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+</list>

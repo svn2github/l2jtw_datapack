@@ -1,0 +1,2694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="34100" type="Weapon" name="活動用-米索莉匕首 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的米索莉匕首（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34101" type="Weapon" name="活動用-重劍*緋紅劍 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的重劍*緋紅劍（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34102" type="Weapon" name="活動用-重劍*緋紅劍 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的重劍*緋紅劍（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34103" type="Weapon" name="活動用-重劍*緋紅劍 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的重劍*緋紅劍（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34104" type="Weapon" name="活動用-重劍*緋紅劍 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的重劍*緋紅劍（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34105" type="Weapon" name="活動用-重劍*緋紅劍 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的重劍*緋紅劍（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34106" type="Weapon" name="活動用-重劍*緋紅劍 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的重劍*緋紅劍（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34107" type="Weapon" name="活動用-碎骨者 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的碎骨者（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_bonebreaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34108" type="Weapon" name="活動用-碎骨者 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的碎骨者（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_bonebreaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34109" type="Weapon" name="活動用-碎骨者 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的碎骨者（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_bonebreaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34110" type="Weapon" name="活動用-碎骨者 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的碎骨者（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_bonebreaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34111" type="Weapon" name="活動用-碎骨者 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的碎骨者（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_bonebreaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34112" type="Weapon" name="活動用-碎骨者 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的碎骨者（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_bonebreaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34113" type="Weapon" name="活動用-風暴弓 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的風暴弓（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34114" type="Weapon" name="活動用-風暴弓 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的風暴弓（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34115" type="Weapon" name="活動用-風暴弓 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的風暴弓（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34116" type="Weapon" name="活動用-風暴弓 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的風暴弓（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34117" type="Weapon" name="活動用-風暴弓 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的風暴弓（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34118" type="Weapon" name="活動用-風暴弓 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的風暴弓（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34119" type="Weapon" name="活動用-生命手杖 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的生命手杖（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="118" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="74" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34120" type="Weapon" name="活動用-生命手杖 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的生命手杖（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="118" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="74" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34121" type="Weapon" name="活動用-生命手杖 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的生命手杖（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="118" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="74" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34122" type="Weapon" name="活動用-生命手杖 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的生命手杖（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="118" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="74" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34123" type="Weapon" name="活動用-生命手杖 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的生命手杖（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="118" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="74" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34124" type="Weapon" name="活動用-生命手杖 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的生命手杖（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="118" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="74" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34125" type="Weapon" name="活動用-波浪刀 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的波浪刀（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34126" type="Weapon" name="活動用-波浪刀 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的波浪刀（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34127" type="Weapon" name="活動用-波浪刀 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的波浪刀（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34128" type="Weapon" name="活動用-波浪刀 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的波浪刀（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34129" type="Weapon" name="活動用-波浪刀 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的波浪刀（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34130" type="Weapon" name="活動用-波浪刀 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的波浪刀（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34131" type="Weapon" name="活動用-阿吐巴鎚 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的阿吐巴鎚（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34132" type="Weapon" name="活動用-阿吐巴鎚 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的阿吐巴鎚（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34133" type="Weapon" name="活動用-阿吐巴鎚 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的阿吐巴鎚（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34134" type="Weapon" name="活動用-阿吐巴鎚 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的阿吐巴鎚（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34135" type="Weapon" name="活動用-阿吐巴鎚 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的阿吐巴鎚（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34136" type="Weapon" name="活動用-阿吐巴鎚 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的阿吐巴鎚（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34137" type="Weapon" name="活動用-精靈長劍 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的精靈長劍（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34138" type="Weapon" name="活動用-精靈長劍 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的精靈長劍（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34139" type="Weapon" name="活動用-精靈長劍 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的精靈長劍（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34140" type="Weapon" name="活動用-精靈長劍 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的精靈長劍（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34141" type="Weapon" name="活動用-精靈長劍 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的精靈長劍（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34142" type="Weapon" name="活動用-精靈長劍 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的精靈長劍（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34143" type="Weapon" name="活動用-將軍格鬥劍 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的將軍格鬥劍（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="100" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34144" type="Weapon" name="活動用-將軍格鬥劍 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的將軍格鬥劍（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="100" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34145" type="Weapon" name="活動用-將軍格鬥劍 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的將軍格鬥劍（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="100" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34146" type="Weapon" name="活動用-將軍格鬥劍 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的將軍格鬥劍（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="100" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34147" type="Weapon" name="活動用-將軍格鬥劍 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的將軍格鬥劍（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="100" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34148" type="Weapon" name="活動用-將軍格鬥劍 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的將軍格鬥劍（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="100" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34149" type="Weapon" name="活動用-齒輪弩 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的齒輪弩（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34150" type="Weapon" name="活動用-齒輪弩 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的齒輪弩（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34151" type="Weapon" name="活動用-齒輪弩 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的齒輪弩（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34152" type="Weapon" name="活動用-齒輪弩 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的齒輪弩（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34153" type="Weapon" name="活動用-齒輪弩 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的齒輪弩（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34154" type="Weapon" name="活動用-齒輪弩 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的齒輪弩（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34155" type="Weapon" name="活動用-雙刃大砍刀 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的雙刃大砍刀（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34156" type="Weapon" name="活動用-雙刃大砍刀 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的雙刃大砍刀（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34157" type="Weapon" name="活動用-雙刃大砍刀 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的雙刃大砍刀（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34158" type="Weapon" name="活動用-雙刃大砍刀 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的雙刃大砍刀（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34159" type="Weapon" name="活動用-雙刃大砍刀 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的雙刃大砍刀（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34160" type="Weapon" name="活動用-雙刃大砍刀 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的雙刃大砍刀（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34161" type="Weapon" name="活動用-巨型帕塔拳刃 (大地)">
+		<table name="#Plus">Rsk.速度激發-活動專用</table>
+		<table name="#Desc">限制強化能力的巨型帕塔拳刃（大地）。＜搜魂石特效＞\n當HP低於60%以下時，攻擊速度提升約11%。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="146" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34162" type="Weapon" name="活動用-巨型帕塔拳刃 (水)">
+		<table name="#Plus">Rsk.速度激發-活動專用</table>
+		<table name="#Desc">限制強化能力的巨型帕塔拳刃（水）。＜搜魂石特效＞\n當HP低於60%以下時，攻擊速度提升約11%。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="146" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34163" type="Weapon" name="活動用-巨型帕塔拳刃 (風)">
+		<table name="#Plus">Rsk.速度激發-活動專用</table>
+		<table name="#Desc">限制強化能力的巨型帕塔拳刃（風）。＜搜魂石特效＞\n當HP低於60%以下時，攻擊速度提升約11%。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="146" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34164" type="Weapon" name="活動用-巨型帕塔拳刃 (火)">
+		<table name="#Plus">Rsk.速度激發-活動專用</table>
+		<table name="#Desc">限制強化能力的巨型帕塔拳刃（火）。＜搜魂石特效＞\n當HP低於60%以下時，攻擊速度提升約11%。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="146" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34165" type="Weapon" name="活動用-巨型帕塔拳刃 (神聖)">
+		<table name="#Plus">Rsk.速度激發-活動專用</table>
+		<table name="#Desc">限制強化能力的巨型帕塔拳刃（神聖）。＜搜魂石特效＞\n當HP低於60%以下時，攻擊速度提升約11%。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="146" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34166" type="Weapon" name="活動用-巨型帕塔拳刃 (黑暗)">
+		<table name="#Plus">Rsk.速度激發-活動專用</table>
+		<table name="#Desc">限制強化能力的巨型帕塔拳刃（黑暗）。＜搜魂石特效＞\n當HP低於60%以下時，攻擊速度提升約11%。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="146" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34167" type="Weapon" name="活動用-亡者魔杖 (大地)">
+		<table name="#Plus">魔法強癒-活動專用</table>
+		<table name="#Desc">限制強化能力的亡者魔杖（大地）。＜搜魂石特效＞\n對目標施展魔法技能時，以30%的機率施放強癒術。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34168" type="Weapon" name="活動用-亡者魔杖 (水)">
+		<table name="#Plus">魔法強癒-活動專用</table>
+		<table name="#Desc">限制強化能力的亡者魔杖（水）。＜搜魂石特效＞\n對目標施展魔法技能時，以30%的機率施放強癒術。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34169" type="Weapon" name="活動用-亡者魔杖 (風)">
+		<table name="#Plus">魔法強癒-活動專用</table>
+		<table name="#Desc">限制強化能力的亡者魔杖（風）。＜搜魂石特效＞\n對目標施展魔法技能時，以30%的機率施放強癒術。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34170" type="Weapon" name="活動用-亡者魔杖 (火)">
+		<table name="#Plus">魔法強癒-活動專用</table>
+		<table name="#Desc">限制強化能力的亡者魔杖（火）。＜搜魂石特效＞\n對目標施展魔法技能時，以30%的機率施放強癒術。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34171" type="Weapon" name="活動用-亡者魔杖 (神聖)">
+		<table name="#Plus">魔法強癒-活動專用</table>
+		<table name="#Desc">限制強化能力的亡者魔杖（神聖）。＜搜魂石特效＞\n對目標施展魔法技能時，以30%的機率施放強癒術。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34172" type="Weapon" name="活動用-亡者魔杖 (黑暗)">
+		<table name="#Plus">魔法強癒-活動專用</table>
+		<table name="#Desc">限制強化能力的亡者魔杖（黑暗）。＜搜魂石特效＞\n對目標施展魔法技能時，以30%的機率施放強癒術。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34173" type="Weapon" name="活動用-狂戰士之刃 (大地)">
+		<table name="#Plus">偵測-活動專用</table>
+		<table name="#Desc">限制強化能力的狂戰士之刃（大地）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_berserker_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34174" type="Weapon" name="活動用-狂戰士之刃 (水)">
+		<table name="#Plus">偵測-活動專用</table>
+		<table name="#Desc">限制強化能力的狂戰士之刃（水）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_berserker_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34175" type="Weapon" name="活動用-狂戰士之刃 (風)">
+		<table name="#Plus">偵測-活動專用</table>
+		<table name="#Desc">限制強化能力的狂戰士之刃（風）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_berserker_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34176" type="Weapon" name="活動用-狂戰士之刃 (火)">
+		<table name="#Plus">偵測-活動專用</table>
+		<table name="#Desc">限制強化能力的狂戰士之刃（火）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_berserker_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34177" type="Weapon" name="活動用-狂戰士之刃 (神聖)">
+		<table name="#Plus">偵測-活動專用</table>
+		<table name="#Desc">限制強化能力的狂戰士之刃（神聖）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_berserker_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34178" type="Weapon" name="活動用-狂戰士之刃 (黑暗)">
+		<table name="#Plus">偵測-活動專用</table>
+		<table name="#Desc">限制強化能力的狂戰士之刃（黑暗）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_berserker_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34179" type="Weapon" name="活動用-滅形弩 (大地)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的滅形弩（大地）。＜搜魂石特效＞\n命中能力提升4。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="198" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34180" type="Weapon" name="活動用-滅形弩 (水)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的滅形弩（水）。＜搜魂石特效＞\n命中能力提升4。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="198" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34181" type="Weapon" name="活動用-滅形弩 (風)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的滅形弩（風）。＜搜魂石特效＞\n命中能力提升4。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="198" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34182" type="Weapon" name="活動用-滅形弩 (火)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的滅形弩（火）。＜搜魂石特效＞\n命中能力提升4。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="198" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34183" type="Weapon" name="活動用-滅形弩 (神聖)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的滅形弩（神聖）。＜搜魂石特效＞\n命中能力提升4。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="198" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34184" type="Weapon" name="活動用-滅形弩 (黑暗)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的滅形弩（黑暗）。＜搜魂石特效＞\n命中能力提升4。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="198" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34185" type="Weapon" name="活動用-彎刀*彎刀 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的彎刀*彎刀（大地）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，命中能力提升約2。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="233" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34186" type="Weapon" name="活動用-彎刀*彎刀 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的彎刀*彎刀（水）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，命中能力提升約2。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="233" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34187" type="Weapon" name="活動用-彎刀*彎刀 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的彎刀*彎刀（風）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，命中能力提升約2。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="233" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34188" type="Weapon" name="活動用-彎刀*彎刀 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的彎刀*彎刀（火）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，命中能力提升約2。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="233" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34189" type="Weapon" name="活動用-彎刀*彎刀 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的彎刀*彎刀（神聖）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，命中能力提升約2。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="233" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34190" type="Weapon" name="活動用-彎刀*彎刀 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的彎刀*彎刀（黑暗）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，命中能力提升約2。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="233" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34191" type="Weapon" name="活動用-劍齒虎 (大地)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的劍齒虎（大地）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_invincible_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="195" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34192" type="Weapon" name="活動用-劍齒虎 (水)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的劍齒虎（水）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_invincible_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="195" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34193" type="Weapon" name="活動用-劍齒虎 (風)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的劍齒虎（風）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_invincible_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="195" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34194" type="Weapon" name="活動用-劍齒虎 (火)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的劍齒虎（火）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_invincible_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="195" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34195" type="Weapon" name="活動用-劍齒虎 (神聖)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的劍齒虎（神聖）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_invincible_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="195" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34196" type="Weapon" name="活動用-劍齒虎 (黑暗)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的劍齒虎（黑暗）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_invincible_blade_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="195" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34197" type="Weapon" name="活動用-瑟魯基長劍 (大地)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的瑟魯基長劍（大地）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_samurai_longsword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34198" type="Weapon" name="活動用-瑟魯基長劍 (水)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的瑟魯基長劍（水）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_samurai_longsword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34199" type="Weapon" name="活動用-瑟魯基長劍 (風)">
+		<table name="#Plus">導引-活動專用</table>
+		<table name="#Desc">限制強化能力的瑟魯基長劍（風）。＜搜魂石特效＞\n致命攻擊率提升約73。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_samurai_longsword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="138" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+</list>

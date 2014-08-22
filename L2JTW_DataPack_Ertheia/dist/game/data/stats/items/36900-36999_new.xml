@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="36900" type="EtcItem" name="製作卷軸(最高級皮帶-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把最高級皮革（Lv5）與高級繩（Lv5）加工成最高級皮帶（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36901" type="EtcItem" name="製作卷軸(鐵絲-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把銀絲（Lv2）加工成鐵絲（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36902" type="EtcItem" name="製作卷軸(鐵絲-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把鐵塊（Lv1）與線（Lv1）加工成鐵絲（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36903" type="EtcItem" name="製作卷軸(銀絲-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把金剛石絲（Lv3）加工成銀絲（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36904" type="EtcItem" name="製作卷軸(銀線-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把鐵絲（Lv1）加工成銀絲（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36905" type="EtcItem" name="製作卷軸(銀絲-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把銀塊（Lv2）與細繩（Lv2）加工成銀絲（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36906" type="EtcItem" name="製作卷軸(金剛石絲-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把奧里哈魯根合金絲（Lv4）加工成金剛石絲（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36907" type="EtcItem" name="製作卷軸(金剛石絲-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把銀絲（Lv2）加工成金剛石絲（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36908" type="EtcItem" name="製作卷軸(金剛石絲-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把金剛石塊（Lv3）與合成繩（Lv3）加工成金剛石絲（Lv3）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36909" type="EtcItem" name="製作卷軸(奧里哈魯根合金絲-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把都蘭達絲（Lv5）加工成奧里哈魯根合金絲（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36910" type="EtcItem" name="製作卷軸(奧里哈魯根合金絲-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把金剛石絲（Lv3）加工成奧里哈魯根合金絲（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36911" type="EtcItem" name="製作卷軸(奧里哈魯根合金絲-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把奧里哈魯根合金（Lv4）與絞線（Lv4）加工成奧里哈魯根合金絲（Lv4）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36912" type="EtcItem" name="製作卷軸(都蘭達絲-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把奧里哈魯根合金絲（Lv4）加工成都蘭達絲（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36913" type="EtcItem" name="製作卷軸(都蘭達絲-組合)">
+		<table name="#Desc">提爾巨匠系列專用。可以把都蘭達（Lv5）與高級繩（Lv5）加工成都蘭達絲（Lv5）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36914" type="EtcItem" name="製作卷軸(下級武器碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把武器碎片（Lv2）加工成下級武器碎片（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36915" type="EtcItem" name="製作卷軸(武器碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把中級武器碎片（Lv3）加工成武器碎片（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36916" type="EtcItem" name="製作卷軸(武器碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把下級武器碎片（Lv1）加工成武器碎片（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36917" type="EtcItem" name="製作卷軸(中級武器碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把上級武器碎片（Lv4）加工成中級武器碎片（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36918" type="EtcItem" name="製作卷軸(中級武器碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把武器碎片（Lv2）加工成中級武器碎片（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36919" type="EtcItem" name="製作卷軸(上級武器碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把特級武器碎片（Lv5）加工成上級武器碎片（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36920" type="EtcItem" name="製作卷軸(上級武器碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把中級武器碎片（Lv3）加工成上級武器碎片（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36921" type="EtcItem" name="製作卷軸(特級武器碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把上級武器碎片（Lv4）加工成特級武器碎片（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36922" type="EtcItem" name="製作卷軸(下級防具碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把防具碎片（Lv2）加工成下級防具碎片（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36923" type="EtcItem" name="製作卷軸(防具碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把中級防具碎片（Lv3）加工成防具碎片（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36924" type="EtcItem" name="製作卷軸(防具碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把下級防具碎片（Lv1）加工成防具碎片（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36925" type="EtcItem" name="製作卷軸(中級防具碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把上級防具碎片（Lv4）加工成中級防具碎片（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36926" type="EtcItem" name="製作卷軸(中級防具碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把防具碎片（Lv2）加工成中級防具碎片（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36927" type="EtcItem" name="製作卷軸(上級防具碎片-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把特級防具碎片（Lv5）加工成上級防具碎片（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36928" type="EtcItem" name="製作卷軸(上級防具碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把中級防具碎片（Lv3）加工成上級防具碎片（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36929" type="EtcItem" name="製作卷軸(特級防具碎片-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把上級防具碎片（Lv4）加工成特級防具碎片（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36930" type="EtcItem" name="製作卷軸(下級飾品寶石-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把飾品寶石（Lv2）加工成下級飾品寶石（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36931" type="EtcItem" name="製作卷軸(飾品寶石-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把中級飾品寶石（Lv3）加工成飾品寶石（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36932" type="EtcItem" name="製作卷軸(飾品寶石-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把下級飾品寶石（Lv1）加工成飾品寶石（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36933" type="EtcItem" name="製作卷軸(中級飾品寶石-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把上級飾品寶石（Lv4）加工成中級飾品寶石（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36934" type="EtcItem" name="製作卷軸(中級飾品寶石-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把飾品寶石（Lv2）加工成中級飾品寶石（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36935" type="EtcItem" name="製作卷軸(上級飾品寶石-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把特級飾品寶石（Lv5）加工成上級飾品寶石（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36936" type="EtcItem" name="製作卷軸(上級飾品寶石-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把中級飾品寶石（Lv3）加工成上級飾品寶石（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36937" type="EtcItem" name="製作卷軸(特級飾品寶石-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把上級飾品寶石（Lv4）加工成特級飾品寶石（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36938" type="EtcItem" name="製作卷軸(炭焦-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級炭焦（Lv2）加工成炭焦（Lv1）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36939" type="EtcItem" name="製作卷軸(高級炭焦-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把合成的炭焦（Lv3）加工成高級炭焦（Lv2）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36940" type="EtcItem" name="製作卷軸(高級炭焦-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把炭焦（Lv1）加工成高級炭焦（Lv2）的製作卷軸。需要道具製作技能6級。</table>
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36941" type="EtcItem" name="製作卷軸(合成的炭焦-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級合成炭焦（Lv4）加工成合成的炭焦（Lv3）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36942" type="EtcItem" name="製作卷軸(合成的炭焦-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級炭焦（Lv2）加工成合成的炭焦（Lv3）的製作卷軸。需要道具製作技能8級。</table>
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36943" type="EtcItem" name="製作卷軸(高級合成炭焦-降級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把最高級合成炭焦（Lv5）加工成高級合成炭焦（Lv4）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36944" type="EtcItem" name="製作卷軸(高級合成炭焦-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把合成的炭焦（Lv3）加工成高級合成炭焦（Lv4）的製作卷軸。需要道具製作技能11級。</table>
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36945" type="EtcItem" name="製作卷軸(最高級合成炭焦-升級)">
+		<table name="#Desc">提爾巨匠系列專用。可以把高級合成炭焦（Lv4）加工成最高級合成炭焦（Lv5）的製作卷軸。需要道具製作技能14級。</table>
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36946" type="Armor" name="林德拜爾耳環">
+		<table name="#Desc">具有MP+59、增加石化攻擊及抗性50%、增加擊退/擊倒攻擊及抗性40%、增加捕獲攻擊及抗性40%、增加物理致命傷害10%、增加魔法致命傷害10%、增加物理/魔法異常狀態反射10%、以10%機率反射傷害魔法來反擊攻擊者、增加移動速度5、DEX+3、WIT+3、增加風/黑暗屬性防禦力效果。可以使用擊退/擊倒解除技能，而且擊退/擊倒抗性將瞬間增至100%。即使戴上兩個林德拜爾耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessory_earring_of_lind_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="170" />
+			<add order="0x40" stat="maxMp" val="59" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="36947" type="EtcItem" name="裝有林德拜爾之魂的瓶子">
+		<table name="#Desc">停止供應</table>
+		<set name="icon" val="icon.bottle_of_lind_soul_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36948" type="Armor" name="祝福的林德拜爾耳環">
+		<table name="#Desc">停止供應</table>
+		<set name="icon" val="icon.accessory_earring_of_lind_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="170" />
+			<add order="0x40" stat="maxMp" val="59" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="36949" type="EtcItem" name="渾沌的精髓">
+		<table name="#Desc">蘊含著渾沌之力的神祕的精髓。拿去交給位於英魂之墓的「哈汀」的話，便能變更覺醒特化職業。只有主職業才可使用。限時30日。</table>
+		<set name="icon" val="icon.etc_water_of_silen_i00" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="36950" type="EtcItem" name="多瑪的生活白皮書">
+		<table name="#Desc">傾注大師 多瑪心血所編寫的天堂II生活白皮書。</table>
+		<set name="icon" val="icon.etc_letter_in_bottle_white_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36951" type="Weapon" name="自由冒險紀念樂器">
+		<table name="#Desc">為了紀念新天堂II 自由冒險而提供的樂器。裝備時可以愉快的演奏樂器。</table>
+		<set name="icon" val="icon.ev_9th_celebration_bonus_gift" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36952" type="EtcItem" name="米德埃維寇">
+		<table name="#Desc">矮人工匠花費很久的時間完成的巨作。點擊魔法書就可以學習騎乘米德埃維寇的技能。只有加入等級5以上的血盟的角色才可騎乘。在主職業狀態下可以學習。</table>
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="36953" type="EtcItem" name="支援禮盒">
+		<table name="#Desc">新手/休眠英雄們的支援禮盒。點兩下就可以獲得依照玩家職業/等級提供的道具。</table>
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36954" type="EtcItem" name="普通">
+		<table name="#Desc">點兩下的話，便能獲得普通道具和D級道具箱。道具將會核對玩家的等級和職業來支付。玩家等級若不符合道具箱的等級時，將無法使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36955" type="EtcItem" name="D級">
+		<table name="#Desc">點兩下的話，便能獲得D級道具和C級道具箱。道具將會核對玩家的等級和職業來支付。玩家等級若不符合道具箱的等級時，將無法使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36956" type="EtcItem" name="C級">
+		<table name="#Desc">點兩下的話，便能獲得C級道具和B級道具箱。道具將會核對玩家的等級和職業來支付。玩家等級若不符合道具箱的等級時，將無法使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36957" type="EtcItem" name="B級">
+		<table name="#Desc">點兩下的話，便能獲得B級道具和A級道具箱。道具將會核對玩家的等級和職業來支付。玩家等級若不符合道具箱的等級時，將無法使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36958" type="EtcItem" name="A級">
+		<table name="#Desc">點兩下的話，便能獲得A級道具和S級道具箱。道具將會核對玩家的等級和職業來支付。玩家等級若不符合道具箱的等級時，將無法使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36959" type="EtcItem" name="S級">
+		<table name="#Desc">點兩下的話，便能獲得S級道具。道具將會核對玩家的等級和職業來支付。玩家等級若不符合道具箱的等級時，將無法使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36960" type="EtcItem" name="火之原石-Super 60">
+		<table name="#Desc">火屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36961" type="EtcItem" name="水之原石-Super 60">
+		<table name="#Desc">水屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36962" type="EtcItem" name="地之原石-Super 60">
+		<table name="#Desc">地屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36963" type="EtcItem" name="風之原石-Super 60">
+		<table name="#Desc">風屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36964" type="EtcItem" name="暗之原石-Super 60">
+		<table name="#Desc">黑暗屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36965" type="EtcItem" name="聖之原石-Super 60">
+		<table name="#Desc">神聖屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36966" type="EtcItem" name="火之原石-Super 150">
+		<table name="#Desc">火屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36967" type="EtcItem" name="水之原石-Super 150">
+		<table name="#Desc">水屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36968" type="EtcItem" name="地之原石-Super 150">
+		<table name="#Desc">地屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36969" type="EtcItem" name="風之原石-Super 150">
+		<table name="#Desc">風屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36970" type="EtcItem" name="暗之原石-Super 150">
+		<table name="#Desc">黑暗屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36971" type="EtcItem" name="聖之原石-Super 150">
+		<table name="#Desc">神聖屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36972" type="EtcItem" name="火之水晶-Super">
+		<table name="#Desc">可一次賦予火屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36973" type="EtcItem" name="水之水晶-Super">
+		<table name="#Desc">可一次賦予水屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36974" type="EtcItem" name="地之水晶-Super">
+		<table name="#Desc">可一次賦予地屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36975" type="EtcItem" name="風之水晶-Super">
+		<table name="#Desc">可一次賦予風屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36976" type="EtcItem" name="暗之水晶-Super">
+		<table name="#Desc">可一次賦予黑暗屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36977" type="EtcItem" name="聖之水晶-Super">
+		<table name="#Desc">可一次賦予神聖屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36978" type="EtcItem" name="頭飾強化卷軸">
+		<table name="#Desc">增加頭飾的魔法防禦力2，從強化+4開始將大幅提升魔法防禦力。至+3為止能安全進行強化。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36979" type="EtcItem" name="頭飾用生命石">
+		<table name="#Desc">頭飾用生命石。</table>
+		<set name="icon" val="icon.life_dust_hairacc_general" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36980" type="Armor" name="9週年紀念火箭炮帽-連發煙火">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36981" type="Armor" name="9週年紀念火箭炮帽-連發煙火(力量)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36982" type="Armor" name="9週年紀念火箭炮帽-連發煙火(敏捷)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36983" type="Armor" name="9週年紀念火箭炮帽-連發煙火(體質)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36984" type="Armor" name="9週年紀念火箭炮帽-連發煙火(精神)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到精神+3的效果</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36985" type="Armor" name="9週年紀念火箭炮帽-連發煙火(智力)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36986" type="Armor" name="9週年紀念火箭炮帽-連發煙火(智慧)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36987" type="Armor" name="9週年紀念火箭炮帽-連發煙火(致命攻擊機率)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36988" type="Armor" name="9週年紀念火箭炮帽-連發煙火(致命攻擊傷害)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36989" type="Armor" name="9週年紀念火箭炮帽-連發煙火(物理防禦力)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36990" type="Armor" name="9週年紀念火箭炮帽-連發煙火(魔法防禦力)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36991" type="Armor" name="9週年紀念火箭炮帽-連發煙火(迴避)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36992" type="Armor" name="9週年紀念火箭炮帽-連發煙火(物理攻擊力)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到增加物理攻擊力5%的效果</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36993" type="Armor" name="9週年紀念火箭炮帽-連發煙火(魔法攻擊力)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36994" type="Armor" name="9週年紀念火箭炮帽-連發煙火(命中)">
+		<table name="#Desc">9週年慶紀念道具。火箭炮般外觀的帽子。可以使用連發煙火技能。裝備的話，可以得到命中+5的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36995" type="EtcItem" name="9週年紀念禮盒">
+		<table name="#Desc">內裝有9週年慶紀念火箭炮帽 - 連發煙火和9週年慶紀念晶體 - 活動用（限時30日）的天堂II 9週年慶感恩禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36996" type="EtcItem" name="9週年紀念禮盒">
+		<table name="#Desc">內裝有9週年慶紀念火箭炮帽 - 連發煙火和9週年慶紀念晶體 - 活動用（限時20日）的天堂II 9週年慶感恩禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36997" type="EtcItem" name="9週年紀念禮盒">
+		<table name="#Desc">內裝有9週年慶紀念火箭炮帽 - 連發煙火和9週年慶紀念晶體 - 活動用（限時10日）的天堂II 9週年慶感恩禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36998" type="EtcItem" name="9週年紀念禮盒">
+		<table name="#Desc">內裝有9週年慶紀念火箭炮帽 - 連發煙火和9週年慶紀念晶體 - 活動用（限時5日）的天堂II 9週年慶感恩禮盒。</table>
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36999" type="EtcItem" name="9週年紀念晶體-活動用(限時30日)">
+		<table name="#Desc">天堂II 9週年慶紀念晶體。點兩下的話，就可獲得卡利艾之力（殄滅/業火/想願）、蛋糕、點心、祝福的復活卷軸之一。每天可以使用1次。</table>
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+	</item>
+</list>

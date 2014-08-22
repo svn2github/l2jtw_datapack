@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="36400" type="EtcItem" name="奈比特沙漏-1小時">
+		<table name="#Desc">維他命道具\n在1小時內可以追加延長所獲經驗值50%的奈比特沙漏。不限等級皆可使用。</table>
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36401" type="EtcItem" name="幸運包">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，便能獲得盛夏的熱情卷軸2個、活力充能星星糖1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36402" type="EtcItem" name="高級幸運包">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，便能獲得盛夏的熱情卷軸6個、活力充能星星糖2個、祝福的羽毛2個、天堂雞尾酒2個、防具用高級強化輔助石-R級1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36403" type="EtcItem" name="特級幸運包">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，便能獲得盛夏的熱情卷軸12個、活力充能星星糖2個、祝福的羽毛3個、天堂雞尾酒2個、破壞之力2個、稀有飾品禮盒（限時）。運氣非常好的話，還可以額外獲得稀有飾品禮盒（永久）、R99級武器禮盒、束縛解除卷軸禮盒。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36404" type="EtcItem" name="盛夏的熱情卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，在1小時內提高獲得經驗值與SP30%。</table>
+		<set name="icon" val="icon.etc_aidcharm_cancel_deathfire_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36405" type="EtcItem" name="稀有飾品禮盒(限時)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，就可以獲得可持有14日的祝福的安塔瑞斯耳環、祝福的巴拉卡斯項鍊、塔武提戒指、地蟲心臟戒指。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36406" type="EtcItem" name="稀有飾品禮盒(永久)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，就可以獲得祝福的安塔瑞斯耳環、祝福的巴拉卡斯項鍊、塔武提戒指、地蟲心臟戒指中之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36407" type="EtcItem" name="R99級武器禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，就可以獲得1個未確認赫利奧斯武器中之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36408" type="EtcItem" name="束縛解除卷軸禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，就可以獲得1個R/R95/R99級武器/防具束縛解除卷軸中之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36409" type="Armor" name="祝福的安塔瑞斯耳環(14日)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">賦予裝備者MP+59、出血抗性提升50%、出血攻擊率提升50%、治癒量提升、吸血怒擊、衝擊/精神異常抗性提升40%、衝擊/精神異常攻擊率提升40%、降低物理/魔法技能的MP消耗量、大地屬性防禦提升、神聖屬性防禦提升、CON+3、MEN+3的效果。物理/魔法防禦力提升。可以使用衝擊解除技能，並暫時增加衝擊抗性100%。即使戴上兩個祝福的安塔瑞斯耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="170" />
+			<add order="0x40" stat="maxMp" val="59" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="36410" type="Armor" name="祝福的巴拉卡斯項鍊(14日)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">賦予裝備者HP+625、MP+79、睡眠抗性提升50%、睡眠攻擊率提升50%、縮短物理/魔法技能的使用冷卻時間、野性魔力、還擊護盾、火屬性防禦提升30、黑暗屬性防禦提升20、STR+3、INT+3的效果。物理技能攻擊力提升5%、物理攻擊力提升10%、魔法攻擊力提升20%；可以使用束縛解除技能，並暫時增加束縛抗性100%。</table>
+		<set name="icon" val="icon.accessory_necklace_of_valakas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="226" />
+			<add order="0x40" stat="maxMp" val="79" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="36411" type="Armor" name="塔武提戒指(14日)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">塔武提戒指。賦予裝備者增加火/黑暗抗性25、增加MP38、增加致命傷害15%、增加技能攻擊力5%、增加PVP傷害5%、增加麻痺/束縛/驅逐抗性10、增加傷害反射抗性5、增加吸血抗性5、降低PVP被擊傷害5%；使用鈍器時，增加致命攻擊率54的效果。即使戴上兩個塔武提戒指也只能發揮一個的特殊效果。（屬性/魔法防禦力除外）</table>
+		<set name="icon" val="icon.accessary_tauti_ring" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="108" />
+			<add order="0x40" stat="maxMp" val="38" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="36412" type="Armor" name="地蟲心臟戒指(14日)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">賦予裝備者MP+38、肉體系抗性、精神系抗性、魔力再生、致命傷害提升；命中率提升、毒抗性提升50%、毒攻擊率提升50%；擊退、擊倒、捕獲抗性提升20；增加攻擊速度、增加施法速度、風/水屬性防禦提升。對隊員可使用能提升攻擊速度、施法速度、吸血效果的技能和解毒效果。即使戴上兩個地蟲心臟戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.ring_earthworm_heart" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="108" />
+			<add order="0x40" stat="maxMp" val="38" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="36413" type="Armor" name="單網盔甲">
+		<table name="#Desc">在特定地區變更為單一目標。</table>
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+	</item>
+	<item id="36414" type="EtcItem" name="龍爪">
+		<table name="#Desc">製作龍武器的材料。</table>
+		<set name="icon" val="icon.etc_toenail_dragon" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36415" type="EtcItem" name="龍血">
+		<table name="#Desc">使用龍武器的技能時會消耗的道具。</table>
+		<set name="icon" val="icon.etc_blood_gragon" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36416" type="EtcItem" name="龍牙">
+		<table name="#Desc">使用龍武器的技能時會消耗的道具。</table>
+		<set name="icon" val="icon.etc_tooth_gragon" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36417" type="Weapon" name="安塔瑞斯鉋刀">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1039" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36418" type="Weapon" name="安塔瑞斯殺刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36419" type="Weapon" name="安塔瑞斯投弓">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2339" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36420" type="Weapon" name="安塔瑞斯爆刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36421" type="Weapon" name="安塔瑞斯切刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36422" type="Weapon" name="安塔瑞斯風暴者">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36423" type="Weapon" name="安塔瑞斯戰爪">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_fist_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36424" type="Weapon" name="安塔瑞斯復仇者">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36425" type="Weapon" name="安塔瑞斯雙鈍器">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36426" type="Weapon" name="安塔瑞斯雙刀">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">安塔瑞斯的破片。利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36427" type="Weapon" name="巴拉卡斯鉋刀">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">巴拉卡斯的破片。利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1039" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36428" type="Weapon" name="巴拉卡斯切刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">巴拉卡斯的破片。利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36429" type="Weapon" name="巴拉卡斯殺刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">巴拉卡斯的破片。利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36430" type="Weapon" name="巴拉卡斯投弓">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">巴拉卡斯的破片。利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2339" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36431" type="Weapon" name="巴拉卡斯爆刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">巴拉卡斯的破片。利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36432" type="Weapon" name="巴拉卡斯術杖">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">巴拉卡斯的破片。利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36433" type="Weapon" name="巴拉卡斯報恨者">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">巴拉卡斯的破片。利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1157" />
+			<set order="0x08" stat="mAtk" val="759" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36434" type="Weapon" name="林德拜爾鉋刀">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">林德拜爾的破片。利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1039" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36435" type="Weapon" name="林德拜爾投弓">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">林德拜爾的破片。利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2339" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36436" type="Weapon" name="林德拜爾殺刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">林德拜爾的破片。利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1445" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36437" type="Weapon" name="林德拜爾術杖">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">林德拜爾的破片。利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="950" />
+			<set order="0x08" stat="mAtk" val="690" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36438" type="Weapon" name="林德拜爾切刃">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">林德拜爾的破片。利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36439" type="Weapon" name="林德拜爾射靈">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">林德拜爾的破片。利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_crossbow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2106" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36440" type="Weapon" name="林德拜爾雙匕首">
+		<table name="#Plus">碎片</table>
+		<table name="#Desc">林德拜爾的破片。利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1188" />
+			<set order="0x08" stat="mAtk" val="517" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36441" type="Weapon" name="安塔瑞斯鉋刀">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1877" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36442" type="Weapon" name="安塔瑞斯殺刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2611" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36443" type="Weapon" name="安塔瑞斯投弓">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4225" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36444" type="Weapon" name="安塔瑞斯爆刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1716" />
+			<set order="0x08" stat="mAtk" val="1247" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36445" type="Weapon" name="安塔瑞斯切刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2146" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36446" type="Weapon" name="安塔瑞斯風暴者">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2146" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36447" type="Weapon" name="安塔瑞斯戰爪">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2611" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36448" type="Weapon" name="安塔瑞斯復仇者">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2146" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36449" type="Weapon" name="安塔瑞斯雙鈍器">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2611" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36450" type="Weapon" name="安塔瑞斯雙刀">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2611" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36451" type="Weapon" name="巴拉卡斯鉋刀">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1877" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36452" type="Weapon" name="巴拉卡斯切刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2146" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36453" type="Weapon" name="巴拉卡斯殺刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2611" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36454" type="Weapon" name="巴拉卡斯投弓">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4225" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36455" type="Weapon" name="巴拉卡斯爆刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1716" />
+			<set order="0x08" stat="mAtk" val="1247" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36456" type="Weapon" name="巴拉卡斯術杖">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1716" />
+			<set order="0x08" stat="mAtk" val="1247" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36457" type="Weapon" name="巴拉卡斯報恨者">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2090" />
+			<set order="0x08" stat="mAtk" val="1371" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36458" type="Weapon" name="林德拜爾鉋刀">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1877" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36459" type="Weapon" name="林德拜爾投弓">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4225" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36460" type="Weapon" name="林德拜爾殺刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2611" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36461" type="Weapon" name="林德拜爾術杖">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1716" />
+			<set order="0x08" stat="mAtk" val="1247" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36462" type="Weapon" name="林德拜爾切刃">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2146" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36463" type="Weapon" name="林德拜爾射靈">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3804" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36464" type="Weapon" name="林德拜爾雙匕首">
+		<table name="#Plus">一般</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2146" />
+			<set order="0x08" stat="mAtk" val="935" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36465" type="Weapon" name="安塔瑞斯鉋刀">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2177" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36466" type="Weapon" name="安塔瑞斯殺刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3027" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36467" type="Weapon" name="安塔瑞斯投弓">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4898" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36468" type="Weapon" name="安塔瑞斯爆刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1990" />
+			<set order="0x08" stat="mAtk" val="1446" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36469" type="Weapon" name="安塔瑞斯切刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2488" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36470" type="Weapon" name="安塔瑞斯風暴者">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2488" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36471" type="Weapon" name="安塔瑞斯戰爪">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3027" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36472" type="Weapon" name="安塔瑞斯復仇者">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2488" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36473" type="Weapon" name="安塔瑞斯雙鈍器">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3027" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36474" type="Weapon" name="安塔瑞斯雙刀">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過安塔瑞斯的監視者 泰奧德黎來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3027" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36475" type="Weapon" name="巴拉卡斯鉋刀">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2177" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36476" type="Weapon" name="巴拉卡斯切刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2488" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36477" type="Weapon" name="巴拉卡斯殺刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3027" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36478" type="Weapon" name="巴拉卡斯投弓">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4898" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36479" type="Weapon" name="巴拉卡斯爆刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1990" />
+			<set order="0x08" stat="mAtk" val="1446" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36480" type="Weapon" name="巴拉卡斯術杖">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1990" />
+			<set order="0x08" stat="mAtk" val="1446" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36481" type="Weapon" name="巴拉卡斯報恨者">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過巴拉卡斯的監視者 克雷因來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2423" />
+			<set order="0x08" stat="mAtk" val="1590" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36482" type="Weapon" name="林德拜爾鉋刀">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2177" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36483" type="Weapon" name="林德拜爾投弓">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4898" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36484" type="Weapon" name="林德拜爾殺刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加攻擊速度300、增加物理致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3027" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36485" type="Weapon" name="林德拜爾術杖">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1990" />
+			<set order="0x08" stat="mAtk" val="1446" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36486" type="Weapon" name="林德拜爾切刃">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2488" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36487" type="Weapon" name="林德拜爾射靈">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="4411" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36488" type="Weapon" name="林德拜爾雙匕首">
+		<table name="#Plus">上級</table>
+		<table name="#Desc">利用龍爪和各種材料，可以透過亞丁直屬魔法師 潔妮恩來升為更高階級。\n＜裝備技能＞\n增加PVP傷害15%、增加HP/MP/CP30%、增加施法速度300、增加魔法致命攻擊率100、增加對於龍的額外傷害100%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2488" />
+			<set order="0x08" stat="mAtk" val="1084" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36489" type="Weapon" name="安塔瑞斯鉋刀">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="36490" type="Weapon" name="安塔瑞斯殺刃">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36491" type="Weapon" name="安塔瑞斯投弓">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5678" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="36492" type="Weapon" name="安塔瑞斯爆刃">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加施法速度1999、增加魔法致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36493" type="Weapon" name="安塔瑞斯切刃">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36494" type="Weapon" name="安塔瑞斯風暴者">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36495" type="Weapon" name="安塔瑞斯戰爪">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36496" type="Weapon" name="安塔瑞斯復仇者">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="36497" type="Weapon" name="安塔瑞斯雙鈍器">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36498" type="Weapon" name="安塔瑞斯雙刀">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="36499" type="Weapon" name="巴拉卡斯鉋刀">
+		<table name="#Plus">特級</table>
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊率500、增加對於龍的額外傷害300%。\n＜使用技能＞\n1.保護：在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2.巴拉卡斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，且身體會逐漸僵硬，等到完全僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.巴拉卡斯的隕石：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+</list>

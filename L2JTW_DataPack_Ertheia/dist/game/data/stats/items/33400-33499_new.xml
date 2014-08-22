@@ -1,27 +1,1451 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="33478" name="破滅武器強化卷軸-R級" type="EtcItem">
-		<table name="#Desc">強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。強化失敗時，藉由破滅女神之力，現有的裝備雖不會被結晶化，但將維持現有的強化數值。無法用於強化+15以上的防具。</table>
-		<set name="icon" val="icon.scroll_of_enchant_weapon_i06"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="SCRL_ENCHANT_WP"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="12872-1"/>
+	<item id="33400" type="Weapon" name="命運的薄暮報恨者 (聖)">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">限制強化能力的命運的薄暮報恨者（聖）。＜搜魂石特效＞\nHP最大值提升約25%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
 	</item>
-	<item id="33479" name="破滅防具強化卷軸-R級" type="EtcItem">
+	<item id="33401" type="Weapon" name="命運的薄暮詩杖 (聖)">
+		<table name="#Plus">魔力催化</table>
+		<table name="#Desc">限制強化能力的命運的薄暮詩杖（聖）。＜搜魂石特效＞\n魔法攻擊力提升約151。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_singer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="108" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="386" />
+			<set order="0x08" stat="mAtk" val="257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33402" type="Weapon" name="命運的薄暮風暴者 (聖)">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">限制強化能力的命運的薄暮風暴者（聖）。＜搜魂石特效＞\n攻擊速度提升約11%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="396" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33403" type="Weapon" name="命運的薄暮戰爪 (聖)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮戰爪（聖）。＜搜魂石特效＞\n致命攻擊率提升約123。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="155" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33404" type="Weapon" name="命運的薄暮雙刀 (聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮雙刀（聖）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，將會提升致命攻擊率109、HP最大值10%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33405" type="Weapon" name="命運的薄暮鉋刀 (暗)">
+		<table name="#Plus">Crt.傷害</table>
+		<table name="#Desc">限制強化能力的命運的薄暮鉋刀（暗）。＜搜魂石特效＞\n致命攻擊時，物理攻擊力提升約906。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="346" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33406" type="Weapon" name="命運的薄暮雙匕首 (暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮雙匕首（暗）。強化雙匕首武器時，物理攻擊力上升的幅度會比一般單手劍更高，強化程度為4以上時，將會提升致命攻擊率109。PVP時提升所造成的傷害。僅限等級81以上的匕首大師裝備。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.dual_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="360" />
+			<set order="0x08" stat="mAtk" val="181" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33407" type="Weapon" name="命運的薄暮切刃 (暗)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮切刃（暗）。＜搜魂石特效＞\n致命攻擊率提升約131。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="396" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33408" type="Weapon" name="命運的薄暮爆刃 (暗)">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">限制強化能力的命運的薄暮爆刃（暗）。＜搜魂石特效＞\n施法速度加快約15%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_burster_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="317" />
+			<set order="0x08" stat="mAtk" val="234" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33409" type="Weapon" name="命運的薄暮螯針 (暗)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮螯針（暗）。＜搜魂石特效＞\n致命攻擊率提升約131。PVP時提升所造成的傷害。\n強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="128" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="359" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33410" type="Weapon" name="命運的薄暮殺刃 (暗)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮殺刃（暗）。＜搜魂石特效＞\n致命攻擊率提升約131。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33411" type="Weapon" name="命運的薄暮槍刃 (暗)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮槍刃（暗）。＜搜魂石特效＞\n致命攻擊率提升約131。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="180" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="429" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33412" type="Weapon" name="命運的薄暮投弓 (暗)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮投弓（暗）。＜搜魂石特效＞\n致命攻擊率提升約133。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="724" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33413" type="Weapon" name="命運的薄暮射靈 (暗)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮射靈（暗）。＜搜魂石特效＞\n致命攻擊率提升約133。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="158" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="444" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33414" type="Weapon" name="命運的薄暮復仇者 (暗)">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">限制強化能力的命運的薄暮復仇者（暗）。＜搜魂石特效＞\nHP最大值提升約25%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="396" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33415" type="Weapon" name="命運的薄暮術杖 (暗)">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">限制強化能力的命運的薄暮術杖（暗）。＜搜魂石特效＞\n施法速度加快約15%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_caster_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="108" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="317" />
+			<set order="0x08" stat="mAtk" val="234" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33416" type="Weapon" name="命運的薄暮報恨者 (暗)">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">限制強化能力的命運的薄暮報恨者（暗）。＜搜魂石特效＞\nHP最大值提升約25%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="174" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33417" type="Weapon" name="命運的薄暮詩杖 (暗)">
+		<table name="#Plus">魔力催化</table>
+		<table name="#Desc">限制強化能力的命運的薄暮詩杖（暗）。＜搜魂石特效＞\n魔法攻擊力提升約151。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_singer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="108" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="386" />
+			<set order="0x08" stat="mAtk" val="257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33418" type="Weapon" name="命運的薄暮風暴者 (暗)">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">限制強化能力的命運的薄暮風暴者（暗）。＜搜魂石特效＞\n攻擊速度提升約11%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="396" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33419" type="Weapon" name="命運的薄暮戰爪 (暗)">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">限制強化能力的命運的薄暮戰爪（暗）。＜搜魂石特效＞\n致命攻擊率提升約123。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="155" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33420" type="Weapon" name="命運的薄暮雙刀 (暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮雙刀（暗）。二刀流、雙手劍、雙手鈍器與格鬥兵器被強化時，物理攻擊力上升的幅度會比一般單手劍更高。強化程度為4以上時，將會提升致命攻擊率109、HP最大值10%。PVP時提升所造成的傷害。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="176" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="33421" type="Armor" name="命運的薄暮頭盔 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮頭盔（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="53" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="101" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33422" type="Armor" name="命運的薄暮胸甲 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮胸甲（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="752" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="250" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33423" type="Armor" name="命運的薄暮脛甲 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮脛甲（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="317" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="156" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33424" type="Armor" name="命運的薄暮衛盾 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮衛盾（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="113" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="371" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="33425" type="Armor" name="命運的薄暮護手 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮護手（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="51" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33426" type="Armor" name="命運的薄暮靴 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮靴（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="107" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33427" type="Armor" name="命運的薄暮皮頭盔 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮頭盔（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="53" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="101" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33428" type="Armor" name="命運的薄暮皮胸甲 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮胸甲（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="414" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="187" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33429" type="Armor" name="命運的薄暮皮脛甲 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮脛甲（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="132" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="117" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33430" type="Armor" name="命運的薄暮皮手套 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮手套（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="51" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33431" type="Armor" name="命運的薄暮皮靴 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮靴（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="107" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33432" type="Armor" name="命運的薄暮頭箍 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮頭箍（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="53" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="101" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33433" type="Armor" name="命運的薄暮外衣 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮外衣（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="175" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="125" />
+			<add order="0x40" stat="maxMp" val="637" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33434" type="Armor" name="命運的薄暮長襪 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮長襪（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="85" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="78" />
+			<add order="0x40" stat="maxMp" val="415" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33435" type="Armor" name="命運的薄暮手套 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮手套（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="51" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33436" type="Armor" name="命運的薄暮鞋 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮鞋（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="107" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33437" type="Armor" name="命運的薄暮符印 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的薄暮符印（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.verper_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="92" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="17" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33438" type="Armor" name="命運的薄暮頭盔 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮頭盔（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="53" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="101" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33439" type="Armor" name="命運的薄暮胸甲 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮胸甲（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="752" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="250" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33440" type="Armor" name="命運的薄暮脛甲 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮脛甲（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="317" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="156" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33441" type="Armor" name="命運的薄暮衛盾 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮衛盾（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="113" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="371" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="33442" type="Armor" name="命運的薄暮護手 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮護手（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="51" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33443" type="Armor" name="命運的薄暮靴 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮靴（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t94_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="107" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33444" type="Armor" name="命運的薄暮皮頭盔 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮頭盔（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="53" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="101" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33445" type="Armor" name="命運的薄暮皮胸甲 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮胸甲（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="414" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="187" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33446" type="Armor" name="命運的薄暮皮脛甲 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮脛甲（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="132" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="117" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33447" type="Armor" name="命運的薄暮皮手套 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮手套（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="51" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33448" type="Armor" name="命運的薄暮皮靴 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮皮靴（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t95_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="107" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33449" type="Armor" name="命運的薄暮頭箍 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮頭箍（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="53" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="101" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33450" type="Armor" name="命運的薄暮外衣 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮外衣（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="175" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="125" />
+			<add order="0x40" stat="maxMp" val="637" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33451" type="Armor" name="命運的薄暮長襪 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮長襪（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="85" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="78" />
+			<add order="0x40" stat="maxMp" val="415" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33452" type="Armor" name="命運的薄暮手套 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮手套（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="51" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33453" type="Armor" name="命運的薄暮鞋 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮鞋（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t96_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="107" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33454" type="Armor" name="命運的薄暮符印 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的薄暮符印（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.verper_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="92" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="17" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33455" type="EtcItem" name="命運的武器強化卷軸-D級">
+		<table name="#Desc">強化時，D級劍/單手、鈍器/單手、匕首、槍、其他；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升2；弓類武器的攻擊力可提升4；所有武器的魔法攻擊力可提升2。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33456" type="EtcItem" name="命運的武器強化卷軸-C級">
+		<table name="#Desc">強化時，C級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升3；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升4；弓類武器的攻擊力可提升6；所有武器的魔法攻擊力可提升3。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33457" type="EtcItem" name="命運的武器強化卷軸-B級">
+		<table name="#Desc">強化時，B級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升3；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升4；弓類武器的攻擊力可提升6；所有武器的魔法攻擊力可提升3。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33458" type="EtcItem" name="命運的武器強化卷軸-A級">
+		<table name="#Desc">強化時，A級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升4；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升5；弓類武器的攻擊力可提升8；所有武器的魔法攻擊力可提升3。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33459" type="EtcItem" name="命運的武器強化卷軸-S級">
+		<table name="#Desc">強化時，S級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升5；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升6；弓類武器的攻擊力可提升10；所有武器的魔法攻擊力可提升4。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33460" type="EtcItem" name="命運的防具強化卷軸-D級">
+		<table name="#Desc">D級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33461" type="EtcItem" name="命運的防具強化卷軸-C級">
+		<table name="#Desc">C級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33462" type="EtcItem" name="命運的防具強化卷軸-B級">
+		<table name="#Desc">B級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33463" type="EtcItem" name="命運的防具強化卷軸-A級">
+		<table name="#Desc">A級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33464" type="EtcItem" name="命運的防具強化卷軸-S級">
+		<table name="#Desc">強化時，S級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。命運裝備專用。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33465" type="EtcItem" name="巨人的幸運禮盒">
+		<table name="#Desc">進行技能強化後獲得的下巨人精髓獎勵品，與該物品交換的箱子。如果運氣好的話，就能獲得4種刻印祕傳書的其中之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33466" type="EtcItem" name="武器小袋-R2">
+		<table name="#Desc">內裝R級上級武器的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33467" type="EtcItem" name="防具小袋-R2">
+		<table name="#Desc">內裝R級上級防具的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33468" type="EtcItem" name="英雄支援禮盒">
+		<table name="#Desc">內裝有為了測試伺服器的遊戲而準備的支援道具的箱子。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33469" type="EtcItem" name="覺醒支援禮盒">
+		<table name="#Desc">內裝有為了測試伺服器新進角色而準備的支援道具的箱子。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33470" type="Armor" name="特殊魔法防禦護身符 {主動}">
+		<table name="#Desc">使用時，增加魔法防禦力50%。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mm_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="33471" type="Armor" name="特殊遠距離抗性護身符 {主動}">
+		<table name="#Desc">使用時，增加對弓類/弩類的抗性80%。幻象裝備。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="33472" type="Armor" name="特殊魔法防禦護身符">
+		<table name="#Desc">裝備時，增加魔法防禦力50%。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mm_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="600" />
+	</item>
+	<item id="33473" type="Armor" name="特殊遠距離抗性護身符">
+		<table name="#Desc">裝備時，增加對弓類/弩類的抗性80%。幻象裝備。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="600" />
+	</item>
+	<item id="33474" type="EtcItem" name="說話之島精緻餅乾">
+		<table name="#Desc">維他命道具\n在60分鐘內將增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%、遭受致命攻擊傷害時的物理防禦力。降低移動速度15%，而且裝備近身、遠距離武器類且遭受一定程度以上的攻擊而受傷的隊員，在進行普通攻擊時，將會額外增加致命威力。</table>
+		<set name="icon" val="BranchSys.icon.br_valentine_cookie_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33475" type="EtcItem" name="勇氣護符-R級">
+		<table name="#Desc">一段時間內，在攻城戰/要塞戰/根據地戰的戰場上死亡時，可就地進行復活（用於等級85~99）。未滿等級85的角色也可使用。</table>
+		<set name="icon" val="icon.etc_charm_of_courage_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33476" type="EtcItem" name="命運古文">
+		<table name="#Desc">未滿等級86的角色裝載於道具清單時，增加所得經驗值和SP100%。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33477" type="EtcItem" name="英雄的寶箱">
+		<table name="#Desc">內裝有各種強化材料和可以解除束縛的道具的箱子。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33478" type="EtcItem" name="破滅武器強化卷軸-R級">
+		<table name="#Desc">強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。強化失敗時，藉由破滅女神之力，現有的裝備雖不會被結晶化，但將維持現有的強化數值。無法用於強化+15以上的武器。</table>
+		<set name="icon" val="icon.scroll_of_enchant_weapon_i06" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33479" type="EtcItem" name="破滅防具強化卷軸-R級">
 		<table name="#Desc">強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。強化失敗時，藉由破滅女神之力，現有的裝備雖不會被結晶化，但將維持現有的強化數值。無法用於強化+6以上的防具。</table>
-		<set name="icon" val="icon.scroll_of_enchant_armor_i06"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="SCRL_ENCHANT_AM"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="12873-1"/>
+		<set name="icon" val="icon.scroll_of_enchant_armor_i06" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33480" type="Armor" name="Wi-Fi頭盔">
+		<table name="#Desc">Wi-Fi頭盔。</table>
+		<set name="icon" val="icon.wifi_event_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="33481" type="EtcItem" name="火之原石-Super">
+		<table name="#Desc">火屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33482" type="EtcItem" name="水之原石-Super">
+		<table name="#Desc">水屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33483" type="EtcItem" name="地之原石-Super">
+		<table name="#Desc">地屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33484" type="EtcItem" name="風之原石-Super">
+		<table name="#Desc">風屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33485" type="EtcItem" name="暗之原石-Super">
+		<table name="#Desc">黑暗屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33486" type="EtcItem" name="聖之原石-Super">
+		<table name="#Desc">神聖屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33487" type="EtcItem" name="火之水晶-Super">
+		<table name="#Desc">可一次賦予火屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33488" type="EtcItem" name="水之水晶-Super">
+		<table name="#Desc">可一次賦予水屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33489" type="EtcItem" name="地之水晶-Super">
+		<table name="#Desc">可一次賦予地屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33490" type="EtcItem" name="風之水晶-Super">
+		<table name="#Desc">可一次賦予風屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33491" type="EtcItem" name="暗之水晶-Super">
+		<table name="#Desc">可一次賦予黑暗屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33492" type="EtcItem" name="聖之水晶-Super">
+		<table name="#Desc">可一次賦予神聖屬性等級3至等級6，若超出此等級以上時，水晶的力量將會消失。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33493" type="EtcItem" name="屬性強化支援禮盒">
+		<table name="#Desc">內裝有為了測試伺服器的遊戲而準備的屬性石道具的箱子。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="33494" type="EtcItem" name="說話之島精緻餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">維他命道具\n在60分鐘內將增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%、遭受致命攻擊傷害時的物理防禦力。降低移動速度15%，而且裝備近身、遠距離武器類且遭受一定程度以上的攻擊而受傷的隊員，在進行普通攻擊時，將會額外增加致命威力。</table>
+		<set name="icon" val="BranchSys.icon.br_valentine_cookie_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="33495" type="EtcItem" name="鎮魂武器禮盒-一般">
+		<table name="#Desc">可以獲得鎮魂武器。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="33496" type="EtcItem" name="永生重裝防具禮盒-一般">
+		<table name="#Desc">可以獲得永生重裝防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="33497" type="EtcItem" name="永生輕裝防具禮盒-一般">
+		<table name="#Desc">可以獲得永生輕裝防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="33498" type="EtcItem" name="永生長袍防具禮盒-一般">
+		<table name="#Desc">可以獲得永生長袍防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="33499" type="EtcItem" name="永生飾品禮盒-一般">
+		<table name="#Desc">可以獲得永生飾品。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 	</item>
 </list>

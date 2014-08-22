@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="25500" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/詛咒魔法反射</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予詛咒魔法反射5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25501" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/傷害反射抗性</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予傷害反射抗性7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25502" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/遠距離抗性</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予弓類/弩類抗性5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25503" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/物理防禦力增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加物理防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25504" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/魔法防禦力增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25505" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/屬性防禦</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予所有屬性防禦7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25506" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/所受治癒量增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加所受治癒量7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25507" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/HP最大值增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25508" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/MP最大值增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP最大值5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25509" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/CP最大值增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加CP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25510" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/移動速度增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加移動速度7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25511" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/HP恢復增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP恢復8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25512" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/MP恢復增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP恢復4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25513" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/迴避能力增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加迴避/魔法迴避能力4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25514" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/精煉效果15</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25515" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/精煉效果16</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25516" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/精煉效果17</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25517" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/精煉效果18</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25518" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/精煉效果19</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25519" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">中級/精煉效果20</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25520" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/詛咒魔法反射</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予詛咒魔法反射10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25521" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/傷害反射抗性</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予傷害反射抗性15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25522" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/遠距離抗性</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予弓類/弩類抗性10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25523" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/物理防禦力增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加物理防禦力10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25524" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/魔法防禦力增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加魔法防禦力10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25525" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/屬性防禦</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予所有屬性防禦15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25526" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/所受治癒量增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加所受治癒量15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25527" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/HP最大值增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP最大值15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25528" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/MP最大值增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP最大值10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25529" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/CP最大值增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加CP最大值15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25530" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/移動速度增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加移動速度15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25531" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/HP恢復增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP恢復16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25532" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/MP恢復增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP恢復8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25533" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/迴避能力增加</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加迴避/魔法迴避能力8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25534" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/精煉效果15</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25535" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/精煉效果16</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25536" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/精煉效果17</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25537" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/精煉效果18</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25538" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/精煉效果19</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25539" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Plus">上級/精煉效果20</table>
+		<table name="#Desc">可轉變成艷麗泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為艷麗泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25540" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/詛咒魔法反射</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予詛咒魔法反射3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25541" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/傷害反射抗性</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予傷害反射抗性5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25542" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/遠距離抗性</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予弓類/弩類抗性3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25543" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/物理防禦力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加物理防禦力3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25544" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/魔法防禦力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加魔法防禦力3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25545" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/屬性防禦</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予所有屬性防禦5的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25546" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/所受治癒量增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加所受治癒量3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25547" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/HP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25548" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/MP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25549" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/CP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加CP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25550" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/移動速度增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加移動速度3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25551" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/HP恢復增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP恢復5的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25552" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/MP恢復增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP恢復3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25553" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/迴避能力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加迴避/魔法迴避能力3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25554" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/精煉效果15</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25555" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/精煉效果16</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25556" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/精煉效果17</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25557" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/精煉效果18</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25558" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/精煉效果19</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25559" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">下級/精煉效果20</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25560" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/詛咒魔法反射</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予詛咒魔法反射5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25561" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/傷害反射抗性</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予傷害反射抗性7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25562" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/遠距離抗性</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予弓類/弩類抗性5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25563" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/物理防禦力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加物理防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25564" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/魔法防禦力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25565" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/屬性防禦</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予所有屬性防禦7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25566" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/所受治癒量增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加所受治癒量7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25567" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/HP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25568" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/MP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP最大值5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25569" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/CP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加CP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25570" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/移動速度增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加移動速度7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25571" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/HP恢復增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP恢復8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25572" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/MP恢復增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP恢復4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25573" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/迴避能力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加迴避/魔法迴避能力4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25574" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/精煉效果15</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25575" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/精煉效果16</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25576" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/精煉效果17</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25577" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/精煉效果18</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25578" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/精煉效果19</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25579" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">中級/精煉效果20</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25580" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/詛咒魔法反射</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予詛咒魔法反射10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25581" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/傷害反射抗性</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予傷害反射抗性15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25582" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/遠距離抗性</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予弓類/弩類抗性10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25583" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/物理防禦力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加物理防禦力10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25584" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/魔法防禦力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加魔法防禦力10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25585" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/屬性防禦</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予所有屬性防禦15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25586" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/所受治癒量增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加所受治癒量15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25587" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/HP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP最大值15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25588" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/MP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP最大值10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25589" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/CP最大值增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加CP最大值15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25590" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/移動速度增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加移動速度15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25591" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/HP恢復增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP恢復16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25592" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/MP恢復增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP恢復8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25593" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/迴避能力增加</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加迴避/魔法迴避能力8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25594" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/精煉效果15</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25595" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/精煉效果16</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25596" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/精煉效果17</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25597" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/精煉效果18</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25598" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/精煉效果19</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25599" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Plus">上級/精煉效果20</table>
+		<table name="#Desc">可轉變成誘人泳裝外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為誘人泳裝型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予上級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

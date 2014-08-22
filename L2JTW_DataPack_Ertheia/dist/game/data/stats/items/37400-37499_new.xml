@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="37400" type="EtcItem" name="光束劍加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手劍轉換為光束單手劍外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37401" type="EtcItem" name="光束匕首加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將匕首轉換為光束匕首外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_dagger_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37402" type="EtcItem" name="光束雙手劍加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙手劍轉換為光束雙手劍外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_twohand_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37403" type="EtcItem" name="光束格鬥兵器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將格鬥兵器轉換為光束格鬥兵器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_dualfist_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37404" type="EtcItem" name="光束槍加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將長矛轉換為光束長矛外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_pole_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37405" type="EtcItem" name="光束弓加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將弓轉換為光束武器弓的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_bow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37406" type="EtcItem" name="光束弩弓加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將弩弓轉換為光束弩弓外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_twohand_crossbow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37407" type="EtcItem" name="光束單手鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手鈍器轉換為光束單手鈍器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37408" type="EtcItem" name="光束雙手鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙手鈍器轉換為光束雙手鈍器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="Icon.shape_shifting_twohand_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37409" type="EtcItem" name="光束單手魔法鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手鈍器轉換為光束單手魔法鈍器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="Icon.shape_shifting_magic_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37410" type="EtcItem" name="光束雙手魔法鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙手鈍器轉換為光束雙手魔法鈍器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_magic_twohand_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37411" type="EtcItem" name="光束雙刀加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙刀轉換為光束雙刀外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_dual_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37412" type="EtcItem" name="光束匕首雙刀加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙匕首轉換為光束雙匕首外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_dualdagger_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37413" type="EtcItem" name="光束雙鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙鈍器轉換為光束雙鈍器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_dualblunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37414" type="EtcItem" name="光束盾牌加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將盾牌轉換為光束盾牌外型的加工石。限時15日道具。</table>
+		<set name="icon" val="icon.shape_shifting_shield_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37415" type="EtcItem" name="光束符印加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將符印轉換為光束符印外型的加工石。限時15日道具。</table>
+		<set name="icon" val="Icon.shape_shifting_sigil_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37416" type="EtcItem" name="光束劍加工石">
+		<table name="#Desc">可將單手劍轉換為光束單手劍外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37417" type="EtcItem" name="光束匕首加工石">
+		<table name="#Desc">可將匕首轉換為光束匕首外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_dagger_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37418" type="EtcItem" name="光束雙手劍加工石">
+		<table name="#Desc">可將雙手劍轉換為光束雙手劍外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_twohand_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37419" type="EtcItem" name="光束格鬥兵器加工石">
+		<table name="#Desc">可將格鬥兵器轉換為光束格鬥兵器外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_dualfist_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37420" type="EtcItem" name="光束槍加工石">
+		<table name="#Desc">可將長矛轉換為光束長矛外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_pole_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37421" type="EtcItem" name="光束弓加工石">
+		<table name="#Desc">可將弓轉換為光束武器弓的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_bow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37422" type="EtcItem" name="光束弩弓加工石">
+		<table name="#Desc">可將弩弓轉換為光束弩弓外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_twohand_crossbow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37423" type="EtcItem" name="光束單手鈍器加工石">
+		<table name="#Desc">可將單手鈍器轉換為光束單手鈍器外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37424" type="EtcItem" name="光束雙手鈍器加工石">
+		<table name="#Desc">可將雙手鈍器轉換為光束雙手鈍器外型的加工石。</table>
+		<set name="icon" val="Icon.shape_shifting_twohand_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37425" type="EtcItem" name="光束單手魔法鈍器加工石">
+		<table name="#Desc">可將單手鈍器轉換為光束單手魔法鈍器外型的加工石。</table>
+		<set name="icon" val="Icon.shape_shifting_magic_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37426" type="EtcItem" name="光束雙手魔法鈍器加工石">
+		<table name="#Desc">可將雙手鈍器轉換為光束雙手魔法鈍器外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_magic_twohand_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37427" type="EtcItem" name="光束雙刀加工石">
+		<table name="#Desc">可將雙刀轉換為光束雙刀外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_dual_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37428" type="EtcItem" name="光束雙匕首加工石">
+		<table name="#Desc">可將雙匕首轉換為光束雙匕首外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_dualdagger_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37429" type="EtcItem" name="光束雙鈍器加工石">
+		<table name="#Desc">可將雙鈍器轉換為光束雙鈍器外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_dualblunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37430" type="EtcItem" name="光束盾牌加工石">
+		<table name="#Desc">可將盾牌轉換為光束盾牌外型的加工石。</table>
+		<set name="icon" val="icon.shape_shifting_shield_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37431" type="EtcItem" name="光束符印加工石">
+		<table name="#Desc">可將符印轉換為光束符印外型的加工石。</table>
+		<set name="icon" val="Icon.shape_shifting_sigil_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37432" type="EtcItem" name="光束武器加工卷軸(限時)交換券">
+		<table name="#Desc">能交換光束武器加工卷軸(限時)的道具。可透過亞丁重建聯合員交換。</table>
+		<set name="icon" val="icon.etc_level_bustup_ticket_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37433" type="EtcItem" name="光束武器加工卷軸交換券">
+		<table name="#Desc">能交換光束武器加工卷軸的道具。可透過亞丁重建聯合員交換。</table>
+		<set name="icon" val="icon.etc_level_bustup_ticket_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37434" type="Armor" name="護身符-返回(古魯丁城鎮)">
+		<table name="#Desc">使用時，將返回至古魯丁城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37435" type="Armor" name="護身符-返回(狄恩城鎮)">
+		<table name="#Desc">使用時，將返回至狄恩城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37436" type="Armor" name="護身符-返回(奇岩城鎮)">
+		<table name="#Desc">使用時，將返回至奇岩城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37437" type="Armor" name="護身符-返回(水上都市海音斯)">
+		<table name="#Desc">使用時，將返回至水上都市海音斯。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37438" type="Armor" name="護身符-返回(歐瑞城鎮)">
+		<table name="#Desc">使用時，將返回至歐瑞城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37439" type="Armor" name="護身符-返回(亞丁城鎮)">
+		<table name="#Desc">使用時，將返回至亞丁城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37440" type="Armor" name="護身符-返回(高達特城鎮)">
+		<table name="#Desc">使用時，將返回至高達特城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37441" type="Armor" name="護身符-返回(魯因城鎮)">
+		<table name="#Desc">使用時，將返回至魯因城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37442" type="Armor" name="護身符-返回(修加特城鎮)">
+		<table name="#Desc">使用時，將返回至修加特城鎮。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37443" type="Armor" name="護身符-返回(說話之島村莊)">
+		<table name="#Desc">使用時，將返回至說話之島村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37444" type="Armor" name="護身符-返回(精靈村莊)">
+		<table name="#Desc">使用時，將返回至精靈村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37445" type="Armor" name="護身符-返回(黑暗精靈村莊)">
+		<table name="#Desc">使用時，將返回至黑暗精靈村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37446" type="Armor" name="護身符-返回(半獸人村莊)">
+		<table name="#Desc">使用時，將返回至半獸人村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37447" type="Armor" name="護身符-返回(矮人村莊)">
+		<table name="#Desc">使用時，將返回至矮人村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37448" type="Armor" name="護身符-返回(芙羅蘭村莊)">
+		<table name="#Desc">使用時，將返回至芙羅蘭村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37449" type="Armor" name="護身符-返回(哈汀學院)">
+		<table name="#Desc">使用時，將返回至哈汀學院。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37450" type="Armor" name="護身符-返回(象牙塔)">
+		<table name="#Desc">使用時，將返回至象牙塔。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37451" type="Armor" name="護身符-返回(獵人村莊)">
+		<table name="#Desc">使用時，將返回至獵人村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37452" type="Armor" name="護身符-返回(肯特拉半獸人村莊)">
+		<table name="#Desc">使用時，將返回至肯特拉半獸人村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37453" type="Armor" name="護身符-返回(巴瑞卡賽勒諾斯村莊)">
+		<table name="#Desc">使用時，將返回至巴瑞卡賽勒諾斯村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37454" type="Armor" name="護身符-返回(英魂之島村莊)">
+		<table name="#Desc">使用時，將返回至英魂之島村莊。</table>
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="37455" type="EtcItem" name="護身符禮盒-返回(古魯丁城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(古魯丁城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37456" type="EtcItem" name="護身符禮盒-返回(狄恩城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(狄恩城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37457" type="EtcItem" name="護身符禮盒-返回(奇岩城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(奇岩城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37458" type="EtcItem" name="護身符禮盒-返回(水上都市海音斯)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(水上都市海音斯)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37459" type="EtcItem" name="護身符禮盒-返回(歐瑞城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(歐瑞城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37460" type="EtcItem" name="護身符禮盒-返回(亞丁城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(亞丁城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37461" type="EtcItem" name="護身符禮盒-返回(高達特城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(高達特城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37462" type="EtcItem" name="護身符禮盒-返回(魯因城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(魯因城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37463" type="EtcItem" name="護身符禮盒-返回(修加特城鎮)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(修加特城鎮)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37464" type="EtcItem" name="護身符禮盒-返回(說話之島村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(說話之島村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37465" type="EtcItem" name="護身符禮盒-返回(精靈村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(精靈村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37466" type="EtcItem" name="護身符禮盒-返回(黑暗精靈村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(黑暗精靈村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37467" type="EtcItem" name="護身符禮盒-返回(半獸人村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(半獸人村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37468" type="EtcItem" name="護身符禮盒-返回(矮人村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(矮人村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37469" type="EtcItem" name="護身符禮盒-返回(芙羅蘭村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(芙羅蘭村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37470" type="EtcItem" name="護身符禮盒-返回(哈汀學院)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(哈汀學院)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37471" type="EtcItem" name="護身符禮盒-返回(象牙塔)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(象牙塔)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37472" type="EtcItem" name="護身符禮盒-返回(獵人村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(獵人村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37473" type="EtcItem" name="護身符禮盒-返回(肯特拉半獸人村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(肯特拉半獸人村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37474" type="EtcItem" name="護身符禮盒-返回(巴瑞卡賽勒諾斯村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(巴瑞卡賽勒諾斯村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37475" type="EtcItem" name="護身符禮盒-返回(英魂之島村莊)">
+		<table name="#Desc">點兩下的話，就可獲得護身符-返回(英魂之島村莊)。獲得的護身符無法交易/丟棄/利用個人商店/帳號內移轉。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37476" type="Weapon" name="覺醒勇士聖劍">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手劍類型時，攻擊速度會提升 。無法在奧林匹亞使用。闇天使種族可透過「轉換武器」技能轉換為細劍使用。</table>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37477" type="Weapon" name="覺醒勇士滅斬">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙手劍類型時，攻擊速度會提升 。無法在奧林匹亞使用。闇天使種族可透過「轉換武器」技能轉換為古代劍使用。</table>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37478" type="Weapon" name="覺醒勇士霸斧">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手鈍器類型時，攻擊速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37479" type="Weapon" name="覺醒勇士神杖">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手魔法鈍器類型時，施法速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="348" />
+			<set order="0x08" stat="mAtk" val="252" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37480" type="Weapon" name="覺醒勇士巨鎚">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙手鈍器類型時，攻擊速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_the_hammer_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="643" />
+			<set order="0x08" stat="mAtk" val="230" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37481" type="Weapon" name="覺醒勇士魔杖">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙手魔法鈍器類型時，施法速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="423" />
+			<set order="0x08" stat="mAtk" val="278" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37482" type="Weapon" name="覺醒勇士鬼殺">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手匕首類型時，攻擊速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="380" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="37483" type="Weapon" name="覺醒勇士殛牙">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備格鬥兵器類型時，攻擊速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37484" type="Weapon" name="覺醒勇士斷空">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備弓類型時，攻擊速度會提升 。無法在奧林匹亞使用。闇天使種族可透過「轉換武器」技能轉換為弩弓使用。</table>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="reuse_delay" val="1500" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="856" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="37485" type="Weapon" name="覺醒勇士鬥翼">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙刀類型時，攻擊速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37486" type="Weapon" name="覺醒勇士烈槍">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備長矛類型時，攻擊速度會提升 。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37487" type="Weapon" name="覺醒勇士瞬閃">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備細劍類型時，攻擊速度會提升 。無法在奧林匹亞使用。闇天使種族可透過「轉換武器」技能轉換為單手劍使用。</table>
+		<set name="icon" val="icon.weapon_infinity_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="479" />
+			<set order="0x08" stat="mAtk" val="230" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="37488" type="Weapon" name="覺醒勇士岩裂">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備古代劍類型時，攻擊速度會提升 。無法在奧林匹亞使用。闇天使種族可透過「轉換武器」技能轉換為雙手劍使用。</table>
+		<set name="icon" val="icon.weapon_infinity_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="572" />
+			<set order="0x08" stat="mAtk" val="230" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="37489" type="Weapon" name="覺醒勇士追魂">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備弩弓類型時，攻擊速度會提升 。無法在奧林匹亞使用。闇天使種族可透過「轉換武器」技能轉換為弓使用。</table>
+		<set name="icon" val="icon.weapon_infinity_shooter_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="771" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37490" type="EtcItem" name="覺醒勇士支援武器交換券">
+		<table name="#Desc">透過和維他命管理者對話可交換覺醒勇士的武器。\n\n注意：交換武器後，無法透過維他命管理者在相同帳號內轉移。</table>
+		<set name="icon" val="icon.etc_lottery_card_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37491" type="EtcItem" name="覺醒勇士支援用屬性原石禮盒">
+		<table name="#Desc">點兩下的話，可以獲得火/水/地/風/暗/聖之原石50個。無法使用於奧林匹亞。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37492" type="EtcItem" name="覺醒勇士支援用護身符禮盒">
+		<table name="#Desc">點兩下的話，可以獲得破滅的護身符1個。無法使用於奧林匹亞的道具。\n\n注意：開啟禮盒後獲得的「破滅的護身符」，無法透過維他命管理者來共享。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37493" type="EtcItem" name="頭飾外型復原石">
+		<table name="#Desc">可將加工過的頭飾外型還原成原狀。點兩下的話，系統就會開始執行。</table>
+		<set name="icon" val="Icon.restore_processing_stone_r_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37494" type="EtcItem" name="渾沌的精髓-雙職業用">
+		<table name="#Desc">蘊含著渾沌之力的神祕的精髓。拿去交給位於英魂之墓的「哈汀」的話，便能變更覺醒特化職業。只有雙職業才可使用。限時30日。</table>
+		<set name="icon" val="icon.etc_water_of_silen_i00" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="37495" type="EtcItem" name="林德拜爾之麟">
+		<table name="#Desc">從林德拜爾身上掉落的稀有麟片。含有林德拜爾的力量。</table>
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37496" type="EtcItem" name="騎乘麟紅龍技能書">
+		<table name="#Desc">點兩下的話，就可以學習騎乘麟紅龍。</table>
+		<set name="icon" val="icon.etc_kamael_skill_book_i01" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37497" type="Armor" name="林德拜爾殺手頭盔">
+		<table name="#Desc">授予挑戰林德拜爾成功之勇士的光榮的頭箍。</table>
+		<set name="icon" val="icon.br_noblesse_oblige_of_vesper_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="37498" type="EtcItem" name="次元之力">
+		<table name="#Desc">與次元攻城戰勝利的血盟一起擴散到世上的力量。使用時，增加攻擊速度10%、增加施法速度10%、增加移動速度10%。增加MP/HP最大值10%。冷卻時間60分鐘。無法在奧林匹亞使用。</table>
+		<set name="icon" val="icon.tersi_specter_seed" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37499" type="EtcItem" name="火之原石">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">用於武器時，可增強5的火之力量；用於防具時，可增強6的火之力量來強化對於水的抗性。屬性可從等級1開始賦予至等級3，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

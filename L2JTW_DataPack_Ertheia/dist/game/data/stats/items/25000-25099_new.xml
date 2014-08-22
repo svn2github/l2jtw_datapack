@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="25000" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/詛咒魔法反射</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予詛咒魔法反射3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25001" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/傷害反射抗性</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予傷害反射抗性5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25002" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/遠距離抗性</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予弓類/弩類抗性3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25003" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/物理防禦力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加物理防禦力3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25004" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/魔法防禦力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加魔法防禦力3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25005" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/屬性防禦</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予所有屬性防禦5的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25006" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/所受治癒量增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加所受治癒量3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25007" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/HP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加HP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25008" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/MP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加MP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25009" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/CP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加CP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25010" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/移動速度增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加移動速度3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25011" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/HP恢復增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加HP恢復5的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25012" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/MP恢復增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加MP恢復3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25013" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/迴避能力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加迴避/魔法迴避能力3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25014" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/精煉效果15</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予下級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25015" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/精煉效果16</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予下級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25016" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/精煉效果17</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予下級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25017" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/精煉效果18</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予下級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25018" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/精煉效果19</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予下級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25019" type="Armor" name="可愛女僕">
+		<table name="#Plus">下級/精煉效果20</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予下級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25020" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/詛咒魔法反射</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予詛咒魔法反射5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25021" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/傷害反射抗性</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予傷害反射抗性7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25022" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/遠距離抗性</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予弓類/弩類抗性5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25023" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/物理防禦力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加物理防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25024" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/魔法防禦力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25025" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/屬性防禦</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予所有屬性防禦7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25026" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/所受治癒量增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加所受治癒量7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25027" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/HP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加HP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25028" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/MP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加MP最大值5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25029" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/CP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加CP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25030" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/移動速度增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加移動速度7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25031" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/HP恢復增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加HP恢復8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25032" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/MP恢復增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加MP恢復4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25033" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/迴避能力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加迴避/魔法迴避能力4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25034" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/精煉效果15</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予中級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25035" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/精煉效果16</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予中級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25036" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/精煉效果17</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予中級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25037" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/精煉效果18</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予中級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25038" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/精煉效果19</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予中級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25039" type="Armor" name="可愛女僕">
+		<table name="#Plus">中級/精煉效果20</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予中級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25040" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/詛咒魔法反射</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予詛咒魔法反射10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25041" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/傷害反射抗性</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予傷害反射抗性15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25042" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/遠距離抗性</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予弓類/弩類抗性10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25043" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/物理防禦力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加物理防禦力10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25044" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/魔法防禦力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加魔法防禦力10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25045" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/屬性防禦</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予所有屬性防禦15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25046" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/所受治癒量增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加所受治癒量15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25047" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/HP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加HP最大值15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25048" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/MP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加MP最大值10%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25049" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/CP最大值增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加CP最大值15%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25050" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/移動速度增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加移動速度15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25051" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/HP恢復增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加HP恢復16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25052" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/MP恢復增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加MP恢復8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25053" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/迴避能力增加</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予增加迴避/魔法迴避能力8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25054" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/精煉效果15</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予上級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25055" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/精煉效果16</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予上級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25056" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/精煉效果17</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予上級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25057" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/精煉效果18</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予上級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25058" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/精煉效果19</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予上級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25059" type="Armor" name="可愛女僕">
+		<table name="#Plus">上級/精煉效果20</table>
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。外型變更時，將賦予上級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="25060" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/詛咒魔法反射</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予詛咒魔法反射3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25061" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/傷害反射抗性</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予傷害反射抗性5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25062" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/遠距離抗性</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予弓類/弩類抗性3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25063" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/物理防禦力增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加物理防禦力3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25064" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/魔法防禦力增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加魔法防禦力3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25065" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/屬性防禦</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予所有屬性防禦5的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25066" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/所受治癒量增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加所受治癒量3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25067" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/HP最大值增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25068" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/MP最大值增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25069" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/CP最大值增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加CP最大值3%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25070" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/移動速度增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加移動速度3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25071" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/HP恢復增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP恢復5的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25072" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/MP恢復增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP恢復3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25073" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/迴避能力增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加迴避/魔法迴避能力3的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25074" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/精煉效果15</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25075" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/精煉效果16</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25076" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/精煉效果17</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25077" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/精煉效果18</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25078" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/精煉效果19</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25079" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">下級/精煉效果20</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予下級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25080" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/詛咒魔法反射</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予詛咒魔法反射5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25081" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/傷害反射抗性</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予傷害反射抗性7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25082" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/遠距離抗性</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予弓類/弩類抗性5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25083" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/物理防禦力增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加物理防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25084" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/魔法防禦力增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25085" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/屬性防禦</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予所有屬性防禦7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25086" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/所受治癒量增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加所受治癒量7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25087" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/HP最大值增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25088" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/MP最大值增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP最大值5%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25089" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/CP最大值增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加CP最大值7%的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25090" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/移動速度增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加移動速度7的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25091" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/HP恢復增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加HP恢復8的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25092" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/MP恢復增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加MP恢復4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25093" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/迴避能力增加</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予增加迴避/魔法迴避能力4的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25094" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/精煉效果15</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果15的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25095" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/精煉效果16</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果16的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25096" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/精煉效果17</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果17的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25097" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/精煉效果18</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果18的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25098" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/精煉效果19</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果19的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25099" type="EtcItem" name="禮服加工石">
+		<table name="#Plus">中級/精煉效果20</table>
+		<table name="#Desc">可轉變成禮服外型的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為禮服型態，利用裝備外型復原卷軸可以將外型恢復為原狀。外型變更時，將賦予中級/精煉效果20的效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

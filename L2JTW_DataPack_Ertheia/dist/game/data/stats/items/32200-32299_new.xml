@@ -1,141 +1,1046 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="32226" name="說話之島移動卷軸" type="EtcItem">
+	<item id="32200" type="Armor" name="祝福的煉獄皮頭盔">
+		<table name="#Plus">暗殺型</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="126" />
+			<add order="0x10" stat="rEvas" val="1" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32201" type="Armor" name="祝福的煉獄皮甲">
+		<table name="#Plus">暗殺型</table>
+		<set name="icon" val="icon.armor_t602_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="26" />
+			<add order="0x10" stat="pDef" val="268" />
+			<add order="0x10" stat="rEvas" val="5" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32202" type="Armor" name="祝福的煉獄皮脛甲">
+		<table name="#Plus">暗殺型</table>
+		<set name="icon" val="icon.armor_t602_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="168" />
+			<set order="0x08" stat="rCrit" val="2" />
+			<add order="0x10" stat="rEvas" val="3" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32203" type="Armor" name="祝福的煉獄皮手套">
+		<table name="#Plus">暗殺型</table>
+		<set name="icon" val="icon.armor_t602_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<add order="0x10" stat="accCombat" val="1.0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32204" type="Armor" name="祝福的煉獄皮靴">
+		<table name="#Plus">暗殺型</table>
+		<set name="icon" val="icon.armor_t602_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32205" type="Armor" name="祝福的煉獄頭箍">
+		<table name="#Plus">魔法型</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="126" />
+			<add order="0x10" stat="rEvas" val="1" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32206" type="Armor" name="祝福的煉獄外衣">
+		<table name="#Plus">魔法型</table>
+		<set name="icon" val="icon.armor_t603_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="26" />
+			<add order="0x10" stat="mDef" val="41" />
+			<add order="0x10" stat="pDef" val="184" />
+			<add order="0x40" stat="maxMp" val="649" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32207" type="Armor" name="祝福的煉獄長襪">
+		<table name="#Plus">魔法型</table>
+		<set name="icon" val="icon.armor_t603_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="27" />
+			<add order="0x10" stat="pDef" val="115" />
+			<set order="0x08" stat="rCrit" val="2" />
+			<add order="0x40" stat="maxMp" val="427" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32208" type="Armor" name="祝福的煉獄手套">
+		<table name="#Plus">魔法型</table>
+		<set name="icon" val="icon.armor_t603_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<add order="0x10" stat="accCombat" val="1.0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32209" type="Armor" name="祝福的煉獄鞋">
+		<table name="#Plus">魔法型</table>
+		<set name="icon" val="icon.armor_t603_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32210" type="Armor" name="祝福的煉獄頭盔">
+		<table name="#Plus">防禦型</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="126" />
+			<add order="0x10" stat="rEvas" val="1" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32211" type="Armor" name="祝福的煉獄胸甲">
+		<table name="#Plus">防禦型</table>
+		<set name="icon" val="icon.armor_t401_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="26" />
+			<add order="0x10" stat="pDef" val="335" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32212" type="Armor" name="祝福的煉獄脛甲">
+		<table name="#Plus">防禦型</table>
+		<set name="icon" val="icon.armor_t401_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="209" />
+			<set order="0x08" stat="rCrit" val="2" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32213" type="Armor" name="祝福的煉獄護手">
+		<table name="#Plus">防禦型</table>
+		<set name="icon" val="icon.armor_t401_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<add order="0x10" stat="accCombat" val="1.0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32214" type="Armor" name="祝福的煉獄靴">
+		<table name="#Plus">防禦型</table>
+		<set name="icon" val="icon.armor_t401_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32215" type="Armor" name="祝福的煉獄盾">
+		<table name="#Plus">防禦型</table>
+		<table name="#Desc">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.kratere_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="458" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="32216" type="Armor" name="祝福的煉獄皮頭盔">
+		<table name="#Plus">強化型</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="126" />
+			<add order="0x10" stat="rEvas" val="1" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32217" type="Armor" name="祝福的煉獄皮甲">
+		<table name="#Plus">強化型</table>
+		<set name="icon" val="icon.armor_t602_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="26" />
+			<add order="0x10" stat="pDef" val="268" />
+			<add order="0x10" stat="rEvas" val="5" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32218" type="Armor" name="祝福的煉獄皮脛甲">
+		<table name="#Plus">強化型</table>
+		<set name="icon" val="icon.armor_t602_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="168" />
+			<set order="0x08" stat="rCrit" val="2" />
+			<add order="0x10" stat="rEvas" val="3" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32219" type="Armor" name="祝福的煉獄皮手套">
+		<table name="#Plus">強化型</table>
+		<set name="icon" val="icon.armor_t602_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<add order="0x10" stat="accCombat" val="1.0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32220" type="Armor" name="祝福的煉獄皮靴">
+		<table name="#Plus">強化型</table>
+		<set name="icon" val="icon.armor_t602_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32221" type="Armor" name="祝福的煉獄頭箍">
+		<table name="#Plus">恢復型</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="126" />
+			<add order="0x10" stat="rEvas" val="1" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32222" type="Armor" name="祝福的煉獄外衣">
+		<table name="#Plus">恢復型</table>
+		<set name="icon" val="icon.armor_t603_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="26" />
+			<add order="0x10" stat="mDef" val="41" />
+			<add order="0x10" stat="pDef" val="184" />
+			<add order="0x40" stat="maxMp" val="649" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32223" type="Armor" name="祝福的煉獄長襪">
+		<table name="#Plus">恢復型</table>
+		<set name="icon" val="icon.armor_t603_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="27" />
+			<add order="0x10" stat="pDef" val="115" />
+			<set order="0x08" stat="rCrit" val="2" />
+			<add order="0x40" stat="maxMp" val="427" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32224" type="Armor" name="祝福的煉獄手套">
+		<table name="#Plus">恢復型</table>
+		<set name="icon" val="icon.armor_t603_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<add order="0x10" stat="accCombat" val="1.0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32225" type="Armor" name="祝福的煉獄鞋">
+		<table name="#Plus">恢復型</table>
+		<set name="icon" val="icon.armor_t603_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="84" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32226" type="EtcItem" name="說話之島移動卷軸">
 		<table name="#Desc">能傳送至說話之島村莊的魔法卷軸。</table>
-		<set name="icon" val="icon.etc_scroll_of_return_i00"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="SCROLL"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="handler" val="ItemSkills"/>
-		<set name="item_skill" val="9224-1"/>
-		<cond msgId="113" addName="1">
-			<player flyMounted="false"/>
-		</cond>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="32249" name="無限木箭筒" type="EtcItem">
+	<item id="32227" type="EtcItem" name="覺醒之石">
+		<table name="#Desc">用於進行覺醒的憑證。</table>
+		<set name="icon" val="icon.destiny_stone" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="32228" type="EtcItem" name="強化劑小袋-D">
+		<table name="#Desc">內裝D級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32229" type="EtcItem" name="強化劑小袋-C(49)">
+		<table name="#Desc">內裝C級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32230" type="EtcItem" name="強化劑小袋-C(52)">
+		<table name="#Desc">內裝C級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32231" type="EtcItem" name="強化劑小袋-C(55)">
+		<table name="#Desc">內裝C級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32232" type="EtcItem" name="強化劑小袋-B(58)">
+		<table name="#Desc">內裝B級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32233" type="EtcItem" name="強化劑小袋-B(61)">
+		<table name="#Desc">內裝B級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32234" type="EtcItem" name="強化劑小袋-A(64)">
+		<table name="#Desc">內裝A級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32235" type="EtcItem" name="強化劑小袋-A(67)">
+		<table name="#Desc">內裝A級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32236" type="EtcItem" name="強化劑小袋-A(70)">
+		<table name="#Desc">內裝A級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32237" type="EtcItem" name="強化劑小袋-S(75)">
+		<table name="#Desc">內裝S級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32238" type="EtcItem" name="強化劑小袋-S(80)">
+		<table name="#Desc">內裝S級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32239" type="EtcItem" name="強化劑小袋-S(82)">
+		<table name="#Desc">內裝S級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32240" type="EtcItem" name="強化劑小袋-S(84)">
+		<table name="#Desc">內裝S級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32241" type="EtcItem" name="冒險家支援物品">
+		<table name="#Desc">內裝為了支援冒險家的物品之箱子。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="600" />
+	</item>
+	<item id="32242" type="EtcItem" name="強化劑小袋-C(46)">
+		<table name="#Desc">內裝C級強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32243" type="Armor" name="R護身符-物理攻擊力{被動}">
+		<table name="#Desc">裝備時，增加物理攻擊力2%。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="32244" type="Armor" name="R護身符-物理攻擊速度{被動}">
+		<table name="#Desc">裝備時，增加物理攻擊速度2%。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="32245" type="Armor" name="R護身符-魔法攻擊力{被動}">
+		<table name="#Desc">裝備時，增加魔法攻擊力2%。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="32246" type="Armor" name="R護身符-施法速度{被動}">
+		<table name="#Desc">裝備時，增加施法速度2%。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="32247" type="Armor" name="R護身符-詛咒魔法解除{主動}">
+		<table name="#Desc">使用時，解除所有的詛咒魔法。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="32248" type="Armor" name="R護身符-詛咒魔法解除{主動}">
+		<table name="#Desc">使用時，解除所有的詛咒魔法。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="600" />
+	</item>
+	<item id="32249" type="EtcItem" name="無限木箭筒">
 		<table name="#Desc">內裝用木頭製作的箭之箭筒。普通弓使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="ARROW"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32250" name="無限骨箭筒" type="EtcItem">
+	<item id="32250" type="EtcItem" name="無限骨箭筒">
 		<table name="#Desc">內裝將骨頭削尖製成的箭之箭筒。D級弓使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="ARROW"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="D"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32251" name="無限鐵箭筒" type="EtcItem">
+	<item id="32251" type="EtcItem" name="無限鐵箭筒">
 		<table name="#Desc">內裝用鋼鐵製成的強力箭之箭筒。C級弓使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_fine_steel_arrows_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="ARROW"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="C"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_fine_steel_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32252" name="無限銀箭筒" type="EtcItem">
+	<item id="32252" type="EtcItem" name="無限銀箭筒">
 		<table name="#Desc">內裝外表鍍銀的鋼鐵箭之箭筒。B級弓使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_silver_arrows_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="ARROW"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="B"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_silver_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32253" name="無限米索莉之箭筒" type="EtcItem">
+	<item id="32253" type="EtcItem" name="無限米索莉之箭筒">
 		<table name="#Desc">內裝外表鍍米索莉的鋼鐵箭之箭筒。A級弓使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="ARROW"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="A"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32254" name="無限閃耀箭筒" type="EtcItem">
+	<item id="32254" type="EtcItem" name="無限閃耀箭筒">
 		<table name="#Desc">內裝材質不明的箭之箭筒。S級弓使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_arrows_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="ARROW"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="S"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32255" name="無限奧里哈魯根箭筒" type="EtcItem">
+	<item id="32255" type="EtcItem" name="無限奧里哈魯根箭筒">
 		<table name="#Desc">內裝用奧里哈魯根合金製作的箭之箭筒。R級弓使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="ARROW"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32256" name="無限木製弩箭筒" type="EtcItem">
+	<item id="32256" type="EtcItem" name="無限木製弩箭筒">
 		<table name="#Desc">內裝用木頭製作的弩箭之箭筒。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32257" name="無限骨製弩箭筒" type="EtcItem">
+	<item id="32257" type="EtcItem" name="無限骨製弩箭筒">
 		<table name="#Desc">內裝將骨頭削尖製成的弩箭之箭筒。D級弩使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="D"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32258" name="無限鋼鐵弩箭筒" type="EtcItem">
+	<item id="32258" type="EtcItem" name="無限鋼鐵弩箭筒">
 		<table name="#Desc">內裝用鋼鐵製成的強力弩箭之箭筒。C級弩使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_fine_steel_bolts_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="C"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_fine_steel_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32259" name="無限銀弩箭筒" type="EtcItem">
+	<item id="32259" type="EtcItem" name="無限銀弩箭筒">
 		<table name="#Desc">內裝外表鍍銀的鋼鐵弩箭之箭筒。B級弩使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_silver_bolts_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="B"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_silver_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32260" name="無限米索莉弩箭筒" type="EtcItem">
+	<item id="32260" type="EtcItem" name="無限米索莉弩箭筒">
 		<table name="#Desc">內裝外表鍍米索莉的鋼鐵弩箭之箭筒。A級弩使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="A"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32261" name="無限閃耀弩箭筒" type="EtcItem">
+	<item id="32261" type="EtcItem" name="無限閃耀弩箭筒">
 		<table name="#Desc">內裝材質不明的弩箭之箭筒。S級弩使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_bolts_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="S"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="GOLD" />
 	</item>
-	<item id="32262" name="無限奧里哈魯根弩箭筒" type="EtcItem">
+	<item id="32262" type="EtcItem" name="無限奧里哈魯根弩箭筒">
 		<table name="#Desc">內裝用奧里哈魯根合金製作的弩箭之箭筒。R級弩使用。</table>
-		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="GOLD"/>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="32263" type="EtcItem" name="覺醒英雄的奧林匹亞寶箱">
+		<table name="#Desc">覺醒英雄的奧林匹亞寶箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32264" type="EtcItem" name="內含亞貝里烏斯力量之箱">
+		<table name="#Plus">席格爾騎士</table>
+		<table name="#Desc">內含亞貝里烏斯力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32265" type="EtcItem" name="內含薩菲洛斯力量之箱">
+		<table name="#Plus">提爾鬥士</table>
+		<table name="#Desc">內含薩菲洛斯力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32266" type="EtcItem" name="內含凱修納格力量之箱">
+		<table name="#Plus">歐瑟遊俠</table>
+		<table name="#Desc">內含凱修納格力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32267" type="EtcItem" name="內含克倫畢斯特力量之箱">
+		<table name="#Plus">尤爾弓手</table>
+		<table name="#Desc">內含克倫畢斯特力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32268" type="EtcItem" name="內含索特克里格力量之箱">
+		<table name="#Plus">菲歐巫師</table>
+		<table name="#Desc">內含索特克里格力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32269" type="EtcItem" name="內含納比亞羅普力量之箱">
+		<table name="#Plus">維因召喚士</table>
+		<table name="#Desc">內含納比亞羅普力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32270" type="EtcItem" name="內含拉伊斯特力量之箱">
+		<table name="#Plus">伊斯法師</table>
+		<table name="#Desc">內含拉伊斯特力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32271" type="EtcItem" name="內含拉奇西斯力量之箱">
+		<table name="#Plus">艾羅牧師</table>
+		<table name="#Desc">內含拉奇西斯力量之箱。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32272" type="EtcItem" name="遠征隊支援報酬箱">
+		<table name="#Desc">提供給志願加入安塔瑞斯遠征隊者的寶箱。打開寶箱的話，就可得到歐瑞領主 班卓斯的獎勵。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32273" type="EtcItem" name="製作卷軸(人類男性戰士假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作人類男性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32274" type="EtcItem" name="製作卷軸(人類女性戰士假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作人類女性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32275" type="EtcItem" name="製作卷軸(人類男性法師假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作人類男性法師假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32276" type="EtcItem" name="製作卷軸(人類女性法師假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作人類女性法師假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32277" type="EtcItem" name="製作卷軸(精靈男性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作精靈男性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32278" type="EtcItem" name="製作卷軸(精靈女性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作精靈女性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32279" type="EtcItem" name="製作卷軸(黑暗精靈男性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作黑暗精靈男性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32280" type="EtcItem" name="製作卷軸(黑暗精靈女性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作黑暗精靈女性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32281" type="EtcItem" name="製作卷軸(矮人男性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作矮人男性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32282" type="EtcItem" name="製作卷軸(矮人女性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作矮人女性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32283" type="EtcItem" name="製作卷軸(半獸人男性戰士假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作半獸人男性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32284" type="EtcItem" name="製作卷軸(半獸人女性戰士假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作半獸人女性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32285" type="EtcItem" name="製作卷軸(半獸人男性巫醫假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作半獸人男性巫醫假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32286" type="EtcItem" name="製作卷軸(半獸人女性巫醫假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作半獸人女性巫醫假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32287" type="EtcItem" name="製作卷軸(闇天使男性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作闇天使男性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32288" type="EtcItem" name="製作卷軸(闇天使女性假髮100%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作闇天使女性假髮的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32289" type="Armor" name="奧林匹亞守護勇士的戒指">
+		<table name="#Desc">奧林匹亞守護勇士的戒指。可以裝備30天的限時道具。可得到MP+28的效果。</table>
+		<set name="icon" val="icon.accessory_ring_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="87" />
+			<add order="0x40" stat="maxMp" val="28" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="32290" type="Armor" name="奧林匹亞守護勇士的項鍊">
+		<table name="#Desc">奧林匹亞守護勇士的項鍊。可以裝備30天的限時道具。可得到MP+57的效果。</table>
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="174" />
+			<add order="0x40" stat="maxMp" val="57" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="32291" type="Armor" name="奧林匹亞守護勇士的耳環">
+		<table name="#Desc">奧林匹亞守護勇士的耳環。可以裝備30天的限時道具。可得到MP+42的效果。</table>
+		<set name="icon" val="icon.accessory_earring_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="131" />
+			<add order="0x40" stat="maxMp" val="42" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="32292" type="EtcItem" name="製作卷軸(永生腰帶60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作永生腰帶的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32293" type="EtcItem" name="製作卷軸(永生手鐲60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作永生手鐲的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32294" type="EtcItem" name="製作卷軸(永生襯衫60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作永生襯衫的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32295" type="EtcItem" name="製作卷軸(煉獄腰帶60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作煉獄腰帶的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32296" type="EtcItem" name="製作卷軸(煉獄手鐲60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作煉獄手鐲的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32297" type="EtcItem" name="製作卷軸(煉獄襯衫60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作煉獄襯衫的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32298" type="EtcItem" name="製作卷軸(卡戴拉腰帶60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作卡戴拉腰帶的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32299" type="EtcItem" name="製作卷軸(卡戴拉手鐲60%)">
+		<table name="#Desc">四次轉職後所有職業皆可使用。製作卡戴拉手鐲的製作卷軸。需要製作一般道具技能10級，成功率為60%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
 	</item>
 </list>

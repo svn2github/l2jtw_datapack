@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="25800" type="EtcItem" name="卡爾提亞迷宮入場券-等級95隊伍">
+		<table name="#Desc">由卡爾提亞研究組織轉達給冒險家們的卡爾提亞迷宮入場券。使用這張入場券的話，可將等級95隊伍地區的歸屬初始化。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="25801" type="Armor" name="高迪壺精手鐲">
+		<table name="#Desc">可以召喚高迪壺精的手鐲。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="25802" type="Armor" name="寵侍之瞳壺精手鐲">
+		<table name="#Desc">可以召喚寵侍之瞳壺精的手鐲。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="25803" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">獅子座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、獅子座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25804" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25805" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25806" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">處女座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、處女座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25807" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25808" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25809" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">天秤座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、天秤座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25810" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25811" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25812" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">天蠍座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、天蠍座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25813" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25814" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25815" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">射手座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、射手座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25816" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25817" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25818" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">魔羯座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、魔羯座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25819" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25820" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25821" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">水瓶座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、水瓶座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25822" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25823" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25824" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">雙魚座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、雙魚座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25825" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25826" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25827" type="EtcItem" name="幸運盒1">
+		<table name="#Plus">牡羊座</table>
+		<table name="#Desc">以一定的機率可以獲得封印的憧憬的護身符、不變的祕傳書、豐饒護身符、艾斯恩、破壞之力20個/箱、巨人之力、R95最上級精煉組、R99最上級精煉組、牡羊座壺精手鐲道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25828" type="EtcItem" name="幸運盒2">
+		<table name="#Desc">以一定的機率可以獲得古代武器強化結晶-R級、古代防具強化結晶-R級、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、巨人武器強化卷軸-R級、祝福的武器強化卷軸-R級、祝福的武器用強化輔助石-R級、祝福的高級武器強化輔助石-R級、祝福的防具強化卷軸-R級、下巨人武器用強化輔助石-R級、祝福的防具用強化輔助石-R級、武器用高級強化輔助石-R級、祝福的高級防具強化輔助石-R級、巨人防具強化卷軸-R級、下巨人防具用強化輔助石-R級、防具用高級強化輔助石-R級、武器強化卷軸-R級、防具強化卷軸-R級道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25829" type="EtcItem" name="幸運盒3">
+		<table name="#Desc">以一定的機率可以獲得經驗值古文 100%（30日）組、梅芙上級古文 100%組、戰鬥貓玫瑰禮盒、帕格立歐的暖風-1小時禮盒、驅魔之力、國王的成長卷軸、祝福的羽毛 1張/組、文字收藏家的禮物、神秘的健康果汁(HP/CP)、寶石-R級、天堂恢復藥水道具中之一。</table>
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25830" type="EtcItem" name="殷海薩強化石">
+		<table name="#Desc">透過維他命管理者可將已強化至+3以上的鎮魂武器、英啟武器強化至+10。強化時，就算不使用各類卷軸與材料，也絕對不會失敗。</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25831" type="EtcItem" name="+4鎮魂鉋刀禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25832" type="EtcItem" name="+5鎮魂鉋刀禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25833" type="EtcItem" name="+6鎮魂鉋刀禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25834" type="EtcItem" name="+7鎮魂鉋刀禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25835" type="EtcItem" name="+8鎮魂鉋刀禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25836" type="EtcItem" name="+9鎮魂鉋刀禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25837" type="EtcItem" name="+10鎮魂鉋刀禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25838" type="EtcItem" name="+4鎮魂切刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25839" type="EtcItem" name="+5鎮魂切刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25840" type="EtcItem" name="+6鎮魂切刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25841" type="EtcItem" name="+7鎮魂切刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25842" type="EtcItem" name="+8鎮魂切刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25843" type="EtcItem" name="+9鎮魂切刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25844" type="EtcItem" name="+10鎮魂切刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25845" type="EtcItem" name="+4鎮魂殺刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25846" type="EtcItem" name="+5鎮魂殺刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25847" type="EtcItem" name="+6鎮魂殺刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25848" type="EtcItem" name="+7鎮魂殺刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25849" type="EtcItem" name="+8鎮魂殺刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25850" type="EtcItem" name="+9鎮魂殺刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25851" type="EtcItem" name="+10鎮魂殺刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25852" type="EtcItem" name="+4鎮魂復仇者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25853" type="EtcItem" name="+5鎮魂復仇者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25854" type="EtcItem" name="+6鎮魂復仇者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25855" type="EtcItem" name="+7鎮魂復仇者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25856" type="EtcItem" name="+8鎮魂復仇者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25857" type="EtcItem" name="+9鎮魂復仇者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25858" type="EtcItem" name="+10鎮魂復仇者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25859" type="EtcItem" name="+4鎮魂戰爪禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25860" type="EtcItem" name="+5鎮魂戰爪禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25861" type="EtcItem" name="+6鎮魂戰爪禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25862" type="EtcItem" name="+7鎮魂戰爪禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25863" type="EtcItem" name="+8鎮魂戰爪禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25864" type="EtcItem" name="+9鎮魂戰爪禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25865" type="EtcItem" name="+10鎮魂戰爪禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25866" type="EtcItem" name="+4鎮魂風暴者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25867" type="EtcItem" name="+5鎮魂風暴者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25868" type="EtcItem" name="+6鎮魂風暴者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25869" type="EtcItem" name="+7鎮魂風暴者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25870" type="EtcItem" name="+8鎮魂風暴者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25871" type="EtcItem" name="+9鎮魂風暴者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25872" type="EtcItem" name="+10鎮魂風暴者禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25873" type="EtcItem" name="+4鎮魂投弓禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25874" type="EtcItem" name="+5鎮魂投弓禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25875" type="EtcItem" name="+6鎮魂投弓禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25876" type="EtcItem" name="+7鎮魂投弓禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25877" type="EtcItem" name="+8鎮魂投弓禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25878" type="EtcItem" name="+9鎮魂投弓禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25879" type="EtcItem" name="+10鎮魂投弓禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25880" type="EtcItem" name="+4鎮魂射靈禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25881" type="EtcItem" name="+5鎮魂射靈禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25882" type="EtcItem" name="+6鎮魂射靈禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25883" type="EtcItem" name="+7鎮魂射靈禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25884" type="EtcItem" name="+8鎮魂射靈禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25885" type="EtcItem" name="+9鎮魂射靈禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25886" type="EtcItem" name="+10鎮魂射靈禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25887" type="EtcItem" name="+4鎮魂爆刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25888" type="EtcItem" name="+5鎮魂爆刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25889" type="EtcItem" name="+6鎮魂爆刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25890" type="EtcItem" name="+7鎮魂爆刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25891" type="EtcItem" name="+8鎮魂爆刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25892" type="EtcItem" name="+9鎮魂爆刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25893" type="EtcItem" name="+10鎮魂爆刃禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25894" type="EtcItem" name="+4鎮魂術杖禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25895" type="EtcItem" name="+5鎮魂術杖禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25896" type="EtcItem" name="+6鎮魂術杖禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25897" type="EtcItem" name="+7鎮魂術杖禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25898" type="EtcItem" name="+8鎮魂術杖禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="25899" type="EtcItem" name="+9鎮魂術杖禮盒">
+		<table name="#Desc">點兩下時，可得到與道具名稱相同的物品。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

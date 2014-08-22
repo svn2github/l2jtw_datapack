@@ -1,66 +1,983 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="19440" name="寶石-R級" type="EtcItem">
-		<set name="icon" val="icon.etc_bead_gold_i00"/>
-		<set name="etcitem_type" val="MATERIAL"/>
-		<set name="material" val="LIQUID"/>
-		<set name="weight" val="2"/>
-		<set name="is_stackable" val="true"/>
+	<item id="19400" type="EtcItem" name="製作卷軸(未確認的卡戴拉頭箍60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉頭箍的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="19441" name="魔靈彈-R級" type="EtcItem">
+	<item id="19401" type="EtcItem" name="製作卷軸(未確認的卡戴拉外衣60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉外衣的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19402" type="EtcItem" name="製作卷軸(未確認的卡戴拉長襪60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉長襪的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19403" type="EtcItem" name="製作卷軸(未確認的卡戴拉手套60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉手套的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19404" type="EtcItem" name="製作卷軸(未確認的卡戴拉鞋60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉鞋的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19405" type="EtcItem" name="製作卷軸(未確認的卡戴拉符印60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉符印的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19406" type="EtcItem" name="製作卷軸(未確認的卡戴拉項鍊60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉項鍊的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19407" type="EtcItem" name="製作卷軸(未確認的卡戴拉耳環60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉耳環的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19408" type="EtcItem" name="製作卷軸(未確認的卡戴拉戒指60%)">
+		<table name="#Desc">矮人專用。製作卡戴拉戒指的製作卷軸。需要道具製作技能13級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19409" type="EtcItem" name="製作卷軸(未確認的赫利奧斯鉋刀60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯鉋刀的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19410" type="EtcItem" name="製作卷軸(未確認的赫利奧斯切刃60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯切刃的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19411" type="EtcItem" name="製作卷軸(未確認的赫利奧斯殺刃60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯殺刃的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19412" type="EtcItem" name="製作卷軸(未確認的赫利奧斯復仇者60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯復仇者的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19413" type="EtcItem" name="製作卷軸(未確認的赫利奧斯戰爪60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯戰爪的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19414" type="EtcItem" name="製作卷軸(未確認的赫利奧斯風暴者60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯風暴者的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19415" type="EtcItem" name="製作卷軸(未確認的赫利奧斯投弓60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯投弓的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19416" type="EtcItem" name="製作卷軸(未確認的赫利奧斯射靈60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯射靈的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19417" type="EtcItem" name="製作卷軸(未確認的赫利奧斯爆刃60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯爆刃的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19418" type="EtcItem" name="製作卷軸(未確認的赫利奧斯術杖60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯術杖的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19419" type="EtcItem" name="製作卷軸(未確認的赫利奧斯報恨者60%)">
+		<table name="#Desc">矮人專用。製作赫利奧斯報恨者的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19420" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯頭盔60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯頭盔的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19421" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯胸甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯胸甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19422" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯脛甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯脛甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19423" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯護手60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯長手套的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19424" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯靴60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯長靴的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19425" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯盾60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯盾的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19426" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮頭盔60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮頭盔的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19427" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮胸甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19428" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮脛甲60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮脛甲的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19429" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮手套60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮手套的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19430" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯皮靴60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯皮靴的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19431" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯頭箍60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯頭箍的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19432" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯外衣60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯外衣的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19433" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯長襪60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯長襪的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19434" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯手套60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯手套的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19435" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯鞋60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯鞋的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19436" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯符印60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯符印的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19437" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯項鍊60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯項鍊的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19438" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯耳環60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯耳環的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19439" type="EtcItem" name="製作卷軸(未確認的艾迪奧斯戒指60%)">
+		<table name="#Desc">矮人專用。製作艾迪奧斯戒指的製作卷軸。需要道具製作技能14級，成功率為60%。成功時，將隨機出現束縛/一般/祝福。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19440" type="EtcItem" name="寶石-R級">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19441" type="EtcItem" name="魔靈彈-R級">
 		<table name="#Desc">上級精靈之光加持於武器，暫時大幅強化魔法的威力。R級武器專用。</table>
-		<set name="icon" val="icon.spiritshot_r_i00"/>
-		<set name="default_action" val="SPIRITSHOT"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="PAPER"/>
-		<set name="weight" val="1"/>
-		<set name="is_stackable" val="true"/>
-		<set name="handler" val="SpiritShot"/>
-		<set name="item_skill" val="9194-1"/>
+		<set name="icon" val="icon.spiritshot_r_i00" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="19442" name="祝福的魔靈彈-R級" type="EtcItem">
+	<item id="19442" type="EtcItem" name="祝福的魔靈彈-R級">
 		<table name="#Desc">上級精靈之光加持於武器，暫時大幅強化魔法的威力。R級武器專用。</table>
-		<set name="icon" val="icon.blessed_spiritshot_r_i00"/>
-		<set name="default_action" val="SPIRITSHOT"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="PAPER"/>
-		<set name="weight" val="1"/>
-		<set name="is_stackable" val="true"/>
-		<set name="handler" val="BlessedSpiritShot"/>
-		<set name="item_skill" val="9195-1"/>
+		<set name="icon" val="icon.blessed_spiritshot_r_i00" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="19443" name="奧里哈魯根弩箭" type="EtcItem">
+	<item id="19443" type="EtcItem" name="奧里哈魯根弩箭">
 		<table name="#Desc">用奧里哈魯根合金製成的弩箭。R級弩使用。</table>
-		<set name="icon" val="icon.etc_oricalcum_bolt_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="etcitem_type" val="BOLT"/>
-		<set name="bodypart" val="lhand"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="MITHRIL"/>
-		<set name="is_stackable" val="true"/>
+		<set name="icon" val="icon.etc_oricalcum_bolt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="MITHRIL" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="19447" name="祝福的武器強化卷軸-R級" type="EtcItem">
+	<item id="19444" type="EtcItem" name="束縛解除卷軸-R級">
+		<table name="#Desc">透過財富的鐵匠可以將R級束縛的道具轉換為一般道具。以極低的機率也有可能轉換為祝福的道具。</table>
+		<set name="icon" val="icon.cursed_free_r" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19445" type="EtcItem" name="束縛解除卷軸-R95級">
+		<table name="#Desc">透過財富的鐵匠可以將R95級束縛的道具轉換為一般道具。以極低的機率也有可能轉換為祝福的道具。</table>
+		<set name="icon" val="icon.cursed_free_r95" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19446" type="EtcItem" name="束縛解除卷軸-R99級">
+		<table name="#Desc">透過財富的鐵匠可以將R99級束縛的道具轉換為一般道具。以極低的機率也有可能轉換為祝福的道具。</table>
+		<set name="icon" val="icon.cursed_free_r99" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19447" type="EtcItem" name="祝福的武器強化卷軸-R級">
 		<table name="#Desc">強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
-		<set name="icon" val="icon.blessed_scroll_of_enchant_weapon_i06"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP"/>
-		<set name="material" val="PAPER"/>
-		<set name="weight" val="120"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="9187-1"/>
+		<set name="icon" val="icon.blessed_scroll_of_enchant_weapon_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="19448" name="祝福的防具強化卷軸-R級" type="EtcItem">
+	<item id="19448" type="EtcItem" name="祝福的防具強化卷軸-R級">
 		<table name="#Desc">強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始將大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
-		<set name="icon" val="icon.blessed_scroll_of_enchant_armor_i06"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM"/>
-		<set name="material" val="PAPER"/>
-		<set name="weight" val="120"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="9196-1"/>
+		<set name="icon" val="icon.blessed_scroll_of_enchant_armor_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19449" type="Armor" name="巨人手鐲">
+		<table name="#Desc">裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="19450" type="EtcItem" name="義氣證書">
+		<table name="#Desc">順利完成任務的人領取的證書，可與裝備交換。</table>
+		<set name="icon" val="icon.item_normal52" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19451" type="Armor" name="伊絲蒂娜戒指">
+		<table name="#Desc">賦予裝備者MP+37、命中能力提升3、致命攻擊率提升54.4、水屬性抗性提升20的效果。即使戴上兩個伊絲蒂娜戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.istina_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="103" />
+			<add order="0x40" stat="maxMp" val="37" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19452" type="Armor" name="伊絲蒂娜耳環">
+		<table name="#Desc">賦予裝備者MP+56、休克抗性提升30%、休克攻擊提升30%、吸血怒擊、風屬性抗性效果。即使戴上兩個伊絲蒂娜耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.istina_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="154" />
+			<add order="0x40" stat="maxMp" val="56" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19453" type="Armor" name="伊絲蒂娜項鍊">
+		<table name="#Desc">賦予裝備者MP+74、神聖屬性抗性提升35、技能使用冷卻時間縮短、還擊護盾的效果。</table>
+		<set name="icon" val="icon.istina_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="205" />
+			<add order="0x40" stat="maxMp" val="74" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19454" type="Armor" name="伊絲蒂娜腰帶">
+		<table name="#Desc">增加HP的恢復、道具欄位擴充6格。</table>
+		<set name="icon" val="icon.istina_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19455" type="Armor" name="伊絲蒂娜手鐲">
+		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位5格。</table>
+		<set name="icon" val="icon.istina_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="19456" type="Armor" name="伊絲蒂娜襯衫">
+		<table name="#Desc">裝備伊絲蒂娜襯衫時，增加STR2、DEX1、CON2、INT2、WIT1、MEN2，增加移動速度7的效果。增加對水的抗性30。</table>
+		<set name="icon" val="icon.istina_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19457" type="Armor" name="歐塔比斯戒指">
+		<table name="#Desc">賦予裝備者MP+37、致命傷害提升、火屬性抗性提升20的效果。即使戴上兩個歐塔比斯戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.octavis_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="103" />
+			<add order="0x40" stat="maxMp" val="37" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19458" type="Armor" name="歐塔比斯耳環">
+		<table name="#Desc">賦予裝備者MP+56、束縛/睡眠抗性提升40%、束縛/睡眠攻擊提升40%、地屬性抗性提升30的效果。即使戴上兩個歐塔比斯耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.octavis_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="154" />
+			<add order="0x40" stat="maxMp" val="56" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19459" type="Armor" name="歐塔比斯項鍊">
+		<table name="#Desc">賦予裝備者MP+74、黑暗屬性抗性提升35、物理技能攻擊力增加的效果。</table>
+		<set name="icon" val="icon.octavis_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="205" />
+			<add order="0x40" stat="maxMp" val="74" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19460" type="Armor" name="歐塔比斯腰帶">
+		<table name="#Desc">增加MP的恢復、可攜帶的重量增加13000。</table>
+		<set name="icon" val="icon.octavis_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19461" type="Armor" name="歐塔比斯手鐲">
+		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位5格。</table>
+		<set name="icon" val="icon.octavis_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="19462" type="Armor" name="歐塔比斯襯衫">
+		<table name="#Desc">裝備歐塔比斯襯衫時，增加STR2、DEX1、CON2、INT2、WIT1、MEN2，增加移動速度7的效果。增加對黑暗的抗性30。</table>
+		<set name="icon" val="icon.octavis_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19463" type="Armor" name="祝福的安塔瑞斯耳環">
+		<table name="#Desc">賦予裝備者MP+59、出血抗性提升50%、出血攻擊率提升50%、治癒量提升、吸血怒擊、衝擊/精神異常抗性提升40%、衝擊/精神異常攻擊率提升40%、降低物理/魔法技能的MP消耗量、大地屬性防禦提升、神聖屬性防禦提升、CON+3、MEN+3的效果。物理/魔法防禦力提升。可以使用衝擊解除技能，並暫時增加衝擊抗性100%。即使戴上兩個祝福的安塔瑞斯耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="170" />
+			<add order="0x40" stat="maxMp" val="59" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19464" type="Armor" name="祝福的巴拉卡斯項鍊">
+		<table name="#Desc">賦予裝備者HP+625、MP+79、睡眠抗性提升50%、睡眠攻擊率提升50%、縮短物理/魔法技能的使用冷卻時間、野性魔力、還擊護盾、火屬性防禦提升30、黑暗屬性防禦提升20、STR+3、INT+3的效果。物理技能攻擊力提升5%、物理攻擊力提升10%、魔法攻擊力提升20%；可以使用束縛解除技能，並暫時增加束縛抗性100%。</table>
+		<set name="icon" val="icon.accessory_necklace_of_valakas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="226" />
+			<add order="0x40" stat="maxMp" val="79" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="19465" type="EtcItem" name="裝有安塔瑞斯靈魂之瓶">
+		<table name="#Desc">帶去交給雷普利就可以在安塔瑞斯耳環上賦予安塔瑞斯的靈魂。</table>
+		<set name="icon" val="icon.bottle_of_antalas_soul_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19466" type="EtcItem" name="裝有巴拉卡斯靈魂之瓶">
+		<table name="#Desc">帶去交給雷普利就可以在巴拉卡斯項鍊上賦予巴拉卡斯的靈魂。</table>
+		<set name="icon" val="icon.bottle_of_valakas_soul_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19467" type="EtcItem" name="黃色搜魂石碎片-R99級">
+		<table name="#Desc">可吸收靈魂的傳說的黃光水晶破片 - R99級。收集10個的話，可以組成一個完整的水晶。</table>
+		<set name="icon" val="icon.r99_soul_stone_piece_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19468" type="EtcItem" name="藍綠色搜魂石碎片-R99級">
+		<table name="#Desc">可吸收靈魂的傳說的藍綠光水晶破片 - R99級。收集10個的話，可以組成一個完整的水晶。</table>
+		<set name="icon" val="icon.r99_soul_stone_piece_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19469" type="EtcItem" name="紫色搜魂石碎片-R99級">
+		<table name="#Desc">可吸收靈魂的傳說的紫光水晶破片 - R99級。收集10個的話，可以組成一個完整的水晶。</table>
+		<set name="icon" val="icon.r99_soul_stone_piece_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19470" type="Armor" name="永生腰帶">
+		<table name="#Desc">可利用R級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19471" type="Armor" name="永生手鐲">
+		<table name="#Desc">MP+187。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r1_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="187" />
+		</for>
+	</item>
+	<item id="19472" type="Armor" name="永生襯衫">
+		<set name="icon" val="icon.r1_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="38" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19473" type="Armor" name="煉獄腰帶">
+		<table name="#Desc">可利用R級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r2_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19474" type="Armor" name="煉獄手鐲">
+		<table name="#Desc">MP+204。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="204" />
+		</for>
+	</item>
+	<item id="19475" type="Armor" name="煉獄襯衫">
+		<set name="icon" val="icon.r2_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19476" type="Armor" name="卡戴拉腰帶">
+		<table name="#Desc">可利用R95級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r95_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19477" type="Armor" name="卡戴拉手鐲">
+		<table name="#Desc">MP+216。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r95_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="19478" type="Armor" name="卡戴拉襯衫">
+		<set name="icon" val="icon.r95_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19479" type="Armor" name="艾迪奧斯腰帶">
+		<table name="#Desc">可利用R99級魔法古文夾、魔法飾品來附加功能。</table>
+		<set name="icon" val="icon.r991_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19480" type="Armor" name="艾迪奧斯手鐲">
+		<table name="#Desc">MP+225。裝備時，可啟用護身符欄位五格。</table>
+		<set name="icon" val="icon.r991_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="225" />
+		</for>
+	</item>
+	<item id="19481" type="Armor" name="艾迪奧斯襯衫">
+		<set name="icon" val="icon.r991_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="19482" type="EtcItem" name="象牙塔配送物品">
+		<table name="#Desc">需要轉交給象牙塔的物品。透過歐瑞城鎮的傳送門移動到象牙塔之後，將此物轉交給在3樓精靈巫師公會的教師 瓊恩即可。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="19483" type="EtcItem" name="研究材料">
+		<table name="#Desc">為了執行象牙塔的任務所需收集的物品。將此全部收集後，拿去交給在3樓精靈巫師公會的教師 瓊恩即可。</table>
+		<set name="icon" val="icon.etc_oil_pot_white_i00" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="19484" type="EtcItem" name="無法者的憑證">
+		<table name="#Desc">擊倒無法者的森林的怪物們後，作為證據收集起來的憑證。若已成功收集約定的數量，就可拿到歐瑞城鎮的警衛隊長 牟恩之處領取酬勞。</table>
+		<set name="icon" val="icon.etc_jewel_green_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19485" type="EtcItem" name="咒術士的憑證">
+		<table name="#Desc">擊倒無法者的森林的怪物們後，作為證據收集起來的憑證。若已成功收集約定的數量，就可拿到歐瑞城鎮的警衛隊長 牟恩之處領取酬勞。</table>
+		<set name="icon" val="icon.etc_jewel_blue_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19486" type="EtcItem" name="魔物的痕跡">
+		<table name="#Desc">擊倒無法者的森林的怪物們後，作為證據收集起來的證據物品。若已成功收集約定的數量，就可拿到歐瑞城鎮的警衛隊長 牟恩之處領取酬勞。</table>
+		<set name="icon" val="icon.etc_debris_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19487" type="EtcItem" name="勒加希核心">
+		<table name="#Desc">從忘卻平原的魔物們取得的物品。收集足夠的數量之後，拿去交給亞丁城鎮的警衛隊長 克帝茲。</table>
+		<set name="icon" val="icon.etc_black_freezing_core_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19488" type="EtcItem" name="純淨勒加希核心">
+		<table name="#Desc">從忘卻平原的魔物們取得的物品。收集足夠的數量之後，拿去交給亞丁城鎮的魔法師公會的教師 戴斯蒙。</table>
+		<set name="icon" val="icon.etc_freezing_core_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19489" type="EtcItem" name="失去光澤的靈魂">
+		<table name="#Desc">擊倒聖者之谷的怪物們後獲得的靈魂碎片。若已收齊的話，拿去交給魯因城鎮的大神官 阿格利貝爾。</table>
+		<set name="icon" val="icon.etc_powder_gray_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19490" type="EtcItem" name="野牛之肉">
+		<table name="#Desc">修加特城鎮的警衛隊長 維沙茲奇為了防範未來可能面臨的危機，而委託從寒冬迷宮收集回來的野牛肉。</table>
+		<set name="icon" val="icon.etc_meat_of_monstereye_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19491" type="EtcItem" name="黑熊之肉">
+		<table name="#Desc">修加特城鎮的警衛隊長 維沙茲奇為了防範未來可能面臨的危機，而委託從寒冬迷宮收集回來的黑熊肉。</table>
+		<set name="icon" val="icon.etc_meat_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19492" type="EtcItem" name="雪人之肉">
+		<table name="#Desc">修加特城鎮的警衛隊長 維沙茲奇為了防範未來可能面臨的危機，而委託從寒冬迷宮收集回來的雪人肉。</table>
+		<set name="icon" val="icon.etc_bodypart_liver_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19493" type="EtcItem" name="謎樣的信函">
+		<table name="#Desc">魯因城鎮的防具商人 艾麗莎遞交的信件。拿去交給滯留在魯因城鎮魔法師公會的大巫師 帝法琳。</table>
+		<set name="icon" val="icon.item_normal20" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="19494" type="EtcItem" name="謎樣的信函">
+		<table name="#Desc">滯留在魯因城鎮魔法師公會的大巫師 帝法琳遞交的信件。拿去交給在亡者的森林的謎樣的魔法師。</table>
+		<set name="icon" val="icon.item_normal20" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="19495" type="EtcItem" name="魔物的灰燼">
+		<table name="#Desc">從燃燒的沼澤的魔物們取得的物品。收集足夠的數量之後，拿去交給在亞丁城鎮殷海薩神殿的神官 羅斯。</table>
+		<set name="icon" val="icon.etc_powder_gray_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19496" type="EtcItem" name="血之淚">
+		<table name="#Desc">擊倒亞爾古斯之壁的魔物們後獲得的血淚。收集足夠的數量之後，拿去交給位於高達特城鎮魔法師公會的教師 傑斯提。</table>
+		<set name="icon" val="icon.etc_dragons_blood_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19497" type="EtcItem" name="溫泉水">
+		<table name="#Desc">從溫泉地帶的魔物們奪取的物品。收集足夠的數量之後，拿去交給原主人-亞丁城鎮的倉庫管理員 巴德拉的話，就能得到獎勵。</table>
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19498" type="EtcItem" name="司塔卡拓的皮">
+		<table name="#Desc">從悲鳴的沼澤的魔物們手中取得的物品。好好收集的話，或許能賺到錢。全部收齊後，拿去交給在悲鳴的沼澤附近的黃金羊傭兵團傭兵隊補給官 亞柏克隆比後，領取酬勞吧。</table>
+		<set name="icon" val="icon.etc_parasite_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="19499" type="EtcItem" name="線索物品">
+		<table name="#Desc">從帝國之墓的魔物們手中取得的線索。收集足夠的數量之後，拿去交給在高達特城鎮倉庫的潘蜜拉 阿芙羅蒂雅。</table>
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
 	</item>
 </list>

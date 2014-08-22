@@ -1,0 +1,2674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="35100" type="Weapon" name="黑暗赫利奧斯風暴者">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35101" type="Weapon" name="黑暗赫利奧斯投弓">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予傷害提升、弱點偵測、遠程打擊其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35102" type="Weapon" name="黑暗赫利奧斯射靈">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予弱點偵測、Crt.緩速、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_R99_crossbow_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1274" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35103" type="Weapon" name="黑暗赫利奧斯爆刃">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予靈活思緒、魔法束縛、魔力上升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35104" type="Weapon" name="黑暗赫利奧斯術杖">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予魔力催化、靈活思緒、魔法束縛其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35105" type="Weapon" name="黑暗赫利奧斯報恨者">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予魔力再生、靈活思緒、魔力催化其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="700" />
+			<set order="0x08" stat="mAtk" val="459" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35106" type="Weapon" name="黑暗赫利奧斯雙刀">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予速度激發、傷害提升、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_sword_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35107" type="Weapon" name="黑暗赫利奧斯雙匕首">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予傷害提升、弱點偵測、導引其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_dagger_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35108" type="Weapon" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。可以賦予弱點偵測、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_blunt_pvp_i10" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35109" type="Weapon" name="黑暗赫利奧斯鉋刀">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35110" type="Weapon" name="黑暗赫利奧斯鉋刀">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35111" type="Weapon" name="黑暗赫利奧斯鉋刀">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約81.9。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35112" type="Weapon" name="黑暗赫利奧斯切刃">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35113" type="Weapon" name="黑暗赫利奧斯切刃">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35114" type="Weapon" name="黑暗赫利奧斯切刃">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\nHP最大值提升約25%。PVP時提升所造成的傷害。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35115" type="Weapon" name="黑暗赫利奧斯殺刃">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35116" type="Weapon" name="黑暗赫利奧斯殺刃">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35117" type="Weapon" name="黑暗赫利奧斯殺刃">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35118" type="Weapon" name="黑暗赫利奧斯復仇者">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35119" type="Weapon" name="黑暗赫利奧斯復仇者">
+		<table name="#Plus">Crt.傷害</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊時物理攻擊力提升約1232。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35120" type="Weapon" name="黑暗赫利奧斯復仇者">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35121" type="Weapon" name="黑暗赫利奧斯戰爪">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約75.5。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_fist_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35122" type="Weapon" name="黑暗赫利奧斯戰爪">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_fist_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35123" type="Weapon" name="黑暗赫利奧斯戰爪">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_fist_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35124" type="Weapon" name="黑暗赫利奧斯風暴者">
+		<table name="#Plus">HP吸收</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n使用近身普通物理攻擊給予敵人傷害的同時，賦予以一定機率恢復自己的HP為造成傷害值的4%。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35125" type="Weapon" name="黑暗赫利奧斯風暴者">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35126" type="Weapon" name="黑暗赫利奧斯風暴者">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35127" type="Weapon" name="黑暗赫利奧斯投弓">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35128" type="Weapon" name="黑暗赫利奧斯投弓">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35129" type="Weapon" name="黑暗赫利奧斯投弓">
+		<table name="#Plus">遠程打擊</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊距離提升。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35130" type="Weapon" name="黑暗赫利奧斯射靈">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_R99_crossbow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1274" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35131" type="Weapon" name="黑暗赫利奧斯射靈">
+		<table name="#Plus">Crt.緩速</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊時，以一定的機率造成目標移動速度下降。PVP時提升所造成的傷害。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_R99_crossbow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1274" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35132" type="Weapon" name="黑暗赫利奧斯射靈">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_R99_crossbow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1274" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35133" type="Weapon" name="黑暗赫利奧斯爆刃">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n施法速度加快約15%。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35134" type="Weapon" name="黑暗赫利奧斯爆刃">
+		<table name="#Plus">魔法束縛</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n對目標施展魔法技能時，以20%的機率施放樹精之足。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35135" type="Weapon" name="黑暗赫利奧斯爆刃">
+		<table name="#Plus">魔力上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\nMP最大值提升約30%。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35136" type="Weapon" name="黑暗赫利奧斯術杖">
+		<table name="#Plus">魔力催化</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n魔法攻擊力提升約460。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35137" type="Weapon" name="黑暗赫利奧斯術杖">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n施法速度加快約15%。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35138" type="Weapon" name="黑暗赫利奧斯術杖">
+		<table name="#Plus">魔法束縛</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n對目標施展魔法技能時，以20%的機率施放樹精之足。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35139" type="Weapon" name="黑暗赫利奧斯報恨者">
+		<table name="#Plus">魔力再生</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n提升MP的恢復速度。PVP時提升所造成的傷害。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="700" />
+			<set order="0x08" stat="mAtk" val="459" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35140" type="Weapon" name="黑暗赫利奧斯報恨者">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n施法速度加快約15%。PVP時提升所造成的傷害。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="700" />
+			<set order="0x08" stat="mAtk" val="459" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35141" type="Weapon" name="黑暗赫利奧斯報恨者">
+		<table name="#Plus">魔力催化</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n魔法攻擊力提升約460。PVP時提升所造成的傷害。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="700" />
+			<set order="0x08" stat="mAtk" val="459" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35142" type="Weapon" name="黑暗赫利奧斯雙刀">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35143" type="Weapon" name="黑暗赫利奧斯雙刀">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35144" type="Weapon" name="黑暗赫利奧斯雙刀">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\nHP最大值提升約25%。PVP時提升所造成的傷害。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35145" type="Weapon" name="黑暗赫利奧斯雙匕首">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35146" type="Weapon" name="黑暗赫利奧斯雙匕首">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35147" type="Weapon" name="黑暗赫利奧斯雙匕首">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35148" type="Weapon" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Plus">偵測 </table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35149" type="Weapon" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35150" type="Weapon" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Plus">傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35151" type="Weapon" name="黑暗赫利奧斯鉋刀">
+		<table name="#Plus">導引 + 速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升8、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35152" type="Weapon" name="黑暗赫利奧斯鉋刀">
+		<table name="#Plus">速度激發 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%、致命攻擊率提升約81.9。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35153" type="Weapon" name="黑暗赫利奧斯鉋刀">
+		<table name="#Plus">偵測 + 導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約79.2、命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35154" type="Weapon" name="黑暗赫利奧斯切刃">
+		<table name="#Plus">速度激發 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%、致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35155" type="Weapon" name="黑暗赫利奧斯切刃">
+		<table name="#Plus">偵測 + 強健</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約75.4、HP最大值提升約25%。PVP時提升所造成的傷害。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35156" type="Weapon" name="黑暗赫利奧斯切刃">
+		<table name="#Plus">強健 + 速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\nHP最大值提升約25%、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35157" type="Weapon" name="黑暗赫利奧斯殺刃">
+		<table name="#Plus">偵測 + 傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7、物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35158" type="Weapon" name="黑暗赫利奧斯殺刃">
+		<table name="#Plus">傷害上升 + 速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35159" type="Weapon" name="黑暗赫利奧斯殺刃">
+		<table name="#Plus">速度激發 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%、致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35160" type="Weapon" name="黑暗赫利奧斯復仇者">
+		<table name="#Plus">速度激發 + Crt.傷害</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%、致命攻擊時物理攻擊力提升約1232。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35161" type="Weapon" name="黑暗赫利奧斯復仇者">
+		<table name="#Plus">Crt.傷害 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊時物理攻擊力提升約1232、致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35162" type="Weapon" name="黑暗赫利奧斯復仇者">
+		<table name="#Plus">偵測 + 速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35163" type="Weapon" name="黑暗赫利奧斯戰爪">
+		<table name="#Plus">偵測 + 傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約81.9、物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_fist_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35164" type="Weapon" name="黑暗赫利奧斯戰爪">
+		<table name="#Plus">傷害上升 + 速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_fist_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35165" type="Weapon" name="黑暗赫利奧斯戰爪">
+		<table name="#Plus">速度激發 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%、致命攻擊率提升約75.5。PVP時提升所造成的傷害。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_fist_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35166" type="Weapon" name="黑暗赫利奧斯風暴者">
+		<table name="#Plus">HP吸收 + 導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n使用近身普通物理攻擊給予敵人傷害的同時，賦予以一定機率恢復自己的HP為造成傷害值的4%。命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35167" type="Weapon" name="黑暗赫利奧斯風暴者">
+		<table name="#Plus">導引 + 傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升7.8、物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35168" type="Weapon" name="黑暗赫利奧斯風暴者">
+		<table name="#Plus">傷害上升 + HP吸收</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415。普通攻擊的同時能恢復自己的HP，恢復量為所造成傷害值的4%。PVP時提升所造成的傷害。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35169" type="Weapon" name="黑暗赫利奧斯投弓">
+		<table name="#Plus">傷害上升 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約415、致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35170" type="Weapon" name="黑暗赫利奧斯投弓">
+		<table name="#Plus">偵測 + 遠程打擊</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7、攻擊距離提升。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35171" type="Weapon" name="黑暗赫利奧斯投弓">
+		<table name="#Plus">遠程打擊 + 傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊距離提升、物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35172" type="Weapon" name="黑暗赫利奧斯射靈">
+		<table name="#Plus">偵測 + Crt.緩速</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約78.7。致命攻擊時，以一定的機率造成目標移動速度下降。PVP時提升所造成的傷害。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_R99_crossbow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1274" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35173" type="Weapon" name="黑暗赫利奧斯射靈">
+		<table name="#Plus">Crt.緩速 + 速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊時，以一定的機率造成目標移動速度下降。攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_R99_crossbow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1274" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35174" type="Weapon" name="黑暗赫利奧斯射靈">
+		<table name="#Plus">速度激發 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%、致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加攻擊速度。</table>
+		<set name="icon" val="icon.weapon_R99_crossbow_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1274" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35175" type="Weapon" name="黑暗赫利奧斯爆刃">
+		<table name="#Plus">靈活思緒 + 魔法束縛</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n施法速度加快約15%。對目標施展魔法技能時，以20%的機率施放樹精之足。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35176" type="Weapon" name="黑暗赫利奧斯爆刃">
+		<table name="#Plus">魔法束縛 + 魔力上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n對目標施展魔法技能時，以20%的機率施放樹精之足。MP最大值提升約30%。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35177" type="Weapon" name="黑暗赫利奧斯爆刃">
+		<table name="#Plus">魔力上升 + 靈活思緒</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\nMP最大值提升約30%、施法速度加快約15%。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35178" type="Weapon" name="黑暗赫利奧斯術杖">
+		<table name="#Plus">魔力催化 + 靈活思緒</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n魔法攻擊力提升約460、施法速度加快約15%。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35179" type="Weapon" name="黑暗赫利奧斯術杖">
+		<table name="#Plus">靈活思緒 + 魔法束縛</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n施法速度加快約15%。對目標施展魔法技能時，以20%的機率施放樹精之足。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35180" type="Weapon" name="黑暗赫利奧斯術杖">
+		<table name="#Plus">魔法束縛 + 魔力催化</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n對目標施展魔法技能時，以20%的機率施放樹精之足。魔法攻擊力提升約460。PVP時提升所造成的傷害。強化+4時，增加魔法命中能力和魔法致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="575" />
+			<set order="0x08" stat="mAtk" val="417" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35181" type="Weapon" name="黑暗赫利奧斯報恨者">
+		<table name="#Plus">魔力再生 + 靈活思緒</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n提升MP的恢復速度、施法速度加快約15%。PVP時提升所造成的傷害。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="700" />
+			<set order="0x08" stat="mAtk" val="459" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35182" type="Weapon" name="黑暗赫利奧斯報恨者">
+		<table name="#Plus">靈活思緒 + 魔力催化</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n施法速度加快約15%、魔法攻擊力提升約460。PVP時提升所造成的傷害。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="700" />
+			<set order="0x08" stat="mAtk" val="459" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35183" type="Weapon" name="黑暗赫利奧斯報恨者">
+		<table name="#Plus">魔力催化 + 魔力再生</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n魔法攻擊力提升約322、提升MP的恢復速度。PVP時提升所造成的傷害。強化+4時，增加魔法攻擊力和魔法致命傷害、施法速度。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="700" />
+			<set order="0x08" stat="mAtk" val="459" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35184" type="Weapon" name="黑暗赫利奧斯雙刀">
+		<table name="#Plus">速度激發 + 傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n攻擊速度提升約15%、物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35185" type="Weapon" name="黑暗赫利奧斯雙刀">
+		<table name="#Plus">傷害上升 + 強健</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約457、HP最大值提升約25%。PVP時提升所造成的傷害。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35186" type="Weapon" name="黑暗赫利奧斯雙刀">
+		<table name="#Plus">強健 + 速度激發</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\nHP最大值提升約25%、攻擊速度提升約15%。PVP時提升所造成的傷害。強化+4時，增加物理致命攻擊率，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_sword_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35187" type="Weapon" name="黑暗赫利奧斯雙匕首">
+		<table name="#Plus">傷害上升 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約377、致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35188" type="Weapon" name="黑暗赫利奧斯雙匕首">
+		<table name="#Plus">偵測 + 導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約79.2、命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35189" type="Weapon" name="黑暗赫利奧斯雙匕首">
+		<table name="#Plus">導引 + 傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升7.9、物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理致命傷害，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_dagger_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35190" type="Weapon" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Plus">偵測 + 導引</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n致命攻擊率提升約79.2、命中能力提升7.9。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35191" type="Weapon" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Plus">導引 + 傷害上升</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n命中能力提升7.8、物理攻擊力提升約415。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35192" type="Weapon" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Plus">傷害上升 + 偵測</table>
+		<table name="#Desc">PVP強化型道具，裝備時，提升給予玩家角色的傷害15%、HP/MP/CP最大值10%。\n\n＜搜魂石特效＞\n物理攻擊力提升約377、致命攻擊率提升約78.7。PVP時提升所造成的傷害。強化+4時，增加物理技能的威力，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_dual_blunt_pvp_i11" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35193" type="Weapon" name="血腥赫利奧斯鉋刀">
+		<table name="#Desc">PVE強化型道具，裝備時，提升給予NPC的傷害15%、HP/MP/CP最大值10%。可以賦予導引、速度激發、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_dagger_pve_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="629" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35194" type="Weapon" name="血腥赫利奧斯切刃">
+		<table name="#Desc">PVE強化型道具，裝備時，提升給予NPC的傷害15%、HP/MP/CP最大值10%。可以賦予速度激發、弱點偵測、強健其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加命中率、物理致命攻擊率。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_sword_pve_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35195" type="Weapon" name="血腥赫利奧斯殺刃">
+		<table name="#Desc">PVE強化型道具，裝備時，提升給予NPC的傷害15%、HP/MP/CP最大值10%。可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_twohand_sword_pve_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35196" type="Weapon" name="血腥赫利奧斯復仇者">
+		<table name="#Desc">PVE強化型道具，裝備時，提升給予NPC的傷害15%、HP/MP/CP最大值10%。可以賦予速度激發、Crt.傷害、弱點偵測其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理致命傷害。</table>
+		<set name="icon" val="icon.weapon_R99_onehand_blunt_pve_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35197" type="Weapon" name="血腥赫利奧斯戰爪">
+		<table name="#Desc">PVE強化型道具，裝備時，提升給予NPC的傷害15%、HP/MP/CP最大值10%。可以賦予弱點偵測、傷害提升、速度激發其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加攻擊速度，並額外增加物理攻擊力。</table>
+		<set name="icon" val="icon.weapon_R99_fist_pve_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="875" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35198" type="Weapon" name="血腥赫利奧斯風暴者">
+		<table name="#Desc">PVE強化型道具，裝備時，提升給予NPC的傷害15%、HP/MP/CP最大值10%。可以賦予HP吸收、導引、傷害提升其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，額外增加連續攻擊。</table>
+		<set name="icon" val="icon.weapon_R99_spear_pve_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="719" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35199" type="Weapon" name="血腥赫利奧斯投弓">
+		<table name="#Desc">PVE強化型道具，裝備時，提升給予NPC的傷害15%、HP/MP/CP最大值10%。可以賦予傷害提升、弱點偵測、遠程打擊其中之一的特殊效果。透過特殊搜魂也能賦予兩種技能。強化+4時，增加物理技能的威力。</table>
+		<set name="icon" val="icon.weapon_R99_bow_pve_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1415" />
+			<set order="0x08" stat="mAtk" val="313" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+</list>

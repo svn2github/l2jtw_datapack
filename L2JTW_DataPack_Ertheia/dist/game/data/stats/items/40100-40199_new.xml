@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="40100" type="EtcItem" name="製作卷軸(英啟復仇者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟復仇者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40101" type="EtcItem" name="製作卷軸(英啟戰爪分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟戰爪的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40102" type="EtcItem" name="製作卷軸(英啟風暴者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟風暴者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40103" type="EtcItem" name="製作卷軸(英啟投弓分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟投弓的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40104" type="EtcItem" name="製作卷軸(英啟射靈分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟射靈的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40105" type="EtcItem" name="製作卷軸(英啟爆刃分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟爆刃的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40106" type="EtcItem" name="製作卷軸(英啟術杖分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟術杖的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40107" type="EtcItem" name="製作卷軸(英啟報恨者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解英啟報恨者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40108" type="EtcItem" name="製作卷軸(煉獄頭盔分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄頭盔的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40109" type="EtcItem" name="製作卷軸(煉獄胸甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄胸甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40110" type="EtcItem" name="製作卷軸(煉獄脛甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄脛甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40111" type="EtcItem" name="製作卷軸(煉獄護手分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄護手的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40112" type="EtcItem" name="製作卷軸(煉獄靴分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄靴的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40113" type="EtcItem" name="製作卷軸(煉獄盾分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄盾的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40114" type="EtcItem" name="製作卷軸(煉獄皮頭盔分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄皮頭盔的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40115" type="EtcItem" name="製作卷軸(煉獄皮甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄皮甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40116" type="EtcItem" name="製作卷軸(煉獄皮脛甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄皮脛甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40117" type="EtcItem" name="製作卷軸(煉獄皮手套分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄皮手套的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40118" type="EtcItem" name="製作卷軸(煉獄皮靴分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄皮靴的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40119" type="EtcItem" name="製作卷軸(煉獄頭箍分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄頭箍的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40120" type="EtcItem" name="製作卷軸(煉獄外衣分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄外衣的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40121" type="EtcItem" name="製作卷軸(煉獄長襪分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄長襪的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40122" type="EtcItem" name="製作卷軸(煉獄手套分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄手套的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40123" type="EtcItem" name="製作卷軸(煉獄鞋分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄鞋的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40124" type="EtcItem" name="製作卷軸(煉獄符印分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄符印的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40125" type="EtcItem" name="製作卷軸(煉獄項鍊分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄項鍊的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40126" type="EtcItem" name="製作卷軸(煉獄耳環分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄耳環的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40127" type="EtcItem" name="製作卷軸(煉獄戒指分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解煉獄戒指的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能12級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40128" type="EtcItem" name="製作卷軸(幻靈鉋刀分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈鉋刀的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40129" type="EtcItem" name="製作卷軸(幻靈切刃分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈切刃的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40130" type="EtcItem" name="製作卷軸(幻靈殺刃分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈殺刃的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40131" type="EtcItem" name="製作卷軸(幻靈復仇者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈復仇者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40132" type="EtcItem" name="製作卷軸(幻靈戰爪分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈戰爪的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40133" type="EtcItem" name="製作卷軸(幻靈風暴者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈風暴者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40134" type="EtcItem" name="製作卷軸(幻靈投弓分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈投弓的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40135" type="EtcItem" name="製作卷軸(幻靈射靈分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈射靈的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40136" type="EtcItem" name="製作卷軸(幻靈爆刃分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈爆刃的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40137" type="EtcItem" name="製作卷軸(幻靈術杖分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈術杖的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40138" type="EtcItem" name="製作卷軸(幻靈報恨者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解幻靈報恨者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40139" type="EtcItem" name="製作卷軸(卡戴拉頭盔分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉頭盔的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40140" type="EtcItem" name="製作卷軸(卡戴拉胸甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉胸甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40141" type="EtcItem" name="製作卷軸(卡戴拉脛甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉脛甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40142" type="EtcItem" name="製作卷軸(卡戴拉護手分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉護手的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40143" type="EtcItem" name="製作卷軸(卡戴拉靴分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉靴的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40144" type="EtcItem" name="製作卷軸(卡戴拉盾分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉盾的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40145" type="EtcItem" name="製作卷軸(卡戴拉皮頭盔分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉皮頭盔的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40146" type="EtcItem" name="製作卷軸(卡戴拉皮甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉皮甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40147" type="EtcItem" name="製作卷軸(卡戴拉皮脛甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉皮脛甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40148" type="EtcItem" name="製作卷軸(卡戴拉皮手套分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉皮手套的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40149" type="EtcItem" name="製作卷軸(卡戴拉皮靴分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉皮靴的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40150" type="EtcItem" name="製作卷軸(卡戴拉頭箍分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉頭箍的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40151" type="EtcItem" name="製作卷軸(卡戴拉外衣分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉外衣的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40152" type="EtcItem" name="製作卷軸(卡戴拉長襪分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉長襪的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40153" type="EtcItem" name="製作卷軸(卡戴拉手套分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉手套的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40154" type="EtcItem" name="製作卷軸(卡戴拉鞋分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉鞋的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40155" type="EtcItem" name="製作卷軸(卡戴拉符印分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉符印的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40156" type="EtcItem" name="製作卷軸(卡戴拉項鍊分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉項鍊的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40157" type="EtcItem" name="製作卷軸(卡戴拉耳環分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉耳環的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40158" type="EtcItem" name="製作卷軸(卡戴拉戒指分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解卡戴拉戒指的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能13級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40159" type="EtcItem" name="製作卷軸(赫利奧斯鉋刀分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯鉋刀的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40160" type="EtcItem" name="製作卷軸(赫利奧斯切刃分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯切刃的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40161" type="EtcItem" name="製作卷軸(赫利奧斯殺刃分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯殺刃的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40162" type="EtcItem" name="製作卷軸(赫利奧斯復仇者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯復仇者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40163" type="EtcItem" name="製作卷軸(赫利奧斯戰爪分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯戰爪的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40164" type="EtcItem" name="製作卷軸(赫利奧斯風暴者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯風暴者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40165" type="EtcItem" name="製作卷軸(赫利奧斯投弓分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯投弓的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40166" type="EtcItem" name="製作卷軸(赫利奧斯射靈分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯射靈的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40167" type="EtcItem" name="製作卷軸(赫利奧斯爆刃分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯爆刃的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40168" type="EtcItem" name="製作卷軸(赫利奧斯術杖分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯術杖的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40169" type="EtcItem" name="製作卷軸(赫利奧斯報恨者分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解赫利奧斯報恨者的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵，精煉的武器無法分解。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40170" type="EtcItem" name="製作卷軸(艾迪奧斯頭盔分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯頭盔的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40171" type="EtcItem" name="製作卷軸(艾迪奧斯胸甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯胸甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40172" type="EtcItem" name="製作卷軸(艾迪奧斯脛甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯脛甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40173" type="EtcItem" name="製作卷軸(艾迪奧斯護手分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯護手的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40174" type="EtcItem" name="製作卷軸(艾迪奧斯靴分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯靴的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40175" type="EtcItem" name="製作卷軸(艾迪奧斯盾分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯盾的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40176" type="EtcItem" name="製作卷軸(艾迪奧斯皮頭盔分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯皮頭盔的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40177" type="EtcItem" name="製作卷軸(艾迪奧斯皮甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯皮甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40178" type="EtcItem" name="製作卷軸(艾迪奧斯皮脛甲分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯皮脛甲的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40179" type="EtcItem" name="製作卷軸(艾迪奧斯皮手套分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯皮手套的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40180" type="EtcItem" name="製作卷軸(艾迪奧斯皮靴分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯皮靴的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40181" type="EtcItem" name="製作卷軸(艾迪奧斯頭箍分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯頭箍的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40182" type="EtcItem" name="製作卷軸(艾迪奧斯外衣分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯外衣的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40183" type="EtcItem" name="製作卷軸(艾迪奧斯長襪分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯長襪的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40184" type="EtcItem" name="製作卷軸(艾迪奧斯手套分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯手套的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40185" type="EtcItem" name="製作卷軸(艾迪奧斯鞋分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯鞋的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40186" type="EtcItem" name="製作卷軸(艾迪奧斯符印分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯符印的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40187" type="EtcItem" name="製作卷軸(艾迪奧斯項鍊分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯項鍊的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40188" type="EtcItem" name="製作卷軸(艾迪奧斯耳環分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯耳環的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40189" type="EtcItem" name="製作卷軸(艾迪奧斯戒指分解)">
+		<table name="#Desc">提爾巨匠系列專用。為了分解艾迪奧斯戒指的製作卷軸。分解時製作時所使用的材料會退還。需要道具製作技能14級。成功率為100%。隨著強化等級提升並無額外的獎勵。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40190" type="EtcItem" name="卡爾提亞迷宮入場券-等級85單人">
+		<table name="#Desc">卡爾提亞迷宮個人地區追加入場券。點兩下就會解除等級85卡爾提亞迷宮個人地區入場限制。即時地區尚未歸屬的狀態下無法使用。每天僅限在即時地區外部使用一次。</table>
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40191" type="EtcItem" name="卡爾提亞迷宮入場券-等級85隊伍">
+		<table name="#Desc">卡爾提亞迷宮隊伍地區追加入場券。點兩下就會解除等級85卡爾提亞迷宮隊伍地區入場限制。即時地區尚未歸屬的狀態下無法使用。每天僅限在即時地區外部使用一次。</table>
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40192" type="EtcItem" name="天運之地入場券">
+		<table name="#Desc">每日即時地區追加入場券。點兩下就會解除天運之地入場限制。即時地區尚未歸屬的狀態下無法使用。每天僅限在即時地區外部使用一次。</table>
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40193" type="EtcItem" name="諾爾妮庭園入場券">
+		<table name="#Desc">每日即時地區追加入場券。點兩下就會解除諾爾妮庭園入場限制。即時地區尚未歸屬的狀態下無法使用。每天僅限在即時地區外部使用一次。</table>
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40194" type="EtcItem" name="歐塔比斯入場劵-一般">
+		<table name="#Desc">狩獵地區追加入場券。點兩下就會解除歐塔比斯入場劵（一般）入場限制。即時地區尚未歸屬的狀態下無法使用。僅限在即時地區週期內使用一次。</table>
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40195" type="EtcItem" name="貝農村莊移動卷軸">
+		<table name="#Desc">可移動至貝農村莊的魔法卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40196" type="Armor" name="翼人手鐲">
+		<table name="#Desc">裝備時，可以開啟護身符欄位5個。具有MP+216、Str+1、Int+1的功能。</table>
+		<set name="icon" val="icon.ertheia_bracelet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="40197" type="EtcItem" name="翼人靈魂之瓶禮盒">
+		<table name="#Desc">點兩下就能獲得裝有安塔瑞斯/巴拉卡斯/巨蟻女王/奧爾芬/芙琳泰沙/巴溫靈魂之瓶中之一。預計將於2014年2月26日全部刪除</table>
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40198" type="EtcItem" name="防具分解製作卷軸袋">
+		<table name="#Desc">點兩下袋子，就能得到R級防具分解製作卷軸中之一。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40199" type="EtcItem" name="武器分解製作卷軸袋">
+		<table name="#Desc">點兩下袋子，就能得到R級武器分解製作卷軸中之一。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

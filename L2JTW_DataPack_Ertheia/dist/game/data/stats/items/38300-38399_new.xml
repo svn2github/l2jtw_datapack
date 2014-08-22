@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="38300" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38301" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38302" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38303" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38304" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38305" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38306" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38307" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38308" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38309" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38310" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38311" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">女性角色專用頭飾。裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38312" type="Armor" name="小天使之翼">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38313" type="Armor" name="小天使之翼">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38314" type="Armor" name="小天使之翼">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38315" type="Armor" name="小天使之翼">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38316" type="Armor" name="小天使之翼">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38317" type="Armor" name="小天使之翼">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38318" type="Armor" name="小天使之翼">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38319" type="Armor" name="小天使之翼">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38320" type="Armor" name="小天使之翼">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38321" type="Armor" name="小天使之翼">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38322" type="Armor" name="小天使之翼">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38323" type="Armor" name="小天使之翼">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38324" type="Armor" name="小天使之翼">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38325" type="Armor" name="小天使之翼">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38326" type="Armor" name="小妖精觸角">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38327" type="Armor" name="小妖精觸角">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38328" type="Armor" name="小妖精觸角">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38329" type="Armor" name="小妖精觸角">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38330" type="Armor" name="小妖精觸角">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38331" type="Armor" name="小妖精觸角">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38332" type="Armor" name="小妖精觸角">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38333" type="Armor" name="小妖精觸角">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38334" type="Armor" name="小妖精觸角">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38335" type="Armor" name="小妖精觸角">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38336" type="Armor" name="小妖精觸角">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38337" type="Armor" name="小妖精觸角">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38338" type="Armor" name="小妖精觸角">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38339" type="Armor" name="小妖精觸角">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38340" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38341" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38342" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38343" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38344" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38345" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38346" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38347" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38348" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38349" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38350" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38351" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38352" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38353" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38354" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38355" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38356" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38357" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38358" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38359" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38360" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38361" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38362" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38363" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38364" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38365" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38366" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38367" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38368" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38369" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38370" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38371" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38372" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38373" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38374" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38375" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38376" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38377" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38378" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38379" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38380" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38381" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="38382" type="Weapon" name="見習生魔法書">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="650" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="9" />
+			<set order="0x08" stat="mAtk" val="12" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="38383" type="EtcItem" name="名媛髮飾墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的名媛髮飾1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38384" type="EtcItem" name="舞會面具墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的舞會面具1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38385" type="EtcItem" name="單片眼鏡墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的單片眼鏡1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38386" type="EtcItem" name="淑女髮飾墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的淑女髮飾1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38387" type="EtcItem" name="勿忘草髮飾墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的勿忘草髮飾1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38388" type="EtcItem" name="雛菊髮飾墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的雛菊髮飾1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38389" type="EtcItem" name="小天使之翼墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的小天使之翼1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38390" type="EtcItem" name="小妖精觸角墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的小妖精觸角1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38391" type="EtcItem" name="吟遊詩人帽墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的吟遊詩人帽1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38392" type="EtcItem" name="工匠的護目鏡墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的工匠的護目鏡1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38393" type="EtcItem" name="穿箭蘋果墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的穿箭蘋果1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38394" type="EtcItem" name="海盜眼罩墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的海盜眼罩1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38395" type="EtcItem" name="無法者眼罩墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的無法者眼罩1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38396" type="EtcItem" name="派對尖帽墜飾小袋">
+		<table name="#Desc">點兩下的話，就可以獲得賦予墜飾特效的派對尖帽1個。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38397" type="EtcItem" name="專家古文-D">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">2小時限時道具。持有期間擁有裝備D級道具也不會受到懲罰的能力。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38398" type="EtcItem" name="專家古文禮盒">
+		<table name="#Plus">D</table>
+		<table name="#Desc">打開禮盒的話，就可得到專家古文-D（2小時）。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="38399" type="EtcItem" name="專家古文-C">
+		<table name="#Plus">限時2小時</table>
+		<table name="#Desc">2小時限時道具。持有期間擁有裝備C級道具也不會受到懲罰的能力。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+</list>

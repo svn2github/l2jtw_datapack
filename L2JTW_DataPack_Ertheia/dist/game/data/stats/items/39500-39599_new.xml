@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="39500" type="EtcItem" name="黑暗的放逐地傳送卷軸">
+		<table name="#Desc">可傳送至黑暗的放逐地。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39501" type="EtcItem" name="天運之地傳送卷軸">
+		<table name="#Desc">可傳送至天運之地。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39502" type="EtcItem" name="英魂之島傳送卷軸">
+		<table name="#Desc">可傳送至英魂之島。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39503" type="EtcItem" name="諾爾妮洞窟傳送卷軸">
+		<table name="#Desc">可傳送至諾爾妮洞窟。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39504" type="EtcItem" name="席琳封印傳送卷軸">
+		<table name="#Desc">可傳送至席琳封印。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39505" type="EtcItem" name="死之王國立墓地傳送卷軸">
+		<table name="#Desc">可傳送至死之王國立墓地。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39506" type="EtcItem" name="基洛德要塞傳送卷軸">
+		<table name="#Desc">可傳送至基洛德要塞。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39507" type="EtcItem" name="奧爾比斯神殿傳送卷軸">
+		<table name="#Desc">可傳送至奧爾比斯神殿入口。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39508" type="EtcItem" name="感激標章">
+		<table name="#Desc">擊倒變成惡靈的豺狼所取得的物品。拿給亡命者 里歐，應該會很高興。</table>
+		<set name="icon" val="icon.etc_yellow_rose_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39509" type="EtcItem" name="結界強化裝置鑰匙">
+		<table name="#Desc">可以啟動位在孢子之海的結界強化裝置的鑰匙。</table>
+		<set name="icon" val="icon.etc_old_key_i03" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39510" type="EtcItem" name="阿庫姆記憶碎片">
+		<table name="#Desc">在忘卻平原的魔法陣上使用阿庫姆記憶碎片看看！在阿庫姆的記憶中可以找到線索。</table>
+		<set name="icon" val="icon.event_cubic_piece_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39511" type="EtcItem" name="失去力量的普通碎片">
+		<table name="#Desc">擊倒詛咒的巨人 阿庫姆所得到的物品。</table>
+		<set name="icon" val="icon.event_cubic_piece_i04" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39512" type="EtcItem" name="閃耀石碎片">
+		<table name="#Desc">在隱藏於殺戮的大地的生體能量儲藏所所取得的物品。好像在哪裡看過的碎片。</table>
+		<set name="icon" val="icon.change_elemental_crystal" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39513" type="EtcItem" name="水上都市海音斯移動卷軸">
+		<table name="#Desc">可傳送至水上都市海音斯。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i05" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39514" type="EtcItem" name="聖者之谷移動卷軸">
+		<table name="#Desc">可傳送至聖者之谷。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i05" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39515" type="EtcItem" name="諸神的熔爐移動卷軸">
+		<table name="#Desc">可傳送至諸神的熔爐。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i05" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39516" type="EtcItem" name="象牙塔移動卷軸">
+		<table name="#Desc">可傳送至象牙塔內部。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i05" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39517" type="EtcItem" name="返回卷軸-隱藏的房間">
+		<table name="#Desc">可傳送至能前往伊娃女神所在之隱藏的房間的瑟拉尼斯面前。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i04" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39518" type="EtcItem" name="解開的鎖鏈">
+		<table name="#Desc">解放被監禁在土瑞克獸人兵營地的精靈時取得的物品。拿給陷入愛情的獸人吧！</table>
+		<set name="icon" val="icon.etc_chain_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39519" type="EtcItem" name="克列尼歐斯的推薦書">
+		<table name="#Desc">大神官 克列尼歐斯為了讓你能夠在行政地區接受訓練所寫下的推薦書。</table>
+		<set name="icon" val="icon.etc_crest_red_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39520" type="EtcItem" name="訓練生支援禮盒">
+		<table name="#Desc">要託付給倉庫管理員 保林恩保管的訓練生支援箱子。裝著翼人們需要的各種物品。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39521" type="EtcItem" name="保林恩的紙條">
+		<table name="#Desc">倉庫管理員 保林恩委託拿給武器商人 世伊娜的紙條。保林恩說上面記載著一定要找到的物品名稱。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39522" type="EtcItem" name="武器補給箱">
+		<table name="#Desc">武器商人 世伊娜委託拿給森林管理員 薩露比亞的武器補給箱子。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39523" type="EtcItem" name="防具補給箱">
+		<table name="#Desc">防具商人 妮基塔委託拿給森林管理員 薩露比亞的防具補給箱子。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39524" type="EtcItem" name="道具補給箱">
+		<table name="#Desc">雜貨商人 娜妮委託拿給森林管理員 薩露比亞的雜貨補給箱子。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39525" type="EtcItem" name="飾品補給箱">
+		<table name="#Desc">飾品商人 賽娜委託拿給森林管理員 薩露比亞的飾品補給箱子。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39526" type="EtcItem" name="某位翼人的遺物">
+		<table name="#Desc">裝有物質界怪物襲擊貝農的那天，犧牲的翼人們留下遺物的箱子。</table>
+		<set name="icon" val="icon.etc_grave_goods_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39527" type="EtcItem" name="空蜂蜜瓶">
+		<table name="#Desc">空的瓶子。可以拿來裝棲息在風之森林蜜蜂的蜂蜜。</table>
+		<set name="icon" val="icon.etc_potion_clear_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39528" type="EtcItem" name="香甜蜂蜜">
+		<table name="#Desc">從棲息在風之森林的蜜蜂得到的甜蜜的蜂蜜。對感冒特別有效果。將此收集全部後，拿給森林管理員 萊契兒吧。</table>
+		<set name="icon" val="icon.etc_potion_yellow_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39529" type="EtcItem" name="超營養肉塊">
+		<table name="#Desc">從棲息在風之森林的奇庫得到的超營養肉塊。感冒時要時常吃才行。將此收集全部後，拿給森林管理員 萊契兒吧。</table>
+		<set name="icon" val="icon.etc_meat_of_monstereye_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39530" type="EtcItem" name="獨特的蘑菇孢子">
+		<table name="#Desc">從修力果 艾保博得到的獨特的蘑菇孢子。將此收集全部後，拿給森林管理員 蜜莉艾後，檢查有沒有毒。</table>
+		<set name="icon" val="icon.etc_codran_seed_i09" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39531" type="EtcItem" name="利匹兒的葉子">
+		<table name="#Desc">從棲息在風之森林的利匹兒得到的葉子。將此收集全部後，拿給巨匠 都爾欽吧。</table>
+		<set name="icon" val="icon.etc_leaf_green_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39532" type="EtcItem" name="安特的葉子">
+		<table name="#Desc">從棲息在風之森林的安特得到的葉子。看起來比任何葉子還要堅硬。將此收集全部後，拿給巨匠 都爾欽吧。</table>
+		<set name="icon" val="icon.etc_scale_of_medusa_green_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39533" type="EtcItem" name="終極材料">
+		<table name="#Desc">從風之森林最深處的安塔比得到的樹葉。看起來很像魚鱗。拿給巨匠 都爾欽吧。</table>
+		<set name="icon" val="icon.etc_rune_fish_scale_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39534" type="EtcItem" name="都爾欽的報告書">
+		<table name="#Desc">在風之森林進行研究的巨匠 都爾欽的研究結果報告書。拿給行政地區的卡莉吧。</table>
+		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39535" type="EtcItem" name="風之精靈界的物品">
+		<table name="#Desc">推測是風精靈界的碎片。還不知道是什麼物品。</table>
+		<set name="icon" val="icon.etc_ertheia_prophecy_device_piece" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39536" type="EtcItem" name="瑟芮妮雅憑證">
+		<table name="#Desc">瑟芮妮雅親自轉交的憑證。聽說名叫卡因的人，也有相同的東西。</table>
+		<set name="icon" val="icon.etc_jewel_blue_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39537" type="EtcItem" name="預言裝置碎片">
+		<table name="#Desc">古代翼人們為了記錄預言所使用的裝置的一部分。點兩下就可以看內容。</table>
+		<set name="icon" val="icon.etc_ertheia_prophecy_device_piece" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="39538" type="EtcItem" name="卡因的預言裝置碎片">
+		<table name="#Desc">古代翼人們為了記錄預言所使用的裝置的一部分。卡因  班 胡爾特持有著。</table>
+		<set name="icon" val="icon.etc_ertheia_prophecy_device_piece" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39539" type="EtcItem" name="翼人預言裝置">
+		<table name="#Desc">古代翼人們為了記錄預言所使用的裝置。還沒有復原所有預言的內容。點兩下就可以看內容。</table>
+		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="39540" type="EtcItem" name="翼人預言裝置">
+		<table name="#Desc">古代翼人們為了記錄預言所使用的裝置。透過象牙塔大巫師 阿肯尼斯復原了部分內容，點兩下就可以看內容。</table>
+		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="39541" type="EtcItem" name="翼人預言裝置">
+		<table name="#Desc">古代翼人們為了記錄預言所使用的裝置。透過位在哈汀學院死靈法師屍妖之王伊克魯斯復原了內容。點兩下就可以看內容。</table>
+		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="39542" type="EtcItem" name="阿斯塔廷">
+		<table name="#Desc">只能在風精靈界發現的稀有寶石。可以感受到相當的能量。</table>
+		<set name="icon" val="icon.etc_ertheia_astatine" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39543" type="EtcItem" name="阿斯塔廷">
+		<table name="#Desc">只能在風精靈界發現的稀有寶石。散發著微量的違和感，且可以感受到相當的能量 。</table>
+		<set name="icon" val="icon.etc_ertheia_astatine_fake" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39544" type="EtcItem" name="粗劣的賢者之石">
+		<table name="#Desc">從大巫師 阿肯尼斯取得的粗劣的賢者之石。在象牙塔周圍收集材料，製作復原藥水。</table>
+		<set name="icon" val="icon.etc_crystal_ball_violet_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39545" type="EtcItem" name="水晶眼">
+		<table name="#Desc">可以製作復原藥水的材料。</table>
+		<set name="icon" val="icon.etc_eyeball_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39546" type="EtcItem" name="破碎的純石">
+		<table name="#Desc">可以製作復原藥水的材料。</table>
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39547" type="EtcItem" name="強化靈藥">
+		<table name="#Desc">可以製作復原藥水的材料。</table>
+		<set name="icon" val="icon.etc_magical_bottle_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39548" type="EtcItem" name="空試劑瓶">
+		<table name="#Desc">可以裝復原藥水的空藥水瓶。</table>
+		<set name="icon" val="icon.empty_bottle" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39549" type="EtcItem" name="復原試劑">
+		<table name="#Desc">記錄在翼人魔法裝置的內容中，利用物質界的魔法，可以復原遺失部分的藥水。</table>
+		<set name="icon" val="icon.etc_earth_potion_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39550" type="EtcItem" name="阿特萊雅的物品">
+		<table name="#Desc">從阿特萊雅的箱子取得的物品。雖然不知道是什麼物品，收集全部後拿給魔女阿特萊雅。</table>
+		<set name="icon" val="icon.etc_oblivion_violet_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39551" type="EtcItem" name="白色玫瑰">
+		<table name="#Desc">屍妖之王伊克魯斯所給的白玫瑰，要用伊娃的血染成紅色。</table>
+		<set name="icon" val="icon.etc_white_rose_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39552" type="EtcItem" name="染上伊娃之血的玫瑰">
+		<table name="#Desc">利用伊娃的血染成紅色的白玫瑰。拿給屍妖之王伊克魯斯。</table>
+		<set name="icon" val="icon.etc_red_rose_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39553" type="EtcItem" name="吟遊詩人的移動卷軸-說話之島">
+		<table name="#Desc">吟遊詩人 立貝那多所給的移動卷軸。使用的話可移動至說話之島。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39554" type="EtcItem" name="吟遊詩人的移動卷軸-瑪格門">
+		<table name="#Desc">吟遊詩人 浪希勒所給的移動卷軸。使用的話可移動至瑪格門。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39555" type="EtcItem" name="吟遊詩人的移動卷軸-瑪格門">
+		<table name="#Desc">吟遊詩人 浪希勒所給的移動卷軸。使用的話可移動至瑪格門。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39556" type="EtcItem" name="吟遊詩人的移動卷軸-魯因城鎮">
+		<table name="#Desc">吟遊詩人 梅樂梅爾所給的移動卷軸。使用的話可移動至魯因城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39557" type="EtcItem" name="吟遊詩人的移動卷軸-亞丁城鎮">
+		<table name="#Desc">吟遊詩人 保樂梅都所給的移動卷軸。使用的話可移動至亞丁城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="39558" type="EtcItem" name="下級護身符材料箱子">
+		<table name="#Desc">不使用</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39559" type="EtcItem" name="上級護身符材料箱子">
+		<table name="#Desc">不使用</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39560" type="EtcItem" name="下級風之染料箱子">
+		<table name="#Desc">點兩下時，可得到魅力/幸運1~3LV染料中1種。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39561" type="EtcItem" name="中級風之染料箱子">
+		<table name="#Desc">點兩下時，可得到魅力/幸運4LV染料中1種。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39562" type="EtcItem" name="高級風之染料箱子">
+		<table name="#Desc">點兩下時，可得到魅力/幸運5LV染料中1種。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39563" type="EtcItem" name="風之護身符禮盒">
+		<table name="#Desc">點兩下時，可得到裝有風之護身符的禮盒。</table>
+		<set name="icon" val="icon.etc_treasure_box_i04" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39564" type="EtcItem" name="風之護身符禮盒">
+		<table name="#Plus">物理致命攻擊</table>
+		<table name="#Desc">點兩下時，可得到裝有風之護身符-物理致命攻擊機率。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39565" type="EtcItem" name="風之護身符禮盒">
+		<table name="#Plus">魔法致命攻擊</table>
+		<table name="#Desc">點兩下時，可得到裝有風之護身符-魔法致命攻擊機率。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39566" type="EtcItem" name="風之護身符禮盒">
+		<table name="#Plus">防禦</table>
+		<table name="#Desc">點兩下時，可得到裝有風之護身符-防禦。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39567" type="EtcItem" name="風之護身符禮盒">
+		<table name="#Plus">詛咒魔法防禦</table>
+		<table name="#Desc">點兩下時，可得到裝有風之護身符-詛咒魔法防禦。無法在奧林匹亞中使用。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39568" type="Armor" name="風之護身符-物理致命傷害">
+		<table name="#Plus">被動</table>
+		<table name="#Desc">裝備時，物理技能致命傷害增加10%</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="10080" />
+	</item>
+	<item id="39569" type="Armor" name="風之護身符-魔法致命傷害">
+		<table name="#Plus">被動</table>
+		<table name="#Desc">裝備時，魔法技能致命傷害增加10%</table>
+		<set name="icon" val="icon.r_talisman_mc_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="10080" />
+	</item>
+	<item id="39570" type="Armor" name="風之護身符-防禦">
+		<table name="#Plus">主動</table>
+		<table name="#Desc">使用時，在15秒內物理/魔法防禦力將會極大化。使用冷卻時間為20分鐘。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="10080" />
+	</item>
+	<item id="39571" type="Armor" name="風之護身符-詛咒魔法防禦">
+		<table name="#Plus">主動</table>
+		<table name="#Desc">使用時，在15秒內增加詛咒魔法防禦力。使用冷卻時間為20分鐘。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="10080" />
+	</item>
+	<item id="39572" type="Armor" name="禁墓的護身符">
+		<table name="#Desc">裝備時增加自身最大HP/MP/CP800、物理/魔法命中能力2、物理/魔法迴避能力2、吸血怒擊5、攻擊速度60、施法速度60、物理致命攻擊機率30、魔法致命攻擊機率10、物理攻擊力638、魔法攻擊力742、技能威力5%、傷害反射抗性30、物理防禦力563、魔法防禦力368、STR/INT/CON/MEN/DEX/WIT/CHA/LUC2、固定傷害抗性10%，降低技能MP消耗量3%、縮短技能使用冷卻時間3%。</table>
+		<set name="icon" val="icon.accessory_punishment_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39573" type="EtcItem" name="封印的禁墓的護身符">
+		<table name="#Desc">等級85以上可使用。點兩下時就能得到禁墓的護身符，獲得的禁墓的護身符無法交易/丟棄/出售於個人商店。</table>
+		<set name="icon" val="icon.accessory_punishment_talisman_i01" />
+		<set name="weight" val="100" />
+	</item>
+	<item id="39574" type="EtcItem" name="歐瑞城鎮傳送卷軸">
+		<table name="#Desc">可移動至歐瑞城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39575" type="EtcItem" name="孢子之海傳送卷軸">
+		<table name="#Desc">可移動至孢子之海。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39576" type="EtcItem" name="亞丁城鎮傳送卷軸">
+		<table name="#Desc">可移動至亞丁城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39577" type="EtcItem" name="忘卻平原傳送卷軸">
+		<table name="#Desc">可移動至忘卻平原。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39578" type="EtcItem" name="亞丁城鎮傳送卷軸">
+		<table name="#Desc">可移動至亞丁城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39579" type="EtcItem" name="殺戮的大地傳送卷軸">
+		<table name="#Desc">可移動至殺戮的大地。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39580" type="EtcItem" name="魯因城鎮傳送卷軸">
+		<table name="#Desc">可移動至魯因城鎮</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39581" type="EtcItem" name="悲鳴的沼澤傳送卷軸">
+		<table name="#Desc">可移動至悲鳴的沼澤。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39582" type="EtcItem" name="魯因城鎮傳送卷軸">
+		<table name="#Desc">可移動至魯因城鎮</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39583" type="EtcItem" name="亡者的森林傳送卷軸">
+		<table name="#Desc">可移動至亡者的森林</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39584" type="EtcItem" name="高達特城鎮傳送卷軸">
+		<table name="#Desc">可移動至高達特城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39585" type="EtcItem" name="亞爾古斯之壁傳送卷軸">
+		<table name="#Desc">可移動至亞爾古斯之壁。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39586" type="EtcItem" name="奇岩城鎮傳送卷軸">
+		<table name="#Desc">可移動至奇岩城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39587" type="EtcItem" name="龍之谷傳送卷軸">
+		<table name="#Desc">可移動至龍之谷。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39588" type="EtcItem" name="愛情糖禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">與心愛的人一起共享就會更愉快的天堂II！點兩下便能獲得可以額外增加所得經驗值/SP15%的愛情糖 - 限時30日道具。在尚未開啟禮盒時可以交易，但開啟後就無法進行交易。一同發送的禮券內裝有甜蜜糖禮盒。與心愛的人互相交換禮盒吧。無法在奧林匹亞/渾沌祭典中使用。預計將於2014年1月8日全部刪除。</table>
+		<set name="icon" val="icon.event_oriental_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39589" type="EtcItem" name="甜蜜糖禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">與心愛的人一起共享就會更愉快的天堂II！點兩下便能獲得可以額外增加所得經驗值/SP15%的甜蜜糖 - 限時30日道具。在尚未開啟禮盒時可以交易，但開啟後就無法進行交易。一同發送的禮券內裝有愛情糖禮盒。與心愛的人互相交換禮盒吧。無法在奧林匹亞/渾沌祭典中使用。預計將於2014年1月8日全部刪除。</table>
+		<set name="icon" val="icon.event_oriental_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39590" type="EtcItem" name="愛情糖-限時30日">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">與心愛的人共享歡樂！額外增加所得經驗值/SP15%。與甜蜜糖重複適用效果，但與相同的糖果將不重複適用。預計將於2014年1月8日全部刪除。</table>
+		<set name="icon" val="icon.etc_whiteday_candy_i05" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="39591" type="EtcItem" name="甜蜜糖-限時30日">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">與心愛的人共享歡樂！額外增加所得經驗值/SP15%。與愛情糖重複適用效果，但與相同的糖果將不重複適用。預計將於2014年1月8日全部刪除。</table>
+		<set name="icon" val="icon.etc_whiteday_candy_i06" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="39592" type="EtcItem" name="暴風石">
+		<table name="#Desc">分解物質界的元素所取得的高級痕跡。進行特級煉金術技術時使用的材料。點兩下時，隨機得到下級染料箱子、中級染料箱子、上級染料箱子、風之護身符禮盒中之一。</table>
+		<set name="icon" val="icon.trace_of_wind2" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39593" type="EtcItem" name="狄恩城鎮傳送卷軸">
+		<table name="#Desc">可傳送至狄恩城鎮的大神官 錫爾巴銀附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39594" type="EtcItem" name="克魯瑪高塔傳送卷軸">
+		<table name="#Desc">可傳送至克魯瑪高塔。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39595" type="EtcItem" name="狄恩城鎮傳送卷軸">
+		<table name="#Desc">可傳送至狄恩城鎮。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39596" type="EtcItem" name="克魯瑪高塔傳送卷軸">
+		<table name="#Desc">可傳送至克魯瑪高塔地下3樓。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39597" type="EtcItem" name="次元轉換">
+		<table name="#Desc">攻擊次元防壁時需要的道具。</table>
+		<set name="icon" val="icon.etc_water_crystal_1_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39598" type="EtcItem" name="次元移動寶珠">
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39599" type="EtcItem" name="空靈魂瓶">
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+</list>

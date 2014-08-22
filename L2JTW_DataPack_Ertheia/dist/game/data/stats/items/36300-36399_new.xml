@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="36300" type="EtcItem" name="束縛解除卷軸-R95級防具">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">透過財富的鐵匠可以將R95級束縛的防具道具轉換為一般道具。</table>
+		<set name="icon" val="icon.cursed_free_r95_armor" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36302" type="EtcItem" name="祝福的卷軸-R級防具">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">拜訪財富的鐵匠的話，可以低機率將永生/煉獄一般防具交換成祝福的裝備。需支付一點手續費。</table>
+		<set name="icon" val="icon.bless_scroll_r1_armor" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36303" type="EtcItem" name="祝福的卷軸-R95級防具">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">拜訪財富的鐵匠的話，可以低機率將卡戴拉一般防具交換成祝福的裝備。需支付一點手續費。</table>
+		<set name="icon" val="icon.bless_scroll_r95_armor" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36308" type="EtcItem" name="皇室美型道具">
+		<table name="#Desc">維他命道具\n可在美型鋪使用的道具。能購買各式各樣的髮型和臉型。</table>
+		<set name="icon" val="icon.royal_beauty_item" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36309" type="EtcItem" name="戰場體力治癒藥水">
+		<table name="#Desc">恢復HP2500，剩餘的威力將用來恢復CP。只能在戰場上使用。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36310" type="EtcItem" name="戰場卷軸-無敵解除">
+		<table name="#Desc">解除鎖定敵人的無敵效果。只能在戰場上使用。</table>
+		<set name="icon" val="icon.etc_roll_of_paper_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36311" type="EtcItem" name="戰場卷軸-傷害反射抗性">
+		<table name="#Desc">對傷害反射效果賦予抗性。只能在戰場上使用。</table>
+		<set name="icon" val="icon.etc_roll_of_paper_black_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36312" type="EtcItem" name="戰場祝福卷軸">
+		<table name="#Desc">在30分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩等級1的效果。只能在戰場上使用。</table>
+		<set name="icon" val="icon.etc_roll_of_paper_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36313" type="EtcItem" name="戰場卷軸-睡眠">
+		<table name="#Desc">將鎖定目標陷入睡眠狀態10秒鐘。只能在戰場上使用。</table>
+		<set name="icon" val="icon.etc_roll_of_paper_red_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36314" type="EtcItem" name="小型紅龍蛋x10">
+		<table name="#Desc">淨化了邪惡氣息的紅龍蛋。點兩下後使用的話，就可召喚淨化的小型紅龍蛋，而提升召喚的蛋之溫度後，就可進行孵化。孵化成功或失敗時獲得的獎勵，會比一般小型紅龍蛋多出10倍。</table>
+		<set name="icon" val="icon.etc_ev_small_egg" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36315" type="EtcItem" name="小型紅龍蛋x50">
+		<table name="#Desc">淨化了邪惡氣息的紅龍蛋。點兩下後使用的話，就可召喚淨化的大型紅龍蛋，而提升召喚的蛋之溫度後，就可進行孵化。孵化成功或失敗時獲得的獎勵，會比一般小型紅龍蛋多出50倍。</table>
+		<set name="icon" val="icon.etc_ev_small_egg" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36316" type="EtcItem" name="紅龍帽-力量墜子">
+		<table name="#Desc">與紅龍帽結合後可以製作紅龍帽 - 力量。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36317" type="EtcItem" name="紅龍帽-敏捷墜子">
+		<table name="#Desc">與紅龍帽結合後可以製作紅龍帽 - 敏捷。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36318" type="EtcItem" name="紅龍帽-體質墜子">
+		<table name="#Desc">與紅龍帽結合後可以製作紅龍帽 - 體質。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36319" type="EtcItem" name="紅龍帽-精神墜子">
+		<table name="#Desc">與紅龍帽結合後可以製作紅龍帽 - 精神。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36320" type="EtcItem" name="紅龍帽-智力墜子">
+		<table name="#Desc">與紅龍帽結合後可以製作紅龍帽 - 智力。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36321" type="EtcItem" name="紅龍帽-智慧墜子">
+		<table name="#Desc">與紅龍帽結合後可以製作紅龍帽 - 智慧。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36322" type="EtcItem" name="麟紅龍的飾品箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，可以獲得祝福的巴拉卡斯項鍊、祝福的安塔瑞斯耳環、地蟲心臟戒指、塔武提戒指之一。</table>
+		<set name="icon" val="icon.etc_ev_draco_gift_box" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36323" type="EtcItem" name="麟紅龍禮物">
+		<table name="#Desc">從淨化的紅龍蛋中突然孵化出來的麟紅龍贈送的禮物。雖然還不太確定，但感覺是個非常棒的禮物。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36324" type="EtcItem" name="閃耀的紅龍的飾品箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得安塔瑞斯耳環/巴拉卡斯項鍊/地蟲心臟戒指/裝有安塔瑞斯靈魂之瓶/裝有巴拉卡斯靈魂之瓶/伊絲蒂娜耳環/項鍊/戒指、歐塔比斯耳環/項鍊/戒指之一。</table>
+		<set name="icon" val="icon.etc_ev_draco_gift_box" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36325" type="EtcItem" name="紅龍禮物">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">從淨化的紅龍蛋中孵化出來的紅龍贈送的禮物。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36326" type="EtcItem" name="閃耀的紅龍禮物">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">從淨化的紅龍蛋中孵化出來的紅龍贈送的禮物。雖不知原因，但正在散發著光芒。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36327" type="EtcItem" name="喜悅活力藥劑">
+		<table name="#Plus">1小時</table>
+		<table name="#Desc">使用的話，透過狩獵獲得經驗值時，將會恢復活力1小時。限制使用次數的活力道具。</table>
+		<set name="icon" val="icon.etc_potion_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="80" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36328" type="EtcItem" name="芙蕾雅的涼風">
+		<table name="#Plus">1小時</table>
+		<table name="#Desc">維他命道具\n使用後，可在1小時內體驗活力充能藥草的效果。被施展「生日的喜悅」輔助魔法時，則不會有任何效果。使用冷卻時間為60分鐘。限制使用次數的活力道具。死亡時效果不會刪除。</table>
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36329" type="EtcItem" name="帕格立歐的暖風-1小時">
+		<table name="#Desc">維他命道具\n使用後，可在1小時內體驗活力充能藥草的效果。被施展「生日的喜悅」輔助魔法時，則不會有任何效果。使用冷卻時間為60分鐘。限制使用次數的活力道具。死亡時效果不會刪除。</table>
+		<set name="icon" val="BranchSys2.Icon.pi_wind_of_paagrio" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36330" type="EtcItem" name="香甜巧克力-1小時">
+		<table name="#Desc">使用後，可在1小時內體驗活力充能藥草的效果。被施展「生日的喜悅」輔助魔法時，則不會有任何效果。使用冷卻時間為60分鐘。限制使用次數的活力道具。死亡時效果不會刪除。</table>
+		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36331" type="EtcItem" name="凱旋英雄的活力恢復飲料">
+		<table name="#Plus">1小時</table>
+		<table name="#Desc">使用後，可在1小時內體驗活力恢復的效果。被施展「生日的喜悅」輔助魔法時，則不會有任何效果。使用冷卻時間為60分鐘。限制使用次數的活力道具。</table>
+		<set name="icon" val="BranchSys2.icon.br_breath_of_hero_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36332" type="EtcItem" name="梅芙的蜂蜜水-1小時">
+		<table name="#Desc">維他命道具\n使用後，可在1小時內體驗活力充能的效果。被施展「生日的喜悅」輔助魔法時，則不會有任何效果。使用冷卻時間為60分鐘。限制使用次數的活力道具。死亡時效果不會刪除。</table>
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36333" type="EtcItem" name="謎樣的箱子">
+		<table name="#Desc">頒發給渾沌祭典優勝者的榮耀的箱子。點兩下時可以獲得獎勵，也有可能得不到任何東西。</table>
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36334" type="EtcItem" name="奧林匹亞慶典的腎上激素藥水">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了慶典使用特別打造的腎上激素藥水。據說喝下之後便能跑得像一隻野馬。使用時，增加移動速度15。至於藥水的成分則已歸類為秘密卷軸。禁止用於奧林匹亞競賽中。由於奧林匹亞藥水會產生極為強烈的作用，因此身體將取代先前所服下的藥水效果。慶典期間之後，將會全部刪除。</table>
+		<set name="icon" val="icon.etc_oblivion_yellow_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36335" type="EtcItem" name="奧林匹亞慶典的咖啡因藥水">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了慶典使用特別打造的咖啡因藥水。只要攝取一杯的量也能大幅度地提升敏捷性，並使身體感到輕鬆。使用時，增加DEX10。有可能導致過快的異常脈搏數和高血壓，請注意這一點。禁止用於奧林匹亞競賽中。由於奧林匹亞藥水會產生極為強烈的作用，因此身體將取代先前所服下的藥水效果。慶典期間之後，將會全部刪除。</table>
+		<set name="icon" val="icon.etc_oblivion_green_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36336" type="EtcItem" name="奧林匹亞慶典的蛋白質藥水">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了慶典使用特別打造的蛋白質藥水。據說攝取後，全身的肌肉量將會大幅增加，甚至連腦部也能變為肌肉。簡單地說，力量會變得非常強大。使用時，增加STR10。禁止用於奧林匹亞競賽中。由於奧林匹亞藥水會產生極為強烈的作用，因此身體將取代先前所服下的藥水效果。慶典期間之後，將會全部刪除。</table>
+		<set name="icon" val="icon.etc_oblivion_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36337" type="EtcItem" name="奧林匹亞慶典的DHA藥水">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了慶典使用特別打造的DHA藥水。據說喝下這瓶藥水的選手們會在不知不覺中強化自己的腦力並提高對對方的精神/魔法傷害，同時還運用反作用所產生的強悍震動來強化腦部。使用時，增加INT10。禁止用於奧林匹亞競賽中。由於奧林匹亞藥水會產生極為強烈的作用，因此身體將取代先前所服下的藥水效果。慶典期間之後，將會全部刪除。</table>
+		<set name="icon" val="icon.etc_oblivion_violet_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36338" type="EtcItem" name="奧林匹亞慶典的Omega-3藥水">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了慶典使用特別打造的Omega-3藥水。據說喝下藥水會促進腦神經傳導速度並有助於精神活動。使用時，增加WIT10。禁止用於奧林匹亞競賽中。由於奧林匹亞藥水會產生極為強烈的作用，因此身體將取代先前所服下的藥水效果。慶典期間之後，將會全部刪除。</table>
+		<set name="icon" val="icon.etc_oblivion_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36339" type="EtcItem" name="光榮勳章">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在亞丁國王 阿瑪戴歐 卡德姆斯所舉辦的慶典上使用的勳章。在光榮/勝利/友情勳章當中，是個最為稀有且珍貴的勳章。拿去交給活動執行者 可可鈴的話，便能換取黃金寶箱。</table>
+		<set name="icon" val="icon.etc_london_olympic_gold" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36340" type="EtcItem" name="勝利勳章">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在亞丁國王 阿瑪戴歐 卡德姆斯所舉辦的慶典上使用的勳章。若擁有光榮/勝利/友情勳章，拿去交給活動執行者 可可鈴的話，便能換取黃金寶箱。</table>
+		<set name="icon" val="icon.etc_london_olympic_silver" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36341" type="EtcItem" name="友誼勳章">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在亞丁國王 阿瑪戴歐 卡德姆斯所舉辦的慶典上使用的勳章。若擁有光榮/勝利/友情勳章，拿去交給活動執行者 可可鈴的話，便能換取黃金寶箱。</table>
+		<set name="icon" val="icon.etc_london_olympic_bronze" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36342" type="Armor" name="壺精封印手鐲">
+		<table name="#Plus">Jr.可可鈴</table>
+		<table name="#Desc">從活動執行者 可可鈴得到的手鐲。裝備時，可召喚Jr.可可鈴壺精。這種壺精是具有召喚後5小時內，每1小時一次可從怪物身上奪取光榮/勝利/友情獎章中之一能力的壺精。在安全區域裝備手鐲時，可恢復活力。</table>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="36343" type="Armor" name="男性泳裝No.1">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">用於亞丁黃金獎章活動的道具。裝備時，將解除防具且無法使用。但，頭飾、武器和裝飾品則不會被解除。只能由男性來裝備。</table>
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+	</item>
+	<item id="36344" type="Armor" name="男性泳裝No.2">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">用於亞丁黃金獎章活動的道具。裝備時，將解除防具且無法使用。但，頭飾、武器和裝飾品則不會被解除。只能由男性來裝備。</table>
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+	</item>
+	<item id="36345" type="Armor" name="女性泳裝No.1">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">用於亞丁黃金獎章活動的道具。裝備時，將解除防具且無法使用。但，頭飾、武器和裝飾品則不會被解除。只能由女性來裝備。</table>
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+	</item>
+	<item id="36346" type="Armor" name="女性泳裝No.2">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">用於亞丁黃金獎章活動的道具。裝備時，將解除防具且無法使用。但，頭飾、武器和裝飾品則不會被解除。只能由女性來裝備。</table>
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+	</item>
+	<item id="36347" type="EtcItem" name="榮耀之力卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，在30分鐘內增加所得經驗值和SP30%。</table>
+		<set name="icon" val="icon.etc_london_olympic_scroll_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36348" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36349" type="Armor" name="光榮手鐲">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">亞丁黃金獎章活動用道具。裝備時，可以開啟護身符欄位5個。具有MP+216、Str+1、Int+1的功能。</table>
+		<set name="icon" val="icon.london_olympic_bracelet" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="36350" type="Armor" name="勝利手鐲">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">亞丁黃金獎章活動用道具。裝備時，可以開啟護身符欄位5個。具有MP+216、Dex +1、Wit+1的功能。</table>
+		<set name="icon" val="icon.london_olympic_bracelet" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="36351" type="Armor" name="友誼手鐲">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">亞丁黃金獎章活動用道具。裝備時，可以開啟護身符欄位5個。具有MP+216、Con +1、Men+1的功能。</table>
+		<set name="icon" val="icon.london_olympic_bracelet" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="36352" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">力量(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到力量+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36353" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">敏捷(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36354" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">體質(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到體質+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36355" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">精神(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到精神+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36356" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">智力(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到智力+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36357" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">智慧(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到智慧+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36358" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">致命攻擊率(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36359" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">致命傷害(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36360" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">物理防禦力(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36361" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">魔法防禦力(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36362" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">迴避能力(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到迴避+5的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36363" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">物理攻擊力(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36364" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">魔法攻擊力(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36365" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">命中能力(活動)</table>
+		<table name="#Desc">亞丁黃金獎章活動用頭飾。裝備的話，就可得到命中+5的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36366" type="EtcItem" name="黃金寶箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以得到亞丁國王 阿瑪戴歐 卡德姆斯準備的黃金寶箱（獎勵用）。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36367" type="EtcItem" name="閃耀的黃金寶箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">玲瓏剔透且閃耀的黃金寶箱。亞丁國王 阿瑪戴歐 卡德姆斯所準備的特別獎勵。點兩下的話，就可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36368" type="EtcItem" name="寶箱">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">對於亞丁重建給予協助的小獎勵箱子。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36369" type="EtcItem" name="英雄的寶箱">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">對於亞丁重建立下大功的獎勵箱子。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36370" type="EtcItem" name="頭飾禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有頭飾的禮盒。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36371" type="EtcItem" name="墜子禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有可強化頭飾的墜子的禮盒。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36372" type="EtcItem" name="強化卷軸禮盒(S)">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有S級強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36373" type="EtcItem" name="強化卷軸禮盒(R)">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有R級強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36374" type="EtcItem" name="屬性石碎片禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有屬性石碎片的禮盒。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36375" type="EtcItem" name="材料箱子">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有製作道具時需要的各種材料的箱子。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36376" type="EtcItem" name="英雄的強化輔助石禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有強化輔助石的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36377" type="EtcItem" name="破滅強化卷軸禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有破滅強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36378" type="EtcItem" name="英雄的巨人強化卷軸禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有巨人的強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36379" type="EtcItem" name="英雄的祝福強化卷軸禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有祝福強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36380" type="EtcItem" name="英雄的束縛解除卷軸禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有束縛解除卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36381" type="EtcItem" name="英雄的屬性水晶禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有屬性水晶或Super-60/150原石中之一的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36382" type="EtcItem" name="重啟禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有重啟卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36383" type="EtcItem" name="淨化禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有淨化卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36384" type="EtcItem" name="神祕彈禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有神祕的靈魂彈/魔靈彈-R級的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36385" type="EtcItem" name="卡利艾之力禮盒">
+		<table name="#Plus">亞丁重建</table>
+		<table name="#Desc">內裝有卡利艾之力的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36386" type="EtcItem" name="巨人武器強化卷軸-R級">
+		<table name="#Desc">強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。可隨機強化為+1~ +3。</table>
+		<set name="icon" val="icon.giant_scrl_of_ench_wp_r" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36387" type="EtcItem" name="巨人武器強化卷軸-S級">
+		<table name="#Desc">強化時，S級單手劍、單手鈍器、匕首、槍、其他類型武器的攻擊力可提升5。雙手劍、雙手鈍器、二刀流、格鬥兵器的攻擊力可提升6。弓類武器的攻擊力可提升10。 所有類型武器的魔法攻擊力提升約4。從+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。可隨機強化為+1~ +3。</table>
+		<set name="icon" val="icon.giant_scrl_of_ench_wp_s" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36388" type="EtcItem" name="巨人武器強化卷軸-A級">
+		<table name="#Desc">強化時，A級單手劍、單手鈍器、匕首、槍、其他類型武器的攻擊力可提升4。雙手劍、雙手鈍器、二刀流、格鬥兵器的攻擊力可提升5。弓類武器的攻擊力可提升8。 所有類型武器的魔法攻擊力提升約3。從+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。可隨機強化為+1~ +3。</table>
+		<set name="icon" val="icon.giant_scrl_of_ench_wp_a" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36389" type="EtcItem" name="巨人防具強化卷軸-R級">
+		<table name="#Desc">強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始將大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。可隨機強化為+1~ +3。</table>
+		<set name="icon" val="icon.giant_scrl_of_ench_am_r" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36390" type="EtcItem" name="巨人防具強化卷軸-S級">
+		<table name="#Desc">強化時，S級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。可隨機強化為+1~ +3。</table>
+		<set name="icon" val="icon.giant_scrl_of_ench_am_s" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36391" type="EtcItem" name="巨人防具強化卷軸-A級">
+		<table name="#Desc">A級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。可隨機強化為+1~ +3。</table>
+		<set name="icon" val="icon.giant_scrl_of_ench_am_a" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36392" type="EtcItem" name="特拉庇斯的憑證">
+		<table name="#Desc">與特拉庇斯一起復活後歸返的人們之憑證。將此拿去交給站在國立墓地和席琳封印境界的亞丁先鋒隊補給官的話，便能獲得獎勵。</table>
+		<set name="icon" val="icon.item_normal89" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36393" type="EtcItem" name="歸還者之魂">
+		<table name="#Desc">與特拉庇斯一起復活後歸返的人們之靈魂。將此拿去交給站在國立墓地和席琳封印境界的亞丁先鋒隊補給官的話，便能獲得獎勵。</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36394" type="EtcItem" name="親衛隊補給禮盒">
+		<table name="#Desc">擊倒與特拉庇斯一起復活後歸返的人們獲得的一點獎勵。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36395" type="EtcItem" name="黃金寶箱 (獎勵用)">
+		<table name="#Desc">可以得到亞丁國王 阿瑪戴歐 卡德姆斯準備的凱旋禮物，偶爾會獲得閃耀的黃金寶箱。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36396" type="EtcItem" name="藥水禮盒">
+		<table name="#Desc">可以獲得3個奧林匹亞選手用的5種藥水之1。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36397" type="EtcItem" name="光榮禮盒">
+		<table name="#Desc">為了紀念獲得榮譽的金牌，由可可鈴贈送的光榮禮盒。點兩下時可機率性獲得光榮/勝利/友情獎章。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36398" type="EtcItem" name="勝利禮盒">
+		<table name="#Desc">為了紀念獲得榮譽的銀牌，由可可鈴贈送的勝利禮盒。點兩下時可機率性獲得光榮/勝利/友情獎章。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="36399" type="EtcItem" name="友誼禮盒">
+		<table name="#Desc">為了紀念獲得榮譽的銅牌，由可可鈴贈送的友誼禮盒。點兩下時可機率性獲得光榮/勝利/友誼獎章。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

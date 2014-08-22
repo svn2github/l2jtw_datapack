@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="18300" type="Armor" name="R99護身符-CP {被動}">
+		<table name="#Desc">裝備時，增加CP最大值124。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18301" type="Armor" name="R85護身符-致命攻擊威力 {被動}">
+		<table name="#Desc">裝備時，增加致命威力135。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18302" type="Armor" name="R90護身符-致命攻擊威力 {被動}">
+		<table name="#Desc">裝備時，增加致命威力142。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18303" type="Armor" name="R95護身符-致命攻擊威力 {被動}">
+		<table name="#Desc">裝備時，增加致命威力149。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18304" type="Armor" name="R99護身符-致命攻擊威力 {被動}">
+		<table name="#Desc">裝備時，增加致命威力155。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18305" type="Armor" name="R85護身符-致命攻擊減少 {被動}">
+		<table name="#Desc">裝備時，將減少遭受物理致命攻擊時所受到的傷害量135。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18306" type="Armor" name="R90護身符-致命攻擊減少 {被動}">
+		<table name="#Desc">裝備時，將減少遭受物理致命攻擊時所受到的傷害量142。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18307" type="Armor" name="R95護身符-致命攻擊減少 {被動}">
+		<table name="#Desc">裝備時，將減少遭受物理致命攻擊時所受到的傷害量149。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18308" type="Armor" name="R99護身符-致命攻擊減少 {被動}">
+		<table name="#Desc">裝備時，將減少遭受物理致命攻擊時所受到的傷害量155。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18309" type="Armor" name="R護身符-魔法致命攻擊率 {被動}">
+		<table name="#Desc">裝備時，增加魔法致命攻擊率2%。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mc_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18310" type="Armor" name="R護身符-物理命中能力 {被動}">
+		<table name="#Desc">裝備時，增加命中能力2。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_ph_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18311" type="Armor" name="R護身符-魔法命中能力 {被動}">
+		<table name="#Desc">裝備時，增加魔法命中能力2。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mh_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18312" type="Armor" name="R護身符-迴避能力 {被動}">
+		<table name="#Desc">裝備時，增加迴避能力2。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_pm_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18313" type="Armor" name="R護身符-魔法迴避能力 {被動}">
+		<table name="#Desc">裝備時，增加魔法迴避能力2。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mm_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18314" type="Armor" name="R護身符-物理致命攻擊率 {被動}">
+		<table name="#Desc">裝備時，增加致命攻擊率2。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_cr_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18315" type="Armor" name="R護身符-物理致命被擊率 {被動}">
+		<table name="#Desc">裝備時，降低物理致命被擊率2%。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_cm_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18316" type="Armor" name="R85護身符-物理攻擊力 {主動}">
+		<table name="#Desc">使用時，增加物理攻擊力111。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18317" type="Armor" name="R90護身符-物理攻擊力 {主動}">
+		<table name="#Desc">使用時，增加物理攻擊力129。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18318" type="Armor" name="R95護身符-物理攻擊力 {主動}">
+		<table name="#Desc">使用時，增加物理攻擊力156。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18319" type="Armor" name="R99護身符-物理攻擊力 {主動}">
+		<table name="#Desc">使用時，增加物理攻擊力180。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18320" type="Armor" name="R85護身符-物理防禦力 {主動}">
+		<table name="#Desc">使用時，增加物理防禦力114。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18321" type="Armor" name="R90護身符-物理防禦力 {主動}">
+		<table name="#Desc">使用時，增加物理防禦力129。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18322" type="Armor" name="R95護身符-物理防禦力 {主動}">
+		<table name="#Desc">使用時，增加物理防禦力147。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18323" type="Armor" name="R99護身符-物理防禦力 {主動}">
+		<table name="#Desc">使用時，增加物理防禦力162。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18324" type="Armor" name="R85護身符-魔法攻擊力 {主動}">
+		<table name="#Desc">使用時，增加魔法攻擊力111。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18325" type="Armor" name="R90護身符-魔法攻擊力 {主動}">
+		<table name="#Desc">使用時，增加魔法攻擊力138。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18326" type="Armor" name="R95護身符-魔法攻擊力 {主動}">
+		<table name="#Desc">使用時，增加魔法攻擊力168。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18327" type="Armor" name="R99護身符-魔法攻擊力 {主動}">
+		<table name="#Desc">使用時，增加魔法攻擊力198。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18328" type="Armor" name="R85護身符-魔法防禦力 {主動}">
+		<table name="#Desc">使用時，增加魔法防禦力63。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18329" type="Armor" name="R90護身符-魔法防禦力 {主動}">
+		<table name="#Desc">使用時，增加魔法防禦力72。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18330" type="Armor" name="R95護身符-魔法防禦力 {主動}">
+		<table name="#Desc">使用時，增加魔法防禦力84。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18331" type="Armor" name="R99護身符-魔法防禦力 {主動}">
+		<table name="#Desc">使用時，增加魔法防禦力96。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18332" type="Armor" name="R85護身符-HP {主動}">
+		<table name="#Desc">使用時，增加HP最大值657。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18333" type="Armor" name="R90護身符-HP {主動}">
+		<table name="#Desc">使用時，增加HP最大值738。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18334" type="Armor" name="R95護身符-HP {主動}">
+		<table name="#Desc">使用時，增加HP最大值831。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18335" type="Armor" name="R99護身符-HP {主動}">
+		<table name="#Desc">使用時，增加HP最大值915。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18336" type="Armor" name="R85護身符-MP {主動}">
+		<table name="#Desc">使用時，增加MP最大值327。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18337" type="Armor" name="R90護身符-MP {主動}">
+		<table name="#Desc">使用時，增加MP最大值357。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18338" type="Armor" name="R95護身符-MP {主動}">
+		<table name="#Desc">使用時，增加MP最大值390。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18339" type="Armor" name="R99護身符-MP {主動}">
+		<table name="#Desc">使用時，增加MP最大值417。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18340" type="Armor" name="R85護身符-CP {主動}">
+		<table name="#Desc">使用時，增加CP最大值297。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18341" type="Armor" name="R90護身符-CP {主動}">
+		<table name="#Desc">使用時，增加CP最大值324。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18342" type="Armor" name="R95護身符-CP {主動}">
+		<table name="#Desc">使用時，增加CP最大值390。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18343" type="Armor" name="R99護身符-CP {主動}">
+		<table name="#Desc">使用時，增加CP最大值417。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18344" type="Armor" name="R85護身符-致命攻擊威力 {主動}">
+		<table name="#Desc">使用時，增加致命威力405。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18345" type="Armor" name="R90護身符-致命攻擊威力 {主動}">
+		<table name="#Desc">使用時，增加致命威力426。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18346" type="Armor" name="R95護身符-致命攻擊威力 {主動}">
+		<table name="#Desc">使用時，增加致命威力447。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18347" type="Armor" name="R99護身符-致命攻擊威力 {主動}">
+		<table name="#Desc">使用時，增加致命威力465。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18348" type="Armor" name="R85護身符-致命攻擊防禦力 {主動}">
+		<table name="#Desc">使用時，將減少遭受物理致命攻擊時所受到的傷害量405。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18349" type="Armor" name="R90護身符-致命攻擊防禦力 {主動}">
+		<table name="#Desc">使用時，將減少遭受物理致命攻擊時所受到的傷害量426。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18350" type="Armor" name="R95護身符-致命攻擊防禦力 {主動}">
+		<table name="#Desc">使用時，將減少遭受物理致命攻擊時所受到的傷害量447。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18351" type="Armor" name="R99護身符-致命攻擊防禦力 {主動}">
+		<table name="#Desc">使用時，將減少遭受物理致命攻擊時所受到的傷害量465。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18352" type="Armor" name="R護身符-魔法致命攻擊率 {主動}">
+		<table name="#Desc">使用時，增加魔法致命攻擊率4%。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mc_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18353" type="Armor" name="R護身符-物理命中能力 {主動}">
+		<table name="#Desc">使用時，增加命中能力4。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_ph_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18354" type="Armor" name="R護身符-魔法命中能力 {主動}">
+		<table name="#Desc">使用時，增加加魔法命中能力4。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18355" type="Armor" name="R護身符-迴避能力 {主動}">
+		<table name="#Desc">使用時，增加迴避能力4。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_pm_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18356" type="Armor" name="R護身符-魔法迴避能力 {主動}">
+		<table name="#Desc">使用時，增加魔法迴避能力4。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_mm_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18357" type="Armor" name="R護身符-物理致命攻擊率 {主動}">
+		<table name="#Desc">使用時，增加致命攻擊率4%。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_cr_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18358" type="Armor" name="R護身符-物理致命被擊率 {主動}">
+		<table name="#Desc">使用時，降低物理致命被擊率4%。幻象裝備。</table>
+		<set name="icon" val="icon.r_talisman_cm_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18359" type="Armor" name="R85特別護身符-盾牌防禦力 {被動}">
+		<table name="#Desc">裝備時，增加盾牌防禦力414。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18360" type="Armor" name="R90特別護身符-盾牌防禦力 {被動}">
+		<table name="#Desc">裝備時，增加盾牌防禦力457。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18361" type="Armor" name="R95特別護身符-盾牌防禦力 {被動}">
+		<table name="#Desc">裝備時，增加盾牌防禦力505。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18362" type="Armor" name="R99特別護身符-盾牌防禦力 {被動}">
+		<table name="#Desc">裝備時，增加盾牌防禦力546。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18363" type="Armor" name="R85特別護身符-盾牌防禦力 {主動}">
+		<table name="#Desc">使用時，增加盾牌防禦力1242。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18364" type="Armor" name="R90特別護身符-盾牌防禦力 {主動}">
+		<table name="#Desc">使用時，增加盾牌防禦力1371。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18365" type="Armor" name="R95特別護身符-盾牌防禦力 {主動}">
+		<table name="#Desc">使用時，增加盾牌防禦力1515。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18366" type="Armor" name="R99特別護身符-盾牌防禦力 {主動}">
+		<table name="#Desc">使用時，增加盾牌防禦力1638。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sd_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18367" type="Armor" name="R85特別護身符-鬥力 {被動}">
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18368" type="Armor" name="R90特別護身符-鬥力 {被動}">
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18369" type="Armor" name="R95特別護身符-鬥力 {被動}">
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18370" type="Armor" name="R99特別護身符-鬥力 {被動}">
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18371" type="Armor" name="R85特別護身符-鬥力 {主動}">
+		<table name="#Desc">使用時，增加鬥力1階段。</table>
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18372" type="Armor" name="R90特別護身符-鬥力 {主動}">
+		<table name="#Desc">使用時，增加鬥力1階段。</table>
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18373" type="Armor" name="R95特別護身符-鬥力 {主動}">
+		<table name="#Desc">使用時，增加鬥力1階段。</table>
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18374" type="Armor" name="R99特別護身符-鬥力 {主動}">
+		<table name="#Desc">使用時，增加鬥力1階段。</table>
+		<set name="icon" val="icon.r85_sp_talisman_eg_rf_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18375" type="Armor" name="R85特別護身符-MP吸收 {主動}">
+		<table name="#Desc">使用時，吸收攻擊目標的MP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18376" type="Armor" name="R90特別護身符-MP吸收 {主動}">
+		<table name="#Desc">使用時，吸收攻擊目標的MP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18377" type="Armor" name="R95特別護身符-MP吸收 {主動}">
+		<table name="#Desc">使用時，吸收攻擊目標的MP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18378" type="Armor" name="R99特別護身符-MP吸收 {主動}">
+		<table name="#Desc">使用時，吸收攻擊目標的MP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_mp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18379" type="Armor" name="R85特別護身符-HP吸收 {主動}">
+		<table name="#Desc">使用時，可機率性吸收攻擊目標的HP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18380" type="Armor" name="R90特別護身符-HP吸收 {主動}">
+		<table name="#Desc">使用時，可機率性吸收攻擊目標的HP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18381" type="Armor" name="R95特別護身符-HP吸收 {主動}">
+		<table name="#Desc">使用時，可機率性吸收攻擊目標的HP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18382" type="Armor" name="R99特別護身符-HP吸收 {主動}">
+		<table name="#Desc">使用時，可機率性吸收攻擊目標的HP。</table>
+		<set name="icon" val="icon.r85_sp_talisman_dr_hp_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18383" type="Armor" name="R85特別護身符-射程距離增加 {被動}">
+		<table name="#Desc">裝備時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18384" type="Armor" name="R90特別護身符-射程距離增加 {被動}">
+		<table name="#Desc">裝備時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18385" type="Armor" name="R95特別護身符-射程距離增加 {被動}">
+		<table name="#Desc">裝備時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18386" type="Armor" name="R99特別護身符-射程距離增加 {被動}">
+		<table name="#Desc">裝備時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18387" type="Armor" name="R85特別護身符-射程距離增加 {主動}">
+		<table name="#Desc">使用時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18388" type="Armor" name="R90特別護身符-射程距離增加 {主動}">
+		<table name="#Desc">使用時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18389" type="Armor" name="R95特別護身符-射程距離增加 {主動}">
+		<table name="#Desc">使用時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18390" type="Armor" name="R99特別護身符-射程距離增加 {主動}">
+		<table name="#Desc">使用時，增加弓類/弩類的射程距離。</table>
+		<set name="icon" val="icon.r85_sp_talisman_ad_ex_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18391" type="Armor" name="R85特別護身符-使魔強化 {主動}">
+		<table name="#Desc">使用時，增加使魔的HP、MP最大值。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sm_st_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18392" type="Armor" name="R90特別護身符-使魔強化 {主動}">
+		<table name="#Desc">使用時，增加使魔的HP、MP最大值。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sm_st_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18393" type="Armor" name="R95特別護身符-使魔強化 {主動}">
+		<table name="#Desc">使用時，增加使魔的HP、MP最大值。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sm_st_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18394" type="Armor" name="R99特別護身符-使魔強化 {主動}">
+		<table name="#Desc">使用時，增加使魔的HP、MP最大值。</table>
+		<set name="icon" val="icon.r85_sp_talisman_sm_st_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18395" type="Armor" name="R特別護身符-使魔恢復 {主動}">
+		<table name="#Desc">使用時，完全恢復使魔的HP、MP。</table>
+		<set name="icon" val="icon.r_sp_talisman_sm_rt_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18396" type="Armor" name="R特別護身符-施法中斷 {被動}">
+		<table name="#Desc">裝備時，降低施法中斷的機率10%。</table>
+		<set name="icon" val="icon.r_sp_talisman_mg_rs_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18397" type="Armor" name="R特別護身符-施法中斷 {主動}">
+		<table name="#Desc">使用時，施法時不會發生中斷現象。</table>
+		<set name="icon" val="icon.r_sp_talisman_mg_cc_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18398" type="Armor" name="R85特別護身符-MP恢復{被動}">
+		<table name="#Desc">裝備時，增加MP恢復量0.66。</table>
+		<set name="icon" val="icon.r85_sp_talisman_mp_rg_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="18399" type="Armor" name="R90特別護身符-MP恢復{被動}">
+		<table name="#Desc">裝備時，增加MP恢復量0.68。</table>
+		<set name="icon" val="icon.r85_sp_talisman_mp_rg_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+</list>

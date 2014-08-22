@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="35700" type="EtcItem" name="聖誕少女黃金禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，就可獲得聖誕少女斗篷禮盒和帽子禮盒（3日）。運氣好的話，就可獲得額外的獎勵。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35701" type="EtcItem" name="聖誕少女紅色襪子">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下的話，就可獲得聖誕少女的禮盒。運氣好的話，就可獲得聖誕少女的黃金禮盒。</table>
+		<set name="icon" val="icon.xmas_present_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35702" type="EtcItem" name="扎哈克的佩特拉">
+		<table name="#Desc">在業火之種擊倒扎哈克後獲得的佩特拉。點擊的話，就可查看任務內容。任務觸發道具。</table>
+		<set name="icon" val="icon.etc_torch_on_i00" />
+		<set name="material" val="CRYSTAL" />
+	</item>
+	<item id="35703" type="EtcItem" name="特級佩特拉">
+		<table name="#Desc">在業火之種擊倒扎哈克後獲得的佩特拉。與從蘇波們手中獲得的佩特拉相比，可以感受到更強悍的氣息。拿去交給亞庫吧。</table>
+		<set name="icon" val="icon.etc_torch_on_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35704" type="EtcItem" name="遠征隊支援水晶小袋">
+		<table name="#Desc">支付給志願參與安塔瑞斯遠征隊的人的水晶包囊。打開包囊的話，就可獲得水晶。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35705" type="EtcItem" name="回聲水晶-永遠的冒險(第5屆 Fantic  Award)">
+		<table name="#Desc">第5屆天堂II Fantic  Award 綜合大獎獲獎作品。藉由泰恩伺服器內的「Orange Elf」的作品，在輕鬆愉快的旋律中可以感受到天堂II的冒險精神。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35706" type="EtcItem" name="回聲水晶-戰爭的開端(第5屆 Fantic  Award)">
+		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由史坦瑞斯伺服器內的「蒼術」的作品，展現了天堂II夢幻世界觀的演奏曲。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i04" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35707" type="EtcItem" name="回聲水晶-Reload(第5屆 Fantic  Award)">
+		<table name="#Desc">第5屆天堂II Fantic  Award 作曲優秀獎獲獎作品。藉由黎歐納伺服器內的「Suhr21」的作品，利用吉他即興重複段展現了工整卻帶有緊張感的演奏曲。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i01" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35708" type="Weapon" name="精靈專用武器">
+		<table name="#Desc">精靈專用武器。</table>
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="35709" type="EtcItem" name="蘇波補給箱">
+		<table name="#Desc">在業火之種2樓完成破壞機械裝置任務後獲得的箱子。點兩下就能查看內容。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35710" type="EtcItem" name="聖誕少女斗篷禮盒">
+		<table name="#Plus">限時1日(活動)</table>
+		<table name="#Desc">點兩下的話，就可獲得聖誕少女斗篷（1日）。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35711" type="EtcItem" name="聖誕少女斗篷禮盒">
+		<table name="#Plus">限時3日(活動)</table>
+		<table name="#Desc">點兩下的話，就可獲得聖誕少女斗篷（3日）。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35712" type="Armor" name="充滿GM真誠的時髦浪漫圓帽">
+		<table name="#Plus">戰士用</table>
+		<table name="#Desc">含有GM真誠的時髦浪漫圓帽。會佔用頭飾欄位2格。裝備的話，就可得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35713" type="Armor" name="充滿GM真誠的時髦浪漫圓帽">
+		<table name="#Plus">法師用</table>
+		<table name="#Desc">含有GM真誠的時髦浪漫圓帽。會佔用頭飾欄位2格。裝備的話，就可得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35714" type="Armor" name="充滿GM真誠的時髦浪漫圓帽">
+		<table name="#Plus">牧師用</table>
+		<table name="#Desc">含有GM真誠的時髦浪漫圓帽。會佔用頭飾欄位2格。裝備的話，就可得到WIT+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35715" type="Armor" name="充滿GM祝福的時髦浪漫圓帽">
+		<table name="#Plus">戰士用</table>
+		<table name="#Desc">含有GM祝福的時髦浪漫圓帽。會佔用頭飾欄位2格。裝備的話，就可得到增加物理攻擊力5%、致命攻擊率50的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35716" type="Armor" name="充滿GM祝福的時髦浪漫圓帽">
+		<table name="#Plus">法師用</table>
+		<table name="#Desc">含有GM祝福的時髦浪漫圓帽。會佔用頭飾欄位2格。裝備的話，就可得到增加魔法攻擊力10%、INT+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35717" type="Armor" name="充滿GM祝福的時髦浪漫圓帽">
+		<table name="#Plus">牧師用</table>
+		<table name="#Desc">含有GM祝福的時髦浪漫圓帽。會佔用頭飾欄位2格。裝備的話，就可得到WIT+3, MEN+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35718" type="Armor" name="聖誕帽">
+		<table name="#Plus">限時1日(活動)</table>
+		<table name="#Desc">展現聖誕氣氛的帽子。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="duration" val="180" />
+	</item>
+	<item id="35719" type="Armor" name="聖誕帽">
+		<table name="#Plus">限時3日(活動)</table>
+		<table name="#Desc">展現聖誕氣氛的帽子。</table>
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="duration" val="540" />
+	</item>
+	<item id="35720" type="EtcItem" name="聖誕少女帽禮盒">
+		<table name="#Plus">限時1日(活動)</table>
+		<table name="#Desc">點兩下的話，就可獲得聖誕少女帽（1日）。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35721" type="EtcItem" name="聖誕少女帽禮盒">
+		<table name="#Plus">限時3日(活動)</table>
+		<table name="#Desc">點兩下的話，就可獲得聖誕少女帽（3日）。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35722" type="Armor" name="紅龍帽">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">紅龍帽。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35723" type="EtcItem" name="幻靈武器禮盒">
+		<table name="#Desc">內裝有未確認的幻靈武器的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35724" type="EtcItem" name="卡戴拉盔甲禮盒">
+		<table name="#Desc">內裝有未確認的卡戴拉防具的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35725" type="EtcItem" name="卡戴拉飾品禮盒">
+		<table name="#Desc">內裝有未確認的卡戴拉飾品的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35726" type="EtcItem" name="R級強化箱子">
+		<table name="#Desc">內裝有R級強化劑的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35727" type="EtcItem" name="護身符種子的材料箱子">
+		<table name="#Desc">內裝有種子護身符材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35728" type="EtcItem" name="英雄支援禮盒">
+		<table name="#Desc">點兩下的話，就可得到幻靈武器禮盒、卡戴拉防具禮盒、卡戴拉飾品禮盒、R級強化禮盒、種子護身符禮盒、金幣、靈魂彈、祝福的魔靈彈、SP卷軸。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35729" type="EtcItem" name="火之原石-Super 60">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">火屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35730" type="EtcItem" name="水之原石-Super 60">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">水屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35731" type="EtcItem" name="地之原石-Super 60">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">地屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35732" type="EtcItem" name="風之原石-Super 60">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">風屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35733" type="EtcItem" name="暗之原石-Super 60">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">黑暗屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35734" type="EtcItem" name="聖之原石-Super 60">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">神聖屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35735" type="EtcItem" name="火之原石-Super 150">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">火屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35736" type="EtcItem" name="水之原石-Super 150">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">水屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35737" type="EtcItem" name="地之原石-Super 150">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">地屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35738" type="EtcItem" name="風之原石-Super 150">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">風屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35739" type="EtcItem" name="暗之原石-Super 150">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">黑暗屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35740" type="EtcItem" name="聖之原石-Super 150">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">神聖屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35741" type="EtcItem" name="重啟卷軸(下級)">
+		<table name="#Desc">點兩下時，降低PK數值1。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35742" type="EtcItem" name="淨化卷軸(下級)">
+		<table name="#Desc">點兩下時，提升評判值1000。可在芙羅蘭村莊使用。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35743" type="EtcItem" name="紅龍的紅色藥瓶">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時恢復HP3000，剩餘的威力將用來恢復CP。但無持續時間。</table>
+		<set name="icon" val="icon.etc_ev_draco_hp_bottle" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35744" type="EtcItem" name="紅龍的藍色藥瓶">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時可以恢復MP100，但無持續時間。在MP飽滿的狀態下無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_mp_bottle" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35745" type="EtcItem" name="紅龍帽箱">
+		<table name="#Plus">活動(不使用)</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35746" type="Armor" name="紅龍帽-戰士(限時7日)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可愛的紅龍帽。限時7日。Str+2、Dex+2、Con+2。可以使用祝福的復活技能。（使用冷卻時間為1小時）活動結束的2月1日將會刪除。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35747" type="Armor" name="紅龍帽-法師(限時7日)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可愛的紅龍帽。限時7日。Int+2、Wit+2、Men+2。可以使用祝福的復活技能。（使用冷卻時間為1小時）活動結束的2月1日將會刪除。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35748" type="Armor" name="紅龍帽">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可愛的紅龍帽。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35749" type="EtcItem" name="武器屬性變更水晶-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以變更R、R95、R99級武器的屬性。道具清單內需要有賦予屬性的R級武器才可使用。</table>
+		<set name="icon" val="icon.change_elemental_crystal" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35750" type="EtcItem" name="紅龍的祝福(30分鐘)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，在30分鐘內等級85以上、等級90以下的角色狩獵時，增加所得經驗值和SP200%。</table>
+		<set name="icon" val="icon.etc_ev_draco_exp_up" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35751" type="EtcItem" name="閃耀的紅龍的飾品箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得安塔瑞斯耳環/巴拉卡斯項鍊/地蟲心臟戒指/裝有安塔瑞斯靈魂之瓶/裝有巴拉卡斯靈魂之瓶之一。</table>
+		<set name="icon" val="icon.etc_ev_draco_gift_box" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35752" type="EtcItem" name="重啟卷軸(中級)">
+		<table name="#Desc">點兩下時，可以降低PK數值3。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35753" type="EtcItem" name="重啟卷軸(上級)">
+		<table name="#Desc">點兩下時，可以降低PK數值5。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35754" type="EtcItem" name="重啟卷軸(特級)">
+		<table name="#Desc">點兩下時，可以降低PK數值10。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35755" type="EtcItem" name="淨化卷軸(中級)">
+		<table name="#Desc">點兩下時，提升評判值5000。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。可在芙羅蘭村莊使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35756" type="EtcItem" name="淨化卷軸(上級)">
+		<table name="#Desc">點兩下時，提升評判值30000。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。可在芙羅蘭村莊使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35757" type="EtcItem" name="淨化卷軸(特級)">
+		<table name="#Desc">點兩下時，將評判值轉換為0。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。可在芙羅蘭村莊使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35758" type="EtcItem" name="紅龍的祝福(1小時)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，在1小時內等級85以上、等級90以下的角色狩獵時，增加所得經驗值和SP200%。</table>
+		<set name="icon" val="icon.etc_ev_draco_exp_up" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35759" type="EtcItem" name="紅龍的祝福(1小時)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，在1小時內等級1~95以下的角色狩獵時，增加所得經驗值和SP100%。於活動結束的2012年07月18日定期維修時將全部刪除。</table>
+		<set name="icon" val="icon.etc_ev_draco_exp_up" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35760" type="EtcItem" name="紅龍的祝福(3小時)">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，在3小時內等級85以上、等級90以下的角色狩獵時，增加所得經驗值和SP200%。</table>
+		<set name="icon" val="icon.etc_ev_draco_exp_up" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35761" type="Armor" name="兔耳">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35762" type="Armor" name="兔耳">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35763" type="Armor" name="兔耳">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35764" type="Armor" name="兔耳">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35765" type="Armor" name="兔耳">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35766" type="Armor" name="兔耳">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35767" type="Armor" name="兔耳">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35768" type="Armor" name="兔耳">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35769" type="Armor" name="兔耳">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35770" type="Armor" name="兔耳">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35771" type="Armor" name="兔耳">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35772" type="Armor" name="兔耳">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35773" type="Armor" name="狸耳">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35774" type="Armor" name="狸耳">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35775" type="Armor" name="狸耳">
+		<table name="#Plus">智力</table>
+		<table name="#Desc">裝備的話，可以得到智力+3的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35776" type="Armor" name="狸耳">
+		<table name="#Plus">智慧</table>
+		<table name="#Desc">裝備的話，可以得到智慧+3的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35777" type="Armor" name="狸耳">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35778" type="Armor" name="狸耳">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35779" type="Armor" name="狸耳">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35780" type="Armor" name="狸耳">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35781" type="Armor" name="狸耳">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35782" type="Armor" name="狸耳">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35783" type="Armor" name="狸耳">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35784" type="Armor" name="狸耳">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35785" type="Armor" name="貓耳">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35786" type="Armor" name="貓耳">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35787" type="Armor" name="貓耳">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35788" type="Armor" name="貓耳">
+		<table name="#Plus">精神</table>
+		<table name="#Desc">裝備的話，可以得到精神+3的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35789" type="Armor" name="貓耳">
+		<table name="#Plus">致命攻擊率</table>
+		<table name="#Desc">裝備的話，可以得到致命攻擊率+50的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35790" type="Armor" name="貓耳">
+		<table name="#Plus">致命傷害</table>
+		<table name="#Desc">裝備的話，可以得到物理致命傷害+90、魔法致命傷害+68的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35791" type="Armor" name="貓耳">
+		<table name="#Plus">物理防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35792" type="Armor" name="貓耳">
+		<table name="#Plus">魔法防禦力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法防禦力5%的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35793" type="Armor" name="貓耳">
+		<table name="#Plus">迴避能力</table>
+		<table name="#Desc">裝備的話，可以得到迴避能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35794" type="Armor" name="貓耳">
+		<table name="#Plus">物理攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35795" type="Armor" name="貓耳">
+		<table name="#Plus">魔法攻擊力</table>
+		<table name="#Desc">裝備的話，可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35796" type="Armor" name="貓耳">
+		<table name="#Plus">命中能力</table>
+		<table name="#Desc">裝備的話，可以得到命中能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35797" type="Armor" name="浪漫圓帽">
+		<table name="#Plus">力量</table>
+		<table name="#Desc">裝備的話，可以得到力量+3的效果。</table>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35798" type="Armor" name="浪漫圓帽">
+		<table name="#Plus">敏捷</table>
+		<table name="#Desc">裝備的話，可以得到敏捷+3的效果。</table>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="35799" type="Armor" name="浪漫圓帽">
+		<table name="#Plus">體質</table>
+		<table name="#Desc">裝備的話，可以得到體質+3的效果。</table>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+</list>

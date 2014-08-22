@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="22348" type="EtcItem" name="冒險家之歌-恢復之力">
+		<table name="#Desc">藉由口傳於偉大冒險家的神祕之歌的力量，被NPC殺害時，可以恢復下降的經驗值而復活。</table>
+		<set name="icon" val="BranchSys3.Icon.g_sing_of_adventurer_recovery" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22349" type="EtcItem" name="冒險家之歌-伊娃加護">
+		<table name="#Desc">藉由口傳於偉大冒險家的神祕之歌的力量，可以縮短死亡時遭受的「席琳氣息」詛咒魔法的維持時間。使用時，效果將維持1小時，而且只能用於等級1~84。</table>
+		<set name="icon" val="BranchSys3.Icon.g_sing_of_adventurer_eva_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22350" type="EtcItem" name="冒險家之歌-伊娃加護">
+		<table name="#Plus">R級</table>
+		<table name="#Desc">藉由口傳於偉大冒險家的神祕之歌的力量，可以縮短死亡時遭受的「席琳氣息」詛咒魔法的維持時間。使用時，效果將維持30分鐘，而且只能用於等級85~99。</table>
+		<set name="icon" val="BranchSys3.Icon.g_sing_of_adventurer_eva_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22351" type="EtcItem" name="代售手續費折價券">
+		<table name="#Desc">利用代售系統時，可以享受手續費折扣30%的功能。需要裝載於道具清單內才可使用。</table>
+		<set name="icon" val="BranchSys3.Icon.g_market_fee_discount" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22352" type="EtcItem" name="代售手續費免費券">
+		<table name="#Desc">利用代售系統時，可以享受免繳手續費的功能。需要裝載於道具清單內才可使用。</table>
+		<set name="icon" val="BranchSys3.Icon.g_market_fee_nomargin" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22353" type="EtcItem" name="代售登錄期間延長券-15日用">
+		<table name="#Desc">利用代售系統時，只需繳交7天的手續費，就可登錄15天。需要裝載於道具清單內才可使用。</table>
+		<set name="icon" val="BranchSys3.Icon.g_market_fee_extension_15day" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22354" type="EtcItem" name="代售登錄期間延長券-30日用">
+		<table name="#Desc">利用代售系統時，只需繳交7天的手續費，就可登錄30天。需要裝載於道具清單內才可使用。</table>
+		<set name="icon" val="BranchSys3.Icon.g_market_fee_extension_30day" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22355" type="Armor" name="溫馴螞蟻公主騎乘手鐲">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">裝備的話，可以騎乘溫馴螞蟻公主。可使用7天。</table>
+		<set name="icon" val="BranchSys3.Icon.g_ant_princess_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22356" type="Armor" name="溫馴螞蟻公主騎乘手鐲">
+		<table name="#Desc">裝備的話，可以騎乘溫馴螞蟻公主。</table>
+		<set name="icon" val="BranchSys3.Icon.g_ant_princess_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22357" type="EtcItem" name="溫馴螞蟻公主騎乘手鐲 7日/組">
+		<table name="#Desc">內裝溫馴螞蟻公主騎乘手鐲（7天）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22358" type="EtcItem" name="溫馴螞蟻公主騎乘手鐲組">
+		<table name="#Desc">內裝溫馴螞蟻公主騎乘手鐲的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22359" type="EtcItem" name="武器變換卷軸-翡翠劍">
+		<table name="#Desc">使用時，裝備中的武器將會變成翡翠劍2小時。使用冷卻時間為60分鐘。只有在裝備單手劍時，武器才會有所變化。</table>
+		<set name="icon" val="BranchSys3.Icon.g_scroll_beam_1h_sword" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22360" type="EtcItem" name="武器變換卷軸-翡翠雙刀">
+		<table name="#Desc">使用時，裝備中的武器將會變成翡翠雙刀2小時。使用冷卻時間為60分鐘。只有在裝備雙刀時，武器才會有所變化。</table>
+		<set name="icon" val="BranchSys3.Icon.g_scroll_beam_1h_sword" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22361" type="Weapon" name="翡翠劍">
+		<table name="#Desc">翡翠劍，單手劍</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_1h_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="22362" type="Weapon" name="翡翠雙刀">
+		<table name="#Desc">翡翠雙刀，雙刀</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2520" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="22363" type="Armor" name="黑熊騎乘手鐲">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">裝備的話，可以騎乘黑熊。可使用7天。</table>
+		<set name="icon" val="BranchSys3.Icon.g_black_bear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22364" type="Armor" name="黑熊騎乘手鐲">
+		<table name="#Desc">裝備的話，可以騎乘黑熊。</table>
+		<set name="icon" val="BranchSys3.Icon.g_black_bear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22365" type="Weapon" name="黑熊掌">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">看似強悍的黑熊掌型態的格鬥兵器。可使用7天。物理攻擊力極弱。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hands_of_blackbear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="450" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="22366" type="Weapon" name="黑熊掌">
+		<table name="#Desc">看似強悍的黑熊掌型態的格鬥兵器。物理攻擊力極弱。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hands_of_blackbear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="450" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="22367" type="Armor" name="黑熊帽">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">可以感覺到強悍的黑熊帽。可使用7天。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hat_of_blackbear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22368" type="Armor" name="黑熊帽">
+		<table name="#Desc">可以感覺到強悍的黑熊帽。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.Icon.g_hat_of_blackbear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22369" type="EtcItem" name="黑熊騎乘手鐲 7日/組">
+		<table name="#Desc">內裝黑熊騎乘手鐲（7天）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22370" type="EtcItem" name="黑熊騎乘手鐲組">
+		<table name="#Desc">內裝黑熊騎乘手鐲的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22371" type="EtcItem" name="黑熊掌 7日/組">
+		<table name="#Desc">內裝黑熊掌（7天）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22372" type="EtcItem" name="黑熊掌組">
+		<table name="#Desc">內裝黑熊掌的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22373" type="EtcItem" name="黑熊帽 7日/組">
+		<table name="#Desc">內裝黑熊帽（7天）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22374" type="EtcItem" name="黑熊帽組">
+		<table name="#Desc">內裝黑熊帽（7天）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22375" type="Armor" name="華麗海灘遮陽帽">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">可以徹底防曬的華麗海灘遮陽帽。可使用7日。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.icon.g_beach_cap" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22376" type="Armor" name="華麗海灘遮陽帽">
+		<table name="#Desc">可以徹底防曬的華麗海灘遮陽帽。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.icon.g_beach_cap" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22377" type="Armor" name="繽紛花漾草帽">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">用草編製的帽子。可使用7天。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.icon.g_straw_hat" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22378" type="Armor" name="繽紛花漾草帽">
+		<table name="#Desc">用草編製的帽子。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.icon.g_straw_hat" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22379" type="EtcItem" name="華麗海灘遮陽帽 7日/組">
+		<table name="#Desc">內裝華麗海灘遮陽帽（7天）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22380" type="EtcItem" name="華麗海灘遮陽帽組">
+		<table name="#Desc">內裝華麗海灘遮陽帽的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22381" type="EtcItem" name="繽紛花漾草帽 7日/組">
+		<table name="#Desc">內裝繽紛花漾草帽（7天）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22382" type="EtcItem" name="繽紛花漾草帽組">
+		<table name="#Desc">內裝繽紛花漾草帽的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22383" type="Armor" name="萬聖夜騎乘掃帚">
+		<table name="#Plus">限時7日(活動)</table>
+		<table name="#Desc">可以騎乘飄浮空中的萬聖夜掃帚。可使用7天。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_flying_broom_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22384" type="Armor" name="萬聖夜騎乘掃帚">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以騎乘飄浮空中的萬聖夜掃帚。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_flying_broom_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="22385" type="EtcItem" name="萬聖夜餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在60分鐘內可加快移動速度33。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22386" type="EtcItem" name="萬聖夜特製餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在60分鐘內受惠於偉大的靈魂，將增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%、遭受致命攻擊傷害時的物理防禦力。降低移動速度15%，而且裝備近身、遠距離武器類且遭受一定程度以上的攻擊而受傷的隊員，在進行普通攻擊時，將會額外增加致命威力。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22387" type="Weapon" name="萬聖夜鐮刀">
+		<table name="#Plus">限時7日(活動)</table>
+		<table name="#Desc">可以感受到死亡陰影的鐮刀。可使用7天。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_scythe" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2040" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="22388" type="Weapon" name="萬聖夜鐮刀">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以感受到死亡陰影的鐮刀。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_scythe" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2040" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="22389" type="Armor" name="萬聖夜斗篷">
+		<table name="#Plus">限時7日(活動)</table>
+		<table name="#Desc">可以感受到超凡魅力的斗篷。可使用7天。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+	</item>
+	<item id="22390" type="Armor" name="萬聖夜斗篷">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以感受到超凡魅力的斗篷。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+	</item>
+	<item id="22391" type="Armor" name="萬聖夜南瓜帽">
+		<table name="#Plus">限時7日(活動)</table>
+		<table name="#Desc">恐怖的南瓜帽。可使用7天。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_magic_hat" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22392" type="Armor" name="萬聖夜南瓜帽">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">恐怖的南瓜帽。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys3.Icon.g_halloween_magic_hat" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="22393" type="EtcItem" name="萬聖夜禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">此物為萬聖夜活動獎勵道具。以一定的機率可以獲得萬聖夜系列道具之一。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22394" type="Armor" name="壺精封印手鐲-巴拉卡斯">
+		<table name="#Plus">Lv1</table>
+		<table name="#Desc">可以召喚等級1巴拉卡斯壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="22395" type="Armor" name="壺精封印手鐲-巴拉卡斯">
+		<table name="#Plus">Lv2</table>
+		<table name="#Desc">可以召喚等級2巴拉卡斯壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="22396" type="Armor" name="壺精封印手鐲-巴拉卡斯">
+		<table name="#Plus">Lv3</table>
+		<table name="#Desc">可以召喚等級3巴拉卡斯壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="22397" type="Armor" name="壺精封印手鐲-巴拉卡斯">
+		<table name="#Plus">Lv4</table>
+		<table name="#Desc">可以召喚等級4巴拉卡斯壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="22398" type="Armor" name="壺精封印手鐲-巴拉卡斯">
+		<table name="#Plus">Lv5</table>
+		<table name="#Desc">可以召喚等級5巴拉卡斯壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="22399" type="Armor" name="壺精封印手鐲-巴拉卡斯">
+		<table name="#Plus">Lv6</table>
+		<table name="#Desc">可以召喚等級6巴拉卡斯壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+</list>

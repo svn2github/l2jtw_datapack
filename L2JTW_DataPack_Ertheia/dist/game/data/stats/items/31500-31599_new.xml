@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="31500" type="Weapon" name="束縛的夢想斧">
+		<table name="#Plus">魔法毒咒</table>
+		<table name="#Desc">＜搜魂石特效＞\n對目標施展魔法技能時，以7%的機率施放毒咒術。</table>
+		<set name="icon" val="icon.weapon_nirvana_axe_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1150" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31501" type="Weapon" name="束縛的夢想斧">
+		<table name="#Plus">魔法弱化</table>
+		<table name="#Desc">＜搜魂石特效＞\n對目標施展魔法技能時，以7%的機率施放弱化術。</table>
+		<set name="icon" val="icon.weapon_nirvana_axe_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1150" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31502" type="Weapon" name="束縛的森林神之刀">
+		<table name="#Desc">束縛的森林神之刀。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_knife_o'_silenus_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="750" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="45" />
+			<set order="0x08" stat="mAtk" val="52" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31503" type="Weapon" name="束縛的騎士劍*革命劍">
+		<table name="#Desc">束縛的騎士劍*革命劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2430" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="124" />
+			<set order="0x08" stat="mAtk" val="58" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31504" type="Weapon" name="束縛的騎士劍*緋紅劍">
+		<table name="#Desc">束縛的騎士劍*緋紅劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2460" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31505" type="Weapon" name="束縛的騎士劍*精靈劍">
+		<table name="#Desc">束縛的騎士劍*精靈劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2450" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31506" type="Weapon" name="束縛的騎士劍*精靈劍">
+		<table name="#Desc">束縛的騎士劍*精靈劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31507" type="Weapon" name="束縛的騎士劍*精靈長劍">
+		<table name="#Desc">束縛的騎士劍*精靈長劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2370" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="136" />
+			<set order="0x08" stat="mAtk" val="63" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31508" type="Weapon" name="束縛的騎士劍*騎士劍">
+		<table name="#Desc">束縛的騎士劍*騎士劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2460" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="96" />
+			<set order="0x08" stat="mAtk" val="47" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31509" type="Armor" name="束縛的騎士盾">
+		<table name="#Desc">束縛的騎士盾。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.shield_knight_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1260" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="178" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="31510" type="Weapon" name="束縛的騎士劍">
+		<table name="#Desc">束縛的騎士劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_knights_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1500" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="51" />
+			<set order="0x08" stat="mAtk" val="32" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31511" type="Armor" name="束縛的娜仙耳環">
+		<table name="#Desc">束縛的娜仙耳環。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.accessary_nassens_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="31512" type="Weapon" name="束縛的祈禱者之鎚">
+		<table name="#Desc">束縛的祈禱者之鎚。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_mace_of_prayer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="41" />
+			<set order="0x08" stat="mAtk" val="43" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31513" type="Weapon" name="束縛的闊矛">
+		<table name="#Desc">束縛的闊矛。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31514" type="Weapon" name="束縛的極限之劍">
+		<table name="#Desc">束縛的極限之劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_sword_of_limit_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31515" type="Weapon" name="束縛的極限之劍">
+		<table name="#Plus">導引</table>
+		<table name="#Desc">＜搜魂石特效＞\n命中能力提升5。</table>
+		<set name="icon" val="icon.weapon_sword_of_limit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31516" type="Weapon" name="束縛的極限之劍">
+		<table name="#Plus">Crt.吸收</table>
+		<table name="#Desc">＜搜魂石特效＞\n致命攻擊時恢復自己的HP9。</table>
+		<set name="icon" val="icon.weapon_sword_of_limit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31517" type="Weapon" name="束縛的極限之劍">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">＜搜魂石特效＞\nHP最大值提升約25%。</table>
+		<set name="icon" val="icon.weapon_sword_of_limit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31518" type="Weapon" name="束縛的貪婪刺劍">
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為黑暗軍刀\n可以賦予Crt.傷害、強健、Rsk.偵測其中之一的特殊效果。\n強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_greed_stinger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1320" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="210" />
+			<set order="0x08" stat="mAtk" val="114" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31519" type="Weapon" name="束縛的貪婪刺劍">
+		<table name="#Plus">Crt.傷害</table>
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為黑暗軍刀\n＜搜魂石特效＞\n致命攻擊時物理攻擊力提升約326。PvP時提升所造成的傷害。\n強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_greed_stinger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1320" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="210" />
+			<set order="0x08" stat="mAtk" val="114" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31520" type="Weapon" name="束縛的貪婪刺劍">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為黑暗軍刀\n＜搜魂石特效＞\nHP最大值提升約25%。PvP時提升所造成的傷害。\n強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_greed_stinger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1320" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="210" />
+			<set order="0x08" stat="mAtk" val="114" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31521" type="Weapon" name="束縛的貪婪刺劍">
+		<table name="#Plus">Rsk.偵測</table>
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為黑暗軍刀\n＜搜魂石特效＞\n當HP低於60%以下時，致命攻擊率提升約130。PvP時提升所造成的傷害。\n強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_greed_stinger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1320" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="210" />
+			<set order="0x08" stat="mAtk" val="114" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31522" type="Weapon" name="束縛的巨型帕塔拳刃">
+		<table name="#Desc">束縛的巨型帕塔拳刃。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_great_pata_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="1460" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31523" type="Weapon" name="束縛的巨型帕塔拳刃">
+		<table name="#Plus">Crt.吸收</table>
+		<table name="#Desc">＜搜魂石特效＞\n致命攻擊時恢復自己的HP10。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="1460" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31524" type="Weapon" name="束縛的巨型帕塔拳刃">
+		<table name="#Plus">Crt.施毒</table>
+		<table name="#Desc">＜搜魂石特效＞\n致命攻擊時以14%的機率對目標施毒。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="1460" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31525" type="Weapon" name="束縛的巨型帕塔拳刃">
+		<table name="#Plus">Rsk.速度激發</table>
+		<table name="#Desc">＜搜魂石特效＞\n當HP低於60%以下時，攻擊速度提升約11%。</table>
+		<set name="icon" val="icon.weapon_great_pata_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="1460" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31526" type="Armor" name="束縛的巨型頭盔">
+		<table name="#Desc">束縛的巨型頭盔。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="610" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="51" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31527" type="Weapon" name="束縛的巨斧">
+		<table name="#Desc">歸屬道具。\n可以賦予怒擊、Crt.衝擊、輕裝其中之一的特殊效果。</table>
+		<set name="icon" val="icon.weapon_great_axe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1940" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31528" type="Weapon" name="束縛的巨斧">
+		<table name="#Plus">怒擊</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\nHP最大值下降15%，物理攻擊力提升約28。</table>
+		<set name="icon" val="icon.weapon_great_axe_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1940" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31529" type="Weapon" name="束縛的巨斧">
+		<table name="#Plus">Crt.衝擊</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\n致命攻擊時，以約27%的機率賦予衝擊效果。</table>
+		<set name="icon" val="icon.weapon_great_axe_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1940" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31530" type="Weapon" name="束縛的巨斧">
+		<table name="#Plus">輕裝</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\n負重懲罰放寬20%。</table>
+		<set name="icon" val="icon.weapon_great_axe_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1940" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31531" type="Weapon" name="束縛的巨劍">
+		<table name="#Desc">可以賦予強健、Crt.傷害、弱點偵測其中之一的特殊效果。</table>
+		<set name="icon" val="icon.weapon_great_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31532" type="Weapon" name="束縛的巨劍">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\nHP最大值提升約25%。</table>
+		<set name="icon" val="icon.weapon_great_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31533" type="Weapon" name="束縛的巨劍">
+		<table name="#Plus">Crt.傷害</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\n致命攻擊時物理攻擊力提升約247。</table>
+		<set name="icon" val="icon.weapon_great_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31534" type="Weapon" name="束縛的巨劍">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\n致命攻擊率提升約68。</table>
+		<set name="icon" val="icon.weapon_great_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31535" type="Weapon" name="束縛的優雅匕首">
+		<table name="#Desc">束縛的優雅匕首。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_great_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1020" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="122" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31536" type="Weapon" name="束縛的優雅匕首">
+		<table name="#Plus">迴避</table>
+		<table name="#Desc">＜搜魂石特效＞\n迴避能力提升約2。</table>
+		<set name="icon" val="icon.weapon_grace_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1020" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="122" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31537" type="Weapon" name="束縛的優雅匕首">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">＜搜魂石特效＞\n致命攻擊率提升約81。</table>
+		<set name="icon" val="icon.weapon_grace_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1020" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="122" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31538" type="Weapon" name="束縛的優雅匕首">
+		<table name="#Plus">背擊</table>
+		<table name="#Desc">＜搜魂石特效＞\n當在目標背後攻擊時，致命攻擊機率提升約45%。</table>
+		<set name="icon" val="icon.weapon_grace_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1020" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="122" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31539" type="Weapon" name="束縛的巨銳劍">
+		<table name="#Desc">闇天使專用武器：轉換為精靈長劍。束縛的巨銳劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1440" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31540" type="Weapon" name="束縛的勝利之劍格蘭">
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為天國審判\n可以賦予速度激發、強健、弱點偵測其中之一的特殊效果。</table>
+		<set name="icon" val="icon.weapon_gram_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="304" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31541" type="Weapon" name="束縛的勝利之劍格蘭">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為天國審判\n＜搜魂石特效＞\n攻擊速度提升約7%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_gram_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="304" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31542" type="Weapon" name="束縛的勝利之劍格蘭">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為天國審判\n＜搜魂石特效＞\nHP最大值提升約25%。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_gram_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="304" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31543" type="Weapon" name="束縛的勝利之劍格蘭">
+		<table name="#Plus">偵測</table>
+		<table name="#Desc">歸屬道具。\n闇天使專用武器：轉換為天國審判\n＜搜魂石特效＞\n致命攻擊率提升約84。PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_gram_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="304" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31544" type="Weapon" name="束縛的永恆手杖">
+		<table name="#Desc">束縛的永恆手杖。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_stick_of_eternity_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1130" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31545" type="Weapon" name="束縛的永恆手杖">
+		<table name="#Plus">魔力催化</table>
+		<table name="#Desc">＜搜魂石特效＞\n魔法攻擊力提升約24。</table>
+		<set name="icon" val="icon.weapon_stick_of_eternity_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1130" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31546" type="Weapon" name="束縛的永恆手杖">
+		<table name="#Plus">Rsk.迴避</table>
+		<table name="#Desc">＜搜魂石特效＞\n當HP低於60%以下時，迴避能力提升約7。</table>
+		<set name="icon" val="icon.weapon_stick_of_eternity_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1130" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31547" type="Weapon" name="束縛的永恆手杖">
+		<table name="#Plus">魔法神佑之體</table>
+		<table name="#Desc">＜搜魂石特效＞\n對目標施展魔法技能時，以20%的機率施放神佑之體。</table>
+		<set name="icon" val="icon.weapon_stick_of_eternity_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1130" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31548" type="Weapon" name="束縛的食屍鬼魔杖">
+		<table name="#Desc">束縛的食屍鬼魔杖。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_ghouls_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31549" type="Weapon" name="束縛的食屍鬼魔杖">
+		<table name="#Plus">Rsk.迴避</table>
+		<table name="#Desc">＜搜魂石特效＞\n當HP低於60%以下時，迴避能力提升約6。</table>
+		<set name="icon" val="icon.weapon_ghouls_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31550" type="Weapon" name="束縛的食屍鬼魔杖">
+		<table name="#Plus">魔力上升</table>
+		<table name="#Desc">＜搜魂石特效＞\nMP最大值提升約30%。</table>
+		<set name="icon" val="icon.weapon_ghouls_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31551" type="Weapon" name="束縛的食屍鬼魔杖">
+		<table name="#Plus">魔法神佑之體</table>
+		<table name="#Desc">＜搜魂石特效＞\n對目標施展魔法技能時，以20%的機率施放神佑之體。</table>
+		<set name="icon" val="icon.weapon_ghouls_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31552" type="Weapon" name="束縛的高級精靈弓">
+		<table name="#Desc">束縛的高級精靈弓。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_noble_elven_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1760" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="252" />
+			<set order="0x08" stat="mAtk" val="68" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31553" type="Weapon" name="束縛的高級精靈弓">
+		<table name="#Plus">迴避</table>
+		<table name="#Desc">＜搜魂石特效＞\n迴避能力提升約2。</table>
+		<set name="icon" val="icon.weapon_noble_elven_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1760" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="252" />
+			<set order="0x08" stat="mAtk" val="68" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31554" type="Weapon" name="束縛的高級精靈弓">
+		<table name="#Plus">簡擊</table>
+		<table name="#Desc">＜搜魂石特效＞\n攻擊時約59%的機率靈魂彈消耗量降低為7。</table>
+		<set name="icon" val="icon.weapon_noble_elven_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1760" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="252" />
+			<set order="0x08" stat="mAtk" val="68" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31555" type="Weapon" name="束縛的高級精靈弓">
+		<table name="#Plus">節射</table>
+		<table name="#Desc">＜搜魂石特效＞\n一般攻擊時，約47%的機率MP消耗量降低為1。</table>
+		<set name="icon" val="icon.weapon_noble_elven_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1760" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="252" />
+			<set order="0x08" stat="mAtk" val="68" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31556" type="Armor" name="束縛的高級皮手套">
+		<table name="#Desc">束縛的高級皮手套。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t09_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="650" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31557" type="Armor" name="束縛的黑暗長襪">
+		<table name="#Desc">束縛的黑暗長襪。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t16_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+			<add order="0x40" stat="maxMp" val="79" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31558" type="Armor" name="束縛的長手套">
+		<table name="#Desc">束縛的長手套。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t10_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="640" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31559" type="Weapon" name="束縛的強化長弓">
+		<table name="#Desc">束縛的強化長弓。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_strengthening_long_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1820" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="179" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="227" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31560" type="Weapon" name="束縛的強化弓">
+		<table name="#Desc">束縛的強化弓。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_strengthening_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1870" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="82" />
+			<set order="0x08" stat="mAtk" val="26" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31561" type="Armor" name="束縛的強化米索莉手套">
+		<table name="#Desc">束縛的強化米索莉手套。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t47_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="620" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31562" type="Armor" name="束縛的強化米索莉襯衫">
+		<table name="#Desc">束縛的強化米索莉襯衫。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t47_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="4470" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="90" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31563" type="Armor" name="束縛的強化米索莉靴">
+		<table name="#Desc">束縛的強化米索莉靴。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t47_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1230" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31564" type="Armor" name="束縛的強化米索莉脛甲">
+		<table name="#Desc">束縛的強化米索莉脛甲。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t47_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1530" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="56" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31565" type="Armor" name="束縛的強化皮手套">
+		<table name="#Desc">束縛的強化皮手套。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t13_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="640" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31566" type="Armor" name="束縛的強化皮襯衫">
+		<table name="#Desc">束縛的強化皮襯衫。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t13_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4570" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31567" type="Armor" name="束縛的強化皮靴">
+		<table name="#Desc">束縛的強化皮靴。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t13_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31568" type="Armor" name="束縛的強化皮脛甲">
+		<table name="#Desc">束縛的強化皮脛甲。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t13_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1570" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31569" type="Weapon" name="束縛的鋼劍">
+		<table name="#Desc">束縛的鋼劍。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_iron_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2100" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="49" />
+			<set order="0x08" stat="mAtk" val="26" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31570" type="Armor" name="束縛的鋼鐵靴">
+		<table name="#Desc">束縛的鋼鐵靴。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t10_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1280" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31571" type="Armor" name="束縛的襲擊靴">
+		<table name="#Desc">束縛的襲擊靴。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1240" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="29" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31572" type="Armor" name="束縛的皮靴">
+		<table name="#Desc">束縛的皮靴。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t09_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1300" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31573" type="Armor" name="束縛的長皮手套">
+		<table name="#Desc">束縛的長皮手套。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.armor_t18_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="640" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="22" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="31574" type="Weapon" name="束縛的腰弩">
+		<table name="#Desc">束縛的腰弩。使用束縛解除卷軸後，可以變更為一般狀態的道具。</table>
+		<set name="icon" val="icon.weapon_gastraphetes_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1840" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="132" />
+			<set order="0x08" stat="mAtk" val="39" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31575" type="Weapon" name="束縛的守護神之劍">
+		<table name="#Desc">歸屬道具。\n可以賦予Crt.吸收、強健、Crt.出血其中之一的特殊效果。</table>
+		<set name="icon" val="icon.weapon_guardians_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="236" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31576" type="Weapon" name="束縛的守護神之劍">
+		<table name="#Plus">Crt.吸收</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\n致命攻擊時恢復自己的HP8。</table>
+		<set name="icon" val="icon.weapon_guardians_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="236" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31577" type="Weapon" name="束縛的守護神之劍">
+		<table name="#Plus">強健</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\nHP最大值提升約25%。</table>
+		<set name="icon" val="icon.weapon_guardians_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="236" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31578" type="Weapon" name="束縛的守護神之劍">
+		<table name="#Plus">Crt.吸收</table>
+		<table name="#Desc">歸屬道具。\n＜搜魂石特效＞\n致命攻擊時以24%的機率對目標施展出血。</table>
+		<set name="icon" val="icon.weapon_guardians_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="236" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="31579" type="EtcItem" name="未確認的力量靴">
+		<table name="#Desc">尚未經過確認的力量靴。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：長靴）</table>
+		<set name="icon" val="icon.armor_t40_b_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31580" type="EtcItem" name="未確認的黑珍珠戒指">
+		<table name="#Desc">尚未經過確認的黑珍珠戒指。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：戒指）</table>
+		<set name="icon" val="icon.accessary_black_pearl_ring_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31581" type="EtcItem" name="未確認的黑珍珠戒指">
+		<table name="#Desc">尚未經過確認的黑珍珠戒指。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：戒指）</table>
+		<set name="icon" val="icon.accessary_black_pearl_ring_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31582" type="EtcItem" name="未確認的黑光戒指">
+		<table name="#Desc">尚未經過確認的黑光戒指。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：戒指）</table>
+		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31583" type="EtcItem" name="未確認的黑光項鍊">
+		<table name="#Desc">尚未經過確認的黑光項鍊。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：項鍊）</table>
+		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31584" type="EtcItem" name="未確認的黑光耳環">
+		<table name="#Desc">尚未經過確認的黑光耳環。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：耳環）</table>
+		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31585" type="EtcItem" name="未確認的魂靈魔杖">
+		<table name="#Desc">尚未經過確認的魂靈魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_ghost_staff_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31586" type="EtcItem" name="未確認的魂靈魔杖">
+		<table name="#Desc">尚未經過確認的魂靈魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_ghost_staff_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31587" type="EtcItem" name="未確認的圓木盾">
+		<table name="#Desc">尚未經過確認的圓木盾。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：盾牌）</table>
+		<set name="icon" val="icon.shield_hoplon_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31588" type="EtcItem" name="未確認的夏隆長襪">
+		<table name="#Desc">尚未經過確認的夏隆長襪。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/長袍）</table>
+		<set name="icon" val="icon.armor_t56_l_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31589" type="EtcItem" name="未確認的末日長襪">
+		<table name="#Desc">尚未經過確認的末日長襪。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：下衣/長袍）</table>
+		<set name="icon" val="icon.armor_t73_l_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31590" type="EtcItem" name="未確認的何門奎思之劍">
+		<table name="#Desc">尚未經過確認的何門奎思之劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器/劍）</table>
+		<set name="icon" val="icon.weapon_homunkuluss_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31591" type="EtcItem" name="未確認的聖者之血">
+		<table name="#Desc">尚未經過確認的聖者之血。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：單手武器 /其他）</table>
+		<set name="icon" val="icon.weapon_blood_of_saints_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31592" type="EtcItem" name="未確認的賢者魔杖">
+		<table name="#Desc">尚未經過確認的賢者魔杖。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/鈍器）</table>
+		<set name="icon" val="icon.weapon_sages_staff_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31593" type="EtcItem" name="未確認的賢者戒指">
+		<table name="#Desc">尚未經過確認的賢者戒指。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：戒指）</table>
+		<set name="icon" val="icon.accessary_sages_ring_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31594" type="EtcItem" name="未確認的賢者項鍊">
+		<table name="#Desc">尚未經過確認的賢者項鍊。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：項鍊）</table>
+		<set name="icon" val="icon.accessary_sages_necklace_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31595" type="EtcItem" name="未確認的賢者的破衣">
+		<table name="#Desc">尚未經過確認的賢者的破衣。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：連身防具/長袍）</table>
+		<set name="icon" val="icon.armor_t44_ul_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31596" type="EtcItem" name="未確認的賢者的舊手套">
+		<table name="#Desc">尚未經過確認的賢者的舊手套。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：手套）</table>
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="crystal_type" val="D" />
+	</item>
+	<item id="31597" type="EtcItem" name="未確認的賢者耳環">
+		<table name="#Desc">尚未經過確認的賢者耳環。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：耳環）</table>
+		<set name="icon" val="icon.accessary_sages_earing_i00" />
+		<set name="crystal_type" val="B" />
+	</item>
+	<item id="31598" type="EtcItem" name="未確認的革命劍*革命劍">
+		<table name="#Desc">尚未經過確認的革命劍*革命劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+	<item id="31599" type="EtcItem" name="未確認的革命劍*精靈長劍">
+		<table name="#Desc">尚未經過確認的革命劍*精靈長劍。點兩下時可確認該道具，而獲得的道具有可能附有一般/束縛狀態。（類型：雙手武器/二刀流）</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="crystal_type" val="C" />
+	</item>
+</list>

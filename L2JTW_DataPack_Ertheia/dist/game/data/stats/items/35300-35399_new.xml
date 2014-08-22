@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="35300" type="EtcItem" name="幻靈戰爪碎片">
+		<table name="#Desc">可製作幻靈戰爪的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_fighter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35301" type="EtcItem" name="幻靈風暴者碎片">
+		<table name="#Desc">可製作幻靈風暴者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_stormer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35302" type="EtcItem" name="幻靈投弓碎片">
+		<table name="#Desc">可製作幻靈投弓的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35303" type="EtcItem" name="幻靈射靈碎片">
+		<table name="#Desc">可製作幻靈射靈的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35304" type="EtcItem" name="幻靈爆刃碎片">
+		<table name="#Desc">可製作幻靈爆刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_burster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35305" type="EtcItem" name="幻靈術杖碎片">
+		<table name="#Desc">可製作幻靈術杖的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_caster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35306" type="EtcItem" name="幻靈報恨者碎片">
+		<table name="#Desc">可製作幻靈報恨者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_singer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35307" type="EtcItem" name="卡戴拉頭盔材料">
+		<table name="#Desc">可製作卡戴拉頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35308" type="EtcItem" name="卡戴拉胸甲材料">
+		<table name="#Desc">可製作卡戴拉胸甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35309" type="EtcItem" name="卡戴拉脛甲材料">
+		<table name="#Desc">可製作卡戴拉脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35310" type="EtcItem" name="卡戴拉護手材料">
+		<table name="#Desc">可製作卡戴拉長手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35311" type="EtcItem" name="卡戴拉靴材料">
+		<table name="#Desc">可製作卡戴拉長靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35312" type="EtcItem" name="卡戴拉盾材料">
+		<table name="#Desc">可製作卡戴拉盾的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35313" type="EtcItem" name="卡戴拉皮頭盔材料">
+		<table name="#Desc">可製作卡戴拉皮頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35314" type="EtcItem" name="卡戴拉皮甲材料">
+		<table name="#Desc">可製作卡戴拉皮胸甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35315" type="EtcItem" name="卡戴拉皮脛甲材料">
+		<table name="#Desc">可製作卡戴拉皮脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35316" type="EtcItem" name="卡戴拉皮手套材料">
+		<table name="#Desc">可製作卡戴拉皮手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35317" type="EtcItem" name="卡戴拉皮靴材料">
+		<table name="#Desc">可製作卡戴拉皮靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35318" type="EtcItem" name="卡戴拉頭箍材料">
+		<table name="#Desc">可製作卡戴拉頭箍的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35319" type="EtcItem" name="卡戴拉外衣材料">
+		<table name="#Desc">可製作卡戴拉外衣的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35320" type="EtcItem" name="卡戴拉長襪材料">
+		<table name="#Desc">可製作卡戴拉長襪的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35321" type="EtcItem" name="卡戴拉手套材料">
+		<table name="#Desc">可製作卡戴拉手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35322" type="EtcItem" name="卡戴拉鞋材料">
+		<table name="#Desc">可製作卡戴拉鞋的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35323" type="EtcItem" name="卡戴拉符印材料">
+		<table name="#Desc">可製作卡戴拉符印的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35324" type="EtcItem" name="卡戴拉項鍊的寶石">
+		<table name="#Desc">可製作卡戴拉項鍊的主要材料。</table>
+		<set name="icon" val="icon.etc_r95_necklace_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35325" type="EtcItem" name="卡戴拉耳環的寶石">
+		<table name="#Desc">可製作卡戴拉耳環的主要材料。</table>
+		<set name="icon" val="icon.etc_r95_earring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35326" type="EtcItem" name="卡戴拉戒指的寶石">
+		<table name="#Desc">可製作卡戴拉戒指的主要材料。</table>
+		<set name="icon" val="icon.etc_r95_ring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35327" type="EtcItem" name="赫利奧斯鉋刀碎片">
+		<table name="#Desc">可製作赫利奧斯鉋刀的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_shaper_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35328" type="EtcItem" name="赫利奧斯切刃碎片">
+		<table name="#Desc">可製作赫利奧斯切刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_cutter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35329" type="EtcItem" name="赫利奧斯殺刃碎片">
+		<table name="#Desc">可製作赫利奧斯殺刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_slasher_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35330" type="EtcItem" name="赫利奧斯復仇者碎片">
+		<table name="#Desc">可製作赫利奧斯復仇者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_avenger_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35331" type="EtcItem" name="赫利奧斯戰爪碎片">
+		<table name="#Desc">可製作赫利奧斯戰爪的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_fighter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35332" type="EtcItem" name="赫利奧斯風暴者碎片">
+		<table name="#Desc">可製作赫利奧斯風暴者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_stormer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35333" type="EtcItem" name="赫利奧斯投弓碎片">
+		<table name="#Desc">可製作赫利奧斯投弓的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35334" type="EtcItem" name="赫利奧斯射靈碎片">
+		<table name="#Desc">可製作赫利奧斯射靈的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35335" type="EtcItem" name="赫利奧斯爆刃碎片">
+		<table name="#Desc">可製作赫利奧斯爆刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_burster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35336" type="EtcItem" name="赫利奧斯術杖碎片">
+		<table name="#Desc">可製作赫利奧斯術杖的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_caster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35337" type="EtcItem" name="赫利奧斯報恨者碎片">
+		<table name="#Desc">可製作赫利奧斯報恨者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_singer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35338" type="EtcItem" name="艾迪奧斯頭盔材料">
+		<table name="#Desc">可製作艾迪奧斯頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35339" type="EtcItem" name="艾迪奧斯胸甲材料">
+		<table name="#Desc">可製作艾迪奧斯胸甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35340" type="EtcItem" name="艾迪奧斯脛甲材料">
+		<table name="#Desc">可製作艾迪奧斯脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35341" type="EtcItem" name="艾迪奧斯護手材料">
+		<table name="#Desc">可製作艾迪奧斯長手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35342" type="EtcItem" name="艾迪奧斯靴材料">
+		<table name="#Desc">可製作艾迪奧斯長靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35343" type="EtcItem" name="艾迪奧斯盾材料">
+		<table name="#Desc">可製作艾迪奧斯盾的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35344" type="EtcItem" name="艾迪奧斯皮頭盔材料">
+		<table name="#Desc">可製作艾迪奧斯皮頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35345" type="EtcItem" name="艾迪奧斯皮甲材料">
+		<table name="#Desc">可製作艾迪奧斯皮甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35346" type="EtcItem" name="艾迪奧斯皮脛甲材料">
+		<table name="#Desc">可製作艾迪奧斯皮脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35347" type="EtcItem" name="艾迪奧斯皮手套材料">
+		<table name="#Desc">可製作艾迪奧斯皮手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35348" type="EtcItem" name="艾迪奧斯皮靴材料">
+		<table name="#Desc">可製作艾迪奧斯皮靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35349" type="EtcItem" name="艾迪奧斯頭箍材料">
+		<table name="#Desc">可製作艾迪奧斯頭箍的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35350" type="EtcItem" name="艾迪奧斯外衣材料">
+		<table name="#Desc">可製作艾迪奧斯外衣的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35351" type="EtcItem" name="艾迪奧斯長襪材料">
+		<table name="#Desc">可製作艾迪奧斯長襪的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35352" type="EtcItem" name="艾迪奧斯手套材料">
+		<table name="#Desc">可製作艾迪奧斯手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35353" type="EtcItem" name="艾迪奧斯鞋材料">
+		<table name="#Desc">可製作艾迪奧斯鞋的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35354" type="EtcItem" name="艾迪奧斯符印材料">
+		<table name="#Desc">可製作艾迪奧斯符印的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35355" type="EtcItem" name="艾迪奧斯項鍊的寶石">
+		<table name="#Desc">可製作艾迪奧斯項鍊的主要材料。</table>
+		<set name="icon" val="icon.etc_r991_necklace_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35356" type="EtcItem" name="艾迪奧斯耳環的寶石">
+		<table name="#Desc">可製作艾迪奧斯耳環的主要材料。</table>
+		<set name="icon" val="icon.etc_r991_earring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35357" type="EtcItem" name="艾迪奧斯戒指的寶石">
+		<table name="#Desc">可製作艾迪奧斯戒指的主要材料。</table>
+		<set name="icon" val="icon.etc_r991_ring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35358" type="EtcItem" name="祝福的幻靈鉋刀碎片">
+		<table name="#Desc">可製作祝福的幻靈鉋刀的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_shaper_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35359" type="EtcItem" name="祝福的幻靈切刃碎片">
+		<table name="#Desc">可製作祝福的幻靈切刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_cutter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35360" type="EtcItem" name="祝福的幻靈殺刃碎片">
+		<table name="#Desc">可製作祝福的幻靈殺刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_slasher_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35361" type="EtcItem" name="祝福的幻靈復仇者碎片">
+		<table name="#Desc">可製作祝福的幻靈復仇者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_avenger_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35362" type="EtcItem" name="祝福的幻靈戰爪碎片">
+		<table name="#Desc">可製作祝福的幻靈戰爪的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_fighter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35363" type="EtcItem" name="祝福的幻靈風暴者碎片">
+		<table name="#Desc">可製作祝福的幻靈風暴者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_stormer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35364" type="EtcItem" name="祝福的幻靈投弓碎片">
+		<table name="#Desc">可製作祝福的幻靈投弓的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35365" type="EtcItem" name="祝福的幻靈射靈碎片">
+		<table name="#Desc">可製作祝福的幻靈射靈的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35366" type="EtcItem" name="祝福的幻靈爆刃碎片">
+		<table name="#Desc">可製作祝福的幻靈爆刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_burster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35367" type="EtcItem" name="祝福的幻靈術杖碎片">
+		<table name="#Desc">可製作祝福的幻靈術杖的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_caster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35368" type="EtcItem" name="祝福的幻靈報恨者碎片">
+		<table name="#Desc">可製作祝福的幻靈報恨者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_singer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35369" type="EtcItem" name="祝福的卡戴拉頭盔材料">
+		<table name="#Desc">可製作祝福的卡戴拉頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35370" type="EtcItem" name="祝福的卡戴拉胸甲材料">
+		<table name="#Desc">可製作祝福的卡戴拉胸甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35371" type="EtcItem" name="祝福的卡戴拉脛甲材料">
+		<table name="#Desc">可製作祝福的卡戴拉脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35372" type="EtcItem" name="祝福的卡戴拉護手材料">
+		<table name="#Desc">可製作祝福的卡戴拉長手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35373" type="EtcItem" name="祝福的卡戴拉靴材料">
+		<table name="#Desc">可製作祝福的卡戴拉長靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35374" type="EtcItem" name="祝福的卡戴拉盾材料">
+		<table name="#Desc">可製作祝福的卡戴拉盾的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35375" type="EtcItem" name="祝福的卡戴拉皮頭盔材料">
+		<table name="#Desc">可製作祝福的卡戴拉皮頭盔的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35376" type="EtcItem" name="祝福的卡戴拉皮甲材料">
+		<table name="#Desc">可製作祝福的卡戴拉皮胸甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35377" type="EtcItem" name="祝福的卡戴拉皮脛甲材料">
+		<table name="#Desc">可製作祝福的卡戴拉皮脛甲的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35378" type="EtcItem" name="祝福的卡戴拉皮手套材料">
+		<table name="#Desc">可製作祝福的卡戴拉皮手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35379" type="EtcItem" name="祝福的卡戴拉皮靴材料">
+		<table name="#Desc">可製作祝福的卡戴拉皮靴的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35380" type="EtcItem" name="祝福的卡戴拉頭箍材料">
+		<table name="#Desc">可製作祝福的卡戴拉頭箍的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35381" type="EtcItem" name="祝福的卡戴拉外衣材料">
+		<table name="#Desc">可製作祝福的卡戴拉外衣的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35382" type="EtcItem" name="祝福的卡戴拉長襪材料">
+		<table name="#Desc">可製作祝福的卡戴拉長襪的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35383" type="EtcItem" name="祝福的卡戴拉手套材料">
+		<table name="#Desc">可製作祝福的卡戴拉手套的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35384" type="EtcItem" name="祝福的卡戴拉鞋材料">
+		<table name="#Desc">可製作祝福的卡戴拉鞋的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35385" type="EtcItem" name="祝福的卡戴拉符印材料">
+		<table name="#Desc">可製作祝福的卡戴拉符印的主要材料。</table>
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35386" type="EtcItem" name="祝福的卡戴拉項鍊的寶石">
+		<table name="#Desc">可製作祝福的卡戴拉項鍊的主要材料。</table>
+		<set name="icon" val="icon.etc_r95_necklace_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35387" type="EtcItem" name="祝福的卡戴拉耳環的寶石">
+		<table name="#Desc">可製作祝福的卡戴拉耳環的主要材料。</table>
+		<set name="icon" val="icon.etc_r95_earring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35388" type="EtcItem" name="祝福的卡戴拉戒指的寶石">
+		<table name="#Desc">可製作祝福的卡戴拉戒指的主要材料。</table>
+		<set name="icon" val="icon.etc_r95_ring_piece" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35389" type="EtcItem" name="祝福的赫利奧斯鉋刀碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯鉋刀的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_shaper_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35390" type="EtcItem" name="祝福的赫利奧斯切刃碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯切刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_cutter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35391" type="EtcItem" name="祝福的赫利奧斯殺刃碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯殺刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_slasher_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35392" type="EtcItem" name="祝福的赫利奧斯復仇者碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯復仇者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_avenger_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35393" type="EtcItem" name="祝福的赫利奧斯戰爪碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯戰爪的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_fighter_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35394" type="EtcItem" name="祝福的赫利奧斯風暴者碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯風暴者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_stormer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35395" type="EtcItem" name="祝福的赫利奧斯投弓碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯投弓的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35396" type="EtcItem" name="祝福的赫利奧斯射靈碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯射靈的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35397" type="EtcItem" name="祝福的赫利奧斯爆刃碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯爆刃的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_burster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35398" type="EtcItem" name="祝福的赫利奧斯術杖碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯術杖的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_caster_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="35399" type="EtcItem" name="祝福的赫利奧斯報恨者碎片">
+		<table name="#Desc">可製作祝福的赫利奧斯報恨者的主要材料。</table>
+		<set name="icon" val="icon.etc_vesper_singer_piece_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

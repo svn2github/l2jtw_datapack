@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="34800" type="EtcItem" name="暗之水晶">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">用於武器時，可增強5的黑暗力量；用於防具時，可增強6的黑暗力量來強化對於神聖的抗性。屬性可從等級1開始賦予至等級6，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34801" type="EtcItem" name="聖之水晶">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">用於武器時，可增強5的神聖力量；用於防具時，可增強6的神聖力量來強化對於黑暗的抗性。屬性可從等級1開始賦予至等級6，此等級以上則不會賦予元素屬性。還有，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34811" type="EtcItem" name="靈魂彈禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有靈魂彈的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34812" type="EtcItem" name="祝福的魔靈彈禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有祝福的魔靈彈的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34813" type="EtcItem" name="原石禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有屬性原石的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34814" type="EtcItem" name="水晶禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有屬性水晶的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34815" type="EtcItem" name="防具強化卷軸禮盒-S級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有S級防具強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34816" type="EtcItem" name="防具強化卷軸禮盒-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有R級防具強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34817" type="EtcItem" name="武器強化卷軸禮盒-S級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有S級武器強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34818" type="EtcItem" name="武器強化卷軸禮盒-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有R級武器強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34819" type="EtcItem" name="樂透戒指禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">樂透戒指禮盒。可以獲得戰士型或法師型戒指。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34820" type="EtcItem" name="樂透耳環禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">樂透耳環禮盒。可以獲得戰士型或法師型耳環。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34821" type="EtcItem" name="樂透項鍊禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">樂透項鍊禮盒。可以獲得樂透項鍊。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34822" type="EtcItem" name="樂透飾品禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打開的話，就可獲得樂透戒指禮盒、樂透耳環禮盒、樂透項鍊禮盒之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34823" type="EtcItem" name="稀有搜魂石禮盒-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有R級特殊搜魂石的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34824" type="EtcItem" name="稀有搜魂石禮盒-R95級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有R95級特殊搜魂石的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34825" type="EtcItem" name="稀有搜魂石禮盒-R99級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有R99級特殊搜魂石的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34826" type="EtcItem" name="護身符禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有護身符的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34827" type="EtcItem" name="靈藥禮盒-S級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有S級靈藥的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34828" type="EtcItem" name="靈藥禮盒-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有R級靈藥的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34829" type="EtcItem" name="祝福的卷軸禮盒-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">內裝有祝福的卷軸的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34830" type="EtcItem" name="R級強化套組">
+		<table name="#Desc">內裝有R級武器強化卷軸3張、祝福的武器強化卷軸2張、防具強化卷軸15張、祝福的防具強化卷軸5張、超級屬性石、R95級特殊搜魂石、特級生命石4個的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34831" type="Armor" name="樂透戒指-法師型">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">樂透戒指，法師型。增加魔法致命攻擊率2%、魔法命中能力2。限時15日。即使戴上兩個樂透戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessory_ring_of_gourd_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="62" />
+			<add order="0x40" stat="maxMp" val="26" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="34832" type="Armor" name="樂透耳環-法師型">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">樂透耳環，法師型。增加施法速度4%、移動速度5。限時15日。即使戴上兩個樂透耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessory_earring_of_gourd_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="92" />
+			<add order="0x40" stat="maxMp" val="40" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="34833" type="Armor" name="爆炸頭">
+		<table name="#Desc">爆炸頭模樣的頭飾。</table>
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34834" type="Armor" name="爆炸頭">
+		<table name="#Plus">7日</table>
+		<table name="#Desc">爆炸頭模樣的頭飾。（限時7日）</table>
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34835" type="EtcItem" name="爆炸頭組">
+		<table name="#Desc">打開的話，就可獲得爆炸頭頭飾1個。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34836" type="EtcItem" name="爆炸頭 7日/組">
+		<table name="#Desc">打開的話，就可獲得爆炸頭頭飾（7日）1個。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34837" type="EtcItem" name="R級魔法繩子">
+		<table name="#Desc">用蜥蜴皮編製的具有魔法力量的繩子。聽說用它綁住道具的話，就可輕鬆地抬起來。</table>
+		<set name="icon" val="icon.etc_braided_hemp_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34838" type="EtcItem" name="壓縮靈魂彈-R級">
+		<table name="#Desc">把R級靈魂彈壓縮起來的小包。使用的話，就會變成300個R級靈魂彈。</table>
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34839" type="EtcItem" name="壓縮魔靈彈-R級">
+		<table name="#Desc">把R級魔靈彈壓縮起來的小包。使用的話，就會變成300個R級魔靈彈。</table>
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34840" type="EtcItem" name="祝福的壓縮魔靈彈-R級">
+		<table name="#Desc">把R級祝福魔靈彈壓縮起來的小包。使用的話，就會變成300個R級祝福魔靈彈。</table>
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34841" type="EtcItem" name="製作卷軸(壓縮靈魂彈-R級100%)">
+		<table name="#Desc">矮人專用。用於製造壓縮靈魂彈-R級的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34842" type="EtcItem" name="製作卷軸(壓縮魔靈彈-R級100%)">
+		<table name="#Desc">矮人專用。用於製造壓縮魔靈彈-R級的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34843" type="EtcItem" name="製作卷軸(祝福的壓縮魔靈彈-R級100%)">
+		<table name="#Desc">矮人專用。用於製造祝福的壓縮魔靈彈-R級的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34844" type="EtcItem" name="疑問藥草">
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34845" type="EtcItem" name="疑問藥草">
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34846" type="EtcItem" name="詩人的禮物">
+		<table name="#Desc">含有詩人心意的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34847" type="EtcItem" name="梅芙的蜂蜜水-2小時">
+		<table name="#Desc">維他命道具\n使用後，可在2小時內體驗活力充能的效果。被施展「生日的喜悅」輔助魔法時，則不會有任何效果。使用冷卻時間為60分鐘。限制使用次數的活力道具。死亡時效果不會刪除。</table>
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34848" type="Armor" name="震盪頭箍(限時60日)">
+		<table name="#Desc">具有震盪力量的頭箍。限時道具。增加大地屬性防禦力60。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_earthquake_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34849" type="EtcItem" name="神祕的力量藥草">
+		<set name="icon" val="icon.etc_warrior_set_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34850" type="EtcItem" name="神祕的魔力藥草">
+		<set name="icon" val="icon.etc_magic_set_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34851" type="EtcItem" name="防具晶體碎片-R">
+		<table name="#Desc">透過倉庫管理員可以交換成防具強化卷軸 - R級。</table>
+		<set name="icon" val="Branchsys2.icon.event_cubic_a_piece_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34852" type="EtcItem" name="武器晶體碎片-R">
+		<table name="#Desc">透過倉庫管理員可以交換成武器強化卷軸 - R級。</table>
+		<set name="icon" val="Branchsys2.icon.event_cubic_w_piece_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34853" type="EtcItem" name="閃耀的防具晶體碎片-R">
+		<table name="#Desc">透過倉庫管理員可以交換成祝福的防具強化卷軸 - R級。</table>
+		<set name="icon" val="Branchsys2.icon.shine_cubic_a_piece_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34854" type="EtcItem" name="閃耀的武器晶體碎片-R">
+		<table name="#Desc">透過倉庫管理員可以交換成祝福的武器強化卷軸 - R級。</table>
+		<set name="icon" val="Branchsys2.icon.shine_cubic_w_piece_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34855" type="EtcItem" name="雷亞尼禮盒">
+		<table name="#Desc">用經驗值葫蘆交換的雷亞尼禮盒。以低機率可以獲得經驗值卷軸。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34856" type="EtcItem" name="回聲水晶-愛情之歌">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">演奏愛情之歌的回聲水晶。使用1次後就消失。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i02" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34857" type="EtcItem" name="回聲水晶-祝典之歌">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">演奏祝典之歌的回聲水晶。使用1次後就消失。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i04" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34858" type="EtcItem" name="回聲水晶-慶祝之歌">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">演奏慶祝之歌的回聲水晶。使用1次後就消失。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34859" type="Armor" name="進階型伊絲蒂娜手鐲">
+		<table name="#Desc">功能提升的伊絲蒂娜手鐲。裝備時，可以開啟護身符欄位5個。具有MP+216、Con+1、Men+1的功能。</table>
+		<set name="icon" val="icon.istina_bangel" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="34860" type="Armor" name="進階型歐塔比斯手鐲">
+		<table name="#Desc">功能提升的歐塔比斯手鐲。裝備時，可以開啟護身符欄位5個。具有MP+216、Dex+1、Wit+1的功能。</table>
+		<set name="icon" val="icon.octavis_bangel" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="34861" type="EtcItem" name="材料，強化劑小袋">
+		<table name="#Desc">內裝有R級製作材料以及強化劑的小袋。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34862" type="EtcItem" name="華麗的裝飾用紙">
+		<table name="#Desc">用惡魔語記載著「人生就如同賭博」。</table>
+		<set name="icon" val="icon.etc_plan_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34863" type="EtcItem" name="污染的紅龍蛋">
+		<table name="#Desc">由惡魔 帝雷歐所創造，且由席琳種在怪物體內的邪惡而受到污染的紅龍蛋。點兩下的話，就可淨化邪惡的氣息。</table>
+		<set name="icon" val="icon.etc_ev_triol_egg" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34864" type="EtcItem" name="小型紅龍蛋">
+		<table name="#Desc">淨化了邪惡氣息的紅龍蛋。點兩下後使用的話，就可召喚淨化的小型紅龍蛋，而提升召喚的蛋之溫度後，就可進行孵化。</table>
+		<set name="icon" val="icon.etc_ev_small_egg" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34865" type="EtcItem" name="大型紅龍蛋">
+		<table name="#Desc">淨化了邪惡氣息的紅龍蛋。點兩下後使用的話，就可召喚淨化的大型紅龍蛋，而提升召喚的蛋之溫度後，就可進行孵化。在多數的人齊心協力之下才可孵化。</table>
+		<set name="icon" val="icon.etc_ev_big_egg" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34866" type="EtcItem" name="破碎的蛋之破片">
+		<table name="#Desc">破碎的蛋之破片。拿去交給火花的手下-亞斯蘭的話，就可以得到獎勵。</table>
+		<set name="icon" val="icon.etc_ev_broken_egg" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34867" type="EtcItem" name="紅龍禮物">
+		<table name="#Desc">從淨化的紅龍蛋中孵化出來的紅龍贈送的禮物。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34868" type="EtcItem" name="閃耀的紅龍禮物">
+		<table name="#Desc">從淨化的紅龍蛋中孵化出來的紅龍贈送的禮物。雖不知原因，但正在散發著光芒。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34869" type="Armor" name="壺精封印手鐲-火花精靈(活動)">
+		<table name="#Desc">為了孵化出淨化的紅龍蛋，由帕格立歐的手下-亞斯蘭所分發的手鐲。裝備的話，就可召喚火花精靈。</table>
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="34870" type="EtcItem" name="學徒證明書組">
+		<table name="#Desc">每個帳號中只能擁有1個。內裝有學徒證明書、指導關係指南和學徒頭戴式耳機。若開啟壓縮包的話，則無法繼續透過維他命管理者與帳號內的其他角色共享。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34871" type="Armor" name="下級魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34872" type="Armor" name="普通魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34873" type="Armor" name="上級魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34874" type="Armor" name="特級魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34875" type="Armor" name="下級魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34876" type="Armor" name="普通魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34877" type="Armor" name="上級魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34878" type="Armor" name="特級魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="34879" type="EtcItem" name="下級魔法古文夾-R級">
+		<table name="#Desc">可以提高R級腰帶功能的下級魔法古文夾。</table>
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="34880" type="EtcItem" name="中級魔法古文夾-R級">
+		<table name="#Desc">可以提高R級腰帶功能的魔法古文夾。</table>
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="34881" type="EtcItem" name="上級魔法古文夾-R級">
+		<table name="#Desc">可以提高R級腰帶功能的上級魔法古文夾。</table>
+		<set name="icon" val="icon.etc_rune_clip_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="34882" type="EtcItem" name="特級魔法古文夾-R級">
+		<table name="#Desc">可以提高R級腰帶功能的特級魔法古文夾。</table>
+		<set name="icon" val="icon.etc_rune_clip_i02" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="34883" type="EtcItem" name="裝有伊絲蒂娜靈魂之瓶">
+		<table name="#Desc">內裝伊絲蒂娜之魂的瓶子。拿去交給魯米艾爾的話，就可在伊絲蒂娜手鐲上賦予伊絲蒂娜之魂。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34884" type="EtcItem" name="裝有歐塔比斯靈魂之瓶">
+		<table name="#Desc">內裝歐塔比斯之魂的瓶子。可在歐塔比斯手鐲上賦予歐塔比斯之魂。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i06" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34885" type="EtcItem" name="震盪頭箍 60日/組">
+		<table name="#Desc">點兩下的話，就可獲得震盪頭箍（60日）。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34886" type="EtcItem" name="預言的片段">
+		<table name="#Desc">預言的片段。記載著吞食預言者怪物吞下的預言的部分內容。</table>
+		<set name="icon" val="icon.etc_jewel_red_i00" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="34887" type="EtcItem" name="可裝溫泉水的空瓶">
+		<table name="#Desc">可裝入溫泉水的空瓶。在溫泉地帶的溫泉點兩下時，可裝入溫泉水。</table>
+		<set name="icon" val="icon.etc_hot_spring_glass_bottle_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="34888" type="EtcItem" name="裝滿溫泉水的瓶子">
+		<table name="#Desc">內裝滿溫泉水的瓶子。內裝溫泉地帶的溫泉水的瓶子。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="34889" type="EtcItem" name="堅硬皮革">
+		<table name="#Desc">堅硬皮革。用於製作可以淨化水的武器之材料。</table>
+		<set name="icon" val="icon.etc_leather_brown_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34890" type="EtcItem" name="幼苗鏟子">
+		<table name="#Desc">幼苗鏟子。點兩下的話，就可採集諸神的熔爐的火花。</table>
+		<set name="icon" val="icon.etc_trowel_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="34891" type="EtcItem" name="火之氣息">
+		<table name="#Desc">火之氣息。用於製作可以淨化水的武器之材料。</table>
+		<set name="icon" val="icon.etc_bead_red_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34892" type="EtcItem" name="融入水之氣息的堅硬化石">
+		<table name="#Desc">融入水之氣息的堅硬化石。用於製作可以淨化水的武器之材料。</table>
+		<set name="icon" val="icon.etc_hard_fossil_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34893" type="EtcItem" name="求助藥草種子">
+		<table name="#Desc">求助藥草種子。在攻城戰地區點兩下的話，就可播種求助藥草。</table>
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="34894" type="EtcItem" name="藥草的痕跡">
+		<table name="#Desc">藥草的痕跡。在攻城戰地區種下求助藥草的話，就可獲得藥草的痕跡。</table>
+		<set name="icon" val="icon.etc_powder_orange_i00" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="34895" type="EtcItem" name="魔法書-血盟旗幟">
+		<table name="#Desc">學習血盟旗幟技能時必備的道具。使用血盟旗幟技能時，將會消耗血盟聲望100點，伯爵階級以上才可使用技能。在主職業狀態下可以學習。</table>
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="34896" type="Armor" name="兔耳">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">裝備時，會具有STR+3、DEX+1、CON+1、物理迴避能力+1、魔法迴避能力+1的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34897" type="Armor" name="天使之環">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">裝備時，會具有INT+3、WIT+1、MEN+1、肉體系抗性+1、精神系抗性+1的效果。</table>
+		<set name="icon" val="icon.Accessary_angel_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34898" type="EtcItem" name="生存證明">
+		<table name="#Desc">擁有生存證明的人，有可能會收到罕見的怪物「業火的斯凱迪賽特」突如其來的挑戰。人人總是要防備預想不到的襲擊。</table>
+		<set name="icon" val="icon.etc_fire_rune_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34899" type="EtcItem" name="黑暗鑰匙">
+		<table name="#Desc">可啟動能透過神殿去會見塔武提的裝置之鑰匙。要由隊長使用後，裝置才會有反應。</table>
+		<set name="icon" val="icon.etc_dark_key_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

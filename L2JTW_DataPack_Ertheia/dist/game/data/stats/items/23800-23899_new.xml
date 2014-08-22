@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="23800" type="EtcItem" name="強力雅戴妮生命石">
+		<table name="#Desc">維他命道具\n雅戴妮內衣專用生命石。可以發揮強大的力量，精煉時能比一般的雅戴妮生命石以高機率獲得好的能力值。可透過各村莊的鐵匠來進行精煉。</table>
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23801" type="EtcItem" name="圖騰專用超強力雅戴妮生命石">
+		<table name="#Desc">維他命道具\n雅戴妮圖騰專用生命石。可以發揮雅戴妮生命石中最強大的力量，以低的機率賦予超越不凡的力量。可透過各村莊的鐵匠來進行精煉。</table>
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23802" type="EtcItem" name="雅戴妮生命石">
+		<table name="#Desc">維他命道具\n雅戴妮內衣專用生命石。可透過各村莊的鐵匠來進行精煉。</table>
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23803" type="EtcItem" name="強力雅戴妮生命石">
+		<table name="#Desc">維他命道具\n雅戴妮內衣專用生命石。可以發揮強大的力量，精煉時能比一般的雅戴妮生命石以高機率獲得好的能力值。可透過各村莊的鐵匠來進行精煉。</table>
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23804" type="EtcItem" name="圖騰專用超強力雅戴妮生命石">
+		<table name="#Desc">維他命道具\n雅戴妮圖騰專用生命石。可以發揮雅戴妮生命石中最強大的力量，以低的機率賦予超越不凡的力量。可透過各村莊的鐵匠來進行精煉。</table>
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23805" type="EtcItem" name="免費Ncoin">
+		<table name="#Desc">可用在優質商城中購買商品。</table>
+		<set name="icon" val="icon.etc_coins_gold_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23806" type="EtcItem" name="海賊王 烏山卡變身藥水">
+		<table name="#Desc">雖然沒有特殊的能力但可以變身為海賊王 烏山卡。</table>
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23807" type="EtcItem" name="梅芙上級古文 30%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率30%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23808" type="EtcItem" name="梅芙上級古文 50%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率 50%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23809" type="EtcItem" name="梅芙上級古文 100%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率 100%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23810" type="EtcItem" name="梅芙上級古文 30%組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得一個梅芙上級古文 30% - 30日。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23811" type="EtcItem" name="梅芙上級古文 50%組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得一個梅芙上級古文 50% - 30日。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23812" type="EtcItem" name="梅芙上級古文 100%組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得一個梅芙上級古文 100% - 30日。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23813" type="EtcItem" name="優質晶體組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得一個優質晶體 - 30日。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23814" type="EtcItem" name="渾沌的精髓組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得一個渾沌的精髓 - 30日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23815" type="EtcItem" name="渾沌的精髓-雙職業用組">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得一個渾沌的精髓-雙職業用 - 30日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23816" type="EtcItem" name="海賊王 烏山卡的寶物">
+		<table name="#Desc">海賊王 烏山卡的寶物。點兩下就能以一定的機率取得各式各樣道具中之一。</table>
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23817" type="Armor" name="海賊王 烏山卡戒指">
+		<table name="#Desc">裝備時，將變身為烏山卡並可使用其技能。（限時7日）</table>
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23818" type="Armor" name="海賊王 烏山卡戒指">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">裝備時，將變身為烏山卡並可使用其技能。（限時7日）</table>
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23819" type="EtcItem" name="海賊王 烏山卡戒指組">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">內裝海賊王 烏山卡的戒指（限時7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23820" type="EtcItem" name="海賊王 烏山卡之墓回歸卷軸">
+		<table name="#Desc">使用時，將返回至烏山卡之墓。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23821" type="Armor" name="壺精封印手鐲-海賊王 烏山卡">
+		<table name="#Desc">可召喚海賊王 烏山卡壺精的手鐲。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_uthanka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="23822" type="Armor" name="壺精封印手鐲-海賊王 烏山卡">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">可召喚海賊王 烏山卡壺精的手鐲（限時7日）</table>
+		<set name="icon" val="BranchSys.icon.br_aga_uthanka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="23823" type="EtcItem" name="烏山卡壺精組">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">內裝海賊王 烏山卡壺精（限時7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23824" type="EtcItem" name="祝福的烏山卡復活卷軸">
+		<table name="#Desc">恢復所有的經驗值並讓死者起死回生的魔法卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23825" type="EtcItem" name="神秘人類染料">
+		<table name="#Plus">武裝、心靈、永續-限時7日</table>
+		<table name="#Desc">維他命道具\n充滿人類之力的神祕染料。去找村莊的紋章製造人的話，可以在身上刻下7日內充滿人類種族之力（增加火/水/風/大地屬性10、詛咒魔法防禦力1%/主動技能：永續）的魔法紋章。無法與現有的啟示技能-永續重複使用。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_human" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23826" type="EtcItem" name="神祕精靈染料">
+		<table name="#Plus">水之祝福、識破、專心-限時7日</table>
+		<table name="#Desc">維他命道具\n充滿精靈之力的神祕染料。去找村莊的紋章製造人的話，可以在身上刻下7日內充滿精靈種族之力（增加水屬性抗性20、物理致命攻擊率10、魔法致命攻擊率10/主動技能：專心）的魔法紋章。無法與現有的啟示技能-專心重複使用。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_elf" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23827" type="EtcItem" name="神祕黑暗精靈染料">
+		<table name="#Plus">俐落、風之祝福、瞬影加速-限時7日</table>
+		<table name="#Desc">維他命道具\n充滿黑暗精靈之力的神祕染料。去找村莊的紋章製造人的話，可以在身上刻下7日內充滿黑暗精靈種族之力（增加風屬性抗性20、物理致命傷害和魔法致命傷害1%/主動技能：瞬影加速）的魔法紋章。無法與現有的啟示技能-瞬影加速重複使用。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_darkelf" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23828" type="EtcItem" name="神秘半獸人染料">
+		<table name="#Plus">火之祝福、活力、狂野-限時7日</table>
+		<table name="#Desc">維他命道具\n充滿半獸人之力的神祕染料。去找村莊的紋章製造人的話，可以在身上刻下7日內充滿半獸人種族之力（增加火屬性抗性20、HP/MP/CP1%/主動技能：狂野）的魔法紋章。可以使用的職業：全系列。無法與現有的啟示技能-狂野重複使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_orc" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23829" type="EtcItem" name="神秘矮人染料">
+		<table name="#Plus">敏銳、地之祝福、耐力-限時7日</table>
+		<table name="#Desc">維他命道具\n充滿矮人之力的神祕染料。去找村莊的紋章製造人的話，可以在身上刻下7日內充滿矮人種族之力（增加大地屬性抗性20、縮短技能使用冷卻時間1%/主動技能：耐力）的魔法紋章。無法與現有的啟示技能-耐力重複使用。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_dwarf" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23830" type="EtcItem" name="神祕闇天使染料">
+		<table name="#Plus">戰鬥直覺、闇之沉默、靈魂保護-限時7日</table>
+		<table name="#Desc">維他命道具\n充滿闇天使之力的神祕染料。去找村莊的紋章製造人的話，可以在身上刻下7日內充滿闇天使種族之力（增加黑暗屬性抗性20、PVP傷害1%/主動技能：靈魂保護）的魔法紋章。無法與現有的啟示技能-靈魂保護重複使用。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_kamael" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23831" type="EtcItem" name="奈比特古文100%-1小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100% - 1小時。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23832" type="EtcItem" name="帕格立歐的暖風-1小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個帕格立歐的暖風-1小時。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23833" type="Armor" name="豐饒護身符">
+		<table name="#Plus">戰爭</table>
+		<table name="#Desc">裝備時提升物理攻擊力154、魔法攻擊力181、物理迴避能力/魔法迴避能力4。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23834" type="Armor" name="豐饒護身符">
+		<table name="#Plus">戰術</table>
+		<table name="#Desc">裝備時提升6大屬性抗性10、詛咒魔法抗性10%。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23835" type="Armor" name="豐饒護身符">
+		<table name="#Plus">士氣</table>
+		<table name="#Desc">裝備時增加物理/魔法致命攻擊成功率8%並且減少所受的致命傷害10%、PVP時所受的技能威力10%。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23836" type="Armor" name="豐饒護身符">
+		<table name="#Plus">體能</table>
+		<table name="#Desc">裝備時提升HP/MP/CP最大值325、HP/MP/CP恢復速度5。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23837" type="Armor" name="追擊者護身符">
+		<table name="#Plus">豐饒</table>
+		<table name="#Desc">裝備時提升物理攻擊力231、魔法攻擊力271、物理迴避能力/魔法迴避能力7、6大屬性抗性15、詛咒魔法抗性13%、物理/魔法致命攻擊成功率13%，減少所受的致命傷害15%、PVP時所受的技能威力15%。額外減少PVP時所受的技能傷害。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23838" type="Armor" name="虐殺者護身符">
+		<table name="#Plus">豐饒</table>
+		<table name="#Desc">裝備時提升物理攻擊力231、魔法攻擊力271、物理迴避能力/魔法迴避能力7、6大屬性抗性15、詛咒魔法13%、HP/MP/CP最大值490、HP/MP/CP的恢復速度7。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23839" type="Armor" name="征服者護身符">
+		<table name="#Plus">豐饒</table>
+		<table name="#Desc">裝備時提升物理攻擊力231、魔法攻擊力271、物理迴避能力/魔法迴避能力7、物理/魔法致命攻擊成功率13%、HP/MP/CP最大值490、HP/MP/CP的恢復速度7，減少所受的致命傷害15%、PVP時所受的技能威力15%。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23840" type="Armor" name="無法者護身符">
+		<table name="#Plus">豐饒</table>
+		<table name="#Desc">裝備時提升6大屬性抗性15、詛咒魔法抗性13%、物力/魔法致命攻擊成功率13%、HP/MP/CP最大值490、HP/MP/CP的恢復速度7，減少所受的致命傷害15%、PVP時所受的技能威力15%。\n注意：即使裝備2個以上的豐饒護身符也只能發揮1個的效果。</table>
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23841" type="EtcItem" name="豐饒禮盒">
+		<table name="#Plus">戰爭</table>
+		<table name="#Desc">以一定機率可獲得豐饒護身符-戰爭和祝福的武器強化卷軸-R級、祝福的防具強化卷軸-R級、武器用強化輔助石-R級、防具用強化輔助石-R級、梅芙上級古文 100%組、武器強化卷軸-R級、防具強化卷軸-R級、奈比特古文(龍之飛翔)1小時禮盒、艾斯恩粉末、加護靈藥、帕格立歐的暖風1小時/組、奈比特古文100%-1小時/組道具中之一。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23842" type="EtcItem" name="豐饒禮盒">
+		<table name="#Plus">戰術</table>
+		<table name="#Desc">以一定機率可獲得豐饒護身符-戰術和祝福的武器強化卷軸-R級、祝福的防具強化卷軸-R級、武器用強化輔助石-R級、防具用強化輔助石-R級、梅芙上級古文 100%組、武器強化卷軸-R級、防具強化卷軸-R級、奈比特古文(龍之飛翔)1小時禮盒、艾斯恩粉末、加護靈藥、帕格立歐的暖風1小時/組、奈比特古文100%-1小時/組道具中之一。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23843" type="EtcItem" name="豐饒禮盒">
+		<table name="#Plus">士氣</table>
+		<table name="#Desc">以一定機率可獲得豐饒護身符-士氣和祝福的武器強化卷軸-R級、祝福的防具強化卷軸-R級、武器用強化輔助石-R級、防具用強化輔助石-R級、梅芙上級古文 100%組、武器強化卷軸-R級、防具強化卷軸-R級、奈比特古文(龍之飛翔)1小時禮盒、艾斯恩粉末、加護靈藥、帕格立歐的暖風1小時/組、奈比特古文100%-1小時/組道具中之一。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23844" type="EtcItem" name="豐饒禮盒">
+		<table name="#Plus">體能</table>
+		<table name="#Desc">以一定機率可獲得豐饒護身符-體能和祝福的武器強化卷軸-R級、祝福的防具強化卷軸-R級、武器用強化輔助石-R級、防具用強化輔助石-R級、艾斯恩、武器強化卷軸-R級、防具強化卷軸-R級、奈比特古文(龍之飛翔)1小時禮盒、艾斯恩粉末、加護靈藥、帕格立歐的暖風1小時/組、奈比特古文100%-1小時/組道具中之一。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23845" type="EtcItem" name="神秘追擊染料">
+		<table name="#Plus">物理防禦力、移動速度-限時1日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下1日內能力向上提升（HP90%以上時增加物理防禦力20%、移動速度33）的魔法紋章。可以使用的職業：全系列，覺醒之後可以使用。\n\n注意：只有在奧林匹亞、渾沌祭典才會發揮紋章效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_etc_defence" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23846" type="EtcItem" name="神祕殺戮染料">
+		<table name="#Plus">傷害反射抗性、降低所受傷害-限時1日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下1日內能力向上提升（減少從玩家受到的傷害2%，增加傷害反射抗性，殺害玩家1名時效果增加，最高5階段）的魔法紋章。可以使用的職業：全系列，覺醒之後可以使用。\n\n注意：為戰場專用染料，故只有在攻城戰、次元攻城戰、要塞戰、領地戰、根據地戰才會發揮紋章效果。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_etc_slaughter" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23847" type="EtcItem" name="優質塔羅牌交換券">
+		<table name="#Desc">維他命道具\n可以交換能進行優質塔羅遊戲之塔羅牌的交換券。可以透過伊芙的幸運商店交換1張優質塔羅牌。</table>
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23848" type="EtcItem" name="優質塔羅牌交換券">
+		<table name="#Desc">維他命道具\n可以交換能進行優質塔羅遊戲之塔羅牌的交換券。可以透過伊芙的幸運商店交換1張優質塔羅牌。</table>
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23849" type="EtcItem" name="優質塔羅牌交換券">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以交換能進行優質塔羅遊戲之塔羅牌的交換券。可以透過伊芙的幸運商店交換1張優質塔羅牌。</table>
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23850" type="EtcItem" name="優質塔羅牌交換券">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以交換能進行優質塔羅遊戲之塔羅牌的交換券。可以透過伊芙的幸運商店交換1張優質塔羅牌。</table>
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23851" type="EtcItem" name="國立軍事訓練所入場券">
+		<table name="#Desc">維他命道具\n可以進入國立軍事訓練所的入場券。使用的話，可以透過募兵管理官進入國立軍事訓練所。使用後，到每日初始化時間的6點30分之前，都可以任意進入訓練所，但訓練時間無法超過5小時。</table>
+		<set name="icon" val="icon.ticket_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23852" type="Armor" name="透明防具">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">透明防具。裝備時，看起來像是只有穿著內衣。斗篷也會變為透明。</table>
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+	</item>
+	<item id="23853" type="EtcItem" name="透明防具加工石">
+		<table name="#Plus">測試用</table>
+		<table name="#Desc">透明防具加工石。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23854" type="EtcItem" name="奈比特古文(龍之飛翔)3小時禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝有奈比特古文（龍之飛翔）- 3小時道具1個的箱子。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23855" type="EtcItem" name="黃金小盒">
+		<table name="#Desc">以一定機率可獲得黑暗赫利奧斯強化石、血腥赫利奧斯強化石、卡利艾之力-想願、黑暗艾迪奧斯強化石、火之水晶-Super、水之水晶-Super、地之水晶-Super、風之水晶-Super、暗之水晶-Super、聖之水晶-Super、卡利艾之力-業火、祝福的巨人武器用強化輔助石-R級、祝福的巨人防具用強化輔助石-R級、卡利艾之力-殄滅、血腥艾迪奧斯強化石、特級生命石-R級、巨人之力、破壞之力、寶石-R級道具中之一。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23856" type="EtcItem" name="白銀小盒">
+		<table name="#Desc">以一定機率可獲得祝福的卷軸-R99級、祝福的卷軸-R95級、祝福的卷軸-R(2)級、祝福的卷軸-R(1)級、Lv5傳說染料禮盒、祝福的武器強化卷軸-R級、巨人武器強化卷軸-R級、祝福的防具強化卷軸-R級、武器用高級強化輔助石-R級、巨人防具強化卷軸-R級、頭飾用生命石、頭飾強化卷軸、防具用高級強化輔助石-R級、火之原石-Super 150、水之原石-Super 150、地之原石-Super 150、風之原石-Super 150、暗之原石-Super 150、聖之原石-Super 150道具中之一。</table>
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23857" type="EtcItem" name="青銅小盒">
+		<table name="#Desc">以一定機率可獲得強化的沃夫襯衫（+7）組、梅芙上級古文 100%組-限時7日、武器加工石＆復原石-R級/1個組、防具加工石＆復原石-R級/1個組、頭飾加工石＆復原石-1個組、高級狩獵幫手交換券 1張/組、特級生命石-R級、超級健康果汁(CP)組、超級健康果汁(HP)組、文字收藏家的禮物、祝福的沃夫襯衫強化卷軸、祝福的羽毛1張/組、火之原石-Super 60、水之原石-Super 60、地之原石-Super 60、風之原石-Super 60、暗之原石-Super 60、聖之原石-Super 60道具中之一。</table>
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23858" type="EtcItem" name="護身符小盒">
+		<table name="#Desc">以一定機率可獲得R護身符-擊退抗性 {被動}、R護身符-擊倒抗性 {被動}、R護身符-束縛抗性 {被動}、R護身符-捕獲抗性 {被動}、R護身符-驅逐抗性 {被動}、R護身符-變異抗性 {被動}、R護身符-即死攻擊抗性、R護身符-傷害反射抗性、特殊魔法防禦護身符、特殊遠距離抗性護身符、R特別護身符-MP消耗量減少、R護身符-詛咒魔法解除{主動}道具中之一。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23859" type="EtcItem" name="血盟名稱變更">
+		<table name="#Desc">為了變更血盟名稱，請進行以下步驟。\n1、該問題須由本人帳號提出。\n2、請將問題標題輸入為「血盟名稱變更」。\n3、申請角色必須為血盟盟主，道具清單內也必須持有血盟名稱變更道具。</table>
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23860" type="EtcItem" name="狩獵首領靈魂箱子">
+		<table name="#Desc">點兩下的話，可以獲得裝有奧爾芬靈魂之瓶、裝有芙琳泰沙靈魂之瓶、裝有巨蟻女王靈魂之瓶、裝有芙蕾雅靈魂之瓶、裝有巴溫靈魂之瓶中之一。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23861" type="EtcItem" name="巴拉卡斯靈魂之瓶碎片">
+		<table name="#Desc">巴拉卡斯靈魂之瓶碎片。收集1000個拿去交給雷普利的話，可以交換成裝有巴拉卡斯靈魂之瓶。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_valakas_soul_fragment" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23862" type="EtcItem" name="安塔瑞斯靈魂之瓶碎片">
+		<table name="#Desc">安塔瑞斯靈魂之瓶碎片。收集1000個拿去交給雷普利的話，可以交換成裝有安塔瑞斯靈魂之瓶。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_antaras_soul_fragment" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23863" type="EtcItem" name="巴溫靈魂之瓶碎片">
+		<table name="#Desc">巴溫靈魂之瓶碎片。收集1000個拿去交給雷普利的話，可以交換成裝有巴溫靈魂之瓶。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_baium_soul_fragment" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23864" type="EtcItem" name="奧爾芬靈魂之瓶碎片">
+		<table name="#Desc">奧爾芬靈魂之瓶碎片。收集1000個拿去交給雷普利的話，可以交換成裝有奧爾芬靈魂之瓶。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_orfen_soul_fragment" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23865" type="EtcItem" name="巨蟻女王靈魂之瓶碎片">
+		<table name="#Desc">巨蟻女王靈魂之瓶碎片。收集1000個拿去交給雷普利的話，可以交換成裝有巨蟻女王靈魂之瓶。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_queen_ant_soul_fragment" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23866" type="EtcItem" name="芙琳泰沙靈魂之瓶碎片">
+		<table name="#Desc">芙琳泰沙靈魂之瓶碎片。收集1000個拿去交給雷普利的話，可以交換成裝有芙琳泰沙靈魂之瓶。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_frintessa_soul_fragment" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23867" type="EtcItem" name="芙蕾雅靈魂之瓶碎片">
+		<table name="#Desc">芙蕾雅靈魂之瓶碎片。收集1000個拿去交給雷普利的話，可以交換成裝有芙蕾雅靈魂之瓶。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_freya_soul_fragment" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23868" type="Armor" name="壺精封印手鐲-班 胡爾特原住民的回憶">
+		<table name="#Desc">為了班 胡爾特玩家們的紀念道具。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_tiger_grandma_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23869" type="EtcItem" name="天使貓的祝福組">
+		<table name="#Desc">維他命道具壓縮包\n點兩下箱子的話，就可獲得天使貓的祝福-1小時1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23870" type="EtcItem" name="天使貓的祝福">
+		<table name="#Desc">維他命道具\n使用時，在60分鐘內增加自己的物理攻擊力5%、魔法攻擊力20%、攻擊速度5%、施法速度5%，賦予增加透過狩獵的所得經驗值和SP30%的效果。無法在奧林匹亞上使用的道具。無法和文字收藏家的禮物等活動輔助魔法同時並存。</table>
+		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23871" type="EtcItem" name="梅芙上級古文100%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率 100%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23872" type="EtcItem" name="梅芙上級古文100%">
+		<table name="#Plus">限時5小時</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率 100%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23873" type="EtcItem" name="梅芙上級古文100%">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率 100%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23874" type="EtcItem" name="梅芙上級古文100%組">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下箱子的話，就可獲得梅芙上級古文100%-1小時1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23875" type="EtcItem" name="梅芙上級古文100%組">
+		<table name="#Plus">限時5小時</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下箱子的話，就可獲得梅芙上級古文100%-5小時1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23876" type="EtcItem" name="梅芙上級古文100%組">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下箱子的話，就可獲得梅芙上級古文100%-7日1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23877" type="Armor" name="日本武士頭飾">
+		<table name="#Desc">日本武士頭飾。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_japan_general_hair_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23878" type="EtcItem" name="日本武士頭飾加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將頭飾轉變成日本武士造型的加工石。只能加工佔用欄位2格的頭飾。\n\n注意：若對外型已加工的頭飾賦予墜飾，外型將會初始化。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23879" type="Armor" name="日本武士衣裳">
+		<table name="#Desc">日本武士衣裳。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_japan_general_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23880" type="EtcItem" name="日本武士衣裳加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將防具上衣外型加工為日本武士衣裳。也可加工連身防具。所有職業皆可加工，所有防具的外型將顯示為日本武士衣裳型態。利用復原石可以將外型還原成原狀。\n\n注意：對已加工外型的防具賦予精煉效果或升級，外型將會初始化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23881" type="Armor" name="亞納衣裳">
+		<table name="#Desc">亞納衣裳。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_anakim_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23882" type="EtcItem" name="亞納衣裳加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將防具上衣外型加工為亞納衣裳。也可加工連身防具。所有職業皆可加工，所有防具的外型將顯示為亞納衣裳的型態。利用復原石可以將外型還原成原狀。\n\n注意：對已加工外型的防具賦予精煉效果或升級，外型將會初始化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23883" type="Armor" name="吸血鬼衣裳上衣">
+		<table name="#Desc">吸血鬼衣裳上衣。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23884" type="Armor" name="吸血鬼衣裳下衣">
+		<table name="#Desc">吸血鬼衣裳下衣。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23885" type="Armor" name="吸血鬼衣裳手套">
+		<table name="#Desc">吸血鬼衣裳手套。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23886" type="Armor" name="吸血鬼衣裳鞋">
+		<table name="#Desc">吸血鬼衣裳鞋。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23887" type="Armor" name="吸血鬼頭飾">
+		<table name="#Desc">面罩型態的吸血鬼頭飾。</table>
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_hair_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23888" type="EtcItem" name="吸血鬼衣裳上衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將上衣轉變成吸血鬼造型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23889" type="EtcItem" name="吸血鬼衣裳下衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將下衣轉變成吸血鬼造型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_legs" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23890" type="EtcItem" name="吸血鬼衣裳手套加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將手套轉變成吸血鬼造型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_gloves" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23891" type="EtcItem" name="吸血鬼衣裳鞋加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將鞋轉變成吸血鬼造型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_feet" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23892" type="EtcItem" name="吸血鬼頭飾加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將頭飾轉變成吸血鬼造型的加工石。只能加工佔用欄位2格的頭飾。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23893" type="EtcItem" name="生命石禮盒">
+		<table name="#Desc">維他命道具\n裝有各種生命石的箱子。點兩下的話，可以獲得蘊含巨人力量的生命石、特級生命石-R級、高級生命石-R級、中級生命石-R級、生命石-R級其中之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23894" type="EtcItem" name="雅戴妮生命石禮盒">
+		<table name="#Desc">維他命道具\n裝有各種雅戴妮生命石的箱子。點兩下的話，可以獲得圖騰專用超強力雅戴妮生命石、強力雅戴妮生命石、雅戴妮生命石其中之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23895" type="EtcItem" name="防具用輔助石禮盒">
+		<table name="#Desc">維他命道具\n裝有各種防具用輔助石的箱子。點兩下的話，可以獲得防具用強化增效輔助石-R級、祝福的防具用強化輔助石-R級、防具用高級強化輔助石-R級、防具用強化輔助石-R級其中之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23896" type="EtcItem" name="武器用輔助石禮盒">
+		<table name="#Desc">維他命道具\n裝有各種武器用輔助石的箱子。點兩下的話，可以獲得武器用強化增效輔助石-R級、祝福的武器用強化輔助石-R級、武器用高級強化輔助石-R級、武器用強化輔助石-R級其中之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23897" type="EtcItem" name="靈魂禮盒">
+		<table name="#Desc">維他命道具\n內有各種裝有靈魂之瓶與靈魂之瓶碎片的箱子。點兩下的話，可以獲得裝有巴拉卡斯、安塔瑞斯、巴溫、奧爾芬、巨蟻女王、芙琳泰沙、芙蕾雅的靈魂之瓶，或是靈魂之瓶碎片其中之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23898" type="EtcItem" name="潘朵拉的箱子">
+		<table name="#Desc">維他命道具\n裝有各式各樣高級道具的潘朵拉的箱子。點兩下的話，就可以獲得蘊含巨人力量的生命石、破滅武器強化卷軸-R級、破滅防具強化卷軸-R級、100億金幣、變身卷軸、不變的祕傳書、卡利艾之力、染料、艾斯恩、屬性水晶、墜飾、頭飾、藥水等多樣道具中之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23899" type="EtcItem" name="賭徒之箱">
+		<table name="#Desc">維他命道具\n裝有各式各樣道具的賭徒之箱。點兩下的話，就可以獲得10億金幣、頭飾強化卷軸、武器屬性變更水晶-R級、寶石-R級、防具強化卷軸-R級、生命石-R級、屬性原石禮盒、祝福的返回卷軸、草莓蛋糕(HP靈藥)、夢幻的藍色藥瓶中之一。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="23900" type="Armor" name="壺精封印手鐲-亞納">
+		<table name="#Desc">裝備後可以召喚亞納壺精。</table>
+		<set name="icon" val="BranchSys3.iconItem.g_agathion_anakim" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23901" type="EtcItem" name="神秘黑暗抗性染料">
+		<table name="#Plus">黑暗屬性抗性-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與普通怪物戰鬥時，增加黑暗抗性120）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23902" type="EtcItem" name="神秘神聖抗性染料">
+		<table name="#Plus">神聖屬性抗性-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與普通怪物戰鬥時，增加神聖抗性120）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_attribute_holy" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23903" type="EtcItem" name="神秘火抗性染料">
+		<table name="#Plus">火屬性抗性-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與普通怪物戰鬥時，增加火抗性120）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_attribute_fire" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23904" type="EtcItem" name="神秘水抗性染料">
+		<table name="#Plus">水屬性抗性-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與普通怪物戰鬥時，增加水抗性120）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_attribute_water" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23905" type="EtcItem" name="神秘風抗性染料">
+		<table name="#Plus">風屬性抗性-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與普通怪物戰鬥時，增加風抗性120）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_attribute_wind" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23906" type="EtcItem" name="神秘大地抗性染料">
+		<table name="#Plus">大地屬性抗性-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與普通怪物戰鬥時，增加大地抗性120）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_attribute_earth" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23907" type="EtcItem" name="神秘異常狀態抗性染料">
+		<table name="#Plus">異常狀態抗性、輔助魔法解除抗性、異常狀態反射-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（增加對束縛、睡眠、麻痺、毒、出血、休克、精神異常攻擊抗性20/增加解除輔助魔法攻擊抗性20/以5%的機率，反射物理、魔法異常狀態）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_etc_debuff" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23908" type="EtcItem" name="神秘無敵強化染料">
+		<table name="#Plus">無敵持續時間增加-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（增加對於一般攻擊、技能的無敵效果輔助魔法持續時間50%）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_etc_buff" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23909" type="EtcItem" name="神秘世界首領防禦染料">
+		<table name="#Plus">物理防禦、魔法防禦-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與普通怪物戰鬥時，增加大地抗性120）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_boss_normal" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23910" type="EtcItem" name="神秘安塔瑞斯防禦染料">
+		<table name="#Plus">物理防禦、魔法防禦-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與安塔瑞斯戰鬥時，增加物理防禦力、魔法防禦20%）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_boss_antaras" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23911" type="EtcItem" name="神秘巴拉卡斯防禦染料">
+		<table name="#Plus">物理防禦、魔法防禦-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與巴拉卡斯戰鬥時，增加物理防禦力、魔法防禦20%）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_boss_valakas" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23912" type="EtcItem" name="神秘林德拜爾防禦染料">
+		<table name="#Plus">物理防禦、魔法防禦-限時7日</table>
+		<table name="#Desc">維他命道具\n去找村莊的紋章製造人的話，可以在身上刻下在7天內提升能力（與林德拜爾戰鬥時，增加物理防禦力、魔法防禦20%）的魔法紋章。可以使用的職業：全系列。</table>
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_boss_lindvior" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23913" type="Weapon" name="淚之單手劍">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。單手劍型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23914" type="Weapon" name="淚之匕首">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。匕首型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23915" type="Weapon" name="淚之雙手劍">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。雙手劍型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_twohand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23916" type="Weapon" name="淚之格鬥兵器">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。格鬥武器型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_dualfist_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23917" type="Weapon" name="淚之槍">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。長矛型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_pole_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23918" type="Weapon" name="淚之弓">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。弓型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23919" type="Weapon" name="淚之弩弓">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。弩弓型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_twohand_crossbow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23920" type="Weapon" name="淚之單手鈍器">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。單手鈍器型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23921" type="Weapon" name="淚之魔法劍">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。單手魔法劍型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_magic_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23922" type="Weapon" name="淚之單手魔法鈍器">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。單手魔法鈍器型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_magic_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23923" type="Weapon" name="淚之雙手魔法鈍器">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。雙手魔法鈍器型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_magic_twohand_blunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23924" type="Weapon" name="淚之雙刀">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。雙刀型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_dual_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="51" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23925" type="Weapon" name="淚之雙匕首">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。雙匕首型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="181" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23926" type="Weapon" name="淚之雙鈍器">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。雙鈍器型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="250" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="125" />
+			<set order="0x08" stat="mAtk" val="186" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="23927" type="Armor" name="淚之盾牌">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。盾牌型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="25" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="23928" type="Armor" name="淚之符印">
+		<table name="#Desc">俄羅斯武器製作選拔賽的當選作品。符印型態。武器加工石的基礎外型。</table>
+		<set name="icon" val="BranchSys3.iconWeapon.g_tears_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="47" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="23929" type="EtcItem" name="淚之單手劍加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將單手劍轉換為淚之單手劍外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23930" type="EtcItem" name="淚之匕首加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將匕首轉換為淚之匕首外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23931" type="EtcItem" name="淚之雙手劍加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將雙手劍轉換為淚之雙手劍外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23932" type="EtcItem" name="淚之格鬥兵器加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將格鬥兵器轉換為淚之格鬥兵器外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualfist" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23933" type="EtcItem" name="淚之槍加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將槍轉換為淚之槍外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_pole" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23934" type="EtcItem" name="淚之弓加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將弓轉換為淚之弓外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_bow" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23935" type="EtcItem" name="淚之弩弓加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將弩弓轉換為淚之弩弓外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_crossbow" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23936" type="EtcItem" name="淚之單手鈍器加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將單手鈍器轉換為淚之單手鈍器外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23937" type="EtcItem" name="淚之魔法劍加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將雙手鈍器轉換為淚之雙手鈍器外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23938" type="EtcItem" name="淚之單手魔法鈍器加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將單手鈍器轉換為淚之魔法鈍器外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_magic_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23939" type="EtcItem" name="淚之雙手魔法鈍器加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將雙手鈍器轉換為淚之雙手魔法鈍器外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_magic_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23940" type="EtcItem" name="淚之雙刀加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將雙刀轉換為淚之雙刀外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dual" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23941" type="EtcItem" name="淚之雙匕首加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將雙匕首轉換為淚之雙匕首外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualdagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23942" type="EtcItem" name="淚之雙鈍器加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將雙鈍器轉換為淚之雙鈍器外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualblunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23943" type="EtcItem" name="淚之盾牌加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將盾牌轉換為淚之盾牌外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_shield" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23944" type="EtcItem" name="淚之符印加工石">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n可將符印轉換為淚之符印外型的加工石。7日限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sigil" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23945" type="EtcItem" name="梅芙上級古文 100%組">
+		<table name="#Plus">限時3小時</table>
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得1個梅芙上級古文 100% - 3小時。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23946" type="EtcItem" name="奈比特古文(龍之飛翔)1小時禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝有奈比特古文（龍之飛翔）- 1小時道具1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23947" type="EtcItem" name="欲界祕密貢品箱子鑰匙">
+		<table name="#Desc">可以開啟從極惡、瘋狂欲界獲得之貢品箱子的鑰匙。使用5把可開啟祕密貢品箱子，2把可開啟貢品箱子。</table>
+		<set name="icon" val="icon.aphros_key" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23948" type="EtcItem" name="欲界貢品箱子鑰匙">
+		<table name="#Desc">可以開啟從極惡、瘋狂欲界獲得之貢品箱子的鑰匙。使用5把可開啟祕密貢品箱子，2把可開啟貢品箱子。</table>
+		<set name="icon" val="icon.etc_old_key_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23949" type="EtcItem" name="凱旋英雄的神祕晶體">
+		<table name="#Desc">點兩下時，可以獲得活力充能藥草 30分/祝福的羽毛/天堂雞尾酒2個/城鎮返回卷軸禮盒/MP恢復藥水之一。（每天只能使用一次）</table>
+		<set name="icon" val="Branchsys2.icon.cube_event_i02" />
+	</item>
+	<item id="23950" type="EtcItem" name="凱旋英雄的黃金寶箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用的話，可以獲得凱旋英雄的憑證250個、凱旋英雄的藥水禮盒1個、凱旋英雄的支援禮盒各1個的禮盒。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23951" type="EtcItem" name="凱旋英雄的支援禮盒">
+		<table name="#Desc">內裝凱旋英雄的襯衫、凱旋英雄的腰帶、凱旋英雄的神祕晶體各1個的禮盒。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23952" type="EtcItem" name="追加入場券-極惡、瘋狂欲界">
+		<table name="#Desc">由次元警衛隊轉交給冒險家們的極惡、瘋狂欲界的入場券。使用這個入場券的話，可將極惡、瘋狂欲界的地區歸屬初始化。在歸屬時間內，總共可以使用5次。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23953" type="Armor" name="2014世界奧林匹亞英雄王XXX的飾品">
+		<table name="#Desc">2014世界奧林匹亞優勝者 XXX的頭飾。全伺服器內冠軍英雄的憑證。裝備時，將獲得所有能力+5的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23954" type="Armor" name="2014世界奧林匹亞準優勝XXX的飾品">
+		<table name="#Desc">2014世界奧林匹亞準優勝者 XXX的頭飾。全伺服器內亞軍英雄的憑證。裝備時，將獲得所有能力+2的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23955" type="EtcItem" name="欲界祕密貢品箱子">
+		<table name="#Desc">與可以從極惡、瘋狂欲界內獲得的欲界祕密貢品箱子相同的箱子。以一定的機率可獲得黑暗赫利奧斯強化石、黑暗艾迪奧斯強化石、血腥赫利奧斯強化石、血腥艾迪奧斯強化石、蘊含巨人力量的生命石、祝福的卷軸-R99級(武器用)、祝福的卷軸-R99級(防具用)、特級生命石-R級、特級生命石-R95級、特級生命石-R99級、巨人防具強化卷軸-R級、巨人武器強化卷軸-R級、火之原石-Super 60、水之原石-Super 60、地之原石-Super 60、風之原石-Super 60、聖之原石-Super 60、暗之原石-Super 60、寶石-R級中之一的道具。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23956" type="EtcItem" name="欲界貢品箱子">
+		<table name="#Desc">與可以從極惡、瘋狂欲界內獲得的欲界貢品箱子相同的箱子。以一定的機率可獲得祝福的武器強化卷軸-R級、祝福的防具強化卷軸-R級、高級生命石-R級、高級生命石-R95級、高級生命石-R99級、武器強化卷軸-R級、防具強化卷軸-R級、火之原石、水之原石、地之原石、風之原石、暗之原石、聖之原石、祝福的復活卷軸中之一的道具。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23957" type="EtcItem" name="虛像1">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23958" type="EtcItem" name="虛像2">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23959" type="EtcItem" name="虛像3">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23960" type="EtcItem" name="虛像4">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23961" type="EtcItem" name="虛像5">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23962" type="EtcItem" name="虛像6">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23963" type="EtcItem" name="虛像7">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23964" type="EtcItem" name="虛像8">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23965" type="EtcItem" name="虛像9">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23966" type="EtcItem" name="虛像10">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23967" type="EtcItem" name="虛像11">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23968" type="EtcItem" name="虛像12">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23969" type="EtcItem" name="虛像13">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23970" type="EtcItem" name="虛像14">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23971" type="EtcItem" name="虛像15">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23972" type="EtcItem" name="虛像16">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23973" type="EtcItem" name="虛像17">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23974" type="EtcItem" name="虛像18">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23975" type="EtcItem" name="虛像19">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23976" type="EtcItem" name="虛像20">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23977" type="EtcItem" name="飛馬壺精組">
+		<table name="#Desc">內裝飛馬壺精的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23978" type="Armor" name="壺精封印手鐲-飛馬">
+		<table name="#Desc">可召喚飛馬壺精的手鐲。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_pegasus_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="23979" type="EtcItem" name="吸血鬼衣裳上衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將上衣轉變成吸血鬼造型的加工石。加工後能力值將不會有所變化，不論材質皆可使用。可以保管在血盟倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23980" type="EtcItem" name="吸血鬼衣裳下衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將下衣轉變成吸血鬼造型的加工石。加工後能力值將不會有所變化，不論材質皆可使用。可以保管在血盟倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_legs" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23981" type="EtcItem" name="吸血鬼衣裳手套加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將手套轉變成吸血鬼造型的加工石，加工後能力值將不會有所變化。可以保管在血盟倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_gloves" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23982" type="EtcItem" name="吸血鬼衣裳鞋加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將鞋轉變成吸血鬼造型的加工石。加工後能力值將不會有所變化。可以保管在血盟倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_feet" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23983" type="EtcItem" name="吸血鬼頭飾加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將頭飾轉變成吸血鬼造型的加工石。只能加工佔用欄位2格的頭飾。可以保管在血盟倉庫的道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23984" type="EtcItem" name="遠古卡爾提亞迷宮的痕跡">
+		<table name="#Plus">活動用</table>
+		<table name="#Desc">使用活動點數購買的遠古卡爾提亞迷宮的痕跡，拿去交給卡爾提亞研究員的話，應該就能找到某個線索。無法交易、丟棄、買賣，但可以保管在個人倉庫。預計將於2014年5月27日全部刪除。</table>
+		<set name="icon" val="BranchSys3.Icon.g_ev_magic_powder" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23985" type="EtcItem" name="追加入場券-遠古卡爾提亞迷宮">
+		<table name="#Plus">活動用</table>
+		<table name="#Desc">使用活動點數購買的遠古卡爾提亞迷宮追加入場券。點兩下來使用入場券的話，可將遠古卡爾提亞迷宮的歸屬初始化。無法交易、丟棄、買賣，但可以保管在個人倉庫。預計將於2014年5月27日全部刪除。</table>
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23986" type="EtcItem" name="豐沃成長古文禮盒">
+		<table name="#Desc">點兩下的話，就可以獲得豐饒成長古文（限時30日）。無法交易/丟棄/刪除/利用個人商店/利用代售系統，但可以保管在個人倉庫，也可以透過維他命管理者在帳號內轉移。</table>
+		<set name="icon" val="icon.ev_charge_box" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23987" type="EtcItem" name="豐沃成長古文-限時30日">
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得經驗值和SP20%。效果只會適用於等級99以下的角色，可與奈比特古文、奈比特古文（龍之飛翔）同時使用。但與國王古文同時使用時，只會獲得國王古文的效果。無法交易/丟棄/刪除/利用個人商店，但可以保管在個人倉庫。</table>
+		<set name="icon" val="icon.ev_charge_run" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23988" type="EtcItem" name="翼人神祕之風卷軸">
+		<table name="#Desc">使用時，在60分鐘內增加HP最大值30%、MP最大值30%、CP最大值30%、物理防禦力30%、魔法防禦力30%、物理攻擊力10%、魔法攻擊力20%，縮短技能使用冷卻時間10%。額外增加風屬性攻擊和抗性20。無法交易/丟棄/利用個人商店/利用代售系統，但可以保管在個人倉庫。無法在奧林匹亞競賽中使用。無法重複適用致命誘惑輔助魔法。</table>
+		<set name="icon" val="icon.ev_charge_scroll" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23989" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段1</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為2250秒）\n2.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力5。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23990" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段2</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為2100秒）\n2.均衡之力：MEN提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力5。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23991" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段3</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為1950秒）\n2.均衡之力：MEN提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力10。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23992" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段4</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為1800秒）\n2.均衡之力：CON/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力10。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23993" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段5</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為1650秒）\n2.均衡之力：CON/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力15。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23994" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段6</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為1500秒）\n2.均衡之力：CON/WIT/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力15。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23995" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段7</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為1350秒）\n2.均衡之力：CON/WIT/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力20。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23996" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段8</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為1200秒）\n2.均衡之力：CON/DEX/WIT/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力20。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23997" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段9</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為1050秒）\n2.均衡之力：CON/DEX/WIT/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力25。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23998" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段10</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為900秒）\n2.均衡之力：INT/CON/DEX/WIT/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力25。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="23999" type="Armor" name="處女座壺精手鐲">
+		<table name="#Plus">階段11</table>
+		<table name="#Desc">可以召喚處女座壺精的手鐲。\n\n＜使用技能＞\n1.治癒之光：完全恢復所有隊員的HP/MP/CP，並以一定的機率解除隊員所受的詛咒魔法。（使用冷卻時間為750秒）\n2.均衡之力：INT/CON/DEX/WIT/MEN各提升1。\n3.屬性強化：各增加火/水/大地/風/黑暗/神聖屬性防禦力30。</table>
+		<set name="icon" val="BranchIcon.Icon.accessary_sign_agathion_april_aug_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+</list>

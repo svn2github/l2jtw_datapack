@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="34000" type="EtcItem" name="LV5 傳說精神紋章染料">
+		<table name="#Plus">Men+5 Int+1 神聖屬性抗性+25/活動</table>
+		<table name="#Desc">Lv5 傳說精神紋章染料（Men+5、Int+1、神聖屬性抗性+25）。去找村莊的紋章製造人的話，可以在身體刻上變化能力的魔法紋章。若想刻上紋章的話，需要有10個染料。可以使用的職業：全系列。4次轉職之後可以使用。</table>
+		<set name="icon" val="icon.lv5_3_dye_men" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34001" type="EtcItem" name="高級生命石-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的高級礦石。等級85以上的角色可以使用。</table>
+		<set name="icon" val="icon.r_mineral_rare_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34002" type="EtcItem" name="特級生命石-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的最高級礦石。等級85以上的角色可以使用。</table>
+		<set name="icon" val="icon.r_mineral_unique_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34003" type="EtcItem" name="高級生命石-R95級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的高級礦石。等級95以上的角色可以使用。</table>
+		<set name="icon" val="icon.r95_mineral_rare_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34004" type="EtcItem" name="特級生命石-R95級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">怪物內部的結石受到物理/魔法攻擊而僵硬的最高級礦石。等級95以上的角色可以使用。</table>
+		<set name="icon" val="icon.r95_mineral_unique_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34005" type="EtcItem" name="封印卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">不使用的道具。在實際遊戲上不能被曝光的道具。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34006" type="EtcItem" name="琵琶之詩卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在30分鐘內增加自己的攻擊速度34%、施法速度31%，並以一定的機率獲得吸血怒擊效果9%。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34007" type="EtcItem" name="豎琴之詩卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在30分鐘內增加自己的物理命中能力5、物理迴避能力和魔法迴避能力5、移動速度34，並降低致命被擊傷害30%。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34008" type="EtcItem" name="戰鼓之詩卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在30分鐘內增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率20、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%、遭受致命攻擊傷害時的物理防禦力。降低移動速度15%，而且遭受一定程度以上的攻擊而受傷的隊員，在進行普通攻擊時，將會額外增加致命威力。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34009" type="EtcItem" name="風琴之詩卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在30分鐘內增加自己的HP最大值37%、MP最大值37%、CP最大值37%、HP額外恢復量20%。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34010" type="EtcItem" name="吉他之詩卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在30分鐘內增加自己的物理致命攻擊率32%、物理致命威力35%、魔法致命攻擊率2，而降低物理技能的MP消耗量20%、魔法技能的MP消耗量10%。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34011" type="EtcItem" name="角笛之詩卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在30分鐘內增加自己的物理攻擊力17%、物理防禦力15%、魔法攻擊力79%、魔法防禦力30%。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34012" type="EtcItem" name="生命靈藥-泰爾錫活動">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">恢復HP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34013" type="EtcItem" name="精神靈藥-泰爾錫活動">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">恢復MP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34014" type="EtcItem" name="鬥志靈藥-泰爾錫活動">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">恢復CP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34015" type="EtcItem" name="武器封印卷軸-D">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_d" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34016" type="EtcItem" name="武器封印卷軸-C">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_c" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34017" type="EtcItem" name="武器封印卷軸-B">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_b" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34018" type="EtcItem" name="武器封印卷軸-A">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_a" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34019" type="EtcItem" name="武器封印卷軸-S">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34020" type="EtcItem" name="武器封印卷軸-S80">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34021" type="EtcItem" name="武器封印卷軸-R">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34022" type="EtcItem" name="武器封印卷軸-R95">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34023" type="EtcItem" name="武器封印卷軸-R99">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34024" type="EtcItem" name="防具封印卷軸-D">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_d" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34025" type="EtcItem" name="防具封印卷軸-C">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_c" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34026" type="EtcItem" name="防具封印卷軸-B">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_b" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34027" type="EtcItem" name="防具封印卷軸-A">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_a" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34028" type="EtcItem" name="防具封印卷軸-S">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34029" type="EtcItem" name="防具封印卷軸-S80">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34030" type="EtcItem" name="防具封印卷軸-R">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34031" type="EtcItem" name="防具封印卷軸-R95">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34032" type="EtcItem" name="防具封印卷軸-R99">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可將束縛的道具還原成未確認的道具的卷軸。所有的強化數值將變為初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34033" type="EtcItem" name="老舊的卷軸">
+		<table name="#Desc">看起來老舊的紙卷軸。點兩下看看。</table>
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34034" type="EtcItem" name="幸運地圖">
+		<table name="#Desc">標示著反抗神的英雄們其安息之處的地圖。前去拜訪位於古都-亞爾康的艾希比那的伴侶樹 伊吉夏爾。</table>
+		<set name="icon" val="icon.fortuna_enter" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34035" type="EtcItem" name="奈比特古文100%-3小時">
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得經驗值和SP100%。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34036" type="EtcItem" name="奈比特古文100%-5小時">
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得經驗值和SP100%。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34037" type="EtcItem" name="奈比特古文100%-7日">
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得經驗值和SP100%。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34038" type="EtcItem" name="奈比特古文200%-3小時">
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得經驗值和SP200%。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34039" type="EtcItem" name="奈比特古文200%-5小時">
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得經驗值和SP200%。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34040" type="EtcItem" name="奈比特古文200%-7日">
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得經驗值和SP200%。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="34041" type="EtcItem" name="奈比特古文100%-3小時禮盒">
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100%-3小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34042" type="EtcItem" name="奈比特古文100%-5小時禮盒">
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100%-5小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34043" type="EtcItem" name="奈比特古文100%-7日禮盒">
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100%-7日。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34044" type="EtcItem" name="奈比特古文200%-3小時禮盒">
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文200%-3小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34045" type="EtcItem" name="奈比特古文200%-5小時禮盒">
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文200%-5小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34046" type="EtcItem" name="奈比特古文200%-7日禮盒">
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文200%-7日。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34047" type="EtcItem" name="奈比特古文100%-3小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100% - 3小時。效果只會適用於等級85 100%以下的角色。無法交易/丟棄/利用個人商店。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34048" type="EtcItem" name="奈比特古文100%-5小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100% - 5小時。效果只會適用於等級85 100%以下的角色。無法交易/丟棄/利用個人商店。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34049" type="EtcItem" name="奈比特古文100%-7日禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文100% - 7日。效果只會適用於等級85 100%以下的角色。無法交易/丟棄/利用個人商店。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34050" type="EtcItem" name="奈比特古文200%-3小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文200% - 3小時。效果只會適用於等級85 100%以下的角色。無法交易/丟棄/利用個人商店。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34051" type="EtcItem" name="奈比特古文200%-5小時禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文200% - 5小時。效果只會適用於等級85 100%以下的角色。無法交易/丟棄/利用個人商店。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34052" type="EtcItem" name="奈比特古文200%-7日禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下禮盒的話，就可獲得1個奈比特古文200% - 7日。效果只會適用於等級85 100%以下的角色。無法交易/丟棄/利用個人商店。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34053" type="EtcItem" name="祝福的幻靈武器禮盒">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="34054" type="EtcItem" name="祝福的卡戴拉重裝防具禮盒">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="34055" type="EtcItem" name="祝福的卡戴拉輕裝防具禮盒">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="34056" type="EtcItem" name="祝福的卡戴拉長袍防具禮盒">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="34057" type="EtcItem" name="祝福的卡戴拉飾品禮盒">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="34058" type="EtcItem" name="稀有飾品禮盒">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="34059" type="EtcItem" name="腐敗汁液">
+		<table name="#Desc">位於血之沼澤的雜貨商人 勃羅多斯請求收集的腐敗汁液。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i02" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34060" type="EtcItem" name="腐臭的血">
+		<table name="#Desc">位於血之沼澤的雜貨商人 勃羅多斯請求收集的腐臭的血。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i10" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34061" type="EtcItem" name="導師資格">
+		<table name="#Desc">可以證明自己是導師的證書。</table>
+		<set name="icon" val="icon.etc_badge_gold_i00" />
+		<set name="material" val="WOOD" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34062" type="EtcItem" name="巨人禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可隨機獲得巨人強化卷軸、頭飾強化卷軸、頭飾用生命石。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34063" type="EtcItem" name="束縛禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可隨機獲得束縛解除卷軸、強化輔助石、刻印祕傳書。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34064" type="EtcItem" name="破滅禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可隨機獲得破滅強化卷軸、搜魂變更石、屬性變更水晶。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34065" type="EtcItem" name="回聲水晶-耀眼的你">
+		<table name="#Desc">演奏裴基成之歌「耀眼的你」的回聲水晶。使用1次後就消失。</table>
+		<set name="icon" val="icon.etc_echo_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34066" type="EtcItem" name="武器強化卷軸-A級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，A級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升4；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升5；弓類武器的攻擊力可提升8；所有武器的魔法攻擊力可提升3。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34067" type="EtcItem" name="防具強化卷軸-A級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">A級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34068" type="EtcItem" name="武器強化卷軸-B級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，B級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升3；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升4；弓類武器的攻擊力可提升6；所有武器的魔法攻擊力可提升3。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34069" type="EtcItem" name="防具強化卷軸-B級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">B級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34070" type="EtcItem" name="武器強化卷軸-C級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，C級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升3；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升4；弓類武器的攻擊力可提升6；所有武器的魔法攻擊力可提升3。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34071" type="EtcItem" name="防具強化卷軸-C級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">C級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34072" type="EtcItem" name="武器強化卷軸-D級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，D級劍/單手、鈍器/單手、匕首、槍、其他；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升2；弓類武器的攻擊力可提升4；所有武器的魔法攻擊力可提升2。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34073" type="EtcItem" name="防具強化卷軸-D級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">D級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34074" type="EtcItem" name="武器強化卷軸-S級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，S級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升5；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升6；弓類武器的攻擊力可提升10；所有武器的魔法攻擊力可提升4。從強化+4開始，物理攻擊力/魔法攻擊力可增加雙倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34075" type="EtcItem" name="防具強化卷軸-S級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，S級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34076" type="EtcItem" name="武器強化卷軸-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。</table>
+		<set name="icon" val="icon.scroll_of_enchant_weapon_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34077" type="EtcItem" name="防具強化卷軸-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.scroll_of_enchant_armor_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34078" type="EtcItem" name="改良型巨人禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可隨機獲得R級巨人強化卷軸、頭飾強化卷軸、頭飾用生命石。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34079" type="EtcItem" name="改良型束縛禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可隨機獲得R級束縛解除卷軸、R級強化輔助石、刻印祕傳書、R級武器/防具強化卷軸。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34080" type="EtcItem" name="改良型破滅禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可隨機獲得R級破滅強化卷軸、R級搜魂變更石、R級屬性變更水晶、R級武器/防具強化卷軸。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34081" type="EtcItem" name="導師禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可隨機獲得R級改良型巨人禮盒、改良型束縛禮盒、改良型破滅禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34082" type="EtcItem" name="天堂雞尾酒">
+		<table name="#Desc">在60分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩等級2的效果。使用冷卻時間為60分鐘。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34083" type="Weapon" name="活動用-巨銳劍 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的巨銳劍（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34084" type="Weapon" name="活動用-巨銳劍 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的巨銳劍（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34085" type="Weapon" name="活動用-巨銳劍 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的巨銳劍（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34086" type="Weapon" name="活動用-巨銳劍 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的巨銳劍（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34087" type="Weapon" name="活動用-巨銳劍 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的巨銳劍（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34088" type="Weapon" name="活動用-巨銳劍 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的巨銳劍（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34089" type="Weapon" name="活動用-闊矛 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的闊矛（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34090" type="Weapon" name="活動用-闊矛 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的闊矛（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34091" type="Weapon" name="活動用-闊矛 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的闊矛（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34092" type="Weapon" name="活動用-闊矛 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的闊矛（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34093" type="Weapon" name="活動用-闊矛 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的闊矛（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34094" type="Weapon" name="活動用-闊矛 (黑暗)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的闊矛（黑暗）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34095" type="Weapon" name="活動用-米索莉匕首 (大地)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的米索莉匕首（大地）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34096" type="Weapon" name="活動用-米索莉匕首 (水)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的米索莉匕首（水）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34097" type="Weapon" name="活動用-米索莉匕首 (風)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的米索莉匕首（風）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34098" type="Weapon" name="活動用-米索莉匕首 (火)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的米索莉匕首（火）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="34099" type="Weapon" name="活動用-米索莉匕首 (神聖)">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">限制強化能力的米索莉匕首（神聖）。限時道具。無法結晶化，以及無法賦予除了強化以外的附加功能。</table>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="duration" val="180" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+</list>

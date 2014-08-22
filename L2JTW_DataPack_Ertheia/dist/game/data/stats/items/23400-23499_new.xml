@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="23400" type="EtcItem" name="變身卷軸-劍齒虎">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為劍齒虎的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23401" type="EtcItem" name="變身卷軸-奧耶豺狼">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為奧耶豺狼的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23402" type="EtcItem" name="變身卷軸-人偶刀手">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為人偶刀手的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23403" type="EtcItem" name="變身卷軸-札肯">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為札肯的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23404" type="EtcItem" name="變身卷軸-亞納">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為亞納的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23405" type="EtcItem" name="變身卷軸-貝諾姆">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為貝諾姆的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23406" type="EtcItem" name="變身卷軸-高登">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為高登的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23407" type="EtcItem" name="變身卷軸-勞庫">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為勞庫的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23408" type="EtcItem" name="變身卷軸-基亞齊">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為基亞齊的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23409" type="EtcItem" name="變身卷軸-惡魔公爵">
+		<table name="#Desc">維他命道具\n可維持30分鐘變身為惡魔公爵的變身卷軸。在處於變身狀態下使用時，將不會產生效果。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23410" type="EtcItem" name="武器強化卷軸-R級">
+		<table name="#Desc">維他命道具\n強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。</table>
+		<set name="icon" val="icon.scroll_of_enchant_weapon_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23411" type="EtcItem" name="武器強化卷軸-S級">
+		<table name="#Desc">維他命道具\n強化時，S級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升5；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升6；弓類武器的攻擊力可提升10；所有武器的魔法攻擊力可提升4。從強化+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23412" type="EtcItem" name="武器強化卷軸-A級">
+		<table name="#Desc">維他命道具\n強化時，A級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升4；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升5；弓類武器的攻擊力可提升8；所有武器的魔法攻擊力可提升3。從強化+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23413" type="EtcItem" name="武器強化卷軸-B級">
+		<table name="#Desc">維他命道具\n強化時，B級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升3；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升4；弓類武器的攻擊力可提升6；所有武器的魔法攻擊力可提升3。從強化+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23414" type="EtcItem" name="武器強化卷軸-C級">
+		<table name="#Desc">維他命道具\n強化時，C級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升3；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升4；弓類武器的攻擊力可提升6；所有武器的魔法攻擊力可提升3。從強化+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23415" type="EtcItem" name="武器強化卷軸-D級">
+		<table name="#Desc">維他命道具\n強化時，D級劍/單手、鈍器/單手、匕首、槍、其他類武器、劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器的物理攻擊力可提升2；弓類武器的攻擊力可提升4；所有武器的魔法攻擊力可提升2。從強化+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23416" type="EtcItem" name="防具強化卷軸-R級">
+		<table name="#Desc">維他命道具\n強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始將大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.scroll_of_enchant_armor_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23417" type="EtcItem" name="防具強化卷軸-S級">
+		<table name="#Desc">維他命道具\n強化時，S級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23418" type="EtcItem" name="防具強化卷軸-A級">
+		<table name="#Desc">維他命道具\n強化時，A級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23419" type="EtcItem" name="防具強化卷軸-B級">
+		<table name="#Desc">維他命道具\n強化時，B級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23420" type="EtcItem" name="防具強化卷軸-C級">
+		<table name="#Desc">維他命道具\n強化時，C級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23421" type="EtcItem" name="防具強化卷軸-D級">
+		<table name="#Desc">維他命道具\n強化時，D級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23422" type="EtcItem" name="祝福的武器強化卷軸-R級">
+		<table name="#Desc">維他命道具\n強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.blessed_scroll_of_enchant_weapon_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23423" type="EtcItem" name="祝福的武器強化卷軸-S級">
+		<table name="#Desc">維他命道具\n強化時，S級單手劍、單手鈍器、匕首、槍、其他類型武器的攻擊力可提升5。雙手劍、雙手鈍器、二刀流、格鬥兵器的攻擊力可提升6。弓類武器的攻擊力可提升10。 所有類型武器的魔法攻擊力提升約4。從+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23424" type="EtcItem" name="祝福的武器強化卷軸-A級">
+		<table name="#Desc">維他命道具\n強化時，A級劍/單手、鈍器/單手、匕首、槍、其他類型武器的攻擊力可提升4。劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手的攻擊力可提升5。弓類武器的攻擊力可提升8。所有類型武器的魔法攻擊力提升約3。從+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23425" type="EtcItem" name="祝福的武器強化卷軸-B級">
+		<table name="#Desc">維他命道具\n強化時，B級劍/單手、鈍器/單手、匕首、槍、其他類型武器的攻擊力可提升3。劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手的攻擊力可提升4。弓類武器的攻擊力可提升6。 所有類型武器的魔法攻擊力提升約3。從+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23426" type="EtcItem" name="祝福的武器強化卷軸-C級">
+		<table name="#Desc">維他命道具\n強化時，C級劍/單手、鈍器/單手、匕首、槍、其他類型武器的攻擊力可提升3。劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手的攻擊力可提升4。弓類武器的攻擊力可提升6。 所有類型武器的魔法攻擊力提升約3。從+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23427" type="EtcItem" name="祝福的武器強化卷軸-D級">
+		<table name="#Desc">維他命道具\n強化時，D級劍/單手、鈍器/單手、匕首、槍、其他、劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手的攻擊力可提升2。弓類武器的攻擊力可提升4。 所有類型武器的魔法攻擊力提升約2。從+4開始，提升的攻擊力/魔法攻擊力之效果量為兩倍。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_d_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23428" type="EtcItem" name="祝福的防具強化卷軸-R級">
+		<table name="#Desc">維他命道具\n強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始將大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。</table>
+		<set name="icon" val="icon.blessed_scroll_of_enchant_armor_i06" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23429" type="EtcItem" name="祝福的防具強化卷軸-S級">
+		<table name="#Desc">維他命道具\n強化時，S級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23430" type="EtcItem" name="祝福的防具強化卷軸-A級">
+		<table name="#Desc">維他命道具\n強化時，A級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23431" type="EtcItem" name="祝福的防具強化卷軸-B級">
+		<table name="#Desc">維他命道具\n強化時，B級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23432" type="EtcItem" name="祝福的防具強化卷軸-C級">
+		<table name="#Desc">維他命道具\n強化時，C級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_c_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23433" type="EtcItem" name="祝福的防具強化卷軸-D級">
+		<table name="#Desc">維他命道具\n強化時，D級防具或飾品的物理防禦力可提升1，從強化+4開始物理防禦力可提升3。至+3為止能安全進行強化，連身防具則可安全強化至+4。強化失敗時，現有的裝備雖不會被結晶化，但是強化程度會初始化為+0。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_d_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23434" type="EtcItem" name="鳳凰壺精 7日/組">
+		<table name="#Plus">涅槃再生</table>
+		<table name="#Desc">維他命道具壓縮包\n內裝鳳凰壺精（7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23435" type="EtcItem" name="藍色京劇娃娃壺精 7日/組">
+		<table name="#Plus">回復之劍</table>
+		<table name="#Desc">維他命道具壓縮包\n內裝藍色京劇娃娃壺精（7日-回復之劍）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23436" type="EtcItem" name="玩偶熊壺精 7日/組">
+		<table name="#Plus">活力</table>
+		<table name="#Desc">維他命道具壓縮包\n內裝玩偶熊壺精（7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23437" type="EtcItem" name="神祕的好友召喚手鐲 30日/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝神祕的好友召喚手鐲（限時30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23438" type="EtcItem" name="派對用鮮奶油蛋糕組">
+		<table name="#Desc">維他命道具壓縮包\n內裝派對用鮮奶油蛋糕1個的壓縮包。解除壓縮包後獲得的道具無法交易/丟棄。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23439" type="EtcItem" name="祝福的羽毛 1張/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝1張祝福的羽毛的壓縮包。解除壓縮包後獲得的道具無法交易/丟棄。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23440" type="EtcItem" name="超級健康果汁(HP)組">
+		<table name="#Desc">維他命道具壓縮包\n內裝3個超級健康果汁（HP）的禮盒。解除壓縮包後獲得的道具無法交易/丟棄。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23441" type="EtcItem" name="超級健康果汁(CP)組">
+		<table name="#Desc">維他命道具壓縮包\n內裝5個超級健康果汁（CP）的禮盒。解除壓縮包後獲得的道具無法交易/丟棄。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23442" type="Armor" name="俄羅斯傳統頭冠">
+		<table name="#Desc">天堂II 4週年紀念頭飾。印有俄羅斯傳統紋樣的王冠型式。會佔用頭飾欄位2格。女性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_hair_kokoshnik_f" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23443" type="Armor" name="俄羅斯海軍帽">
+		<table name="#Desc">天堂II 4週年紀念頭飾。俄羅斯海軍帽。會佔用頭飾欄位2格。男性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_hair_peakless_cap_m" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23444" type="Armor" name="俄羅斯紀念斗篷">
+		<table name="#Desc">天堂II 4週年紀念斗篷。印著華麗紋樣。</table>
+		<set name="icon" val="BranchSys3.icon1.g_cloak_anniversary" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="25" />
+		</for>
+	</item>
+	<item id="23445" type="Armor" name="俄羅斯傳統頭冠">
+		<table name="#Desc">天堂II 4週年紀念頭飾。印有俄羅斯傳統紋樣的王冠型式。會佔用頭飾欄位2格。女性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_hair_kokoshnik_f" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23446" type="Armor" name="俄羅斯海軍帽">
+		<table name="#Desc">天堂II 4週年紀念頭飾。俄羅斯海軍帽。會佔用頭飾欄位2格。男性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_hair_peakless_cap_m" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23447" type="Armor" name="俄羅斯紀念斗篷">
+		<table name="#Desc">天堂II 4週年紀念斗篷。印著華麗紋樣。</table>
+		<set name="icon" val="BranchSys3.icon1.g_cloak_anniversary" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="25" />
+		</for>
+	</item>
+	<item id="23448" type="Armor" name="金屬套裝上衣">
+		<table name="#Desc">金屬套裝上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_u" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23449" type="Armor" name="金屬套裝下衣">
+		<table name="#Desc">金屬套裝下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_l" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23450" type="Armor" name="金屬套裝手套">
+		<table name="#Desc">金屬套裝手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_g" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23451" type="Armor" name="金屬套裝鞋">
+		<table name="#Desc">金屬套裝鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_b" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23452" type="Armor" name="金屬套裝頭飾">
+		<table name="#Desc">金屬套裝頭飾。帽子型態。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23453" type="Armor" name="軍用上衣">
+		<table name="#Desc">軍用造型上衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_u" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23454" type="Armor" name="軍用下衣">
+		<table name="#Desc">軍用造型下衣。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_l" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23455" type="Armor" name="軍用手套">
+		<table name="#Desc">軍用造型手套。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_g" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23456" type="Armor" name="軍用鞋">
+		<table name="#Desc">軍用造型鞋。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_b" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="23457" type="Armor" name="軍用頭飾">
+		<table name="#Desc">軍用造型的頭飾。帽子型態。用於服飾。男性為貝雷帽、女性為水手帽。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_hair_m" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23458" type="Armor" name="可愛女僕">
+		<table name="#Desc">女僕造型的可愛服裝。用於服飾。女性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23459" type="Armor" name="可愛女僕頭飾">
+		<table name="#Desc">女僕造型的可愛頭飾。用於服飾。女性專用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23460" type="EtcItem" name="墨水藥草">
+		<table name="#Plus">活動</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_ink_02" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23461" type="EtcItem" name="大容量墨水藥草">
+		<table name="#Plus">活動</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_ink_03" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23462" type="EtcItem" name="夢幻島邀請函">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">夢幻島慶典管理員 普提詩人拜託送交給亞丁大陸有力人士們的可以參加夢幻島預展活動的邀請函。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_invitation" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23463" type="EtcItem" name="夢幻島貴賓邀請函">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">夢幻島慶典管理員 普提詩人拜託送交給亞丁大陸有力人士們的可以參加夢幻島預展活動的貴賓邀請函。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_vip_invitation" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23464" type="EtcItem" name="參加通知書">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">從亞丁大陸的有力人士轉得到的夢幻島預展活動參加通知書。收集10個帶去交給應援管理員，就可以獲得禮物。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_attendance" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23465" type="EtcItem" name="不參加通知書 ">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">從亞丁大陸的有力人士轉得到的夢幻島預展活動不參加通知書。帶去交給應援管理員，就可以依據數量來交換獎勵。活動結束時，將會全部刪除。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_nonparticipation" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23466" type="EtcItem" name="夢幻禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">從夢幻島慶典管理員收到的禮物。使用時以一定的機率能得到各式各樣道具中之一。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_fantasy_box" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23467" type="EtcItem" name="夢幻的紅色藥瓶">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時恢復HP3000，剩餘的威力將用來恢復CP。但無持續時間。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_red_potion" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23468" type="EtcItem" name="夢幻的藍色藥瓶">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時可以恢復MP100，但無持續時間。</table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_invite_blue_potion" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23469" type="EtcItem" name="夢幻餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了紀念夢幻島大慶典而製作的餅乾。在60分鐘內加快移動速度33。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23470" type="EtcItem" name="夢幻精緻餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了紀念夢幻島大慶典而製作的精緻餅乾。在60分鐘內受惠於偉大的靈魂，將增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%、遭受致命攻擊傷害時的物理防禦力。降低移動速度15%，而且裝備近身、遠距離武器類且遭受一定程度以上的攻擊而受傷的隊員，在進行普通攻擊時，將會額外增加致命威力。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23471" type="EtcItem" name="夢幻特製餅乾">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">為了紀念夢幻島大慶典而製作的特製餅乾。使用時，在1小時內等級1~95以下的角色狩獵時，增加所得經驗值和SP100%。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23472" type="EtcItem" name="夢幻餅乾組">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">裝有為了紀念夢幻島大慶典而製作的各種餅乾的餅乾組。內裝有夢幻餅乾1個、夢幻精緻餅乾1個、夢幻特製餅乾1個。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23473" type="EtcItem" name="夢幻島名譽勳章">
+		<table name="#Desc">用夢幻島代幣獲得的名譽勳章。使用時，可以增加個人聲望200。</table>
+		<set name="icon" val="icon.etc_badge_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23474" type="EtcItem" name="重啟卷軸(下級)">
+		<table name="#Desc">維他命道具\n點兩下時，可以降低PK數值1。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23475" type="EtcItem" name="重啟卷軸(中級)">
+		<table name="#Desc">維他命道具\n點兩下時，可以降低PK數值3。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23476" type="EtcItem" name="重啟卷軸(上級)">
+		<table name="#Desc">維他命道具\n點兩下時，可以降低PK數值5。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23477" type="EtcItem" name="重啟卷軸(特級)">
+		<table name="#Desc">維他命道具\n點兩下時，可以降低PK數值10。可在芙羅蘭村莊使用。當PK數值為1以上時可以使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_pk_count_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23478" type="EtcItem" name="淨化卷軸(下級)">
+		<table name="#Desc">維他命道具\n點兩下時，提升評判值1000。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。可在芙羅蘭村莊使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23479" type="EtcItem" name="淨化卷軸(中級)">
+		<table name="#Desc">維他命道具\n點兩下時，提升評判值5000。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。可在芙羅蘭村莊使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23480" type="EtcItem" name="淨化卷軸(上級)">
+		<table name="#Desc">維他命道具\n點兩下時，提升評判值30000。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。可在芙羅蘭村莊使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23481" type="EtcItem" name="淨化卷軸(特級)">
+		<table name="#Desc">維他命道具\n點兩下時，將評判值轉換為0。只能在邪惡狀態（評判值未滿0）時使用。擁有魔劍‧薩雷奇、血劍‧阿卡瑪那夫時無法使用。可在芙羅蘭村莊使用。</table>
+		<set name="icon" val="icon.etc_ev_draco_karma_down" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23482" type="Armor" name="魔術師帽">
+		<table name="#Desc">維他命道具\n可感受到魔術師神祕感的帽子，會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_magicial_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23483" type="Armor" name="蝴蝶髮飾">
+		<table name="#Desc">維他命道具\n製作成蝴蝶樣式的髮飾。是女性專用頭飾。</table>
+		<set name="icon" val="icon.Accessary_butterfly_hearpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23484" type="Armor" name="魔法師帽">
+		<table name="#Desc">維他命道具\n可遮陽且末端彎彎的魔法師帽。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_magic_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23485" type="Armor" name="聖誕服">
+		<table name="#Desc">為了慶祝神聖的日子而被製造的聖誕衣裳。</table>
+		<set name="icon" val="Branchsys3.icon1.armor_ev_santas_clothes" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23486" type="EtcItem" name="聖誕服加工石">
+		<table name="#Plus">限時14日</table>
+		<table name="#Desc">可轉變成聖誕服的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為聖誕服型態，利用復原石可以將外型恢復為原狀。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23487" type="EtcItem" name="聖誕服加工石">
+		<table name="#Desc">可轉變成聖誕服的加工石。上衣以及連身防具專用。所有職業皆可加工，所有防具的外型將顯示為聖誕服型態，利用復原石可以將外型恢復為原狀。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23488" type="EtcItem" name="聖誕服加工石組(限時14日)">
+		<table name="#Desc">內裝聖誕服加工石（限時14日）1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23489" type="EtcItem" name="聖誕服加工石組">
+		<table name="#Desc">內裝聖誕服加工石（永久）1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23490" type="EtcItem" name="活動的活力-1小時">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用的話，透過狩獵獲得經驗值時，將會恢復活力1小時。使用冷卻時間為60分鐘。限制使用次數的活力道具。</table>
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23491" type="EtcItem" name="10分鐘活力維持藥水-活動">
+		<table name="#Desc">活力維持10分鐘。使用冷卻時間為30分鐘。限制使用次數的活力道具。</table>
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23492" type="EtcItem" name="30分鐘活力維持藥水">
+		<table name="#Desc">活力維持30分鐘。使用冷卻時間為60分鐘。限制使用次數的活力道具。</table>
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23493" type="EtcItem" name="金屬套裝上衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將上衣轉變成金屬套裝上衣外型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23494" type="EtcItem" name="金屬套裝下衣加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將下衣轉變成金屬套裝下衣外型的加工石。加工後能力值將不會有所變化。不論材質皆可使用。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_legs" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23495" type="EtcItem" name="金屬套裝手套加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將手套轉變成金屬套裝手套外型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_gloves" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23496" type="EtcItem" name="金屬套裝鞋加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將鞋轉變成金屬套裝鞋外型的加工石。加工後能力值將不會有所變化。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_feet" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23497" type="EtcItem" name="金屬套裝頭飾加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將頭飾轉變成金屬套裝頭飾外型的加工石。只能加工佔用欄位2格的頭飾。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

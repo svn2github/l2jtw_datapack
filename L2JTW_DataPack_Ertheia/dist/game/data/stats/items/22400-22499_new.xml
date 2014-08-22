@@ -1,105 +1,739 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="22425" name="武器強化卷軸-R級" type="EtcItem">
-		<table name="#Desc">提高強化成功機率10%。強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。</table>
-		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_wp_s_i00"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="SCRL_ENCHANT_WP"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_tradable" val="false"/>
-		<set name="is_dropable" val="false"/>
-		<set name="is_sellable" val="false"/>
-		<set name="is_depositable" val="false"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="is_freightable" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="22438-1"/>
+	<item id="22400" type="Armor" name="壺精封印手鐲-巴拉卡斯">
+		<table name="#Plus">Lv7</table>
+		<table name="#Desc">可以召喚等級7巴拉卡斯壺精的手鐲。</table>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
 	</item>
-	<item id="22426" name="古代武器強化結晶-R級" type="EtcItem">
-		<table name="#Desc">提高強化成功機率10%。強化失敗時，現有的強化數值將會維持不變。強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。</table>
-		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_wp_s_i00"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_tradable" val="false"/>
-		<set name="is_dropable" val="false"/>
-		<set name="is_sellable" val="false"/>
-		<set name="is_depositable" val="false"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="is_freightable" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="22439-1"/>
+	<item id="22401" type="EtcItem" name="進化的根源">
+		<table name="#Desc">進化的根源是讓巴拉卡斯壺精進化時必備的材料。點兩下時，可召喚進化的傳達者。</table>
+		<set name="icon" val="BranchSys3.icon.g_aga_valakas_lifespring" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="22427" name="神聖武器強化結晶-R級" type="EtcItem">
-		<table name="#Desc">提高強化成功機率至100%。強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。一般武器可以強化至+12，而魔法武器可以強化至+7。</table>
-		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_tradable" val="false"/>
-		<set name="is_dropable" val="false"/>
-		<set name="is_sellable" val="false"/>
-		<set name="is_depositable" val="false"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="is_freightable" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="22440-1"/>
+	<item id="22402" type="EtcItem" name="武器加工石-R級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將R級武器變型為同一類型R級以下的武器。需要用到可以提煉外型的道具，提煉過的道具將會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_r" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="22428" name="防具強化卷軸-R級" type="EtcItem">
-		<table name="#Desc">提高強化成功機率10%。強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
-		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_am_s_i00"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="SCRL_ENCHANT_AM"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_tradable" val="false"/>
-		<set name="is_dropable" val="false"/>
-		<set name="is_sellable" val="false"/>
-		<set name="is_depositable" val="false"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="is_freightable" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="22441-1"/>
+	<item id="22403" type="EtcItem" name="武器加工石-S級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將S級武器變型為同一類型S級以下的武器。需要用到可以提煉外型的道具，提煉過的道具將會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_s" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="22429" name="古代防具強化結晶-R級" type="EtcItem">
-		<table name="#Desc">提高強化成功機率10%。強化失敗時，現有的強化數值將會維持不變。強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
-		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_tradable" val="false"/>
-		<set name="is_dropable" val="false"/>
-		<set name="is_sellable" val="false"/>
-		<set name="is_depositable" val="false"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="is_freightable" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="22442-1"/>
+	<item id="22404" type="EtcItem" name="武器加工石-A級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將A級武器變型為同一類型A級以下的武器。需要用到可以提煉外型的道具，提煉過的道具將會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_a" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
 	</item>
-	<item id="22430" name="神聖防具強化結晶-R級" type="EtcItem">
-		<table name="#Desc">提高強化成功機率至100%。強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
-		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_am_s_i00"/>
-		<set name="default_action" val="SKILL_REDUCE"/>
-		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM"/>
-		<set name="material" val="PAPER"/>
-		<set name="is_tradable" val="false"/>
-		<set name="is_dropable" val="false"/>
-		<set name="is_sellable" val="false"/>
-		<set name="is_depositable" val="false"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_premium" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="is_freightable" val="true"/>
-		<set name="handler" val="EnchantScrolls"/>
-		<set name="item_skill" val="22443-1"/>
+	<item id="22405" type="EtcItem" name="武器加工石-B級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將B級武器變型為同一類型B級以下的武器。需要用到可以提煉外型的道具，提煉過的道具將會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_b" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22406" type="EtcItem" name="武器加工石-C級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將C級武器變型為同一類型C級以下的武器。需要用到可以提煉外型的道具，提煉過的道具將會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_c" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22407" type="EtcItem" name="武器加工石-D級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將D級武器變型為同一類型D級以下的武器。需要用到可以提煉外型的道具，提煉過的道具將會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_d" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22408" type="EtcItem" name="祝福的武器加工石-R級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將R級武器變型為同一類型R級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_r" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22409" type="EtcItem" name="祝福的武器加工石-S級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將S級武器變型為同一類型S級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_s" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22410" type="EtcItem" name="祝福的武器加工石-A級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將A級武器變型為同一類型A級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_a" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22411" type="EtcItem" name="祝福的武器加工石-B級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將B級武器變型為同一類型B級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_b" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22412" type="EtcItem" name="祝福的武器加工石-C級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將C級武器變型為同一類型C級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_c" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22413" type="EtcItem" name="祝福的武器加工石-D級">
+		<table name="#Desc">維他命道具\n可以加工武器外型的道具。可將D級武器變型為同一類型D級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_d" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22414" type="EtcItem" name="武器復原石-R級">
+		<table name="#Desc">可將加工過的R級武器外型還原成原狀。點兩下的話，系統就會開始執行。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_r" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22415" type="EtcItem" name="武器復原石-S級">
+		<table name="#Desc">可將加工過的S級武器外型還原成原狀。點兩下的話，系統就會開始執行。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_s" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22416" type="EtcItem" name="武器復原石-A級">
+		<table name="#Desc">可將加工過的A級武器外型還原成原狀。點兩下的話，系統就會開始執行。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_a" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22417" type="EtcItem" name="武器復原石-B級">
+		<table name="#Desc">可將加工過的B級武器外型還原成原狀。點兩下的話，系統就會開始執行。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_b" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22418" type="EtcItem" name="武器復原石-C級">
+		<table name="#Desc">可將加工過的C級武器外型還原成原狀。點兩下的話，系統就會開始執行。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_c" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22419" type="EtcItem" name="武器復原石-D級">
+		<table name="#Desc">可將加工過的D級武器外型還原成原狀。點兩下的話，系統就會開始執行。</table>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_d" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22420" type="EtcItem" name="(測試)翡翠劍武器加工石">
+		<table name="#Desc">可將武器外型變更為翡翠劍。為使加工特定武器而存在的測試用道具。</table>
+		<set name="icon" val="BranchSys3.icon.g_particular_wp_processing_stone_prim" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22421" type="EtcItem" name="聖誕樹-星狀裝飾品">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">製作聖誕樹時必備的材料道具。拿去交給聖誕少女的話，就可參與製作聖誕樹。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_star" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22422" type="EtcItem" name="聖誕樹-珠子裝飾品">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">製作聖誕樹時必備的材料道具。拿去交給聖誕少女的話，就可參與製作聖誕樹。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_bead" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22423" type="EtcItem" name="聖誕樹-緞帶裝飾品">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">製作聖誕樹時必備的材料道具。拿去交給聖誕少女的話，就可參與製作聖誕樹。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_band" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22424" type="EtcItem" name="聖誕樹-蝴蝶結裝飾品">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">製作聖誕樹時必備的材料道具。拿去交給聖誕少女的話，就可參與製作聖誕樹。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_ribbon" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22425" type="EtcItem" name="武器強化卷軸-R級">
+		<table name="#Desc">提高強化成功機率10%。\n強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。</table>
+		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_wp_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22426" type="EtcItem" name="古代武器強化結晶-R級">
+		<table name="#Desc">提高強化成功機率10%。\n強化失敗時，現有的強化數值將會維持不變。\n強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。</table>
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_wp_s_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22427" type="EtcItem" name="神聖武器強化結晶-R級">
+		<table name="#Desc">提高強化成功機率至100%。\n強化時，R級劍/單手、鈍器/單手、匕首、槍，以及其他類武器的物理攻擊力可提升6；劍/雙手、鈍器/雙手、二刀流、格鬥兵器/雙手武器、弩類武器的物理攻擊力可提升7；弓類武器的攻擊力可提升12；所有武器的魔法攻擊力可提升5。從強化+4開始，大幅提升物理攻擊力/魔法攻擊力。與一般武器相比，祝福的武器在所有層面上都有較大的增幅度。一般武器可以強化至+12，而魔法武器可以強化至+7。</table>
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22428" type="EtcItem" name="防具強化卷軸-R級">
+		<table name="#Desc">提高強化成功機率10%。\n強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_am_s_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22429" type="EtcItem" name="古代防具強化結晶-R級">
+		<table name="#Desc">提高強化成功機率10%。\n強化失敗時，現有的強化數值將會維持不變。\n強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22430" type="EtcItem" name="神聖防具強化結晶-R級">
+		<table name="#Desc">提高強化成功機率至100%。\n強化時，R級防具或飾品的物理防禦力可提升2，從強化+4開始大幅提升物理防禦力。至+3為止能安全進行強化。防具強化+4以上時，隨著強化值HP也會提升。</table>
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_am_s_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22431" type="EtcItem" name="燦爛幸運箱">
+		<table name="#Desc">以一定的機率可以獲得神聖武器強化結晶，和高等級的古代武器強化結晶。</table>
+		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_box_r" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22432" type="EtcItem" name="燦爛幸運晶體">
+		<table name="#Desc">以一定的機率可以獲得神聖防具強化結晶，和高等級的古代防具強化結晶。</table>
+		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_cube_r" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22433" type="EtcItem" name="靈魂彈-R級">
+		<table name="#Desc">維他命道具\n精靈之光加持於武器，瞬間對敵人加以強力衝擊。R級武器專用。</table>
+		<set name="icon" val="icon.soulshot_r_i00" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22434" type="EtcItem" name="祝福的魔靈彈-R級">
+		<table name="#Desc">維他命道具\n上級精靈之光加持於武器，瞬間極大強化魔法的威力。R級武器專用。</table>
+		<set name="icon" val="icon.blessed_spiritshot_r_i00" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22435" type="EtcItem" name="返回卷軸">
+		<table name="#Desc">維他命道具\n傳送至最近村莊的魔法卷軸。重量為0。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22436" type="EtcItem" name="城堡返回卷軸">
+		<table name="#Desc">維他命道具\n可回到城堡的魔法卷軸。若沒有城堡的話，將會傳送到最近的村莊。重量為0。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_castle_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22437" type="EtcItem" name="根據地返回卷軸">
+		<table name="#Desc">維他命道具\n可回到根據地的魔法卷軸。重量為0。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_agit_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22438" type="EtcItem" name="祝福的返回卷軸">
+		<table name="#Desc">維他命道具\n傳送至最近村莊的魔法卷軸。重量為0。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22439" type="EtcItem" name="祝福的城堡返回卷軸">
+		<table name="#Desc">維他命道具\n可回到城堡的魔法卷軸。若沒有城堡的話，將會傳送到最近的村莊。重量為0。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_castle_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22440" type="EtcItem" name="祝福的根據地返回卷軸">
+		<table name="#Desc">維他命道具\n可回到根據地的魔法卷軸。若沒有根據地的話，將會傳送到最近的村莊。重量為0。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_agit_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22441" type="EtcItem" name="祝福的寵物復活卷軸">
+		<table name="#Desc">維他命道具\\恢復所有的經驗值並讓寵物起死回生的魔法卷軸。重量為0。</table>
+		<set name="icon" val="icon.etc_scroll_of_resurrection_pet_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22442" type="Armor" name="改良型青銅手鐲">
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位兩個。</table>
+		<set name="icon" val="icon.etc_rbracelet_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="22443" type="Armor" name="改良型鋼鐵手鐲">
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位三個。</table>
+		<set name="icon" val="icon.etc_rbracelet_a_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="22444" type="Armor" name="改良型米索莉手鐲">
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位四個。</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="22445" type="EtcItem" name="活力充能飲料 5個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝活力充能飲料5個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22446" type="EtcItem" name="活力維持藥水 5個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝活力維持藥水5個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22447" type="EtcItem" name="活力充能藥草茶 5個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝活力充能藥草茶5個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22448" type="EtcItem" name="靈魂彈-R級中型組合包 (5000)">
+		<table name="#Desc">維他命道具壓縮包\n內裝靈魂彈-R級5千個的壓縮包。</table>
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22449" type="EtcItem" name="靈魂彈-R級大型組合包 (10000)">
+		<table name="#Desc">維他命道具壓縮包\n內裝靈魂彈-R級1萬個的壓縮包。</table>
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22450" type="EtcItem" name="祝福的魔靈彈-R級中型組合包 (5000)">
+		<table name="#Desc">維他命道具壓縮包\n內裝祝福的魔靈彈-R級5千個的壓縮包。</table>
+		<set name="icon" val="icon.br_cash_pack_of_blessed_spiritshot_r_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22451" type="EtcItem" name="祝福的魔靈彈-R級大型組合包 (10000)">
+		<table name="#Desc">維他命道具壓縮包\n內裝祝福的魔靈彈-R級1萬個的壓縮包。</table>
+		<set name="icon" val="icon.br_cash_pack_of_blessed_spiritshot_r_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22452" type="EtcItem" name="返回卷軸 10個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝返回卷軸10個的壓縮包。額外贈送祝福的返回卷軸1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22453" type="EtcItem" name="城堡返回卷軸 10個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝城堡返回卷軸10個的壓縮包。額外贈送祝福的城堡返回卷軸1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22454" type="EtcItem" name="根據地返回卷軸 10個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝根據地返回卷軸10個的壓縮包。額外贈送祝福的根據地返回卷軸1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22455" type="EtcItem" name="改良型青銅手鐲組">
+		<table name="#Desc">維他命道具壓縮包\n內裝改良型青銅手鐲1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22456" type="EtcItem" name="改良型鋼鐵手鐲組">
+		<table name="#Desc">維他命道具壓縮包\n內裝改良型鋼鐵手鐲1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22457" type="EtcItem" name="祝福的寵物復活卷軸組">
+		<table name="#Desc">維他命道具壓縮包\n內裝祝福的寵物復活卷軸3個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22458" type="EtcItem" name="武器加工石＆復原石-R級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝R級武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22459" type="EtcItem" name="武器加工石＆復原石-S級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝S級武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22460" type="EtcItem" name="武器加工石＆復原石-A級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝A級武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22461" type="EtcItem" name="武器加工石＆復原石-B級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝B級武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22462" type="EtcItem" name="武器加工石＆復原石-C級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝C級武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22463" type="EtcItem" name="武器加工石＆復原石-D級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝D級武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22464" type="EtcItem" name="祝福的武器加工石＆復原石-R級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝R級祝福的武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22465" type="EtcItem" name="祝福的武器加工石＆復原石-S級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝S級祝福的武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22466" type="EtcItem" name="祝福的武器加工石＆復原石-A級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝A級祝福的武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22467" type="EtcItem" name="祝福的武器加工石＆復原石-B級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝B級祝福的武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22468" type="EtcItem" name="祝福的武器加工石＆復原石-C級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝C級祝福的武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22469" type="EtcItem" name="祝福的武器加工石＆復原石-D級/1個組">
+		<table name="#Desc">維他命道具壓縮包\n內裝D級祝福的武器加工石1個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22470" type="EtcItem" name="超強力體力治癒藥水 5個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝超強力體力治癒藥水5個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22471" type="EtcItem" name="超強力瞬間體力治癒藥水 5個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝超強力瞬間體力治癒藥水5個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22472" type="EtcItem" name="冒險家之歌-恢復之力 3個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝冒險家之歌-恢復氣息3個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22473" type="EtcItem" name="護身符禮盒">
+		<table name="#Desc">維他命道具壓縮包\n可以獲得赤色/黑色/橙色/青色/黃色/灰色/白色護身符其中之一的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22474" type="EtcItem" name="天堂雞尾酒 3個/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝天堂雞尾酒3個的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22475" type="EtcItem" name="聖誕少女禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">聖誕少女的聖誕活動獎勵道具。以一定的機率可以獲得各種活動道具中的其中之一。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22476" type="EtcItem" name="聖誕少女紅色襪子">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">收集100個之後拜訪聖誕少女的話，就可交換成聖誕少女禮盒的道具。</table>
+		<set name="icon" val="icon.xmas_present_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22477" type="Armor" name="聖誕少女斗篷">
+		<table name="#Plus">限時1日(活動)</table>
+		<table name="#Desc">可以同時感受到輕盈與寬鬆的斗篷。此物為聖誕少女的聖誕活動獎勵道具，可使用1天。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+	</item>
+	<item id="22478" type="Armor" name="聖誕少女斗篷">
+		<table name="#Plus">限時7日(活動)</table>
+		<table name="#Desc">可以同時感受到輕盈與寬鬆的斗篷。此物為聖誕少女的聖誕活動獎勵道具，可使用7天。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+	</item>
+	<item id="22479" type="Armor" name="聖誕少女斗篷">
+		<table name="#Plus">限時30日(活動)</table>
+		<table name="#Desc">可以同時感受到輕盈與寬鬆的斗篷。此物為聖誕少女的聖誕活動獎勵道具，可使用30天。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+	</item>
+	<item id="22480" type="Armor" name="聖誕少女斗篷">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">可以同時感受到輕盈與寬鬆的斗篷。此物為聖誕少女的聖誕活動獎勵道具。</table>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+	</item>
+	<item id="22481" type="Armor" name="改良型青銅手鐲">
+		<table name="#Plus">限時1日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位兩個。可使用1天。</table>
+		<set name="icon" val="icon.etc_rbracelet_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22482" type="Armor" name="改良型青銅手鐲">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位兩個。可使用15天。</table>
+		<set name="icon" val="icon.etc_rbracelet_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22483" type="Armor" name="改良型青銅手鐲">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位兩個。可使用30天。</table>
+		<set name="icon" val="icon.etc_rbracelet_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22484" type="Armor" name="改良型青銅手鐲">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位兩個。可使用90天。</table>
+		<set name="icon" val="icon.etc_rbracelet_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22485" type="Armor" name="改良型鋼鐵手鐲">
+		<table name="#Plus">限時1日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位三個。可使用1天。</table>
+		<set name="icon" val="icon.etc_rbracelet_a_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22486" type="Armor" name="改良型鋼鐵手鐲">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位三個。可使用15天。</table>
+		<set name="icon" val="icon.etc_rbracelet_a_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22487" type="Armor" name="改良型鋼鐵手鐲">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位三個。可使用30天。</table>
+		<set name="icon" val="icon.etc_rbracelet_a_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22488" type="Armor" name="改良型鋼鐵手鐲">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位三個。可使用90天。</table>
+		<set name="icon" val="icon.etc_rbracelet_a_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22489" type="Armor" name="改良型米索莉手鐲">
+		<table name="#Plus">限時1日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位四個。可使用1天。</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22490" type="Armor" name="改良型米索莉手鐲">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位四個。可使用15天。</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22491" type="Armor" name="改良型米索莉手鐲">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位四個。可使用30天。</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22492" type="Armor" name="改良型米索莉手鐲">
+		<table name="#Plus">限時90日</table>
+		<table name="#Desc">維他命道具\n裝備時，可啟用護身符欄位四個。可使用90天。</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+	</item>
+	<item id="22493" type="EtcItem" name="奈比特古文100%-3小時禮盒">
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得1個奈比特古文100% - 3小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22494" type="EtcItem" name="奈比特古文100%-5小時禮盒">
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得1個奈比特古文100% - 5小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22495" type="EtcItem" name="奈比特古文100%-7日禮盒">
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得1個奈比特古文100% - 7日。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22496" type="EtcItem" name="奈比特古文200%-3小時禮盒">
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得1個奈比特古文200% - 3小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22497" type="EtcItem" name="奈比特古文200%-5小時禮盒">
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得1個奈比特古文200% - 5小時。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22498" type="EtcItem" name="奈比特古文200%-7日禮盒">
+		<table name="#Desc">維他命道具壓縮包\n點兩下禮盒的話，就可獲得1個奈比特古文200% - 7日。效果只會適用於等級85 100%以下的角色。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22499" type="EtcItem" name="自由傳送書 1張/組">
+		<table name="#Desc">維他命道具壓縮包\n內裝自由傳送書的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
 	</item>
 </list>

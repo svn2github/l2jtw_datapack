@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="39700" type="Armor" name="小天使之翼">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39701" type="Armor" name="小天使之翼">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39702" type="Armor" name="小妖精觸角">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39703" type="Armor" name="小妖精觸角">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39704" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39705" type="Armor" name="吟遊詩人帽">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39706" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39707" type="Armor" name="工匠的護目鏡">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39708" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39709" type="Armor" name="穿箭蘋果">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39710" type="Armor" name="艾琳的胸針">
+		<table name="#Desc">巨匠 夏代從月之歌 艾琳樣貌取得靈感後製作的胸針。裝備時，可啟用寶石欄位5個。增加道具清單欄位+12。</table>
+		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="mDef" val="87" />
+		</for>
+	</item>
+	<item id="39711" type="EtcItem" name="閃耀疑問的碎片">
+		<table name="#Desc">從克魯瑪高塔地下3樓的魔法生物出現的碎片。神秘的閃耀疑問的碎片。</table>
+		<set name="icon" val="icon.r95_soul_stone_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39712" type="EtcItem" name="1次能力解放發現的碎片">
+		<table name="#Desc">1次解放時，翼人所發現的碎片。有可能是和聖杯有關聯的碎片。</table>
+		<set name="icon" val="icon.r95_soul_stone_i03" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39713" type="EtcItem" name="必須破壞的閃耀疑問的碎片">
+		<table name="#Desc">在克魯瑪高塔地下3樓的魔法生物中出現的碎片。因為含有不安定的力量，必須要馬上透過隱藏的壓碎機破壞的物質。</table>
+		<set name="icon" val="icon.r95_soul_stone_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39714" type="EtcItem" name="失去力量的碎片粉末">
+		<table name="#Desc">把閃耀疑問的碎片，透過隱藏的壓碎機破壞時得到的失去力量的碎片粉末。將此物質收集後，拿給克魯瑪高塔地下3樓的象牙塔魔法師 央賢吧。</table>
+		<set name="icon" val="icon.etc_powder_gray_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39715" type="EtcItem" name="再生之力">
+		<table name="#Desc">從克魯瑪高塔地下2樓，跟隨魔法生物，或黑暗的君主的族群中發現的碎片。可以使用於復原壞掉的裝置的材料。</table>
+		<set name="icon" val="icon.r99_soul_stone_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39716" type="EtcItem" name="再生的機械心臟">
+		<table name="#Desc">可用來復原克魯瑪高塔地下3樓壞掉的裝置的裝備。象牙塔魔法師 貝爾卡迪所製作，可以暫時使用壞掉的裝置遇見古代巨人。</table>
+		<set name="icon" val="icon.shirt_special_box_i02" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39717" type="Weapon" name="貓戰爪">
+		<table name="#Desc">變更外型的基本道具</table>
+		<set name="icon" val="icon.cat_foot" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="39718" type="Weapon" name="拳擊手套">
+		<table name="#Desc">怪物專用武器</table>
+		<set name="icon" val="icon.box_glove" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="39719" type="Weapon" name="怪物專用_克路魔杖">
+		<table name="#Desc">怪物專用武器</table>
+		<set name="icon" val="icon.wp_fishing4" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="39720" type="EtcItem" name="梅芙幸運藥劑">
+		<table name="#Desc">使用時在15秒內增加幸運能力5。</table>
+		<set name="icon" val="icon.etc_instant_lucky_potion_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39721" type="EtcItem" name="風之精靈的破片">
+		<table name="#Desc">擊倒孢子之海內部的怪物時，得到的風之精靈破片。好像與孢子之海的結界減弱有關聯。將此收集後，拿給匹坦勒札的弟子 貝伊肯吧。</table>
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39722" type="EtcItem" name="指令書的碎片">
+		<table name="#Desc">擊倒突然出現在，忘卻平原地區的胚胎掠奪者後得到的物品。將此收集後，拿給忘卻平原的諾亞銀吧。</table>
+		<set name="icon" val="icon.etc_piece_of_report_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39723" type="EtcItem" name="破碎的魔法裝置碎片">
+		<table name="#Desc">擊倒忘卻平原的巨人時，得到的物品。看似是遺失魔法裝置的一部份。將此收集後，拿給忘卻平原的諾亞銀吧。</table>
+		<set name="icon" val="icon.energy_condenser_i01" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39724" type="EtcItem" name="胚胎指令書">
+		<table name="#Desc">記載著胚胎祕密指令的文件。點兩下就能詳細查看內容。</table>
+		<set name="icon" val="icon.etc_codex_of_giant_i03" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="39725" type="EtcItem" name="破舊寶石箱">
+		<table name="#Desc">調查亡者的森林地區的壞掉的書架時得到的物品。將此拿給亡者的森林的追蹤者 哈圖巴吧。</table>
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39726" type="EtcItem" name="使節團的下級報酬箱">
+		<table name="#Desc">作為完成使節團任務的代價，所取得的下級報酬箱。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39727" type="EtcItem" name="使節團的中級報酬箱">
+		<table name="#Desc">作為完成使節團任務的代價，所取得的中級報酬箱。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39728" type="EtcItem" name="使節團的高級報酬箱">
+		<table name="#Desc">作為完成使節團任務的代價，所取得的高級報酬箱。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39729" type="EtcItem" name="使節團的最高級報酬箱">
+		<table name="#Desc">作為完成使節團任務的代價，所取得的最高級報酬箱。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39730" type="EtcItem" name="司塔卡拓的甲殼">
+		<table name="#Desc">擊倒悲鳴的沼澤的司塔卡拓所取得的甲殼。拿去交給在悲鳴的沼澤的傭兵卡姆恩可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_seed_of_evil_i04" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39731" type="EtcItem" name="司塔卡拓的高級甲殼">
+		<table name="#Desc">擊倒悲鳴的沼澤的司塔卡拓所取得的高級甲殼。拿去交給在悲鳴的沼澤的傭兵卡姆恩可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_seed_of_evil_i05" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39732" type="EtcItem" name="魔物之肉塊">
+		<table name="#Desc">擊倒亡者的森林的魔物所取得的肉塊。拿去交給在亡者的森林的謎樣的魔法師可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_bodypart_liver_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39733" type="EtcItem" name="魔物之血">
+		<table name="#Desc">擊倒亡者的森林的魔物所取得的血。拿去交給在亡者的森林的謎樣的魔法師可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_dragon_blood_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39734" type="EtcItem" name="黑暗之眼">
+		<table name="#Desc">注入了亞爾古斯之壁怪物的百眼的惡魔的標章。拿去交給在亞爾古斯之壁的隱者可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_eyeball_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39735" type="EtcItem" name="黑暗邪念">
+		<table name="#Desc">注入了亞爾古斯之壁怪物的百眼的惡魔的邪念。拿去交給在亞爾古斯之壁的隱者可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39736" type="EtcItem" name="龍的骨頭粉末">
+		<table name="#Desc">擊倒龍之谷的怪物時獲得的龍的骨頭粉末。將此收集拿給龍之谷入口的那幕，就可以得到獎勵。</table>
+		<set name="icon" val="icon.etc_powder_gray_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39737" type="EtcItem" name="龍的骨頭碎片">
+		<table name="#Desc">擊倒龍之谷的怪物時獲得的龍的骨頭碎片。將此收集拿給龍之谷入口的那幕，就可以得到獎勵。</table>
+		<set name="icon" val="icon.etc_piece_bone_black_i00" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39738" type="EtcItem" name="古文石">
+		<table name="#Desc">刻著古代古文字的石頭，可將祖先的智慧賦予在技能內。各職業學習技能時會消耗。</table>
+		<set name="icon" val="icon.skill_acquire_book_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39739" type="EtcItem" name="坦普斯破片-鬥士">
+		<table name="#Desc">學習鬥士系列的技能時需要的道具。</table>
+		<set name="icon" val="icon.etc_kamael_skill_book_i01" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39740" type="EtcItem" name="坦普斯破片-弓手">
+		<table name="#Desc">學習弓手系列的技能時需要的道具。</table>
+		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39741" type="EtcItem" name="坦普斯破片-巫師">
+		<table name="#Desc">學習巫師系列的技能時需要的道具。</table>
+		<set name="icon" val="icon.etc_kamael_skill_book_i02" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39742" type="EtcItem" name="坦普斯破片-行者">
+		<table name="#Desc">學習行者系列的技能時需要的道具。</table>
+		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39743" type="EtcItem" name="坦普斯破片-召喚士">
+		<table name="#Desc">學習召喚士系列的技能時需要的道具。</table>
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39744" type="EtcItem" name="坦普斯破片-法師">
+		<table name="#Desc">學習法師系列的技能時需要的道具。</table>
+		<set name="icon" val="icon.giant_book_i01" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39745" type="EtcItem" name="坦普斯破片-牧師">
+		<table name="#Desc">學習牧師系列的技能時需要的道具。</table>
+		<set name="icon" val="icon.giant_book_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39746" type="EtcItem" name="封印的墜飾">
+		<table name="#Desc">可以製作墜子的主要材料。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39747" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-基本型</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39748" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-STR</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化STR。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39749" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-DEX</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化DEX。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39750" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CON</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化CON。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39751" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-INT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化INT。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39752" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-MEN</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化MEN。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39753" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-WIT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化WIT。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39754" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-LUC</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化LUC。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39755" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CHA</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。可賦予精煉/強化CHA。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39756" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-STR</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。STR+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39757" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-STR</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。STR+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39758" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-STR</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。STR+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39759" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-STR</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。STR+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39760" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-STR</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。STR+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39761" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-DEX</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。DEX+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39762" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-DEX</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。DEX+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39763" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-DEX</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。DEX+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39764" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-DEX</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。DEX+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39765" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-DEX</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。DEX+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39766" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CON</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CON+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39767" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CON</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CON+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39768" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CON</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CON+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39769" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CON</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CON+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39770" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CON</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CON+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39771" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-INT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。INT+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39772" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-INT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。INT+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39773" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-INT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。INT+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39774" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-INT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。INT+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39775" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-INT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。INT+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39776" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-MEN</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。MEN+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39777" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-MEN</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。MEN+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39778" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-MEN</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。MEN+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39779" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-MEN</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。MEN+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39780" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-MEN</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。MEN+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39781" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-WIT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。WIT+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39782" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-WIT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。WIT+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39783" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-WIT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。WIT+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39784" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-WIT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。WIT+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39785" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-WIT</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。WIT+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39786" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-LUC</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。LUC+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39787" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-LUC</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。LUC+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39788" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-LUC</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。LUC+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39789" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-LUC</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。LUC+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39790" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-LUC</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。LUC+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39791" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CHA</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CHA+1。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39792" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CHA</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CHA+2。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39793" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CHA</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CHA+3。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39794" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CHA</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CHA+4。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39795" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段1-CHA</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位一格。CHA+5。</table>
+		<set name="icon" val="icon.dimension_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39796" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段2-基本型</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位二格。</table>
+		<set name="icon" val="icon.dimension_bracelet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39797" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段2-STR</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位二格。可賦予精煉/強化STR。</table>
+		<set name="icon" val="icon.dimension_bracelet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39798" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段2-DEX</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位二格。可賦予精煉/強化DEX。</table>
+		<set name="icon" val="icon.dimension_bracelet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="39799" type="Armor" name="次元手鐲">
+		<table name="#Plus">階段2-CON</table>
+		<table name="#Desc">裝備時，可啟用護身符欄位二格。可賦予精煉/強化CON。</table>
+		<set name="icon" val="icon.dimension_bracelet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+</list>

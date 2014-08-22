@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="39600" type="EtcItem" name="散發恨意的靈魂">
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39601" type="EtcItem" name="靈魂瓶">
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="39602" type="Weapon" name="次元的安塔瑞斯鉋刀">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的額外傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="39603" type="Weapon" name="次元的安塔瑞斯殺刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39604" type="Weapon" name="次元的安塔瑞斯投弓">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5678" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="39605" type="Weapon" name="次元的安塔瑞斯爆刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39606" type="Weapon" name="次元的安塔瑞斯切刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39607" type="Weapon" name="次元的安塔瑞斯風暴者">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39608" type="Weapon" name="次元的安塔瑞斯戰爪">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39609" type="Weapon" name="次元的安塔瑞斯復仇者">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39610" type="Weapon" name="次元的安塔瑞斯雙鈍器">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39611" type="Weapon" name="次元的安塔瑞斯雙刀">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39612" type="Weapon" name="次元的巴拉卡斯鉋刀">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="39613" type="Weapon" name="次元的巴拉卡斯切刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39614" type="Weapon" name="次元的巴拉卡斯殺刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39615" type="Weapon" name="次元的巴拉卡斯投弓">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5678" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="39616" type="Weapon" name="次元的巴拉卡斯爆刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39617" type="Weapon" name="次元的巴拉卡斯術杖">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39621" type="Weapon" name="次元的巴拉卡斯報恨者">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2809" />
+			<set order="0x08" stat="mAtk" val="1843" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39622" type="Weapon" name="次元的林德拜爾鉋刀">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2523" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="39623" type="Weapon" name="次元的林德拜爾投弓">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5678" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="39624" type="Weapon" name="次元的林德拜爾殺刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="3509" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39625" type="Weapon" name="次元的林德拜爾術杖">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加施法速度1999、增加魔法致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2307" />
+			<set order="0x08" stat="mAtk" val="1676" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39626" type="Weapon" name="次元的林德拜爾切刃">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="39627" type="Weapon" name="次元的林德拜爾射靈">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_crossbow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5113" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="39628" type="Weapon" name="次元的林德拜爾雙匕首">
+		<table name="#Desc">特級龍之武器。\n＜裝備技能＞\n增加PVP傷害30%、增加HP/MP100%、增加CP 200%、增加攻擊速度1500、增加物理致命攻擊機率500、增加對龍的追加傷害300%。\n＜使用技能＞\n1. 保護: 在2分鐘內增加移動速度100，並對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。\n2. 安塔瑞斯的祝福：降低周圍敵群的攻擊速度/施法速度/移動速度90%，等到身體逐漸僵硬後，將會陷入麻痺狀態10秒鐘。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n3.安塔瑞斯的尾擊：使周圍敵群的CP全部流失。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。\n無法在奧林匹亞/渾沌祭典上裝備、無法變更外型、無法結晶化、無法強化以及賦予屬性。</table>
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="2884" />
+			<set order="0x08" stat="mAtk" val="1257" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="39629" type="EtcItem" name="吉運小袋-階段1">
+		<table name="#Desc">使用時可以獲得400000的經驗值。透過貝農村莊的雜貨商人娜妮，可將2個1階段袋子合成。未滿等級85的角色可使用。</table>
+		<set name="icon" val="icon.etc_lucky_pocket_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39630" type="EtcItem" name="吉運小袋-階段2">
+		<table name="#Desc">使用時可以獲得1600000的經驗值。透過貝農村莊的雜貨商人娜妮，可將2個2階段袋子合成。未滿等級85的角色可使用。</table>
+		<set name="icon" val="icon.etc_lucky_pocket_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39631" type="EtcItem" name="吉運小袋-階段3">
+		<table name="#Desc">使用時可以獲得6400000的經驗值，好像還可以得到什麼。透過貝農村莊的雜貨商人娜妮，可將2個3階段袋子合成。未滿等級85的角色可使用。</table>
+		<set name="icon" val="icon.etc_lucky_pocket_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39632" type="EtcItem" name="吉運小袋-階段4">
+		<table name="#Desc">使用時可以獲得80000的SP。透過貝農村莊的雜貨商人娜妮，可將2個4階段袋子合成。等級85以上的角色可使用。</table>
+		<set name="icon" val="icon.etc_lucky_pocket_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39633" type="EtcItem" name="吉運小袋-階段5">
+		<table name="#Desc">使用時可以獲得256000的SP，好像還可以得到什麼。等級85以上的角色可使用。</table>
+		<set name="icon" val="icon.etc_lucky_pocket_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="39634" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段1</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39635" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段2</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39636" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段3</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39637" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段4</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39638" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段5</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39639" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段6</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39640" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段7</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR、LUC+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39641" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段8</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR、LUC、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39642" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段9</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN+2、WIT、CON、INT、DEX、STR、LUC、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39643" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段10</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT+2、CON、INT、DEX、STR、LUC、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39644" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段11</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON+2、INT、DEX、STR、LUC、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39645" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段12</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT+2、DEX、STR、LUC、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39646" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段13</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX+2、STR、LUC、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39647" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段14</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR+2、LUC、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39648" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段15</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR、LUC+2、CHA+1的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39649" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段16</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR、LUC、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39650" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段17</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN+3、WIT、CON、INT、DEX、STR、LUC、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39651" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段18</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT+3、CON、INT、DEX、STR、LUC、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39652" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段19</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON+3、INT、DEX、STR、LUC、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39653" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段20</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT+3、DEX、STR、LUC、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39654" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段21</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX+3、STR、LUC、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39655" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段22</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR+3、LUC、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39656" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段23</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR、LUC+3、CHA+2的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39657" type="Armor" name="貝尼勒護身符">
+		<table name="#Plus">階段24</table>
+		<table name="#Desc">翼人使節團的首長貝尼勒，運用自己的魔法能力及知識而製作的護身符。裝備時，可以得到MEN、WIT、CON、INT、DEX、STR、LUC、CHA+3的效果。裝備2個以上貝尼勒護身符時，只會發揮一個最高等級護身符的效果。</table>
+		<set name="icon" val="icon.etc_all_stat_talisman_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+	</item>
+	<item id="39658" type="EtcItem" name="幸運墜飾">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff頭盔、聖誕帽的話，就可賦予幸運+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39659" type="EtcItem" name="魅力墜飾">
+		<table name="#Desc">裝載於兔耳、狸耳、貓耳、名媛髮飾、舞會面具、單片眼鏡、淑女髮飾、勿忘草髮飾、雛菊髮飾、小天使之翼、小妖精觸角、吟遊詩人帽、工匠的護目鏡、穿箭蘋果、浪漫圓帽、天使頭箍、惡魔頭箍、海盜眼罩、無法者眼罩、獨眼、派對尖帽、時髦天使戒指、時髦惡魔的角、榮耀的紅角、Buff頭盔、聖誕帽的話，就可賦予魅力+3的精煉效果。</table>
+		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39660" type="Armor" name="兔耳">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39661" type="Armor" name="兔耳">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39662" type="Armor" name="狸耳">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39663" type="Armor" name="狸耳">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39664" type="Armor" name="貓耳">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39665" type="Armor" name="貓耳">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39666" type="Armor" name="浪漫圓帽">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39667" type="Armor" name="浪漫圓帽">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39668" type="Armor" name="天使之環">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.Accessary_angel_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39669" type="Armor" name="天使之環">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.Accessary_angel_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39670" type="Armor" name="惡魔之環">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39671" type="Armor" name="惡魔之環">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.Accessary_demon_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39672" type="Armor" name="海盜眼罩">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39673" type="Armor" name="海盜眼罩">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39674" type="Armor" name="無法者眼罩">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39675" type="Armor" name="無法者眼罩">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39676" type="Armor" name="獨眼">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.Accessary_one_eye_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39677" type="Armor" name="獨眼">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.Accessary_one_eye_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39678" type="Armor" name="派對尖帽">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_party_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39679" type="Armor" name="派對尖帽">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_party_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39680" type="Armor" name="時髦天使戒指">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39681" type="Armor" name="時髦天使戒指">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39682" type="Armor" name="時髦惡魔的角">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39683" type="Armor" name="時髦惡魔的角">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39684" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">幸運（活動）</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39685" type="Armor" name="榮耀的紅角">
+		<table name="#Plus">魅力（活動）</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.london_olympic_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39686" type="Armor" name="9週年紀念火箭炮帽-連發煙火">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39687" type="Armor" name="9週年紀念火箭炮帽-連發煙火">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39688" type="Armor" name="名媛髮飾">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39689" type="Armor" name="名媛髮飾">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39690" type="Armor" name="舞會面具">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.etc_party_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39691" type="Armor" name="舞會面具">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.etc_party_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39692" type="Armor" name="單片眼鏡">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_glasses_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39693" type="Armor" name="單片眼鏡">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_glasses_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39694" type="Armor" name="淑女髮飾">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_maidens_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39695" type="Armor" name="淑女髮飾">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_maidens_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39696" type="Armor" name="勿忘草髮飾">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_forget_me_not_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39697" type="Armor" name="勿忘草髮飾">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_forget_me_not_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39698" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">幸運</table>
+		<table name="#Desc">裝備的話，就可得到幸運+3的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="39699" type="Armor" name="雛菊髮飾">
+		<table name="#Plus">魅力</table>
+		<table name="#Desc">裝備的話，就可得到魅力+3的效果。</table>
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+</list>

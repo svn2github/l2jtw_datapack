@@ -1,137 +1,1287 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="30310" name="亞貝里烏斯斗篷" type="Armor">
+	<item id="30300" type="EtcItem" name="刻印祕傳書-遺忘篇">
+		<table name="#Desc">刻印祕傳書。覺醒後，反昇華技能時所需的稀有道具。</table>
+		<set name="icon" val="icon.codex_of_incuse_forgetting" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30301" type="EtcItem" name="刻印祕傳書抄本">
+		<table name="#Desc">刻印祕傳書。覺醒後，強化技能時所需的道具。</table>
+		<set name="icon" val="icon.codex_of_incuse" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30302" type="EtcItem" name="刻印祕傳書抄本-熟練篇">
+		<table name="#Desc">刻印祕傳書。覺醒後，強化祝福技能時所需的道具。</table>
+		<set name="icon" val="icon.codex_of_incuse_dexterity" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30303" type="EtcItem" name="刻印祕傳書抄本-訓練篇">
+		<table name="#Desc">刻印祕傳書。覺醒後，變更技能的昇華方式時所需的道具。</table>
+		<set name="icon" val="icon.codex_of_incuse_training" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30304" type="EtcItem" name="刻印祕傳書抄本-遺忘篇">
+		<table name="#Desc">刻印祕傳書。覺醒後，反昇華技能時所需的道具。</table>
+		<set name="icon" val="icon.codex_of_incuse_forgetting" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30305" type="EtcItem" name="認證測試用道具">
+		<table name="#Desc">認證測試用道具。</table>
+		<set name="icon" val="icon.weapon_vesper_shaper_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30306" type="EtcItem" name="下巨人的精髓">
+		<table name="#Desc">前往覺醒地區尋找巨人的手下「拉比多夫」的話，就可以交換成「刻印祕傳書」。</table>
+		<set name="icon" val="icon.essence_of_giant" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30307" type="Armor" name="R99(Rare)腰帶">
+		<set name="icon" val="icon.armor_belt_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="25" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30308" type="Armor" name="R99(Rare)手鐲">
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="30309" type="Armor" name="R99(Rare)襯衫">
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30310" type="Armor" name="亞貝里烏斯斗篷">
 		<table name="#Plus">席格爾騎士</table>
 		<table name="#Desc">繼承古代巨人-亞貝里烏斯之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30311" name="薩菲洛斯斗篷" type="Armor">
+	<item id="30311" type="Armor" name="薩菲洛斯斗篷">
 		<table name="#Plus">提爾鬥士</table>
 		<table name="#Desc">繼承古代巨人-薩菲洛斯之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30312" name="凱修納格斗篷" type="Armor">
+	<item id="30312" type="Armor" name="凱修納格斗篷">
 		<table name="#Plus">歐瑟遊俠</table>
 		<table name="#Desc">繼承古代巨人-凱修納格之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30313" name="克倫畢斯特斗篷" type="Armor">
+	<item id="30313" type="Armor" name="克倫畢斯特斗篷">
 		<table name="#Plus">尤爾弓手</table>
 		<table name="#Desc">繼承古代巨人-克倫畢斯特之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30314" name="索特克里格斗篷" type="Armor">
+	<item id="30314" type="Armor" name="索特克里格斗篷">
 		<table name="#Plus">菲歐巫師</table>
 		<table name="#Desc">繼承古代巨人-索特克里格之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30315" name="納比亞羅普斗篷" type="Armor">
+	<item id="30315" type="Armor" name="納比亞羅普斗篷">
 		<table name="#Plus">維因召喚士</table>
 		<table name="#Desc">繼承古代巨人-納比亞羅普之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30316" name="拉伊斯特斗篷" type="Armor">
+	<item id="30316" type="Armor" name="拉伊斯特斗篷">
 		<table name="#Plus">伊斯法師</table>
 		<table name="#Desc">繼承古代巨人-拉伊斯特之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30317" name="拉奇西斯斗篷" type="Armor">
+	<item id="30317" type="Armor" name="拉奇西斯斗篷">
 		<table name="#Plus">艾羅牧師</table>
 		<table name="#Desc">繼承古代巨人-拉奇西斯之力的人所裝備的斗篷。魔法防禦+40。</table>
-		<set name="icon" val="icon.vesper_cloack_i00"/>
-		<set name="default_action" val="EQUIP"/>
-		<set name="bodypart" val="back"/>
-		<set name="crystal_type" val="R"/>
-		<set name="material" val="CLOTH"/>
-		<set name="weight" val="220"/>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
 		<for>
-			<add order="0x10" stat="mDef" val="40"/>
-			<add order="0x10" stat="pDef" val="50"/>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="30381" name="武器用強化輔助石-R級" type="EtcItem">
-		<table name="#Desc">強化R級武器時，可將機率提升10%的道具。僅限使用於強化3~9的道具。無法交易、丟棄、刪除的道具，但可以保管在個人倉庫。</table>
-		<set name="icon" val="icon.ench_wp_potion_violet_i00"/>
-		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_WP"/>
-		<set name="material" val="PAPER"/>
-		<set name="weight" val="120"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="handler" val="ItemSkills"/>
-		<set name="item_skill" val="9207-1"/>
+	<item id="30318" type="EtcItem" name="黃昏的報告書">
+		<table name="#Desc">這是有關被派遣到地下墓穴和古代公墓的黃昏革命軍搜索隊的搜索結果報告。點擊後可查看內容。</table>
+		<set name="icon" val="icon.etc_old_evil_book_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
 	</item>
-	<item id="30382" name="防具用強化輔助石-R級" type="EtcItem">
-		<table name="#Desc">強化R級防具時，可將機率提升15%的道具。僅限使用於強化3~9的道具；而連身防具則僅限使用於強化4~9的道具。無法交易、丟棄、刪除的道具，但可以保管在個人倉庫。</table>
-		<set name="icon" val="icon.ench_am_potion_violet_i00"/>
-		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_AM"/>
-		<set name="material" val="PAPER"/>
-		<set name="weight" val="120"/>
-		<set name="is_stackable" val="true"/>
-		<set name="is_oly_restricted" val="true"/>
-		<set name="handler" val="ItemSkills"/>
-		<set name="item_skill" val="9208-1"/>
+	<item id="30319" type="EtcItem" name="努力的憑證">
+		<table name="#Desc">象徵回歸冒險者之努力的憑證。證明可以透過冒險家會員接受各種援助的資格。另外，擁有越多的努力的憑證，就能累積越多的優惠並能提升獎勵。</table>
+		<set name="icon" val="icon.armor_soul_i00" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30320" type="EtcItem" name="塔林獸人的標誌">
+		<table name="#Desc">獵人村莊退休的冒險家-銀影 伊塞兒吩咐去收集的塔林獸人的標誌。</table>
+		<set name="icon" val="icon.etc_badge_silver_i00" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30321" type="EtcItem" name="紀念水晶">
+		<table name="#Desc">獵人村莊退休的冒險家-銀影 伊塞兒吩咐去收集的憑證。透過與監護人一起狩獵的過程，可在短時間內獲得爆炸性的經驗。</table>
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i02" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30322" type="EtcItem" name="火焰的灰燼">
+		<table name="#Desc">亞丁城鎮的鐵匠師傅 匹黎茲吩咐去收集的火焰灰燼。</table>
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30323" type="EtcItem" name="經驗的水晶">
+		<table name="#Desc">亞丁城鎮的鐵匠師傅 匹黎茲吩咐去收集的憑證。透過與監護人一起狩獵的過程，可在短時間內獲得爆炸性的經驗。</table>
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i03" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30324" type="EtcItem" name="強化的菲拉卡戒指">
+		<table name="#Desc">菲拉卡遺忘神殿的獎勵品。魔法防禦力傑出的戒指。具有MP+15的效果。無法強化。</table>
+		<set name="icon" val="icon.accessary_mithril_ring_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30325" type="EtcItem" name="回歸冒險者憑證">
+		<table name="#Desc">證明是回歸冒險者的憑證。證明可以透過冒險家會員接受各種援助的資格。限時30日。</table>
+		<set name="icon" val="icon.etc_permit_card_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+	</item>
+	<item id="30326" type="EtcItem" name="安塔瑞斯紋章染料">
+		<set name="icon" val="icon.dragon_dye_i01" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30327" type="EtcItem" name="巴拉卡斯紋章染料">
+		<set name="icon" val="icon.dragon_dye_i01" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30328" type="EtcItem" name="地蟲紋章染料">
+		<set name="icon" val="icon.etc_str_hena_i02" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30329" type="Weapon" name="死神專用武器">
+		<table name="#Desc">死神的專用武器。</table>
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30330" type="Armor" name="特級古魯丁 水的守護項鍊">
+		<table name="#Desc">賜給古魯丁領地守護者的項鍊。水屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30331" type="Armor" name="特級狄恩 聖的守護項鍊">
+		<table name="#Desc">賜給狄恩領地守護者的項鍊。神聖屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30332" type="Armor" name="特級奇岩 風的守護項鍊">
+		<table name="#Desc">賜給奇岩領地守護者的項鍊。風屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30333" type="Armor" name="特級歐瑞 暗的守護項鍊">
+		<table name="#Desc">賜給歐瑞領地守護者的項鍊。黑暗屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30334" type="Armor" name="特級亞丁 地的守護項鍊">
+		<table name="#Desc">賜給亞丁領地守護者的項鍊。地屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30335" type="Armor" name="特級因納得立 水的守護項鍊">
+		<table name="#Desc">賜給因納得立領地守護者的項鍊。水屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30336" type="Armor" name="特級高達特 火的守護項鍊">
+		<table name="#Desc">賜給高達特領地守護者的項鍊。火屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30337" type="Armor" name="特級魯因 火的守護項鍊">
+		<table name="#Desc">賜給魯因領地守護者的項鍊。火屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30338" type="Armor" name="特級修加特 風的守護項鍊">
+		<table name="#Desc">賜給修加特領地守護者的項鍊。風屬性防禦力+30。</table>
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="158" />
+			<add order="0x40" stat="maxMp" val="62" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30339" type="Armor" name="特級古魯丁 水的守護耳環">
+		<table name="#Desc">賜給古魯丁領地守護者的耳環。衝擊攻擊力+15%、出血防禦力+15%、水屬性防禦力+10、CP+5%。即使戴上兩個特級古魯丁 水的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30340" type="Armor" name="特級狄恩 聖的守護耳環">
+		<table name="#Desc">賜給狄恩領地守護者的耳環。束縛攻擊力+15%、中毒防禦力+15%、神聖屬性防禦力+10、CP+5%。即使戴上兩個特級狄恩 聖的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30341" type="Armor" name="特級奇岩 風的守護耳環">
+		<table name="#Desc">賜給奇岩領地守護者的耳環。出血攻擊力+15%、麻痺防禦力+15%、風屬性防禦力+10、CP+5%。即使戴上兩個特級奇岩 風的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30342" type="Armor" name="特級歐瑞 暗的守護耳環">
+		<table name="#Desc">賜給歐瑞領地守護者的耳環。麻痺攻擊力+15%、束縛防禦力+15%、黑暗屬性防禦力+10、CP+5%。即使戴上兩個特級歐瑞 暗的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30343" type="Armor" name="特級亞丁 地的守護耳環">
+		<table name="#Desc">賜給亞丁領地守護者的耳環。精神攻擊力+15%、衝擊防禦力+15%、地屬性防禦力+10、CP+5%。即使戴上兩個特級亞丁 地的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30344" type="Armor" name="特級因納得立 水的守護耳環">
+		<table name="#Desc">賜給因納得立領地守護者的耳環。睡眠攻擊力+15%、衝擊防禦力+15%、水屬性防禦力+10、CP+5%。即使戴上兩個特級因納得立 水的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30345" type="Armor" name="特級高達特 火的守護耳環">
+		<table name="#Desc">賜給高達特領地守護者的耳環。衝擊攻擊力+15%、睡眠防禦力+15%、火屬性防禦力+10、CP+5%。即使戴上兩個特級高達特 火的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30346" type="Armor" name="特級魯因 火的守護耳環">
+		<table name="#Desc">賜給魯因領地守護者的耳環。中毒攻擊力+15%、束縛防禦力+15%、火屬性防禦力+10、CP+5%。即使戴上兩個特級魯因 火的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30347" type="Armor" name="特級修加特 風的守護耳環">
+		<table name="#Desc">賜給修加特領地守護者的耳環。束縛攻擊力+15%、精神攻擊防禦力+15%、風屬性防禦力+10、CP+5%。即使戴上兩個特級修加特 風的守護耳環也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="118" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30348" type="Armor" name="特級古魯丁 地的守護戒指">
+		<table name="#Desc">賜給古魯丁領地守護者的戒指。地屬性防禦力+15。即使戴上兩個特級古魯丁 地的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30349" type="Armor" name="特級狄恩 水的守護戒指">
+		<table name="#Desc">賜給狄恩領地守護者的戒指。水屬性防禦力+15。即使戴上兩個特級狄恩 水的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30350" type="Armor" name="特級奇岩 火的守護戒指">
+		<table name="#Desc">賜給奇岩領地守護者的戒指。火屬性防禦力+15。即使戴上兩個特級奇岩 火的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30351" type="Armor" name="特級歐瑞 地的守護戒指">
+		<table name="#Desc">賜給歐瑞領地守護者的戒指。地屬性防禦力+15。即使戴上兩個特級歐瑞 地的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30352" type="Armor" name="特級亞丁 聖的守護戒指">
+		<table name="#Desc">賜給亞丁領地守護者的戒指。神聖屬性防禦力+15。即使戴上兩個特級亞丁 聖的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30353" type="Armor" name="特級因納得立 聖的守護戒指">
+		<table name="#Desc">賜給因納得立領地守護者的戒指。神聖屬性防禦力+15。即使戴上兩個特級因納得立 聖的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30354" type="Armor" name="特級高達特 暗的守護戒指">
+		<table name="#Desc">賜給高達特領地守護者的戒指。黑暗屬性防禦力+15。即使戴上兩個特級高達特 暗的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30355" type="Armor" name="特級魯因 風的守護戒指">
+		<table name="#Desc">賜給魯因領地守護者的戒指。風屬性防禦力+15。即使戴上兩個特級魯因 風的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30356" type="Armor" name="特級修加特 暗的守護戒指">
+		<table name="#Desc">賜給修加特領地守護者的戒指。黑暗屬性防禦力+15。即使戴上兩個特級修加特 暗的守護戒指也只能發揮一個的特殊效果。</table>
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="31" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30357" type="EtcItem" name="生命靈藥-R級">
+		<table name="#Desc">恢復HP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30358" type="EtcItem" name="精神靈藥-R級">
+		<table name="#Desc">恢復MP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30359" type="EtcItem" name="鬥志靈藥-R級">
+		<table name="#Desc">恢復CP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30360" type="EtcItem" name="超強力生命靈藥-R級">
+		<table name="#Desc">恢復HP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30361" type="EtcItem" name="超強力精神靈藥-R級">
+		<table name="#Desc">恢復MP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30362" type="EtcItem" name="超強力鬥志靈藥-R級">
+		<table name="#Desc">恢復CP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30363" type="EtcItem" name="搜魂石">
+		<table name="#Desc">搜魂石</table>
+		<set name="icon" val="icon.etc_soul_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="30364" type="EtcItem" name="生命石">
+		<table name="#Desc">生命石</table>
+		<set name="icon" val="icon.etc_mineral_general_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30365" type="Armor" name="頭盔">
+		<table name="#Desc">製作頭盔的材料</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="114" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30366" type="Armor" name="鞋子">
+		<table name="#Desc">製作長靴的材料</table>
+		<set name="icon" val="icon.armor_t97_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="76" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30367" type="Armor" name="手套">
+		<table name="#Desc">製作手套的材料</table>
+		<set name="icon" val="icon.armor_t97_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="76" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30368" type="Armor" name="襯衫">
+		<table name="#Desc">T恤</table>
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="38" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30369" type="Armor" name="腰帶">
+		<table name="#Desc">腰帶</table>
+		<set name="icon" val="icon.armor_belt_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30370" type="Armor" name="手鐲">
+		<table name="#Desc">手鐲</table>
+		<set name="icon" val="icon.etc_rbracelet_s_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="30371" type="EtcItem" name="內含魔力的箱子">
+		<table name="#Desc">內含魔力的箱子。內裝有實用的物品。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="30372" type="Armor" name="英雄斗篷">
+		<table name="#Desc">神聖的英雄斗篷。增加HP和CP、魔法防禦力+80、STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2、增加屬性抗性10。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="80" />
+			<add order="0x10" stat="pDef" val="100" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30373" type="Armor" name="名譽斗篷">
+		<table name="#Desc">名譽斗篷。增加HP和CP、魔法防禦力+50、STR+1、DEX+1、CON+1、INT+1、WIT+1、MEN+1、增加屬性抗性5。\n\n注意：變更職業時道具將會消失。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="50" />
+			<add order="0x10" stat="pDef" val="60" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="30374" type="EtcItem" name="充滿魔力的箱子">
+		<table name="#Desc">內含魔力的箱子。內裝有實用的物品。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+	</item>
+	<item id="30375" type="EtcItem" name="無限奧里哈魯根箭筒">
+		<table name="#Plus">追加攻擊</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="30376" type="EtcItem" name="無限奧里哈魯根箭筒">
+		<table name="#Plus">致命攻擊</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="30377" type="EtcItem" name="無限奧里哈魯根箭筒">
+		<table name="#Plus">出血攻擊</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_arrows_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="30378" type="EtcItem" name="無限奧里哈魯根弩箭筒">
+		<table name="#Plus">追加攻擊</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="30379" type="EtcItem" name="無限奧里哈魯根弩箭筒">
+		<table name="#Plus">致命攻擊</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="30380" type="EtcItem" name="無限奧里哈魯根弩箭筒">
+		<table name="#Plus">出血攻擊</table>
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="30381" type="EtcItem" name="武器用強化輔助石-R級">
+		<table name="#Desc">強化R級武器時，可將機率提升10%的道具。僅限使用於強化3~9的道具。</table>
+		<set name="icon" val="icon.ench_wp_potion_violet_i00" />
+		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30382" type="EtcItem" name="防具用強化輔助石-R級">
+		<table name="#Desc">強化R級防具時，可將機率提升15%的道具。僅限使用於強化3~9的道具；而連身防具則僅限使用於強化4~9的道具。</table>
+		<set name="icon" val="icon.ench_am_potion_violet_i00" />
+		<set name="etcitem_type" val="SCRL_INC_ENCHANT_PROP_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30383" type="Armor" name="導師戒指">
+		<table name="#Desc">學院旗下的學員與監護人一同修練後作為成果所獲得的戒指。可得到MP+22的效果。</table>
+		<set name="icon" val="icon.accessary_enchanted_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="55" />
+			<add order="0x40" stat="maxMp" val="22" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="30384" type="EtcItem" name="誓約證書">
+		<table name="#Desc">頒發給順利完成任務者的證書。可與裝備交換。</table>
+		<set name="icon" val="icon.item_normal52" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30385" type="EtcItem" name="生命證書">
+		<table name="#Desc">頒發給順利完成任務者的證書。可與裝備交換。</table>
+		<set name="icon" val="icon.item_normal52" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30386" type="EtcItem" name="英雄證書">
+		<table name="#Desc">頒發給順利完成任務者的證書。可與裝備交換。</table>
+		<set name="icon" val="icon.item_normal52" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30387" type="EtcItem" name="地獄證書">
+		<table name="#Desc">頒發給順利完成任務者的證書。可與裝備交換。</table>
+		<set name="icon" val="icon.item_normal52" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30388" type="EtcItem" name="回歸冒險者用支援禮盒-S級">
+		<table name="#Desc">內裝回歸者支援用道具的箱子。內裝S級裝備和武器。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30389" type="EtcItem" name="回歸冒險者用支援禮盒-A級">
+		<table name="#Desc">內裝回歸者支援用道具的箱子。內裝A級裝備和武器。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30390" type="EtcItem" name="回歸冒險者用支援禮盒-B級">
+		<table name="#Desc">內裝回歸者支援用道具的箱子。內裝B級裝備和武器。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30391" type="EtcItem" name="回歸冒險者用支援禮盒-C級">
+		<table name="#Desc">內裝回歸者支援用道具的箱子。內裝C級裝備和武器。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="30392" type="Weapon" name="無限鉋刀">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="881" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30393" type="Weapon" name="無限切刃">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30394" type="Weapon" name="無限殺刃">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30395" type="Weapon" name="無限復仇者">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30396" type="Weapon" name="無限戰爪">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30397" type="Weapon" name="無限風暴者">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30398" type="Weapon" name="無限投弓">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1983" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="30399" type="Weapon" name="無限射靈">
+		<table name="#Desc">神聖的英雄武器。增加HP最大值/MP最大值/CP最大值/攻擊速度和物理攻擊力，PVP時提升所造成的傷害。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.weapon_infinity_shooter_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1786" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
 	</item>
 </list>

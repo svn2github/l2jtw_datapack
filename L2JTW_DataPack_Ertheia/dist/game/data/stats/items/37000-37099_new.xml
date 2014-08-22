@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="37000" type="EtcItem" name="9週年紀念晶體-活動用(限時20日)">
+		<table name="#Desc">天堂II 9週年慶紀念晶體。點兩下的話，就可獲得卡利艾之力（殄滅/業火/想願）、蛋糕、點心、祝福的復活卷軸之一。每天可以使用1次。</table>
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37001" type="EtcItem" name="9週年紀念晶體-活動用(限時10日)">
+		<table name="#Desc">天堂II 9週年慶紀念晶體。點兩下的話，就可獲得卡利艾之力（殄滅/業火/想願）、蛋糕、點心、祝福的復活卷軸之一。每天可以使用1次。</table>
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37002" type="EtcItem" name="9週年紀念晶體-活動用(限時5日)">
+		<table name="#Desc">天堂II 9週年慶紀念晶體。點兩下的話，就可獲得卡利艾之力（殄滅/業火/想願）、蛋糕、點心、祝福的復活卷軸之一。每天可以使用1次。</table>
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37003" type="EtcItem" name="文字收藏家袋子-TOGETHER">
+		<table name="#Desc">裝有TOGETHE文字的魔法袋子。點兩下就能得到T、O、G、E、T、H、E中之一。文字R可從RⅡS袋子隨機獲得。</table>
+		<set name="icon" val="icon.etc_crystal_spice_new_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37004" type="EtcItem" name="文字收藏家袋子-LINEAGE II">
+		<table name="#Desc">裝有LINEAGE文字的魔法袋子。點兩下就能得到L、I、N、E、A、G、E中之一。文字Ⅱ可從RⅡS袋子隨機獲得。</table>
+		<set name="icon" val="icon.etc_crystal_spice_new_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37005" type="EtcItem" name="文字收藏家袋子-NCSOFT">
+		<table name="#Desc">裝有NCOFT文字的魔法袋子。點兩下就能得到N、C、O、F、T中之一。文字S可從RⅡS袋子隨機獲得。</table>
+		<set name="icon" val="icon.etc_crystal_spice_new_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37006" type="EtcItem" name="文字收藏家袋子-RIIS">
+		<table name="#Desc">裝有RIIS文字的魔法袋子。點兩下就能得到R、II、S中之一。</table>
+		<set name="icon" val="icon.etc_crystal_spice_s_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37007" type="EtcItem" name="文字收藏家幸運包 ">
+		<table name="#Desc">來試試你的手氣吧！可隨機獲得文字收藏家的袋子-RⅡS。失敗時，將得不到任何東西。</table>
+		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37008" type="EtcItem" name="草莓蛋糕(HP靈藥)">
+		<table name="#Desc">恢復HP50%。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_3_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37009" type="EtcItem" name="藍莓蛋糕(MP靈藥)">
+		<table name="#Desc">恢復MP20%。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_2_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37010" type="EtcItem" name="乳酪蛋糕(CP靈藥)">
+		<table name="#Desc">恢復CP50%。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_1_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37011" type="EtcItem" name="天使貓輔助卷軸(攻擊)">
+		<table name="#Desc">使用時，在30分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩、狂戰士和聲等級1的效果。</table>
+		<set name="icon" val="icon.etc_scroll_of_transformation_traikan_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37012" type="EtcItem" name="天使貓輔助卷軸(魔法)">
+		<table name="#Desc">使用時，在30分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩、大賢者和聲等級1的效果。</table>
+		<set name="icon" val="icon.etc_scroll_of_transformation_traikan_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37013" type="EtcItem" name="天使貓輔助卷軸(防禦)">
+		<table name="#Desc">使用時，在30分鐘內可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩、守護者和聲等級1的效果。</table>
+		<set name="icon" val="icon.etc_scroll_of_transformation_traikan_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37014" type="Weapon" name="祕儀死神武器">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37015" type="Weapon" name="元素死神武器">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37016" type="Weapon" name="幽冥死神武器">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37017" type="EtcItem" name="移動卷軸-掠奪者的岔路">
+		<table name="#Desc">可以移動到掠奪者的岔路的卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37018" type="EtcItem" name="移動卷軸-渾沌之地">
+		<table name="#Desc">可以移動到渾沌之地的卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37019" type="EtcItem" name="移動卷軸-卡伊納克">
+		<table name="#Desc">可以移動到卡伊納克的卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37020" type="EtcItem" name="艾爾摩支援禮盒">
+		<table name="#Desc">由艾爾摩提供的補給禮盒。點兩下就能隨機取得道具。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37021" type="EtcItem" name="艾爾摩神秘禮盒">
+		<table name="#Desc">從艾爾摩流傳的神秘禮盒。點兩下就能隨機取得道具。</table>
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37022" type="EtcItem" name="艾爾摩高貴禮盒">
+		<table name="#Desc">從艾爾摩流傳的高貴禮盒。點兩下就能隨機取得道具。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37023" type="EtcItem" name="艾迪奧斯材料袋">
+		<table name="#Desc">艾迪奧斯材料袋。點兩下就能隨機取得製作艾迪奧斯相關材料。</table>
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37024" type="EtcItem" name="艾迪奧斯製作卷軸袋">
+		<table name="#Desc">艾迪奧斯製作卷軸袋。點兩下就能隨機取得製作艾迪奧斯相關製作卷軸。</table>
+		<set name="icon" val="icon.etc_golden_spice_blessed_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37025" type="EtcItem" name="鱷魚島傳送卷軸">
+		<table name="#Desc">能傳送至鱷魚島。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37026" type="EtcItem" name="無法者的森林傳送卷軸">
+		<table name="#Desc">能傳送至無法者的森林。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37027" type="EtcItem" name="孢子之海傳送卷軸">
+		<table name="#Desc">能傳送至孢子之海。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37028" type="EtcItem" name="忘卻平原傳送卷軸">
+		<table name="#Desc">能傳送至忘卻平原。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37029" type="EtcItem" name="殺戮的大地傳送卷軸">
+		<table name="#Desc">能傳送至殺戮的大地。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37030" type="EtcItem" name="悲鳴的沼澤傳送卷軸">
+		<table name="#Desc">能傳送至悲鳴的沼澤。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37031" type="EtcItem" name="亡者的森林傳送卷軸">
+		<table name="#Desc">能傳送至亡者的森林。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37032" type="EtcItem" name="亞爾古斯之壁傳送卷軸">
+		<table name="#Desc">能傳送至亞爾古斯之壁。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37033" type="EtcItem" name="亞爾古斯之壁傳送卷軸">
+		<table name="#Desc">能傳送至亞爾古斯之壁。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37034" type="EtcItem" name="巴瑞卡賽勒諾斯兵營傳送卷軸">
+		<table name="#Desc">能傳送至巴瑞卡賽勒諾斯兵營。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37035" type="EtcItem" name="肯特拉獸人前哨基地傳送卷軸">
+		<table name="#Desc">能傳送至肯特拉獸人前哨基地。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37036" type="EtcItem" name="惡靈巢穴傳送卷軸">
+		<table name="#Desc">能傳送至惡靈巢穴。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37037" type="EtcItem" name="權能培訓場傳送卷軸">
+		<table name="#Desc">能傳送至權能培訓場。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37038" type="EtcItem" name="蜥蜴草原傳送卷軸">
+		<table name="#Desc">能傳送至蜥蜴草原。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37039" type="EtcItem" name="寧靜平原傳送卷軸">
+		<table name="#Desc">能傳送至寧靜平原。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37040" type="EtcItem" name="細語平原傳送卷軸">
+		<table name="#Desc">能傳送至細語平原。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37041" type="EtcItem" name="加護靈藥">
+		<table name="#Desc">點兩下時，在30分鐘內可以得到增加HP/MP/CP最大值30%、增加物理防禦力、魔法防禦力30%的效果。在適用該效果的狀態下，若接受進階型玫瑰精靈所提供的「致命誘惑」的話，該效果就會消失。等級85以上可以使用。無法在奧林匹亞上使用，但可以在渾沌祭典上使用。使用冷卻時間為5分鐘。</table>
+		<set name="icon" val="icon.etc_evil_soul_core_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37042" type="EtcItem" name="製作卷軸(加護靈藥100%)">
+		<table name="#Desc">提爾巨匠專用。製作加護靈藥的製作卷軸。需要道具製作技能12級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37043" type="EtcItem" name="製作卷軸(加護靈藥100%)">
+		<table name="#Desc">四次轉職職業專用。製作加護靈藥的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37044" type="EtcItem" name="不變的祕傳書">
+		<table name="#Desc">強化技能時，不需消耗額外的材料就能以100%的成功機率，強化到下一階段。</table>
+		<set name="icon" val="icon.esagira_telepo_01" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37045" type="EtcItem" name="鋼鐵之門公會紀念幣">
+		<table name="#Desc">為了亞丁世界真正的冒險家們提供的紀念幣。透過在各村莊的冒險者助手，可交換成其他道具。</table>
+		<set name="icon" val="icon.etc_coins_gold_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37046" type="EtcItem" name="9週年紀念晶體-1次用">
+		<table name="#Desc">天堂II 9週年慶紀念晶體。點兩下的話，就可獲得卡利艾之力（殄滅/業火/想願）、蛋糕、點心、祝福的復活卷軸之一。只能使用1次。</table>
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37047" type="Weapon" name="坦歐勒劍">
+		<table name="#Desc">怪物武器。單手劍型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.Summon_orc_1hs_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37048" type="Weapon" name="墮落劍">
+		<table name="#Desc">怪物武器。單手劍型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.embryo_dark_knight_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37049" type="Weapon" name="歐塔比斯劍">
+		<table name="#Desc">怪物武器。單手劍型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.octabis_a_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37050" type="Weapon" name="坦加佩雙刀">
+		<table name="#Desc">怪物武器。雙刀型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.Summon_orc_dual_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37051" type="Weapon" name="賽克努斯單手魔法劍">
+		<table name="#Desc">怪物武器。單手魔法劍型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.seknus_1hs_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37052" type="Weapon" name="坦柏特之斧">
+		<table name="#Desc">怪物武器。單手鈍器型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.summon_orc_blunt_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37053" type="Weapon" name="格拉奇恩斯之鎚">
+		<table name="#Desc">怪物武器。單手鈍器型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.ice_heavy_knight_blunt_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37054" type="Weapon" name="坦柏特雙鈍器">
+		<table name="#Desc">怪物武器。雙鈍器型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.summon_orc_dualblunt_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="250" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37055" type="Weapon" name="多拉克斯匕首">
+		<table name="#Desc">怪物武器。匕首型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.Deathslayer_a_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37056" type="Weapon" name="多拉克斯雙匕首">
+		<table name="#Desc">怪物武器。雙匕首型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.Deathslayer_a_dual_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37057" type="Weapon" name="基洛德大劍">
+		<table name="#Desc">怪物武器。雙手劍型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.undead_killer_2hs_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37058" type="Weapon" name="坦札卡勒之矛">
+		<table name="#Desc">怪物武器。長矛型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.Summon_orc_pole_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37059" type="Weapon" name="米密里德魔杖">
+		<table name="#Desc">怪物武器。魔杖型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.fairy_elder_2hs_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37060" type="Weapon" name="薩梯魔杖">
+		<table name="#Desc">怪物武器。魔杖型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.satyr_shaman_2hs_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37061" type="Weapon" name="卡納迪斯之手">
+		<table name="#Desc">怪物武器。格鬥武器型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.pailaka_invader_hand_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37062" type="Weapon" name="卡納迪斯之弓">
+		<table name="#Desc">怪物武器。弓型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.pailaka_invader_bow_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37063" type="Weapon" name="弓箭手之弓">
+		<table name="#Desc">怪物武器。弩弓型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.centaur_archer_bowgun_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37064" type="Weapon" name="斯比裘拉之弩">
+		<table name="#Desc">怪物武器。弩弓型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.metucellar_form_bowgun_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37065" type="Armor" name="坦歐勒盾">
+		<table name="#Desc">怪物武器。盾牌型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.Summon_orc_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="25" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37066" type="Armor" name="墮落盾">
+		<table name="#Desc">怪物武器。盾牌型態。怪物武器加工石的基礎外型。</table>
+		<set name="icon" val="icon.embryo_dark_knight_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="25" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37067" type="EtcItem" name="怪物武器專用加工石-坦歐勒劍">
+		<table name="#Desc">將單手劍類型武器轉換為坦歐勒之劍外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37068" type="EtcItem" name="怪物武器專用加工石-墮落劍">
+		<table name="#Desc">將單手劍類型武器轉換為墮落劍外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37069" type="EtcItem" name="怪物武器專用加工石-歐塔比斯劍">
+		<table name="#Desc">將單手劍類型武器轉換為歐塔比斯劍外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37070" type="EtcItem" name="怪物武器專用加工石-坦加佩雙刀">
+		<table name="#Desc">將雙刀類型武器轉換為坦加佩雙刀外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_dual_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37071" type="EtcItem" name="怪物武器專用加工石-賽克努斯單手魔法劍">
+		<table name="#Desc">將單手魔法劍類型武器轉換為賽克努斯單手魔法劍外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37072" type="EtcItem" name="怪物武器專用加工石-坦柏特之斧">
+		<table name="#Desc">將單手鈍器類型武器轉換為坦柏特之斧外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37073" type="EtcItem" name="怪物武器專用加工石-格拉奇恩斯之鎚">
+		<table name="#Desc">將單手鈍器類型武器轉換為格拉奇恩斯之鎚外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37074" type="EtcItem" name="怪物武器專用加工石-坦柏特雙鈍器">
+		<table name="#Desc">將雙鈍器類型武器轉換為坦柏特雙鈍器外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_dualblunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37075" type="EtcItem" name="怪物武器專用加工石-多拉克斯匕首">
+		<table name="#Desc">可將匕首類型武器轉換為多拉克斯匕首外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_dagger_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37076" type="EtcItem" name="怪物武器專用加工石-多拉克斯雙匕首">
+		<table name="#Desc">將雙匕首類型武器轉換為多拉克斯雙匕首外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_dualdagger_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37077" type="EtcItem" name="怪物武器專用加工石-基洛德大劍">
+		<table name="#Desc">將雙手劍類型武器轉換為基洛德大劍外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_twohand_sword_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37078" type="EtcItem" name="怪物武器專用加工石-坦札卡勒之矛">
+		<table name="#Desc">將長矛類型武器轉換為坦札卡勒之矛外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_pole_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37079" type="EtcItem" name="怪物武器專用加工石-米密里德魔杖">
+		<table name="#Desc">將雙手魔法鈍器類型武器轉換為米密里德魔杖外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_magic_twohand_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37080" type="EtcItem" name="怪物武器專用加工石-薩梯魔杖">
+		<table name="#Desc">將雙手魔法鈍器類型武器轉換為薩梯魔杖外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_magic_twohand_blunt_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37081" type="EtcItem" name="怪物武器專用加工石-卡納迪斯之手">
+		<table name="#Desc">將格鬥兵器類型武器轉換為卡納迪斯之手外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_dualfist_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37082" type="EtcItem" name="怪物武器專用加工石-卡納迪斯之弓">
+		<table name="#Desc">將弓類型武器轉換為卡納迪斯之弓外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_bow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37083" type="EtcItem" name="怪物武器專用加工石-弓箭手之弓">
+		<table name="#Desc">將弓類型武器轉換為弓箭手之弓外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_twohand_crossbow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37084" type="EtcItem" name="怪物武器專用加工石-斯比裘拉之弩">
+		<table name="#Desc">將弩弓類型武器轉換為斯比裘拉之弩外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_twohand_crossbow_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37085" type="EtcItem" name="怪物武器專用加工石-坦歐勒盾">
+		<table name="#Desc">將盾牌類型武器轉換為坦歐勒盾外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_shield_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37086" type="EtcItem" name="怪物武器專用加工石-墮落盾">
+		<table name="#Desc">將盾牌類型武器轉換為墮落盾外型的加工石。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.shape_shifting_shield_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37087" type="EtcItem" name="次元能量-階段1">
+		<table name="#Desc">蘊含著次元力量的能量，透過梅勒曼丁來領取獎勵或升級階段時所需。若不領取獎勵而直接用來升級階段的話，便能獲得更多的獎勵。但，若想升到階段2時，務必要完成下個週期的守城。限時15日。</table>
+		<set name="icon" val="icon.etc_magic_energy_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37088" type="EtcItem" name="次元能量-階段2">
+		<table name="#Desc">蘊含著次元力量的能量，透過梅勒曼丁來領取獎勵或升級階段時所需。若不領取獎勵而直接用來升級階段的話，便能獲得更多的獎勵。但，若想升到階段3時，務必要完成下個週期的守城。限時15日。</table>
+		<set name="icon" val="icon.etc_magic_energy_i01" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37089" type="EtcItem" name="次元能量-階段3">
+		<table name="#Desc">蘊含著次元力量的能量，透過梅勒曼丁來領取獎勵或升級階段時所需。若不領取獎勵而直接用來升級階段的話，便能獲得更多的獎勵。但，若想升到階段4時，務必要完成下個週期的守城。限時15日。</table>
+		<set name="icon" val="icon.etc_magic_energy_i01" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37090" type="EtcItem" name="次元能量-階段4">
+		<table name="#Desc">蘊含著次元力量的能量，透過梅勒曼丁來領取獎勵或升級階段時所需。若不領取獎勵而直接用來升級階段的話，便能獲得更多的獎勵。但，若想升到階段5時，務必要完成下個週期的守城。限時15日。</table>
+		<set name="icon" val="icon.etc_magic_energy_i02" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37091" type="EtcItem" name="次元藥水">
+		<table name="#Desc">只能在次元空間使用的藥水。恢復HP3000，剩餘的威力將用來恢復CP。</table>
+		<set name="icon" val="icon.etc_potion_red_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37092" type="Armor" name="次元光之斗篷">
+		<table name="#Desc">象徵名譽和光芒的斗篷。由於次元的能力，所有階級皆可裝備。增加物理防禦力50、魔法防禦力40、STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2、降低PVP時所受的傷害5%。可使用城堡返回技能。處於邪惡狀態時，將不會適用部分的斗篷效果。處於邪惡狀態時無法裝備。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.amor_goodness_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LEATHER" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+		</for>
+	</item>
+	<item id="37093" type="Armor" name="次元黑暗斗篷">
+		<table name="#Desc">象徵貪欲和黑暗的斗篷。由於次元的能力，所有階級皆可裝備。增加物理防禦力50、魔法防禦力40、STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2、降低PVP時所受的傷害5%。可使用城堡返回技能。無法移轉伺服器的道具。</table>
+		<set name="icon" val="icon.amor_evilness_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LEATHER" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x10" stat="pDef" val="50" />
+		</for>
+	</item>
+	<item id="37094" type="EtcItem" name="次元之下級寶箱">
+		<table name="#Desc">從次元的空間得到的寶箱。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37095" type="EtcItem" name="次元之中級寶箱">
+		<table name="#Desc">從次元的空間得到的寶箱。</table>
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37096" type="EtcItem" name="次元之高級寶箱">
+		<table name="#Desc">從次元的空間得到的寶箱。</table>
+		<set name="icon" val="icon.etc_treasure_box_i05" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37097" type="EtcItem" name="上級生命靈藥-R級">
+		<table name="#Desc">恢復HP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37098" type="EtcItem" name="上級精神靈藥-R級">
+		<table name="#Desc">恢復MP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37099" type="EtcItem" name="上級鬥志靈藥-R級">
+		<table name="#Desc">恢復CP。僅限等級85以上的角色用於自己身上。使用冷卻時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="37100" type="EtcItem" name="防禦靈藥">
+		<table name="#Desc">在30分鐘內可以得到守護者和聲的效果。用於等級85以上。使用時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37101" type="EtcItem" name="魔法靈藥">
+		<table name="#Desc">在30分鐘內可以得到大賢者和聲的效果。用於等級85以上。使用時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37102" type="EtcItem" name="戰士靈藥">
+		<table name="#Desc">在30分鐘內可以得到狂戰士和聲的效果。用於等級85以上。使用時間為2分鐘。</table>
+		<set name="icon" val="icon.etc_super_potion_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37103" type="EtcItem" name="製作卷軸(上級生命靈藥-R級100%)">
+		<table name="#Desc">四次轉職職業專用。製作生命靈藥-R級的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37104" type="EtcItem" name="製作卷軸(上級精神靈藥-R級100%)">
+		<table name="#Desc">四次轉職職業專用。製作精神靈藥-R級的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37105" type="EtcItem" name="製作卷軸(上級鬥志靈藥-R級100%)">
+		<table name="#Desc">四次轉職職業專用。製作鬥志靈藥-R級的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37106" type="EtcItem" name="製作卷軸(上級生命靈藥-R級100%)">
+		<table name="#Desc">矮人專用。製作生命靈藥-R級的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37107" type="EtcItem" name="製作卷軸(上級精神靈藥-R級100%)">
+		<table name="#Desc">矮人專用。製作精神靈藥-R級的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37108" type="EtcItem" name="製作卷軸(上級鬥志靈藥-R級100%)">
+		<table name="#Desc">矮人專用。製作鬥志靈藥-R級的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37109" type="EtcItem" name="製作卷軸(防禦靈藥)">
+		<table name="#Desc">矮人專用。製作的防禦靈藥製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37110" type="EtcItem" name="製作卷軸(魔法靈藥)">
+		<table name="#Desc">矮人專用。製作魔法靈藥的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37111" type="EtcItem" name="製作卷軸(戰士靈藥)">
+		<table name="#Desc">矮人專用。製作戰士靈藥的製作卷軸。需要道具製作技能11級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37112" type="EtcItem" name="水上都市海音斯傳送卷軸">
+		<table name="#Desc">能傳送至在水上都市海音斯的警衛隊長 茍斯達的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37113" type="EtcItem" name="歐瑞城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在歐瑞城鎮的鐵匠師傅 弗露特的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37114" type="EtcItem" name="歐瑞城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在歐瑞城鎮的警衛隊長 牟恩的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37115" type="EtcItem" name="亞丁城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在亞丁城鎮的匹坦勒札的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37116" type="EtcItem" name="亞丁城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在亞丁城鎮的匹坦勒札的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37117" type="EtcItem" name="魯因城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在魯因城鎮的警衛隊長 瑪帝亞斯的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37118" type="EtcItem" name="魯因城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在魯因城鎮的警衛隊長 瑪帝亞斯的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37119" type="EtcItem" name="高達特城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在高達特城鎮的警衛隊長 安德烈的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37120" type="EtcItem" name="高達特城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在高達特城鎮的警衛隊長 安德烈的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37121" type="EtcItem" name="高達特城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在高達特城鎮的警衛隊長 安德烈的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37122" type="EtcItem" name="高達特城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在高達特城鎮的警衛隊長 安德烈的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37123" type="EtcItem" name="修加特城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在修加特城鎮的警衛隊長 維沙茲奇的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37124" type="EtcItem" name="歐瑞城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在歐瑞城鎮的警衛隊長 牟恩的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37125" type="EtcItem" name="歐瑞城鎮傳送卷軸">
+		<table name="#Desc">能傳送至在歐瑞城鎮的警衛隊長 牟恩的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37127" type="EtcItem" name="水上都市海音斯傳送卷軸">
+		<table name="#Desc">能傳送至在水上都市海音斯的警衛隊長 茍斯達的附近。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+	</item>
+	<item id="37128" type="EtcItem" name="林德拜爾支援禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得血腥赫利奧斯禮盒1個、血腥艾迪奧斯禮盒1個、伊絲蒂娜/歐塔比斯裝飾品禮盒1個、特級強化禮盒1個、憧憬的護身符1個、進階型塔武提手鐲1個、20億金幣、1億SP卷軸10個、頭飾/墜飾禮盒1個、凱旋英雄的襯衫1個、奴爾卡皮帶1個、Lv5 傳說染料禮盒1個、祝福的復活卷軸100個。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37129" type="EtcItem" name="血腥赫利奧斯禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得雙重搜魂的血腥赫利奧斯武器各一個。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37130" type="EtcItem" name="血腥艾迪奧斯禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得血腥艾迪奧斯防具各一個。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37131" type="EtcItem" name="伊絲蒂娜/歐塔比斯的飾品禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得伊絲蒂娜項鍊1個、歐塔比斯戒指1個、伊絲蒂娜戒指1個、伊絲蒂娜耳環1個、歐塔比斯耳環1個。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37132" type="EtcItem" name="特級強化禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得破滅武器強化卷軸-R級20個、破滅防具強化卷軸- R級220個、武器強化卷軸-R級3個、防具強化卷軸-R級33個、super屬性石各12個、蘊含著巨人之力的生命石1個。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37133" type="EtcItem" name="頭飾/墜子禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得各種頭飾與所有種類的頭飾用墜子各1個。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37134" type="EtcItem" name="Lv5 傳說染料禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得Lv5傳說染料禮盒各3個。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37135" type="Armor" name="鋼鐵全覆式頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的全覆式頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="58" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37136" type="Armor" name="鋼鐵全覆式盔甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的全覆式盔甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t62_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="3493" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="239" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37137" type="Armor" name="鋼鐵全覆式靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的全覆式靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t62_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37138" type="Armor" name="鋼鐵全覆式護手(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的全覆式護手。限時60日。</table>
+		<set name="icon" val="icon.armor_t62_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37139" type="Armor" name="鋼鐵全覆式盾(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的全覆式盾。限時60日。</table>
+		<set name="icon" val="icon.shield_full_plate_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="407" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="203" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37140" type="Armor" name="鋼鐵卡勒米安外衣(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的卡勒米安外衣。限時60日。</table>
+		<set name="icon" val="icon.armor_t53_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="660" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<add order="0x40" stat="maxMp" val="225" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37141" type="Armor" name="鋼鐵卡勒米安長襪(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的卡勒米安長襪。限時60日。</table>
+		<set name="icon" val="icon.armor_t53_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="323" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+			<add order="0x40" stat="maxMp" val="141" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37142" type="Armor" name="鋼鐵卡勒米安手套(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的卡勒米安手套。限時60日。</table>
+		<set name="icon" val="icon.armor_t53_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="207" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37143" type="Armor" name="鋼鐵卡勒米安靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的卡勒米安靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t53_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="410" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37144" type="Armor" name="鋼鐵金屬皮甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的金屬皮甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t47_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1483" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="94" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37145" type="Armor" name="鋼鐵金屬皮脛甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的金屬皮脛甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t47_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="520" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="59" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37146" type="Armor" name="鋼鐵金屬皮靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的金屬皮靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t47_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="407" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37147" type="Armor" name="鋼鐵金屬皮手套(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的金屬皮手套。限時60日。</table>
+		<set name="icon" val="icon.armor_t47_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="203" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="33" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37148" type="Armor" name="鋼鐵末日頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="66" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37149" type="Armor" name="鋼鐵末日手套重裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日手套重裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t71_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37150" type="Armor" name="鋼鐵末日靴重裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日靴重裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t71_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="377" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37151" type="Armor" name="鋼鐵末日金屬盔甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日金屬盔甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t71_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="3327" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="270" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37152" type="Armor" name="鋼鐵末日盾(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日盾。限時60日。</table>
+		<set name="icon" val="icon.shield_doom_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="230" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37153" type="Armor" name="鋼鐵阿巴敦長袍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的阿巴敦長袍。限時60日。</table>
+		<set name="icon" val="icon.armor_t59_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="847" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="127" />
+			<add order="0x40" stat="maxMp" val="561" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37154" type="Armor" name="鋼鐵阿巴敦頭箍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的阿巴敦頭箍。限時60日。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="197" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37155" type="Armor" name="鋼鐵阿巴敦手套長袍用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的阿巴敦手套長袍用。限時60日。</table>
+		<set name="icon" val="icon.armor_t59_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="197" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37156" type="Armor" name="鋼鐵阿巴敦靴長袍用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的阿巴敦靴長袍用。限時60日。</table>
+		<set name="icon" val="icon.armor_t59_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="393" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37157" type="Armor" name="鋼鐵阿巴敦盾(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的阿巴敦盾。限時60日。</table>
+		<set name="icon" val="icon.shield_avadon_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="403" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="216" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37158" type="Armor" name="鋼鐵末日皮甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日皮甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t72_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1833" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="202" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37159" type="Armor" name="鋼鐵末日手套輕裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日手套輕裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t72_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37160" type="Armor" name="鋼鐵末日靴輕裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的末日靴輕裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t72_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="377" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37161" type="Armor" name="鋼鐵夢魘盔甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的夢魘盔甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t80_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="3193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="293" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37162" type="Armor" name="鋼鐵夢魘頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的夢魘頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="187" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37163" type="Armor" name="鋼鐵夢魘護手重裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的夢魘護手重裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t80_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37164" type="Armor" name="鋼鐵夢魘靴重裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的夢魘靴重裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t80_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37165" type="Armor" name="鋼鐵夢魘盾(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的夢魘盾。限時60日。</table>
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="393" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="256" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37166" type="Armor" name="鋼鐵黑暗水晶長袍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶長袍。限時60日。</table>
+		<set name="icon" val="icon.armor_t76_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="817" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="139" />
+			<add order="0x40" stat="maxMp" val="665" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37167" type="Armor" name="鋼鐵黑暗水晶頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="190" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="69" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37168" type="Armor" name="鋼鐵黑暗水晶手套長袍用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶手套長袍用。限時60日。</table>
+		<set name="icon" val="icon.armor_t76_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37169" type="Armor" name="鋼鐵黑暗水晶靴長袍用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶靴長袍用。限時60日。</table>
+		<set name="icon" val="icon.armor_t76_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37170" type="Armor" name="鋼鐵黑暗水晶盾(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶盾。限時60日。</table>
+		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="397" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="243" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37171" type="Armor" name="鋼鐵黑暗水晶皮甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶皮甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t75_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1433" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="128" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37172" type="Armor" name="鋼鐵黑暗水晶皮脛甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶皮脛甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t75_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="493" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="80" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37173" type="Armor" name="鋼鐵黑暗水晶手套輕裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶手套輕裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t75_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="193" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37174" type="Armor" name="鋼鐵黑暗水晶靴輕裝用(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的黑暗水晶靴輕裝用。限時60日。</table>
+		<set name="icon" val="icon.armor_t75_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37175" type="Armor" name="鋼鐵帝國聖軍胸甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的帝國聖軍胸甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t88_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="2540" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="205" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37176" type="Armor" name="鋼鐵帝國聖軍脛甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的帝國聖軍脛甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t88_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1087" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="128" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37177" type="Armor" name="鋼鐵帝國聖軍護手(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的帝國聖軍護手。限時60日。</table>
+		<set name="icon" val="icon.armor_t88_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37178" type="Armor" name="鋼鐵帝國聖軍靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的帝國聖軍靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t88_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37179" type="Armor" name="鋼鐵帝國聖軍頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的帝國聖軍頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37180" type="Armor" name="鋼鐵帝國聖軍盾(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的帝國聖軍盾。限時60日。</table>
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="390" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="290" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37181" type="Armor" name="鋼鐵大祕儀長袍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的大祕儀長袍。限時60日。</table>
+		<set name="icon" val="icon.armor_t90_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="767" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="166" />
+			<add order="0x40" stat="maxMp" val="866" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37182" type="Armor" name="鋼鐵大祕儀手套(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的大祕儀手套。限時60日。</table>
+		<set name="icon" val="icon.armor_t90_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37183" type="Armor" name="鋼鐵大祕儀靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的大祕儀靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t90_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37184" type="Armor" name="鋼鐵大祕儀頭箍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的大祕儀頭箍。限時60日。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37185" type="Armor" name="鋼鐵祕儀符印(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的祕儀符印。限時60日。</table>
+		<set name="icon" val="icon.arcana_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="940" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="13" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37186" type="Armor" name="鋼鐵紅龍皮甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的紅龍皮甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t89_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1650" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="249" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37187" type="Armor" name="鋼鐵紅龍皮手套(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的紅龍皮手套。限時60日。</table>
+		<set name="icon" val="icon.armor_t89_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37188" type="Armor" name="鋼鐵紅龍皮靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的紅龍皮靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t89_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="370" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37189" type="Armor" name="鋼鐵紅龍皮頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的紅龍皮頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="183" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37190" type="Armor" name="鋼鐵王朝盔甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝盔甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t91_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="2520" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="226" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37191" type="Armor" name="鋼鐵王朝脛甲(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲。限時60日。</table>
+		<set name="icon" val="icon.armor_t91_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="141" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37192" type="Armor" name="鋼鐵王朝脛甲頭盔(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲頭盔。限時60日。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37193" type="Armor" name="鋼鐵王朝脛甲護手(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲護手。限時60日。</table>
+		<set name="icon" val="icon.armor_t91_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37194" type="Armor" name="鋼鐵王朝脛甲靴(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲靴。限時60日。</table>
+		<set name="icon" val="icon.armor_t91_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="360" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37195" type="Armor" name="鋼鐵王朝脛甲盾(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲盾。限時60日。</table>
+		<set name="icon" val="icon.shield_dynasty_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="380" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="321" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="37196" type="Armor" name="鋼鐵王朝脛甲外衣(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲外衣。限時60日。</table>
+		<set name="icon" val="icon.armor_t93_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="590" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37197" type="Armor" name="鋼鐵王朝脛甲長襪(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲長襪。限時60日。</table>
+		<set name="icon" val="icon.armor_t93_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="290" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<add order="0x40" stat="maxMp" val="370" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37198" type="Armor" name="鋼鐵王朝脛甲頭箍(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲頭箍。限時60日。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="180" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="37199" type="Armor" name="鋼鐵王朝脛甲手套(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝脛甲手套。限時60日。</table>
+		<set name="icon" val="icon.armor_t93_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="170" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+</list>

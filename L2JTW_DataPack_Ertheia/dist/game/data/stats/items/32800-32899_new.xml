@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="32800" type="Armor" name="封印的束縛的青狼手套">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t68_g_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="590" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32801" type="Armor" name="封印的束縛的末日手套">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t71_g_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="580" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32802" type="Armor" name="封印的束縛的夏隆靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t64_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1180" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32803" type="Armor" name="封印的束縛的阿巴敦靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t66_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1180" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32804" type="Armor" name="封印的束縛的青狼長靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t68_b_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32805" type="Armor" name="封印的束縛的末日靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t71_b_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32806" type="Armor" name="封印的束縛的黑暗水晶手套">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t74_g_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="580" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32807" type="Armor" name="封印的束縛的塔魯手套">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t77_g_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="580" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32808" type="Armor" name="封印的束縛的夢魘長手套">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t80_g_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="550" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32809" type="Armor" name="封印的束縛的聖威手套">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t83_g_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="540" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32810" type="Armor" name="封印的束縛的黑暗水晶靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t74_b_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1110" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32811" type="Armor" name="封印的束縛的塔魯靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t77_b_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="1130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32812" type="Armor" name="封印的束縛的夢魘靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t80_b_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1110" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32813" type="Armor" name="封印的束縛的聖威靴">
+		<table name="#Desc">解除封印之後，方可獲得成套效果。</table>
+		<set name="icon" val="icon.armor_t83_b_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="1110" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32814" type="EtcItem" name="製作卷軸(靈魂彈-R級100%)">
+		<table name="#Desc">四次轉職職業專用。製作靈魂彈- R級的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32815" type="EtcItem" name="製作卷軸(魔靈彈-R級100%)">
+		<table name="#Desc">四次轉職職業專用。製作魔靈彈- R級的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32816" type="EtcItem" name="製作卷軸(祝福的魔靈彈-R級100%)">
+		<table name="#Desc">四次轉職職業專用。製作祝福的魔靈彈- R級的製作卷軸。需要製作一般道具技能10級，成功率為100%。</table>
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32817" type="Weapon" name="命運的碎劍者 (火)">
+		<table name="#Desc">限制強化能力的命運的碎劍者（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="111" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="27" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="32818" type="Weapon" name="命運的彎刃大刀 (火)">
+		<table name="#Desc">限制強化能力的命運的彎刃大刀（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_falchion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32819" type="Weapon" name="命運的戰士之劍 (火)">
+		<table name="#Desc">限制強化能力的命運的戰士之劍（火）。證明是闇天使戰士的劍。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="130" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="12" />
+			<set order="0x08" stat="mAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="32820" type="Weapon" name="命運的瑞韓德 (火)">
+		<table name="#Desc">限制強化能力的命運的瑞韓德（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_zweihander_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32821" type="Weapon" name="命運的合金弓 (火)">
+		<table name="#Desc">限制強化能力的命運的合金弓（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="188" />
+		<set name="soulshots" val="7" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="32822" type="Weapon" name="命運的鋼鎚 (火)">
+		<table name="#Desc">限制強化能力的命運的鋼鎚（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="185" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32823" type="Weapon" name="命運的法師魔杖 (火)">
+		<table name="#Desc">限制強化能力的命運的法師魔杖（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="105" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="30" />
+			<set order="0x08" stat="mAtk" val="31" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32824" type="Weapon" name="命運的長矛 (火)">
+		<table name="#Desc">限制強化能力的命運的長矛（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="212" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32825" type="Weapon" name="命運的毒蛇之牙 (火)">
+		<table name="#Desc">限制強化能力的命運的毒蛇之牙（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="156" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32826" type="Weapon" name="命運的碎劍者 (水)">
+		<table name="#Desc">限制強化能力的命運的碎劍者（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="111" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="27" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="32827" type="Weapon" name="命運的彎刃大刀 (水)">
+		<table name="#Desc">限制強化能力的命運的彎刃大刀（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_falchion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32828" type="Weapon" name="命運的戰士之劍 (水)">
+		<table name="#Desc">限制強化能力的命運的戰士之劍（水）。證明是闇天使戰士的劍。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="130" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="12" />
+			<set order="0x08" stat="mAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="32829" type="Weapon" name="命運的瑞韓德 (水)">
+		<table name="#Desc">限制強化能力的命運的瑞韓德（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_zweihander_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32830" type="Weapon" name="命運的合金弓 (水)">
+		<table name="#Desc">限制強化能力的命運的合金弓（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="188" />
+		<set name="soulshots" val="7" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="32831" type="Weapon" name="命運的鋼鎚 (水)">
+		<table name="#Desc">限制強化能力的命運的鋼鎚（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="185" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32832" type="Weapon" name="命運的法師魔杖 (水)">
+		<table name="#Desc">限制強化能力的命運的法師魔杖（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="105" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="30" />
+			<set order="0x08" stat="mAtk" val="31" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32833" type="Weapon" name="命運的長矛 (水)">
+		<table name="#Desc">限制強化能力的命運的長矛（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="212" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32834" type="Weapon" name="命運的毒蛇之牙 (水)">
+		<table name="#Desc">限制強化能力的命運的毒蛇之牙（水）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="156" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32835" type="Weapon" name="命運的碎劍者 (風)">
+		<table name="#Desc">限制強化能力的命運的碎劍者（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="111" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="27" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="32836" type="Weapon" name="命運的彎刃大刀 (風)">
+		<table name="#Desc">限制強化能力的命運的彎刃大刀（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_falchion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32837" type="Weapon" name="命運的戰士之劍 (風)">
+		<table name="#Desc">限制強化能力的命運的戰士之劍（風）。證明是闇天使戰士的劍。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="130" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="12" />
+			<set order="0x08" stat="mAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="32838" type="Weapon" name="命運的瑞韓德 (風)">
+		<table name="#Desc">限制強化能力的命運的瑞韓德（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_zweihander_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32839" type="Weapon" name="命運的合金弓 (風)">
+		<table name="#Desc">限制強化能力的命運的合金弓（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="188" />
+		<set name="soulshots" val="7" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="32840" type="Weapon" name="命運的鋼鎚 (風)">
+		<table name="#Desc">限制強化能力的命運的鋼鎚（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="185" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32841" type="Weapon" name="命運的法師魔杖 (風)">
+		<table name="#Desc">限制強化能力的命運的法師魔杖（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="105" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="30" />
+			<set order="0x08" stat="mAtk" val="31" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32842" type="Weapon" name="命運的長矛 (風)">
+		<table name="#Desc">限制強化能力的命運的長矛（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="212" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32843" type="Weapon" name="命運的毒蛇之牙 (風)">
+		<table name="#Desc">限制強化能力的命運的毒蛇之牙（風）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="156" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32844" type="Weapon" name="命運的碎劍者 (地)">
+		<table name="#Desc">限制強化能力的命運的碎劍者（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="111" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="27" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="32845" type="Weapon" name="命運的彎刃大刀 (地)">
+		<table name="#Desc">限制強化能力的命運的彎刃大刀（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_falchion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32846" type="Weapon" name="命運的戰士之劍 (地)">
+		<table name="#Desc">限制強化能力的命運的戰士之劍（地）。證明是闇天使戰士的劍。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="130" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="12" />
+			<set order="0x08" stat="mAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="32847" type="Weapon" name="命運的瑞韓德 (地)">
+		<table name="#Desc">限制強化能力的命運的瑞韓德（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_zweihander_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32848" type="Weapon" name="命運的合金弓 (地)">
+		<table name="#Desc">限制強化能力的命運的合金弓（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="188" />
+		<set name="soulshots" val="7" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="32849" type="Weapon" name="命運的鋼鎚 (地)">
+		<table name="#Desc">限制強化能力的命運的鋼鎚（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="185" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32850" type="Weapon" name="命運的法師魔杖 (地)">
+		<table name="#Desc">限制強化能力的命運的法師魔杖（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="105" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="30" />
+			<set order="0x08" stat="mAtk" val="31" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32851" type="Weapon" name="命運的長矛 (地)">
+		<table name="#Desc">限制強化能力的命運的長矛（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="212" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32852" type="Weapon" name="命運的毒蛇之牙 (地)">
+		<table name="#Desc">限制強化能力的命運的毒蛇之牙（地）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="156" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32853" type="Weapon" name="命運的碎劍者 (聖)">
+		<table name="#Desc">限制強化能力的命運的碎劍者（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="111" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="27" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="32854" type="Weapon" name="命運的彎刃大刀 (聖)">
+		<table name="#Desc">限制強化能力的命運的彎刃大刀（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_falchion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32855" type="Weapon" name="命運的戰士之劍 (聖)">
+		<table name="#Desc">限制強化能力的命運的戰士之劍（聖）。證明是闇天使戰士的劍。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="130" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="12" />
+			<set order="0x08" stat="mAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="32856" type="Weapon" name="命運的瑞韓德 (聖)">
+		<table name="#Desc">限制強化能力的命運的瑞韓德（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_zweihander_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32857" type="Weapon" name="命運的合金弓 (聖)">
+		<table name="#Desc">限制強化能力的命運的合金弓（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="188" />
+		<set name="soulshots" val="7" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="32858" type="Weapon" name="命運的鋼鎚 (聖)">
+		<table name="#Desc">限制強化能力的命運的鋼鎚（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="185" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32859" type="Weapon" name="命運的法師魔杖 (聖)">
+		<table name="#Desc">限制強化能力的命運的法師魔杖（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="105" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="30" />
+			<set order="0x08" stat="mAtk" val="31" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32860" type="Weapon" name="命運的長矛 (聖)">
+		<table name="#Desc">限制強化能力的命運的長矛（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="212" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32861" type="Weapon" name="命運的毒蛇之牙 (聖)">
+		<table name="#Desc">限制強化能力的命運的毒蛇之牙（聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="156" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32862" type="Weapon" name="命運的碎劍者 (暗)">
+		<table name="#Desc">限制強化能力的命運的碎劍者（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="111" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="27" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="32863" type="Weapon" name="命運的彎刃大刀 (暗)">
+		<table name="#Desc">限制強化能力的命運的彎刃大刀（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_falchion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32864" type="Weapon" name="命運的戰士之劍 (暗)">
+		<table name="#Desc">限制強化能力的命運的戰士之劍（暗）。證明是闇天使戰士的劍。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="130" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="12" />
+			<set order="0x08" stat="mAtk" val="10" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="32865" type="Weapon" name="命運的瑞韓德 (暗)">
+		<table name="#Desc">限制強化能力的命運的瑞韓德（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_zweihander_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="153" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32866" type="Weapon" name="命運的合金弓 (暗)">
+		<table name="#Desc">限制強化能力的命運的合金弓（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="188" />
+		<set name="soulshots" val="7" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="32867" type="Weapon" name="命運的鋼鎚 (暗)">
+		<table name="#Desc">限制強化能力的命運的鋼鎚（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="185" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="32868" type="Weapon" name="命運的法師魔杖 (暗)">
+		<table name="#Desc">限制強化能力的命運的法師魔杖（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="105" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="30" />
+			<set order="0x08" stat="mAtk" val="31" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32869" type="Weapon" name="命運的長矛 (暗)">
+		<table name="#Desc">限制強化能力的命運的長矛（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="212" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32870" type="Weapon" name="命運的毒蛇之牙 (暗)">
+		<table name="#Desc">限制強化能力的命運的毒蛇之牙（暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="156" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="32871" type="Armor" name="命運的木頭盔 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的木頭盔（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="66" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+		</for>
+	</item>
+	<item id="32872" type="Armor" name="命運的木胸甲 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的木胸甲（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t06_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="482" />
+		<for>
+			<add order="0x10" stat="pDef" val="47" />
+		</for>
+	</item>
+	<item id="32873" type="Armor" name="命運的木製脛甲 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的木製脛甲（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t06_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="167" />
+		<for>
+			<add order="0x10" stat="pDef" val="29" />
+		</for>
+	</item>
+	<item id="32874" type="Armor" name="命運的圓盾 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的圓盾（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.shield_round_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="139" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="79" />
+		</for>
+	</item>
+	<item id="32875" type="Armor" name="命運的皮頭盔 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的皮頭盔（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="65" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+		</for>
+	</item>
+	<item id="32876" type="Armor" name="命運的奉獻外衣 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的奉獻外衣（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t55_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="209" />
+		<for>
+			<add order="0x10" stat="pDef" val="30" />
+			<add order="0x40" stat="maxMp" val="67" />
+		</for>
+	</item>
+	<item id="32877" type="Armor" name="命運的奉獻長襪 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的奉獻長襪（火、風、暗）。用絲線繡有古文字的褲子。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t55_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="104" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="32878" type="Armor" name="命運的皮手套 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的皮手套（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t32_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="65" />
+		<for>
+			<add order="0x10" stat="pDef" val="15" />
+		</for>
+	</item>
+	<item id="32879" type="Armor" name="命運的短靴 (火, 風, 暗)">
+		<table name="#Desc">限制強化能力的命運的短靴（火、風、暗）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t32_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="132" />
+		<for>
+			<add order="0x10" stat="pDef" val="15" />
+		</for>
+	</item>
+	<item id="32880" type="Armor" name="命運的木頭盔 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的木頭盔（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="66" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+		</for>
+	</item>
+	<item id="32881" type="Armor" name="命運的木胸甲 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的木胸甲（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t06_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="482" />
+		<for>
+			<add order="0x10" stat="pDef" val="47" />
+		</for>
+	</item>
+	<item id="32882" type="Armor" name="命運的木製脛甲 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的木製脛甲（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t06_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="167" />
+		<for>
+			<add order="0x10" stat="pDef" val="29" />
+		</for>
+	</item>
+	<item id="32883" type="Armor" name="命運的圓盾 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的圓盾（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.shield_round_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="139" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="79" />
+		</for>
+	</item>
+	<item id="32884" type="Armor" name="命運的皮頭盔 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的皮頭盔（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="65" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+		</for>
+	</item>
+	<item id="32885" type="Armor" name="命運的奉獻外衣 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的奉獻外衣（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t55_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="209" />
+		<for>
+			<add order="0x10" stat="pDef" val="30" />
+			<add order="0x40" stat="maxMp" val="67" />
+		</for>
+	</item>
+	<item id="32886" type="Armor" name="命運的奉獻長襪 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的奉獻長襪（水、地、聖）。用絲線繡有古文字的褲子。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t55_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="104" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="32887" type="Armor" name="命運的皮手套 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的皮手套（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t32_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="65" />
+		<for>
+			<add order="0x10" stat="pDef" val="15" />
+		</for>
+	</item>
+	<item id="32888" type="Armor" name="命運的短靴 (水, 地, 聖)">
+		<table name="#Desc">限制強化能力的命運的短靴（水、地、聖）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.armor_t32_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="132" />
+		<for>
+			<add order="0x10" stat="pDef" val="15" />
+		</for>
+	</item>
+	<item id="32889" type="Weapon" name="命運的米索莉匕首 (火)">
+		<table name="#Desc">限制強化能力的命運的米索莉匕首（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="80" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32890" type="Weapon" name="命運的精靈長劍 (火)">
+		<table name="#Desc">限制強化能力的命運的精靈長劍（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32891" type="Weapon" name="命運的巨銳劍 (火)">
+		<table name="#Desc">限制強化能力的命運的巨銳劍（火）。強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="83" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32892" type="Weapon" name="命運的雙刃大砍刀 (火)">
+		<table name="#Desc">限制強化能力的命運的雙刃大砍刀（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="112" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32893" type="Weapon" name="命運的將軍格鬥劍 (火)">
+		<table name="#Desc">限制強化能力的命運的將軍格鬥劍（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="201" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="100" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32894" type="Weapon" name="命運的風暴弓 (火)">
+		<table name="#Desc">限制強化能力的命運的風暴弓（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="191" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32895" type="Weapon" name="命運的齒輪弩 (火)">
+		<table name="#Desc">限制強化能力的命運的齒輪弩（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="117" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32896" type="Weapon" name="命運的碎骨者 (火)">
+		<table name="#Desc">限制強化能力的命運的碎骨者（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_bonebreaker_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32897" type="Weapon" name="命運的生命手杖 (火)">
+		<table name="#Desc">限制強化能力的命運的生命手杖（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_life_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="118" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="74" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32898" type="Weapon" name="命運的阿吐巴鎚 (火)">
+		<table name="#Desc">限制強化能力的命運的阿吐巴鎚（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="90" />
+			<set order="0x08" stat="mAtk" val="79" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="32899" type="Weapon" name="命運的闊矛 (火)">
+		<table name="#Desc">限制強化能力的命運的闊矛（火）。除了強化以外，無法賦予其他的附加功能。</table>
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="37300" type="Weapon" name="鋼鐵鎮魂術杖(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n施法速度提升15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_anatrian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="360" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="348" />
+			<set order="0x08" stat="mAtk" val="252" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37301" type="Weapon" name="鋼鐵鎮魂爆刃(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n施法速度提升15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_kaynon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="348" />
+			<set order="0x08" stat="mAtk" val="252" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37302" type="Weapon" name="鋼鐵鎮魂風暴者(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n物理攻擊力增加288，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_soryu_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="670" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37303" type="Weapon" name="鋼鐵鎮魂殺刃(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n攻擊速度提升約15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_polion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37304" type="Weapon" name="鋼鐵鎮魂雙刀(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n攻擊速度提升約15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37305" type="Weapon" name="鋼鐵鎮魂戰爪(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n攻擊速度提升約15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_fantasma_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37306" type="Weapon" name="鋼鐵鎮魂雙鈍器(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n致命攻擊率提升79.5，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37307" type="Weapon" name="鋼鐵鎮魂鉋刀(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n攻擊速度提升約15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_aspeda_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="380" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37308" type="Weapon" name="鋼鐵鎮魂雙匕首(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n物理攻擊力增加288，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="680" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37309" type="Weapon" name="鋼鐵鎮魂投弓(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n物理攻擊力增加288，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_grabathus_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="856" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37310" type="Weapon" name="鋼鐵鎮魂射靈(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n攻擊速度提升約15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_shyayaka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="530" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="771" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37311" type="Weapon" name="鋼鐵鎮魂復仇者(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n攻擊速度提升約15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_batista_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37312" type="Weapon" name="鋼鐵鎮魂報恨者(限時30日)">
+		<table name="#Desc">＜搜魂石特效＞\n施法速度提升15%，PvP時提升所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_grangkaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="360" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="423" />
+			<set order="0x08" stat="mAtk" val="278" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37313" type="EtcItem" name="多瑪的支援禮盒">
+		<table name="#Desc">大師 多瑪親自提供的支援禮盒。點兩下的話，就可以得到多瑪的生活白皮書、凱旋英雄的支援禮盒、凱旋英雄的藥水禮盒。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37314" type="EtcItem" name="命運禮盒">
+		<table name="#Desc">點兩下的話，就可得到依照各等級與職業的裝備道具。完成一次轉職的40~84Lv可使用。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+	</item>
+	<item id="37315" type="EtcItem" name="命運的支援禮盒-C級(戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到戰士系列角色需要的C級裝備道具。40~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37316" type="EtcItem" name="命運的支援禮盒-C級(法師系列)">
+		<table name="#Desc">點兩下的話，就可得到法師系列角色需要的C級裝備道具。40~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37317" type="EtcItem" name="命運的支援禮盒-C級(鬥士系列)">
+		<table name="#Desc">點兩下的話，就可得到鬥士系列角色需要的C級裝備道具。40~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37318" type="EtcItem" name="命運的支援禮盒-C級(行者系列)">
+		<table name="#Desc">點兩下的話，就可得到行者系列角色需要的C級裝備道具。40~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37319" type="EtcItem" name="命運的支援禮盒-C級(闇天使系列)">
+		<table name="#Desc">點兩下的話，就可得到闇天使系列角色需要的C級裝備道具。40~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37320" type="EtcItem" name="命運的支援禮盒-C級(獸人戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人戰士系列角色需要的C級裝備道具。40~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37321" type="EtcItem" name="命運的支援禮盒-C級(獸人法師系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人法師系列角色需要的C級裝備道具。40~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37322" type="EtcItem" name="命運的支援禮盒-B級(戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到戰士系列角色需要的B級裝備道具。52~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37323" type="EtcItem" name="命運的支援禮盒-B級(法師系列)">
+		<table name="#Desc">點兩下的話，就可得到法師系列角色需要的B級裝備道具。52~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37324" type="EtcItem" name="命運的支援禮盒-B級(鬥士系列)">
+		<table name="#Desc">點兩下的話，就可得到鬥士系列角色需要的B級裝備道具。52~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37325" type="EtcItem" name="命運的支援禮盒-B級(行者系列)">
+		<table name="#Desc">點兩下的話，就可得到行者系列角色需要的B級裝備道具。52~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37326" type="EtcItem" name="命運的支援禮盒-B級(闇天使系列)">
+		<table name="#Desc">點兩下的話，就可得到闇天使系列角色需要的B級裝備道具。52~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37327" type="EtcItem" name="命運的支援禮盒-B級(獸人戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人戰士系列角色需要的B級裝備道具。52~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37328" type="EtcItem" name="命運的支援禮盒-B級(獸人法師系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人法師系列角色需要的B級裝備道具。52~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37329" type="EtcItem" name="命運的支援禮盒-A級(戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到戰士系列角色需要的A級裝備道具。61~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37330" type="EtcItem" name="命運的支援禮盒-A級(法師系列)">
+		<table name="#Desc">點兩下的話，就可得到法師系列角色需要的A級裝備道具。61~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37331" type="EtcItem" name="命運的支援禮盒-A級(鬥士系列)">
+		<table name="#Desc">點兩下的話，就可得到鬥士系列角色需要的A級裝備道具。61~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37332" type="EtcItem" name="命運的支援禮盒-A級(行者系列)">
+		<table name="#Desc">點兩下的話，就可得到行者系列角色需要的A級裝備道具。61~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37333" type="EtcItem" name="命運的支援禮盒-A級(闇天使系列)">
+		<table name="#Desc">點兩下的話，就可得到闇天使系列角色需要的A級裝備道具。61~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37334" type="EtcItem" name="命運的支援禮盒-A級(獸人戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人戰士系列角色需要的A級裝備道具。61~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37335" type="EtcItem" name="命運的支援禮盒-A級(獸人法師系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人法師系列角色需要的A級裝備道具。61~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37336" type="EtcItem" name="命運的支援禮盒-S級-1次(戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到戰士系列角色需要的S級裝備道具。76~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37337" type="EtcItem" name="命運的支援禮盒-S級-1次(法師系列)">
+		<table name="#Desc">點兩下的話，就可得到法師系列角色需要的S級裝備道具。76~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37338" type="EtcItem" name="命運的支援禮盒-S級-1次(鬥士系列)">
+		<table name="#Desc">點兩下的話，就可得到鬥士系列角色需要的S級裝備道具。76~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37339" type="EtcItem" name="命運的支援禮盒-S級-1次(行者系列)">
+		<table name="#Desc">點兩下的話，就可得到行者系列角色需要的S級裝備道具。76~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37340" type="EtcItem" name="命運的支援禮盒-S級-1次(闇天使系列)">
+		<table name="#Desc">點兩下的話，就可得到闇天使系列角色需要的S級裝備道具。76~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37341" type="EtcItem" name="命運的支援禮盒-S級-1次(獸人戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人戰士系列角色需要的S級裝備道具。76~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37342" type="EtcItem" name="命運的支援禮盒-S級-1次(獸人法師系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人法師系列角色需要的S級裝備道具。76~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37343" type="EtcItem" name="命運的支援禮盒-S級-2次(戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到戰士系列角色需要的S級裝備道具。81~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37344" type="EtcItem" name="命運的支援禮盒-S級-2次(法師系列)">
+		<table name="#Desc">點兩下的話，就可得到法師系列角色需要的S級裝備道具。81~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37345" type="EtcItem" name="命運的支援禮盒-S級-2次(鬥士系列)">
+		<table name="#Desc">點兩下的話，就可得到鬥士系列角色需要的S級裝備道具。81~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37346" type="EtcItem" name="命運的支援禮盒-S級-2次(行者系列)">
+		<table name="#Desc">點兩下的話，就可得到行者系列角色需要的S級裝備道具。81~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37347" type="EtcItem" name="命運的支援禮盒-S級-2次(闇天使系列)">
+		<table name="#Desc">點兩下的話，就可得到闇天使系列角色需要的S級裝備道具。81~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37348" type="EtcItem" name="命運的支援禮盒-S級-2次(獸人戰士系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人戰士系列角色需要的S級裝備道具。81~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37349" type="EtcItem" name="命運的支援禮盒-S級-2次(獸人法師系列)">
+		<table name="#Desc">點兩下的話，就可得到獸人法師系列角色需要的S級裝備道具。81~84Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37350" type="EtcItem" name="命運的支援禮盒-R級(席格爾騎士)">
+		<table name="#Desc">點兩下的話，就可得到席格爾騎士角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37351" type="EtcItem" name="命運的支援禮盒-R級(提爾鬥士)">
+		<table name="#Desc">點兩下的話，就可得到提爾鬥士角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37352" type="EtcItem" name="命運的支援禮盒-R級(歐瑟遊俠)">
+		<table name="#Desc">點兩下的話，就可得到歐瑟遊俠角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37353" type="EtcItem" name="命運的支援禮盒-R級(尤爾弓手)">
+		<table name="#Desc">點兩下的話，就可得到尤爾弓手角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37354" type="EtcItem" name="命運的支援禮盒-R級(菲歐巫師)">
+		<table name="#Desc">點兩下的話，就可得到菲歐巫師角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37355" type="EtcItem" name="命運的支援禮盒-R級(維因召喚士)">
+		<table name="#Desc">點兩下的話，就可得到維因召喚士角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37356" type="EtcItem" name="命運的支援禮盒-R級(艾羅牧師)">
+		<table name="#Desc">點兩下的話，就可得到艾羅牧師角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37357" type="EtcItem" name="命運的支援禮盒-R級(伊斯法師)">
+		<table name="#Desc">點兩下的話，就可得到伊斯法師角色需要的裝備道具。85~99Lv可以使用。</table>
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37358" type="EtcItem" name="測試伺服器支援憑證">
+		<table name="#Desc">可否獲得林德拜爾支援禮盒的憑證。若有此憑證將無法獲得林德拜爾支援禮盒。無法轉移伺服器的道具。</table>
+		<set name="icon" val="icon.etc_coins_black_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37359" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖2個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37360" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖3個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37361" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖4個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37362" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖5個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37363" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖6個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37364" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖6個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37365" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖7個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37366" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖7個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37367" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖8個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37368" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖10個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37369" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖12個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37370" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖13個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37371" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖14個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37372" type="EtcItem" name="血盟專用獎勵">
+		<table name="#Desc">以血締結的決議！頒發給為了血盟成長努力的你的獎勵品。使用時，可以獲得活力充能星星糖15個。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37373" type="EtcItem" name="渾沌的碎片">
+		<table name="#Desc">接受渾沌之力時使用的渾沌的碎片。透過在英魂之墓「哈汀」變更雙職業時使用。</table>
+		<set name="icon" val="icon.etc_debris_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37374" type="EtcItem" name="渾沌香盒">
+		<table name="#Desc">透過在英魂之墓的「渾沌修道士」學習啟示技能時使用。</table>
+		<set name="icon" val="icon.etc_saint_pomander_bishop_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37375" type="EtcItem" name="渾沌香盒-雙職業用">
+		<table name="#Desc">透過在英魂之墓的「渾沌修道士」學習啟示技能時使用。（雙職業專用）</table>
+		<set name="icon" val="icon.etc_saint_pomander_bishop_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37376" type="Weapon" name="鋼鐵紅龍弓(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的紅龍弓。限時60日。</table>
+		<set name="icon" val="icon.weapon_draconic_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="581" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37377" type="Weapon" name="鋼鐵王朝弓(限時60日)">
+		<table name="#Desc">限制強化、搜魂、精煉等強化能力的王朝弓。限時60日。</table>
+		<set name="icon" val="icon.weapon_dynasty_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="510" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="654" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37378" type="EtcItem" name="光束武器加工石">
+		<set name="icon" val="BranchSys.Icon.br_spirit_skill_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37379" type="EtcItem" name="祝福的武器加工卷軸-R級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工武器外型的道具。可將R級武器變型為同一類型R級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_weapon_change_i06" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37380" type="EtcItem" name="祝福的武器加工卷軸-S級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工武器外型的道具。可將S級武器變型為同一類型S級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_weapon_change_i05" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37381" type="EtcItem" name="祝福的武器加工卷軸-A級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工武器外型的道具。可將A級武器變型為同一類型A級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_weapon_change_i04" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37382" type="EtcItem" name="祝福的武器加工卷軸-B級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工武器外型的道具。可將B級武器變型為同一類型B級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_weapon_change_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37383" type="EtcItem" name="祝福的武器加工卷軸-C級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工武器外型的道具。可將C級武器變型為同一類型C級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_weapon_change_i02" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37384" type="EtcItem" name="祝福的武器加工卷軸-D級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工武器外型的道具。可將D級武器變型為同一類型D級以下的武器。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_weapon_change_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37385" type="EtcItem" name="祝福的防具加工卷軸-R級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工防具外型的道具。可將R級防具變型為同一類型R級以下的防具。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_armor_change_i06" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37386" type="EtcItem" name="祝福的防具加工卷軸-S級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工防具外型的道具。可將S級防具變型為同一類型S級以下的防具。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_armor_change_i05" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37387" type="EtcItem" name="祝福的防具加工卷軸-A級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工防具外型的道具。可將A級防具變型為同一類型A級以下的防具。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_armor_change_i04" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37388" type="EtcItem" name="祝福的防具加工卷軸-B級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工防具外型的道具。可將B級防具變型為同一類型B級以下的防具。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_armor_change_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37389" type="EtcItem" name="祝福的防具加工卷軸-C級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工防具外型的道具。可將C級防具變型為同一類型C級以下的防具。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_armor_change_i02" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37390" type="EtcItem" name="祝福的防具加工卷軸-D級">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工防具外型的道具。可將D級防具變型為同一類型D級以下的防具。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。</table>
+		<set name="icon" val="icon.pr_armor_change_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37391" type="EtcItem" name="鋼鐵之門下級獎勵箱">
+		<table name="#Desc">鋼鐵之門公會為了亞丁世界真正的冒險家準備的下級獎勵箱。點兩下就能獲得道具。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37392" type="EtcItem" name="鋼鐵之門中級獎勵箱">
+		<table name="#Desc">鋼鐵之門公會為了亞丁世界真正的冒險家準備的中級獎勵箱。點兩下就能獲得道具。</table>
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37393" type="EtcItem" name="鋼鐵之門高級獎勵箱">
+		<table name="#Desc">鋼鐵之門公會為了亞丁世界真正的冒險家準備的高級獎勵箱。點兩下就能獲得道具。</table>
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37394" type="EtcItem" name="鋼鐵之門特級獎勵箱">
+		<table name="#Desc">鋼鐵之門公會為了亞丁世界真正的冒險家準備的特級獎勵箱。點兩下就能獲得道具。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37395" type="EtcItem" name="1000萬SP卷軸">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">1000萬SP充能卷軸。</table>
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37396" type="EtcItem" name="光束武器加工石禮盒">
+		<table name="#Desc">點兩下的話，可以獲得可轉換為光束武器外型的加工石。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37397" type="EtcItem" name="凱薩的支援">
+		<table name="#Desc">為了讓在掠奪者的岔路中隱身的怪物解除隱身時使用。</table>
+		<set name="icon" val="Icon.skill1050" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37398" type="EtcItem" name="黑色鐵砧次元禮盒">
+		<table name="#Desc">提供給從黑色鐵砧公會獲得次元城的血盟的禮盒。</table>
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37399" type="EtcItem" name="次元城主的支援禮盒">
+		<table name="#Desc">充滿次元城主感謝之意的支援禮盒。</table>
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

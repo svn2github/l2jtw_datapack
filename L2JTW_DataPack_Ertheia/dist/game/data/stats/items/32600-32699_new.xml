@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="32600" type="Armor" name="夢幻的薄暮皮頭盔">
+		<table name="#Plus">不使用</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="116" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32601" type="Armor" name="夢幻的薄暮頭盔">
+		<table name="#Plus">不使用</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="116" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32602" type="Armor" name="夢幻的薄暮衛盾">
+		<table name="#Plus">不使用</table>
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="371" />
+			<enchant order="0x0C" stat="sDef" val="0" />
+		</for>
+	</item>
+	<item id="32603" type="Armor" name="夢幻的薄暮符印">
+		<table name="#Plus">不使用</table>
+		<set name="icon" val="icon.verper_sigil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="17" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32604" type="EtcItem" name="支援用奧爾比斯獎勵箱">
+		<table name="#Desc">支援用奧爾比斯獎勵箱。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32605" type="EtcItem" name="上級奧爾比斯獎勵箱">
+		<table name="#Desc">上級奧爾比斯獎勵箱。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32606" type="EtcItem" name="高級奧爾比斯獎勵箱">
+		<table name="#Desc">高級奧爾比斯獎勵箱。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32607" type="EtcItem" name="特級奧爾比斯獎勵箱">
+		<table name="#Desc">特級奧爾比斯獎勵箱。</table>
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="32608" type="Armor" name="永生襯衫">
+		<table name="#Plus">HP</table>
+		<table name="#Desc">強化4以上時，將會賦予HP最大值增加301的精煉效果。</table>
+		<set name="icon" val="icon.r1_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="38" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32609" type="Armor" name="永生襯衫">
+		<table name="#Plus">MP</table>
+		<table name="#Desc">強化4以上時，將會賦予MP最大值增加148的精煉效果。</table>
+		<set name="icon" val="icon.r1_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="38" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32610" type="Armor" name="永生襯衫">
+		<table name="#Plus">CP</table>
+		<table name="#Desc">強化4以上時，將會賦予CP最大值增加811的精煉效果。</table>
+		<set name="icon" val="icon.r1_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="38" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32611" type="Armor" name="煉獄襯衫">
+		<table name="#Plus">HP</table>
+		<table name="#Desc">強化4以上時，將會賦予HP最大值增加316的精煉效果。</table>
+		<set name="icon" val="icon.r2_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32612" type="Armor" name="煉獄襯衫">
+		<table name="#Plus">MP</table>
+		<table name="#Desc">強化4以上時，將會賦予MP最大值增加162的精煉效果。</table>
+		<set name="icon" val="icon.r2_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32613" type="Armor" name="煉獄襯衫">
+		<table name="#Plus">CP</table>
+		<table name="#Desc">強化4以上時，將會賦予CP最大值增加851的精煉效果。</table>
+		<set name="icon" val="icon.r2_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="42" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32614" type="Armor" name="卡戴拉襯衫">
+		<table name="#Plus">HP</table>
+		<table name="#Desc">強化4以上時，將會賦予HP最大值增加332的精煉效果。</table>
+		<set name="icon" val="icon.r95_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32615" type="Armor" name="卡戴拉襯衫">
+		<table name="#Plus">MP</table>
+		<table name="#Desc">強化4以上時，將會賦予MP最大值增加176的精煉效果。</table>
+		<set name="icon" val="icon.r95_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32616" type="Armor" name="卡戴拉襯衫">
+		<table name="#Plus">CP</table>
+		<table name="#Desc">強化4以上時，將會賦予CP最大值增加894的精煉效果。</table>
+		<set name="icon" val="icon.r95_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32617" type="Armor" name="艾迪奧斯襯衫">
+		<table name="#Plus">HP</table>
+		<table name="#Desc">強化4以上時，將會賦予HP最大值增加339的精煉效果。</table>
+		<set name="icon" val="icon.r991_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32618" type="Armor" name="艾迪奧斯襯衫">
+		<table name="#Plus">MP</table>
+		<table name="#Desc">強化4以上時，將會賦予MP最大值增加182的精煉效果。</table>
+		<set name="icon" val="icon.r991_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32619" type="Armor" name="艾迪奧斯襯衫">
+		<table name="#Plus">CP</table>
+		<table name="#Desc">強化4以上時，將會賦予CP最大值增加912的精煉效果。</table>
+		<set name="icon" val="icon.r991_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32620" type="Armor" name="下級魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32621" type="Armor" name="普通魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32622" type="Armor" name="上級魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32623" type="Armor" name="特級魔法古文夾永生腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32624" type="Armor" name="下級魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32625" type="Armor" name="普通魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32626" type="Armor" name="上級魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32627" type="Armor" name="特級魔法古文夾永生腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32628" type="Armor" name="下級魔法飾品永生腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32629" type="Armor" name="普通魔法飾品永生腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32630" type="Armor" name="上級魔法飾品永生腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32631" type="Armor" name="特級魔法飾品永生腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32632" type="Armor" name="下級魔法飾品永生腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32633" type="Armor" name="普通魔法飾品永生腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32634" type="Armor" name="上級魔法飾品永生腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32635" type="Armor" name="特級魔法飾品永生腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32636" type="Armor" name="下級魔法飾品永生腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32637" type="Armor" name="普通魔法飾品永生腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32638" type="Armor" name="上級魔法飾品永生腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32639" type="Armor" name="特級魔法飾品永生腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32640" type="Armor" name="下級魔法古文夾煉獄腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32641" type="Armor" name="普通魔法古文夾煉獄腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32642" type="Armor" name="上級魔法古文夾煉獄腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32643" type="Armor" name="特級魔法古文夾煉獄腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32644" type="Armor" name="下級魔法古文夾煉獄腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32645" type="Armor" name="普通魔法古文夾煉獄腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32646" type="Armor" name="上級魔法古文夾煉獄腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32647" type="Armor" name="特級魔法古文夾煉獄腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32648" type="Armor" name="下級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32649" type="Armor" name="普通魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32650" type="Armor" name="上級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32651" type="Armor" name="特級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32652" type="Armor" name="下級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32653" type="Armor" name="普通魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32654" type="Armor" name="上級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32655" type="Armor" name="特級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32656" type="Armor" name="下級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32657" type="Armor" name="普通魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32658" type="Armor" name="上級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32659" type="Armor" name="特級魔法飾品煉獄腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32660" type="Armor" name="下級魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32661" type="Armor" name="普通魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32662" type="Armor" name="上級魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32663" type="Armor" name="特級魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32664" type="Armor" name="下級魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32665" type="Armor" name="普通魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32666" type="Armor" name="上級魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32667" type="Armor" name="特級魔法古文夾卡戴拉腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32668" type="Armor" name="下級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32669" type="Armor" name="普通魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32670" type="Armor" name="上級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32671" type="Armor" name="特級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32672" type="Armor" name="下級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32673" type="Armor" name="普通魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32674" type="Armor" name="上級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32675" type="Armor" name="特級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32676" type="Armor" name="下級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32677" type="Armor" name="普通魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32678" type="Armor" name="上級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32679" type="Armor" name="特級魔法飾品卡戴拉腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32680" type="Armor" name="下級魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32681" type="Armor" name="普通魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32682" type="Armor" name="上級魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32683" type="Armor" name="特級魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">HP恢復</table>
+		<table name="#Desc">增加HP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32684" type="Armor" name="下級魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32685" type="Armor" name="普通魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32686" type="Armor" name="上級魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32687" type="Armor" name="特級魔法古文夾艾迪奧斯腰帶">
+		<table name="#Plus">MP恢復</table>
+		<table name="#Desc">增加MP恢復速度。</table>
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32688" type="Armor" name="下級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32689" type="Armor" name="普通魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32690" type="Armor" name="上級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32691" type="Armor" name="特級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP一般攻擊</table>
+		<table name="#Desc">一般攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32692" type="Armor" name="下級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32693" type="Armor" name="普通魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32694" type="Armor" name="上級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32695" type="Armor" name="特級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP技能攻擊</table>
+		<table name="#Desc">技能攻擊時，提升PvP攻擊力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32696" type="Armor" name="下級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32697" type="Armor" name="普通魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32698" type="Armor" name="上級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="32699" type="Armor" name="特級魔法飾品艾迪奧斯腰帶">
+		<table name="#Plus">PvP防禦</table>
+		<table name="#Desc">提升PvP一般/技能防禦力。</table>
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+</list>

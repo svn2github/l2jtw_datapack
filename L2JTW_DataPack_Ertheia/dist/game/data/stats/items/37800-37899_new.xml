@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="37800" type="EtcItem" name="守護藥水-空中束縛">
+		<table name="#Desc">使用時，有增加空中束縛攻擊抗性5%的效果。無法使用於奧林匹克/渾沌祭典。和其他種類守護藥水一起使用時效果無法重疊。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i11" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37801" type="EtcItem" name="血腥艾迪奧斯強化石碎片">
+		<table name="#Desc">把10個碎片拿去交給財富的鐵匠的話，可以得到血腥艾迪奧斯強化石。</table>
+		<set name="icon" val="icon.energy_condenser_fragment_pvp" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37802" type="EtcItem" name="黑暗艾迪奧斯強化石碎片">
+		<table name="#Desc">把10個碎片拿去交給財富的鐵匠的話，可以得到黑暗艾迪奧斯強化石。</table>
+		<set name="icon" val="icon.energy_condenser_fragment_pve" />
+		<set name="material" val="LEATHER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37803" type="EtcItem" name="大師余義的特殊武器強化卷軸">
+		<table name="#Desc">凝結大師余義道力的特殊武器強化卷軸。只能用於大師余義的魔杖，強化失敗時，將不會破壞道具並且維持既有的強化數值。無法使用於+15以上的大師余義的魔杖。無法使用增加強化機率的道具。</table>
+		<set name="icon" val="icon.yogi_scroll_of_enchant_weapon_grade_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37804" type="Armor" name="金色貴族三重冕">
+		<set name="icon" val="icon.accessory_noblesse2_tiara_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="37805" type="Weapon" name="大師余義的魔杖">
+		<table name="#Desc">可測試你運氣的大師余義的魔杖。多多益善！將會有不錯的報酬等著你。</table>
+		<set name="icon" val="icon.yogi_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="11" />
+			<set order="0x08" stat="mAtk" val="12" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37806" type="Weapon" name="大師余義的魔杖">
+		<table name="#Desc">可測試你運氣的大師余義的魔杖。多多益善！將會有不錯的報酬等著你。</table>
+		<set name="icon" val="icon.yogi_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="11" />
+			<set order="0x08" stat="mAtk" val="12" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37807" type="Weapon" name="大師余義的魔杖">
+		<table name="#Desc">可測試你運氣的大師余義的魔杖。多多益善！將會有不錯的報酬等著你。</table>
+		<set name="icon" val="icon.yogi_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="11" />
+			<set order="0x08" stat="mAtk" val="12" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37808" type="Weapon" name="大師余義的魔杖">
+		<table name="#Desc">可測試你運氣的大師余義的魔杖。多多益善！將會有不錯的報酬等著你。</table>
+		<set name="icon" val="icon.yogi_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="11" />
+			<set order="0x08" stat="mAtk" val="12" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37809" type="EtcItem" name="神秘的結晶">
+		<table name="#Desc">大師余義道力的集合體。只要連同+15~+17大師余義的魔杖一起帶來，就能夠換取到更好的道具。</table>
+		<set name="icon" val="icon.etc_unholy_crystal_1_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37810" type="Armor" name="金屬套裝頭飾">
+		<table name="#Desc">金屬套裝頭飾。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_hair" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="37811" type="Armor" name="金屬套裝胸甲">
+		<table name="#Desc">金屬套裝胸甲。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_u" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="37812" type="Armor" name="金屬套裝脛甲">
+		<table name="#Desc">金屬套裝脛甲。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_l" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="37813" type="Armor" name="金屬套裝護手">
+		<table name="#Desc">金屬套裝護手。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_g" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="37814" type="Armor" name="金屬套裝靴">
+		<table name="#Desc">金屬套裝靴。用於服飾。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_b" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="37815" type="EtcItem" name="金屬套裝禮盒">
+		<table name="#Desc">內裝有金屬套裝頭飾/胸甲/脛甲/靴/護手限時30日加工石的神祕禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37816" type="EtcItem" name="金屬套裝頭飾加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">在30日之內可將頭飾轉變成金屬套裝頭飾外型的加工石。只能加工佔用欄位2格的頭飾。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37817" type="EtcItem" name="金屬套裝胸甲加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">在30日之內可將上衣轉變成金屬套裝胸甲外型的加工石。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37818" type="EtcItem" name="金屬套裝脛甲加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">在30日之內可將下衣轉變成金屬套裝脛甲外型的加工石。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_legs" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37819" type="EtcItem" name="金屬套裝護手加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">在30日之內可將手套轉變成金屬套裝護手外型的加工石。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_gloves" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37820" type="EtcItem" name="金屬套裝靴加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">在30日之內可將靴子轉變成金屬套裝靴外型的加工石。</table>
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_feet" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37821" type="EtcItem" name="金屬套裝變身藥劑">
+		<table name="#Desc">在1小時內可變換成裝備金屬套裝的外型。</table>
+		<set name="icon" val="icon.etc_whiteday_herb" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37822" type="EtcItem" name="移動卷軸-地獄邊界">
+		<table name="#Desc">可以移動到地獄邊界的卷軸。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37823" type="EtcItem" name="黎歐納的禮物">
+		<table name="#Desc">對於擊退地獄邊界的邪惡力量有所幫助的英雄們，黎歐納所給的禮物。未滿99級無法使用。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37824" type="EtcItem" name="頭飾加工石交換券">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可交換特別外型的頭飾加工石（限時15日）的道具。可透過冒險者助手交換。</table>
+		<set name="icon" val="icon..etc_level_bustup_ticket_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37825" type="EtcItem" name="頭飾加工石交換券">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可交換特別外型的頭飾加工石（限時30日）的道具。可透過冒險者助手交換。</table>
+		<set name="icon" val="icon..etc_level_bustup_ticket_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37826" type="EtcItem" name="NC Dinos帽加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可以加工頭飾外型成為NC Dinos帽（限時15日）的道具。可變更使用欄位數量相同的道具之外型。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。\n\n注意：若加工為女性專用頭飾外型的話，男性角色則無法裝備。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair1" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37827" type="EtcItem" name="NC Dinos帽加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工頭飾外型成為NC Dinos帽（限時30日）的道具。可變更使用欄位數量相同的道具之外型。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。\n\n注意：若加工為女性專用頭飾外型的話，男性角色則無法裝備。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair1" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37828" type="EtcItem" name="佐羅帽加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可以加工頭飾外型成為佐羅帽（限時15日）的道具。可變更使用欄位數量相同的道具之外型。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。\n\n注意：若加工為女性專用頭飾外型的話，男性角色則無法裝備。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37829" type="EtcItem" name="佐羅帽加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可以加工頭飾外型成為佐羅帽（限時30日）的道具。可變更使用欄位數量相同的道具之外型。需要用到可以提煉外型的道具，提煉過的道具不會被刪除。加工外型的道具其能力值不會有任何變動。點兩下的話就可使用。\n\n注意：若加工為女性專用頭飾外型的話，男性角色則無法裝備。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37830" type="EtcItem" name="白色情人節武器加工石交換券">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可交換特別外型的武器加工石（限時15日）的道具。可透過冒險者助手交換。</table>
+		<set name="icon" val="icon.etc_level_bustup_ticket_i01" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37831" type="EtcItem" name="白色情人節武器加工石交換券">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可交換特別外型的武器加工石（限時30日）的道具。可透過冒險者助手交換。</table>
+		<set name="icon" val="icon.etc_level_bustup_ticket_i01" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37832" type="EtcItem" name="白色情人節匕首加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將匕首變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37833" type="EtcItem" name="白色情人節單手劍加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手劍變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37834" type="EtcItem" name="白色情人節雙手劍加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙手劍變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37835" type="EtcItem" name="白色情人節單手鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手鈍器變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37836" type="EtcItem" name="白色情人節格鬥兵器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將格鬥兵器變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualfist" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37837" type="EtcItem" name="白色情人節槍矛加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將槍矛變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_pole" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37838" type="EtcItem" name="白色情人節弓加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將弓變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_bow" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37839" type="EtcItem" name="白色情人節弩弓加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將弩弓變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_crossbow" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37840" type="EtcItem" name="白色情人節單手魔法劍加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手魔法劍變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37841" type="EtcItem" name="白色情人節單手魔法鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手魔法鈍器變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_magic_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37842" type="EtcItem" name="白色情人節雙手魔法鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙手魔法鈍器變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_magic_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37843" type="EtcItem" name="白色情人節雙刀加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將二刀流變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dual" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37844" type="EtcItem" name="白色情人節雙匕首加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙匕首變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualdagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37845" type="EtcItem" name="白色情人節雙鈍器加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙鈍器變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualblunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37846" type="EtcItem" name="白色情人節盾加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將盾牌變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_shield" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37847" type="EtcItem" name="白色情人節符印加工石">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將符印變換為白色情人節武器外型的加工石。限時15日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sigil" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37848" type="EtcItem" name="白色情人節匕首加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將匕首變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37849" type="EtcItem" name="白色情人節單手劍加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將單手劍變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37850" type="EtcItem" name="白色情人節雙手劍加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將雙手劍變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37851" type="EtcItem" name="白色情人節單手鈍器加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將單手鈍器變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37852" type="EtcItem" name="白色情人節格鬥兵器加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將格鬥兵器變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualfist" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37853" type="EtcItem" name="白色情人節槍加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將槍矛變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_pole" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37854" type="EtcItem" name="白色情人節弓加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將弓變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_bow" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37855" type="EtcItem" name="白色情人節弩弓加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將弩弓變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_crossbow" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37856" type="EtcItem" name="白色情人節單手魔法劍加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將單手魔法劍變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37857" type="EtcItem" name="白色情人節單手魔法鈍器加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將單手魔法鈍器變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_magic_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37858" type="EtcItem" name="白色情人節雙手魔法鈍器加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將雙手魔法鈍器變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_magic_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37859" type="EtcItem" name="白色情人節雙刀加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將二刀流變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dual" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37860" type="EtcItem" name="白色情人節雙匕首加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將雙匕首變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualdagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37861" type="EtcItem" name="白色情人節雙鈍器加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將雙鈍器變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualblunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37862" type="EtcItem" name="白色情人節盾加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將盾牌變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_shield" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37863" type="EtcItem" name="白色情人節符印加工石">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">可將符印變換為白色情人節武器外型的加工石。限時30日道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sigil" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37864" type="EtcItem" name="新手英雄SP卷軸">
+		<table name="#Desc">點兩下的話，可以獲得100萬SP。</table>
+		<set name="icon" val="icon.etc_sp_scroll1_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37865" type="EtcItem" name="中堅英雄SP卷軸">
+		<table name="#Desc">點兩下的話，可以獲得500萬SP。</table>
+		<set name="icon" val="icon.etc_sp_scroll2_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37866" type="EtcItem" name="高手英雄SP卷軸">
+		<table name="#Desc">點兩下的話，可以獲得1000萬SP。</table>
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37867" type="EtcItem" name="英雄的插曲卷軸">
+		<table name="#Desc">使用時，賦予30分鐘內增加物理攻擊力10%、魔法攻擊力21%、物理防禦力15%、魔法防禦力15%、HP/MP/CP最大值15%的效果。死亡時效果將不會消失。無法使用於奧林匹亞/渾沌祭典。</table>
+		<set name="icon" val="icon.etc_cave_page_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37868" type="Weapon" name="英雄武器-匕首">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_dagger_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="881" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="37869" type="Weapon" name="英雄武器-單手劍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_sword_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37870" type="Weapon" name="英雄武器-雙手劍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_two_handed_sword_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37871" type="Weapon" name="英雄武器-單手鈍器">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_axe_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37872" type="Weapon" name="英雄武器-格鬥兵器">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_fist_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37873" type="Weapon" name="英雄武器-槍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_pole_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37874" type="Weapon" name="英雄武器-弓">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_bow_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1983" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="37875" type="Weapon" name="英雄武器-弩弓">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_infinity_shooter" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1786" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37876" type="Weapon" name="英雄武器-單手魔法劍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_infinity_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="805" />
+			<set order="0x08" stat="mAtk" val="696" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37877" type="Weapon" name="英雄武器-單手魔法鈍器">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_mace_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="805" />
+			<set order="0x08" stat="mAtk" val="696" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37878" type="Weapon" name="英雄武器-雙手魔法鈍器">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_the_staff_of_hero" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="981" />
+			<set order="0x08" stat="mAtk" val="765" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37879" type="Weapon" name="英雄武器-雙刀">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_r_dualsword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37880" type="Weapon" name="英雄武器-雙匕首">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_r_dualdagger" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1007" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="37881" type="Weapon" name="英雄武器-雙鈍器">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">充滿英雄力量的武器。可適用於所有等級。限時15日。必須使用普通靈魂彈/魔靈彈/祝福的魔靈彈。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.bm_r_dualblunt" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="1225" />
+			<set order="0x08" stat="mAtk" val="521" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37882" type="EtcItem" name="英雄武器交換券">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可以交換英雄武器(限時15日)的道具。可透過冒險者助手交換。</table>
+		<set name="icon" val="icon.etc_exchange_ticket_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37883" type="EtcItem" name="插曲禮盒">
+		<table name="#Desc">裝著英雄禮物的寶箱。點兩下的話，可以獲得各種變更外型的交換石/SP卷軸。</table>
+		<set name="icon" val="icon.new_user_box" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37884" type="EtcItem" name="英雄徽章">
+		<table name="#Desc">英雄的插曲活動道具。活動結束後，依照獲得的數量個別給予角色遊戲內獎勵。</table>
+		<set name="icon" val="icon.tiat_seal_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37885" type="EtcItem" name="英雄之力">
+		<table name="#Desc">英雄的插曲活動道具。活動結束後，在Live伺服器內可透過冒險者助手交換經驗值卷軸/SP古文。</table>
+		<set name="icon" val="icon.tersi_specter_seed" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37886" type="EtcItem" name="英雄經驗值卷軸">
+		<table name="#Desc">1億EXP充能卷軸。只有等級85以上的角色可以使用，未滿等級98的角色使用的話，只會適用充能經驗值30%。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.exp_bottle_scroll" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37887" type="EtcItem" name="英雄SP古文">
+		<table name="#Plus">限時1日</table>
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得SP10%。限時1日的道具，無法使用於奧林匹亞。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37888" type="Armor" name="佐羅帽">
+		<table name="#Desc">佐羅帽</table>
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="37889" type="EtcItem" name="成長藥草">
+		<table name="#Desc">在10分鐘內增加透過狩獵的所得經驗值和SP50%。</table>
+		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37890" type="EtcItem" name="強力成長藥草">
+		<table name="#Desc">在10分鐘內增加透過狩獵的所得經驗值和SP100%。</table>
+		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37891" type="EtcItem" name="超強力成長藥草">
+		<table name="#Desc">在5分鐘內，增加透過狩獵的所得經驗值和SP200%。</table>
+		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="37892" type="EtcItem" name="黎歐納報酬箱">
+		<table name="#Desc">黎歐納 布拉克巴德作為幫助地獄邊界的代價給予的報酬箱。點兩下的話，可以獲得道具。</table>
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37893" type="EtcItem" name="血染的惡魔的古書">
+		<table name="#Desc">染著商隊之血的惡魔的古書。在難民村莊的古書管理商隊 布丹卡正在收集中。</table>
+		<set name="icon" val="icon.etc_codex_of_giant_i03" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37894" type="EtcItem" name="進階型勇士的瞬間體力治癒藥水">
+		<table name="#Desc">使用時恢復HP5000，剩餘的威力將用來恢復CP。但無持續時間。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="180" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37895" type="EtcItem" name="SP古文-下級">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得SP10%。限時7日。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE_SELECT" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+	</item>
+	<item id="37896" type="EtcItem" name="SP古文-中級">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得SP20%。限時7日。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE_SELECT" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+	</item>
+	<item id="37897" type="EtcItem" name="SP古文-上級">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">裝載於道具清單時，增加透過狩獵的所得SP30%。限時7日。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE_SELECT" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+	</item>
+	<item id="37898" type="EtcItem" name="下級SP古文限時1日禮盒">
+		<table name="#Desc">點兩下時，可以獲得下級SP古文限時1日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37899" type="EtcItem" name="中級SP古文限時1日禮盒">
+		<table name="#Desc">點兩下時，可以獲得中級SP古文限時1日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="39200" type="Armor" name="+6 艾迪奧斯長襪交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的艾迪奧斯長襪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t703_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+	</item>
+	<item id="39201" type="Armor" name="+6 艾迪奧斯手套交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的艾迪奧斯手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t703_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39202" type="Armor" name="+6 艾迪奧斯鞋交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的艾迪奧斯鞋。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t703_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39203" type="Armor" name="+6 艾迪奧斯符印交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的艾迪奧斯符印。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.elos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+	</item>
+	<item id="39204" type="Armor" name="+8 艾迪奧斯頭盔交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39205" type="Armor" name="+8 艾迪奧斯胸甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯胸甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t701_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+	</item>
+	<item id="39206" type="Armor" name="+8 艾迪奧斯脛甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t701_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+	</item>
+	<item id="39207" type="Armor" name="+8 艾迪奧斯護手交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯護手。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t701_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39208" type="Armor" name="+8 艾迪奧斯靴交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t701_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39209" type="Armor" name="+8 艾迪奧斯盾交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯盾。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_akra_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+	</item>
+	<item id="39210" type="Armor" name="+8 艾迪奧斯皮頭盔交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯皮頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39211" type="Armor" name="+8 艾迪奧斯皮甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯皮甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t702_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+	</item>
+	<item id="39212" type="Armor" name="+8 艾迪奧斯皮脛甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯皮脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t702_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+	</item>
+	<item id="39213" type="Armor" name="+8 艾迪奧斯皮手套交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯皮手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t702_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39214" type="Armor" name="+8 艾迪奧斯皮靴交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯皮靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t702_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39215" type="Armor" name="+8 艾迪奧斯頭箍交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯頭箍。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39216" type="Armor" name="+8 艾迪奧斯外衣交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯外衣。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t703_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+	</item>
+	<item id="39217" type="Armor" name="+8 艾迪奧斯長襪交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯長襪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t703_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+	</item>
+	<item id="39218" type="Armor" name="+8 艾迪奧斯手套交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t703_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39219" type="Armor" name="+8 艾迪奧斯鞋交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯鞋。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t703_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39220" type="Armor" name="+8 艾迪奧斯符印交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的艾迪奧斯符印。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.elos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+	</item>
+	<item id="39221" type="Armor" name="+5 卡戴拉頭盔交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39222" type="Armor" name="+5 卡戴拉胸甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉胸甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+	</item>
+	<item id="39223" type="Armor" name="+5 卡戴拉脛甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+	</item>
+	<item id="39224" type="Armor" name="+5 卡戴拉護手交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉護手。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39225" type="Armor" name="+5 卡戴拉靴交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39226" type="Armor" name="+5 卡戴拉盾交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉盾。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.beranka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+	</item>
+	<item id="39227" type="Armor" name="+5 卡戴拉皮頭盔交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉皮頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39228" type="Armor" name="+5 卡戴拉皮甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉皮甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+	</item>
+	<item id="39229" type="Armor" name="+5 卡戴拉皮脛甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉皮脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+	</item>
+	<item id="39230" type="Armor" name="+5 卡戴拉皮手套交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉皮手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39231" type="Armor" name="+5 卡戴拉皮靴交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉皮靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39232" type="Armor" name="+5 卡戴拉頭箍交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉頭箍。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39233" type="Armor" name="+5 卡戴拉外衣交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉外衣。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+	</item>
+	<item id="39234" type="Armor" name="+5 卡戴拉長襪交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉長襪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+	</item>
+	<item id="39235" type="Armor" name="+5 卡戴拉手套交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39236" type="Armor" name="+5 卡戴拉鞋交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉鞋。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39237" type="Armor" name="+5 卡戴拉符印交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的卡戴拉符印。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.airtoil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+	</item>
+	<item id="39238" type="Armor" name="+6 卡戴拉頭盔交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39239" type="Armor" name="+6 卡戴拉胸甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉胸甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+	</item>
+	<item id="39240" type="Armor" name="+6 卡戴拉脛甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+	</item>
+	<item id="39241" type="Armor" name="+6 卡戴拉護手交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉護手。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39242" type="Armor" name="+6 卡戴拉靴交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39243" type="Armor" name="+6 卡戴拉盾交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉盾。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.beranka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+	</item>
+	<item id="39244" type="Armor" name="+6 卡戴拉皮頭盔交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉皮頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39245" type="Armor" name="+6 卡戴拉皮甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉皮甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+	</item>
+	<item id="39246" type="Armor" name="+6 卡戴拉皮脛甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉皮脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+	</item>
+	<item id="39247" type="Armor" name="+6 卡戴拉皮手套交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉皮手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39248" type="Armor" name="+6 卡戴拉皮靴交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉皮靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39249" type="Armor" name="+6 卡戴拉頭箍交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉頭箍。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39250" type="Armor" name="+6 卡戴拉外衣交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉外衣。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+	</item>
+	<item id="39251" type="Armor" name="+6 卡戴拉長襪交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉長襪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+	</item>
+	<item id="39252" type="Armor" name="+6 卡戴拉手套交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39253" type="Armor" name="+6 卡戴拉鞋交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉鞋。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39254" type="Armor" name="+6 卡戴拉符印交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的卡戴拉符印。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.airtoil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+	</item>
+	<item id="39255" type="Armor" name="+8 卡戴拉頭盔交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39256" type="Armor" name="+8 卡戴拉胸甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉胸甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+	</item>
+	<item id="39257" type="Armor" name="+8 卡戴拉脛甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+	</item>
+	<item id="39258" type="Armor" name="+8 卡戴拉護手交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉護手。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39259" type="Armor" name="+8 卡戴拉靴交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t401_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39260" type="Armor" name="+8 卡戴拉盾交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉盾。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.beranka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+	</item>
+	<item id="39261" type="Armor" name="+8 卡戴拉皮頭盔交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉皮頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39262" type="Armor" name="+8 卡戴拉皮甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉皮甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+	</item>
+	<item id="39263" type="Armor" name="+8 卡戴拉皮脛甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉皮脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+	</item>
+	<item id="39264" type="Armor" name="+8 卡戴拉皮手套交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉皮手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39265" type="Armor" name="+8 卡戴拉皮靴交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉皮靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t402_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39266" type="Armor" name="+8 卡戴拉頭箍交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉頭箍。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39267" type="Armor" name="+8 卡戴拉外衣交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉外衣。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+	</item>
+	<item id="39268" type="Armor" name="+8 卡戴拉長襪交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉長襪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+	</item>
+	<item id="39269" type="Armor" name="+8 卡戴拉手套交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39270" type="Armor" name="+8 卡戴拉鞋交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉鞋。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t403_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39271" type="Armor" name="+8 卡戴拉符印交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化8的卡戴拉符印。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.airtoil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+	</item>
+	<item id="39272" type="Armor" name="+5 煉獄頭盔交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39273" type="Armor" name="+5 煉獄胸甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄胸甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+	</item>
+	<item id="39274" type="Armor" name="+5 煉獄脛甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+	</item>
+	<item id="39275" type="Armor" name="+5 煉獄護手交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄護手。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39276" type="Armor" name="+5 煉獄靴交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39277" type="Armor" name="+5 煉獄盾交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄盾。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.kratere_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+	</item>
+	<item id="39278" type="Armor" name="+5 煉獄皮頭盔交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄皮頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39279" type="Armor" name="+5 煉獄皮甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄皮甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+	</item>
+	<item id="39280" type="Armor" name="+5 煉獄皮脛甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄皮脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+	</item>
+	<item id="39281" type="Armor" name="+5 煉獄皮手套交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄皮手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39282" type="Armor" name="+5 煉獄皮靴交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄皮靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39283" type="Armor" name="+5 煉獄頭箍交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄頭箍。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39284" type="Armor" name="+5 煉獄外衣交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄外衣。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t603_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+	</item>
+	<item id="39285" type="Armor" name="+5 煉獄長襪交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄長襪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t603_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+	</item>
+	<item id="39286" type="Armor" name="+5 煉獄手套交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t603_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39287" type="Armor" name="+5 煉獄鞋交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄鞋。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t603_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39288" type="Armor" name="+5 煉獄符印交換券">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化5的煉獄符印。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_dynaksus_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+	</item>
+	<item id="39289" type="Armor" name="+6 煉獄頭盔交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39290" type="Armor" name="+6 煉獄胸甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄胸甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+	</item>
+	<item id="39291" type="Armor" name="+6 煉獄脛甲交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+	</item>
+	<item id="39292" type="Armor" name="+6 煉獄護手交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄護手。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39293" type="Armor" name="+6 煉獄靴交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t601_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+	<item id="39294" type="Armor" name="+6 煉獄盾交換券">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄盾。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.kratere_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+	</item>
+	<item id="39295" type="Armor" name="+6 煉獄皮頭盔交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄皮頭盔。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+	</item>
+	<item id="39296" type="Armor" name="+6 煉獄皮甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄皮甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+	</item>
+	<item id="39297" type="Armor" name="+6 煉獄皮脛甲交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄皮脛甲。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+	</item>
+	<item id="39298" type="Armor" name="+6 煉獄皮手套交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄皮手套。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+	</item>
+	<item id="39299" type="Armor" name="+6 煉獄皮靴交換券">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">拿去交給回憶的碎片執行者「渾沌的年代」，就能交換完成強化6的煉獄皮靴。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.armor_t602_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+	</item>
+</list>

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="23200" type="EtcItem" name="台灣傳統衣裳加工石組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有台灣傳統衣裳上衣/下衣/手套/鞋/頭飾加工石的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23201" type="EtcItem" name="黑暗飾品箱">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下時，可以獲得安塔瑞斯耳環/巴拉卡斯項鍊/地蟲心臟戒指/裝有安塔瑞斯靈魂之瓶/裝有巴拉卡斯靈魂之瓶之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23202" type="Armor" name="閃耀的X235行星面具">
+		<table name="#Desc">發出燦爛光芒的X235行星面具。裝備時，會產生體質+1、精神+1、智力+1的效果。3日限時道具。</table>
+		<set name="icon" val="icon.ev_shiny_alien_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="23203" type="Armor" name="閃耀的科學怪人面具">
+		<table name="#Desc">發出燦爛光芒的科學怪人面具。裝備時，會產生體質+1、力量+1、敏捷+1的效果。3日限時道具。</table>
+		<set name="icon" val="icon.ev_shiny_frankenstein_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="23204" type="Armor" name="閃耀的驚聲尖叫面具">
+		<table name="#Desc">發出燦爛光芒的驚聲尖叫面具。裝備時，會產生體質+1、敏捷+1、智慧+1的效果。3日限時道具。</table>
+		<set name="icon" val="icon.ev_shiny_scream_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="23205" type="Armor" name="閃耀的憤怒精靈面具">
+		<table name="#Desc">發出燦爛光芒的憤怒精靈面具。裝備時，會產生智力+1、精神+1、智慧+1的效果。3日限時道具。</table>
+		<set name="icon" val="icon.ev_shiny_doccabi_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="23206" type="Armor" name="閃耀的不朽骸骨面具">
+		<table name="#Desc">發出燦爛光芒的不朽骸骨面具。裝備時，會產生力量+1、敏捷+1、智慧+1的效果。3日限時道具。</table>
+		<set name="icon" val="icon.ev_shiny_mummy_mask_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="23207" type="EtcItem" name="調皮頭飾禮盒">
+		<table name="#Desc">使用時，可以獲得適合夏季慶典的調皮的頭飾之一。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23208" type="EtcItem" name="再生的紅色藥水">
+		<table name="#Desc">使用時恢復HP3000，剩餘的威力將用來恢復CP，但無持續時間。</table>
+		<set name="icon" val="BranchSys2.br_essence_rose_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23209" type="EtcItem" name="恢復的藍色藥水">
+		<table name="#Desc">可瞬間恢復魔力的魔法藥水，但無持續時間。</table>
+		<set name="icon" val="BranchSys.icon.br_vitality_potion_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23210" type="EtcItem" name="殭屍變身卷軸">
+		<table name="#Desc">使用時，可以變身為瘟疫殭屍30分鐘。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23211" type="EtcItem" name="龍獸衝槌加工石">
+		<table name="#Desc">可將雙手鈍器轉換為龍獸衝槌外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23212" type="EtcItem" name="芙蕾雅魔杖加工石">
+		<table name="#Desc">可將雙手鈍器轉換為芙蕾雅魔杖外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23213" type="EtcItem" name="斯佩席亞戰爪加工石">
+		<table name="#Desc">可將雙手格鬥兵器轉換為斯佩席亞戰爪外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualfist" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23214" type="EtcItem" name="梅莉莎風暴者加工石">
+		<table name="#Desc">可將槍武器轉換為梅莉莎風暴者外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_pole" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23215" type="EtcItem" name="斯泰里格斯匕首加工石">
+		<table name="#Desc">可將單手匕首武器轉換為斯泰里格斯匕首外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23216" type="EtcItem" name="普倫雙鈍器加工石">
+		<table name="#Desc">可將雙鈍器武器轉換為普倫雙鈍器外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualblunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23217" type="EtcItem" name="達里昂的貫雷劍加工石">
+		<table name="#Desc">可將單手劍武器轉換為達里昂的貫雷劍外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23218" type="EtcItem" name="人偶刀手的庖刀">
+		<table name="#Desc">可將雙匕首武器轉換為人偶刀手的庖刀外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualdagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23219" type="EtcItem" name="蒂雅特的蒂雅堤諾加工石">
+		<table name="#Desc">可將單手鈍器武器轉換為蒂雅特的蒂雅堤諾外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23220" type="EtcItem" name="亞恩奇奈爾的阿斯塔洛特加工石">
+		<table name="#Desc">可將雙刀武器轉換為亞恩奇奈爾的阿斯塔洛特外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dual" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23221" type="EtcItem" name="艾罕 克蘭尼庫斯的提爾鋒加工石">
+		<table name="#Desc">可將雙手劍武器轉換為提爾鋒外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23222" type="EtcItem" name="瑪蒂之風的加工石">
+		<table name="#Desc">可將單手劍武器轉換為瑪蒂之風外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23223" type="EtcItem" name="怪物武器加工石禮盒A">
+		<table name="#Desc">使用時，可以獲得龍獸衝槌、斯佩席亞戰爪、斯泰里格斯匕首、達里昂的貫雷劍、蒂雅特的蒂雅堤諾、艾罕 克蘭尼庫斯的提爾鋒之一的武器加工石。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23224" type="EtcItem" name="怪物武器加工石禮盒B">
+		<table name="#Desc">使用時，可以獲得芙蕾雅魔杖、梅莉莎風暴者、普倫雙鈍器、人偶刀手的庖刀、亞恩奇奈爾的阿斯塔洛特、瑪蒂之風之一的武器加工石。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23225" type="EtcItem" name="靈魂具現體用超大型能量種子">
+		<table name="#Desc">維他命道具\n使用的話，可恢復靈魂具現體的所有能量（最多200000）。在裝備靈魂具現體，且消耗的能量超過10000點以上時，才可補充能量。</table>
+		<set name="icon" val="BranchSys.icon.br_shield_bread_i01" />
+		<set name="material" val="GOLD" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23226" type="Armor" name="誘人泳裝">
+		<table name="#Desc">印有著華麗紋樣的誘人泳裝。</table>
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+	</item>
+	<item id="23227" type="EtcItem" name="蘋果氣泡水">
+		<table name="#Desc">使用清涼蘋果汁的話，可以維持30分鐘的活力。使用冷卻時間為60分鐘。限制使用次數的活力道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_apfelschorle_germany" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23228" type="EtcItem" name="烤香腸">
+		<table name="#Desc">使用美味香腸的話，透過狩獵獲得經驗值時，將會充足活力30分鐘。限制使用次數的活力道具。</table>
+		<set name="icon" val="BranchSys3.icon1.g_bratwurst_germany" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23229" type="EtcItem" name="德國麵包">
+		<table name="#Desc">使用高營養的德國麵包的話，在1小時內將提升獲得經驗值50%。</table>
+		<set name="icon" val="BranchSys3.icon1.g_brezel_germany" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23230" type="EtcItem" name="綜合點心">
+		<table name="#Desc">使用後馬上恢復HP500、MP200。使用冷卻時間為60秒。當你感到疲憊時，建議你馬上使用！ </table>
+		<set name="icon" val="BranchSys3.icon1.g_studentenfutter_germany" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23231" type="Armor" name="亞利亞戰士的頭盔">
+		<table name="#Desc">勇猛的亞利亞伺服器戰士頭盔。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="BranchSys2.icon.br_close_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23232" type="EtcItem" name="遠古卡爾提亞迷宮的痕跡">
+		<table name="#Desc">遠古卡爾提亞迷宮的痕跡，拿去交給卡爾提亞研究員的話，應該就能找到某個線索。</table>
+		<set name="icon" val="BranchSys3.Icon.g_ev_magic_powder" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23233" type="EtcItem" name="遠古卡爾提亞迷宮的痕跡">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">遠古卡爾提亞迷宮的痕跡，拿去交給卡爾提亞研究員的話，應該就能找到某個線索。</table>
+		<set name="icon" val="BranchSys3.Icon.g_ev_magic_powder" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23234" type="EtcItem" name="艷麗泳裝加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將防具上衣外型加工為艷麗泳裝。也可加工連身防具。所有職業皆可加工，所有防具的外型將顯示為泳裝型態，而加工之後，將不顯示斗篷。利用復原石可以將外型還原成原狀。</table>
+		<set name="icon" val="BranchSys3.lcon.g_scrl_change_co_swimsuit_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23235" type="EtcItem" name="誘人泳裝加工石">
+		<table name="#Desc">維他命道具\n使用的話，可將防具上衣外型加工為誘人泳裝。也可加工連身防具。所有職業皆可加工，所有防具的外型將顯示為泳裝型態，而加工之後，將不顯示斗篷。利用復原石可以將外型還原成原狀。</table>
+		<set name="icon" val="BranchSys3.lcon.g_scrl_change_co_swimsuit_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23236" type="EtcItem" name="海賊王 烏山卡之墓回歸卷軸">
+		<table name="#Desc">海賊王 烏山卡的靈魂掉落的返回卷軸。使用時，將返回至烏山卡之墓。</table>
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23237" type="Armor" name="壺精封印手鐲-海賊王 烏山卡">
+		<table name="#Desc">據說對海賊王 烏山卡的靈魂表示哀悼的話，就能入手的手鐲。裝備時，可以召喚海賊王 烏山卡壺精。</table>
+		<set name="icon" val="BranchSys.icon.br_aga_uthanka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="SILVER" />
+	</item>
+	<item id="23238" type="EtcItem" name="祝福的殷海薩襯衫強化卷軸禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝有祝福的殷海薩襯衫強化卷軸30張的壓縮包。以極低的機率可以獲得+7帕格立歐襯衫。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23239" type="EtcItem" name="強化的帕格立歐襯衫組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有強化至+7的帕格立歐襯衫的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23240" type="Armor" name="帕格立歐襯衫">
+		<table name="#Desc">蘊含著火之神-帕格立歐氣息的魔法襯衫。\n維他命道具\n利用殷海薩襯衫強化卷軸，最多可以強化至+10。強化+7以上時，可以解除異常狀態，並在一段時間內可以使用絕對無敵技能。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_fire" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+		</for>
+	</item>
+	<item id="23241" type="EtcItem" name="祝福的殷海薩襯衫強化卷軸">
+		<table name="#Desc">維他命道具\n帕格立歐/沙哈/伊娃/梅芙襯衫專用強化卷軸。強化時，物理、魔法防禦力可提升1，從+3開始屬性防禦力可提升3、從+4開始物理防禦力可提升3。至+3為止能安全進行強化，最多可強化至+10。從+4開始將會逐步提升「基本能力（CON、MEN、STR、INT、DEX、WIT）」。強化至+5、+6、+7、+8、+9、+10時，還會賦予額外選項。強化失敗時，現有的強化程度會初始化為+0。</table>
+		<set name="icon" val="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23242" type="EtcItem" name="蘊含光之祝福的武器禮盒-D">
+		<table name="#Desc">內裝有擊倒狩獵首領後獲得的D級武器的禮盒。可以獲得一般或祝福的D級武器。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23243" type="EtcItem" name="蘊含光之祝福的武器禮盒-C">
+		<table name="#Desc">內裝有擊倒狩獵首領後獲得的C級武器的禮盒。可以獲得一般或祝福的C級武器。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23244" type="EtcItem" name="蘊含光之祝福的武器禮盒-B">
+		<table name="#Desc">內裝有擊倒狩獵首領後獲得的B級武器的禮盒。可以獲得一般或祝福的B級武器。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23245" type="EtcItem" name="蘊含光之祝福的武器禮盒-A">
+		<table name="#Desc">內裝有擊倒狩獵首領後獲得的A級武器的禮盒。可以獲得一般或祝福的A級武器。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23246" type="EtcItem" name="蘊含光之祝福的武器禮盒-S">
+		<table name="#Desc">內裝有擊倒狩獵首領後獲得的S級武器的禮盒。可以獲得一般或祝福的S級武器。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23247" type="EtcItem" name="蘊含光之祝福的防具禮盒-D">
+		<table name="#Desc">內裝有擊倒狩獵首領後作為獎勵獲得的D級防具的禮盒。可以獲得一般或祝福的D級防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23248" type="EtcItem" name="蘊含光之祝福的防具禮盒-C">
+		<table name="#Desc">內裝有擊倒狩獵首領後作為獎勵獲得的C級防具的禮盒。可以獲得一般或祝福的C級防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23249" type="EtcItem" name="蘊含光之祝福的防具禮盒-B">
+		<table name="#Desc">內裝有擊倒狩獵首領後作為獎勵獲得的B級防具的禮盒。可以獲得一般或祝福的B級防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23250" type="EtcItem" name="蘊含光之祝福的防具禮盒-A">
+		<table name="#Desc">內裝有擊倒狩獵首領後作為獎勵獲得的A級防具的禮盒。可以獲得一般或祝福的A級防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23251" type="EtcItem" name="蘊含光之祝福的防具禮盒-S">
+		<table name="#Desc">內裝有擊倒狩獵首領後作為獎勵獲得的S級防具的禮盒。可以獲得一般或祝福的S級防具。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23252" type="EtcItem" name="盟約憑證">
+		<set name="icon" val="icon.etc_badge_black_i00" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23253" type="EtcItem" name="經驗值古文 50%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加50%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23254" type="EtcItem" name="經驗值古文 100%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加100%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23255" type="EtcItem" name="經驗值古文 100%">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加100%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23256" type="EtcItem" name="經驗值古文 100%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加100%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23257" type="EtcItem" name="經驗值古文 200%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加200%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23258" type="EtcItem" name="經驗值古文 200%">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加200%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23259" type="EtcItem" name="經驗值古文 200%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得經驗值增加200%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23260" type="EtcItem" name="SP古文 50%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加50%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23261" type="EtcItem" name="SP古文 100%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加100%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23262" type="EtcItem" name="SP古文 100%">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加100%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23263" type="EtcItem" name="SP古文 100%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加100%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23264" type="EtcItem" name="SP古文 200%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加200%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23265" type="EtcItem" name="SP古文 200%">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加200%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23266" type="EtcItem" name="SP古文 200%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。所得SP增加200%。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23267" type="EtcItem" name="伊娃古文">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。可使用伊娃的力量。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="BranchSys.icon.br_rune_of_eva_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23268" type="EtcItem" name="伊娃古文">
+		<table name="#Plus">限時7日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。可使用伊娃的力量。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="BranchSys.icon.br_rune_of_eva_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23269" type="EtcItem" name="伊娃古文">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n若放置在道具清單中，就會賦予神奇能力的古代文字。可使用伊娃的力量。在結束連線的狀態也會消耗剩餘時間。</table>
+		<set name="icon" val="BranchSys.icon.br_rune_of_eva_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23270" type="EtcItem" name="梅芙古文 50%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的獲得道具機率50%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23271" type="EtcItem" name="梅芙古文 100%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的獲得道具機率100%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23272" type="EtcItem" name="梅芙古文 200%">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的獲得道具機率200%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23273" type="EtcItem" name="梅芙古文 50%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的獲得道具機率50%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23274" type="EtcItem" name="梅芙古文 100%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的獲得道具機率100%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23275" type="EtcItem" name="梅芙古文 200%">
+		<table name="#Plus">限時30日</table>
+		<table name="#Desc">維他命道具\n裝載於道具清單時，可增加透過狩獵時的獲得道具機率200%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23276" type="EtcItem" name="經驗值古文 50%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文50%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23277" type="EtcItem" name="經驗值古文 100%（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文100%（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23278" type="EtcItem" name="經驗值古文 100%（7日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文100%（7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23279" type="EtcItem" name="經驗值古文 100%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文100%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23280" type="EtcItem" name="經驗值古文 200%（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文200%（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23281" type="EtcItem" name="經驗值古文 200%（7日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文200%（7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23282" type="EtcItem" name="經驗值古文 200%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有經驗值古文200%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23283" type="EtcItem" name="SP古文 50%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文50%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23284" type="EtcItem" name="SP古文 100%（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文100%（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23285" type="EtcItem" name="SP古文 100%（7日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文100%（7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23286" type="EtcItem" name="SP古文 100%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文100%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23287" type="EtcItem" name="SP古文 200%（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文200%（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23288" type="EtcItem" name="SP古文 200%（7日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文200%（7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23289" type="EtcItem" name="SP古文 200%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有SP古文200%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23290" type="EtcItem" name="伊娃古文（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有伊娃古文（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23291" type="EtcItem" name="伊娃古文（7日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有伊娃古文（7日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23292" type="EtcItem" name="伊娃古文（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有伊娃古文（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23293" type="EtcItem" name="梅芙古文 50%（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有梅芙古文50%（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23294" type="EtcItem" name="梅芙古文 100%（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有梅芙古文100%（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23295" type="EtcItem" name="梅芙古文 200%（1小時）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有梅芙古文200%（1小時）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23296" type="EtcItem" name="梅芙古文 50%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有梅芙古文50%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23297" type="EtcItem" name="梅芙古文 100%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有梅芙古文100%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23298" type="EtcItem" name="梅芙古文 200%（30日）組">
+		<table name="#Desc">維他命道具壓縮包\n內裝有梅芙古文200%（30日）的壓縮包。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="23299" type="EtcItem" name="祝福的殷海薩襯衫強化卷軸禮盒">
+		<table name="#Desc">維他命道具壓縮包\n內裝有祝福的殷海薩襯衫強化卷軸30張的壓縮包。以極低的機率可以獲得+7沙哈襯衫。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

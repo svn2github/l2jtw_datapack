@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="39000" type="Weapon" name="+6 赫利奧斯雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的赫利奧斯雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39001" type="Weapon" name="+6 赫利奧斯雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的赫利奧斯雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+	</item>
+	<item id="39002" type="Weapon" name="+7 赫利奧斯鉋刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯鉋刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_stanpid_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39003" type="Weapon" name="+7 赫利奧斯切刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯切刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_plenitas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39004" type="Weapon" name="+7 赫利奧斯殺刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯殺刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_bauen_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39005" type="Weapon" name="+7 赫利奧斯復仇者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯復仇者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_qutram_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39006" type="Weapon" name="+7 赫利奧斯戰爪交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯戰爪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_durga_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39007" type="Weapon" name="+7 赫利奧斯風暴者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯風暴者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_crabel_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39008" type="Weapon" name="+7 赫利奧斯投弓交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯投弓。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_castron_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+	</item>
+	<item id="39009" type="Weapon" name="+7 赫利奧斯射靈交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯射靈。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_stilla_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+	</item>
+	<item id="39010" type="Weapon" name="+7 赫利奧斯爆刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯爆刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weaon_serapear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39011" type="Weapon" name="+7 赫利奧斯術杖交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯術杖。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_pilia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39012" type="Weapon" name="+7 赫利奧斯報恨者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯報恨者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_shaelon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39013" type="Weapon" name="+7 赫利奧斯雙刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯雙刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39014" type="Weapon" name="+7 赫利奧斯雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39015" type="Weapon" name="+7 赫利奧斯雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的赫利奧斯雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+	</item>
+	<item id="39016" type="Weapon" name="+8 赫利奧斯鉋刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯鉋刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_stanpid_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39017" type="Weapon" name="+8 赫利奧斯切刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯切刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_plenitas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39018" type="Weapon" name="+8 赫利奧斯殺刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯殺刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_bauen_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39019" type="Weapon" name="+8 赫利奧斯復仇者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯復仇者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_qutram_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39020" type="Weapon" name="+8 赫利奧斯戰爪交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯戰爪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_durga_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39021" type="Weapon" name="+8 赫利奧斯風暴者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯風暴者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_crabel_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39022" type="Weapon" name="+8 赫利奧斯投弓交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯投弓。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_castron_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+	</item>
+	<item id="39023" type="Weapon" name="+8 赫利奧斯射靈交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯射靈。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_stilla_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+	</item>
+	<item id="39024" type="Weapon" name="+8 赫利奧斯爆刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯爆刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weaon_serapear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39025" type="Weapon" name="+8 赫利奧斯術杖交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯術杖。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_pilia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39026" type="Weapon" name="+8 赫利奧斯報恨者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯報恨者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_shaelon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39027" type="Weapon" name="+8 赫利奧斯雙刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯雙刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39028" type="Weapon" name="+8 赫利奧斯雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39029" type="Weapon" name="+8 赫利奧斯雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的赫利奧斯雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39030" type="Weapon" name="+4 幻靈鉋刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈鉋刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ignicion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39031" type="Weapon" name="+4 幻靈切刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈切刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ninfea_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39032" type="Weapon" name="+4 幻靈殺刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈殺刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_skia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39033" type="Weapon" name="+4 幻靈復仇者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈復仇者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ikeon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39034" type="Weapon" name="+4 幻靈戰爪交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈戰爪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_deodos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39035" type="Weapon" name="+4 幻靈風暴者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈風暴者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_transgredi_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39036" type="Weapon" name="+4 幻靈投弓交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈投弓。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_solenas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+	</item>
+	<item id="39037" type="Weapon" name="+4 幻靈射靈交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈射靈。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_lapis_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+	</item>
+	<item id="39038" type="Weapon" name="+4 幻靈爆刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈爆刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_zihel_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39039" type="Weapon" name="+4 幻靈術杖交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈術杖。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_alacer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39040" type="Weapon" name="+4 幻靈報恨者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈報恨者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_rupe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39041" type="Weapon" name="+4 幻靈雙刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈雙刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39042" type="Weapon" name="+4 幻靈雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39043" type="Weapon" name="+4 幻靈雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化4的幻靈雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39044" type="Weapon" name="+5 幻靈鉋刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈鉋刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ignicion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39045" type="Weapon" name="+5 幻靈切刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈切刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ninfea_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39046" type="Weapon" name="+5 幻靈殺刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈殺刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_skia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39047" type="Weapon" name="+5 幻靈復仇者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈復仇者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ikeon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39048" type="Weapon" name="+5 幻靈戰爪交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈戰爪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_deodos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39049" type="Weapon" name="+5 幻靈風暴者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈風暴者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_transgredi_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39050" type="Weapon" name="+5 幻靈投弓交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈投弓。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_solenas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+	</item>
+	<item id="39051" type="Weapon" name="+5 幻靈射靈交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈射靈。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_lapis_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+	</item>
+	<item id="39052" type="Weapon" name="+5 幻靈爆刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈爆刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_zihel_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39053" type="Weapon" name="+5 幻靈術杖交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈術杖。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_alacer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39054" type="Weapon" name="+5 幻靈報恨者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈報恨者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_rupe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39055" type="Weapon" name="+5 幻靈雙刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈雙刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39056" type="Weapon" name="+5 幻靈雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39057" type="Weapon" name="+5 幻靈雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化5的幻靈雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39058" type="Weapon" name="+6 幻靈鉋刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈鉋刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ignicion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39059" type="Weapon" name="+6 幻靈切刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈切刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ninfea_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39060" type="Weapon" name="+6 幻靈殺刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈殺刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_skia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39061" type="Weapon" name="+6 幻靈復仇者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈復仇者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ikeon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39062" type="Weapon" name="+6 幻靈戰爪交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈戰爪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_deodos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39063" type="Weapon" name="+6 幻靈風暴者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈風暴者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_transgredi_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39064" type="Weapon" name="+6 幻靈投弓交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈投弓。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_solenas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+	</item>
+	<item id="39065" type="Weapon" name="+6 幻靈射靈交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈射靈。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_lapis_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+	</item>
+	<item id="39066" type="Weapon" name="+6 幻靈爆刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈爆刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_zihel_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39067" type="Weapon" name="+6 幻靈術杖交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈術杖。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_alacer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39068" type="Weapon" name="+6 幻靈報恨者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈報恨者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_rupe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39069" type="Weapon" name="+6 幻靈雙刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈雙刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39070" type="Weapon" name="+6 幻靈雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39071" type="Weapon" name="+6 幻靈雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化6的幻靈雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39072" type="Weapon" name="+7 幻靈鉋刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈鉋刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ignicion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39073" type="Weapon" name="+7 幻靈切刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈切刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ninfea_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39074" type="Weapon" name="+7 幻靈殺刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈殺刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_skia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39075" type="Weapon" name="+7 幻靈復仇者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈復仇者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ikeon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39076" type="Weapon" name="+7 幻靈戰爪交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈戰爪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_deodos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39077" type="Weapon" name="+7 幻靈風暴者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈風暴者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_transgredi_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39078" type="Weapon" name="+7 幻靈投弓交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈投弓。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_solenas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+	</item>
+	<item id="39079" type="Weapon" name="+7 幻靈射靈交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈射靈。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_lapis_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+	</item>
+	<item id="39080" type="Weapon" name="+7 幻靈爆刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈爆刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_zihel_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39081" type="Weapon" name="+7 幻靈術杖交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈術杖。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_alacer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39082" type="Weapon" name="+7 幻靈報恨者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈報恨者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_rupe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39083" type="Weapon" name="+7 幻靈雙刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈雙刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39084" type="Weapon" name="+7 幻靈雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39085" type="Weapon" name="+7 幻靈雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化7的幻靈雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39086" type="Weapon" name="+8 幻靈鉋刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈鉋刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ignicion_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39087" type="Weapon" name="+8 幻靈切刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈切刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ninfea_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39088" type="Weapon" name="+8 幻靈殺刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈殺刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_skia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39089" type="Weapon" name="+8 幻靈復仇者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈復仇者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_ikeon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39090" type="Weapon" name="+8 幻靈戰爪交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈戰爪。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_deodos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39091" type="Weapon" name="+8 幻靈風暴者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈風暴者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_transgredi_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39092" type="Weapon" name="+8 幻靈投弓交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈投弓。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_solenas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+	</item>
+	<item id="39093" type="Weapon" name="+8 幻靈射靈交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈射靈。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_lapis_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+	</item>
+	<item id="39094" type="Weapon" name="+8 幻靈爆刃交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈爆刃。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_zihel_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39095" type="Weapon" name="+8 幻靈術杖交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈術杖。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_alacer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39096" type="Weapon" name="+8 幻靈報恨者交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈報恨者。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_rupe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39097" type="Weapon" name="+8 幻靈雙刀交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈雙刀。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39098" type="Weapon" name="+8 幻靈雙匕首交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈雙匕首。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+	<item id="39099" type="Weapon" name="+8 幻靈雙鈍器交換券">
+		<table name="#Desc">拿去交給余義魔杖執行者「破滅女神」，就能交換完成強化8的幻靈雙鈍器。活動結束後，將會統一刪除。</table>
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+	</item>
+</list>

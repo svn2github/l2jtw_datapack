@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="45373" type="EtcItem" name="祝福的雙魚座壺精手鐲禮盒">
+		<table name="#Desc">點兩下禮盒的話，就可獲得30日限時祝福的雙魚座壺精手鐲1個。</table>
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45374" type="Weapon" name="光束槍">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">打敗生命追蹤者所需的光束槍。裝備時，可對生命追蹤者使用主動技能「咻嗚咻嗚」。預計將於2014年4月9日（三）定期維修時全部刪除。</table>
+		<set name="icon" val="icon.invasion_gun" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="45375" type="EtcItem" name="宇宙戰鬥糧食">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">在30分鐘內，可以隨機賦予增加STR、DEX、CON、INT、WIT、MEN、LUC、CHA中之一+6的效果。與鮮魚湯、其他宇宙戰鬥糧食將不重複適用。無法使用於奧林匹亞的道具。預計將於2014年4月9日（三）定期維修時全部刪除。</table>
+		<set name="icon" val="icon.ev_invasion_buff_box" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45376" type="EtcItem" name="活力膠囊">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">點兩下後使用的話，似乎可以得到不錯的獎勵。無法在奧林匹亞使用的道具。</table>
+		<set name="icon" val="icon.general_fuel_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45377" type="EtcItem" name="L2B2禮盒">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">L2B2禮盒。點兩下後使用的話，似乎可以得到不錯的獎勵。無法在奧林匹亞使用的道具。</table>
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45378" type="EtcItem" name="隊伍型活力恢復藥草">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">使用時，能充足一定量的活力。對所有隊員皆有效果。</table>
+		<set name="icon" val="icon.general_fuel_i00" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45379" type="EtcItem" name="怪物研究結果">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">亞丁世界怪物的研究結果。若將此收集帶給活動執行者L2B2，就可以獲得獎勵。</table>
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45380" type="Weapon" name="外星人的玩具槍">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">外星人的玩具槍。裝備時，可使用擊退技能。1小時限時道具。</table>
+		<set name="icon" val="icon.invasion_gun" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="45381" type="Weapon" name="外星人的真槍">
+		<table name="#Plus">限時1小時</table>
+		<table name="#Desc">外星人的真槍。裝備時，可使用魂靈箭技能。1小時限時道具。</table>
+		<set name="icon" val="icon.invasion_gun" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="reuse_delay" val="400" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="45382" type="Armor" name="魔術師帽">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可感受到魔術師神祕感的帽子，會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.accessory_magicial_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="45383" type="Armor" name="可愛女僕髮飾">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">女僕造型的可愛髮飾。女性專用。會佔用頭飾欄位2格。</table>
+		<set name="icon" val="icon.maid_hairband" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="45384" type="Armor" name="勤勞者帽子">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">雷鋒配戴的帽子，會佔用頭飾欄位1格。</table>
+		<set name="icon" val="icon.people_cap" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="45385" type="Armor" name="暴走族口罩">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">暴走族使用的口罩，會佔用頭飾欄位1格。</table>
+		<set name="icon" val="icon.crazy_driving_mask" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="45386" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45387" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45388" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45389" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45390" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45391" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45392" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45393" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45394" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45395" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45396" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45397" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45398" type="EtcItem" name="各國交易丟棄設定比對用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45399" type="EtcItem" name="自動小提示確認用">
+		<table name="#Plus">測試用道具</table>
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

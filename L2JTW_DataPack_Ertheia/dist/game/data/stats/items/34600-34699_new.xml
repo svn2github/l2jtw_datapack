@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="34600" type="EtcItem" name="活動用-玫瑰精靈(女)變身卷軸">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">進行法師型攻擊。變身為玫瑰精靈（女）10分鐘。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34601" type="EtcItem" name="活動用-玫瑰精靈(男)變身卷軸">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">進行戰士型攻擊。變身為玫瑰精靈（男）10分鐘。</table>
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34602" type="EtcItem" name="活動用-瞬間體力治癒藥水">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">可瞬間恢復體力的魔法藥水。在HP飽滿的狀態下無法使用。</table>
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="180" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34603" type="EtcItem" name="神祕的靈魂彈-普通">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">精靈之光加持於武器，瞬間對敵人加以強力衝擊。普通級武器專用。</table>
+		<set name="icon" val="icon.etc_spirit_bullet_white_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34604" type="EtcItem" name="神祕的靈魂彈-D級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">精靈之光加持於武器，瞬間對敵人加以強力衝擊。D級武器專用。</table>
+		<set name="icon" val="icon.etc_spirit_bullet_blue_i00" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34605" type="EtcItem" name="神祕的靈魂彈-C級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">精靈之光加持於武器，瞬間對敵人加以強力衝擊。C級武器專用。</table>
+		<set name="icon" val="icon.etc_spirit_bullet_green_i00" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34606" type="EtcItem" name="神祕的靈魂彈-B級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">精靈之光加持於武器，瞬間對敵人加以強力衝擊。B級武器專用。</table>
+		<set name="icon" val="icon.etc_spirit_bullet_red_i00" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34607" type="EtcItem" name="神祕的靈魂彈-A級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">精靈之光加持於武器，瞬間對敵人加以強力衝擊。A級武器專用。</table>
+		<set name="icon" val="icon.etc_spirit_bullet_silver_i00" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34608" type="EtcItem" name="神祕的靈魂彈-S級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">精靈之光加持於武器，瞬間對敵人加以強力衝擊。S級武器專用。</table>
+		<set name="icon" val="icon.etc_spirit_bullet_gold_i00" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34609" type="EtcItem" name="神祕的靈魂彈-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">精靈之光加持於武器，瞬間對敵人加以強力衝擊。R級武器專用。</table>
+		<set name="icon" val="icon.soulshot_r_i00" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34610" type="EtcItem" name="神祕的祝福的魔靈彈-普通">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">上級精靈之光加持於武器，瞬間極大強化魔法的威力。普通級武器專用。</table>
+		<set name="icon" val="icon.etc_spell_shot_white_i01" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34611" type="EtcItem" name="神祕的祝福的魔靈彈-D級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">上級精靈之光加持於武器，瞬間極大強化魔法的威力。D級武器專用。</table>
+		<set name="icon" val="icon.etc_spell_shot_blue_i01" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34612" type="EtcItem" name="神祕的祝福的魔靈彈-C級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">上級精靈之光加持於武器，瞬間極大強化魔法的威力。C級武器專用。</table>
+		<set name="icon" val="icon.etc_spell_shot_green_i01" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34613" type="EtcItem" name="神祕的祝福的魔靈彈-B級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">上級精靈之光加持於武器，瞬間極大強化魔法的威力。B級武器專用。</table>
+		<set name="icon" val="icon.etc_spell_shot_red_i01" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34614" type="EtcItem" name="神祕的祝福的魔靈彈-A級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">上級精靈之光加持於武器，瞬間極大強化魔法的威力。A級武器專用。</table>
+		<set name="icon" val="icon.etc_spell_shot_silver_i01" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34615" type="EtcItem" name="神祕的祝福的魔靈彈-S級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">上級精靈之光加持於武器，瞬間極大強化魔法的威力。S級武器專用。</table>
+		<set name="icon" val="icon.etc_spell_shot_gold_i01" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34616" type="EtcItem" name="神祕的祝福的魔靈彈-R級">
+		<table name="#Plus">活動</table>
+		<table name="#Desc">上級精靈之光加持於武器，瞬間極大強化魔法的威力。R級武器專用。</table>
+		<set name="icon" val="icon.blessed_spiritshot_r_i00" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34617" type="EtcItem" name="活動用-壺精的禮物">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">使用的話，就可獲得壺精的禮物。</table>
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34618" type="EtcItem" name="活動用-進階型雞尾酒">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">以各種稀有的水果調製而成的雞尾酒。喝下的話，一段時間內可體驗角笛之詩、琵琶之詩、風琴之詩、吉他之詩、豎琴之詩、戰鼓之詩、戰鬥奏鳴曲、移動奏鳴曲、休息奏鳴曲的效果。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34619" type="EtcItem" name="活動點數禮券">
+		<table name="#Plus">活動專用</table>
+		<table name="#Desc">點擊道具的話，就可獲得活動點數。</table>
+		<set name="icon" val="icon.etc_ticket_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34620" type="EtcItem" name="天堂雞尾酒">
+		<table name="#Desc">在60分鐘內，可以得到角笛之詩、吉他之詩、風琴之詩、琵琶之詩、豎琴之詩、戰鼓之詩等級1的效果。使用冷卻時間為60分鐘。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34621" type="Armor" name="R護身符-瀕死、即死抗性 {被動}">
+		<table name="#Desc">裝備時，增加對瀕死攻擊、即死攻擊的抗性。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="34622" type="Armor" name="R護身符-瀕死、即死抗性 {主動}">
+		<table name="#Desc">使用時，增加對瀕死攻擊、即死攻擊的抗性。幻象裝備。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="34623" type="Armor" name="帕格立歐襯衫">
+		<table name="#Desc">維他命道具\n蘊含著火之神-帕格立歐氣息的魔法襯衫。\n利用殷海薩襯衫強化卷軸，最多可以強化至+10。強化+7以上時，可以解除異常狀態，並在一段時間內可以使用絕對無敵技能。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_fire" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+		</for>
+	</item>
+	<item id="34624" type="Armor" name="沙哈襯衫">
+		<table name="#Desc">維他命道具\n蘊含著風之神-沙哈氣息的魔法襯衫。\n利用殷海薩襯衫強化卷軸，最多可以強化至+10。強化+7以上時，可以使用可在指定位置開設傳送門之後傳送到該傳送門的傳送技能（無法在奧林匹亞上使用）。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_wind" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+		</for>
+	</item>
+	<item id="34625" type="Armor" name="伊娃襯衫">
+		<table name="#Desc">維他命道具\n蘊含著水之神-伊娃氣息的魔法襯衫。\n利用殷海薩襯衫強化卷軸，最多可以強化至+10。強化+7以上時，可以使用HP、MP、CP恢復技能。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_water" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+		</for>
+	</item>
+	<item id="34626" type="Armor" name="梅芙襯衫">
+		<table name="#Desc">維他命道具\n蘊含著大地之神-梅芙氣息的魔法襯衫。\n利用殷海薩襯衫強化卷軸，最多可以強化至+10。裝備強化+7以上的梅芙襯衫時，增加強化成功機率。（不適用於奧林匹亞）。</table>
+		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_earth" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+		</for>
+	</item>
+	<item id="34627" type="EtcItem" name="殷海薩襯衫強化卷軸">
+		<table name="#Desc">帕格立歐/沙哈/伊娃/梅芙襯衫/閃亮的殷海薩襯衫專用強化卷軸。強化時，物理、魔法防禦力可提升1，從強化+4開始物理防禦力提升3。至+3為止能安全進行強化，最多可強化至+10。從+4開始將會逐步提升「基本能力（CON、MEN、STR、INT、DEX、WIT）」。隨著襯衫的種類，強化至+4~+10時，還會賦予多樣的額外選項。</table>
+		<set name="icon" val="icon.g_scrl_of_ench_wolf_shirt" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34628" type="EtcItem" name="殷海薩氣息">
+		<table name="#Desc">在1小時內可體驗活力充能藥草的效果。死亡時效果不會刪除。</table>
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34629" type="Armor" name="海盜眼罩">
+		<table name="#Desc">海盜眼罩。</table>
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34630" type="Armor" name="無法者眼罩">
+		<table name="#Desc">無法者眼罩。</table>
+		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34631" type="Armor" name="獨眼">
+		<table name="#Desc">獨眼。</table>
+		<set name="icon" val="icon.Accessary_one_eye_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34632" type="Armor" name="派對尖帽">
+		<table name="#Desc">派對尖帽。</table>
+		<set name="icon" val="icon.accessory_party_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34633" type="Armor" name="時髦天使戒指">
+		<table name="#Desc">時髦天使戒指。</table>
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34634" type="Armor" name="時髦惡魔的角">
+		<table name="#Desc">時髦惡魔的角。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34635" type="EtcItem" name="海盜眼罩-力量墜子">
+		<table name="#Desc">裝載於海盜眼罩的話，就可增加力量。</table>
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34636" type="EtcItem" name="海盜眼罩-敏捷墜子">
+		<table name="#Desc">裝載於海盜眼罩的話，就可增加敏捷。</table>
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34637" type="EtcItem" name="無法者眼罩-體質墜子">
+		<table name="#Desc">裝載於無法者眼罩的話，就可增加體質。</table>
+		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34638" type="EtcItem" name="無法者眼罩-精神墜子">
+		<table name="#Desc">裝載於無法者眼罩的話，就可增加精神。</table>
+		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34639" type="EtcItem" name="獨眼-智力墜子">
+		<table name="#Desc">裝載於獨眼的話，就可增加智力。</table>
+		<set name="icon" val="icon.Accessary_one_eye_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34640" type="EtcItem" name="獨眼-智慧墜子">
+		<table name="#Desc">裝載於獨眼的話，就可增加智慧。</table>
+		<set name="icon" val="icon.Accessary_one_eye_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34641" type="EtcItem" name="派對尖帽-致命攻擊率墜子">
+		<table name="#Desc">裝載於派對尖帽的話，就可增加致命攻擊率。</table>
+		<set name="icon" val="icon.accessory_party_hat_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34642" type="EtcItem" name="派對尖帽-致命傷害墜子">
+		<table name="#Desc">裝載於派對尖帽的話，就可增加致命傷害。</table>
+		<set name="icon" val="icon.accessory_party_hat_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34643" type="EtcItem" name="時髦天使戒指-物理防禦力墜子">
+		<table name="#Desc">裝載於時髦天使戒指的話，就可增加物理防禦力。</table>
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34644" type="EtcItem" name="時髦天使戒指-魔法防禦力墜子">
+		<table name="#Desc">裝載於時髦天使戒指的話，就可增加魔法防禦力。</table>
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34645" type="EtcItem" name="時髦天使戒指-迴避能力墜子">
+		<table name="#Desc">裝載於時髦天使戒指的話，就可增加迴避能力。</table>
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34646" type="EtcItem" name="時髦惡魔的角-物理攻擊力墜子">
+		<table name="#Desc">裝載於時髦惡魔的角的話，就可增加物理攻擊力。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34647" type="EtcItem" name="時髦惡魔的角-魔法攻擊力墜子">
+		<table name="#Desc">裝載於時髦惡魔的角的話，就可增加魔法攻擊力。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34648" type="EtcItem" name="時髦惡魔的角-命中能力墜子">
+		<table name="#Desc">裝載於時髦惡魔的角的話，就可增加命中能力。</table>
+		<set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="34649" type="EtcItem" name="火之原石碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予火屬性。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34650" type="EtcItem" name="水之原石碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予水屬性。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34651" type="EtcItem" name="風之原石碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予風屬性。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34652" type="EtcItem" name="地之原石碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予大地屬性。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34653" type="EtcItem" name="聖之原石碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予神聖屬性。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34654" type="EtcItem" name="暗之原石碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予黑暗屬性。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34655" type="EtcItem" name="火之水晶碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予火屬性。</table>
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34656" type="EtcItem" name="水之水晶碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予水屬性。</table>
+		<set name="icon" val="icon.etc_water_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34657" type="EtcItem" name="風之水晶碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予風屬性。</table>
+		<set name="icon" val="icon.etc_wind_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34658" type="EtcItem" name="地之水晶碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予大地屬性。</table>
+		<set name="icon" val="icon.etc_earth_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34659" type="EtcItem" name="聖之水晶碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予神聖屬性。</table>
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34660" type="EtcItem" name="暗之水晶碎片">
+		<table name="#Desc">可以在束縛的道具以及透過導師/學徒獲得的道具上賦予黑暗屬性。</table>
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34661" type="EtcItem" name="火之原石-Super 60">
+		<table name="#Desc">火屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34662" type="EtcItem" name="水之原石-Super 60">
+		<table name="#Desc">水屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34663" type="EtcItem" name="地之原石-Super 60">
+		<table name="#Desc">地屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34664" type="EtcItem" name="風之原石-Super 60">
+		<table name="#Desc">風屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34665" type="EtcItem" name="暗之原石-Super 60">
+		<table name="#Desc">黑暗屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34666" type="EtcItem" name="聖之原石-Super 60">
+		<table name="#Desc">神聖屬性可一次賦予至60，且不賦予該數值以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34667" type="EtcItem" name="火之原石-Super 150">
+		<table name="#Desc">火屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34668" type="EtcItem" name="水之原石-Super 150">
+		<table name="#Desc">水屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34669" type="EtcItem" name="地之原石-Super 150">
+		<table name="#Desc">地屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34670" type="EtcItem" name="風之原石-Super 150">
+		<table name="#Desc">風屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34671" type="EtcItem" name="暗之原石-Super 150">
+		<table name="#Desc">黑暗屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34672" type="EtcItem" name="聖之原石-Super 150">
+		<table name="#Desc">神聖屬性可一次賦予至等級3，且不賦予此等級以上的元素屬性。另外，在防具上最多可以進行3種類的屬性強化，而相異的屬性則無法同時賦予。</table>
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34673" type="EtcItem" name="武器封印卷軸-D">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_d" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34674" type="EtcItem" name="武器封印卷軸-C">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_c" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34675" type="EtcItem" name="武器封印卷軸-B">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_b" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34676" type="EtcItem" name="武器封印卷軸-A">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_a" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34677" type="EtcItem" name="武器封印卷軸-S">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34678" type="EtcItem" name="武器封印卷軸-S80">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34679" type="EtcItem" name="武器封印卷軸-R">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34680" type="EtcItem" name="武器封印卷軸-R95">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34681" type="EtcItem" name="武器封印卷軸-R99">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_wp_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34682" type="EtcItem" name="防具封印卷軸-D">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_d" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34683" type="EtcItem" name="防具封印卷軸-C">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_c" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34684" type="EtcItem" name="防具封印卷軸-B">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_b" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34685" type="EtcItem" name="防具封印卷軸-A">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_a" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34686" type="EtcItem" name="防具封印卷軸-S">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34687" type="EtcItem" name="防具封印卷軸-S80">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_s" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34688" type="EtcItem" name="防具封印卷軸-R">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34689" type="EtcItem" name="防具封印卷軸-R95">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34690" type="EtcItem" name="防具封印卷軸-R99">
+		<table name="#Desc">可將束縛的道具還原為未確認的道具的卷軸。所有強化數值將會初始化。</table>
+		<set name="icon" val="icon.scroll_of_unidentify_am_r" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34691" type="EtcItem" name="頭飾禮盒">
+		<table name="#Desc">內裝有頭飾的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34692" type="EtcItem" name="墜子禮盒">
+		<table name="#Desc">內裝有頭飾用墜子的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34693" type="EtcItem" name="屬性石碎片禮盒">
+		<table name="#Desc">內裝有屬性石碎片的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34694" type="EtcItem" name="英雄的強化輔助石禮盒">
+		<table name="#Desc">內裝有強化輔助石的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34695" type="EtcItem" name="英雄的破滅強化卷軸禮盒">
+		<table name="#Desc">內裝有破滅強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34696" type="EtcItem" name="英雄的祝福強化卷軸禮盒">
+		<table name="#Desc">內裝有祝福的強化卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34697" type="EtcItem" name="英雄的束縛解除卷軸禮盒">
+		<table name="#Desc">內裝有束縛解除卷軸的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34698" type="EtcItem" name="英雄的屬性水晶禮盒">
+		<table name="#Desc">內裝有屬性水晶或Super- 60/150原石中之一的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="34699" type="EtcItem" name="巨人的屬性水晶禮盒">
+		<table name="#Desc">於亞丁重建更新中新增的道具。功能尚未具體化。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

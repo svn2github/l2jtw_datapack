@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="37900" type="EtcItem" name="上級SP古文限時1日禮盒">
+		<table name="#Desc">點兩下時，可以獲得上級SP古文限時1日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37901" type="EtcItem" name="下級SP古文限時7日禮盒">
+		<table name="#Desc">點兩下時，可以獲得下級SP古文限時7日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37902" type="EtcItem" name="中級SP古文限時7日禮盒">
+		<table name="#Desc">點兩下時，可以獲得中級SP古文限時7日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37903" type="EtcItem" name="上級SP古文限時7日禮盒">
+		<table name="#Desc">點兩下時，可以獲得上級SP古文限時7日。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37904" type="EtcItem" name="10億SP卷軸">
+		<table name="#Desc">10億SP充能卷軸。</table>
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37905" type="EtcItem" name="戰鬥貓驚喜禮物">
+		<table name="#Desc">裝著戰鬥貓禮物的箱子。點兩下時，可隨機獲得天堂恢復藥水150瓶/戰鬥貓玫瑰禮盒1個/國王古文禮盒1個其中之一。預定於2013年10月30日統一刪除。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37906" type="EtcItem" name="戰鬥貓玫瑰禮盒">
+		<table name="#Desc">點兩下就能得到進階型玫瑰精靈交換券-5小時1個、玫瑰精華150個。</table>
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37907" type="EtcItem" name="豬豬塔糖加工石-單手劍">
+		<table name="#Desc">可將單手劍轉換為豬豬塔糖外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37908" type="EtcItem" name="克魯諾齊塔納加工石-單手劍">
+		<table name="#Desc">可將單手劍轉換為克魯諾齊塔納外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾齊塔納不同的嶄新感覺。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37909" type="EtcItem" name="克魯諾鈴鼓加工石-格鬥兵器">
+		<table name="#Desc">可將格鬥兵器轉換為克魯諾鈴鼓外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾鈴鼓不同的嶄新感覺。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualfist" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37910" type="EtcItem" name="克魯諾杖鐘加工石-槍">
+		<table name="#Desc">可將槍類轉換為克魯諾杖鐘外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾杖鐘不同的嶄新感覺。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_pole" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37911" type="EtcItem" name="克魯諾達布卡加工石-雙手鈍器">
+		<table name="#Desc">可將雙手鈍器轉換為克魯諾達布卡外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾達布卡不同的嶄新感覺。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37912" type="EtcItem" name="克魯諾瑪拉卡斯加工石-雙刀">
+		<table name="#Desc">可將雙刀轉換為克魯諾瑪拉卡斯外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾瑪拉卡斯不同的嶄新感覺。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dual" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37913" type="EtcItem" name="南瓜匕首加工石-匕首">
+		<table name="#Desc">可將匕首轉換為南瓜匕首外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37914" type="EtcItem" name="南瓜雙匕首加工石-雙匕首">
+		<table name="#Desc">可將雙匕首轉換為南瓜雙匕首外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualdagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37915" type="EtcItem" name="稻草人劍加工石-單手魔法劍">
+		<table name="#Desc">可將單手魔法劍轉換為稻草人劍外型的加工石。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37916" type="Weapon" name="南瓜匕首">
+		<table name="#Desc">打造成可愛南瓜模樣的匕首。</table>
+		<set name="icon" val="icon.weapon_pumpkin_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37917" type="Weapon" name="南瓜雙匕首">
+		<table name="#Desc">打造成可愛南瓜模樣的雙匕首。</table>
+		<set name="icon" val="icon.weapon_pumpin_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="crystal_type" val="S80" />
+		<set name="material" val="STEEL" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant order="0x0C" stat="pAtk" val="0" />
+			<enchant order="0x0C" stat="mAtk" val="0" />
+		</for>
+	</item>
+	<item id="37918" type="Weapon" name="稻草人劍">
+		<table name="#Desc">打造成可愛稻草人模樣的魔法劍。</table>
+		<set name="icon" val="icon.weapon_scarescow_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37919" type="EtcItem" name="豬豬塔糖加工石-單手劍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手劍轉換為豬豬塔糖外型的加工石。15天限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37920" type="EtcItem" name="克魯諾齊塔納加工石-單手劍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手劍轉換為克魯諾齊塔納外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾齊塔納不同的嶄新感覺。15日限時道具</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37921" type="EtcItem" name="克魯諾鈴鼓加工石-格鬥兵器">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將格鬥兵器轉換為克魯諾鈴鼓外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾鈴鼓不同的嶄新感覺。15日限時道具</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualfist" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37922" type="EtcItem" name="克魯諾杖鐘加工石-槍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將槍類轉換為克魯諾杖鐘外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾杖鐘不同的嶄新感覺。15日限時道具</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_pole" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37923" type="EtcItem" name="克魯諾達布卡加工石-雙手鈍器">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙手鈍器轉換為克魯諾達布卡外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾達布卡不同的嶄新感覺。15日限時道具</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_twohand_blunt" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37924" type="EtcItem" name="克魯諾瑪拉卡斯加工石-雙刀">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙刀轉換為克魯諾瑪拉卡斯外型的加工石。在黑色鐵砧公會長 賽狄翁的巧手下，出現與原來克魯諾瑪拉卡斯不同的嶄新感覺。15日限時道具</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dual" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37925" type="EtcItem" name="南瓜匕首加工石-匕首">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將匕首轉換為南瓜匕首外型的加工石。15天限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37926" type="EtcItem" name="南瓜雙匕首加工石-雙匕首">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將雙匕首轉換為南瓜雙匕首外型的加工石。15天限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_dualdagger" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37927" type="EtcItem" name="稻草人劍加工石-單手魔法劍">
+		<table name="#Plus">限時15日</table>
+		<table name="#Desc">可將單手魔法劍轉換為稻草人劍外型的加工石。15天限時道具。</table>
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_sword" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37928" type="EtcItem" name="活動用-進階型玫瑰誘惑">
+		<table name="#Desc">點兩下時，在30分鐘內可以得到增加HP/MP/CP最大值30%、物理防禦力、魔法防禦力30%、物理攻擊力10%、魔法攻擊力20%的效果。在適用該效果的狀態下，若接受進階型玫瑰精靈所提供的「致命誘惑」的話，該效果就會消失。無法在奧林匹亞上使用。可以在渾沌祭典使用。使用冷卻時間為5分鐘。</table>
+		<set name="icon" val="BranchSys2.icon.br_rosalia_rose_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37929" type="Weapon" name="覺醒勇士聖劍-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手劍類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。闇天使種族可透過「轉換武器」技能轉換為細劍使用。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37930" type="Weapon" name="覺醒勇士滅斬-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙手劍類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。闇天使種族可透過「轉換武器」技能轉換為古代劍使用。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37931" type="Weapon" name="覺醒勇士霸斧-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手鈍器類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37932" type="Weapon" name="覺醒勇士神杖-限時7日">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手魔法鈍器類型時，施法速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="348" />
+			<set order="0x08" stat="mAtk" val="252" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37933" type="Weapon" name="覺醒勇士巨鎚-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙手鈍器類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_hammer_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="643" />
+			<set order="0x08" stat="mAtk" val="230" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37934" type="Weapon" name="覺醒勇士魔杖-限時7日">
+		<table name="#Plus">靈活思緒</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙手魔法鈍器類型時，施法速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="423" />
+			<set order="0x08" stat="mAtk" val="278" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37935" type="Weapon" name="覺醒勇士鬼殺-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備單手匕首類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="380" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="37936" type="Weapon" name="覺醒勇士殛牙-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備格鬥兵器類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37937" type="Weapon" name="覺醒勇士斷空-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備弓類型時，攻擊速度會提升 。限時7日。無法使用於奧林匹亞。闇天使種族可透過「轉換武器」技能轉換為弩弓使用。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="reuse_delay" val="1500" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="856" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="37938" type="Weapon" name="覺醒勇士鬥翼-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備雙刀類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="529" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37939" type="Weapon" name="覺醒勇士烈槍-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備長矛類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="435" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37940" type="Weapon" name="覺醒勇士瞬閃 -限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備細劍類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。闇天使種族可透過「轉換武器」技能轉換為單手劍使用。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_infinity_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="479" />
+			<set order="0x08" stat="mAtk" val="230" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="37941" type="Weapon" name="覺醒勇士岩裂-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備古代劍類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。闇天使種族可透過「轉換武器」技能轉換為雙手劍使用。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_infinity_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="572" />
+			<set order="0x08" stat="mAtk" val="230" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2.0" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="37942" type="Weapon" name="覺醒勇士追魂-限時7日">
+		<table name="#Plus">速度激發</table>
+		<table name="#Desc">覺醒勇士的武器。裝備弩弓類型時，攻擊速度會提升。限時7日。無法使用於奧林匹亞。闇天使種族可透過「轉換武器」技能轉換為弓使用。性向值大於0的角色無法使用。</table>
+		<set name="icon" val="icon.weapon_infinity_shooter_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="771" />
+			<set order="0x08" stat="mAtk" val="189" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37943" type="EtcItem" name="覺醒勇士限時7日武器交換券">
+		<table name="#Desc">透過和維他命管理者對話可交換覺醒勇士的武器-限時7日。\n\n注意：交換武器後，無法透過維他命管理者在相同帳號內轉移。</table>
+		<set name="icon" val="icon.etc_lottery_card_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37944" type="EtcItem" name="國王餅乾">
+		<table name="#Desc">點兩下時，賦予1小時內戰鬥/休息/移動奏鳴曲輔助魔法的效果。使用冷卻時間為60分鐘，即使死亡也不會刪除輔助魔法。無法在奧林匹亞上使用。</table>
+		<set name="icon" val="icon.etc_bm_sonata_cookie" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37945" type="Weapon" name="克魯諾齊塔納">
+		<table name="#Desc">在黑色鐵砧公會長 賽狄翁的巧手下，出現嶄新感的克魯諾齊塔納。</table>
+		<set name="icon" val="icon.weapon_chrono_cithara_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="37946" type="Weapon" name="克魯諾鈴鼓">
+		<table name="#Desc">在黑色鐵砧公會長 賽狄翁的巧手下，出現嶄新感的克魯諾鈴鼓。</table>
+		<set name="icon" val="icon.weapon_chrono_tambourine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="material" val="STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37947" type="Weapon" name="克魯諾杖鐘">
+		<table name="#Desc">在黑色鐵砧公會長 賽狄翁的巧手下，出現嶄新感的克魯諾杖鐘。</table>
+		<set name="icon" val="icon.weapon_chrono_campana_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="material" val="STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37948" type="Weapon" name="克魯諾達布卡">
+		<table name="#Desc">在黑色鐵砧公會長 賽狄翁的巧手下，出現嶄新感的克魯諾達布卡。</table>
+		<set name="icon" val="icon.weapon_chrono_darbuka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="6" />
+			<add order="0x10" stat="accCombat" val="8.0" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37949" type="Weapon" name="克魯諾瑪拉卡斯">
+		<table name="#Desc">在黑色鐵砧公會長 賽狄翁的巧手下，出現嶄新感的克魯諾瑪拉卡斯。</table>
+		<set name="icon" val="icon.weapon_chrono_maracas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="FINE_STEEL" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="37950" type="EtcItem" name="鎮魂鉋刀製作禮盒">
+		<table name="#Desc">裝有鎮魂鉋刀全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37951" type="EtcItem" name="鎮魂切刃製作禮盒">
+		<table name="#Desc">裝有鎮魂切刃全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37952" type="EtcItem" name="鎮魂殺刃製作禮盒">
+		<table name="#Desc">裝有鎮魂殺刃全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37953" type="EtcItem" name="鎮魂復仇者製作禮盒">
+		<table name="#Desc">裝有鎮魂復仇者全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37954" type="EtcItem" name="鎮魂戰爪製作禮盒">
+		<table name="#Desc">裝有鎮魂戰爪全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37955" type="EtcItem" name="鎮魂風暴者製作禮盒">
+		<table name="#Desc">裝有鎮魂風暴者全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37956" type="EtcItem" name="鎮魂投弓製作禮盒">
+		<table name="#Desc">裝有鎮魂投弓全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37957" type="EtcItem" name="鎮魂射靈製作禮盒">
+		<table name="#Desc">裝有鎮魂射靈全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37958" type="EtcItem" name="鎮魂爆刃製作禮盒">
+		<table name="#Desc">裝有鎮魂爆刃全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37959" type="EtcItem" name="鎮魂術杖製作禮盒">
+		<table name="#Desc">裝有鎮魂術杖全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37960" type="EtcItem" name="鎮魂報恨者製作禮盒">
+		<table name="#Desc">裝有鎮魂報恨者全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37961" type="EtcItem" name="永生頭盔製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有永生頭盔全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37962" type="EtcItem" name="永生胸甲製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有永生胸甲全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37963" type="EtcItem" name="永生脛甲製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有永生脛甲全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37964" type="EtcItem" name="永生護手製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有永生護手全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37965" type="EtcItem" name="永生靴製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有永生靴全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37966" type="EtcItem" name="永生盾製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有永生盾全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37967" type="EtcItem" name="永生皮頭盔製作禮盒">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">裝有永生皮頭盔全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37968" type="EtcItem" name="永生皮甲製作禮盒">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">裝有永生皮甲全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37969" type="EtcItem" name="永生皮脛甲製作禮盒">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">裝有永生皮脛甲全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37970" type="EtcItem" name="永生皮手套製作禮盒">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">裝有永生皮手套全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37971" type="EtcItem" name="永生皮靴製作禮盒">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">裝有永生皮靴全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37972" type="EtcItem" name="永生頭箍製作禮盒">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">裝有永生頭箍全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37973" type="EtcItem" name="永生外衣製作禮盒">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">裝有永生外衣全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37974" type="EtcItem" name="永生長襪製作禮盒">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">裝有永生長襪全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37975" type="EtcItem" name="永生手套製作禮盒">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">裝有永生手套全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37976" type="EtcItem" name="永生鞋製作禮盒">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">裝有永生鞋全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37977" type="EtcItem" name="永生符印製作禮盒">
+		<table name="#Plus">長袍用</table>
+		<table name="#Desc">裝有永生符印全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37978" type="EtcItem" name="永生項鍊製作禮盒">
+		<table name="#Desc">裝有永生項鍊全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37979" type="EtcItem" name="永生耳環製作禮盒">
+		<table name="#Desc">裝有永生耳環全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37980" type="EtcItem" name="永生戒指製作禮盒">
+		<table name="#Desc">裝有永生戒指全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37981" type="EtcItem" name="英啟鉋刀製作禮盒">
+		<table name="#Desc">裝有英啟鉋刀全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37982" type="EtcItem" name="英啟切刃製作禮盒">
+		<table name="#Desc">裝有英啟切刃全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37983" type="EtcItem" name="英啟殺刃製作禮盒">
+		<table name="#Desc">裝有英啟殺刃全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37984" type="EtcItem" name="英啟復仇者製作禮盒">
+		<table name="#Desc">裝有英啟復仇者全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37985" type="EtcItem" name="英啟戰爪製作禮盒">
+		<table name="#Desc">裝有英啟戰爪全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37986" type="EtcItem" name="英啟風暴者製作禮盒">
+		<table name="#Desc">裝有英啟風暴者全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37987" type="EtcItem" name="英啟投弓製作禮盒">
+		<table name="#Desc">裝有英啟投弓全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37988" type="EtcItem" name="英啟射靈製作禮盒">
+		<table name="#Desc">裝有英啟射靈全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37989" type="EtcItem" name="英啟爆刃製作禮盒">
+		<table name="#Desc">裝有英啟爆刃全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37990" type="EtcItem" name="英啟術杖製作禮盒">
+		<table name="#Desc">裝有英啟術杖全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37991" type="EtcItem" name="英啟報恨者製作禮盒">
+		<table name="#Desc">裝有英啟報恨者全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37992" type="EtcItem" name="煉獄頭盔製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有煉獄頭盔全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37993" type="EtcItem" name="煉獄胸甲製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有煉獄胸甲全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37994" type="EtcItem" name="煉獄脛甲製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有煉獄脛甲全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37995" type="EtcItem" name="煉獄護手製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有煉獄護手全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37996" type="EtcItem" name="煉獄靴製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有煉獄靴全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37997" type="EtcItem" name="煉獄盾製作禮盒">
+		<table name="#Plus">重裝用</table>
+		<table name="#Desc">裝有煉獄盾全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37998" type="EtcItem" name="煉獄皮頭盔製作禮盒">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">裝有煉獄皮頭盔全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="37999" type="EtcItem" name="煉獄皮甲製作禮盒">
+		<table name="#Plus">輕裝用</table>
+		<table name="#Desc">裝有煉獄皮甲全部製作材料的禮盒。</table>
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>
