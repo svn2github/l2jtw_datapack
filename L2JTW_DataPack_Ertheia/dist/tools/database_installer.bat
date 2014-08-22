@@ -253,8 +253,12 @@ if not exist "%ProgramFiles%\MySQL\MySQL Server 5.1\bin\mysql.exe" goto _MySQL55
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.1\bin
 
 :_MySQL55
-if not exist "%ProgramFiles%\MySQL\MySQL Server 5.5\bin\mysql.exe" goto _MySQL60
+if not exist "%ProgramFiles%\MySQL\MySQL Server 5.5\bin\mysql.exe" goto _MySQL56
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.5\bin
+
+:_MySQL56
+if not exist "%ProgramFiles%\MySQL\MySQL Server 5.6\bin\mysql.exe" goto _MySQL60
+set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.6\bin
 
 :_MySQL60
 if not exist "%ProgramFiles%\MySQL\MySQL Server 6.0\bin\mysql.exe" goto _AppServ
