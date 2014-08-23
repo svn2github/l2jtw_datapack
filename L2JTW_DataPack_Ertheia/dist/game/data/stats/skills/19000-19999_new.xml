@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="19001" levels="1" name="測試出血">
+		<table name="#Desc-LV1">附屬確認</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="720" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1080" />
+		<set name="icon" val="icon.skill0010509" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19002" levels="1" name="定身術">
+		<table name="#Desc-LV1">確認無法行動的道具技能</table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.skill10510" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19003" levels="5" name="血盟抵抗之力">
+		<table name="#Desc-LV1">增加盟員對神聖/黑暗攻擊的抗性3。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV2">增加盟員對神聖/黑暗攻擊的抗性4。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV3">增加盟員對神聖/黑暗攻擊的抗性5。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV4">增加盟員對神聖/黑暗攻擊的抗性6。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV5">增加盟員對神聖/黑暗攻擊的抗性7。效果適用於智者階級以上。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<set name="icon" val="icon.skill19003" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19004" levels="5" name="血盟詛咒控制">
+		<table name="#Desc-LV1">增加盟員對詛咒魔法攻擊的抗性3%。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV2">增加盟員對詛咒魔法攻擊的抗性4%。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV3">增加盟員對詛咒魔法攻擊的抗性5%。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV4">增加盟員對詛咒魔法攻擊的抗性6%。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV5">增加盟員對詛咒魔法攻擊的抗性7%。效果適用於智者階級以上。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<set name="icon" val="icon.skill19004" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19005" levels="5" name="血盟麻痺控制">
+		<table name="#Desc-LV1">增加盟員對麻痺攻擊的抗性12。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV2">增加盟員對麻痺攻擊的抗性13。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV3">增加盟員對麻痺攻擊的抗性14。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV4">增加盟員對麻痺攻擊的抗性15。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV5">增加盟員對麻痺攻擊的抗性16。效果適用於智者階級以上。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<set name="icon" val="icon.skill19005" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19006" levels="5" name="血盟心靈控制">
+		<table name="#Desc-LV1">增加盟員對精神攻擊的抗性12。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV2">增加盟員對精神攻擊的抗性13。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV3">增加盟員對精神攻擊的抗性14。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV4">增加盟員對精神攻擊的抗性15。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV5">增加盟員對精神攻擊的抗性16。效果適用於智者階級以上。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<set name="icon" val="icon.skill19006" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19007" levels="1" name="血盟召喚">
+		<table name="#Desc-LV1">將盟員召喚至自己身邊。消耗5個魔精石。消耗個人聲望900。子爵階級以上可以使用。</table>
+		<set name="hitTime" val="15000" />
+		<set name="icon" val="icon.skill19007" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19008" levels="1" name="血盟守護神">
+		<table name="#Desc-LV1">利用血盟守護神的力量恢復周圍盟員全部的HP/MP/CP。消耗100個魔精石。消耗血盟聲望值1000。國王階級以上可以使用。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill19008" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19009" levels="1" name="血盟強化">
+		<table name="#Desc-LV1">血盟主連線時，增加血盟成員的物理攻擊力/物理防禦力/魔法防禦力5%、魔法攻擊力6%、HP/MP額外恢復量5。血盟主連線時，才會適用此效果。</table>
+		<set name="icon" val="icon.skill19009" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19010" levels="1" name="血盟分身">
+		<table name="#Desc-LV1">召喚出與自己的外型相同的分身後，使敵人產生混亂。消耗30個魔精石。消耗個人聲望1500。侯爵階級以上可以使用。</table>
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill19010" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19011" levels="1" name="血盟傳奇">
+		<table name="#Desc-LV1">當HP低於30%時，增加物理攻擊力/物理防禦力。國王階級以上可以使用。</table>
+		<set name="icon" val="icon.skill19011" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19012" levels="1" name="血盟隱身">
+		<table name="#Desc-LV1">讓周圍盟員們處於隱身狀態。處於隱身狀態的話，將會減緩移動速度50%。消耗150個精靈礦石。消耗個人聲望1000。國王階級以上可以使用。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill19012" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="14400000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19013" levels="1" name="血盟解除詛咒">
+		<table name="#Desc-LV1">解除周圍盟員們身上的所有詛咒魔法。消耗30個魔精石。消耗個人聲望1500。侯爵階級以上可以使用。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill19013" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19014" levels="1" name="血盟防禦">
+		<table name="#Desc-LV1">使周圍盟員們呈現無敵狀態。消耗30個魔精石。消耗血盟聲望1000。國王階級以上可以使用。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill19014" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19015" levels="1" name="血盟善意">
+		<table name="#Desc-LV1">增加周圍盟員們的物理致命攻擊率3%、魔法致命攻擊率20。消耗50個魔精石。消耗個人聲望3500。侯爵階級以上可以使用。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill19015" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19016" levels="1" name="血盟結界">
+		<table name="#Desc-LV1">增加周圍盟員們的物理攻擊力3%、物理防禦力3%。消耗50個魔精石。消耗個人聲望3000。伯爵階級以上可以使用。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill19016" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19017" levels="1" name="血盟囚禁">
+		<table name="#Desc-LV1">在60秒內降低周圍敵群的移動速度23%，並禁止使用返回技能。消耗30個魔精石。消耗個人聲望3000。公爵階級以上可以使用。</table>
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill19017" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19018" levels="1" name="血盟守護神治癒">
+		<table name="#Desc-LV1">恢復HP/MP/CP。</table>
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill19008" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19019" levels="1" name="革命之刃">
+		<table name="#Desc-LV1">對所選的目標加以物理傷害。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill10013" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19020" levels="1" name="革命爆發">
+		<table name="#Desc-LV1">攻擊前方的敵群，加以物理傷害。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill10265" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="6000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19021" levels="1" name="革命強擊">
+		<table name="#Desc-LV1">對所選的目標加以強力的物理傷害。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill10260" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19022" levels="1" name="革命射擊">
+		<table name="#Desc-LV1">攻擊遠距離的敵人。裝備弓類/弩類時可以使用。可OverHit。有機率發生致命攻擊。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill10762" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19023" levels="1" name="革命多重射擊">
+		<table name="#Desc-LV1">以位於前方的目標為中心，進行遠距離範圍攻擊。裝備弓類/弩類時可以使用。可OverHit。有機率發生致命攻擊。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill10771" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="6000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19024" levels="1" name="革命龍捲射擊">
+		<table name="#Desc-LV1">施以能貫穿前方敵人的攻擊。裝備弓類/弩類時可以使用。可OverHit。有機率發生致命攻擊。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill10760" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19025" levels="1" name="革命裂刺">
+		<table name="#Desc-LV1">對目標進行魔法攻擊。可OverHit。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill11011" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19026" levels="1" name="革命爆裂">
+		<table name="#Desc-LV1">對目標和目標周圍的敵群進行魔法攻擊。可OverHit。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill11034" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="6000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19027" levels="1" name="革命破散">
+		<table name="#Desc-LV1">對目標進行強力的魔法攻擊。可OverHit。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill11023" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19028" levels="2" name="革命精神">
+		<table name="#Desc-LV1">在5分鐘內增加自己的CP最大值10000、物理防禦力1000、魔法防禦力1000。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<table name="#Desc-LV2">在5分鐘內增加自己的CP最大值15000、物理防禦力1000、魔法防禦力1000。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="BranchSys2.icon.skill20006" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19029" levels="1" name="革命自我CP恢復">
+		<table name="#Desc-LV1">提升鬥志來恢復自己的CP2000。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0440" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19030" levels="1" name="革命CP恢復">
+		<table name="#Desc-LV1">提升鬥志來恢復目標的CP1000。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill11755" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="6000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19031" levels="1" name="革命隊伍CP恢復">
+		<table name="#Desc-LV1">提升鬥志來恢復隊員的CP1000。等級40~84之間的角色只能在攻城戰場上使用。不會消耗靈魂彈以及魔靈彈。</table>
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill11757" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="6000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19032" levels="1" name="光之能力">
+		<table name="#Desc-LV1">受到光之能力的狀態。增加CP最大值3000，PVP時增加一般/技能攻擊的傷害10%。性向值大於0時，不會採用此效果。侯爵階級以上開始採用。</table>
+		<set name="icon" val="icon.skill19008" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19033" levels="1" name="暗之能力">
+		<table name="#Desc-LV1">受到暗之能力的狀態。增加CP最大值3000，PVP時增加一般/技能攻擊的傷害10%。侯爵階級以上開始採用。</table>
+		<set name="icon" val="icon.skill19008" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19034" levels="1" name="光之封印">
+		<table name="#Desc-LV1">利用光芒力量，對守護城的古代聖物進行刻印。</table>
+		<set name="castRange" val="85" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="120000" />
+		<set name="icon" val="icon.skill0246" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19035" levels="1" name="暗之封印">
+		<table name="#Desc-LV1">利用黑暗力量，對守護城的古代聖物進行刻印。</table>
+		<set name="castRange" val="85" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="120000" />
+		<set name="icon" val="icon.skill0246" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19036" levels="1" name="光之祝福">
+		<table name="#Desc-LV1">藉由光之守護者的祝福，額外增加所獲經驗值與SP3%。</table>
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19037" levels="1" name="燦爛光之斗篷">
+		<table name="#Desc-LV1">STR+3、DEX+3、CON+3、INT+3、WIT+3、MEN+3，降低PVP時所受的傷害15%。性向值大於0時，不會採用此效果。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19038" levels="1" name="冷冽暗之斗篷">
+		<table name="#Desc-LV1">STR+3、DEX+3、CON+3、INT+3、WIT+3、MEN+3，降低PVP時所受的傷害15%。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19039" levels="1" name="光之斗篷">
+		<table name="#Desc-LV1">STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2，降低PVP時所受的傷害5%。性向值大於0時，不會採用此效果。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19040" levels="1" name="暗之斗篷">
+		<table name="#Desc-LV1">STR+2、DEX+2、CON+2、INT+2、WIT+2、MEN+2，降低PVP時所受的傷害5%。</table>
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19041" levels="1" name="城堡返回">
+		<table name="#Desc-LV1">返回城堡。</table>
+		<set name="hitTime" val="20000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19042" levels="1" name="祝福的城堡返回卷軸">
+		<table name="#Desc-LV1">返回城堡。</table>
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19074" levels="2" name="學院再生">
+		<table name="#Desc-LV1">在60分鐘內增加學員的物理攻擊力10%、魔法攻擊力10%、致命攻擊率10%、魔法致命攻擊率10%。</table>
+		<table name="#Desc-LV2">在60分鐘內增加學員的物理攻擊力20%、魔法攻擊力20%、致命攻擊率10%、魔法致命攻擊率10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill19008" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="100" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="21600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19075" levels="1" name="血盟誓約">
+		<set name="icon" val="icon.skill19008" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19076" levels="1" name="血盟學院報酬">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19080" levels="1" name="席格爾化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19081" levels="1" name="提爾化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19082" levels="1" name="歐瑟化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19083" levels="1" name="尤爾化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19084" levels="1" name="菲歐化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19085" levels="1" name="伊斯化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19086" levels="1" name="維因化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19087" levels="1" name="艾羅化身降臨">
+		<table name="#Desc-LV1">變身為化身降臨。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19088" levels="4" name="召喚攻城高崙">
+		<table name="#Desc-LV1">召喚攻城兵器。召喚時會消耗400個R級結晶。矮人種族達到等級85時，將自動學習此技能。</table>
+		<table name="#Desc-LV2">召喚攻城兵器。召喚時會消耗400個R級結晶。矮人種族達到等級90時，將自動學習此技能。</table>
+		<table name="#Desc-LV3">召喚攻城兵器。召喚時會消耗400個R級結晶。矮人種族達到等級95時，將自動學習此技能。</table>
+		<table name="#Desc-LV4">召喚攻城兵器。召喚時會消耗400個R級結晶。矮人種族達到等級99時，將自動學習此技能。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="hitTime" val="180000" />
+		<set name="icon" val="icon.skill0013" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="530" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="7200000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19089" levels="4" name="召喚野豬加農砲">
+		<table name="#Desc-LV1">召喚攻城兵器。在一般模式時才能移動，切換為攻城模式時無法移動，但是可以進行遠距離攻擊。切換模式時需花費30秒。召喚時會消耗100個R級結晶。巨匠職業達到等級85時，將自動學習此技能。</table>
+		<table name="#Desc-LV2">召喚攻城兵器。在一般模式時才能移動，切換為攻城模式時無法移動，但是可以進行遠距離攻擊。切換模式時需花費30秒。召喚時會消耗100個R級結晶。巨匠職業達到等級90時，將自動學習此技能。</table>
+		<table name="#Desc-LV3">召喚攻城兵器。在一般模式時才能移動，切換為攻城模式時無法移動，但是可以進行遠距離攻擊。切換模式時需花費30秒。召喚時會消耗100個R級結晶。巨匠職業達到等級95時，將自動學習此技能。</table>
+		<table name="#Desc-LV4">召喚攻城兵器。在一般模式時才能移動，切換為攻城模式時無法移動，但是可以進行遠距離攻擊。切換模式時需花費30秒。召喚時會消耗100個R級結晶。巨匠職業達到等級99時，將自動學習此技能。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="hitTime" val="30000" />
+		<set name="icon" val="icon.skill0299" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="530" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="1200000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19090" levels="4" name="召喚奇襲加農砲">
+		<table name="#Desc-LV1">召喚奇襲加農砲。召喚時會消耗500個R級結晶。矮人種族達到等級85時，將自動學習此技能。</table>
+		<table name="#Desc-LV2">召喚奇襲加農砲。召喚時會消耗500個R級結晶。矮人種族達到等級90時，將自動學習此技能。</table>
+		<table name="#Desc-LV3">召喚奇襲加農砲。召喚時會消耗500個R級結晶。矮人種族達到等級95時，將自動學習此技能。</table>
+		<table name="#Desc-LV4">召喚奇襲加農砲。召喚時會消耗500個R級結晶。矮人種族達到等級99時，將自動學習此技能。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="hitTime" val="10000" />
+		<set name="icon" val="icon.skill0448" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="530" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="7200000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19091" levels="1" name="道具掉落率上升">
+		<table name="#Desc-LV1">因PK而造成死亡時，將會提升道具掉落機率。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill1170" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19092" levels="2" name="團體回歸">
+		<table name="#Desc-LV1">禁止聊天。</table>
+		<table name="#Desc-LV2">將隊員們傳送到就近村莊或安全地帶。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#mpConsume"> 1 2 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill10313" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="150000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19093" levels="1" name="追加攻擊箭筒">
+		<table name="#Desc-LV1">射擊時，隨機再度造成傷害。</table>
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill0256" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="1" />
+		<set name="operateType" val="T" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19094" levels="1" name="致命攻擊箭筒">
+		<table name="#Desc-LV1">射擊途中若產生致命攻擊時，將造成極大的傷害。</table>
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill0256" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="1" />
+		<set name="operateType" val="T" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19095" levels="1" name="出血攻擊箭筒">
+		<table name="#Desc-LV1">射擊途中若產生致命攻擊時，將隨機產生出血狀態。</table>
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill0256" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="1" />
+		<set name="operateType" val="T" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19096" levels="1" name="追加攻擊">
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="icon" val="icon.skill0056" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19097" levels="1" name="致命攻擊">
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="icon" val="icon.skill0056" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="10000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19098" levels="1" name="出血攻擊">
+		<table name="#Desc-LV1">在15秒內每秒流失HP100。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="icon" val="icon.skill0096" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="10000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19099" levels="1" name="GM權威">
+		<table name="#Desc-LV1">在60分鐘內將目標陷入石化狀態。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill0367" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19100" levels="1" name="精通輕裝甲-測試">
+		<table name="#Desc-LV1">根據DEX狀態，將會提升移動速度以及致命攻擊率。</table>
+		<set name="icon" val="icon.skill19100" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19101" levels="1" name="連鎖猛擊-測試">
+		<table name="#Desc-LV1">在物理攻擊力增加威力33717來加以傷害。可OverHit。有機率發生致命攻擊。有機率發生瀕死攻擊。裝備匕首/雙匕首時可以使用。在出血狀態下，將會發生額外的傷害。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="700" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1130" />
+		<set name="icon" val="icon.skill19101" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19102" levels="1" name="渾沌的關懷">
+		<table name="#Desc-LV1">將渾沌祭典參與者暫時變為無敵狀態。</table>
+		<set name="coolTime" val="300" />
+		<set name="hitTime" val="1200" />
+		<set name="icon" val="icon.skill1505" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19103" levels="1" name="居所-爭戰不歇">
+		<table name="#Desc-LV1">提升佔領居處的血盟成員其CP最大值700。提升PVP物理防禦力3%。</table>
+		<set name="icon" val="icon.skill0050" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19104" levels="2" name="居所-爭戰不歇">
+		<table name="#Desc-LV2">提升佔領居處的血盟成員其CP最大值1000。提升PVP物理防禦力5%。</table>
+		<set name="icon" val="icon.skill0050" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19105" levels="1" name="居所-速度提升">
+		<table name="#Desc-LV1">提升佔領居處的等級1至等級84的血盟成員的攻擊速度、施法速度、移動速度13%。</table>
+		<set name="icon" val="icon.skill0820" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19106" levels="2" name="居所-速度提升">
+		<table name="#Desc-LV2">提升佔領居處的等級1至等級84的血盟成員的攻擊速度、施法速度、移動速度15%。</table>
+		<set name="icon" val="icon.skill0820" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19107" levels="1" name="居所-精神堡壘">
+		<table name="#Desc-LV1">額外提升佔領居處的血盟成員的所得經驗值3%。</table>
+		<set name="icon" val="icon.skill0788_3" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19108" levels="2" name="居所-精神堡壘">
+		<table name="#Desc-LV2">額外提升佔領居處的血盟成員的所得經驗值5%。</table>
+		<set name="icon" val="icon.skill0788_5" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19109" levels="4" name="精神攻城高崙">
+		<table name="#Desc-LV1">與強悍的攻城高崙合一。在5分鐘內可使用攻城高崙的能力並增加物理/魔法防禦力50%、對弓類/弩類攻擊的抗性50%。消耗10個R級結晶。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="coolTime" val="300" />
+		<set name="hitTime" val="10000" />
+		<set name="icon" val="icon.skill19109" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="70" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="1200000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19110" levels="5" name="血盟堅韌之魂">
+		<table name="#Desc-LV1">增加盟員對擊退/擊倒攻擊的抗性12。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV2">增加盟員對擊退/擊倒攻擊的抗性13。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV3">增加盟員對擊退/擊倒攻擊的抗性14。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV4">增加盟員對擊退/擊倒攻擊的抗性15。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV5">增加盟員對擊退/擊倒攻擊的抗性16。效果適用於智者階級以上。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<set name="icon" val="icon.skill_tough_spirit" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19111" levels="5" name="血盟重力之心">
+		<table name="#Desc-LV1">增加盟員對空中束縛攻擊的抗性12。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV2">增加盟員對空中束縛攻擊的抗性13。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV3">增加盟員對空中束縛攻擊的抗性14。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV4">增加盟員對空中束縛攻擊的抗性15。效果適用於智者階級以上。</table>
+		<table name="#Desc-LV5">增加盟員對空中束縛攻擊的抗性16。效果適用於智者階級以上。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<set name="icon" val="icon.skill_heavy_heart" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19112" levels="1" name="血盟快速回歸">
+		<table name="#Desc-LV1">將周圍盟員們傳送到村莊。在GM諮詢處等地的特殊區域無法使用。消耗50個魔精石。消耗個人聲望2000。效果適用於子爵階級以上。</table>
+		<set name="hitTime" val="3500" />
+		<set name="icon" val="icon.skill_pledge_party_recall" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19113" levels="1" name="血盟回歸限制">
+		<table name="#Desc-LV1">在60秒內禁止選擇的目標使用返回技能。消耗100個魔精石。消耗個人聲望3000。效果適用於侯爵階級以上。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill_recall" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19114" levels="1" name="血盟返生限制">
+		<table name="#Desc-LV1">在60秒內禁止選擇的目標使用復活技能。消耗150個魔精石。消耗血盟聲望值1000。效果適用於侯爵階級以上。</table>
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill_resurrection" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19115" levels="1" name="米德埃維寇">
+		<table name="#Desc-LV1">可以騎乘米德埃維寇。需加入等級5以上血盟方可騎乘。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.etc_dwarf_craft_vehicle" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19116" levels="1" name="騎乘麟紅龍">
+		<table name="#Desc-LV1">可以騎乘麟紅龍。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.etc_lind_vehicle" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19117" levels="1" name="次元能力">
+		<table name="#Desc-LV1">受到次元能力的狀態，大幅強化物理防禦能力。</table>
+		<set name="icon" val="icon.skill14216" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19118" levels="4" name="乘介能力">
+		<table name="#Desc-LV1">與敵人合一，因此不受到先行攻擊。在此狀態下若進行攻擊的話，就會解除整體隊伍的非先攻狀態。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#mpConsume"> 61 63 67 70 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="4000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19119" levels="1" name="貴族之優雅">
+		<table name="#Desc-LV1">死亡時，目標的輔助魔法/詛咒魔法將不會消失，而持續維持。但是貴族之優雅與幸運符咒此兩種狀態會消失。消耗1000個魔精石。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill1323" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="500" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19120" levels="4" name="貴族盾">
+		<table name="#Desc-LV1">增加物理防禦力2%。</table>
+		<table name="#Desc-LV2">增加物理防禦力4%。</table>
+		<table name="#Desc-LV3">增加物理防禦力6%。</table>
+		<table name="#Desc-LV4">增加物理防禦力8%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19120" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19121" levels="4" name="貴族魔法屏障">
+		<table name="#Desc-LV1">增加魔法抗性3%。</table>
+		<table name="#Desc-LV2">增加魔法抗性5%。</table>
+		<table name="#Desc-LV3">增加魔法抗性7%。</table>
+		<table name="#Desc-LV4">增加魔法抗性10%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19121" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19122" levels="4" name="貴族神佑之體">
+		<table name="#Desc-LV1">增加HP最大值6%。</table>
+		<table name="#Desc-LV2">增加HP最大值10%。</table>
+		<table name="#Desc-LV3">增加HP最大值12%。</table>
+		<table name="#Desc-LV4">增加HP最大值16%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill1045" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19123" levels="4" name="貴族速度激發">
+		<table name="#Desc-LV1">加快攻擊速度2%。</table>
+		<table name="#Desc-LV2">加快攻擊速度4%。</table>
+		<table name="#Desc-LV3">加快攻擊速度6%。</table>
+		<table name="#Desc-LV4">加快攻擊速度9%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill1086" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19124" levels="2" name="貴族特性守護者">
+		<table name="#Desc-LV1">增加麻痺/衝擊成功率/防禦率5%。</table>
+		<table name="#Desc-LV2">增加麻痺/衝擊成功率/防禦率10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19124" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19125" levels="2" name="貴族咒語凝聚">
+		<table name="#Desc-LV1">增加物理技能致命攻擊率5%。</table>
+		<table name="#Desc-LV2">增加物理技能致命攻擊率10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill0193" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19126" levels="2" name="貴族精神凝聚">
+		<table name="#Desc-LV1">額外增加MP恢復4。</table>
+		<table name="#Desc-LV2">額外增加MP恢復10。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill0229" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19127" levels="2" name="貴族導引">
+		<table name="#Desc-LV1">增加物理命中能力8、魔法命中能力8、使魔物理命中能力15。</table>
+		<table name="#Desc-LV2">增加物理命中能力16、魔法命中能力16、使魔物理命中能力23，啟動隱藏技能。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19127" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19128" levels="2" name="貴族死之咒語">
+		<table name="#Desc-LV1">增加物理技能致命攻擊傷害5%。</table>
+		<table name="#Desc-LV2">增加物理技能致命攻擊傷害10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill10655" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19129" levels="2" name="貴族保護盾">
+		<table name="#Desc-LV1">減少對於一般攻擊致命攻擊發生率2%。</table>
+		<table name="#Desc-LV2">減少對於一般攻擊致命攻擊發生率4%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19129" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19130" levels="2" name="貴族元素">
+		<table name="#Desc-LV1">增加攻擊速度20、6大屬性防禦20。</table>
+		<table name="#Desc-LV2">增加攻擊速度50、6大屬性防禦50。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19130" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19131" levels="2" name="貴族熟練">
+		<table name="#Desc-LV1">裝備近身雙手武器時，增加物理攻擊力3%、裝備盾牌時，加快攻擊速度3%。</table>
+		<table name="#Desc-LV2">裝備近身雙手武器時，增加物理攻擊力5%、裝備盾牌時，加快攻擊速度5%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19131" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19132" levels="2" name="貴族心靈控制">
+		<table name="#Desc-LV1">減少物理技能冷卻時間3%。</table>
+		<table name="#Desc-LV2">減少物理技能冷卻時間5%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19132" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19133" levels="1" name="貴族重裝甲屏障">
+		<table name="#Desc-LV1">裝備重裝甲時，增加魔法防禦力3%、MP最大值6%。</table>
+		<set name="icon" val="icon.skill19133" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19134" levels="4" name="貴族守護神">
+		<table name="#Desc-LV1">裝備重裝甲時，增加物理防禦力3%。</table>
+		<table name="#Desc-LV2">裝備重裝甲時，增加物理防禦力5%。</table>
+		<table name="#Desc-LV3">裝備重裝甲時，增加物理防禦力7%。</table>
+		<table name="#Desc-LV4">裝備重裝甲時，增加物理防禦力10%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19134" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19135" levels="4" name="貴族重裝甲攻擊">
+		<table name="#Desc-LV1">裝備重裝甲時，增加物理攻擊力2%。</table>
+		<table name="#Desc-LV2">裝備重裝甲時，增加物理攻擊力4%。</table>
+		<table name="#Desc-LV3">裝備重裝甲時，增加物理攻擊力6%。</table>
+		<table name="#Desc-LV4">裝備重裝甲時，增加物理攻擊力8%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19135" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19136" levels="3" name="貴族祈禱">
+		<table name="#Desc-LV1">增加所受的治癒量3%。</table>
+		<table name="#Desc-LV2">增加所受的治癒量6%。</table>
+		<table name="#Desc-LV3">增加所受的治癒量9%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<set name="icon" val="icon.skill1273" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19137" levels="1" name="貴族勇氣加護">
+		<table name="#Desc-LV1">減少所受的傷害10%。</table>
+		<set name="icon" val="icon.skill19137" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19138" levels="1" name="貴族狂暴加護">
+		<table name="#Desc-LV1">增加物理技能威力10%。</table>
+		<set name="icon" val="icon.skill19138" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19139" levels="4" name="貴族力量強化">
+		<table name="#Desc-LV1">增加物理攻擊力2%。</table>
+		<table name="#Desc-LV2">增加物理攻擊力4%。</table>
+		<table name="#Desc-LV3">增加物理攻擊力6%。</table>
+		<table name="#Desc-LV4">增加物理攻擊力9%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19139" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19140" levels="2" name="貴族消耗">
+		<table name="#Desc-LV1">減少物理技能消耗MP5%。</table>
+		<table name="#Desc-LV2">減少物理技能消耗MP10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19140" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19141" levels="2" name="貴族風之疾走">
+		<table name="#Desc-LV1">加快移動速度5。</table>
+		<table name="#Desc-LV2">加快移動速度10。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill1204" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19142" levels="2" name="貴族特性狂戰士">
+		<table name="#Desc-LV1">增加衝擊/束縛成功率/防禦率5%。</table>
+		<table name="#Desc-LV2">增加衝擊/束縛成功率/防禦率10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19142" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19143" levels="2" name="貴族弱點偵測">
+		<table name="#Desc-LV1">增加物理致命攻擊率20。</table>
+		<table name="#Desc-LV2">增加物理致命攻擊率40。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill1077" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19144" levels="2" name="貴族背之火">
+		<table name="#Desc-LV1">增加後方傷害3%。</table>
+		<table name="#Desc-LV2">增加後方傷害6%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill0030" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19145" levels="2" name="貴族死之呢喃">
+		<table name="#Desc-LV1">增加物理致命攻擊傷害3%。</table>
+		<table name="#Desc-LV2">增加物理致命攻擊傷害5%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill4278" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19146" levels="2" name="貴族保護魔法">
+		<table name="#Desc-LV1">減少受到魔法致命攻擊機率2%。</table>
+		<table name="#Desc-LV2">減少受到魔法致命攻擊機率4%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19146" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19147" levels="2" name="貴族伏擊">
+		<table name="#Desc-LV1">非戰鬥時，加快移動速度6。</table>
+		<table name="#Desc-LV2">非戰鬥時，加快移動速度12。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill1905" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19148" levels="1" name="貴族輕裝甲祝福">
+		<table name="#Desc-LV1">裝備輕裝甲時，增加HP最大值6%、MP最大值6%。</table>
+		<set name="icon" val="icon.skill19148" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19149" levels="4" name="貴族抗魔術">
+		<table name="#Desc-LV1">裝備輕裝甲時，增加魔法防禦力3%。</table>
+		<table name="#Desc-LV2">裝備輕裝甲時，增加魔法防禦力5%。</table>
+		<table name="#Desc-LV3">裝備輕裝甲時，增加魔法防禦力9%。</table>
+		<table name="#Desc-LV4">裝備輕裝甲時，增加魔法防禦力12%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill0146" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19150" levels="4" name="貴族輕裝甲攻擊">
+		<table name="#Desc-LV1">裝備輕裝甲時，增加物理攻擊力2%。</table>
+		<table name="#Desc-LV2">裝備輕裝甲時，增加物理攻擊力4%。</table>
+		<table name="#Desc-LV3">裝備輕裝甲時，增加物理攻擊力6%。</table>
+		<table name="#Desc-LV4">裝備輕裝甲時，增加物理攻擊力8%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19150" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19151" levels="3" name="貴族吸血">
+		<table name="#Desc-LV1">攻擊時，機率性將傷害的3%恢復自己的HP。</table>
+		<table name="#Desc-LV2">攻擊時，機率性將傷害的6%恢復自己的HP。</table>
+		<table name="#Desc-LV3">攻擊時，機率性將傷害的9%恢復自己的HP。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<set name="icon" val="icon.skill1268" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19152" levels="1" name="貴族堅忍">
+		<table name="#Desc-LV1">在無法行動的狀態時，減少受到傷害21%。</table>
+		<set name="icon" val="icon.skill19152" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19153" levels="1" name="貴族致命點">
+		<table name="#Desc-LV1">增加物理致命攻擊率50、魔法致命攻擊率20、技能強大機率50%。</table>
+		<set name="icon" val="icon.skill19153" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19154" levels="4" name="貴族魔力催化">
+		<table name="#Desc-LV1">增加魔法攻擊率3%、恢復魔法威力47。</table>
+		<table name="#Desc-LV2">增加魔法攻擊率6%、恢復魔法威力94。</table>
+		<table name="#Desc-LV3">增加魔法攻擊率9%、恢復魔法威力141。</table>
+		<table name="#Desc-LV4">增加魔法攻擊率14%、恢復魔法威力211。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill1059" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19155" levels="2" name="貴族靈活思緒">
+		<table name="#Desc-LV1">加快施法速度2%。</table>
+		<table name="#Desc-LV2">加快施法速度4%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill1085" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19156" levels="2" name="貴族特性大賢者">
+		<table name="#Desc-LV1">增加束縛/精神成功率/防禦率5%。</table>
+		<table name="#Desc-LV2">增加束縛/精神成功率/防禦率10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19156" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19157" levels="2" name="貴族野性魔力">
+		<table name="#Desc-LV1">增加魔法致命攻擊率20。</table>
+		<table name="#Desc-LV2">增加魔法致命攻擊率30。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill1303" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19158" levels="2" name="貴族神佑之魂">
+		<table name="#Desc-LV1">增加MP最大值6%。</table>
+		<table name="#Desc-LV2">增加MP最大值10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill1048" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19159" levels="2" name="貴族防護">
+		<table name="#Desc-LV1">增加詛咒魔法抗性5%。</table>
+		<table name="#Desc-LV2">增加詛咒魔法抗性10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill11567" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19160" levels="2" name="貴族魔法致死">
+		<table name="#Desc-LV1">增加魔法致命攻擊傷害3%、恢復魔法威力94。</table>
+		<table name="#Desc-LV2">增加魔法致命攻擊傷害5%、恢復魔法威力211。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19160" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19161" levels="2" name="貴族保護護甲">
+		<table name="#Desc-LV1">對於一般攻擊減少致命傷害2%。</table>
+		<table name="#Desc-LV2">對於一般攻擊減少致命傷害4%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19161" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19162" levels="2" name="貴族恢復">
+		<table name="#Desc-LV1">在奔跑的狀態下，增加MP額外恢復8。</table>
+		<table name="#Desc-LV2">在奔跑的狀態下，增加MP額外恢復12。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19162" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19163" levels="2" name="貴族精通戰技">
+		<table name="#Desc-LV1">增加技能強大機率30%。</table>
+		<table name="#Desc-LV2">增加技能強大機率50%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill0330" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19164" levels="1" name="貴族長袍之盾">
+		<table name="#Desc-LV1">裝備長袍時，增加物理防禦力3%、MP最大值6%。</table>
+		<set name="icon" val="icon.skill19164" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19165" levels="4" name="貴族能量盾">
+		<table name="#Desc-LV1">裝備長袍時，增加物理防禦力3%。</table>
+		<table name="#Desc-LV2">裝備長袍時，增加物理防禦力5%。</table>
+		<table name="#Desc-LV3">裝備長袍時，增加物理防禦力7%。</table>
+		<table name="#Desc-LV4">裝備長袍時，增加物理防禦力10%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19165" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19166" levels="4" name="貴族長袍之擊">
+		<table name="#Desc-LV1">裝備長袍時，增加魔法攻擊力3%、恢復技能威力47。</table>
+		<table name="#Desc-LV2">裝備長袍時，增加魔法攻擊力6%、恢復技能威力94。</table>
+		<table name="#Desc-LV3">裝備長袍時，增加魔法攻擊力9%。</table>
+		<table name="#Desc-LV4">裝備長袍時，增加魔法攻擊力12%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19166" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19167" levels="3" name="貴族加持">
+		<table name="#Desc-LV1">未受到魔法攻擊力影響，增加恢復效果3%。</table>
+		<table name="#Desc-LV2">未受到魔法攻擊力影響，增加恢復效果6%。</table>
+		<table name="#Desc-LV3">未受到魔法攻擊力影響，增加恢復效果9%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<set name="icon" val="icon.skill19167" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19168" levels="1" name="貴族回復">
+		<table name="#Desc-LV1">增加MP額外恢復33、MP最大值10%。</table>
+		<set name="icon" val="icon.skill19168" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19169" levels="1" name="貴族前進">
+		<table name="#Desc-LV1">增加MP額外恢復33，減少魔法技能冷卻時間5%。</table>
+		<set name="icon" val="icon.skill19169" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19170" levels="2" name="貴族祝福">
+		<table name="#Desc-LV1">增加物理防禦力3%。</table>
+		<table name="#Desc-LV2">增加物理防禦力5%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19120" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19171" levels="4" name="貴族狀態">
+		<table name="#Desc-LV1">增加HP最大值6%。</table>
+		<table name="#Desc-LV2">增加HP最大值10%。</table>
+		<table name="#Desc-LV3">增加HP最大值14%。</table>
+		<table name="#Desc-LV4">增加HP最大值20%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill1045" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19172" levels="2" name="貴族獵鷹">
+		<table name="#Desc-LV1">增加物理命中能力8、魔法命中能力8、使魔物理命中能力15。</table>
+		<table name="#Desc-LV2">增加物理命中能力16、魔法命中能力16、使魔物理命中能力23。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19127" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19173" levels="2" name="貴族聖徽">
+		<table name="#Desc-LV1">增加攻擊屬性20、6大屬性防禦20。</table>
+		<table name="#Desc-LV2">增加攻擊屬性50、6大屬性防禦50。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19130" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19174" levels="4" name="貴族大地">
+		<table name="#Desc-LV1">增加物理防禦力3%。</table>
+		<table name="#Desc-LV2">增加物理防禦力5%。</table>
+		<table name="#Desc-LV3">增加物理防禦力6%。</table>
+		<table name="#Desc-LV4">增加物理防禦力8%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="icon.skill19121" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19175" levels="2" name="貴族生命">
+		<table name="#Desc-LV1">增加HP最大值6%。</table>
+		<table name="#Desc-LV2">增加HP最大值10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill1045" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19176" levels="2" name="貴族之眼">
+		<table name="#Desc-LV1">增加物力命中能力8、魔法命中能力8、使魔物理命中能力15。</table>
+		<table name="#Desc-LV2">增加物力命中能力16、魔法命中能力16、使魔物理命中能力23。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19127" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19177" levels="2" name="貴族之魂">
+		<table name="#Desc-LV1">增加攻擊屬性20、6大屬性防禦20。</table>
+		<table name="#Desc-LV2">增加攻擊屬性50、6大屬性防禦50。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<set name="icon" val="icon.skill19130" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19178" levels="1" name="騎士隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19179" levels="1" name="鬥士隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19180" levels="1" name="行者隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19181" levels="1" name="弓手隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19182" levels="1" name="巫師隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19183" levels="1" name="魔法師隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19184" levels="1" name="召喚士隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19185" levels="1" name="牧師隱藏觸發1">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19186" levels="1" name="狂暴護盾">
+		<table name="#Desc-LV1">盾牌防禦成功時，將機率性的提高物理攻擊力。天賦啟用時，才會適用此效果。</table>
+		<set name="icon" val="icon.skill19186" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19187" levels="1" name="封鎖">
+		<table name="#Desc-LV1">在10秒內，封鎖敵人使用物理/魔法技能。天賦啟用時，才可以使用。</table>
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill19187" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="34" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="120000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19188" levels="1" name="駭客">
+		<table name="#Desc-LV1">若因玩家遭受傷害的話，會以一定機率解除對方的目標鎖定狀態。天賦啟用時，才會適用此效果。</table>
+		<set name="icon" val="icon.skill19188" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19189" levels="1" name="後躍一擊">
+		<table name="#Desc-LV1">在物理攻擊力額外增加威力30534來攻擊目標，並解除其目標鎖定且移動至後方450步。裝備弓類/弩類時，在天賦啟用狀態可以使用。</table>
+		<set name="castRange" val="450" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="950" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill10858" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="34" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19190" levels="1" name="魔力光輝">
+		<table name="#Desc-LV1">增加MP最大值10%，且在奔跑的狀態下，額外恢復MP8。天賦啟用時，才會適用此效果。</table>
+		<set name="icon" val="icon.skill19190" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19191" levels="1" name="裝甲迷霧">
+		<table name="#Desc-LV1">減少所受傷害10%。天賦啟用時，才會適用此效果。</table>
+		<set name="icon" val="icon.skill19191" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19192" levels="1" name="廣域使魔狂暴化">
+		<table name="#Desc-LV1">在30秒內，增加使魔的物理攻擊力15%、致命傷害15%。天賦啟用時，才可以使用。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3500" />
+		<set name="icon" val="icon.skill19192" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="67" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19193" levels="1" name="神授祝福">
+		<table name="#Desc-LV1">使用治癒之光時，增加魔法攻擊力/治癒威力。天賦啟用時，才會適用此效果。</table>
+		<set name="icon" val="icon.skill19193" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="19196" levels="1" name="狂暴護盾">
+		<table name="#Desc-LV1">在5秒內，增加物理攻擊力30%。裝備盾牌時適用此效果。</table>
+		<set name="icon" val="icon.skill19186" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19197" levels="1" name="神授祝福">
+		<table name="#Desc-LV1">在15秒內，增加魔法攻擊力16%、恢復魔法威力242。</table>
+		<set name="icon" val="icon.skill19193" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="10000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19198" levels="1" name="解除目標">
+		<set name="castRange" val="1100" />
+		<set name="effectRange" val="1600" />
+		<set name="icon" val="icon.skill0445" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="10000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19199" levels="1" name="暴風雨之兆">
+		<table name="#Desc-LV1">在60秒內，增加自己的物理攻擊力、魔法攻擊力10%。</table>
+		<set name="icon" val="icon.skill1996" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="19200" levels="1" name="重力之兆">
+		<table name="#Desc-LV1">在30秒內，增加自己的物理防禦力、魔法防禦力10%。</table>
+		<set name="icon" val="icon.skill1997" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+</list>

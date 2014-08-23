@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="6922" levels="3" name="力量強化-冒險家用">
+		<table name="#Desc-LV1">增加物理攻擊力8%。</table>
+		<table name="#Desc-LV2">增加物理攻擊力12%。</table>
+		<table name="#Desc-LV3">增加物理攻擊力15%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1068" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6923" levels="3" name="魔力催化-冒險家用">
+		<table name="#Desc-LV1">增加魔法攻擊力55%。</table>
+		<table name="#Desc-LV2">增加魔法攻擊力65%。</table>
+		<table name="#Desc-LV3">增加魔法攻擊力75%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1059" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6924" levels="3" name="保護盾-冒險家用">
+		<table name="#Desc-LV1">增加物理防禦力8%。</table>
+		<table name="#Desc-LV2">增加物理防禦力12%。</table>
+		<table name="#Desc-LV3">增加物理防禦力15%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1040" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6925" levels="2" name="魔法屏障-冒險家用">
+		<table name="#Desc-LV1">增加魔法防禦力23%。</table>
+		<table name="#Desc-LV2">增加魔法防禦力30%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1036" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6926" levels="6" name="神佑之體-冒險家用">
+		<table name="#Desc-LV1">增加HP最大值10%。</table>
+		<table name="#Desc-LV2">增加HP最大值15%。</table>
+		<table name="#Desc-LV3">增加HP最大值20%。</table>
+		<table name="#Desc-LV4">增加HP最大值25%。</table>
+		<table name="#Desc-LV5">增加HP最大值30%。</table>
+		<table name="#Desc-LV6">增加HP最大值35%。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1045" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6927" levels="6" name="神佑之魂-冒險家用">
+		<table name="#Desc-LV1">增加MP最大值10%。</table>
+		<table name="#Desc-LV2">增加MP最大值15%。</table>
+		<table name="#Desc-LV3">增加MP最大值20%。</table>
+		<table name="#Desc-LV4">增加MP最大值25%。</table>
+		<table name="#Desc-LV5">增加MP最大值30%。</table>
+		<table name="#Desc-LV6">增加MP最大值35%。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1048" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6928" levels="3" name="弱點偵測-冒險家用">
+		<table name="#Desc-LV1">增加致命攻擊率20%。</table>
+		<table name="#Desc-LV2">增加致命攻擊率25%。</table>
+		<table name="#Desc-LV3">增加致命攻擊率30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1077" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6929" levels="2" name="野性魔力-冒險家用">
+		<table name="#Desc-LV1">增加因傷害魔法造成強大傷害的機率1。</table>
+		<table name="#Desc-LV2">增加因傷害魔法造成強大傷害的機率2。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1303" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6930" levels="2" name="速度激發-冒險家用">
+		<table name="#Desc-LV1">加快攻擊速度15%。</table>
+		<table name="#Desc-LV2">加快攻擊速度33%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1086" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6931" levels="3" name="靈活思緒-冒險家用">
+		<table name="#Desc-LV1">加快施法速度15%。</table>
+		<table name="#Desc-LV2">加快施法速度23%。</table>
+		<table name="#Desc-LV3">加快施法速度30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1085" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6932" levels="4" name="吸血怒擊-冒險家用">
+		<table name="#Desc-LV1">以一定的機率將施予敵人的物理傷害6%吸取為HP。</table>
+		<table name="#Desc-LV2">以一定的機率將施予敵人的物理傷害7%吸取為HP。</table>
+		<table name="#Desc-LV3">以一定的機率將施予敵人的物理傷害8%吸取為HP。</table>
+		<table name="#Desc-LV4">以一定的機率將施予敵人的物理傷害9%吸取為HP。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1268" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6933" levels="2" name="狂戰士魂-冒險家用">
+		<table name="#Desc-LV1">降低物理防禦力5%、魔法防禦力10%、迴避2而增加物理攻擊力5%、魔法攻擊力10%、攻擊速度5%、施法速度5%、移動速度5。</table>
+		<table name="#Desc-LV2">降低物理防禦力8%、魔法防禦力16%、迴避4而增加物理攻擊力8%、魔法攻擊力16%、攻擊速度8%、施法速度8%、移動速度8。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1062" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6934" levels="3" name="死之呢喃-冒險家用">
+		<table name="#Desc-LV1">提高致命攻擊的威力25%。</table>
+		<table name="#Desc-LV2">提高致命攻擊的威力30%。</table>
+		<table name="#Desc-LV3">提高致命攻擊的威力35%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1242" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="6935" levels="2" name="風之疾走-冒險家用">
+		<table name="#Desc-LV1">加快移動速度20。</table>
+		<table name="#Desc-LV2">加快移動速度33。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="icon" val="icon.skill1204" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+</list>

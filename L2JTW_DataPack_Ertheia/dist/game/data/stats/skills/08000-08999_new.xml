@@ -1,0 +1,3489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="8527" levels="1" name="壺精封印解除-瑪格門妖精">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8528" levels="1" name="壺精封印解除">
+		<table name="#Desc-LV1">解除壺精的封印。</table>
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8529" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8530" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%、毒攻擊率10%。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8531" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%、毒攻擊率10%、束縛抗性10%。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8532" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%、毒攻擊率10%、束縛抗性10%、束縛攻擊率10%。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8533" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%、毒攻擊率10%、束縛抗性10%、束縛攻擊率10%、命中能力。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8534" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%、毒攻擊率10%、束縛抗性10%、束縛攻擊率10%、命中能力、攻擊速度。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8535" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%、毒攻擊率10%、束縛抗性10%、束縛攻擊率10%、命中能力、攻擊速度、施法速度。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8536" levels="1" name="傲慢戒指">
+		<table name="#Desc-LV1">增加MP最大值15、毒抗性10%、毒攻擊率10%、束縛抗性10%、束縛攻擊率10%、命中能力、攻擊速度、施法速度、致命傷害。</table>
+		<set name="icon" val="icon.ring_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8537" levels="1" name="傲慢襯衫">
+		<table name="#Desc-LV1">增加HP最大值246。</table>
+		<set name="icon" val="icon.tshirt_of_oman" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8538" levels="1" name="復仇">
+		<table name="#Desc-LV1">激起周圍敵群威力7987的攻擊慾望，並轉換目標。在30秒內增加自己的物理防禦力5400、魔法防禦力4050、對魔法消除攻擊的抗性50，並處於無法移動的狀態。裝備盾牌時可使用。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0368" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="35" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8539" levels="1" name="鳳凰之魂">
+		<table name="#Desc-LV1">與鳳凰共享靈魂。每當遭受攻擊時，鳳凰之魂將會以一定的機率擴展。每當擴展時會出現額外效果。藉由戒指的力量，放寬使用條件的狀態。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0784" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="37" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8540" levels="1" name="信念之盾">
+		<table name="#Desc-LV1">在15秒內增加隊伍成員的物理防禦力3600、魔法防禦力2700，並且在持續時間內代受隊伍成員所遭受的傷害90%。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0528" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="43" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8541" levels="1" name="復仇種子">
+		<table name="#Desc-LV1">對自己種下復仇種子。每當遭受攻擊時，復仇種子會以一定的機率成長，而且每當成長時攻擊力也會增強。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0761" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="37" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8542" levels="1" name="伊娃之觸">
+		<table name="#Desc-LV1">恢復隊伍成員們的HP50%，並在1分鐘內增加對輔助魔法消除攻擊的抗性100%、對詛咒魔法攻擊的抗性30%、所受HP恢復魔法的威力30%，並每秒恢復HP50。藉由戒指的力量，放寬使用條件的狀態。</table>
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1800" />
+		<set name="icon" val="icon.skill0787" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="1253" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="150000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8543" levels="1" name="席琳之痛">
+		<table name="#Desc-LV1">與席琳共享痛苦。每當遭受攻擊時，席琳的痛苦將會以一定的機率增加。成長時會出現額外效果。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0788" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="37" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8544" levels="1" name="火之預言">
+		<table name="#Desc-LV1">在5分鐘內受惠於偉大的靈魂，將增加隊員的MP最大值20%、HP額外恢復量20%、因傷害魔法造成強大傷害的機率2、致命攻擊的威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、對詛咒魔法的抗性10%，而降低移動速度20%。消耗10個魔精石。</table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill1356" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="72" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="4000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8545" levels="1" name="石化退返">
+		<table name="#Desc-LV1">在8秒內主動成為石化狀態，不讓自己受到傷害。</table>
+		<set name="hitTime" val="1200" />
+		<set name="icon" val="icon.skill1540" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8546" levels="1" name="智慧的奧祕">
+		<table name="#Desc-LV1">將魔法的效能極大化之後，降低MP消耗量30%、施法速度10%，並每秒流失HP50。</table>
+		<set name="icon" val="icon.skill0336" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="36" />
+		<set name="operateType" val="T" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8547" levels="1" name="鬥者之歌">
+		<table name="#Desc-LV1">在2分鐘內降低所有隊員物理/詩歌/劍舞技能的MP消耗量20%、物理/詩歌/劍舞技能的使用冷卻時間10%。若在有詩歌/劍舞效果的狀態下唱歌，會額外增加MP的消耗。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0364" />
+		<set name="isMagic" val="3" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="60" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8548" levels="1" name="純淨之歌">
+		<table name="#Desc-LV1">以80%的機率淨化隊伍成員的惡性異常狀態，並在2分鐘內增加對詛咒魔法攻擊的抗性30%、所受HP恢復魔法的威力30%。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0914" />
+		<set name="isMagic" val="3" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="60" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="240000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8549" levels="1" name="狂戰士之舞">
+		<table name="#Desc-LV1">在2分鐘內降低隊伍成員的物理防禦力/魔法防禦力/迴避能力，而增加物理攻擊力/魔法攻擊力/攻擊速度/施法速度/移動速度。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0915" />
+		<set name="isMagic" val="3" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="60" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="240000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8550" levels="1" name="梅杜莎之舞">
+		<table name="#Desc-LV1">跳出召喚梅杜莎幻影的舞。在30秒內讓周圍敵群陷入石化狀態。裝備二刀流武器時可以使用。</table>
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0367" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="53" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8551" levels="1" name="凱旋頌歌">
+		<table name="#Desc-LV1">恢復所有隊員的HP20%，在5分鐘內受惠於偉大的靈魂，將增加HP最大值20%、因傷害魔法造成強大傷害的機率2、致命攻擊的威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、對詛咒魔法的抗性10%、命中能力4，而降低移動速度20%。消耗40個魔精石。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill1363" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="284" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8552" levels="1" name="帕格立歐突擊">
+		<table name="#Desc-LV1">在物理攻擊力增加威力4563來攻擊敵人的周圍，並在15秒內造成火傷，使其每秒流失HP92。裝備鈍器類武器時可以使用。可Overhit。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="720" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1080" />
+		<set name="icon" val="icon.skill0949" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="35" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8553" levels="1" name="力量的奧祕">
+		<table name="#Desc-LV1">將魔法的效能極大化之後，增加魔法攻擊力30%、魔法MP消耗量10%。每秒消耗HP50。</table>
+		<set name="icon" val="icon.skill0337" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="36" />
+		<set name="operateType" val="T" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8554" levels="1" name="亡命一擊">
+		<table name="#Desc-LV1">試圖使用猛烈的致命攻擊。在物理攻擊力增加威力5773來攻擊目標。裝備匕首類武器時可以使用。可Overhit。有機率發生瀕死攻擊。</table>
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1800" />
+		<set name="icon" val="icon.skill0344" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="77" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="4000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8555" levels="1" name="爆射投擊">
+		<table name="#Desc-LV1">發射匕首，並在物理攻擊力增加威力3488來攻擊敵人，而且在10秒內降低移動速度80%。裝備匕首類武器時可以使用。</table>
+		<set name="castRange" val="300" />
+		<set name="effectRange" val="800" />
+		<set name="hitTime" val="1080" />
+		<set name="icon" val="icon.skill0991" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="82" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="45000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8556" levels="1" name="狂熱鬥志">
+		<table name="#Desc-LV1">在戰場中體會最高亢的興奮。在30秒內增加自己的移動速度20、迴避能力15、要害攻擊成功率30%、物理技能迴避率40%、對輔助魔法消除攻擊的抗性90。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0768" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="36" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8557" levels="1" name="御風">
+		<table name="#Desc-LV1">隨風飛躍戰場。在30秒內增加自己的移動速度50、迴避能力20、要害攻擊成功率20%、物理技能的迴避能力75%、對輔助魔法消除攻擊的抗性80。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0769" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="36" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8558" levels="1" name="鬼行">
+		<table name="#Desc-LV1">如鬼魂般的移動侵入戰場。在30秒內增加自己的移動速度33、迴避能力15、要害攻擊成功率40%、物理技能的迴避能力60%、對輔助魔法消除攻擊的抗性90。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0770" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="36" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8559" levels="1" name="斷魂箭">
+		<table name="#Desc-LV1">射出狙擊敵人要害的箭。在物理攻擊力增加威力7698來攻擊敵人。裝備弓類武器時可以使用。可Overhit。有機率發生瀕死攻擊。有機率發生致命攻擊。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill0343" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="153" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="8000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8560" levels="1" name="火焰之鷹">
+		<table name="#Desc-LV1">發射含有火鳥氣息的箭矢，在物理攻擊力增加威力6084來攻擊前方的敵群。裝備弓類武器時可以使用。可Overhit。有機率發生致命攻擊。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3500" />
+		<set name="icon" val="icon.skill0771" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="164" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8561" levels="1" name="箭雨">
+		<table name="#Desc-LV1">從空中發射箭雨，在物理攻擊力增加威力4563來攻擊敵人的周圍。裝備弓類武器時可以使用。可Overhit。有機率發生致命攻擊。</table>
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill0772" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="164" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8562" levels="1" name="鬼刺">
+		<table name="#Desc-LV1">發射蘊含幽靈氣息的箭矢，在物理攻擊力增加威力6388來攻擊前方的敵群。裝備弓類武器時可以使用。可Overhit。有機率發生致命攻擊。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.skill0773" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="164" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8563" levels="1" name="死之螯針">
+		<table name="#Desc-LV1">發射覬覦死亡的箭。在物理攻擊力增加威力24306來攻擊敵人。裝備弓類武器時可以使用。可Overhit。有機率發生致命攻擊。裝備弓類/弩類武器時可以使用。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3500" />
+		<set name="icon" val="icon.skill0990" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="165" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="12000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8564" levels="1" name="疾襲衝擊">
+		<table name="#Desc-LV1">突擊後，並在物理攻擊力增加威力4040來攻擊前方的敵群，且在9秒內使其陷入休克狀態。藉由戒指的力量，放寬使用條件的狀態。</table>
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="800" />
+		<set name="icon" val="icon.skill0793" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="83" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8565" levels="1" name="恐懼佈滿">
+		<table name="#Desc-LV1">將恐懼氣息散播周圍。降低周圍敵群的移動速度33%，並在8秒內使其陷入恐懼而逃亡。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0774" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="87" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8566" levels="1" name="地震">
+		<table name="#Desc-LV1">揮舞長槍，並在物理攻擊力增加威力4848來攻擊周圍敵群。裝備槍類武器時可以使用。可Overhit。有機率發生致命攻擊。無視盾牌防禦。解除目標。</table>
+		<set name="hitTime" val="1800" />
+		<set name="icon" val="icon.skill0347" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="340" />
+		<set name="mpConsume" val="78" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="8000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8567" levels="1" name="最大凝神聚氣">
+		<table name="#Desc-LV1">將力氣一次增加到最大極限。</table>
+		<set name="hitTime" val="900" />
+		<set name="icon" val="icon.skill0918" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="80" />
+		<set name="mpConsume" val="20" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8568" levels="1" name="最大波動凝聚">
+		<table name="#Desc-LV1">將力氣一次增加到最大極限。</table>
+		<set name="hitTime" val="900" />
+		<set name="icon" val="icon.skill0919" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="80" />
+		<set name="mpConsume" val="20" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8569" levels="1" name="波動劍震">
+		<table name="#Desc-LV1">暴射劍氣攻擊並同時提升劍氣的祕傳之技。裝備二刀流武器時可以使用。可以提升至第7階段。可Overhit。有機率發生致命攻擊。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill0345" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="50" />
+		<set name="mpConsume" val="5" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8570" levels="1" name="鬥拳氣破">
+		<table name="#Desc-LV1">釋出拳壓攻擊並同時提升鬥氣的祕傳之技。裝備格鬥兵器時可以使用。可以提升至第7階段。可Overhit。有機率發生致命攻擊。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill0346" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="50" />
+		<set name="mpConsume" val="5" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8571" levels="1" name="壞滅衝擊">
+		<table name="#Desc-LV1">發射破壞衝擊，並在物理攻擊力增加威力6084來攻擊前方的敵群。裝備雙手劍/雙手鈍器武器時可以使用。可Overhit。有機率發生致命攻擊。</table>
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1200" />
+		<set name="icon" val="icon.skill0777" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="164" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8572" levels="1" name="破甲壞擊">
+		<table name="#Desc-LV1">在物理攻擊力增加威力3295來攻擊敵人。在9秒內使敵人陷入休克狀態，並降低物理防禦力30%、魔法防禦力30%。裝備劍/鈍器/雙手劍/雙手鈍器類武器時可以使用。可Overhit。有機率發生致命攻擊。無視盾牌防禦。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="100" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1900" />
+		<set name="icon" val="icon.skill0362" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="338" />
+		<set name="mpConsume" val="35" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="4000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8573" levels="1" name="靈魂暴怒">
+		<table name="#Desc-LV1">發射投射物攻擊敵人，同時收集靈魂，可收集至階段40。有機率發生致命攻擊。可Overhit。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill0939" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="hpConsume" val="25" />
+		<set name="mpConsume" val="5" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8574" levels="1" name="諸天之上">
+		<table name="#Desc-LV1">以斬天劈地的劍，在物理攻擊力增加威力6468，來攻擊前方的敵群。消耗靈魂時，就會增加威力，最多消耗5個靈魂。可OverHit。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="720" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1080" />
+		<set name="icon" val="icon.skill0526" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="80" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8575" levels="1" name="魂之旋流">
+		<table name="#Desc-LV1">創造連接魂之次元的漩渦，並在魔法攻擊力增加威力112，對敵人加以無屬性的傷害。在30秒內降低移動速度20%、攻擊速度30%、施法速度30%，且每秒流失MP12。可Overhit。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.skill1512" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="105" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8576" levels="1" name="魂旋破滅">
+		<table name="#Desc-LV1">爆破目標的魂之旋流，並在魔法攻擊力增加威力195，對敵人加以無屬性的傷害。消耗靈魂時，就會增加威力，最多消耗5個靈魂。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill1513" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="108" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8577" levels="1" name="野性射擊">
+		<table name="#Desc-LV1">亂射弩箭，並在物理攻擊力增加威力6084來攻擊前方的敵群。裝備弩類武器時可以使用。可Overhit。有機率發生致命攻擊。消耗靈魂時，就會增加威力，最多消耗5個靈魂。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3500" />
+		<set name="icon" val="icon.skill0790" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="123" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="75000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8578" levels="1" name="多重射擊">
+		<table name="#Desc-LV1">在物理攻擊力增加威力16667來攻擊前方多數的敵人。可Overhit。有機率發生致命攻擊。裝備弓類/弩類武器時可以使用。</table>
+		<set name="castRange" val="900" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.skill0987" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="83" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="12000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8579" levels="1" name="炎之旋流">
+		<table name="#Desc-LV1">創造連接火之次元的漩渦，並在魔法攻擊力增加威力140，對敵人加以火屬性的傷害。在30秒內降低移動速度10%、攻擊速度30%、施法速度10%、對火屬性的抗性20，且每秒消耗MP12。可Overhit。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="6000" />
+		<set name="icon" val="icon.skill1339" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="105" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8580" levels="1" name="炎旋爆破">
+		<table name="#Desc-LV1">爆發炎之旋流，在魔法攻擊力增加威力195，對敵人加以火屬性的傷害。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill1451" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="108" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8581" levels="1" name="隕石術">
+		<table name="#Desc-LV1">投下隕石後，在魔法攻擊力增加威力117，對敵人周圍加以火屬性的傷害。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="11000" />
+		<set name="icon" val="icon.skill1467" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="72" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8582" levels="1" name="闇之旋流">
+		<table name="#Desc-LV1">創造連接黑暗次元的漩渦，並在魔法攻擊力增加威力139，對敵人加以黑暗屬性的傷害，並吸取25%為HP。在30秒內降低命中能力6、對黑暗屬性的抗性30，且每秒消耗MP12。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="6000" />
+		<set name="icon" val="icon.skill1343" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="105" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8583" levels="1" name="魔法陣‧末日">
+		<table name="#Desc-LV1">產生對周圍我軍造成所有能力下降的猛烈詛咒的紋章。一旦脫離該地區時，就會失去紋章的效果。消耗1個魔法徽章。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="5000" />
+		<set name="icon" val="icon.skill1422" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="74" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8584" levels="1" name="冰之旋流">
+		<table name="#Desc-LV1">創造連接水之次元的漩渦，並在魔法攻擊力增加威力140，對敵人加以水屬性的傷害。在30秒內降低移動速度30%、攻擊速度10%、施法速度10%、對水屬性的抗性20，且每秒消耗MP12。可Overhit。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="6000" />
+		<set name="icon" val="icon.skill1340" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="105" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8585" levels="1" name="冰旋巨鎚">
+		<table name="#Desc-LV1">破壞冰之旋流，在魔法攻擊力增加威力195，對敵人加以水屬性的傷害。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill1453" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="108" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8586" levels="1" name="墜星術">
+		<table name="#Desc-LV1">投下流星後，在魔法攻擊力增加威力117，對敵人周圍持續給予無屬性的傷害。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="11000" />
+		<set name="icon" val="icon.skill1468" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="72" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8587" levels="1" name="風之旋流">
+		<table name="#Desc-LV1">創造連接風之次元的漩渦，並在魔法攻擊力增加威力140，對敵人加以風屬性的傷害。在30秒內降低移動速度10%、攻擊速度10%、施法速度30%、對風屬性的抗性20，且每秒消耗MP12。可Overhit。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="6000" />
+		<set name="icon" val="icon.skill1341" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="105" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8588" levels="1" name="風旋重擊">
+		<table name="#Desc-LV1">釋放風之旋流，在魔法攻擊力增加威力195，對敵人加以風屬性的傷害。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill1456" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="108" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="15000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8589" levels="1" name="召喚國王貓">
+		<table name="#Desc-LV1">召喚國王貓。召喚時會消耗4個魔精石，於一定時間逐次14回分別再度消耗11個魔精石。</table>
+		<set name="hitTime" val="15000" />
+		<set name="icon" val="icon.skill1406" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="60" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8590" levels="1" name="終極使魔">
+		<table name="#Desc-LV1">在5分鐘內將古代英雄的靈魂附身於使魔後，馬上恢復HP20%，並增加HP最大值20%、命中能力4、物理攻擊力10%、物理防禦力20%、攻擊速度20%、致命攻擊率20%、致命傷害20%、魔法防禦力20%、魔法攻擊力20%、施法速度20%、對詛咒魔法攻擊的抗性20，而降低移動速度20%。消耗20個魔精石。</table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill1349" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="72" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8591" levels="1" name="召喚輝煌獨角獸">
+		<table name="#Desc-LV1">召喚輝煌獨角獸。召喚時會消耗4個魔精石，於一定時間逐次14回分別再度消耗11個魔精石。</table>
+		<set name="hitTime" val="15000" />
+		<set name="icon" val="icon.skill1407" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="60" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8592" levels="1" name="召喚幽冥之主">
+		<table name="#Desc-LV1">召喚幽冥之主。召喚時會消耗4個魔精石，於一定時間逐次14回分別再度消耗11個魔精石。</table>
+		<set name="hitTime" val="15000" />
+		<set name="icon" val="icon.skill1408" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="60" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8593" levels="1" name="使魔屏障">
+		<table name="#Desc-LV1">暫時將使魔處於無敵狀態。消耗5個魔精石。</table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill1496" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="73" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8594" levels="1" name="淨罪">
+		<table name="#Desc-LV1">解除目標的詛咒魔法。消耗1個殷海薩聖水。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill1409" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="59" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="8000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8595" levels="1" name="水之預言">
+		<table name="#Desc-LV1">在5分鐘內受惠於偉大的靈魂，將增加隊員因傷害魔法造成強大傷害的機率2、MP額外恢復量20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、對詛咒魔法的抗性10%，而降低移動速度20%、用於技能的MP消耗量5%。消耗10個魔精石。</table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill1355" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="72" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="4000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8596" levels="1" name="風之預言">
+		<table name="#Desc-LV1">在5分鐘內受惠於偉大的靈魂，將增加隊員的HP最大值20%、致命攻擊率20%、因傷害魔法造成強大傷害的威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、對詛咒魔法的抗性10%，而降低移動速度20%。以一定的機率賦予將施予敵人的物理傷害5%吸取為HP的能力。消耗10個魔精石。</table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.skill1357" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="72" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="4000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8597" levels="1" name="艷惑之舞">
+		<table name="#Desc-LV1">在2分鐘內提升所有隊員的傷害攻擊魔法的致命攻擊率100%。若在有其他詩歌/劍舞效果的狀態下跳舞，會額外增加MP的消耗。裝備二刀流武器時可以使用。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0365" />
+		<set name="isMagic" val="3" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="60" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8598" levels="1" name="寂靜之歌">
+		<table name="#Desc-LV1">歌唱寂靜之歌。在2分鐘內封鎖敵人全部的物理/魔法技能。</table>
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0437" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="54" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="150000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8599" levels="1" name="連鎖治癒">
+		<table name="#Desc-LV1">恢復目標和目標周圍10名身受重傷的我軍的HP30%。依照受傷最嚴重的次序將逐漸減少恢復量。消耗4個魔精石。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.skill1553" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="194" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8600" levels="1" name="騎乘天空行者">
+		<table name="#Desc-LV1">騎乘騎士專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8600" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8601" levels="1" name="騎乘野性薔薇">
+		<table name="#Desc-LV1">騎乘鬥士專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8601" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8602" levels="1" name="騎乘血腥爪痕">
+		<table name="#Desc-LV1">騎乘遊俠專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8602" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8603" levels="1" name="騎乘無限箭羽">
+		<table name="#Desc-LV1">騎乘弓手專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8603" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8604" levels="1" name="騎乘湛藍幻影">
+		<table name="#Desc-LV1">騎乘巫師專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8604" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8605" levels="1" name="騎乘雲白靈翼">
+		<table name="#Desc-LV1">騎乘召喚士專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8605" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8606" levels="1" name="騎乘疾速芒星">
+		<table name="#Desc-LV1">騎乘法師專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8606" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8607" levels="1" name="騎乘閃耀淑女">
+		<table name="#Desc-LV1">騎乘牧師專用馬。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8607" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8608" levels="1" name="R護身符-物理攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理攻擊力37。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8609" levels="1" name="R90護身符-物理攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理攻擊力43。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8610" levels="1" name="R95護身符-物理攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理攻擊力52。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8611" levels="1" name="R99護身符-物理攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理攻擊力60。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8612" levels="1" name="R護身符-物理防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理防禦力38。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8613" levels="1" name="R90護身符-物理防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理防禦力43。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8614" levels="1" name="R95護身符-物理防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理防禦力49。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8615" levels="1" name="R99護身符-物理防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理防禦力54。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8616" levels="1" name="R護身符-魔法攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法攻擊力37。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8617" levels="1" name="R90護身符-魔法攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法攻擊力46。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8618" levels="1" name="R95護身符-魔法攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法攻擊力56。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8619" levels="1" name="R99護身符-魔法攻擊力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法攻擊力66。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8620" levels="1" name="R護身符-魔法防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法防禦力21。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8621" levels="1" name="R90護身符-魔法防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法防禦力24。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8622" levels="1" name="R95護身符-魔法防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法防禦力28。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8623" levels="1" name="R99護身符-魔法防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法防禦力32。</table>
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8624" levels="1" name="R護身符-HP">
+		<table name="#Desc-LV1">裝備護身符時，增加HP最大值219。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8625" levels="1" name="R90護身符-HP">
+		<table name="#Desc-LV1">裝備護身符時，增加HP最大值246。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8626" levels="1" name="R95護身符-HP">
+		<table name="#Desc-LV1">裝備護身符時，增加HP最大值277。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8627" levels="1" name="R99護身符-HP">
+		<table name="#Desc-LV1">裝備護身符時，增加HP最大值305。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8628" levels="1" name="R護身符-MP">
+		<table name="#Desc-LV1">裝備護身符時，增加MP最大值119。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8629" levels="1" name="R90護身符-MP">
+		<table name="#Desc-LV1">裝備護身符時，增加MP最大值119。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8630" levels="1" name="R95護身符-MP">
+		<table name="#Desc-LV1">裝備護身符時，增加MP最大值130。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8631" levels="1" name="R99護身符-MP">
+		<table name="#Desc-LV1">裝備護身符時，增加MP最大值139。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8632" levels="1" name="R護身符-CP">
+		<table name="#Desc-LV1">裝備護身符時，增加CP最大值99。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8633" levels="1" name="R90護身符-CP">
+		<table name="#Desc-LV1">裝備護身符時，增加CP最大值108。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8634" levels="1" name="R95護身符-CP">
+		<table name="#Desc-LV1">裝備護身符時，增加CP最大值116。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8635" levels="1" name="R99護身符-CP">
+		<table name="#Desc-LV1">裝備護身符時，增加CP最大值124。</table>
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8636" levels="1" name="R護身符-致命攻擊威力">
+		<table name="#Desc-LV1">裝備護身符時，增加致命威力135。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8637" levels="1" name="R90護身符-致命攻擊威力">
+		<table name="#Desc-LV1">裝備護身符時，增加致命威力142。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8638" levels="1" name="R95護身符-致命攻擊威力">
+		<table name="#Desc-LV1">裝備護身符時，增加致命威力149。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8639" levels="1" name="R99護身符-致命攻擊威力">
+		<table name="#Desc-LV1">裝備護身符時，增加致命威力155。</table>
+		<set name="icon" val="icon.r85_talisman_ca_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8640" levels="1" name="R護身符-致命攻擊防禦力">
+		<table name="#Desc-LV1">裝備護身符時，降低遭受致命攻擊的威力135。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8641" levels="1" name="R90護身符-致命攻擊防禦力">
+		<table name="#Desc-LV1">裝備護身符時，降低遭受致命攻擊的威力142。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8642" levels="1" name="R95護身符-致命攻擊防禦力">
+		<table name="#Desc-LV1">裝備護身符時，降低遭受致命攻擊的威力149。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8643" levels="1" name="R99護身符-致命攻擊防禦力">
+		<table name="#Desc-LV1">裝備護身符時，降低遭受致命攻擊的威力155。</table>
+		<set name="icon" val="icon.r85_talisman_ca_down_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8644" levels="1" name="R護身符-魔法致命攻擊率">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法致命攻擊率2%。</table>
+		<set name="icon" val="icon.r_talisman_mc_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8645" levels="1" name="R護身符-物理命中能力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理命中能力2。</table>
+		<set name="icon" val="icon.r_talisman_ph_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8646" levels="1" name="R護身符-魔法命中能力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法命中能力2。</table>
+		<set name="icon" val="icon.r_talisman_mh_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8647" levels="1" name="R護身符-迴避能力">
+		<table name="#Desc-LV1">裝備護身符時，增加物理迴避能力2。</table>
+		<set name="icon" val="icon.r_talisman_pm_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8648" levels="1" name="R護身符-魔法迴避能力">
+		<table name="#Desc-LV1">裝備護身符時，增加魔法迴避能力2。</table>
+		<set name="icon" val="icon.r_talisman_mm_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8649" levels="1" name="R護身符-物理致命攻擊率">
+		<table name="#Desc-LV1">裝備護身符時，增加物理致命攻擊率2%。</table>
+		<set name="icon" val="icon.r_talisman_cr_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8650" levels="1" name="R護身符-物理致命被擊率">
+		<table name="#Desc-LV1">裝備護身符時，降低物理致命攻擊被擊率2%。</table>
+		<set name="icon" val="icon.r_talisman_cm_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8651" levels="1" name="R護身符-物理攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理攻擊力111。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8652" levels="1" name="R90護身符-物理攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理攻擊力129。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8653" levels="1" name="R95護身符-物理攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理攻擊力156。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8654" levels="1" name="R99護身符-物理攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理攻擊力180。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8655" levels="1" name="R護身符-物理防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理防禦力114。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8656" levels="1" name="R90護身符-物理防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理防禦力129。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8657" levels="1" name="R95護身符-物理防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理防禦力147。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8658" levels="1" name="R99護身符-物理防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理防禦力162。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8659" levels="1" name="R護身符-魔法攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升魔法攻擊力111。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8660" levels="1" name="R90護身符-魔法攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升魔法攻擊力138。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8661" levels="1" name="R95護身符-魔法攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升魔法攻擊力168。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8662" levels="1" name="R99護身符-魔法攻擊力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升魔法攻擊力198。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8663" levels="1" name="R護身符-魔法防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時增加魔法防禦力63。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8664" levels="1" name="R90護身符-魔法防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升魔法防禦力72。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8665" levels="1" name="R95護身符-魔法防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升魔法防禦力84。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8666" levels="1" name="R99護身符-魔法防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升魔法防禦力96。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8667" levels="1" name="R護身符-HP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升HP最大值657。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8668" levels="1" name="R90護身符-HP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升HP最大值738。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8669" levels="1" name="R95護身符-HP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升HP最大值831。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8670" levels="1" name="R99護身符-HP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升HP最大值915。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8671" levels="1" name="R護身符-MP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升MP最大值327。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8672" levels="1" name="R90護身符-MP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升MP最大值357。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8673" levels="1" name="R95護身符-MP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升MP最大值390。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8674" levels="1" name="R99護身符-MP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升MP最大值417。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8675" levels="1" name="R護身符-CP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升CP最大值297。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8676" levels="1" name="R90護身符-CP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升CP最大值324。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8677" levels="1" name="R95護身符-CP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升CP最大值390。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8678" levels="1" name="R99護身符-CP (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升CP最大值417。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_cp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8679" levels="1" name="R護身符-致命攻擊威力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理致命威力405。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8680" levels="1" name="R90護身符-致命攻擊威力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理致命威力426。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8681" levels="1" name="R95護身符-致命攻擊威力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理致命威力447。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8682" levels="1" name="R99護身符-致命攻擊威力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理致命威力465。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8683" levels="1" name="R護身符-致命攻擊防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時降低遭受致命攻擊的威力405。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8684" levels="1" name="R90護身符-致命攻擊減少 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時降低遭受致命攻擊的威力426。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8685" levels="1" name="R95護身符-致命攻擊防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時降低遭受致命攻擊的威力447。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8686" levels="1" name="R99護身符-致命攻擊防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時降低遭受致命攻擊的威力465。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ca_down_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8687" levels="1" name="R護身符-魔法致命攻擊率 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時增加魔法致命攻擊率4%。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_mc_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8688" levels="1" name="R護身符-物理命中能力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升物理命中能力4。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_ph_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8689" levels="1" name="R護身符-魔法命中能力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時魔法命中能力4。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8690" levels="1" name="R護身符-迴避能力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時物理迴避能力4。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_pm_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8691" levels="1" name="R護身符-魔法迴避能力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時魔法迴避能力4。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_mm_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8692" levels="1" name="R護身符-物理致命攻擊率 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升致命攻擊發生率4%。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_cr_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8693" levels="1" name="R護身符-物理致命被擊率 (主動)">
+		<table name="#Desc-LV1">以護身符力量，產生物理致命傷害時，暫時增加迴避機率4%。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_cm_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8694" levels="1" name="R特別護身符-盾牌防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加盾牌防禦力414。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8695" levels="1" name="R90特別護身符-盾牌防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加盾牌防禦力457。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8696" levels="1" name="R95特別護身符-盾牌防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加盾牌防禦力505。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8697" levels="1" name="R99特別護身符-盾牌防禦力">
+		<table name="#Desc-LV1">裝備護身符時，增加盾牌防禦力546。</table>
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8698" levels="1" name="R特別護身符-盾牌防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時增加盾牌防禦力1242。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8699" levels="1" name="R90特別護身符-盾牌防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時增加盾牌防禦力1371。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8700" levels="1" name="R95特別護身符-盾牌防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時增加盾牌防禦力1515。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8701" levels="1" name="R99特別護身符-盾牌防禦力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時增加盾牌防禦力1638。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pd_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8702" levels="1" name="R特別護身符-鬥力">
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8703" levels="1" name="R90特別護身符-鬥力">
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8704" levels="1" name="R95特別護身符-鬥力">
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8705" levels="1" name="R99特別護身符-鬥力">
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8706" levels="1" name="R特別護身符-鬥力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升力量5。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8707" levels="1" name="R90特別護身符-鬥力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升力量5。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8708" levels="1" name="R95特別護身符-鬥力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升力量5。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8709" levels="1" name="R99特別護身符-鬥力 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升力量5。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_md_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8710" levels="1" name="R特別護身符-MP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取MP2。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8711" levels="1" name="R90特別護身符-MP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取MP3。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8712" levels="1" name="R95特別護身符-MP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取MP4。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8713" levels="1" name="R99特別護身符-MP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取MP5。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8714" levels="1" name="竊取魔力">
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8715" levels="1" name="竊取魔力">
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8716" levels="1" name="竊取魔力">
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8717" levels="1" name="竊取魔力">
+		<set name="icon" val="icon.r_talisman_mh_up_active" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8718" levels="1" name="R特別護身符-HP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取HP1%。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_cr_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8719" levels="1" name="R90特別護身符-HP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取HP1%。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_cr_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8720" levels="1" name="R95特別護身符-HP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取HP1%。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_cr_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8721" levels="1" name="R99特別護身符-HP吸收 (主動)">
+		<table name="#Desc-LV1">以護身符力量，每當攻擊時以一定的機率瞬間吸取HP1%。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_talisman_cr_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8722" levels="1" name="R特別護身符-射程距離增加">
+		<table name="#Desc-LV1">裝備護身符時，提升弓箭和弩弓的射程距離10。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8723" levels="1" name="R90特別護身符-射程距離增加">
+		<table name="#Desc-LV1">裝備護身符時，提升弓箭和弩弓的射程距離10。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8724" levels="1" name="R95特別護身符-射程距離增加">
+		<table name="#Desc-LV1">裝備護身符時，提升弓箭和弩弓的射程距離10。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8725" levels="1" name="R99特別護身符-射程距離增加">
+		<table name="#Desc-LV1">裝備護身符時，提升弓箭和弩弓的射程距離10。</table>
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8726" levels="1" name="R特別護身符-射程距離增加 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升弓箭和弩弓的射程距離20。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8727" levels="1" name="R90特別護身符-射程距離增加 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升弓箭和弩弓的射程距離20。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8728" levels="1" name="R95特別護身符-射程距離增加 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升弓箭和弩弓的射程距離20。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8729" levels="1" name="R99特別護身符-射程距離增加 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升弓箭和弩弓的射程距離20。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8730" levels="1" name="R特別護身符-使魔強化 (主動)">
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_sp_talisman_sm_st_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8731" levels="1" name="R90特別護身符-使魔強化 (主動)">
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r90_sp_talisman_sm_st_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8732" levels="1" name="R95特別護身符-使魔強化 (主動)">
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r95_sp_talisman_sm_st_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8733" levels="1" name="R99特別護身符-使魔強化 (主動)">
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r99_sp_talisman_sm_st_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8734" levels="1" name="R99特別護身符-使魔強化 (主動)">
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r_sp_talisman_sm_rt_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8735" levels="1" name="R特別護身符-施法中斷">
+		<table name="#Desc-LV1">裝備護身符時，降低施法中斷的機率10%。</table>
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8736" levels="1" name="R特別護身符-施法中斷 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時不會出現施法中斷的現象。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8737" levels="1" name="R特別護身符-MP恢復">
+		<table name="#Desc-LV1">裝備護身符時，增加MP自然恢復量0.66。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8738" levels="1" name="R90特別護身符-MP恢復">
+		<table name="#Desc-LV1">裝備護身符時，增加MP自然恢復量0.68。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8739" levels="1" name="R95特別護身符-MP恢復">
+		<table name="#Desc-LV1">裝備護身符時，增加MP自然恢復量0.70。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8740" levels="1" name="R99特別護身符-MP恢復">
+		<table name="#Desc-LV1">裝備護身符時，增加MP自然恢復量0.72。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8741" levels="1" name="R特別護身符-MP消耗量減少">
+		<table name="#Desc-LV1">裝備護身符時，使用技能時，降低MP消耗量15%。</table>
+		<set name="icon" val="icon.r85_talisman_mp_up_active" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8742" levels="1" name="R特別護身符-恢復魔法強化">
+		<table name="#Desc-LV1">裝備護身符時，增加治癒威力75。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8743" levels="1" name="R90特別護身符-恢復魔法強化">
+		<table name="#Desc-LV1">裝備護身符時，增加治癒威力82。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8744" levels="1" name="R95特別護身符-恢復魔法強化">
+		<table name="#Desc-LV1">裝備護身符時，增加治癒威力90。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8745" levels="1" name="R99特別護身符-恢復魔法強化">
+		<table name="#Desc-LV1">裝備護身符時，增加治癒威力96。</table>
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8746" levels="1" name="R特別護身符-恢復魔法強化 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升治癒威力225。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8747" levels="1" name="R90特別護身符-恢復魔法強化 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升治癒威力246。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8748" levels="1" name="R95特別護身符-恢復魔法強化 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升治癒威力270。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8749" levels="1" name="R99特別護身符-恢復魔法強化 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時提升治癒威力288。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_hp_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8750" levels="1" name="無限切刃">
+		<table name="#Desc-LV1">致命攻擊時降低敵人的物理防禦力。提升HP最大值/MP最大值/CP最大值/盾牌防禦力、PVP時所造成的傷害，並反射從敵方所受到的部分傷害。</table>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8751" levels="1" name="防禦力下降">
+		<table name="#Desc-LV1">暫時處於物理防禦力下降的狀態。效果 3。</table>
+		<set name="icon" val="icon.skill0122" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8752" levels="1" name="無限復仇者">
+		<table name="#Desc-LV1">致命攻擊時使敵人陷入混亂的狀態。提升HP最大值/MP最大值/CP最大值/盾牌防禦力、PVP時所造成的傷害，並反射從敵方所受到的部分傷害。</table>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8753" levels="1" name="混亂">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8754" levels="1" name="無限殺刃">
+		<table name="#Desc-LV1">提升致命攻擊的機率/威力、HP最大值/CP最大值、PVP時所造成的傷害，還反射從敵方所受到的詛咒魔法。</table>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8755" levels="1" name="無限巨鎚">
+		<table name="#Desc-LV1">致命攻擊時，使敵人陷入休克狀態。提升HP最大值/CP最大值/攻擊速度、PVP時所造成的傷害，並反射從敵方所受到的詛咒魔法。</table>
+		<set name="icon" val="icon.weapon_the_hammer_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8756" levels="1" name="休克">
+		<table name="#Desc-LV1">因陷入休克狀態，暫時無法行動。</table>
+		<set name="icon" val="icon.skill0100" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8757" levels="1" name="無限雙刀">
+		<table name="#Desc-LV1">致命攻擊時封鎖敵人的物理技能。提升HP最大值/MP最大值/CP最大值/致命攻擊率、PVP時所造成的傷害，還反射從敵方所受到的詛咒魔法。</table>
+		<set name="icon" val="icon.weapon_the_dualsword_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8758" levels="1" name="物理技能封鎖">
+		<table name="#Desc-LV1">暫時封鎖物理技能的狀態。</table>
+		<set name="icon" val="icon.skill1064" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8759" levels="1" name="無限戰爪">
+		<table name="#Desc-LV1">致命攻擊時使敵人陷入休克狀態。提升HP最大值/MP最大值/CP最大值/迴避能力、PVP時所造成的傷害，還反射從敵方所受到的詛咒魔法。</table>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8760" levels="1" name="休克">
+		<table name="#Desc-LV1">因陷入休克狀態，暫時無法行動。</table>
+		<set name="icon" val="icon.skill0100" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8761" levels="1" name="無限鉋刀">
+		<table name="#Desc-LV1">致命攻擊時，封鎖敵人的魔法技能。提升MP最大值/CP最大值/攻擊速度/MP自然恢復力、在背後攻擊時的致命攻擊率、PVP時所造成的傷害，以一定的機率用造成敵人的部分傷害來恢復自己的HP。</table>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8762" levels="1" name="魔法技能封鎖">
+		<table name="#Desc-LV1">暫時封鎖魔法技能的狀態。</table>
+		<set name="icon" val="icon.skill1064" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8763" levels="1" name="無限風暴者">
+		<table name="#Desc-LV1">致命攻擊時，解除敵人一個以上的輔助魔法。提升HP最大值/CP最大值/攻擊速度/命中能力、PVP時所造成的傷害，並反射從敵方所受到的詛咒魔法。可以同時攻擊多數敵人。</table>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8764" levels="1" name="魔法消除">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8765" levels="1" name="無限投弓">
+		<table name="#Desc-LV1">致命攻擊時使敵人移動速度下降。提升MP最大值/CP最大值、PVP時所造成的傷害。使用冷卻時間短暫，並以一定的機率減少MP的消耗量。</table>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8766" levels="1" name="移動速度下降">
+		<table name="#Desc-LV1">暫時處於移動速度下降的狀態。效果3。</table>
+		<set name="icon" val="icon.skill1160" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8767" levels="1" name="無限報恨者">
+		<table name="#Desc-LV1">使用良性魔法時，將恢復所有的HP。提升MP最大值/CP最大值/魔法攻擊力、傷害魔法的致命攻擊率、PVP時所造成的傷害，而降低施展魔法時的MP消耗量、施法被中斷的機率。</table>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8768" levels="1" name="恢復">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8769" levels="1" name="無限術杖">
+		<table name="#Desc-LV1">使用良性魔法時，將恢復所有的HP。提升MP最大值/CP最大值/施法速度/MP自然恢復力、PVP時所造成的傷害。</table>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8770" levels="1" name="恢復">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8771" levels="1" name="無限瞬閃">
+		<table name="#Desc-LV1">致命攻擊時降低敵人的物理防禦力。提升HP最大值/MP最大值/CP最大值、PVP時所造成的傷害，還反射從敵方所受到的部分傷害。除此之外，一般物理攻擊發生致命攻擊時，將會機率性的使隊伍成員的技能使用能力突破極限。</table>
+		<set name="icon" val="icon.weapon_infinity_rapier_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8772" levels="1" name="無限岩裂">
+		<table name="#Desc-LV1">提升致命攻擊的機率/威力、HP最大值/CP最大值、PVP時所造成的傷害，還反射從敵方所受到的詛咒魔法。</table>
+		<set name="icon" val="icon.weapon_infinity_sword_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8773" levels="1" name="無限射靈">
+		<table name="#Desc-LV1">致命攻擊時使敵人移動速度下降。提升MP最大值/CP最大值、PVP時所造成的傷害。使用冷卻時間短暫，並以一定的機率減少MP的消耗量。</table>
+		<set name="icon" val="icon.weapon_infinity_shooter_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8774" levels="1" name="R特別護身符-詛咒魔法解除 (主動)">
+		<table name="#Desc-LV1">以護身符力量，暫時解除所有的詛咒魔法。</table>
+		<set name="hitTime" val="4000" />
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="320000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8775" levels="1" name="不滅手鐲">
+		<table name="#Desc-LV1">只能裝備5個護身符。</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8776" levels="1" name="煉獄手鐲">
+		<table name="#Desc-LV1">只能裝備5個護身符。</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8777" levels="1" name="卡戴伊拉手鐲">
+		<table name="#Desc-LV1">只能裝備5個護身符。</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8778" levels="1" name="艾迪奧斯手鐲">
+		<table name="#Desc-LV1">只能裝備5個護身符。</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8779" levels="1" name="伊絲蒂娜手鐲">
+		<table name="#Desc-LV1">只能裝備5個護身符。</table>
+		<set name="icon" val="icon.istina_bracelet_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8780" levels="1" name="歐塔比斯手鐲">
+		<table name="#Desc-LV1">只能裝備5個護身符。</table>
+		<set name="icon" val="icon.octavis_bracelet_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8781" levels="1" name="裝備盾牌">
+		<table name="#Desc-LV1">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_sacon_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8782" levels="1" name="裝備盾牌">
+		<table name="#Desc-LV1">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.kratere_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8783" levels="1" name="裝備盾牌">
+		<table name="#Desc-LV1">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.beranka_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8784" levels="1" name="裝備盾牌">
+		<table name="#Desc-LV1">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.weapon_akra_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8785" levels="1" name="裝備盾牌">
+		<table name="#Desc-LV1">額外增加盾牌防禦率的狀態。</table>
+		<set name="icon" val="icon.heavengate_shield_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8786" levels="1" name="特級親衛耳環-古魯丁">
+		<table name="#Desc-LV1">增加CP最大值5%、對出血攻擊的抗性15%、加強休克攻擊15%、水屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8787" levels="1" name="特級親衛耳環-狄恩">
+		<table name="#Desc-LV1">增加CP最大值5%、對毒攻擊的抗性15%、加強束縛攻擊15%、神聖屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8788" levels="1" name="特級親衛耳環-奇岩">
+		<table name="#Desc-LV1">增加CP最大值5%、對麻痺攻擊的抗性15%、加強出血攻擊15%、風屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8789" levels="1" name="特級親衛耳環-歐瑞">
+		<table name="#Desc-LV1">增加CP最大值5%、對束縛攻擊的抗性15%、加強麻痺攻擊15%、黑暗屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8790" levels="1" name="特級親衛耳環-亞丁">
+		<table name="#Desc-LV1">增加CP最大值5%、對休克攻擊的抗性15%、加強精神異常攻擊15%、地屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8791" levels="1" name="特級親衛耳環-因納得立">
+		<table name="#Desc-LV1">增加CP最大值5%、對休克攻擊的抗性15%、加強睡眠攻擊15%、水屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8792" levels="1" name="特級親衛耳環-高達特">
+		<table name="#Desc-LV1">增加CP最大值5%、對攻擊的抗性15%、加強休克攻擊15%、火屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8793" levels="1" name="特級親衛耳環-魯因">
+		<table name="#Desc-LV1">增加CP最大值5%、對束縛攻擊的抗性15%、加強毒攻擊15%、火屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8794" levels="1" name="特級親衛耳環-修加特">
+		<table name="#Desc-LV1">增加CP最大值5%、對精神異常攻擊的抗性15%、加強束縛攻擊15%、風屬性防禦力10。</table>
+		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8795" levels="1" name="特級親衛戒指-古魯丁">
+		<table name="#Desc-LV1">增加地屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8796" levels="1" name="特級親衛戒指-狄恩">
+		<table name="#Desc-LV1">增加水屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8797" levels="1" name="特級親衛戒指-奇岩">
+		<table name="#Desc-LV1">增加火屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8798" levels="1" name="特級親衛戒指-歐瑞">
+		<table name="#Desc-LV1">增加地屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8799" levels="1" name="特級親衛戒指-亞丁">
+		<table name="#Desc-LV1">增加神聖屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8800" levels="1" name="特級親衛戒指-因納得立">
+		<table name="#Desc-LV1">增加神聖屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8801" levels="1" name="特級親衛戒指-高達特">
+		<table name="#Desc-LV1">增加黑暗屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8802" levels="1" name="特級親衛戒指-魯因">
+		<table name="#Desc-LV1">增加風屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8803" levels="1" name="特級親衛戒指-修加特">
+		<table name="#Desc-LV1">增加黑暗屬性防禦力15。</table>
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8804" levels="1" name="進階型塔武提手鐲">
+		<table name="#Desc-LV1">可以裝備5個護身符。STR+1、INT+1。</table>
+		<set name="icon" val="icon.accessory_bangel_of_tauti_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8805" levels="1" name="黑暗艾迪奧斯頭盔">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害3%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8806" levels="1" name="黑暗艾迪奧斯胸甲">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害8%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8807" levels="1" name="黑暗艾迪奧斯脛甲">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害5%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8808" levels="1" name="黑暗艾迪奧斯護手">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害2%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8809" levels="1" name="黑暗艾迪奧斯靴">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害2%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8810" levels="1" name="黑暗艾迪奧斯皮頭盔">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害3%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8811" levels="1" name="黑暗艾迪奧斯皮甲">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害8%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8812" levels="1" name="黑暗艾迪奧斯皮脛甲">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害5%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8813" levels="1" name="黑暗艾迪奧斯皮手套">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害2%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8814" levels="1" name="黑暗艾迪奧斯皮靴">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害2%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8815" levels="1" name="黑暗艾迪奧斯頭箍">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害3%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8816" levels="1" name="黑暗艾迪奧斯外衣">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害8%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8817" levels="1" name="黑暗艾迪奧斯長襪">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害5%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8818" levels="1" name="黑暗艾迪奧斯手套">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害2%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8819" levels="1" name="黑暗艾迪奧斯鞋">
+		<table name="#Desc-LV1">降低玩家角色給予的傷害2%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8820" levels="1" name="黑暗赫利奧斯鉋刀">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8821" levels="1" name="黑暗赫利奧斯切刃">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8822" levels="1" name="黑暗赫利奧斯殺刃">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8823" levels="1" name="黑暗赫利奧斯復仇者">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8824" levels="1" name="黑暗赫利奧斯戰爪">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8825" levels="1" name="黑暗赫利奧斯風暴者">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8826" levels="1" name="黑暗赫利奧斯投弓">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8827" levels="1" name="黑暗赫利奧斯射靈">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8828" levels="1" name="黑暗赫利奧斯爆刃">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8829" levels="1" name="黑暗赫利奧斯術杖">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8830" levels="1" name="黑暗赫利奧斯報恨者">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8831" levels="1" name="黑暗赫利奧斯雙刀">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8832" levels="1" name="黑暗赫利奧斯雙匕首">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8833" levels="1" name="黑暗赫利奧斯雙鈍器">
+		<table name="#Desc-LV1">增加PVP傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.karma" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8834" levels="1" name="血腥艾迪奧斯頭盔">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害3%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8835" levels="1" name="血腥艾迪奧斯胸甲">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害8%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8836" levels="1" name="血腥艾迪奧斯脛甲">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害5%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8837" levels="1" name="血腥艾迪奧斯護手">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害2%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8838" levels="1" name="血腥艾迪奧斯靴">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害2%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8839" levels="1" name="血腥艾迪奧斯皮頭盔">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%並降低NPC給予的傷害3%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8840" levels="1" name="血腥艾迪奧斯皮甲">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害8%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8841" levels="1" name="血腥艾迪奧斯皮脛甲">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害5%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8842" levels="1" name="血腥艾迪奧斯皮手套">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害2%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8843" levels="1" name="血腥艾迪奧斯皮靴">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害2%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8844" levels="1" name="血腥艾迪奧斯頭箍">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害3%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8845" levels="1" name="血腥艾迪奧斯外衣">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害8%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8846" levels="1" name="血腥艾迪奧斯長襪">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害5%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8847" levels="1" name="血腥艾迪奧斯手套">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害2%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8848" levels="1" name="血腥艾迪奧斯鞋">
+		<table name="#Desc-LV1">增加物理攻擊力1%、魔法攻擊力2%，降低NPC給予的傷害2%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8849" levels="1" name="血腥赫利奧斯鉋刀">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8850" levels="1" name="血腥赫利奧斯切刃">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8851" levels="1" name="血腥赫利奧斯殺刃">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8852" levels="1" name="血腥赫利奧斯復仇者">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8853" levels="1" name="血腥赫利奧斯戰爪">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8854" levels="1" name="血腥赫利奧斯風暴者">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8855" levels="1" name="血腥赫利奧斯投弓">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8856" levels="1" name="血腥赫利奧斯射靈">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8857" levels="1" name="血腥赫利奧斯爆刃">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8858" levels="1" name="血腥赫利奧斯術杖">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8859" levels="1" name="血腥赫利奧斯報恨者">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8860" levels="1" name="血腥赫利奧斯雙刀">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8861" levels="1" name="血腥赫利奧斯雙匕首">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8862" levels="1" name="血腥赫利奧斯雙鈍器">
+		<table name="#Desc-LV1">增加NPC傷害15%、增加HP/MP/CP10%。</table>
+		<set name="icon" val="icon.pk" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8863" levels="1" name="塔武提手鐲">
+		<table name="#Desc-LV1">可以裝備5個護身符。</table>
+		<set name="icon" val="icon.accessory_bracelet_of_tauti_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8864" levels="7" name="禁墓的護身符">
+		<table name="#Desc-LV1">裝備時，增加HP/MP/CP最大值100、物理/魔法命中能力1、物理迴避能力/魔法迴避能力1、吸血怒擊2%效果、攻擊速度/施法速度10。</table>
+		<table name="#Desc-LV2">裝備時，增加HP/MP/CP最大值100、物理/魔法命中能力2、物理迴避能力/魔法迴避能力2、吸血怒擊2%效果、攻擊速度/施法速度10、致命攻擊率30、魔法致命攻擊率10。</table>
+		<table name="#Desc-LV3">裝備時，增加HP/MP/CP最大值300、物理/魔法命中能力2、物理迴避能力/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度20、致命攻擊率30、魔法致命攻擊率10、物理攻擊力103、魔法攻擊力156。</table>
+		<table name="#Desc-LV4">裝備時，增加HP/MP/CP最大值400、物理/魔法命中能力2、物理迴避能力/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度30、致命攻擊率30、魔法致命攻擊率10、物理攻擊力103、魔法攻擊力156、技能攻擊力1%、傷害反射抗性10、物理/魔法防禦力20。</table>
+		<table name="#Desc-LV5">裝備時，增加HP/MP/CP最大值500、物理/魔法命中能力2、物理迴避能力/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度40、致命攻擊率30、魔法致命攻擊率10、物理攻擊力203、魔法攻擊力256、技能攻擊力2%、傷害反射抗性20、物理/魔法防禦力40，而降低技能MP消耗量1%。</table>
+		<table name="#Desc-LV6">裝備時，增加HP/MP/CP最大值600、物理/魔法命中能力2、物理迴避能力/魔法迴避能力2、吸血怒擊3%效果、攻擊速度/施法速度50、致命攻擊率30、魔法致命攻擊率10、物理攻擊力303、魔法攻擊力356、技能攻擊力4%、傷害反射抗性30、物理/魔法防禦力60、STR/INT/CON/MEN/DEX/WIT2，而降低技能MP消耗量3%。</table>
+		<table name="#Desc-LV7">增加HP/MP/CP最大值800、物理/魔法命中能力2、物理/魔法迴避能力2、吸血怒擊5、攻擊速度60、施法速度60、物理致命攻擊機率30、魔法致命攻擊機率10、物理攻擊力638、魔法攻擊力742、技能威力5%、傷害反射抗性30、物理防禦力563、魔法防禦力368，降低技能MP消耗量3%，增加STR/INT/CON/MEN/DEX/WIT/CHA/LUC2、固定傷害抗性10%，縮短技能使用冷卻時間3%。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 96 99 </table>
+		<set name="icon" val="icon.accessory_punishment_talisman_i01" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8870" levels="1" name="塔武提戒指">
+		<table name="#Desc-LV1">增加致命傷害15%、增加技能攻擊力5%、增加PVP傷害5%、增加麻痺/束縛/驅逐抗性10、增加傷害反射抗性5、增加吸血抗性5、降低PVP被擊傷害5%、裝備鈍器時，增加致命攻擊率54。</table>
+		<set name="icon" val="icon.accessary_tauti_ring" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8871" levels="1" name="名譽襯衫">
+		<table name="#Desc-LV1">增加HP最大值465。</table>
+		<set name="icon" val="icon.skill0211" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8872" levels="1" name="充滿GM真誠的時髦浪漫圓帽">
+		<table name="#Desc-LV1">可以得到增加物理攻擊力5%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8873" levels="1" name="充滿GM真誠的時髦浪漫圓帽">
+		<table name="#Desc-LV1">可以得到增加魔法攻擊力10%的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8874" levels="1" name="充滿GM真誠的時髦浪漫圓帽">
+		<table name="#Desc-LV1">可以得到WIT+3效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8875" levels="1" name="充滿GM祝福的時髦浪漫圓帽">
+		<table name="#Desc-LV1">可以得到增加物理攻擊力5%、致命攻擊率50的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8876" levels="1" name="充滿GM祝福的時髦浪漫圓帽">
+		<table name="#Desc-LV1">可以得到增加魔法攻擊力10%、INT+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8877" levels="1" name="充滿GM祝福的時髦浪漫圓帽">
+		<table name="#Desc-LV1">可以得到WIT+3、MEN+3的效果。</table>
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8878" levels="1" name="塔武提特殊能力-單手巨斧">
+		<table name="#Desc-LV1">增加HP最大值、物理攻擊力、攻擊速度、致命攻擊率、PVP時造成的傷害。</table>
+		<set name="icon" val="icon.weapon_tauti_one_hand_axe_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8879" levels="1" name="塔武提特殊能力-巨斧">
+		<table name="#Desc-LV1">增加HP最大值、物理攻擊力、攻擊速度、致命攻擊率、PVP時造成的傷害。</table>
+		<set name="icon" val="icon.weapon_tauti_one_hand_magic_axe_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8880" levels="1" name="塔武提特殊能力-雙手巨斧">
+		<table name="#Desc-LV1">增加HP最大值、物理攻擊力、攻擊速度、致命攻擊率、PVP時造成的傷害。</table>
+		<set name="icon" val="icon.weapon_tauti_dual_axe_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8881" levels="1" name="特級守護耳環-休克">
+		<table name="#Desc-LV1">增加CP最大值5%、對休克攻擊的額外量20%、對休克攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8882" levels="1" name="特級守護耳環-束縛">
+		<table name="#Desc-LV1">增加CP最大值5%、對束縛攻擊的額外量20%、對束縛攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8883" levels="1" name="特級守護耳環-出血">
+		<table name="#Desc-LV1">增加CP最大值5%、對出血攻擊的額外量20%、對出血攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8884" levels="1" name="特級守護耳環-麻痺">
+		<table name="#Desc-LV1">增加CP最大值5%、對麻痺攻擊的額外量20%、對麻痺攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8885" levels="1" name="特級守護耳環-精神">
+		<table name="#Desc-LV1">增加CP最大值5%、對精神異常攻擊的額外量20%、對精神異常攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8886" levels="1" name="特級守護耳環-睡眠">
+		<table name="#Desc-LV1">增加CP最大值5%、對睡眠攻擊的額外量20%、對睡眠攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8887" levels="1" name="特級守護耳環-毒">
+		<table name="#Desc-LV1">增加CP最大值5%、對毒攻擊的額外量20%、對毒攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8888" levels="1" name="特級守護耳環-擊退/擊倒">
+		<table name="#Desc-LV1">增加CP最大值5%、對擊退/擊倒攻擊的額外量20%、對擊退/擊倒攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8889" levels="1" name="特級守護耳環-空中束縛">
+		<table name="#Desc-LV1">增加CP最大值5%、對空中束縛攻擊的額外量20%、對空中束縛攻擊的抗性20%。</table>
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8890" levels="1" name="保護">
+		<table name="#Desc-LV1">在2分鐘內增加移動速度100、對所有的詛咒魔法呈現免疫狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為10分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill5662" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8891" levels="1" name="崇拜">
+		<table name="#Desc-LV1">在5秒內使周圍的敵群昏厥。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill10026" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8892" levels="1" name="出血">
+		<table name="#Desc-LV1">對周邊目標造成出血。使用時，需要消耗龍血1個。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill0096" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8893" levels="1" name="安塔瑞斯之息">
+		<table name="#Desc-LV1">在5秒內減少周圍敵群的攻擊速度/施法速度/移動速度90%，使身體慢慢僵硬，到完全硬化時在10秒內將成為麻痺的狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.item_gragonskill_i02" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8894" levels="1" name="麻痺之息">
+		<table name="#Desc-LV1">身體硬化而變成麻痺的狀態。</table>
+		<set name="icon" val="icon.skill1170" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8895" levels="1" name="安塔瑞斯尾擊">
+		<table name="#Desc-LV1">使周圍敵群的CP全部消除。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.item_gragonskill_i04" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8896" levels="1" name="巴拉卡斯之息">
+		<table name="#Desc-LV1">在5秒內減少周圍敵群的攻擊速度/施法速度/移動速度90%，使身體慢慢僵硬，到完全硬化時在10秒內將成為麻痺的狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill4683" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8897" levels="1" name="巴拉卡斯隕石">
+		<table name="#Desc-LV1">使周圍敵群的CP全部消除。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skill1467" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8898" levels="1" name="林德拜爾之息">
+		<table name="#Desc-LV1">在5秒內減少周圍敵群的攻擊速度/施法速度/移動速度90%，使身體慢慢僵硬，到完全硬化時在10秒內將成為麻痺的狀態。使用技能時，需要消耗龍血1個。使用冷卻時間為5分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.item_gragonskill_i03" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8899" levels="1" name="林德拜爾之翼">
+		<table name="#Desc-LV1">使周圍敵群的CP全部消除。使用時，需要消耗龍血1個。使用冷卻時間為5分鐘。</table>
+		<set name="coolTime" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.item_gragonskill_i05" />
+		<set name="isDebuff" val="True" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="300000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8900" levels="1" name="封印龍之力-戰士型">
+		<table name="#Desc-LV1">增加PVP傷害15%、HP/MP/CP30%、攻擊速度300、物理致命攻擊率100，額外增加對龍的傷害100%。</table>
+		<set name="icon" val="icon.skill5860" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8901" levels="1" name="龍之力-戰士型">
+		<table name="#Desc-LV1">增加PVP傷害30%、HP/MP100%、CP200%、攻擊速度1500、物理致命攻擊率500、額外增加對龍的傷害300%。</table>
+		<set name="icon" val="icon.skill5861" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8902" levels="1" name="封印龍之力-法師型">
+		<table name="#Desc-LV1">增加PVP傷害15%、HP/MP/CP30%、施法速度300、魔法致命攻擊率100，額外增加對龍的傷害100%。</table>
+		<set name="icon" val="icon.skill5860" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8903" levels="1" name="龍之力-法師型">
+		<table name="#Desc-LV1">增加PVP傷害30%、HP/MP100%、CP200%、施法速度1999、魔法致命攻擊率500，額外增加對龍的傷害300%。</table>
+		<set name="icon" val="icon.skill5861" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="8904" levels="1" name="騎乘拳鬥狐">
+		<table name="#Desc-LV1">騎乘拳鬥士專用狐狸。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8904" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="8905" levels="1" name="騎乘預知狐">
+		<table name="#Desc-LV1">騎乘預知者專用狐狸。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill8905" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+</list>

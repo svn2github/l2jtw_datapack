@@ -1,0 +1,4506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="22410" levels="1" name="冒險家之歌-伊娃加護">
+		<table name="#Desc-LV1">在伊娃的保佑之下，席琳氣息變弱的狀態。</table>
+		<set name="icon" val="BranchSys3.Icon.g_sing_of_adventurer_eva_r" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22411" levels="1" name="冒險家之歌-伊娃加護">
+		<table name="#Desc-LV1">在伊娃的保佑之下，席琳氣息變弱的狀態。</table>
+		<set name="icon" val="BranchSys3.Icon.g_sing_of_adventurer_eva_r" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22412" levels="1" name="武器變換-單手光束劍">
+		<table name="#Desc-LV1">在2小時內單手劍將變為光束劍。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_1h_sword" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22413" levels="1" name="武器變換-雙刀光束劍">
+		<table name="#Desc-LV1">在2小時內雙刀將變為光束劍。</table>
+		<set name="icon" val="BranchSys3.Icon.g_beam_1h_sword" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22414" levels="1" name="萬聖夜禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22415" levels="1" name="萬聖夜餅乾">
+		<table name="#Desc-LV1">在60分鐘內增加自己的移動速度33。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22416" levels="1" name="萬聖夜特製餅乾">
+		<table name="#Desc-LV1">在60分鐘內將增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%、遭受致命攻擊傷害時的物理防禦力。降低移動速度15%，而且裝備近身武器、弓類、弩類且遭受一定程度以上的攻擊而受傷的隊員，在進行普通攻擊時，將會額外增加致命威力。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22417" levels="1" name="裝備魔法馬鞍">
+		<table name="#Desc-LV1">裝備魔法馬鞍後，在30秒內使自己的乘坐物以最高速度疾走。</table>
+		<set name="icon" val="BranchSys3.Icon.s_g_magic_saddle_up" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="45000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22418" levels="1" name="進化的根源">
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="86400000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22419" levels="1" name="武器加工-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22420" levels="1" name="武器加工-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22421" levels="1" name="武器加工-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22422" levels="1" name="武器加工-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22423" levels="1" name="武器加工-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22424" levels="1" name="武器加工-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22425" levels="1" name="祝福的武器加工-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22426" levels="1" name="祝福的武器加工-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22427" levels="1" name="祝福的武器加工-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22428" levels="1" name="祝福的武器加工-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22429" levels="1" name="祝福的武器加工-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22430" levels="1" name="祝福的武器加工-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22431" levels="1" name="武器復原-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22432" levels="1" name="武器復原-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22433" levels="1" name="武器復原-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22434" levels="1" name="武器復原-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22435" levels="1" name="武器復原-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22436" levels="1" name="武器復原-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22437" levels="1" name="(測試)翡翠劍武器加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22438" levels="1" name="武器強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22439" levels="1" name="古代武器強化結晶-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22440" levels="1" name="神聖武器強化結晶-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22441" levels="1" name="防具強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22442" levels="1" name="古代防具強化結晶-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22443" levels="1" name="神聖防具強化結晶-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22444" levels="1" name="燦爛幸運箱">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22445" levels="1" name="燦爛幸運晶體">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22446" levels="1" name="靈魂彈-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22447" levels="1" name="祝福的魔靈彈-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22448" levels="5" name="靈魂彈-R級中型組合包">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22449" levels="10" name="靈魂彈-R級大型組合包">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22450" levels="5" name="祝福的魔靈彈-R級中型組合包">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22451" levels="10" name="祝福的魔靈彈-R級大型組合包">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22452" levels="1" name="聖誕少女禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22453" levels="1" name="護身符禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22454" levels="1" name="武器強化卷軸-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22455" levels="1" name="防具強化卷軸-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22456" levels="1" name="武器強化卷軸-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22457" levels="1" name="防具強化卷軸-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22458" levels="1" name="武器強化卷軸-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22459" levels="1" name="防具強化卷軸-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22460" levels="1" name="武器強化卷軸-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22461" levels="1" name="防具強化卷軸-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22462" levels="1" name="武器強化卷軸-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22463" levels="1" name="防具強化卷軸-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22464" levels="1" name="武器強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22465" levels="1" name="防具強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22466" levels="1" name="返回卷軸">
+		<set name="hitTime" val="20000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22467" levels="1" name="城堡返回卷軸">
+		<set name="hitTime" val="20000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22468" levels="1" name="根據地返回卷軸">
+		<set name="hitTime" val="20000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22469" levels="1" name="祝福的返回卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22470" levels="1" name="祝福的城堡返回卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22471" levels="1" name="祝福的根據地返回卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22472" levels="1" name="祝福的寵物復活卷軸">
+		<set name="castRange" val="400" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22473" levels="1" name="壺精禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22474" levels="10" name="靈魂彈 R 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22475" levels="5" name="祝福的魔靈彈 R 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22476" levels="3" name="靈魂彈 R 3000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22477" levels="3" name="祝福的魔靈彈 R 3000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22478" levels="10" name="靈魂彈 S 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22479" levels="10" name="靈魂彈 S 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22480" levels="1" name="幼苗的氣息">
+		<table name="#Desc-LV1">在1小時內受到幼苗的氣息後，將增加MP最大值20%、MP額外恢復量20%、HP額外恢復量20%、因傷害魔法造成強大傷害的機率2、致命攻擊的威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、對詛咒魔法的抗性10%，而降低移動速度20%、用於技能的MP消耗量5%。</table>
+		<set name="icon" val="icon.etc_leaf_green_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="10000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22481" levels="10" name="神祕的靈魂彈 D 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22482" levels="5" name="神祕的靈魂彈 D 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22483" levels="10" name="神祕的靈魂彈 C 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22484" levels="5" name="神祕的靈魂彈 C 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22485" levels="10" name="神祕的靈魂彈 B 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22486" levels="5" name="神祕的靈魂彈 B 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22487" levels="10" name="神祕的靈魂彈 A 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22488" levels="5" name="神祕的靈魂彈 A 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22489" levels="10" name="神祕的魔靈彈 D 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22490" levels="5" name="神祕的魔靈彈 D 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22491" levels="10" name="神祕的魔靈彈 C 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22492" levels="5" name="神祕的魔靈彈 C 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22493" levels="10" name="神祕的魔靈彈 B 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22494" levels="5" name="神祕的魔靈彈 B 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22495" levels="10" name="神祕的魔靈彈 A 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22496" levels="5" name="神祕的魔靈彈 A 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22497" levels="10" name="神祕的魔靈彈 S 10000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22498" levels="5" name="神祕的魔靈彈 S 5000">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22499" levels="1" name="追加入場券-邊緣欲界">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22500" levels="1" name="祝福的三頭龍的蛋">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22501" levels="1" name="祝福的返回卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22502" levels="1" name="祝福的復活卷軸">
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22503" levels="7" name="超強力生命靈藥-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="120000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22504" levels="7" name="超強力精神靈藥-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="120000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22505" levels="7" name="超強力鬥志靈藥-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="120000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22506" levels="1" name="武器強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22507" levels="1" name="防具強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22508" levels="1" name="火之原石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22509" levels="1" name="水之原石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22510" levels="1" name="風之原石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22511" levels="1" name="地之原石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22512" levels="1" name="聖之原石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22513" levels="1" name="暗之原石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22514" levels="2" name="火之水晶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22515" levels="2" name="水之水晶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22516" levels="2" name="風之水晶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22517" levels="2" name="地之水晶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22518" levels="2" name="聖之水晶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22519" levels="2" name="暗之水晶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22520" levels="1" name="祝福的武器強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22521" levels="1" name="祝福的防具強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22522" levels="1" name="光束武器加工石-單手劍">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22523" levels="1" name="光束武器加工石-匕首">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22524" levels="1" name="光束武器加工石-雙手劍">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22525" levels="1" name="光束武器加工石-格鬥兵器">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22526" levels="1" name="光束武器加工石-槍">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22527" levels="1" name="光束武器加工石-弓">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22528" levels="1" name="光束武器加工石-弩弓">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22529" levels="1" name="光束武器加工石-單手鈍器">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22530" levels="1" name="光束武器加工石-雙手鈍器">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22531" levels="1" name="光束武器加工石-單手魔法鈍器">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22532" levels="1" name="光束武器加工石-雙手魔法鈍器">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22533" levels="1" name="光束武器加工石-雙刀">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22534" levels="1" name="光束武器加工石-雙匕首">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22535" levels="1" name="光束武器加工石-雙鈍器">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22536" levels="1" name="光束武器加工石-盾牌">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22537" levels="1" name="光束武器加工石-符印">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22538" levels="1" name="防具加工-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22539" levels="1" name="防具加工-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22540" levels="1" name="防具加工-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22541" levels="1" name="防具加工-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22542" levels="1" name="防具加工-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22543" levels="1" name="防具加工-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22544" levels="1" name="祝福的防具加工-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22545" levels="1" name="祝福的防具加工-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22546" levels="1" name="祝福的防具加工-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22547" levels="1" name="祝福的防具加工-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22548" levels="1" name="祝福的防具加工-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22549" levels="1" name="祝福的防具加工-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22550" levels="1" name="防具外型復原石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22551" levels="1" name="防具外型復原石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22552" levels="1" name="防具外型復原石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22553" levels="1" name="防具外型復原石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22554" levels="1" name="防具外型復原石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22555" levels="1" name="防具外型復原石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22556" levels="1" name="裝備外型復原石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22557" levels="1" name="裝備外型復原石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22558" levels="1" name="裝備外型復原石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22559" levels="1" name="裝備外型復原石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22560" levels="1" name="裝備外型復原石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22561" levels="1" name="裝備外型復原石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22562" levels="1" name="(測試)禮服變換加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22563" levels="1" name="(測試)永生上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22564" levels="1" name="頭飾加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22565" levels="1" name="祝福的頭飾加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22566" levels="1" name="活力停滯藥水">
+		<table name="#Desc-LV1">活力階段停止後，無法接受活力紅利的狀態。</table>
+		<set name="icon" val="br_cashtex.item.br_cash_adv_swift_attack_potion_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22567" levels="1" name="和風刀加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22568" levels="1" name="和風匕首加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22569" levels="1" name="和風長刀加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22570" levels="1" name="和風格鬥兵器加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22571" levels="1" name="和風長矛加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22572" levels="1" name="和風弓加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22573" levels="1" name="和風弩弓加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22574" levels="1" name="和風鈍器加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22575" levels="1" name="和風巨大鈍器加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22576" levels="1" name="和風魔法鈍器加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22577" levels="1" name="和風巨大魔法鈍器加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22578" levels="1" name="和風雙刀加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22579" levels="1" name="和風雙匕首加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22580" levels="1" name="和風雙鈍器加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22581" levels="1" name="和風盾牌加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22582" levels="1" name="和風符印加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22583" levels="1" name="變身卷軸-伯盧那">
+		<table name="#Desc-LV1">變身為晴空之伯盧那的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22584" levels="3" name="活力提升卷軸">
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="259200000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22587" levels="4" name="梅芙古文">
+		<table name="#Desc-LV1">增加怪物道具掉落機率30%。</table>
+		<table name="#Desc-LV2">增加怪物道具掉落機率50%。</table>
+		<table name="#Desc-LV3">增加怪物道具掉落機率100%。</table>
+		<table name="#Desc-LV4">增加怪物道具掉落機率200%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22588" levels="3" name="梅芙上級古文">
+		<table name="#Desc-LV1">增加怪物金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率30%。</table>
+		<table name="#Desc-LV2">增加怪物金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率50%。</table>
+		<table name="#Desc-LV3">增加怪物金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率100%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22591" levels="1" name="道具確認">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22592" levels="1" name="道具確認">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22593" levels="1" name="道具確認">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22594" levels="1" name="道具確認">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22595" levels="1" name="活力充能卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22596" levels="2" name="活力充能卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22597" levels="3" name="活力充能卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22599" levels="1" name="遠古卡爾提亞迷宮的根源">
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="86400000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22600" levels="1" name="遠古卡爾提亞迷宮的根源">
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="86400000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22601" levels="1" name="遠古卡爾提亞迷宮的根源">
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="86400000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22602" levels="1" name="活力降低卷軸">
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22603" levels="2" name="擴充道具lv2">
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22604" levels="2" name="擴充倉庫lv2">
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22605" levels="1" name="沃夫襯衫強化卷軸">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22606" levels="1" name="祝福的沃夫襯衫強化卷軸">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22607" levels="1" name="追加入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22608" levels="1" name="追加入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22609" levels="1" name="追加入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22610" levels="1" name="追加入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22611" levels="1" name="追加入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22612" levels="1" name="追加入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22613" levels="1" name="灑花">
+		<set name="icon" val="icon.item_normal16" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22614" levels="5" name="經驗值古文50%">
+		<table name="#Desc-LV5">所得經驗值增加50%。</table>
+		<set name="icon" val="br_cashtex.skill.br_cash_rune_of_exp_buff_5" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22615" levels="1" name="蜜月套票-活力的喜悅">
+		<table name="#Desc-LV1">活力階段維持的狀態。</table>
+		<set name="hitTime" val="100" />
+		<set name="icon" val="BranchSys2.Icon.br_weddin_ticket_i00" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22616" levels="1" name="召喚大型結婚蛋糕">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22617" levels="1" name="活力維持藥水">
+		<table name="#Desc-LV1">活力維持60分鐘。</table>
+		<set name="icon" val="BranchSys2.icon.br_essence_rose_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22618" levels="1" name="R級力量紋章染料禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22619" levels="1" name="R級敏捷紋章染料禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22620" levels="1" name="R級體質紋章染料禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22621" levels="1" name="R級智力紋章染料禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22622" levels="1" name="R級智慧紋章染料禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22623" levels="1" name="R級精神紋章染料禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22624" levels="1" name="頭飾外型復原石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22625" levels="1" name="復活節彩蛋">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22626" levels="1" name="追加入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22627" levels="1" name="驅魔禮物">
+		<set name="icon" val="icon.etc_grave_goods_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22628" levels="1" name="殷海薩的禮物">
+		<set name="icon" val="icon.event_july_seven_park_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22629" levels="1" name="席琳的禮物">
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22630" levels="1" name="驅魔之力">
+		<table name="#Desc-LV1">在2小時內增加物理攻擊力20%、魔法攻擊力85%、移動速度20。</table>
+		<set name="icon" val="icon.etc_int_symbol_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22631" levels="2" name="夢幻刨冰">
+		<table name="#Desc-LV1">變身為裝備海灘泳裝的狀態。在1小時內增加攻擊速度5%、施法速度5%、移動速度5、HP/MP最大值5%。使用冷卻時間為1小時。</table>
+		<table name="#Desc-LV2">變身為裝備艷麗泳裝的狀態。在1小時內增加攻擊速度10%、施法速度10%、移動速度10、HP/MP最大值10%。使用冷卻時間為1小時。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="icon" val="BranchSys3.icon1.g_ev_sweet_icewater" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22632" levels="1" name="海灘泳裝加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22633" levels="1" name="海莉納的禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22634" levels="1" name="靈魂具現體用大型能量種子">
+		<table name="#Desc-LV1">補充靈魂具現體的能量100000。</table>
+		<set name="icon" val="icon.skill0788" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22635" levels="1" name="忍者上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22636" levels="1" name="忍者下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22637" levels="1" name="忍者手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22638" levels="1" name="忍者鞋加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22639" levels="1" name="台灣傳統服上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22640" levels="1" name="台灣傳統服下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22641" levels="1" name="台灣傳統服手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22642" levels="1" name="台灣傳統服鞋加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22643" levels="1" name="忍者頭飾加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22644" levels="1" name="台灣傳統頭飾加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22645" levels="1" name="X235行星面具">
+		<table name="#Desc-LV1">體質+1、精神+1、智力+1。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22646" levels="1" name="科學怪人面具">
+		<table name="#Desc-LV1">力量+1、體質+1、敏捷+1。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22647" levels="1" name="驚聲尖叫面具">
+		<table name="#Desc-LV1">體質+1、敏捷+1、智慧+1。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22648" levels="1" name="憤怒精靈面具">
+		<table name="#Desc-LV1">智力+1、精神+1、智慧+1。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22649" levels="1" name="不朽骸骨面具">
+		<table name="#Desc-LV1">力量+1、敏捷+1、智慧+1。</table>
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22650" levels="1" name="殭屍變身卷軸">
+		<table name="#Desc-LV1">變身為瘟疫殭屍的狀態。</table>
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22651" levels="1" name="調皮頭飾禮盒">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22652" levels="1" name="飛龍衝槌加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22653" levels="1" name="芙蕾雅魔杖加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22654" levels="1" name="斯佩席亞戰爪加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22655" levels="1" name="梅莉莎風暴者加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22656" levels="1" name="斯泰里格斯匕首加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22657" levels="1" name="普倫雙鈍器加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22658" levels="1" name="達里昂的貫雷劍加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22659" levels="1" name="人偶刀手的庖刀">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22660" levels="1" name="蒂雅特的蒂雅堤諾加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22661" levels="1" name="亞恩奇奈爾的阿斯塔洛特加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22662" levels="1" name="艾罕克蘭尼庫斯的提爾鋒加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22663" levels="1" name="瑪蒂之風加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22664" levels="1" name="怪物武器加工石箱子A">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22665" levels="1" name="怪物武器加工石箱子B">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22666" levels="1" name="靈魂具現體用超大型能量種子">
+		<table name="#Desc-LV1">補充靈魂具現體所有的能量（200000）。</table>
+		<set name="icon" val="icon.skill0788" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22667" levels="2" name="蘋果氣泡水">
+		<table name="#Desc-LV2">活力維持30分鐘</table>
+		<set name="icon" val="BranchSys3.icon1.g_apfelschorle_germany" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22668" levels="1" name="烤香腸">
+		<table name="#Desc-LV1">透過狩獵獲得經驗值時，將會充足活力30分鐘</table>
+		<set name="icon" val="BranchSys3.icon1.g_bratwurst_germany" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22669" levels="1" name="德國麵包">
+		<table name="#Desc-LV1">在1小時內將提升獲得經驗值50%</table>
+		<set name="icon" val="BranchSys3.icon1.g_brezel_germany" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22670" levels="1" name="綜合點心">
+		<table name="#Desc-LV1">使用後馬上恢復HP500、MP200</table>
+		<set name="icon" val="BranchSys3.icon1.g_studentenfutter_germany" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22671" levels="1" name="艷麗泳裝加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22672" levels="1" name="誘人泳裝加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22673" levels="1" name="海賊王 烏山卡哀悼">
+		<table name="#Desc-LV1">由於海盜王 烏山卡的死亡而感到悲傷的狀態。</table>
+		<set name="icon" val="BranchSys3.lcon.s_g_ring_of_uthanka" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22674" levels="1" name="祝福的殷海薩襯衫強化卷軸">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22675" levels="1" name="祝福的殷海薩襯衫強化卷軸箱子">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22676" levels="1" name="武器箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22677" levels="1" name="武器箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22678" levels="1" name="武器箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22679" levels="1" name="武器箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22680" levels="1" name="武器箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22681" levels="1" name="防具箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22682" levels="1" name="防具箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22683" levels="1" name="防具箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22684" levels="1" name="防具箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22685" levels="1" name="防具箱子">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22686" levels="1" name="祝福的殷海薩襯衫強化卷軸箱子">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22687" levels="1" name="祝福的殷海薩襯衫強化卷軸箱子">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22688" levels="1" name="祝福的殷海薩襯衫強化卷軸箱子">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22689" levels="1" name="狩獵的祝福">
+		<table name="#Desc-LV1">在1小時內增加所得經驗值和SP10%。</table>
+		<set name="castRange" val="1500" />
+		<set name="coolTime" val="300" />
+		<set name="effectRange" val="2000" />
+		<set name="hitTime" val="700" />
+		<set name="icon" val="BranchSys2.icon.br_vitality_day_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22690" levels="1" name="精靈果香啤酒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22691" levels="1" name="狄恩特調">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22692" levels="1" name="矮人皇室釀酒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22693" levels="1" name="亞丁白啤酒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22694" levels="1" name="格蘭肯快樂啤酒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22695" levels="1" name="封印著哈普力量古文">
+		<table name="#Desc-LV1">可永久提升力量7，普通攻擊時，以5%機率將400格以內的所有敵對目標陷入衝擊3秒鐘。</table>
+		<set name="icon" val="br_cashtex.skill.br_cash_rune_of_exp_buff_1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22696" levels="1" name="封印著哈普魔法古文">
+		<table name="#Desc-LV1">可永久提升智力7，魔法攻擊時，在10秒內以10%機率降低目標和周圍400格以內的所有敵對目標的魔法防禦力20%。</table>
+		<set name="icon" val="br_cashtex.skill.br_cash_rune_of_exp_buff_1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22697" levels="1" name="封印著弗林特意志古文">
+		<table name="#Desc-LV1">可永久提升體質7，遭受攻擊時，以5%機率對所有的傷害呈現免疫狀態5秒鐘。</table>
+		<set name="icon" val="br_cashtex.skill.br_cash_rune_of_exp_buff_1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22698" levels="1" name="封印著弗林特破壞古文">
+		<table name="#Desc-LV1">可永久提升力量7，技能攻擊時，以5%機率額外造成技能攻擊力的傷害20%。</table>
+		<set name="icon" val="br_cashtex.skill.br_cash_rune_of_exp_buff_1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22699" levels="1" name="封印著毀滅博士技巧古文">
+		<table name="#Desc-LV1">可永久提升敏捷7，在10秒內以5%機率增加致命攻擊率和傷害各30%。</table>
+		<set name="icon" val="br_cashtex.skill.br_cash_rune_of_exp_buff_1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22700" levels="1" name="封印著毀滅博士智慧古文">
+		<table name="#Desc-LV1">可永久提升智力7，以10%機率將不會消耗所使用的治癒技能的MP。</table>
+		<set name="icon" val="br_cashtex.skill.br_cash_rune_of_exp_buff_1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22701" levels="1" name="封印著哈普力量古文_觸發">
+		<table name="#Desc-LV1">以5%機率將400格以內的所有敵對目標陷入衝擊3秒鐘。</table>
+		<set name="icon" val="icon.skill1551" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22702" levels="1" name="封印著哈普魔法古文_觸發_抵抗下降">
+		<table name="#Desc-LV1">在10秒內降低目標和周圍400格以內的所有敵對目標的魔法防禦力20%。</table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skill1263" />
+		<set name="isDebuff" val="True" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22703" levels="1" name="封印著弗林特意志古文_觸發">
+		<table name="#Desc-LV1">暫時呈現無敵狀態5秒鐘。</table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill1551" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="180000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22704" levels="1" name="封印著弗林特破壞古文_觸發">
+		<table name="#Desc-LV1">觸發古文效果後，受到額外的傷害並刻印烙印的狀態。</table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="30000" />
+		<set name="effectRange" val="400" />
+		<set name="icon" val="icon.skill11511" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="30000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22705" levels="1" name="封印著毀滅博士技巧古文">
+		<table name="#Desc-LV1">在10秒內增加致命攻擊率和威力的狀態。</table>
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22706" levels="1" name="封印著毀滅博士智慧古文_觸發">
+		<table name="#Desc-LV1">在10秒內不需消耗MP也能使用技能的狀態。</table>
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22707" levels="2" name="活力維持藥水">
+		<table name="#Desc-LV2">活力維持30分鐘。</table>
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22708" levels="1" name="奈比特沙漏-1小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22709" levels="1" name="奈比特沙漏-2小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22710" levels="3" name="活力提升卷軸">
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="259200000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22711" levels="3" name="活力充能卷軸">
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22712" levels="1" name="活力充能藥草茶">
+		<table name="#Desc-LV1">透過狩獵獲得經驗值時，將會恢復活力30分鐘。死亡時效果不會刪除。</table>
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22713" levels="1" name="文字收藏家的禮物">
+		<table name="#Desc-LV1">在2小時內增加攻擊速度15%、施法速度15%、移動速度20。</table>
+		<set name="icon" val="icon.shield_bread_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22714" levels="1" name="變身卷軸箱子">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22715" levels="1" name="天堂寶箱">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22716" levels="1" name="夢幻寶箱">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22717" levels="1" name="榮譽寶箱">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22718" levels="1" name="祝福的獅鷲蛋">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22719" levels="1" name="變身卷軸箱子">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22720" levels="1" name="華麗護身符禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22721" levels="1" name="武器封印卷軸禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22722" levels="1" name="防具封印卷軸禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22723" levels="1" name="武器強化卷軸禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22724" levels="1" name="防具強化卷軸禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22725" levels="1" name="祝福的武器強化卷軸禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22726" levels="1" name="祝福的防具強化卷軸禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22727" levels="1" name="變身卷軸-劍齒虎">
+		<table name="#Desc-LV1">變身為劍齒虎的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22728" levels="1" name="變身卷軸-奧耶豺狼">
+		<table name="#Desc-LV1">變身為奧耶豺狼的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22729" levels="1" name="變身卷軸-人偶刀手">
+		<table name="#Desc-LV1">變身為人偶刀手的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22730" levels="1" name="變身卷軸-札肯">
+		<table name="#Desc-LV1">變身為札肯的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22731" levels="1" name="變身卷軸-亞納">
+		<table name="#Desc-LV1">變身為亞納的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22732" levels="1" name="變身卷軸-貝諾姆">
+		<table name="#Desc-LV1">變身為貝諾姆的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22733" levels="1" name="變身卷軸-高登">
+		<table name="#Desc-LV1">變身為高登的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22734" levels="1" name="變身卷軸-勞庫">
+		<table name="#Desc-LV1">變身為勞庫的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22735" levels="1" name="變身卷軸-基亞齊">
+		<table name="#Desc-LV1">變身為基亞齊的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22736" levels="1" name="變身卷軸-惡魔公爵">
+		<table name="#Desc-LV1">變身為惡魔公爵的狀態。</table>
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22737" levels="1" name="墨水藥草">
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22738" levels="1" name="墨水量扣除">
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="1300" />
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22739" levels="2" name="大容量墨水藥草">
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22740" levels="1" name="大容量墨水量扣除">
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="1300" />
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22741" levels="1" name="夢幻禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22742" levels="1" name="夢幻的紅色藥瓶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22743" levels="1" name="夢幻的藍色藥瓶">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22744" levels="1" name="夢幻餅乾">
+		<table name="#Desc-LV1">60分鐘內增加自己的移動速度33。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22745" levels="1" name="夢幻精緻餅乾">
+		<table name="#Desc-LV1">在60分鐘內增加自己的MP最大值20%、HP額外恢復量20%、攻擊魔法的致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%、遭受致命攻擊時的物理防禦力。降低移動速度15%，而且裝備近身武器、弓類和弩類且遭受一定程度以上的攻擊而受傷的隊員，在進行普通攻擊時，將會額外增加致命威力。</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22746" levels="1" name="夢幻特製餅乾">
+		<table name="#Desc-LV1">在1小時內額外增加所獲經驗值與SP100%。（等級95以下可以使用）</table>
+		<set name="icon" val="BranchSys3.Icon.ev_halloween_cookie" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22747" levels="1" name="夢幻島名譽勳章">
+		<table name="#Desc-LV1">個人聲望值增加200。</table>
+		<set name="hitTime" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22748" levels="1" name="重啟卷軸(下等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22749" levels="1" name="重啟卷軸(中等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22750" levels="1" name="重啟卷軸(上等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22751" levels="1" name="重啟卷軸(最上等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22752" levels="1" name="淨化卷軸(下等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22753" levels="1" name="淨化卷軸(中等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22754" levels="1" name="淨化卷軸(上等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22755" levels="1" name="淨化卷軸(最上等)">
+		<set name="coolTime" val="200" />
+		<set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22756" levels="1" name="忍者服飾變身">
+		<table name="#Desc-LV1">變身為忍者服飾的狀態。體質+1、精神+1、智慧+1。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_u" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22757" levels="1" name="台灣傳統服飾變身">
+		<table name="#Desc-LV1">變身為台灣傳統服飾的狀態。體質+1、精神+1、智慧+1。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_u" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22758" levels="1" name="軍用服飾變身">
+		<table name="#Desc-LV1">變身為軍用服飾的狀態。體質+1、精神+1、智慧+1。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.icon1.g_co_military_u" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22759" levels="1" name="金屬套裝服飾變身">
+		<table name="#Desc-LV1">變身為金屬套裝服飾的狀態。體質+1、精神+1、智慧+1。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_u" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22760" levels="1" name="可愛女僕服飾變身">
+		<table name="#Desc-LV1">變身為可愛女僕服飾的狀態。體質+1、精神+1、智慧+1。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.icon1.g_co_cutie_maid" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22761" levels="1" name="光束武器轉換">
+		<table name="#Desc-LV1">轉換為光束武器的狀態。力量+1、敏捷+1、智力+1</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.Icon.g_beam_sword" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22762" levels="1" name="和風武器轉換">
+		<table name="#Desc-LV1">轉換為和風武器的狀態。力量+1、敏捷+1、智力+1</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.Icon.g_japan_sword" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22763" levels="1" name="聖誕服加工石-14日">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22764" levels="1" name="聖誕服加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22765" levels="1" name="活動之力">
+		<table name="#Desc-LV1">透過狩獵獲得經驗值時，將會恢復活力60分鐘。</table>
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22766" levels="1" name="活力維持藥水">
+		<table name="#Desc-LV1">活力維持10分鐘。</table>
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22767" levels="2" name="活力維持藥水">
+		<table name="#Desc-LV2">活力維持30分鐘。</table>
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22768" levels="1" name="金屬套裝上衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22769" levels="1" name="金屬套裝下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22770" levels="1" name="金屬套裝手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22771" levels="1" name="金屬套裝鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22772" levels="1" name="金屬套裝頭飾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22773" levels="1" name="金屬套裝上衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22774" levels="1" name="金屬套裝下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22775" levels="1" name="金屬套裝手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22776" levels="1" name="金屬套裝鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22777" levels="1" name="金屬套裝頭飾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22778" levels="1" name="軍用上衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22779" levels="1" name="軍用下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22780" levels="1" name="軍用手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22781" levels="1" name="軍用鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22782" levels="1" name="軍用頭飾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22783" levels="1" name="軍用上衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22784" levels="1" name="軍用下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22785" levels="1" name="軍用手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22786" levels="1" name="軍用鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22787" levels="1" name="軍用頭飾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22788" levels="1" name="可愛女僕加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22789" levels="1" name="可愛女僕頭飾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22790" levels="1" name="可愛女僕加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22791" levels="1" name="可愛女僕頭飾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22792" levels="1" name="光束武器自動變換加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22793" levels="1" name="和風武器自動變換加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22794" levels="1" name="閃耀的飾品箱">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22795" levels="1" name="薄暮貴族上衣加工 ">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22796" levels="1" name="薄暮貴族下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22797" levels="1" name="薄暮貴族手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22798" levels="1" name="薄暮貴族鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22799" levels="1" name="薄暮貴族上衣加工 ">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22800" levels="1" name="薄暮貴族下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22801" levels="1" name="薄暮貴族手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22802" levels="1" name="薄暮貴族鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22803" levels="1" name="夢幻的上衣加工石組">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22804" levels="1" name="夢幻的下衣加工石組">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22805" levels="1" name="夢幻的手套加工石組">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22806" levels="1" name="夢幻的鞋加工石組">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22807" levels="1" name="怪物武器加工石禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22808" levels="1" name="貫雷劍加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22809" levels="1" name="蒂雅堤諾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22810" levels="1" name="忍者上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22811" levels="1" name="忍者下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22812" levels="1" name="忍者手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22813" levels="1" name="忍者靴加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22814" levels="1" name="忍者頭飾加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22815" levels="1" name="忍者上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22816" levels="1" name="忍者下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22817" levels="1" name="忍者手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22818" levels="1" name="忍者靴加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22819" levels="1" name="忍者頭飾加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22820" levels="6" name="忍者套裝-主動">
+		<table name="#Desc-LV1">裝備成套套裝時，可以使用透明化主動技能。</table>
+		<table name="#Desc-LV6">在3分鐘內呈現透明化的狀態，不會受到敵人的先制攻擊。移動速度降低10%。最高階段。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 </table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_u" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="360000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22821" levels="6" name="忍者套裝-被動">
+		<table name="#Desc-LV1">裝備成套套裝時，可以產生移動速度增加被動技能。</table>
+		<table name="#Desc-LV6">提升移動速度。最高階段。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_u" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22822" levels="1" name="泳裝服飾變身">
+		<table name="#Desc-LV1">變身為泳裝服飾的狀態。體質+1、精神+1、智慧+1。</table>
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_03" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22823" levels="1" name="僕從庖刀加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22824" levels="1" name="阿斯塔洛特加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22825" levels="1" name="提爾鋒加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22826" levels="1" name="瑪蒂之風加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22827" levels="1" name="博佩斯上衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22828" levels="1" name="博佩斯下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22829" levels="1" name="博佩斯手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22830" levels="1" name="博佩斯鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22831" levels="1" name="博佩斯上衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22832" levels="1" name="博佩斯下衣加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22833" levels="1" name="博佩斯手套加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22834" levels="1" name="博佩斯鞋加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22835" levels="1" name="怪物武器加工石禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22836" levels="1" name="貫雷劍加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22837" levels="1" name="蒂雅堤諾加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22838" levels="1" name="僕從庖刀加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22839" levels="1" name="阿斯塔洛特加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22840" levels="1" name="提爾鋒加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22841" levels="1" name="瑪蒂之風加工">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22842" levels="1" name="85單人迷宮入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22843" levels="1" name="90單人迷宮入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22844" levels="1" name="95單人迷宮入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22845" levels="1" name="85隊伍迷宮入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22846" levels="1" name="90隊伍迷宮入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22847" levels="1" name="95隊伍迷宮入場券">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22848" levels="1" name="活力維持藥水">
+		<table name="#Desc-LV1">維持活力階段。</table>
+		<set name="icon" val="icon.skilltransform4" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22849" levels="1" name="龍之氣息充能藥水">
+		<set name="icon" val="icon.etc_potion_of_energy_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22850" levels="1" name="活力停滯藥水">
+		<table name="#Desc-LV1">活力階段停止後，無法接受活力紅利的狀態。</table>
+		<set name="icon" val="BranchSys3.lcon.g_vitality_potion_stop" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22851" levels="2" name="巧克力甜甜圈-活力維持">
+		<table name="#Desc-LV2">活力維持30分鐘。</table>
+		<set name="icon" val="BranchSys3.icon1.g_chocolate_doughnut_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22852" levels="1" name="俄羅斯餡餅-活力充能">
+		<table name="#Desc-LV1">透過狩獵獲得經驗值時，將會恢復活力30分鐘。</table>
+		<set name="icon" val="BranchSys3.icon1.g_dumpling_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22853" levels="1" name="托倫生薑麵包-1小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="BranchSys3.icon1.g_torun_gingerbread_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22854" levels="1" name="托倫生薑麵包-1.5小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="BranchSys3.icon1.g_torun_gingerbread_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22855" levels="1" name="托倫生薑麵包-2小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="BranchSys3.icon1.g_torun_gingerbread_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22856" levels="1" name="托倫生薑麵包-2.5小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="BranchSys3.icon1.g_torun_gingerbread_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22857" levels="1" name="托倫生薑麵包-3小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="BranchSys3.icon1.g_torun_gingerbread_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22858" levels="1" name="托倫生薑麵包-4小時">
+		<table name="#Desc-LV1">於效果維持時間內，將增加獲得的經驗值50%。</table>
+		<set name="icon" val="BranchSys3.icon1.g_torun_gingerbread_pl" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22859" levels="2" name="燃燒的火堆的溫暖">
+		<table name="#Desc-LV1">坐下時更能感覺到燃燒的火堆的熱氣。增加HP自然恢復力300%/CP自然恢復力300%/MP自然恢復力300%。</table>
+		<table name="#Desc-LV2">能感覺到燃燒的火堆的溫暖。增加HP自然恢復力80%/CP自然恢復力60%/MP自然恢復力40%，減少物理技能MP消耗20%、魔法技能MP消耗10%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#power"> 2000 2200 </table>
+		<set name="icon" val="icon.etc_torch_on_i00" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22860" levels="1" name="召喚燃燒的火堆">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22861" levels="1" name="騎士團的幸運禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22862" levels="1" name="親衛隊的幸運禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22863" levels="1" name="祝福的武器加工石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22864" levels="1" name="祝福的武器加工石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22865" levels="1" name="祝福的武器加工石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22866" levels="1" name="祝福的武器加工石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22867" levels="1" name="祝福的武器加工石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22868" levels="1" name="祝福的武器加工石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22869" levels="1" name="祝福的武器加工石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22870" levels="1" name="祝福的武器加工石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22871" levels="1" name="祝福的武器加工石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22872" levels="1" name="祝福的武器加工石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22873" levels="1" name="祝福的武器加工石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22874" levels="1" name="祝福的武器加工石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22875" levels="1" name="祝福的武器加工石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22876" levels="1" name="祝福的武器加工石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22877" levels="1" name="祝福的武器加工石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22878" levels="1" name="祝福的武器加工石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22879" levels="1" name="祝福的武器加工石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22880" levels="1" name="祝福的武器加工石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22881" levels="1" name="祝福的防具加工卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22882" levels="1" name="祝福的防具加工卷軸-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22883" levels="1" name="祝福的防具加工卷軸-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22884" levels="1" name="祝福的防具加工卷軸-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22885" levels="1" name="祝福的防具加工卷軸-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22886" levels="1" name="祝福的防具加工卷軸-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22887" levels="1" name="祝福的防具加工卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22888" levels="1" name="祝福的防具加工卷軸-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22889" levels="1" name="祝福的防具加工卷軸-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22890" levels="1" name="祝福的防具加工卷軸-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22891" levels="1" name="祝福的防具加工卷軸-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22892" levels="1" name="祝福的防具加工卷軸-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22893" levels="1" name="祝福的防具加工卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22894" levels="1" name="祝福的防具加工卷軸-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22895" levels="1" name="祝福的防具加工卷軸-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22896" levels="1" name="祝福的防具加工卷軸-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22897" levels="1" name="祝福的防具加工卷軸-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22898" levels="1" name="祝福的防具加工卷軸-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22899" levels="1" name="傳說鐵匠的祝福-活動">
+		<table name="#Desc-LV1">受惠於傳說鐵匠的祝福，因而所有的道具製作(工房)時，成功率提升100%。</table>
+		<set name="icon" val="BranchSys3.icon1.s_g_ev_recipe_success_rate" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22900" levels="1" name="忍者上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22901" levels="1" name="忍者下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22902" levels="1" name="忍者手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22903" levels="1" name="忍者靴加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22904" levels="1" name="台灣傳統衣裳上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22905" levels="1" name="台灣傳統衣裳下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22906" levels="1" name="台灣傳統衣裳手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22907" levels="1" name="台灣傳統衣裳靴加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22908" levels="1" name="金屬套裝上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22909" levels="1" name="金屬套裝下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22910" levels="1" name="金屬套裝手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22911" levels="1" name="金屬套裝靴加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22912" levels="1" name="軍用上衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22913" levels="1" name="軍用下衣加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22914" levels="1" name="軍用手套加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22915" levels="1" name="軍用靴加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22916" levels="4" name="忍者隱身">
+		<table name="#Desc-LV1">上衣、下衣、手套、鞋全部加工時，可使用隱身技能。</table>
+		<table name="#Desc-LV4">忍者隱身最高階段。在30秒內呈現透明化狀態，不會受到怪物的先制攻擊。降低移動速度10%。但若進行攻擊的話，將會解除狀態。使用冷卻時間為1小時。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="icon" val="BranchSys3.icon1.g_co_ninja_u" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22917" levels="4" name="彩虹戰士的恢復">
+		<table name="#Desc-LV1">上衣、下衣、手套、鞋全部加工時，可以使用恢復技能。</table>
+		<table name="#Desc-LV4">藉由彩虹戰士的祝福，可以恢復HP100%和CP30%。最高階段。僅非戰鬥狀態可以使用。使用冷卻時間為1小時。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="BranchSys3.icon1.g_co_paiwan_u" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22918" levels="4" name="復活的電子裝置">
+		<table name="#Desc-LV1">上衣、下衣、手套、鞋全部加工時，可以使用復活技能。</table>
+		<table name="#Desc-LV4">藉由電子裝置之力，可以使用祝福的復活能力，最高階段。使用冷卻時間為1小時。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="BranchSys3.icon1.g_co_sf_u" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22919" levels="4" name="特種部隊的經驗">
+		<table name="#Desc-LV1">上衣、下衣、手套、鞋全部加工時，在危機狀況下提高致命攻擊機率。</table>
+		<table name="#Desc-LV4">藉由經驗豐富士兵的能力，在危機狀況下致命攻擊機率一定程度增加。最高階段。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<set name="icon" val="BranchSys3.icon1.g_co_military_u" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22920" levels="1" name="神聖武器強化卷軸-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22921" levels="1" name="神聖武器強化卷軸-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22922" levels="1" name="神聖武器強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22923" levels="1" name="神聖防具強化卷軸-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22924" levels="1" name="神聖防具強化卷軸-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22925" levels="1" name="神聖防具強化卷軸-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22926" levels="1" name="梅芙特級古文">
+		<table name="#Desc-LV1">增加怪物金幣掉落量、道具掉落機率以及透過自體變化的道具獲得機率200%。</table>
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="22927" levels="1" name="優質晶體">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22928" levels="2" name="角笛之詩-天堂雞尾酒">
+		<table name="#Desc-LV2">在60分鐘內增加自己的物理攻擊力19%、物理防禦力15%、魔法攻擊力83%、魔法防禦力30%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22929" levels="1" name="角笛之詩-天堂雞尾酒">
+		<table name="#Desc-LV1">在60分鐘內增加自己的物理攻擊力17%、物理防禦力15%、魔法攻擊力79%、魔法防禦力30%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22930" levels="2" name="戰鼓之詩-天堂雞尾酒">
+		<table name="#Desc-LV2">在60分鐘內增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%。減少致命攻擊被擊傷害30%，降低移動速度10%，而且遭受一定程度以上的攻擊而受傷的情況下，在進行普通攻擊時，將會額外增加致命威力。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22931" levels="1" name="戰鼓之詩-天堂雞尾酒">
+		<table name="#Desc-LV1">在60分鐘內增加自己的MP最大值20%、HP額外恢復量20%、魔法致命攻擊率2、普通攻擊時的致命威力20%、物理攻擊力10%、物理防禦力20%、攻擊速度20%、魔法攻擊力20%、魔法防禦力20%、施法速度20%、詛咒魔法抗性10%。減少致命攻擊被擊傷害30%，降低移動速度15%，而且遭受一定程度以上的攻擊而受傷的情況下，在進行普通攻擊時，將會額外增加致命威力。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22932" levels="2" name="琵琶之詩-天堂雞尾酒">
+		<table name="#Desc-LV2">在60分鐘內增加自己的攻擊速度35%、施法速度32%，並以一定的機率獲得吸血怒擊效果9%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22933" levels="1" name="琵琶之詩-天堂雞尾酒">
+		<table name="#Desc-LV1">在60分鐘內增加自己的攻擊速度34%、施法速度31%，並以一定的機率獲得吸血怒擊效果9%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22934" levels="2" name="風琴之詩-天堂雞尾酒">
+		<table name="#Desc-LV2">在60分鐘內增加自己的HP最大值39%、MP最大值39%、CP最大值39%、HP額外恢復量20%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22935" levels="1" name="風琴之詩-天堂雞尾酒">
+		<table name="#Desc-LV1">在60分鐘內增加自己的HP最大值37%、MP最大值37%、CP最大值37%、HP額外恢復量20%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22936" levels="2" name="吉他之詩-天堂雞尾酒">
+		<table name="#Desc-LV2">在60分鐘內增加自己的物理致命攻擊率34%、物理致命威力35%、魔法致命攻擊率20，而降低物理技能的MP消耗量20%、魔法技能的MP消耗量10%、伊斯法師的強化技能的MP消耗量20%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22937" levels="1" name="吉他之詩-天堂雞尾酒">
+		<table name="#Desc-LV1">在60分鐘內增加自己的物理致命攻擊率32%、物理致命威力35%、魔法致命攻擊率20，而降低物理技能的MP消耗量20%、魔法技能的MP消耗量10%、伊斯法師的強化技能的MP消耗量20%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22938" levels="2" name="豎琴之詩-天堂雞尾酒">
+		<table name="#Desc-LV2">在60分鐘內增加自己的物理命中能力6、物理迴避能力和魔法迴避能力6、移動速度35，而降低致命被擊傷害30%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22939" levels="1" name="豎琴之詩-天堂雞尾酒">
+		<table name="#Desc-LV1">在60分鐘內增加自己的物理命中能力5、物理迴避能力和魔法迴避能力5、移動速度34，而降低致命被擊傷害30%。死亡時，不會被刪除，也不能強制刪除。</table>
+		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22940" levels="1" name="活力恢復藥水">
+		<table name="#Desc-LV1">在60分鐘內獲得經驗值時，將會恢復活力。</table>
+		<set name="hitTime" val="3000" />
+		<set name="icon" val="BranchSys2.br_essence_rose_i00" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="14400000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22941" levels="1" name="勇士的氣息">
+		<set name="icon" val="icon.skill0001" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22942" levels="1" name="武器用強化增效輔助石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22943" levels="1" name="武器用強化增效輔助石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22944" levels="1" name="武器用強化增效輔助石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22945" levels="1" name="武器用強化增效輔助石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22946" levels="1" name="武器用強化增效輔助石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22947" levels="1" name="武器用強化增效輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22948" levels="1" name="防具用強化增效輔助石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22949" levels="1" name="防具用強化增效輔助石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22950" levels="1" name="防具用強化增效輔助石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22951" levels="1" name="防具用強化增效輔助石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22952" levels="1" name="防具用強化增效輔助石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22953" levels="1" name="防具用強化增效輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22954" levels="1" name="巨人武器用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22955" levels="1" name="巨人防具用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22956" levels="1" name="祝福的巨人武器用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22957" levels="1" name="祝福的巨人防具用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22958" levels="1" name="下巨人武器用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22959" levels="1" name="下巨人防具用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22960" levels="1" name="祝福的武器用強化輔助石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22961" levels="1" name="祝福的武器用強化輔助石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22962" levels="1" name="祝福的武器用強化輔助石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22963" levels="1" name="祝福的武器用強化輔助石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22964" levels="1" name="祝福的武器用強化輔助石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22965" levels="1" name="祝福的武器用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22966" levels="1" name="祝福的防具用強化輔助石-D級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22967" levels="1" name="祝福的防具用強化輔助石-C級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22968" levels="1" name="祝福的防具用強化輔助石-B級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22969" levels="1" name="祝福的防具用強化輔助石-A級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22970" levels="1" name="祝福的防具用強化輔助石-S級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22971" levels="1" name="祝福的防具用強化輔助石-R級">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22972" levels="1" name="烏山卡的寶箱">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22973" levels="1" name="豐饒禮盒">
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3500" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22974" levels="1" name="豐饒禮盒">
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3500" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22975" levels="1" name="豐饒禮盒">
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3500" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22976" levels="1" name="豐饒禮盒">
+		<set name="hitTime" val="2500" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="3500" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22977" levels="1" name="海賊王 烏山卡變身藥水">
+		<table name="#Desc-LV1">在10分鐘內變身為海賊王 烏山卡的狀態。</table>
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22978" levels="1" name="透明防具加工石">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22979" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22980" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22981" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22982" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22983" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22984" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22985" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22986" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22987" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22988" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22989" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22990" levels="1" name="豐饒禮盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22991" levels="1" name="活力充能星星糖">
+		<set name="icon" val="BranchSys.br_rudolf_food_red_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22992" levels="1" name="活力恢復星星糖">
+		<table name="#Desc-LV1">透過狩獵獲得經驗值時，將會恢復活力10分鐘。</table>
+		<set name="icon" val="BranchSys.br_rudolf_food_purple_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22993" levels="1" name="活力維持星星糖">
+		<table name="#Desc-LV1">活力維持10分鐘。</table>
+		<set name="icon" val="BranchSys.br_rudolf_food_blue_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22994" levels="1" name="活力維持藥水">
+		<table name="#Desc-LV1">活力維持10分鐘。</table>
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="2000" />
+		<set name="reuseDelay" val="1800000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22995" levels="1" name="祝福的烏山卡復活卷軸">
+		<set name="castRange" val="400" />
+		<set name="coolTime" val="500" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="1000" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22996" levels="1" name="黃金小盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22997" levels="1" name="白銀小盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22998" levels="1" name="青銅小盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+	<skill id="22999" levels="1" name="護身符小盒">
+		<set name="icon" val="icon.skill0000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="2000" />
+		<set name="targetType" val="NONE" />
+	</skill>
+</list>
