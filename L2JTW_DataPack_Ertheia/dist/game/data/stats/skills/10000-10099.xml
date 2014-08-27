@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 覺醒技能-席格爾騎士 -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="10001" levels="1" name="極致精通劍鈍兵器" enchantGroup1="10">
+		<table name="#desc-LV1">增加STR2，裝備刀劍/鈍器時，增加物理攻擊力205，並用刀劍/鈍器所造成的傷害60%來額外增加對自己的仇恨值。根據STR可將技能的使用冷卻時間初始化，或將技能的維持時間增為2倍。</table>
+		<table name="#ench1pAtk"> 218 232 245 259 272 286 299 313 326 340</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="operateType" val="P"/>
+		<set name="magicLvl" val="85"/>
+		<for>
+			<effect name="TargetMe" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="target_lock" />
+			<add order="0x08" stat="STR" val="2" />
+			<add order="0x40" stat="aggression" val="60" />
+			<add order="0x40" stat="pAtk" val="205" >
+				<using kind="Sword,Big Sword,Blunt,Big Blunt" />
+			</add>
+		</for>
+		<enchant1for>
+			<effect name="TargetMe" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="target_lock" />
+			<add order="0x08" stat="STR" val="2" />
+			<add order="0x40" stat="aggression" val="60" />
+			<add order="0x40" stat="pAtk" val="#ench1pAtk" >
+				<using kind="Sword,Big Sword,Blunt,Big Blunt" />
+			</add>
+		</enchant1for>
+	</skill>
+	<skill id="10002" levels="1" name="極致精通重裝甲" enchantGroup1="10">
+		<table name="#desc-LV1">增加STR2，裝備重裝甲時，增加HP最大值6883、物理防禦力315、MP額外恢復量8.4，而降低致命被擊傷害35%，並反射傷害10%來反擊目標。當HP低於30%時，額外增加物理防禦力280、迴避能力17。</table>
+		<table name="#ench1pDef"> 335 356 377 397 418 439 459 480 501 522 </table>
+		<table name="#ench2pDef"> 298 316 334 353 371 389 408 426 444 463 </table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x08" stat="STR" val="2" />
+			<add order="0x40" stat="pDef" val="315">
+				<using kind="Heavy" />
+			</add>
+			<mul order="0x30" stat="regMp" val="1.84" >
+				<using kind="Heavy" />
+			</mul>
+			<mul order="0x30" stat="critDamEvas" val="1.35">
+				<using kind="Heavy" />
+			</mul>
+			<add order="0x40" stat="reflectDam" val="10" >
+				<using kind="Heavy" />
+			</add>
+			<add order="0x40" stat="pDef" val="280">
+				<player hp="30" />
+				<using kind="Heavy" />
+			</add>
+			<add order="0x40" stat="rEvas" val="17">
+				<player hp="30" />
+				<using kind="Heavy" />
+			</add>
+		</for>
+		<enchant1for>
+			<add order="0x08" stat="STR" val="2" />
+			<add order="0x40" stat="pDef" val="#ench1pDef">
+				<using kind="Heavy" />
+			</add>
+			<mul order="0x30" stat="regMp" val="1.84" >
+				<using kind="Heavy" />
+			</mul>
+			<mul order="0x30" stat="critDamEvas" val="1.35">
+				<using kind="Heavy" />
+			</mul>
+			<add order="0x40" stat="reflectDam" val="10" >
+				<using kind="Heavy" />
+			</add>
+			<add order="0x40" stat="pDef" val="#ench2pDef">
+				<player hp="30" />
+				<using kind="Heavy" />
+			</add>
+			<add order="0x40" stat="rEvas" val="17">
+				<player hp="30" />
+				<using kind="Heavy" />
+			</add>
+		</enchant1for>
+	</skill>
+	<skill id="10003" levels="1" name="極致精通盾技" enchantGroup1="10">
+		<table name="#desc-LV1">增加STR2，可用盾牌進行全方位的防禦，並增加盾牌防禦成功機率100%。盾牌防禦成功時，增加盾牌防禦力80%，然後額外增加209。</table>
+		<table name="#ench1pDef"> 222 236 249 263 277 290 304 317 331 345 </table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x08" stat="STR" val="2" />
+			<mul order="0x30" stat="rShld" val="2" />
+			<mul order="0x30" stat="sDef" val="1.8" />
+			<add order="0x40" stat="sDef" val="209" />
+		</for>
+		<enchant1for>
+			<add order="0x08" stat="STR" val="2" />
+			<mul order="0x30" stat="rShld" val="2" />
+			<mul order="0x30" stat="sDef" val="1.8" />
+			<add order="0x40" stat="sDef" val="#ench1pDef" />
+		</enchant1for>
+	</skill>
+	<skill id="10004" levels="1" name="極致魔法抵抗" enchantGroup1="10">
+		<table name="#desc-LV1">增加STR2，並增加魔法防禦力158、防禦攻擊魔法的機率25%。遭受傷害的話，以一定的機率暫時增加魔法防禦力和屬性抗性。</table>
+		<table name="#ench1pDef"> 168 178 188 199 209 219 230 240 250 261 </table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x08" stat="STR" val="2" />
+			<add order="0x40" stat="mDef" val="159" />
+			<mul order="0x30" stat="magicDamVul" val="0.8" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="20" activationMinDamage="100" chanceType="ON_ATTACKED_HIT" triggeredId="5556" />
+		</for>
+		<enchant1for>
+			<add order="0x08" stat="STR" val="2" />
+			<add order="0x40" stat="mDef" val="#ench1pDef" />
+			<mul order="0x30" stat="magicDamVul" val="0.8" />
+			<effect passive="1" name="ChanceSkillTrigger" abnormalTime="-1" val="0" activationChance="20" activationMinDamage="100" chanceType="ON_ATTACKED_HIT" triggeredId="5556" />
+		</enchant1for>
+	</skill>
+	<skill id="10005" levels="1" name="極致特性抵抗" enchantGroup1="10">
+		<table name="#desc-LV1">增加STR2，並增加對束縛、睡眠、麻痺、精神攻擊、毒、出血、衝擊的抗性各20，且額外隨機將物理、魔法異常狀態反射給目標。</table>
+		<table name="#ench1pVuln"> 21 22 23 24 25 26 27 28 29 30 </table>
+		<set name="activationChance" val="25" />
+		<set name="triggeredId" val="1644" /> 
+		<set name="triggeredLevel" val="1" /> 
+		<set name="chanceType" val="ON_ATTACKED_HIT" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<sub order="0x40" stat="rootVuln" val="20" />
+			<sub order="0x40" stat="sleepVuln" val="20" />
+			<sub order="0x40" stat="paralyzeVuln" val="20" />
+			<sub order="0x40" stat="derangementVuln" val="20" />
+			<sub order="0x40" stat="poisonVuln" val="20" />
+			<sub order="0x40" stat="bleedVuln" val="20" />
+		</for>
+		<enchant1for>
+			<add order="0x10" stat="STR" val="2" />
+			<sub order="0x40" stat="rootVuln" val="#ench1pVuln" />
+			<sub order="0x40" stat="sleepVuln" val="#ench1pVuln" />
+			<sub order="0x40" stat="paralyzeVuln" val="#ench1pVuln" />
+			<sub order="0x40" stat="derangementVuln" val="#ench1pVuln" />
+			<sub order="0x40" stat="poisonVuln" val="#ench1pVuln" />
+			<sub order="0x40" stat="bleedVuln" val="#ench1pVuln" />
+		</enchant1for>
+	</skill>
+	<skill id="10006" levels="1" name="最終忍耐">
+		<table name="#desc-LV1">增加STR2。遭受傷害時，以一定的機率增加技能攻擊力和盾牌防禦力。</table>
+		<table name="#triggeredLevel"> 1 2 3 </table>
+		<set name="activationChance" val="25" />
+		<set name="triggeredId" val="10007" /> 
+		<set name="triggeredLevel" val="#triggeredLevel" /> 
+		<set name="magicLvl" val="85" />
+		<set name="chanceType" val="ON_ATTACKED_HIT" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="P" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+		</for>
+	</skill>
+	<skill id="10007" levels="3" name="最終忍耐">
+		<table name="#desc-LV1">在9秒內提升盾牌防禦力/技能威力25%的狀態。</table>
+		<table name="#desc-LV2">在9秒內提升盾牌防禦力/技能威力30%的狀態。</table>
+		<table name="#desc-LV3">在9秒內提升盾牌防禦力/技能威力35%的狀態。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 1.25	1.3	1.35 </table>
+		<set name="magicLvl" val="85" />
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="reuseDelay" val="8000"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<for>
+			<mul order="0x30" stat="rShld" val="#power" />
+			<mul order="0x30" stat="mAtk" val="#power" />
+		</for>
+	</skill>
+	<skill id="10008" levels="8" name="盾牌突擊" enchantGroup1="10" enchantGroup2="10" enchantGroup3="10" enchantGroup4="10" enchantGroup5="10" enchantGroup6="10" enchantGroup7="10" enchantGroup8="10">
+		<table name="#desc-LV1">利用盾牌，並在物理攻擊力增加威力10821來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV2">利用盾牌，並在物理攻擊力增加威力11196來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV3">利用盾牌，並在物理攻擊力增加威力11948來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV4">利用盾牌，並在物理攻擊力增加威力12700來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV5">利用盾牌，並在物理攻擊力增加威力13452來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV6">利用盾牌，並在物理攻擊力增加威力14204來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV7">利用盾牌，並在物理攻擊力增加威力14956來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV8">利用盾牌，並在物理攻擊力增加威力15708來攻擊所選的目標。額外降低物理防禦力10%、物理迴避能力2，而增加物理致命傷害所造成的傷害10%。裝備盾牌時可以使用。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 53 54 56 58 59 61 63 65 </table>
+		<table name="#Power">10821 11196 11948 12700 13452 14204 14956 15708</table>
+		<set name="power" val="#Power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="1370" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="isDebuff" val="true" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
+		<for>
+			<effect name="Debuff" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="critical_dmg_down" effectPower="80" />
+				<basemul order="0x30" stat="rCrit" val="1.1" />
+				<mul order="0x30" stat="pDef" val="0.9" />
+				<sub order="0x40" stat="rEvas" val="2" />
+		</for>
+	</skill>
+	<skill id="10009" levels="8" name="最終審判">
+		<table name="#desc-LV1">在物理攻擊力增加威力13673來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力14145來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力15089來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力16034來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力16978來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV6">在物理攻擊力增加威力17923來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV7">在物理攻擊力增加威力18867來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV8">在物理攻擊力增加威力19812來攻擊所選的目標，並降低移動速度30%。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 64 66 68 70 72 75 77 79 </table>
+		<table name="#Power">13637 14145 15089 16034 16978 17923 18867 19812 20756</table>
+		<set name="baseCritRate" val="10" />
+		<set name="weaponsAllowed" val="Sword, Blunt, Big Blunt, Big Sword" />
+		<set name="lvlDepend" val="2" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="#Power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="1670" />
+		<set name="coolTime" val="700" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="PDAM" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="3" abnormalType="speed_down">
+				<mul order="0x30" stat="runSpd" val="0.9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10010" levels="8" name="正義斷罪">
+		<table name="#desc-LV1">在物理攻擊力增加威力17476來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力18677來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力19878來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力21079來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力22280來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV6">在物理攻擊力增加威力23481來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV7">在物理攻擊力增加威力24683來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV8">在物理攻擊力增加威力25884來攻擊所選的目標，並降低物理攻擊力/魔法攻擊力20%，封鎖魔法技能的使用。裝備刀劍/鈍器武器時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 80 83 85 88 91 94 97 100 </table>
+		<table name="#Power">17476 18677 19878 21079 22280 23481 24683 25884</table>
+		<set name="baseCritRate" val="10" />
+		<set name="weaponsAllowed" val="Sword, Blunt, Big Blunt, Big Sword" /> <!-- Sword/Big Sword/Blunt/Big Blunt -->
+		<set name="lvlDepend" val="2" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="#Power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="2070" />
+		<set name="coolTime" val="700" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="PDAM" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect name="Mute" abnormalTime="30" noicon="1" val="0" />
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="3" abnormalType="critical_prob_down" effectPower="80" effectType="DEBUFF">
+				<mul order="0x30" stat="pAtk" val="0.8" />
+				<mul order="0x30" stat="mAtk" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10011" levels="5" name="盾牌衝擊">
+		<table name="#desc-LV1">在物理攻擊力增加威力9870來攻擊所選的目標，並使其陷入休克狀態5秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力10901來攻擊所選的目標，並使其陷入休克狀態5秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力11933來攻擊所選的目標，並使其陷入休克狀態5秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力12965來攻擊所選的目標，並使其陷入休克狀態5秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力13997來攻擊所選的目標，並使其陷入休克狀態5秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<table name="#mpConsume"> 49 52 54 57 60 </table>
+		<table name="#Power">9870 10901 10933 12965 13997</table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="#Power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1270" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A2" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="isDebuff" val="true" />
+		<set name="trait" val="SHOCK" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
+		<for>
+			<effect name="Stun" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="stun" effectPower="600" effectType="STUN" />
+		</for>
+	</skill>
+	<skill id="10012" levels="7" name="盾牌震波">
+		<table name="#desc-LV1">在物理攻擊力增加威力10174來攻擊自己周邊的目標群，並使其陷入休克狀態9秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力10833來攻擊自己周邊的目標群，並使其陷入休克狀態9秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力11492來攻擊自己周邊的目標群，並使其陷入休克狀態9秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力12150來攻擊自己周邊的目標群，並使其陷入休克狀態9秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力12809來攻擊自己周邊的目標群，並使其陷入休克狀態9秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV6">在物理攻擊力增加威力13468來攻擊自己周邊的目標群，並使其陷入休克狀態9秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV7">在物理攻擊力增加威力14126來攻擊自己周邊的目標群，並使其陷入休克狀態9秒鐘。裝備盾牌時可以使用。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 96 99 </table>
+		<table name="#mpConsume"> 59 61 63 65 67 69 71 </table>
+		<table name="#Power">10174 10833 11492 12150 12809 13468 14126</table>
+		<set name="mpConsume" val="#magicLvl" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="#Power" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="reuseDelay" val="60000" />
+		<set name="hitTime" val="1470" />
+		<set name="coolTime" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="skillRadius" val="150" />
+		<set name="isDebuff" val="true" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
+		<for>
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="60" effectType="STUN" />
+		</for>
+	</skill>
+	<skill id="10013" levels="8" name="暴烈之刃">
+		<table name="#desc-LV1">在物理攻擊力增加威力10314來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力11026來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力11738來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力12450來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力13162來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV6">在物理攻擊力增加威力13874來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV7">在物理攻擊力增加威力14586來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#desc-LV8">在物理攻擊力增加威力15298來進行攻擊。裝備刀劍/鈍器/雙刀時可以使用。可OverHit。有機率發生致命攻擊。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 121 125 129 133 138 142 146 151 </table>
+		<table name="#Power">10314 11026 11738 12450 13162 13874 14586 15298</table>
+		<set name="baseCritRate" val="10" />
+		<set name="weaponsAllowed" val="Sword, Blunt, Big Blunt, Big Sword, Dual Sword" />
+		<set name="lvlDepend" val="2" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="#Power" />
+		<set name="element" val="3" /> <!-- Wind -->
+		<set name="elementPower" val="40" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1570" />
+		<set name="coolTime" val="700" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="PDAM" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="skillRadius" val="400" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+	</skill>
+	<skill id="10014" levels="8" name="星河鎖鍊">
+		<table name="#desc-LV1">在物理攻擊力增加威力14300來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#desc-LV2">在物理攻擊力增加威力14789來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#desc-LV3">在物理攻擊力增加威力15769來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#desc-LV4">在物理攻擊力增加威力16748來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#desc-LV5">在物理攻擊力增加威力17727來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#desc-LV6">在物理攻擊力增加威力18707來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#desc-LV7">在物理攻擊力增加威力19686來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#desc-LV8">在物理攻擊力增加威力20666來攻擊自己周圍的目標群，並降低所受的HP恢復魔法的威力90%。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 159 162 167 173 179 184 190 196 </table>
+		<table name="#Power"> 14300 14789 15769 16748 17727 18707 19686 20666 </table>
+		<set name="baseCritRate" val="10" />
+		<set name="lvlDepend" val="2" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="#Power" />
+		<set name="element" val="3" /> <!-- Wind -->
+		<set name="elementPower" val="40" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="2070" />
+		<set name="coolTime" val="700" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="PDAM" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="skillRadius" val="150" />
+		<set name="effectRange" val="400" />
+		<for>
+			<sub order="0x40" stat="bonusHp" val="90" />
+		</for>
+	</skill>
+	<skill id="10015" levels="6" name="鎖鍊直擊">
+		<table name="#desc-LV1">將所選的目標捕獲至自己的位置，並使目標攻擊自己。裝備盾牌時可以使用。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume"> 58 61 63 66 69 72 </table>
+		<table name="#Power"> 10000 20000 30000 40000 50000 60000 </table>
+		<set name="power" val="#Power" />
+		<set name="magicLevel" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="AGGDAMAGE" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
+		<for>
+			<effect name="TargetMe" abnormalTime="3" val="0" />
+			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
+		</for>
+	</skill>
+	<skill id="10016" levels="6" name="灼蛇鎖鍊">
+		<table name="#desc-LV1">將目標和目標周邊的敵群捕獲至自己的位置，並使目標攻擊自己。裝備盾牌時可以使用。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume"> 123 127 132 136 140 144 </table>
+		<table name="#Power"> 10000 20000 30000 40000 50000 60000 </table>
+		<table name="#skillRadius">150 200 250 300 350 400</table>
+		<set name="power" val="50000" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLevel" val="#magicLvl" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+		<set name="skillRadius" val="#skillRadius" />
+		<set name="reuseDelay" val="45000" />
+		<set name="hitTime" val="1500" />
+		<set name="skillType" val="AGGDAMAGE" />
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
+		<for>
+			<effect name="TargetMe" abnormalTime="3" val="0" />
+			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
+		</for>
+	</skill>
+	<skill id="10017" levels="4" name="最終極限防禦">
+		<table name="#desc-LV1">在30秒內增加物理防禦力4000、魔法防禦力4000；遭受傷害300以上的攻擊時，只會受到傷害300，並將所受的傷害40%反射給攻擊者。額外增加對輔助魔法消除攻擊的抗性80%。</table>
+		<table name="#desc-LV2">在30秒內增加物理防禦力6000、魔法防禦力6000；遭受傷害200以上的攻擊時，只會受到傷害200，並將所受的傷害60%反射給攻擊者。額外增加對輔助魔法消除攻擊的抗性80%。</table>
+		<table name="#desc-LV3">在30秒內增加物理防禦力8000、魔法防禦力8000；遭受傷害150以上的攻擊時，只會受到傷害150，並將所受的傷害80%反射給攻擊者。額外增加對輔助魔法消除攻擊的抗性80%。</table>
+		<table name="#desc-LV4">在30秒內增加物理防禦力10000、魔法防禦力10000；遭受傷害100以上的攻擊時，只會受到傷害100，並將所受的傷害100%反射給攻擊者。額外增加對輔助魔法消除攻擊的抗性80%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#mpConsume"> 58 63 68 72 </table>
+		<table name="#Def"> 4000 6000 8000 10000</table>
+		<table name="#ref"> 1.4 1.6 1.8 2</table>
+		<set name="hitTime" val="1500" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="900000" />
+		<set name="skillType" val="BUFF" />
+		<set name="skillRadius" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect name="Buff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="counter_skill" >
+				<add order="0x40" stat="vengeancePdam" val="20" />
+				<add order="0x40" stat="pDef" val="#Def" />
+				<add order="0x40" stat="mDef" val="#Def" />
+				<mul order="0x30" stat="reflectDam" val="#ref" />
+				<mul order="0x30" stat="cancelVuln" val="1.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10018" levels="2" name="崇高獻祭">
+		<table name="#desc-LV1">在10秒內代替所選擇的隊員承受其所受攻擊傷害的60%。</table>
+		<table name="#desc-LV2">在10秒內代替所選擇的隊員承受其所受攻擊傷害的90%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#mpConsume"> 60 65 </table>
+		<table name="#Vul">60 90</table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLevel" val="#magicLvl" />
+		<set name="hitTime" val="1500" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="60000" />
+		<set name="skillType" val="BUFF" />
+		<set name="skillRadius" val="1000" />
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<for>
+			<effect name="TransferDamage" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="transfer_damage">
+				<add order="0x40" stat="transDamToPlayer" val="#Vul" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10019" levels="2" name="信念加護">
+		<table name="#desc-LV1">在15秒內增加所有隊員的物理防禦力5000、魔法防禦力5000、對詛咒魔法攻擊的抗性50%，並代受隊員所受的傷害90%。</table>
+		<table name="#desc-LV2">在15秒內增加所有隊員的物理防禦力10000、魔法防禦力10000、對詛咒魔法攻擊的抗性70%，並代受隊員所受的傷害90%。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#mpConsume"> 127 140 </table>
+		<table name="#debuffVuln"> 0.5 0.7 </table>
+		<table name="#Def">5000 10000</table>
+		<set name="hitTime" val="1500" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLevel" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="900000" />
+		<set name="skillType" val="BUFF" />
+		<set name="skillRadius" val="1000" />
+		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect name="TransferDamage" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="transfer_damage" >
+				<add order="0x30" stat="debuffVuln" val="#debuffVuln" />
+				<add order="0x40" stat="transDamToPlayer" val="90" />
+				<add order="0x40" stat="pDef" val="#Def" />
+				<add order="0x40" stat="mDef" val="#Def" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10020" levels="4" name="偵測之盾">
+		<table name="#desc-LV1">增加物理防禦力350、盾牌防禦力700、盾牌防禦率35%。持續消耗MP。</table>
+		<table name="#desc-LV2">增加物理防禦力400、盾牌防禦力800、盾牌防禦率40%。持續消耗MP。</table>
+		<table name="#desc-LV3">增加物理防禦力450、盾牌防禦力900、盾牌防禦率45%。持續消耗MP。</table>
+		<table name="#desc-LV4">增加物理防禦力500、盾牌防禦力1000、盾牌防禦率50%。持續消耗MP。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#pDef">350 400 450 500</table>
+		<table name="#sDef">700 800 900 1000</table>
+		<table name="#rShld">1.35 1.4 1.45 1.5</table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="50" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
+		<set name="target" val="TARGET_SELF" />
+		<for>
+			<effect count="0x7fffffff" name="ManaDamOverTime" abnormalTime="2" val="50" >
+				<add order="0x40" stat="sDef" val="#sDef" />
+				<add order="0x40" stat="pDef" val="#pDef" />
+				<mul order="0x30" stat="rShld" val="#rShld" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10021" levels="4" name="刺棘之盾">
+		<table name="#desc-LV1">在10秒內將所受傷害的10%反射給攻擊者，並以50%機率額外反射傷害魔法給攻擊者。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV2">在10秒內將所受傷害的15%反射給攻擊者，並以50%機率額外反射傷害魔法給攻擊者。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV3">在10秒內將所受傷害的20%反射給攻擊者，並以50%機率額外反射傷害魔法給攻擊者。裝備盾牌時可以使用。</table>
+		<table name="#desc-LV4">在10秒內將所受傷害的25%反射給攻擊者，並以50%機率額外反射傷害魔法給攻擊者。裝備盾牌時可以使用。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#mpConsume"> 20 21 23 24 </table>
+		<table name="#ref">10 15 20 25</table>
+		<set name="magicLevel" val="#magicLvl" />
+		<set name="mpInitialConsume" val="5" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="6000" />
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<for>
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="3" abnormalType="dmg_shield">
+				<add order="0x40" stat="reflectDam" val="#ref" />
+				<add order="0x40" stat="reflectSkillMagic" val="10" />
+				<using king="shield" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10022" levels="1" name="死亡標記">
+		<table name="#desc-LV1">在10秒內將維持HP1而不再繼續降低。</table>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="magicLvl" val="85"/>
+		<set name="mpConsume" val="38"/>
+		<for>
+			<effect name="Invincible" abnormalTime="10" val="0" special="invincible" abnormalLvl="1" abnormalType="invincibility" />
+		</for>
+	</skill>
+	<skill id="10023" levels="2" name="萬獸之王">
+		<table name="#desc-LV1">召喚光之獅子，並在物理攻擊力增加威力60000來攻擊自己周圍和前方的目標。裝備盾牌時可以使用。可OverHit。</table>
+		<table name="#desc-LV2">召喚光之獅子，並在物理攻擊力增加威力70000來攻擊自己周圍和前方的目標。裝備盾牌時可以使用。可OverHit。</table>
+		<table name="#magicLvl"> 85 90 </table>
+		<table name="#mpConsume"> 136 142 </table>
+		<table name="#power">60000 70000</table>
+		<set name="castRange" val="1290" />
+		<set name="coolTime" val="200" />
+		<set name="effectRange" val="400" />
+		<set name="flyRadius" val="50" />
+		<set name="flyType" val="DUMMY" />
+		<set name="hitTime" val="1500" />
+		<set name="lvlDepend" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="600000" />
+		<set name="saveVs" val="CON" />
+		<set name="skillType" val="PDAM" />
+		<set name="SSBoost" val="2" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+		<set name="weaponsAllowed" val="Shield" />
+	</skill>
+	<skill id="10024" levels="1" name="最終鐵壁">
+		<table name="#desc-LV1">將隊員捕獲至自己的周圍，並在15秒內代受隊員所受的傷害90%。另外，當自己和隊員所受的傷害為10以上時，只會受到傷害10。裝備盾牌時可以使用。</table>
+		<set name="aggroPoints" val="204" /> <!-- Guess -->
+		<set name="hitTime" val="1000" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="99" />
+		<set name="mpConsume" val="96" />
+		<set name="mpInitialConsume" val="22" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="600000" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_PARTY" />
+		<cond msgId="113" addName="1">
+			<using kind="Shield" />
+		</cond>
+		<for>
+			<effect name="TransferDamage" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="transfer_damage">
+				<add order="0x40" stat="transDamToPlayer" val="90" /> <!-- FIXME: Support Done ? -->
+			</effect>
+			<effect name="Pull" noicon="1" val="0" abnormalLvl="1" abnormalType="Pull" /><!-- l2jtw add -->
+		</for>
+	</skill>
+	<skill id="10025" levels="4" name="騎士誓言">
+		<table name="#desc-LV1">在1分鐘內增加物理防禦力和魔法防禦力50%、移動速度10；裝備刀劍/鈍器時，增加命中能力4、攻擊速度10%；裝備刀劍時，額外增加致命攻擊率30；裝備鈍器時，額外增加致命傷害30%。</table>
+		<table name="#desc-LV2">在1分鐘內增加物理防禦力和魔法防禦力70%、移動速度20；裝備刀劍/鈍器時，增加命中能力6、攻擊速度15%；裝備刀劍時，額外增加致命攻擊率40；裝備鈍器時，額外增加致命傷害40%。</table>
+		<table name="#desc-LV3">在1分鐘內增加物理防禦力和魔法防禦力100%、移動速度25；裝備刀劍/鈍器時，增加命中能力8、攻擊速度20%；裝備刀劍時，額外增加致命攻擊率50；裝備鈍器時，額外增加致命傷害50%。</table>
+		<table name="#desc-LV4">在1分鐘內增加物理防禦力和魔法防禦力120%、移動速度30；裝備刀劍/鈍器時，增加命中能力10、攻擊速度25%；裝備刀劍時，額外增加致命攻擊率60；裝備鈍器時，額外增加致命傷害60%。</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#mpConsume"> 20 21 23 24 </table>
+		<table name="#Def">1.5 1.7 2 2.2</table>
+		<table name="#Spd">10 20 25 30</table>
+		<table name="#AtkSpd">10 15 20 25</table>
+		<table name="#cAtk">1.3 1.4 1.5 1.6</table>
+		<table name="#rCrit">30 40 50 60</table>
+		<table name="#accCombat">4 6 8 10</table>
+		<set name="mpInitialConsume" val="5" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLevel" val="#magicLvl" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="600000" />
+		<set name="hitTime" val="500" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="aggroPoints" val="523" />
+		<for>
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="3" abnormalType="md_up">
+				<mul order="0x30" stat="mDef" val="#Def" />
+				<mul order="0x30" stat="pDef" val="#Def" />
+				<add order="0x40" stat="runSpd" val="#Spd" />
+				<add order="0x40" stat="accCombat" val="#accCombat">
+					<using kind="Blunt, Big Blunt, Dual Blunt,Sword, Big Sword, Dual Sword" />
+				</add>
+				<add order="0x30" stat="rCrit" val="#rCrit" >
+					<using kind="Sword, Big Sword, Dual Sword" />
+				</add>
+				<add order="0x40" stat="cAtk" val="#cAtk">
+				<using kind="Sword, Big Sword, Dual Sword" />
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10026" levels="6" name="極致挑撥">
+		<table name="#desc-LV1">挑撥所選的目標後，強制變更目標，並使其攻向自己。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#power"> 50000 51000 52000 53000 54000 55000 56000 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="700" />
+		<set name="coolTime" val="1000" />
+		<set name="skillType" val="AGGDAMAGE" />
+		<set name="operateType" val="A1" />
+		<set name="isDebuff" val="true" />
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="1300" />
+		<for>
+			<effect name="TargetMe" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="target_lock" />
+		</for>
+	</skill>
+	<skill id="10027" levels="5" name="極致挑撥靈氣">
+		<table name="#desc-LV1">挑撥自己周圍的目標後，強制變更目標，並使其攻向自己。</table>
+		<table name="#magicLvl"> 85 88 91 95 99 </table>
+		<table name="#power"> 50000 51000 52000 53000 54000 55000 56000 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="staticReuse" val="true" />
+		<set name="skillRadius" val="200" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1500" />
+		<set name="skillType" val="AGGDAMAGE" />
+		<set name="operateType" val="A1" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="TargetMe" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="target_lock" />
+		</for>
+	</skill>
+	<skill id="10028" levels="1" name="震怒靈氣">
+		<table name="#desc-LV1">裝備刀劍/鈍器時，增加物理攻擊力和攻擊速度10%、移動速度10，並降低自己周圍敵群的物理攻擊力和攻擊速度20%。席格爾騎士的靈氣效果無法與其他靈氣效果一併使用。</table>
+		<set name="magicLvl" val="85" />
+		<set name="reuseDelay" val="1000" />
+		<set name="mpConsume" val="100" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
+		<set name="target" val="TARGET_PARTY" />	
+		<for>
+			<effect name="ChanceSkillTrigger" count="0x7fffffff" abnormalTime="-1" val="0" activationChance="100" chanceType="ON_ATTACKED" triggeredId="10029" triggeredLevel="1" abnormalLvl="100" abnormalType="knight_aura" >
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pAtkSpd" val="1.1" />
+				<add order="0x40" stat="runSpd" val="10" />
+				<using kind="Sword, Big Sword , Blunt, Big Blunt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10029" levels="1" name="震怒靈氣">
+		<table name="#desc-LV1">降低物理攻擊力和攻擊速度20%。</table>
+		<set name="isTriggeredSkill" val="true" />
+		<set name="target" val="TARGET_AREA"/>
+		<set name="operateType" val="A1"/>
+		<set name="magicLvl" val="85"/>	
+		<set name="reuseDelay" val="3000" /> 
+		<for>
+			<effect name="Debuff" abnormalTime="3" val="0" abnormalLvl="3" abnormalType="critical_prob_down" effectPower="80" effectType="DEBUFF">
+				<mul order="0x30" stat="pAtk" val="0.8" />
+				<mul order="0x30" stat="pAtkSpd" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10030" levels="1" name="挑戰靈氣">
+		<table name="#desc-LV1">裝備刀劍/鈍器時，增加對自己的仇恨值。額外增加隊員的物理攻擊力和攻擊速度5%，並降低使用技能時的MP消耗量20%。席格爾騎士的靈氣效果無法與其他靈氣效果一併使用。</table>
+		<set name="magicLvl" val="85" />
+		<set name="reuseDelay" val="1000" />
+		<set name="mpConsume" val="100" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
+		<set name="target" val="TARGET_PARTY" />	
+		<for>
+			<effect count="0x7fffffff" name="MpConsumePerLevel" abnormalTime="-1" val="0" abnormalType="knight_aura">
+				<mul order="0x30" stat="pAtkSpd" val="1.05" />
+				<mul order="0x30" stat="pAtk" val="1.05" />
+				<mul order="0x30" stat="MpConsume" val="1.2" />
+				<using kind="Sword, Big Sword , Blunt, Big Blunt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10032" levels="1" name="鐵壁靈氣">
+		<table name="#desc-LV1">增加物理攻擊力和攻擊速度5%；裝備重裝甲時，增加物理防禦力215、盾牌防禦力50%、盾牌防禦率100%、對弓類/弩類的抗性20%，並降低對致命攻擊的傷害15%。席格爾騎士的靈氣效果無法與其他靈氣效果一併使用。</table>
+		<set name="magicLvl" val="85" />
+		<set name="mpInitialConsume" val="10" />
+		<set name="reuseDelay" val="1000" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
+		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect count="0x7fffffff" name="MpConsumePerLevel" abnormalTime="-1" val="0" abnormalType="knight_aura">
+				<mul order="0x30" stat="pAtkSpd" val="1.05" />
+				<mul order="0x30" stat="pAtk" val="1.05" />
+				<mul order="0x30" stat="rShld" val="1.5" />
+				<mul order="0x30" stat="sDef" val="2" />
+				<mul order="0x30" stat="bowWpnVuln" val="0.8" />
+				<mul order="0x30" stat="crossbowWpnVuln" val="0.8" />
+				<mul order="0x40" stat="critDamEvas" val="1.15" />
+				<add order="0x40" stat="pDef" val="215" >
+					<using kind="Heavy" />
+				</add>
+				</effect>
+		</for>
+	</skill>
+
+	<skill id="10034" levels="1" name="抵抗靈氣">
+		<table name="#desc-LV1">增加物理攻擊力和攻擊速度5%，並增加魔法防禦力10%、對4大元素屬性攻擊的抗性20。席格爾騎士的靈氣效果無法與其他靈氣效果一併使用。</table>
+		<set name="magicLvl" val="85" />
+		<set name="mpInitialConsume" val="10" />
+		<set name="reuseDelay" val="1000" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
+		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect count="0x7fffffff" name="MpConsumePerLevel" abnormalTime="-1" val="0" abnormalType="knight_aura">
+				<mul order="0x30" stat="pAtk" val="1.05" />
+				<mul order="0x30" stat="pAtkSpd" val="1.05" />
+				<mul order="0x30" stat="mDef" val="1.10" />
+				<add order="0x40" stat="fireRes" val="20" />
+				<add order="0x40" stat="windRes" val="20" />
+				<add order="0x40" stat="waterRes" val="20" />
+				<add order="0x40" stat="earthRes" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10036" levels="1" name="活力靈氣">
+		<table name="#desc-LV1">增加物理攻擊力和攻擊速度5%、增加肉體催眠和對詛咒魔法的抗性20，並增加透過治癒系列技能的HP恢復量10%、HP額外恢復量10%。席格爾騎士的靈氣效果無法與其他靈氣效果一併使用。</table>
+		<set name="magicLvl" val="85" />
+		<set name="mpInitialConsume" val="10" />
+		<set name="reuseDelay" val="1000" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
+		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect count="0x7fffffff" name="MpConsumePerLevel" abnormalTime="-1" val="0" abnormalType="knight_aura">
+				<add order="0x40" stat="sleepVuln" val="20" />
+				<add order="0x40" stat="debuffVuln" val="20" />
+				<mul order="0x30" stat="gainHp" val="1.1" />
+				<mul order="0x30" stat="regHp" val="1.1" />
+				<mul order="0x30" stat="pAtk" val="1.05" />
+				<mul order="0x30" stat="pAtkSpd" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10038" levels="1" name="精神靈氣">
+		<table name="#desc-LV1">增加物理攻擊力和攻擊速度5%、增加精神催眠和對詛咒魔法的抗性20，並增加透過回復術系列技能的MP恢復量、MP額外恢復量10%。席格爾騎士的靈氣效果無法與其他靈氣效果一併使用。</table>
+		<set name="magicLvl" val="85" />
+		<set name="mpInitialConsume" val="10" />
+		<set name="reuseDelay" val="1000" />
+		<set name="operateType" val="T" />
+		<set name="skillType" val="CONT" />
+		<set name="target" val="TARGET_PARTY" />
+		<for>
+			<effect count="0x7fffffff" name="MpConsumePerLevel" abnormalTime="-1" val="0" abnormalType="knight_aura">
+				<add order="0x40" stat="sleepVuln" val="20" />
+				<add order="0x40" stat="debuffVuln" val="20" />
+				<mul order="0x30" stat="gainMp" val="1.1" />
+				<mul order="0x30" stat="regMp" val="1.1" />
+				<mul order="0x30" stat="pAtk" val="1.05" />
+				<mul order="0x30" stat="pAtkSpd" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10040" levels="6" name="召喚金獅" enchantGroup1="10">
+		<table name="#npcIds"> 14936 14937 14938 14939 14974 14975 </table>
+		<table name="#enchantNpcId"> 14976 14977 14978 14979 14980 14981 14982 14983 14984 14985 </table>		
+		<table name="#desc-LV1">召喚黃金獅子後與牠一起戰鬥。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume"> 154 156 164 173 181 189 </table>
+		<set name="mpInitialConsume" val="28" />
+		<set name="mpConsume" val="116" />
+		<set name="summonTotalLifeTime" val="3600000" />
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="30000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="SUMMON" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="operateType" val="A1" />
+		<!-- Summon-specific -->
+		<set name="npcId" val="#npcIds" />
+		<enchant1 name="enchantNpcId" val="#enchantNpcId" />
+	</skill>
+	<skill id="10041" levels="4" name="召喚絕望晶體">
+		<table name="#desc-LV1">none</table>
+		<table name="#magicLvl"> 85 90 95 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2200"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="1"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10042" levels="3" name="召喚生命晶體">
+		<table name="#desc-LV1">none</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A1"/>
+		<set name="hitTime" val="2200"/>
+		<set name="coolTime" val="300"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="1"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10043" levels="8" name="召喚幻影晶體">
+		<table name="#desc-LV1">召喚騎士晶體。召喚出來的晶體將協助解除召喚者的詛咒魔法。</table>
+		<table name="#desc-LV2">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態3秒鐘。</table>
+		<table name="#desc-LV3">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘。</table>
+		<table name="#desc-LV4">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力500。</table>
+		<table name="#desc-LV5">召喚騎士晶體。召喚出來的晶體將會解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table>
+		<table name="#desc-LV6">召喚騎士晶體。召喚出來的晶體將會恢復HP最大值3%、解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table>
+		<table name="#desc-LV7">召喚騎士晶體。召喚出來的晶體將會恢復HP最大值6%、解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table>
+		<table name="#desc-LV8">召喚騎士晶體。召喚出來的晶體將會恢復HP最大值10%、解除召喚者的詛咒魔法，並對詛咒魔法呈現免疫狀態6秒鐘，且額外增加召喚者的物理防禦力/魔法防禦力500。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#mpConsume"> 96 98 101 105 108 111 115 118 </table>
+		<set name="hitTime" val="2500" />
+		<set name="isMagic" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="mpInitialConsume" val="14" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="5000" />
+		<set name="skillType" val="SUMMON" />
+		<set name="target" val="TARGET_SELF" />
+		<!-- Summon-specific -->
+		<set name="activationchance" val="30" />
+		<set name="activationtime" val="13" />
+		<set name="maxcount" val="30" />
+		<set name="power" val="700" />
+		<set name="isCubic" val="true" />
+		<set name="npcId" val="14" /> <!-- Cubic Id -->
+		<set name="summonTotalLifeTime" val="900000" />
+	</skill>
+	<skill id="10044" levels="1" name="極致精通元素" enchantGroup1="10">
+		<table name="#desc-LV1">增加STR2，並增加對所有屬性的抗性20。</table>
+		<table name="#Res">21 22 23 24 25 26 27 28 29 30</table>
+		<set name="mpInitialConsume" val="14" />
+		<set name="mpConsume" val="56" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="1" />
+		<set name="operateType" val="P" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="662" />
+		<for>
+			<add order="0x10" stat="STR" val="2" />
+			<add order="0x40" stat="waterRes" val="20" />
+			<add order="0x40" stat="fireRes" val="20" />
+			<add order="0x40" stat="windRes" val="20" />
+			<add order="0x40" stat="earthRes" val="20" />
+			<add order="0x40" stat="holyRes" val="20" />
+			<add order="0x40" stat="darkRes" val="20" />
+		</for>
+		<enchant1for>
+			<add order="0x10" stat="STR" val="2" />
+			<add order="0x40" stat="waterRes" val="#Res" />
+			<add order="0x40" stat="fireRes" val="#Res" />
+			<add order="0x40" stat="windRes" val="#Res" />
+			<add order="0x40" stat="earthRes" val="#Res" />
+			<add order="0x40" stat="holyRes" val="#Res" />
+			<add order="0x40" stat="darkRes" val="#Res" />
+		</enchant1for>
+	</skill>
+	<skill id="10045" levels="3" name="盾牌突擊 II">
+		<table name="#desc-LV1">用盾牌進行攻擊。在物理攻擊力增加威力11196來攻擊單一目標，並降低物理防禦力10%、迴避能力2，而增加致命被擊傷害10%。</table>
+		<table name="#desc-LV2">降低物理防禦力20%、迴避能力3，而增加致命被擊傷害20%。</table>
+		<table name="#desc-LV3">降低物理防禦力30%、迴避能力，而增加致命被擊傷害30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#mpConsume"> 54 0 0 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="570"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10046" levels="3" name="盾牌突擊 III">
+		<table name="#desc-LV1">用盾牌進行攻擊。在物理攻擊力增加威力11948來攻擊單一目標，並降低物理防禦力10%、迴避能力2，而增加致命被擊傷害10%。</table>
+		<table name="#desc-LV2">降低物理防禦力20%、迴避能力3，而增加致命被擊傷害20%。</table>
+		<table name="#desc-LV3">降低物理防禦力30%、迴避能力，而增加致命被擊傷害30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#mpConsume"> 56 0 0 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="570"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10047" levels="3" name="盾牌突擊 IV">
+		<table name="#desc-LV1">用盾牌進行攻擊。在物理攻擊力增加威力12700來攻擊單一目標，並降低物理防禦力10%、迴避能力2，而增加致命被擊傷害10%。</table>
+		<table name="#desc-LV2">降低物理防禦力20%、迴避能力3，而增加致命被擊傷害20%。</table>
+		<table name="#desc-LV3">降低物理防禦力30%、迴避能力，而增加致命被擊傷害30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#mpConsume"> 58 0 0 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="570"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10048" levels="3" name="盾牌突擊 V">
+		<table name="#desc-LV1">用盾牌進行攻擊。在物理攻擊力增加威力13452來攻擊單一目標，並降低物理防禦力10%、迴避能力2，而增加致命被擊傷害10%。</table>
+		<table name="#desc-LV2">降低物理防禦力20%、迴避能力3，而增加致命被擊傷害20%。</table>
+		<table name="#desc-LV3">降低物理防禦力30%、迴避能力，而增加致命被擊傷害30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#mpConsume"> 59 0 0 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="570"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10049" levels="3" name="盾牌突擊 VI">
+		<table name="#desc-LV1">用盾牌進行攻擊。在物理攻擊力增加威力14204來攻擊單一目標，並降低物理防禦力10%、迴避能力2，而增加致命被擊傷害10%。</table>
+		<table name="#desc-LV2">降低物理防禦力20%、迴避能力3，而增加致命被擊傷害20%。</table>
+		<table name="#desc-LV3">降低物理防禦力30%、迴避能力，而增加致命被擊傷害30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#mpConsume"> 61 0 0 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="570"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10050" levels="3" name="盾牌突擊 VII">
+		<table name="#desc-LV1">用盾牌進行攻擊。在物理攻擊力增加威力14956來攻擊單一目標，並降低物理防禦力10%、迴避能力2，而增加致命被擊傷害10%。</table>
+		<table name="#desc-LV2">降低物理防禦力20%、迴避能力3，而增加致命被擊傷害20%。</table>
+		<table name="#desc-LV3">降低物理防禦力30%、迴避能力，而增加致命被擊傷害30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#mpConsume"> 63 0 0 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="570"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10051" levels="6" name="金獅咆哮">
+		<table name="#desc-LV1">攻擊敵群，並封鎖物理技能。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume"> 159 173 187 193 193 193 </table>
+		<table name="#power"> 6335 6468 6598 6723 6844 6960 </table>
+		<set name="blowChance" val="20" />
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="2070" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="10000" />
+		<set name="condition" val="16" /> <!-- Crit -->
+		<set name="skillType" val="BLOW" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+		<for>
+			<effect name="PhysicalMute" abnormalTime="10" val="0" effectPower="100" effectType="MUTE" />
+		</for>
+	</skill>
+	<skill id="10052" levels="6" name="金獅裂爪">
+		<table name="#desc-LV1">揮舞獅爪來攻擊前方的敵群。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume"> 144 156 169 174 174 174 </table>
+		<table name="#power"> 12583 13640 14695 15749 16802 17852 18900 </table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1870" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="15000" />
+		<set name="skillType" val="PDAM" />
+		<set name="SSBoost" val="2.0" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+	</skill>
+	<skill id="10053" levels="6" name="金獅衝刺">
+		<table name="#desc-LV1">向敵人突擊，並施予傷害與休克狀態。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume"> 15 16 17 18 18 18 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 </table>
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="800" />
+		<set name="flyType" val="CHARGE" />
+		<set name="hitTime" val="370" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
+		<set name="operateType" val="A1" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="30000" />
+		<set name="saveVs" val="CON" />
+		<set name="skillRadius" val="700" />
+		<set name="skillType" val="PDAM" />
+		<set name="SSBoost" val="2.0" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+		<for>
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="60" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+		</for>
+	</skill>
+	<skill id="10054" levels="6" name="金獅紅炎">
+		<table name="#desc-LV1">對敵人噴出火焰來造成傷害。</table>
+		<table name="#magicLvl"> 85 87 90 93 96 99 </table>
+		<table name="#mpConsume"> 99 108 116 120 125 127 </table>
+		<table name="#power"> 633 646 659 673 684 690 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="10000" />
+		<set name="coolTime" val="1000" />
+		<set name="hitTime" val="2570" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="operateType" val="A1" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1000" />
+	</skill>
+	<skill id="10055" levels="1" name="晶體攻擊">
+		<table name="#desc-LV1">暫時降低物理攻擊力的狀態。效果3。</table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="85"/>
+		<set name="power" val="2000"/>
+	</skill>
+	<skill id="10056" levels="8" name="晶體加護">
+		<table name="#desc-LV1">none</table>
+		<table name="#desc-LV2">在3秒內對惡性異常狀態呈現免疫狀態。</table>
+		<table name="#desc-LV3">在6秒內對惡性異常狀態呈現免疫狀態。</table>
+		<table name="#desc-LV4">在6秒內對惡性異常狀態呈現免疫狀態，並增加物理防禦力500。</table>
+		<table name="#desc-LV5">在6秒內對惡性異常狀態呈現免疫狀態，並增加物理防禦力/魔法防禦力500。</table>
+		<table name="#magicLvl"> 85 87 89 91 93 95 97 99 </table>
+		<table name="#power"> 2000 2200 2400 2600 2800 3000 3200 3400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isMagic" val="1"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10057" levels="1" name="晶體詛咒">
+		<table name="#desc-LV1">由於中毒，導致暫時降低HP的狀態。效果5。</table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="isMagic" val="1"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="85"/>
+		<set name="power" val="2000"/>
+	</skill>
+	<skill id="10058" levels="1" name="加護祝福">
+		<table name="#desc-LV1">魔法防禦力以及屬性抗性極大化的狀態。</table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="castRange" val="400"/>
+		<set name="effectRange" val="900"/>
+		<set name="magicLvl" val="85"/>
+		<set name="power" val="2000"/>
+	</skill>
+	<skill id="10059" levels="3" name="盾牌突擊 VIII">
+		<table name="#desc-LV1">用盾牌進行攻擊。在物理攻擊力增加威力15708來攻擊單一目標，並降低物理防禦力10%、迴避能力2，而增加致命被擊傷害10%。</table>
+		<table name="#desc-LV2">降低物理防禦力20%、迴避能力3，而增加致命被擊傷害20%。</table>
+		<table name="#desc-LV3">降低物理防禦力30%、迴避能力，而增加致命被擊傷害30%。</table>
+		<table name="#magicLvl"> 85 90 95 </table>
+		<table name="#mpConsume"> 65 0 0 </table>
+		<table name="#power"> 2000 2200 2400 </table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="hitTime" val="800"/>
+		<set name="coolTime" val="570"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="900"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#power"/>
+	</skill>
+	<skill id="10060" levels="1" name="挑撥攻擊">
+		<table name="#desc-LV1">激起攻擊慾望的狀態。</table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="magicLvl" val="85"/>
+		<set name="power" val="2000"/>
+	</skill>
+	<skill id="10061" levels="1" name="召喚的代價">
+		<table name="#desc-LV1">作為召喚獅子的代價，將會降低一部分的物理防禦力。</table>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="A2"/>
+		<set name="reuseDelay" val="8000"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="isDebuff" val="True"/>
+		<set name="magicLvl" val="85"/>
+		<set name="power" val="2000"/>
+	</skill>
+</list>
