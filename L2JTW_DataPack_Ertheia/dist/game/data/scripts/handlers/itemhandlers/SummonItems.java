@@ -26,6 +26,7 @@ import com.l2jserver.gameserver.model.entity.TvTEvent;
 import com.l2jserver.gameserver.model.holders.PetItemHolder;
 import com.l2jserver.gameserver.model.items.instance.L2ItemInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.taskmanager.AttackStanceTaskManager; // l2jtw add
 
 /**
  * @author FBIagent, UnAfraid
@@ -64,7 +65,10 @@ public class SummonItems extends ItemSkillsTemplate
 			return false;
 		}
 		
+		/* l2jtw add
 		if (activeChar.isAttackingNow())
+		 */
+		if (activeChar.isAttackingNow() || AttackStanceTaskManager.getInstance().hasAttackStanceTask(activeChar))
 		{
 			activeChar.sendPacket(SystemMessageId.YOU_CANNOT_SUMMON_IN_COMBAT);
 			return false;
