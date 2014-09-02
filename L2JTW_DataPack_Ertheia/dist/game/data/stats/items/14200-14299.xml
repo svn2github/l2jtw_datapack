@@ -1189,7 +1189,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="14074,1,1,100" />
 	</item>
-	<item id="14292" type="EtcItem" name="Samurai Longsword">
+	<item id="14292" type="Weapon" name="Samurai Longsword"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1213,7 +1213,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14293" type="EtcItem" name="Deadman's Staff">
+	<item id="14293" type="Weapon" name="Deadman's Staff"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_deadmans_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1234,12 +1234,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="152" />
 			<set order="0x08" stat="mAtk" val="122" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14294" type="EtcItem" name="Ghoul's Staff">
+	<item id="14294" type="Weapon" name="Ghoul's Staff"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_ghouls_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1260,12 +1260,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="152" />
 			<set order="0x08" stat="mAtk" val="122" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14295" type="EtcItem" name="Demon's Staff">
+	<item id="14295" type="Weapon" name="Demon's Staff"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1286,12 +1286,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="152" />
 			<set order="0x08" stat="mAtk" val="122" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14296" type="EtcItem" name="Crystal Dagger">
+	<item id="14296" type="Weapon" name="Crystal Dagger"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -1316,7 +1316,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14297" type="EtcItem" name="Great Pata">
+	<item id="14297" type="Weapon" name="Great Pata"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -1336,12 +1336,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="190" />
 			<set order="0x08" stat="mAtk" val="83" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14298" type="EtcItem" name="Eminence Bow">
+	<item id="14298" type="Weapon" name="Eminence Bow"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1368,7 +1368,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="14299" type="EtcItem" name="Orcish Poleaxe">
+	<item id="14299" type="Weapon" name="Orcish Poleaxe"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />

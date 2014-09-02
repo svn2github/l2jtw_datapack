@@ -80,8 +80,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="8" />
 			<set order="0x08" stat="mAtk" val="6" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -102,8 +102,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="11" />
 			<set order="0x08" stat="mAtk" val="9" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -128,8 +128,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="5" />
 			<set order="0x08" stat="mAtk" val="7" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -151,8 +151,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="6" />
 			<set order="0x08" stat="mAtk" val="8" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -174,8 +174,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="11" />
 			<set order="0x08" stat="mAtk" val="13" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -197,8 +197,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="16" />
 			<set order="0x08" stat="mAtk" val="18" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -385,7 +385,7 @@
 		<set name="weight" val="1430" />
 		<set name="price" val="30" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -402,7 +402,7 @@
 		<set name="weight" val="1420" />
 		<set name="price" val="490" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -419,7 +419,7 @@
 		<set name="weight" val="1410" />
 		<set name="price" val="2140" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -489,7 +489,7 @@
 		<set name="weight" val="8970" />
 		<set name="price" val="24480" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="62" />
@@ -505,7 +505,7 @@
 		<set name="weight" val="8920" />
 		<set name="price" val="37820" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="68" />
@@ -586,7 +586,7 @@
 		<set name="weight" val="4020" />
 		<set name="price" val="15300" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="39" />
@@ -615,7 +615,7 @@
 		<set name="weight" val="3960" />
 		<set name="price" val="23600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="43" />
@@ -851,7 +851,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
 		<set name="price" val="143356000" />
@@ -946,7 +946,7 @@
 		<set name="price" val="141100" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="95" />
@@ -966,7 +966,7 @@
 		<set name="price" val="97600" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="61" />
@@ -986,7 +986,7 @@
 		<set name="price" val="1227000" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="224" />
@@ -1615,8 +1615,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="51" />
 			<set order="0x08" stat="mAtk" val="32" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1639,8 +1639,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="31" />
 			<set order="0x08" stat="mAtk" val="21" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -1664,8 +1664,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="79" />
 			<set order="0x08" stat="mAtk" val="47" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1691,8 +1691,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="107" />
 			<set order="0x08" stat="mAtk" val="61" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1719,8 +1719,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="77" />
 			<set order="0x08" stat="mAtk" val="69" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1746,8 +1746,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="175" />
 			<set order="0x08" stat="mAtk" val="91" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1774,8 +1774,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="170" />
 			<set order="0x08" stat="mAtk" val="134" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />

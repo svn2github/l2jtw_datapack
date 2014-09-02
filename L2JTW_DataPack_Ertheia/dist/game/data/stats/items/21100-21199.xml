@@ -8,13 +8,13 @@
 	</item>
 	<item id="21101" type="EtcItem" name="Shiny Cube Fragment Weapon - D">
 		<!-- Description: Speak with a warehouse keeper to exchange this for a D Grade Blessed Weapon Enchant Scroll. -->
-		<set name="icon" val="Branchsys2.icon.shine_cubic_w_piece_i00" />
+		<set name="icon" val="icon.event_cubic_piece_i02" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="21102" type="EtcItem" name="Shiny Cube Fragment Weapon - C">
 		<!-- Description: Speak with a warehouse keeper to exchange this for a C Grade Blessed Weapon Enchant Scroll. -->
-		<set name="icon" val="Branchsys2.icon.shine_cubic_w_piece_i01" />
+		<set name="icon" val="icon.event_cubic_piece_i03" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -92,8 +92,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="5" />
 			<set order="0x08" stat="mAtk" val="5" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -115,8 +115,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="5" />
 			<set order="0x08" stat="mAtk" val="5" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -603,7 +603,7 @@
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<for>
-			<add order="0x10" stat="mDef" val="7" />
+			<add order="0x10" stat="mDef" val="1" /> <!-- l2jtw : 603 -->
 		</for>
 	</item>
 	<item id="21160" type="Armor" name="Wedding Ring - Female">
@@ -614,7 +614,7 @@
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<for>
-			<add order="0x10" stat="mDef" val="7" />
+			<add order="0x10" stat="mDef" val="1" /> <!-- l2jtw : 603 -->
 		</for>
 	</item>
 	<item id="21161" type="EtcItem" name="Wedding Pack">

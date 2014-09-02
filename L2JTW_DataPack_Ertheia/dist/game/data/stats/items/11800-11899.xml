@@ -68,8 +68,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="111" />
 			<set order="0x08" stat="mAtk" val="101" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -117,8 +117,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="111" />
 			<set order="0x08" stat="mAtk" val="101" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -166,8 +166,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="111" />
 			<set order="0x08" stat="mAtk" val="101" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -434,8 +434,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="139" />
 			<set order="0x08" stat="mAtk" val="76" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -511,8 +511,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="135" />
 			<set order="0x08" stat="mAtk" val="111" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -583,8 +583,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="169" />
 			<set order="0x08" stat="mAtk" val="76" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -637,8 +637,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="135" />
 			<set order="0x08" stat="mAtk" val="111" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -662,8 +662,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="135" />
 			<set order="0x08" stat="mAtk" val="111" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -711,8 +711,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="169" />
 			<set order="0x08" stat="mAtk" val="76" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -736,8 +736,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="135" />
 			<set order="0x08" stat="mAtk" val="111" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -859,8 +859,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="141" />
 			<set order="0x08" stat="mAtk" val="114" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -980,8 +980,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="152" />
 			<set order="0x08" stat="mAtk" val="122" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -1004,8 +1004,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="190" />
 			<set order="0x08" stat="mAtk" val="83" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -1028,8 +1028,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="190" />
 			<set order="0x08" stat="mAtk" val="83" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -1077,8 +1077,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="152" />
 			<set order="0x08" stat="mAtk" val="122" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -1404,8 +1404,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="152" />
 			<set order="0x08" stat="mAtk" val="122" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -1428,8 +1428,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="156" />
 			<set order="0x08" stat="mAtk" val="83" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -1505,8 +1505,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="125" />
 			<set order="0x08" stat="mAtk" val="111" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -2396,7 +2396,7 @@
 		<set name="change_weaponId" val="11917" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="1" />
-		<set name="mp_consume" val="3" />
+		<set name="mp_consume" val="4" /> <!-- l2jtw : 603 -->
 		<set name="reuse_delay" val="820" />
 		<for>
 			<set order="0x08" stat="pAtk" val="397" />

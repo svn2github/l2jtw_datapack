@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
-	<item id="14300" type="EtcItem" name="Yaksa Mace">
+	<item id="14300" type="Weapon" name="Yaksa Mace"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -20,12 +20,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="156" />
 			<set order="0x08" stat="mAtk" val="83" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14301" type="EtcItem" name="Shamshir*Shamshir">
+	<item id="14301" type="Weapon" name="Shamshir*Shamshir"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -50,7 +50,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14302" type="EtcItem" name="Berserker Blade">
+	<item id="14302" type="Weapon" name="Berserker Blade"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -74,7 +74,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14303" type="EtcItem" name="Crystal Dagger">
+	<item id="14303" type="Weapon" name="Crystal Dagger"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_crystal_dagger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -100,7 +100,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14304" type="EtcItem" name="Ecliptic Sword">
+	<item id="14304" type="Weapon" name="Ecliptic Sword"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_sword_of_eclipse_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -125,7 +125,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14305" type="EtcItem" name="Ecliptic Axe">
+	<item id="14305" type="Weapon" name="Ecliptic Axe"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -146,12 +146,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="125" />
 			<set order="0x08" stat="mAtk" val="111" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14306" type="EtcItem" name="Dwarven Hammer">
+	<item id="14306" type="Weapon" name="Dwarven Hammer"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -171,12 +171,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="190" />
 			<set order="0x08" stat="mAtk" val="83" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14307" type="EtcItem" name="Admiral's Estoc">
+	<item id="14307" type="Weapon" name="Admiral's Estoc"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -205,7 +205,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="14308" type="EtcItem" name="Saber Tooth">
+	<item id="14308" type="Weapon" name="Saber Tooth"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -233,7 +233,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="14309" type="EtcItem" name="Sharpshooter">
+	<item id="14309" type="Weapon" name="Sharpshooter"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_taslam_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
@@ -262,7 +262,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="14310" type="EtcItem" name="Sword of Damascus">
+	<item id="14310" type="Weapon" name="Sword of Damascus"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -286,7 +286,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14311" type="EtcItem" name="Lance">
+	<item id="14311" type="Weapon" name="Lance"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -312,7 +312,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14312" type="EtcItem" name="Deadman's Glory">
+	<item id="14312" type="Weapon" name="Deadman's Glory"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -332,12 +332,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="194" />
 			<set order="0x08" stat="mAtk" val="99" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14313" type="EtcItem" name="Art of Battle Axe">
+	<item id="14313" type="Weapon" name="Art of Battle Axe"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -357,12 +357,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="194" />
 			<set order="0x08" stat="mAtk" val="99" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14314" type="EtcItem" name="Staff of Evil Spirits">
+	<item id="14314" type="Weapon" name="Staff of Evil Spirits"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -383,12 +383,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="189" />
 			<set order="0x08" stat="mAtk" val="145" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14315" type="EtcItem" name="Demon's Dagger">
+	<item id="14315" type="Weapon" name="Demon's Dagger"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -413,7 +413,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14316" type="EtcItem" name="Bellion Cestus">
+	<item id="14316" type="Weapon" name="Bellion Cestus"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -433,12 +433,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="236" />
 			<set order="0x08" stat="mAtk" val="99" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14317" type="EtcItem" name="Bow of Peril">
+	<item id="14317" type="Weapon" name="Bow of Peril"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -465,7 +465,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="14318" type="EtcItem" name="Samurai Long Sword*Samurai Long Sword">
+	<item id="14318" type="Weapon" name="Samurai Long Sword*Samurai Long Sword"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -490,7 +490,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14319" type="EtcItem" name="Demon's Dagger">
+	<item id="14319" type="Weapon" name="Demon's Dagger"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_demons_sword_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -516,7 +516,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14320" type="EtcItem" name="Guardian Sword">
+	<item id="14320" type="Weapon" name="Guardian Sword"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -540,7 +540,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14321" type="EtcItem" name="Wizard's Tear">
+	<item id="14321" type="Weapon" name="Wizard's Tear"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -565,7 +565,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14322" type="EtcItem" name="Kaim Vanul's Bones">
+	<item id="14322" type="Weapon" name="Kaim Vanul's Bones"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -586,12 +586,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="155" />
 			<set order="0x08" stat="mAtk" val="132" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14323" type="EtcItem" name="Star Buster">
+	<item id="14323" type="Weapon" name="Star Buster"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -611,12 +611,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="236" />
 			<set order="0x08" stat="mAtk" val="99" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14324" type="EtcItem" name="Colichemarde">
+	<item id="14324" type="Weapon" name="Colichemarde"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -645,7 +645,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="14325" type="EtcItem" name="Dismantler">
+	<item id="14325" type="Weapon" name="Dismantler"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -673,7 +673,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="14326" type="EtcItem" name="Hell Hound">
+	<item id="14326" type="Weapon" name="Hell Hound"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_hell_hound_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
@@ -702,7 +702,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="14327" type="EtcItem" name="Sirra's Blade">
+	<item id="14327" type="Weapon" name="Sirra's Blade"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_sirr_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -726,7 +726,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14328" type="EtcItem" name="Sword of Ipos">
+	<item id="14328" type="Weapon" name="Sword of Ipos"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_sword_of_ipos_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -750,7 +750,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14329" type="EtcItem" name="Barakiel's Axe">
+	<item id="14329" type="Weapon" name="Barakiel's Axe"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -770,12 +770,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="251" />
 			<set order="0x08" stat="mAtk" val="121" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14330" type="EtcItem" name="Behemoth's Tuning Fork">
+	<item id="14330" type="Weapon" name="Behemoth's Tuning Fork"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -795,12 +795,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="305" />
 			<set order="0x08" stat="mAtk" val="121" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14331" type="EtcItem" name="Naga Storm">
+	<item id="14331" type="Weapon" name="Naga Storm"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_naga_storm_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -825,7 +825,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14332" type="EtcItem" name="Tiphon's Spear">
+	<item id="14332" type="Weapon" name="Tiphon's Spear"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_tiphon_spear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -851,7 +851,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14333" type="EtcItem" name="Shyeed's Bow">
+	<item id="14333" type="Weapon" name="Shyeed's Bow"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_shyid_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -878,7 +878,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="14334" type="EtcItem" name="Sobekk's Hurricane">
+	<item id="14334" type="Weapon" name="Sobekk's Hurricane"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -898,12 +898,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="305" />
 			<set order="0x08" stat="mAtk" val="121" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14335" type="EtcItem" name="Themis' Tongue">
+	<item id="14335" type="Weapon" name="Themis' Tongue"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_tongue_of_themis_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -928,7 +928,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14336" type="EtcItem" name="Cabrio's Hand">
+	<item id="14336" type="Weapon" name="Cabrio's Hand"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -949,12 +949,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="202" />
 			<set order="0x08" stat="mAtk" val="161" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14337" type="EtcItem" name="Daimon Crystal">
+	<item id="14337" type="Weapon" name="Daimon Crystal"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -975,12 +975,12 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="245" />
 			<set order="0x08" stat="mAtk" val="177" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14338" type="EtcItem" name="Tallum Blade*Damascus">
+	<item id="14338" type="Weapon" name="Tallum Blade*Damascus"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1005,7 +1005,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14339" type="EtcItem" name="Eclair Bijou">
+	<item id="14339" type="Weapon" name="Eclair Bijou"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1034,7 +1034,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="14340" type="EtcItem" name="Durendal">
+	<item id="14340" type="Weapon" name="Durendal"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1062,7 +1062,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="14341" type="EtcItem" name="Screaming Vengeance">
+	<item id="14341" type="Weapon" name="Screaming Vengeance"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
@@ -1091,7 +1091,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="14342" type="EtcItem" name="Necklace of Seal">
+	<item id="14342" type="Armor" name="Necklace of Seal"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_necklace_of_binding_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -1106,7 +1106,7 @@
 			<add order="0x10" stat="mDef" val="64" />
 		</for>
 	</item>
-	<item id="14343" type="EtcItem" name="Nassen's Earring">
+	<item id="14343" type="Armor" name="Nassen's Earring"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_nassens_earing_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -1121,7 +1121,7 @@
 			<add order="0x10" stat="mDef" val="48" />
 		</for>
 	</item>
-	<item id="14344" type="EtcItem" name="Ring of Seal">
+	<item id="14344" type="Armor" name="Ring of Seal"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_ring_of_binding_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1136,7 +1136,7 @@
 			<add order="0x10" stat="mDef" val="32" />
 		</for>
 	</item>
-	<item id="14345" type="EtcItem" name="Earring of Black Ore">
+	<item id="14345" type="Armor" name="Earring of Black Ore"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -1151,7 +1151,7 @@
 			<add order="0x10" stat="mDef" val="54" />
 		</for>
 	</item>
-	<item id="14346" type="EtcItem" name="Ring of Black Ore">
+	<item id="14346" type="Armor" name="Ring of Black Ore"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1166,7 +1166,7 @@
 			<add order="0x10" stat="mDef" val="36" />
 		</for>
 	</item>
-	<item id="14347" type="EtcItem" name="Necklace of Black Ore">
+	<item id="14347" type="Armor" name="Necklace of Black Ore"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -1181,7 +1181,7 @@
 			<add order="0x10" stat="mDef" val="72" />
 		</for>
 	</item>
-	<item id="14348" type="EtcItem" name="Majestic Earring">
+	<item id="14348" type="Armor" name="Majestic Earring"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_inferno_earing_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -1197,7 +1197,7 @@
 			<add order="0x40" stat="maxMp" val="25" />
 		</for>
 	</item>
-	<item id="14349" type="EtcItem" name="Majestic Ring">
+	<item id="14349" type="Armor" name="Majestic Ring"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_inferno_ring_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1213,7 +1213,7 @@
 			<add order="0x40" stat="maxMp" val="17" />
 		</for>
 	</item>
-	<item id="14350" type="EtcItem" name="Majestic Necklace">
+	<item id="14350" type="Armor" name="Majestic Necklace"> <!-- l2jtw : 603 -->
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -1535,8 +1535,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="363" />
 			<set order="0x08" stat="mAtk" val="163" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1566,8 +1566,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="442" />
 			<set order="0x08" stat="mAtk" val="163" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1598,8 +1598,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="290" />
 			<set order="0x08" stat="mAtk" val="217" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -2357,8 +2357,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="363" />
 			<set order="0x08" stat="mAtk" val="163" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -2388,8 +2388,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="363" />
 			<set order="0x08" stat="mAtk" val="163" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -2419,8 +2419,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="363" />
 			<set order="0x08" stat="mAtk" val="163" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -2451,8 +2451,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="290" />
 			<set order="0x08" stat="mAtk" val="217" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -2483,8 +2483,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="290" />
 			<set order="0x08" stat="mAtk" val="217" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -2515,8 +2515,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="290" />
 			<set order="0x08" stat="mAtk" val="217" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />

@@ -630,7 +630,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="2" /> <!-- l2jtw : 603 -->
 		<set name="price" val="14" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -643,7 +643,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="2" /> <!-- l2jtw : 603 -->
 		<set name="price" val="22" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -656,7 +656,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="1" /> <!-- l2jtw : 603 -->
 		<set name="price" val="50" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -669,7 +669,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="1" /> <!-- l2jtw : 603 -->
 		<set name="price" val="80" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -682,7 +682,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="1" /> <!-- l2jtw : 603 -->
 		<set name="price" val="100" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />

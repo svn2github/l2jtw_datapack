@@ -863,7 +863,7 @@
 		<set name="default_action" val="SPIRITSHOT" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="5" />
+		<set name="weight" val="4" /> <!-- l2jtw : 603 -->
 		<set name="price" val="35" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="BlessedSpiritShot" />
@@ -875,7 +875,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="5" />
+		<set name="weight" val="4" /> <!-- l2jtw : 603 -->
 		<set name="price" val="28" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -888,7 +888,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="2" /> <!-- l2jtw : 603 -->
 		<set name="price" val="42" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -901,7 +901,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="2" /> <!-- l2jtw : 603 -->
 		<set name="price" val="245" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -914,7 +914,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="1" /> <!-- l2jtw : 603 -->
 		<set name="price" val="290" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />
@@ -927,7 +927,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="1" /> <!-- l2jtw : 603 -->
 		<set name="price" val="350" />
 		<!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
 		<set name="is_stackable" val="true" />

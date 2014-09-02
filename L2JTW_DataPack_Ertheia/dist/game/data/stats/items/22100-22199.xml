@@ -1044,7 +1044,7 @@
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="547" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="enchant_enabled" val="1" />
@@ -1225,37 +1225,37 @@
 	</item>
 	<item id="22194" type="EtcItem" name="1st Place Treasure Sack">
 		<!-- Description: When double-clicked, a random 1st Place prize is granted. -->
-		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="icon" val="icon.etc_treasure_sack_1_i00" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="22195" type="EtcItem" name="2nd Place Treasure Sack">
 		<!-- Description: When double-clicked, a random 2nd Place prize is granted. -->
-		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="icon" val="icon.etc_treasure_sack_2_i00" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="22196" type="EtcItem" name="3rd Place Treasure Sack">
 		<!-- Description: When double-clicked, a random 3rd Place prize is granted. -->
-		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="icon" val="icon.etc_treasure_sack_3_i00" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="22197" type="EtcItem" name="4th Place Treasure Sack">
 		<!-- Description: When double-clicked, a random 4th Place prize is granted. -->
-		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="icon" val="icon.etc_treasure_sack_4_i00" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="22198" type="EtcItem" name="5th Place Treasure Sack">
 		<!-- Description: When double-clicked, a random 5th Place prize is granted. -->
-		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="icon" val="icon.etc_treasure_sack_5_i00" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="22199" type="EtcItem" name="6th Place Treasure Sack">
 		<!-- Description: When double-clicked, a random 6th Place prize is granted. -->
-		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="icon" val="icon.etc_treasure_sack_6_i00" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 	</item>

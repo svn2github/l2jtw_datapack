@@ -390,7 +390,7 @@
 	</item>
 	<item id="21537" type="Armor" name="Ribbon Hairband - 7-day limited period">
 		<!-- Description: Dimensional item. Large ribbon hair accessory (7 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -404,7 +404,7 @@
 	</item>
 	<item id="21538" type="Armor" name="Ribbon Hairband - 7-day limited period (event)">
 		<!-- Description: Dimensional item. Large ribbon hair accessory (7 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -419,7 +419,7 @@
 	</item>
 	<item id="21539" type="Armor" name="Ribbon Hairband - 30-day limited period">
 		<!-- Description: Dimensional item. Large ribbon hair accessory (30 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -433,7 +433,7 @@
 	</item>
 	<item id="21540" type="Armor" name="Ribbon Hairband - 30-day limited period (event)">
 		<!-- Description: Dimensional item. Large ribbon hair accessory (30 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -448,7 +448,7 @@
 	</item>
 	<item id="21541" type="Armor" name="Ribbon Hairband">
 		<!-- Description: Dimensional item. Large ribbon hair accessory. Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -462,7 +462,7 @@
 	</item>
 	<item id="21542" type="Armor" name="Ribbon Hairband - Event">
 		<!-- Description: Dimensional item. Large ribbon hair accessory. Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />

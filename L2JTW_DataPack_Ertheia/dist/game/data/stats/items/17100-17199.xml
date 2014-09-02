@@ -625,7 +625,7 @@
 		<set name="item_skill" val="9160-1" />
 	</item>
 	<item id="17141" type="Armor" name="Ribbon Hairband - Promotion">
-		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />

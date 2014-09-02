@@ -10,7 +10,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1740" />
 		<set name="price" val="143356000" />
@@ -24,8 +24,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="482" />
 			<set order="0x08" stat="mAtk" val="176" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -41,7 +41,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1740" />
 		<set name="price" val="143356000" />
@@ -55,8 +55,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="482" />
 			<set order="0x08" stat="mAtk" val="176" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -72,7 +72,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
 		<set name="price" val="143356000" />
@@ -87,8 +87,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="317" />
 			<set order="0x08" stat="mAtk" val="234" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -104,7 +104,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
 		<set name="price" val="143356000" />
@@ -119,8 +119,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="317" />
 			<set order="0x08" stat="mAtk" val="234" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -136,7 +136,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
 		<set name="price" val="143356000" />
@@ -151,8 +151,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="317" />
 			<set order="0x08" stat="mAtk" val="234" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -168,7 +168,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
 		<set name="price" val="143356000" />
@@ -183,8 +183,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="386" />
 			<set order="0x08" stat="mAtk" val="257" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -200,7 +200,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
 		<set name="price" val="143356000" />
@@ -215,8 +215,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="386" />
 			<set order="0x08" stat="mAtk" val="257" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -232,7 +232,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
 		<set name="price" val="143356000" />
@@ -249,8 +249,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="386" />
 			<set order="0x08" stat="mAtk" val="257" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -266,7 +266,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
 		<set name="price" val="143356000" />
@@ -299,7 +299,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
 		<set name="price" val="143356000" />
@@ -332,7 +332,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
 		<set name="price" val="143356000" />
@@ -366,7 +366,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
 		<set name="price" val="143356000" />
@@ -401,7 +401,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
 		<set name="price" val="143356000" />
@@ -436,7 +436,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
 		<set name="price" val="143356000" />
@@ -471,7 +471,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1580" />
 		<set name="price" val="143356000" />
@@ -506,7 +506,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1580" />
 		<set name="price" val="143356000" />
@@ -541,7 +541,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1580" />
 		<set name="price" val="143356000" />
@@ -577,7 +577,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1800" />
 		<set name="price" val="143356000" />
@@ -611,7 +611,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1800" />
 		<set name="price" val="143356000" />
@@ -645,7 +645,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="7050" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1800" />
 		<set name="price" val="143356000" />
@@ -676,7 +676,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2240" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="7520" />
 		<set name="price" val="46668000" />
@@ -685,7 +685,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="250" />
@@ -699,7 +699,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1680" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="4140" />
 		<set name="price" val="35000000" />
@@ -719,7 +719,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1680" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="1750" />
 		<set name="price" val="35000000" />
@@ -728,7 +728,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="125" />
@@ -743,7 +743,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2680" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="7520" />
 		<set name="price" val="55840000" />
@@ -752,7 +752,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="250" />
@@ -766,7 +766,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2010" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="4140" />
 		<set name="price" val="41880000" />
@@ -786,7 +786,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2010" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="1750" />
 		<set name="price" val="41880000" />
@@ -795,7 +795,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="125" />
@@ -1475,8 +1475,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="376" />
 			<set order="0x08" stat="mAtk" val="119" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1533,8 +1533,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="376" />
 			<set order="0x08" stat="mAtk" val="119" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1563,8 +1563,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="247" />
 			<set order="0x08" stat="mAtk" val="212" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1593,8 +1593,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="203" />
 			<set order="0x08" stat="mAtk" val="193" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1654,8 +1654,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="310" />
 			<set order="0x08" stat="mAtk" val="119" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1742,8 +1742,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="247" />
 			<set order="0x08" stat="mAtk" val="212" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1771,8 +1771,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="376" />
 			<set order="0x08" stat="mAtk" val="119" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1859,8 +1859,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="310" />
 			<set order="0x08" stat="mAtk" val="119" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -1888,8 +1888,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="376" />
 			<set order="0x08" stat="mAtk" val="119" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -2063,7 +2063,7 @@
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
 			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -2086,7 +2086,7 @@
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
 			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -2109,7 +2109,7 @@
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
 			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -2194,7 +2194,7 @@
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
 			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -2218,7 +2218,7 @@
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
 			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>
@@ -2241,7 +2241,7 @@
 		<set name="is_sellable" val="false" />
 		<cond msgId="1518">
 			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player pledgeClass="4" /> <!-- Elder -->
 			</and>
 		</cond>

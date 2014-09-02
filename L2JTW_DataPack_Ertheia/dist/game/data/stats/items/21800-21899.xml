@@ -104,7 +104,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="113" />
@@ -125,7 +125,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="71" />
@@ -183,7 +183,7 @@
 	<item id="21811" type="Armor" name="Dynasty Sickle of Fortune - 90-day limited period">
 		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.dynasty_sigil_i00" />
-		<set name="default_action" val="EQUIP" />
+		<set name="default_action" val="EQUIP" />		<set name="armor_type" val="SIGIL" /> <!-- l2jtw : 603 -->
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="STEEL" />
@@ -192,7 +192,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="time" val="129600" />
 		<for>
-			<add order="0x10" stat="pDef" val="15" />
+			<add order="0x10" stat="pDef" val="15" />			<sub order="0x10" stat="rEvas" val="8" /> <!-- l2jtw : 603 -->
 		</for>
 	</item>
 	<item id="21812" type="EtcItem" name="Dynasty Tunic of Fortune Set Pack (S-Grade) - 90-day limited period">
@@ -334,8 +334,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="225" />
 			<set order="0x08" stat="mAtk" val="175" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -359,7 +359,7 @@
 			<set order="0x08" stat="pAtk" val="246" />
 			<set order="0x08" stat="mAtk" val="132" />
 			<set order="0x08" stat="rCrit" val="12" />
-			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-3.75" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
@@ -374,7 +374,7 @@
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1650" />
 		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
+		<set name="spiritshots" val="1" />		<set name="mp_consume" val="6" /> <!-- l2jtw : 603 -->
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -383,7 +383,7 @@
 			<set order="0x08" stat="pAtk" val="581" />
 			<set order="0x08" stat="mAtk" val="132" />
 			<set order="0x08" stat="rCrit" val="12" />
-			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-3.75" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
@@ -406,8 +406,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="281" />
 			<set order="0x08" stat="mAtk" val="132" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -476,8 +476,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="342" />
 			<set order="0x08" stat="mAtk" val="132" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -524,7 +524,7 @@
 			<set order="0x08" stat="pAtk" val="281" />
 			<set order="0x08" stat="mAtk" val="132" />
 			<set order="0x08" stat="rCrit" val="8" />
-			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-3.75" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -575,7 +575,7 @@
 			<set order="0x08" stat="pAtk" val="255" />
 			<set order="0x08" stat="mAtk" val="132" />
 			<set order="0x08" stat="rCrit" val="10" />
-			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-1.5" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
@@ -599,7 +599,7 @@
 			<set order="0x08" stat="pAtk" val="356" />
 			<set order="0x08" stat="mAtk" val="132" />
 			<set order="0x08" stat="rCrit" val="10" />
-			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-1.5" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
@@ -646,7 +646,7 @@
 			<set order="0x08" stat="pAtk" val="291" />
 			<set order="0x08" stat="mAtk" val="151" />
 			<set order="0x08" stat="rCrit" val="12" />
-			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-3.75" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
@@ -661,7 +661,7 @@
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
 		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
+		<set name="spiritshots" val="1" />		<set name="mp_consume" val="6" /> <!-- l2jtw : 603 -->
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -670,7 +670,7 @@
 			<set order="0x08" stat="pAtk" val="654" />
 			<set order="0x08" stat="mAtk" val="151" />
 			<set order="0x08" stat="rCrit" val="12" />
-			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-3.75" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
@@ -693,8 +693,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="333" />
 			<set order="0x08" stat="mAtk" val="151" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
@@ -763,8 +763,8 @@
 		<for>
 			<set order="0x08" stat="pAtk" val="405" />
 			<set order="0x08" stat="mAtk" val="151" />
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -811,7 +811,7 @@
 			<set order="0x08" stat="pAtk" val="333" />
 			<set order="0x08" stat="mAtk" val="151" />
 			<set order="0x08" stat="rCrit" val="8" />
-			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-3.75" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
@@ -862,7 +862,7 @@
 			<set order="0x08" stat="pAtk" val="302" />
 			<set order="0x08" stat="mAtk" val="151" />
 			<set order="0x08" stat="rCrit" val="10" />
-			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-1.5" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
@@ -886,7 +886,7 @@
 			<set order="0x08" stat="pAtk" val="401" />
 			<set order="0x08" stat="mAtk" val="151" />
 			<set order="0x08" stat="rCrit" val="10" />
-			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<add order="0x10" stat="accCombat" val="-1.5" /> <!-- l2jtw : 603 -->
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
@@ -1395,7 +1395,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="21892" type="Armor" name="Pirate King Hat">
-		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="icon" val="BranchSys2.icon.zaken_hair_accessary" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="immediate_effect" val="true" />
@@ -1404,7 +1404,7 @@
 		<set name="price" val="6000000" />
 	</item>
 	<item id="21893" type="Armor" name="Halisha's Helmet">
-		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="icon" val="BranchSys2.icon.frintessa_hair_accessary" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="immediate_effect" val="true" />
@@ -1413,7 +1413,7 @@
 		<set name="price" val="6000000" />
 	</item>
 	<item id="21894" type="Armor" name="Ice Queen's Tiara">
-		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="icon" val="BranchSys2.icon.freya_hair_accessary" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="immediate_effect" val="true" />

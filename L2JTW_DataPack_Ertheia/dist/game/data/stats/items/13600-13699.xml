@@ -1429,7 +1429,7 @@
 	<item id="13686" type="EtcItem" name="Sealed Knight's Cloak">
 		<set name="icon" val="icon.sealed_vesper_cloack_i01" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
 		<set name="price" val="28671000" />
@@ -1440,7 +1440,7 @@
 			<and>
 				<player castle="-1" /> <!-- owns a castle -->
 				<player pledgeClass="5" /> <!-- Baron -->
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player cloakStatus="true" />
 			</and>
 		</cond>
@@ -1453,7 +1453,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
 		<set name="price" val="28671000" />
@@ -1477,7 +1477,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
 		<set name="price" val="28671000" />
@@ -1489,7 +1489,7 @@
 				<player castle="-1" /> <!-- owns a castle -->
 				<player categoryType="ROGUE_CLOACK" />
 				<player pledgeClass="5" /> <!-- Baron -->
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player cloakStatus="true" />
 			</and>
 		</cond>
@@ -1503,7 +1503,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
 		<set name="price" val="28671000" />
@@ -1515,7 +1515,7 @@
 				<player castle="-1" /> <!-- owns a castle -->
 				<player categoryType="MAGE_CLOACK" />
 				<player pledgeClass="5" /> <!-- Baron -->
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 				<player cloakStatus="true" />
 			</and>
 		</cond>
@@ -1529,7 +1529,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S84" />
+		<set name="crystal_type" val="S80" /> <!-- l2jtw : 603 -->
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
 		<set name="price" val="28671000" />

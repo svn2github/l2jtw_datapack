@@ -23,7 +23,7 @@
 		<set name="etcitem_type" val="POTION" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
-		<set name="weight" val="180" />
+		<set name="weight" val="10" /> <!-- l2jtw : 603 -->
 		<set name="reuse_delay" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -549,7 +549,7 @@
 		<set name="price" val="2000000" />
 	</item>
 	<item id="14750" type="Armor" name="Bamboo Hat">
-		<set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" /> <!-- l2jtw : 603 -->
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="immediate_effect" val="true" />
@@ -1033,8 +1033,8 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_depositable" val="false" />
 		<for>
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 		</for>
 	</item>
 	<item id="14784" type="Weapon" name="Baguette's Two-handed Hammer">
@@ -1083,7 +1083,7 @@
 		<set name="weight" val="1790" />
 		<set name="soulshots" val="8" />
 		<set name="spiritshots" val="2" />
-		<set name="mp_consume" val="2" />
+		<set name="mp_consume" val="1" /> <!-- l2jtw : 603 -->
 		<set name="enchant_enabled" val="1" />
 		<set name="is_depositable" val="false" />
 		<for>
@@ -1105,8 +1105,8 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_depositable" val="false" />
 		<for>
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 		</for>
 	</item>
 	<item id="14788" type="Weapon" name="Baguette's Magic Sword">
@@ -1142,8 +1142,8 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_magic_weapon" val="true" />
 		<for>
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 		</for>
 	</item>
 	<item id="14790" type="Weapon" name="Baguette's Two-handed Staff">
@@ -1164,8 +1164,8 @@
 		<set name="is_magic_weapon" val="true" />
 		<set name="duration" val="600" />
 		<for>
-			<set order="0x08" stat="rCrit" val="4" />
-			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="rCrit" val="6" /> <!-- l2jtw : 603 -->
+			<add order="0x10" stat="accCombat" val="8.0" /> <!-- l2jtw : 603 -->
 		</for>
 	</item>
 	<item id="14791" type="Armor" name="Baguette's Shield">
@@ -1182,7 +1182,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="duration" val="600" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />
@@ -1285,7 +1285,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_depositable" val="false" />
 		<cond msgId="1518">
-			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" />
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF,KAMAEL,ERTHEIA" /> <!-- l2jtw : 603 -->
 		</cond>
 		<for>
 			<sub order="0x10" stat="rEvas" val="8" />

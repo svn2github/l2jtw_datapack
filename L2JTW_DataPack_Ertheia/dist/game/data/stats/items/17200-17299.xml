@@ -299,7 +299,7 @@
 	</item>
 	<item id="17239" type="EtcItem" name="Olympiad Match 5 Participation Certificate">
 		<!-- Description: Document that proves participation in the Olympiad Match 5. Take this document to the Olympiad Operator to receive an incomplete reward. -->
-		<set name="icon" val="icon.mercenary_certification_i01" />
+		<set name="icon" val="icon.mercenary_certification_i00" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -310,7 +310,7 @@
 	</item>
 	<item id="17240" type="EtcItem" name="Olympiad Match 10 Participation Certificate">
 		<!-- Description: Document that proves participation in the Olympiad Match 10. Take this document to the Olympiad Operator to receive a whole reward. -->
-		<set name="icon" val="icon.mercenary_certification_i02" />
+		<set name="icon" val="icon.mercenary_certification_i01" /> <!-- l2jtw : 603 -->
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
