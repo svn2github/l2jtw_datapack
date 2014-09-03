@@ -17,7 +17,7 @@
 		<!-- 原始內容
 		<set name="item_skill" val="10000-1" />
 		-->
-		<set name="item_skill" val="27000-1" /> <!-- 更改 Custom Skill ID，因為 ID:10000 是一個已存在的新技能-->
+		<set name="item_skill" val="24000-1" /> <!-- 更改 Custom Skill ID，因為 ID:10000 是一個已存在的新技能-->
 		<set name="for_npc" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
@@ -37,7 +37,7 @@
 		<!-- 原始內容
 		<set name="item_skill" val="10001-1" />
 		-->
-		<set name="item_skill" val="27001-1" /> <!-- 更改 Custom Skill ID，因為 ID:10001 是一個已存在的新技能-->
+		<set name="item_skill" val="24001-1" /> <!-- 更改 Custom Skill ID，因為 ID:10001 是一個已存在的新技能-->
 		<set name="for_npc" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
