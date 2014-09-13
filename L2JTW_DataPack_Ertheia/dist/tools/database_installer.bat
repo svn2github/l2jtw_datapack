@@ -1,5 +1,6 @@
 @echo off
 REM ²M²z
+if exist ..\game\data\stats\skills\10000-10099.xml del ..\game\data\stats\skills\10000-10099.xml
 if exist ..\game\data\stats\skills\27000-Add.xml del ..\game\data\stats\skills\27000-Add.xml
 if exist ..\game\data\stats\skills\27000-Subclass.xml del ..\game\data\stats\skills\27000-Subclass.xml
 if exist ..\game\data\stats\skills\27001-Item.xml del ..\game\data\stats\skills\27001-Item.xml
