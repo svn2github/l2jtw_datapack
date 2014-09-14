@@ -475,7 +475,7 @@ public class AdminSpawn implements IAdminCommandHandler
 				/* MessageTable
 				activeChar.sendMessage("Created " + template1.getName() + " on " + target.getObjectId());
 				 */
-				activeChar.sendMessage(MessageTable.Messages[1864].getExtra(1) + template1.getName() + MessageTable.Messages[1864].getExtra(2));
+				activeChar.sendMessage(MessageTable.Messages[1864].getExtra(1) + template1.getName() + MessageTable.Messages[1864].getExtra(2) + target.getObjectId());
 			}
 		}
 		catch (Exception e)
