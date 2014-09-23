@@ -34,8 +34,6 @@ import com.l2jserver.L2DatabaseFactory;
 import com.l2jserver.gameserver.communitybbs.Manager.RegionBBSManager;
 import com.l2jserver.gameserver.datatables.CharNameTable;
 import com.l2jserver.gameserver.datatables.ClassListData;
-import com.l2jserver.gameserver.datatables.TransformData; // DP-comment-002
-import com.l2jserver.gameserver.ThreadPoolManager; // DP-comment-002
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2World;
@@ -391,10 +389,6 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.sendMessage("A GM changed your class to " + newclass + ".");
 					player.broadcastUserInfo();
 					activeChar.sendMessage(player.getName() + " is a " + newclass + ".");
-					// DP-comment-002 Start
-					TransformData.getInstance().transformPlayer(105, player);
-					ThreadPoolManager.getInstance().scheduleGeneral(new Untransform(player), 200);
-					// DP-comment-002 End
 				}
 				else
 				{
@@ -502,10 +496,6 @@ public class AdminEditChar implements IAdminCommandHandler
 			player.getAppearance().setSex(player.getAppearance().getSex() ? false : true);
 			player.sendMessage("Your gender has been changed by a GM");
 			player.broadcastUserInfo();
-			// DP-comment-002 Start
-			TransformData.getInstance().transformPlayer(105, player);
-			ThreadPoolManager.getInstance().scheduleGeneral(new Untransform(player), 200);
-			// DP-comment-002 End
 		}
 		else if (command.startsWith("admin_setcolor"))
 		{
@@ -1538,21 +1528,4 @@ public class AdminEditChar implements IAdminCommandHandler
 		html.replace("%party%", text.toString());
 		activeChar.sendPacket(html);
 	}
-	// DP-comment-002 Start
-	private final class Untransform implements Runnable
-	{
-		private final L2PcInstance _player;
-
-		protected Untransform(L2PcInstance player)
-		{
-			_player = player;
-		}
-
-		@Override
-		public void run()
-		{
-			_player.untransform();
-		}
-	}
-	// DP-comment-002 End
 }
