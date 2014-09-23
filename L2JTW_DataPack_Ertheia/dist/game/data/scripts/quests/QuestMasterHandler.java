@@ -215,6 +215,7 @@ import quests.Q00307_ControlDeviceOfTheGiants.Q00307_ControlDeviceOfTheGiants;
 import quests.Q00308_ReedFieldMaintenance.Q00308_ReedFieldMaintenance;
 import quests.Q00309_ForAGoodCause.Q00309_ForAGoodCause;
 import quests.Q00310_OnlyWhatRemains.Q00310_OnlyWhatRemains;
+import quests.Q00311_ExpulsionOfEvilSpirits.Q00311_ExpulsionOfEvilSpirits;
 import quests.Q00312_TakeAdvantageOfTheCrisis.Q00312_TakeAdvantageOfTheCrisis;
 import quests.Q00313_CollectSpores.Q00313_CollectSpores;
 import quests.Q00316_DestroyPlagueCarriers.Q00316_DestroyPlagueCarriers;
@@ -253,12 +254,19 @@ import quests.Q00380_BringOutTheFlavorOfIngredients.Q00380_BringOutTheFlavorOfIn
 import quests.Q00381_LetsBecomeARoyalMember.Q00381_LetsBecomeARoyalMember;
 import quests.Q00382_KailsMagicCoin.Q00382_KailsMagicCoin;
 import quests.Q00385_YokeOfThePast.Q00385_YokeOfThePast;
-import quests.Q00401_PathToWarrior.Q00401_PathToWarrior;
+import quests.Q00401_PathOfTheWarrior.Q00401_PathOfTheWarrior;
 import quests.Q00402_PathOfTheHumanKnight.Q00402_PathOfTheHumanKnight;
 import quests.Q00403_PathOfTheRogue.Q00403_PathOfTheRogue;
 import quests.Q00404_PathOfTheHumanWizard.Q00404_PathOfTheHumanWizard;
 import quests.Q00405_PathOfTheCleric.Q00405_PathOfTheCleric;
+import quests.Q00406_PathOfTheElvenKnight.Q00406_PathOfTheElvenKnight;
 import quests.Q00407_PathOfTheElvenScout.Q00407_PathOfTheElvenScout;
+import quests.Q00408_PathOfTheElvenWizard.Q00408_PathOfTheElvenWizard;
+import quests.Q00409_PathOfTheElvenOracle.Q00409_PathOfTheElvenOracle;
+import quests.Q00410_PathOfThePalusKnight.Q00410_PathOfThePalusKnight;
+import quests.Q00411_PathOfTheAssassin.Q00411_PathOfTheAssassin;
+import quests.Q00412_PathOfTheDarkWizard.Q00412_PathOfTheDarkWizard;
+import quests.Q00413_PathOfTheShillienOracle.Q00413_PathOfTheShillienOracle;
 import quests.Q00416_PathOfTheOrcShaman.Q00416_PathOfTheOrcShaman;
 import quests.Q00420_LittleWing.Q00420_LittleWing;
 import quests.Q00421_LittleWingsBigAdventure.Q00421_LittleWingsBigAdventure;
@@ -312,6 +320,7 @@ import quests.Q00627_HeartInSearchOfPower.Q00627_HeartInSearchOfPower;
 import quests.Q00628_HuntGoldenRam.Q00628_HuntGoldenRam;
 import quests.Q00629_CleanUpTheSwampOfScreams.Q00629_CleanUpTheSwampOfScreams;
 import quests.Q00631_DeliciousTopChoiceMeat.Q00631_DeliciousTopChoiceMeat;
+import quests.Q00632_NecromancersRequest.Q00632_NecromancersRequest;
 import quests.Q00633_InTheForgottenVillage.Q00633_InTheForgottenVillage;
 import quests.Q00634_InSearchOfFragmentsOfDimension.Q00634_InSearchOfFragmentsOfDimension;
 import quests.Q00635_IntoTheDimensionalRift.Q00635_IntoTheDimensionalRift;
@@ -334,6 +343,7 @@ import quests.Q00652_AnAgedExAdventurer.Q00652_AnAgedExAdventurer;
 import quests.Q00653_WildMaiden.Q00653_WildMaiden;
 import quests.Q00654_JourneyToASettlement.Q00654_JourneyToASettlement;
 import quests.Q00659_IdRatherBeCollectingFairyBreath.Q00659_IdRatherBeCollectingFairyBreath;
+import quests.Q00660_AidingTheFloranVillage.Q00660_AidingTheFloranVillage;
 import quests.Q00661_MakingTheHarvestGroundsSafe.Q00661_MakingTheHarvestGroundsSafe;
 import quests.Q00662_AGameOfCards.Q00662_AGameOfCards;
 import quests.Q00688_DefeatTheElrokianRaiders.Q00688_DefeatTheElrokianRaiders;
@@ -588,6 +598,7 @@ public class QuestMasterHandler
 		Q00308_ReedFieldMaintenance.class,
 		Q00309_ForAGoodCause.class,
 		Q00310_OnlyWhatRemains.class,
+		Q00311_ExpulsionOfEvilSpirits.class,
 		Q00312_TakeAdvantageOfTheCrisis.class,
 		Q00313_CollectSpores.class,
 		Q00316_DestroyPlagueCarriers.class,
@@ -626,12 +637,19 @@ public class QuestMasterHandler
 		Q00381_LetsBecomeARoyalMember.class,
 		Q00382_KailsMagicCoin.class,
 		Q00385_YokeOfThePast.class,
-		Q00401_PathToWarrior.class,
+		Q00401_PathOfTheWarrior.class,
 		Q00402_PathOfTheHumanKnight.class,
 		Q00403_PathOfTheRogue.class,
 		Q00404_PathOfTheHumanWizard.class,
 		Q00405_PathOfTheCleric.class,
+		Q00406_PathOfTheElvenKnight.class,
 		Q00407_PathOfTheElvenScout.class,
+		Q00408_PathOfTheElvenWizard.class,
+		Q00409_PathOfTheElvenOracle.class,
+		Q00410_PathOfThePalusKnight.class,
+		Q00411_PathOfTheAssassin.class,
+		Q00412_PathOfTheDarkWizard.class,
+		Q00413_PathOfTheShillienOracle.class,
 		Q00416_PathOfTheOrcShaman.class,
 		Q00420_LittleWing.class,
 		Q00421_LittleWingsBigAdventure.class,
@@ -685,6 +703,7 @@ public class QuestMasterHandler
 		Q00628_HuntGoldenRam.class,
 		Q00629_CleanUpTheSwampOfScreams.class,
 		Q00631_DeliciousTopChoiceMeat.class,
+		Q00632_NecromancersRequest.class,
 		Q00633_InTheForgottenVillage.class,
 		Q00634_InSearchOfFragmentsOfDimension.class,
 		Q00635_IntoTheDimensionalRift.class,
@@ -707,6 +726,7 @@ public class QuestMasterHandler
 		Q00653_WildMaiden.class,
 		Q00654_JourneyToASettlement.class,
 		Q00659_IdRatherBeCollectingFairyBreath.class,
+		Q00660_AidingTheFloranVillage.class,
 		Q00661_MakingTheHarvestGroundsSafe.class,
 		Q00662_AGameOfCards.class,
 		Q00688_DefeatTheElrokianRaiders.class,

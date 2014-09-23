@@ -215,6 +215,7 @@
 	</skill>
 	<skill id="3318" levels="1" name="Flag Display">
 		<!-- Flag Skill -->
+		<set name="castRange" val="85" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="180000" />
 		<set name="icon" val="icon.weapon_fort_flag_i00" />
@@ -439,7 +440,7 @@
 		<set name="icon" val="icon.etc_talisman_i04" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="16" />
-		<set name="itemConsumeId" val="1785" />
+		<set name="itemConsumeId" val="1785" /> <!-- Soul Ore -->
 		<set name="magicLvl" val="1" />
 		<set name="mpConsume" val="40" />
 		<set name="mpInitialConsume" val="10" />
@@ -465,7 +466,7 @@
 		<set name="icon" val="icon.etc_talisman_i04" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="50" />
-		<set name="itemConsumeId" val="1785" />
+		<set name="itemConsumeId" val="1785" /> <!-- Soul Ore -->
 		<set name="magicLvl" val="1" />
 		<set name="mpConsume" val="40" />
 		<set name="mpInitialConsume" val="10" />
@@ -491,7 +492,7 @@
 		<set name="icon" val="icon.etc_talisman_i04" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="57" />
-		<set name="itemConsumeId" val="1785" />
+		<set name="itemConsumeId" val="1785" /> <!-- Soul Ore -->
 		<set name="magicLvl" val="1" />
 		<set name="mpConsume" val="40" />
 		<set name="mpInitialConsume" val="10" />

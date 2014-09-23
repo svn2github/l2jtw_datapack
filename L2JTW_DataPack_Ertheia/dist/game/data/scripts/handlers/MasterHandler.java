@@ -180,6 +180,7 @@ import handlers.itemhandlers.BlessedSpiritShot;
 import handlers.itemhandlers.Book;
 import handlers.itemhandlers.Bypass;
 import handlers.itemhandlers.Calculator;
+import handlers.itemhandlers.CharmOfCourage;
 import handlers.itemhandlers.Disguise;
 import handlers.itemhandlers.Elixir;
 import handlers.itemhandlers.EnchantAttribute;
@@ -454,6 +455,7 @@ public class MasterHandler
 			Book.class,
 			Bypass.class,
 			Calculator.class,
+			CharmOfCourage.class,
 			Disguise.class,
 			Elixir.class,
 			EnchantAttribute.class,

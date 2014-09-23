@@ -11,13 +11,15 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="180" />
 		<set name="price" val="80" />
+		<set name="reuse_delay" val="10000" /> <!-- l2jtw add : 加入這行才會顯示剩下幾秒才能再次使用 -->
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="ManaPotion" />
 		<!-- 原始內容
+		<set name="handler" val="ManaPotion" />
 		<set name="item_skill" val="10000-1" />
 		-->
-		<set name="item_skill" val="24000-1" /> <!-- 更改 Custom Skill ID，因為 ID:10000 是一個已存在的新技能-->
+		<set name="handler" val="ItemSkills" /> <!-- 更改 ManaPotion 為 ItemSkills -->
+		<set name="item_skill" val="24000-1" /> <!-- 更改 Custom Skill ID，因為 ID:10000 是一個已存在的新技能 -->
 		<set name="for_npc" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
@@ -37,7 +39,7 @@
 		<!-- 原始內容
 		<set name="item_skill" val="10001-1" />
 		-->
-		<set name="item_skill" val="24001-1" /> <!-- 更改 Custom Skill ID，因為 ID:10001 是一個已存在的新技能-->
+		<set name="item_skill" val="24001-1" /> <!-- 更改 Custom Skill ID，因為 ID:10001 是一個已存在的新技能 -->
 		<set name="for_npc" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="false" />

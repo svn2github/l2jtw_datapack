@@ -8,8 +8,8 @@
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10017" /> <!-- Coral Treasure Chest Key -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="3000" />
@@ -510,6 +510,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.skill0298" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10274" /> <!-- Transformation Scroll: Rabbit -->
 		<set name="magicLvl" val="-1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -530,6 +532,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10260" /> <!-- Alacrity Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -547,6 +551,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i01" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10261" /> <!-- Accuracy Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -564,6 +570,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i02" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10262" /> <!-- Critical Hit Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -581,6 +589,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i03" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10263" /> <!-- Critical Rate Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -598,6 +608,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i04" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10264" /> <!-- Casting Spd. Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -615,6 +627,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10265" /> <!-- Evasion Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -632,6 +646,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i06" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10266" /> <!-- M. Atk. Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -649,6 +665,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i07" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10267" /> <!-- Power Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -666,6 +684,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i08" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10268" /> <!-- Speed Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -683,6 +703,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i09" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10269" /> <!-- Defense Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -700,6 +722,8 @@
 		<set name="effectPoint" val="1" />
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i10" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10270" /> <!-- MP Consumption Juice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="SELF" />
@@ -735,8 +759,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10549" /> <!-- Forgotten Scroll - Protection of Rune -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -759,8 +783,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10550" /> <!-- Forgotten Scroll - Protection of Elemental -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -783,8 +807,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10551" /> <!-- Forgotten Scroll - Protection of Alignment -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -807,8 +831,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10552" /> <!-- Forgotten Scroll - Fighter's Will -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -831,8 +855,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10553" /> <!-- Forgotten Scroll - Archer's Will -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -855,8 +879,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10554" /> <!-- Forgotten Scroll - Anti-Magic Armor -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -879,8 +903,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10555" /> <!-- Forgotten Scroll - Seed of Revenge -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -906,8 +930,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10556" /> <!-- Forgotten Scroll - Hell Scream -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -930,8 +954,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10557" /> <!-- Forgotten Scroll - Song of Windstorm -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -954,8 +978,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10558" /> <!-- Forgotten Scroll - Dance of Blade Storm -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -978,8 +1002,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10559" /> <!-- Forgotten Scroll - Sixth Sense -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1002,8 +1026,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10560" /> <!-- Forgotten Scroll - Expose Weak Point -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1026,8 +1050,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10561" /> <!-- Forgotten Scroll - Exciting Adventure -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1050,8 +1074,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10562" /> <!-- Forgotten Scroll - Wind Riding -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1074,8 +1098,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10563" /> <!-- Forgotten Scroll - Ghost Walking -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1098,8 +1122,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10564" /> <!-- Forgotten Scroll - Flame Hawk -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1122,8 +1146,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10565" /> <!-- Forgotten Scroll - Arrow Rain -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1146,8 +1170,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10566" /> <!-- Forgotten Scroll - Ghost Piercing -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1170,8 +1194,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10567" /> <!-- Forgotten Scroll - Dread Pool -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1194,8 +1218,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10568" /> <!-- Forgotten Scroll - Weapon Blockade -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1218,8 +1242,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10569" /> <!-- Forgotten Scroll - Force of Destruction -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1242,8 +1266,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10570" /> <!-- Forgotten Scroll - Demolition Impact -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1266,8 +1290,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10571" /> <!-- Forgotten Scroll - Golem Armor -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1290,8 +1314,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10572" /> <!-- Forgotten Scroll - Flame Armor -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1314,8 +1338,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10573" /> <!-- Forgotten Scroll - Frost Armor -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1338,8 +1362,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10574" /> <!-- Forgotten Scroll - Hurricane Armor -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1362,8 +1386,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10575" /> <!-- Forgotten Scroll - Vampiric Mist -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1386,8 +1410,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10576" /> <!-- Forgotten Scroll - Servitor Barrier -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1410,8 +1434,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10577" /> <!-- Forgotten Scroll - Excessive Loyalty -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1434,8 +1458,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10578" /> <!-- Forgotten Scroll - Mutual Response -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1458,8 +1482,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10579" /> <!-- Forgotten Scroll - Improve Combat -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1482,8 +1506,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10580" /> <!-- Forgotten Scroll - Improve Magic -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1506,8 +1530,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10581" /> <!-- Forgotten Scroll - Improve Condition -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1530,8 +1554,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10582" /> <!-- Forgotten Scroll - Improve Critical Attack -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1554,8 +1578,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10583" /> <!-- Forgotten Scroll - Improve Shield Defense -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1578,8 +1602,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10584" /> <!-- Forgotten Scroll - Improve Movement -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1602,8 +1626,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10585" /> <!-- Forgotten Scroll - Sublime Self Sacrifice -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1626,8 +1650,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10586" /> <!-- Forgotten Scroll - Blessing of Eva -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1650,8 +1674,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10587" /> <!-- Forgotten Scroll - Lord of Vampire -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1674,8 +1698,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10588" /> <!-- Forgotten Scroll - Thorn Root -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1698,8 +1722,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10589" /> <!-- Forgotten Scroll - Seal of Limit -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1722,8 +1746,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10591" /> <!-- Forgotten Scroll - Spirit of Phoenix/Flame Icon -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1749,8 +1773,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10592" /> <!-- Forgotten Scroll - Eva's Will -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1776,8 +1800,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10593" /> <!-- Forgotten Scroll - Pain of Shilen / Spirit of Shilen -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1846,8 +1870,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10594" /> <!-- Forgotten Scroll - Wild Shot -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -1870,8 +1894,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need -->
-		<!-- Do not need -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10595" /> <!-- Forgotten Scroll - Lightning Shock -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -2005,6 +2029,8 @@
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="500" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="10409" /> <!-- A Bottle of Souls -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="soulMaxConsumeCount" val="5" />

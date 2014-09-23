@@ -14,8 +14,11 @@
 		<table name="#coordX"> -114558 46915 9723 -45208 115158 -80831 -12728 15633 17860 83378 105760 111388 82916 85289 117052 146818 147922 43840 87326 149800 107946 -118092 </table>
 		<table name="#coordY"> 253605 51441 15576 -112502 -178170 149808 122726 142962 170191 147999 113064 219331 53210 16225 76884 25807 -55316 -47779 -143370 -79999 -52280 46955 </table>
 		<table name="#coordZ"> -1536 -2976 -4568 -240 -880 -3040 -3112 -2696 -3496 -3400 -3176 -3544 -1488 -3672 -2688 -2008 -2728 -792 -1319 -5568 -2408 342 </table>
+		<table name="#itemConsumeId"> 7117 7118 7119 7120 7121 7122 7123 7124 7125 7126 7127 7128 7129 7130 7131 7132 7133 7134 7135 7618 7619 9647 </table>
 		<set name="hitTime" val="20000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -45,8 +48,11 @@
 		<table name="#coordX"> -114558 46915 9723 -45208 115158 -118092 0 0 0 83378 </table>
 		<table name="#coordY"> 253605 51441 15576 -112502 -178170 46955 0 0 0 147999 </table>
 		<table name="#coordZ"> -1536 -2976 -4568 -240 -880 342 0 0 0 -3400 </table>
+		<table name="#itemConsumeId"> 7554 7555 7556 7557 7558 9716 0 0 0 7559 </table>
 		<set name="hitTime" val="20000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
@@ -227,6 +233,9 @@
 		 -->
 		<table name="#levelRange"> 1;19 20;39 40;51 52;60 61;75 76;99 </table> <!-- 修改: 恢復卷軸-S級 的使用等級範圍-->
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<table name="#itemConsumeId"> 8594 8595 8596 8597 8598 8599 </table>
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />

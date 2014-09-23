@@ -2,11 +2,18 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
 	<skill id="24000" levels="1" name="Mana Drug"> <!-- l2jtw change Custom_Skill-ID -->
 		<set name="abnormalTime" val="15" />
+		<!-- 原始內容
 		<set name="displayId" val="2288" />
+		-->
+		<set name="displayId" val="26030" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need <set name="itemConsumeId" val="726" /> -->
+		<set name="itemConsumeCount" val="1" /> <!-- l2jtw add -->
+		<set name="itemConsumeId" val="726" />
 		<set name="magicLvl" val="1" />
+		<!-- 原始內容
 		<set name="operateType" val="A1" />
+		-->
+		<set name="operateType" val="A2" /> <!-- A2 才會顯示倒數的圖示 -->
 		<set name="reuseDelay" val="10000" />
 		<set name="targetType" val="SELF" />
 		<for>
@@ -18,7 +25,8 @@
 	<skill id="24001" levels="1" name="Mana Potion"> <!-- l2jtw change Custom_Skill-ID -->
 		<set name="displayId" val="2288" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
-		<!-- Do not need <set name="itemConsumeId" val="728" /> -->
+		<set name="itemConsumeCount" val="1" /> <!-- l2jtw add -->
+		<set name="itemConsumeId" val="728" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="500" />

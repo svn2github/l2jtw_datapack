@@ -316,7 +316,7 @@
 		<set name="icon" val="icon.skill0912" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="2" />
-		<set name="itemConsumeId" val="1461" />
+		<set name="itemConsumeId" val="1461" /> <!-- Crystal (A-Grade) -->
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="145" />
 		<set name="operateType" val="A1" />
@@ -1979,14 +1979,12 @@
 		<for>
 			<effect name="TargetMe" />
 			<effect name="GetAgro" />
-			<effect name="TriggerSkillByDamage">
-				<param attackerType="L2Character" minAttackerLevel="1" maxAttackerLevel="99" />
-				<param minDamage="100" />
-				<param chance="30" />
-				<param skillId="6913" skillLevel="1" /> <!-- Challenge of Faith -->
-				<param targetType="SELF" />
-			</effect>
 		</for>
+		<selfEffects>
+			<effect name="CallSkill">
+				<param skillId="6913" skillLevel="1" /> <!-- Challenge of Faith -->
+			</effect>
+		</selfEffects>
 	</skill>
 	<skill id="986" levels="25" name="Deadly Strike">
 		<!-- High Five Skill -->
