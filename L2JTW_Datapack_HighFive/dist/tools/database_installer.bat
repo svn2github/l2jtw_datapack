@@ -48,7 +48,7 @@ REM 取得已存在的 Windows CMD 版本資訊
 FOR /F "skip=1 delims=*" %%b IN (..\libs\cachedir\check_w_ver.txt) do set bbb=%%b
 
 REM 比較 Windows 的 CMD 版本資訊
-if "%aaa%"=="%bbb%" goto _lib_check2
+if "%aaa%"=="%bbb%" goto _start_lib_check2
 echo 因為您的 Windows 版本有更新，所以必須刪除舊的 libs 和快取，以防止 GS 出錯
 echo.
 pause
@@ -56,11 +56,11 @@ goto _lib_del
 REM _lib_check1 的檢查 結束
 REM ------------------------------------------------------
 
-
+:_start_lib_check2
 REM ------------------------------------------------------
 REM _lib_check2 的檢查 開始
 REM 如果 Java 路徑不存在，則跳到下一個檢查
-if not exist "%ProgramFiles%\Java\jdk1.7.*" goto _lib_check3
+if not exist "%ProgramFiles%\Java\jdk1.7.*" goto _lib_end
 
 REM 如果 Java 版本資訊已存在，則跳到檢查2
 if exist ..\libs\cachedir\check_j_ver.txt goto _lib_check2
