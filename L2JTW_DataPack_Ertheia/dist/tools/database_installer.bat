@@ -70,8 +70,8 @@ goto _lib_del
 REM _lib_check1 的檢查 結束
 REM ------------------------------------------------------
 
-:_start_lib_check2
 REM ------------------------------------------------------
+:_start_lib_check2
 REM _lib_check2 的檢查 開始
 REM 如果 Java 路徑不存在，則跳到下一個檢查
 REM 暫停 _start_lib_check3 這個檢查 if not exist "%ProgramFiles%\Java\jdk1.8.*" goto _start_lib_check3
@@ -102,8 +102,8 @@ goto _lib_del
 REM _lib_check2 的檢查 結束
 REM ------------------------------------------------------
 
-:_start_lib_check3
 REM ------------------------------------------------------
+:_start_lib_check3
 REM _lib_check3 的檢查 開始
 REM 如果 日期-月份 的資訊已存在，則跳到檢查3
 if exist ..\game\cachedir\check_d_ver.txt goto _lib_check3
@@ -128,7 +128,6 @@ pause
 goto _lib_del
 REM _lib_check3 的檢查 結束
 REM ------------------------------------------------------
-
 
 REM ------------------------------------------------------
 :_lib_del
@@ -162,7 +161,6 @@ date/t > ..\game\cachedir\check_d_ver.txt
 
 :_lib_end
 REM ------------------------------------------------------
-
 
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##

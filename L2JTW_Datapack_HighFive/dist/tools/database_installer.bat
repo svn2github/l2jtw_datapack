@@ -56,8 +56,8 @@ goto _lib_del
 REM _lib_check1 的檢查 結束
 REM ------------------------------------------------------
 
-:_start_lib_check2
 REM ------------------------------------------------------
+:_start_lib_check2
 REM _lib_check2 的檢查 開始
 REM 如果 Java 路徑不存在，則跳到下一個檢查
 if not exist "%ProgramFiles%\Java\jdk1.7.*" goto _lib_end
@@ -85,7 +85,6 @@ pause
 goto _lib_del
 REM _lib_check2 的檢查 結束
 REM ------------------------------------------------------
-
 
 REM ------------------------------------------------------
 :_lib_del
@@ -119,7 +118,6 @@ date/t > ..\libs\cachedir\check_d_ver.txt
 
 :_lib_end
 REM ------------------------------------------------------
-
 
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##
@@ -212,8 +210,12 @@ if not exist "%ProgramFiles%\MySQL\MySQL Server 5.1\bin\mysql.exe" goto _MySQL55
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.1\bin
 
 :_MySQL55
-if not exist "%ProgramFiles%\MySQL\MySQL Server 5.5\bin\mysql.exe" goto _MySQL60
+if not exist "%ProgramFiles%\MySQL\MySQL Server 5.5\bin\mysql.exe" goto _MySQL56
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.5\bin
+
+:_MySQL56
+if not exist "%ProgramFiles%\MySQL\MySQL Server 5.6\bin\mysql.exe" goto _MySQL60
+set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.6\bin
 
 :_MySQL60
 if not exist "%ProgramFiles%\MySQL\MySQL Server 6.0\bin\mysql.exe" goto _AppServ
