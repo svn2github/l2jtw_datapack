@@ -32,6 +32,7 @@
 												<xs:enumeration value="HUMAN" />
 												<xs:enumeration value="KAMAEL" />
 												<xs:enumeration value="ORC" />
+												<xs:enumeration value="ERTHEIA" /> <!-- l2jtw : 603 -->
 											</xs:restriction>
 										</xs:simpleType>
 									</xs:attribute>
