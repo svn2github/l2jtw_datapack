@@ -66,6 +66,7 @@
 													<xs:enumeration value="ORC" />
 													<xs:enumeration value="DWARF" />
 													<xs:enumeration value="KAMAEL" />
+													<xs:enumeration value="ERTHEIA" /> <!-- l2jtw add -->
 												</xs:restriction>
 											</xs:simpleType>
 										</xs:element>
@@ -120,6 +121,7 @@
 						<xs:attribute name="type" use="required">
 							<xs:simpleType>
 								<xs:restriction base="xs:token">
+									<xs:enumeration value="awakenClassSkillTree" /> <!-- l2jtw add -->
 									<xs:enumeration value="classSkillTree" />
 									<xs:enumeration value="collectSkillTree" />
 									<xs:enumeration value="fishingSkillTree" />
