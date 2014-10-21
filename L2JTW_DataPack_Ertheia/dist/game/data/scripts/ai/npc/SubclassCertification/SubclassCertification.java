@@ -33,6 +33,7 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * Subclass certification
@@ -217,12 +218,18 @@ public final class SubclassCertification extends AbstractNpcAI
 			}
 			case "Obtain65":
 			{
+				/* MessageTable
 				htmltext = replaceHtml(player, "EmergentAbility.html", true, null).replace("%level%", "65").replace("%skilltype%", "common skill").replace("%event%", "lvl65Emergent");
+				 */
+				htmltext = replaceHtml(player, "EmergentAbility.html", true, null).replace("%level%", "65").replace("%skilltype%", MessageTable.Messages[2020].getExtra(1)).replace("%event%", "lvl65Emergent");
 				break;
 			}
 			case "Obtain70":
 			{
+				/* MessageTable
 				htmltext = replaceHtml(player, "EmergentAbility.html", true, null).replace("%level%", "70").replace("%skilltype%", "common skill").replace("%event%", "lvl70Emergent");
+				 */
+				htmltext = replaceHtml(player, "EmergentAbility.html", true, null).replace("%level%", "70").replace("%skilltype%", MessageTable.Messages[2020].getExtra(1)).replace("%event%", "lvl70Emergent");
 				break;
 			}
 			case "Obtain75":
@@ -232,7 +239,10 @@ public final class SubclassCertification extends AbstractNpcAI
 			}
 			case "Obtain80":
 			{
+				/* MessageTable
 				htmltext = replaceHtml(player, "EmergentAbility.html", true, null).replace("%level%", "80").replace("%skilltype%", "transformation skill").replace("%event%", "lvl80Class");
+				 */
+				htmltext = replaceHtml(player, "EmergentAbility.html", true, null).replace("%level%", "80").replace("%skilltype%", MessageTable.Messages[2020].getExtra(2)).replace("%event%", "lvl80Class");
 				break;
 			}
 			case "lvl65Emergent":

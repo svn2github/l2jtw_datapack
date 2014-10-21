@@ -2592,4 +2592,8 @@ INSERT INTO `messagetable` VALUES
 
 ('2008', 'en', 'NO Name', '', 'OfflineTradersTable.java'),
 ('2008', 'tw', '沒有名稱', '', 'OfflineTradersTable.java'),
-('2008', 'cn', '没有名称', '', 'OfflineTradersTable.java');
+('2008', 'cn', '没有名称', '', 'OfflineTradersTable.java'),
+
+('2020', 'en', '', 'common skill;transformation skill', 'SubclassCertification.java'),
+('2020', 'tw', '', '共同技能;終極技能', 'SubclassCertification.java'),
+('2020', 'cn', '', '共同技能;终极技能', 'SubclassCertification.java');
