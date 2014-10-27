@@ -255,12 +255,18 @@ public final class SubclassCertification extends AbstractNpcAI
 				htmltext = doCertification(player, st, "EmergentAbility", CERTIFICATE_EMERGENT_ABILITY, 70);
 				break;
 			}
+			/* l2jtw fix
 			case "lvl75Master":
+			 */
+			case "lvl75Class":
 			{
 				htmltext = doCertification(player, st, "ClassAbility", CERTIFICATE_MASTER_ABILITY, 75);
 				break;
 			}
+			/* l2jtw fix
 			case "lvl75Class":
+			 */
+			case "lvl75Master":
 			{
 				htmltext = doCertification(player, st, "ClassAbility", ABILITY_CERTIFICATES.get(getClassIndex(player)), 75);
 				break;
