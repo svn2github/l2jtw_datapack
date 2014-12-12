@@ -9,6 +9,7 @@ if exist ..\game\data\stats\skills\27010-Other.xml del ..\game\data\stats\skills
 if exist ..\game\data\stats\items\50003-Cloak.xml del ..\game\data\stats\items\50003-Cloak.xml
 if exist ..\game\data\stats\items\50004-Other.xml del ..\game\data\stats\items\50004-Other.xml
 if exist ..\game\data\stats\npcs\50000-New.xml del ..\game\data\stats\npcs\50000-New.xml
+if exist ..\game\config\default-ipconfig.xml del ..\game\config\default-ipconfig.xml
 if exist ..\sql\L2JTW_2\item_tw.sql del ..\sql\L2JTW_2\item_tw.sql
 if exist ..\sql\L2JTW_2\npc_tw.sql del ..\sql\L2JTW_2\npc_tw.sql
 if exist ..\sql\L2JTW_2\skill_tw.sql del ..\sql\L2JTW_2\skill_tw.sql
@@ -63,9 +64,9 @@ FOR /F "skip=1 delims=*" %%b IN (..\game\cachedir\check_w_ver.txt) do set bbb=%%
 
 REM 比較 Windows 的 CMD 版本資訊
 if "%aaa%"=="%bbb%" goto _start_lib_check2
-echo 因為您的 Windows 版本有更新，所以必須刪除舊的 libs 和快取，以防止 GS 出錯
-echo.
-pause
+REM 修改為只刪除快取 echo 因為您的 Windows 版本有更新，所以必須刪除舊的 libs 快取，以防止 GS 出錯
+REM 修改為只刪除快取 echo.
+REM 修改為只刪除快取 pause
 goto _lib_del
 REM _lib_check1 的檢查 結束
 REM ------------------------------------------------------
@@ -95,9 +96,9 @@ FOR /F %%k IN (..\game\cachedir\check_j_ver.txt) do set kkk=%%k
 REM 比較 Java 版本資訊
 REM 暫停 _start_lib_check3 這個檢查 if "%jjj%"=="%kkk%" goto _start_lib_check3
 if "%jjj%"=="%kkk%" goto _lib_end
-echo 因為您的 Java 版本有更新，所以必須刪除舊的 libs 和快取，以防止 GS 出錯
-echo.
-pause
+REM 修改為只刪除快取 echo 因為您的 Java 版本有更新，所以必須刪除舊的 libs 快取，以防止 GS 出錯
+REM 修改為只刪除快取 echo.
+REM 修改為只刪除快取 pause
 goto _lib_del
 REM _lib_check2 的檢查 結束
 REM ------------------------------------------------------
@@ -122,9 +123,9 @@ FOR /F "tokens=2 delims=/" %%m IN (..\game\cachedir\check_d_ver.txt) do set mmm=
 
 REM 比較 日期-月份 資訊
 if "%ddd%"=="%mmm%" goto _lib_end
-echo 此為每個月自動清理舊的 libs 和快取，以防止 GS 出錯
-echo.
-pause
+REM 修改為只刪除快取 echo 此為每個月自動清理舊的 libs 和快取，以防止 GS 出錯
+REM 修改為只刪除快取 echo.
+REM 修改為只刪除快取 pause
 goto _lib_del
 REM _lib_check3 的檢查 結束
 REM ------------------------------------------------------
@@ -132,15 +133,15 @@ REM ------------------------------------------------------
 REM ------------------------------------------------------
 :_lib_del
 echo.
-if not exist ..\libs\backup\ md ..\libs\backup\
-copy ..\libs\*.* ..\libs\backup\ /Y > nul
-del ..\libs\*.* /F /Q > nul
+REM 修改為只刪除快取 if not exist ..\libs\backup\ md ..\libs\backup\
+REM 修改為只刪除快取 copy ..\libs\*.* ..\libs\backup\ /Y > nul
+REM 修改為只刪除快取 del ..\libs\*.* /F /Q > nul
 del ..\game\cachedir\packages\*.* /F /Q > nul
-if exist ..\libs\*.jar echo 無法刪除 libs 和快取！請先關閉伺服器或重新開機，然後再試一次
-if exist ..\libs\*.jar echo.
-if exist ..\libs\*.jar pause
-if exist ..\libs\*.jar exit
-if exist ..\game\cachedir\packages\*.pkc echo 無法刪除 libs 和快取！請先關閉伺服器或重新開機，然後再試一次
+REM 修改為只刪除快取 if exist ..\libs\*.jar echo 無法刪除 libs 和快取！請先關閉伺服器或重新開機，然後再試一次
+REM 修改為只刪除快取 if exist ..\libs\*.jar echo.
+REM 修改為只刪除快取 if exist ..\libs\*.jar pause
+REM 修改為只刪除快取 if exist ..\libs\*.jar exit
+if exist ..\game\cachedir\packages\*.pkc echo 無法刪除舊的 libs 快取！請先關閉伺服器或重新開機，然後再試一次
 if exist ..\game\cachedir\packages\*.pkc echo.
 if exist ..\game\cachedir\packages\*.pkc pause
 if exist ..\game\cachedir\packages\*.pkc exit
@@ -148,11 +149,11 @@ ver > ..\game\cachedir\check_w_ver.txt
 dir "%ProgramFiles%\Java\jdk1.8.*" /A:D /B /O > ..\game\cachedir\check_j_ver.txt
 date/t > ..\game\cachedir\check_d_ver.txt
 CLS
-echo 舊的 libs 和快取清理完畢！
-echo 您必須重新解壓縮「編譯完成」的 GS，才可以繼續安裝資料庫
-echo.
-pause
-exit
+REM 修改為只刪除快取 echo 舊的 libs 和快取清理完畢！
+REM 修改為只刪除快取 echo 您必須重新解壓縮「編譯完成」的 GS，才可以繼續安裝資料庫
+REM 修改為只刪除快取 echo.
+REM 修改為只刪除快取 pause
+REM 修改為只刪除快取 exit
 
 :_lib_update
 ver > ..\game\cachedir\check_w_ver.txt
