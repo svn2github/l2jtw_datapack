@@ -70,6 +70,50 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="2278" levels="3" name="Herb of Life">
+		<!-- Confirmed CT2.5 -->
+		<table name="#amount"> 15 25 100 </table>
+		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
+		<set name="hitTime" val="100" />
+		 -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="SELF" />
+		<set name="isRecoveryHerb" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
+		<for>
+			<effect name="HealPercent">
+				<param power="#amount" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2279" levels="3" name="Herb of Mana">
+		<!-- Confirmed CT2.5 -->
+		<table name="#amount"> 11 18 100 </table>
+		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
+		<set name="hitTime" val="100" />
+		 -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="SELF" />
+		<set name="isRecoveryHerb" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
+		<for>
+			<effect name="ManaHealPercent">
+				<param power="#amount" />
+			</effect>
+		</for>
+	</skill>
 	<skill id="2280" levels="1" name="Herb of Power">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalInstant" val="true" />
@@ -80,7 +124,9 @@
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
 		<set name="hitTime" val="100" />
+		 -->
 		<set name="icon" val="icon.etc_herb_red_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="40" />
@@ -106,7 +152,9 @@
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="MA_UP" />
 		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
 		<set name="hitTime" val="100" />
+		 -->
 		<set name="icon" val="icon.etc_herb_blue_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="52" />
@@ -132,7 +180,9 @@
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
 		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
 		<set name="hitTime" val="100" />
+		 -->
 		<set name="icon" val="BranchSys2.icon.etc_attack_sp_herb_i01" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="52" />
@@ -158,7 +208,9 @@
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CASTING_TIME_DOWN" />
 		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
 		<set name="hitTime" val="100" />
+		 -->
 		<set name="icon" val="icon.etc_magic_sp_herb_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="48" />
@@ -184,7 +236,9 @@
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CRITICAL_PROB_UP" />
 		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
 		<set name="hitTime" val="100" />
+		 -->
 		<set name="icon" val="icon.etc_critical_herb_i00" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="52" />
@@ -210,7 +264,9 @@
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="SPEED_UP" />
 		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
 		<set name="hitTime" val="100" />
+		 -->
 		<set name="icon" val="BranchSys2.icon.etc_move_herb_i01" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="30" />

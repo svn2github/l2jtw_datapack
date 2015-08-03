@@ -53,4 +53,28 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="2580" levels="1" name="Vitality Replenishing Herb">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="VP_UP" />
+		<set name="abnormalVisualEffect" val="VP_UP" />
+		<set name="effectPoint" val="100" />
+		<!-- 修正撿藥草再同時使用主動技能造成無法撿東西的Bug
+		<set name="hitTime" val="100" />
+		 -->
+		<set name="icon" val="icon.skilltransform4" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="2000" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
+		<for>
+			<effect name="Buff">
+				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
+			</effect>
+		</for>
+	</skill>
 </list>
